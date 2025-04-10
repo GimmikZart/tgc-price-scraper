@@ -1,0 +1,8 @@
+{
+    "services": {
+      "vector": {
+        "enabled": false
+      }
+    }
+  }
+  

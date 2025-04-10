@@ -18,13 +18,6 @@ const {data: products} = await useAsyncData('products', () =>
     </div>
     <div class="grid grid-cols-8 grid-rows-3 gap-4">
       <ProductCard
-        v-for="(product, idx) in filteredAndSortedProducts"
-        :key="idx"
-        :product="product"
-        :id="idx"
-        class="w-full"
-      />
-      <ProductCardSupa
         v-for="(product, idx) in products"
         :key="idx"
         :product="product"

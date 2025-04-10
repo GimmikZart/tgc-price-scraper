@@ -1,12 +1,12 @@
 <script setup>
 import { useProductManager } from '@/composables/useProductManager';
-import { useSupaProduct } from '@/composables/products';
+import { useGetProducts } from '@/composables/apiProducts';
 
 const rawProductList = await useProductList(); // Lista iniziale dei prodotti
 const { filteredAndSortedProducts, filter, sortByPrice } = useProductManager(rawProductList);
 
 const {data: products} = await useAsyncData('products', () =>
-  useSupaProduct()
+  useGetProducts()
 )
 
 </script>

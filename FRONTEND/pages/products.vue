@@ -2,6 +2,6 @@
 </script>
 <template>
 <div>
-    prodottiii
+    <v-btn rounded="0" size="x-large">Rounded 0</v-btn>
 </div>
 </template>

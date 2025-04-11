@@ -20,11 +20,14 @@ export async function useUpdateStores(formData, storeId) {
             name: formData.name,
             logo_url: formData.logoUrl,
             website: formData.website,
-            price_selector: formData.priceSelector,
-            image_selector: formData.imageSelector,
+            price_selector: formData.price_selector,
+            discount_selector: formData.discount_selector,
+            image_selector: formData.image_selector,
         })
         .eq('id', storeId)
-
+        .select('*')
+    console.log('data', data);
+    
     if (error) {
         console.error('Errore creazione store:', error.message)
         return { success: false, error }
@@ -44,6 +47,7 @@ export async function useCreateStores(formData) {
         logo_url: formData.logoUrl,
         website: formData.website,
         price_selector: formData.priceSelector,
+        discount_selector: formData.discountSelector,
         image_selector: formData.imageSelector,
         created_at: new Date().toISOString()
     });

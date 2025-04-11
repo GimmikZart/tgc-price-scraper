@@ -22,6 +22,10 @@ const props = defineProps({
         type: String,
         required: false
     },
+    discountSelector: {
+        type: String,
+        required: false
+    },
     imageSelector: {
         type: String,
         required: false
@@ -38,6 +42,7 @@ const formFields = reactive({
     logoUrl: props.logoUrl || '',
     website: props.website || '',
     price_selector: props.priceSelector || '',
+    discount_selector: props.discountSelector || '',
     image_selector: props.imageSelector || ''
 });
 
@@ -55,11 +60,11 @@ async function updateStore() {
     const {success, error} = await useUpdateStores(formFields, props.storeId);
     
     if (success) {
-        console.log('Store created successfully!');
+        console.log('Store updated successfully!');
     } else {
         console.error('Error creating store:', error);
     }
-    window.location.reload();
+    //window.location.reload();
 }
 </script>
 <template>
@@ -96,13 +101,19 @@ async function updateStore() {
                     clearable
                 ></v-text-field>
                 <v-text-field
-                    v-model="formFields.priceSelector"
+                    v-model="formFields.price_selector"
                     hide-details="auto"
                     label="Selettore Prezzo"
                     clearable
                 ></v-text-field>
                 <v-text-field
-                    v-model="formFields.imageSelector"
+                    v-model="formFields.discount_selector"
+                    hide-details="auto"
+                    label="Selettore Prezzo Scontato"
+                    clearable
+                ></v-text-field>
+                <v-text-field
+                    v-model="formFields.image_selector"
                     hide-details="auto"
                     label="Selettore Immagine"
                     clearable

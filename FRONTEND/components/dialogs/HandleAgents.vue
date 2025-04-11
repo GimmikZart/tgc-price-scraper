@@ -6,6 +6,7 @@ const props = defineProps({
   selectStores: Array,
   selectLangs: Array,
   selectSets: Array,
+  selectCurrency: Array
 })
 const emit = defineEmits(['update:modelValue'])
 
@@ -14,21 +15,18 @@ const formFields = reactive({
   game: '',
   set: '',
   lang: '',
+  currency: '',
   url: ''
 })
-
+ 
 watch(() => props.agentToEdit, (newVal) => {
   if (newVal) {
     formFields.store = props.selectStores.find(s => s.id === newVal.store)
     formFields.game = newVal.game
+    formFields.set =  props.selectSets.find(s => s.id === newVal.set.id)
     formFields.lang = props.selectLangs.find(l => l.id === newVal.lang)
+    formFields.currency = props.selectCurrency.find(c => c.id === newVal.currency)
     formFields.url = newVal.url
-
-    // ⚠️ delay set assignment after game is assigned
-    nextTick(() => {
-      const correctSet = props.selectSets.find(s => s.id === newVal.set.id)
-      formFields.set = correctSet?.id || null
-    })
   } else {
     resetForm()
   }
@@ -52,9 +50,10 @@ watch(() => formFields.game, (newGameId) => {
 
 function resetForm() {
   formFields.store = null
-  formFields.game = ''
-  formFields.set = ''
+  formFields.game = null
+  formFields.set = null
   formFields.lang = null
+  formFields.currency = null
   formFields.url = ''
 }
 
@@ -85,6 +84,7 @@ async function createAgent() {
         <v-select label="Gioco" v-model="formFields.game" :items="selectGames" item-title="name" item-value="id"/>
         <v-select label="Set" v-model="formFields.set" :items="filteredSets" item-title="name" item-value="id" />
         <v-select label="Lingua" v-model="formFields.lang" :items="selectLangs" item-title="name" item-value="id" />
+        <v-select label="Valuta" v-model="formFields.currency" :items="selectCurrency" item-title="code" item-value="id" />
         <v-text-field v-model="formFields.url" label="Link Prodotto" clearable />
       </v-card-text>
 

@@ -6,6 +6,7 @@ export async function useGetProducts(){
         url,
         image_url,
         price,
+        discount_price,
         store:stores (
             id,
             name,
@@ -41,7 +42,7 @@ export async function useGetProducts(){
 }
 
 export async function useCreateProduct(formData) {
-    console.log('CREAAAAA');
+    console.log('CREAAAAA', {formData});
     
     const client = useSupabaseClient()
 
@@ -57,8 +58,9 @@ export async function useCreateProduct(formData) {
         set: formData.set,
         lang: formData.lang,
         url: formData.url,
-        currency: 1, // assumiamo EUR per ora
+        currency: formData.currency,
         price: scrapedData.info.price,
+        discount_price: scrapedData.info.discount_price ?? null,
         image_url: scrapedData.info.image,
     }])
 
@@ -72,12 +74,12 @@ export async function useCreateProduct(formData) {
 
 export async function useUpdateProduct(formData, id) {
     const client = useSupabaseClient()
-
+    console.log('UPDATE', formData);
+    
     // Facciamo lo scraping solo se serve (es. url cambiato), oppure sempre se preferisci
     const scrapedData = await useScraper(formData)
 
     console.log('scrapedData', scrapedData);
-    console.log('formData', formData, id);
     console.log({
         store: formData.store.id,
         set: formData.set,
@@ -85,8 +87,9 @@ export async function useUpdateProduct(formData, id) {
         url: formData.url,
         currency: 1,
         price: scrapedData.info.price,
+        discount_price: scrapedData.info.discount_price ?? null,
         image_url: scrapedData.info.image
-      });
+    });
     
     const { data, error } = await client
       .from('products')
@@ -97,6 +100,7 @@ export async function useUpdateProduct(formData, id) {
         url: formData.url,
         currency: 1,
         price: scrapedData.info.price,
+        discount_price: scrapedData.info.discount_price ?? null,
         image_url: scrapedData.info.image
       })
       .eq('id', id)

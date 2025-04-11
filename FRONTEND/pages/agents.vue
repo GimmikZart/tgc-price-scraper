@@ -1,4 +1,3 @@
-// --- Parent Component: agents.vue ---
 <script setup>
 const openDialog = ref(false);
 const editableAgent = ref(null);
@@ -8,11 +7,7 @@ const { data: storesList } = await useAsyncData('stores', useGetStores);
 const { data: langList } = await useAsyncData('langs', useGetLanguages);
 const { data: setsList } = await useAsyncData('sets', useGetSets);
 const { data: gamesList } = await useAsyncData('games', useGetGames);
-
-const storeToSelect = computed(() => storesList.value.map(store => ({ id: store.id, name: store.name })));
-const langToSelect = computed(() => langList.value.map(lang => ({ id: lang.id, name: lang.name })));
-const setsToSelect = computed(() => setsList.value.map(set => ({ id: set.id, name: set.name, game: set.game.id })));
-const gamesToSelect = computed(() => gamesList.value.map(game => ({ id: game.id, name: game.name })));
+const { data: currencyList } = await useAsyncData('currency', useGetCurrencies);
 
 function editProduct(product) {
   editableAgent.value = {
@@ -21,6 +16,7 @@ function editProduct(product) {
     game: product.set.game.id,
     set: product.set.id,
     lang: product.lang.id,
+    currency: product.currency.id,
     url: product.url
   };
   openDialog.value = true;
@@ -43,6 +39,7 @@ function createNewAgent() {
       :select-stores="storesList"
       :select-sets="setsList"
       :select-langs="langList"
+      :select-currency="currencyList"
     />
 
     <div class="grid grid-cols-8 grid-rows-3 gap-4">

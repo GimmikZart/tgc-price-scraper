@@ -15,6 +15,7 @@ useGetStores()
                 :logoUrl="store.logo_url"
                 :website="store.website"
                 :priceSelector="store.price_selector"
+                :discountSelector="store.discount_selector"
                 :imageSelector="store.image_selector"
             />
         </div>

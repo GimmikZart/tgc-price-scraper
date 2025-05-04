@@ -38,8 +38,8 @@ function startEdit() {
       </h4>
       <div class="ml-auto mt-4 text-lg flex justify-end gap-2">
         <span>💸 Prezzo:</span>
-        <span :class="product.discount_price ? 'line-through text-gray-500' : 'font-bold'">{{ product.price }}</span>
-        <span v-if="product.discount_price" class="font-bold">{{ product.discount_price }}</span>
+        <span v-if="product.discount_price" :class="product.discount_price ? 'line-through text-gray-500' : 'font-bold'">{{ product.discount_price }}</span>
+        <span class="font-bold">{{ product.price }}</span>
         <span> {{ product?.currency?.code }}</span>
       </div>
     </div>

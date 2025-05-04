@@ -1,7 +1,7 @@
 export async function useScraper(product) {
     try {
         console.log('useScraper', {product});
-        
+        debugger;
         const result = await $fetch('/api/scrape', {
             method: 'POST',
             body: { url: product.url , price: product.store.price_selector, discount: product.store.discount_selector, image: product.store.image_selector }

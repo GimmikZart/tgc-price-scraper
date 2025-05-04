@@ -16,11 +16,15 @@ const props = defineProps({
     type: String,
     required: true
   },
-  priceSelector: {
+  regularPriceSelector: {
     type: String,
     required: true
   },
-  discountSelector: {
+  originalPriceSelector: {
+    type: String,
+    required: true
+  },
+  discountedPriceSelector: {
     type: String,
     required: true
   },
@@ -49,7 +53,9 @@ const props = defineProps({
     </v-card-subtitle>
     <v-card-text>
       <div class="flex flex-col gap-2">
-        <p>Price Selector: {{priceSelector}}</p>
+        <p>Regular Price Selector: {{regularPriceSelector}}</p>
+        <p>Original Price Selector: {{ originalPriceSelector }}</p>
+        <p>Discounted Price Selector: {{ discountedPriceSelector }}</p>
         <p>Image Selector: {{imageSelector}}</p>
       </div>
     </v-card-text>
@@ -61,8 +67,9 @@ const props = defineProps({
         :name="name" 
         :logoUrl="logoUrl" 
         :website="website" 
-        :price-selector="priceSelector"
-        :discount-selector="discountSelector"
+        :regular-price-selector="regularPriceSelector"
+        :original-price-selector="originalPriceSelector"
+        :discounted-price-selector="discountedPriceSelector"
         :image-selector="imageSelector"
       />
     </v-card-actions>

@@ -1,12 +1,11 @@
 export async function useScraper(product) {
     try {
-        console.log('useScraper', {product});
-        debugger;
+        console.log('useScraper BEFORE', {product});
         const result = await $fetch('/api/scrape', {
             method: 'POST',
-            body: { url: product.url , price: product.store.price_selector, discount: product.store.discount_selector, image: product.store.image_selector }
+            body: { url: product.url , regular_price: product.store.regular_price_selector, original_price: product.store.original_price_selector, discounted_price:product.store.discounted_price_selector, image: product.store.image_selector }
         })
-        console.log('useScraper',{result});
+        console.log('useScraper AFTER',{result});
         if(result.error) throw new Error(result.error)
         
         

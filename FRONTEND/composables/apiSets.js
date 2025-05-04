@@ -2,12 +2,14 @@ export async function useGetSets() {
   const client = useSupabaseClient()
   const { data, error } = await client.from('sets').select(`
     *,
-    game:games ( id, name, code )
-  `)
+    game( id, name, code )
+  `).order('publish_date', { ascending: true })
   if (error) {
     console.error('Supabase error:', error)
     return []
   }
+  console.log('Sets data:', data);
+  
   return data
 }
 

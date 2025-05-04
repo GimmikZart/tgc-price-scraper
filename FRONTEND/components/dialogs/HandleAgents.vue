@@ -6,7 +6,8 @@ const props = defineProps({
   selectStores: Array,
   selectLangs: Array,
   selectSets: Array,
-  selectCurrency: Array
+  selectCurrency: Array,
+  selectCategories: Array,
 })
 const emit = defineEmits(['update:modelValue'])
 
@@ -16,16 +17,24 @@ const formFields = reactive({
   set: '',
   lang: '',
   currency: '',
+  category: '',
   url: ''
 })
+
+const filteredSets = computed(() => {
+  if (!formFields.game) return [];
+  return props.selectSets.filter(set => set.game.id === formFields.game);
+});
  
 watch(() => props.agentToEdit, (newVal) => {
   if (newVal) {
+    console.log('Editing agent:', newVal)
     formFields.store = props.selectStores.find(s => s.id === newVal.store)
     formFields.game = newVal.game
-    formFields.set =  props.selectSets.find(s => s.id === newVal.set.id)
+    formFields.set = props.selectSets.find(s => s.id === newVal.set)
     formFields.lang = props.selectLangs.find(l => l.id === newVal.lang)
     formFields.currency = props.selectCurrency.find(c => c.id === newVal.currency)
+    formFields.category = props.selectCategories.find(c => c.id === newVal.category?.id)
     formFields.url = newVal.url
   } else {
     resetForm()
@@ -34,15 +43,13 @@ watch(() => props.agentToEdit, (newVal) => {
 
 const dialogTitle = computed(() => props.agentToEdit ? 'Modifica Agente' : 'Crea Agente')
 
-const filteredSets = computed(() => {
-  if (!formFields.game) return [];
-  return props.selectSets.filter(set => set.game.id === formFields.game);
-});
-
 watch(() => formFields.game, (newGameId) => {
   const setIsUnderGameSelected = props.selectSets.some(
-    set => set.id === formFields.set && set.game === newGameId
+    set => {
+      return set.id === formFields?.set?.id && set?.game?.id === newGameId
+    }
   )
+  
   if (!setIsUnderGameSelected) {
     formFields.set = null
   }
@@ -51,6 +58,7 @@ watch(() => formFields.game, (newGameId) => {
 function resetForm() {
   formFields.store = null
   formFields.game = null
+  formFields.category = null
   formFields.set = null
   formFields.lang = null
   formFields.currency = null
@@ -82,6 +90,7 @@ async function createAgent() {
       <v-card-text class="flex flex-col gap-2">
         <v-select label="Negozio" v-model="formFields.store" :items="selectStores" item-title="name" return-object  />
         <v-select label="Gioco" v-model="formFields.game" :items="selectGames" item-title="name" item-value="id"/>
+        <v-select label="Categoria" v-model="formFields.category" :items="selectCategories" item-title="name" item-value="id" />
         <v-select label="Set" v-model="formFields.set" :items="filteredSets" item-title="name" item-value="id" />
         <v-select label="Lingua" v-model="formFields.lang" :items="selectLangs" item-title="name" item-value="id" />
         <v-select label="Valuta" v-model="formFields.currency" :items="selectCurrency" item-title="code" item-value="id" />

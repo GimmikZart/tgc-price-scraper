@@ -27,7 +27,7 @@ export async function useGetGame(slug) {
 
 export async function useCreateGame(formData) {
   const client = useSupabaseClient()
-  const { error } = await client.from('games').insert([formData])
+  const { data, error } = await client.from('games').insert([formData])
   if (error) {
     console.error('Errore Supabase:', error)
     return { success: false, error }

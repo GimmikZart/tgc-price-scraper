@@ -8,6 +8,7 @@ const { data: langList } = await useAsyncData('langs', useGetLanguages);
 const { data: setsList } = await useAsyncData('sets', useGetSets);
 const { data: gamesList } = await useAsyncData('games', useGetGames);
 const { data: currencyList } = await useAsyncData('currency', useGetCurrencies);
+const { data: categoriesList } = await useAsyncData('categories', useGetCategories);
 
 function editProduct(product) {
   editableAgent.value = {
@@ -16,6 +17,7 @@ function editProduct(product) {
     game: product.set.game.id,
     set: product.set.id,
     lang: product.lang.id,
+    category: product.category,
     currency: product.currency.id,
     url: product.url
   };
@@ -40,6 +42,7 @@ function createNewAgent() {
       :select-sets="setsList"
       :select-langs="langList"
       :select-currency="currencyList"
+      :select-categories="categoriesList"
     />
 
     <div class="grid grid-cols-8 grid-rows-3 gap-4">

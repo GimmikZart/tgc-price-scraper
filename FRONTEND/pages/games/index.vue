@@ -5,7 +5,7 @@ const {data: games} = await useAsyncData('GAMES', () =>
 </script>
 <template>
 <div>
-    <v-btn color="primary" class="mb-4" @click="createNewAgent">Nuovo Gioco</v-btn>
+    <DialogsHandleGame />
     <div class="grid grid-cols-4 gap-10 ">
         <GameCard
             v-for="(game, idx) in games"

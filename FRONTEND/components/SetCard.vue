@@ -29,6 +29,12 @@ const props = defineProps({
     required: true
   },
 })
+
+const isNotReleased = computed(() => {
+  const today = new Date();
+  const publishDate = new Date(props.publishDate);
+  return publishDate > today;
+});
 </script>
 <template>
   <v-card>
@@ -48,6 +54,7 @@ const props = defineProps({
     <v-card-subtitle>
       Published: {{publishDate}}
     </v-card-subtitle>
+    <v-chip v-if="isNotReleased" color="red">Non Rilasciato</v-chip>
     <v-card-actions>
       <v-spacer></v-spacer>
       <DialogsHandleSet 

@@ -20,8 +20,9 @@ export async function useUpdateStores(formData, storeId) {
             name: formData.name,
             logo_url: formData.logoUrl,
             website: formData.website,
-            price_selector: formData.price_selector,
-            discount_selector: formData.discount_selector,
+            regular_price_selector: formData.regular_price_selector,
+            original_price_selector: formData.original_price_selector,
+            discounted_price_selector: formData.discounted_price_selector,
             image_selector: formData.image_selector,
         })
         .eq('id', storeId)
@@ -46,8 +47,9 @@ export async function useCreateStores(formData) {
         name: formData.name,
         logo_url: formData.logoUrl,
         website: formData.website,
-        price_selector: formData.priceSelector,
-        discount_selector: formData.discountSelector,
+        regular_price_selector: formData.regular_price_selector,
+        original_price_selector: formData.original_price_selector,
+        discounted_price_selector: formData.discounted_price_selector,
         image_selector: formData.imageSelector,
         created_at: new Date().toISOString()
     });

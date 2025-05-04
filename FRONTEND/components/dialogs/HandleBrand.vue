@@ -2,23 +2,11 @@
 import { reactive, toRefs } from 'vue';
 
 const props = defineProps({
-    gameId: {
+    brandId: {
         type: Number,
         required: false
     },
     name: {
-        type: String,
-        required: false
-    },
-    code: {
-        type: String,
-        required: false
-    },
-    brand: {
-        type: Number,
-        required: false
-    },
-    slug: {
         type: String,
         required: false
     },
@@ -33,42 +21,38 @@ const props = defineProps({
 });
 
 const dialogTitle = computed(() => {
-    return props.gameId ? 'Modifica Gioco' : 'Crea Gioco';
+    return props.brandId ? 'Modifica Brand' : 'Crea Brand';
 });
-
-const { data: brands } = await useAsyncData('brands', () => useGetBrands());
 
 // Reactive object for form fields
 const formFields = reactive({
     name: props.name || '',
     logo_url: props.logoUrl || '',
     website: props.website || '',
-    code: props.code || '',
-    slug: props.slug || '',
-    brand: props.brand || null,
 });
 
-async function createGame() {
-    const {success, error} = await useCreateGame(formFields);
+async function createBrand() {
+    const {success, error} = await useCreateBrand(formFields);
     if (success) {
-        console.log('Game created successfully!');
+        console.log('Brand created successfully!');
     } else {
-        console.error('Error creating game:', error);
+        console.error('Error creating brand:', error);
     }
     window.location.reload();
 }
 
-async function updateGame() {
-    const {success, error} = await useUpdateGame(props.gameId, formFields);
+async function updateBrand() {
+    const {success, error} = await useUpdateBrand(props.brandId, formFields);
     
     if (success) {
-        console.log('Game updated successfully!');
+        console.log('Brand updated successfully!');
     } else {
-        console.error('Error updating game:', error);
+        console.error('Error updating brand:', error);
     }
     //window.location.reload();
 }
 </script>
+
 <template>
     <v-dialog max-width="1000">
         <template v-slot:activator="{ props: activatorProps }">
@@ -88,26 +72,6 @@ async function updateGame() {
                     v-model="formFields.name"
                     hide-details="auto"
                     label="Nome"
-                    clearable
-                ></v-text-field>
-                <v-select 
-                    v-model="formFields.brand" 
-                    :items="brands" 
-                    label="Brand"
-                    item-value="id" 
-                    item-title="name"
-                    hide-details
-                ></v-select>
-                <v-text-field
-                    v-model="formFields.slug"
-                    hide-details="auto"
-                    label="Slug"
-                    clearable
-                ></v-text-field>
-                <v-text-field
-                    v-model="formFields.code"
-                    hide-details="auto"
-                    label="Codice"
                     clearable
                 ></v-text-field>
                 <v-text-field
@@ -131,8 +95,8 @@ async function updateGame() {
                     text="Close Dialog"
                     @click="isActive.value = false"
                 ></v-btn>
-                <v-btn v-if="gameId" text="Aggiorna Gioco" @click="updateGame()"></v-btn>
-                <v-btn v-else text="Crea Gioco" @click="createGame()"></v-btn>
+                <v-btn v-if="brandId" text="Aggiorna Brand" @click="updateBrand()"></v-btn>
+                <v-btn v-else text="Crea Brand" @click="createBrand()"></v-btn>
             </v-card-actions>
             </v-card>
         </template>

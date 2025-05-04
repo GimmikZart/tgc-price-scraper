@@ -30,17 +30,20 @@ function startEdit() {
       >
         {{ product?.store?.name }}
       </NuxtLink>
+      <v-chip v-if="product?.category">{{ product?.category?.name }}</v-chip>
       <h4 class="text-xl">
         {{ product?.set?.game?.name }}
       </h4>
       <h4 class="text-lg">
         {{ product?.set?.code }} ({{ product?.lang?.code }})
       </h4>
-      <div class="ml-auto mt-4 text-lg flex justify-end gap-2">
-        <span>💸 Prezzo:</span>
-        <span v-if="product.discount_price" :class="product.discount_price ? 'line-through text-gray-500' : 'font-bold'">{{ product.discount_price }}</span>
-        <span class="font-bold">{{ product.price }}</span>
-        <span> {{ product?.currency?.code }}</span>
+      <div class="ml-auto mt-4 text-lg flex justify-end">
+        <span class="mr-3">💸 Prezzo:</span>
+        <div v-if="product.original_price && product.discounted_price">
+          <span class="text-gray-500 font-bold line-through mr-1">{{ product.original_price }} </span>
+          <span class="text-red-500 font-bold">{{ product.discounted_price }}{{ product?.currency?.code }}</span>
+        </div>
+        <span v-else class="font-bold">{{ product.regular_price}} {{ product?.currency?.code }}</span>
       </div>
     </div>
     

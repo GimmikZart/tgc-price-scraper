@@ -5,8 +5,10 @@ export async function useGetProducts(){
         id,
         url,
         image_url,
-        price,
-        discount_price,
+        regular_price,
+        original_price,
+        category(*),
+        discounted_price,
         store:stores (
             id,
             name,
@@ -59,8 +61,9 @@ export async function useCreateProduct(formData) {
         lang: formData.lang,
         url: formData.url,
         currency: formData.currency,
-        price: scrapedData.info.price,
-        discount_price: scrapedData.info.discount_price ?? null,
+        regular_price: scrapedData.info.price ?? null,
+        original_price: scrapedData.info.original_price ?? null,
+        discounted_price: scrapedData.info.discount_price ?? null,
         image_url: scrapedData.info.image,
     }])
 
@@ -82,12 +85,14 @@ export async function useUpdateProduct(formData, id) {
     console.log('scrapedData', scrapedData);
     console.log({
         store: formData.store.id,
-        set: formData.set,
+        set: formData.set.id,
         lang: formData.lang.id,
         url: formData.url,
         currency: 1,
-        price: scrapedData.info.price,
-        discount_price: scrapedData.info.discount_price ?? null,
+        category: formData.category,
+        regular_price: scrapedData.info.regularPrice,
+        original_price: scrapedData.info.originalPrice ?? null,
+        discounted_price: scrapedData.info.discountedPrice ?? null,
         image_url: scrapedData.info.image
     });
     
@@ -95,12 +100,14 @@ export async function useUpdateProduct(formData, id) {
       .from('products')
       .update({
         store: formData.store.id,
-        set: formData.set,
+        set: formData.set.id,
         lang: formData.lang.id,
         url: formData.url,
         currency: 1,
-        price: scrapedData.info.price,
-        discount_price: scrapedData.info.discount_price ?? null,
+        category: formData.category,
+        regular_price: parsePrice(scrapedData.info.regularPrice),
+        original_price: parsePrice(scrapedData.info.originalPrice) ?? null,
+        discounted_price: parsePrice(scrapedData.info.discountedPrice) ?? null,
         image_url: scrapedData.info.image
       })
       .eq('id', id)
@@ -111,6 +118,24 @@ export async function useUpdateProduct(formData, id) {
     }
   
     return { success: true, data }
-  }
+}
+
+function parsePrice(priceString) {
+    console.log('LOOOOOOOOOOOOOOOOOOOOOOOOOOOL');
+    
+    if (!priceString) return null;
+    let cleaned = priceString.replace(/[^\d,\.]/g, '').trim();
+    if (cleaned.includes(',')) {
+        if (cleaned.includes('.')) {
+            cleaned = cleaned.replace(/\./g, '');
+        }
+        cleaned = cleaned.replace(',', '.');
+    }
+    let number = parseFloat(cleaned);
+    if (isNaN(number)) return 0.00;
+    console.log('Parsed price:', number.toFixed(2));
+    
+    return number.toFixed(2);
+}
   
 

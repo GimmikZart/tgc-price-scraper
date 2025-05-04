@@ -18,11 +18,15 @@ const props = defineProps({
         type: String,
         required: false
     },
-    priceSelector: {
+    regularPriceSelector: {
         type: String,
         required: false
     },
-    discountSelector: {
+    originalPriceSelector: {
+        type: String,
+        required: false
+    },
+    discountedPriceSelector: {
         type: String,
         required: false
     },
@@ -41,8 +45,9 @@ const formFields = reactive({
     name: props.name || '',
     logoUrl: props.logoUrl || '',
     website: props.website || '',
-    price_selector: props.priceSelector || '',
-    discount_selector: props.discountSelector || '',
+    regular_price_selector: props.priceSelector || '',
+    original_price_selector: props.originalPriceSelector || '',
+    discounted_price_selector: props.discountedPriceSelector || '',
     image_selector: props.imageSelector || ''
 });
 
@@ -53,7 +58,6 @@ async function createStore() {
     } else {
         console.error('Error creating store:', error);
     }
-    window.location.reload();
 }
 
 async function updateStore() {
@@ -64,7 +68,6 @@ async function updateStore() {
     } else {
         console.error('Error creating store:', error);
     }
-    //window.location.reload();
 }
 </script>
 <template>
@@ -101,15 +104,21 @@ async function updateStore() {
                     clearable
                 ></v-text-field>
                 <v-text-field
-                    v-model="formFields.price_selector"
+                    v-model="formFields.regular_price_selector"
                     hide-details="auto"
-                    label="Selettore Prezzo"
+                    label="Selettore Prezzo Regolare"
                     clearable
                 ></v-text-field>
                 <v-text-field
-                    v-model="formFields.discount_selector"
+                    v-model="formFields.original_price_selector"
                     hide-details="auto"
-                    label="Selettore Prezzo Scontato"
+                    label="Selettore Prezzo Originale quando scontato"
+                    clearable
+                ></v-text-field>
+                <v-text-field
+                    v-model="formFields.discounted_price_selector"
+                    hide-details="auto"
+                    label="Selettore Prezzo con sconto applicato"
                     clearable
                 ></v-text-field>
                 <v-text-field

@@ -6,6 +6,10 @@ const slug = route.params.slug
 const {data: game} = await useAsyncData('GAME', () =>
     useGetGame(slug)
 )
+
+const orderedSets = computed(() => game.value.sets.sort((a, b) => {
+  return new Date(b.publish_date) - new Date(a.publish_date)
+}))
 </script>
 <template>
     <div>
@@ -18,14 +22,14 @@ const {data: game} = await useAsyncData('GAME', () =>
                 <h2 class="text-2xl">Code: {{ game.code }}</h2>
                 <p class="text-2xl">Website: <a :href="game.website" target="_blank">{{ game.website }}</a></p>
                 <p class="text-2xl">Slug: {{ game.slug }}</p>
-                <DialogsHandleGame :game-id="game.id" :name="game.name" :slug="game.slug" :logo-url="game.logo_url" :website="game.website" :code="game.code"/>
+                <DialogsHandleGame :game-id="game.id" :name="game.name" :brand="game.brand.id" :slug="game.slug" :logo-url="game.logo_url" :website="game.website" :code="game.code"/>
             </div>
         </div>
         <h1 class="text-5xl font-bold">SETS</h1>
         <DialogsHandleSet :game-id="game.id"/>
         <div class="grid grid-cols-6 gap-10 ">
             <SetCard
-                v-for="(set, idx) in game.sets"
+                v-for="(set, idx) in orderedSets"
                 :key="idx"
                 :id="set.id"
                 :name="set.name"

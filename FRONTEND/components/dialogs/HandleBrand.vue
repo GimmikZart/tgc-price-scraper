@@ -22,6 +22,8 @@ const props = defineProps({
 
 const emit = defineEmits(['refresh-data'])
 
+const isLoading = ref(false);
+
 const dialogTitle = computed(() => {
     return props.brandId ? 'Modifica Brand' : 'Crea Brand';
 });
@@ -34,6 +36,7 @@ const formFields = reactive({
 });
 
 async function createBrand() {
+    isLoading.value = true;
     const {success, error} = await useCreateBrand(formFields);
     if (success) {
         console.log('Brand created successfully!');
@@ -41,9 +44,10 @@ async function createBrand() {
     } else {
         console.error('Error creating brand:', error);
     }
-}
+    isLoading.value = false;}
 
 async function updateBrand() {
+    isLoading.value = true;
     const {success, error} = await useUpdateBrand(props.brandId, formFields);
     
     if (success) {
@@ -52,6 +56,7 @@ async function updateBrand() {
     } else {
         console.error('Error updating brand:', error);
     }
+    isLoading.value = false;
 }
 </script>
 
@@ -94,11 +99,12 @@ async function updateBrand() {
                 <v-spacer></v-spacer>
 
                 <v-btn
-                    text="Close Dialog"
+                    :disabled="isLoading"
+                    text="Chiudi"
                     @click="isActive.value = false"
                 ></v-btn>
-                <v-btn v-if="brandId" text="Aggiorna Brand" @click="updateBrand()"></v-btn>
-                <v-btn v-else text="Crea Brand" @click="createBrand()"></v-btn>
+                <v-btn v-if="brandId" :loading="isLoading" text="Aggiorna Brand" @click="updateBrand()"></v-btn>
+                <v-btn v-else :loading="isLoading" text="Crea Brand" @click="createBrand()"></v-btn>
             </v-card-actions>
             </v-card>
         </template>

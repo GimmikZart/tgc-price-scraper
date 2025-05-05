@@ -30,6 +30,8 @@ const props = defineProps({
 
 const emit = defineEmits(['refresh-data'])
 
+const isLoading = ref(false);
+
 const dialogTitle = computed(() => {
     return props.setId ? `Modifica Set` : `Crea Set`;
 });
@@ -44,6 +46,7 @@ const formFields = reactive({
 });
 
 async function createSet() {
+    isLoading.value = true;
     const {success, error} = await useCreateSet(formFields);
     if (success) {
         console.log('Set created successfully!');
@@ -51,9 +54,11 @@ async function createSet() {
     } else {
         console.error('Error creating set:', error);
     }
+    isLoading.value = false;
 }
 
 async function updateSet() {
+    isLoading.value = true;
     const {success, error} = await useUpdateSet(props.setId, formFields);
     
     if (success) {
@@ -62,6 +67,7 @@ async function updateSet() {
     } else {
         console.error('Error updating set:', error);
     }
+    isLoading.value = false;
 }
 </script>
 <template>
@@ -119,11 +125,12 @@ async function updateSet() {
             <v-card-actions>
                 <v-spacer></v-spacer>
                 <v-btn
-                    text="Close Dialog"
+                    :disabled="isLoading"
+                    text="Chiudi"
                     @click="isActive.value = false"
                 ></v-btn>
-                <v-btn v-if="setId" text="Aggiorna Set" @click="updateSet()"></v-btn>
-                <v-btn v-else text="Crea Set" @click="createSet()"></v-btn>
+                <v-btn v-if="setId" :loading="isLoading" text="Aggiorna Set" @click="updateSet()"></v-btn>
+                <v-btn v-else :loading="isLoading" text="Crea Set" @click="createSet()"></v-btn>
             </v-card-actions>
             </v-card>
         </template>

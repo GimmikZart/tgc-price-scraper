@@ -38,6 +38,8 @@ const props = defineProps({
 
 const emit = defineEmits(['refresh-data'])
 
+const isLoading = ref(false);
+
 const dialogTitle = computed(() => {
     return props.storeId ? 'Modifica Negozio' : 'Crea Negozio';
 });
@@ -54,6 +56,7 @@ const formFields = reactive({
 });
 
 async function createStore() {
+    isLoading.value = true;
     const {success, error} = await useCreateStores(formFields);
     if (success) {
         console.log('Store created successfully!');
@@ -61,9 +64,11 @@ async function createStore() {
     } else {
         console.error('Error creating store:', error);
     }
+    isLoading.value = false;
 }
 
 async function updateStore() {
+    isLoading.value = true;
     const {success, error} = await useUpdateStores(formFields, props.storeId);
     if (success) {
         console.log('Store updated successfully!');
@@ -71,6 +76,7 @@ async function updateStore() {
     } else {
         console.error('Error creating store:', error);
     }
+    isLoading.value = false;
 }
 </script>
 <template>
@@ -139,8 +145,8 @@ async function updateStore() {
                     text="Close Dialog"
                     @click="isActive.value = false"
                 ></v-btn>
-                <v-btn v-if="storeId" text="Aggiorna Store" @click="updateStore()"></v-btn>
-                <v-btn v-else text="Crea Store" @click="createStore()"></v-btn>
+                <v-btn v-if="storeId" :loading="isLoading" text="Aggiorna Store" @click="updateStore()"></v-btn>
+                <v-btn v-else :loading="isLoading" text="Crea Store" @click="createStore()"></v-btn>
             </v-card-actions>
             </v-card>
         </template>

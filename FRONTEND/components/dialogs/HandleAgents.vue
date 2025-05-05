@@ -11,6 +11,8 @@ const props = defineProps({
 })
 const emit = defineEmits(['update:modelValue', 'refresh-data'])
 
+const isLoading = ref(false);
+
 const formFields = reactive({
   store: '',
   game: '',
@@ -69,15 +71,19 @@ function closeDialog() {
 }
 
 async function updateAgent() {
+  isLoading.value = true
   await useUpdateProduct(formFields, props.agentToEdit.id)
   closeDialog()
   emit('refresh-data')
+  isLoading.value = false
 }
 
 async function createAgent() {
+  isLoading.value = true
   await useCreateProduct(formFields)
   closeDialog()
   emit('refresh-data')
+  isLoading.value = false
 }
 </script>
 
@@ -96,9 +102,9 @@ async function createAgent() {
 
       <v-card-actions>
         <v-spacer />
-        <v-btn text="Chiudi" @click="closeDialog" />
-        <v-btn v-if="props.agentToEdit" text="Aggiorna Agente" @click="updateAgent" />
-        <v-btn v-else text="Crea Agente" @click="createAgent" />
+        <v-btn :disabled="isLoading" text="Chiudi" @click="closeDialog" />
+        <v-btn v-if="props.agentToEdit" :loading="isLoading" text="Aggiorna Agente" @click="updateAgent" />
+        <v-btn v-else :loading="isLoading" text="Crea Agente" @click="createAgent" />
       </v-card-actions>
     </v-card>
   </v-dialog>

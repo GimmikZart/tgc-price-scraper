@@ -34,6 +34,8 @@ const props = defineProps({
 
 const emit = defineEmits(['refresh-data'])
 
+const isLoading = ref(false);
+
 const dialogTitle = computed(() => {
     return props.gameId ? 'Modifica Gioco' : 'Crea Gioco';
 });
@@ -51,6 +53,7 @@ const formFields = reactive({
 });
 
 async function createGame() {
+    isLoading.value = true;
     const {success, error} = await useCreateGame(formFields);
     if (success) {
         console.log('Game created successfully!');
@@ -58,9 +61,11 @@ async function createGame() {
     } else {
         console.error('Error creating game:', error);
     }
+    isLoading.value = false;
 }
 
 async function updateGame() {
+    isLoading.value = true;
     const {success, error} = await useUpdateGame(props.gameId, formFields);
     
     if (success) {
@@ -69,6 +74,7 @@ async function updateGame() {
     } else {
         console.error('Error updating game:', error);
     }
+    isLoading.value = false;
 }
 </script>
 <template>
@@ -130,11 +136,12 @@ async function updateGame() {
                 <v-spacer></v-spacer>
 
                 <v-btn
-                    text="Close Dialog"
+                    :disabled="isLoading"
+                    text="Chiudi"
                     @click="isActive.value = false"
                 ></v-btn>
-                <v-btn v-if="gameId" text="Aggiorna Gioco" @click="updateGame()"></v-btn>
-                <v-btn v-else text="Crea Gioco" @click="createGame()"></v-btn>
+                <v-btn v-if="gameId" :loading="isLoading" text="Aggiorna Gioco" @click="updateGame()"></v-btn>
+                <v-btn v-else :loading="isLoading" text="Crea Gioco" @click="createGame()"></v-btn>
             </v-card-actions>
             </v-card>
         </template>

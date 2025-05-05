@@ -12,7 +12,6 @@ export async function useGetStores(){
 }
 
 export async function useUpdateStores(formData, storeId) {
-    console.log('UPDAAATE', storeId, formData)
     const client = useSupabaseClient();
 
     const { data, error } = await client.from('stores')
@@ -27,7 +26,6 @@ export async function useUpdateStores(formData, storeId) {
         })
         .eq('id', storeId)
         .select('*')
-    console.log('data', data);
     
     if (error) {
         console.error('Errore creazione store:', error.message)
@@ -39,8 +37,6 @@ export async function useUpdateStores(formData, storeId) {
 
 
 export async function useCreateStores(formData) {
-    console.log('CREATE', formData);
-    
     const client = useSupabaseClient();
 
     const { data, error } = await client.from('stores').insert({

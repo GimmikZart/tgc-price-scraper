@@ -28,7 +28,6 @@ const filteredSets = computed(() => {
  
 watch(() => props.agentToEdit, (newVal) => {
   if (newVal) {
-    console.log('Editing agent:', newVal)
     formFields.store = props.selectStores.find(s => s.id === newVal.store)
     formFields.game = newVal.game
     formFields.set = props.selectSets.find(s => s.id === newVal.set)
@@ -72,14 +71,12 @@ function closeDialog() {
 }
 
 async function updateAgent() {
-  console.log('Updating with:', formFields)
-  const result = await useUpdateProduct(formFields, props.agentToEdit.id)
+  await useUpdateProduct(formFields, props.agentToEdit.id)
   closeDialog()
 }
 
 async function createAgent() {
-  console.log('Creating with:', formFields)
-  const result = await useCreateProduct(formFields)
+  await useCreateProduct(formFields)
   closeDialog()
 }
 </script>

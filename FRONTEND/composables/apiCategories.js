@@ -5,7 +5,6 @@ export async function useGetCategories() {
     console.error('Supabase error:', error)
     return []
   }
-  console.log('Sets data:', data);
   
   return data
 }

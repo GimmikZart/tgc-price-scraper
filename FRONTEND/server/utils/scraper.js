@@ -5,8 +5,6 @@ export async function scrapeProduct({ url, regular_price, original_price, discou
     const page = await browser.newPage()
     
     await page.goto(url, { waitUntil: 'networkidle2' })
-
-    console.log('scraper data', { url, regular_price, original_price, discounted_price, image });
     
     let regularPriceResult = await page.$eval(regular_price, el => el.textContent?.trim())
     

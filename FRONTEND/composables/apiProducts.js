@@ -44,17 +44,11 @@ export async function useGetProducts(){
 }
 
 export async function useCreateProduct(formData) {
-    console.log('CREAAAAA', {formData});
     
     const client = useSupabaseClient()
 
     const scrapedData = await useScraper(formData)
-
-    console.log('scrapedData', scrapedData);
-    console.log('formData', formData);
     
-    
-
     const { data, error } = await client.from('products').insert([{
         store: formData.store.id,
         set: formData.set,
@@ -77,25 +71,9 @@ export async function useCreateProduct(formData) {
 
 export async function useUpdateProduct(formData, id) {
     const client = useSupabaseClient()
-    console.log('UPDATE', formData);
     
-    // Facciamo lo scraping solo se serve (es. url cambiato), oppure sempre se preferisci
     const scrapedData = await useScraper(formData)
 
-    console.log('scrapedData', scrapedData);
-    console.log({
-        store: formData.store.id,
-        set: formData.set.id,
-        lang: formData.lang.id,
-        url: formData.url,
-        currency: 1,
-        category: formData.category,
-        regular_price: scrapedData.info.regularPrice,
-        original_price: scrapedData.info.originalPrice ?? null,
-        discounted_price: scrapedData.info.discountedPrice ?? null,
-        image_url: scrapedData.info.image
-    });
-    
     const { data, error } = await client
       .from('products')
       .update({
@@ -121,8 +99,6 @@ export async function useUpdateProduct(formData, id) {
 }
 
 function parsePrice(priceString) {
-    console.log('LOOOOOOOOOOOOOOOOOOOOOOOOOOOL');
-    
     if (!priceString) return null;
     let cleaned = priceString.replace(/[^\d,\.]/g, '').trim();
     if (cleaned.includes(',')) {
@@ -133,7 +109,6 @@ function parsePrice(priceString) {
     }
     let number = parseFloat(cleaned);
     if (isNaN(number)) return 0.00;
-    console.log('Parsed price:', number.toFixed(2));
     
     return number.toFixed(2);
 }

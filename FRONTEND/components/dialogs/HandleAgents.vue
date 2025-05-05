@@ -30,10 +30,10 @@ watch(() => props.agentToEdit, (newVal) => {
   if (newVal) {
     formFields.store = props.selectStores.find(s => s.id === newVal.store)
     formFields.game = newVal.game
-    formFields.set = props.selectSets.find(s => s.id === newVal.set)
-    formFields.lang = props.selectLangs.find(l => l.id === newVal.lang)
-    formFields.currency = props.selectCurrency.find(c => c.id === newVal.currency)
-    formFields.category = props.selectCategories.find(c => c.id === newVal.category?.id)
+    formFields.set = props.selectSets.find(s => s.id === newVal.set).id
+    formFields.lang = props.selectLangs.find(l => l.id === newVal.lang).id
+    formFields.currency = props.selectCurrency.find(c => c.id === newVal.currency).id
+    formFields.category = props.selectCategories.find(c => c.id === newVal.category?.id).id
     formFields.url = newVal.url
   } else {
     resetForm()
@@ -45,10 +45,9 @@ const dialogTitle = computed(() => props.agentToEdit ? 'Modifica Agente' : 'Crea
 watch(() => formFields.game, (newGameId) => {
   const setIsUnderGameSelected = props.selectSets.some(
     set => {
-      return set.id === formFields?.set?.id && set?.game?.id === newGameId
+      return set.id === formFields?.set && set?.game?.id === newGameId
     }
   )
-  
   if (!setIsUnderGameSelected) {
     formFields.set = null
   }
@@ -63,7 +62,6 @@ function resetForm() {
   formFields.currency = null
   formFields.url = ''
 }
-
 
 function closeDialog() {
     resetForm()

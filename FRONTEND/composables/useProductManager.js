@@ -1,5 +1,5 @@
 import { ref, computed } from 'vue';
-import { useScraper } from './useScraper';
+import { useScraperSingleProduct } from './useScraper';
 
 export function useProductManager(rawProductList) {
   const productList = ref(
@@ -32,7 +32,7 @@ export function useProductManager(rawProductList) {
   // Caricamento progressivo dei dati
   productList.value.forEach(async (product, idx) => {
     try {
-      const result = await useScraper(product);
+      const result = await useScraperSingleProduct(product);
       productList.value[idx] = { ...product, ...result, status: 'success' };
     } catch {
       productList.value[idx].status = 'error';

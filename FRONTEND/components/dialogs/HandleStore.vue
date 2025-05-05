@@ -45,7 +45,7 @@ const formFields = reactive({
     name: props.name || '',
     logoUrl: props.logoUrl || '',
     website: props.website || '',
-    regular_price_selector: props.priceSelector || '',
+    regular_price_selector: props.regularPriceSelector || '',
     original_price_selector: props.originalPriceSelector || '',
     discounted_price_selector: props.discountedPriceSelector || '',
     image_selector: props.imageSelector || ''

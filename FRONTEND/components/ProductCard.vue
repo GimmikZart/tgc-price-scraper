@@ -1,4 +1,12 @@
 <script setup>
+import dayjs from 'dayjs'
+import relativeTime from 'dayjs/plugin/relativeTime'
+import 'dayjs/locale/it'
+import 'dayjs/locale/en'
+
+dayjs.extend(relativeTime)
+dayjs.locale('it')
+
 const props = defineProps({
   product: {
     type: Object,
@@ -12,6 +20,13 @@ const props = defineProps({
 
 const emit = defineEmits(['edit-product']);
 
+const lastUpdate = computed(() => {
+  if (props.product?.last_update) {
+    return dayjs(props.product.last_update).fromNow()
+  }
+  return null
+});
+
 function startEdit() {
   emit('edit-product', props.product);
 }
@@ -22,6 +37,9 @@ function startEdit() {
     <v-btn variant="tonal" v-if="isEditable" @click="startEdit">EDIT</v-btn>
     <img :src="product.image_url" class="w-full h-auto" />
     <div class="p-5">
+      <h3 v-if="lastUpdate" class="text-xs font-bold mb-2">
+        {{ lastUpdate }}
+      </h3>
       <NuxtLink
         class="text-2xl font-bold hover:text-blue-600 hover:underline decoration-solid"
         :to="product?.store?.website"

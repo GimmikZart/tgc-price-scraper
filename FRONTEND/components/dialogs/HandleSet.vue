@@ -28,6 +28,8 @@ const props = defineProps({
     },
 });
 
+const emit = defineEmits(['refresh-data'])
+
 const dialogTitle = computed(() => {
     return props.setId ? `Modifica Set` : `Crea Set`;
 });
@@ -45,10 +47,10 @@ async function createSet() {
     const {success, error} = await useCreateSet(formFields);
     if (success) {
         console.log('Set created successfully!');
+        emit('refresh-data')
     } else {
         console.error('Error creating set:', error);
     }
-    //window.location.reload();
 }
 
 async function updateSet() {
@@ -56,10 +58,10 @@ async function updateSet() {
     
     if (success) {
         console.log('Set updated successfully!');
+        emit('refresh-data')
     } else {
         console.error('Error updating set:', error);
     }
-    //window.location.reload();
 }
 </script>
 <template>

@@ -36,6 +36,8 @@ const props = defineProps({
     },
 });
 
+const emit = defineEmits(['refresh-data'])
+
 const dialogTitle = computed(() => {
     return props.storeId ? 'Modifica Negozio' : 'Crea Negozio';
 });
@@ -55,6 +57,7 @@ async function createStore() {
     const {success, error} = await useCreateStores(formFields);
     if (success) {
         console.log('Store created successfully!');
+        emit('refresh-data')
     } else {
         console.error('Error creating store:', error);
     }
@@ -62,9 +65,9 @@ async function createStore() {
 
 async function updateStore() {
     const {success, error} = await useUpdateStores(formFields, props.storeId);
-    
     if (success) {
         console.log('Store updated successfully!');
+        emit('refresh-data')
     } else {
         console.error('Error creating store:', error);
     }

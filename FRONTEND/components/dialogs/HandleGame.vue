@@ -32,6 +32,8 @@ const props = defineProps({
     },
 });
 
+const emit = defineEmits(['refresh-data'])
+
 const dialogTitle = computed(() => {
     return props.gameId ? 'Modifica Gioco' : 'Crea Gioco';
 });
@@ -52,10 +54,10 @@ async function createGame() {
     const {success, error} = await useCreateGame(formFields);
     if (success) {
         console.log('Game created successfully!');
+        emit('refresh-data')
     } else {
         console.error('Error creating game:', error);
     }
-    window.location.reload();
 }
 
 async function updateGame() {
@@ -63,10 +65,10 @@ async function updateGame() {
     
     if (success) {
         console.log('Game updated successfully!');
+        emit('refresh-data')
     } else {
         console.error('Error updating game:', error);
     }
-    //window.location.reload();
 }
 </script>
 <template>

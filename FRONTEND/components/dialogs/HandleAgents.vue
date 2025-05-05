@@ -9,7 +9,7 @@ const props = defineProps({
   selectCurrency: Array,
   selectCategories: Array,
 })
-const emit = defineEmits(['update:modelValue'])
+const emit = defineEmits(['update:modelValue', 'refresh-data'])
 
 const formFields = reactive({
   store: '',
@@ -71,11 +71,13 @@ function closeDialog() {
 async function updateAgent() {
   await useUpdateProduct(formFields, props.agentToEdit.id)
   closeDialog()
+  emit('refresh-data')
 }
 
 async function createAgent() {
   await useCreateProduct(formFields)
   closeDialog()
+  emit('refresh-data')
 }
 </script>
 

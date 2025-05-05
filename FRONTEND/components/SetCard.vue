@@ -29,7 +29,7 @@ const props = defineProps({
     required: true
   },
 })
-
+const emit = defineEmits(['refresh-data'])
 const isNotReleased = computed(() => {
   const today = new Date();
   const publishDate = new Date(props.publishDate);
@@ -63,7 +63,9 @@ const isNotReleased = computed(() => {
         :game-id="gameId"
         :code="code" 
         :image-url="imageUrl" 
-        :publish-date="publishDate" />
+        :publish-date="publishDate" 
+        @refresh-data="emit('refresh-data')"
+      />
     </v-card-actions>
   </v-card>
 </template>

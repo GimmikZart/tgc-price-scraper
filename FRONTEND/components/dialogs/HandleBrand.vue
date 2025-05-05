@@ -20,6 +20,8 @@ const props = defineProps({
     },
 });
 
+const emit = defineEmits(['refresh-data'])
+
 const dialogTitle = computed(() => {
     return props.brandId ? 'Modifica Brand' : 'Crea Brand';
 });
@@ -35,10 +37,10 @@ async function createBrand() {
     const {success, error} = await useCreateBrand(formFields);
     if (success) {
         console.log('Brand created successfully!');
+        emit('refresh-data')
     } else {
         console.error('Error creating brand:', error);
     }
-    window.location.reload();
 }
 
 async function updateBrand() {
@@ -46,10 +48,10 @@ async function updateBrand() {
     
     if (success) {
         console.log('Brand updated successfully!');
+        emit('refresh-data')
     } else {
         console.error('Error updating brand:', error);
     }
-    //window.location.reload();
 }
 </script>
 

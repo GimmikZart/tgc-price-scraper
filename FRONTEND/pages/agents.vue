@@ -28,6 +28,10 @@ function createNewAgent() {
   editableAgent.value = null;
   openDialog.value = true;
 }
+
+async function refreshData() {
+  await refreshNuxtData(['products', 'stores', 'langs', 'sets', 'games', 'currency', 'categories']);
+}
 </script>
 
 <template>
@@ -43,6 +47,7 @@ function createNewAgent() {
       :select-langs="langList"
       :select-currency="currencyList"
       :select-categories="categoriesList"
+      @refresh-data="refreshData"
     />
 
     <div class="grid grid-cols-8 grid-rows-3 gap-4">

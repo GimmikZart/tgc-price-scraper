@@ -1,11 +1,15 @@
 <script setup>
-const {data: stores} = await useAsyncData('products', () =>
+const {data: stores} = await useAsyncData('stores', () =>
 useGetStores()
 )
+
+async function refreshData() {
+    await refreshNuxtData(['stores']);
+}
 </script>
 <template>
     <div>
-        <DialogsHandleStore/>
+        <DialogsHandleStore @refresh-data="refreshData"/>
         <div class="flex gap-5">
             <StoreCard 
                 v-for="store in stores"

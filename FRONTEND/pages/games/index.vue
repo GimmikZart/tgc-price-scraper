@@ -1,11 +1,15 @@
 <script setup>
-const {data: games} = await useAsyncData('GAMES', () =>
+const {data: games} = await useAsyncData('games', () =>
     useGetGames()
 )
+
+async function refreshData() {
+  await refreshNuxtData(['games']);
+}
 </script>
 <template>
 <div>
-    <DialogsHandleGame />
+    <DialogsHandleGame @refresh-data="refreshData"/>
     <div class="grid grid-cols-4 gap-10 ">
         <GameCard
             v-for="(game, idx) in games"

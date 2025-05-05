@@ -2,10 +2,14 @@
 const {data: brands} = await useAsyncData('brands', () =>
     useGetBrands()
 )
+
+async function refreshData() {
+    await refreshNuxtData(['brands']);
+}
 </script>
 <template>
     <div>
-        <DialogsHandleBrand/>
+        <DialogsHandleBrand @refresh-data="refreshData"/>
         <div class="flex gap-5">
             <BrandCard 
                 v-for="brand in brands"

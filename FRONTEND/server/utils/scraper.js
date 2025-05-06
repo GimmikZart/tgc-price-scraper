@@ -6,7 +6,10 @@ export async function scrapeProduct({ url, regular_price, original_price, discou
     const start = Date.now()   // ⏱ Inizio tempo
     const ramStart = process.memoryUsage().heapUsed / 1024 / 1024
 
-    const browser = await puppeteer.launch({ headless: 'new' })
+    const browser = await puppeteer.launch({
+        headless: true,
+        args: ['--no-sandbox', '--disable-setuid-sandbox']
+    });
     const page = await browser.newPage()
 
     await page.goto(url, { waitUntil: 'networkidle2' })
@@ -50,7 +53,10 @@ export async function scrapeProductsBatch(productsArray) {
     const startAll = Date.now()
     const ramStart = process.memoryUsage().heapUsed / 1024 / 1024
 
-    const browser = await puppeteer.launch({ headless: 'new' })
+    const browser = await puppeteer.launch({
+        headless: true,
+        args: ['--no-sandbox', '--disable-setuid-sandbox']
+    });
     const results = []
 
     for (const product of productsArray) {

@@ -8,11 +8,20 @@ export async function scrapeProduct({ url, regular_price, original_price, discou
 
     const browser = await puppeteer.launch({
         headless: true,
-        args: ['--no-sandbox', '--disable-setuid-sandbox']
+        args: [
+            '--no-sandbox',
+            '--disable-setuid-sandbox',
+            '--disable-dev-shm-usage',
+            '--disable-accelerated-2d-canvas',
+            '--disable-gpu'
+        ]
     });
     const page = await browser.newPage()
 
-    await page.goto(url, { waitUntil: 'networkidle2' })
+    await page.goto(url, { 
+        waitUntil: 'networkidle2',
+        timeout: 0 // Disabilita timeout per evitare errori di timeout
+    })
 
     let regularPriceResult = await page.$eval(regular_price, el => el.textContent?.trim())
 
@@ -55,7 +64,13 @@ export async function scrapeProductsBatch(productsArray) {
 
     const browser = await puppeteer.launch({
         headless: true,
-        args: ['--no-sandbox', '--disable-setuid-sandbox']
+        args: [
+            '--no-sandbox',
+            '--disable-setuid-sandbox',
+            '--disable-dev-shm-usage',
+            '--disable-accelerated-2d-canvas',
+            '--disable-gpu'
+        ]
     });
     const results = []
 
@@ -64,7 +79,10 @@ export async function scrapeProductsBatch(productsArray) {
         const page = await browser.newPage()
 
         try {
-            await page.goto(product.url, { waitUntil: 'networkidle2' })
+            await page.goto(product.url, { 
+                waitUntil: 'networkidle2',
+                timeout: 0 // Disabilita timeout per evitare errori di timeout
+            })
 
             let regularPriceResult = await page.$eval(product.regular_price, el => el.textContent?.trim())
 

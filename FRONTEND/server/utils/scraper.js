@@ -5,7 +5,7 @@ import puppeteer from 'puppeteer'
 export async function scrapeProduct({ url, regular_price, original_price, discounted_price, image }) {
     const start = Date.now()   // ⏱ Inizio tempo
     const ramStart = process.memoryUsage().heapUsed / 1024 / 1024
-
+    console.log(`🕒 Inizio scraping per ${url}`)
     const browser = await puppeteer.launch({
         headless: true,
         args: [
@@ -24,6 +24,8 @@ export async function scrapeProduct({ url, regular_price, original_price, discou
     })
 
     let regularPriceResult = await page.$eval(regular_price, el => el.textContent?.trim())
+    console.log(`💰 Prezzo regolare: ${regularPriceResult}`);
+    
 
     let original_price_result = null
     if(original_price) {
@@ -32,6 +34,7 @@ export async function scrapeProduct({ url, regular_price, original_price, discou
             original_price_result = await page.evaluate(el => el.textContent?.trim(), originalPriceEl)
         }
     }
+    console.log(`💰 Prezzo originale: ${original_price_result}`);
     let discounted_price_result = null
     if(discounted_price) {
         const discountedPriceEl = await page.$(discounted_price)
@@ -39,8 +42,10 @@ export async function scrapeProduct({ url, regular_price, original_price, discou
             discounted_price_result = await page.evaluate(el => el.textContent?.trim(), discountedPriceEl)
         }
     }
+    console.log(`💰 Prezzo scontato: ${discounted_price_result}`);
 
     let imageResult = await page.$eval(image, el => el.getAttribute('src'))
+    console.log(`🖼️ Immagine: ${imageResult}`);
 
     await browser.close()
 

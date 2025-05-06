@@ -47,7 +47,14 @@ export async function useCreateProduct(formData) {
     
     const client = useSupabaseClient()
 
-    const scrapedData = await useScraperSingleProduct(formData)
+    let scrapedData = null
+    try {
+        scrapedData = await useScraperSingleProduct(formData)
+    } catch (error) {
+        throw new Error(error)
+    }
+
+    console.log('scrapedData', scrapedData)
     
     const { error } = await client.from('products').insert([{
         store: formData.store.id,
@@ -77,23 +84,6 @@ export async function useUpdateProduct(formData, id) {
     } catch (error) {
         throw new Error(error)
     }
-    
-    console.log('OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO');
-    
-    console.log({
-        store: formData.store.id,
-        set: formData.set,
-        lang: formData.lang,
-        url: formData.url,
-        currency: formData.currency,
-        category: formData.category,
-        regular_price: parsePrice(scrapedData.info.regularPrice),
-        original_price: parsePrice(scrapedData.info.originalPrice) ?? null,
-        discounted_price: parsePrice(scrapedData.info.discountedPrice) ?? null,
-        image_url: scrapedData.info.image,
-        last_update: new Date()
-    });
-    
     
     const { error } = await client
         .from('products')

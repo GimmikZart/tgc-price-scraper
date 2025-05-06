@@ -22,15 +22,15 @@ const props = defineProps({
   },
   originalPriceSelector: {
     type: String,
-    required: true
+    required: false
   },
   discountedPriceSelector: {
     type: String,
-    required: true
+    required: false
   },
   imageSelector: {
     type: String,
-    required: true
+    required: false
   },
 })
 </script>

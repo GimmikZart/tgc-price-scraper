@@ -5,7 +5,8 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/supabase',
-    'vuetify-nuxt-module'
+    'vuetify-nuxt-module',
+    '@pinia/nuxt'
   ],
   supabase: {
     redirect: false // 👈 disabilita il redirect automatico

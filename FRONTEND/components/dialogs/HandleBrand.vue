@@ -1,5 +1,6 @@
 <script setup>
 import { reactive, toRefs } from 'vue';
+import { useSnackbar } from '@/stores/useSnackbar'
 
 const props = defineProps({
     brandId: {
@@ -22,6 +23,8 @@ const props = defineProps({
 
 const emit = defineEmits(['refresh-data'])
 
+const snackbar = useSnackbar()
+
 const isLoading = ref(false);
 
 const dialogTitle = computed(() => {
@@ -37,26 +40,28 @@ const formFields = reactive({
 
 async function createBrand() {
     isLoading.value = true;
-    const {success, error} = await useCreateBrand(formFields);
-    if (success) {
-        console.log('Brand created successfully!');
+    try {
+        await useCreateBrand(formFields);
+        snackbar.addMessage('Brand creato con successo', 'success')
         emit('refresh-data')
-    } else {
-        console.error('Error creating brand:', error);
+    } catch (error) {
+        snackbar.addMessage(`Errore creazione brand`, 'error', error)
+    } finally {
+        isLoading.value = false;
     }
-    isLoading.value = false;}
+}
 
 async function updateBrand() {
     isLoading.value = true;
-    const {success, error} = await useUpdateBrand(props.brandId, formFields);
-    
-    if (success) {
-        console.log('Brand updated successfully!');
+    try {
+        await useUpdateBrand(props.brandId, formFields);
+        snackbar.addMessage('Brand aggiornato con successo', 'success')
         emit('refresh-data')
-    } else {
-        console.error('Error updating brand:', error);
+    } catch (error) {
+        snackbar.addMessage(`Errore aggiornamento brand`, 'error', error)
+    } finally {
+        isLoading.value = false;
     }
-    isLoading.value = false;
 }
 </script>
 

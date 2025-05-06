@@ -1,5 +1,6 @@
 <script setup>
-import { reactive, toRefs } from 'vue';
+import { reactive } from 'vue';
+import { useSnackbar } from '@/stores/useSnackbar'
 
 const props = defineProps({
     setId: {
@@ -30,6 +31,8 @@ const props = defineProps({
 
 const emit = defineEmits(['refresh-data'])
 
+const snackbar = useSnackbar()
+
 const isLoading = ref(false);
 
 const dialogTitle = computed(() => {
@@ -47,27 +50,28 @@ const formFields = reactive({
 
 async function createSet() {
     isLoading.value = true;
-    const {success, error} = await useCreateSet(formFields);
-    if (success) {
-        console.log('Set created successfully!');
+    try {
+        await useCreateSet(formFields);
+        snackbar.addMessage('Set creato con successo', 'success')
         emit('refresh-data')
-    } else {
-        console.error('Error creating set:', error);
+    } catch (error) {
+        snackbar.addMessage(`Errore creazione set`, 'error', error)
+    } finally {
+        isLoading.value = false;
     }
-    isLoading.value = false;
 }
 
 async function updateSet() {
     isLoading.value = true;
-    const {success, error} = await useUpdateSet(props.setId, formFields);
-    
-    if (success) {
-        console.log('Set updated successfully!');
+    try {
+        await useUpdateSet(props.setId, formFields);
+        snackbar.addMessage('Set aggiornato con successo', 'success')
         emit('refresh-data')
-    } else {
-        console.error('Error updating set:', error);
+    } catch (error) {
+        snackbar.addMessage(`Errore aggiornamento set`, 'error', error)
+    } finally {
+        isLoading.value = false;
     }
-    isLoading.value = false;
 }
 </script>
 <template>

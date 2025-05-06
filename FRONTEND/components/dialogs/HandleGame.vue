@@ -1,5 +1,6 @@
 <script setup>
 import { reactive, toRefs } from 'vue';
+import { useSnackbar } from '@/stores/useSnackbar'
 
 const props = defineProps({
     gameId: {
@@ -34,6 +35,8 @@ const props = defineProps({
 
 const emit = defineEmits(['refresh-data'])
 
+const snackbar = useSnackbar()
+
 const isLoading = ref(false);
 
 const dialogTitle = computed(() => {
@@ -54,27 +57,28 @@ const formFields = reactive({
 
 async function createGame() {
     isLoading.value = true;
-    const {success, error} = await useCreateGame(formFields);
-    if (success) {
-        console.log('Game created successfully!');
+    try {
+        await useCreateGame(formFields);
+        snackbar.addMessage('Gioco creato con successo', 'success')
         emit('refresh-data')
-    } else {
-        console.error('Error creating game:', error);
+    } catch (error) {
+        snackbar.addMessage(`Errore creazione gioco`, 'error', error)
+    } finally {
+        isLoading.value = false;
     }
-    isLoading.value = false;
 }
 
 async function updateGame() {
     isLoading.value = true;
-    const {success, error} = await useUpdateGame(props.gameId, formFields);
-    
-    if (success) {
-        console.log('Game updated successfully!');
+    try {
+        await useUpdateGame(props.gameId, formFields);
+        snackbar.addMessage('Gioco aggiornato con successo', 'success')
         emit('refresh-data')
-    } else {
-        console.error('Error updating game:', error);
+    } catch (error) {
+        snackbar.addMessage(`Errore aggiornamento gioco`, 'error', error)
+    } finally {
+        isLoading.value = false;
     }
-    isLoading.value = false;
 }
 </script>
 <template>

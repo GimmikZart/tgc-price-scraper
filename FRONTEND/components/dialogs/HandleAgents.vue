@@ -1,4 +1,6 @@
 <script setup>
+import { useSnackbar } from '@/stores/useSnackbar'
+
 const props = defineProps({
   modelValue: Boolean,
   agentToEdit: Object,
@@ -9,7 +11,10 @@ const props = defineProps({
   selectCurrency: Array,
   selectCategories: Array,
 })
+
 const emit = defineEmits(['update:modelValue', 'refresh-data'])
+
+const snackbar = useSnackbar()
 
 const isLoading = ref(false);
 
@@ -72,18 +77,30 @@ function closeDialog() {
 
 async function updateAgent() {
   isLoading.value = true
-  await useUpdateProduct(formFields, props.agentToEdit.id)
-  closeDialog()
-  emit('refresh-data')
-  isLoading.value = false
+  try {
+    await useUpdateProduct(formFields, props.agentToEdit.id)
+    snackbar.addMessage(`Agente per ${props.agentToEdit.set.name} di ${props.agentToEdit.store.name}  aggiornato con successo`, 'success')
+    emit('refresh-data')
+  } catch (error) {
+    snackbar.addMessage(`Errore aggiornamento agente per ${props.agentToEdit.set.name} di ${props.agentToEdit.store.name}`, 'error', error)
+  } finally{
+    closeDialog()
+    isLoading.value = false
+  }
 }
 
 async function createAgent() {
   isLoading.value = true
-  await useCreateProduct(formFields)
-  closeDialog()
-  emit('refresh-data')
-  isLoading.value = false
+  try {
+    await useCreateProduct(formFields)
+    snackbar.addMessage(`Agente creato con successo`, 'success')
+    emit('refresh-data')
+  } catch (error) {
+    snackbar.addMessage(`Errore creazione agente`, 'error', error)
+  } finally{
+    closeDialog()
+    isLoading.value = false
+  }
 }
 </script>
 

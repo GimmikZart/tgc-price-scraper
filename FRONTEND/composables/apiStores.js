@@ -4,8 +4,7 @@ export async function useGetStores(){
     const { data, error } = await client.from('stores').select("*")
     
     if (error) {
-        console.error('Supabase error:', error)
-        return []
+        throw new Error(error.message)
     }
 
     return data
@@ -28,11 +27,10 @@ export async function useUpdateStores(formData, storeId) {
         .select('*')
     
     if (error) {
-        console.error('Errore creazione store:', error.message)
-        return { success: false, error }
+        throw new Error(error.message)
     }
 
-    return { success: true, data }
+    return data
 }
 
 
@@ -51,10 +49,9 @@ export async function useCreateStores(formData) {
     });
 
     if (error) {
-        console.error('Errore nella creazione dello store:', error);
-        return { success: false, error }
+        throw new Error(`Errore creazione store: ${error.message}`)
     }
 
-    return { success: true, data }
+    return data
 }
 

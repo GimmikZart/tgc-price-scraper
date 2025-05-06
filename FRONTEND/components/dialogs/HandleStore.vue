@@ -1,5 +1,6 @@
 <script setup>
-import { reactive, toRefs } from 'vue';
+import { reactive } from 'vue';
+import { useSnackbar } from '@/stores/useSnackbar'
 
 const props = defineProps({
     storeId: {
@@ -38,7 +39,10 @@ const props = defineProps({
 
 const emit = defineEmits(['refresh-data'])
 
+const snackbar = useSnackbar()
+
 const isLoading = ref(false);
+const isActive = ref(false);
 
 const dialogTitle = computed(() => {
     return props.storeId ? 'Modifica Negozio' : 'Crea Negozio';
@@ -57,42 +61,43 @@ const formFields = reactive({
 
 async function createStore() {
     isLoading.value = true;
-    const {success, error} = await useCreateStores(formFields);
-    if (success) {
-        console.log('Store created successfully!');
+    try {
+        await useCreateStores(formFields);
+        snackbar.addMessage(`Negozio ${formFields.name} creato con successo`, 'success')
         emit('refresh-data')
-    } else {
+    } catch (error) {
         console.error('Error creating store:', error);
+        snackbar.addMessage(`Errore creazione negozio ${formFields.name}`, 'error', error)
+    } finally {
+        isLoading.value = false;
+        isActive.value = false;
     }
-    isLoading.value = false;
 }
 
 async function updateStore() {
     isLoading.value = true;
-    const {success, error} = await useUpdateStores(formFields, props.storeId);
-    if (success) {
-        console.log('Store updated successfully!');
+    try {
+        await useUpdateStores(formFields, props.storeId);
+        snackbar.addMessage(`Negozio ${formFields.name} aggiornato con successo`, 'success')
         emit('refresh-data')
-    } else {
-        console.error('Error creating store:', error);
-    }
-    isLoading.value = false;
+    } catch (error) {
+        snackbar.addMessage(`Errore modifica negozio ${formFields.name}`, 'error', error)
+    } finally {
+        isLoading.value = false;
+        isActive.value = false;
+    } 
 }
 </script>
 <template>
-    <v-dialog max-width="1000">
-        <template v-slot:activator="{ props: activatorProps }">
-            <v-btn
-                class="mb-5"
-                v-bind="activatorProps"
-                color="surface-variant"
-                :text="dialogTitle"
-                variant="flat"
-            ></v-btn>
-        </template>
-
-        <template v-slot:default="{ isActive }">
-            <v-card :title="dialogTitle">
+    <v-btn
+        @click="isActive = true"
+        class="mb-5"
+        color="surface-variant"
+        :text="dialogTitle"
+        variant="flat"
+    ></v-btn>
+    <v-dialog v-model="isActive" max-width="1000">
+        <v-card :title="dialogTitle">
             <v-card-text class="flex flex-col gap-2">
                 <v-text-field
                     v-model="formFields.name"
@@ -143,12 +148,11 @@ async function updateStore() {
 
                 <v-btn
                     text="Close Dialog"
-                    @click="isActive.value = false"
+                    @click="isActive = false"
                 ></v-btn>
                 <v-btn v-if="storeId" :loading="isLoading" text="Aggiorna Store" @click="updateStore()"></v-btn>
                 <v-btn v-else :loading="isLoading" text="Crea Store" @click="createStore()"></v-btn>
             </v-card-actions>
-            </v-card>
-        </template>
+        </v-card>
     </v-dialog>
 </template>

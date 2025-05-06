@@ -4,9 +4,9 @@ export async function useGetGames() {
     *,
     brand (*)
   `);
+
   if (error) {
-    console.error('Supabase error:', error)
-    return []
+    throw new Error(error.message)
   }
   return data
 }
@@ -15,30 +15,24 @@ export async function useGetGame(slug) {
   const client = useSupabaseClient()
   const { data, error } = await client.from('games').select("*, sets(*), brand (*)").eq('slug', slug).single()
   if (error) {
-    console.error('Supabase error:', error)
-    return null
+    throw new Error(error.message)
   }
   return data
 }
 
 export async function useCreateGame(formData) {
   const client = useSupabaseClient()
-  const { data, error } = await client.from('games').insert([formData])
+  const { error } = await client.from('games').insert([formData])
   if (error) {
-    console.error('Errore Supabase:', error)
-    return { success: false, error }
+    throw new Error(error.message)
   }
-  return { success: true, data }
 }
 
 export async function useUpdateGame(id, formData) {
   const client = useSupabaseClient()
   
-  const { data, error } = await client.from('games').update(formData).eq('id', id)
+  const { error } = await client.from('games').update(formData).eq('id', id)
   if (error) {
-    console.error('Errore Supabase:', error)
-    return { success: false, error }
+    throw new Error(error.message)
   }
-
-  return { success: true, data }
 }

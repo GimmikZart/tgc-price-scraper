@@ -37,8 +37,7 @@ export async function useGetProducts(){
     const { data, error } = await client.from('products').select(query)
     
     if (error) {
-        console.error('Supabase error:', error)
-        return []
+        throw new Error(error.message)
     }
 
     return data
@@ -50,36 +49,7 @@ export async function useCreateProduct(formData) {
 
     const scrapedData = await useScraperSingleProduct(formData)
     
-    const { data, error } = await client.from('products').insert([{
-        store: formData.store.id,
-        set: formData.set,
-        lang: formData.lang,
-        url: formData.url,
-        currency: formData.currency,
-        category: formData.category,
-        regular_price: scrapedData.info.price ?? null,
-        original_price: scrapedData.info.original_price ?? null,
-        discounted_price: scrapedData.info.discount_price ?? null,
-        image_url: scrapedData.info.image,
-        last_update: new Date()
-    }])
-
-    if (error) {
-        console.error('Errore Supabase:', error)
-        return { success: false, error }
-    }
-
-    return { success: true, data }
-}
-
-export async function useUpdateProduct(formData, id) {
-    const client = useSupabaseClient()
-    
-    const scrapedData = await useScraperSingleProduct(formData)
-    
-    const { data, error } = await client
-      .from('products')
-      .update({
+    const { error } = await client.from('products').insert([{
         store: formData.store.id,
         set: formData.set,
         lang: formData.lang,
@@ -91,19 +61,63 @@ export async function useUpdateProduct(formData, id) {
         discounted_price: parsePrice(scrapedData.info.discountedPrice) ?? null,
         image_url: scrapedData.info.image,
         last_update: new Date()
-      })
-      .eq('id', id)
-  
+    }])
+
     if (error) {
-      console.error('Errore aggiornamento Supabase:', error)
-      return { success: false, error }
+        throw new Error(error.message)
     }
-  
-    return { success: true, data }
+}
+
+export async function useUpdateProduct(formData, id) {
+    const client = useSupabaseClient()
+    
+    let scrapedData = null
+    try {
+        scrapedData = await useScraperSingleProduct(formData)
+    } catch (error) {
+        throw new Error(error)
+    }
+    
+    console.log('OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO');
+    
+    console.log({
+        store: formData.store.id,
+        set: formData.set,
+        lang: formData.lang,
+        url: formData.url,
+        currency: formData.currency,
+        category: formData.category,
+        regular_price: parsePrice(scrapedData.info.regularPrice),
+        original_price: parsePrice(scrapedData.info.originalPrice) ?? null,
+        discounted_price: parsePrice(scrapedData.info.discountedPrice) ?? null,
+        image_url: scrapedData.info.image,
+        last_update: new Date()
+    });
+    
+    
+    const { error } = await client
+        .from('products')
+        .update({
+            store: formData.store.id,
+            set: formData.set,
+            lang: formData.lang,
+            url: formData.url,
+            currency: formData.currency,
+            category: formData.category,
+            regular_price: parsePrice(scrapedData.info.regularPrice),
+            original_price: parsePrice(scrapedData.info.originalPrice) ?? null,
+            discounted_price: parsePrice(scrapedData.info.discountedPrice) ?? null,
+            image_url: scrapedData.info.image,
+            last_update: new Date()
+        })
+        .eq('id', id)
+
+    if (error) {
+        throw new Error(error.message)
+    }
 }
 
 export async function useUpdateProductsBatch() {
-    console.log('Inizio scraping batch...');
     
     const client = useSupabaseClient()
 
@@ -113,8 +127,7 @@ export async function useUpdateProductsBatch() {
         .select(`id, url, set:sets(name), store:stores (name, regular_price_selector, original_price_selector, discounted_price_selector, image_selector)`)
 
     if (error) {
-        console.error('Errore nel recuperare i prodotti:', error)
-        return
+        throw new Error(error.message)
     }
 
     // 2️⃣ Passa i prodotti allo scraper
@@ -140,9 +153,7 @@ export async function useUpdateProductsBatch() {
             .eq('id', scraped.id)
 
         if (error) {
-            console.error(`❌ Errore aggiornamento DB per prodotto ${scraped.id}: ${error.message}`)
-        } else {
-            console.log(`✅ Prodotto ${scraped.id} aggiornato`)
+            throw new Error(`❌ Errore aggiornamento DB per prodotto ${scraped.id}: ${error.message}`)
         }
     }
 }

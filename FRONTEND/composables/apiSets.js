@@ -4,9 +4,9 @@ export async function useGetSets() {
     *,
     game( id, name, code )
   `).order('publish_date', { ascending: true })
+
   if (error) {
-    console.error('Supabase error:', error)
-    return []
+    throw new Error(error.message)
   }
   
   return data
@@ -15,11 +15,15 @@ export async function useGetSets() {
 export async function useCreateSet(formData) {
   const client = useSupabaseClient()
   const { error } = await client.from('sets').insert([formData])
-  return !error
+  if (error) {
+    throw new Error(error.message)
+  }
 }
 
 export async function useUpdateSet(id, formData) {
   const client = useSupabaseClient()
   const { error } = await client.from('sets').update(formData).eq('id', id)
-  return !error
+  if (error) {
+    throw new Error(error.message)
+  }
 }

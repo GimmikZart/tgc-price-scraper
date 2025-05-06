@@ -35,20 +35,20 @@ function startEdit() {
 <template>
   <div class="border rounded flex flex-col w-full h-full hover:scale-105 transition-transform duration-400 ease-in-out">
     <v-btn variant="tonal" v-if="isEditable" @click="startEdit">EDIT</v-btn>
-    <img :src="product.image_url" class="w-full h-auto" />
+    <img :src="product.image_url" class="w-full bg-white h-auto" />
     <div class="p-5">
       <h3 v-if="lastUpdate" class="text-xs font-bold mb-2">
         {{ lastUpdate }}
       </h3>
       <NuxtLink
-        class="text-2xl font-bold hover:text-blue-600 hover:underline decoration-solid"
+        class="text-2xl d-block font-bold hover:text-blue-600 hover:underline decoration-solid"
         :to="product?.store?.website"
         external
         target="_blank"
       >
         {{ product?.store?.name }}
       </NuxtLink>
-      <v-chip v-if="product?.category">{{ product?.category?.name }}</v-chip>
+      <v-chip  v-if="product?.category">{{ product?.category?.name }}</v-chip>
       <h4 class="text-xl">
         {{ product?.set?.game?.name }}
       </h4>

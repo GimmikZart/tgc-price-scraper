@@ -4,8 +4,7 @@ export async function useGetCurrencies() {
     const { data, error } = await client.from('currencies').select('*')
   
     if (error) {
-      console.error('Errore Supabase:', error.message)
-      return []
+      throw new Error(error.message)
     }
   
     return data
@@ -14,24 +13,21 @@ export async function useGetCurrencies() {
   export async function useCreateCurrency(formData) {
     const client = useSupabaseClient()
   
-    const { data, error } = await client.from('currencies').insert([
+    const { error } = await client.from('currencies').insert([
       {
         code: formData.code,
       },
     ])
   
     if (error) {
-      console.error('Errore creazione valuta:', error.message)
-      return { success: false, error }
+      throw new Error(error.message)
     }
-  
-    return { success: true, data }
   }
   
   export async function useUpdateCurrency(formData, currencyId) {
     const client = useSupabaseClient()
   
-    const { data, error } = await client.from('currencies')
+    const { error } = await client.from('currencies')
       .update({
         code: formData.code,
       })
@@ -39,11 +35,8 @@ export async function useGetCurrencies() {
       .select('*')
   
     if (error) {
-      console.error('Errore aggiornamento valuta:', error.message)
-      return { success: false, error }
+      throw new Error(error.message)
     }
-  
-    return { success: true, data }
   }
   
   export async function useDeleteCurrency(currencyId) {
@@ -52,10 +45,7 @@ export async function useGetCurrencies() {
     const { error } = await client.from('currencies').delete().eq('id', currencyId)
   
     if (error) {
-      console.error('Errore eliminazione valuta:', error.message)
-      return { success: false, error }
+      throw new Error(error.message)
     }
-  
-    return { success: true }
   }
   

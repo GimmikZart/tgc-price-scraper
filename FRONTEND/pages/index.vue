@@ -1,21 +1,55 @@
 <script setup>
-import { useProductManager } from '@/composables/useProductManager';
-import { useGetProducts } from '@/composables/apiProducts';
+const openDialog = ref(false);
+const editableAgent = ref(null);
 
-const rawProductList = await useProductList(); // Lista iniziale dei prodotti
-const { filteredAndSortedProducts, filter, sortByPrice } = useProductManager(rawProductList);
+const { data: products } = await useAsyncData('products', useGetProducts);
+const { data: storesList } = await useAsyncData('stores', useGetStores);
+const { data: langList } = await useAsyncData('langs', useGetLanguages);
+const { data: setsList } = await useAsyncData('sets', useGetSets);
+const { data: gamesList } = await useAsyncData('games', useGetGames);
+const { data: currencyList } = await useAsyncData('currency', useGetCurrencies);
+const { data: categoriesList } = await useAsyncData('categories', useGetCategories);
 
-const {data: products} = await useAsyncData('products', () =>
-  useGetProducts()
-)
+function editProduct(product) {
+  editableAgent.value = {
+    id: product.id,
+    store: product.store.id,
+    game: product.set.game.id,
+    set: product.set.id,
+    lang: product.lang.id,
+    category: product.category,
+    currency: product.currency.id,
+    url: product.url
+  };
+  openDialog.value = true;
+}
 
+function createNewAgent() {
+  editableAgent.value = null;
+  openDialog.value = true;
+}
+
+async function refreshData() {
+  await refreshNuxtData(['products', 'stores', 'langs', 'sets', 'games', 'currency', 'categories']);
+}
 </script>
+
 <template>
-  <div class="mx-auto p-6 space-y-4">
-    <div>
-      <input v-model="filter" placeholder="Filter by name..." class="border p-2 rounded" />
-      <button @click="sortByPrice" class="ml-2 p-2 bg-blue-500 text-white rounded">Sort by Price</button>
-    </div>
+  <div>
+    <v-btn color="primary" class="mb-4" @click="createNewAgent">Nuovo Agente</v-btn>
+
+    <DialogsHandleAgents
+      v-model="openDialog"
+      :agent-to-edit="editableAgent"
+      :select-games="gamesList"
+      :select-stores="storesList"
+      :select-sets="setsList"
+      :select-langs="langList"
+      :select-currency="currencyList"
+      :select-categories="categoriesList"
+      @refresh-data="refreshData"
+    />
+
     <div class="grid grid-cols-8 grid-rows-3 gap-4">
       <ProductCard
         v-for="(product, idx) in products"
@@ -23,6 +57,8 @@ const {data: products} = await useAsyncData('products', () =>
         :product="product"
         :id="idx"
         class="w-full"
+        is-editable
+        @edit-product="editProduct(product)"
       />
     </div>
   </div>

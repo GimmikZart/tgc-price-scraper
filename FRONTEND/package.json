@@ -8,7 +8,7 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "npx puppeteer browsers install chrome && nuxt prepare"
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
     "@nuxtjs/supabase": "^1.5.0",

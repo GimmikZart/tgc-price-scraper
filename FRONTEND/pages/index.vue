@@ -1,4 +1,12 @@
 <script setup>
+import dayjs from 'dayjs'
+import relativeTime from 'dayjs/plugin/relativeTime'
+import 'dayjs/locale/it'
+import 'dayjs/locale/en'
+
+dayjs.extend(relativeTime)
+dayjs.locale('it')
+
 const openDialog = ref(false);
 const editableAgent = ref(null);
 
@@ -9,6 +17,28 @@ const { data: setsList } = await useAsyncData('sets', useGetSets);
 const { data: gamesList } = await useAsyncData('games', useGetGames);
 const { data: currencyList } = await useAsyncData('currency', useGetCurrencies);
 const { data: categoriesList } = await useAsyncData('categories', useGetCategories);
+
+const visualizeGrid = ref(true);
+const activeSwitchLabel= computed(() => visualizeGrid.value ? 'Visualizza come griglia' : 'Visualizza come lista');
+
+const productHeaders = [
+  { title: 'Image', key: 'image_url' },
+  { title: 'Category', key: 'category' },
+  { title: 'Set', key: 'set' },
+  { title: 'Store', key: 'store' },
+  { title: 'Lang', key: 'lang' },
+  { title: 'Original Price', key: 'original_price' },
+  { title: 'Final Price', key: 'regular_price' },
+  { title: 'Ultimo update', key: 'last_update' },
+  { title: 'Url', key: 'url' }
+]
+
+function getDateDifferenceFromNow(date) {
+  if (date) {
+    return dayjs(date).fromNow()
+  }
+  return null
+};
 
 function editProduct(product) {
   editableAgent.value = {
@@ -36,7 +66,15 @@ async function refreshData() {
 
 <template>
   <div>
-    <v-btn color="primary" class="mb-4" @click="createNewAgent">Nuovo Agente</v-btn>
+    <div class="flex items-center gap-3 mb-5">
+      <v-btn color="primary"  @click="createNewAgent">Nuovo Agente</v-btn>
+      <v-switch 
+        v-model="visualizeGrid"
+        color="primary" 
+        hide-details inset
+        :label="activeSwitchLabel"
+      ></v-switch>
+    </div>
 
     <DialogsHandleAgents
       v-model="openDialog"
@@ -50,7 +88,7 @@ async function refreshData() {
       @refresh-data="refreshData"
     />
 
-    <div class="grid grid-cols-8 grid-rows-3 gap-4">
+    <div v-if="visualizeGrid" class="grid grid-cols-8 grid-rows-3 gap-4">
       <ProductCard
         v-for="(product, idx) in products"
         :key="idx"
@@ -61,5 +99,40 @@ async function refreshData() {
         @edit-product="editProduct(product)"
       />
     </div>
+    <v-data-table
+      v-else
+      :headers="productHeaders"
+      :items="products"
+      class="elevation-1"
+      hide-default-footer
+    >
+      <template v-slot:item.image_url="{ value }">
+        <img :src="value" class="h-[70px] transition w-[70px] p-3 hover:scale-[5] hover:translate-x-full"/>
+      </template>
+      <template v-slot:item.category="{ value, item }">
+        {{ value.name }}
+      </template>
+      <template v-slot:item.set="{ value }">
+        {{ value.name }}
+      </template>
+      <template v-slot:item.store="{ value }">
+        {{ value.name }}
+      </template>
+      <template v-slot:item.lang="{ value }">
+        {{ value.code }}
+      </template>
+      <template v-slot:item.original_price="{ value, item }">
+        <span v-if="value" class=" line-through">{{value}}{{ item?.currency?.code }}</span>
+      </template>
+      <template v-slot:item.regular_price="{ value, item }">
+        <span class="font-bold">{{  item.discounted_price || item.regular_price }}{{ item?.currency?.code }}</span>
+      </template>
+      <template v-slot:item.last_update="{ value, item }">
+        {{ getDateDifferenceFromNow(value) }} 
+      </template>
+      <template v-slot:item.url="{ value }">
+        <v-btn :href="value" variant="plain" icon="mdi-arrow-right" target="_blank"></v-btn>
+      </template>
+    </v-data-table>
   </div>
 </template>

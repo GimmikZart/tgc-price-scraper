@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -o errexit
 
-# npm install # se ti serve
-# npm run build # se ti serve
+npm install
+npm run build
 
 if [[ ! -d $PUPPETEER_CACHE_DIR ]]; then 
   echo "...Copying Puppeteer Cache from Build Cache" 

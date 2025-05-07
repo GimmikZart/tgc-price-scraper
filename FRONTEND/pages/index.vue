@@ -88,7 +88,7 @@ async function refreshData() {
       @refresh-data="refreshData"
     />
 
-    <div v-if="visualizeGrid" class="grid grid-cols-8 grid-rows-3 gap-4">
+    <div v-if="visualizeGrid" class="grid grid-cols-2 lg:grid-cols-8 grid-rows-3 gap-4">
       <ProductCard
         v-for="(product, idx) in products"
         :key="idx"
@@ -104,7 +104,8 @@ async function refreshData() {
       :headers="productHeaders"
       :items="products"
       class="elevation-1"
-      hide-default-footer
+      pagination
+      :items-per-page="10"
     >
       <template v-slot:item.image_url="{ value }">
         <img :src="value" class="h-[70px] transition w-[70px] p-3 hover:scale-[5] hover:translate-x-full"/>

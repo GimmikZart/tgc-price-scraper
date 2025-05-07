@@ -39,7 +39,7 @@ function removeMessage() {
     <div class="w-full rounded p-3 my-3 flex items-center" :class="snackClasses">
         <div class="flex flex-col">
             <h3 class="font-medium text-white">{{ title }}</h3>
-            <p v-if="message" class="font-italic text-sm  text-white">{{ message }}</p>
+            <p v-if="message" class="font-italic break-all text-sm  text-white">{{ message }}</p>
         </div>
         <v-spacer/>
         <v-btn

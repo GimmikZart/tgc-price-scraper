@@ -17,11 +17,10 @@ async function refreshData() {
 </script>
 <template>
     <div>
-        
-        <div class="flex gap-5 w-full">
-            <v-img :src="game.logo_url" class="w-1/3"></v-img>
-            <div class="w-2/3">
-                <h1 class="text-5xl font-bold">{{ game.name }}</h1>
+        <div class="flex flex-col lg:flex-row gap-5 w-full">
+            <v-img :src="game.logo_url" class="w-full lg:w-1/3"></v-img>
+            <div class="w-full lg:w-2/3">
+                <h1 class="text-5xl text-center font-bold">{{ game.name }}</h1>
                 <v-chip>{{ game.brand.name }}</v-chip>
                 <h2 class="text-2xl">Code: {{ game.code }}</h2>
                 <p class="text-2xl">Website: <a :href="game.website" target="_blank">{{ game.website }}</a></p>
@@ -31,7 +30,7 @@ async function refreshData() {
         </div>
         <h1 class="text-5xl font-bold">SETS</h1>
         <DialogsHandleSet :game-id="game.id" @refresh-data="refreshData"/>
-        <div class="grid grid-cols-6 gap-10 ">
+        <div class="grid grid-cols-1 lg:grid-cols-6 gap-5 lg:gap-10 ">
             <SetCard
                 v-for="(set, idx) in orderedSets"
                 :key="idx"

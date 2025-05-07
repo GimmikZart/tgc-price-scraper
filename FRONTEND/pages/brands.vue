@@ -10,7 +10,7 @@ async function refreshData() {
 <template>
     <div>
         <DialogsHandleBrand @refresh-data="refreshData"/>
-        <div class="flex gap-5">
+        <div class="grid grid-cols-1 lg:grid-cols-5 gap-5">
             <BrandCard 
                 v-for="brand in brands"
                 :key="brand.id"

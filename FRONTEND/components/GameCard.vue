@@ -34,15 +34,18 @@ const props = defineProps({
       :src="logoUrl"
       contain
     ></v-img>
-    <v-chip>{{ brand }}</v-chip>
-    <v-card-title>
-      {{name}}
-    </v-card-title>
-   
+    <v-card-text>
+      <v-chip>{{ brand }}</v-chip>
+      <v-card-title>
+        {{name}}
+      </v-card-title>
+    
 
-    <v-card-subtitle>
-      {{website}}
-    </v-card-subtitle>
+      <v-card-subtitle>
+        {{website}}
+      </v-card-subtitle>
+    </v-card-text>
+    
     <v-card-actions>
       <v-spacer></v-spacer>
       <v-btn :to="`/games/${slug}`">DETTAGLI</v-btn>

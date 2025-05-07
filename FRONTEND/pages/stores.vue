@@ -10,7 +10,7 @@ async function refreshData() {
 <template>
     <div>
         <DialogsHandleStore @refresh-data="refreshData"/>
-        <div class="flex gap-5">
+        <div class="grid grid-cols-1 lg:grid-cols-5 gap-5">
             <StoreCard 
                 v-for="store in stores"
                 :key="store.id"

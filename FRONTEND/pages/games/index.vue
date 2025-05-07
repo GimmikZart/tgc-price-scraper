@@ -10,7 +10,7 @@ async function refreshData() {
 <template>
 <div>
     <DialogsHandleGame @refresh-data="refreshData"/>
-    <div class="grid grid-cols-4 gap-10 ">
+    <div class="grid grid-cols-1 lg:grid-cols-4 gap-10 ">
         <GameCard
             v-for="(game, idx) in games"
             :key="idx"

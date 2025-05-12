@@ -20,7 +20,14 @@ export async function scrapeNewProduct({ url, regular_price, original_price, dis
   const page = await browser.newPage()
 
   try {
-    await page.goto(url, { waitUntil: 'networkidle2', timeout: 0 })
+    await page.goto(url, {
+      waitUntil: 'domcontentloaded',
+      timeout: 30000
+    })
+
+    if (page.isClosed()) {
+      throw new Error({message: 'La pagina si è chiusa dopo il goto'})
+    }
 
     const regularPriceResult = await page.$eval(regular_price, el => el.textContent?.trim())
 
@@ -84,7 +91,15 @@ export async function scrapeProduct({ id, url, regular_price, original_price, di
   const page = await browser.newPage()
 
   try {
-    await page.goto(url, { waitUntil: 'networkidle2', timeout: 0 })
+    await page.goto(url, {
+      waitUntil: 'domcontentloaded',
+      timeout: 30000
+    })
+
+    if (page.isClosed()) {
+      throw new Error({message: 'La pagina si è chiusa dopo il goto'})
+    }
+
 
     const regularPriceResult = await page.$eval(regular_price, el => el.textContent?.trim())
 
@@ -175,7 +190,15 @@ export async function scrapeProductsBatch({ silent = false } = {}) {
       const page = await browser.newPage()
   
       try {
-        await page.goto(product.url, { waitUntil: 'networkidle2', timeout: 0 })
+        await page.goto(product.url, {
+          waitUntil: 'domcontentloaded',
+          timeout: 30000
+        })
+
+        if (page.isClosed()) {
+          throw new Error({message: 'La pagina si è chiusa dopo il goto'})
+        }
+    
   
         const regularPriceResult = await page.$eval(product.regular_price, el => el.textContent?.trim())
   

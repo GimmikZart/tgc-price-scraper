@@ -107,19 +107,40 @@ async function createAgent() {
 </script>
 
 <template>
-  <v-dialog v-model="props.modelValue" max-width="1000">
-    <v-card :title="dialogTitle">
-      <v-card-text class="flex flex-col gap-2">
-        <v-select label="Negozio" v-model="formFields.store" :items="selectStores" item-title="name" return-object  />
-        <v-select label="Gioco" v-model="formFields.game" :items="selectGames" item-title="name" item-value="id"/>
-        <v-select label="Categoria" v-model="formFields.category" :items="selectCategories" item-title="name" item-value="id" />
-        <v-select label="Set" v-model="formFields.set" :items="filteredSets" item-title="name" item-value="id" />
-        <v-select label="Lingua" v-model="formFields.lang" :items="selectLangs" item-title="name" item-value="id" />
-        <v-select label="Valuta" v-model="formFields.currency" :items="selectCurrency" item-title="code" item-value="id" />
+  <v-dialog v-model="props.modelValue" max-width="1000" transition="dialog-bottom-transition">
+    <v-card>
+      <v-card-title class="bg-black text-white font-bold text-2xl">
+        {{ dialogTitle }}
+      </v-card-title>
+      <v-card-text class="flex flex-col gap-2 pa-3 lg:pa-8">
+        <v-autocomplete label="Negozio" v-model="formFields.store" :items="selectStores" item-title="name" return-object  />
+        <v-autocomplete label="Gioco" v-model="formFields.game" :items="selectGames" item-title="name" item-value="id"/>
+        <v-autocomplete label="Categoria" v-model="formFields.category" :items="selectCategories" item-title="name" item-value="id" />
+        <v-autocomplete label="Set" v-model="formFields.set" :items="filteredSets" item-value="id">
+          <template v-slot:chip="{ props, item }">
+              <!-- <v-chip
+                v-bind="props"
+                :text="`${props.title.name} (${props.title.code})`"
+              ></v-chip> -->
+              <v-chip v-bind="props">
+                {{ item.props.title.name }} ({{ item.props.title.code }})
+                <!-- {{ item.title.name }} ({{ item.title.code }}) -->
+              </v-chip>
+            </template>
+          <template v-slot:item="{ props, item }">
+            <v-list-item 
+              v-bind="props"
+              :subtitle="props.title.code"
+              :title="props.title.name"
+            />
+          </template>
+        </v-autocomplete>
+        <v-autocomplete label="Lingua" v-model="formFields.lang" :items="selectLangs" item-title="name" item-value="id" />
+        <v-autocomplete label="Valuta" v-model="formFields.currency" :items="selectCurrency" item-title="code" item-value="id" />
         <v-text-field v-model="formFields.url" label="Link Prodotto" clearable />
       </v-card-text>
 
-      <v-card-actions>
+      <v-card-actions class="bg-black">
         <v-spacer />
         <v-btn :disabled="isLoading" text="Chiudi" @click="closeDialog" />
         <v-btn v-if="props.agentToEdit" :loading="isLoading" text="Aggiorna Agente" @click="updateAgent" />

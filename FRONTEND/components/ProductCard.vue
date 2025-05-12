@@ -33,8 +33,8 @@ function startEdit() {
 </script>
 
 <template>
-  <div class="border rounded flex flex-col w-full h-full hover:scale-105 transition-transform duration-400 ease-in-out">
-    <v-btn variant="tonal" v-if="isEditable" @click="startEdit">EDIT</v-btn>
+  <div class="border rounded flex flex-col w-full h-full transition-transform duration-400 ease-in-out">
+    <v-btn variant="tonal" color="warning" v-if="isEditable" @click="startEdit">EDIT</v-btn>
     <img :src="product.image_url" class="w-full bg-white h-auto" />
     <div class="p-5 h-full flex flex-col justify-between">
       <div class="flex flex-col">

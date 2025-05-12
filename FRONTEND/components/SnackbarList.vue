@@ -15,7 +15,7 @@ function removeAllSnackbars(){
 }
 </script>
 <template>
-    <div class="fixed bottom-0 right-0 w-full lg:w-1/5 flex justify-end">
+    <div class="fixed bottom-0 right-0 w-full lg:w-1/5 flex justify-end z-[2500] ">
         <v-btn v-if="!snackbarVisible" class="w-full lg:w-auto lg:m-5" color="purple" @click="showSnackbars()">
             AVVISI 
             <v-badge
@@ -34,7 +34,7 @@ function removeAllSnackbars(){
                 inline
             ></v-badge>
         </v-btn>
-        <div v-if="snackbarVisible" class="z-[2500] h-screen border p-2 gap-2 border-black w-full backdrop-blur-sm overflow-auto flex flex-col justify-end">
+        <div v-if="snackbarVisible" class="h-screen border p-2 gap-2 border-black w-full backdrop-blur-sm overflow-auto flex flex-col justify-end">
             <Snackbar
                 v-for="msg in snackbar.messages"
                 :key="msg.id"

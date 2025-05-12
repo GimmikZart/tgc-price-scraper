@@ -18,6 +18,52 @@ const { data: gamesList } = await useAsyncData('games', useGetGames);
 const { data: currencyList } = await useAsyncData('currency', useGetCurrencies);
 const { data: categoriesList } = await useAsyncData('categories', useGetCategories);
 
+const openFilters = ref(false)
+const selectedGames = ref([])
+const selectedSets = ref([])
+const selectedLangs = ref([])
+const selectedStores = ref([])
+const selectedCategories = ref([])
+const selectedSort = ref(null)
+const sortableOptions = [
+  { text: 'Prezzo crescente', value: 'price_asc' },
+  { text: 'Prezzo decrescente', value: 'price_desc' }
+]
+
+const filteredProducts = computed(() => {
+  if (!products.value) return []
+
+  let result = products.value.filter(product => {
+    const matchGame = selectedGames.value.length === 0 || selectedGames.value.includes(product.set.game.id)
+    const matchSet = selectedSets.value.length === 0 || selectedSets.value.includes(product.set.id)
+    const matchLang = selectedLangs.value.length === 0 || selectedLangs.value.includes(product.lang.id)
+    const matchStore = selectedStores.value.length === 0 || selectedStores.value.includes(product.store.id)
+    const matchCategory = selectedCategories.value.length === 0 || selectedCategories.value.includes(product.category.id)
+
+    return matchGame && matchSet && matchLang && matchStore && matchCategory
+  })
+
+  if (selectedSort.value === 'price_asc') {
+    result = result.sort((a, b) => {
+      const priceA = parseFloat(a.discounted_price || a.regular_price) || Infinity
+      const priceB = parseFloat(b.discounted_price || b.regular_price) || Infinity
+      return priceA - priceB
+    })
+  } else if (selectedSort.value === 'price_desc') {
+    result = result.sort((a, b) => {
+      const priceA = parseFloat(a.discounted_price || a.regular_price) || -Infinity
+      const priceB = parseFloat(b.discounted_price || b.regular_price) || -Infinity
+      return priceB - priceA
+    })
+  }
+
+  return result
+})
+
+const appliedFiltersCount = computed(() => {
+  return selectedGames.value.length + selectedSets.value.length + selectedLangs.value.length + selectedStores.value.length + selectedCategories.value.length
+})
+
 const visualizeGrid = ref(true);
 const activeSwitchLabel= computed(() => visualizeGrid.value ? 'Visualizza come griglia' : 'Visualizza come lista');
 
@@ -39,6 +85,14 @@ function getDateDifferenceFromNow(date) {
   }
   return null
 };
+
+function resetFilters() {
+  selectedGames.value = []
+  selectedSets.value = []
+  selectedLangs.value = []
+  selectedStores.value = []
+  selectedCategories.value = []
+}
 
 function editProduct(product) {
   editableAgent.value = {
@@ -66,9 +120,17 @@ async function refreshData() {
 
 <template>
   <div>
-    <div class="flex items-center gap-3 mb-5">
-      <v-btn color="primary"  @click="createNewAgent">Nuovo Agente</v-btn>
+    <div class="border p-3 flex flex-wrap items-center gap-3 mb-5">
+      <div>
+        <v-btn color="primary" v-if="openFilters" @click="openFilters = false" tile>NASCONDI FILTRI</v-btn>
+        <v-btn color="primary" v-else @click="openFilters = true" tile>MOSTRA FILTRI</v-btn>
+        <v-btn v-if="appliedFiltersCount > 0" color="red" @click="resetFilters" tile>
+          <v-icon>mdi-delete-forever</v-icon>
+        </v-btn>
+      </div>
+      <v-btn v-if="!openFilters" color="green"  @click="createNewAgent">Nuovo Agente</v-btn>
       <v-switch 
+        v-if="!openFilters" 
         v-model="visualizeGrid"
         color="primary" 
         hide-details inset
@@ -88,9 +150,60 @@ async function refreshData() {
       @refresh-data="refreshData"
     />
 
+    <div v-if="openFilters" class="grid grid-cols-1 md:grid-cols-6 gap-4 mb-6 border p-3">
+      <v-select
+        v-model="selectedGames"
+        :items="gamesList"
+        item-title="name"
+        item-value="id"
+        label="Gioco"
+        multiple clearable chips
+      />
+      <v-select
+        v-model="selectedSets"
+        :items="setsList"
+        item-title="name"
+        item-value="id"
+        label="Set"
+        multiple clearable chips
+      />
+      <v-select
+        v-model="selectedLangs"
+        :items="langList"
+        item-title="name"
+        item-value="id"
+        label="Lingua"
+        multiple clearable chips
+      />
+      <v-select
+        v-model="selectedStores"
+        :items="storesList"
+        item-title="name"
+        item-value="id"
+        label="Negozio"
+        multiple clearable chips
+      />
+      <v-select
+        v-model="selectedCategories"
+        :items="categoriesList"
+        item-title="name"
+        item-value="id"
+        label="Categoria"
+        multiple clearable chips 
+      />
+      <v-select
+        v-model="selectedSort"
+        :items="sortableOptions"
+        label="Ordina per"
+        item-title="text"
+        item-value="value"
+        clearable
+      />
+    </div>
+
     <div v-if="visualizeGrid" class="grid grid-cols-2 lg:grid-cols-8 grid-rows-3 gap-1 lg:gap-4">
       <ProductCard
-        v-for="(product, idx) in products"
+        v-for="(product, idx) in filteredProducts"
         :key="idx"
         :product="product"
         :id="idx"
@@ -102,7 +215,7 @@ async function refreshData() {
     <v-data-table
       v-else
       :headers="productHeaders"
-      :items="products"
+      :items="filteredProducts"
       class="elevation-1"
       pagination
       :items-per-page="10"

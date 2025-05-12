@@ -9,17 +9,18 @@ export function useScraperStream() {
         eventSource = new EventSource('/api/scrape-stream')
 
         eventSource.onopen = () => {
-            console.log('SSE connesso')
+            snackbar.addMessage('Apertura SSE', 'info')
         }
 
         eventSource.onerror = (error) => {
             console.error('Errore SSE:', error)
-            snackbar.addMessage('Errore SSE', 'error', 'Connessione interrotta')
+            snackbar.addMessage('Errore SSE, connessione interrotta:', 'error', error)
         }
 
         // Evento di benvenuto
         eventSource.addEventListener('connected', (e) => {
             console.log('SSE:', e.data)
+            snackbar.addMessage('SSE connesso:', 'info', e.data)
         })
 
         // Quando ricevi eventi di scraping:
@@ -39,7 +40,7 @@ export function useScraperStream() {
 
         eventSource.addEventListener('scraping_completed', (e) => {
             const { duration, ramUsed } = JSON.parse(e.data)
-            snackbar.addMessage('Scraping completato', 'success', `Durata: ${duration}s | RAM: ${ramUsed} MB`)
+            snackbar.addMessage('Scraping completato', 'info', `Durata: ${duration}s | RAM: ${ramUsed} MB`)
         })
 
         return eventSource

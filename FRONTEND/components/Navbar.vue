@@ -7,7 +7,7 @@ async function updateAll(){
     isLoading.value = true;
     try {
         await useUpdateProductsBatch();
-        snackbar.addMessage('Prodotti aggiornati con successo', 'success')
+        snackbar.addMessage('Aggiornamento terminato', 'info')
     } catch (error) {
         snackbar.addMessage(`Errore aggiornamento prodotti`, 'error', error)
     } finally{

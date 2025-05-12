@@ -7,7 +7,7 @@ const snackbar = useSnackbar()
   <div class="min-h-screen bg-gray-100 text-gray-900 p-5">
     <Navbar></Navbar>
     <NuxtPage />
-    <div class="fixed bottom-0 right-0 p-5 w-1/5 z-[2500]">
+    <div v-if="snackbar.messages.length > 0" class="fixed bottom-0 right-0 p-5 lg:w-1/5 z-[2500] h-screen backdrop-blur-sm overflow-auto flex flex-col justify-end">
       <Snackbar
         v-for="msg in snackbar.messages"
         :key="msg.id"

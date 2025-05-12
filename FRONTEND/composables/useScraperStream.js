@@ -19,7 +19,6 @@ export function useScraperStream() {
 
         // Evento di benvenuto
         eventSource.addEventListener('connected', (e) => {
-            console.log('SSE:', e.data)
             snackbar.addMessage('SSE connesso:', 'info', e.data)
         })
 

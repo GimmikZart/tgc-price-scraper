@@ -88,7 +88,7 @@ async function refreshData() {
       @refresh-data="refreshData"
     />
 
-    <div v-if="visualizeGrid" class="grid grid-cols-2 lg:grid-cols-8 grid-rows-3 gap-4">
+    <div v-if="visualizeGrid" class="grid grid-cols-2 lg:grid-cols-8 grid-rows-3 gap-1 lg:gap-4">
       <ProductCard
         v-for="(product, idx) in products"
         :key="idx"

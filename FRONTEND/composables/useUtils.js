@@ -8,8 +8,6 @@ dayjs.locale('it')
 
 
 export async function getDateDifferenceFromNow(date) {
-    console.log('getDateDifferenceFromNow', date);
-    
     if (date) {
         return dayjs(date).fromNow()
     }

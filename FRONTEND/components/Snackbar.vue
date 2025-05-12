@@ -36,7 +36,7 @@ function removeMessage() {
 }
 </script>
 <template>
-    <div class="w-full rounded p-3 my-3 flex items-center" :class="snackClasses">
+    <div class="w-full mx-auto border rounded p-3 flex items-center" :class="snackClasses">
         <div class="flex flex-col">
             <h3 class="font-medium text-white">{{ title }}</h3>
             <p v-if="message" class="font-italic break-all text-sm  text-white">{{ message }}</p>

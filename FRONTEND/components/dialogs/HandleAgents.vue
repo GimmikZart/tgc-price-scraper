@@ -78,11 +78,12 @@ function closeDialog() {
 async function updateAgent() {
   isLoading.value = true
   try {
+    formFields.set = props.selectSets.find(s => s.id === formFields.set).name
     await useUpdateProduct(formFields, props.agentToEdit.id)
-    snackbar.addMessage(`Agente per ${props.agentToEdit.set.name} di ${props.agentToEdit.store.name}  aggiornato con successo`, 'success')
+    snackbar.addMessage(`Agente per ${formFields.set} di ${formFields.store.name}  aggiornato con successo`, 'success')
     emit('refresh-data')
   } catch (error) {
-    snackbar.addMessage(`Errore aggiornamento agente per ${props.agentToEdit.set.name} di ${props.agentToEdit.store.name}`, 'error', error)
+    snackbar.addMessage(`Errore aggiornamento agente per ${formFields.set} di ${formFields.store.name}`, 'error', error)
   } finally{
     closeDialog()
     isLoading.value = false
@@ -92,6 +93,7 @@ async function updateAgent() {
 async function createAgent() {
   isLoading.value = true
   try {
+    formFields.setName = props.selectSets.find(s => s.id === formFields.set).name
     await useCreateProduct(formFields)
     snackbar.addMessage(`Agente creato con successo`, 'success')
     emit('refresh-data')

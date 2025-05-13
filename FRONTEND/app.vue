@@ -1,5 +1,8 @@
 <script setup>
+const { connect, disconnect } = useScraperStream()
 
+onMounted(() => connect())
+onUnmounted(() => disconnect())
 </script>
 <template>
   <div class="min-h-screen bg-gray-100 text-gray-900 p-2 lg:p-5 pb-10">

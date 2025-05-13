@@ -1,9 +1,9 @@
 // server/api/scrape-auto.js
 import { scrapeProductsBatch } from '~/server/utils/scraper'
 
-export default defineEventHandler(async () => {
+export default defineEventHandler(() => {
   try {
-    await scrapeProductsBatch({ silent: true }) // SENZA SSE
+    scrapeProductsBatch({ silent: false }) // Silent silenzia le notifiche a frontend
   } catch (err) {
     throw new Error(err)
   }

@@ -1,9 +1,9 @@
 // server/api/scrape-batch.js
 import { scrapeProductsBatch } from '~/server/utils/scraper'
 
-export default defineEventHandler(async () => {
+export default defineEventHandler(() => {
   try {
-    await scrapeProductsBatch() // con SSE attivo
+    scrapeProductsBatch() // con SSE attivo
   } catch (err) {
     throw new Error(err)
   }

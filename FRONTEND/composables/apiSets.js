@@ -29,6 +29,7 @@ export async function useGetGameSet(gameSlug) {
       .from('sets')
       .select(`
         *,
+        game( id, name, slug ),
         products(count)
       `)
       .eq('game', game.id)
@@ -55,6 +56,9 @@ export async function useCreateSet(formData) {
 }
 
 export async function useUpdateSet(id, formData) {
+  console.log('id', id);
+  console.log('formData', formData);
+  
   const client = useSupabaseClient()
   const { error } = await client.from('sets').update(formData).eq('id', id)
   if (error) {

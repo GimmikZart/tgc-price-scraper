@@ -4,14 +4,37 @@ const gameSlug = route.params.gameName
 const { data: setList } = await useAsyncData('sets', () => useGetGameSet(gameSlug));
 
 const openDialog = ref(false);
-const editableAgent = ref(null);
+const editableSet = ref(null);
+
+const editMode = ref(false);
+
+const autoCompiledNewSet = computed(() => {
+    const setExample = setList.value[0];
+    return {
+        game: setExample.game,
+    }
+});
 
 async function refreshData() {
-  await refreshNuxtData(['products']);
+    await refreshNuxtData(['sets']);
 }
 
-function createNewProduct() {
-    editableAgent.value = null;
+function createNewSet() {
+    editableSet.value = autoCompiledNewSet.value;
+    openDialog.value = true;
+}
+
+function editSet(set) {
+    console.log({set});
+    
+    editableSet.value = {
+        id: set.id,
+        name: set.name,
+        image_url: set.image_url,
+        game: set.game,
+        code: set.code,
+        slug: set.slug,
+    };
     openDialog.value = true;
 }
 </script>
@@ -19,23 +42,25 @@ function createNewProduct() {
     <section>
         <Toolbar backButton label="Sets">
             <template #actions>
-                <v-btn color="green"  @click="createNewProduct()">
+                <v-btn v-if="editMode" color="error"  @click="editMode = false">
+                    <v-icon icon="mdi-pencil-off"></v-icon>
+                </v-btn>
+                <v-btn v-else color="warning"  @click="editMode = true">
+                    <v-icon icon="mdi-pencil"></v-icon>
+                </v-btn>
+                <v-btn color="green"  @click="createNewSet()">
                     <v-icon icon="mdi-plus"></v-icon>
                 </v-btn>
             </template>
         </Toolbar>
-        <v-container fluid class="grid grid-cols-2 lg:grid-cols-8 gap-4">
+        <DialogsHandleSet v-model="openDialog" :set-to-edit="editableSet" @refresh-data="refreshData"/>
+        <v-container fluid class="grid grid-cols-2 gap-2 pa-2 lg:pa-4 lg:grid-cols-8 lg:gap-4">
             <ProductsSetCard
                 v-for="set in setList"
                 :key="set.id"
-                :id="set.id"
-                :name="set.name"
-                :code="set.code"
-                :setSlug="set.slug"
-                :imageUrl="set.image_url"
-                :publishDate="set.publish_date"
-                :game-slug="gameSlug"
-                :products="set.products"
+                :set="set"
+                :edit-mode="editMode"
+                @edit-set="editSet(set)"
             />
         </v-container>
     </section>

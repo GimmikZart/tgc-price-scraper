@@ -1,5 +1,4 @@
 <script setup>
-const globalDataStore = useGlobalDataStore()
 const route = useRoute()
 const setSlug = route.params.setSlug
 const { data: productList } = await useAsyncData('products', () => useGetProductsBySet(setSlug));
@@ -20,8 +19,6 @@ const autoCompiledNewAgent = computed(() => {
 async function refreshData() {
     await refreshNuxtData(['products']);
 }
-
-
 
 function createNewProduct() {
     editableAgent.value = autoCompiledNewAgent.value;
@@ -60,7 +57,7 @@ function editProduct(product) {
         <div v-if="productList.length < 1" class="p-5">
             <h3 class="text-xl text-center text-black/50">Nessun prodotto trovato</h3>
         </div>
-        <v-container fluid class="grid grid-cols-2 lg:grid-cols-8 gap-4">
+        <v-container fluid class="grid grid-cols-2 gap-2 pa-2 lg:pa-4 lg:grid-cols-8 lg:gap-4">
             <DialogsHandleAgents
                 v-model="openDialog"
                 :agent-to-edit="editableAgent"

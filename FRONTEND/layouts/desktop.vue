@@ -24,19 +24,5 @@
 </template>
 
 <script setup>
-import { useSnackbar } from '@/stores/useSnackbar'
 
-const snackbar = useSnackbar()
-
-  async function updateAll(){
-    isLoading.value = true;
-    try {
-        await useUpdateProductsBatch();
-        snackbar.addMessage('Aggiornamento terminato', 'info')
-    } catch (error) {
-        snackbar.addMessage(`Errore aggiornamento prodotti`, 'error', error)
-    } finally{
-        isLoading.value = false;
-    }
-}   
 </script>

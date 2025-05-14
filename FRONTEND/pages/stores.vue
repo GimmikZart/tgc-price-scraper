@@ -9,7 +9,7 @@ async function refreshData() {
 </script>
 <template>
     <div>
-        <Toolbar label="Giochi">
+        <Toolbar label="Negozi">
             <template #actions>
                 <DialogsHandleStore @refresh-data="refreshData"/>
             </template>

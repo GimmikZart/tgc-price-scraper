@@ -1,36 +1,53 @@
 <script setup>
+import { useRouter } from 'vue-router'
+
 const props = defineProps({
-  id: {
-    type: Number,
-    required: true
+  game: {
+    type: Object,
+    required: true,
   },
-  name: {
-    type: String,
-    required: true
-  },
-  brand: {
-    type: String,
-    required: true
-  },
-  slug: {
-    type: String,
-    required: true
-  },
-  logoUrl: {
-    type: String,
-    required: true
+  editMode: {
+    type: Boolean,
+    default: false,
   },
 })
+
+const emit = defineEmits(['edit-product']);
+const router = useRouter()
+
+const editClass = computed(() => {
+  return {
+    'border border-4 border-yellow-500 swing-anim': props.editMode,
+  }
+})
+
+function handleClick() {
+  if (props.editMode) {
+    emit('edit-game', props.game)
+  } else {
+    router.push(`/${props.game.slug}`)
+  }
+}
 </script>
 <template>
-    <v-card class="pa-5" variant="flat">
-      <NuxtLink :to="`/${slug}`">
-        <v-img
-            width="100%"
-            height="100px"
-            :src="logoUrl"
-            contain
-        ></v-img>
-      </NuxtLink>
+    <v-card flat class="h-100 pa-2" :class="editClass" @click="handleClick" style="transition: all 0.1s ease-in-out;">
+      <v-img
+          width="100%"
+          height="100px"
+          :src="game.logo_url"
+          contain
+      ></v-img>
     </v-card>
 </template>
+<style>
+@keyframes swing {
+  0%   { transform: rotate(-0.5deg); }
+  50%  { transform: rotate(0.5deg); }
+  100% { transform: rotate(-0.5deg); }
+}
+
+.swing-anim {
+  animation: swing 0.5s infinite ease-in-out;
+}
+
+</style>

@@ -27,7 +27,7 @@ function createNewProduct() {
             :agent-to-edit="editableAgent"
             @refresh-data="refreshData"
         />
-        <v-container class="grid grid-cols-1 lg:grid-cols-4 gap-4">
+        <v-container class="grid grid-cols-2 gap-2 pa-2 lg:pa-4 lg:grid-cols-4 lg:gap-4">
             <ProductsGameCard 
                 v-for="(game, id) in gamesList" 
                 :key="id"

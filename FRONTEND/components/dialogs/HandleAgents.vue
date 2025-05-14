@@ -1,5 +1,7 @@
 <script setup>
 import { useSnackbar } from '@/stores/useSnackbar'
+import { useDisplay } from 'vuetify'
+
 
 const globalDataStore = useGlobalDataStore()
 
@@ -12,15 +14,17 @@ const emit = defineEmits(['update:modelValue', 'refresh-data'])
 
 const snackbar = useSnackbar()
 
+const { mdAndDown } = useDisplay()
+
 const isLoading = ref(false);
 
 const formFields = reactive({
-  store: '',
-  game: '',
-  set: '',
-  lang: '',
-  currency: '',
-  category: '',
+  store: null,
+  game: null,
+  set: null,
+  lang: null,
+  currency: null,
+  category: null,
   url: ''
 })
 
@@ -31,14 +35,14 @@ const filteredSets = computed(() => {
 
 watch(() => props.agentToEdit, (newVal) => {
   if (newVal) {
-    console.log(globalDataStore);
+    console.log({newVal});
     
     formFields.store = globalDataStore.stores.find(s => s.id === newVal.store)
     formFields.game = newVal.game
-    formFields.set = globalDataStore.sets.find(s => s.id === newVal.set).id
-    formFields.lang = globalDataStore.langs.find(l => l.id === newVal.lang).id
-    formFields.currency = globalDataStore.currencies.find(c => c.id === newVal.currency).id
-    formFields.category = globalDataStore.categories.find(c => c.id === newVal.category?.id).id
+    formFields.set = globalDataStore.sets.find(s => s.id === newVal.set)?.id
+    formFields.lang = globalDataStore.langs.find(l => l.id === newVal.lang)?.id
+    formFields.currency = globalDataStore.currencies.find(c => c.id === newVal.currency)?.id
+    formFields.category = globalDataStore.categories.find(c => c.id === newVal.category?.id)?.id
     formFields.url = newVal.url
   } else {
     resetForm()
@@ -105,8 +109,8 @@ async function createAgent() {
 </script>
 
 <template>
-  <v-dialog v-model="props.modelValue" max-width="1000" transition="dialog-bottom-transition">
-    <v-card>
+  <v-dialog v-model="props.modelValue" max-width="1000" variant="outlined" transition="dialog-bottom-transition" :fullscreen="mdAndDown" style="z-index: 2000">
+    <v-card class="border border-2 border-white">
       <v-card-title class="bg-black text-white font-bold text-2xl">
         {{ dialogTitle }}
       </v-card-title>

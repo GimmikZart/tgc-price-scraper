@@ -25,18 +25,25 @@ export async function useGetGameSet(gameSlug) {
     throw new Error(gameError.message)
   }
 
-  const { data, error } = await client.from('sets')
-                                      .select('*')
-                                      .eq('game', game.id)
-                                      .order('publish_date', { ascending: false })
+  const { data, error } = await client
+      .from('sets')
+      .select(`
+        *,
+        products(count)
+      `)
+      .eq('game', game.id)
+      .order('publish_date', { ascending: false })
 
-  console.log('data', data);
-  
   if (error) {
     throw new Error(error.message)
   }
 
-  return data
+  const setsWithCount = data.map(set => ({
+    ...set,
+    products: set.products[0]?.count || 0
+  }))
+
+  return setsWithCount
 }
 
 export async function useCreateSet(formData) {

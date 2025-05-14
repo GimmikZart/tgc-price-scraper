@@ -7,12 +7,24 @@ const { data: productList } = await useAsyncData('products', () => useGetProduct
 const openDialog = ref(false);
 const editableAgent = ref(null);
 
+const editMode = ref(false);
+
+const autoCompiledNewAgent = computed(() => {
+    const productExample = productList.value[0];
+    return {
+        game: productExample.set.game.id,
+        set: productExample.set.id,
+    }
+});
+
 async function refreshData() {
-  await refreshNuxtData(['products']);
+    await refreshNuxtData(['products']);
 }
 
+
+
 function createNewProduct() {
-    editableAgent.value = null;
+    editableAgent.value = autoCompiledNewAgent.value;
     openDialog.value = true;
 }
 
@@ -34,6 +46,12 @@ function editProduct(product) {
     <section>
         <Toolbar backButton label="Prodotti">
             <template #actions>
+                <v-btn v-if="editMode" color="error"  @click="editMode = false">
+                    <v-icon icon="mdi-pencil-off"></v-icon>
+                </v-btn>
+                <v-btn v-else color="warning"  @click="editMode = true">
+                    <v-icon icon="mdi-pencil"></v-icon>
+                </v-btn>
                 <v-btn color="green"  @click="createNewProduct()">
                     <v-icon icon="mdi-plus"></v-icon>
                 </v-btn>
@@ -52,6 +70,7 @@ function editProduct(product) {
                 v-for="product in productList"
                 :key="product.id"
                 :product="product"
+                :edit-mode="editMode"
                 @edit-product="editProduct(product)"
             />
         </v-container>

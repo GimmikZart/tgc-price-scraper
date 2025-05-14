@@ -35,6 +35,7 @@ function createNewProduct() {
                 :imageUrl="set.image_url"
                 :publishDate="set.publish_date"
                 :game-slug="gameSlug"
+                :products="set.products"
             />
         </v-container>
     </section>

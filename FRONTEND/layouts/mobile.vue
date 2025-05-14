@@ -3,7 +3,7 @@
     
 
     <!-- Contenuto principale -->
-    <v-main class="bg-grey-lighten-4 mb-[100px]">
+    <v-main class="bg-black" style="padding-bottom: 100px">
         <slot />
     </v-main>
 

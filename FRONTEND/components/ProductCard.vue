@@ -12,9 +12,19 @@ const props = defineProps({
     type: Object,
     required: true,
   },
+  editMode: {
+    type: Boolean,
+    default: false,
+  },
 });
 
 const emit = defineEmits(['edit-product']);
+
+const editClass = computed(() => {
+  return {
+    'border border-4 border-yellow-500 swing-anim': props.editMode,
+  }
+});
 
 const lastUpdate = computed(() => {
   if (props.product?.last_update) {
@@ -23,58 +33,48 @@ const lastUpdate = computed(() => {
   return null
 });
 
-function startEdit() {
-  emit('edit-product', props.product);
+function handleClick() {
+  if (props.editMode) {
+    emit('edit-product', props.product)
+  } else {
+    window.open(props.product.url, '_blank')
+  }
 }
 </script>
 
 <template>
-  <div class="border overflow-hidden rounded-lg flex flex-col w-full h-full transition-transform duration-400 ease-in-out">
-    <img :src="product.image_url" class="w-full rounded-lg border bg-white h-auto" />
-    <div class="p-5 h-full flex flex-col justify-between">
-      <div class="flex flex-col">
-        <h3 v-if="lastUpdate" class="text-xs font-bold mb-2">
-          {{ lastUpdate }}
-        </h3>
-        <NuxtLink
-          class="lg:text-2xl d-block font-bold hover:text-blue-600 hover:underline decoration-solid"
-          :to="product?.store?.website"
-          external
-          target="_blank"
-        >
-          {{ product?.store?.name }}
-        </NuxtLink>
-        <v-chip  v-if="product?.category" class="d-none lg:d-block">
-          <span class="text-xs lg:text-base">{{ product?.category?.name }}</span>
-        </v-chip>
-        <h4 class="lg:text-xl d-none lg:d-block">
-          {{ product?.set?.game?.name }}
-        </h4>
-        <h4 class="text-sm font-italic my-2 lg:text-lg">
-          {{ product?.set?.name }}
-        </h4>
-        <h4 class="text-sm lg:text-lg font-bold">
-          {{ product?.set?.code }} ({{ product?.lang?.code }})
-        </h4>
-      </div>
-      
-      <div class="ml-auto mt-4 text-lg flex flex-col lg:flex-row justify-end">
-        <span class="mr-3">💸 Prezzo:</span>
-        <div v-if="product.original_price && product.discounted_price" class="flex items-center justify-end">
-          <span class="text-gray-500 font-bold line-through mr-1">{{ product.original_price }} </span>
-          <span class="text-red-500 font-bold">{{ product.discounted_price }}{{ product?.currency?.code }}</span>
+  <v-card flat class="h-100 pa-2" :class="editClass" @click="handleClick" style="transition: all 0.1s ease-in-out;">
+    <v-img
+      width="100%"
+      height="200px"
+      :src="product.image_url"
+      contain
+    ></v-img>
+    <h3 v-if="lastUpdate" class="text-xs font-italic">
+      {{ lastUpdate }}
+    </h3>
+    <h3 class="font-bold lg:text-xl">
+      {{ product?.store?.name }}
+    </h3>
+    <div class="flex items-center py-3">
+      <v-spacer></v-spacer>
+      <div v-if="product.original_price && product.discounted_price" class="flex items-center justify-end">
+          <span class="text-black/40 line-through mr-1 text-xs lg:text-base">{{ product.original_price }} </span>
+          <span class="font-bold text-xs lg:text-base">{{ product.discounted_price }}{{ product?.currency?.code }}</span>
         </div>
-        <span v-else class="font-bold ml-auto">{{ product.regular_price}} {{ product?.currency?.code }}</span>
-      </div>
+        <span v-else class="ml-auto font-bold text-xs lg:text-base">{{ product.regular_price}} {{ product?.currency?.code }}</span>
     </div>
-    
-    <div class="grid grid-cols-2">
-      <v-btn variant="tonal" rounded="0" @click="startEdit" class="grow bg-yellow">
-        <v-icon icon="mdi-pencil"></v-icon>
-      </v-btn>
-      <v-btn variant="tonal" rounded="0" :href="product.url" target="_blank" class="grow p-3 bg-black">
-        <v-icon icon="mdi-cart-outline"></v-icon>
-      </v-btn>
-    </div>
-  </div>
+  </v-card>
 </template>
+<style>
+@keyframes swing {
+  0%   { transform: rotate(-0.5deg); }
+  50%  { transform: rotate(0.5deg); }
+  100% { transform: rotate(-0.5deg); }
+}
+
+.swing-anim {
+  animation: swing 0.5s infinite ease-in-out;
+}
+
+</style>

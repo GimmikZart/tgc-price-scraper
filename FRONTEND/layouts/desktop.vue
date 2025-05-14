@@ -1,6 +1,8 @@
 <template>
   <v-app>
     <v-navigation-drawer
+      color="black"
+      class="border border-white"
       permanent
       app
       width="260"
@@ -15,7 +17,7 @@
       </v-list>
     </v-navigation-drawer>
 
-    <v-main class="bg-grey-lighten-4">
+    <v-main class="bg-black">
       <slot />
     </v-main>
   </v-app>

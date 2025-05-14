@@ -85,7 +85,6 @@ async function updateGame() {
     <v-dialog max-width="1000">
         <template v-slot:activator="{ props: activatorProps }">
             <v-btn
-                class="my-5"
                 v-bind="activatorProps"
                 color="surface-variant"
                 :text="dialogTitle"

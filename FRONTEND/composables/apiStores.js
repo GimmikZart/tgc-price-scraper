@@ -1,12 +1,9 @@
 export async function useGetStores(){
     const client = useSupabaseClient()
-
     const { data, error } = await client.from('stores').select("*")
-    
     if (error) {
         throw new Error(error.message)
     }
-
     return data
 }
 

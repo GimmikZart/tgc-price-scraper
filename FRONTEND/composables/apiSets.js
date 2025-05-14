@@ -8,7 +8,34 @@ export async function useGetSets() {
   if (error) {
     throw new Error(error.message)
   }
+  return data
+}
+
+export async function useGetGameSet(gameSlug) {
+  console.log('gameSlug', gameSlug);
+  const client = useSupabaseClient()
+
+  const { data: game, error: gameError } = await client
+    .from('games')
+    .select('id')
+    .eq('slug', gameSlug)
+    .single()
   
+  if (gameError) {
+    throw new Error(gameError.message)
+  }
+
+  const { data, error } = await client.from('sets')
+                                      .select('*')
+                                      .eq('game', game.id)
+                                      .order('publish_date', { ascending: false })
+
+  console.log('data', data);
+  
+  if (error) {
+    throw new Error(error.message)
+  }
+
   return data
 }
 

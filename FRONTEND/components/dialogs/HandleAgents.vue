@@ -1,15 +1,11 @@
 <script setup>
 import { useSnackbar } from '@/stores/useSnackbar'
 
+const globalDataStore = useGlobalDataStore()
+
 const props = defineProps({
   modelValue: Boolean,
   agentToEdit: Object,
-  selectGames: Array,
-  selectStores: Array,
-  selectLangs: Array,
-  selectSets: Array,
-  selectCurrency: Array,
-  selectCategories: Array,
 })
 
 const emit = defineEmits(['update:modelValue', 'refresh-data'])
@@ -30,17 +26,19 @@ const formFields = reactive({
 
 const filteredSets = computed(() => {
   if (!formFields.game) return [];
-  return props.selectSets.filter(set => set.game.id === formFields.game);
+  return globalDataStore.sets.filter(set => set.game.id === formFields.game);
 });
- 
+
 watch(() => props.agentToEdit, (newVal) => {
   if (newVal) {
-    formFields.store = props.selectStores.find(s => s.id === newVal.store)
+    console.log(globalDataStore);
+    
+    formFields.store = globalDataStore.stores.find(s => s.id === newVal.store)
     formFields.game = newVal.game
-    formFields.set = props.selectSets.find(s => s.id === newVal.set).id
-    formFields.lang = props.selectLangs.find(l => l.id === newVal.lang).id
-    formFields.currency = props.selectCurrency.find(c => c.id === newVal.currency).id
-    formFields.category = props.selectCategories.find(c => c.id === newVal.category?.id).id
+    formFields.set = globalDataStore.sets.find(s => s.id === newVal.set).id
+    formFields.lang = globalDataStore.langs.find(l => l.id === newVal.lang).id
+    formFields.currency = globalDataStore.currencies.find(c => c.id === newVal.currency).id
+    formFields.category = globalDataStore.categories.find(c => c.id === newVal.category?.id).id
     formFields.url = newVal.url
   } else {
     resetForm()
@@ -50,7 +48,7 @@ watch(() => props.agentToEdit, (newVal) => {
 const dialogTitle = computed(() => props.agentToEdit ? 'Modifica Agente' : 'Crea Agente')
 
 watch(() => formFields.game, (newGameId) => {
-  const setIsUnderGameSelected = props.selectSets.some(
+  const setIsUnderGameSelected = globalDataStore.sets.some(
     set => {
       return set.id === formFields?.set && set?.game?.id === newGameId
     }
@@ -78,7 +76,7 @@ function closeDialog() {
 async function updateAgent() {
   isLoading.value = true
   try {
-    formFields.set = props.selectSets.find(s => s.id === formFields.set).name
+    formFields.set = globalDataStore.sets.find(s => s.id === formFields.set).name
     await useUpdateProduct(formFields, props.agentToEdit.id)
     snackbar.addMessage(`Agente per ${formFields.set} di ${formFields.store.name}  aggiornato con successo`, 'success')
     emit('refresh-data')
@@ -93,7 +91,7 @@ async function updateAgent() {
 async function createAgent() {
   isLoading.value = true
   try {
-    formFields.setName = props.selectSets.find(s => s.id === formFields.set).name
+    formFields.setName = globalDataStore.sets.find(s => s.id === formFields.set).name
     await useCreateProduct(formFields)
     snackbar.addMessage(`Agente creato con successo`, 'success')
     emit('refresh-data')
@@ -113,9 +111,9 @@ async function createAgent() {
         {{ dialogTitle }}
       </v-card-title>
       <v-card-text class="flex flex-col gap-2 pa-3 lg:pa-8">
-        <v-autocomplete label="Negozio" v-model="formFields.store" :items="selectStores" item-title="name" return-object  />
-        <v-autocomplete label="Gioco" v-model="formFields.game" :items="selectGames" item-title="name" item-value="id"/>
-        <v-autocomplete label="Categoria" v-model="formFields.category" :items="selectCategories" item-title="name" item-value="id" />
+        <v-autocomplete label="Negozio" v-model="formFields.store" :items="globalDataStore.stores" item-title="name" return-object  />
+        <v-autocomplete label="Gioco" v-model="formFields.game" :items="globalDataStore.games" item-title="name" item-value="id"/>
+        <v-autocomplete label="Categoria" v-model="formFields.category" :items="globalDataStore.categories" item-title="name" item-value="id" />
         <v-autocomplete label="Set" v-model="formFields.set" :items="filteredSets" item-value="id">
           <template v-slot:chip="{ props, item }">
               <!-- <v-chip
@@ -135,8 +133,8 @@ async function createAgent() {
             />
           </template>
         </v-autocomplete>
-        <v-autocomplete label="Lingua" v-model="formFields.lang" :items="selectLangs" item-title="name" item-value="id" />
-        <v-autocomplete label="Valuta" v-model="formFields.currency" :items="selectCurrency" item-title="code" item-value="id" />
+        <v-autocomplete label="Lingua" v-model="formFields.lang" :items="globalDataStore.langs" item-title="name" item-value="id" />
+        <v-autocomplete label="Valuta" v-model="formFields.currency" :items="globalDataStore.currencies" item-title="code" item-value="id" />
         <v-text-field v-model="formFields.url" label="Link Prodotto" clearable />
       </v-card-text>
 

@@ -30,10 +30,8 @@ const props = defineProps({
   },
 })
 const emit = defineEmits(['refresh-data'])
-const isNotReleased = computed(() => {
-  const today = new Date();
-  const publishDate = new Date(props.publishDate);
-  return publishDate > today;
+const isReleased = computed(() => {
+  return isProductReleased(props.publishDate);
 });
 </script>
 <template>
@@ -49,15 +47,16 @@ const isNotReleased = computed(() => {
     
     <v-card-text>
       <v-card-title>
-        {{game}}
+        <h3>{{game}}</h3>
       </v-card-title>
       <v-card-title>
-        {{name}} - {{ code }}
+        <h3>{{name}} - {{ code }}</h3>
       </v-card-title>
       <v-card-subtitle>
-        Published: {{publishDate}}
+        Published: 
       </v-card-subtitle>
-      <v-chip v-if="isNotReleased" color="red">Non Rilasciato</v-chip>
+      <v-chip v-if="!isReleased" color="red">Non Rilasciato: {{publishDate}}</v-chip>
+      <v-chip v-else color="green">Rilasciato: {{publishDate}}</v-chip>
     </v-card-text>
     
     <v-card-actions>

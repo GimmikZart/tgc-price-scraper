@@ -9,7 +9,11 @@ async function refreshData() {
 </script>
 <template>
 <div>
-    <DialogsHandleGame @refresh-data="refreshData"/>
+    <Toolbar label="Giochi">
+        <template #actions>
+            <DialogsHandleGame @refresh-data="refreshData"/>
+        </template>
+    </Toolbar>
     <div class="grid grid-cols-1 lg:grid-cols-4 gap-10 ">
         <GameCard
             v-for="(game, idx) in games"

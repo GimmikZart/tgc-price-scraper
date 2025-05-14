@@ -91,7 +91,6 @@ async function updateStore() {
 <template>
     <v-btn
         @click="isActive = true"
-        class="mb-5"
         color="surface-variant"
         :text="dialogTitle"
         variant="flat"

@@ -9,7 +9,12 @@ async function refreshData() {
 </script>
 <template>
     <div>
-        <DialogsHandleStore @refresh-data="refreshData"/>
+        <Toolbar label="Giochi">
+            <template #actions>
+                <DialogsHandleStore @refresh-data="refreshData"/>
+            </template>
+        </Toolbar>
+        
         <div class="grid grid-cols-1 lg:grid-cols-5 gap-5">
             <StoreCard 
                 v-for="store in stores"

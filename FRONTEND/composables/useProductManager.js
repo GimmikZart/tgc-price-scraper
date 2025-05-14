@@ -46,3 +46,9 @@ export function useProductManager(rawProductList) {
     sortByPrice,
   };
 }
+
+export function isProductReleased(date) {
+  const today = new Date();
+  const publishDate = new Date(date);
+  return publishDate < today;
+}

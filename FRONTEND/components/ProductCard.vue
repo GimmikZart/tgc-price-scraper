@@ -12,10 +12,6 @@ const props = defineProps({
     type: Object,
     required: true,
   },
-  isEditable: {
-    type: Boolean,
-    default: false,
-  },
 });
 
 const emit = defineEmits(['edit-product']);
@@ -33,9 +29,8 @@ function startEdit() {
 </script>
 
 <template>
-  <div class="border rounded flex flex-col w-full h-full transition-transform duration-400 ease-in-out">
-    <v-btn variant="tonal" color="warning" v-if="isEditable" @click="startEdit">EDIT</v-btn>
-    <img :src="product.image_url" class="w-full bg-white h-auto" />
+  <div class="border overflow-hidden rounded-lg flex flex-col w-full h-full transition-transform duration-400 ease-in-out">
+    <img :src="product.image_url" class="w-full rounded-lg border bg-white h-auto" />
     <div class="p-5 h-full flex flex-col justify-between">
       <div class="flex flex-col">
         <h3 v-if="lastUpdate" class="text-xs font-bold mb-2">
@@ -73,8 +68,9 @@ function startEdit() {
       </div>
     </div>
     
-    <div class="flex">
-      <v-btn variant="tonal" :href="product.url" target="_blank" class="w-100 p-3 bg-black">Vai al prodotto</v-btn>
+    <div class="grid grid-cols-2">
+      <v-btn variant="tonal" rounded="0" @click="startEdit" class="grow bg-yellow">EDIT</v-btn>
+      <v-btn variant="tonal" rounded="0" :href="product.url" target="_blank" class="grow p-3 bg-black">PRODOTTO</v-btn>
     </div>
   </div>
 </template>

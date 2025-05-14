@@ -69,8 +69,12 @@ function startEdit() {
     </div>
     
     <div class="grid grid-cols-2">
-      <v-btn variant="tonal" rounded="0" @click="startEdit" class="grow bg-yellow">EDIT</v-btn>
-      <v-btn variant="tonal" rounded="0" :href="product.url" target="_blank" class="grow p-3 bg-black">PRODOTTO</v-btn>
+      <v-btn variant="tonal" rounded="0" @click="startEdit" class="grow bg-yellow">
+        <v-icon icon="mdi-pencil"></v-icon>
+      </v-btn>
+      <v-btn variant="tonal" rounded="0" :href="product.url" target="_blank" class="grow p-3 bg-black">
+        <v-icon icon="mdi-cart-outline"></v-icon>
+      </v-btn>
     </div>
   </div>
 </template>

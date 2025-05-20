@@ -1,4 +1,4 @@
-export async function useGetStores(){
+export async function fetchStores(){
     const client = useSupabaseClient()
     const { data, error } = await client.from('stores').select("*")
     if (error) {
@@ -7,7 +7,7 @@ export async function useGetStores(){
     return data
 }
 
-export async function useUpdateStores(formData, storeId) {
+export async function updateStores(formData, storeId) {
     const client = useSupabaseClient();
 
     const { data, error } = await client.from('stores')
@@ -31,7 +31,7 @@ export async function useUpdateStores(formData, storeId) {
 }
 
 
-export async function useCreateStores(formData) {
+export async function createStores(formData) {
     const client = useSupabaseClient();
 
     const { data, error } = await client.from('stores').insert({

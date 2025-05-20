@@ -1,6 +1,7 @@
 <script setup>
 import { reactive } from 'vue';
 import { useSnackbar } from '@/stores/useSnackbar'
+import { updateStores, createStores } from '@/api/stores'
 
 const props = defineProps({
     storeId: {
@@ -59,10 +60,10 @@ const formFields = reactive({
     image_selector: props.imageSelector || ''
 });
 
-async function createStore() {
+async function createStoreApi() {
     isLoading.value = true;
     try {
-        await useCreateStores(formFields);
+        await createStores(formFields);
         snackbar.addMessage(`Negozio ${formFields.name} creato con successo`, 'success')
         emit('refresh-data')
     } catch (error) {
@@ -74,10 +75,10 @@ async function createStore() {
     }
 }
 
-async function updateStore() {
+async function updateStoreApi() {
     isLoading.value = true;
     try {
-        await useUpdateStores(formFields, props.storeId);
+        await updateStores(formFields, props.storeId);
         snackbar.addMessage(`Negozio ${formFields.name} aggiornato con successo`, 'success')
         emit('refresh-data')
     } catch (error) {
@@ -149,8 +150,8 @@ async function updateStore() {
                     text="Close Dialog"
                     @click="isActive = false"
                 ></v-btn>
-                <v-btn v-if="storeId" :loading="isLoading" text="Aggiorna Store" @click="updateStore()"></v-btn>
-                <v-btn v-else :loading="isLoading" text="Crea Store" @click="createStore()"></v-btn>
+                <v-btn v-if="storeId" :loading="isLoading" text="Aggiorna Store" @click="updateStoreApi()"></v-btn>
+                <v-btn v-else :loading="isLoading" text="Crea Store" @click="createStoreApi()"></v-btn>
             </v-card-actions>
         </v-card>
     </v-dialog>

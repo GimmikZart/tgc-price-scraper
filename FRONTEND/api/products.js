@@ -1,5 +1,5 @@
 
-export async function useGetProducts(){
+export async function fetchProducts(){
     const client = useSupabaseClient()
     const query = `
         id,
@@ -44,7 +44,7 @@ export async function useGetProducts(){
 }
 
 
-export async function useGetProductsBySet(setSlug){
+export async function fetchProductsBySet(setSlug){
     const client = useSupabaseClient()
 
     const { data: set, error: setError } = await client
@@ -102,7 +102,7 @@ export async function useGetProductsBySet(setSlug){
     return data
 }
 
-export async function useCreateProduct(formData) {
+export async function createProduct(formData) {
     try {
         await useScraperNewProduct(formData)
     } catch (error) {
@@ -110,7 +110,7 @@ export async function useCreateProduct(formData) {
     }
 }
 
-export async function useUpdateProduct(formData, id) {
+export async function updateProduct(formData, id) {
     try {
         formData.id = id
         await useScraperSingleProduct(formData)
@@ -119,7 +119,7 @@ export async function useUpdateProduct(formData, id) {
     }
 }
 
-export async function useUpdateProductsBatch() {
+export async function updateProductsBatch() {
     try {
         await useScraperAllProducts()
     } catch (error) {

@@ -1,4 +1,4 @@
-export async function useGetSets() {
+export async function fetchSets() {
   const client = useSupabaseClient()
   const { data, error } = await client.from('sets').select(`
     *,
@@ -11,7 +11,7 @@ export async function useGetSets() {
   return data
 }
 
-export async function useGetGameSet(gameSlug) {
+export async function fetchGameSet(gameSlug) {
   console.log('gameSlug', gameSlug);
   const client = useSupabaseClient()
 
@@ -47,7 +47,7 @@ export async function useGetGameSet(gameSlug) {
   return setsWithCount
 }
 
-export async function useCreateSet(formData) {
+export async function createSet(formData) {
   const client = useSupabaseClient()
   const { error } = await client.from('sets').insert([formData])
   if (error) {
@@ -55,7 +55,7 @@ export async function useCreateSet(formData) {
   }
 }
 
-export async function useUpdateSet(id, formData) {
+export async function updateSet(id, formData) {
   console.log('id', id);
   console.log('formData', formData);
   

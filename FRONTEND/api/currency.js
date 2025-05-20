@@ -1,4 +1,4 @@
-export async function useGetCurrencies() {
+export async function fetchCurrencies() {
     const client = useSupabaseClient()
   
     const { data, error } = await client.from('currencies').select('*')
@@ -10,7 +10,7 @@ export async function useGetCurrencies() {
     return data
   }
   
-  export async function useCreateCurrency(formData) {
+  export async function createCurrency(formData) {
     const client = useSupabaseClient()
   
     const { error } = await client.from('currencies').insert([
@@ -24,7 +24,7 @@ export async function useGetCurrencies() {
     }
   }
   
-  export async function useUpdateCurrency(formData, currencyId) {
+  export async function updateCurrency(formData, currencyId) {
     const client = useSupabaseClient()
   
     const { error } = await client.from('currencies')
@@ -39,7 +39,7 @@ export async function useGetCurrencies() {
     }
   }
   
-  export async function useDeleteCurrency(currencyId) {
+  export async function deleteCurrency(currencyId) {
     const client = useSupabaseClient()
   
     const { error } = await client.from('currencies').delete().eq('id', currencyId)

@@ -1,4 +1,4 @@
-export async function useGetBrands() {
+export async function fetchBrands() {
   const client = useSupabaseClient()
   const { data, error } = await client.from('brands').select('*');
   if (error) {
@@ -7,7 +7,7 @@ export async function useGetBrands() {
   return data
 }
 
-export async function useGetBrand(id) {
+export async function fetchBrand(id) {
   const client = useSupabaseClient()
   //fetch the sets relations too 
   const { data, error } = await client.from('brands').select("*, games(*)").eq('id', id).single()
@@ -18,7 +18,7 @@ export async function useGetBrand(id) {
   return data
 }
 
-export async function useCreateBrand(formData) {
+export async function createBrand(formData) {
   const client = useSupabaseClient()
   const { error } = await client.from('brands').insert([formData])
   if (error) {
@@ -26,7 +26,7 @@ export async function useCreateBrand(formData) {
   }
 }
 
-export async function useUpdateBrand(id, formData) {
+export async function updateBrand(id, formData) {
   const client = useSupabaseClient()
   
   const { error } = await client.from('brands').update(formData).eq('id', id)

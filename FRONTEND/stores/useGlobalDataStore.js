@@ -1,9 +1,15 @@
-// stores/useGlobalDataStore.ts
 import { useSnackbar } from '@/stores/useSnackbar'
+import { fetchStores } from '@/api/stores' 
+import { fetchGames } from '@/api/games'
+import { fetchSets } from '@/api/sets'
+import { fetchLanguages } from '@/api/languages'
+import { fetchCurrencies } from '@/api/currency'
+import { fetchCategories } from '@/api/categories'
+import { fetchBrands } from '@/api/brands'
+import { updateProductsBatch } from '@/api/products'
 
 export const useGlobalDataStore = defineStore('globalData', () => {
     const snackbar = useSnackbar()
-
     const games = ref([])
     const stores = ref([])
     const brands = ref([])
@@ -16,7 +22,7 @@ export const useGlobalDataStore = defineStore('globalData', () => {
     const updateAllProducts = async () => {
         isLoading.value = true;
         try {
-            await useUpdateProductsBatch();
+            await updateProductsBatch();
             snackbar.addMessage('Aggiornamento terminato', 'info')
         } catch (error) {
             snackbar.addMessage(`Errore aggiornamento prodotti`, 'error', error)
@@ -28,13 +34,13 @@ export const useGlobalDataStore = defineStore('globalData', () => {
     const loadInitialData = async () => {
         if (isLoaded.value) return
     
-        const storesList = await useGetStores();
-        const langList = await useGetLanguages();
-        const setsList = await useGetSets();
-        const gamesList = await useGetGames();
-        const currencyList = await useGetCurrencies();
-        const categoriesList = await useGetCategories();
-        const brandsList = await useGetBrands();
+        const storesList = await fetchStores();
+        const langList = await fetchLanguages();
+        const setsList = await fetchSets();
+        const gamesList = await fetchGames();
+        const currencyList = await fetchCurrencies();
+        const categoriesList = await fetchCategories();
+        const brandsList = await fetchBrands();
 
         games.value = gamesList || []
         stores.value = storesList || []

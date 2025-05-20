@@ -1,6 +1,7 @@
 <script setup>
+import { fetchGames } from '@/api/games';
 const {data: games} = await useAsyncData('games', () =>
-    useGetGames()
+    fetchGames()
 )
 
 async function refreshData() {

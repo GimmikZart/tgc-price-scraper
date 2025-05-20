@@ -1,10 +1,10 @@
 <script setup>
-//get the slug in url
+import { fetchGame } from '@/api/games'
 const route = useRoute()
 const slug = route.params.slug
 
 const {data: game} = await useAsyncData('game', () =>
-    useGetGame(slug)
+    fetchGame(slug)
 )
 
 const orderedSets = computed(() => game.value.sets.sort((a, b) => {

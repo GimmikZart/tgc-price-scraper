@@ -1,6 +1,7 @@
 <script setup>
 import { useSnackbar } from '@/stores/useSnackbar'
 import { useDisplay } from 'vuetify'
+import { createGame, updateGame} from '@/api/games'
 
 
 const globalDataStore = useGlobalDataStore()
@@ -58,10 +59,10 @@ function closeDialog() {
     emit('update:modelValue', false)
 }
 
-async function updateGame() {
+async function updateGameApi() {
   isLoading.value = true
   try {
-    await useUpdateGame(formFields, props.gameToEdit.id)
+    await updateGame(formFields, props.gameToEdit.id)
     snackbar.addMessage(`Gioco '${formFields.name}' aggiornato con successo`, 'success')
     emit('refresh-data')
   } catch (error) {
@@ -72,10 +73,10 @@ async function updateGame() {
   }
 }
 
-async function createGame() {
+async function createGameApi() {
   isLoading.value = true
   try {
-    await useCreateGame(formFields)
+    await createGame(formFields)
     snackbar.addMessage(`Agente creato con successo`, 'success')
     emit('refresh-data')
   } catch (error) {
@@ -137,8 +138,8 @@ async function createGame() {
       <v-card-actions class="bg-black">
         <v-spacer />
         <v-btn :disabled="isLoading" text="Chiudi" @click="closeDialog" />
-        <v-btn v-if="props.gameToEdit" :loading="isLoading" text="Aggiorna Gioco" @click="updateGame" />
-        <v-btn v-else :loading="isLoading" text="Crea Gioco" @click="createGame" />
+        <v-btn v-if="props.gameToEdit" :loading="isLoading" text="Aggiorna Gioco" @click="updateGameApi" />
+        <v-btn v-else :loading="isLoading" text="Crea Gioco" @click="createGameApi" />
       </v-card-actions>
     </v-card>
   </v-dialog>

@@ -1,6 +1,7 @@
 <script setup>
+import { fetchStores } from '@/api/stores';
 const {data: stores} = await useAsyncData('stores', () =>
-useGetStores()
+fetchStores()
 )
 
 async function refreshData() {

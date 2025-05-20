@@ -1,4 +1,4 @@
-export async function useGetGames() {
+export async function fetchGames() {
   const client = useSupabaseClient()
   const { data, error } = await client.from('games').select(`
     *,
@@ -11,7 +11,7 @@ export async function useGetGames() {
   return data
 }
 
-export async function useGetGame(slug) {
+export async function fetchGame(slug) {
   const client = useSupabaseClient()
   const { data, error } = await client.from('games').select("*, sets(*), brand (*)").eq('slug', slug).single()
   if (error) {
@@ -20,7 +20,7 @@ export async function useGetGame(slug) {
   return data
 }
 
-export async function useCreateGame(formData) {
+export async function createGame(formData) {
   const client = useSupabaseClient()
   const { error } = await client.from('games').insert([formData])
   
@@ -30,7 +30,7 @@ export async function useCreateGame(formData) {
   }
 }
 
-export async function useUpdateGame(formData, id) {
+export async function updateGame(formData, id) {
   const client = useSupabaseClient()
   console.log('formData', formData)
   console.log('id', id);

@@ -1,7 +1,7 @@
 <script setup>
 import { useSnackbar } from '@/stores/useSnackbar'
 import { useDisplay } from 'vuetify'
-
+import { createSet, updateSet } from '@/api/sets'
 
 const globalDataStore = useGlobalDataStore()
 
@@ -56,10 +56,10 @@ function closeDialog() {
     emit('update:modelValue', false)
 }
 
-async function updateSet() {
+async function updateSetApi() {
   isLoading.value = true
   try {
-    await useUpdateSet(props.setToEdit.id, formFields)
+    await updateSet(props.setToEdit.id, formFields)
     snackbar.addMessage(`Set ${formFields.name} di   aggiornato con successo`, 'success')
     emit('refresh-data')
   } catch (error) {
@@ -70,10 +70,10 @@ async function updateSet() {
   }
 }
 
-async function createSet() {
+async function createSetApi() {
   isLoading.value = true
   try {
-    await useCreateSet(formFields)
+    await createSet(formFields)
     snackbar.addMessage(`Set creato con successo`, 'success')
     emit('refresh-data')
   } catch (error) {
@@ -139,8 +139,8 @@ async function createSet() {
       <v-card-actions class="bg-black">
         <v-spacer />
         <v-btn :disabled="isLoading" text="Chiudi" @click="closeDialog" />
-        <v-btn v-if="props.setToEdit" :loading="isLoading" text="Aggiorna Set" @click="updateSet()" />
-        <v-btn v-else :loading="isLoading" text="Crea Set" @click="createSet()" />
+        <v-btn v-if="props.setToEdit" :loading="isLoading" text="Aggiorna Set" @click="updateSetApi()" />
+        <v-btn v-else :loading="isLoading" text="Crea Set" @click="createSetApi()" />
       </v-card-actions>
     </v-card>
   </v-dialog>

@@ -1,6 +1,7 @@
 <script setup>
 import { reactive, toRefs } from 'vue';
 import { useSnackbar } from '@/stores/useSnackbar'
+import { createBrand, updateBrand } from '@/api/brands'
 
 const props = defineProps({
     brandId: {
@@ -38,10 +39,10 @@ const formFields = reactive({
     website: props.website || '',
 });
 
-async function createBrand() {
+async function createBrandApi() {
     isLoading.value = true;
     try {
-        await useCreateBrand(formFields);
+        await createBrand(formFields);
         snackbar.addMessage('Brand creato con successo', 'success')
         emit('refresh-data')
     } catch (error) {
@@ -51,10 +52,10 @@ async function createBrand() {
     }
 }
 
-async function updateBrand() {
+async function updateBrandApi() {
     isLoading.value = true;
     try {
-        await useUpdateBrand(props.brandId, formFields);
+        await updateBrand(props.brandId, formFields);
         snackbar.addMessage('Brand aggiornato con successo', 'success')
         emit('refresh-data')
     } catch (error) {
@@ -107,8 +108,8 @@ async function updateBrand() {
                     text="Chiudi"
                     @click="isActive.value = false"
                 ></v-btn>
-                <v-btn v-if="brandId" :loading="isLoading" text="Aggiorna Brand" @click="updateBrand()"></v-btn>
-                <v-btn v-else :loading="isLoading" text="Crea Brand" @click="createBrand()"></v-btn>
+                <v-btn v-if="brandId" :loading="isLoading" text="Aggiorna Brand" @click="updateBrandApi()"></v-btn>
+                <v-btn v-else :loading="isLoading" text="Crea Brand" @click="createBrandApi()"></v-btn>
             </v-card-actions>
             </v-card>
         </template>

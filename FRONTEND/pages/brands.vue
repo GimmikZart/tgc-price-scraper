@@ -1,6 +1,7 @@
 <script setup>
+import { fetchBrands } from '@/api/brands';
 const {data: brands} = await useAsyncData('brands', () =>
-    useGetBrands()
+    fetchBrands()
 )
 
 async function refreshData() {

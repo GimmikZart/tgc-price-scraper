@@ -1,7 +1,9 @@
 <script setup>
+import { fetchProductsBySet } from '@/api/products';
+
 const route = useRoute()
 const setSlug = route.params.setSlug
-const { data: productList } = await useAsyncData('products', () => useGetProductsBySet(setSlug));
+const { data: productList } = await useAsyncData('products', () => fetchProductsBySet(setSlug));
 
 const openDialog = ref(false);
 const editableAgent = ref(null);

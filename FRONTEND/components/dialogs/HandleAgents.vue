@@ -1,7 +1,7 @@
 <script setup>
 import { useSnackbar } from '@/stores/useSnackbar'
 import { useDisplay } from 'vuetify'
-
+import { updateProduct, createProduct } from '@/api/products'
 
 const globalDataStore = useGlobalDataStore()
 
@@ -81,7 +81,7 @@ async function updateAgent() {
   isLoading.value = true
   try {
     formFields.set = globalDataStore.sets.find(s => s.id === formFields.set).name
-    await useUpdateProduct(formFields, props.agentToEdit.id)
+    await updateProduct(formFields, props.agentToEdit.id)
     snackbar.addMessage(`Agente per ${formFields.set} di ${formFields.store.name}  aggiornato con successo`, 'success')
     emit('refresh-data')
   } catch (error) {
@@ -96,7 +96,7 @@ async function createAgent() {
   isLoading.value = true
   try {
     formFields.setName = globalDataStore.sets.find(s => s.id === formFields.set).name
-    await useCreateProduct(formFields)
+    await createProduct(formFields)
     snackbar.addMessage(`Agente creato con successo`, 'success')
     emit('refresh-data')
   } catch (error) {
@@ -120,16 +120,11 @@ async function createAgent() {
         <v-autocomplete label="Categoria" v-model="formFields.category" :items="globalDataStore.categories" item-title="name" item-value="id" />
         <v-autocomplete label="Set" v-model="formFields.set" :items="filteredSets" item-value="id">
           <template v-slot:chip="{ props, item }">
-              <!-- <v-chip
-                v-bind="props"
-                :text="`${props.title.name} (${props.title.code})`"
-              ></v-chip> -->
               <v-chip v-bind="props">
                 {{ item.props.title.name }} ({{ item.props.title.code }})
-                <!-- {{ item.title.name }} ({{ item.title.code }}) -->
               </v-chip>
             </template>
-          <template v-slot:item="{ props, item }">
+          <template v-slot:item="{ props }">
             <v-list-item 
               v-bind="props"
               :subtitle="props.title.code"

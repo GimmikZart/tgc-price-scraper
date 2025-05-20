@@ -1,7 +1,8 @@
 <script setup>
+import { fetchGameSet } from '@/api/sets';
 const route = useRoute()
 const gameSlug = route.params.gameName
-const { data: setList } = await useAsyncData('sets', () => useGetGameSet(gameSlug));
+const { data: setList } = await useAsyncData('sets', () => fetchGameSet(gameSlug));
 
 const openDialog = ref(false);
 const editableSet = ref(null);

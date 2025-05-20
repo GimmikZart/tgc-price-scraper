@@ -1,5 +1,6 @@
 <script setup>
-const { data: gamesList } = await useAsyncData('games', useGetGames);
+import { fetchGames } from '@/api/games';
+const { data: gamesList } = await useAsyncData('games', fetchGames);
 
 const openDialog = ref(false);
 const editableGame = ref(null);

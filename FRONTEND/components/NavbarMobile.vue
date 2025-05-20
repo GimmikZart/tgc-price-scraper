@@ -1,5 +1,6 @@
 <script setup>
 import {useSnackbar} from '@/stores/useSnackbar'
+import { updateProductsBatch } from '@/api/products'
 
 const snackbar = useSnackbar()
 const isLoading = ref(false);
@@ -7,7 +8,7 @@ const isLoading = ref(false);
 async function updateAllProducts() {
     isLoading.value = true
     try {
-        await useUpdateProductsBatch()
+        await updateProductsBatch()
         snackbar.addMessage('Aggiornamento completato', 'success')
     } catch (error) {
         snackbar.addMessage(`Errore durante l'aggiornamento`, 'error', error)

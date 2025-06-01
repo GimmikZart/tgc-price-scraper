@@ -1,10 +1,9 @@
 <template>
   <v-app>
-    
-
     <!-- Contenuto principale -->
     <v-main class="bg-black" style="padding-bottom: 100px">
         <slot />
+        <SnackbarList />
     </v-main>
 
     <!-- Navbar in basso -->

@@ -1,12 +1,10 @@
 <script setup>
-import { signInApi } from '@/api/auth';
-
-const route = useRoute()
+import { signUpApi } from '@/api/auth';
 
 const email = ref("")
 const password = ref("")
 const formRef = ref(null)
-const valid = ref(false)
+const valid = ref(false)    
 const errorMessages = ref([])
 
 const emailRules = [
@@ -15,21 +13,14 @@ const emailRules = [
 ]
 
 const passwordRules = [
-    v => !!v || 'La password è obbligatoria'
+    v => !!v || 'La password è obbligatoria',
+    v  => v?.length >= 6 || 'La password deve essere di almeno 6 caratteri.'
 ]
 
-async function signIn(){
-    if(valid.value){
-        const { error } = await signInApi(email.value, password.value)
-        errorMessages.value.push(error)
-    }
+async function signUp(){
+    if(valid.value)
+        await signUpApi(email.value, password.value)
 }
-
-onMounted(() => {
-    if (route.query.needLogin === 'true') {
-        errorMessages.value.push('Devi essere autenticato')
-    }
-})
 
 definePageMeta({
     layout: 'empty'
@@ -39,7 +30,7 @@ definePageMeta({
     <section class="h-dvh flex items-center justify-center">
         <Auth :errors="errorMessages">
             <template #title>
-                Login
+                Registrati
             </template>
             <template #form>
                 <v-form ref="formRef" v-model="valid" @submit.prevent class="flex flex-col gap-2">
@@ -64,17 +55,9 @@ definePageMeta({
                         variant="outlined"
                         block
                         type="submit"
-                        @click="signIn"
+                        @click="signUp"
                     >
-                        Login
-                    </v-btn>
-                    <v-btn
-                        color="primary"
-                        variant="outlined"
-                        block
-                        to="/register"
-                    >
-                        Nuovo utente?
+                        Registrati
                     </v-btn>
                 </v-form>
             </template>

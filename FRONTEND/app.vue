@@ -1,9 +1,14 @@
 <script setup>
 import { useDeviceLayout } from '~/composables/useDeviceLayout'
 
-const { layout } = useDeviceLayout()
+const route = useRoute()
+const { layout: deviceLayout } = useDeviceLayout()
 const { connect, disconnect } = useScraperStream()
 const globalDataStore = useGlobalDataStore()
+
+const layoutName = computed(() => {
+  return route.meta.layout|| deviceLayout.value
+})
 
 onMounted(async () => {
   connect()
@@ -12,9 +17,8 @@ onMounted(async () => {
 onUnmounted(() => disconnect())
 </script>
 <template>
-  <NuxtLayout :name="layout">
+  <NuxtLayout :name="layoutName">
     <NuxtPage />
-    <SnackbarList />
   </NuxtLayout>
 </template>
 

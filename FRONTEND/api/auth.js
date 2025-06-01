@@ -30,13 +30,17 @@ export async function signInApi(email, password) {
       email: email,
       password: password
     })
+    
     if (error) {
-      throw new Error(error)
+      if(error.code === 'invalid_credentials'){
+        return { error: 'Credenziali non valide' }
+      } else {
+        return { error: 'Qualcosa è andato storto' }
+      }
     }
     router.push("/")
-    snackbar.addMessage(`Login eseguito`, 'success')
   } catch (error) {
-    snackbar.addMessage(`Errore login:`, 'error', error.message)
+    return { error: error.message }
   }
 }
 

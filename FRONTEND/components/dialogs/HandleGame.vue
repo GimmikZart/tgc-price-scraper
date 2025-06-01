@@ -37,8 +37,6 @@ watch(() => props.gameToEdit, (newVal) => {
     formFields.slug = newVal.slug
     formFields.brand = globalDataStore.brands.find(c => c.id === newVal.brand)?.id
   } else {
-    console.log('RESETTA TUTTO');
-    
     resetForm()
   }
 }, { immediate: true })

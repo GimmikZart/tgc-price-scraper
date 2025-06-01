@@ -1,5 +1,9 @@
 <script setup>
 import { fetchStores } from '@/api/stores';
+import { useUserAuth } from '@/stores/useUserAuth';
+
+const userAuth = useUserAuth()
+
 const {data: stores} = await useAsyncData('stores', () =>
 fetchStores()
 )
@@ -16,7 +20,7 @@ definePageMeta({
     <div>
         <Toolbar label="Negozi">
             <template #actions>
-                <DialogsHandleStore @refresh-data="refreshData"/>
+                <DialogsHandleStore v-if="userAuth.isAdmin" @refresh-data="refreshData"/>
             </template>
         </Toolbar>
         

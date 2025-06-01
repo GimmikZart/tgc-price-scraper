@@ -1,9 +1,11 @@
 <script setup>
 import { fetchProductsBySet } from '@/api/products';
+import { useUserAuth } from '@/stores/useUserAuth';
 
 const route = useRoute()
 const setSlug = route.params.setSlug
 const { data: productList } = await useAsyncData('products', () => fetchProductsBySet(setSlug));
+const userAuth = useUserAuth()
 
 const openDialog = ref(false);
 const editableAgent = ref(null);
@@ -49,10 +51,10 @@ definePageMeta({
     <section>
         <Toolbar backButton label="Prodotti">
             <template #actions>
-                <v-btn v-if="editMode" color="error"  @click="editMode = false">
+                <v-btn v-if="userAuth.isAdmin && editMode" color="error"  @click="editMode = false">
                     <v-icon icon="mdi-pencil-off"></v-icon>
                 </v-btn>
-                <v-btn v-else color="warning"  @click="editMode = true">
+                <v-btn v-else-if="userAuth.isAdmin && !editMode" color="warning"  @click="editMode = true">
                     <v-icon icon="mdi-pencil"></v-icon>
                 </v-btn>
                 <v-btn color="green"  @click="createNewProduct()">

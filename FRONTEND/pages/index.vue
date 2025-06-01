@@ -1,9 +1,12 @@
 <script setup>
 import { fetchGames } from '@/api/games';
+import { useUserAuth } from '@/stores/useUserAuth';
+
 const { data: gamesList } = await useAsyncData('games', fetchGames);
 
 const openDialog = ref(false);
 const editableGame = ref(null);
+const userAuth = useUserAuth()
 
 const editMode = ref(false);
 
@@ -39,13 +42,13 @@ definePageMeta({
     <section>
         <Toolbar label="Scegli Gioco">
             <template #actions>
-                <v-btn v-if="editMode" color="error"  @click="editMode = false">
+                <v-btn v-if="userAuth.isAdmin && editMode" color="error"  @click="editMode = false">
                     <v-icon icon="mdi-pencil-off"></v-icon>
                 </v-btn>
-                <v-btn v-else color="warning"  @click="editMode = true">
+                <v-btn v-else-if="userAuth.isAdmin && !editMode" color="warning"  @click="editMode = true">
                     <v-icon icon="mdi-pencil"></v-icon>
                 </v-btn>
-                <v-btn color="green"  @click="createNewProduct()">
+                <v-btn v-if="userAuth.isAdmin" color="green"  @click="createNewProduct()">
                     <v-icon icon="mdi-plus"></v-icon>
                 </v-btn>
             </template>

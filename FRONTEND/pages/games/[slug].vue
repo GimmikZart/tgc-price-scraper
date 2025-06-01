@@ -1,7 +1,10 @@
 <script setup>
 import { fetchGame } from '@/api/games'
+import { useUserAuth } from '@/stores/useUserAuth';
+
 const route = useRoute()
 const slug = route.params.slug
+const userAuth = useUserAuth()
 
 const {data: game} = await useAsyncData('game', () =>
     fetchGame(slug)
@@ -24,8 +27,8 @@ definePageMeta({
         <Toolbar backButton vertical :label="game.name">
             <template #actions>
                 <div class="w-full p-3 flex gap-3">
-                    <DialogsHandleGame :game-id="game.id" :name="game.name" :brand="game.brand.id" :slug="game.slug" :logo-url="game.logo_url" :website="game.website" :code="game.code" @refresh-data="refreshData"/>
-                    <DialogsHandleSet :game-id="game.id" @refresh-data="refreshData"/>
+                    <DialogsHandleGame v-if="userAuth.isAdmin" :game-id="game.id" :name="game.name" :brand="game.brand.id" :slug="game.slug" :logo-url="game.logo_url" :website="game.website" :code="game.code" @refresh-data="refreshData"/>
+                    <DialogsHandleSet v-if="userAuth.isAdmin" :game-id="game.id" @refresh-data="refreshData"/>
                 </div>
             </template>
         </Toolbar>

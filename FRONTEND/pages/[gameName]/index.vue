@@ -1,8 +1,11 @@
 <script setup>
 import { fetchGameSet } from '@/api/sets';
+import { useUserAuth } from '@/stores/useUserAuth';
+
 const route = useRoute()
 const gameSlug = route.params.gameName
 const { data: setList } = await useAsyncData('sets', () => fetchGameSet(gameSlug));
+const userAuth = useUserAuth()
 
 const openDialog = ref(false);
 const editableSet = ref(null);
@@ -47,13 +50,13 @@ definePageMeta({
     <section>
         <Toolbar backButton label="Sets">
             <template #actions>
-                <v-btn v-if="editMode" color="error"  @click="editMode = false">
+                <v-btn v-if="userAuth.isAdmin && editMode" color="error"  @click="editMode = false">
                     <v-icon icon="mdi-pencil-off"></v-icon>
                 </v-btn>
-                <v-btn v-else color="warning"  @click="editMode = true">
+                <v-btn v-else-if="userAuth.isAdmin && !editMode" color="warning"  @click="editMode = true">
                     <v-icon icon="mdi-pencil"></v-icon>
                 </v-btn>
-                <v-btn color="green"  @click="createNewSet()">
+                <v-btn v-if="userAuth.isAdmin" color="green"  @click="createNewSet()">
                     <v-icon icon="mdi-plus"></v-icon>
                 </v-btn>
             </template>

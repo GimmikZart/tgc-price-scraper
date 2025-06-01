@@ -57,7 +57,7 @@ function editProduct(product) {
             </template>
         </Toolbar>
         <div v-if="productList.length < 1" class="p-5">
-            <h3 class="text-xl text-center text-black/50">Nessun prodotto trovato</h3>
+            <h3 class="text-xl font-italic text-center text-white/50">Nessun prodotto trovato</h3>
         </div>
         <v-container fluid class="grid grid-cols-2 gap-2 pa-2 lg:pa-4 lg:grid-cols-8 lg:gap-4">
             <DialogsHandleAgents
@@ -65,7 +65,7 @@ function editProduct(product) {
                 :agent-to-edit="editableAgent"
                 @refresh-data="refreshData"
             />
-            <ProductCard 
+            <CardProduct 
                 v-for="product in productList"
                 :key="product.id"
                 :product="product"

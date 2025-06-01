@@ -15,20 +15,14 @@ async function refreshData() {
             <DialogsHandleGame @refresh-data="refreshData"/>
         </template>
     </Toolbar>
-    <div class="grid grid-cols-1 lg:grid-cols-4 gap-10 ">
-        <GameCard
+    <div class="grid grid-cols-2 lg:grid-cols-8 gap-10 ">
+        <CardGame
             v-for="(game, idx) in games"
             :key="idx"
-            :id="game.id"
-            :name="game.name"
-            :brand="game.brand.name"
-            :logoUrl="game.logo_url"
-            :website="game.website"
-            :slug="game.slug"
+            :game="game"
             class="w-full"
-            is-editable
             @edit-game="editGame(game)">
-        </GameCard>
+        </CardGame>
     </div>
 </div>
 </template>

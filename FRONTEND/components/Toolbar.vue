@@ -29,7 +29,7 @@ function goBack() {
         </v-btn>
         <h2 class="font-bold text-lg">{{ label }}</h2>
         <v-spacer></v-spacer>
-        <div class="flex justify-end items-center">
+        <div class="flex justify-end items-center gap-3">
             <slot name="actions" />
         </div>
     </div>

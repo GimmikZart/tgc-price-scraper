@@ -21,6 +21,7 @@ const isLoading = ref(false);
 const formFields = reactive({
   name: null,
   code: null,
+  slug: null,
   image_url: null,
   publish_date: null,
   game: null,
@@ -32,6 +33,7 @@ watch(() => props.setToEdit, (newVal) => {
     
     formFields.name = newVal.name
     formFields.code = newVal.code
+    formFields.slug = newVal.slug
     formFields.image_url = newVal.image_url
     formFields.publish_date = newVal.publish_date
     formFields.game = globalDataStore.games.find(c => c.id === newVal.game.id)?.id
@@ -46,6 +48,7 @@ const dialogTitle = computed(() => props.setToEdit ? 'Modifica Set' : 'Crea Set'
 function resetForm() {
   formFields.name= null
   formFields.code= null
+  formFields.slug= null
   formFields.image_url= null
   formFields.publish_date= null
   formFields.game= null
@@ -92,7 +95,7 @@ async function createSetApi() {
         {{ dialogTitle }}
       </v-card-title>
       <v-card-text class="flex flex-col lg:flex-row gap-2 pa-3 lg:pa-8">
-        <div class="grid grid-cols-1 gap-2 grid-rows-3" :class="mdAndDown ? 'w-full' : 'w-2/3'">
+        <div class="grid grid-cols-1 gap-2 grid-rows-5" :class="mdAndDown ? 'w-full' : 'w-2/3'">
           <v-autocomplete
             v-model="formFields.game"
             :items="globalDataStore.games"
@@ -112,6 +115,12 @@ async function createSetApi() {
             v-model="formFields.code"
             hide-details="auto"
             label="Codice"
+            clearable
+          ></v-text-field>
+          <v-text-field
+            v-model="formFields.slug"
+            hide-details="auto"
+            label="Slug"
             clearable
           ></v-text-field>
           <div class="flex gap-2">

@@ -17,13 +17,10 @@ async function refreshData() {
         </Toolbar>
         
         <div class="grid grid-cols-1 lg:grid-cols-5 gap-5">
-            <BrandCard 
+            <CardBrand 
                 v-for="brand in brands"
                 :key="brand.id"
-                :id="brand.id"
-                :name="brand.name"
-                :logoUrl="brand.logo_url"
-                :website="brand.website"
+                :brand="brand"
             />
         </div>
     </div>

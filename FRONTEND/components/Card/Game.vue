@@ -12,7 +12,7 @@ const props = defineProps({
   },
 })
 
-const emit = defineEmits(['edit-product']);
+const emit = defineEmits(['edit-game']);
 const router = useRouter()
 
 const editClass = computed(() => {

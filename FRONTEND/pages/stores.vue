@@ -17,7 +17,7 @@ async function refreshData() {
         </Toolbar>
         
         <div class="grid grid-cols-1 lg:grid-cols-5 gap-5">
-            <StoreCard 
+            <CardStore 
                 v-for="store in stores"
                 :key="store.id"
                 :id="store.id"

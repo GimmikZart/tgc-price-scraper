@@ -8,9 +8,9 @@ export function useScraperStream() {
     const connect = () => {
         eventSource = new EventSource('/api/scrape-stream')
 
-        eventSource.onopen = () => {
+        /* eventSource.onopen = () => {
             snackbar.addMessage('Apertura SSE', 'info')
-        }
+        } */
 
         eventSource.onerror = (error) => {
             console.error('Errore SSE:', error)
@@ -18,9 +18,9 @@ export function useScraperStream() {
         }
 
         // Evento di benvenuto
-        eventSource.addEventListener('connected', (e) => {
+        /* eventSource.addEventListener('connected', (e) => {
             snackbar.addMessage('SSE connesso:', 'info', e.data)
-        })
+        }) */
 
         // Quando ricevi eventi di scraping:
         eventSource.addEventListener('scraping_started', (e) => {

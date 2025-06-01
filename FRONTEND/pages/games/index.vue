@@ -5,8 +5,12 @@ const {data: games} = await useAsyncData('games', () =>
 )
 
 async function refreshData() {
-  await refreshNuxtData(['games']);
+    await refreshNuxtData(['games']);
 }
+
+definePageMeta({
+    middleware: 'auth'
+})
 </script>
 <template>
 <div>

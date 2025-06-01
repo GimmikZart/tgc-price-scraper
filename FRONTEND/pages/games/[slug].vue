@@ -14,6 +14,10 @@ const orderedSets = computed(() => game.value.sets.sort((a, b) => {
 async function refreshData() {
     await refreshNuxtData(['game']);
 }
+
+definePageMeta({
+    middleware: 'auth'
+})
 </script>
 <template>
     <div>

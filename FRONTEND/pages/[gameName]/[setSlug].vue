@@ -40,6 +40,10 @@ function editProduct(product) {
     };
     openDialog.value = true;
 }
+
+definePageMeta({
+    middleware: 'auth'
+})
 </script>
 <template>
     <section>

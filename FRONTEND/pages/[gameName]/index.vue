@@ -38,6 +38,10 @@ function editSet(set) {
     };
     openDialog.value = true;
 }
+
+definePageMeta({
+    middleware: 'auth'
+})
 </script>
 <template>
     <section>

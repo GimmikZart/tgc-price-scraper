@@ -7,6 +7,10 @@ fetchStores()
 async function refreshData() {
     await refreshNuxtData(['stores']);
 }
+
+definePageMeta({
+    middleware: 'auth'
+})
 </script>
 <template>
     <div>

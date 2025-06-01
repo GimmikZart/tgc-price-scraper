@@ -30,6 +30,10 @@ function editGame(game) {
     };
     openDialog.value = true;
 }
+
+definePageMeta({
+    middleware: 'auth'
+})
 </script>
 <template>
     <section>

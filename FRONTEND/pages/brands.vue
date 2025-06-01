@@ -7,6 +7,10 @@ const {data: brands} = await useAsyncData('brands', () =>
 async function refreshData() {
     await refreshNuxtData(['brands']);
 }
+
+definePageMeta({
+    middleware: 'auth'
+})
 </script>
 <template>
     <div>

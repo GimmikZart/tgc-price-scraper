@@ -29,7 +29,7 @@ export default async function scrapeCardsOfficial(/* { url, expansionName, numIt
 
   const url = "https://en.onepiece-cardgame.com/cardlist/"
   const expansionName = "-ROMANCE DAWN- [OP-01]"
-  const numIterations = 3
+  const numIterations = 154
 
   broadcastEvent('scraping_started', { expansionName })
 
@@ -283,9 +283,9 @@ export default async function scrapeCardsOfficial(/* { url, expansionName, numIt
       } catch (error) {
         
       }
-      console.log('carta estratta:', cardData.name || 'Sconosciuta');
-      console.log({cardData});
-      console.log('lista carte:', cardsList.length);
+      console.log('carta estratta:', cardData.name || 'Sconosciuta', cardData.cardCode || 'Sconosciuto');
+      //console.log({cardData});
+      //console.log('lista carte:', cardsList.length);
       
       // Aggiungo l’oggetto carta alla lista
       cardsList.push(cardData)
@@ -315,11 +315,11 @@ export default async function scrapeCardsOfficial(/* { url, expansionName, numIt
       ramUsed: Math.round((ramEnd - ramStart) * 100) / 100
     })
     console.log('FINITO COGLIONE');
-    console.log({cardsList});
+    //console.log({cardsList});
     
-    let result = cardsList.map(remapCardsData)
+    let result = await cardsList.map(remapCardsData)
 
-    console.log('Carte rimappate:', result);
+    //console.log('Carte rimappate:', result);
     
     printCardsInJson(expansionName, result)
     return result
@@ -335,73 +335,80 @@ export default async function scrapeCardsOfficial(/* { url, expansionName, numIt
 }
 
 function remapCardsData(cardData) {
-  if (cardData.costLife) {
-    const raw = cardData.costLife.trim()
-    if (raw.startsWith('Life')) {
-      const num = parseInt(raw.replace('Life', ''), 10)
-      cardData.life = isNaN(num) ? null : num
-    } else if (raw.startsWith('Cost')) {
-      const num = parseInt(raw.replace('Cost', ''), 10)
-      cardData.cost = isNaN(num) ? null : num
+  try {
+
+    if (cardData.costLife) {
+      const raw = cardData.costLife.trim()
+      if (raw.startsWith('Life')) {
+        const num = parseInt(raw.replace('Life', ''), 10)
+        cardData.life = isNaN(num) ? null : num
+      } else if (raw.startsWith('Cost')) {
+        const num = parseInt(raw.replace('Cost', ''), 10)
+        cardData.cost = isNaN(num) ? null : num
+      }
     }
-  }
-  delete cardData.costLife
-  
-  // power → intero senza “Power”
-  if (cardData.power) {
-    const raw = cardData.power.trim().replace('Power', '')
-    const num = parseInt(raw, 10)
-    cardData.power = isNaN(num) ? null : num
-  }
-  
-  // counter → rimuovo “Counter”, se rimane "-" o vuoto → null, altrimenti intero
-  if (cardData.counter) {
-    const raw = cardData.counter.trim().replace('Counter', '')
-    if (raw === '-' || raw === '') {
-      cardData.counter = null
-    } else {
+    delete cardData.costLife
+    
+    // power → intero senza “Power”
+    if (cardData.power) {
+      const raw = cardData.power.trim().replace('Power', '')
       const num = parseInt(raw, 10)
-      cardData.counter = isNaN(num) ? null : num
+      cardData.power = isNaN(num) ? null : num
     }
-  }
+    
+    // counter → rimuovo “Counter”, se rimane "-" o vuoto → null, altrimenti intero
+    if (cardData.counter) {
+      const raw = cardData.counter.trim().replace('Counter', '')
+      if (raw === '-' || raw === '') {
+        cardData.counter = null
+      } else {
+        const num = parseInt(raw, 10)
+        cardData.counter = isNaN(num) ? null : num
+      }
+    }
+    
+    // color → array di stringhe, rimuovo “Color” e splitto su "/"
+    if (cardData.color) {
+      const raw = cardData.color.trim().replace('Color', '')
+      cardData.color = raw
+        .split('/')
+        .map((c) => c.trim())
+        .filter((c) => c.length > 0)
+    }
+    
+    // feature → rename in “family”, rimuovo “Type” e splitto su "/"
+    if (cardData.feature) {
+      const raw = cardData.feature.trim().replace('Type', '')
+      cardData.family = raw
+        .split('/')
+        .map((f) => f.trim())
+        .filter((f) => f.length > 0)
+    }
+    delete cardData.feature
   
-  // color → array di stringhe, rimuovo “Color” e splitto su "/"
-  if (cardData.color) {
-    const raw = cardData.color.trim().replace('Color', '')
-    cardData.color = raw
-      .split('/')
-      .map((c) => c.trim())
-      .filter((c) => c.length > 0)
-  }
+    if (cardData.cardCode) {
+      const parts = cardData.cardCode.split('-')
+      cardData.expansionCode = parts[0]
+    } else {
+      cardData.expansionCode = null
+    }
+    
+    if (cardData.setName) {
+      let raw = cardData.setName.replace(/^Card Set\(s\)-/, '')
+      raw = raw.replace(/-\s*/, ' ')
+      cardData.setName = raw.trim()
+    }
+
+    if (cardData.image) {
+      cardData.image = cardData.image.split('?')[0]
+    }
   
-  // feature → rename in “family”, rimuovo “Type” e splitto su "/"
-  if (cardData.feature) {
-    const raw = cardData.feature.trim().replace('Type', '')
-    cardData.family = raw
-      .split('/')
-      .map((f) => f.trim())
-      .filter((f) => f.length > 0)
+    return cardData
+  } catch (error) {
+    console.log('Errore durante la rimappatura dei dati della carta:', cardData.name);
+    
   }
-  delete cardData.feature
-
-  if (cardData.cardCode) {
-    const parts = cardData.cardCode.split('-')
-    cardData.expansionCode = parts[0]
-  } else {
-    cardData.expansionCode = null
-  }
-  
-  if (cardData.setName) {
-    let raw = cardData.setInfo.replace(/^Card Set\(s\)-/, '')
-    raw = raw.replace(/-\s*/, ' ')
-    cardData.setInfo = raw.trim()
-  }
-
-  if (cardData.image) {
-    cardData.image = cardData.image.split('?')[0]
-  }
-
-  return cardData
+ 
 }
 
 function printCardsInJson(expansionName, cardsList) {

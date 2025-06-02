@@ -49,6 +49,9 @@ async function signOut() {
     <NuxtLink to="/"  class="text-white p-2 cursor-pointer rounded-lg">
         <v-icon size="30" icon="mdi-shopping"></v-icon>
     </NuxtLink>
+    <NuxtLink to="/cards"  class="text-white p-2 cursor-pointer rounded-lg">
+        <v-icon size="30" icon="mdi-cards"></v-icon>
+    </NuxtLink>
     <v-btn @click="signOut">
         <v-icon size="30" icon="mdi-logout"></v-icon>
     </v-btn>

@@ -71,7 +71,7 @@ definePageMeta({
                 :agent-to-edit="editableAgent"
                 @refresh-data="refreshData"
             />
-            <CardProduct 
+            <AppCardProduct 
                 v-for="product in productList"
                 :key="product.id"
                 :product="product"

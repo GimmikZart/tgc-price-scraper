@@ -55,7 +55,7 @@ definePageMeta({
         </Toolbar>
         <DialogsHandleGame v-model="openDialog" :game-to-edit="editableGame" @refresh-data="refreshData"/>
         <v-container class="grid grid-cols-2 gap-2 pa-2 lg:pa-4 lg:grid-cols-8 lg:gap-4">
-            <CardGame 
+            <AppCardGame 
                 v-for="(game, id) in gamesList" 
                 :key="id"
                 :game="game"

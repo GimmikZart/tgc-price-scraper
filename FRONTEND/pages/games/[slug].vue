@@ -46,7 +46,7 @@ definePageMeta({
             <h1 class="text-3xl text-center my-10 lg:text-5xl font-bold">SETS</h1>
             
             <div class="grid grid-cols-1 lg:grid-cols-6 gap-5 lg:gap-10 ">
-                <CardSet
+                <AppCardSet
                     v-for="(set, idx) in orderedSets"
                     :key="idx"
                     :id="set.id"

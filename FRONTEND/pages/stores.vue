@@ -25,7 +25,7 @@ definePageMeta({
         </Toolbar>
         
         <div class="grid grid-cols-1 lg:grid-cols-5 gap-5">
-            <CardStore 
+            <AppCardStore 
                 v-for="store in stores"
                 :key="store.id"
                 :id="store.id"

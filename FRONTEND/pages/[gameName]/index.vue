@@ -63,7 +63,7 @@ definePageMeta({
         </Toolbar>
         <DialogsHandleSet v-model="openDialog" :set-to-edit="editableSet" @refresh-data="refreshData"/>
         <v-container fluid class="grid grid-cols-2 gap-2 pa-2 lg:pa-4 lg:grid-cols-8 lg:gap-4">
-            <CardSet
+            <AppCardSet
                 v-for="set in setList"
                 :key="set.id"
                 :set="set"

@@ -27,8 +27,8 @@ watch(() => snackbar.lastMessageStored, (newVal) => {
 }, { immediate: true })
 </script>
 <template>
-    <div class="fixed bottom-[60px] lg:bottom-5 right-5 w-full lg:w-1/5 flex justify-end z-[2000]">
-        <div v-if="!snackbarVisible" class="flex flex-col items-end gap-3">
+    <div class="fixed bottom-[60px] lg:bottom-5 lg:right-5 w-full lg:w-1/5 flex justify-end z-[2000]">
+        <div v-if="!snackbarVisible" class="flex w-full flex-col items-end gap-3">
             <Snackbar
                 v-if="lastMessage"
                 :id="lastMessage.id"

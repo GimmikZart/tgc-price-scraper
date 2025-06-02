@@ -19,7 +19,6 @@ export default defineEventHandler(async (event) => {
       set: `${body.set}`,
       store: body.store.name
     }
-    console.log({productBody});
     await scrapeProduct(productBody)
   } catch (err) {
     throw new Error(err)

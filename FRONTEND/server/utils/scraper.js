@@ -82,7 +82,6 @@ export async function scrapeProduct({ id, url, regular_price, original_price, di
 
   const start = Date.now()
   const ramStart = process.memoryUsage().heapUsed / 1024 / 1024
-  console.log(`🕒 Inizio scraping per ${set} di ${store}`)
 
   const browser = await puppeteer.launch({
     headless: true,

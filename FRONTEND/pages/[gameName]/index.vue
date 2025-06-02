@@ -29,8 +29,6 @@ function createNewSet() {
 }
 
 function editSet(set) {
-    console.log({set});
-    
     editableSet.value = {
         id: set.id,
         name: set.name,

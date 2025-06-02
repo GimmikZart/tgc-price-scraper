@@ -20,8 +20,6 @@ function createNewProduct() {
 }
 
 function editGame(game) {
-    console.log({game});
-    
     editableGame.value = {
         id: game.id,
         name: game.name,

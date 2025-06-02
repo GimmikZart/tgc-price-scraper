@@ -39,7 +39,6 @@ export async function signInApi(email, password) {
     }
 
     const {data: profileData, error: profileError }= await client.from('profiles').select('*').eq('id', userAuth.userLogged.id).single()
-    console.log("profileData", profileData);
 
     if (profileError) {
       return { error: 'Qualcosa è andato storto' }

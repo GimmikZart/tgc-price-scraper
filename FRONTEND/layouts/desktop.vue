@@ -1,9 +1,5 @@
 <script setup>
-import { signOutApi } from '@/api/auth';
 
-async function signOut(){
-    await signOutApi()
-}
 </script>
 <template>
   <v-app>
@@ -11,7 +7,7 @@ async function signOut(){
 
     <v-main class="bg-black">
       <slot />
-      <SnackbarList />
+      <TimedSnackbarList />
     </v-main>
   </v-app>
 </template>

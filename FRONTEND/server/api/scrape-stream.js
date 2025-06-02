@@ -19,14 +19,14 @@ export default defineEventHandler(async (event) => {
     // Salva il client per inviare eventi più tardi
     clients.push({ id: clientId, res })
 
-    console.log(`👤 Client SSE connesso (${clientId}). Totale: ${clients.length}`)
+    /* console.log(`👤 Client SSE connesso (${clientId}). Totale: ${clients.length}`) */
 
     // Pulisci la connessione quando il client chiude
     event.node.req.on('close', () => {
         const index = clients.findIndex(c => c.id === clientId)
         if (index !== -1) {
             clients.splice(index, 1)
-            console.log(`❌ Client SSE disconnesso (${clientId}). Rimasti: ${clients.length}`)
+            /* console.log(`❌ Client SSE disconnesso (${clientId}). Rimasti: ${clients.length}`) */
         }
     })
 })

@@ -84,7 +84,6 @@ async function mapAndSaveCards(rawCards) {
   const outputPath = join(outputDir, 'cards.json')
   const jsonString = JSON.stringify(mappedCards, null, 2)
   await writeFile(outputPath, jsonString, 'utf-8')
-  console.log(`File JSON delle carte salvato in: ${outputPath}`)
   return mappedCards
 }
 
@@ -149,7 +148,6 @@ async function generateAndSaveFilters(mappedCards) {
   ]
 
   await Promise.all(writeOps)
-  console.log('File JSON dei filtri salvati in:', outputDir)
 }
 
 export default async function fetchCardsList() {

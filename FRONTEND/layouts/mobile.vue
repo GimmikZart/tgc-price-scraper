@@ -2,7 +2,7 @@
   <v-app>
     <v-main class="bg-black" style="padding-bottom: 100px">
         <slot />
-        <SnackbarList />
+        <TimedSnackbarList />
     </v-main>
 
     <NavbarMobile />

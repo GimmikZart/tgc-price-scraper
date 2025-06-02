@@ -12,7 +12,6 @@ export async function fetchSets() {
 }
 
 export async function fetchGameSet(gameSlug) {
-  console.log('gameSlug', gameSlug);
   const client = useSupabaseClient()
 
   const { data: game, error: gameError } = await client
@@ -56,9 +55,6 @@ export async function createSet(formData) {
 }
 
 export async function updateSet(id, formData) {
-  console.log('id', id);
-  console.log('formData', formData);
-  
   const client = useSupabaseClient()
   const { error } = await client.from('sets').update(formData).eq('id', id)
   if (error) {

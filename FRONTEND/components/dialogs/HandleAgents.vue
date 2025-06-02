@@ -35,7 +35,6 @@ const filteredSets = computed(() => {
 
 watch(() => props.agentToEdit, (newVal) => {
   if (newVal) {
-    console.log({newVal});
     
     formFields.store = globalDataStore.stores.find(s => s.id === newVal.store)
     formFields.game = newVal.game

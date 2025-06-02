@@ -18,6 +18,10 @@ const props = defineProps({
         type: String,
         default: 'info'
     },
+    duration: {
+        type: Number,
+        default: 5000
+    }
 })
 
 const snackbar = useSnackbar()
@@ -32,7 +36,6 @@ const snackClasses = computed(() => {
 })
 
 function removeMessage() {
-    console.log(`Removing message with id: ${props.id}`);
     snackbar.removeMessage(props.id)
     if(snackbar.lastMessageStored?.id === props.id) {
         snackbar.lastMessageStored = null

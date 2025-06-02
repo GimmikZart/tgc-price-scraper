@@ -29,8 +29,6 @@ const formFields = reactive({
 
 watch(() => props.setToEdit, (newVal) => {
   if (newVal) {
-    console.log({newVal});
-    
     formFields.name = newVal.name
     formFields.code = newVal.code
     formFields.slug = newVal.slug

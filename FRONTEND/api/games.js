@@ -32,13 +32,9 @@ export async function createGame(formData) {
 
 export async function updateGame(formData, id) {
   const client = useSupabaseClient()
-  console.log('formData', formData)
-  console.log('id', id);
   
   const { data, error } = await client.from('games').update(formData).eq('id', id)
 
-  console.log('data', data)
-  console.log('error', error);
   if (error) {
     throw new Error(error.message)
   }

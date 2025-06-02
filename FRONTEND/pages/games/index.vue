@@ -24,13 +24,13 @@ definePageMeta({
         </template>
     </Toolbar>
     <div class="grid grid-cols-2 lg:grid-cols-8 gap-10 ">
-        <CardGame
+        <AppCardGame
             v-for="(game, idx) in games"
             :key="idx"
             :game="game"
             class="w-full"
             @edit-game="editGame(game)">
-        </CardGame>
+        </AppCardGame>
     </div>
 </div>
 </template>

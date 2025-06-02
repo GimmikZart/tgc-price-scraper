@@ -7,7 +7,7 @@ const filtered = computed(() => {
 })
 
 const currentPage = ref(2)
-const itemsPerPage = ref(20)
+const itemsPerPage = ref(32)
 
 const totalPages = computed(() => Math.max(1,Math.ceil(filtered.value.length / itemsPerPage.value))) 
 const paginated = computed(() => {

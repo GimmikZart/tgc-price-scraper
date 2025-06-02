@@ -3,16 +3,23 @@ import { signOutApi } from '@/api/auth';
 import { useRouter } from 'vue-router'
 import { useSnackbar } from '@/stores/useSnackbar'
 import { useUserAuth } from '@/stores/useUserAuth';
+import {fetchCardsFromOfficialWebSite} from '@/api/cardsFromApi'
 
 const snackbar = useSnackbar()
 const router = useRouter()
 const userAuth = useUserAuth()
+
+const test = ref("prova")
 
 async function signOut(){
     await signOutApi()
 }
 function goToLogsView() {
   router.push('/logs')
+}
+
+async function scrapaMaledetto(){
+  test.value = await fetchCardsFromOfficialWebSite()
 }
 </script>
 <template>
@@ -34,6 +41,10 @@ function goToLogsView() {
         <v-spacer></v-spacer>
       </v-list>
       <div class="absolute bottom-0 w-full flex flex-col gap-3 p-3">
+        <p>
+          {{test}}
+        </p>
+        <v-btn block @click="scrapaMaledetto">SCRAPA CARTE</v-btn>
         <v-btn v-if="userAuth.isAdmin"  variant="outlined" block color="white" @click="goToLogsView()">
             AVVISI
             <v-badge

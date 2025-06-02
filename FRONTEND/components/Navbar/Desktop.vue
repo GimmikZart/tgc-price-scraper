@@ -9,8 +9,6 @@ const snackbar = useSnackbar()
 const router = useRouter()
 const userAuth = useUserAuth()
 
-const test = ref("prova")
-
 async function signOut(){
     await signOutApi()
 }
@@ -19,7 +17,7 @@ function goToLogsView() {
 }
 
 async function scrapaMaledetto(){
-  test.value = await fetchCardsFromOfficialWebSite()
+  await fetchCardsFromOfficialWebSite()
 }
 </script>
 <template>
@@ -41,9 +39,6 @@ async function scrapaMaledetto(){
         <v-spacer></v-spacer>
       </v-list>
       <div class="absolute bottom-0 w-full flex flex-col gap-3 p-3">
-        <p>
-          {{test}}
-        </p>
         <v-btn block @click="scrapaMaledetto">SCRAPA CARTE</v-btn>
         <v-btn v-if="userAuth.isAdmin"  variant="outlined" block color="white" @click="goToLogsView()">
             AVVISI

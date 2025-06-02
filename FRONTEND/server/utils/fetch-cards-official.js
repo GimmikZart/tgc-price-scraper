@@ -2,7 +2,6 @@ import { broadcastEvent } from '../api/scrape-stream'
 import puppeteer from 'puppeteer'
 import fs from 'fs'
 import path from 'path'
-import { log } from 'console'
 
 /**
  * Scrapes a list of cards from the target site following the specified flow:
@@ -95,23 +94,6 @@ export default async function scrapeCardsOfficial(/* { url, expansionName, numIt
     await new Promise(resolve => setTimeout(resolve, 2000))
 
     console.log('andiamo avanti');
-    
-    // Attendo solo che compaia almeno un <li class="selModalClose"> da qualche parte
-    /* await page.waitForSelector('.selModalInner', { visible: true })
-    const selModalInner = await page.$$('.selModalInner .selModalList ul li.selModalClose')
-    console.log(`Trovati ${selModalInner.length} elementi <li> nel modal.`); */
-
-    /* const debugDir = path.resolve(process.cwd(), 'debug-scrape')
-    if (!fs.existsSync(debugDir)) fs.mkdirSync(debugDir)
-    await page.screenshot({
-      path: path.join(debugDir, 'modal-not-found.png'),
-      fullPage: true
-    })
-    const html = await page.content()
-    fs.writeFileSync(
-      path.join(debugDir, 'modal-not-found.html'),
-      html
-    ) */
 
 
     // 3) Attendi i <li> dentro il modal generico .selModal (non #cardlist)
@@ -197,12 +179,12 @@ export default async function scrapeCardsOfficial(/* { url, expansionName, numIt
         cardData.name = null
       }
       try {
-        cardData.code       = await page.$eval(
+        cardData.cardCode       = await page.$eval(
           '.fancybox-slide--current dt div.infoCol span:nth-child(1)',
           el => el.textContent?.trim() || ''
         )
       } catch {
-        cardData.code = null
+        cardData.cardCode = null
       }
       try {
         cardData.rarity     = await page.$eval(
@@ -213,12 +195,12 @@ export default async function scrapeCardsOfficial(/* { url, expansionName, numIt
         cardData.rarity = null
       }
       try {
-        cardData.headerType = await page.$eval(
+        cardData.type = await page.$eval(
           '.fancybox-slide--current dt div.infoCol span:nth-child(3)',
           el => el.textContent?.trim() || ''
         )
       } catch {
-        cardData.headerType = null
+        cardData.type = null
       }
       try {
         cardData.costLife   = await page.$eval(
@@ -285,12 +267,21 @@ export default async function scrapeCardsOfficial(/* { url, expansionName, numIt
         cardData.trigger = null
       }
       try {
-        cardData.setInfo    = await page.$eval(
-          '.fancybox-slide--current dd div.backCol div.getInfo:nth-child(1)',
+        cardData.setName    = await page.$eval(
+          '.fancybox-slide--current dd div.backCol div.getInfo:not(.remarks)',
           el => el.textContent?.trim() || ''
         )
       } catch {
-        cardData.setInfo = null
+        cardData.setName = null
+      }
+
+      try {
+        cardData.image = await page.$eval(
+          '.fancybox-slide--current dd div.frontCol img',
+          el => el.src || ''
+        )
+      } catch (error) {
+        
       }
       console.log('carta estratta:', cardData.name || 'Sconosciuta');
       console.log({cardData});
@@ -326,7 +317,12 @@ export default async function scrapeCardsOfficial(/* { url, expansionName, numIt
     console.log('FINITO COGLIONE');
     console.log({cardsList});
     
-    return cardsList
+    let result = cardsList.map(remapCardsData)
+
+    console.log('Carte rimappate:', result);
+    
+    printCardsInJson(expansionName, result)
+    return result
 
   } catch (error) {
     // In caso di errore, chiudo sempre il browser e segnalo l’errore
@@ -336,4 +332,96 @@ export default async function scrapeCardsOfficial(/* { url, expansionName, numIt
     broadcastEvent('scraping_cards_error', { expansionName, error: error.message })
     throw error
   }
+}
+
+function remapCardsData(cardData) {
+  if (cardData.costLife) {
+    const raw = cardData.costLife.trim()
+    if (raw.startsWith('Life')) {
+      const num = parseInt(raw.replace('Life', ''), 10)
+      cardData.life = isNaN(num) ? null : num
+    } else if (raw.startsWith('Cost')) {
+      const num = parseInt(raw.replace('Cost', ''), 10)
+      cardData.cost = isNaN(num) ? null : num
+    }
+  }
+  delete cardData.costLife
+  
+  // power → intero senza “Power”
+  if (cardData.power) {
+    const raw = cardData.power.trim().replace('Power', '')
+    const num = parseInt(raw, 10)
+    cardData.power = isNaN(num) ? null : num
+  }
+  
+  // counter → rimuovo “Counter”, se rimane "-" o vuoto → null, altrimenti intero
+  if (cardData.counter) {
+    const raw = cardData.counter.trim().replace('Counter', '')
+    if (raw === '-' || raw === '') {
+      cardData.counter = null
+    } else {
+      const num = parseInt(raw, 10)
+      cardData.counter = isNaN(num) ? null : num
+    }
+  }
+  
+  // color → array di stringhe, rimuovo “Color” e splitto su "/"
+  if (cardData.color) {
+    const raw = cardData.color.trim().replace('Color', '')
+    cardData.color = raw
+      .split('/')
+      .map((c) => c.trim())
+      .filter((c) => c.length > 0)
+  }
+  
+  // feature → rename in “family”, rimuovo “Type” e splitto su "/"
+  if (cardData.feature) {
+    const raw = cardData.feature.trim().replace('Type', '')
+    cardData.family = raw
+      .split('/')
+      .map((f) => f.trim())
+      .filter((f) => f.length > 0)
+  }
+  delete cardData.feature
+
+  if (cardData.cardCode) {
+    const parts = cardData.cardCode.split('-')
+    cardData.expansionCode = parts[0]
+  } else {
+    cardData.expansionCode = null
+  }
+  
+  if (cardData.setName) {
+    let raw = cardData.setInfo.replace(/^Card Set\(s\)-/, '')
+    raw = raw.replace(/-\s*/, ' ')
+    cardData.setInfo = raw.trim()
+  }
+
+  if (cardData.image) {
+    cardData.image = cardData.image.split('?')[0]
+  }
+
+  return cardData
+}
+
+function printCardsInJson(expansionName, cardsList) {
+  const rawName = expansionName.replace(/[-\[\]]/g, '')    
+    .replace(/\s+/g, ' ')                                    
+    .trim()                                                  
+  const fileName = rawName.replace(/\s/g, '_').toLowerCase() 
+
+  const dir = path.join(process.cwd(), 'public', 'data', 'cards')
+
+  if (!fs.existsSync(dir)) {
+    fs.mkdirSync(dir, { recursive: true })
+  }
+
+  const filePath = path.join(dir, `${fileName}.json`)
+  fs.writeFileSync(
+    filePath,
+    JSON.stringify(cardsList, null, 2),
+    'utf-8'
+  )
+
+  console.log(`💾 File salvato in: ${filePath}`)
 }

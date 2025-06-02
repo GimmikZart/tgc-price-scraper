@@ -1,0 +1,69 @@
+[
+  {
+    "name": "Roronoa Zoro",
+    "cardCode": "OP01-001",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Red"
+    ],
+    "effect": "Effect[DON!! x1] [Your Turn] All of your Characters gain +1000 power.",
+    "trigger": null,
+    "setInfo": "ROMANCE DAWN [OP01]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-001.png",
+    "life": 5,
+    "family": [
+      "Supernovas",
+      "Straw Hat Crew"
+    ],
+    "expansionCode": "OP01"
+  },
+  {
+    "name": "Roronoa Zoro",
+    "cardCode": "OP01-001",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Red"
+    ],
+    "effect": "Effect[DON!! x1] [Your Turn] All of your Characters gain +1000 power.",
+    "trigger": null,
+    "setInfo": "ROMANCE DAWN [OP01]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-001_p1.png",
+    "life": 5,
+    "family": [
+      "Supernovas",
+      "Straw Hat Crew"
+    ],
+    "expansionCode": "OP01"
+  },
+  {
+    "name": "Trafalgar Law",
+    "cardCode": "OP01-002",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Red",
+      "Green"
+    ],
+    "effect": "Effect[Activate: Main] [Once Per Turn] ➁ (You may rest the specified number of DON!! cards in your cost area.): If you have 5 Characters, return 1 of your Characters to the owner's hand. Then, play up to 1 Character with a cost of 5 or less from your hand that is a different color than the returned Character.",
+    "trigger": null,
+    "setInfo": "ROMANCE DAWN [OP01]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-002.png",
+    "life": 4,
+    "family": [
+      "Supernovas",
+      "Heart Pirates"
+    ],
+    "expansionCode": "OP01"
+  }
+]

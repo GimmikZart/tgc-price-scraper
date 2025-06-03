@@ -1,6 +1,6 @@
 <script setup>
 import { useRouter } from 'vue-router'
-
+const route = useRoute()
 const router = useRouter()
 
 const props = defineProps({
@@ -23,14 +23,18 @@ function goBack() {
 }
 </script>
 <template>
-    <div class="bg-black w-full sticky top-0 left-0 p-4 z-[1000] flex items-center border-b" :class="vertical ? 'flex-col' : 'flex-row'">
-        <v-btn v-if="backButton" variant="plain" @click="goBack">
-            <v-icon size="30" icon="mdi-chevron-left"></v-icon>
-        </v-btn>
-        <h2 class="font-bold text-lg">{{ label }}</h2>
-        <v-spacer></v-spacer>
-        <div class="flex justify-end items-center gap-3">
-            <slot name="actions" />
+    <div class="bg-black w-full sticky top-0 left-0 z-[1000] border-b" :class="vertical ? 'flex-col' : 'flex-row'">
+        <div class="flex items-center p-4">
+            <v-btn v-if="backButton" variant="plain" @click="goBack">
+                <v-icon size="30" icon="mdi-chevron-left"></v-icon>
+            </v-btn>
+            <h2 class="font-bold text-lg">{{ label }}</h2>
+            <v-spacer></v-spacer>
+            <div class="flex justify-end items-center gap-3">
+                <slot name="actions" />
+            </div>
         </div>
+        
+        <TimedSnackbarList v-if="!route.meta.hideFloatSnackbar"/>
     </div>
 </template>

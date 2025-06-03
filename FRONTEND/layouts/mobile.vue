@@ -1,10 +1,8 @@
 <template>
   <v-app>
     <v-main class="bg-black" style="padding-bottom: 100px">
-        <slot />
-        <TimedSnackbarList v-if="!route.meta.hideFloatSnackbar"/>
+      <slot />
     </v-main>
-
     <NavbarMobile />
   </v-app>
 </template>

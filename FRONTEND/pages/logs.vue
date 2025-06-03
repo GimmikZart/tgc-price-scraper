@@ -19,6 +19,12 @@ watch(
 definePageMeta({
     hideFloatSnackbar: true
 })
+
+onMounted(() => {
+    if (autoscroll.value && containerRef.value) {
+        containerRef.value.scrollTop = containerRef.value.scrollHeight
+    }
+})
 </script>
 <template>
     <section class="pb-20 flex flex-col h-dvh">

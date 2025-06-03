@@ -5,9 +5,8 @@ const route = useRoute()
   <v-app>
     <NavbarDesktop/>
 
-    <v-main class="bg-black">
+    <v-main class="bg-black relative">
       <slot />
-      <TimedSnackbarList v-if="!route.meta.hideFloatSnackbar"/>
     </v-main>
   </v-app>
 </template>

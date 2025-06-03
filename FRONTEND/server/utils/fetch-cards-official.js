@@ -204,7 +204,7 @@ export default async function scrapeCardsOfficial(/* { url, expansionName, numIt
           el => el.textContent?.trim() || ''
         )
       } catch(error) {
-        broadcastEvent('generic_error', `Rarità carta non trovata nella slide corrente`)
+        broadcastEvent('generic_error', `Rarità carta non trovata per "${cardData.name} -> ${cardData.code}".`)
         cardData.rarity = null
       }
       try {
@@ -213,7 +213,7 @@ export default async function scrapeCardsOfficial(/* { url, expansionName, numIt
           el => el.textContent?.trim() || ''
         )
       } catch(error) {
-        broadcastEvent('generic_error', `Tipo carta non trovato nella slide corrente`)
+        broadcastEvent('generic_error', `Tipo carta non trovato per "${cardData.name} -> ${cardData.code}".`)
         cardData.type = null
       }
       try {
@@ -222,7 +222,7 @@ export default async function scrapeCardsOfficial(/* { url, expansionName, numIt
           el => el.textContent?.trim() || ''
         )
       } catch(error) {
-        broadcastEvent('generic_error', `Valore Life/Cost non trovato nella slide corrente`)
+        broadcastEvent('generic_error', `Valore Life/Cost non trovato per "${cardData.name} -> ${cardData.code}".`)
         cardData.costLife = null
       }
       try {
@@ -231,7 +231,7 @@ export default async function scrapeCardsOfficial(/* { url, expansionName, numIt
           el => el.textContent?.trim() || ''
         )
       } catch(error) {
-        broadcastEvent('generic_error', `Valore attributo non trovato nella slide corrente`)
+        broadcastEvent('generic_error', `Valore attributo non trovato per "${cardData.name} -> ${cardData.code}".`)
         cardData.attribute = null
       }
       try {
@@ -240,7 +240,7 @@ export default async function scrapeCardsOfficial(/* { url, expansionName, numIt
           el => el.textContent?.trim() || ''
         )
       } catch(error) {
-        broadcastEvent('generic_error', `Valore power non trovato nella slide corrente`)
+        broadcastEvent('generic_error', `Valore power non trovato per "${cardData.name} -> ${cardData.code}".`)
         cardData.power = null
       }
       try {
@@ -249,7 +249,7 @@ export default async function scrapeCardsOfficial(/* { url, expansionName, numIt
           el => el.textContent?.trim() || ''
         )
       } catch(error) {
-        broadcastEvent('generic_error', `Valore counter non trovato nella slide corrente`)
+        broadcastEvent('generic_error', `Valore counter non trovato per "${cardData.name} -> ${cardData.code}".`)
         cardData.counter = null
       }
       try {
@@ -258,7 +258,7 @@ export default async function scrapeCardsOfficial(/* { url, expansionName, numIt
           el => el.textContent?.trim() || ''
         )
       } catch(error) {
-        broadcastEvent('generic_error', `Valore color non trovato nella slide corrente`)
+        broadcastEvent('generic_error', `Valore color non trovato per "${cardData.name} -> ${cardData.code}".`)
         cardData.color = null
       }
       try {
@@ -267,7 +267,7 @@ export default async function scrapeCardsOfficial(/* { url, expansionName, numIt
           el => el.textContent?.trim() || ''
         )
       } catch(error) {
-        broadcastEvent('generic_error', `Valore family non trovato nella slide corrente`)
+        broadcastEvent('generic_error', `Valore family non trovato per "${cardData.name} -> ${cardData.code}".`)
         cardData.family = null
       }
       try {
@@ -276,7 +276,7 @@ export default async function scrapeCardsOfficial(/* { url, expansionName, numIt
           el => el.textContent?.trim() || ''
         )
       } catch(error) {
-        broadcastEvent('generic_error', `Valore effect non trovato nella slide corrente`)
+        broadcastEvent('generic_error', `Valore effect non trovato per "${cardData.name} -> ${cardData.code}".`)
         cardData.effect = null
       }
       try {
@@ -285,7 +285,7 @@ export default async function scrapeCardsOfficial(/* { url, expansionName, numIt
           el => el.textContent?.trim() || ''
         )
       } catch(error) {
-        broadcastEvent('generic_error', `Valore trigger non trovato nella slide corrente`)
+        broadcastEvent('generic_error', `Valore trigger non trovato per "${cardData.name} -> ${cardData.code}".`)
         cardData.trigger = null
       }
       try {
@@ -294,7 +294,7 @@ export default async function scrapeCardsOfficial(/* { url, expansionName, numIt
           el => el.textContent?.trim() || ''
         )
       } catch(error) {
-        broadcastEvent('generic_error', `Valore Card Set non trovato nella slide corrente`)
+        broadcastEvent('generic_error', `Valore Card Set non trovato per "${cardData.name} -> ${cardData.code}".`)
         cardData.setName = null
       }
 
@@ -304,7 +304,7 @@ export default async function scrapeCardsOfficial(/* { url, expansionName, numIt
           el => el.src || ''
         )
       } catch (error) {
-        broadcastEvent('generic_error', `Valore immagine non trovato nella slide corrente`)
+        broadcastEvent('generic_error', `Valore immagine non trovato per "${cardData.name} -> ${cardData.code}".`)
         cardData.image = null
       }
 

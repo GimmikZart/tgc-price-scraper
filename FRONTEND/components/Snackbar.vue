@@ -18,10 +18,6 @@ const props = defineProps({
         type: String,
         default: 'info'
     },
-    duration: {
-        type: Number,
-        default: 5000
-    },
     isFloating: {
         type: Boolean,
         default: true
@@ -47,18 +43,18 @@ function removeMessage() {
 }
 </script>
 <template>
-    <div class="w-full mx-auto border rounded p-3 flex gap-3 items-center" :class="snackClasses">
+    <div class="w-full mx-auto border px-3 py-2 flex gap-2 items-center" :class="snackClasses">
         <v-btn v-if="isFloating" size="xs" variant="text" to="/logs" class="pa-0">
             <v-icon>mdi-information</v-icon>
         </v-btn>
         <div class="flex flex-col">
-            <h3 class="font-medium text-white">{{ title }}</h3>
-            <p v-if="message" class="font-italic break-all text-sm  text-white">{{ message }}</p>
+            <h3 class="font-medium text-xs text-white text-ellipsis">{{ title }}</h3>
+            <p v-if="message" class="font-italic break-all text-xs  text-white text-ellipsis">{{ message }}</p>
         </div>
         <v-spacer/>
         <v-btn
-            variant="plain"
-            color="white"
+            size="xs" 
+            variant="text"
             @click="removeMessage"
         >
             <v-icon color="white">mdi-close</v-icon>

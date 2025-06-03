@@ -1,0 +1,3663 @@
+[
+  {
+    "name": "Edward.Newgate",
+    "code": "OP02-001",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": null,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "The Four Emperors",
+      "Whitebeard Pirates"
+    ],
+    "effect": "[End of Your Turn] Add 1 card from the top of your Life cards to your hand.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-001.png",
+    "life": 6,
+    "abilityKeywords": [
+      "[End of Your Turn]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Edward.Newgate",
+    "code": "OP02-001",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": null,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "The Four Emperors",
+      "Whitebeard Pirates"
+    ],
+    "effect": "[End of Your Turn] Add 1 card from the top of your Life cards to your hand.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-001_p1.png",
+    "life": 6,
+    "abilityKeywords": [
+      "[End of Your Turn]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Monkey.D.Garp",
+    "code": "OP02-002",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Red",
+      "Black"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": "[Your Turn] When this Leader or any of your Characters is given a DON!! card, give up to 1 of your opponent's Characters with a cost of 7 or less −1 cost during this turn.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-002.png",
+    "life": 4,
+    "abilityKeywords": [
+      "[Your Turn]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Monkey.D.Garp",
+    "code": "OP02-002",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Red",
+      "Black"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": "[Your Turn] When this Leader or any of your Characters is given a DON!! card, give up to 1 of your opponent's Characters with a cost of 7 or less −1 cost during this turn.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-002_p1.png",
+    "life": 4,
+    "abilityKeywords": [
+      "[Your Turn]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Atmos",
+    "code": "OP02-003",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 6000,
+    "counter": 1000,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Whitebeard Pirates"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-003.png",
+    "cost": 4,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Edward.Newgate",
+    "code": "OP02-004",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 10000,
+    "counter": null,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "The Four Emperors",
+      "Whitebeard Pirates"
+    ],
+    "effect": "[On Play] Up to 1 of your Leader gains +2000 power until the start of your next turn. Then, you cannot add Life cards to your hand using your own effects during this turn.[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 3000 power or less.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-004.png",
+    "cost": 9,
+    "abilityKeywords": [
+      "[When Attacking]",
+      "[DON!! x2]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Edward.Newgate",
+    "code": "OP02-004",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 10000,
+    "counter": null,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "The Four Emperors",
+      "Whitebeard Pirates"
+    ],
+    "effect": "[On Play] Up to 1 of your Leader gains +2000 power until the start of your next turn. Then, you cannot add Life cards to your hand using your own effects during this turn.[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 3000 power or less.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-004_p1.png",
+    "cost": 9,
+    "abilityKeywords": [
+      "[When Attacking]",
+      "[DON!! x2]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Curly.Dadan",
+    "code": "OP02-005",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 3000,
+    "counter": 1000,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Mountain Bandits"
+    ],
+    "effect": "[On Play] Look at up to 5 cards from the top of your deck; reveal up to 1 red Character with a cost of 1 and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-005.png",
+    "cost": 2,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Kingdew",
+    "code": "OP02-006",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 7000,
+    "counter": 1000,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Whitebeard Pirates"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-006.png",
+    "cost": 5,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Thatch",
+    "code": "OP02-007",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": 8000,
+    "counter": 1000,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Whitebeard Pirates"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-007.png",
+    "cost": 6,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Jozu",
+    "code": "OP02-008",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 4000,
+    "counter": 2000,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[DON!! x1] If you have 2 or less Life cards and your Leader's type includes \"Whitebeard Pirates\", this Character gains [Rush].(This card can attack on the turn in which it is played.)",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-008.png",
+    "cost": 4,
+    "abilityKeywords": [
+      "[Rush]",
+      "[DON!! x1]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Squard",
+    "code": "OP02-009",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Whitebeard Pirates Allies"
+    ],
+    "effect": "[On Play] If your Leader's type includes \"Whitebeard Pirates\", give up to 1 of your opponent's Characters −4000 power during this turn and add 1 card from the top of your Life cards to your hand.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-009.png",
+    "cost": 3,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Squard",
+    "code": "OP02-009",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Whitebeard Pirates Allies"
+    ],
+    "effect": "[On Play] If your Leader's type includes \"Whitebeard Pirates\", give up to 1 of your opponent's Characters −4000 power during this turn and add 1 card from the top of your Life cards to your hand.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-009_p1.png",
+    "cost": 3,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Dogura",
+    "code": "OP02-010",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 2000,
+    "counter": 1000,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Mountain Bandits"
+    ],
+    "effect": "[Activate: Main] You may rest this Character: Play up to 1 red Character other than [Dogura] with a cost of 1 from your hand.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-010.png",
+    "cost": 1,
+    "abilityKeywords": [
+      "[Activate: Main]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Vista",
+    "code": "OP02-011",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 3000,
+    "counter": 1000,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[On Play] K.O. up to 1 of your opponent's Characters with 3000 power or less.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-011.png",
+    "cost": 3,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Blenheim",
+    "code": "OP02-012",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 3000,
+    "counter": null,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-012.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[Blocker]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Portgas.D.Ace",
+    "code": "OP02-013",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 7000,
+    "counter": null,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[On Play] Give up to 2 of your opponent's Characters −3000 power during this turn. Then, if your Leader's type includes \"Whitebeard Pirates\", this Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-013.png",
+    "cost": 7,
+    "abilityKeywords": [
+      "[Rush]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Portgas.D.Ace",
+    "code": "OP02-013",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 7000,
+    "counter": null,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[On Play] Give up to 2 of your opponent's Characters −3000 power during this turn. Then, if your Leader's type includes \"Whitebeard Pirates\", this Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-013_p1.png",
+    "cost": 7,
+    "abilityKeywords": [
+      "[Rush]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Portgas.D.Ace",
+    "code": "OP02-013",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 7000,
+    "counter": null,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[On Play] Give up to 2 of your opponent's Characters −3000 power during this turn. Then, if your Leader's type includes \"Whitebeard Pirates\", this Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-013_p2.png",
+    "cost": 7,
+    "abilityKeywords": [
+      "[Rush]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Whitey Bay",
+    "code": "OP02-014",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 2000,
+    "counter": 1000,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Whitebeard Pirates Allies"
+    ],
+    "effect": "[DON!! x1] This Character can also attack your opponent's active Characters.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-014.png",
+    "cost": 1,
+    "abilityKeywords": [
+      "[DON!! x1]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Makino",
+    "code": "OP02-015",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": null,
+    "counter": 2000,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Windmill Village"
+    ],
+    "effect": "[Activate: Main] You may rest this Character: Up to 1 of your red Characters with a cost of 1 gains +3000 power during this turn.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-015.png",
+    "cost": 1,
+    "abilityKeywords": [
+      "[Activate: Main]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Magura",
+    "code": "OP02-016",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 2000,
+    "counter": 1000,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Mountain Bandits"
+    ],
+    "effect": "[On Play] Up to 1 of your red Characters with a cost of 1 gains +3000 power during this turn.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-016.png",
+    "cost": 1,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Masked Deuce",
+    "code": "OP02-017",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": 3000,
+    "counter": 2000,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Spade Pirates"
+    ],
+    "effect": "[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 2000 power or less.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-017.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[When Attacking]",
+      "[DON!! x2]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Masked Deuce",
+    "code": "OP02-017",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": 3000,
+    "counter": 2000,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Spade Pirates"
+    ],
+    "effect": "[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 2000 power or less.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-017_p1.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[When Attacking]",
+      "[DON!! x2]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Marco",
+    "code": "OP02-018",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] You may trash 1 card with a type including \"Whitebeard Pirates\" from your hand: If you have 2 or less Life cards, play this Character card from your trash rested.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-018.png",
+    "cost": 4,
+    "abilityKeywords": [
+      "[Blocker]",
+      "[On K.O.]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Marco",
+    "code": "OP02-018",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] You may trash 1 card with a type including \"Whitebeard Pirates\" from your hand: If you have 2 or less Life cards, play this Character card from your trash rested.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-018_p1.png",
+    "cost": 4,
+    "abilityKeywords": [
+      "[Blocker]",
+      "[On K.O.]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Rakuyo",
+    "code": "OP02-019",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 4000,
+    "counter": 1000,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[DON!! x1] [Your Turn] All of your Characters with a type including \"Whitebeard Pirates\" gain +1000 power.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-019.png",
+    "cost": 3,
+    "abilityKeywords": [
+      "[Your Turn]",
+      "[DON!! x1]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "LittleOars Jr.",
+    "code": "OP02-020",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 9000,
+    "counter": 1000,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Giant",
+      "Whitebeard Pirates Allies"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-020.png",
+    "cost": 7,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Seaquake",
+    "code": "OP02-021",
+    "rarity": "R",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "The Four Emperors",
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Main] If your Leader's type includes \"Whitebeard Pirates\", K.O. up to 1 of your opponent's Characters with 3000 power or less.",
+    "trigger": "Trigger[Trigger] Give up to 1 of your opponent's Leader or Character cards −3000 power during this turn.",
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-021.png",
+    "cost": 1,
+    "abilityKeywords": [
+      "[Main]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Whitebeard Pirates",
+    "code": "OP02-022",
+    "rarity": "UC",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 Character card with a type including \"Whitebeard Pirates\" and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-022.png",
+    "cost": 1,
+    "abilityKeywords": [
+      "[Main]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "You May Be a Fool...but I Still Love You",
+    "code": "OP02-023",
+    "rarity": "C",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "The Four Emperors",
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Main] If you have 3 or less Life cards, you cannot add Life cards to your hand using your own effects during this turn.",
+    "trigger": "Trigger[Trigger] Up to 1 of your Leader gains +1000 power during this turn.",
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-023.png",
+    "cost": 1,
+    "abilityKeywords": [
+      "[Main]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Moby Dick",
+    "code": "OP02-024",
+    "rarity": "C",
+    "type": "STAGE",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Your Turn] If you have 1 or less Life cards, your [Edward.Newgate] and all your Characters with a type including \"Whitebeard Pirates\" gain +2000 power.",
+    "trigger": "Trigger[Trigger] Play this card.",
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-024.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[Your Turn]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Kin'emon",
+    "code": "OP02-025",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Land of Wano",
+      "The Akazaya Nine"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] If you have 1 or less Characters, the next time you play a {Land of Wano} type Character card with a cost of 3 or more from your hand during this turn, the cost will be reduced by 1.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-025.png",
+    "life": 5,
+    "abilityKeywords": [
+      "[Activate: Main]",
+      "[Once Per Turn]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Kin'emon",
+    "code": "OP02-025",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Land of Wano",
+      "The Akazaya Nine"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] If you have 1 or less Characters, the next time you play a {Land of Wano} type Character card with a cost of 3 or more from your hand during this turn, the cost will be reduced by 1.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-025_p1.png",
+    "life": 5,
+    "abilityKeywords": [
+      "[Activate: Main]",
+      "[Once Per Turn]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Sanji",
+    "code": "OP02-026",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Green",
+      "Blue"
+    ],
+    "family": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Once Per Turn] When you play a Character with no base effect from your hand, if you have 3 or less Characters, set up to 2 of your DON!! cards as active.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-026.png",
+    "life": 4,
+    "abilityKeywords": [
+      "[Once Per Turn]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Sanji",
+    "code": "OP02-026",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Green",
+      "Blue"
+    ],
+    "family": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Once Per Turn] When you play a Character with no base effect from your hand, if you have 3 or less Characters, set up to 2 of your DON!! cards as active.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-026_p1.png",
+    "life": 4,
+    "abilityKeywords": [
+      "[Once Per Turn]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Inuarashi",
+    "code": "OP02-027",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 4000,
+    "counter": 1000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Minks",
+      "Land of Wano",
+      "The Akazaya Nine"
+    ],
+    "effect": "If all of your DON!! cards are rested, this Character cannot be removed from the field by your opponent's effects.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-027.png",
+    "cost": 3,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Usopp",
+    "code": "OP02-028",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Ranged",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "FILM",
+      "Straw Hat Crew"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-028.png",
+    "cost": 3,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Carrot",
+    "code": "OP02-029",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": 2000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Minks"
+    ],
+    "effect": "[End of Your Turn] Set up to 1 of your DON!! cards as active.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-029.png",
+    "cost": 5,
+    "abilityKeywords": [
+      "[End of Your Turn]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Kouzuki Oden",
+    "code": "OP02-030",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 8000,
+    "counter": null,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Land of Wano",
+      "Kouzuki Clan"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] ③ (You may rest the specified number of DON!! cards in your cost area.): Set this Character as active.[On K.O.] Play up to 1 green {Land of Wano} type Character card with a cost of 3 from your deck. Then, shuffle your deck.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-030.png",
+    "cost": 8,
+    "abilityKeywords": [
+      "[On K.O.]",
+      "[Activate: Main]",
+      "[Once Per Turn]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Kouzuki Oden",
+    "code": "OP02-030",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 8000,
+    "counter": null,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Land of Wano",
+      "Kouzuki Clan"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] ③ (You may rest the specified number of DON!! cards in your cost area.): Set this Character as active.[On K.O.] Play up to 1 green {Land of Wano} type Character card with a cost of 3 from your deck. Then, shuffle your deck.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-030_p1.png",
+    "cost": 8,
+    "abilityKeywords": [
+      "[On K.O.]",
+      "[Activate: Main]",
+      "[Once Per Turn]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Kouzuki Toki",
+    "code": "OP02-031",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": null,
+    "counter": 1000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Land of Wano",
+      "Kouzuki Clan"
+    ],
+    "effect": "If you have a [Kouzuki Oden] Character, this Character gains [Blocker].(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-031.png",
+    "cost": 1,
+    "abilityKeywords": [
+      "[Blocker]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Kouzuki Toki",
+    "code": "OP02-031",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": null,
+    "counter": 1000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Land of Wano",
+      "Kouzuki Clan"
+    ],
+    "effect": "If you have a [Kouzuki Oden] Character, this Character gains [Blocker].(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-031_p1.png",
+    "cost": 1,
+    "abilityKeywords": [
+      "[Blocker]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Shishilian",
+    "code": "OP02-032",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 3000,
+    "counter": 1000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Minks"
+    ],
+    "effect": "[On Play] ② (You may rest the specified number of DON!! cards in your cost area.): Set up to 1 of your {Minks} type Characters with a cost of 5 or less as active.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-032.png",
+    "cost": 2,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Jinbe",
+    "code": "OP02-033",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 4000,
+    "counter": 1000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "FILM",
+      "Fish-Man",
+      "Straw Hat Crew"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-033.png",
+    "cost": 2,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Tony Tony.Chopper",
+    "code": "OP02-034",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": 2000,
+    "counter": 2000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "FILM",
+      "Animal",
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x1] [When Attacking] Rest up to 1 of your opponent's Characters with a cost of 2 or less.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-034.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[When Attacking]",
+      "[DON!! x1]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Trafalgar Law",
+    "code": "OP02-035",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 3000,
+    "counter": 1000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "FILM",
+      "Supernovas",
+      "Heart Pirates"
+    ],
+    "effect": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may return this Character to the owner's hand: Play up to 1 Character with a cost of 3 from your hand.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-035.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[Activate: Main]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Nami",
+    "code": "OP02-036",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "FILM",
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play]/[When Attacking] ➀ (You may rest the specified number of DON!! cards in your cost area.): Look at 3 cards from the top of your deck; reveal up to 1 {FILM} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-036.png",
+    "cost": 3,
+    "abilityKeywords": [
+      "[When Attacking]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Nami",
+    "code": "OP02-036",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "FILM",
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play]/[When Attacking] ➀ (You may rest the specified number of DON!! cards in your cost area.): Look at 3 cards from the top of your deck; reveal up to 1 {FILM} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-036_p1.png",
+    "cost": 3,
+    "abilityKeywords": [
+      "[When Attacking]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Nico Robin",
+    "code": "OP02-037",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 4000,
+    "counter": 1000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "FILM",
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] Play up to 1 {FILM} or {Straw Hat Crew} type Character card with a cost of 2 or less from your hand.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-037.png",
+    "cost": 3,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Nekomamushi",
+    "code": "OP02-038",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 4000,
+    "counter": null,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Minks",
+      "Land of Wano",
+      "The Akazaya Nine"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-038.png",
+    "cost": 3,
+    "abilityKeywords": [
+      "[Blocker]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Franky",
+    "code": "OP02-039",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 7000,
+    "counter": 1000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "FILM",
+      "Straw Hat Crew"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-039.png",
+    "cost": 5,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Brook",
+    "code": "OP02-040",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "FILM",
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] Play up to 1 {FILM} or {Straw Hat Crew} type Character card with a cost of 3 or less from your hand.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-040.png",
+    "cost": 4,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Monkey.D.Luffy",
+    "code": "OP02-041",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 7000,
+    "counter": null,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "FILM",
+      "Supernovas",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Play up to 1 {FILM} or {Straw Hat Crew} type Character card with a cost of 4 or less from your hand.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-041.png",
+    "cost": 7,
+    "abilityKeywords": [
+      "[Blocker]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Monkey.D.Luffy",
+    "code": "OP02-041",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 7000,
+    "counter": null,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "FILM",
+      "Supernovas",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Play up to 1 {FILM} or {Straw Hat Crew} type Character card with a cost of 4 or less from your hand.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-041_p1.png",
+    "cost": 7,
+    "abilityKeywords": [
+      "[Blocker]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Yamato",
+    "code": "OP02-042",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 6000,
+    "counter": null,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Land of Wano"
+    ],
+    "effect": "Also treat this card's name as [Kouzuki Oden] according to the rules.[On Play] Rest up to 1 of your opponent's Characters with a cost of 6 or less.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-042.png",
+    "cost": 4,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Roronoa Zoro",
+    "code": "OP02-043",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 6000,
+    "counter": 1000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "FILM",
+      "Supernovas",
+      "Straw Hat Crew"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-043.png",
+    "cost": 4,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Wanda",
+    "code": "OP02-044",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 3000,
+    "counter": 1000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Minks"
+    ],
+    "effect": "[On Play] Play up to 1 {Minks} type Character card other than [Wanda] with a cost of 3 or less from your hand.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-044.png",
+    "cost": 2,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Three Sword Style Oni Giri",
+    "code": "OP02-045",
+    "rarity": "C",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "FILM",
+      "Supernovas",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +6000 power during this battle. Then, play up to 1 Character card with a cost of 3 or less and no base effect from your hand.",
+    "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Leader or Character cards with a cost of 5 or less.",
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-045.png",
+    "cost": 3,
+    "abilityKeywords": [
+      "[Counter]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Diable Jambe Venaison Shoot",
+    "code": "OP02-046",
+    "rarity": "UC",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "FILM",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Main] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
+    "trigger": "Trigger[Trigger] Play up to 1 Character card with a cost of 4 or less and no base effect from your hand.",
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-046.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[Main]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Paradise Totsuka",
+    "code": "OP02-047",
+    "rarity": "R",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Land of Wano",
+      "Kouzuki Clan"
+    ],
+    "effect": "[Main] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-047.png",
+    "cost": 1,
+    "abilityKeywords": [
+      "[Main]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Land of Wano",
+    "code": "OP02-048",
+    "rarity": "C",
+    "type": "STAGE",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Land of Wano"
+    ],
+    "effect": "[Activate: Main] You may trash 1 {Land of Wano} type card from your hand and rest this Stage: Set up to 1 of your DON!! cards as active.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-048.png",
+    "cost": 1,
+    "abilityKeywords": [
+      "[Activate: Main]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Emporio.Ivankov",
+    "code": "OP02-049",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "Impel Down",
+      "Revolutionary Army"
+    ],
+    "effect": "[End of Your Turn] If you have 0 cards in your hand, draw 2 cards.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-049.png",
+    "life": 5,
+    "abilityKeywords": [
+      "[End of Your Turn]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Emporio.Ivankov",
+    "code": "OP02-049",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "Impel Down",
+      "Revolutionary Army"
+    ],
+    "effect": "[End of Your Turn] If you have 0 cards in your hand, draw 2 cards.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-049_p1.png",
+    "life": 5,
+    "abilityKeywords": [
+      "[End of Your Turn]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Inazuma",
+    "code": "OP02-050",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "Impel Down",
+      "Revolutionary Army"
+    ],
+    "effect": "If you have 1 or less cards in your hand, this Character gains +2000 power.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-050.png",
+    "cost": 4,
+    "abilityKeywords": [
+      "[Blocker]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Emporio.Ivankov",
+    "code": "OP02-051",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 7000,
+    "counter": null,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "Impel Down",
+      "Revolutionary Army"
+    ],
+    "effect": "[On Play] Draw card(s) so that you have 3 cards in your hand and then play up to 1 blue {Impel Down} type Character card with a cost of 6 or less from your hand.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-051.png",
+    "cost": 7,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Emporio.Ivankov",
+    "code": "OP02-051",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 7000,
+    "counter": null,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "Impel Down",
+      "Revolutionary Army"
+    ],
+    "effect": "[On Play] Draw card(s) so that you have 3 cards in your hand and then play up to 1 blue {Impel Down} type Character card with a cost of 6 or less from your hand.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-051_p1.png",
+    "cost": 7,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Cabaji",
+    "code": "OP02-052",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 3000,
+    "counter": 1000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "Buggy Pirates"
+    ],
+    "effect": "[On Play] If you have [Mohji], draw 2 cards and trash 1 card from your hand.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-052.png",
+    "cost": 2,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Crocodile",
+    "code": "OP02-053",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 7000,
+    "counter": 1000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "Impel Down",
+      "Former Baroque Works"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-053.png",
+    "cost": 5,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Gecko Moria",
+    "code": "OP02-054",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": 1000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "The Seven Warlords of the Sea",
+      "Thriller Bark Pirates"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-054.png",
+    "cost": 4,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Dracule Mihawk",
+    "code": "OP02-055",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 8000,
+    "counter": 1000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-055.png",
+    "cost": 6,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Donquixote Doflamingo",
+    "code": "OP02-056",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 2000,
+    "counter": null,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "The Seven Warlords of the Sea",
+      "Donquixote Pirates"
+    ],
+    "effect": "[On Play] Look at 3 cards from the top of your deck and place them at the top or bottom of the deck in any order.[DON!! x1] [When Attacking] You may trash 1 card from your hand: Place up to 1 of your opponent's Characters with a cost of 1 or less at the bottom of the owner's deck.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-056.png",
+    "cost": 1,
+    "abilityKeywords": [
+      "[When Attacking]",
+      "[DON!! x1]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Bartholomew Kuma",
+    "code": "OP02-057",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 3000,
+    "counter": 1000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "The Seven Warlords of the Sea",
+      "Revolutionary Army"
+    ],
+    "effect": "[On Play] Look at 2 cards from the top of your deck; reveal up to 1 {The Seven Warlords of the Sea} type card and add it to your hand. Then, place the rest at the top or bottom of the deck in any order.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-057.png",
+    "cost": 3,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Buggy",
+    "code": "OP02-058",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 2000,
+    "counter": 1000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "Impel Down",
+      "Buggy Pirates"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 blue {Impel Down} type card other than [Buggy] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-058.png",
+    "cost": 1,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Buggy",
+    "code": "OP02-058",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 2000,
+    "counter": 1000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "Impel Down",
+      "Buggy Pirates"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 blue {Impel Down} type card other than [Buggy] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-058_p1.png",
+    "cost": 1,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Boa Hancock",
+    "code": "OP02-059",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "Impel Down",
+      "The Seven Warlords of the Sea",
+      "Kuja Pirates"
+    ],
+    "effect": "[When Attacking] Draw 1 card and trash 1 card from your hand. Then, trash up to 3 cards from your hand.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-059.png",
+    "cost": 4,
+    "abilityKeywords": [
+      "[When Attacking]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Boa Hancock",
+    "code": "OP02-059",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "Impel Down",
+      "The Seven Warlords of the Sea",
+      "Kuja Pirates"
+    ],
+    "effect": "[When Attacking] Draw 1 card and trash 1 card from your hand. Then, trash up to 3 cards from your hand.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-059_p1.png",
+    "cost": 4,
+    "abilityKeywords": [
+      "[When Attacking]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Mohji",
+    "code": "OP02-060",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": 3000,
+    "counter": 1000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "Buggy Pirates"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-060.png",
+    "cost": 1,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Morley",
+    "code": "OP02-061",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "Giant",
+      "Revolutionary Army"
+    ],
+    "effect": "[When Attacking] If you have 1 or less cards in your hand, your opponent cannot activate the [Blocker] of any Character with a cost of 5 or less during this battle.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-061.png",
+    "cost": 4,
+    "abilityKeywords": [
+      "[Blocker]",
+      "[When Attacking]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Monkey.D.Luffy",
+    "code": "OP02-062",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 7000,
+    "counter": null,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "Impel Down",
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play]/[When Attacking] You may trash 2 cards from your hand: Return up to 1 Character with a cost of 4 or less to the owner's hand. Then, this Character gains [Double Attack] during this turn.(This card deals 2 damage.)",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-062.png",
+    "cost": 6,
+    "abilityKeywords": [
+      "[Double Attack]",
+      "[When Attacking]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Monkey.D.Luffy",
+    "code": "OP02-062",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 7000,
+    "counter": null,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "Impel Down",
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play]/[When Attacking] You may trash 2 cards from your hand: Return up to 1 Character with a cost of 4 or less to the owner's hand. Then, this Character gains [Double Attack] during this turn.(This card deals 2 damage.)",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-062_p1.png",
+    "cost": 6,
+    "abilityKeywords": [
+      "[Double Attack]",
+      "[When Attacking]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Mr.1(Daz.Bonez)",
+    "code": "OP02-063",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 1000,
+    "counter": 1000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "Impel Down",
+      "Former Baroque Works"
+    ],
+    "effect": "[On Play] Add up to 1 blue Event card with a cost of 1 from your trash to your hand.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-063.png",
+    "cost": 1,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Mr.2.Bon.Kurei(Bentham)",
+    "code": "OP02-064",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 2000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "Impel Down",
+      "Former Baroque Works"
+    ],
+    "effect": "[DON!! x1] [When Attacking] You may trash 1 card from your hand: Place up to 1 Character with a cost of 2 or less at the bottom of the owner's deck. Then, at the end of this battle, place this Character at the bottom of the owner's deck.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-064.png",
+    "cost": 5,
+    "abilityKeywords": [
+      "[When Attacking]",
+      "[DON!! x1]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Mr.3(Galdino)",
+    "code": "OP02-065",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "Impel Down",
+      "Former Baroque Works"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[End of Your Turn] You may trash 1 card from your hand: Set this Character as active.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-065.png",
+    "cost": 4,
+    "abilityKeywords": [
+      "[Blocker]",
+      "[End of Your Turn]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Impel Down All Stars",
+    "code": "OP02-066",
+    "rarity": "C",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "Impel Down"
+    ],
+    "effect": "[Main] You may trash 2 cards from your hand: If your Leader has the {Impel Down} type, draw up to 2 cards.",
+    "trigger": "Trigger[Trigger] Draw 2 cards.",
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-066.png",
+    "cost": 1,
+    "abilityKeywords": [
+      "[Main]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Arabesque Brick Fist",
+    "code": "OP02-067",
+    "rarity": "UC",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "Fish-Man",
+      "Impel Down"
+    ],
+    "effect": "[Main] Return up to 1 Character with a cost of 4 or less to the owner's hand.",
+    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-067.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[Main]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Gum-Gum Rain",
+    "code": "OP02-068",
+    "rarity": "R",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "Impel Down",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Counter] You may trash 1 card from your hand: Up to 1 of your Leader or Character cards gains +3000 power during this battle.",
+    "trigger": "Trigger[Trigger] Return up to 1 Character with a cost of 2 or less to the owner's hand.",
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-068.png",
+    "cost": null,
+    "abilityKeywords": [
+      "[Counter]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "DEATH WINK",
+    "code": "OP02-069",
+    "rarity": "C",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "Impel Down",
+      "Revolutionary Army"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +6000 power during this battle. Then, draw cards so that you have 2 cards in your hand.",
+    "trigger": "Trigger[Trigger] Return up to 1 Character with a cost of 7 or less to the owner's hand.",
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-069.png",
+    "cost": 3,
+    "abilityKeywords": [
+      "[Counter]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "New Kama Land",
+    "code": "OP02-070",
+    "rarity": "C",
+    "type": "STAGE",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "Impel Down"
+    ],
+    "effect": "[Activate: Main] You may rest this Stage: If your Leader is [Emporio.Ivankov], draw 1 card and trash 1 card from your hand. Then, trash up to 3 cards from your hand.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-070.png",
+    "cost": 1,
+    "abilityKeywords": [
+      "[Activate: Main]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Magellan",
+    "code": "OP02-071",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Impel Down"
+    ],
+    "effect": "[Your Turn] [Once Per Turn] When a DON!! card on the field is returned to your DON!! deck, this Leader gains +1000 power during this turn.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-071.png",
+    "life": 5,
+    "abilityKeywords": [
+      "[Your Turn]",
+      "[Once Per Turn]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Magellan",
+    "code": "OP02-071",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Impel Down"
+    ],
+    "effect": "[Your Turn] [Once Per Turn] When a DON!! card on the field is returned to your DON!! deck, this Leader gains +1000 power during this turn.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-071_p1.png",
+    "life": 5,
+    "abilityKeywords": [
+      "[Your Turn]",
+      "[Once Per Turn]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Zephyr",
+    "code": "OP02-072",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Purple",
+      "Black"
+    ],
+    "family": [
+      "FILM",
+      "Neo Navy"
+    ],
+    "effect": "[When Attacking] DON!! −4 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 3 or less. Then, this Leader gains +1000 power during this turn.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-072.png",
+    "life": 4,
+    "abilityKeywords": [
+      "[When Attacking]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Zephyr",
+    "code": "OP02-072",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Purple",
+      "Black"
+    ],
+    "family": [
+      "FILM",
+      "Neo Navy"
+    ],
+    "effect": "[When Attacking] DON!! −4 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 3 or less. Then, this Leader gains +1000 power during this turn.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-072_p1.png",
+    "life": 4,
+    "abilityKeywords": [
+      "[When Attacking]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Little Sadi",
+    "code": "OP02-073",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": 3000,
+    "counter": 2000,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Impel Down"
+    ],
+    "effect": "[On Play] Play up to 1 {Jailer Beast} type Character card from your hand.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-073.png",
+    "cost": 3,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Little Sadi",
+    "code": "OP02-073",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": 3000,
+    "counter": 2000,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Impel Down"
+    ],
+    "effect": "[On Play] Play up to 1 {Jailer Beast} type Character card from your hand.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-073_p1.png",
+    "cost": 3,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Saldeath",
+    "code": "OP02-074",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": 2000,
+    "counter": 1000,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Impel Down"
+    ],
+    "effect": "Your [Blugori] gains [Blocker].(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-074.png",
+    "cost": 1,
+    "abilityKeywords": [
+      "[Blocker]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Shiki",
+    "code": "OP02-075",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 3000,
+    "counter": 2000,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "FILM",
+      "Golden Lion Pirates"
+    ],
+    "effect": null,
+    "trigger": "Trigger[Trigger] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play this card.",
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-075.png",
+    "cost": 2,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Shiryu",
+    "code": "OP02-076",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Impel Down"
+    ],
+    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 1 or less.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-076.png",
+    "cost": 4,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Solitaire",
+    "code": "OP02-077",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Animal Kingdom Pirates",
+      "SMILE"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-077.png",
+    "cost": 3,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Daifugo",
+    "code": "OP02-078",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Ranged",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Animal Kingdom Pirates",
+      "SMILE"
+    ],
+    "effect": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 {SMILE} type Character card other than [Daifugo] with a cost of 3 or less from your hand.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-078.png",
+    "cost": 3,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Douglas Bullet",
+    "code": "OP02-079",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": 1000,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "FILM",
+      "The Pirates Fest"
+    ],
+    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-079.png",
+    "cost": 5,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Dobon",
+    "code": "OP02-080",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 4000,
+    "counter": 1000,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Animal Kingdom Pirates",
+      "SMILE"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-080.png",
+    "cost": 2,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Domino",
+    "code": "OP02-081",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": 2000,
+    "counter": 1000,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Impel Down"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-081.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[Blocker]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Byrnndi World",
+    "code": "OP02-082",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 8000,
+    "counter": null,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "World Pirates"
+    ],
+    "effect": "[Activate: Main] DON!! −8 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains +792000 power during this turn.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-082.png",
+    "cost": 8,
+    "abilityKeywords": [
+      "[Activate: Main]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Hannyabal",
+    "code": "OP02-083",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 2000,
+    "counter": 1000,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Impel Down"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 purple {Impel Down} type card other than [Hannyabal] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-083.png",
+    "cost": 1,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Blugori",
+    "code": "OP02-084",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 3000,
+    "counter": 1000,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Animal",
+      "Impel Down"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-084.png",
+    "cost": 1,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Magellan",
+    "code": "OP02-085",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": null,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Impel Down"
+    ],
+    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your opponent returns 1 DON!! card from their field to their DON!! deck.[Opponent's Turn] When this Character is K.O.'d, your opponent returns 2 DON!! cards from their field to their DON!! deck.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-085.png",
+    "cost": 5,
+    "abilityKeywords": [
+      "[Opponent's Turn]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Magellan",
+    "code": "OP02-085",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": null,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Impel Down"
+    ],
+    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your opponent returns 1 DON!! card from their field to their DON!! deck.[Opponent's Turn] When this Character is K.O.'d, your opponent returns 2 DON!! cards from their field to their DON!! deck.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-085_p1.png",
+    "cost": 5,
+    "abilityKeywords": [
+      "[Opponent's Turn]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Minokoala",
+    "code": "OP02-086",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Impel Down",
+      "Jailer Beast"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] If your Leader has the {Impel Down} type, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-086.png",
+    "cost": 4,
+    "abilityKeywords": [
+      "[Blocker]",
+      "[On K.O.]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Minokoala",
+    "code": "OP02-086",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Impel Down",
+      "Jailer Beast"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] If your Leader has the {Impel Down} type, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-086_p1.png",
+    "cost": 4,
+    "abilityKeywords": [
+      "[Blocker]",
+      "[On K.O.]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Minotaur",
+    "code": "OP02-087",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Impel Down",
+      "Jailer Beast"
+    ],
+    "effect": "[Double Attack] (This card deals 2 damage.)[On K.O.] If your Leader has the {Impel Down} type, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-087.png",
+    "cost": 4,
+    "abilityKeywords": [
+      "[Double Attack]",
+      "[On K.O.]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Sphinx",
+    "code": "OP02-088",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 6000,
+    "counter": 1000,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Animal",
+      "Impel Down"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-088.png",
+    "cost": 4,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Judgment of Hell",
+    "code": "OP02-089",
+    "rarity": "R",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Impel Down"
+    ],
+    "effect": "[Counter] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Give up to a total of 2 of your opponent's Leader or Character cards −3000 power during this turn.",
+    "trigger": "Trigger[Trigger] If your opponent has 6 or more DON!! cards on their field, your opponent returns 1 DON!! card from their field to their DON!! deck.",
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-089.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[Counter]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Hydra",
+    "code": "OP02-090",
+    "rarity": "UC",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Impel Down"
+    ],
+    "effect": "[Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Give up to 1 of your opponent's Characters −3000 power during this turn.",
+    "trigger": "Trigger[Trigger] If your opponent has 6 or more DON!! cards on their field, your opponent returns 1 DON!! card from their field to their DON!! deck.",
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-090.png",
+    "cost": 1,
+    "abilityKeywords": [
+      "[Main]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Venom Road",
+    "code": "OP02-091",
+    "rarity": "C",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Impel Down"
+    ],
+    "effect": "[Main] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "trigger": "Trigger[Trigger] If your opponent has 6 or more DON!! cards on their field, your opponent returns 1 DON!! card from their field to their DON!! deck.",
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-091.png",
+    "cost": 3,
+    "abilityKeywords": [
+      "[Main]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Impel Down",
+    "code": "OP02-092",
+    "rarity": "C",
+    "type": "STAGE",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Impel Down"
+    ],
+    "effect": "[Activate: Main] You may trash 1 card from your hand and rest this Stage: Look at 3 cards from the top of your deck; reveal up to 1 {Impel Down} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-092.png",
+    "cost": 1,
+    "abilityKeywords": [
+      "[Activate: Main]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Smoker",
+    "code": "OP02-093",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] Give up to 1 of your opponent's Characters −1 cost during this turn. Then, if there is a Character with a cost of 0, this Leader gains +1000 power during this turn.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-093.png",
+    "life": 5,
+    "abilityKeywords": [
+      "[Activate: Main]",
+      "[Once Per Turn]",
+      "[DON!! x1]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Smoker",
+    "code": "OP02-093",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] Give up to 1 of your opponent's Characters −1 cost during this turn. Then, if there is a Character with a cost of 0, this Leader gains +1000 power during this turn.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-093_p1.png",
+    "life": 5,
+    "abilityKeywords": [
+      "[Activate: Main]",
+      "[Once Per Turn]",
+      "[DON!! x1]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Isuka",
+    "code": "OP02-094",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 4000,
+    "counter": 1000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": "[DON!! x1] [Once Per Turn] When this Character battles and K.O.'s your opponent's Character, set this Character as active.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-094.png",
+    "cost": 3,
+    "abilityKeywords": [
+      "[Once Per Turn]",
+      "[DON!! x1]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Onigumo",
+    "code": "OP02-095",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 6000,
+    "counter": 1000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": "If there is a Character with a cost of 0, this Character gains [Banish].(When this card deals damage, the target card is trashed without activating its Trigger.)",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-095.png",
+    "cost": 5,
+    "abilityKeywords": [
+      "[Banish]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Kuzan",
+    "code": "OP02-096",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": "[On Play] Draw 1 card.[When Attacking] Give up to 1 of your opponent's Characters −4 cost during this turn.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-096.png",
+    "cost": 4,
+    "abilityKeywords": [
+      "[When Attacking]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Kuzan",
+    "code": "OP02-096",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": "[On Play] Draw 1 card.[When Attacking] Give up to 1 of your opponent's Characters −4 cost during this turn.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-096_p1.png",
+    "cost": 4,
+    "abilityKeywords": [
+      "[When Attacking]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Komille",
+    "code": "OP02-097",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 3000,
+    "counter": 1000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-097.png",
+    "cost": 1,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Koby",
+    "code": "OP02-098",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 4000,
+    "counter": 1000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-098.png",
+    "cost": 3,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Sakazuki",
+    "code": "OP02-099",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 7000,
+    "counter": null,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-099.png",
+    "cost": 6,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Sakazuki",
+    "code": "OP02-099",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 7000,
+    "counter": null,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-099_p1.png",
+    "cost": 6,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Jango",
+    "code": "OP02-100",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 3000,
+    "counter": 1000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": "If you have [Fullbody], this Character cannot be K.O.'d in battle.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-100.png",
+    "cost": 2,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Strawberry",
+    "code": "OP02-101",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": "[When Attacking] If there is a Character with a cost of 0, your opponent cannot activate the [Blocker] of any Character with a cost of 5 or less during this battle.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-101.png",
+    "cost": 4,
+    "abilityKeywords": [
+      "[Blocker]",
+      "[When Attacking]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Smoker",
+    "code": "OP02-102",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 4000,
+    "counter": 1000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": "This Character cannot be K.O.'d by effects.[When Attacking] If there is a Character with a cost of 0, this Character gains +2000 power during this battle.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-102.png",
+    "cost": 3,
+    "abilityKeywords": [
+      "[When Attacking]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Sengoku",
+    "code": "OP02-103",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": 3000,
+    "counter": 2000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −2 cost during this turn.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-103.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[When Attacking]",
+      "[DON!! x1]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Sentomaru",
+    "code": "OP02-104",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 3000,
+    "counter": 1000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": null,
+    "trigger": "Trigger[Trigger] Play this card.",
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-104.png",
+    "cost": 2,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Tashigi",
+    "code": "OP02-105",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −3 cost during this turn.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-105.png",
+    "cost": 3,
+    "abilityKeywords": [
+      "[When Attacking]",
+      "[DON!! x1]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Tashigi",
+    "code": "OP02-105",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −3 cost during this turn.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-105_p1.png",
+    "cost": 3,
+    "abilityKeywords": [
+      "[When Attacking]",
+      "[DON!! x1]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Tsuru",
+    "code": "OP02-106",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": null,
+    "counter": 2000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": "[On Play] Give up to 1 of your opponent's Characters −2 cost during this turn.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-106.png",
+    "cost": 1,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Doberman",
+    "code": "OP02-107",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 4000,
+    "counter": 1000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-107.png",
+    "cost": 2,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Donquixote Rosinante",
+    "code": "OP02-108",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 2000,
+    "counter": 1000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Navy",
+      "Donquixote Pirates"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-108.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[Blocker]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Donquixote Rosinante",
+    "code": "OP02-108",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 2000,
+    "counter": 1000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Navy",
+      "Donquixote Pirates"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-108_p1.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[Blocker]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Jaguar.D.Saul",
+    "code": "OP02-109",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 6000,
+    "counter": 1000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Giant",
+      "Navy"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-109.png",
+    "cost": 4,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Hina",
+    "code": "OP02-110",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": 1000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Block] Select up to 1 of your opponent's Characters with a cost of 6 or less. The selected Character cannot attack during this turn.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-110.png",
+    "cost": 5,
+    "abilityKeywords": [
+      "[Blocker]",
+      "[On Block]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Fullbody",
+    "code": "OP02-111",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 3000,
+    "counter": 1000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": "[When Attacking] If you have [Jango], this card gains +3000 power during this battle.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-111.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[When Attacking]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Bell-mère",
+    "code": "OP02-112",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Ranged",
+    "power": 1000,
+    "counter": 1000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": "[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −1 cost during this turn. Then, up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-112.png",
+    "cost": 1,
+    "abilityKeywords": [
+      "[Activate: Main]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Helmeppo",
+    "code": "OP02-113",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 3000,
+    "counter": 1000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": "[When Attacking] Give up to 1 of your opponent's Characters −2 cost during this turn. Then, if there is a Character with a cost of 0, this Character gains +2000 power during this battle.",
+    "trigger": "Trigger[Trigger] Play this card.",
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-113.png",
+    "cost": 3,
+    "abilityKeywords": [
+      "[When Attacking]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Borsalino",
+    "code": "OP02-114",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": "[Opponent's Turn] This Character gains +1000 power and cannot be K.O.'d by effects.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-114.png",
+    "cost": 4,
+    "abilityKeywords": [
+      "[Blocker]",
+      "[Opponent's Turn]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Borsalino",
+    "code": "OP02-114",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": "[Opponent's Turn] This Character gains +1000 power and cannot be K.O.'d by effects.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-114_p1.png",
+    "cost": 4,
+    "abilityKeywords": [
+      "[Blocker]",
+      "[Opponent's Turn]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Monkey.D.Garp",
+    "code": "OP02-115",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 3000,
+    "counter": 2000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": "[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with a cost of 0.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-115.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[When Attacking]",
+      "[DON!! x2]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Monkey.D.Garp",
+    "code": "OP02-115",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 3000,
+    "counter": 2000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": "[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with a cost of 0.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-115_p1.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[When Attacking]",
+      "[DON!! x2]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Yamakaji",
+    "code": "OP02-116",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-116.png",
+    "cost": 3,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Ice Age",
+    "code": "OP02-117",
+    "rarity": "UC",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": "[Main] Give up to 1 of your opponent's Characters −5 cost during this turn.",
+    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-117.png",
+    "cost": 1,
+    "abilityKeywords": [
+      "[Main]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Yasakani Sacred Jewel",
+    "code": "OP02-118",
+    "rarity": "C",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": "[Counter] You may trash 1 card from your hand: Select up to 1 of your Characters. The selected Character cannot be K.O.'d during this battle.",
+    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Stages with a cost of 3 or less.",
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-118.png",
+    "cost": 1,
+    "abilityKeywords": [
+      "[Counter]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Meteor Volcano",
+    "code": "OP02-119",
+    "rarity": "R",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": "[Main] K.O. up to 1 of your opponent's Characters with a cost of 1 or less.",
+    "trigger": "Trigger[Trigger] Draw 2 cards and trash 1 card from your hand.",
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-119.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[Main]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Uta",
+    "code": "OP02-120",
+    "rarity": "SEC",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 8000,
+    "counter": null,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "FILM"
+    ],
+    "effect": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your Leader and all of your Characters gain +1000 power until the start of your next turn.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-120.png",
+    "cost": 8,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Uta",
+    "code": "OP02-120",
+    "rarity": "SEC",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 8000,
+    "counter": null,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "FILM"
+    ],
+    "effect": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your Leader and all of your Characters gain +1000 power until the start of your next turn.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-120_p1.png",
+    "cost": 8,
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Kuzan",
+    "code": "OP02-121",
+    "rarity": "SEC",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 10000,
+    "counter": null,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Former Navy"
+    ],
+    "effect": "[Your Turn] Give all of your opponent's Characters −5 cost.[On Play] K.O. up to 1 of your opponent's Characters with a cost of 0.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-121.png",
+    "cost": 10,
+    "abilityKeywords": [
+      "[Your Turn]"
+    ],
+    "expansionCode": "OP02"
+  },
+  {
+    "name": "Kuzan",
+    "code": "OP02-121",
+    "rarity": "SEC",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 10000,
+    "counter": null,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Former Navy"
+    ],
+    "effect": "[Your Turn] Give all of your opponent's Characters −5 cost.[On Play] K.O. up to 1 of your opponent's Characters with a cost of 0.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-121_p1.png",
+    "cost": 10,
+    "abilityKeywords": [
+      "[Your Turn]"
+    ],
+    "expansionCode": "OP02"
+  }
+]

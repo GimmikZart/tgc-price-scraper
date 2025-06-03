@@ -1,0 +1,3637 @@
+[
+  {
+    "name": "Portgas.D.Ace",
+    "code": "OP03-001",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "When this Leader attacks or is attacked, you may trash any number of Event or Stage cards from your hand. This Leader gains +1000 power during this battle for every card trashed.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-001.png",
+    "life": 5,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Portgas.D.Ace",
+    "code": "OP03-001",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "When this Leader attacks or is attacked, you may trash any number of Event or Stage cards from your hand. This Leader gains +1000 power during this battle for every card trashed.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-001_p1.png",
+    "life": 5,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Adio",
+    "code": "OP03-002",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Ranged",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "ODYSSEY"
+    ],
+    "effect": "[DON!! x1] [When Attacking] Your opponent cannot activate a [Blocker] Character that has 2000 or less power during this battle.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-002.png",
+    "cost": 4,
+    "abilityKeywords": [
+      "[Blocker]",
+      "[When Attacking]",
+      "[DON!! x1]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Izo",
+    "code": "OP03-003",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Ranged",
+    "power": 2000,
+    "counter": 1000,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Land of Wano",
+      "Whitebeard Pirates"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 card with a type including \"Whitebeard Pirates\" other than [Izo] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-003.png",
+    "cost": 1,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Curiel",
+    "code": "OP03-004",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Ranged",
+    "power": 4000,
+    "counter": 1000,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "This Character cannot attack a Leader on the turn in which it is played.[DON!! x1] This Character gains [Rush].(This card can attack on the turn in which it is played.)",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-004.png",
+    "cost": 3,
+    "abilityKeywords": [
+      "[Rush]",
+      "[DON!! x1]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Thatch",
+    "code": "OP03-005",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 2000,
+    "counter": 1000,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] This Character gains +2000 power during this turn. Then, trash this Character at the end of this turn.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-005.png",
+    "cost": 1,
+    "abilityKeywords": [
+      "[Activate: Main]",
+      "[Once Per Turn]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Speed Jil",
+    "code": "OP03-006",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 6000,
+    "counter": 1000,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Whitebeard Pirates"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-006.png",
+    "cost": 4,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Namule",
+    "code": "OP03-007",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Fish-Man",
+      "Whitebeard Pirates"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-007.png",
+    "cost": 3,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Buggy",
+    "code": "OP03-008",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 3000,
+    "counter": null,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Buggy Pirates"
+    ],
+    "effect": "This Character cannot be K.O.'d in battle by  attribute cards.[On Play] Look at 5 cards from the top of your deck; reveal up to 1 red Event and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-008.png",
+    "cost": 1,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Haruta",
+    "code": "OP03-009",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 3000,
+    "counter": 1000,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-009.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[Activate: Main]",
+      "[Once Per Turn]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Fossa",
+    "code": "OP03-010",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 2000,
+    "counter": 1000,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-010.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[Blocker]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Blamenco",
+    "code": "OP03-011",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 3000,
+    "counter": 1000,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −2000 power during this turn.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-011.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[When Attacking]",
+      "[DON!! x1]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Marshall.D.Teach",
+    "code": "OP03-012",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 6000,
+    "counter": null,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[When Attacking] You may trash 1 of your red Characters with 4000 power or more: Draw 1 card. Then, this Character gains +1000 power during this battle.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-012.png",
+    "cost": 4,
+    "abilityKeywords": [
+      "[When Attacking]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Marco",
+    "code": "OP03-013",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": 1000,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Your Turn] [On Play] K.O. up to 1 of your opponent's Characters with 3000 power or less.[On K.O.] You may trash 1 Event from your hand: You may play this Character card from your trash rested.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-013.png",
+    "cost": 5,
+    "abilityKeywords": [
+      "[On K.O.]",
+      "[Your Turn]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Marco",
+    "code": "OP03-013",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": 1000,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Your Turn] [On Play] K.O. up to 1 of your opponent's Characters with 3000 power or less.[On K.O.] You may trash 1 Event from your hand: You may play this Character card from your trash rested.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-013_p1.png",
+    "cost": 5,
+    "abilityKeywords": [
+      "[On K.O.]",
+      "[Your Turn]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Monkey.D.Garp",
+    "code": "OP03-014",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": "[When Attacking] Play up to 1 red Character card with a cost of 1 from your hand.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-014.png",
+    "cost": 3,
+    "abilityKeywords": [
+      "[When Attacking]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Lim",
+    "code": "OP03-015",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": 2000,
+    "counter": null,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "ODYSSEY"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Opponent's Turn] When this Character is K.O.'d, give up to 1 of your opponent's Leader or Character cards −2000 power during this turn.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-015.png",
+    "cost": 3,
+    "abilityKeywords": [
+      "[Blocker]",
+      "[Opponent's Turn]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Flame Emperor",
+    "code": "OP03-016",
+    "rarity": "R",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Main] If your Leader is [Portgas.D.Ace], K.O. up to 1 of your opponent's Characters with 8000 power or less, and your Leader gains [Double Attack] and +3000 power during this turn.(This card deals 2 damage.)",
+    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with 6000 power or less.",
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-016.png",
+    "cost": 7,
+    "abilityKeywords": [
+      "[Double Attack]",
+      "[Main]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Cross Fire",
+    "code": "OP03-017",
+    "rarity": "UC",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Main]/[Counter] If your Leader's type includes \"Whitebeard Pirates\", give up to 1 of your opponent's Characters −4000 power during this turn.",
+    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-017.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[Main]",
+      "[Counter]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Fire Fist",
+    "code": "OP03-018",
+    "rarity": "R",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Main] You may trash 1 Event from your hand: K.O. up to 1 of your opponent's Characters with 5000 power or less and up to 1 of your opponent's Characters with 4000 power or less.",
+    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with 5000 power or less.",
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-018.png",
+    "cost": 3,
+    "abilityKeywords": [
+      "[Main]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Fire Fist",
+    "code": "OP03-018",
+    "rarity": "R",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Main] You may trash 1 Event from your hand: K.O. up to 1 of your opponent's Characters with 5000 power or less and up to 1 of your opponent's Characters with 4000 power or less.",
+    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with 5000 power or less.",
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-018_p1.png",
+    "cost": 3,
+    "abilityKeywords": [
+      "[Main]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Fiery Doll",
+    "code": "OP03-019",
+    "rarity": "C",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Main] Your Leader gains +4000 power during this turn.",
+    "trigger": "Trigger[Trigger] Give up to 1 of your opponent's Leader or Character cards −10000 power during this turn.",
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-019.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[Main]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Striker",
+    "code": "OP03-020",
+    "rarity": "C",
+    "type": "STAGE",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Activate: Main] ② (You may rest the specified number of DON!! cards in your cost area.) You may rest this Stage: If your Leader is [Portgas.D.Ace], look at 5 cards from the top of your deck; reveal up to 1 Event and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-020.png",
+    "cost": 1,
+    "abilityKeywords": [
+      "[Activate: Main]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Kuro",
+    "code": "OP03-021",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "East Blue",
+      "Black Cat Pirates"
+    ],
+    "effect": "[Activate: Main] ③ (You may rest the specified number of DON!! cards in your cost area.) You may rest 2 of your {East Blue} type Characters: Set this Leader as active, and rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-021.png",
+    "life": 5,
+    "abilityKeywords": [
+      "[Activate: Main]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Kuro",
+    "code": "OP03-021",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "East Blue",
+      "Black Cat Pirates"
+    ],
+    "effect": "[Activate: Main] ③ (You may rest the specified number of DON!! cards in your cost area.) You may rest 2 of your {East Blue} type Characters: Set this Leader as active, and rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-021_p1.png",
+    "life": 5,
+    "abilityKeywords": [
+      "[Activate: Main]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Arlong",
+    "code": "OP03-022",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Green",
+      "Yellow"
+    ],
+    "family": [
+      "Fish-Man",
+      "East Blue",
+      "Arlong Pirates"
+    ],
+    "effect": "[DON!! x2] [When Attacking] ① (You may rest the specified number of DON!! cards in your cost area.): Play up to 1 Character card with a cost of 4 or less and a [Trigger] from your hand.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-022.png",
+    "life": 4,
+    "abilityKeywords": [
+      "[Trigger]",
+      "[When Attacking]",
+      "[DON!! x2]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Arlong",
+    "code": "OP03-022",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Green",
+      "Yellow"
+    ],
+    "family": [
+      "Fish-Man",
+      "East Blue",
+      "Arlong Pirates"
+    ],
+    "effect": "[DON!! x2] [When Attacking] ① (You may rest the specified number of DON!! cards in your cost area.): Play up to 1 Character card with a cost of 4 or less and a [Trigger] from your hand.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-022_p1.png",
+    "life": 4,
+    "abilityKeywords": [
+      "[Trigger]",
+      "[When Attacking]",
+      "[DON!! x2]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Alvida",
+    "code": "OP03-023",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 3000,
+    "counter": 1000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "East Blue",
+      "Alvida Pirates"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-023.png",
+    "cost": 1,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Gin",
+    "code": "OP03-024",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "East Blue",
+      "Krieg Pirates"
+    ],
+    "effect": "[On Play] If your Leader has the {East Blue} type, rest up to 2 of your opponent's Characters with a cost of 4 or less.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-024.png",
+    "cost": 4,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Gin",
+    "code": "OP03-024",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "East Blue",
+      "Krieg Pirates"
+    ],
+    "effect": "[On Play] If your Leader has the {East Blue} type, rest up to 2 of your opponent's Characters with a cost of 4 or less.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-024_p1.png",
+    "cost": 4,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Krieg",
+    "code": "OP03-025",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Ranged",
+    "power": 7000,
+    "counter": null,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "East Blue",
+      "Krieg Pirates"
+    ],
+    "effect": "[On Play] You may trash 1 card from your hand: K.O. up to 2 of your opponent's rested Characters with a cost of 4 or less.[DON!! x1] This Character gains [Double Attack].(This card deals 2 damage.)",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-025.png",
+    "cost": 6,
+    "abilityKeywords": [
+      "[Double Attack]",
+      "[DON!! x1]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Krieg",
+    "code": "OP03-025",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Ranged",
+    "power": 7000,
+    "counter": null,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "East Blue",
+      "Krieg Pirates"
+    ],
+    "effect": "[On Play] You may trash 1 card from your hand: K.O. up to 2 of your opponent's rested Characters with a cost of 4 or less.[DON!! x1] This Character gains [Double Attack].(This card deals 2 damage.)",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-025_p1.png",
+    "cost": 6,
+    "abilityKeywords": [
+      "[Double Attack]",
+      "[DON!! x1]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Kuroobi",
+    "code": "OP03-026",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 3000,
+    "counter": 1000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Fish-Man",
+      "East Blue",
+      "Arlong Pirates"
+    ],
+    "effect": "[On Play] If your Leader has the {East Blue} type, rest up to 1 of your opponent's Characters.",
+    "trigger": "Trigger[Trigger] Play this card.",
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-026.png",
+    "cost": 4,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Sham",
+    "code": "OP03-027",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 4000,
+    "counter": 1000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "East Blue",
+      "Black Cat Pirates"
+    ],
+    "effect": "[On Play] If your Leader has the {East Blue} type, rest up to 1 of your opponent's Characters with a cost of 2 or less and, if you don't have [Buchi], play up to 1 [Buchi] from your hand.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-027.png",
+    "cost": 3,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Jango",
+    "code": "OP03-028",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": null,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "East Blue",
+      "Black Cat Pirates"
+    ],
+    "effect": "[On Play] Choose one:• Set up to 1 of your {East Blue} type Leader or Character cards with a cost of 6 or less as active.• Rest this Character and up to 1 of your opponent's Characters.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-028.png",
+    "cost": 5,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Chew",
+    "code": "OP03-029",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Ranged",
+    "power": 3000,
+    "counter": 1000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Fish-Man",
+      "East Blue",
+      "Arlong Pirates"
+    ],
+    "effect": "[On Play] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
+    "trigger": "Trigger[Trigger] Play this card.",
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-029.png",
+    "cost": 4,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Nami",
+    "code": "OP03-030",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": 2000,
+    "counter": 1000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "East Blue",
+      "Arlong Pirates"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 green {East Blue} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": "Trigger[Trigger] Play this card.",
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-030.png",
+    "cost": 2,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Pearl",
+    "code": "OP03-031",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 2000,
+    "counter": 1000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "East Blue",
+      "Krieg Pirates"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-031.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[Blocker]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Buggy",
+    "code": "OP03-032",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "East Blue",
+      "Buggy Pirates"
+    ],
+    "effect": "This Character cannot be K.O.'d in battle by  attribute cards.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-032.png",
+    "cost": 3,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Hatchan",
+    "code": "OP03-033",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 4000,
+    "counter": 2000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Fish-Man",
+      "East Blue",
+      "Arlong Pirates"
+    ],
+    "effect": null,
+    "trigger": "Trigger[Trigger] If your Leader has the {East Blue} type, play this card.",
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-033.png",
+    "cost": 4,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Buchi",
+    "code": "OP03-034",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "East Blue",
+      "Black Cat Pirates"
+    ],
+    "effect": "[On Play] K.O. up to 1 of your opponent's rested Characters with a cost of 2 or less.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-034.png",
+    "cost": 4,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Momoo",
+    "code": "OP03-035",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 4000,
+    "counter": 1000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Animal",
+      "East Blue"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-035.png",
+    "cost": 2,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Out-of-the-Bag",
+    "code": "OP03-036",
+    "rarity": "C",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "East Blue",
+      "Black Cat Pirates"
+    ],
+    "effect": "[Main] You may rest 1 of your {East Blue} type Characters: Set up to 1 of your [Kuro] cards as active.",
+    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-036.png",
+    "cost": 3,
+    "abilityKeywords": [
+      "[Main]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Tooth Attack",
+    "code": "OP03-037",
+    "rarity": "C",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Fish-Man",
+      "East Blue",
+      "Arlong Pirates"
+    ],
+    "effect": "[Main] You may rest 1 of your {East Blue} type Characters: K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
+    "trigger": "Trigger[Trigger] Play up to 1 Character card with a cost of 4 or less and a [Trigger] from your hand.",
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-037.png",
+    "cost": 1,
+    "abilityKeywords": [
+      "[Main]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Deathly Poison Gas Bomb MH5",
+    "code": "OP03-038",
+    "rarity": "R",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "East Blue",
+      "Krieg Pirates"
+    ],
+    "effect": "[Main] Rest up to 2 of your opponent's Characters with a cost of 2 or less.",
+    "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-038.png",
+    "cost": 1,
+    "abilityKeywords": [
+      "[Main]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "One, Two, Jango",
+    "code": "OP03-039",
+    "rarity": "UC",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "East Blue",
+      "Black Cat Pirates"
+    ],
+    "effect": "[Main] Rest up to 1 of your opponent's Characters with a cost of 1 or less. Then, up to 1 of your Characters gains +1000 power during this turn.",
+    "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-039.png",
+    "cost": 1,
+    "abilityKeywords": [
+      "[Main]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Nami",
+    "code": "OP03-040",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Wisdom",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "East Blue"
+    ],
+    "effect": "When your deck is reduced to 0, you win the game instead of losing, according to the rules.[DON!! x1] When this Leader's attack deals damage to your opponent's Life, you may trash 1 card from the top of your deck.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-040.png",
+    "life": 5,
+    "abilityKeywords": [
+      "[DON!! x1]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Nami",
+    "code": "OP03-040",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Wisdom",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "East Blue"
+    ],
+    "effect": "When your deck is reduced to 0, you win the game instead of losing, according to the rules.[DON!! x1] When this Leader's attack deals damage to your opponent's Life, you may trash 1 card from the top of your deck.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-040_p1.png",
+    "life": 5,
+    "abilityKeywords": [
+      "[DON!! x1]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Usopp",
+    "code": "OP03-041",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Ranged",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "East Blue"
+    ],
+    "effect": "[Rush] (This card can attack on the turn in which it is played.)[DON!! x1] When this Character's attack deals damage to your opponent's Life, you may trash 7 cards from the top of your deck.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-041.png",
+    "cost": 4,
+    "abilityKeywords": [
+      "[Rush]",
+      "[DON!! x1]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Usopp",
+    "code": "OP03-041",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Ranged",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "East Blue"
+    ],
+    "effect": "[Rush] (This card can attack on the turn in which it is played.)[DON!! x1] When this Character's attack deals damage to your opponent's Life, you may trash 7 cards from the top of your deck.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-041_p1.png",
+    "cost": 4,
+    "abilityKeywords": [
+      "[Rush]",
+      "[DON!! x1]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Usopp's Pirate Crew",
+    "code": "OP03-042",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": null,
+    "counter": 1000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "East Blue"
+    ],
+    "effect": "[On Play] Add up to 1 blue [Usopp] from your trash to your hand.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-042.png",
+    "cost": 1,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Gaimon",
+    "code": "OP03-043",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": null,
+    "counter": 1000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "East Blue"
+    ],
+    "effect": "When you deal damage to your opponent's Life, you may trash 3 cards from the top of your deck. If you do, trash this Character.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-043.png",
+    "cost": 2,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Kaya",
+    "code": "OP03-044",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": null,
+    "counter": 2000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "East Blue"
+    ],
+    "effect": "[On Play] Draw 2 cards and trash 2 cards from your hand.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-044.png",
+    "cost": 1,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Carne",
+    "code": "OP03-045",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 3000,
+    "counter": 1000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "East Blue"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Opponent's Turn] If you have 20 or less cards in your deck, this Character gains +3000 power.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-045.png",
+    "cost": 3,
+    "abilityKeywords": [
+      "[Blocker]",
+      "[Opponent's Turn]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Genzo",
+    "code": "OP03-046",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": 4000,
+    "counter": 1000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "East Blue"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-046.png",
+    "cost": 2,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Zeff",
+    "code": "OP03-047",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 6000,
+    "counter": 1000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "East Blue"
+    ],
+    "effect": "[DON!! x1] When this Character's attack deals damage to your opponent's Life, you may trash 7 cards from the top of your deck.[On Play] Return up to 1 Character with a cost of 3 or less to the owner's hand, and you may trash 2 cards from the top of your deck.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-047.png",
+    "cost": 5,
+    "abilityKeywords": [
+      "[DON!! x1]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Zeff",
+    "code": "OP03-047",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 6000,
+    "counter": 1000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "East Blue"
+    ],
+    "effect": "[DON!! x1] When this Character's attack deals damage to your opponent's Life, you may trash 7 cards from the top of your deck.[On Play] Return up to 1 Character with a cost of 3 or less to the owner's hand, and you may trash 2 cards from the top of your deck.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-047_p1.png",
+    "cost": 5,
+    "abilityKeywords": [
+      "[DON!! x1]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Nojiko",
+    "code": "OP03-048",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": null,
+    "counter": 1000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "East Blue"
+    ],
+    "effect": "[On Play] If your Leader is [Nami], return up to 1 of your opponent's Characters with a cost of 5 or less to the owner's hand.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-048.png",
+    "cost": 2,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Patty",
+    "code": "OP03-049",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "East Blue"
+    ],
+    "effect": "[On Play] If you have 20 or less cards in your deck, return up to 1 Character with a cost of 3 or less to the owner's hand.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-049.png",
+    "cost": 3,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Boodle",
+    "code": "OP03-050",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": null,
+    "counter": 1000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "East Blue"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] You may trash 1 card from the top of your deck.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-050.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[Blocker]",
+      "[On K.O.]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Bell-mère",
+    "code": "OP03-051",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Ranged",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "East Blue",
+      "Former Navy"
+    ],
+    "effect": "[DON!! x1] When this Character's attack deals damage to your opponent's Life, you may trash 7 cards from the top of your deck.[On K.O.] You may trash 3 cards from the top of your deck.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-051.png",
+    "cost": 4,
+    "abilityKeywords": [
+      "[On K.O.]",
+      "[DON!! x1]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Merry",
+    "code": "OP03-052",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": 3000,
+    "counter": 1000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "East Blue"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-052.png",
+    "cost": 1,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Yosaku & Johnny",
+    "code": "OP03-053",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 3000,
+    "counter": null,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "East Blue"
+    ],
+    "effect": "[DON!! x1] If you have 20 or less cards in your deck, this Character gains +2000 power.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-053.png",
+    "cost": 1,
+    "abilityKeywords": [
+      "[DON!! x1]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Usopp's Rubber Band of Doom!!!",
+    "code": "OP03-054",
+    "rarity": "C",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "East Blue",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, you may trash 1 card from the top of your deck.",
+    "trigger": "Trigger[Trigger] Draw 1 card and you may trash 1 card from the top of your deck.",
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-054.png",
+    "cost": 1,
+    "abilityKeywords": [
+      "[Counter]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Gum-Gum Giant Gavel",
+    "code": "OP03-055",
+    "rarity": "C",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "East Blue",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Counter] You may trash 1 card from your hand: Up to 1 of your Leader gains +4000 power during this battle. Then, you may trash 2 cards from the top of your deck.",
+    "trigger": "Trigger[Trigger] Return up to 1 Character with a cost of 4 or less to the owner's hand.",
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-055.png",
+    "cost": 1,
+    "abilityKeywords": [
+      "[Counter]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Sanji's Pilaf",
+    "code": "OP03-056",
+    "rarity": "UC",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "East Blue"
+    ],
+    "effect": "[Main] Draw 2 cards.",
+    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-056.png",
+    "cost": 3,
+    "abilityKeywords": [
+      "[Main]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Three Thousand Worlds",
+    "code": "OP03-057",
+    "rarity": "R",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "East Blue",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Main] Place up to 1 Character with a cost of 5 or less at the bottom of the owner's deck.",
+    "trigger": "Trigger[Trigger] Place up to 1 Character with a cost of 3 or less at the bottom of the owner's deck.",
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-057.png",
+    "cost": 4,
+    "abilityKeywords": [
+      "[Main]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Iceburg",
+    "code": "OP03-058",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Wisdom",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Water Seven",
+      "Galley-La Company"
+    ],
+    "effect": "This Leader cannot attack.[Activate: Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may rest this Leader: Play up to 1 {Galley-La Company} type Character card with a cost of 5 or less from your hand.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-058.png",
+    "life": 5,
+    "abilityKeywords": [
+      "[Activate: Main]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Iceburg",
+    "code": "OP03-058",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Wisdom",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Water Seven",
+      "Galley-La Company"
+    ],
+    "effect": "This Leader cannot attack.[Activate: Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may rest this Leader: Play up to 1 {Galley-La Company} type Character card with a cost of 5 or less from your hand.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-058_p1.png",
+    "life": 5,
+    "abilityKeywords": [
+      "[Activate: Main]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Kaku",
+    "code": "OP03-059",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 6000,
+    "counter": 1000,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Water Seven",
+      "Galley-La Company"
+    ],
+    "effect": "[When Attacking] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains [Banish] during this battle.(When this card deals damage, the target card is trashed without activating its Trigger.)",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-059.png",
+    "cost": 5,
+    "abilityKeywords": [
+      "[Banish]",
+      "[When Attacking]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Kalifa",
+    "code": "OP03-060",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": 4000,
+    "counter": 2000,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Water Seven",
+      "Galley-La Company"
+    ],
+    "effect": "[When Attacking] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Draw 2 cards and trash 1 card from your hand.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-060.png",
+    "cost": 4,
+    "abilityKeywords": [
+      "[When Attacking]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Kiwi & Mozu",
+    "code": "OP03-061",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 4000,
+    "counter": 1000,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Water Seven",
+      "The Franky Family"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-061.png",
+    "cost": 2,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Kokoro",
+    "code": "OP03-062",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": 2000,
+    "counter": 1000,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Merfolk",
+      "Water Seven"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Water Seven} type card other than [Kokoro] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-062.png",
+    "cost": 1,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Zambai",
+    "code": "OP03-063",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 2000,
+    "counter": null,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Water Seven",
+      "The Franky Family"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Water Seven} type, draw 1 card.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-063.png",
+    "cost": 3,
+    "abilityKeywords": [
+      "[Blocker]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Tilestone",
+    "code": "OP03-064",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 6000,
+    "counter": 1000,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Water Seven",
+      "Galley-La Company"
+    ],
+    "effect": "[On K.O.] If your Leader has the {Galley-La Company} type, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-064.png",
+    "cost": 5,
+    "abilityKeywords": [
+      "[On K.O.]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Chimney & Gonbe",
+    "code": "OP03-065",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": 2000,
+    "counter": 1000,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Animal",
+      "Water Seven"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-065.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[Blocker]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Paulie",
+    "code": "OP03-066",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 6000,
+    "counter": null,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Water Seven",
+      "Galley-La Company"
+    ],
+    "effect": "[On Play] ➁ (You may rest the specified number of DON!! cards in your cost area.): Add up to 1 DON!! card from your DON!! deck and set it as active. Then, if you have 8 or more DON!! cards on your field, K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-066.png",
+    "cost": 5,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Paulie",
+    "code": "OP03-066",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 6000,
+    "counter": null,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Water Seven",
+      "Galley-La Company"
+    ],
+    "effect": "[On Play] ➁ (You may rest the specified number of DON!! cards in your cost area.): Add up to 1 DON!! card from your DON!! deck and set it as active. Then, if you have 8 or more DON!! cards on your field, K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-066_p1.png",
+    "cost": 5,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Peepley Lulu",
+    "code": "OP03-067",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Ranged",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Water Seven",
+      "Galley-La Company"
+    ],
+    "effect": "[DON!! x1] [When Attacking] If your Leader has the {Galley-La Company} type, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-067.png",
+    "cost": 5,
+    "abilityKeywords": [
+      "[When Attacking]",
+      "[DON!! x1]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Minozebra",
+    "code": "OP03-068",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Impel Down",
+      "Jailer Beast"
+    ],
+    "effect": "[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.)[On K.O.] If your Leader has the {Impel Down} type, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-068.png",
+    "cost": 4,
+    "abilityKeywords": [
+      "[Banish]",
+      "[On K.O.]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Minorhinoceros",
+    "code": "OP03-069",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Impel Down",
+      "Jailer Beast"
+    ],
+    "effect": "[On K.O.] If your Leader has the {Impel Down} type, draw 2 cards and trash 1 card from your hand.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-069.png",
+    "cost": 3,
+    "abilityKeywords": [
+      "[On K.O.]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Monkey.D.Luffy",
+    "code": "OP03-070",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 7000,
+    "counter": null,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Water Seven",
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may trash 1 Character card with a cost of 5 from your hand: This Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-070.png",
+    "cost": 6,
+    "abilityKeywords": [
+      "[Rush]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Rob Lucci",
+    "code": "OP03-071",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 6000,
+    "counter": 1000,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Water Seven",
+      "Galley-La Company"
+    ],
+    "effect": "[When Attacking] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-071.png",
+    "cost": 5,
+    "abilityKeywords": [
+      "[When Attacking]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Gum-Gum Jet Gatling",
+    "code": "OP03-072",
+    "rarity": "R",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Water Seven",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Counter] You may trash 1 card from your hand: Up to 1 of your Leader or Character cards gains +3000 power during this battle.",
+    "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-072.png",
+    "cost": null,
+    "abilityKeywords": [
+      "[Counter]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Hull Dismantler Slash",
+    "code": "OP03-073",
+    "rarity": "C",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Water Seven",
+      "The Franky Family"
+    ],
+    "effect": "[Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Water Seven} type, K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
+    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-073.png",
+    "cost": 1,
+    "abilityKeywords": [
+      "[Main]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Top Knot",
+    "code": "OP03-074",
+    "rarity": "UC",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Water Seven",
+      "Galley-La Company"
+    ],
+    "effect": "[Main] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Place up to 1 of your opponent's Characters with a cost of 4 or less at the bottom of the owner's deck.",
+    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-074.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[Main]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Galley-La Company",
+    "code": "OP03-075",
+    "rarity": "C",
+    "type": "STAGE",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Water Seven",
+      "Galley-La Company"
+    ],
+    "effect": "[Activate: Main] You may rest this Stage: If your Leader is [Iceburg], add up to 1 DON!! card from your DON!! deck and rest it.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-075.png",
+    "cost": 3,
+    "abilityKeywords": [
+      "[Activate: Main]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Rob Lucci",
+    "code": "OP03-076",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "CP9"
+    ],
+    "effect": "[Your Turn] [Once Per Turn] You may trash 2 cards from your hand: When your opponent's Character is K.O.'d, set this Leader as active.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-076.png",
+    "life": 5,
+    "abilityKeywords": [
+      "[Your Turn]",
+      "[Once Per Turn]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Rob Lucci",
+    "code": "OP03-076",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "CP9"
+    ],
+    "effect": "[Your Turn] [Once Per Turn] You may trash 2 cards from your hand: When your opponent's Character is K.O.'d, set this Leader as active.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-076_p1.png",
+    "life": 5,
+    "abilityKeywords": [
+      "[Your Turn]",
+      "[Once Per Turn]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Charlotte Linlin",
+    "code": "OP03-077",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Black",
+      "Yellow"
+    ],
+    "family": [
+      "The Four Emperors",
+      "Big Mom Pirates"
+    ],
+    "effect": "[DON!! x2] [When Attacking] ② (You may rest the specified number of DON!! cards in your cost area.) You may trash 1 card from your hand: If you have 1 or less Life cards, add up to 1 card from the top of your deck to the top of your Life cards.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-077.png",
+    "life": 4,
+    "abilityKeywords": [
+      "[When Attacking]",
+      "[DON!! x2]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Charlotte Linlin",
+    "code": "OP03-077",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Black",
+      "Yellow"
+    ],
+    "family": [
+      "The Four Emperors",
+      "Big Mom Pirates"
+    ],
+    "effect": "[DON!! x2] [When Attacking] ② (You may rest the specified number of DON!! cards in your cost area.) You may trash 1 card from your hand: If you have 1 or less Life cards, add up to 1 card from the top of your deck to the top of your Life cards.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-077_p1.png",
+    "life": 4,
+    "abilityKeywords": [
+      "[When Attacking]",
+      "[DON!! x2]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Issho",
+    "code": "OP03-078",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 9000,
+    "counter": null,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": "[DON!! x1] [Your Turn] Give all of your opponent's Characters −3 cost.[On Play] If your opponent has 6 or more cards in their hand, trash 2 cards from your opponent's hand.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-078.png",
+    "cost": 8,
+    "abilityKeywords": [
+      "[Your Turn]",
+      "[DON!! x1]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Issho",
+    "code": "OP03-078",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 9000,
+    "counter": null,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": "[DON!! x1] [Your Turn] Give all of your opponent's Characters −3 cost.[On Play] If your opponent has 6 or more cards in their hand, trash 2 cards from your opponent's hand.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-078_p1.png",
+    "cost": 8,
+    "abilityKeywords": [
+      "[Your Turn]",
+      "[DON!! x1]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Vergo",
+    "code": "OP03-079",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 2000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Navy",
+      "Donquixote Pirates"
+    ],
+    "effect": "[DON!! x1] This Character cannot be K.O.'d in battle.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-079.png",
+    "cost": 5,
+    "abilityKeywords": [
+      "[DON!! x1]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Kaku",
+    "code": "OP03-080",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 6000,
+    "counter": 1000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "CP9"
+    ],
+    "effect": "[On Play] You may place 2 cards with a type including \"CP\" from your trash at the bottom of your deck in any order: K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-080.png",
+    "cost": 5,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Kaku",
+    "code": "OP03-080",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 6000,
+    "counter": 1000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "CP9"
+    ],
+    "effect": "[On Play] You may place 2 cards with a type including \"CP\" from your trash at the bottom of your deck in any order: K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-080_p1.png",
+    "cost": 5,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Kalifa",
+    "code": "OP03-081",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 4000,
+    "counter": 2000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "CP9"
+    ],
+    "effect": "[On Play] Draw 2 cards and trash 2 cards from your hand. Then, give up to 1 of your opponent's Characters −2 cost during this turn.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-081.png",
+    "cost": 4,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Kalifa",
+    "code": "OP03-081",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 4000,
+    "counter": 2000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "CP9"
+    ],
+    "effect": "[On Play] Draw 2 cards and trash 2 cards from your hand. Then, give up to 1 of your opponent's Characters −2 cost during this turn.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-081_p1.png",
+    "cost": 4,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Kumadori",
+    "code": "OP03-082",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 6000,
+    "counter": 1000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "CP9"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-082.png",
+    "cost": 4,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Corgy",
+    "code": "OP03-083",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": null,
+    "counter": 1000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "World Government"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck and trash up to 2 cards. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-083.png",
+    "cost": 1,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Jerry",
+    "code": "OP03-084",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 4000,
+    "counter": 1000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "CP6"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-084.png",
+    "cost": 2,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Jabra",
+    "code": "OP03-085",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 7000,
+    "counter": 1000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "CP9"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-085.png",
+    "cost": 5,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Spandam",
+    "code": "OP03-086",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 2000,
+    "counter": 1000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "CP9"
+    ],
+    "effect": "[On Play] If your Leader's type includes \"CP\", look at 3 cards from the top of your deck; reveal up to 1 card with a type including \"CP\" other than [Spandam] and add it to your hand. Then, trash the rest.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-086.png",
+    "cost": 1,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Spandam",
+    "code": "OP03-086",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 2000,
+    "counter": 1000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "CP9"
+    ],
+    "effect": "[On Play] If your Leader's type includes \"CP\", look at 3 cards from the top of your deck; reveal up to 1 card with a type including \"CP\" other than [Spandam] and add it to your hand. Then, trash the rest.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-086_p1.png",
+    "cost": 1,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Nero",
+    "code": "OP03-087",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Ranged",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "CP9"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-087.png",
+    "cost": 3,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Fukurou",
+    "code": "OP03-088",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 3000,
+    "counter": 1000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "CP9"
+    ],
+    "effect": "This Character cannot be K.O.'d by effects.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-088.png",
+    "cost": 3,
+    "abilityKeywords": [
+      "[Blocker]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Brannew",
+    "code": "OP03-089",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": 3000,
+    "counter": 1000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": "[On Play] Look at 3 cards from the top of your deck; reveal up to 1 {Navy} type card other than [Brannew] and add it to your hand. Then, trash the rest.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-089.png",
+    "cost": 2,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Blueno",
+    "code": "OP03-090",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 6000,
+    "counter": 1000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "CP9"
+    ],
+    "effect": "[DON!! x1] This Character gains [Blocker].(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] Play up to 1 Character card with a type including \"CP\" and a cost of 4 or less from your trash rested.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-090.png",
+    "cost": 5,
+    "abilityKeywords": [
+      "[Blocker]",
+      "[On K.O.]",
+      "[DON!! x1]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Helmeppo",
+    "code": "OP03-091",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": null,
+    "counter": 1000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": "[On Play] Set the cost of up to 1 of your opponent's Characters with no base effect to 0 during this turn.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-091.png",
+    "cost": 1,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Rob Lucci",
+    "code": "OP03-092",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 7000,
+    "counter": null,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "CP9"
+    ],
+    "effect": "[On Play] You may place 2 cards with a type including \"CP\" from your trash at the bottom of your deck in any order: This Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-092.png",
+    "cost": 6,
+    "abilityKeywords": [
+      "[Rush]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Rob Lucci",
+    "code": "OP03-092",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 7000,
+    "counter": null,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "CP9"
+    ],
+    "effect": "[On Play] You may place 2 cards with a type including \"CP\" from your trash at the bottom of your deck in any order: This Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-092_p1.png",
+    "cost": 6,
+    "abilityKeywords": [
+      "[Rush]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Wanze",
+    "code": "OP03-093",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 4000,
+    "counter": null,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "CP7"
+    ],
+    "effect": "[On Play] You may trash 1 card from your hand: If your Leader's type includes \"CP\", K.O. up to 1 of your opponent's Characters with a cost of 1 or less.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-093.png",
+    "cost": 2,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Air Door",
+    "code": "OP03-094",
+    "rarity": "UC",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "CP9"
+    ],
+    "effect": "[Main] If your Leader's type includes \"CP\", look at 5 cards from the top of your deck; play up to 1 Character card with a type including \"CP\" and a cost of 5 or less. Then, trash the rest.",
+    "trigger": "Trigger[Trigger] Play up to 1 black Character card with a cost of 3 or less from your trash.",
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-094.png",
+    "cost": 4,
+    "abilityKeywords": [
+      "[Main]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Soap Sheep",
+    "code": "OP03-095",
+    "rarity": "C",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "CP9"
+    ],
+    "effect": "[Main] Give up to 2 of your opponent's Characters −2 cost during this turn.",
+    "trigger": "Trigger[Trigger] Your opponent trashes 1 card from their hand.",
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-095.png",
+    "cost": 1,
+    "abilityKeywords": [
+      "[Main]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Tempest Kick Sky Slicer",
+    "code": "OP03-096",
+    "rarity": "UC",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "CP9"
+    ],
+    "effect": "[Main] K.O. up to 1 of your opponent's Characters with a cost of 0 or your opponent's Stages with a cost of 3 or less.",
+    "trigger": "Trigger[Trigger] Draw 2 cards.",
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-096.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[Main]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Six King Pistol",
+    "code": "OP03-097",
+    "rarity": "R",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "CP9"
+    ],
+    "effect": "[Counter] You may trash 1 card from your hand: Up to 1 of your Leader or Character cards gains +3000 power during this battle.",
+    "trigger": "Trigger[Trigger] Draw 1 card. Then, K.O. up to 1 of your opponent's Characters with a cost of 1 or less.",
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-097.png",
+    "cost": null,
+    "abilityKeywords": [
+      "[Counter]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Enies Lobby",
+    "code": "OP03-098",
+    "rarity": "C",
+    "type": "STAGE",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "World Government"
+    ],
+    "effect": "[Activate: Main] You may rest this Stage: If your Leader's type includes \"CP\", give up to 1 of your opponent's Characters −2 cost during this turn.",
+    "trigger": "Trigger[Trigger] Play this card.",
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-098.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[Activate: Main]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Charlotte Katakuri",
+    "code": "OP03-099",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Yellow"
+    ],
+    "family": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[DON!! x1] [When Attacking] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards. Then, this Leader gains +1000 power during this battle.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-099.png",
+    "life": 5,
+    "abilityKeywords": [
+      "[When Attacking]",
+      "[DON!! x1]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Charlotte Katakuri",
+    "code": "OP03-099",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Yellow"
+    ],
+    "family": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[DON!! x1] [When Attacking] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards. Then, this Leader gains +1000 power during this battle.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-099_p1.png",
+    "life": 5,
+    "abilityKeywords": [
+      "[When Attacking]",
+      "[DON!! x1]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Kingbaum",
+    "code": "OP03-100",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Yellow"
+    ],
+    "family": [
+      "Big Mom Pirates",
+      "Homies"
+    ],
+    "effect": null,
+    "trigger": "Trigger[Trigger] You may trash 1 card from the top or bottom of your Life cards: Play this card.",
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-100.png",
+    "cost": 3,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Camie",
+    "code": "OP03-101",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": 3000,
+    "counter": 1000,
+    "color": [
+      "Yellow"
+    ],
+    "family": [
+      "Merfolk"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-101.png",
+    "cost": 1,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Sanji",
+    "code": "OP03-102",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 3000,
+    "counter": 2000,
+    "color": [
+      "Yellow"
+    ],
+    "family": [
+      "The Vinsmoke Family"
+    ],
+    "effect": "[DON!! x2] [When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-102.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[When Attacking]",
+      "[DON!! x2]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Bobbin the Disposer",
+    "code": "OP03-103",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 4000,
+    "counter": 1000,
+    "color": [
+      "Yellow"
+    ],
+    "family": [
+      "Big Mom Pirates"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-103.png",
+    "cost": 2,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Shirley",
+    "code": "OP03-104",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": 3000,
+    "counter": 1000,
+    "color": [
+      "Yellow"
+    ],
+    "family": [
+      "Merfolk"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-104.png",
+    "cost": 3,
+    "abilityKeywords": [
+      "[Blocker]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Charlotte Oven",
+    "code": "OP03-105",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 4000,
+    "counter": 1000,
+    "color": [
+      "Yellow"
+    ],
+    "family": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[DON!! x1] [When Attacking] You may trash 1 card with a [Trigger] from your hand: This Character gains +3000 power during this battle.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-105.png",
+    "cost": 3,
+    "abilityKeywords": [
+      "[Trigger]",
+      "[When Attacking]",
+      "[DON!! x1]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Charlotte Opera",
+    "code": "OP03-106",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": 1000,
+    "color": [
+      "Yellow"
+    ],
+    "family": [
+      "Big Mom Pirates"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-106.png",
+    "cost": 4,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Charlotte Galette",
+    "code": "OP03-107",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 2000,
+    "counter": 1000,
+    "color": [
+      "Yellow"
+    ],
+    "family": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-107.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[Blocker]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Charlotte Cracker",
+    "code": "OP03-108",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Yellow"
+    ],
+    "family": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[DON!! x1] If you have less Life cards than your opponent, this Character gains [Double Attack] and +1000 power.(This card deals 2 damage.)",
+    "trigger": "Trigger[Trigger] You may trash 1 card from your hand: Play this card.",
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-108.png",
+    "cost": 4,
+    "abilityKeywords": [
+      "[Double Attack]",
+      "[DON!! x1]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Charlotte Cracker",
+    "code": "OP03-108",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Yellow"
+    ],
+    "family": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[DON!! x1] If you have less Life cards than your opponent, this Character gains [Double Attack] and +1000 power.(This card deals 2 damage.)",
+    "trigger": "Trigger[Trigger] You may trash 1 card from your hand: Play this card.",
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-108_p1.png",
+    "cost": 4,
+    "abilityKeywords": [
+      "[Double Attack]",
+      "[DON!! x1]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Charlotte Chiffon",
+    "code": "OP03-109",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": 3000,
+    "counter": null,
+    "color": [
+      "Yellow"
+    ],
+    "family": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[On Play] You may trash 1 card from the top or bottom of your Life cards: Add up to 1 card from the top of your deck to the top of your Life cards.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-109.png",
+    "cost": 2,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Charlotte Smoothie",
+    "code": "OP03-110",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Yellow"
+    ],
+    "family": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: This Character gains +2000 power during this battle.",
+    "trigger": "Trigger[Trigger] You may trash 1 card from your hand: Play this card.",
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-110.png",
+    "cost": 4,
+    "abilityKeywords": [
+      "[When Attacking]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Charlotte Praline",
+    "code": "OP03-111",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Yellow"
+    ],
+    "family": [
+      "Merfolk",
+      "The Sun Pirates"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-111.png",
+    "cost": 3,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Charlotte Pudding",
+    "code": "OP03-112",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": 2000,
+    "counter": 1000,
+    "color": [
+      "Yellow"
+    ],
+    "family": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 [Sanji] or {Big Mom Pirates} type card other than [Charlotte Pudding] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-112.png",
+    "cost": 1,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Charlotte Pudding",
+    "code": "OP03-112",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": 2000,
+    "counter": 1000,
+    "color": [
+      "Yellow"
+    ],
+    "family": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 [Sanji] or {Big Mom Pirates} type card other than [Charlotte Pudding] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-112_p1.png",
+    "cost": 1,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Charlotte Perospero",
+    "code": "OP03-113",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Yellow"
+    ],
+    "family": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[On K.O.] Look at 3 cards from the top of your deck; reveal up to 1 {Big Mom Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": "Trigger[Trigger] You may trash 1 card from your hand: Play this card.",
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-113.png",
+    "cost": 3,
+    "abilityKeywords": [
+      "[On K.O.]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Charlotte Perospero",
+    "code": "OP03-113",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Yellow"
+    ],
+    "family": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[On K.O.] Look at 3 cards from the top of your deck; reveal up to 1 {Big Mom Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": "Trigger[Trigger] You may trash 1 card from your hand: Play this card.",
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-113_p1.png",
+    "cost": 3,
+    "abilityKeywords": [
+      "[On K.O.]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Charlotte Linlin",
+    "code": "OP03-114",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 12000,
+    "counter": null,
+    "color": [
+      "Yellow"
+    ],
+    "family": [
+      "The Four Emperors",
+      "Big Mom Pirates"
+    ],
+    "effect": "[On Play] If your Leader has the {Big Mom Pirates} type, add up to 1 card from the top of your deck to the top of your Life cards. Then, trash up to 1 card from the top of your opponent's Life cards.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-114.png",
+    "cost": 10,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Charlotte Linlin",
+    "code": "OP03-114",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 12000,
+    "counter": null,
+    "color": [
+      "Yellow"
+    ],
+    "family": [
+      "The Four Emperors",
+      "Big Mom Pirates"
+    ],
+    "effect": "[On Play] If your Leader has the {Big Mom Pirates} type, add up to 1 card from the top of your deck to the top of your Life cards. Then, trash up to 1 card from the top of your opponent's Life cards.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-114_p1.png",
+    "cost": 10,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Streusen",
+    "code": "OP03-115",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 1000,
+    "counter": 2000,
+    "color": [
+      "Yellow"
+    ],
+    "family": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[On Play] You may trash 1 card with a [Trigger] from your hand: K.O. up to 1 of your opponent's Characters with a cost of 1 or less.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-115.png",
+    "cost": 1,
+    "abilityKeywords": [
+      "[Trigger]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Shirahoshi",
+    "code": "OP03-116",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": null,
+    "counter": 1000,
+    "color": [
+      "Yellow"
+    ],
+    "family": [
+      "Merfolk"
+    ],
+    "effect": "[On Play] Draw 3 cards and trash 2 cards from your hand.",
+    "trigger": "Trigger[Trigger] Play this card.",
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-116.png",
+    "cost": 5,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Napoleon",
+    "code": "OP03-117",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 3000,
+    "counter": 1000,
+    "color": [
+      "Yellow"
+    ],
+    "family": [
+      "Big Mom Pirates",
+      "Homies"
+    ],
+    "effect": "[Activate: Main] You may rest this Character: Up to 1 of your [Charlotte Linlin] cards gains +1000 power until the start of your next turn.",
+    "trigger": "Trigger[Trigger] Play this card.",
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-117.png",
+    "cost": 3,
+    "abilityKeywords": [
+      "[Activate: Main]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Ikoku Sovereignty",
+    "code": "OP03-118",
+    "rarity": "UC",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Yellow"
+    ],
+    "family": [
+      "The Four Emperors",
+      "Big Mom Pirates"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +5000 power during this battle.",
+    "trigger": "Trigger[Trigger] You may trash 2 cards from your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-118.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[Counter]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Buzz Cut Mochi",
+    "code": "OP03-119",
+    "rarity": "R",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Yellow"
+    ],
+    "family": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[Main] If you have less Life cards than your opponent, K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "trigger": "Trigger[Trigger] Play up to 1 Character card with a cost of 4 or less and a [Trigger] from your hand.",
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-119.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[Main]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Tropical Torment",
+    "code": "OP03-120",
+    "rarity": "C",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Yellow"
+    ],
+    "family": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[Main] If your opponent has 4 or more Life cards, trash up to 1 card from the top of your opponent's Life cards.",
+    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-120.png",
+    "cost": 3,
+    "abilityKeywords": [
+      "[Main]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Thunder Bolt",
+    "code": "OP03-121",
+    "rarity": "C",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Yellow"
+    ],
+    "family": [
+      "The Four Emperors",
+      "Big Mom Pirates"
+    ],
+    "effect": "[Main] You may trash 1 card from the top of your Life cards: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-121.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[Main]"
+    ],
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Sogeking",
+    "code": "OP03-122",
+    "rarity": "SEC",
+    "type": "CHARACTER",
+    "attribute": "Ranged",
+    "power": 6000,
+    "counter": 1000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "Sniper Island"
+    ],
+    "effect": "Also treat this card's name as [Usopp] according to the rules.[On Play] Return up to 1 Character with a cost of 6 or less to the owner's hand. Then, draw 2 cards and trash 2 cards from your hand.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-122.png",
+    "cost": 7,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Sogeking",
+    "code": "OP03-122",
+    "rarity": "SEC",
+    "type": "CHARACTER",
+    "attribute": "Ranged",
+    "power": 6000,
+    "counter": 1000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "Sniper Island"
+    ],
+    "effect": "Also treat this card's name as [Usopp] according to the rules.[On Play] Return up to 1 Character with a cost of 6 or less to the owner's hand. Then, draw 2 cards and trash 2 cards from your hand.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-122_p1.png",
+    "cost": 7,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Sogeking",
+    "code": "OP03-122",
+    "rarity": "SEC",
+    "type": "CHARACTER",
+    "attribute": "Ranged",
+    "power": 6000,
+    "counter": 1000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "Sniper Island"
+    ],
+    "effect": "Also treat this card's name as [Usopp] according to the rules.[On Play] Return up to 1 Character with a cost of 6 or less to the owner's hand. Then, draw 2 cards and trash 2 cards from your hand.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-122_p2.png",
+    "cost": 7,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Charlotte Katakuri",
+    "code": "OP03-123",
+    "rarity": "SEC",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 8000,
+    "counter": null,
+    "color": [
+      "Yellow"
+    ],
+    "family": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[On Play] Add up to 1 Character with a cost of 8 or less to the top or bottom of the owner's Life cards face-up.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-123.png",
+    "cost": 8,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Charlotte Katakuri",
+    "code": "OP03-123",
+    "rarity": "SEC",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 8000,
+    "counter": null,
+    "color": [
+      "Yellow"
+    ],
+    "family": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[On Play] Add up to 1 Character with a cost of 8 or less to the top or bottom of the owner's Life cards face-up.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-123_p1.png",
+    "cost": 8,
+    "expansionCode": "OP03"
+  },
+  {
+    "name": "Eustass\"Captain\"Kid",
+    "code": "OP01-051",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 8000,
+    "counter": null,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Supernovas",
+      "Kid Pirates"
+    ],
+    "effect": "[DON!! x1] [Opponent's Turn] If this Character is rested, your opponent cannot attack any card other than the Character [Eustass\"Captain\"Kid].[Activate: Main] [Once Per Turn] You may rest this Character: Play up to 1 Character card with a cost of 3 or less from your hand.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-051_p2.png",
+    "cost": 8,
+    "abilityKeywords": [
+      "[Activate: Main]",
+      "[Opponent's Turn]",
+      "[Once Per Turn]",
+      "[DON!! x1]"
+    ],
+    "expansionCode": "OP01"
+  },
+  {
+    "name": "Monkey.D.Luffy",
+    "code": "ST01-012",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 6000,
+    "counter": null,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Supernovas",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Rush] (This card can attack on the turn in which it is played.)[DON!! x2] [When Attacking] Your opponent cannot activate [Blocker] during this battle.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-012_p1.png",
+    "cost": 5,
+    "abilityKeywords": [
+      "[Rush]",
+      "[Blocker]",
+      "[When Attacking]",
+      "[DON!! x2]"
+    ],
+    "expansionCode": "ST01"
+  },
+  {
+    "name": "Donquixote Doflamingo",
+    "code": "ST03-009",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 7000,
+    "counter": null,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "The Seven Warlords of the Sea",
+      "Donquixote Pirates"
+    ],
+    "effect": "[On Play] Return up to 1 Character with a cost of 7 or less to the owner's hand.",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-009_p1.png",
+    "cost": 7,
+    "expansionCode": "ST03"
+  },
+  {
+    "name": "Kaido",
+    "code": "ST04-003",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 10000,
+    "counter": null,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "The Four Emperors",
+      "Animal Kingdom Pirates"
+    ],
+    "effect": "[On Play] DON!! −5 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 6 or less. This Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+    "trigger": null,
+    "setName": "PILLARS OF STRENGTH [OP03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-003_p1.png",
+    "cost": 9,
+    "abilityKeywords": [
+      "[Rush]"
+    ],
+    "expansionCode": "ST04"
+  }
+]

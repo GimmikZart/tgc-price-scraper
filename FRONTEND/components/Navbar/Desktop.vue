@@ -31,6 +31,7 @@ async function scrapaMaledetto(){
       <v-list-item title="Deckspedia" subtitle="Beta"></v-list-item>
       <v-divider></v-divider>
       <v-list nav>
+        <v-list-item v-if="userAuth.isAdmin" title="Admin" to="/admin" />
         <v-list-item title="Prodotti" to="/" />
         <v-list-item v-if="userAuth.isAdmin" title="Brands" to="/brands" />
         <v-list-item v-if="userAuth.isAdmin" title="Giochi" to="/games" />
@@ -39,7 +40,6 @@ async function scrapaMaledetto(){
         <v-spacer></v-spacer>
       </v-list>
       <div class="absolute bottom-0 w-full flex flex-col gap-3 p-3">
-        <v-btn block @click="scrapaMaledetto">SCRAPA CARTE</v-btn>
         <v-btn v-if="userAuth.isAdmin"  variant="outlined" block color="white" @click="goToLogsView()">
             AVVISI
             <v-badge

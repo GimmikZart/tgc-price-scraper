@@ -46,23 +46,26 @@ async function signOut() {
 </script>
 <template>
 <div class="w-screen flex gap-5 fixed bottom-0 right-0 items-center justify-around p-2 bg-black">
+    <NuxtLink v-if="userAuth.isAdmin" to="/admin"  class="text-white p-2 cursor-pointer rounded-lg">
+        <v-icon size="30" icon="mdi-security"></v-icon>
+    </NuxtLink>
     <NuxtLink to="/"  class="text-white p-2 cursor-pointer rounded-lg">
         <v-icon size="30" icon="mdi-shopping"></v-icon>
     </NuxtLink>
     <NuxtLink to="/cards"  class="text-white p-2 cursor-pointer rounded-lg">
         <v-icon size="30" icon="mdi-cards"></v-icon>
     </NuxtLink>
-    <v-btn @click="signOut">
-        <v-icon size="30" icon="mdi-logout"></v-icon>
-    </v-btn>
     <NuxtLink v-if="userAuth.isAdmin" to="/brands"  class="bg-black text-white p-2 cursor-pointer rounded-lg">
         <v-icon size="30" icon="mdi-domain"></v-icon>
     </NuxtLink>
     <NuxtLink v-if="userAuth.isAdmin" to="/stores" class="bg-black text-white p-2 cursor-pointer rounded-lg">
         <v-icon size="30" icon="mdi-storefront"></v-icon>
     </NuxtLink>
-    <v-btn v-if="userAuth.isAdmin" :loading="isLoading" color="purple" @click="fetchCards()">
-        <v-icon icon="mdi-update"></v-icon>
+    <v-btn @click="signOut">
+        <v-icon size="30" icon="mdi-logout"></v-icon>
     </v-btn>
+    <!-- <v-btn v-if="userAuth.isAdmin" :loading="isLoading" color="purple" @click="fetchCards()">
+        <v-icon icon="mdi-update"></v-icon>
+    </v-btn> -->
 </div>
 </template>

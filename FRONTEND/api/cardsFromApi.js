@@ -9,13 +9,14 @@ export async function fetchCardsFromApi() {
     } 
 }
 
-export async function fetchCardsFromOfficialWebSite() {
+export async function fetchCardsFromOfficialWebSite(infoSet) {
     try {
         return await $fetch('/api/get-cards-list-official', {
-            method: 'GET',
+            method: 'POST',
+            body: infoSet
         })
     } catch (error) {
-        console.error('Errore scraping new:', error)
+        console.error('Errore scraping from official:', error)
         throw new Error(error)
     } 
 }

@@ -1,16 +1,20 @@
 <script setup>
 import { useUserAuth } from '@/stores/useUserAuth';
-import cardsListFromJson from '@/public/data/cards/cards.json'
-import colorsFilterJson from '@/public/data/filters/colors.json'
 
-import setNamesFilterJson from '@/public/data/filters/setNames.json'
-import typesFilterJson from '@/public/data/filters/types.json'
-import familiesFilterJson from '@/public/data/filters/families.json'
-import raritiesFilterJson from '@/public/data/filters/rarities.json'
+const {
+  allCards,
+  setNameList,
+  typeList,
+  familyList,
+  rarityList,
+  colorList,
+  expansionCodeList,
+  abilityKwList
+} = await useOnePieceCards()
 
 const filtered = computed(() => {
-    const testList = cardsListFromJson.slice(0, 100)
-    return testList.filter(card => {
+    //const testList = allCards.slice(0, 100)
+    return allCards.filter(card => {
         const nameMatch = !nameFilter.value ||
             card.name.toLowerCase().includes(nameFilter.value.toLowerCase())
 
@@ -24,12 +28,16 @@ const filtered = computed(() => {
             setNamesFilter.value.includes(card.setName)
 
         const familyMatch = !familiesFilter.value.length ||
-            familiesFilter.value.includes(card.family)
+            card.family.some(c => familiesFilter.value.includes(c))
 
         const abilityMatch = !abilityFilter.value ||
             card.ability.toLowerCase().includes(abilityFilter.value.toLowerCase())
 
-        return nameMatch && colorMatch && typeMatch && setMatch && familyMatch && abilityMatch
+        const rarityMatch =
+            !rarityFilter.value.length ||
+            rarityFilter.value.includes(card.rarity)
+
+        return nameMatch && colorMatch && typeMatch && setMatch && familyMatch && abilityMatch && rarityMatch
     })
 })
 
@@ -40,6 +48,7 @@ const abilityFilter = ref('')
 const setNamesFilter = ref([])
 const typesFilter = ref([])
 const familiesFilter = ref([])
+const rarityFilter = ref([])
 const moreFilters = ref(false)
 
 const currentPage = ref(1)
@@ -48,8 +57,6 @@ const itemsPerPage = ref(32)
 const totalPages = computed(() => Math.max(1,Math.ceil(filtered.value.length / itemsPerPage.value))) 
 const paginated = computed(() => {
     const start = (currentPage.value - 1) * itemsPerPage.value
-    console.log("Paginated Start:", start)
-    console.log('items per page', itemsPerPage.value)
     return filtered.value.slice(start, start + itemsPerPage.value)
 })
 
@@ -67,9 +74,9 @@ function resetFilters() {
                 </v-btn> 
             </template>
         </Toolbar>
-        <v-container class="grid grid-cols-2 gap-2 px-2 pt-2 lg:pa-4 lg:grid-cols-8 lg:gap-4">
+        <div class="grid grid-cols-2 gap-2 px-2 pt-2 max-sm:pb-5 lg:px-4 lg:pb-20 lg:grid-cols-8 lg:gap-4">
             <Card v-for="(card, ix) in paginated" :key="ix" :card="card"/>
-        </v-container>
+        </div>
         <div class="fixed bottom-[60px] w-full right-0 z-10 p-2 bg-black | lg:bottom-0 lg:w-full lg:right-0 lg:pl-[258px] lg:py-5">
             <div class="py-0 px-4">
                 <v-pagination
@@ -95,7 +102,7 @@ function resetFilters() {
                         v-model="colorFilter"
                         density="compact"
                         variant="outlined"
-                        :items="colorsFilterJson"
+                        :items="colorList"
                         label="Filtra per colore"
                         multiple
                         chips
@@ -108,7 +115,7 @@ function resetFilters() {
                         v-model="typesFilter"
                         density="compact"
                         variant="outlined"
-                        :items="typesFilterJson"
+                        :items="typeList"
                         label="Filtra per tipo"
                         multiple
                         chips
@@ -128,7 +135,7 @@ function resetFilters() {
                         v-model="setNamesFilter"
                         density="compact"
                         variant="outlined"
-                        :items="setNamesFilterJson"
+                        :items="setNameList"
                         label="Filtra per set"
                         multiple
                         chips
@@ -141,7 +148,7 @@ function resetFilters() {
                         v-model="familiesFilter"
                         density="compact"
                         variant="outlined"
-                        :items="familiesFilterJson"
+                        :items="familyList"
                         label="Filtra per famiglia"
                         multiple
                         chips
@@ -150,6 +157,20 @@ function resetFilters() {
                         clearable
                     >
                     </v-autocomplete>
+                    <v-select
+                        v-model="rarityFilter"
+                        density="compact"
+                        variant="outlined"
+                        :items="rarityList"
+                        label="Filtra per rarità"
+                        multiple
+                        chips
+                        class="w-full"
+                        hide-details
+                        clearable
+                    >
+
+                    </v-select>
                 </div>
                 <v-textarea
                         v-if="moreFilters"

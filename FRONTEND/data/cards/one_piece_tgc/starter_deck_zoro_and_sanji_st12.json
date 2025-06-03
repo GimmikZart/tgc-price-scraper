@@ -1,0 +1,404 @@
+[
+  {
+    "name": "Roronoa Zoro & Sanji",
+    "code": "ST12-001",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Slash/Strike",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Green",
+      "Blue"
+    ],
+    "family": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x1] [When Attacking] [Once Per Turn] You may return 1 of your Characters with a cost of 2 or more to the owner's hand: Set up to 1 of your Characters with 7000 power or less as active.",
+    "trigger": null,
+    "setName": "Zoro & Sanji [ST-12]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST12-001.png",
+    "life": 4,
+    "abilityKeywords": [
+      "[When Attacking]",
+      "[Once Per Turn]",
+      "[DON!! x1]"
+    ],
+    "expansionCode": "ST12"
+  },
+  {
+    "name": "Kuina",
+    "code": "ST12-002",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 2000,
+    "counter": 1000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Frost Moon Village"
+    ],
+    "effect": "[Activate: Main] You may rest this Character: Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "trigger": "Trigger[Trigger] Play this card.",
+    "setName": "Zoro & Sanji [ST-12]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST12-002.png",
+    "cost": 3,
+    "abilityKeywords": [
+      "[Activate: Main]"
+    ],
+    "expansionCode": "ST12"
+  },
+  {
+    "name": "Dracule Mihawk",
+    "code": "ST12-003",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 4000,
+    "counter": 2000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "The Seven Warlords of the Sea",
+      "Muggy Kingdom"
+    ],
+    "effect": "[On Play] If you have 2 or less Characters, play up to 1 {Muggy Kingdom} type or <Slash> attribute Character card with a cost of 4 or less other than [Dracule Mihawk] from your hand rested.",
+    "trigger": null,
+    "setName": "Zoro & Sanji [ST-12]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST12-003.png",
+    "cost": 3,
+    "expansionCode": "ST12"
+  },
+  {
+    "name": "Humandrill",
+    "code": "ST12-004",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Animal",
+      "Muggy Kingdom"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "Zoro & Sanji [ST-12]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST12-004.png",
+    "cost": 3,
+    "expansionCode": "ST12"
+  },
+  {
+    "name": "Perona",
+    "code": "ST12-005",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": 1000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Muggy Kingdom",
+      "Thriller Bark Pirates"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "Zoro & Sanji [ST-12]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST12-005.png",
+    "cost": 4,
+    "expansionCode": "ST12"
+  },
+  {
+    "name": "Yosaku & Johnny",
+    "code": "ST12-006",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 3000,
+    "counter": 1000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "East Blue"
+    ],
+    "effect": "[DON!! x1] [When Attacking] Choose one:• Rest up to 1 of your opponent's Characters with a cost of 2 or less.• K.O. up to 1 of your opponent's rested Characters with a cost of 2 or less.",
+    "trigger": null,
+    "setName": "Zoro & Sanji [ST-12]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST12-006.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[When Attacking]",
+      "[DON!! x1]"
+    ],
+    "expansionCode": "ST12"
+  },
+  {
+    "name": "Rika",
+    "code": "ST12-007",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": null,
+    "counter": 2000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "East Blue"
+    ],
+    "effect": "[On Play] ➁ (You may rest the specified number of DON!! cards in your cost area.): If your opponent has 3 or more Life cards, set up to 1 of your <Slash> attribute Characters with a cost of 4 or less as active.",
+    "trigger": null,
+    "setName": "Zoro & Sanji [ST-12]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST12-007.png",
+    "cost": 2,
+    "expansionCode": "ST12"
+  },
+  {
+    "name": "Roronoa Zoro",
+    "code": "ST12-008",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 6000,
+    "counter": null,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x1] [When Attacking] Rest up to 1 of your opponent's Characters with a cost of 6 or less.",
+    "trigger": null,
+    "setName": "Zoro & Sanji [ST-12]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST12-008.png",
+    "cost": 4,
+    "abilityKeywords": [
+      "[When Attacking]",
+      "[DON!! x1]"
+    ],
+    "expansionCode": "ST12"
+  },
+  {
+    "name": "Elephant True Bluefin",
+    "code": "ST12-009",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 3000,
+    "counter": 1000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "Animal"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "Zoro & Sanji [ST-12]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST12-009.png",
+    "cost": 1,
+    "expansionCode": "ST12"
+  },
+  {
+    "name": "Emporio.Ivankov",
+    "code": "ST12-010",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 4000,
+    "counter": 1000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "Impel Down",
+      "Revolutionary Army"
+    ],
+    "effect": "[On Play] Reveal 1 card from the top of your deck and play up to 1 Character card with a cost of 2. Then, place the rest at the top or bottom of your deck.[When Attacking] [Once Per Turn] Draw 1 card if you have 6 or less cards in your hand.",
+    "trigger": null,
+    "setName": "Zoro & Sanji [ST-12]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST12-010.png",
+    "cost": 3,
+    "abilityKeywords": [
+      "[When Attacking]",
+      "[Once Per Turn]"
+    ],
+    "expansionCode": "ST12"
+  },
+  {
+    "name": "Sanji",
+    "code": "ST12-011",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 3000,
+    "counter": null,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x1] [When Attacking] If you have 5 or less cards in your hand, this Character gains +2000 power until the start of your next turn.",
+    "trigger": null,
+    "setName": "Zoro & Sanji [ST-12]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST12-011.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[When Attacking]",
+      "[DON!! x1]"
+    ],
+    "expansionCode": "ST12"
+  },
+  {
+    "name": "Charlotte Pudding",
+    "code": "ST12-012",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": 2000,
+    "counter": 2000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[Activate: Main] Return this Character to the owner's hand.",
+    "trigger": null,
+    "setName": "Zoro & Sanji [ST-12]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST12-012.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[Activate: Main]"
+    ],
+    "expansionCode": "ST12"
+  },
+  {
+    "name": "Zeff",
+    "code": "ST12-013",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "East Blue"
+    ],
+    "effect": "[On Play] Look at 3 cards from the top of your deck and place them at the top or bottom of the deck in any order.[When Attacking] Reveal 1 card from the top of your deck and play up to 1 Character card with a cost of 2 rested. Then, place the rest at the top or bottom of your deck.",
+    "trigger": null,
+    "setName": "Zoro & Sanji [ST-12]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST12-013.png",
+    "cost": 5,
+    "abilityKeywords": [
+      "[When Attacking]"
+    ],
+    "expansionCode": "ST12"
+  },
+  {
+    "name": "Duval",
+    "code": "ST12-014",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 1000,
+    "counter": 1000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "The Flying Fish Riders"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Look at 3 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
+    "trigger": null,
+    "setName": "Zoro & Sanji [ST-12]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST12-014.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[Blocker]"
+    ],
+    "expansionCode": "ST12"
+  },
+  {
+    "name": "Patty & Carne",
+    "code": "ST12-015",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 4000,
+    "counter": 1000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "East Blue"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "Zoro & Sanji [ST-12]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST12-015.png",
+    "cost": 2,
+    "expansionCode": "ST12"
+  },
+  {
+    "name": "Lion Strike",
+    "code": "ST12-016",
+    "rarity": "C",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Main]/[Counter] Rest up to 1 of your opponent's Leader or Character cards with a cost of 4 or less.",
+    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "setName": "Zoro & Sanji [ST-12]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST12-016.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[Main]",
+      "[Counter]"
+    ],
+    "expansionCode": "ST12"
+  },
+  {
+    "name": "Plastic Surgery Shot",
+    "code": "ST12-017",
+    "rarity": "C",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, reveal 1 card from the top of your deck, play up to 1 Character card with a cost of 2, and place the rest at the top or bottom of your deck.",
+    "trigger": null,
+    "setName": "Zoro & Sanji [ST-12]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST12-017.png",
+    "cost": 1,
+    "abilityKeywords": [
+      "[Counter]"
+    ],
+    "expansionCode": "ST12"
+  }
+]

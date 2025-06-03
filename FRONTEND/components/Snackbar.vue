@@ -48,8 +48,8 @@ function removeMessage() {
             <v-icon>mdi-information</v-icon>
         </v-btn>
         <div class="flex flex-col">
-            <h3 class="font-medium text-xs text-white text-ellipsis">{{ title }}</h3>
-            <p v-if="message" class="font-italic break-all text-xs  text-white text-ellipsis">{{ message }}</p>
+            <h3 class="font-medium text-xs text-white">{{ title }}</h3>
+            <p v-if="message" class="font-italic break-all text-xs  text-white">{{ message }}</p>
         </div>
         <v-spacer/>
         <v-btn

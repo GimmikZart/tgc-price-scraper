@@ -11,7 +11,7 @@ import path from 'path'
  * 3. In the modal, find and click the <li> whose text contains `expansionName`.
  * 4. Submit the search form.
  * 5. Click the first card in the results.
- * 6. Loop `numIterations` times:
+ * 6. Loop `cardNumber` times:
  *    a. Wait for the fancybox slide to load.
  *    b. Extract all fields (name, code, rarity, etc.) from the current card popup.
  *    c. Push the card object into an array.
@@ -21,15 +21,15 @@ import path from 'path'
  * @param {Object} params
  * @param {string} params.url            — L’URL di partenza su cui fare scraping.
  * @param {string} params.expansionName  — Testo (o parte di testo) che identifica l’espansione da selezionare.
- * @param {number} params.numIterations  — Quante carte (fancybox slides) vuoi estrarre in totale.
+ * @param {number} params.cardNumber  — Quante carte (fancybox slides) vuoi estrarre in totale.
  *
  * @returns {Promise<Array<Object>>} Una Promise che risolve in un array di oggetti “carta”.
  */
-export default async function scrapeCardsOfficial(/* { url, expansionName, numIterations } */) {
+export default async function scrapeCardsOfficial({expansionName, cardNumber}) {
 
   const url = "https://en.onepiece-cardgame.com/cardlist/"
-  const expansionName = "-ROMANCE DAWN- [OP-01]"
-  const numIterations = 154
+  //const expansionName = "-ROMANCE DAWN- [OP-01]"
+  //const cardNumber = 154
 
   broadcastEvent('generic_info', `Scraping iniziato per ${expansionName}` )
 
@@ -161,8 +161,8 @@ export default async function scrapeCardsOfficial(/* { url, expansionName, numIt
     
 
     const cardsList = []
-    // 7) Loop di estrazione per `numIterations` carte
-    for (let i = 0; i < numIterations; i++) {
+    // 7) Loop di estrazione per `cardNumber` carte
+    for (let i = 0; i < cardNumber; i++) {
       // a) Attendi che il popup/fancybox sia presente
       await page.waitForSelector('.fancybox-slide--current', { visible: true })
 
@@ -342,7 +342,7 @@ export default async function scrapeCardsOfficial(/* { url, expansionName, numIt
 
     broadcastEvent('generic_success', `Rimappatura completata per ${expansionName}.`)
 
-    printCardsInJson(expansionName, result)
+    printCardsInJson(foundSetText, result)
 
     return result
 
@@ -497,7 +497,7 @@ function printCardsInJson(expansionName, cardsList) {
       .trim()                                                  
     const fileName = rawName.replace(/\s/g, '_').toLowerCase() 
 
-    const dir = path.join(process.cwd(), 'public', 'data', 'cards')
+    const dir = path.join(process.cwd(), 'data', 'cards', 'one_piece_tgc')
 
     if (!fs.existsSync(dir)) {
       fs.mkdirSync(dir, { recursive: true })

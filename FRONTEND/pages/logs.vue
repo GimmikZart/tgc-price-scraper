@@ -40,6 +40,7 @@ definePageMeta({
                 :message="msg.message"
                 :type="msg.type"
                 :duration="null"
+                :is-floating="false"
             />
         </div>
     </section>

@@ -49,8 +49,7 @@ export function useScraperStream() {
         })
 
         eventSource.onerror = (error) => {
-            console.error('Errore SSE:', error)
-            snackbar.addMessage('Errore SSE, connessione interrotta:', 'error', error)
+            snackbar.addMessage('SSE, connessione interrotta:', 'error', error)
         }
 
         eventSource.addEventListener('scraping_completed', (e) => {

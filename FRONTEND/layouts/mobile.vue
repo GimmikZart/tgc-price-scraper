@@ -2,7 +2,7 @@
   <v-app>
     <v-main class="bg-black" style="padding-bottom: 100px">
         <slot />
-        <TimedSnackbarList />
+        <TimedSnackbarList v-if="!route.meta.hideFloatSnackbar"/>
     </v-main>
 
     <NavbarMobile />
@@ -12,4 +12,5 @@
 <script setup>
 import { ref } from 'vue'
 const drawer = ref(false)
+const route = useRoute()
 </script>

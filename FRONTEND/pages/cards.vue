@@ -15,6 +15,13 @@ const paginatedCards = ref([]);
       <template #actions> </template>
     </Toolbar>
 
+    <h4
+      v-if="paginatedCards.length == 0"
+      class="text-center text-gray-500 my-5"
+    >
+      La ricerca non ha prodotto risultati
+    </h4>
+
     <div
       class="grid grid-cols-2 gap-2 px-2 pt-2 max-sm:pb-5 lg:px-4 lg:pb-20 lg:grid-cols-8 lg:gap-4"
     >

@@ -15,7 +15,7 @@
     ],
     "effect": "[Your Turn] When a Character is K.O.'d, give up to 1 rested DON!! card to this Leader.",
     "trigger": null,
-    "setName": "Monkey D. Luffy [ST-08]",
+    "setName": "Monkey D. Luffy [ST08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST08-001.png",
     "life": 5,
     "abilityKeywords": [
@@ -39,7 +39,7 @@
     ],
     "effect": "This Character cannot be K.O.'d in battle by Leaders.[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters -2 cost during this turn.",
     "trigger": null,
-    "setName": "Monkey D. Luffy [ST-08]",
+    "setName": "Monkey D. Luffy [ST08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST08-002.png",
     "cost": 2,
     "abilityKeywords": [
@@ -63,7 +63,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "Monkey D. Luffy [ST-08]",
+    "setName": "Monkey D. Luffy [ST08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST08-003.png",
     "cost": 2,
     "expansionCode": "ST08"
@@ -84,7 +84,7 @@
     ],
     "effect": "[Activate: Main] You may rest this Character: K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
     "trigger": null,
-    "setName": "Monkey D. Luffy [ST-08]",
+    "setName": "Monkey D. Luffy [ST08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST08-004.png",
     "cost": 4,
     "abilityKeywords": [
@@ -108,7 +108,7 @@
     ],
     "effect": "[On Play] You may trash 1 card from your hand: K.O. all Characters with a cost of 1 or less.",
     "trigger": null,
-    "setName": "Monkey D. Luffy [ST-08]",
+    "setName": "Monkey D. Luffy [ST08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST08-005.png",
     "cost": 9,
     "expansionCode": "ST08"
@@ -129,7 +129,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Give up to 1 of your opponent's Characters -4 cost during this turn.",
     "trigger": null,
-    "setName": "Monkey D. Luffy [ST-08]",
+    "setName": "Monkey D. Luffy [ST08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST08-006.png",
     "cost": 4,
     "abilityKeywords": [
@@ -153,7 +153,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": "Play this card.",
-    "setName": "Monkey D. Luffy [ST-08]",
+    "setName": "Monkey D. Luffy [ST08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST08-007.png",
     "cost": 3,
     "abilityKeywords": [
@@ -177,7 +177,7 @@
     ],
     "effect": "[On Play] Give up to 1 of your opponent's Characters -2 cost during this turn.",
     "trigger": null,
-    "setName": "Monkey D. Luffy [ST-08]",
+    "setName": "Monkey D. Luffy [ST08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST08-008.png",
     "cost": 1,
     "expansionCode": "ST08"
@@ -198,7 +198,7 @@
     ],
     "effect": "[On Play] If there is a Character with a cost of 0, draw 1 card.",
     "trigger": null,
-    "setName": "Monkey D. Luffy [ST-08]",
+    "setName": "Monkey D. Luffy [ST08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST08-009.png",
     "cost": 2,
     "expansionCode": "ST08"
@@ -219,7 +219,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "Monkey D. Luffy [ST-08]",
+    "setName": "Monkey D. Luffy [ST08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST08-010.png",
     "cost": 5,
     "expansionCode": "ST08"
@@ -240,7 +240,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "Monkey D. Luffy [ST-08]",
+    "setName": "Monkey D. Luffy [ST08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST08-011.png",
     "cost": 3,
     "expansionCode": "ST08"
@@ -261,7 +261,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "Monkey D. Luffy [ST-08]",
+    "setName": "Monkey D. Luffy [ST08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST08-012.png",
     "cost": 4,
     "expansionCode": "ST08"
@@ -282,7 +282,7 @@
     ],
     "effect": "[DON!! x1] At the end of a battle in which this Character battles your opponent's Character, you may K.O. the opponent’s Character you battled with. If you do, K.O. this Character.",
     "trigger": null,
-    "setName": "Monkey D. Luffy [ST-08]",
+    "setName": "Monkey D. Luffy [ST08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST08-013.png",
     "cost": 5,
     "abilityKeywords": [
@@ -306,7 +306,7 @@
     ],
     "effect": "[Main] You may add 1 card from the top of your Life cards to your hand: Give up to 1 of your opponent's Characters -7 cost during this turn.",
     "trigger": "Add up to 1 black Character card with a cost of 2 or less from your trash to your hand.",
-    "setName": "Monkey D. Luffy [ST-08]",
+    "setName": "Monkey D. Luffy [ST08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST08-014.png",
     "cost": 2,
     "abilityKeywords": [
@@ -330,7 +330,7 @@
     ],
     "effect": "[Main] K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
     "trigger": "Draw 1 card.",
-    "setName": "Monkey D. Luffy [ST-08]",
+    "setName": "Monkey D. Luffy [ST08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST08-015.png",
     "cost": 3,
     "abilityKeywords": [

@@ -16,7 +16,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] DON!! -7 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Trash up to 1 of your opponent's Life cards.",
     "trigger": null,
-    "setName": "Animal Kingdom Pirates [ST-04]",
+    "setName": "Animal Kingdom Pirates [ST04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-001.png",
     "life": 5,
     "abilityKeywords": [
@@ -41,7 +41,7 @@
     ],
     "effect": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 [Page One] card with a cost of 4 or less from your hand.",
     "trigger": null,
-    "setName": "Animal Kingdom Pirates [ST-04]",
+    "setName": "Animal Kingdom Pirates [ST04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-002.png",
     "cost": 4,
     "expansionCode": "ST04"
@@ -63,7 +63,7 @@
     ],
     "effect": "[On Play] DON!! -5 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 6 or less. This Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
     "trigger": null,
-    "setName": "Animal Kingdom Pirates [ST-04]",
+    "setName": "Animal Kingdom Pirates [ST04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-003.png",
     "cost": 9,
     "abilityKeywords": [
@@ -87,7 +87,7 @@
     ],
     "effect": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
     "trigger": null,
-    "setName": "Animal Kingdom Pirates [ST-04]",
+    "setName": "Animal Kingdom Pirates [ST04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-004.png",
     "cost": 6,
     "expansionCode": "ST04"
@@ -108,7 +108,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Draw 2 cards and trash 1 card from your hand.",
     "trigger": null,
-    "setName": "Animal Kingdom Pirates [ST-04]",
+    "setName": "Animal Kingdom Pirates [ST04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-005.png",
     "cost": 5,
     "abilityKeywords": [
@@ -132,7 +132,7 @@
     ],
     "effect": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Draw 1 card.",
     "trigger": null,
-    "setName": "Animal Kingdom Pirates [ST-04]",
+    "setName": "Animal Kingdom Pirates [ST04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-006.png",
     "cost": 3,
     "expansionCode": "ST04"
@@ -154,7 +154,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "Animal Kingdom Pirates [ST-04]",
+    "setName": "Animal Kingdom Pirates [ST04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-007.png",
     "cost": 2,
     "expansionCode": "ST04"
@@ -175,7 +175,7 @@
     ],
     "effect": "[On Play] You may trash 1 card from your hand: Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": null,
-    "setName": "Animal Kingdom Pirates [ST-04]",
+    "setName": "Animal Kingdom Pirates [ST04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-008.png",
     "cost": 3,
     "expansionCode": "ST04"
@@ -197,7 +197,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "Animal Kingdom Pirates [ST-04]",
+    "setName": "Animal Kingdom Pirates [ST04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-009.png",
     "cost": 1,
     "expansionCode": "ST04"
@@ -218,7 +218,7 @@
     ],
     "effect": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
     "trigger": "Play this card.",
-    "setName": "Animal Kingdom Pirates [ST-04]",
+    "setName": "Animal Kingdom Pirates [ST04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-010.png",
     "cost": 3,
     "expansionCode": "ST04"
@@ -239,7 +239,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
-    "setName": "Animal Kingdom Pirates [ST-04]",
+    "setName": "Animal Kingdom Pirates [ST04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-011.png",
     "cost": 2,
     "abilityKeywords": [
@@ -263,7 +263,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "Animal Kingdom Pirates [ST-04]",
+    "setName": "Animal Kingdom Pirates [ST04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-012.png",
     "cost": 4,
     "expansionCode": "ST04"
@@ -286,7 +286,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "Animal Kingdom Pirates [ST-04]",
+    "setName": "Animal Kingdom Pirates [ST04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-013.png",
     "cost": 3,
     "expansionCode": "ST04"
@@ -307,7 +307,7 @@
     ],
     "effect": "[Main] Draw 1 card, then add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": "Activate this card's [Main] effect.",
-    "setName": "Animal Kingdom Pirates [ST-04]",
+    "setName": "Animal Kingdom Pirates [ST04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-014.png",
     "cost": 4,
     "abilityKeywords": [
@@ -331,7 +331,7 @@
     ],
     "effect": "[Main] K.O. up to 1 of your opponent's Characters with a cost of 6 or less, then add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": "Add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "setName": "Animal Kingdom Pirates [ST-04]",
+    "setName": "Animal Kingdom Pirates [ST04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-015.png",
     "cost": 6,
     "abilityKeywords": [
@@ -356,7 +356,7 @@
     ],
     "effect": "[Counter] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your Leader or Character cards gains +4000 power during this battle.",
     "trigger": null,
-    "setName": "Animal Kingdom Pirates [ST-04]",
+    "setName": "Animal Kingdom Pirates [ST04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-016.png",
     "cost": 1,
     "abilityKeywords": [
@@ -380,7 +380,7 @@
     ],
     "effect": "[Activate: Main] You may rest this Stage: If your Leader has the {Animal Kingdom Pirates} type, add up to 1 DON!! card from your DON!! deck and rest it.",
     "trigger": null,
-    "setName": "Animal Kingdom Pirates [ST-04]",
+    "setName": "Animal Kingdom Pirates [ST04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-017.png",
     "cost": 3,
     "abilityKeywords": [

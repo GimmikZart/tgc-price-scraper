@@ -16,7 +16,7 @@
     ],
     "effect": "[On Play] Rest up to 1 of your opponent's Characters with a cost of 2 or less.",
     "trigger": null,
-    "setName": "GREEN Jewelry Bonney [ST-24]",
+    "setName": "GREEN Jewelry Bonney [ST24]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-015_p3.png",
     "cost": 1,
     "expansionCode": "EB01"
@@ -38,7 +38,7 @@
     ],
     "effect": "[On Your Opponent's Attack] [Once Per Turn] You may rest 1 of your DON!! cards: Rest up to 1 of your opponent's Leader or Character cards.",
     "trigger": null,
-    "setName": "GREEN Jewelry Bonney [ST-24]",
+    "setName": "GREEN Jewelry Bonney [ST24]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-019_p3.png",
     "life": 5,
     "abilityKeywords": [
@@ -64,7 +64,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[End of Your Turn] Set up to 1 of your DON!! cards as active.",
     "trigger": null,
-    "setName": "GREEN Jewelry Bonney [ST-24]",
+    "setName": "GREEN Jewelry Bonney [ST24]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-021_r1.png",
     "cost": 4,
     "abilityKeywords": [
@@ -90,7 +90,7 @@
     ],
     "effect": "If you have 6 or more rested DON!! cards, this Character gains +1000 power.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
-    "setName": "GREEN Jewelry Bonney [ST-24]",
+    "setName": "GREEN Jewelry Bonney [ST24]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-023_r1.png",
     "cost": 4,
     "abilityKeywords": [
@@ -115,7 +115,7 @@
     ],
     "effect": "[On Play] Play up to 1 [Caribou] with a cost of 4 or less from your hand rested.",
     "trigger": null,
-    "setName": "GREEN Jewelry Bonney [ST-24]",
+    "setName": "GREEN Jewelry Bonney [ST24]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-025_r1.png",
     "cost": 3,
     "expansionCode": "OP07"
@@ -137,7 +137,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Your Turn] [Once Per Turn] If a Character is rested by your effect, draw 1 card and trash 1 card from your hand.",
     "trigger": null,
-    "setName": "GREEN Jewelry Bonney [ST-24]",
+    "setName": "GREEN Jewelry Bonney [ST24]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-031_r1.png",
     "cost": 3,
     "abilityKeywords": [
@@ -164,7 +164,7 @@
     ],
     "effect": "If you have 3 or more Characters, your Characters with a cost of 3 or less other than [Monkey.D.Luffy] cannot be K.O.'d by your opponent's effects.",
     "trigger": null,
-    "setName": "GREEN Jewelry Bonney [ST-24]",
+    "setName": "GREEN Jewelry Bonney [ST24]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-033_r1.png",
     "cost": 5,
     "expansionCode": "OP07"
@@ -186,7 +186,7 @@
     ],
     "effect": "[When Attacking] If you have 3 or more Characters, this Character gains +2000 power during this turn.",
     "trigger": null,
-    "setName": "GREEN Jewelry Bonney [ST-24]",
+    "setName": "GREEN Jewelry Bonney [ST24]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-034_r1.png",
     "cost": 1,
     "abilityKeywords": [
@@ -211,7 +211,7 @@
     ],
     "effect": "[Main] Up to 1 of your Leader or Character cards gains +3000 power during this turn. Then, you may rest 1 of your Characters with a cost of 3 or more. If you do, rest up to 1 of your opponent's Characters with a cost of 5 or less.",
     "trigger": "Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
-    "setName": "GREEN Jewelry Bonney [ST-24]",
+    "setName": "GREEN Jewelry Bonney [ST24]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-036_p1.png",
     "cost": 2,
     "abilityKeywords": [
@@ -236,7 +236,7 @@
     ],
     "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type card other than [More Pizza!!] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": "Draw 1 card.",
-    "setName": "GREEN Jewelry Bonney [ST-24]",
+    "setName": "GREEN Jewelry Bonney [ST24]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-037_r1.png",
     "cost": 1,
     "abilityKeywords": [
@@ -261,7 +261,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] If you have 6 or more rested cards, draw 1 card and trash 1 card from your hand.",
     "trigger": null,
-    "setName": "GREEN Jewelry Bonney [ST-24]",
+    "setName": "GREEN Jewelry Bonney [ST24]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST24-001.png",
     "cost": 2,
     "abilityKeywords": [
@@ -286,7 +286,7 @@
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.[On Your Opponent's Attack] You may trash this Character: Set up to 1 of your DON!! cards as active.",
     "trigger": null,
-    "setName": "GREEN Jewelry Bonney [ST-24]",
+    "setName": "GREEN Jewelry Bonney [ST24]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST24-002.png",
     "cost": 2,
     "abilityKeywords": [
@@ -311,7 +311,7 @@
     ],
     "effect": "[End of Your Turn] Set up to 1 of your DON!! cards as active.",
     "trigger": null,
-    "setName": "GREEN Jewelry Bonney [ST-24]",
+    "setName": "GREEN Jewelry Bonney [ST24]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST24-003.png",
     "cost": 4,
     "abilityKeywords": [
@@ -337,7 +337,7 @@
     ],
     "effect": "[On Play] Rest up to 1 of your opponent's Characters and that Character will not become active in your opponent's next Refresh Phase. Then, if your opponent has 2 or more rested Characters, your Leader gains +2000 power until the end of your opponent's next End Phase.",
     "trigger": null,
-    "setName": "GREEN Jewelry Bonney [ST-24]",
+    "setName": "GREEN Jewelry Bonney [ST24]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST24-004.png",
     "cost": 10,
     "expansionCode": "ST24"
@@ -360,7 +360,7 @@
     ],
     "effect": "[On Play] If your Leader has the {Supernovas} type, rest up to 1 of your opponent's Characters with a cost of 5 or less. Then, set up to 1 of your DON!! cards as active at the end of this turn.",
     "trigger": null,
-    "setName": "GREEN Jewelry Bonney [ST-24]",
+    "setName": "GREEN Jewelry Bonney [ST24]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST24-005.png",
     "cost": 5,
     "expansionCode": "ST24"

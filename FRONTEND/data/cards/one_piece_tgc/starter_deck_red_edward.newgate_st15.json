@@ -16,7 +16,7 @@
     ],
     "effect": "[End of Your Turn] Add 1 card from the top of your Life cards to your hand.",
     "trigger": null,
-    "setName": "Red Edward.Newgate [ST-15]",
+    "setName": "Red Edward.Newgate [ST15]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-001_p2.png",
     "life": 6,
     "abilityKeywords": [
@@ -40,7 +40,7 @@
     ],
     "effect": "[DON!! x1] If you have 2 or less Life cards and your Leader's type includes \"Whitebeard Pirates\", this Character gains [Rush].(This card can attack on the turn in which it is played.)",
     "trigger": null,
-    "setName": "Red Edward.Newgate [ST-15]",
+    "setName": "Red Edward.Newgate [ST15]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-008_r1.png",
     "cost": 4,
     "abilityKeywords": [
@@ -65,7 +65,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] You may trash 1 card with a type including \"Whitebeard Pirates\" from your hand: If you have 2 or less Life cards, play this Character card from your trash rested.",
     "trigger": null,
-    "setName": "Red Edward.Newgate [ST-15]",
+    "setName": "Red Edward.Newgate [ST15]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-018_r1.png",
     "cost": 4,
     "abilityKeywords": [
@@ -90,7 +90,7 @@
     ],
     "effect": "[DON!! x1] [Your Turn] All of your Characters with a type including \"Whitebeard Pirates\" gain +1000 power.",
     "trigger": null,
-    "setName": "Red Edward.Newgate [ST-15]",
+    "setName": "Red Edward.Newgate [ST15]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-019_r1.png",
     "cost": 3,
     "abilityKeywords": [
@@ -116,7 +116,7 @@
     ],
     "effect": "[Main] If you have 3 or less Life cards, you cannot add Life cards to your hand using your own effects during this turn.",
     "trigger": "Up to 1 of your Leader gains +1000 power during this turn.",
-    "setName": "Red Edward.Newgate [ST-15]",
+    "setName": "Red Edward.Newgate [ST15]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-023_r1.png",
     "cost": 1,
     "abilityKeywords": [
@@ -141,7 +141,7 @@
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 card with a type including \"Whitebeard Pirates\" other than [Izo] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "Red Edward.Newgate [ST-15]",
+    "setName": "Red Edward.Newgate [ST15]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-003_r1.png",
     "cost": 1,
     "expansionCode": "OP03"
@@ -162,7 +162,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "Red Edward.Newgate [ST-15]",
+    "setName": "Red Edward.Newgate [ST15]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-006_r1.png",
     "cost": 4,
     "expansionCode": "OP03"
@@ -184,7 +184,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "Red Edward.Newgate [ST-15]",
+    "setName": "Red Edward.Newgate [ST15]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-007_r1.png",
     "cost": 3,
     "expansionCode": "OP03"
@@ -205,7 +205,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "trigger": null,
-    "setName": "Red Edward.Newgate [ST-15]",
+    "setName": "Red Edward.Newgate [ST15]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-009_r1.png",
     "cost": 2,
     "abilityKeywords": [
@@ -230,7 +230,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
-    "setName": "Red Edward.Newgate [ST-15]",
+    "setName": "Red Edward.Newgate [ST15]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-010_r1.png",
     "cost": 2,
     "abilityKeywords": [
@@ -254,7 +254,7 @@
     ],
     "effect": "[When Attacking] If your Leader is [Edward.Newgate], you cannot add Life cards to your hand using your own effects during this turn.",
     "trigger": null,
-    "setName": "Red Edward.Newgate [ST-15]",
+    "setName": "Red Edward.Newgate [ST15]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST15-001.png",
     "cost": 4,
     "abilityKeywords": [
@@ -279,7 +279,7 @@
     ],
     "effect": "[On Play] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.[Activate: Main] You may rest this Character: K.O. up to 1 of your opponent's Characters with 5000 power or less.",
     "trigger": null,
-    "setName": "Red Edward.Newgate [ST-15]",
+    "setName": "Red Edward.Newgate [ST15]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST15-002.png",
     "cost": 7,
     "abilityKeywords": [
@@ -303,7 +303,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Opponent's Turn] When this Character is K.O.'d by an effect, up to 1 of your Leader gains +2000 power during this turn.",
     "trigger": null,
-    "setName": "Red Edward.Newgate [ST-15]",
+    "setName": "Red Edward.Newgate [ST15]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST15-003.png",
     "cost": 3,
     "abilityKeywords": [
@@ -328,7 +328,7 @@
     ],
     "effect": "[On Play] If your Leader's type includes \"Whitebeard Pirates\", give up to 1 of your opponent's Characters -2000 power during this turn. Then, add 1 card from the top of your Life cards to your hand.",
     "trigger": null,
-    "setName": "Red Edward.Newgate [ST-15]",
+    "setName": "Red Edward.Newgate [ST15]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST15-004.png",
     "cost": 1,
     "expansionCode": "ST15"
@@ -349,7 +349,7 @@
     ],
     "effect": "If your Leader's type includes \"Whitebeard Pirates\", this Character gains [Rush].(This card can attack on the turn in which it is played.)[Once Per Turn] If this Character would be removed from the field by your opponent's effect, you may give this Character -2000 power during this turn instead.",
     "trigger": null,
-    "setName": "Red Edward.Newgate [ST-15]",
+    "setName": "Red Edward.Newgate [ST15]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST15-005.png",
     "cost": 5,
     "abilityKeywords": [

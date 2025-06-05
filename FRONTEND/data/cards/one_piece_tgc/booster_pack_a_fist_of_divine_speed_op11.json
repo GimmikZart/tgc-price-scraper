@@ -15,7 +15,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] If your Leader has the {Red-Haired Pirates} type, K.O. up to 1 of your opponent's Characters with a base power of 6000 or less.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-015_p1.png",
     "cost": 4,
     "abilityKeywords": [
@@ -42,7 +42,7 @@
     ],
     "effect": "Your {SWORD} type Characters can attack Characters on the turn in which they are played.[Once Per Turn] If your {Navy} type Character with 7000 base power or less would be removed from the field by your opponent's effect, you may place 3 cards from your trash at the bottom of your deck in any order instead.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-001.png",
     "life": 4,
     "abilityKeywords": [
@@ -68,7 +68,7 @@
     ],
     "effect": "Your {SWORD} type Characters can attack Characters on the turn in which they are played.[Once Per Turn] If your {Navy} type Character with 7000 base power or less would be removed from the field by your opponent's effect, you may place 3 cards from your trash at the bottom of your deck in any order instead.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-001_p1.png",
     "life": 4,
     "abilityKeywords": [
@@ -93,7 +93,7 @@
     ],
     "effect": "[On Play] Give up to 1 of your opponent's Characters -1000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 0 power or less.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-002.png",
     "cost": 3,
     "expansionCode": "OP11"
@@ -114,7 +114,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-003.png",
     "cost": 5,
     "expansionCode": "OP11"
@@ -136,7 +136,7 @@
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Navy} type card other than [Kujyaku] and add it to your hand. Then, place the rest at the bottom of your deck in any order.[Activate: Main] You may trash this Character: Up to 1 of your Characters gains +1000 power during this turn.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-004.png",
     "cost": 1,
     "abilityKeywords": [
@@ -161,7 +161,7 @@
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Navy} type card other than [Kujyaku] and add it to your hand. Then, place the rest at the bottom of your deck in any order.[Activate: Main] You may trash this Character: Up to 1 of your Characters gains +1000 power during this turn.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-004_p1.png",
     "cost": 1,
     "abilityKeywords": [
@@ -185,7 +185,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x1] This Character cannot be K.O.'d by effects of Characters without the ＜Special＞ attribute.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-005.png",
     "cost": 4,
     "abilityKeywords": [
@@ -211,7 +211,7 @@
     ],
     "effect": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's ＜Special＞ attribute Characters -5000 power during this turn.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-006.png",
     "cost": 5,
     "abilityKeywords": [
@@ -236,7 +236,7 @@
     ],
     "effect": "[Activate: Main] You may rest this Character: If your Leader has the {Navy} type, up to 1 of your {Navy} type Characters gains +2000 power during this turn.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-007.png",
     "cost": 1,
     "abilityKeywords": [
@@ -260,7 +260,7 @@
     ],
     "effect": "[Blocker][On Play] You may trash 1 card from your hand: If your Leader has the {Navy} type, give up to 1 of your opponent's Characters -6000 power during this turn.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-008.png",
     "cost": 4,
     "abilityKeywords": [
@@ -284,7 +284,7 @@
     ],
     "effect": "[Blocker][On Play] You may trash 1 card from your hand: If your Leader has the {Navy} type, give up to 1 of your opponent's Characters -6000 power during this turn.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-008_p1.png",
     "cost": 4,
     "abilityKeywords": [
@@ -308,7 +308,7 @@
     ],
     "effect": "[DON!! x2] [When Attacking] Give up to 1 of your opponent's Characters -2000 power until the end of your opponent's next turn.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-009.png",
     "cost": 3,
     "abilityKeywords": [
@@ -334,7 +334,7 @@
     ],
     "effect": "[On Play] Give up to 1 of your opponent's Characters -2000 power during this turn.[When Attacking] This Character gains +1000 power during this turn. Then, up to 1 of your {Navy} type Leader can also attack active Characters during this turn.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-010.png",
     "cost": 5,
     "abilityKeywords": [
@@ -359,7 +359,7 @@
     ],
     "effect": "[On Play] Give up to 1 of your opponent's Characters -2000 power during this turn.[When Attacking] This Character gains +1000 power during this turn. Then, up to 1 of your {Navy} type Leader can also attack active Characters during this turn.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-010_p1.png",
     "cost": 5,
     "abilityKeywords": [
@@ -384,7 +384,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-011.png",
     "cost": 5,
     "expansionCode": "OP11"
@@ -405,7 +405,7 @@
     ],
     "effect": "[Your Turn] [Once Per Turn] When your opponent activates an Event, all of your Characters gain +2000 power during this turn.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-012.png",
     "cost": 4,
     "abilityKeywords": [
@@ -431,7 +431,7 @@
     ],
     "effect": "[When Attacking] All of your opponent's Characters with 2000 power or less cannot activate [Blocker] during this turn.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-013.png",
     "cost": 1,
     "abilityKeywords": [
@@ -457,7 +457,7 @@
     ],
     "effect": "[Blocker][Activate: Main] You may rest this Character: Up to 1 of your {Navy} type Leader or Character cards can also attack active Characters during this turn.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-014.png",
     "cost": 3,
     "abilityKeywords": [
@@ -482,7 +482,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-015.png",
     "cost": 4,
     "expansionCode": "OP11"
@@ -503,7 +503,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-016.png",
     "cost": 5,
     "abilityKeywords": [
@@ -530,7 +530,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-017.png",
     "cost": 6,
     "expansionCode": "OP11"
@@ -552,7 +552,7 @@
     ],
     "effect": "[Main] Give up to 1 of your opponent's Characters -4000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 6000 power or less.",
     "trigger": "K.O. up to 1 of your opponent's Characters with 6000 power or less.",
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-018.png",
     "cost": 6,
     "abilityKeywords": [
@@ -577,7 +577,7 @@
     ],
     "effect": "[Main] Give up to 1 of your opponent's Characters -4000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 6000 power or less.",
     "trigger": "K.O. up to 1 of your opponent's Characters with 6000 power or less.",
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-018_p1.png",
     "cost": 6,
     "abilityKeywords": [
@@ -602,7 +602,7 @@
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if your opponent has a Character with 6000 power or more, up to 1 of your Leader or Character cards gains +1000 power during this turn.",
     "trigger": "Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-019.png",
     "cost": 2,
     "abilityKeywords": [
@@ -628,7 +628,7 @@
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if your opponent has a Character with 6000 power or more, up to 1 of your Leader or Character cards gains +1000 power during this turn.",
     "trigger": "Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-020.png",
     "cost": 2,
     "abilityKeywords": [
@@ -653,7 +653,7 @@
     ],
     "effect": "[End of Your Turn] If you have 6 or less cards in your hand, set up to 1 of your {Fish-Man} or {Merfolk} type Characters and up to 1 of your DON!! cards as active.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-021.png",
     "life": 5,
     "abilityKeywords": [
@@ -678,7 +678,7 @@
     ],
     "effect": "[End of Your Turn] If you have 6 or less cards in your hand, set up to 1 of your {Fish-Man} or {Merfolk} type Characters and up to 1 of your DON!! cards as active.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-021_p1.png",
     "life": 5,
     "abilityKeywords": [
@@ -704,7 +704,7 @@
     ],
     "effect": "This Leader cannot attack.[Activate: Main] [Once Per Turn] You may rest 1 of your DON!! cards and turn 1 card from the top of your Life cards face-up: Play up to 1 {Neptunian} type Character card or [Megalo] with a cost equal to or less than the number of DON!! cards on your field from your hand.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-022.png",
     "life": 5,
     "abilityKeywords": [
@@ -731,7 +731,7 @@
     ],
     "effect": "This Leader cannot attack.[Activate: Main] [Once Per Turn] You may rest 1 of your DON!! cards and turn 1 card from the top of your Life cards face-up: Play up to 1 {Neptunian} type Character card or [Megalo] with a cost equal to or less than the number of DON!! cards on your field from your hand.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-022_p1.png",
     "life": 5,
     "abilityKeywords": [
@@ -758,7 +758,7 @@
     ],
     "effect": "If your Leader has the {Fish-Man} type, you have 3 or less Life cards and your opponent has 5 or more rested cards, give this card in your hand -3 cost.",
     "trigger": "Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-023.png",
     "cost": 7,
     "expansionCode": "OP11"
@@ -781,7 +781,7 @@
     ],
     "effect": "If your Leader has the {Fish-Man} type, you have 3 or less Life cards and your opponent has 5 or more rested cards, give this card in your hand -3 cost.",
     "trigger": "Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-023_p1.png",
     "cost": 7,
     "expansionCode": "OP11"
@@ -804,7 +804,7 @@
     ],
     "effect": "When this Character is K.O.'d by your opponent's effect, you may trash 1 card from your hand and rest 1 of your DON!! cards. If you do, play up to 1 {Fish-Man} or {Merfolk} type Character card with a cost of 6 or less from your hand.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-024.png",
     "cost": 4,
     "expansionCode": "OP11"
@@ -826,7 +826,7 @@
     ],
     "effect": "[On Your Opponent's Attack] [Once Per Turn] You may rest 1 of your DON!! cards and this Character: Up to 1 of your Leader or Character cards gains +1000 power during this battle.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-025.png",
     "cost": 2,
     "abilityKeywords": [
@@ -851,7 +851,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-026.png",
     "cost": 6,
     "expansionCode": "OP11"
@@ -872,7 +872,7 @@
     ],
     "effect": "If your Leader is [Shirahoshi], this Character can attack Characters on the turn in which it is played.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-027.png",
     "cost": 4,
     "expansionCode": "OP11"
@@ -894,7 +894,7 @@
     ],
     "effect": "[On Play] Up to 1 of your opponent's rested Characters will not become active in your opponent's next Refresh Phase.",
     "trigger": "K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-028.png",
     "cost": 4,
     "expansionCode": "OP11"
@@ -917,7 +917,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Rest up to 1 of your opponent's Characters with a cost of 1 or less.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-029.png",
     "cost": 3,
     "abilityKeywords": [
@@ -942,7 +942,7 @@
     ],
     "effect": "[Activate: Main] You may rest 1 of your DON!! cards and this Character: Look at 5 cards from the top of your deck; reveal up to 1 {Neptunian} or {Fish-Man Island} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-030.png",
     "cost": 1,
     "abilityKeywords": [
@@ -968,7 +968,7 @@
     ],
     "effect": "[On Play] If your Leader has the {Fish-Man} or {Merfolk} type, rest up to 1 of your opponent's Characters with a cost of 5 or less.[Activate: Main] [Once Per Turn] Up to 1 of your {Fish-Man} or {Merfolk} type Characters can attack Characters on the turn in which it is played.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-031.png",
     "cost": 6,
     "abilityKeywords": [
@@ -995,7 +995,7 @@
     ],
     "effect": "[On Play] If your Leader has the {Fish-Man} or {Merfolk} type, rest up to 1 of your opponent's Characters with a cost of 5 or less.[Activate: Main] [Once Per Turn] Up to 1 of your {Fish-Man} or {Merfolk} type Characters can attack Characters on the turn in which it is played.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-031_p1.png",
     "cost": 6,
     "abilityKeywords": [
@@ -1021,7 +1021,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-032.png",
     "cost": 5,
     "expansionCode": "OP11"
@@ -1042,7 +1042,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-033.png",
     "cost": 6,
     "expansionCode": "OP11"
@@ -1065,7 +1065,7 @@
     ],
     "effect": "[Activate: Main] You may rest this Character: If your Leader has the {Fish-Man} or {Merfolk} type, up to 1 of your opponent's Characters with a cost of 3 or less cannot be rested until the end of your opponent's next turn.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-034.png",
     "cost": 4,
     "abilityKeywords": [
@@ -1091,7 +1091,7 @@
     ],
     "effect": "When this Character is K.O.'d by your opponent's effect, you may rest 1 of your DON!! cards. If you do, play up to 1 {Fish-Man} or {Merfolk} type Character card with a cost of 4 or less from your hand.[On Play] Rest up to 1 of your opponent's Characters.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-035.png",
     "cost": 6,
     "expansionCode": "OP11"
@@ -1112,7 +1112,7 @@
     ],
     "effect": "[On Play] If your Leader is [Shirahoshi], look at 5 cards from the top of your deck; reveal up to 1 {Neptunian} type card or [Shirahoshi] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-036.png",
     "cost": 4,
     "expansionCode": "OP11"
@@ -1133,7 +1133,7 @@
     ],
     "effect": "[Main] Look at 4 cards from the top of your deck; reveal up to 1 {Neptunian} or {Fish-Man Island} type Character card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": "Draw 1 card.",
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-037.png",
     "cost": 1,
     "abilityKeywords": [
@@ -1159,7 +1159,7 @@
     ],
     "effect": "[Main] You may rest 1 of your DON!! cards: Rest up to 1 of your opponent's Characters with a cost of 5 or less.[Counter] Up to 1 of your Leader gains +3000 power during this battle.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-038.png",
     "cost": 1,
     "abilityKeywords": [
@@ -1186,7 +1186,7 @@
     ],
     "effect": "[Counter] Up to 1 of your {Fish-Man} or {Merfolk} type Leader or Character cards gains +3000 power during this battle. Then, rest up to 1 of your opponent's Characters with a cost of 3 or less.",
     "trigger": "Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-039.png",
     "cost": 1,
     "abilityKeywords": [
@@ -1211,7 +1211,7 @@
     ],
     "effect": "This effect can be activated at the start of your turn. If you have 8 or more DON!! cards on your field, look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card and add it to your hand. Then, place the rest at the top or bottom of the deck in any order.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-040.png",
     "life": 3,
     "expansionCode": "OP11"
@@ -1233,7 +1233,7 @@
     ],
     "effect": "This effect can be activated at the start of your turn. If you have 8 or more DON!! cards on your field, look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card and add it to your hand. Then, place the rest at the top or bottom of the deck in any order.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-040_p1.png",
     "life": 3,
     "expansionCode": "OP11"
@@ -1255,7 +1255,7 @@
     ],
     "effect": "[Your Turn] [Once Per Turn] This effect can be activated when a card is removed from your or your opponent's Life cards. If you have 7 or less cards in your hand, draw 1 card.[DON!! x1] [On Your Opponent's Attack] [Once Per Turn] You may trash 1 card from your hand: This Leader gains +2000 power during this turn.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-041.png",
     "life": 4,
     "abilityKeywords": [
@@ -1283,7 +1283,7 @@
     ],
     "effect": "[Your Turn] [Once Per Turn] This effect can be activated when a card is removed from your or your opponent's Life cards. If you have 7 or less cards in your hand, draw 1 card.[DON!! x1] [On Your Opponent's Attack] [Once Per Turn] You may trash 1 card from your hand: This Leader gains +2000 power during this turn.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-041_p1.png",
     "life": 4,
     "abilityKeywords": [
@@ -1310,7 +1310,7 @@
     ],
     "effect": "[On Play] You may trash 1 {Firetank Pirates} type card from your hand: This Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-042.png",
     "cost": 3,
     "abilityKeywords": [
@@ -1335,7 +1335,7 @@
     ],
     "effect": "[Blocker][On Your Opponent's Attack] [Once Per Turn] This effect can be activated when you only have Characters with a type including \"GERMA\". Up to 1 of your Leader or Character cards gains +1000 power during this battle. Then, trash 2 cards from the top of your deck.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-043.png",
     "cost": 7,
     "abilityKeywords": [
@@ -1362,7 +1362,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] You may trash 1 card from your hand: All of your {GERMA 66} type Characters gain +1000 power during this turn.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-044.png",
     "cost": 6,
     "abilityKeywords": [
@@ -1388,7 +1388,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-045.png",
     "cost": 5,
     "expansionCode": "OP11"
@@ -1410,7 +1410,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)If you only have Characters with a type including \"GERMA\", this Character cannot be K.O.'d or rested by your opponent's effects.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-046.png",
     "cost": 4,
     "abilityKeywords": [
@@ -1435,7 +1435,7 @@
     ],
     "effect": "[On Play] If your Leader has the {The Vinsmoke Family} type, look at 5 cards from the top of your deck; reveal up to 1 card with a type including \"GERMA\" and add it to your hand. Then, trash the rest.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-047.png",
     "cost": 4,
     "expansionCode": "OP11"
@@ -1457,7 +1457,7 @@
     ],
     "effect": "[On Play] If your Leader has the {The Vinsmoke Family} type, look at 5 cards from the top of your deck; reveal up to 1 card with a type including \"GERMA\" and add it to your hand. Then, trash the rest.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-047_p1.png",
     "cost": 4,
     "expansionCode": "OP11"
@@ -1479,7 +1479,7 @@
     ],
     "effect": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 {Firetank Pirates} or {Straw Hat Crew} type card with a cost of 2 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-048.png",
     "cost": 1,
     "expansionCode": "OP11"
@@ -1500,7 +1500,7 @@
     ],
     "effect": "[On Play] Look at 3 cards from the top of your deck and place them at the top or bottom of the deck in any order.[On Your Opponent's Attack] You may trash this Character: Up to 1 of your Leader gains +1000 power during this battle.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-049.png",
     "cost": 1,
     "abilityKeywords": [
@@ -1524,7 +1524,7 @@
     ],
     "effect": "[When Attacking] You may trash 1 {Firetank Pirates} type card from your hand: Return up to 1 Character with a cost of 1 or less to the owner's hand or place it at the bottom of their deck.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-050.png",
     "cost": 3,
     "abilityKeywords": [
@@ -1549,7 +1549,7 @@
     ],
     "effect": "When this Character is K.O.'d by your opponent's effect, look at 5 cards from the top of your deck and play up to 1 {Straw Hat Crew} type Character card with a cost of 5 or less. Then, place the rest at the bottom of your deck in any order.[On Play] Return up to 1 Character with 5000 base power or less to the owner's hand.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-051.png",
     "cost": 6,
     "expansionCode": "OP11"
@@ -1571,7 +1571,7 @@
     ],
     "effect": "When this Character is K.O.'d by your opponent's effect, look at 5 cards from the top of your deck and play up to 1 {Straw Hat Crew} type Character card with a cost of 5 or less. Then, place the rest at the bottom of your deck in any order.[On Play] Return up to 1 Character with 5000 base power or less to the owner's hand.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-051_p1.png",
     "cost": 6,
     "expansionCode": "OP11"
@@ -1593,7 +1593,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-052.png",
     "cost": 5,
     "expansionCode": "OP11"
@@ -1615,7 +1615,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-053.png",
     "cost": 5,
     "expansionCode": "OP11"
@@ -1636,7 +1636,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] If your Leader is multicolored, draw 3 cards and place 2 cards from your hand at the top or bottom of your deck in any order.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-054.png",
     "cost": 5,
     "abilityKeywords": [
@@ -1660,7 +1660,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] If your Leader is multicolored, draw 3 cards and place 2 cards from your hand at the top or bottom of your deck in any order.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-054_p1.png",
     "cost": 5,
     "abilityKeywords": [
@@ -1685,7 +1685,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-055.png",
     "cost": 6,
     "expansionCode": "OP11"
@@ -1706,7 +1706,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Place up to 1 Character with a base cost of 1 at the bottom of the owner's deck.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-056.png",
     "cost": 3,
     "abilityKeywords": [
@@ -1730,7 +1730,7 @@
     ],
     "effect": "If you have 4 or less cards in your hand, this Character gains [Blocker].(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-057.png",
     "cost": 1,
     "abilityKeywords": [
@@ -1754,7 +1754,7 @@
     ],
     "effect": "If you have 5 or more cards in your hand, this Character cannot attack.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-058.png",
     "cost": 5,
     "abilityKeywords": [
@@ -1778,7 +1778,7 @@
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 4 or less cards in your hand, that card gains an additional +2000 power during this battle.",
     "trigger": "Return up to 1 Character with a cost of 2 or less to the owner's hand.",
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-059.png",
     "cost": 1,
     "abilityKeywords": [
@@ -1802,7 +1802,7 @@
     ],
     "effect": "[Main] If your Leader is multicolored, look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card other than [Let's Crash This Wedding!!!] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": "Activate this card's [Main] effect.",
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-060.png",
     "cost": 1,
     "abilityKeywords": [
@@ -1826,7 +1826,7 @@
     ],
     "effect": "[Main] Place up to 1 of your opponent's Characters with a base cost of 4 or less at the bottom of the owner's deck.",
     "trigger": "Place up to 1 Character with a cost of 1 or less at the bottom of the owner's deck.",
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-061.png",
     "cost": 3,
     "abilityKeywords": [
@@ -1850,7 +1850,7 @@
     ],
     "effect": "[When Attacking]/[On Your Opponent's Attack] [Once Per Turn] DON!! -1: Look at 1 card from the top of your opponent's deck. Then, this Leader gains +1000 power during this battle.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-062.png",
     "life": 5,
     "abilityKeywords": [
@@ -1876,7 +1876,7 @@
     ],
     "effect": "[When Attacking]/[On Your Opponent's Attack] [Once Per Turn] DON!! -1: Look at 1 card from the top of your opponent's deck. Then, this Leader gains +1000 power during this battle.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-062_p1.png",
     "life": 5,
     "abilityKeywords": [
@@ -1902,7 +1902,7 @@
     ],
     "effect": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Impel Down} type, rest up to 1 of your opponent's Characters with a cost of 3 or less.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-063.png",
     "cost": 2,
     "expansionCode": "OP11"
@@ -1923,7 +1923,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-064.png",
     "cost": 6,
     "expansionCode": "OP11"
@@ -1944,7 +1944,7 @@
     ],
     "effect": "If you have a purple {Big Mom Pirates} type Character other than [Charlotte Anana], this Character gains [Blocker].(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-065.png",
     "cost": 1,
     "abilityKeywords": [
@@ -1968,7 +1968,7 @@
     ],
     "effect": "[Activate: Main] You may rest this Character: Choose a cost and reveal 1 card from the top of your opponent's deck. If the revealed card has the chosen cost, K.O. up to 1 of your opponent's Characters with a base cost of 3 or less. Then, add up to 1 DON!! card from your DON!! deck and rest it.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-066.png",
     "cost": 4,
     "abilityKeywords": [
@@ -1992,7 +1992,7 @@
     ],
     "effect": "[Blocker][End of Your Turn] Set up to 2 of your {Big Mom Pirates} type Characters with a cost of 3 or more as active. Then, add up to 1 DON!! card from your DON!! deck and rest it.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-067.png",
     "cost": 8,
     "abilityKeywords": [
@@ -2017,7 +2017,7 @@
     ],
     "effect": "[Blocker][End of Your Turn] Set up to 2 of your {Big Mom Pirates} type Characters with a cost of 3 or more as active. Then, add up to 1 DON!! card from your DON!! deck and rest it.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-067_p1.png",
     "cost": 8,
     "abilityKeywords": [
@@ -2042,7 +2042,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-068.png",
     "cost": 6,
     "expansionCode": "OP11"
@@ -2063,7 +2063,7 @@
     ],
     "effect": "[On Play] You may add 1 card from the top of your Life cards to your hand: If your Leader has the {Big Mom Pirates} type, add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-069.png",
     "cost": 3,
     "expansionCode": "OP11"
@@ -2084,7 +2084,7 @@
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Big Mom Pirates} type card with a cost of 2 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.[Activate: Main] DON!! -1, You may rest this Character: Look at 1 card from the top of your opponent's deck.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-070.png",
     "cost": 1,
     "abilityKeywords": [
@@ -2108,7 +2108,7 @@
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Big Mom Pirates} type card with a cost of 2 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.[Activate: Main] DON!! -1, You may rest this Character: Look at 1 card from the top of your opponent's deck.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-070_p1.png",
     "cost": 1,
     "abilityKeywords": [
@@ -2132,7 +2132,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] You may trash 1 card from your hand: Choose a cost and reveal 1 card from the top of your opponent's deck. If the revealed card has the chosen cost, draw 1 card and add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-071.png",
     "cost": 5,
     "abilityKeywords": [
@@ -2157,7 +2157,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] DON!! -1, You may rest this Character: Your opponent places 2 cards from their trash at the bottom of their deck in any order. Then, add 1 card from the top of your Life cards to your hand.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-072.png",
     "cost": 3,
     "abilityKeywords": [
@@ -2183,7 +2183,7 @@
     ],
     "effect": "If your Leader has the {Big Mom Pirates} type, this Character gains [Rush].[On Your Opponent's Attack] [Once Per Turn] DON!! -5: Choose a cost and reveal 1 card from the top of your opponent's deck. If the revealed card has the chosen cost, up to 1 of your Leader gains +2000 power during this turn.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-073.png",
     "cost": 10,
     "abilityKeywords": [
@@ -2210,7 +2210,7 @@
     ],
     "effect": "If your Leader has the {Big Mom Pirates} type, this Character gains [Rush].[On Your Opponent's Attack] [Once Per Turn] DON!! -5: Choose a cost and reveal 1 card from the top of your opponent's deck. If the revealed card has the chosen cost, up to 1 of your Leader gains +2000 power during this turn.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-073_p1.png",
     "cost": 10,
     "abilityKeywords": [
@@ -2236,7 +2236,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] DON!! -1, You may rest this Character: Choose a cost and reveal 1 card from the top of your opponent's deck. If the revealed card has the chosen cost, rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-074.png",
     "cost": 3,
     "abilityKeywords": [
@@ -2263,7 +2263,7 @@
     ],
     "effect": "[On Play] If your Leader is [Nico Robin] and you have 7 or more DON!! cards on your field, draw 2 cards.",
     "trigger": "Activate this card's [On Play] effect.",
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-075.png",
     "cost": 6,
     "expansionCode": "OP11"
@@ -2284,7 +2284,7 @@
     ],
     "effect": "[Blocker][On Play] If your Leader has the {Impel Down} type, play up to 1 {Impel Down} type Character card with a cost of 3 or less from your hand.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-076.png",
     "cost": 5,
     "abilityKeywords": [
@@ -2309,7 +2309,7 @@
     ],
     "effect": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, up to 1 of your {Big Mom Pirates} type Characters gains +2 cost until the end of your opponent's next turn.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-077.png",
     "cost": 1,
     "abilityKeywords": [
@@ -2334,7 +2334,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-078.png",
     "cost": 5,
     "expansionCode": "OP11"
@@ -2355,7 +2355,7 @@
     ],
     "effect": "[Counter] Choose a cost and reveal 1 card from the top of your opponent's deck. If the revealed card has the chosen cost, up to 1 of your Leader or Character cards gains +5000 power during this battle.",
     "trigger": "Draw 1 card.",
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-079.png",
     "cost": 1,
     "abilityKeywords": [
@@ -2379,7 +2379,7 @@
     ],
     "effect": "[Main] You may rest 2 of your DON!! cards: If your Leader's colors include blue, add up to 1 DON!! card from your DON!! deck and rest it.[Counter] Up to 1 of your Leader gains +3000 power during this battle.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-080.png",
     "cost": 1,
     "abilityKeywords": [
@@ -2404,7 +2404,7 @@
     ],
     "effect": "[Main] You may rest 2 of your DON!! cards: If your Leader's colors include blue, add up to 1 DON!! card from your DON!! deck and rest it.[Counter] Up to 1 of your Leader gains +3000 power during this battle.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-080_p1.png",
     "cost": 1,
     "abilityKeywords": [
@@ -2430,7 +2430,7 @@
     ],
     "effect": "[Main] Choose a cost and reveal 1 card from the top of your opponent's deck. If the revealed card has the chosen cost, K.O. up to 1 of your opponent's Characters with a base cost of 8 or less.",
     "trigger": "Add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-081.png",
     "cost": 6,
     "abilityKeywords": [
@@ -2454,7 +2454,7 @@
     ],
     "effect": "[Activate: Main] You may trash this Character: If your Leader has the {Navy} type, up to 1 of your {Navy} type Characters can also attack active Characters during this turn. Then, trash 2 cards from the top of your deck.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-082.png",
     "cost": 1,
     "abilityKeywords": [
@@ -2478,7 +2478,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Trash 2 cards from your hand.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-083.png",
     "cost": 1,
     "abilityKeywords": [
@@ -2502,7 +2502,7 @@
     ],
     "effect": "[On Play] Trash 3 cards from the top of your deck.[When Attacking] Up to 1 of your {Navy} type Leader or Character cards can also attack active Characters during this turn.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-084.png",
     "cost": 4,
     "abilityKeywords": [
@@ -2526,7 +2526,7 @@
     ],
     "effect": "[On Play] Trash 3 cards from the top of your deck.[When Attacking] Up to 1 of your {Navy} type Leader or Character cards can also attack active Characters during this turn.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-084_p1.png",
     "cost": 4,
     "abilityKeywords": [
@@ -2551,7 +2551,7 @@
     ],
     "effect": "[On Play] Add up to 1 {SMILE} type card with a cost of 5 or less from your trash to your hand.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-085.png",
     "cost": 3,
     "expansionCode": "OP11"
@@ -2572,7 +2572,7 @@
     ],
     "effect": "[On Play] Trash 1 card from your hand.[Activate: Main] You may trash this Character: Play up to 1 [Caribou] with a cost of 4 or less from your trash.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-086.png",
     "cost": 3,
     "abilityKeywords": [
@@ -2597,7 +2597,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-087.png",
     "cost": 5,
     "expansionCode": "OP11"
@@ -2618,7 +2618,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Once Per Turn] This effect can be activated when your opponent's Character attacks. If that Character has the ＜Slash＞ attribute, this Character gains +5000 power during this battle.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-088.png",
     "cost": 4,
     "abilityKeywords": [
@@ -2643,7 +2643,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-089.png",
     "cost": 5,
     "expansionCode": "OP11"
@@ -2665,7 +2665,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-090.png",
     "cost": 2,
     "abilityKeywords": [
@@ -2689,7 +2689,7 @@
     ],
     "effect": "[On Play] Your opponent places 3 Events from their trash at the bottom of their deck in any order.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-091.png",
     "cost": 4,
     "expansionCode": "OP11"
@@ -2711,7 +2711,7 @@
     ],
     "effect": "[On Play] You may trash 1 card from your hand: Draw 1 card and play up to 1 {SWORD} type Character card with a cost of 8 or less other than [Helmeppo] from your trash. Then, place the 1 Character played by this effect at the bottom of the owner's deck at the end of this turn.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-092.png",
     "cost": 6,
     "expansionCode": "OP11"
@@ -2733,7 +2733,7 @@
     ],
     "effect": "[On Play] You may trash 1 card from your hand: Draw 1 card and play up to 1 {SWORD} type Character card with a cost of 8 or less other than [Helmeppo] from your trash. Then, place the 1 Character played by this effect at the bottom of the owner's deck at the end of this turn.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-092_p1.png",
     "cost": 6,
     "expansionCode": "OP11"
@@ -2754,7 +2754,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-093.png",
     "cost": 6,
     "expansionCode": "OP11"
@@ -2775,7 +2775,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-094.png",
     "cost": 6,
     "expansionCode": "OP11"
@@ -2796,7 +2796,7 @@
     ],
     "effect": "[On Play] You may place 3 {Navy} type cards from your trash at the bottom of your deck in any order: Give up to 1 rested DON!! card to 1 of your Leader. Then, if there is a Character with a cost of 9 or more, K.O. up to 1 of your opponent's Characters with a cost of 7 or less.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-095.png",
     "cost": 8,
     "expansionCode": "OP11"
@@ -2817,7 +2817,7 @@
     ],
     "effect": "[On Play] You may place 3 {Navy} type cards from your trash at the bottom of your deck in any order: Give up to 1 rested DON!! card to 1 of your Leader. Then, if there is a Character with a cost of 9 or more, K.O. up to 1 of your opponent's Characters with a cost of 7 or less.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-095_p1.png",
     "cost": 8,
     "expansionCode": "OP11"
@@ -2839,7 +2839,7 @@
     ],
     "effect": "If you have a black {Navy} type Character other than [Ripper], this Character gains [Blocker].(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-096.png",
     "cost": 1,
     "abilityKeywords": [
@@ -2863,7 +2863,7 @@
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +1000 power during this battle. Then, if you have 10 or more cards in your trash, add up to 1 black Character card with a cost of 3 or less from your trash to your hand.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-097.png",
     "cost": 1,
     "abilityKeywords": [
@@ -2887,7 +2887,7 @@
     ],
     "effect": "[Main] You may trash 3 cards from the top of your deck: K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
     "trigger": "Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-098.png",
     "cost": 3,
     "abilityKeywords": [
@@ -2912,7 +2912,7 @@
     ],
     "effect": "[Main] Look at 3 cards from the top of your deck; reveal up to 1 {Navy} type card other than [I'm Gonna Be a Navy Officer!!!] and add it to your hand. Then, trash the rest.",
     "trigger": "Activate this card's [Main] effect.",
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-099.png",
     "cost": 1,
     "abilityKeywords": [
@@ -2937,7 +2937,7 @@
     ],
     "effect": "[On Play] If your Leader is [Shirahoshi], you may turn 1 card from the top of your Life cards face-down: Draw 1 card.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-100.png",
     "cost": 1,
     "expansionCode": "OP11"
@@ -2959,7 +2959,7 @@
     ],
     "effect": "[Blocker][Once Per Turn] If your {Supernovas} type Character other than [Capone\"Gang\"Bege] would be removed from the field by your opponent's effect, you may add it to the top of your Life cards face-down instead.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-101.png",
     "cost": 2,
     "abilityKeywords": [
@@ -2985,7 +2985,7 @@
     ],
     "effect": "[Blocker][Once Per Turn] If your {Supernovas} type Character other than [Capone\"Gang\"Bege] would be removed from the field by your opponent's effect, you may add it to the top of your Life cards face-down instead.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-101_p1.png",
     "cost": 2,
     "abilityKeywords": [
@@ -3011,7 +3011,7 @@
     ],
     "effect": "[Your Turn] [Once Per Turn] This effect can be activated when your opponent activates an Event or [Trigger]. If your opponent has 2 or more Life cards, trash 1 card from the top of each of your and your opponent's Life cards.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-102.png",
     "cost": 1,
     "abilityKeywords": [
@@ -3037,7 +3037,7 @@
     ],
     "effect": "[Activate: Main] If your Leader is [Shirahoshi], you may rest this Character and turn 1 card from the top of your Life cards face-down: K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-103.png",
     "cost": 5,
     "abilityKeywords": [
@@ -3062,7 +3062,7 @@
     ],
     "effect": "[Blocker][On Play] You may turn 1 card from the top of your Life cards face-down: Look at 3 cards from the top of your deck; reveal up to 1 {Fish-Man Island} type card and add it to your hand. Then, place the rest at the top or bottom of the deck in any order.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-104.png",
     "cost": 3,
     "abilityKeywords": [
@@ -3087,7 +3087,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-105.png",
     "cost": 5,
     "expansionCode": "OP11"
@@ -3109,7 +3109,7 @@
     ],
     "effect": "[On Play] You may add 1 card from the top or bottom of your Life cards to your hand: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-106.png",
     "cost": 2,
     "expansionCode": "OP11"
@@ -3131,7 +3131,7 @@
     ],
     "effect": "[On Play] You may add 1 card from the top or bottom of your Life cards to your hand: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-106_p1.png",
     "cost": 2,
     "expansionCode": "OP11"
@@ -3152,7 +3152,7 @@
     ],
     "effect": "[Blocker][Activate: Main] [Once Per Turn] If your Leader is [Shirahoshi], you may turn 1 card from the top of your Life cards face-down: Set this Character as active at the end of this turn.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-107.png",
     "cost": 5,
     "abilityKeywords": [
@@ -3179,7 +3179,7 @@
     ],
     "effect": "[On Play] If your Leader is [Shirahoshi], you may turn 1 card from the top of your Life cards face-down: Draw 2 cards and trash 1 card from your hand.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-108.png",
     "cost": 5,
     "expansionCode": "OP11"
@@ -3201,7 +3201,7 @@
     ],
     "effect": "[On Play] If you have [Camie], draw 2 cards and trash 2 cards from your hand.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-109.png",
     "cost": 1,
     "expansionCode": "OP11"
@@ -3223,7 +3223,7 @@
     ],
     "effect": "If this Character would be K.O.'d, you may rest 1 of your [Fish-Man Island] or your [Shirahoshi] Leader instead.[On Play] You may add 1 card from the top or bottom of your Life cards to your hand: K.O. up to 1 of your opponent's Characters with a cost of 1 or less.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-110.png",
     "cost": 3,
     "expansionCode": "OP11"
@@ -3245,7 +3245,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-111.png",
     "cost": 6,
     "expansionCode": "OP11"
@@ -3267,7 +3267,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Opponent's Turn] If your Leader is [Shirahoshi], this Character gains +4000 power.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-112.png",
     "cost": 3,
     "abilityKeywords": [
@@ -3293,7 +3293,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-113.png",
     "cost": 5,
     "expansionCode": "OP11"
@@ -3314,7 +3314,7 @@
     ],
     "effect": "[Main] You may rest 3 of your DON!! cards: If you and your opponent have a total of 5 or more Life cards, K.O. up to 1 of your opponent's Characters with a base cost of 5 or less.[Counter] Up to 1 of your Leader gains +3000 power during this battle.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-114.png",
     "cost": 1,
     "abilityKeywords": [
@@ -3339,7 +3339,7 @@
     ],
     "effect": "[Main] You may rest 3 of your DON!! cards: If you and your opponent have a total of 5 or more Life cards, K.O. up to 1 of your opponent's Characters with a base cost of 5 or less.[Counter] Up to 1 of your Leader gains +3000 power during this battle.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-114_p1.png",
     "cost": 1,
     "abilityKeywords": [
@@ -3365,7 +3365,7 @@
     ],
     "effect": "[Counter] If your Leader is [Shirahoshi], up to 1 of your Leader or Character cards gains +4000 power during this battle.",
     "trigger": "K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-115.png",
     "cost": 1,
     "abilityKeywords": [
@@ -3390,7 +3390,7 @@
     ],
     "effect": "[Main] Add up to 1 Character with a cost of 6 or less to the top or bottom of the owner's Life cards face-up.",
     "trigger": "Add up to 1 of your opponent's Characters with a cost of 4 or less to the top or bottom of the owner's Life cards face-up.",
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-116.png",
     "cost": 6,
     "abilityKeywords": [
@@ -3414,7 +3414,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] If your Leader is [Shirahoshi], you may turn 1 card from the top of your Life cards face-up: Up to 1 of your {Neptunian}, {Fish-Man}, or {Merfolk} type Characters gains +1000 power during this turn.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-117.png",
     "cost": 2,
     "abilityKeywords": [
@@ -3439,7 +3439,7 @@
     ],
     "effect": "[Rush][When Attacking] You may trash 1 card from your hand: Return up to 1 Character with a cost of 4 or less to the owner's hand. Then, give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-118.png",
     "cost": 8,
     "abilityKeywords": [
@@ -3464,7 +3464,7 @@
     ],
     "effect": "[Rush][When Attacking] You may trash 1 card from your hand: Return up to 1 Character with a cost of 4 or less to the owner's hand. Then, give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-118_p1.png",
     "cost": 8,
     "abilityKeywords": [
@@ -3489,7 +3489,7 @@
     ],
     "effect": "[Rush][When Attacking] You may trash 1 card from your hand: Return up to 1 Character with a cost of 4 or less to the owner's hand. Then, give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-118_p2.png",
     "cost": 8,
     "abilityKeywords": [
@@ -3515,7 +3515,7 @@
     ],
     "effect": "[On Play] Up to 1 of your Characters can also attack active Characters during this turn.[When Attacking] You may place 2 cards from your trash at the bottom of your deck in any order: Up to 1 of your Leader or Character cards gains +1000 power until the end of your opponent's next turn.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-119.png",
     "cost": 8,
     "abilityKeywords": [
@@ -3540,7 +3540,7 @@
     ],
     "effect": "[On Play] Up to 1 of your Characters can also attack active Characters during this turn.[When Attacking] You may place 2 cards from your trash at the bottom of your deck in any order: Up to 1 of your Leader or Character cards gains +1000 power until the end of your opponent's next turn.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-119_p1.png",
     "cost": 8,
     "abilityKeywords": [
@@ -3564,7 +3564,7 @@
     ],
     "effect": "When this Character is K.O.'d by your opponent's effect, add up to 1 card from the top of your deck to the top of your Life cards.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-057_p2.png",
     "cost": 2,
     "abilityKeywords": [
@@ -3589,7 +3589,7 @@
     ],
     "effect": "[On Play] DON!! -10: Place all of your Characters except this Character at the bottom of your deck in any order. Then, take an extra turn after this one.[Activate: Main] [Once Per Turn] You may rest 1 of your DON!! cards: Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-119_p7.png",
     "cost": 10,
     "abilityKeywords": [
@@ -3615,7 +3615,7 @@
     ],
     "effect": "[On Play] DON!! -10: Place all of your Characters except this Character at the bottom of your deck in any order. Then, take an extra turn after this one.[Activate: Main] [Once Per Turn] You may rest 1 of your DON!! cards: Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-119_p8.png",
     "cost": 10,
     "abilityKeywords": [
@@ -3640,7 +3640,7 @@
     ],
     "effect": "[On Play] Reveal 1 card from the top of your deck and play up to 1 Character with a cost of 9 or less other than [Sanji]. Then, place the rest at the bottom of your deck.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-119_p2.png",
     "cost": 9,
     "expansionCode": "OP06"
@@ -3661,7 +3661,7 @@
     ],
     "effect": "[On Play] You may trash 1 of your Characters: K.O. up to 1 of your opponent's Characters.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-085_p2.png",
     "cost": 9,
     "expansionCode": "OP07"
@@ -3682,7 +3682,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] If your opponent has 2 or more Characters with a base power of 5000 or more, draw 2 cards and trash 1 card from your hand.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-005_p1.png",
     "cost": 5,
     "abilityKeywords": [
@@ -3708,7 +3708,7 @@
     ],
     "effect": "[On Play] K.O. up to 1 of your opponent's rested Characters.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST16-004_p1.png",
     "cost": 9,
     "expansionCode": "ST16"
@@ -3729,7 +3729,7 @@
     ],
     "effect": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 purple {Straw Hat Crew} type Character card with a cost of 5 or less from your hand.",
     "trigger": null,
-    "setName": "A FIST OF DIVINE SPEED [OP-11]",
+    "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST18-005_p1.png",
     "cost": 7,
     "expansionCode": "ST18"

@@ -15,7 +15,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] ③ (You may rest the specified number of DON!! cards in your cost area.) You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 0.",
     "trigger": null,
-    "setName": "Absolute Justice [ST-06]",
+    "setName": "Absolute Justice [ST06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-001.png",
     "life": 5,
     "abilityKeywords": [
@@ -40,7 +40,7 @@
     ],
     "effect": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 0.",
     "trigger": null,
-    "setName": "Absolute Justice [ST-06]",
+    "setName": "Absolute Justice [ST06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-002.png",
     "cost": 1,
     "expansionCode": "ST06"
@@ -61,7 +61,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "Absolute Justice [ST-06]",
+    "setName": "Absolute Justice [ST06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-003.png",
     "cost": 1,
     "expansionCode": "ST06"
@@ -82,7 +82,7 @@
     ],
     "effect": "This Character cannot be K.O.'d by effects.[DON!! x1] If there is a Character with a cost of 0, this Character gains [Double Attack].(This card deals 2 damage.)",
     "trigger": null,
-    "setName": "Absolute Justice [ST-06]",
+    "setName": "Absolute Justice [ST06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-004.png",
     "cost": 5,
     "abilityKeywords": [
@@ -107,7 +107,7 @@
     ],
     "effect": "[When Attacking] Give up to 1 of your opponent's Characters -4 cost during this turn.",
     "trigger": null,
-    "setName": "Absolute Justice [ST-06]",
+    "setName": "Absolute Justice [ST06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-005.png",
     "cost": 5,
     "abilityKeywords": [
@@ -131,7 +131,7 @@
     ],
     "effect": "[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters -2 cost during this turn.",
     "trigger": null,
-    "setName": "Absolute Justice [ST-06]",
+    "setName": "Absolute Justice [ST06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-006.png",
     "cost": 3,
     "abilityKeywords": [
@@ -155,7 +155,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
-    "setName": "Absolute Justice [ST-06]",
+    "setName": "Absolute Justice [ST06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-007.png",
     "cost": 2,
     "abilityKeywords": [
@@ -179,7 +179,7 @@
     ],
     "effect": "[On Play] Give up to 1 of your opponent's Characters -4 cost during this turn.",
     "trigger": null,
-    "setName": "Absolute Justice [ST-06]",
+    "setName": "Absolute Justice [ST06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-008.png",
     "cost": 3,
     "expansionCode": "ST06"
@@ -200,7 +200,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "Absolute Justice [ST-06]",
+    "setName": "Absolute Justice [ST06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-009.png",
     "cost": 2,
     "expansionCode": "ST06"
@@ -221,7 +221,7 @@
     ],
     "effect": "[On Play] Give up to 1 of your opponent's Characters -3 cost during this turn.",
     "trigger": null,
-    "setName": "Absolute Justice [ST-06]",
+    "setName": "Absolute Justice [ST06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-010.png",
     "cost": 2,
     "expansionCode": "ST06"
@@ -242,7 +242,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "Absolute Justice [ST-06]",
+    "setName": "Absolute Justice [ST06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-011.png",
     "cost": 4,
     "expansionCode": "ST06"
@@ -263,7 +263,7 @@
     ],
     "effect": "[Activate: Main] You may trash 1 card from your hand and rest this Character: K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
     "trigger": null,
-    "setName": "Absolute Justice [ST-06]",
+    "setName": "Absolute Justice [ST06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-012.png",
     "cost": 5,
     "abilityKeywords": [
@@ -287,7 +287,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "Absolute Justice [ST-06]",
+    "setName": "Absolute Justice [ST06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-013.png",
     "cost": 3,
     "expansionCode": "ST06"
@@ -308,7 +308,7 @@
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, K.O. up to 1 of your opponent's active Characters with a cost of 3 or less.",
     "trigger": "K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
-    "setName": "Absolute Justice [ST-06]",
+    "setName": "Absolute Justice [ST06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-014.png",
     "cost": 2,
     "abilityKeywords": [
@@ -332,7 +332,7 @@
     ],
     "effect": "[Main] Draw 1 card. Then, give up to 1 of your opponent's Characters -2 cost during this turn.",
     "trigger": "Your opponent chooses 1 card from their hand and trashes it.",
-    "setName": "Absolute Justice [ST-06]",
+    "setName": "Absolute Justice [ST06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-015.png",
     "cost": 1,
     "abilityKeywords": [
@@ -356,7 +356,7 @@
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle.",
     "trigger": "Draw 1 card and none of your Characters can be K.O.'d during this turn.",
-    "setName": "Absolute Justice [ST-06]",
+    "setName": "Absolute Justice [ST06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-016.png",
     "cost": 1,
     "abilityKeywords": [
@@ -380,7 +380,7 @@
     ],
     "effect": "[On Play] Give up to 1 of your opponent's Characters -1 cost during this turn.[Activate: Main] You may rest this Stage: If your Leader has the {Navy} type, give up to 1 of your opponent's Characters -1 cost during this turn.",
     "trigger": null,
-    "setName": "Absolute Justice [ST-06]",
+    "setName": "Absolute Justice [ST06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-017.png",
     "cost": 1,
     "abilityKeywords": [

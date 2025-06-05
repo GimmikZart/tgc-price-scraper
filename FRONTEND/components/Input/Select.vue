@@ -41,7 +41,7 @@ const containerClass = computed(() => ({
   "h-dvh fixed w-full left-0 top-0 bg-black z-10": isFocused.value,
 }));
 const inputClass = computed(() => ({
-  "absolute z-[50] bottom-[100px] px-5": isFocused.value,
+  "absolute z-[50] bottom-[70px] px-5": isFocused.value,
 }));
 
 const menuProps = computed(() => ({

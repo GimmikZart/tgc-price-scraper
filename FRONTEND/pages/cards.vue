@@ -10,7 +10,7 @@ const paginatedCards = ref([]);
 </script>
 
 <template>
-  <section class="relative min-h-dvh">
+  <section class="relative h-full">
     <Toolbar label="Lista Carte">
       <template #actions> </template>
     </Toolbar>
@@ -21,6 +21,6 @@ const paginatedCards = ref([]);
       <Card v-for="(card, ix) in paginatedCards" :key="ix" :card="card" />
     </div>
 
-    <CardFilter v-model="paginatedCards" @close="openFilter = false" />
+    <CardFilter v-model="paginatedCards" />
   </section>
 </template>

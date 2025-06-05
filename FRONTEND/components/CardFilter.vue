@@ -16,7 +16,7 @@ const {
 } = await useOnePieceCards();
 
 const openFilter = ref(false);
-const nameFilter = ref("");
+const nameFilter = ref([]);
 const colorFilter = ref([]);
 const typesFilter = ref([]);
 const setNamesFilter = ref([]);
@@ -91,7 +91,7 @@ watch(filtered, (newVal) => {
 });
 
 function resetFilters() {
-  nameFilter.value = "";
+  nameFilter.value = [];
   colorFilter.value = [];
   typesFilter.value = [];
   setNamesFilter.value = [];
@@ -134,7 +134,7 @@ function resetFilters() {
         </div>
       </div>
 
-      <template v-if="openFilter">
+      <div v-show="openFilter" class="flex flex-col gap-4">
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
           <InputSelect
             v-model="nameFilter"
@@ -207,7 +207,7 @@ function resetFilters() {
           </v-btn>
           <v-btn class="grow" @click="openFilter = false"> Chiudi </v-btn>
         </div>
-      </template>
+      </div>
     </div>
   </div>
 </template>

@@ -20,10 +20,10 @@ export default defineNuxtConfig({
   pwa: {
     manifest: {
       name: "Deckspedia",
-      short_name: "DKP",
+      short_name: "Deckspedia",
       description: "La migliore piattaforma per collezionisti di carte TCG",
-      theme_color: "#4A90E2",
-      background_color: "#ffffff",
+      theme_color: "#000000",
+      background_color: "#000000",
       display: "standalone",
       start_url: "/",
       icons: [

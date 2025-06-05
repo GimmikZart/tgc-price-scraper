@@ -178,7 +178,9 @@ watch(openFilter, (newVal) => {
       <!-- FILTRI -->
       <div v-show="openFilter" class="flex flex-col gap-4">
         <h3 class="text-2xl font-bold text-center">Filtri</h3>
-        <div class="grid grid-cols-1 gap-4 max-h-[400px] overflow-auto">
+        <div
+          class="grid grid-cols-1 gap-4 max-h-[400px] overflow-y-auto overflow-x-hidden"
+        >
           <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
             <InputSelect
               v-model="nameFilter"

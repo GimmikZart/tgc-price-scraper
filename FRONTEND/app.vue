@@ -18,6 +18,7 @@ onUnmounted(() => disconnect());
 </script>
 <template>
   <NuxtLayout :name="layoutName">
+    <VitePwaManifest />
     <NuxtPage />
   </NuxtLayout>
 </template>

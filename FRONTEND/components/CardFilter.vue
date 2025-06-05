@@ -26,6 +26,7 @@ const rarityFilter = ref([]);
 const abilityKwFilter = ref([]);
 const costFilter = ref([0, 10]);
 const powerFilter = ref([powerLimits.min, powerLimits.max]);
+const hasTriggerFilter = ref(false);
 const moreFilters = ref(false);
 
 const currentPage = ref(1);
@@ -79,6 +80,8 @@ const filtered = computed(() => {
     const rarityMatch =
       !rarityFilter.value.length || rarityFilter.value.includes(card.rarity);
 
+    const hasTriggerMatch = hasTriggerFilter.value ? card.trigger : true;
+
     return (
       nameMatch &&
       colorMatch &&
@@ -89,7 +92,8 @@ const filtered = computed(() => {
       rarityMatch &&
       abilityKwMatch &&
       powerMatch &&
-      costMatch
+      costMatch &&
+      hasTriggerMatch
     );
   });
 });
@@ -210,36 +214,12 @@ watch(openFilter, (newVal) => {
           </div>
 
           <div v-if="moreFilters" class="grid grid-cols-1 lg:grid-cols-3 gap-4">
-            <InputSelect
-              v-model="setNamesFilter"
-              :items="setNameList"
-              label="Filtra per set"
-            />
-
-            <InputSelect
-              v-model="familiesFilter"
-              :items="familyList"
-              label="Filtra per famiglia"
-            />
-
-            <InputSelect
-              v-model="rarityFilter"
-              :items="rarityList"
-              label="Filtra per rarità"
-            />
-
-            <InputSelect
-              v-model="abilityKwFilter"
-              :items="abilityKwList"
-              label="Filtra per abilità chiave"
-            />
-
             <v-range-slider
               v-model="powerFilter"
               :min="0"
               :max="powerLimits.max"
               step="1000"
-              color="white"
+              color="white/30"
               hint="Range di potenza"
               persistent-hint
               thumb-label="always"
@@ -251,13 +231,44 @@ watch(openFilter, (newVal) => {
               :min="0"
               :max="10"
               step="1"
-              color="white"
+              color="white/30"
               hint="Range di costo"
               persistent-hint
               thumb-label="always"
               class="ma-0 border-2 border-white/20 rounded p-4 pt-10"
             ></v-range-slider>
+            <InputSelect
+              v-model="familiesFilter"
+              :items="familyList"
+              label="Filtra per famiglia"
+            />
+            <InputSelect
+              v-model="abilityKwFilter"
+              :items="abilityKwList"
+              label="Filtra per abilità chiave"
+            />
+            <div
+              class="border-2 border-white/20 rounded"
+              @click="hasTriggerFilter = !hasTriggerFilter"
+            >
+              <v-checkbox
+                v-model="hasTriggerFilter"
+                hide-details
+                label="Ha effetto Trigger"
+              />
+            </div>
 
+            <InputSelect
+              v-model="setNamesFilter"
+              :items="setNameList"
+              label="Filtra per set"
+            />
+
+            <InputSelect
+              v-model="rarityFilter"
+              :items="rarityList"
+              label="Filtra per rarità"
+            />
             <v-textarea
               v-model="abilityFilter"
               density="compact"

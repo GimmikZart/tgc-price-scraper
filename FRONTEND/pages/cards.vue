@@ -4,9 +4,9 @@ import Toolbar from "@/components/Toolbar.vue";
 import Card from "@/components/Card.vue";
 import CardFilter from "@/components/CardFilter.vue";
 
-const { allCards } = await useOnePieceCards();
+//const { allCards } = await useOnePieceCards();
 
-const paginatedCards = ref([...allCards]);
+const paginatedCards = ref([]);
 </script>
 
 <template>
@@ -21,10 +21,6 @@ const paginatedCards = ref([...allCards]);
       <Card v-for="(card, ix) in paginatedCards" :key="ix" :card="card" />
     </div>
 
-    <CardFilter
-      :all-cards="allCards"
-      v-model="paginatedCards"
-      @close="openFilter = false"
-    />
+    <CardFilter v-model="paginatedCards" @close="openFilter = false" />
   </section>
 </template>

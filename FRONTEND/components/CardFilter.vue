@@ -1,16 +1,10 @@
 <script setup>
 import { ref, computed, watch } from "vue";
 
-const props = defineProps({
-  allCards: {
-    type: Array,
-    required: true,
-  },
-});
-
 const emit = defineEmits(["update:modelValue", "close"]);
 
 const {
+  allCards,
   setNameList,
   typeList,
   familyList,
@@ -18,6 +12,7 @@ const {
   colorList,
   expansionCodeList,
   abilityKwList,
+  nameList,
 } = await useOnePieceCards();
 
 const openFilter = ref(false);
@@ -34,10 +29,9 @@ const currentPage = ref(1);
 const itemsPerPage = ref(32);
 
 const filtered = computed(() => {
-  return props.allCards.filter((card) => {
+  return allCards.filter((card) => {
     const nameMatch =
-      !nameFilter.value ||
-      card.name.toLowerCase().includes(nameFilter.value.toLowerCase());
+      !nameFilter.value.length || nameFilter.value.includes(card.name);
 
     const colorMatch =
       !colorFilter.value.length ||
@@ -105,10 +99,6 @@ function resetFilters() {
   abilityFilter.value = "";
   rarityFilter.value = [];
 }
-
-function close() {
-  emit("close");
-}
 </script>
 
 <template>
@@ -146,40 +136,22 @@ function close() {
 
       <template v-if="openFilter">
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
-          <v-text-field
+          <InputSelect
             v-model="nameFilter"
-            density="compact"
-            variant="outlined"
+            :items="nameList"
             label="Filtra per nome"
-            class="w-full"
-            clearable
-            hide-details
           />
 
-          <v-select
+          <InputSelect
             v-model="colorFilter"
-            density="compact"
-            variant="outlined"
             :items="colorList"
             label="Filtra per colore"
-            multiple
-            chips
-            class="w-full"
-            hide-details
-            clearable
           />
 
-          <v-select
+          <InputSelect
             v-model="typesFilter"
-            density="compact"
-            variant="outlined"
             :items="typeList"
             label="Filtra per tipo"
-            multiple
-            chips
-            class="w-full"
-            hide-details
-            clearable
           />
         </div>
 
@@ -194,43 +166,22 @@ function close() {
         </v-btn>
 
         <div v-if="moreFilters" class="grid grid-cols-1 lg:grid-cols-3 gap-4">
-          <v-autocomplete
+          <InputSelect
             v-model="setNamesFilter"
-            density="compact"
-            variant="outlined"
             :items="setNameList"
             label="Filtra per set"
-            multiple
-            chips
-            class="w-full"
-            hide-details
-            clearable
           />
 
-          <v-autocomplete
+          <InputSelect
             v-model="familiesFilter"
-            density="compact"
-            variant="outlined"
             :items="familyList"
             label="Filtra per famiglia"
-            multiple
-            chips
-            class="w-full"
-            hide-details
-            clearable
           />
 
-          <v-select
+          <InputSelect
             v-model="rarityFilter"
-            density="compact"
-            variant="outlined"
             :items="rarityList"
             label="Filtra per rarità"
-            multiple
-            chips
-            class="w-full"
-            hide-details
-            clearable
           />
 
           <v-textarea

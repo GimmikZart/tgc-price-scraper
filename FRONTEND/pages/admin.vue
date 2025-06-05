@@ -4,11 +4,11 @@ definePageMeta({
 })
 </script>
 <template>
-    <div>
+    <section>
         <Toolbar label="Admin">
         </Toolbar>
         <v-container>
             <DialogsHandleScrapingOPCards />
         </v-container>
-    </div>
+    </section>
 </template>

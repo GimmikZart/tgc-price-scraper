@@ -3,7 +3,6 @@ import { useSnackbar } from '@/stores/useSnackbar'
 import { updateProductsBatch } from '@/api/products'
 import { useUserAuth } from '@/stores/useUserAuth';
 import { fetchCardsFromApi } from '@/api/cardsFromApi'
-import { signOutApi } from '@/api/auth';
 
 const snackbar = useSnackbar()
 const isLoading = ref(false);
@@ -33,16 +32,7 @@ async function fetchCards() {
     }
 }
 
-async function signOut() {
-    isLoading.value = true
-    try {
-        await signOutApi()
-    } catch (error) {
-        snackbar.addMessage(`Errore durante il logout`, 'error', error)
-    } finally {
-        isLoading.value = false
-    }
-}
+
 </script>
 <template>
 <div class="w-screen flex gap-5 fixed bottom-0 right-0 items-center justify-around p-2 bg-black">
@@ -61,11 +51,8 @@ async function signOut() {
     <NuxtLink v-if="userAuth.isAdmin" to="/stores" class="bg-black text-white p-2 cursor-pointer rounded-lg">
         <v-icon size="30" icon="mdi-storefront"></v-icon>
     </NuxtLink>
-    <v-btn @click="signOut">
-        <v-icon size="30" icon="mdi-logout"></v-icon>
-    </v-btn>
-    <!-- <v-btn v-if="userAuth.isAdmin" :loading="isLoading" color="purple" @click="fetchCards()">
-        <v-icon icon="mdi-update"></v-icon>
-    </v-btn> -->
+    <NuxtLink to="/user" class="bg-black text-white p-2 cursor-pointer rounded-lg">
+        <v-icon size="30" icon="mdi-account-circle"></v-icon>
+    </NuxtLink>
 </div>
 </template>

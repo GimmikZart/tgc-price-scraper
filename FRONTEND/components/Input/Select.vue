@@ -14,6 +14,14 @@ const props = defineProps({
     type: Array,
     default: () => [],
   },
+  autocomplete: {
+    type: Boolean,
+    default: false,
+  },
+  multiple: {
+    type: Boolean,
+    default: false,
+  },
 });
 
 const emit = defineEmits(["update:modelValue"]);
@@ -30,7 +38,7 @@ const model = computed({
 const isFocused = ref(false);
 
 const containerClass = computed(() => ({
-  "h-dvh fixed w-screen left-0 top-0 bg-black z-10": isFocused.value,
+  "h-dvh fixed w-full left-0 top-0 bg-black z-10": isFocused.value,
 }));
 const inputClass = computed(() => ({
   "absolute z-[50] bottom-[100px] px-5": isFocused.value,
@@ -38,8 +46,8 @@ const inputClass = computed(() => ({
 
 const menuProps = computed(() => ({
   location: isFocused.value ? "top" : null,
-  offset: isFocused.value ? "30px" : null,
-  height: "600px",
+  offset: isFocused.value ? "50px" : null,
+  height: "700px",
 }));
 
 function handleMenu(event) {
@@ -51,12 +59,13 @@ function handleMenu(event) {
   <div :class="containerClass">
     <div class="w-full flex gap-5 flex-col" :class="inputClass">
       <v-autocomplete
+        v-if="autocomplete"
         v-model="model"
         :items="items"
         :label="label"
         density="compact"
         variant="outlined"
-        multiple
+        :multiple="multiple"
         chips
         item-height="40"
         clear-on-select
@@ -82,6 +91,38 @@ function handleMenu(event) {
           </div>
         </template>
       </v-autocomplete>
+      <v-select
+        v-else
+        v-model="model"
+        :items="items"
+        :label="label"
+        density="compact"
+        variant="outlined"
+        :multiple="multiple"
+        chips
+        item-height="40"
+        theme="dark"
+        hide-details
+        clearable
+        :menu="isFocused"
+        :menu-props="{
+          offset: menuProps.offset,
+          contained: true,
+          location: menuProps.location,
+          contentClass: 'flex-menu',
+        }"
+        class="w-full z-index-[150]"
+        @update:menu="(event) => handleMenu(event)"
+      >
+        <template #item="{ props, item }">
+          <div
+            v-bind="props"
+            class="bg-white/10 border-2 border-white-500 font-bold text-sm my-2 rounded py-2 px-4"
+          >
+            {{ item.value }}
+          </div>
+        </template>
+      </v-select>
 
       <v-btn v-if="isFocused" @click="isFocused = false"> Ok </v-btn>
     </div>
@@ -90,7 +131,7 @@ function handleMenu(event) {
 
 <style>
 .flex-menu {
-  min-height: 400px !important;
+  min-height: 300px !important;
   display: flex !important;
   flex-direction: column !important;
   justify-content: end !important;
@@ -98,5 +139,8 @@ function handleMenu(event) {
 .flex-menu .v-list {
   background: black !important;
   background-color: black !important;
+}
+
+.custom-select .v-input.v-select {
 }
 </style>

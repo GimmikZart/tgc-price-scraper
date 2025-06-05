@@ -16,7 +16,7 @@ const {
 } = await useOnePieceCards();
 
 const openFilter = ref(false);
-const nameFilter = ref([]);
+const nameFilter = ref(null);
 const colorFilter = ref([]);
 const typesFilter = ref([]);
 const setNamesFilter = ref([]);
@@ -34,8 +34,7 @@ const itemsPerPage = ref(32);
 
 const filtered = computed(() => {
   return allCards.filter((card) => {
-    const nameMatch =
-      !nameFilter.value.length || nameFilter.value.includes(card.name);
+    const nameMatch = !nameFilter.value || nameFilter.value.includes(card.name);
 
     const colorMatch =
       !colorFilter.value.length ||
@@ -122,7 +121,7 @@ watch(filtered, (newVal) => {
 });
 
 function resetFilters() {
-  nameFilter.value = [];
+  nameFilter.value = null;
   colorFilter.value = [];
   typesFilter.value = [];
   setNamesFilter.value = [];
@@ -184,18 +183,21 @@ watch(openFilter, (newVal) => {
             <InputSelect
               v-model="nameFilter"
               :items="nameList"
+              autocomplete
               label="Filtra per nome"
             />
 
             <InputSelect
               v-model="colorFilter"
               :items="colorList"
+              multiple
               label="Filtra per colore"
             />
 
             <InputSelect
               v-model="typesFilter"
               :items="typeList"
+              multiple
               label="Filtra per tipo"
             />
           </div>
@@ -240,11 +242,14 @@ watch(openFilter, (newVal) => {
             <InputSelect
               v-model="familiesFilter"
               :items="familyList"
+              autocomplete
+              multiple
               label="Filtra per famiglia"
             />
             <InputSelect
               v-model="abilityKwFilter"
               :items="abilityKwList"
+              multiple
               label="Filtra per abilità chiave"
             />
             <div
@@ -261,12 +266,14 @@ watch(openFilter, (newVal) => {
             <InputSelect
               v-model="setNamesFilter"
               :items="setNameList"
+              autocomplete
               label="Filtra per set"
             />
 
             <InputSelect
               v-model="rarityFilter"
               :items="rarityList"
+              mulitple
               label="Filtra per rarità"
             />
             <v-textarea

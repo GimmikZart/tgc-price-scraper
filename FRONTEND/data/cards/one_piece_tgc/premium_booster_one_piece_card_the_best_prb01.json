@@ -91,7 +91,7 @@
       "FILM",
       "Neo Navy"
     ],
-    "effect": "[On Play] Give up to 1 of your opponent's Characters −1000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 0 power or less.",
+    "effect": "[On Play] Give up to 1 of your opponent's Characters -1000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 0 power or less.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-002.png",
@@ -209,7 +209,7 @@
       "FILM",
       "Neo Navy"
     ],
-    "effect": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's ＜Special＞ attribute Characters −5000 power during this turn.",
+    "effect": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's ＜Special＞ attribute Characters -5000 power during this turn.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-006.png",
@@ -258,7 +258,7 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Blocker][On Play] You may trash 1 card from your hand: If your Leader has the {Navy} type, give up to 1 of your opponent's Characters −6000 power during this turn.",
+    "effect": "[Blocker][On Play] You may trash 1 card from your hand: If your Leader has the {Navy} type, give up to 1 of your opponent's Characters -6000 power during this turn.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-008.png",
@@ -282,7 +282,7 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Blocker][On Play] You may trash 1 card from your hand: If your Leader has the {Navy} type, give up to 1 of your opponent's Characters −6000 power during this turn.",
+    "effect": "[Blocker][On Play] You may trash 1 card from your hand: If your Leader has the {Navy} type, give up to 1 of your opponent's Characters -6000 power during this turn.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-008_p1.png",
@@ -306,7 +306,7 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x2] [When Attacking] Give up to 1 of your opponent's Characters −2000 power until the end of your opponent's next turn.",
+    "effect": "[DON!! x2] [When Attacking] Give up to 1 of your opponent's Characters -2000 power until the end of your opponent's next turn.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-009.png",
@@ -332,7 +332,7 @@
       "Navy",
       "SWORD"
     ],
-    "effect": "[On Play] Give up to 1 of your opponent's Characters −2000 power during this turn.[When Attacking] This Character gains +1000 power during this turn. Then, up to 1 of your {Navy} type Leader can also attack active Characters during this turn.",
+    "effect": "[On Play] Give up to 1 of your opponent's Characters -2000 power during this turn.[When Attacking] This Character gains +1000 power during this turn. Then, up to 1 of your {Navy} type Leader can also attack active Characters during this turn.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-010.png",
@@ -357,7 +357,7 @@
       "Navy",
       "SWORD"
     ],
-    "effect": "[On Play] Give up to 1 of your opponent's Characters −2000 power during this turn.[When Attacking] This Character gains +1000 power during this turn. Then, up to 1 of your {Navy} type Leader can also attack active Characters during this turn.",
+    "effect": "[On Play] Give up to 1 of your opponent's Characters -2000 power during this turn.[When Attacking] This Character gains +1000 power during this turn. Then, up to 1 of your {Navy} type Leader can also attack active Characters during this turn.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-010_p1.png",
@@ -550,8 +550,8 @@
       "Navy",
       "SWORD"
     ],
-    "effect": "[Main] Give up to 1 of your opponent's Characters −4000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 6000 power or less.",
-    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with 6000 power or less.",
+    "effect": "[Main] Give up to 1 of your opponent's Characters -4000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 6000 power or less.",
+    "trigger": "K.O. up to 1 of your opponent's Characters with 6000 power or less.",
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-018.png",
     "cost": 6,
@@ -575,8 +575,8 @@
       "Navy",
       "SWORD"
     ],
-    "effect": "[Main] Give up to 1 of your opponent's Characters −4000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 6000 power or less.",
-    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with 6000 power or less.",
+    "effect": "[Main] Give up to 1 of your opponent's Characters -4000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 6000 power or less.",
+    "trigger": "K.O. up to 1 of your opponent's Characters with 6000 power or less.",
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-018_p1.png",
     "cost": 6,
@@ -601,7 +601,7 @@
       "SWORD"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if your opponent has a Character with 6000 power or more, up to 1 of your Leader or Character cards gains +1000 power during this turn.",
-    "trigger": "Trigger[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "trigger": "Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-019.png",
     "cost": 2,
@@ -627,7 +627,7 @@
       "Drake Pirates"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if your opponent has a Character with 6000 power or more, up to 1 of your Leader or Character cards gains +1000 power during this turn.",
-    "trigger": "Trigger[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "trigger": "Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-020.png",
     "cost": 2,
@@ -756,8 +756,8 @@
       "Fish-Man Island",
       "The Sun Pirates"
     ],
-    "effect": "If your Leader has the {Fish-Man} type, you have 3 or less Life cards and your opponent has 5 or more rested cards, give this card in your hand −3 cost.",
-    "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "effect": "If your Leader has the {Fish-Man} type, you have 3 or less Life cards and your opponent has 5 or more rested cards, give this card in your hand -3 cost.",
+    "trigger": "Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-023.png",
     "cost": 7,
@@ -779,8 +779,8 @@
       "Fish-Man Island",
       "The Sun Pirates"
     ],
-    "effect": "If your Leader has the {Fish-Man} type, you have 3 or less Life cards and your opponent has 5 or more rested cards, give this card in your hand −3 cost.",
-    "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "effect": "If your Leader has the {Fish-Man} type, you have 3 or less Life cards and your opponent has 5 or more rested cards, give this card in your hand -3 cost.",
+    "trigger": "Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-023_p1.png",
     "cost": 7,
@@ -893,7 +893,7 @@
       "East Blue"
     ],
     "effect": "[On Play] Up to 1 of your opponent's rested Characters will not become active in your opponent's next Refresh Phase.",
-    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
+    "trigger": "K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-028.png",
     "cost": 4,
@@ -1132,7 +1132,7 @@
       "Fish-Man Island"
     ],
     "effect": "[Main] Look at 4 cards from the top of your deck; reveal up to 1 {Neptunian} or {Fish-Man Island} type Character card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Trigger[Trigger] Draw 1 card.",
+    "trigger": "Draw 1 card.",
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-037.png",
     "cost": 1,
@@ -1185,7 +1185,7 @@
       "The Sun Pirates"
     ],
     "effect": "[Counter] Up to 1 of your {Fish-Man} or {Merfolk} type Leader or Character cards gains +3000 power during this battle. Then, rest up to 1 of your opponent's Characters with a cost of 3 or less.",
-    "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "trigger": "Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-039.png",
     "cost": 1,
@@ -1777,7 +1777,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 4 or less cards in your hand, that card gains an additional +2000 power during this battle.",
-    "trigger": "Trigger[Trigger] Return up to 1 Character with a cost of 2 or less to the owner's hand.",
+    "trigger": "Return up to 1 Character with a cost of 2 or less to the owner's hand.",
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-059.png",
     "cost": 1,
@@ -1801,7 +1801,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[Main] If your Leader is multicolored, look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card other than [Let's Crash This Wedding!!!] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "trigger": "Activate this card's [Main] effect.",
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-060.png",
     "cost": 1,
@@ -1825,7 +1825,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[Main] Place up to 1 of your opponent's Characters with a base cost of 4 or less at the bottom of the owner's deck.",
-    "trigger": "Trigger[Trigger] Place up to 1 Character with a cost of 1 or less at the bottom of the owner's deck.",
+    "trigger": "Place up to 1 Character with a cost of 1 or less at the bottom of the owner's deck.",
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-061.png",
     "cost": 3,
@@ -1848,7 +1848,7 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[When Attacking]/[On Your Opponent's Attack] [Once Per Turn] DON!! −1: Look at 1 card from the top of your opponent's deck. Then, this Leader gains +1000 power during this battle.",
+    "effect": "[When Attacking]/[On Your Opponent's Attack] [Once Per Turn] DON!! -1: Look at 1 card from the top of your opponent's deck. Then, this Leader gains +1000 power during this battle.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-062.png",
@@ -1874,7 +1874,7 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[When Attacking]/[On Your Opponent's Attack] [Once Per Turn] DON!! −1: Look at 1 card from the top of your opponent's deck. Then, this Leader gains +1000 power during this battle.",
+    "effect": "[When Attacking]/[On Your Opponent's Attack] [Once Per Turn] DON!! -1: Look at 1 card from the top of your opponent's deck. Then, this Leader gains +1000 power during this battle.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-062_p1.png",
@@ -1900,7 +1900,7 @@
     "family": [
       "Impel Down"
     ],
-    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Impel Down} type, rest up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "effect": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Impel Down} type, rest up to 1 of your opponent's Characters with a cost of 3 or less.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-063.png",
@@ -2082,7 +2082,7 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Big Mom Pirates} type card with a cost of 2 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.[Activate: Main] DON!! −1, You may rest this Character: Look at 1 card from the top of your opponent's deck.",
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Big Mom Pirates} type card with a cost of 2 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.[Activate: Main] DON!! -1, You may rest this Character: Look at 1 card from the top of your opponent's deck.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-070.png",
@@ -2106,7 +2106,7 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Big Mom Pirates} type card with a cost of 2 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.[Activate: Main] DON!! −1, You may rest this Character: Look at 1 card from the top of your opponent's deck.",
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Big Mom Pirates} type card with a cost of 2 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.[Activate: Main] DON!! -1, You may rest this Character: Look at 1 card from the top of your opponent's deck.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-070_p1.png",
@@ -2155,7 +2155,7 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] DON!! −1, You may rest this Character: Your opponent places 2 cards from their trash at the bottom of their deck in any order. Then, add 1 card from the top of your Life cards to your hand.",
+    "effect": "[Activate: Main] [Once Per Turn] DON!! -1, You may rest this Character: Your opponent places 2 cards from their trash at the bottom of their deck in any order. Then, add 1 card from the top of your Life cards to your hand.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-072.png",
@@ -2181,7 +2181,7 @@
       "The Four Emperors",
       "Big Mom Pirates"
     ],
-    "effect": "If your Leader has the {Big Mom Pirates} type, this Character gains [Rush].[On Your Opponent's Attack] [Once Per Turn] DON!! −5: Choose a cost and reveal 1 card from the top of your opponent's deck. If the revealed card has the chosen cost, up to 1 of your Leader gains +2000 power during this turn.",
+    "effect": "If your Leader has the {Big Mom Pirates} type, this Character gains [Rush].[On Your Opponent's Attack] [Once Per Turn] DON!! -5: Choose a cost and reveal 1 card from the top of your opponent's deck. If the revealed card has the chosen cost, up to 1 of your Leader gains +2000 power during this turn.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-073.png",
@@ -2208,7 +2208,7 @@
       "The Four Emperors",
       "Big Mom Pirates"
     ],
-    "effect": "If your Leader has the {Big Mom Pirates} type, this Character gains [Rush].[On Your Opponent's Attack] [Once Per Turn] DON!! −5: Choose a cost and reveal 1 card from the top of your opponent's deck. If the revealed card has the chosen cost, up to 1 of your Leader gains +2000 power during this turn.",
+    "effect": "If your Leader has the {Big Mom Pirates} type, this Character gains [Rush].[On Your Opponent's Attack] [Once Per Turn] DON!! -5: Choose a cost and reveal 1 card from the top of your opponent's deck. If the revealed card has the chosen cost, up to 1 of your Leader gains +2000 power during this turn.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-073_p1.png",
@@ -2234,7 +2234,7 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] DON!! −1, You may rest this Character: Choose a cost and reveal 1 card from the top of your opponent's deck. If the revealed card has the chosen cost, rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "effect": "[Activate: Main] [Once Per Turn] DON!! -1, You may rest this Character: Choose a cost and reveal 1 card from the top of your opponent's deck. If the revealed card has the chosen cost, rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-074.png",
@@ -2262,7 +2262,7 @@
       "Former Navy"
     ],
     "effect": "[On Play] If your Leader is [Nico Robin] and you have 7 or more DON!! cards on your field, draw 2 cards.",
-    "trigger": "Trigger[Trigger] Activate this card's [On Play] effect.",
+    "trigger": "Activate this card's [On Play] effect.",
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-075.png",
     "cost": 6,
@@ -2354,7 +2354,7 @@
       "Big Mom Pirates"
     ],
     "effect": "[Counter] Choose a cost and reveal 1 card from the top of your opponent's deck. If the revealed card has the chosen cost, up to 1 of your Leader or Character cards gains +5000 power during this battle.",
-    "trigger": "Trigger[Trigger] Draw 1 card.",
+    "trigger": "Draw 1 card.",
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-079.png",
     "cost": 1,
@@ -2429,7 +2429,7 @@
       "Big Mom Pirates"
     ],
     "effect": "[Main] Choose a cost and reveal 1 card from the top of your opponent's deck. If the revealed card has the chosen cost, K.O. up to 1 of your opponent's Characters with a base cost of 8 or less.",
-    "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "trigger": "Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-081.png",
     "cost": 6,
@@ -2886,7 +2886,7 @@
       "Navy"
     ],
     "effect": "[Main] You may trash 3 cards from the top of your deck: K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
-    "trigger": "Trigger[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "trigger": "Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-098.png",
     "cost": 3,
@@ -2911,7 +2911,7 @@
       "Navy"
     ],
     "effect": "[Main] Look at 3 cards from the top of your deck; reveal up to 1 {Navy} type card other than [I'm Gonna Be a Navy Officer!!!] and add it to your hand. Then, trash the rest.",
-    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "trigger": "Activate this card's [Main] effect.",
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-099.png",
     "cost": 1,
@@ -3364,7 +3364,7 @@
       "Fish-Man Island"
     ],
     "effect": "[Counter] If your Leader is [Shirahoshi], up to 1 of your Leader or Character cards gains +4000 power during this battle.",
-    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
+    "trigger": "K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-115.png",
     "cost": 1,
@@ -3389,7 +3389,7 @@
       "Fish-Man Island"
     ],
     "effect": "[Main] Add up to 1 Character with a cost of 6 or less to the top or bottom of the owner's Life cards face-up.",
-    "trigger": "Trigger[Trigger] Add up to 1 of your opponent's Characters with a cost of 4 or less to the top or bottom of the owner's Life cards face-up.",
+    "trigger": "Add up to 1 of your opponent's Characters with a cost of 4 or less to the top or bottom of the owner's Life cards face-up.",
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-116.png",
     "cost": 6,
@@ -3587,7 +3587,7 @@
       "The Four Emperors",
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] DON!! −10: Place all of your Characters except this Character at the bottom of your deck in any order. Then, take an extra turn after this one.[Activate: Main] [Once Per Turn] You may rest 1 of your DON!! cards: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": "[On Play] DON!! -10: Place all of your Characters except this Character at the bottom of your deck in any order. Then, take an extra turn after this one.[Activate: Main] [Once Per Turn] You may rest 1 of your DON!! cards: Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-119_p7.png",
@@ -3613,7 +3613,7 @@
       "The Four Emperors",
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] DON!! −10: Place all of your Characters except this Character at the bottom of your deck in any order. Then, take an extra turn after this one.[Activate: Main] [Once Per Turn] You may rest 1 of your DON!! cards: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": "[On Play] DON!! -10: Place all of your Characters except this Character at the bottom of your deck in any order. Then, take an extra turn after this one.[Activate: Main] [Once Per Turn] You may rest 1 of your DON!! cards: Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-119_p8.png",
@@ -3727,7 +3727,7 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 purple {Straw Hat Crew} type Character card with a cost of 5 or less from your hand.",
+    "effect": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 purple {Straw Hat Crew} type Character card with a cost of 5 or less from your hand.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST18-005_p1.png",
@@ -3826,7 +3826,7 @@
       "FILM",
       "Neo Navy"
     ],
-    "effect": "[On Play] Give up to 1 of your opponent's Characters −1000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 0 power or less.",
+    "effect": "[On Play] Give up to 1 of your opponent's Characters -1000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 0 power or less.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-002.png",
@@ -3944,7 +3944,7 @@
       "FILM",
       "Neo Navy"
     ],
-    "effect": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's ＜Special＞ attribute Characters −5000 power during this turn.",
+    "effect": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's ＜Special＞ attribute Characters -5000 power during this turn.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-006.png",
@@ -3993,7 +3993,7 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Blocker][On Play] You may trash 1 card from your hand: If your Leader has the {Navy} type, give up to 1 of your opponent's Characters −6000 power during this turn.",
+    "effect": "[Blocker][On Play] You may trash 1 card from your hand: If your Leader has the {Navy} type, give up to 1 of your opponent's Characters -6000 power during this turn.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-008.png",
@@ -4017,7 +4017,7 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Blocker][On Play] You may trash 1 card from your hand: If your Leader has the {Navy} type, give up to 1 of your opponent's Characters −6000 power during this turn.",
+    "effect": "[Blocker][On Play] You may trash 1 card from your hand: If your Leader has the {Navy} type, give up to 1 of your opponent's Characters -6000 power during this turn.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-008_p1.png",
@@ -4041,7 +4041,7 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x2] [When Attacking] Give up to 1 of your opponent's Characters −2000 power until the end of your opponent's next turn.",
+    "effect": "[DON!! x2] [When Attacking] Give up to 1 of your opponent's Characters -2000 power until the end of your opponent's next turn.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-009.png",
@@ -4067,7 +4067,7 @@
       "Navy",
       "SWORD"
     ],
-    "effect": "[On Play] Give up to 1 of your opponent's Characters −2000 power during this turn.[When Attacking] This Character gains +1000 power during this turn. Then, up to 1 of your {Navy} type Leader can also attack active Characters during this turn.",
+    "effect": "[On Play] Give up to 1 of your opponent's Characters -2000 power during this turn.[When Attacking] This Character gains +1000 power during this turn. Then, up to 1 of your {Navy} type Leader can also attack active Characters during this turn.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-010.png",
@@ -4092,7 +4092,7 @@
       "Navy",
       "SWORD"
     ],
-    "effect": "[On Play] Give up to 1 of your opponent's Characters −2000 power during this turn.[When Attacking] This Character gains +1000 power during this turn. Then, up to 1 of your {Navy} type Leader can also attack active Characters during this turn.",
+    "effect": "[On Play] Give up to 1 of your opponent's Characters -2000 power during this turn.[When Attacking] This Character gains +1000 power during this turn. Then, up to 1 of your {Navy} type Leader can also attack active Characters during this turn.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-010_p1.png",
@@ -4285,8 +4285,8 @@
       "Navy",
       "SWORD"
     ],
-    "effect": "[Main] Give up to 1 of your opponent's Characters −4000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 6000 power or less.",
-    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with 6000 power or less.",
+    "effect": "[Main] Give up to 1 of your opponent's Characters -4000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 6000 power or less.",
+    "trigger": "K.O. up to 1 of your opponent's Characters with 6000 power or less.",
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-018.png",
     "cost": 6,
@@ -4310,8 +4310,8 @@
       "Navy",
       "SWORD"
     ],
-    "effect": "[Main] Give up to 1 of your opponent's Characters −4000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 6000 power or less.",
-    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with 6000 power or less.",
+    "effect": "[Main] Give up to 1 of your opponent's Characters -4000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 6000 power or less.",
+    "trigger": "K.O. up to 1 of your opponent's Characters with 6000 power or less.",
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-018_p1.png",
     "cost": 6,
@@ -4336,7 +4336,7 @@
       "SWORD"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if your opponent has a Character with 6000 power or more, up to 1 of your Leader or Character cards gains +1000 power during this turn.",
-    "trigger": "Trigger[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "trigger": "Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-019.png",
     "cost": 2,
@@ -4362,7 +4362,7 @@
       "Drake Pirates"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if your opponent has a Character with 6000 power or more, up to 1 of your Leader or Character cards gains +1000 power during this turn.",
-    "trigger": "Trigger[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "trigger": "Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-020.png",
     "cost": 2,
@@ -4491,8 +4491,8 @@
       "Fish-Man Island",
       "The Sun Pirates"
     ],
-    "effect": "If your Leader has the {Fish-Man} type, you have 3 or less Life cards and your opponent has 5 or more rested cards, give this card in your hand −3 cost.",
-    "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "effect": "If your Leader has the {Fish-Man} type, you have 3 or less Life cards and your opponent has 5 or more rested cards, give this card in your hand -3 cost.",
+    "trigger": "Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-023.png",
     "cost": 7,
@@ -4514,8 +4514,8 @@
       "Fish-Man Island",
       "The Sun Pirates"
     ],
-    "effect": "If your Leader has the {Fish-Man} type, you have 3 or less Life cards and your opponent has 5 or more rested cards, give this card in your hand −3 cost.",
-    "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "effect": "If your Leader has the {Fish-Man} type, you have 3 or less Life cards and your opponent has 5 or more rested cards, give this card in your hand -3 cost.",
+    "trigger": "Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-023_p1.png",
     "cost": 7,
@@ -4628,7 +4628,7 @@
       "East Blue"
     ],
     "effect": "[On Play] Up to 1 of your opponent's rested Characters will not become active in your opponent's next Refresh Phase.",
-    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
+    "trigger": "K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-028.png",
     "cost": 4,
@@ -4867,7 +4867,7 @@
       "Fish-Man Island"
     ],
     "effect": "[Main] Look at 4 cards from the top of your deck; reveal up to 1 {Neptunian} or {Fish-Man Island} type Character card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Trigger[Trigger] Draw 1 card.",
+    "trigger": "Draw 1 card.",
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-037.png",
     "cost": 1,
@@ -4920,7 +4920,7 @@
       "The Sun Pirates"
     ],
     "effect": "[Counter] Up to 1 of your {Fish-Man} or {Merfolk} type Leader or Character cards gains +3000 power during this battle. Then, rest up to 1 of your opponent's Characters with a cost of 3 or less.",
-    "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "trigger": "Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-039.png",
     "cost": 1,
@@ -5512,7 +5512,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 4 or less cards in your hand, that card gains an additional +2000 power during this battle.",
-    "trigger": "Trigger[Trigger] Return up to 1 Character with a cost of 2 or less to the owner's hand.",
+    "trigger": "Return up to 1 Character with a cost of 2 or less to the owner's hand.",
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-059.png",
     "cost": 1,
@@ -5536,7 +5536,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[Main] If your Leader is multicolored, look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card other than [Let's Crash This Wedding!!!] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "trigger": "Activate this card's [Main] effect.",
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-060.png",
     "cost": 1,
@@ -5560,7 +5560,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[Main] Place up to 1 of your opponent's Characters with a base cost of 4 or less at the bottom of the owner's deck.",
-    "trigger": "Trigger[Trigger] Place up to 1 Character with a cost of 1 or less at the bottom of the owner's deck.",
+    "trigger": "Place up to 1 Character with a cost of 1 or less at the bottom of the owner's deck.",
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-061.png",
     "cost": 3,
@@ -5583,7 +5583,7 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[When Attacking]/[On Your Opponent's Attack] [Once Per Turn] DON!! −1: Look at 1 card from the top of your opponent's deck. Then, this Leader gains +1000 power during this battle.",
+    "effect": "[When Attacking]/[On Your Opponent's Attack] [Once Per Turn] DON!! -1: Look at 1 card from the top of your opponent's deck. Then, this Leader gains +1000 power during this battle.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-062.png",
@@ -5609,7 +5609,7 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[When Attacking]/[On Your Opponent's Attack] [Once Per Turn] DON!! −1: Look at 1 card from the top of your opponent's deck. Then, this Leader gains +1000 power during this battle.",
+    "effect": "[When Attacking]/[On Your Opponent's Attack] [Once Per Turn] DON!! -1: Look at 1 card from the top of your opponent's deck. Then, this Leader gains +1000 power during this battle.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-062_p1.png",
@@ -5635,7 +5635,7 @@
     "family": [
       "Impel Down"
     ],
-    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Impel Down} type, rest up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "effect": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Impel Down} type, rest up to 1 of your opponent's Characters with a cost of 3 or less.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-063.png",
@@ -5817,7 +5817,7 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Big Mom Pirates} type card with a cost of 2 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.[Activate: Main] DON!! −1, You may rest this Character: Look at 1 card from the top of your opponent's deck.",
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Big Mom Pirates} type card with a cost of 2 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.[Activate: Main] DON!! -1, You may rest this Character: Look at 1 card from the top of your opponent's deck.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-070.png",
@@ -5841,7 +5841,7 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Big Mom Pirates} type card with a cost of 2 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.[Activate: Main] DON!! −1, You may rest this Character: Look at 1 card from the top of your opponent's deck.",
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Big Mom Pirates} type card with a cost of 2 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.[Activate: Main] DON!! -1, You may rest this Character: Look at 1 card from the top of your opponent's deck.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-070_p1.png",
@@ -5890,7 +5890,7 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] DON!! −1, You may rest this Character: Your opponent places 2 cards from their trash at the bottom of their deck in any order. Then, add 1 card from the top of your Life cards to your hand.",
+    "effect": "[Activate: Main] [Once Per Turn] DON!! -1, You may rest this Character: Your opponent places 2 cards from their trash at the bottom of their deck in any order. Then, add 1 card from the top of your Life cards to your hand.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-072.png",
@@ -5916,7 +5916,7 @@
       "The Four Emperors",
       "Big Mom Pirates"
     ],
-    "effect": "If your Leader has the {Big Mom Pirates} type, this Character gains [Rush].[On Your Opponent's Attack] [Once Per Turn] DON!! −5: Choose a cost and reveal 1 card from the top of your opponent's deck. If the revealed card has the chosen cost, up to 1 of your Leader gains +2000 power during this turn.",
+    "effect": "If your Leader has the {Big Mom Pirates} type, this Character gains [Rush].[On Your Opponent's Attack] [Once Per Turn] DON!! -5: Choose a cost and reveal 1 card from the top of your opponent's deck. If the revealed card has the chosen cost, up to 1 of your Leader gains +2000 power during this turn.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-073.png",
@@ -5943,7 +5943,7 @@
       "The Four Emperors",
       "Big Mom Pirates"
     ],
-    "effect": "If your Leader has the {Big Mom Pirates} type, this Character gains [Rush].[On Your Opponent's Attack] [Once Per Turn] DON!! −5: Choose a cost and reveal 1 card from the top of your opponent's deck. If the revealed card has the chosen cost, up to 1 of your Leader gains +2000 power during this turn.",
+    "effect": "If your Leader has the {Big Mom Pirates} type, this Character gains [Rush].[On Your Opponent's Attack] [Once Per Turn] DON!! -5: Choose a cost and reveal 1 card from the top of your opponent's deck. If the revealed card has the chosen cost, up to 1 of your Leader gains +2000 power during this turn.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-073_p1.png",
@@ -5969,7 +5969,7 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] DON!! −1, You may rest this Character: Choose a cost and reveal 1 card from the top of your opponent's deck. If the revealed card has the chosen cost, rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "effect": "[Activate: Main] [Once Per Turn] DON!! -1, You may rest this Character: Choose a cost and reveal 1 card from the top of your opponent's deck. If the revealed card has the chosen cost, rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-074.png",
@@ -5997,7 +5997,7 @@
       "Former Navy"
     ],
     "effect": "[On Play] If your Leader is [Nico Robin] and you have 7 or more DON!! cards on your field, draw 2 cards.",
-    "trigger": "Trigger[Trigger] Activate this card's [On Play] effect.",
+    "trigger": "Activate this card's [On Play] effect.",
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-075.png",
     "cost": 6,
@@ -6089,7 +6089,7 @@
       "Big Mom Pirates"
     ],
     "effect": "[Counter] Choose a cost and reveal 1 card from the top of your opponent's deck. If the revealed card has the chosen cost, up to 1 of your Leader or Character cards gains +5000 power during this battle.",
-    "trigger": "Trigger[Trigger] Draw 1 card.",
+    "trigger": "Draw 1 card.",
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-079.png",
     "cost": 1,
@@ -6164,7 +6164,7 @@
       "Big Mom Pirates"
     ],
     "effect": "[Main] Choose a cost and reveal 1 card from the top of your opponent's deck. If the revealed card has the chosen cost, K.O. up to 1 of your opponent's Characters with a base cost of 8 or less.",
-    "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "trigger": "Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-081.png",
     "cost": 6,
@@ -6621,7 +6621,7 @@
       "Navy"
     ],
     "effect": "[Main] You may trash 3 cards from the top of your deck: K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
-    "trigger": "Trigger[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "trigger": "Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-098.png",
     "cost": 3,
@@ -6646,7 +6646,7 @@
       "Navy"
     ],
     "effect": "[Main] Look at 3 cards from the top of your deck; reveal up to 1 {Navy} type card other than [I'm Gonna Be a Navy Officer!!!] and add it to your hand. Then, trash the rest.",
-    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "trigger": "Activate this card's [Main] effect.",
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-099.png",
     "cost": 1,
@@ -7099,7 +7099,7 @@
       "Fish-Man Island"
     ],
     "effect": "[Counter] If your Leader is [Shirahoshi], up to 1 of your Leader or Character cards gains +4000 power during this battle.",
-    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
+    "trigger": "K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-115.png",
     "cost": 1,
@@ -7124,7 +7124,7 @@
       "Fish-Man Island"
     ],
     "effect": "[Main] Add up to 1 Character with a cost of 6 or less to the top or bottom of the owner's Life cards face-up.",
-    "trigger": "Trigger[Trigger] Add up to 1 of your opponent's Characters with a cost of 4 or less to the top or bottom of the owner's Life cards face-up.",
+    "trigger": "Add up to 1 of your opponent's Characters with a cost of 4 or less to the top or bottom of the owner's Life cards face-up.",
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-116.png",
     "cost": 6,
@@ -7322,7 +7322,7 @@
       "The Four Emperors",
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] DON!! −10: Place all of your Characters except this Character at the bottom of your deck in any order. Then, take an extra turn after this one.[Activate: Main] [Once Per Turn] You may rest 1 of your DON!! cards: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": "[On Play] DON!! -10: Place all of your Characters except this Character at the bottom of your deck in any order. Then, take an extra turn after this one.[Activate: Main] [Once Per Turn] You may rest 1 of your DON!! cards: Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-119_p7.png",
@@ -7348,7 +7348,7 @@
       "The Four Emperors",
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] DON!! −10: Place all of your Characters except this Character at the bottom of your deck in any order. Then, take an extra turn after this one.[Activate: Main] [Once Per Turn] You may rest 1 of your DON!! cards: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": "[On Play] DON!! -10: Place all of your Characters except this Character at the bottom of your deck in any order. Then, take an extra turn after this one.[Activate: Main] [Once Per Turn] You may rest 1 of your DON!! cards: Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-119_p8.png",
@@ -7462,7 +7462,7 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 purple {Straw Hat Crew} type Character card with a cost of 5 or less from your hand.",
+    "effect": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 purple {Straw Hat Crew} type Character card with a cost of 5 or less from your hand.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST18-005_p1.png",
@@ -7561,7 +7561,7 @@
       "FILM",
       "Neo Navy"
     ],
-    "effect": "[On Play] Give up to 1 of your opponent's Characters −1000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 0 power or less.",
+    "effect": "[On Play] Give up to 1 of your opponent's Characters -1000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 0 power or less.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP-11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-002.png",

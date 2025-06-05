@@ -41,7 +41,7 @@
       "Frost Moon Village"
     ],
     "effect": "[Activate: Main] You may rest this Character: Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
-    "trigger": "Trigger[Trigger] Play this card.",
+    "trigger": "Play this card.",
     "setName": "Zoro & Sanji [ST-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST12-002.png",
     "cost": 3,
@@ -367,7 +367,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[Main]/[Counter] Rest up to 1 of your opponent's Leader or Character cards with a cost of 4 or less.",
-    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "trigger": "Activate this card's [Main] effect.",
     "setName": "Zoro & Sanji [ST-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST12-016.png",
     "cost": 2,

@@ -66,7 +66,7 @@
       "Donquixote Pirates"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, return up to 1 active Character with a cost of 3 or less to the owner's hand.",
-    "trigger": "Trigger[Trigger] Return up to 1 Character with a cost of 4 or less to the owner's hand.",
+    "trigger": "Return up to 1 Character with a cost of 4 or less to the owner's hand.",
     "setName": "Blue Donquixote Doflamingo [ST-17]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-086_r1.png",
     "cost": 2,

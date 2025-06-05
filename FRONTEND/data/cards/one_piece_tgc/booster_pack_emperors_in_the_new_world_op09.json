@@ -14,7 +14,7 @@
       "The Four Emperors",
       "Red-Haired Pirates"
     ],
-    "effect": "[Once Per Turn] This effect can be activated when your opponent attacks. Give up to 1 of your opponent's Leader or Character cards −1000 power during this turn.",
+    "effect": "[Once Per Turn] This effect can be activated when your opponent attacks. Give up to 1 of your opponent's Leader or Character cards -1000 power during this turn.",
     "trigger": null,
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-001.png",
@@ -39,7 +39,7 @@
       "The Four Emperors",
       "Red-Haired Pirates"
     ],
-    "effect": "[Once Per Turn] This effect can be activated when your opponent attacks. Give up to 1 of your opponent's Leader or Character cards −1000 power during this turn.",
+    "effect": "[Once Per Turn] This effect can be activated when your opponent attacks. Give up to 1 of your opponent's Leader or Character cards -1000 power during this turn.",
     "trigger": null,
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-001_p1.png",
@@ -105,7 +105,7 @@
     "family": [
       "Heart Pirates"
     ],
-    "effect": "[When Attacking] Give up to 1 of your opponent's Characters −2000 power during this turn.",
+    "effect": "[When Attacking] Give up to 1 of your opponent's Characters -2000 power during this turn.",
     "trigger": null,
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-003.png",
@@ -130,7 +130,7 @@
       "The Four Emperors",
       "Red-Haired Pirates"
     ],
-    "effect": "Give all of your opponent's Characters −1000 power.[Rush] (This card can attack on the turn in which it is played.)",
+    "effect": "Give all of your opponent's Characters -1000 power.[Rush] (This card can attack on the turn in which it is played.)",
     "trigger": null,
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-004.png",
@@ -155,7 +155,7 @@
       "The Four Emperors",
       "Red-Haired Pirates"
     ],
-    "effect": "Give all of your opponent's Characters −1000 power.[Rush] (This card can attack on the turn in which it is played.)",
+    "effect": "Give all of your opponent's Characters -1000 power.[Rush] (This card can attack on the turn in which it is played.)",
     "trigger": null,
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-004_p1.png",
@@ -180,7 +180,7 @@
       "The Four Emperors",
       "Red-Haired Pirates"
     ],
-    "effect": "Give all of your opponent's Characters −1000 power.[Rush] (This card can attack on the turn in which it is played.)",
+    "effect": "Give all of your opponent's Characters -1000 power.[Rush] (This card can attack on the turn in which it is played.)",
     "trigger": null,
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-004_p2.png",
@@ -273,7 +273,7 @@
     "family": [
       "Red-Haired Pirates"
     ],
-    "effect": "[Activate: Main] You may place this Character at the bottom of the owner's deck: Give up to 1 of your opponent's Characters −3000 power during this turn.",
+    "effect": "[Activate: Main] You may place this Character at the bottom of the owner's deck: Give up to 1 of your opponent's Characters -3000 power during this turn.",
     "trigger": null,
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-008.png",
@@ -364,7 +364,7 @@
     "family": [
       "Red-Haired Pirates"
     ],
-    "effect": "[Activate: Main] You may rest this Character: If your Leader has the {Red-Haired Pirates} type, give up to 1 of your opponent's Characters −2000 power during this turn.",
+    "effect": "[Activate: Main] You may rest this Character: If your Leader has the {Red-Haired Pirates} type, give up to 1 of your opponent's Characters -2000 power during this turn.",
     "trigger": null,
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-011.png",
@@ -410,7 +410,7 @@
     "family": [
       "Red-Haired Pirates"
     ],
-    "effect": "[On Play] Up to 1 of your Leader gains +1000 power until the end of your opponent's next turn.[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −1000 power during this turn.",
+    "effect": "[On Play] Up to 1 of your Leader gains +1000 power until the end of your opponent's next turn.[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters -1000 power during this turn.",
     "trigger": null,
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-013.png",
@@ -554,8 +554,8 @@
     "family": [
       "Red-Haired Pirates"
     ],
-    "effect": "[Main] If your Leader has the {Red-Haired Pirates} type, give up to 1 of your opponent's Characters −3000 power during this turn. Then, if your opponent has a Character with 5000 or more power, draw 1 card.",
-    "trigger": "Trigger[Trigger] Draw 1 card.",
+    "effect": "[Main] If your Leader has the {Red-Haired Pirates} type, give up to 1 of your opponent's Characters -3000 power during this turn. Then, if your opponent has a Character with 5000 or more power, draw 1 card.",
+    "trigger": "Draw 1 card.",
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-019.png",
     "cost": 2,
@@ -580,7 +580,7 @@
       "Red-Haired Pirates"
     ],
     "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Red-Haired Pirates} type card other than [Come On!! We'll Fight You!!] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Trigger[Trigger] Draw 1 card.",
+    "trigger": "Draw 1 card.",
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-020.png",
     "cost": 1,
@@ -603,7 +603,7 @@
     "family": [
       "Red-Haired Pirates"
     ],
-    "effect": "[Activate: Main] You may rest this Stage: If your Leader has the {Red-Haired Pirates} type, give up to 1 of your opponent's Characters −1000 power during this turn.",
+    "effect": "[Activate: Main] You may rest this Stage: If your Leader has the {Red-Haired Pirates} type, give up to 1 of your opponent's Characters -1000 power during this turn.",
     "trigger": null,
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-021.png",
@@ -1135,7 +1135,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[Counter] If your Leader has the {ODYSSEY} type and you have 2 or more rested Characters, up to 1 of your Leader or Character cards gains +2000 power during this turn.",
-    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
+    "trigger": "K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-039.png",
     "cost": 1,
@@ -1161,7 +1161,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[Main] If you have 2 or more rested Characters, K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
-    "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "trigger": "Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-040.png",
     "cost": 3,
@@ -1186,7 +1186,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if your Leader has the {ODYSSEY} type and you have 2 or more rested Characters, set up to 2 of your Characters as active.",
-    "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "trigger": "Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-041.png",
     "cost": 1,
@@ -1697,7 +1697,7 @@
       "Cross Guild"
     ],
     "effect": "[Main] Look at 4 cards from the top of your deck; reveal up to 1 {Cross Guild} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "trigger": "Activate this card's [Main] effect.",
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-057.png",
     "cost": 1,
@@ -1721,7 +1721,7 @@
       "Buggy Pirates"
     ],
     "effect": "[Main] Return up to 1 of your opponent's Characters with a cost of 6 or less to the owner's hand.",
-    "trigger": "Trigger[Trigger] Return up to 1 Character with a cost of 3 or less to the owner's hand.",
+    "trigger": "Return up to 1 Character with a cost of 3 or less to the owner's hand.",
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-058.png",
     "cost": 2,
@@ -1745,7 +1745,7 @@
       "Buggy Pirates"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle. Then, trash up to 2 cards from your hand. Trash the same number of cards from the top of your deck as you did from your hand.",
-    "trigger": "Trigger[Trigger] Draw 1 card.",
+    "trigger": "Draw 1 card.",
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-059.png",
     "cost": 2,
@@ -1923,7 +1923,7 @@
     "family": [
       "Kid Pirates"
     ],
-    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Set up to 1 of your {Kid Pirates} type Leader as active.",
+    "effect": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Set up to 1 of your {Kid Pirates} type Leader as active.",
     "trigger": null,
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-064.png",
@@ -2148,7 +2148,7 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] DON!! −2, You may trash 1 card from your hand: Draw 2 cards.",
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] DON!! -2, You may trash 1 card from your hand: Draw 2 cards.",
     "trigger": null,
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-072.png",
@@ -2172,7 +2172,7 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] DON!! −2, You may trash 1 card from your hand: Draw 2 cards.",
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] DON!! -2, You may trash 1 card from your hand: Draw 2 cards.",
     "trigger": null,
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-072_p1.png",
@@ -2196,7 +2196,7 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[When Attacking] You may return 1 or more DON!! cards from your field to your DON!! deck: Give up to 2 of your opponent's Characters −2000 power during this turn.",
+    "effect": "[When Attacking] You may return 1 or more DON!! cards from your field to your DON!! deck: Give up to 2 of your opponent's Characters -2000 power during this turn.",
     "trigger": null,
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-073.png",
@@ -2289,8 +2289,8 @@
       "The Four Emperors",
       "Straw Hat Crew"
     ],
-    "effect": "[Main] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with 6000 power or less.",
-    "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": "[Main] DON!! -2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with 6000 power or less.",
+    "trigger": "Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-077.png",
     "cost": 2,
@@ -2314,7 +2314,7 @@
       "The Four Emperors",
       "Straw Hat Crew"
     ],
-    "effect": "[Counter] DON!! −2, You may trash 1 card from your hand: If your Leader has the {Straw Hat Crew} type, up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, draw 2 cards.",
+    "effect": "[Counter] DON!! -2, You may trash 1 card from your hand: If your Leader has the {Straw Hat Crew} type, up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, draw 2 cards.",
     "trigger": null,
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-078.png",
@@ -2339,8 +2339,8 @@
       "The Four Emperors",
       "Straw Hat Crew"
     ],
-    "effect": "[Main] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 1 of your opponent's Characters with a cost of 5 or less. Then, draw 1 card.",
-    "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": "[Main] DON!! -2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 1 of your opponent's Characters with a cost of 5 or less. Then, draw 1 card.",
+    "trigger": "Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-079.png",
     "cost": 2,
@@ -2458,7 +2458,7 @@
     "family": [
       "Blackbeard Pirates"
     ],
-    "effect": "[Activate: Main] You may rest this Character: If your Leader has the {Blackbeard Pirates} type, give up to 1 of your opponent's Characters −3 cost during this turn.[On K.O.] Draw 1 card.",
+    "effect": "[Activate: Main] You may rest this Character: If your Leader has the {Blackbeard Pirates} type, give up to 1 of your opponent's Characters -3 cost during this turn.[On K.O.] Draw 1 card.",
     "trigger": null,
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-083.png",
@@ -2825,7 +2825,7 @@
       "Blackbeard Pirates"
     ],
     "effect": "[Main] Look at 3 cards from the top of your deck; reveal up to 1 {Blackbeard Pirates} type card other than [My Era...Begins!!] and add it to your hand. Then, trash the rest.",
-    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "trigger": "Activate this card's [Main] effect.",
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-096.png",
     "cost": 1,
@@ -2848,8 +2848,8 @@
     "family": [
       "Blackbeard Pirates"
     ],
-    "effect": "[Counter] Negate the effect of up to 1 of your opponent's Leader or Character cards and give that card −4000 power during this turn.",
-    "trigger": "Trigger[Trigger] Negate the effect of up to 1 of your opponent's Leader or Character cards during this turn.",
+    "effect": "[Counter] Negate the effect of up to 1 of your opponent's Leader or Character cards and give that card -4000 power during this turn.",
+    "trigger": "Negate the effect of up to 1 of your opponent's Leader or Character cards during this turn.",
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-097.png",
     "cost": 2,
@@ -2873,7 +2873,7 @@
       "Blackbeard Pirates"
     ],
     "effect": "[Main] If your Leader has the {Blackbeard Pirates} type, negate the effect of up to 1 of your opponent's Characters during this turn. Then, if that Character has a cost of 4 or less, K.O. it.",
-    "trigger": "Trigger[Trigger] Negate the effect of up to 1 of your opponent's Leader or Character cards during this turn.",
+    "trigger": "Negate the effect of up to 1 of your opponent's Leader or Character cards during this turn.",
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-098.png",
     "cost": 4,
@@ -2921,7 +2921,7 @@
       "Revolutionary Army"
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
-    "trigger": "Trigger[Trigger] If your Leader has the {Revolutionary Army} type and you and your opponent have a total of 5 or less Life cards, play this card.",
+    "trigger": "If your Leader has the {Revolutionary Army} type and you and your opponent have a total of 5 or less Life cards, play this card.",
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-100.png",
     "cost": 3,
@@ -2966,7 +2966,7 @@
       "Ohara"
     ],
     "effect": "[On Play] If your Leader is [Nico Robin], look at 3 cards from the top of your deck; reveal up to 1 card with a [Trigger] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Trigger[Trigger] Activate this card's [On Play] effect.",
+    "trigger": "Activate this card's [On Play] effect.",
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-102.png",
     "cost": 1,
@@ -3038,7 +3038,7 @@
       "Revolutionary Army"
     ],
     "effect": "[On Play] Add up to 1 {Revolutionary Army} type Character card from your hand to the top of your Life cards face-up. Then, if you have 2 or more Life cards, add 1 card from the top or bottom of your Life cards to your hand.",
-    "trigger": "Trigger[Trigger] If your Leader is multicolored, draw 2 cards.",
+    "trigger": "If your Leader is multicolored, draw 2 cards.",
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-104.png",
     "cost": 7,
@@ -3060,7 +3060,7 @@
       "Straw Hat Crew"
     ],
     "effect": null,
-    "trigger": "Trigger[Trigger] If your Leader has the {Egghead} type, add up to 1 card from the top of your deck to the top of your Life cards. Then, trash 2 cards from your hand.",
+    "trigger": "If your Leader has the {Egghead} type, add up to 1 card from the top of your deck to the top of your Life cards. Then, trash 2 cards from your hand.",
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-105.png",
     "cost": 5,
@@ -3081,7 +3081,7 @@
       "Ohara"
     ],
     "effect": "[On Play] Up to 1 of your [Nico Robin] Leader gains +3000 power during this turn.",
-    "trigger": "Trigger[Trigger] If your Leader is [Nico Robin], draw 3 cards and trash 2 cards from your hand.",
+    "trigger": "If your Leader is [Nico Robin], draw 3 cards and trash 2 cards from your hand.",
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-106.png",
     "cost": 1,
@@ -3102,7 +3102,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[On Play] If your opponent has 3 or more Life cards, trash up to 1 card from the top of your opponent's Life cards.",
-    "trigger": "Trigger[Trigger] Play up to 1 yellow Character card with a cost of 3 or less from your hand.",
+    "trigger": "Play up to 1 yellow Character card with a cost of 3 or less from your hand.",
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-107.png",
     "cost": 6,
@@ -3123,7 +3123,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[On Play] If your opponent has 3 or more Life cards, trash up to 1 card from the top of your opponent's Life cards.",
-    "trigger": "Trigger[Trigger] Play up to 1 yellow Character card with a cost of 3 or less from your hand.",
+    "trigger": "Play up to 1 yellow Character card with a cost of 3 or less from your hand.",
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-107_p1.png",
     "cost": 6,
@@ -3145,7 +3145,7 @@
       "Revolutionary Army"
     ],
     "effect": null,
-    "trigger": "Trigger[Trigger] If your Leader has the {Revolutionary Army} type and you and your opponent have a total of 5 or less Life cards, play this card.",
+    "trigger": "If your Leader has the {Revolutionary Army} type and you and your opponent have a total of 5 or less Life cards, play this card.",
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-108.png",
     "cost": 4,
@@ -3168,7 +3168,7 @@
       "Navy"
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
-    "trigger": "Trigger[Trigger] If your Leader is [Nico Robin], play this card.",
+    "trigger": "If your Leader is [Nico Robin], play this card.",
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-109.png",
     "cost": 3,
@@ -3193,7 +3193,7 @@
       "Sky Island"
     ],
     "effect": "[On Play] Draw 2 cards and trash 2 cards from your hand.",
-    "trigger": "Trigger[Trigger] Play this card.",
+    "trigger": "Play this card.",
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-110.png",
     "cost": 2,
@@ -3215,7 +3215,7 @@
       "Straw Hat Crew"
     ],
     "effect": null,
-    "trigger": "Trigger[Trigger] If your Leader has the {Egghead} type and your opponent has 6 or more cards in their hand, your opponent trashes 2 cards from their hand.",
+    "trigger": "If your Leader has the {Egghead} type and your opponent has 6 or more cards in their hand, your opponent trashes 2 cards from their hand.",
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-111.png",
     "cost": 5,
@@ -3236,7 +3236,7 @@
       "Revolutionary Army"
     ],
     "effect": "[On Play] If you have 2 or less Life cards, draw 1 card.",
-    "trigger": "Trigger[Trigger] If your Leader has the {Revolutionary Army} type and you and your opponent have a total of 5 or less Life cards, play this card.",
+    "trigger": "If your Leader has the {Revolutionary Army} type and you and your opponent have a total of 5 or less Life cards, play this card.",
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-112.png",
     "cost": 3,
@@ -3280,7 +3280,7 @@
       "Revolutionary Army"
     ],
     "effect": "[On Play] If you and your opponent have a total of 5 or less Life cards, K.O. up to 1 of your opponent's Characters with 2000 power or less.",
-    "trigger": "Trigger[Trigger] If you and your opponent have a total of 5 or less Life cards, play this card.",
+    "trigger": "If you and your opponent have a total of 5 or less Life cards, play this card.",
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-114.png",
     "cost": 3,
@@ -3301,7 +3301,7 @@
       "Navy"
     ],
     "effect": "[Main] K.O. up to 1 of your opponent's Characters with a cost of 3 or less and a [Trigger].",
-    "trigger": "Trigger[Trigger] Draw 1 card.",
+    "trigger": "Draw 1 card.",
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-115.png",
     "cost": 1,
@@ -3326,7 +3326,7 @@
       "Revolutionary Army"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle.",
-    "trigger": "Trigger[Trigger] Play up to 1 {Revolutionary Army} type Character card with a cost of 4 or less from your hand.",
+    "trigger": "Play up to 1 {Revolutionary Army} type Character card with a cost of 4 or less from your hand.",
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-116.png",
     "cost": 1,
@@ -3350,7 +3350,7 @@
       "Ohara"
     ],
     "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 2 cards with a [Trigger] other than [Dereshi!] and add them to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Trigger[Trigger] Draw 1 card.",
+    "trigger": "Draw 1 card.",
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-117.png",
     "cost": 3,
@@ -3616,7 +3616,7 @@
       "The Four Emperors",
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] DON!! −10: Place all of your Characters except this Character at the bottom of your deck in any order. Then, take an extra turn after this one.[Activate: Main] [Once Per Turn] You may rest 1 of your DON!! cards: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": "[On Play] DON!! -10: Place all of your Characters except this Character at the bottom of your deck in any order. Then, take an extra turn after this one.[Activate: Main] [Once Per Turn] You may rest 1 of your DON!! cards: Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": null,
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-119_p6.png",
@@ -3689,7 +3689,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[On Play] You may trash 1 card with a [Trigger] from your hand: K.O. up to 1 of your opponent's Characters with a cost of 5 or less. Then, if you have 3 or less cards in your hand, draw 1 card.",
-    "trigger": "Trigger[Trigger] Activate this card's [On Play] effect.",
+    "trigger": "Activate this card's [On Play] effect.",
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-106_p2.png",
     "cost": 5,
@@ -3713,7 +3713,7 @@
       "The Four Emperors",
       "Red-Haired Pirates"
     ],
-    "effect": "Give all of your opponent's Characters −1000 power.[Rush] (This card can attack on the turn in which it is played.)",
+    "effect": "Give all of your opponent's Characters -1000 power.[Rush] (This card can attack on the turn in which it is played.)",
     "trigger": null,
     "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-004_p3.png",

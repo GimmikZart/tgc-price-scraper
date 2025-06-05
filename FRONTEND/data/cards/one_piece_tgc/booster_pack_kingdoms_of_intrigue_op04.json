@@ -67,7 +67,7 @@
     "family": [
       "Alabasta"
     ],
-    "effect": "[Activate: Main] You may rest this Character and give your 1 active Leader −5000 power during this turn: Look at 5 cards from the top of your deck; reveal up to 1 {Alabasta} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": "[Activate: Main] You may rest this Character and give your 1 active Leader -5000 power during this turn: Look at 5 cards from the top of your deck; reveal up to 1 {Alabasta} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-002.png",
@@ -166,7 +166,7 @@
     "family": [
       "Alabasta"
     ],
-    "effect": "[When Attacking] You may give your 1 active Leader −5000 power during this turn: This Character gains +2000 power until the start of your next turn.",
+    "effect": "[When Attacking] You may give your 1 active Leader -5000 power during this turn: This Character gains +2000 power until the start of your next turn.",
     "trigger": null,
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-006.png",
@@ -212,7 +212,7 @@
     "family": [
       "Alabasta"
     ],
-    "effect": "[DON!! x1] [When Attacking] If your Leader is [Nefeltari Vivi], give up to 1 of your opponent's Characters −3000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 0 power or less.",
+    "effect": "[DON!! x1] [When Attacking] If your Leader is [Nefeltari Vivi], give up to 1 of your opponent's Characters -3000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 0 power or less.",
     "trigger": null,
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-008.png",
@@ -238,7 +238,7 @@
       "Animal",
       "Alabasta"
     ],
-    "effect": "[When Attacking] You may give your 1 active Leader −5000 power during this turn: Return this Character to the owner's hand at the end of this turn.",
+    "effect": "[When Attacking] You may give your 1 active Leader -5000 power during this turn: Return this Character to the owner's hand at the end of this turn.",
     "trigger": null,
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-009.png",
@@ -410,7 +410,7 @@
       "Alabasta",
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] Give up to 1 of your opponent's Characters −2000 power during this turn.",
+    "effect": "[On Play] Give up to 1 of your opponent's Characters -2000 power during this turn.",
     "trigger": null,
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-015.png",
@@ -433,7 +433,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[Counter] You may trash 1 card from your hand: Up to 1 of your Leader or Character cards gains +3000 power during this battle.",
-    "trigger": "Trigger[Trigger] Give up to 1 of your opponent's Leader or Character cards −3000 power during this turn.",
+    "trigger": "Give up to 1 of your opponent's Leader or Character cards -3000 power during this turn.",
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-016.png",
     "cost": null,
@@ -457,7 +457,7 @@
       "Alabasta",
       "Straw Hat Crew"
     ],
-    "effect": "[Counter] Give up to 1 of your opponent's Leader or Character cards −2000 power during this turn. Then, if your Leader is active, give up to 1 of your opponent's Leader or Character cards −1000 power during this turn.",
+    "effect": "[Counter] Give up to 1 of your opponent's Leader or Character cards -2000 power during this turn. Then, if your Leader is active, give up to 1 of your opponent's Leader or Character cards -1000 power during this turn.",
     "trigger": null,
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-017.png",
@@ -481,8 +481,8 @@
     "family": [
       "Alabasta"
     ],
-    "effect": "[Main] If your Leader has the {Alabasta} type, give up to 2 of your opponent's Characters −2000 power during this turn.",
-    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "effect": "[Main] If your Leader has the {Alabasta} type, give up to 2 of your opponent's Characters -2000 power during this turn.",
+    "trigger": "Activate this card's [Main] effect.",
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-018.png",
     "cost": 3,
@@ -558,7 +558,7 @@
     "family": [
       "Navy"
     ],
-    "effect": "[DON!! x1] [Your Turn] Give all of your opponent's Characters −1 cost.[End of Your Turn] ➀ (You may rest the specified number of DON!! cards in your cost area.): Set up to 1 of your Characters with a cost of 5 or less as active.",
+    "effect": "[DON!! x1] [Your Turn] Give all of your opponent's Characters -1 cost.[End of Your Turn] ➀ (You may rest the specified number of DON!! cards in your cost area.): Set up to 1 of your Characters with a cost of 5 or less as active.",
     "trigger": null,
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-020.png",
@@ -585,7 +585,7 @@
     "family": [
       "Navy"
     ],
-    "effect": "[DON!! x1] [Your Turn] Give all of your opponent's Characters −1 cost.[End of Your Turn] ➀ (You may rest the specified number of DON!! cards in your cost area.): Set up to 1 of your Characters with a cost of 5 or less as active.",
+    "effect": "[DON!! x1] [Your Turn] Give all of your opponent's Characters -1 cost.[End of Your Turn] ➀ (You may rest the specified number of DON!! cards in your cost area.): Set up to 1 of your Characters with a cost of 5 or less as active.",
     "trigger": null,
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-020_p1.png",
@@ -1044,7 +1044,7 @@
       "Donquixote Pirates"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, set up to 1 of your Characters as active.",
-    "trigger": "Trigger[Trigger] Up to 1 of your Leader gains +2000 power during this turn.",
+    "trigger": "Up to 1 of your Leader gains +2000 power during this turn.",
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-035.png",
     "cost": 2,
@@ -1068,7 +1068,7 @@
       "Donquixote Pirates"
     ],
     "effect": "[Counter] Look at 5 cards from the top of your deck; reveal up to 1 {Donquixote Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Trigger[Trigger] Activate this card's [Counter] effect.",
+    "trigger": "Activate this card's [Counter] effect.",
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-036.png",
     "cost": 1,
@@ -1093,7 +1093,7 @@
       "Donquixote Pirates"
     ],
     "effect": "[Counter] If your Leader has the {Donquixote Pirates} type, up to 1 of your Leader or Character cards gains +2000 power during this turn.",
-    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
+    "trigger": "K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-037.png",
     "cost": 2,
@@ -1118,7 +1118,7 @@
       "Donquixote Pirates"
     ],
     "effect": "[Main]/[Counter] Rest up to 1 of your opponent's Leader or Character cards. Then, K.O. up to 1 of your opponent's rested Characters with a cost of 6 or less.",
-    "trigger": "Trigger[Trigger] Set up to 5 of your DON!! cards as active.",
+    "trigger": "Set up to 5 of your DON!! cards as active.",
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-038.png",
     "cost": 5,
@@ -1536,7 +1536,7 @@
       "Animal Kingdom Pirates"
     ],
     "effect": "[Activate: Main] ➁ (You may rest the specified number of DON!! cards in your cost area.) You may rest this Character: Draw 1 card.",
-    "trigger": "Trigger[Trigger] Play this card.",
+    "trigger": "Play this card.",
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-052.png",
     "cost": 3,
@@ -1607,7 +1607,7 @@
       "Animal Kingdom Pirates"
     ],
     "effect": "[Main] You may trash 1 [Ice Oni] from your hand and place 1 Character with a cost of 4 or less at the bottom of the owner's deck: Play 1 [Ice Oni] from your trash.",
-    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "trigger": "Activate this card's [Main] effect.",
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-055.png",
     "cost": 2,
@@ -1631,7 +1631,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[Main] Place up to 1 Character at the bottom of the owner's deck.",
-    "trigger": "Trigger[Trigger] Place up to 1 Character with a cost of 4 or less at the bottom of the owner's deck.",
+    "trigger": "Place up to 1 Character with a cost of 4 or less at the bottom of the owner's deck.",
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-056.png",
     "cost": 6,
@@ -1656,7 +1656,7 @@
       "Animal Kingdom Pirates"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, place up to 1 Character with a cost of 1 or less at the bottom of the owner's deck.",
-    "trigger": "Trigger[Trigger] Return up to 1 Character with a cost of 6 or less to the owner's hand.",
+    "trigger": "Return up to 1 Character with a cost of 6 or less to the owner's hand.",
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-057.png",
     "cost": 2,
@@ -1734,7 +1734,7 @@
       "Water Seven",
       "Galley-La Company"
     ],
-    "effect": "[On Your Opponent's Attack] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Water Seven} type, this Character gains [Blocker] during this turn.(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": "[On Your Opponent's Attack] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Water Seven} type, this Character gains [Blocker] during this turn.(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-059.png",
@@ -1760,7 +1760,7 @@
       "The Seven Warlords of the Sea",
       "Baroque Works"
     ],
-    "effect": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader's type includes \"Baroque Works\", add up to 1 card from the top of your deck to the top of your Life cards.[On Your Opponent's Attack] [Once Per Turn] DON!! −1: Draw 1 card and trash 1 card from your hand.",
+    "effect": "[On Play] DON!! -2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader's type includes \"Baroque Works\", add up to 1 card from the top of your deck to the top of your Life cards.[On Your Opponent's Attack] [Once Per Turn] DON!! -1: Draw 1 card and trash 1 card from your hand.",
     "trigger": null,
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-060.png",
@@ -1786,7 +1786,7 @@
       "The Seven Warlords of the Sea",
       "Baroque Works"
     ],
-    "effect": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader's type includes \"Baroque Works\", add up to 1 card from the top of your deck to the top of your Life cards.[On Your Opponent's Attack] [Once Per Turn] DON!! −1: Draw 1 card and trash 1 card from your hand.",
+    "effect": "[On Play] DON!! -2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader's type includes \"Baroque Works\", add up to 1 card from the top of your deck to the top of your Life cards.[On Your Opponent's Attack] [Once Per Turn] DON!! -1: Draw 1 card and trash 1 card from your hand.",
     "trigger": null,
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-060_p1.png",
@@ -1858,7 +1858,7 @@
       "Water Seven",
       "The Franky Family"
     ],
-    "effect": "[On Your Opponent's Attack] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Water Seven} type, up to 1 of your Leader or Character cards gains +1000 power during this battle.",
+    "effect": "[On Your Opponent's Attack] [Once Per Turn] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Water Seven} type, up to 1 of your Leader or Character cards gains +1000 power during this battle.",
     "trigger": null,
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-063.png",
@@ -1884,7 +1884,7 @@
       "Baroque Works"
     ],
     "effect": "[On Play] Add up to 1 DON!! card from your DON!! deck and rest it. Then, if you have 6 or more DON!! cards on your field, draw 1 card.",
-    "trigger": "Trigger[Trigger] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play this card.",
+    "trigger": "DON!! -2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play this card.",
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-064.png",
     "cost": 5,
@@ -1905,7 +1905,7 @@
       "Baroque Works"
     ],
     "effect": "[On Play] Add up to 1 DON!! card from your DON!! deck and rest it. Then, if you have 6 or more DON!! cards on your field, draw 1 card.",
-    "trigger": "Trigger[Trigger] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play this card.",
+    "trigger": "DON!! -2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play this card.",
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-064_p1.png",
     "cost": 5,
@@ -1926,7 +1926,7 @@
       "Baroque Works"
     ],
     "effect": "[On Play] If your Leader's type includes \"Baroque Works\", up to 1 of your opponent's Characters with a cost of 5 or less cannot attack until the start of your next turn.",
-    "trigger": "Trigger[Trigger] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play this card.",
+    "trigger": "DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play this card.",
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-065.png",
     "cost": 2,
@@ -1947,7 +1947,7 @@
       "Baroque Works"
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 card with a type including \"Baroque Works\" and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Trigger[Trigger] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play this card.",
+    "trigger": "DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play this card.",
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-066.png",
     "cost": 2,
@@ -1968,7 +1968,7 @@
       "Baroque Works"
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
-    "trigger": "Trigger[Trigger] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play this card.",
+    "trigger": "DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play this card.",
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-067.png",
     "cost": 4,
@@ -1992,7 +1992,7 @@
       "Animal",
       "Water Seven"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Your Opponent's Attack] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Return up to 1 of your opponent's Characters with a cost of 2 or less to the owner's hand.",
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Your Opponent's Attack] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Return up to 1 of your opponent's Characters with a cost of 2 or less to the owner's hand.",
     "trigger": null,
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-068.png",
@@ -2017,8 +2017,8 @@
     "family": [
       "Baroque Works"
     ],
-    "effect": "[On Your Opponent's Attack] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character's base power becomes the same as the power of your opponent's attacking Leader or Character during this turn.",
-    "trigger": "Trigger[Trigger] DON!! −1: Play this card.",
+    "effect": "[On Your Opponent's Attack] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character's base power becomes the same as the power of your opponent's attacking Leader or Character during this turn.",
+    "trigger": "DON!! -1: Play this card.",
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-069.png",
     "cost": 3,
@@ -2041,7 +2041,7 @@
     "family": [
       "Baroque Works"
     ],
-    "effect": "[On Your Opponent's Attack] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Give up to 1 of your opponent's Characters −1000 power during this turn.",
+    "effect": "[On Your Opponent's Attack] [Once Per Turn] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Give up to 1 of your opponent's Characters -1000 power during this turn.",
     "trigger": null,
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-070.png",
@@ -2066,7 +2066,7 @@
     "family": [
       "Baroque Works"
     ],
-    "effect": "[On Your Opponent's Attack] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains [Blocker] and +1000 power during this battle.(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": "[On Your Opponent's Attack] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains [Blocker] and +1000 power during this battle.(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-071.png",
@@ -2091,7 +2091,7 @@
     "family": [
       "Baroque Works"
     ],
-    "effect": "[On Your Opponent's Attack] [Once Per Turn] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may rest this Character: K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "effect": "[On Your Opponent's Attack] [Once Per Turn] DON!! -2 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may rest this Character: K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
     "trigger": null,
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-072.png",
@@ -2116,7 +2116,7 @@
     "family": [
       "Baroque Works"
     ],
-    "effect": "[On Your Opponent's Attack] [Once Per Turn] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may rest this Character: K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "effect": "[On Your Opponent's Attack] [Once Per Turn] DON!! -2 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may rest this Character: K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
     "trigger": null,
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-072_p1.png",
@@ -2143,7 +2143,7 @@
       "Baroque Works"
     ],
     "effect": "[Activate: Main] You may trash this Character and 1 of your Characters with a type including \"Baroque Works\": Add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "trigger": "Trigger[Trigger] Play this card.",
+    "trigger": "Play this card.",
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-073.png",
     "cost": 3,
@@ -2166,8 +2166,8 @@
     "family": [
       "Baroque Works"
     ],
-    "effect": "[Counter] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your Leader or Character cards gains +1000 power during this battle. Then, rest up to 1 of your opponent's Characters with a cost of 4 or less.",
-    "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": "[Counter] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your Leader or Character cards gains +1000 power during this battle. Then, rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "trigger": "Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-074.png",
     "cost": 1,
@@ -2191,7 +2191,7 @@
       "Baroque Works"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +6000 power during this battle. Then, if you have 2 or less Life cards, add up to 1 DON!! card from your DON!! deck and rest it.",
-    "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "trigger": "Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-075.png",
     "cost": 3,
@@ -2215,8 +2215,8 @@
       "The Seven Warlords of the Sea",
       "Baroque Works"
     ],
-    "effect": "[Counter] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
-    "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": "[Counter] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "trigger": "Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-076.png",
     "cost": 1,
@@ -2286,7 +2286,7 @@
       "Dressrosa",
       "Yonta Maria Fleet"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] Give up to 1 of your opponent's Characters −4 cost during this turn and trash 2 cards from the top of your deck. Then, K.O. 1 of your {Dressrosa} type Characters.",
+    "effect": "[Activate: Main] [Once Per Turn] Give up to 1 of your opponent's Characters -4 cost during this turn and trash 2 cards from the top of your deck. Then, K.O. 1 of your {Dressrosa} type Characters.",
     "trigger": null,
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-079.png",
@@ -2496,7 +2496,7 @@
     "family": [
       "Dressrosa"
     ],
-    "effect": "[On Play]/[When Attacking] If your Leader has the {Dressrosa} type, give up to 1 of your opponent's Characters −2 cost during this turn. Then, trash 1 card from the top of your deck.",
+    "effect": "[On Play]/[When Attacking] If your Leader has the {Dressrosa} type, give up to 1 of your opponent's Characters -2 cost during this turn. Then, trash 1 card from the top of your deck.",
     "trigger": null,
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-085.png",
@@ -2569,7 +2569,7 @@
       "Dressrosa",
       "New Giant Pirates"
     ],
-    "effect": "[Activate: Main] You may rest your 1 Leader: Give up to 1 of your opponent's Characters −4 cost during this turn.",
+    "effect": "[Activate: Main] You may rest your 1 Leader: Give up to 1 of your opponent's Characters -4 cost during this turn.",
     "trigger": null,
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-088.png",
@@ -2715,7 +2715,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[Main] Up to 1 of your {Dressrosa} type Characters gains +6000 power during this turn. Then, if you have 15 or more cards in your trash, that card gains [Double Attack] during this turn.(This card deals 2 damage.)",
-    "trigger": "Trigger[Trigger] Draw 3 cards and trash 2 cards from your hand.",
+    "trigger": "Draw 3 cards and trash 2 cards from your hand.",
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-093.png",
     "cost": 3,
@@ -2740,7 +2740,7 @@
       "Dressrosa"
     ],
     "effect": "[Main] Choose up to 1 of your opponent's Characters with a cost of 4 or less and K.O. it. If you have 15 or more cards in your trash, choose up to 1 of your opponent's Characters with a cost of 6 or less instead of a Character with a cost of 4 or less.",
-    "trigger": "Trigger[Trigger] You may rest your Leader: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "trigger": "You may rest your Leader: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-094.png",
     "cost": 4,
@@ -2765,7 +2765,7 @@
       "Barto Club"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 15 or more cards in your trash, that card gains an additional +2000 power during this battle.",
-    "trigger": "Trigger[Trigger] Draw 2 cards and trash 1 card from your hand.",
+    "trigger": "Draw 2 cards and trash 1 card from your hand.",
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-095.png",
     "cost": 1,
@@ -2854,7 +2854,7 @@
       "Big Mom Pirates"
     ],
     "effect": "Also treat this card's name as [Charlotte Linlin] according to the rules.",
-    "trigger": "Trigger[Trigger] If you have 1 or less Life cards, play this card.",
+    "trigger": "If you have 1 or less Life cards, play this card.",
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-099.png",
     "cost": 7,
@@ -2875,7 +2875,7 @@
       "Firetank Pirates"
     ],
     "effect": null,
-    "trigger": "Trigger[Trigger] Up to 1 of your opponent's Leader or Character cards cannot attack during this turn.",
+    "trigger": "Up to 1 of your opponent's Leader or Character cards cannot attack during this turn.",
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-100.png",
     "cost": 3,
@@ -2896,7 +2896,7 @@
       "Firetank Pirates"
     ],
     "effect": null,
-    "trigger": "Trigger[Trigger] Up to 1 of your opponent's Leader or Character cards cannot attack during this turn.",
+    "trigger": "Up to 1 of your opponent's Leader or Character cards cannot attack during this turn.",
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-100_p1.png",
     "cost": 3,
@@ -2917,7 +2917,7 @@
       "The House of Lambs"
     ],
     "effect": "[Your Turn] [On Play] Draw 1 card.",
-    "trigger": "Trigger[Trigger] Play this card. Then, K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
+    "trigger": "Play this card. Then, K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-101.png",
     "cost": 2,
@@ -2967,7 +2967,7 @@
       "Kouzuki Clan"
     ],
     "effect": "[On Play] Up to 1 of your {Land of Wano} type Leader or Character cards gains +1000 power during this turn.",
-    "trigger": "Trigger[Trigger] Play this card.",
+    "trigger": "Play this card.",
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-103.png",
     "cost": 2,
@@ -2988,7 +2988,7 @@
       "The Vinsmoke Family"
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
-    "trigger": "Trigger[Trigger] You may trash 1 card from your hand: Play this card.",
+    "trigger": "You may trash 1 card from your hand: Play this card.",
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-104.png",
     "cost": 4,
@@ -3012,7 +3012,7 @@
       "The Vinsmoke Family"
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
-    "trigger": "Trigger[Trigger] You may trash 1 card from your hand: Play this card.",
+    "trigger": "You may trash 1 card from your hand: Play this card.",
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-104_p1.png",
     "cost": 4,
@@ -3062,7 +3062,7 @@
       "Big Mom Pirates"
     ],
     "effect": "[DON!! x1] If you have less Life cards than your opponent, this Character gains +1000 power.",
-    "trigger": "Trigger[Trigger] You may trash 1 card from your hand: Play this card.",
+    "trigger": "You may trash 1 card from your hand: Play this card.",
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-106.png",
     "cost": 3,
@@ -3107,7 +3107,7 @@
       "Big Mom Pirates"
     ],
     "effect": "[DON!! x1] This Character gains [Banish].(When this card deals damage, the target card is trashed without activating its Trigger.)",
-    "trigger": "Trigger[Trigger] You may trash 1 card from your hand: Play this card.",
+    "trigger": "You may trash 1 card from your hand: Play this card.",
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-108.png",
     "cost": 3,
@@ -3182,7 +3182,7 @@
       "Homies"
     ],
     "effect": "[Activate: Main] You may trash 1 of your {Homies} type Characters other than this Character and rest this Character: Set up to 1 of your [Charlotte Linlin] Characters as active.",
-    "trigger": "Trigger[Trigger] Play this card.",
+    "trigger": "Play this card.",
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-111.png",
     "cost": 5,
@@ -3249,7 +3249,7 @@
       "Homies"
     ],
     "effect": null,
-    "trigger": "Trigger[Trigger] Play this card.",
+    "trigger": "Play this card.",
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-113.png",
     "cost": 2,
@@ -3293,7 +3293,7 @@
       "Kouzuki Clan"
     ],
     "effect": "[Main] You may add 1 card from the top or bottom of your Life cards to your hand: Up to 1 of your {Land of Wano} type Characters gains [Double Attack] during this turn.(This card deals 2 damage.)",
-    "trigger": "Trigger[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "trigger": "Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-115.png",
     "cost": 1,
@@ -3318,7 +3318,7 @@
       "The Vinsmoke Family"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +6000 power during this battle. Then, if you and your opponent have a total of 4 or less Life cards, K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
-    "trigger": "Trigger[Trigger] Draw 1 card.",
+    "trigger": "Draw 1 card.",
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-116.png",
     "cost": 3,
@@ -3343,7 +3343,7 @@
       "Big Mom Pirates"
     ],
     "effect": "[Main] Add up to 1 of your opponent's Characters with a cost of 3 or less to the top or bottom of your opponent's Life cards face-up.",
-    "trigger": "Trigger[Trigger] You may add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 card from your hand to the top of your Life cards.",
+    "trigger": "You may add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 card from your hand to the top of your Life cards.",
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-117.png",
     "cost": 1,
@@ -3543,7 +3543,7 @@
     "family": [
       "Impel Down"
     ],
-    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your opponent returns 1 DON!! card from their field to their DON!! deck.[Opponent's Turn] When this Character is K.O.'d, your opponent returns 2 DON!! cards from their field to their DON!! deck.",
+    "effect": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your opponent returns 1 DON!! card from their field to their DON!! deck.[Opponent's Turn] When this Character is K.O.'d, your opponent returns 2 DON!! cards from their field to their DON!! deck.",
     "trigger": null,
     "setName": "KINGDOMS OF INTRIGUE [OP04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-085_p2.png",

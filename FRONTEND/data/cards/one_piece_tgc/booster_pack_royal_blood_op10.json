@@ -341,7 +341,7 @@
       "Biological Weapon",
       "Punk Hazard"
     ],
-    "effect": "[On Play] If your Leader has the {Punk Hazard} type, give up to 1 of your opponent's Characters −3000 power during this turn.",
+    "effect": "[On Play] If your Leader has the {Punk Hazard} type, give up to 1 of your opponent's Characters -3000 power during this turn.",
     "trigger": null,
     "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-009.png",
@@ -483,7 +483,7 @@
     "family": [
       "Punk Hazard"
     ],
-    "effect": "[On Play] Give up to 1 of your opponent's Characters −1000 power during this turn.",
+    "effect": "[On Play] Give up to 1 of your opponent's Characters -1000 power during this turn.",
     "trigger": null,
     "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-015.png",
@@ -505,7 +505,7 @@
       "Punk Hazard",
       "Donquixote Pirates"
     ],
-    "effect": "[Activate: Main] You may rest this Character: Give up to 2 rested DON!! cards to your Leader or 1 of your Characters. Then, give up to 1 of your opponent's Characters −1000 power during this turn.",
+    "effect": "[Activate: Main] You may rest this Character: Give up to 2 rested DON!! cards to your Leader or 1 of your Characters. Then, give up to 1 of your opponent's Characters -1000 power during this turn.",
     "trigger": null,
     "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-016.png",
@@ -530,7 +530,7 @@
       "Punk Hazard",
       "Donquixote Pirates"
     ],
-    "effect": "[Activate: Main] You may rest this Character: Give up to 2 rested DON!! cards to your Leader or 1 of your Characters. Then, give up to 1 of your opponent's Characters −1000 power during this turn.",
+    "effect": "[Activate: Main] You may rest this Character: Give up to 2 rested DON!! cards to your Leader or 1 of your Characters. Then, give up to 1 of your opponent's Characters -1000 power during this turn.",
     "trigger": null,
     "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-016_p1.png",
@@ -576,8 +576,8 @@
       "Punk Hazard",
       "Donquixote Pirates"
     ],
-    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle. Then, give up to 1 of your opponent's Leader or Character cards −2000 power during this turn.",
-    "trigger": "Trigger[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle. Then, give up to 1 of your opponent's Leader or Character cards -2000 power during this turn.",
+    "trigger": "Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
     "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-018.png",
     "cost": 2,
@@ -653,8 +653,8 @@
       "Punk Hazard",
       "Straw Hat Crew"
     ],
-    "effect": "[Main] Give up to 1 of your opponent's Characters −4000 power during this turn. Then, if you have 2 or less Life cards, up to 1 of your Leader or Character cards gains +1000 power during this turn.",
-    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with 3000 power or less.",
+    "effect": "[Main] Give up to 1 of your opponent's Characters -4000 power during this turn. Then, if you have 2 or less Life cards, up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "trigger": "K.O. up to 1 of your opponent's Characters with 3000 power or less.",
     "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-020.png",
     "cost": 2,
@@ -1222,7 +1222,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[Main] If your Leader has the {ODYSSEY} type, look at 5 cards from the top of your deck; reveal up to 2 {ODYSSEY} type Character cards and add them to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "trigger": "Rest up to 1 of your opponent's Characters with a cost of 5 or less.",
     "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-039.png",
     "cost": 3,
@@ -1275,7 +1275,7 @@
       "Heart Pirates"
     ],
     "effect": "[Main] Rest up to 1 of your opponent's Characters with a cost of 6 or less. Then, K.O. up to 1 of your opponent's rested Characters with a cost of 5 or less.",
-    "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "trigger": "Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-041.png",
     "cost": 4,
@@ -1796,7 +1796,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Dressrosa} type Character card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "trigger": "Activate this card's [Main] effect.",
     "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-059.png",
     "cost": 1,
@@ -1821,7 +1821,7 @@
       "Barto Club"
     ],
     "effect": "[Main] Place up to 1 of your opponent's Characters with 6000 power or less at the bottom of the owner's deck.",
-    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "trigger": "Activate this card's [Main] effect.",
     "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-060.png",
     "cost": 5,
@@ -1846,7 +1846,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[Main] Draw 1 card. Then, return up to 1 of your opponent's Characters with a cost of 2 or less to the owner's hand.",
-    "trigger": "Trigger[Trigger] Return up to 1 Character with a cost of 2 or less to the owner's hand.",
+    "trigger": "Return up to 1 Character with a cost of 2 or less to the owner's hand.",
     "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-061.png",
     "cost": 3,
@@ -1869,7 +1869,7 @@
     "family": [
       "Donquixote Pirates"
     ],
-    "effect": "[Blocker][On K.O.] DON!! −1: If your Leader has the {Donquixote Pirates} type, add up to 1 purple Event from your trash to your hand.",
+    "effect": "[Blocker][On K.O.] DON!! -1: If your Leader has the {Donquixote Pirates} type, add up to 1 purple Event from your trash to your hand.",
     "trigger": null,
     "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-062.png",
@@ -1989,7 +1989,7 @@
     "family": [
       "Donquixote Pirates"
     ],
-    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Add up to 1 purple Event with a cost of 5 or less from your trash to your hand. Then, set up to 1 of your DON!! cards as active.",
+    "effect": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Add up to 1 purple Event with a cost of 5 or less from your trash to your hand. Then, set up to 1 of your DON!! cards as active.",
     "trigger": null,
     "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-067.png",
@@ -2010,7 +2010,7 @@
     "family": [
       "Donquixote Pirates"
     ],
-    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Add up to 1 purple Event with a cost of 5 or less from your trash to your hand. Then, set up to 1 of your DON!! cards as active.",
+    "effect": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Add up to 1 purple Event with a cost of 5 or less from your trash to your hand. Then, set up to 1 of your DON!! cards as active.",
     "trigger": null,
     "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-067_p1.png",
@@ -2053,7 +2053,7 @@
       "Animal",
       "Dressrosa"
     ],
-    "effect": "[DON!! x1] [When Attacking] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 1 or less.",
+    "effect": "[DON!! x1] [When Attacking] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 1 or less.",
     "trigger": null,
     "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-069.png",
@@ -2103,7 +2103,7 @@
       "The Seven Warlords of the Sea",
       "Donquixote Pirates"
     ],
-    "effect": "[On Play] DON!! −1: Play up to 1 {Donquixote Pirates} type Character card with a cost of 5 or less from your hand.[On Your Opponent's Attack] [Once Per Turn] You may rest 1 of your DON!! cards: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": "[On Play] DON!! -1: Play up to 1 {Donquixote Pirates} type Character card with a cost of 5 or less from your hand.[On Your Opponent's Attack] [Once Per Turn] You may rest 1 of your DON!! cards: Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": null,
     "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-071.png",
@@ -2129,7 +2129,7 @@
       "The Seven Warlords of the Sea",
       "Donquixote Pirates"
     ],
-    "effect": "[On Play] DON!! −1: Play up to 1 {Donquixote Pirates} type Character card with a cost of 5 or less from your hand.[On Your Opponent's Attack] [Once Per Turn] You may rest 1 of your DON!! cards: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": "[On Play] DON!! -1: Play up to 1 {Donquixote Pirates} type Character card with a cost of 5 or less from your hand.[On Your Opponent's Attack] [Once Per Turn] You may rest 1 of your DON!! cards: Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": null,
     "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-071_p1.png",
@@ -2347,7 +2347,7 @@
       "Donquixote Pirates"
     ],
     "effect": "[Main] K.O. up to 1 of your opponent's Characters with a cost 5 or less. Then, add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "trigger": "Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-079.png",
     "cost": 5,
@@ -2371,7 +2371,7 @@
       "Donquixote Pirates"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, if you have 7 or more DON!! cards on your field and 5 or less cards in your hand, draw 1 card.",
-    "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "trigger": "Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-080.png",
     "cost": 3,
@@ -2815,7 +2815,7 @@
       "Navy"
     ],
     "effect": "[Main] K.O. up to 1 of your opponent's {The Seven Warlords of the Sea} type Characters with a cost of 8 or less.",
-    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's {The Seven Warlords of the Sea} type Characters with a cost of 4 or less.",
+    "trigger": "K.O. up to 1 of your opponent's {The Seven Warlords of the Sea} type Characters with a cost of 4 or less.",
     "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-096.png",
     "cost": 4,
@@ -2841,7 +2841,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[Main] Up to 1 of your {Dressrosa} type Characters gains +2000 power during this turn. Then, if you have 10 or more cards in your trash, that card gains [Banish] during this turn.",
-    "trigger": "Trigger[Trigger] Draw 2 cards and trash 1 card from your hand.",
+    "trigger": "Draw 2 cards and trash 1 card from your hand.",
     "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-097.png",
     "cost": 1,
@@ -2866,7 +2866,7 @@
       "Blackbeard Pirates"
     ],
     "effect": "[Main] If the number of your Characters is at least 2 less than the number of your opponent's Characters, K.O. up to 1 of your opponent's Characters with a base cost of 6 or less and up to 1 of your opponent's Characters with a base cost of 4 or less.",
-    "trigger": "Trigger[Trigger] Negate the effect of up to 1 of each of your opponent's Leader and Character cards during this turn.",
+    "trigger": "Negate the effect of up to 1 of each of your opponent's Leader and Character cards during this turn.",
     "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-098.png",
     "cost": 6,
@@ -2942,7 +2942,7 @@
       "Revolutionary Army"
     ],
     "effect": "[DON!! x1] [When Attacking] Rest up to 1 of your opponent's Characters with a cost equal to or less than the total of your and your opponent's Life cards.",
-    "trigger": "Trigger[Trigger] If your Leader has the {Revolutionary Army} type and you and your opponent have a total of 5 or less Life cards, play this card.",
+    "trigger": "If your Leader has the {Revolutionary Army} type and you and your opponent have a total of 5 or less Life cards, play this card.",
     "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-100.png",
     "cost": 4,
@@ -3160,7 +3160,7 @@
       "Hawkins Pirates"
     ],
     "effect": "[On K.O.] Trash up to 1 card from the top of your opponent's Life cards.",
-    "trigger": "Trigger[Trigger] Draw 2 cards and trash 1 card from your hand.",
+    "trigger": "Draw 2 cards and trash 1 card from your hand.",
     "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-109.png",
     "cost": 4,
@@ -3184,7 +3184,7 @@
       "Kid Pirates"
     ],
     "effect": "[On Play] Rest up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards.",
-    "trigger": "Trigger[Trigger] If you have 2 or less Life cards, play this card.",
+    "trigger": "If you have 2 or less Life cards, play this card.",
     "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-110.png",
     "cost": 3,
@@ -3300,7 +3300,7 @@
       "Straw Hat Crew"
     ],
     "effect": "If you have less Life cards than your opponent, this Character gains [Rush].",
-    "trigger": "Trigger[Trigger] You may trash 1 card from your hand: If your Leader has the {Supernovas} type, play this card.",
+    "trigger": "You may trash 1 card from your hand: If your Leader has the {Supernovas} type, play this card.",
     "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-113.png",
     "cost": 3,
@@ -3351,7 +3351,7 @@
       "Kid Pirates"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, if you have 0 Life cards, draw 1 card.",
-    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards.",
+    "trigger": "K.O. up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards.",
     "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-115.png",
     "cost": 2,
@@ -3376,7 +3376,7 @@
       "Kid Pirates"
     ],
     "effect": "[Main] Look at up to 1 card from the top of your or your opponent's Life cards and place it at the top or bottom of the Life cards. Then, K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
-    "trigger": "Trigger[Trigger] Draw 2 cards and trash 1 card from your hand.",
+    "trigger": "Draw 2 cards and trash 1 card from your hand.",
     "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-116.png",
     "cost": 4,
@@ -3401,7 +3401,7 @@
       "Heart Pirates"
     ],
     "effect": "[Counter] If you have 1 or less Life cards, up to 1 of your Leader or Character cards gains +3000 power during this battle. Then, set up to 1 of your Characters with a cost of 5 or less as active.",
-    "trigger": "Trigger[Trigger] Draw 1 card.",
+    "trigger": "Draw 1 card.",
     "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-117.png",
     "cost": 1,

@@ -39,7 +39,7 @@
       "Land of Wano"
     ],
     "effect": null,
-    "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 2 or less and add this card to your hand.",
+    "trigger": "Rest up to 1 of your opponent's Characters with a cost of 2 or less and add this card to your hand.",
     "setName": "Yamato [ST-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-002.png",
     "cost": 4,
@@ -205,7 +205,7 @@
       "Land of Wano"
     ],
     "effect": null,
-    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 1 or less and add this card to your hand.",
+    "trigger": "K.O. up to 1 of your opponent's Characters with a cost of 1 or less and add this card to your hand.",
     "setName": "Yamato [ST-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-009.png",
     "cost": 3,
@@ -317,8 +317,8 @@
     "family": [
       "Land of Wano"
     ],
-    "effect": "[Counter] If you have 2 or less Life cards, give up to 1 of your opponent's Leader or Character cards −3000 power during this turn.",
-    "trigger": "Trigger[Trigger] You may trash 2 cards from your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
+    "effect": "[Counter] If you have 2 or less Life cards, give up to 1 of your opponent's Leader or Character cards -3000 power during this turn.",
+    "trigger": "You may trash 2 cards from your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
     "setName": "Yamato [ST-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-014.png",
     "cost": 1,
@@ -342,7 +342,7 @@
       "Land of Wano"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, if you have 2 or less Life cards, add up to 1 of your opponent's Characters with a cost of 3 or less to the top or bottom of the owner's Life cards face-up.",
-    "trigger": "Trigger[Trigger] Draw 1 card.",
+    "trigger": "Draw 1 card.",
     "setName": "Yamato [ST-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-015.png",
     "cost": 2,

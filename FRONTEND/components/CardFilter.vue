@@ -10,9 +10,9 @@ const {
   familyList,
   rarityList,
   colorList,
-  expansionCodeList,
   abilityKwList,
   nameList,
+  powerLimits,
 } = await useOnePieceCards();
 
 const openFilter = ref(false);
@@ -23,6 +23,9 @@ const setNamesFilter = ref([]);
 const familiesFilter = ref([]);
 const abilityFilter = ref("");
 const rarityFilter = ref([]);
+const abilityKwFilter = ref([]);
+const costFilter = ref([0, 10]);
+const powerFilter = ref([powerLimits.min, powerLimits.max]);
 const moreFilters = ref(false);
 
 const currentPage = ref(1);
@@ -50,7 +53,28 @@ const filtered = computed(() => {
 
     const abilityMatch =
       !abilityFilter.value ||
-      card.ability.toLowerCase().includes(abilityFilter.value.toLowerCase());
+      (card.effect &&
+        card.effect.toLowerCase().includes(abilityFilter.value.toLowerCase()));
+
+    const abilityKwMatch =
+      !abilityKwFilter.value.length ||
+      (card.abilityKeywords &&
+        abilityKwFilter.value.every((kw) =>
+          card.abilityKeywords.some((ability) =>
+            ability.toLowerCase().includes(kw.toLowerCase())
+          )
+        ));
+
+    const powerMatch =
+      (powerFilter.value[0] === powerLimits.min &&
+        powerFilter.value[1] === powerLimits.max) ||
+      (card.power &&
+        card.power >= powerFilter.value[0] &&
+        card.power <= powerFilter.value[1]);
+
+    const costMatch =
+      (costFilter.value[0] === 0 && costFilter.value[1] === 10) ||
+      (card.cost >= costFilter.value[0] && card.cost <= costFilter.value[1]);
 
     const rarityMatch =
       !rarityFilter.value.length || rarityFilter.value.includes(card.rarity);
@@ -62,7 +86,10 @@ const filtered = computed(() => {
       setMatch &&
       familyMatch &&
       abilityMatch &&
-      rarityMatch
+      rarityMatch &&
+      abilityKwMatch &&
+      powerMatch &&
+      costMatch
     );
   });
 });
@@ -99,23 +126,34 @@ function resetFilters() {
   abilityFilter.value = "";
   rarityFilter.value = [];
 }
+
+watch(openFilter, (newVal) => {
+  if (newVal) {
+    document.documentElement.classList.add("overflow-hidden");
+  } else {
+    document.documentElement.classList.remove("overflow-hidden");
+  }
+});
 </script>
 
 <template>
   <div
-    class="fixed bottom-[60px] w-full flex flex-col"
-    :class="{ 'h-dvh': openFilter }"
+    class="fixed overflow-hidden bottom-[60px] w-full flex flex-col"
+    :class="{ 'h-screen': openFilter }"
   >
+    <!-- LAYER SCURO -->
     <div
       v-if="openFilter"
       @click="openFilter = false"
       class="bg-black/30 backdrop-blur-[2px] -mb-5 h-full"
     ></div>
+    <!-- SEZIONE -->
     <div
-      class="grid grid-cols-1 gap-4 p-3 bg-black rounded-t-3xl shadow-md text-white w-full right-0 z-10 p-2 bg-black lg:bottom-0 lg:w-full lg:right-0 lg:pl-[258px] lg:py-5 rounded-t-3xl"
+      class="p-3 bg-black rounded-t-3xl shadow-md text-white w-full right-0 z-10 p-2 bg-black lg:bottom-0 lg:w-full lg:right-0 lg:pl-[258px] lg:py-5 rounded-t-3xl"
     >
-      <div class="py-0 px-0 grid grid-cols-8 gap-5">
-        <div class="col-span-7">
+      <!-- PAGINATION -->
+      <div v-if="!openFilter" class="py-0 px-0 grid grid-cols-8 gap-5">
+        <div :class="openFilter ? 'col-span-8' : 'col-span-7'">
           <v-pagination
             density="compact"
             v-model="currentPage"
@@ -125,7 +163,7 @@ function resetFilters() {
         <div class="col-start-8 col-span-2">
           <v-btn
             class="text-white"
-            variant="outlined"
+            variant="tonal"
             block
             @click="openFilter = true"
           >
@@ -134,68 +172,107 @@ function resetFilters() {
         </div>
       </div>
 
+      <!-- FILTRI -->
       <div v-show="openFilter" class="flex flex-col gap-4">
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
-          <InputSelect
-            v-model="nameFilter"
-            :items="nameList"
-            label="Filtra per nome"
-          />
+        <h3 class="text-2xl font-bold text-center">Filtri</h3>
+        <div class="grid grid-cols-1 gap-4 max-h-[500px] overflow-auto">
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+            <InputSelect
+              v-model="nameFilter"
+              :items="nameList"
+              label="Filtra per nome"
+            />
 
-          <InputSelect
-            v-model="colorFilter"
-            :items="colorList"
-            label="Filtra per colore"
-          />
+            <InputSelect
+              v-model="colorFilter"
+              :items="colorList"
+              label="Filtra per colore"
+            />
 
-          <InputSelect
-            v-model="typesFilter"
-            :items="typeList"
-            label="Filtra per tipo"
-          />
+            <InputSelect
+              v-model="typesFilter"
+              :items="typeList"
+              label="Filtra per tipo"
+            />
+          </div>
+
+          <!-- PIU' FILTRI -->
+          <div>
+            <v-btn
+              variant="outlined"
+              block
+              class="w-fit mx-auto text-white"
+              @click="moreFilters = !moreFilters"
+            >
+              {{ moreFilters ? "Meno filtri" : "Più filtri" }}
+              <v-icon>{{ moreFilters ? "mdi-minus" : "mdi-plus" }}</v-icon>
+            </v-btn>
+          </div>
+
+          <div v-if="moreFilters" class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+            <InputSelect
+              v-model="setNamesFilter"
+              :items="setNameList"
+              label="Filtra per set"
+            />
+
+            <InputSelect
+              v-model="familiesFilter"
+              :items="familyList"
+              label="Filtra per famiglia"
+            />
+
+            <InputSelect
+              v-model="rarityFilter"
+              :items="rarityList"
+              label="Filtra per rarità"
+            />
+
+            <InputSelect
+              v-model="abilityKwFilter"
+              :items="abilityKwList"
+              label="Filtra per abilità chiave"
+            />
+
+            <v-range-slider
+              v-model="powerFilter"
+              :min="0"
+              :max="powerLimits.max"
+              step="1000"
+              color="white"
+              hint="Range di potenza"
+              persistent-hint
+              thumb-label="always"
+              class="ma-0 border-2 border-white/20 rounded p-4 pt-10"
+            ></v-range-slider>
+
+            <v-range-slider
+              v-model="costFilter"
+              :min="0"
+              :max="10"
+              step="1"
+              color="white"
+              hint="Range di costo"
+              persistent-hint
+              thumb-label="always"
+              class="ma-0 border-2 border-white/20 rounded p-4 pt-10"
+            ></v-range-slider>
+
+            <v-textarea
+              v-model="abilityFilter"
+              density="compact"
+              variant="outlined"
+              label="Filtra per effetto"
+              class="w-full mb-2"
+              clearable
+              hide-details
+              auto-grow
+              rows="2"
+            />
+          </div>
         </div>
 
-        <v-btn
-          variant="outlined"
-          block
-          class="w-fit mx-auto text-white"
-          @click="moreFilters = !moreFilters"
-        >
-          {{ moreFilters ? "Meno filtri" : "Più filtri" }}
-          <v-icon>{{ moreFilters ? "mdi-minus" : "mdi-plus" }}</v-icon>
-        </v-btn>
-
-        <div v-if="moreFilters" class="grid grid-cols-1 lg:grid-cols-3 gap-4">
-          <InputSelect
-            v-model="setNamesFilter"
-            :items="setNameList"
-            label="Filtra per set"
-          />
-
-          <InputSelect
-            v-model="familiesFilter"
-            :items="familyList"
-            label="Filtra per famiglia"
-          />
-
-          <InputSelect
-            v-model="rarityFilter"
-            :items="rarityList"
-            label="Filtra per rarità"
-          />
-
-          <v-textarea
-            v-model="abilityFilter"
-            density="compact"
-            variant="outlined"
-            label="Filtra per effetto"
-            class="w-full mb-2"
-            clearable
-            hide-details
-            auto-grow
-            rows="2"
-          />
-        </div>
+        <!-- ACTION BUTTONS -->
         <div class="flex gap-3">
           <v-btn
             color="white"

@@ -14,7 +14,7 @@
       "Animal",
       "Straw Hat Crew"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x2] [When Attacking] Give up to 1 of your opponent's Characters −3000 power during this turn.",
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x2] [When Attacking] Give up to 1 of your opponent's Characters -3000 power during this turn.",
     "trigger": null,
     "setName": "Card Set(s)Treasure Cup November December",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-006_p3.png",
@@ -281,7 +281,7 @@
       "Straw Hat Crew"
     ],
     "effect": null,
-    "trigger": "Trigger[Trigger] If your Leader has the {Fish-Man} or {Merfolk} type and you have 2 or less Life cards, play this card.",
+    "trigger": "If your Leader has the {Fish-Man} or {Merfolk} type and you have 2 or less Life cards, play this card.",
     "setName": "Card Set(s)Tournament Pack 2025 Vol. 3",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB02-055_p1.png",
     "cost": 4,
@@ -303,7 +303,7 @@
       "Straw Hat Crew"
     ],
     "effect": null,
-    "trigger": "Trigger[Trigger] If your Leader has the {Fish-Man} or {Merfolk} type and you have 2 or less Life cards, play this card.",
+    "trigger": "If your Leader has the {Fish-Man} or {Merfolk} type and you have 2 or less Life cards, play this card.",
     "setName": "Card Set(s)Winner Pack 2025 Vol. 3",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB02-055_p2.png",
     "cost": 4,
@@ -520,7 +520,7 @@
       "Whitebeard Pirates"
     ],
     "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 Character card with a type including \"Whitebeard Pirates\" and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "trigger": "Activate this card's [Main] effect.",
     "setName": "Card Set(s)ST15 20 Release Event",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-022_p1.png",
     "cost": 1,
@@ -639,7 +639,7 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] Give up to 1 of your opponent's Characters −2 cost during this turn.",
+    "effect": "[On Play] Give up to 1 of your opponent's Characters -2 cost during this turn.",
     "trigger": null,
     "setName": "Card Set(s)Included in Event Pack Vol.2",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-106_p1.png",
@@ -663,7 +663,7 @@
       "Arlong Pirates"
     ],
     "effect": null,
-    "trigger": "Trigger[Trigger] If your Leader has the {East Blue} type, play this card.",
+    "trigger": "If your Leader has the {East Blue} type, play this card.",
     "setName": "Card Set(s)Tournament Pack Vol.6",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-033_p1.png",
     "cost": 4,
@@ -839,7 +839,7 @@
       "Merfolk"
     ],
     "effect": "[On Play] Draw 3 cards and trash 2 cards from your hand.",
-    "trigger": "Trigger[Trigger] Play this card.",
+    "trigger": "Play this card.",
     "setName": "Card Set(s)Tournament Pack Vol.6",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-116_p1.png",
     "cost": 5,
@@ -860,7 +860,7 @@
       "Merfolk"
     ],
     "effect": "[On Play] Draw 3 cards and trash 2 cards from your hand.",
-    "trigger": "Trigger[Trigger] Play this card.",
+    "trigger": "Play this card.",
     "setName": "Card Set(s)Regionals Wave 3",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-116_p2.png",
     "cost": 5,
@@ -881,7 +881,7 @@
       "Merfolk"
     ],
     "effect": "[On Play] Draw 3 cards and trash 2 cards from your hand.",
-    "trigger": "Trigger[Trigger] Play this card.",
+    "trigger": "Play this card.",
     "setName": "Card Set(s)ST15 20 Release Event",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-116_p3.png",
     "cost": 5,
@@ -1136,7 +1136,7 @@
       "Vassals"
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Sky Island} type card other than [Shura] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Trigger[Trigger] Play this card.",
+    "trigger": "Play this card.",
     "setName": "Card Set(s)Tournament Pack Vol.7",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-106_p1.png",
     "cost": 2,
@@ -1178,7 +1178,7 @@
     "family": [
       "Thriller Bark Pirates"
     ],
-    "effect": "[On Play] If your opponent has 5 or more cards in their hand, choose one:• Your opponent trashes 1 card from their hand.• Give up to 1 of your opponent's Characters −3 cost during this turn.",
+    "effect": "[On Play] If your opponent has 5 or more cards in their hand, choose one:• Your opponent trashes 1 card from their hand.• Give up to 1 of your opponent's Characters -3 cost during this turn.",
     "trigger": null,
     "setName": "Card Set(s)Treasure Cup August – September",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-093_p3.png",
@@ -1199,7 +1199,7 @@
     "family": [
       "Thriller Bark Pirates"
     ],
-    "effect": "[On Play] If your opponent has 5 or more cards in their hand, choose one:• Your opponent trashes 1 card from their hand.• Give up to 1 of your opponent's Characters −3 cost during this turn.",
+    "effect": "[On Play] If your opponent has 5 or more cards in their hand, choose one:• Your opponent trashes 1 card from their hand.• Give up to 1 of your opponent's Characters -3 cost during this turn.",
     "trigger": null,
     "setName": "Card Set(s)Store Treasure Cup August – September 2024",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-093_p4.png",
@@ -1221,7 +1221,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[On Play] Up to 1 of your Leader or Character cards gains [Banish] during this turn.(When this card deals damage, the target card is trashed without activating its Trigger.)",
-    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "trigger": "K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
     "setName": "Card Set(s)Event Pack Vol.5",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-101_p3.png",
     "cost": 2,
@@ -1247,7 +1247,7 @@
       "The Akazaya Nine"
     ],
     "effect": "[DON!! x2] This Character can also attack your opponent's active Characters.",
-    "trigger": "Trigger[Trigger] If your opponent has 3 or less Life cards, play this card.",
+    "trigger": "If your opponent has 3 or less Life cards, play this card.",
     "setName": "Card Set(s)Offline Regional Participation Pack 2024 Vol. 3",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-110_p1.png",
     "cost": 4,
@@ -1498,7 +1498,7 @@
       "Egghead"
     ],
     "effect": "[On Play] If you have 2 or less Life cards, draw 2 cards and trash 2 card from your hand.",
-    "trigger": "Trigger[Trigger] If your Leader is [Vegapunk], play this card.",
+    "trigger": "If your Leader is [Vegapunk], play this card.",
     "setName": "Card Set(s)Tournament Pack 2024 Oct. Dec.",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-100_p1.png",
     "cost": 4,
@@ -1520,7 +1520,7 @@
       "Straw Hat Crew"
     ],
     "effect": null,
-    "trigger": "Trigger[Trigger] If your Leader has the {Egghead} type, rest up to 1 of your opponent's Leader or Character cards.",
+    "trigger": "If your Leader has the {Egghead} type, rest up to 1 of your opponent's Leader or Character cards.",
     "setName": "Card Set(s)ONE PIECE DAY Dallas  Card Game Celebration-",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-113_p1.png",
     "cost": 5,
@@ -1701,7 +1701,7 @@
     "family": [
       "Red-Haired Pirates"
     ],
-    "effect": "[Activate: Main] You may rest this Character: If your Leader has the {Red-Haired Pirates} type, give up to 1 of your opponent's Characters −2000 power during this turn.",
+    "effect": "[Activate: Main] You may rest this Character: If your Leader has the {Red-Haired Pirates} type, give up to 1 of your opponent's Characters -2000 power during this turn.",
     "trigger": null,
     "setName": "Card Set(s)Tournament Kit 2025 Vol.2",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-011_p1.png",
@@ -1725,7 +1725,7 @@
     "family": [
       "Red-Haired Pirates"
     ],
-    "effect": "[Activate: Main] You may rest this Character: If your Leader has the {Red-Haired Pirates} type, give up to 1 of your opponent's Characters −2000 power during this turn.",
+    "effect": "[Activate: Main] You may rest this Character: If your Leader has the {Red-Haired Pirates} type, give up to 1 of your opponent's Characters -2000 power during this turn.",
     "trigger": null,
     "setName": "Card Set(s)Winner Pack 2025 Vol.2",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-011_p2.png",
@@ -1819,7 +1819,7 @@
       "Ohara"
     ],
     "effect": "[On Play] Up to 1 of your [Nico Robin] Leader gains +3000 power during this turn.",
-    "trigger": "Trigger[Trigger] If your Leader is [Nico Robin], draw 3 cards and trash 2 cards from your hand.",
+    "trigger": "If your Leader is [Nico Robin], draw 3 cards and trash 2 cards from your hand.",
     "setName": "Card Set(s)Offline Regional Participation Pack 2025 Vol.1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-106_p1.png",
     "cost": 1,
@@ -1840,7 +1840,7 @@
       "Ohara"
     ],
     "effect": "[On Play] Up to 1 of your [Nico Robin] Leader gains +3000 power during this turn.",
-    "trigger": "Trigger[Trigger] If your Leader is [Nico Robin], draw 3 cards and trash 2 cards from your hand.",
+    "trigger": "If your Leader is [Nico Robin], draw 3 cards and trash 2 cards from your hand.",
     "setName": "Card Set(s)Offline Regional Finalist Card Set 25 26 Season 1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-106_p2.png",
     "cost": 1,
@@ -1861,7 +1861,7 @@
       "Ohara"
     ],
     "effect": "[On Play] Up to 1 of your [Nico Robin] Leader gains +3000 power during this turn.",
-    "trigger": "Trigger[Trigger] If your Leader is [Nico Robin], draw 3 cards and trash 2 cards from your hand.",
+    "trigger": "If your Leader is [Nico Robin], draw 3 cards and trash 2 cards from your hand.",
     "setName": "Card Set(s)Offline Regional Champion Card Set 25 26 Season 1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-106_p3.png",
     "cost": 1,
@@ -1882,7 +1882,7 @@
       "Ohara"
     ],
     "effect": "[On Play] Up to 1 of your [Nico Robin] Leader gains +3000 power during this turn.",
-    "trigger": "Trigger[Trigger] If your Leader is [Nico Robin], draw 3 cards and trash 2 cards from your hand.",
+    "trigger": "If your Leader is [Nico Robin], draw 3 cards and trash 2 cards from your hand.",
     "setName": "Card Set(s)Online Regional Participation Pack 25 26 Season 1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-106_p4.png",
     "cost": 1,
@@ -1903,7 +1903,7 @@
       "Ohara"
     ],
     "effect": "[On Play] Up to 1 of your [Nico Robin] Leader gains +3000 power during this turn.",
-    "trigger": "Trigger[Trigger] If your Leader is [Nico Robin], draw 3 cards and trash 2 cards from your hand.",
+    "trigger": "If your Leader is [Nico Robin], draw 3 cards and trash 2 cards from your hand.",
     "setName": "Card Set(s)Online Regional Finalist Card Set 25 26 Season 1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-106_p5.png",
     "cost": 1,
@@ -1924,7 +1924,7 @@
       "Ohara"
     ],
     "effect": "[On Play] Up to 1 of your [Nico Robin] Leader gains +3000 power during this turn.",
-    "trigger": "Trigger[Trigger] If your Leader is [Nico Robin], draw 3 cards and trash 2 cards from your hand.",
+    "trigger": "If your Leader is [Nico Robin], draw 3 cards and trash 2 cards from your hand.",
     "setName": "Card Set(s)Online Regional Champion Card Set 25 26 Season 1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-106_p6.png",
     "cost": 1,
@@ -2049,7 +2049,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[Main] Return all cards in your hand to your deck and shuffle your deck. Then, draw cards equal to the number you returned to your deck.",
-    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "trigger": "Activate this card's [Main] effect.",
     "setName": "Card Set(s)Included in Promotion Pack 2022",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-002.png",
     "cost": 1,
@@ -2151,7 +2151,7 @@
       "The Four Emperors",
       "Animal Kingdom Pirates"
     ],
-    "effect": "[Activate: Main]  DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains [Banish] during this turn.(When this card deals damage, the target card is trashed without activating its Trigger.)",
+    "effect": "[Activate: Main]  DON!! -2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains [Banish] during this turn.(When this card deals damage, the target card is trashed without activating its Trigger.)",
     "trigger": null,
     "setName": "Card Set(s)Included in Promotion Pack 2022",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-005.png",
@@ -2345,7 +2345,7 @@
     "family": [
       "FILM"
     ],
-    "effect": "[Activate: Main] You may place this Character at the bottom of the owner's deck: Give up to 1 of your opponent's Characters −3000 power during this turn.",
+    "effect": "[Activate: Main] You may place this Character at the bottom of the owner's deck: Give up to 1 of your opponent's Characters -3000 power during this turn.",
     "trigger": null,
     "setName": "Card Set(s)Included in FILM RED Promotion Card Set",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-013.png",
@@ -2371,7 +2371,7 @@
       "Navy"
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
-    "trigger": "Trigger[Trigger] Play this card.",
+    "trigger": "Play this card.",
     "setName": "Card Set(s)Included in FILM RED Promotion Card Set",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-014.png",
     "cost": 3,
@@ -2441,7 +2441,7 @@
       "Supernovas",
       "Heart Pirates"
     ],
-    "effect": "[On Play] Give up to 1 of your opponent's Characters −2000 power during this turn.",
+    "effect": "[On Play] Give up to 1 of your opponent's Characters -2000 power during this turn.",
     "trigger": null,
     "setName": "Card Set(s)Included in FILM RED Promotion Card Set",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-017.png",
@@ -2656,7 +2656,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[Main] Your Leader gains +1000 power for each of your Characters during this turn.",
-    "trigger": "Trigger[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "trigger": "Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
     "setName": "Card Set(s)Included in Pirates Party Card Vol.1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-024.png",
     "cost": 2,
@@ -2703,7 +2703,7 @@
     "family": [
       "Navy"
     ],
-    "effect": "[When Attacking] Give up to 1 of your opponent's Characters −3 cost during this turn.",
+    "effect": "[When Attacking] Give up to 1 of your opponent's Characters -3 cost during this turn.",
     "trigger": null,
     "setName": "Card Set(s)Included in Pirates Party Card Vol.2",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-026.png",
@@ -2848,7 +2848,7 @@
     "family": [
       "Navy"
     ],
-    "effect": "[DON!! x1] [Your Turn] Give all of your opponent's Characters −2 cost.",
+    "effect": "[DON!! x1] [Your Turn] Give all of your opponent's Characters -2 cost.",
     "trigger": null,
     "setName": "Card Set(s)Included in Event Pack Vol.1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-032.png",
@@ -3067,7 +3067,7 @@
       "Straw Hat Crew"
     ],
     "effect": null,
-    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "trigger": "K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
     "setName": "Card Set(s)Event Pack Vol.3",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-042.png",
     "cost": 4,
@@ -3412,7 +3412,7 @@
       "FILM"
     ],
     "effect": "[Main] If your Leader is [Uta], up to 2 of your opponent's rested Characters with a cost of 4 or less will not become active in your opponent's next Refresh Phase.",
-    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "trigger": "Activate this card's [Main] effect.",
     "setName": "Card Set(s)ST 11 Uta Deck Battle Participation Pack",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-057.png",
     "cost": 3,
@@ -3437,7 +3437,7 @@
       "FILM"
     ],
     "effect": "[Main] If your Leader is [Uta], set all of your {FILM} type Characters as active at the end of this turn.",
-    "trigger": "Trigger[Trigger] Set all of your {FILM} type Characters as active.",
+    "trigger": "Set all of your {FILM} type Characters as active.",
     "setName": "Card Set(s)ST 11 Uta Deck Battle Participation Pack",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-058.png",
     "cost": 2,
@@ -3884,7 +3884,7 @@
       "The Four Emperors",
       "Red-Haired Pirates"
     ],
-    "effect": "[DON!! x1] [When Attacking] You may trash 1 Character card from your hand: Give up to 1 of your opponent's Characters −1000 power during this turn. Then, draw 1 card.",
+    "effect": "[DON!! x1] [When Attacking] You may trash 1 Character card from your hand: Give up to 1 of your opponent's Characters -1000 power during this turn. Then, draw 1 card.",
     "trigger": null,
     "setName": "Card Set(s)Event Pack Vol.6",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-083.png",
@@ -4081,7 +4081,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[Main] K.O. up to 1 of your opponent's Characters with 6000 power or less.",
-    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "trigger": "Activate this card's [Main] effect.",
     "setName": "Card Set(s)Offline Regional Participation Pack 2024 Vol. 1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-015_p1.png",
     "cost": 4,
@@ -4333,7 +4333,7 @@
       "The Four Emperors",
       "Animal Kingdom Pirates"
     ],
-    "effect": "[On Play] DON!! −5 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 6 or less. This Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+    "effect": "[On Play] DON!! -5 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 6 or less. This Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
     "trigger": null,
     "setName": "Card Set(s)Tournament Pack Vol.5",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-003_p2.png",
@@ -4378,8 +4378,8 @@
     "family": [
       "Animal Kingdom Pirates"
     ],
-    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
-    "trigger": "Trigger[Trigger] Play this card.",
+    "effect": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "trigger": "Play this card.",
     "setName": "Card Set(s)Tournament Pack Vol.3",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-010_p1.png",
     "cost": 3,
@@ -4423,7 +4423,7 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −2 cost during this turn.",
+    "effect": "[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters -2 cost during this turn.",
     "trigger": null,
     "setName": "Card Set(s)Tournament Pack Vol.4",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-006_p1.png",
@@ -4447,7 +4447,7 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −2 cost during this turn.",
+    "effect": "[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters -2 cost during this turn.",
     "trigger": null,
     "setName": "Card Set(s)ST15 20 Release Event",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-006_p3.png",
@@ -4544,7 +4544,7 @@
     "family": [
       "Heart Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your opponent has 7 or more cards in their hand, trash 2 cards from your opponent's hand.",
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your opponent has 7 or more cards in their hand, trash 2 cards from your opponent's hand.",
     "trigger": null,
     "setName": "Card Set(s)Regional 2024 wave1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-010_p1.png",
@@ -4568,7 +4568,7 @@
     "family": [
       "Kid Pirates"
     ],
-    "effect": "[On Play]/[When Attacking] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your Leader gains +1000 power until the start of your next turn.",
+    "effect": "[On Play]/[When Attacking] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your Leader gains +1000 power until the start of your next turn.",
     "trigger": null,
     "setName": "Card Set(s)Regional 2024 wave1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-013_p1.png",
@@ -4644,7 +4644,7 @@
       "FILM"
     ],
     "effect": "[Main] Set up to 1 of your [Uta] Leader as active.",
-    "trigger": "Trigger[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "trigger": "Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
     "setName": "Card Set(s)ST 11 Uta Deck Battle Participation Pack",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST11-005_p1.png",
     "cost": 3,

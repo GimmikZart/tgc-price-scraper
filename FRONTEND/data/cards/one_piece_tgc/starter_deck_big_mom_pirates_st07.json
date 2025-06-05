@@ -157,7 +157,7 @@
       "Big Mom Pirates"
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
-    "trigger": "Trigger[Trigger] Play this card.",
+    "trigger": "Play this card.",
     "setName": "Card Set(s)Big Mom Pirates [ST 07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-007.png",
     "cost": 3,
@@ -202,7 +202,7 @@
       "Big Mom Pirates"
     ],
     "effect": "[Activate: Main] You may rest this Character and add 1 card from the top or bottom of your Life cards to your hand: K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
-    "trigger": "Trigger[Trigger] You may trash 1 card from your hand: Play this card.",
+    "trigger": "You may trash 1 card from your hand: Play this card.",
     "setName": "Card Set(s)Big Mom Pirates [ST 07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-009.png",
     "cost": 3,
@@ -249,7 +249,7 @@
       "Homies"
     ],
     "effect": "[Activate: Main] You may rest this Character: Up to 1 of your [Charlotte Linlin] cards gains [Banish] during this turn.(When this card deals damage, the target card is trashed without activating its Trigger.)",
-    "trigger": "Trigger[Trigger] Play this card.",
+    "trigger": "Play this card.",
     "setName": "Card Set(s)Big Mom Pirates [ST 07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-011.png",
     "cost": 3,
@@ -296,7 +296,7 @@
       "Homies"
     ],
     "effect": "[Activate: Main] You may rest this Character: Up to 1 of your [Charlotte Linlin] cards gains [Double Attack] during this turn.(This card deals 2 damage.)",
-    "trigger": "Trigger[Trigger] Play this card.",
+    "trigger": "Play this card.",
     "setName": "Card Set(s)Big Mom Pirates [ST 07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-013.png",
     "cost": 3,
@@ -344,7 +344,7 @@
       "Big Mom Pirates"
     ],
     "effect": "[Main] Your opponent chooses one:- Trash 1 card from the top of your opponent's Life cards.- Add 1 card from the top of your deck to the top of your Life cards.",
-    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "trigger": "Activate this card's [Main] effect.",
     "setName": "Card Set(s)Big Mom Pirates [ST 07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-015.png",
     "cost": 5,
@@ -368,7 +368,7 @@
       "Big Mom Pirates"
     ],
     "effect": "[Counter] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards. Then, up to 1 of your Leader or Character cards gains +2000 power during this battle.",
-    "trigger": "Trigger[Trigger] Draw 1 card, look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards.",
+    "trigger": "Draw 1 card, look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards.",
     "setName": "Card Set(s)Big Mom Pirates [ST 07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-016.png",
     "cost": 1,

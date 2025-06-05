@@ -112,7 +112,7 @@
       "Kid Pirates"
     ],
     "effect": "[On Play] K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
-    "trigger": "Trigger[Trigger] Play this card.",
+    "trigger": "Play this card.",
     "setName": "Worst Generation [ST-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-005.png",
     "cost": 3,
@@ -352,7 +352,7 @@
       "Heart Pirates"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, set up to 1 of your DON!! cards as active.",
-    "trigger": "Trigger[Trigger] Set up to 2 of your DON!! cards as active.",
+    "trigger": "Set up to 2 of your DON!! cards as active.",
     "setName": "Worst Generation [ST-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-015.png",
     "cost": 1,
@@ -402,7 +402,7 @@
       "Hawkins Pirates"
     ],
     "effect": "[Main] Rest up to 1 of your opponent's Characters.",
-    "trigger": "Trigger[Trigger] Play up to 1 {Supernovas} type card with a cost of 2 or less from your hand.",
+    "trigger": "Play up to 1 {Supernovas} type card with a cost of 2 or less from your hand.",
     "setName": "Worst Generation [ST-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-017.png",
     "cost": 2,

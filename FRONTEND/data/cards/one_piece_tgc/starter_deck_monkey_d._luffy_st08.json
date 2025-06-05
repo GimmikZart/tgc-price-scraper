@@ -37,7 +37,7 @@
     "family": [
       "FILM"
     ],
-    "effect": "This Character cannot be K.O.'d in battle by Leaders.[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −2 cost during this turn.",
+    "effect": "This Character cannot be K.O.'d in battle by Leaders.[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters -2 cost during this turn.",
     "trigger": null,
     "setName": "Monkey D. Luffy [ST-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST08-002.png",
@@ -127,7 +127,7 @@
     "family": [
       "Merfolk"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Give up to 1 of your opponent's Characters −4 cost during this turn.",
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Give up to 1 of your opponent's Characters -4 cost during this turn.",
     "trigger": null,
     "setName": "Monkey D. Luffy [ST-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST08-006.png",
@@ -152,7 +152,7 @@
       "Alabasta"
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
-    "trigger": "Trigger[Trigger] Play this card.",
+    "trigger": "Play this card.",
     "setName": "Monkey D. Luffy [ST-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST08-007.png",
     "cost": 3,
@@ -175,7 +175,7 @@
     "family": [
       "Mountain Bandits"
     ],
-    "effect": "[On Play] Give up to 1 of your opponent's Characters −2 cost during this turn.",
+    "effect": "[On Play] Give up to 1 of your opponent's Characters -2 cost during this turn.",
     "trigger": null,
     "setName": "Monkey D. Luffy [ST-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST08-008.png",
@@ -304,8 +304,8 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Main] You may add 1 card from the top of your Life cards to your hand: Give up to 1 of your opponent's Characters −7 cost during this turn.",
-    "trigger": "Trigger[Trigger] Add up to 1 black Character card with a cost of 2 or less from your trash to your hand.",
+    "effect": "[Main] You may add 1 card from the top of your Life cards to your hand: Give up to 1 of your opponent's Characters -7 cost during this turn.",
+    "trigger": "Add up to 1 black Character card with a cost of 2 or less from your trash to your hand.",
     "setName": "Monkey D. Luffy [ST-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST08-014.png",
     "cost": 2,
@@ -329,7 +329,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[Main] K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
-    "trigger": "Trigger[Trigger] Draw 1 card.",
+    "trigger": "Draw 1 card.",
     "setName": "Monkey D. Luffy [ST-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST08-015.png",
     "cost": 3,

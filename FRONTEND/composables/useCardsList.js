@@ -19,6 +19,7 @@ export function useOnePieceCards() {
   const expansionCodeSet = new Set();
   const abilityKwSet = new Set();
   const nameSet = new Set();
+  const powerSet = new Set();
 
   allCards.forEach((card) => {
     if (card.setName) setNameSet.add(card.setName);
@@ -26,6 +27,7 @@ export function useOnePieceCards() {
     if (card.rarity) raritySet.add(card.rarity);
     if (card.expansionCode) expansionCodeSet.add(card.expansionCode);
     if (card.name) nameSet.add(card.name);
+    if (card.power) powerSet.add(card.power);
 
     if (Array.isArray(card.family)) {
       card.family.forEach((fam) => {
@@ -57,6 +59,11 @@ export function useOnePieceCards() {
   const expansionCodeList = Array.from(expansionCodeSet).sort();
   const abilityKwList = Array.from(abilityKwSet).sort();
 
+  const powerLimits = {
+    min: 0,
+    max: Math.max(...powerSet),
+  };
+
   return {
     allCards,
     setNameList,
@@ -67,5 +74,6 @@ export function useOnePieceCards() {
     expansionCodeList,
     abilityKwList,
     nameList,
+    powerLimits,
   };
 }

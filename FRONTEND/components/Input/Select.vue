@@ -30,10 +30,10 @@ const model = computed({
 const isFocused = ref(false);
 
 const containerClass = computed(() => ({
-  "h-full fixed w-screen left-0 top-0 bg-black z-10": isFocused.value,
+  "h-dvh fixed w-screen left-0 top-0 bg-black z-10": isFocused.value,
 }));
 const inputClass = computed(() => ({
-  "absolute z-[50000] bottom-[100px] px-5": isFocused.value,
+  "absolute z-[50] bottom-[100px] px-5": isFocused.value,
 }));
 
 const menuProps = computed(() => ({
@@ -76,7 +76,7 @@ function handleMenu(event) {
         <template #item="{ props, item }">
           <div
             v-bind="props"
-            class="bg-violet-900 border-4 border-violet-500 font-bold text-sm my-2 rounded-full py-2 px-4 mr-3"
+            class="bg-white/10 border-2 border-white-500 font-bold text-sm my-2 rounded py-2 px-4"
           >
             {{ item.value }}
           </div>
@@ -90,7 +90,7 @@ function handleMenu(event) {
 
 <style>
 .flex-menu {
-  min-height: 500px !important;
+  min-height: 400px !important;
   display: flex !important;
   flex-direction: column !important;
   justify-content: end !important;

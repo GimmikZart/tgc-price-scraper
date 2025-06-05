@@ -210,7 +210,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[Main] Up to 1 of your Leader or Character cards gains +3000 power during this turn. Then, you may rest 1 of your Characters with a cost of 3 or more. If you do, rest up to 1 of your opponent's Characters with a cost of 5 or less.",
-    "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "trigger": "Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "setName": "GREEN Jewelry Bonney [ST-24]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-036_p1.png",
     "cost": 2,
@@ -235,7 +235,7 @@
       "Bonney Pirates"
     ],
     "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type card other than [More Pizza!!] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Trigger[Trigger] Draw 1 card.",
+    "trigger": "Draw 1 card.",
     "setName": "GREEN Jewelry Bonney [ST-24]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-037_r1.png",
     "cost": 1,

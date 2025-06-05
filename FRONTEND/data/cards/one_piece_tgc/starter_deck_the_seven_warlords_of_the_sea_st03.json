@@ -14,7 +14,7 @@
       "The Seven Warlords of the Sea",
       "Baroque Works"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] DON!! −4 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Return up to 1 Character with a cost of 5 or less to the owner's hand.",
+    "effect": "[Activate: Main] [Once Per Turn] DON!! -4 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Return up to 1 Character with a cost of 5 or less to the owner's hand.",
     "trigger": null,
     "setName": "The Seven Warlords of the Sea [ST-03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-001.png",
@@ -232,7 +232,7 @@
       "Revolutionary Army"
     ],
     "effect": "[On Play] Look at 3 cards from the top of your deck and return them to the top or bottom of the deck in any order.",
-    "trigger": "Trigger[Trigger] Play this card.",
+    "trigger": "Play this card.",
     "setName": "The Seven Warlords of the Sea [ST-03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-010.png",
     "cost": 2,
@@ -298,7 +298,7 @@
       "Kuja Pirates"
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
-    "trigger": "Trigger[Trigger] Play this card.",
+    "trigger": "Play this card.",
     "setName": "The Seven Warlords of the Sea [ST-03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-013.png",
     "cost": 3,
@@ -345,7 +345,7 @@
       "Baroque Works"
     ],
     "effect": "[Main] Return up to 1 Character with a cost of 7 or less to the owner's hand.",
-    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "trigger": "Activate this card's [Main] effect.",
     "setName": "The Seven Warlords of the Sea [ST-03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-015.png",
     "cost": 4,
@@ -370,7 +370,7 @@
       "Revolutionary Army"
     ],
     "effect": "[Counter] Return up to 1 Character with a cost of 3 or less to the owner's hand.",
-    "trigger": "Trigger[Trigger] Activate this card's [Counter] effect.",
+    "trigger": "Activate this card's [Counter] effect.",
     "setName": "The Seven Warlords of the Sea [ST-03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-016.png",
     "cost": 2,

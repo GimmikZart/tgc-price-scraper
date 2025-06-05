@@ -85,7 +85,7 @@
     "family": [
       "Goa Kingdom"
     ],
-    "effect": "[Activate: Main] You may trash this Character: Give up to 2 of your opponent's Characters −2000 power during this turn.",
+    "effect": "[Activate: Main] You may trash this Character: Give up to 2 of your opponent's Characters -2000 power during this turn.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-003.png",
@@ -131,7 +131,7 @@
       "FILM",
       "Grantesoro"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Give up to 1 of your opponent's Characters −2000 power during this turn.",
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Give up to 1 of your opponent's Characters -2000 power during this turn.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-005.png",
@@ -156,7 +156,7 @@
       "FILM",
       "Grantesoro"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Give up to 1 of your opponent's Characters −2000 power during this turn.",
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Give up to 1 of your opponent's Characters -2000 power during this turn.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-005_p1.png",
@@ -180,7 +180,7 @@
     "family": [
       "Goa Kingdom"
     ],
-    "effect": "[On Play] You may give your 1 active Leader −5000 power during this turn: Draw 1 card and trash 1 card from your hand.",
+    "effect": "[On Play] You may give your 1 active Leader -5000 power during this turn: Draw 1 card and trash 1 card from your hand.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-006.png",
@@ -225,7 +225,7 @@
       "Grantesoro"
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
-    "trigger": "Trigger[Trigger] Play this card.",
+    "trigger": "Play this card.",
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-008.png",
     "cost": 3,
@@ -326,7 +326,7 @@
       "Goa Kingdom",
       "Bluejam Pirates"
     ],
-    "effect": "[On Play] Give up to 1 of your opponent's Characters −1000 power during this turn.",
+    "effect": "[On Play] Give up to 1 of your opponent's Characters -1000 power during this turn.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-012.png",
@@ -440,8 +440,8 @@
     "family": [
       "Revolutionary Army"
     ],
-    "effect": "[Main] Up to 1 of your {Revolutionary Army} type Characters gains +2000 power during this turn. Then, give up to 1 of your opponent's Characters −1000 power during this turn.",
-    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "effect": "[Main] Up to 1 of your {Revolutionary Army} type Characters gains +2000 power during this turn. Then, give up to 1 of your opponent's Characters -1000 power during this turn.",
+    "trigger": "Activate this card's [Main] effect.",
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-016.png",
     "cost": 1,
@@ -465,7 +465,7 @@
       "Revolutionary Army"
     ],
     "effect": "[Main] K.O. up to 1 of your opponent's Characters with 3000 power or less and up to 1 of your opponent's Stages with a cost of 1 or less.",
-    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "trigger": "Activate this card's [Main] effect.",
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-017.png",
     "cost": 2,
@@ -490,7 +490,7 @@
       "Revolutionary Army"
     ],
     "effect": "[Counter] Up to 1 of your {Revolutionary Army} type Characters gains +2000 power until the end of your next turn.",
-    "trigger": "Trigger[Trigger] Activate this card's [Counter] effect.",
+    "trigger": "Activate this card's [Counter] effect.",
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-018.png",
     "cost": 1,
@@ -993,7 +993,7 @@
       "Fallen Monk Pirates"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 3 or more Characters, that card gains an additional +1000 power during this battle.",
-    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
+    "trigger": "K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-035.png",
     "cost": 1,
@@ -1018,7 +1018,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[Main] Up to 1 of your Leader or Character cards gains +3000 power during this turn. Then, you may rest 1 of your Characters with a cost of 3 or more. If you do, rest up to 1 of your opponent's Characters with a cost of 5 or less.",
-    "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "trigger": "Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-036.png",
     "cost": 2,
@@ -1043,7 +1043,7 @@
       "Bonney Pirates"
     ],
     "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type card other than [More Pizza!!] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Trigger[Trigger] Draw 1 card.",
+    "trigger": "Draw 1 card.",
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-037.png",
     "cost": 1,
@@ -1599,7 +1599,7 @@
       "Kuja Pirates"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, return up to 1 of your Characters to the owner's hand.",
-    "trigger": "Trigger[Trigger] You may return 1 of your Characters to the owner's hand: Return up to 1 of your opponent's Characters with a cost of 5 or less to the owner's hand.",
+    "trigger": "You may return 1 of your Characters to the owner's hand: Return up to 1 of your opponent's Characters with a cost of 5 or less to the owner's hand.",
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-055.png",
     "cost": 2,
@@ -1624,7 +1624,7 @@
       "Kuja Pirates"
     ],
     "effect": "[Counter] You may return 1 of your Characters with a cost of 2 or more to the owner's hand: Up to 1 of your Leader or Character cards gains +4000 power during this battle.",
-    "trigger": "Trigger[Trigger] Draw 2 cards and place 2 cards from your hand at the bottom of your deck in any order.",
+    "trigger": "Draw 2 cards and place 2 cards from your hand at the bottom of your deck in any order.",
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-056.png",
     "cost": 1,
@@ -1649,7 +1649,7 @@
       "Kuja Pirates"
     ],
     "effect": "[Main] Select up to 1 of your {The Seven Warlords of the Sea} type Leader or Character cards and that card gains +2000 power during this turn. Then, if the selected card attacks during this turn, your opponent cannot activate [Blocker].",
-    "trigger": "Trigger[Trigger] Draw 1 card.",
+    "trigger": "Draw 1 card.",
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-057.png",
     "cost": 2,
@@ -1697,7 +1697,7 @@
     "family": [
       "Foxy Pirates"
     ],
-    "effect": "[When Attacking] DON!! −3 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If you have 3 or more {Foxy Pirates} type Characters, select your opponent's rested Leader and up to 1 Character card. The selected cards will not become active in your opponent's next Refresh Phase.",
+    "effect": "[When Attacking] DON!! -3 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If you have 3 or more {Foxy Pirates} type Characters, select your opponent's rested Leader and up to 1 Character card. The selected cards will not become active in your opponent's next Refresh Phase.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-059.png",
@@ -1721,7 +1721,7 @@
     "family": [
       "Foxy Pirates"
     ],
-    "effect": "[When Attacking] DON!! −3 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If you have 3 or more {Foxy Pirates} type Characters, select your opponent's rested Leader and up to 1 Character card. The selected cards will not become active in your opponent's next Refresh Phase.",
+    "effect": "[When Attacking] DON!! -3 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If you have 3 or more {Foxy Pirates} type Characters, select your opponent's rested Leader and up to 1 Character card. The selected cards will not become active in your opponent's next Refresh Phase.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-059_p1.png",
@@ -1771,7 +1771,7 @@
       "Kingdom of GERMA",
       "The Vinsmoke Family"
     ],
-    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {The Vinsmoke Family} type, draw 1 card.",
+    "effect": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {The Vinsmoke Family} type, draw 1 card.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-061.png",
@@ -1815,7 +1815,7 @@
       "Fish-Man",
       "Foxy Pirates"
     ],
-    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Foxy Pirates} type, up to 1 of your opponent's Characters with a cost of 6 or less cannot attack until the end of your opponent's next turn.",
+    "effect": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Foxy Pirates} type, up to 1 of your opponent's Characters with a cost of 6 or less cannot attack until the end of your opponent's next turn.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-063.png",
@@ -1836,7 +1836,7 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "If the number of DON!! cards on your field is at least 2 less than the number on your opponent's field, give this card in your hand −3 cost.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": "If the number of DON!! cards on your field is at least 2 less than the number on your opponent's field, give this card in your hand -3 cost.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-064.png",
@@ -1860,7 +1860,7 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "If the number of DON!! cards on your field is at least 2 less than the number on your opponent's field, give this card in your hand −3 cost.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": "If the number of DON!! cards on your field is at least 2 less than the number on your opponent's field, give this card in your hand -3 cost.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-064_p1.png",
@@ -2020,7 +2020,7 @@
     "family": [
       "Foxy Pirates"
     ],
-    "effect": "[Opponent's Turn] If your Leader has the {Foxy Pirates} type, give all of your opponent's Characters −1000 power.[Activate: Main] [Once Per Turn] Add up to 1 DON!! card from your DON!! deck and rest it.",
+    "effect": "[Opponent's Turn] If your Leader has the {Foxy Pirates} type, give all of your opponent's Characters -1000 power.[Activate: Main] [Once Per Turn] Add up to 1 DON!! card from your DON!! deck and rest it.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-071.png",
@@ -2046,7 +2046,7 @@
     "family": [
       "Foxy Pirates"
     ],
-    "effect": "[Opponent's Turn] If your Leader has the {Foxy Pirates} type, give all of your opponent's Characters −1000 power.[Activate: Main] [Once Per Turn] Add up to 1 DON!! card from your DON!! deck and rest it.",
+    "effect": "[Opponent's Turn] If your Leader has the {Foxy Pirates} type, give all of your opponent's Characters -1000 power.[Activate: Main] [Once Per Turn] Add up to 1 DON!! card from your DON!! deck and rest it.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-071_p1.png",
@@ -2072,7 +2072,7 @@
     "family": [
       "Foxy Pirates"
     ],
-    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Look at 5 cards from the top of your deck; reveal up to 1 {Foxy Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order and play up to 1 purple Character card with 4000 power or less from your hand.",
+    "effect": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Look at 5 cards from the top of your deck; reveal up to 1 {Foxy Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order and play up to 1 purple Character card with 4000 power or less from your hand.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-072.png",
@@ -2093,7 +2093,7 @@
     "family": [
       "Foxy Pirates"
     ],
-    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Look at 5 cards from the top of your deck; reveal up to 1 {Foxy Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order and play up to 1 purple Character card with 4000 power or less from your hand.",
+    "effect": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Look at 5 cards from the top of your deck; reveal up to 1 {Foxy Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order and play up to 1 purple Character card with 4000 power or less from your hand.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-072_p1.png",
@@ -2114,7 +2114,7 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] DON!! −3 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your opponent has 3 or more Characters, set this Character as active.",
+    "effect": "[Activate: Main] [Once Per Turn] DON!! -3 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your opponent has 3 or more Characters, set this Character as active.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-073.png",
@@ -2164,7 +2164,7 @@
     "family": [
       "Foxy Pirates"
     ],
-    "effect": "[Counter] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Give up to 1 each of your opponent's Leader and Character cards −2000 power during this turn.",
+    "effect": "[Counter] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Give up to 1 each of your opponent's Leader and Character cards -2000 power during this turn.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-075.png",
@@ -2188,8 +2188,8 @@
     "family": [
       "Foxy Pirates"
     ],
-    "effect": "[Counter] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, rest up to 1 of your opponent's Characters.",
-    "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": "[Counter] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, rest up to 1 of your opponent's Characters.",
+    "trigger": "Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-076.png",
     "cost": 2,
@@ -2214,7 +2214,7 @@
       "Land of Wano"
     ],
     "effect": "[Main] If your Leader has the {Animal Kingdom Pirates} or {Big Mom Pirates} type, look at 5 cards from the top of your deck; reveal up to 1 {Animal Kingdom Pirates} or {Big Mom Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "trigger": "Activate this card's [Main] effect.",
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-077.png",
     "cost": 1,
@@ -2238,7 +2238,7 @@
       "Foxy Pirates"
     ],
     "effect": "[Main] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, set up to 1 of your [Foxy] cards as active.",
-    "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "trigger": "Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-078.png",
     "cost": 3,
@@ -2261,7 +2261,7 @@
     "family": [
       "CP0"
     ],
-    "effect": "[When Attacking] You may trash 2 cards from the top of your deck: Give up to 1 of your opponent's Characters −1 cost during this turn.",
+    "effect": "[When Attacking] You may trash 2 cards from the top of your deck: Give up to 1 of your opponent's Characters -1 cost during this turn.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-079.png",
@@ -2285,7 +2285,7 @@
     "family": [
       "CP0"
     ],
-    "effect": "[When Attacking] You may trash 2 cards from the top of your deck: Give up to 1 of your opponent's Characters −1 cost during this turn.",
+    "effect": "[When Attacking] You may trash 2 cards from the top of your deck: Give up to 1 of your opponent's Characters -1 cost during this turn.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-079_p1.png",
@@ -2309,7 +2309,7 @@
     "family": [
       "CP0"
     ],
-    "effect": "[On Play] You may place 2 cards with a type including \"CP\" from your trash at the bottom of your deck in any order: Give up to 1 of your opponent's Characters −3 cost during this turn.",
+    "effect": "[On Play] You may place 2 cards with a type including \"CP\" from your trash at the bottom of your deck in any order: Give up to 1 of your opponent's Characters -3 cost during this turn.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-080.png",
@@ -2330,7 +2330,7 @@
     "family": [
       "CP0"
     ],
-    "effect": "[DON!! x1] [Your Turn] Give all of your opponent's Characters −1 cost.",
+    "effect": "[DON!! x1] [Your Turn] Give all of your opponent's Characters -1 cost.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-081.png",
@@ -2356,7 +2356,7 @@
       "Thriller Bark Pirates",
       "Former Rocks Pirates"
     ],
-    "effect": "[On Play] Trash 2 cards from the top of your deck and give up to 1 of your opponent's Characters −1 cost during this turn.",
+    "effect": "[On Play] Trash 2 cards from the top of your deck and give up to 1 of your opponent's Characters -1 cost during this turn.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-082.png",
@@ -2469,7 +2469,7 @@
     "family": [
       "CP0"
     ],
-    "effect": "[On Play] Trash 2 cards from the top of your deck and give up to 1 of your opponent's Characters −2 cost during this turn.",
+    "effect": "[On Play] Trash 2 cards from the top of your deck and give up to 1 of your opponent's Characters -2 cost during this turn.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-086.png",
@@ -2648,7 +2648,7 @@
       "CP9"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 10 or more cards in your trash, return up to 1 of your Characters with a type including \"CP\" to the owner's hand.",
-    "trigger": "Trigger[Trigger] Return up to 1 of your Characters to the owner's hand.",
+    "trigger": "Return up to 1 of your Characters to the owner's hand.",
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-094.png",
     "cost": 1,
@@ -2672,7 +2672,7 @@
       "CP9"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, if you have 10 or more cards in your trash, that card gains an additional +2000 power during this battle.",
-    "trigger": "Trigger[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "trigger": "Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-095.png",
     "cost": 2,
@@ -2695,8 +2695,8 @@
     "family": [
       "CP9"
     ],
-    "effect": "[Main] Draw 1 card. Then, if you have 10 or more cards in your trash, give up to 1 of your opponent's Characters −3 cost during this turn.",
-    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "effect": "[Main] Draw 1 card. Then, if you have 10 or more cards in your trash, give up to 1 of your opponent's Characters -3 cost during this turn.",
+    "trigger": "K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-096.png",
     "cost": 1,
@@ -2773,7 +2773,7 @@
       "Egghead"
     ],
     "effect": "If you have less Life cards than your opponent, this Character cannot be K.O.'d in battle.",
-    "trigger": "Trigger[Trigger] If your Leader is [Vegapunk], play this card.",
+    "trigger": "If your Leader is [Vegapunk], play this card.",
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-098.png",
     "cost": 5,
@@ -2795,7 +2795,7 @@
       "Straw Hat Crew"
     ],
     "effect": null,
-    "trigger": "Trigger[Trigger] Up to 1 of your {Egghead} type Leader or Character cards gains +2000 power until the end of your next turn.",
+    "trigger": "Up to 1 of your {Egghead} type Leader or Character cards gains +2000 power until the end of your next turn.",
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-099.png",
     "cost": 1,
@@ -2817,7 +2817,7 @@
       "Egghead"
     ],
     "effect": "[On Play] If you have 2 or less Life cards, draw 2 cards and trash 2 card from your hand.",
-    "trigger": "Trigger[Trigger] If your Leader is [Vegapunk], play this card.",
+    "trigger": "If your Leader is [Vegapunk], play this card.",
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-100.png",
     "cost": 4,
@@ -2839,7 +2839,7 @@
       "Egghead"
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
-    "trigger": "Trigger[Trigger] If your Leader is [Vegapunk], play this card.",
+    "trigger": "If your Leader is [Vegapunk], play this card.",
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-101.png",
     "cost": 5,
@@ -2865,7 +2865,7 @@
       "Straw Hat Crew"
     ],
     "effect": null,
-    "trigger": "Trigger[Trigger] Return up to 1 of your opponent's Characters with a cost of 4 or less to the owner's hand and add this card to your hand.",
+    "trigger": "Return up to 1 of your opponent's Characters with a cost of 4 or less to the owner's hand and add this card to your hand.",
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-102.png",
     "cost": 5,
@@ -2888,7 +2888,7 @@
       "Straw Hat Crew"
     ],
     "effect": null,
-    "trigger": "Trigger[Trigger] Up to 1 of your {Egghead} type Characters gains [Blocker] during this turn. Then, add this card to your hand.",
+    "trigger": "Up to 1 of your {Egghead} type Characters gains [Blocker] during this turn. Then, add this card to your hand.",
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-103.png",
     "cost": 2,
@@ -2910,7 +2910,7 @@
       "Straw Hat Crew"
     ],
     "effect": null,
-    "trigger": "Trigger[Trigger] If your Leader has the {Egghead} type, draw 2 cards.",
+    "trigger": "If your Leader has the {Egghead} type, draw 2 cards.",
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-104.png",
     "cost": 3,
@@ -2932,7 +2932,7 @@
       "Egghead"
     ],
     "effect": "[On K.O.] If you have 2 or less Life cards, play up to 1 {Egghead} type Character card with a cost of 4 or less from your trash rested.",
-    "trigger": "Trigger[Trigger] If your Leader is [Vegapunk], play this card.",
+    "trigger": "If your Leader is [Vegapunk], play this card.",
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-105.png",
     "cost": 5,
@@ -2983,7 +2983,7 @@
       "Straw Hat Crew"
     ],
     "effect": null,
-    "trigger": "Trigger[Trigger] Draw 1 card. Then, if you have 1 or less Life cards, play this card.",
+    "trigger": "Draw 1 card. Then, if you have 1 or less Life cards, play this card.",
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-107.png",
     "cost": 4,
@@ -3005,7 +3005,7 @@
       "Straw Hat Crew"
     ],
     "effect": null,
-    "trigger": "Trigger[Trigger] Draw 1 card. Then, if you have 1 or less Life cards, play this card.",
+    "trigger": "Draw 1 card. Then, if you have 1 or less Life cards, play this card.",
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-107_p1.png",
     "cost": 4,
@@ -3049,7 +3049,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[Activate: Main] You may trash this Character: If you have 2 or less Life cards, K.O. up to 1 of your opponent's Characters with a cost of 4 or less. Then, draw 1 card.",
-    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "trigger": "K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-109.png",
     "cost": 5,
@@ -3075,7 +3075,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[Activate: Main] You may trash this Character: If you have 2 or less Life cards, K.O. up to 1 of your opponent's Characters with a cost of 4 or less. Then, draw 1 card.",
-    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "trigger": "K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-109_p1.png",
     "cost": 5,
@@ -3100,7 +3100,7 @@
       "Egghead"
     ],
     "effect": "[On Play] You may add 1 card from the top or bottom of your Life cards to your hand: K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
-    "trigger": "Trigger[Trigger] If your Leader is [Vegapunk], play this card.",
+    "trigger": "If your Leader is [Vegapunk], play this card.",
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-110.png",
     "cost": 5,
@@ -3122,7 +3122,7 @@
       "Egghead"
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Egghead} type card other than [Lilith] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Trigger[Trigger] If your Leader is [Vegapunk], play this card.",
+    "trigger": "If your Leader is [Vegapunk], play this card.",
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-111.png",
     "cost": 3,
@@ -3144,7 +3144,7 @@
       "Egghead"
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Egghead} type card other than [Lilith] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Trigger[Trigger] If your Leader is [Vegapunk], play this card.",
+    "trigger": "If your Leader is [Vegapunk], play this card.",
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-111_p1.png",
     "cost": 3,
@@ -3192,7 +3192,7 @@
       "Straw Hat Crew"
     ],
     "effect": null,
-    "trigger": "Trigger[Trigger] If your Leader has the {Egghead} type, rest up to 1 of your opponent's Leader or Character cards.",
+    "trigger": "If your Leader has the {Egghead} type, rest up to 1 of your opponent's Leader or Character cards.",
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-113.png",
     "cost": 5,
@@ -3214,7 +3214,7 @@
       "Egghead"
     ],
     "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Egghead} type card other than [He Possesses the World's Most Brilliant Mind] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Trigger[Trigger] Draw 1 card.",
+    "trigger": "Draw 1 card.",
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-114.png",
     "cost": 1,
@@ -3239,7 +3239,7 @@
       "Egghead"
     ],
     "effect": "[Counter] If you have 2 or less Life cards, up to 1 of your Leader or Character cards gains +3000 power during this battle.",
-    "trigger": "Trigger[Trigger] Play up to 1 of your {Egghead} type Character cards with a cost of 5 or less from your trash.",
+    "trigger": "Play up to 1 of your {Egghead} type Character cards with a cost of 5 or less from your trash.",
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-115.png",
     "cost": 1,
@@ -3264,7 +3264,7 @@
       "The Akazaya Nine"
     ],
     "effect": "[Main]/[Counter] Up to 1 of your Leader or Character cards gains +1000 power during this turn. Then, if your opponent has 2 or less Life cards, rest up to 1 of your opponent's Characters with a cost of 4 or less.",
-    "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "trigger": "Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-116.png",
     "cost": 1,
@@ -3289,7 +3289,7 @@
       "Egghead"
     ],
     "effect": "[End of Your Turn] If you have 3 or less Life cards, set up to 1 {Egghead} type Character with a cost of 5 or less as active.",
-    "trigger": "Trigger[Trigger] Play this card.",
+    "trigger": "Play this card.",
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-117.png",
     "cost": 2,
@@ -3500,7 +3500,7 @@
     "family": [
       "Navy"
     ],
-    "effect": "[DON!! x1] [Your Turn] Give all of your opponent's Characters −3 cost.[On Play] If your opponent has 6 or more cards in their hand, trash 2 cards from your opponent's hand.",
+    "effect": "[DON!! x1] [Your Turn] Give all of your opponent's Characters -3 cost.[On Play] If your opponent has 6 or more cards in their hand, trash 2 cards from your opponent's hand.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-078_p2.png",
@@ -3552,7 +3552,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[On Play] Up to 1 of your Leader or Character cards gains [Banish] during this turn.(When this card deals damage, the target card is trashed without activating its Trigger.)",
-    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "trigger": "K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
     "setName": "500 YEARS IN THE FUTURE [OP-07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-101_p2.png",
     "cost": 2,

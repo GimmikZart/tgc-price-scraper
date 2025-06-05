@@ -115,7 +115,7 @@
       "Whitebeard Pirates"
     ],
     "effect": "[Main] If you have 3 or less Life cards, you cannot add Life cards to your hand using your own effects during this turn.",
-    "trigger": "Trigger[Trigger] Up to 1 of your Leader gains +1000 power during this turn.",
+    "trigger": "Up to 1 of your Leader gains +1000 power during this turn.",
     "setName": "Red Edward.Newgate [ST-15]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-023_r1.png",
     "cost": 1,
@@ -326,7 +326,7 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[On Play] If your Leader's type includes \"Whitebeard Pirates\", give up to 1 of your opponent's Characters −2000 power during this turn. Then, add 1 card from the top of your Life cards to your hand.",
+    "effect": "[On Play] If your Leader's type includes \"Whitebeard Pirates\", give up to 1 of your opponent's Characters -2000 power during this turn. Then, add 1 card from the top of your Life cards to your hand.",
     "trigger": null,
     "setName": "Red Edward.Newgate [ST-15]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST15-004.png",
@@ -347,7 +347,7 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "If your Leader's type includes \"Whitebeard Pirates\", this Character gains [Rush].(This card can attack on the turn in which it is played.)[Once Per Turn] If this Character would be removed from the field by your opponent's effect, you may give this Character −2000 power during this turn instead.",
+    "effect": "If your Leader's type includes \"Whitebeard Pirates\", this Character gains [Rush].(This card can attack on the turn in which it is played.)[Once Per Turn] If this Character would be removed from the field by your opponent's effect, you may give this Character -2000 power during this turn instead.",
     "trigger": null,
     "setName": "Red Edward.Newgate [ST-15]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST15-005.png",

@@ -84,7 +84,7 @@
       "Big Mom Pirates"
     ],
     "effect": "[When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: This Character gains +2000 power during this battle.",
-    "trigger": "Trigger[Trigger] You may trash 1 card from your hand: Play this card.",
+    "trigger": "You may trash 1 card from your hand: Play this card.",
     "setName": "Yellow Charlotte Katakuri [ST-20]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-110_r1.png",
     "cost": 4,
@@ -154,7 +154,7 @@
       "Big Mom Pirates"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +5000 power during this battle.",
-    "trigger": "Trigger[Trigger] You may trash 2 cards from your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
+    "trigger": "You may trash 2 cards from your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
     "setName": "Yellow Charlotte Katakuri [ST-20]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-118_r1.png",
     "cost": 2,
@@ -179,7 +179,7 @@
       "Big Mom Pirates"
     ],
     "effect": "[Main] You may trash 1 card from the top of your Life cards: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
-    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "trigger": "K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
     "setName": "Yellow Charlotte Katakuri [ST-20]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-121_r1.png",
     "cost": 2,
@@ -276,7 +276,7 @@
       "Big Mom Pirates"
     ],
     "effect": "[Once Per Turn] If this Character would be K.O.'d by an effect, you may trash 1 card from the top of your Life cards instead.",
-    "trigger": "Trigger[Trigger] You may trash 1 card from your hand: Play this card.",
+    "trigger": "You may trash 1 card from your hand: Play this card.",
     "setName": "Yellow Charlotte Katakuri [ST-20]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST20-002.png",
     "cost": 4,
@@ -300,7 +300,7 @@
       "Big Mom Pirates"
     ],
     "effect": null,
-    "trigger": "Trigger[Trigger] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards. Then, add this card to your hand.",
+    "trigger": "Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards. Then, add this card to your hand.",
     "setName": "Yellow Charlotte Katakuri [ST-20]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST20-003.png",
     "cost": 3,
@@ -321,7 +321,7 @@
       "Big Mom Pirates"
     ],
     "effect": "[On Play] You may add 1 card from the top of your Life cards to your hand: Set up to 1 of your {Big Mom Pirates} type Characters with a cost of 3 or less as active.",
-    "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "trigger": "Rest up to 1 of your opponent's Characters with a cost of 3 or less.",
     "setName": "Yellow Charlotte Katakuri [ST-20]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST20-004.png",
     "cost": 3,

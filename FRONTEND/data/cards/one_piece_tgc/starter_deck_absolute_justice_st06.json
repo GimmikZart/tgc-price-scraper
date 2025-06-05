@@ -105,7 +105,7 @@
     "family": [
       "Navy"
     ],
-    "effect": "[When Attacking] Give up to 1 of your opponent's Characters −4 cost during this turn.",
+    "effect": "[When Attacking] Give up to 1 of your opponent's Characters -4 cost during this turn.",
     "trigger": null,
     "setName": "Absolute Justice [ST-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-005.png",
@@ -129,7 +129,7 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −2 cost during this turn.",
+    "effect": "[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters -2 cost during this turn.",
     "trigger": null,
     "setName": "Absolute Justice [ST-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-006.png",
@@ -177,7 +177,7 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] Give up to 1 of your opponent's Characters −4 cost during this turn.",
+    "effect": "[On Play] Give up to 1 of your opponent's Characters -4 cost during this turn.",
     "trigger": null,
     "setName": "Absolute Justice [ST-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-008.png",
@@ -219,7 +219,7 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] Give up to 1 of your opponent's Characters −3 cost during this turn.",
+    "effect": "[On Play] Give up to 1 of your opponent's Characters -3 cost during this turn.",
     "trigger": null,
     "setName": "Absolute Justice [ST-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-010.png",
@@ -307,7 +307,7 @@
       "Navy"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, K.O. up to 1 of your opponent's active Characters with a cost of 3 or less.",
-    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "trigger": "K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
     "setName": "Absolute Justice [ST-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-014.png",
     "cost": 2,
@@ -330,8 +330,8 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Main] Draw 1 card. Then, give up to 1 of your opponent's Characters −2 cost during this turn.",
-    "trigger": "Trigger[Trigger] Your opponent chooses 1 card from their hand and trashes it.",
+    "effect": "[Main] Draw 1 card. Then, give up to 1 of your opponent's Characters -2 cost during this turn.",
+    "trigger": "Your opponent chooses 1 card from their hand and trashes it.",
     "setName": "Absolute Justice [ST-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-015.png",
     "cost": 1,
@@ -355,7 +355,7 @@
       "Navy"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle.",
-    "trigger": "Trigger[Trigger] Draw 1 card and none of your Characters can be K.O.'d during this turn.",
+    "trigger": "Draw 1 card and none of your Characters can be K.O.'d during this turn.",
     "setName": "Absolute Justice [ST-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-016.png",
     "cost": 1,
@@ -378,7 +378,7 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] Give up to 1 of your opponent's Characters −1 cost during this turn.[Activate: Main] You may rest this Stage: If your Leader has the {Navy} type, give up to 1 of your opponent's Characters −1 cost during this turn.",
+    "effect": "[On Play] Give up to 1 of your opponent's Characters -1 cost during this turn.[Activate: Main] You may rest this Stage: If your Leader has the {Navy} type, give up to 1 of your opponent's Characters -1 cost during this turn.",
     "trigger": null,
     "setName": "Absolute Justice [ST-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-017.png",

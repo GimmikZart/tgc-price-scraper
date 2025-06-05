@@ -155,7 +155,7 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[On Play]/[When Attacking] If you have a Character with a cost of 8 or more, give up to 1 of your opponent's Characters −5 cost during this turn.",
+    "effect": "[On Play]/[When Attacking] If you have a Character with a cost of 8 or more, give up to 1 of your opponent's Characters -5 cost during this turn.",
     "trigger": null,
     "setName": "3D2Y [ST-14]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-007.png",
@@ -319,7 +319,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[Counter] If you have a Character with a cost of 8 or more, up to 1 of your Leader or Character cards gains +3000 power during this battle.",
-    "trigger": "Trigger[Trigger] Add up to 1 of your Character cards with a cost of 2 or less from your trash to your hand.",
+    "trigger": "Add up to 1 of your Character cards with a cost of 2 or less from your trash to your hand.",
     "setName": "3D2Y [ST-14]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-014.png",
     "cost": 1,
@@ -343,7 +343,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[Main] Up to 1 of your Leader or Character cards gains +3000 power during this turn. Then, if you have a Character with a cost of 8 or more, K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
-    "trigger": "Trigger[Trigger] If you have a Character with a cost of 8 or more, K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "trigger": "If you have a Character with a cost of 8 or more, K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
     "setName": "3D2Y [ST-14]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-015.png",
     "cost": 2,
@@ -367,7 +367,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[Main] Draw 1 card. Then, up to 1 of your Characters gains +3 cost until the end of your opponent's next turn.",
-    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "trigger": "K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
     "setName": "3D2Y [ST-14]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-016.png",
     "cost": 1,

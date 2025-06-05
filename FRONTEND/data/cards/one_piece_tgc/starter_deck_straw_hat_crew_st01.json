@@ -40,7 +40,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[DON!! x2] [When Attacking] Your opponent cannot activate a [Blocker] Character that has 5000 or more power during this battle.",
-    "trigger": "Trigger[Trigger] Play this card.",
+    "trigger": "Play this card.",
     "setName": "Straw Hat Crew [ST-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-002.png",
     "cost": 2,
@@ -327,7 +327,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle.",
-    "trigger": "Trigger[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "trigger": "Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
     "setName": "Straw Hat Crew [ST-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-014.png",
     "cost": 1,
@@ -352,7 +352,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[Main] K.O. up to 1 of your opponent's Characters with 6000 power or less.",
-    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "trigger": "Activate this card's [Main] effect.",
     "setName": "Straw Hat Crew [ST-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-015.png",
     "cost": 4,
@@ -376,7 +376,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[Main] Select up to 1 of your {Straw Hat Crew} type Leader or Character cards. Your opponent cannot activate [Blocker] if that Leader or Character attacks during this turn.",
-    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's [Blocker] Characters with a cost of 3 or less.",
+    "trigger": "K.O. up to 1 of your opponent's [Blocker] Characters with a cost of 3 or less.",
     "setName": "Straw Hat Crew [ST-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-016.png",
     "cost": 1,

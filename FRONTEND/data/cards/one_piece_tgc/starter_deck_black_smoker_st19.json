@@ -13,7 +13,7 @@
     "family": [
       "Navy"
     ],
-    "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] Give up to 1 of your opponent's Characters −1 cost during this turn. Then, if there is a Character with a cost of 0, this Leader gains +1000 power during this turn.",
+    "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] Give up to 1 of your opponent's Characters -1 cost during this turn. Then, if there is a Character with a cost of 0, this Leader gains +1000 power during this turn.",
     "trigger": null,
     "setName": "Black Smoker [ST-19]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-093_p2.png",
@@ -60,7 +60,7 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] Give up to 1 of your opponent's Characters −2 cost during this turn.",
+    "effect": "[On Play] Give up to 1 of your opponent's Characters -2 cost during this turn.",
     "trigger": null,
     "setName": "Black Smoker [ST-19]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-106_r1.png",
@@ -128,8 +128,8 @@
     "family": [
       "Navy"
     ],
-    "effect": "[When Attacking] Give up to 1 of your opponent's Characters −2 cost during this turn. Then, if there is a Character with a cost of 0, this Character gains +2000 power during this battle.",
-    "trigger": "Trigger[Trigger] Play this card.",
+    "effect": "[When Attacking] Give up to 1 of your opponent's Characters -2 cost during this turn. Then, if there is a Character with a cost of 0, this Character gains +2000 power during this battle.",
+    "trigger": "Play this card.",
     "setName": "Black Smoker [ST-19]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-113_r1.png",
     "cost": 3,
@@ -173,8 +173,8 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Main] Give up to 1 of your opponent's Characters −5 cost during this turn.",
-    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "effect": "[Main] Give up to 1 of your opponent's Characters -5 cost during this turn.",
+    "trigger": "K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
     "setName": "Black Smoker [ST-19]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-117_r1.png",
     "cost": 1,
@@ -285,7 +285,7 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] If your Leader is [Smoker], give up to 1 of your opponent's Characters −4 cost during this turn.[Activate: Main] [Once Per Turn] If this Character was played on this turn, trash up to 1 of your opponent's Characters with a cost of 0.",
+    "effect": "[On Play] If your Leader is [Smoker], give up to 1 of your opponent's Characters -4 cost during this turn.[Activate: Main] [Once Per Turn] If this Character was played on this turn, trash up to 1 of your opponent's Characters with a cost of 0.",
     "trigger": null,
     "setName": "Black Smoker [ST-19]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST19-003.png",
@@ -337,7 +337,7 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Activate: Main] [Once Per Turn] You may place 1 card from your trash at the bottom of your deck: Give up to 1 of your opponent's Characters −1 cost during this turn.",
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Activate: Main] [Once Per Turn] You may place 1 card from your trash at the bottom of your deck: Give up to 1 of your opponent's Characters -1 cost during this turn.",
     "trigger": null,
     "setName": "Black Smoker [ST-19]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST19-005.png",

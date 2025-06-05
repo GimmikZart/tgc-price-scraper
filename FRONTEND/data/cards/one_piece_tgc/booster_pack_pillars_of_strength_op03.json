@@ -266,7 +266,7 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −2000 power during this turn.",
+    "effect": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters -2000 power during this turn.",
     "trigger": null,
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-011.png",
@@ -389,7 +389,7 @@
     "family": [
       "ODYSSEY"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Opponent's Turn] When this Character is K.O.'d, give up to 1 of your opponent's Leader or Character cards −2000 power during this turn.",
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Opponent's Turn] When this Character is K.O.'d, give up to 1 of your opponent's Leader or Character cards -2000 power during this turn.",
     "trigger": null,
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-015.png",
@@ -415,7 +415,7 @@
       "Whitebeard Pirates"
     ],
     "effect": "[Main] If your Leader is [Portgas.D.Ace], K.O. up to 1 of your opponent's Characters with 8000 power or less, and your Leader gains [Double Attack] and +3000 power during this turn.(This card deals 2 damage.)",
-    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with 6000 power or less.",
+    "trigger": "K.O. up to 1 of your opponent's Characters with 6000 power or less.",
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-016.png",
     "cost": 7,
@@ -439,8 +439,8 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[Main]/[Counter] If your Leader's type includes \"Whitebeard Pirates\", give up to 1 of your opponent's Characters −4000 power during this turn.",
-    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "effect": "[Main]/[Counter] If your Leader's type includes \"Whitebeard Pirates\", give up to 1 of your opponent's Characters -4000 power during this turn.",
+    "trigger": "Activate this card's [Main] effect.",
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-017.png",
     "cost": 2,
@@ -465,7 +465,7 @@
       "Whitebeard Pirates"
     ],
     "effect": "[Main] You may trash 1 Event from your hand: K.O. up to 1 of your opponent's Characters with 5000 power or less and up to 1 of your opponent's Characters with 4000 power or less.",
-    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with 5000 power or less.",
+    "trigger": "K.O. up to 1 of your opponent's Characters with 5000 power or less.",
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-018.png",
     "cost": 3,
@@ -489,7 +489,7 @@
       "Whitebeard Pirates"
     ],
     "effect": "[Main] You may trash 1 Event from your hand: K.O. up to 1 of your opponent's Characters with 5000 power or less and up to 1 of your opponent's Characters with 4000 power or less.",
-    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with 5000 power or less.",
+    "trigger": "K.O. up to 1 of your opponent's Characters with 5000 power or less.",
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-018_p1.png",
     "cost": 3,
@@ -513,7 +513,7 @@
       "Whitebeard Pirates"
     ],
     "effect": "[Main] Your Leader gains +4000 power during this turn.",
-    "trigger": "Trigger[Trigger] Give up to 1 of your opponent's Leader or Character cards −10000 power during this turn.",
+    "trigger": "Give up to 1 of your opponent's Leader or Character cards -10000 power during this turn.",
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-019.png",
     "cost": 2,
@@ -789,7 +789,7 @@
       "Arlong Pirates"
     ],
     "effect": "[On Play] If your Leader has the {East Blue} type, rest up to 1 of your opponent's Characters.",
-    "trigger": "Trigger[Trigger] Play this card.",
+    "trigger": "Play this card.",
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-026.png",
     "cost": 4,
@@ -856,7 +856,7 @@
       "Arlong Pirates"
     ],
     "effect": "[On Play] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
-    "trigger": "Trigger[Trigger] Play this card.",
+    "trigger": "Play this card.",
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-029.png",
     "cost": 4,
@@ -878,7 +878,7 @@
       "Arlong Pirates"
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 green {East Blue} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Trigger[Trigger] Play this card.",
+    "trigger": "Play this card.",
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-030.png",
     "cost": 2,
@@ -948,7 +948,7 @@
       "Arlong Pirates"
     ],
     "effect": null,
-    "trigger": "Trigger[Trigger] If your Leader has the {East Blue} type, play this card.",
+    "trigger": "If your Leader has the {East Blue} type, play this card.",
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-033.png",
     "cost": 4,
@@ -1014,7 +1014,7 @@
       "Black Cat Pirates"
     ],
     "effect": "[Main] You may rest 1 of your {East Blue} type Characters: Set up to 1 of your [Kuro] cards as active.",
-    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
+    "trigger": "K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-036.png",
     "cost": 3,
@@ -1040,7 +1040,7 @@
       "Arlong Pirates"
     ],
     "effect": "[Main] You may rest 1 of your {East Blue} type Characters: K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
-    "trigger": "Trigger[Trigger] Play up to 1 Character card with a cost of 4 or less and a [Trigger] from your hand.",
+    "trigger": "Play up to 1 Character card with a cost of 4 or less and a [Trigger] from your hand.",
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-037.png",
     "cost": 1,
@@ -1065,7 +1065,7 @@
       "Krieg Pirates"
     ],
     "effect": "[Main] Rest up to 2 of your opponent's Characters with a cost of 2 or less.",
-    "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "trigger": "Rest up to 1 of your opponent's Characters with a cost of 5 or less.",
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-038.png",
     "cost": 1,
@@ -1090,7 +1090,7 @@
       "Black Cat Pirates"
     ],
     "effect": "[Main] Rest up to 1 of your opponent's Characters with a cost of 1 or less. Then, up to 1 of your Characters gains +1000 power during this turn.",
-    "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "trigger": "Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-039.png",
     "cost": 1,
@@ -1508,7 +1508,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, you may trash 1 card from the top of your deck.",
-    "trigger": "Trigger[Trigger] Draw 1 card and you may trash 1 card from the top of your deck.",
+    "trigger": "Draw 1 card and you may trash 1 card from the top of your deck.",
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-054.png",
     "cost": 1,
@@ -1533,7 +1533,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[Counter] You may trash 1 card from your hand: Up to 1 of your Leader gains +4000 power during this battle. Then, you may trash 2 cards from the top of your deck.",
-    "trigger": "Trigger[Trigger] Return up to 1 Character with a cost of 4 or less to the owner's hand.",
+    "trigger": "Return up to 1 Character with a cost of 4 or less to the owner's hand.",
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-055.png",
     "cost": 1,
@@ -1557,7 +1557,7 @@
       "East Blue"
     ],
     "effect": "[Main] Draw 2 cards.",
-    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "trigger": "Activate this card's [Main] effect.",
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-056.png",
     "cost": 3,
@@ -1582,7 +1582,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[Main] Place up to 1 Character with a cost of 5 or less at the bottom of the owner's deck.",
-    "trigger": "Trigger[Trigger] Place up to 1 Character with a cost of 3 or less at the bottom of the owner's deck.",
+    "trigger": "Place up to 1 Character with a cost of 3 or less at the bottom of the owner's deck.",
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-057.png",
     "cost": 4,
@@ -1606,7 +1606,7 @@
       "Water Seven",
       "Galley-La Company"
     ],
-    "effect": "This Leader cannot attack.[Activate: Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may rest this Leader: Play up to 1 {Galley-La Company} type Character card with a cost of 5 or less from your hand.",
+    "effect": "This Leader cannot attack.[Activate: Main] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may rest this Leader: Play up to 1 {Galley-La Company} type Character card with a cost of 5 or less from your hand.",
     "trigger": null,
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-058.png",
@@ -1631,7 +1631,7 @@
       "Water Seven",
       "Galley-La Company"
     ],
-    "effect": "This Leader cannot attack.[Activate: Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may rest this Leader: Play up to 1 {Galley-La Company} type Character card with a cost of 5 or less from your hand.",
+    "effect": "This Leader cannot attack.[Activate: Main] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may rest this Leader: Play up to 1 {Galley-La Company} type Character card with a cost of 5 or less from your hand.",
     "trigger": null,
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-058_p1.png",
@@ -1656,7 +1656,7 @@
       "Water Seven",
       "Galley-La Company"
     ],
-    "effect": "[When Attacking] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains [Banish] during this battle.(When this card deals damage, the target card is trashed without activating its Trigger.)",
+    "effect": "[When Attacking] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains [Banish] during this battle.(When this card deals damage, the target card is trashed without activating its Trigger.)",
     "trigger": null,
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-059.png",
@@ -1682,7 +1682,7 @@
       "Water Seven",
       "Galley-La Company"
     ],
-    "effect": "[When Attacking] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Draw 2 cards and trash 1 card from your hand.",
+    "effect": "[When Attacking] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Draw 2 cards and trash 1 card from your hand.",
     "trigger": null,
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-060.png",
@@ -1751,7 +1751,7 @@
       "Water Seven",
       "The Franky Family"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Water Seven} type, draw 1 card.",
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Water Seven} type, draw 1 card.",
     "trigger": null,
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-063.png",
@@ -1947,7 +1947,7 @@
       "Water Seven",
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may trash 1 Character card with a cost of 5 from your hand: This Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+    "effect": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may trash 1 Character card with a cost of 5 from your hand: This Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
     "trigger": null,
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-070.png",
@@ -1972,7 +1972,7 @@
       "Water Seven",
       "Galley-La Company"
     ],
-    "effect": "[When Attacking] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "effect": "[When Attacking] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 1 of your opponent's Characters with a cost of 5 or less.",
     "trigger": null,
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-071.png",
@@ -1998,7 +1998,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[Counter] You may trash 1 card from your hand: Up to 1 of your Leader or Character cards gains +3000 power during this battle.",
-    "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "trigger": "Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-072.png",
     "cost": null,
@@ -2022,8 +2022,8 @@
       "Water Seven",
       "The Franky Family"
     ],
-    "effect": "[Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Water Seven} type, K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
-    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "effect": "[Main] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Water Seven} type, K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
+    "trigger": "Activate this card's [Main] effect.",
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-073.png",
     "cost": 1,
@@ -2047,8 +2047,8 @@
       "Water Seven",
       "Galley-La Company"
     ],
-    "effect": "[Main] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Place up to 1 of your opponent's Characters with a cost of 4 or less at the bottom of the owner's deck.",
-    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "effect": "[Main] DON!! -2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Place up to 1 of your opponent's Characters with a cost of 4 or less at the bottom of the owner's deck.",
+    "trigger": "Activate this card's [Main] effect.",
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-074.png",
     "cost": 2,
@@ -2200,7 +2200,7 @@
     "family": [
       "Navy"
     ],
-    "effect": "[DON!! x1] [Your Turn] Give all of your opponent's Characters −3 cost.[On Play] If your opponent has 6 or more cards in their hand, trash 2 cards from your opponent's hand.",
+    "effect": "[DON!! x1] [Your Turn] Give all of your opponent's Characters -3 cost.[On Play] If your opponent has 6 or more cards in their hand, trash 2 cards from your opponent's hand.",
     "trigger": null,
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-078.png",
@@ -2225,7 +2225,7 @@
     "family": [
       "Navy"
     ],
-    "effect": "[DON!! x1] [Your Turn] Give all of your opponent's Characters −3 cost.[On Play] If your opponent has 6 or more cards in their hand, trash 2 cards from your opponent's hand.",
+    "effect": "[DON!! x1] [Your Turn] Give all of your opponent's Characters -3 cost.[On Play] If your opponent has 6 or more cards in their hand, trash 2 cards from your opponent's hand.",
     "trigger": null,
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-078_p1.png",
@@ -2317,7 +2317,7 @@
     "family": [
       "CP9"
     ],
-    "effect": "[On Play] Draw 2 cards and trash 2 cards from your hand. Then, give up to 1 of your opponent's Characters −2 cost during this turn.",
+    "effect": "[On Play] Draw 2 cards and trash 2 cards from your hand. Then, give up to 1 of your opponent's Characters -2 cost during this turn.",
     "trigger": null,
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-081.png",
@@ -2338,7 +2338,7 @@
     "family": [
       "CP9"
     ],
-    "effect": "[On Play] Draw 2 cards and trash 2 cards from your hand. Then, give up to 1 of your opponent's Characters −2 cost during this turn.",
+    "effect": "[On Play] Draw 2 cards and trash 2 cards from your hand. Then, give up to 1 of your opponent's Characters -2 cost during this turn.",
     "trigger": null,
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-081_p1.png",
@@ -2668,7 +2668,7 @@
       "CP9"
     ],
     "effect": "[Main] If your Leader's type includes \"CP\", look at 5 cards from the top of your deck; play up to 1 Character card with a type including \"CP\" and a cost of 5 or less. Then, trash the rest.",
-    "trigger": "Trigger[Trigger] Play up to 1 black Character card with a cost of 3 or less from your trash.",
+    "trigger": "Play up to 1 black Character card with a cost of 3 or less from your trash.",
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-094.png",
     "cost": 4,
@@ -2691,8 +2691,8 @@
     "family": [
       "CP9"
     ],
-    "effect": "[Main] Give up to 2 of your opponent's Characters −2 cost during this turn.",
-    "trigger": "Trigger[Trigger] Your opponent trashes 1 card from their hand.",
+    "effect": "[Main] Give up to 2 of your opponent's Characters -2 cost during this turn.",
+    "trigger": "Your opponent trashes 1 card from their hand.",
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-095.png",
     "cost": 1,
@@ -2716,7 +2716,7 @@
       "CP9"
     ],
     "effect": "[Main] K.O. up to 1 of your opponent's Characters with a cost of 0 or your opponent's Stages with a cost of 3 or less.",
-    "trigger": "Trigger[Trigger] Draw 2 cards.",
+    "trigger": "Draw 2 cards.",
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-096.png",
     "cost": 2,
@@ -2740,7 +2740,7 @@
       "CP9"
     ],
     "effect": "[Counter] You may trash 1 card from your hand: Up to 1 of your Leader or Character cards gains +3000 power during this battle.",
-    "trigger": "Trigger[Trigger] Draw 1 card. Then, K.O. up to 1 of your opponent's Characters with a cost of 1 or less.",
+    "trigger": "Draw 1 card. Then, K.O. up to 1 of your opponent's Characters with a cost of 1 or less.",
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-097.png",
     "cost": null,
@@ -2763,8 +2763,8 @@
     "family": [
       "World Government"
     ],
-    "effect": "[Activate: Main] You may rest this Stage: If your Leader's type includes \"CP\", give up to 1 of your opponent's Characters −2 cost during this turn.",
-    "trigger": "Trigger[Trigger] Play this card.",
+    "effect": "[Activate: Main] You may rest this Stage: If your Leader's type includes \"CP\", give up to 1 of your opponent's Characters -2 cost during this turn.",
+    "trigger": "Play this card.",
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-098.png",
     "cost": 2,
@@ -2839,7 +2839,7 @@
       "Homies"
     ],
     "effect": null,
-    "trigger": "Trigger[Trigger] You may trash 1 card from the top or bottom of your Life cards: Play this card.",
+    "trigger": "You may trash 1 card from the top or bottom of your Life cards: Play this card.",
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-100.png",
     "cost": 3,
@@ -3022,7 +3022,7 @@
       "Big Mom Pirates"
     ],
     "effect": "[DON!! x1] If you have less Life cards than your opponent, this Character gains [Double Attack] and +1000 power.(This card deals 2 damage.)",
-    "trigger": "Trigger[Trigger] You may trash 1 card from your hand: Play this card.",
+    "trigger": "You may trash 1 card from your hand: Play this card.",
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-108.png",
     "cost": 4,
@@ -3047,7 +3047,7 @@
       "Big Mom Pirates"
     ],
     "effect": "[DON!! x1] If you have less Life cards than your opponent, this Character gains [Double Attack] and +1000 power.(This card deals 2 damage.)",
-    "trigger": "Trigger[Trigger] You may trash 1 card from your hand: Play this card.",
+    "trigger": "You may trash 1 card from your hand: Play this card.",
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-108_p1.png",
     "cost": 4,
@@ -3093,7 +3093,7 @@
       "Big Mom Pirates"
     ],
     "effect": "[When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: This Character gains +2000 power during this battle.",
-    "trigger": "Trigger[Trigger] You may trash 1 card from your hand: Play this card.",
+    "trigger": "You may trash 1 card from your hand: Play this card.",
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-110.png",
     "cost": 4,
@@ -3181,7 +3181,7 @@
       "Big Mom Pirates"
     ],
     "effect": "[On K.O.] Look at 3 cards from the top of your deck; reveal up to 1 {Big Mom Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Trigger[Trigger] You may trash 1 card from your hand: Play this card.",
+    "trigger": "You may trash 1 card from your hand: Play this card.",
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-113.png",
     "cost": 3,
@@ -3205,7 +3205,7 @@
       "Big Mom Pirates"
     ],
     "effect": "[On K.O.] Look at 3 cards from the top of your deck; reveal up to 1 {Big Mom Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Trigger[Trigger] You may trash 1 card from your hand: Play this card.",
+    "trigger": "You may trash 1 card from your hand: Play this card.",
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-113_p1.png",
     "cost": 3,
@@ -3297,7 +3297,7 @@
       "Merfolk"
     ],
     "effect": "[On Play] Draw 3 cards and trash 2 cards from your hand.",
-    "trigger": "Trigger[Trigger] Play this card.",
+    "trigger": "Play this card.",
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-116.png",
     "cost": 5,
@@ -3319,7 +3319,7 @@
       "Homies"
     ],
     "effect": "[Activate: Main] You may rest this Character: Up to 1 of your [Charlotte Linlin] cards gains +1000 power until the start of your next turn.",
-    "trigger": "Trigger[Trigger] Play this card.",
+    "trigger": "Play this card.",
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-117.png",
     "cost": 3,
@@ -3344,7 +3344,7 @@
       "Big Mom Pirates"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +5000 power during this battle.",
-    "trigger": "Trigger[Trigger] You may trash 2 cards from your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
+    "trigger": "You may trash 2 cards from your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-118.png",
     "cost": 2,
@@ -3368,7 +3368,7 @@
       "Big Mom Pirates"
     ],
     "effect": "[Main] If you have less Life cards than your opponent, K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
-    "trigger": "Trigger[Trigger] Play up to 1 Character card with a cost of 4 or less and a [Trigger] from your hand.",
+    "trigger": "Play up to 1 Character card with a cost of 4 or less and a [Trigger] from your hand.",
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-119.png",
     "cost": 2,
@@ -3392,7 +3392,7 @@
       "Big Mom Pirates"
     ],
     "effect": "[Main] If your opponent has 4 or more Life cards, trash up to 1 card from the top of your opponent's Life cards.",
-    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "trigger": "Activate this card's [Main] effect.",
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-120.png",
     "cost": 3,
@@ -3417,7 +3417,7 @@
       "Big Mom Pirates"
     ],
     "effect": "[Main] You may trash 1 card from the top of your Life cards: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
-    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "trigger": "K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-121.png",
     "cost": 2,
@@ -3624,7 +3624,7 @@
       "The Four Emperors",
       "Animal Kingdom Pirates"
     ],
-    "effect": "[On Play] DON!! −5 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 6 or less. This Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+    "effect": "[On Play] DON!! -5 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 6 or less. This Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
     "trigger": null,
     "setName": "PILLARS OF STRENGTH [OP03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-003_p1.png",

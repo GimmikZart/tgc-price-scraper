@@ -220,7 +220,7 @@
     "family": [
       "Land of Wano"
     ],
-    "effect": "[On Play] Give up to 1 of your opponent's Characters −2000 power during this turn.",
+    "effect": "[On Play] Give up to 1 of your opponent's Characters -2000 power during this turn.",
     "trigger": null,
     "setName": "ROMANCE DAWN [OP01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-006.png",
@@ -671,7 +671,7 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x1] [When Attacking] Give up to 2 of your opponent's Characters −2000 power during this turn.",
+    "effect": "[DON!! x1] [When Attacking] Give up to 2 of your opponent's Characters -2000 power during this turn.",
     "trigger": null,
     "setName": "ROMANCE DAWN [OP01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-022.png",
@@ -823,7 +823,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, K.O. up to 1 of your opponent's Characters with 4000 power or less.",
-    "trigger": "Trigger[Trigger] Give up to 1 of your opponent's Leader or Character cards −10000 power during this turn.",
+    "trigger": "Give up to 1 of your opponent's Leader or Character cards -10000 power during this turn.",
     "setName": "ROMANCE DAWN [OP01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-026.png",
     "cost": 2,
@@ -847,7 +847,7 @@
       "Supernovas",
       "Beautiful Pirates"
     ],
-    "effect": "[Main] Give up to 1 of your opponent's Characters −10000 power during this turn.",
+    "effect": "[Main] Give up to 1 of your opponent's Characters -10000 power during this turn.",
     "trigger": null,
     "setName": "ROMANCE DAWN [OP01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-027.png",
@@ -871,8 +871,8 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Counter] Give up to 1 of your opponent's Leader or Character cards −2000 power during this turn.",
-    "trigger": "Trigger[Trigger] Activate this card's [Counter] effect.",
+    "effect": "[Counter] Give up to 1 of your opponent's Leader or Character cards -2000 power during this turn.",
+    "trigger": "Activate this card's [Counter] effect.",
     "setName": "ROMANCE DAWN [OP01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-028.png",
     "cost": 1,
@@ -896,7 +896,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 2 or less Life cards, that card gains an additional +2000 power.",
-    "trigger": "Trigger[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "trigger": "Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
     "setName": "ROMANCE DAWN [OP01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-029.png",
     "cost": 1,
@@ -920,7 +920,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type Character card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "trigger": "Activate this card's [Main] effect.",
     "setName": "ROMANCE DAWN [OP01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-030.png",
     "cost": 1,
@@ -1147,7 +1147,7 @@
       "The Akazaya Nine"
     ],
     "effect": null,
-    "trigger": "Trigger[Trigger] Play this card.",
+    "trigger": "Play this card.",
     "setName": "ROMANCE DAWN [OP01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-037.png",
     "cost": 2,
@@ -1738,7 +1738,7 @@
       "Kouzuki Clan"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, set up to 1 of your Characters as active.",
-    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
+    "trigger": "K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
     "setName": "ROMANCE DAWN [OP01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-057.png",
     "cost": 1,
@@ -1763,7 +1763,7 @@
       "Kid Pirates"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, rest up to 1 of your opponent's Characters with a cost of 4 or less.",
-    "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters.",
+    "trigger": "Rest up to 1 of your opponent's Characters.",
     "setName": "ROMANCE DAWN [OP01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-058.png",
     "cost": 2,
@@ -2091,7 +2091,7 @@
       "The Seven Warlords of the Sea",
       "Baroque Works"
     ],
-    "effect": "[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.)[DON!! x1] Give blue Events in your hand −1 cost.",
+    "effect": "[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.)[DON!! x1] Give blue Events in your hand -1 cost.",
     "trigger": null,
     "setName": "ROMANCE DAWN [OP01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-067.png",
@@ -2117,7 +2117,7 @@
       "The Seven Warlords of the Sea",
       "Baroque Works"
     ],
-    "effect": "[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.)[DON!! x1] Give blue Events in your hand −1 cost.",
+    "effect": "[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.)[DON!! x1] Give blue Events in your hand -1 cost.",
     "trigger": null,
     "setName": "ROMANCE DAWN [OP01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-067_p1.png",
@@ -2237,7 +2237,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[On Play] Place up to 1 Character with a cost of 3 or less at the bottom of the owner's deck.",
-    "trigger": "Trigger[Trigger] Play this card.",
+    "trigger": "Play this card.",
     "setName": "ROMANCE DAWN [OP01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-071.png",
     "cost": 4,
@@ -2575,7 +2575,7 @@
       "Punk Hazard"
     ],
     "effect": null,
-    "trigger": "Trigger[Trigger] Play this card.",
+    "trigger": "Play this card.",
     "setName": "ROMANCE DAWN [OP01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-082.png",
     "cost": 2,
@@ -2668,7 +2668,7 @@
       "Donquixote Pirates"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, return up to 1 active Character with a cost of 3 or less to the owner's hand.",
-    "trigger": "Trigger[Trigger] Return up to 1 Character with a cost of 4 or less to the owner's hand.",
+    "trigger": "Return up to 1 Character with a cost of 4 or less to the owner's hand.",
     "setName": "ROMANCE DAWN [OP01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-086.png",
     "cost": 2,
@@ -2692,7 +2692,7 @@
       "Baroque Works"
     ],
     "effect": "[Counter] Play up to 1 {Baroque Works} type Character card with a cost of 3 or less from your hand.",
-    "trigger": "Trigger[Trigger] Activate this card's [Counter] effect.",
+    "trigger": "Activate this card's [Counter] effect.",
     "setName": "ROMANCE DAWN [OP01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-087.png",
     "cost": 2,
@@ -2717,7 +2717,7 @@
       "Baroque Works"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, look at 3 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
-    "trigger": "Trigger[Trigger] Draw 2 cards and trash 1 card from your hand.",
+    "trigger": "Draw 2 cards and trash 1 card from your hand.",
     "setName": "ROMANCE DAWN [OP01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-088.png",
     "cost": 1,
@@ -2789,7 +2789,7 @@
     "family": [
       "Animal Kingdom Pirates"
     ],
-    "effect": "[Your Turn] If you have 10 DON!! cards on your field, give all of your opponent's Characters −1000 power.",
+    "effect": "[Your Turn] If you have 10 DON!! cards on your field, give all of your opponent's Characters -1000 power.",
     "trigger": null,
     "setName": "ROMANCE DAWN [OP01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-091.png",
@@ -2813,7 +2813,7 @@
     "family": [
       "Animal Kingdom Pirates"
     ],
-    "effect": "[Your Turn] If you have 10 DON!! cards on your field, give all of your opponent's Characters −1000 power.",
+    "effect": "[Your Turn] If you have 10 DON!! cards on your field, give all of your opponent's Characters -1000 power.",
     "trigger": null,
     "setName": "ROMANCE DAWN [OP01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-091_p1.png",
@@ -2901,7 +2901,7 @@
       "The Four Emperors",
       "Animal Kingdom Pirates"
     ],
-    "effect": "[On Play] DON!! −6 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Animal Kingdom Pirates} type, K.O. all Characters other than this Character.",
+    "effect": "[On Play] DON!! -6 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Animal Kingdom Pirates} type, K.O. all Characters other than this Character.",
     "trigger": null,
     "setName": "ROMANCE DAWN [OP01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-094.png",
@@ -2923,7 +2923,7 @@
       "The Four Emperors",
       "Animal Kingdom Pirates"
     ],
-    "effect": "[On Play] DON!! −6 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Animal Kingdom Pirates} type, K.O. all Characters other than this Character.",
+    "effect": "[On Play] DON!! -6 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Animal Kingdom Pirates} type, K.O. all Characters other than this Character.",
     "trigger": null,
     "setName": "ROMANCE DAWN [OP01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-094_p1.png",
@@ -2965,7 +2965,7 @@
     "family": [
       "Animal Kingdom Pirates"
     ],
-    "effect": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 3 or less and up to 1 of your opponent's Characters with a cost of 2 or less.",
+    "effect": "[On Play] DON!! -2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 3 or less and up to 1 of your opponent's Characters with a cost of 2 or less.",
     "trigger": null,
     "setName": "ROMANCE DAWN [OP01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-096.png",
@@ -2986,7 +2986,7 @@
     "family": [
       "Animal Kingdom Pirates"
     ],
-    "effect": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 3 or less and up to 1 of your opponent's Characters with a cost of 2 or less.",
+    "effect": "[On Play] DON!! -2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 3 or less and up to 1 of your opponent's Characters with a cost of 2 or less.",
     "trigger": null,
     "setName": "ROMANCE DAWN [OP01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-096_p1.png",
@@ -3007,7 +3007,7 @@
     "family": [
       "Animal Kingdom Pirates"
     ],
-    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains [Rush] during this turn. Then, give up to 1 of your opponent's Characters −2000 power during this turn.(This card can attack on the turn in which it is played.)",
+    "effect": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains [Rush] during this turn. Then, give up to 1 of your opponent's Characters -2000 power during this turn.(This card can attack on the turn in which it is played.)",
     "trigger": null,
     "setName": "ROMANCE DAWN [OP01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-097.png",
@@ -3031,7 +3031,7 @@
     "family": [
       "Animal Kingdom Pirates"
     ],
-    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains [Rush] during this turn. Then, give up to 1 of your opponent's Characters −2000 power during this turn.(This card can attack on the turn in which it is played.)",
+    "effect": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains [Rush] during this turn. Then, give up to 1 of your opponent's Characters -2000 power during this turn.(This card can attack on the turn in which it is played.)",
     "trigger": null,
     "setName": "ROMANCE DAWN [OP01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-097_p1.png",
@@ -3149,7 +3149,7 @@
     "family": [
       "Animal Kingdom Pirates"
     ],
-    "effect": "[When Attacking] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your opponent trashes 1 card from their hand.",
+    "effect": "[When Attacking] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your opponent trashes 1 card from their hand.",
     "trigger": null,
     "setName": "ROMANCE DAWN [OP01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-102.png",
@@ -3173,7 +3173,7 @@
     "family": [
       "Animal Kingdom Pirates"
     ],
-    "effect": "[When Attacking] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your opponent trashes 1 card from their hand.",
+    "effect": "[When Attacking] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your opponent trashes 1 card from their hand.",
     "trigger": null,
     "setName": "ROMANCE DAWN [OP01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-102_p1.png",
@@ -3221,7 +3221,7 @@
       "SMILE"
     ],
     "effect": null,
-    "trigger": "Trigger[Trigger] Play this card.",
+    "trigger": "Play this card.",
     "setName": "ROMANCE DAWN [OP01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-104.png",
     "cost": 2,
@@ -3265,7 +3265,7 @@
       "Hawkins Pirates"
     ],
     "effect": "[On Play] Add up to 1 DON!! card from your DON!! deck and rest it.",
-    "trigger": "Trigger[Trigger] Play this card.",
+    "trigger": "Play this card.",
     "setName": "ROMANCE DAWN [OP01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-106.png",
     "cost": 4,
@@ -3309,7 +3309,7 @@
       "Kid Pirates",
       "SMILE"
     ],
-    "effect": "[On K.O.] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "effect": "[On K.O.] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
     "trigger": null,
     "setName": "ROMANCE DAWN [OP01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-108.png",
@@ -3405,7 +3405,7 @@
     "family": [
       "Animal Kingdom Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Block] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains +1000 power during this turn.",
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Block] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains +1000 power during this turn.",
     "trigger": null,
     "setName": "ROMANCE DAWN [OP01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-111.png",
@@ -3430,7 +3430,7 @@
     "family": [
       "Animal Kingdom Pirates"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character can also attack your opponent's active Characters during this turn.",
+    "effect": "[Activate: Main] [Once Per Turn] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character can also attack your opponent's active Characters during this turn.",
     "trigger": null,
     "setName": "ROMANCE DAWN [OP01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-112.png",
@@ -3482,7 +3482,7 @@
       "Drake Pirates",
       "Animal Kingdom Pirates"
     ],
-    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your opponent trashes 1 card from their hand.",
+    "effect": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your opponent trashes 1 card from their hand.",
     "trigger": null,
     "setName": "ROMANCE DAWN [OP01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-114.png",
@@ -3505,7 +3505,7 @@
       "SMILE"
     ],
     "effect": "[Main] K.O. up to 1 of your opponent's Characters with a cost of 2 or less, then add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "trigger": "Activate this card's [Main] effect.",
     "setName": "ROMANCE DAWN [OP01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-115.png",
     "cost": 4,
@@ -3530,7 +3530,7 @@
       "SMILE"
     ],
     "effect": "[Main] Look at 5 cards from the top of your deck; play up to 1 {SMILE} type Character card with a cost of 3 or less. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "trigger": "Activate this card's [Main] effect.",
     "setName": "ROMANCE DAWN [OP01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-116.png",
     "cost": 2,
@@ -3554,7 +3554,7 @@
       "Animal Kingdom Pirates",
       "SMILE"
     ],
-    "effect": "[Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 1 of your opponent's Characters with a cost of 6 or less.",
+    "effect": "[Main] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 1 of your opponent's Characters with a cost of 6 or less.",
     "trigger": null,
     "setName": "ROMANCE DAWN [OP01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-117.png",
@@ -3578,8 +3578,8 @@
     "family": [
       "Animal Kingdom Pirates"
     ],
-    "effect": "[Counter] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, draw 1 card.",
-    "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": "[Counter] DON!! -2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, draw 1 card.",
+    "trigger": "Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "setName": "ROMANCE DAWN [OP01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-118.png",
     "cost": 1,
@@ -3604,7 +3604,7 @@
       "Animal Kingdom Pirates"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, if you have 2 or less Life cards, add up to 1 DON!! card from your DON!! deck and rest it.",
-    "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "trigger": "Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "setName": "ROMANCE DAWN [OP01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-119.png",
     "cost": 2,

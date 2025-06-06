@@ -20,7 +20,7 @@ async function scrapaMaledetto() {
     class="border border-white relative"
     permanent
     app
-    width="260"
+    width="250"
   >
     <v-list-item title="Deckspedia" subtitle="Beta"></v-list-item>
     <v-divider></v-divider>

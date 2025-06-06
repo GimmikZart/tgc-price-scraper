@@ -37,8 +37,8 @@ async function fetchCards() {
 }
 </script>
 <template>
-  <div
-    class="w-screen flex gap-5 fixed bottom-0 right-0 items-center justify-around p-2 bg-black"
+  <nav
+    class="w-screen flex gap-5 fixed bottom-0 right-0 items-center justify-around h-[50px] bg-black"
   >
     <NuxtLink
       v-if="userAuth.isAdmin"
@@ -59,5 +59,5 @@ async function fetchCards() {
     >
       <v-icon size="30" icon="mdi-account-circle"></v-icon>
     </NuxtLink>
-  </div>
+  </nav>
 </template>

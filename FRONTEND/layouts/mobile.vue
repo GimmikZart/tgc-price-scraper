@@ -3,10 +3,8 @@
     <v-main class="bg-black" style="padding-bottom: 100px">
       <slot />
     </v-main>
-    <NavbarMobile />
+    <MobileNavbar />
   </v-app>
 </template>
 
-<script setup>
-const route = useRoute()
-</script>
+<script setup></script>

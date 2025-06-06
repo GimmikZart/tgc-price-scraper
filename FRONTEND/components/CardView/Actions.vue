@@ -140,10 +140,7 @@ watch(openFilter, (newVal) => {
 </script>
 
 <template>
-  <div
-    class="fixed overflow-hidden bottom-[60px] w-full flex flex-col"
-    :class="{ 'h-screen': openFilter }"
-  >
+  <div class="w-full flex flex-col" :class="{ 'h-screen': openFilter }">
     <!-- LAYER SCURO -->
     <div
       v-if="openFilter"

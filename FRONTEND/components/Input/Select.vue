@@ -41,7 +41,7 @@ const containerClass = computed(() => ({
   "h-dvh fixed w-full left-0 top-0 bg-black z-10": isFocused.value,
 }));
 const inputClass = computed(() => ({
-  "absolute z-[50] bottom-[70px] px-5": isFocused.value,
+  "absolute z-[50] bottom-[20px] px-5": isFocused.value,
 }));
 
 const menuProps = computed(() => ({
@@ -63,7 +63,7 @@ function handleMenu(event) {
         v-model="model"
         :items="items"
         :label="label"
-        density="compact"
+        density="default"
         variant="outlined"
         :multiple="multiple"
         chips
@@ -96,7 +96,7 @@ function handleMenu(event) {
         v-model="model"
         :items="items"
         :label="label"
-        density="compact"
+        density="default"
         variant="outlined"
         :multiple="multiple"
         chips
@@ -131,10 +131,13 @@ function handleMenu(event) {
 
 <style>
 .flex-menu {
-  min-height: 300px !important;
+  min-height: 70lvh !important;
   display: flex !important;
   flex-direction: column !important;
   justify-content: end !important;
+  left: 0 !important;
+  top: -70lvh !important;
+  padding-y: 1rem !important;
 }
 .flex-menu .v-list {
   background: black !important;

@@ -1,56 +1,70 @@
 <script setup>
-import { ref } from 'vue'
-import { useDisplay } from 'vuetify'
-import { useSnackbar } from '@/stores/useSnackbar'
-import {fetchCardsFromOfficialWebSite} from '@/api/cardsFromApi'
+import { ref } from "vue";
+import { useDisplay } from "vuetify";
+import { useSnackbar } from "@/stores/useSnackbar";
+import { fetchCardsFromOfficialWebSite } from "@/api/cardsFromApi";
 
-const { mdAndDown } = useDisplay()
-const dialog = ref(false)
-const isLoading = ref(false)
-const snackbar = useSnackbar()
+const { mdAndDown } = useDisplay();
+const dialog = ref(false);
+const isLoading = ref(false);
+const snackbar = useSnackbar();
 
-const bulkSetList = ref([])
+const bulkSetList = ref([]);
 
 function addSetField() {
   bulkSetList.value.push({
-    setName: '',
-    cardNumber: null
-  })
+    setName: "",
+    cardNumber: null,
+  });
 }
 
 function removeSetField(index) {
-  bulkSetList.value.splice(index, 1)
+  bulkSetList.value.splice(index, 1);
 }
 
 async function scrapaCarteOnePiece() {
-  if (!bulkSetList.value.length) return
+  if (!bulkSetList.value.length) return;
 
-  isLoading.value = true
+  isLoading.value = true;
 
   for (const entry of bulkSetList.value) {
-    const expansionName = entry.setName.trim()
-    const cardNumber = parseInt(entry.cardNumber) || 0
+    const expansionName = entry.setName.trim();
+    const cardNumber = parseInt(entry.cardNumber) || 0;
     if (!expansionName || cardNumber <= 0) {
-      snackbar.addMessage(`Nome set o numero di carte non valido: "${expansionName}" con ${cardNumber} carte`, 'error')
-      continue
+      snackbar.addMessage(
+        `Nome set o numero di carte non valido: "${expansionName}" con ${cardNumber} carte`,
+        "error"
+      );
+      continue;
     }
 
     try {
-      snackbar.addMessage(`Inizio scraping per "${expansionName}" con ${cardNumber} carte`, 'info')
-      await fetchCardsFromOfficialWebSite({expansionName, cardNumber})
+      snackbar.addMessage(
+        `Inizio scraping per "${expansionName}" con ${cardNumber} carte`,
+        "info"
+      );
+      await fetchCardsFromOfficialWebSite({ expansionName, cardNumber });
     } catch (e) {
-      snackbar.addMessage(`Errore nello scraping di "${expansionName}": ${e}`, 'error')
+      snackbar.addMessage(
+        `Errore nello scraping di "${expansionName}": ${e}`,
+        "error"
+      );
     }
   }
 
-  isLoading.value = false
-  bulkSetList.value = []
+  isLoading.value = false;
+  bulkSetList.value = [];
 }
 </script>
 
 <template>
   <div>
-    <v-btn @click="dialog = true" :loading="isLoading">
+    <v-btn
+      @click="dialog = true"
+      height="100%"
+      class="pa-3"
+      :loading="isLoading"
+    >
       SCRAPA CARTE ONE PIECE
     </v-btn>
 
@@ -109,9 +123,7 @@ async function scrapaCarteOnePiece() {
         </v-card-text>
 
         <v-card-actions class="justify-end">
-          <v-btn @click="dialog = false" color="primary">
-            Chiudi
-          </v-btn>
+          <v-btn @click="dialog = false" color="primary"> Chiudi </v-btn>
           <v-btn
             @click="scrapaCarteOnePiece"
             :loading="isLoading"

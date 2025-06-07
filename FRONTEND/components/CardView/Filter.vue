@@ -113,18 +113,11 @@ function resetFilters() {
 function closeOverlay() {
   emit("close");
 }
-
-onMounted(() => {
-  document.documentElement.classList.add("overflow-hidden");
-});
-onUnmounted(() => {
-  document.documentElement.classList.remove("overflow-hidden");
-});
 </script>
 
 <template>
   <div
-    class="fixed flex flex-col justify-end bottom-[50px] right-0 inset-0 z-20"
+    class="fixed flex flex-col justify-end bottom-[50px] right-0 inset-0 z-20 lg:ml-[250px]"
   >
     <!-- il genitore deciderà quando mostrare/ togliere questo componente -->
     <!-- Layer scuro di sfondo -->
@@ -137,7 +130,7 @@ onUnmounted(() => {
       <h3 class="text-2xl font-bold text-center bg-black z-10 my-3 w-full">
         Filtri
       </h3>
-      <div class="flex flex-col max-h-[500px] overflow-y-auto">
+      <div class="flex flex-col max-h-[500px] overflow-y-auto py-2">
         <!-- FILTRI BASE -->
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 mb-3">
           <InputSelect
@@ -253,7 +246,7 @@ onUnmounted(() => {
       </div>
     </div>
     <!-- Bottoni di azione: Reset e Chiudi -->
-    <div class="flex w-full gap-3 pt-4 bg-black px-6 py-3">
+    <div class="flex w-full gap-3 bg-black px-6 py-3 pt-0">
       <v-btn color="white" variant="tonal" class="flex-1" @click="resetFilters">
         Reset
       </v-btn>

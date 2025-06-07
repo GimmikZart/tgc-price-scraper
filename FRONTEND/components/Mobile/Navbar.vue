@@ -7,6 +7,7 @@ import { fetchCardsFromApi } from "@/api/cardsFromApi";
 const snackbar = useSnackbar();
 const isLoading = ref(false);
 const userAuth = useUserAuth();
+const mobileFloatMenu = useMobileFloatMenu();
 
 async function updateAllProducts() {
   isLoading.value = true;
@@ -50,8 +51,17 @@ async function fetchCards() {
     <NuxtLink to="/" class="text-white p-2 cursor-pointer rounded-lg">
       <v-icon size="30" icon="mdi-shopping"></v-icon>
     </NuxtLink>
-    <NuxtLink to="/cards" class="text-white p-2 cursor-pointer rounded-lg">
+    <NuxtLink
+      to="/cards"
+      class="text-white p-2 cursor-pointer rounded-lg"
+      active-class="text-purple font-bold"
+      v-slot="{ isActive }"
+      @click="mobileFloatMenu.open"
+    >
       <v-icon size="30" icon="mdi-cards"></v-icon>
+      <v-icon v-if="isActive" size="15" class="animate-bounce"
+        >mdi-arrow-up</v-icon
+      >
     </NuxtLink>
     <NuxtLink
       to="/user"

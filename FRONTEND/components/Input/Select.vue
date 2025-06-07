@@ -38,7 +38,8 @@ const model = computed({
 const isFocused = ref(false);
 
 const containerClass = computed(() => ({
-  "h-dvh fixed w-full left-0 top-0 bg-black z-10": isFocused.value,
+  "h-dvh fixed w-full right-0 top-0 bg-black z-10 lg:left-[250px]":
+    isFocused.value,
 }));
 const inputClass = computed(() => ({
   "absolute z-[50] bottom-[20px] px-5": isFocused.value,
@@ -63,7 +64,7 @@ function handleMenu(event) {
         v-model="model"
         :items="items"
         :label="label"
-        density="default"
+        density="compact"
         variant="outlined"
         :multiple="multiple"
         chips
@@ -96,7 +97,7 @@ function handleMenu(event) {
         v-model="model"
         :items="items"
         :label="label"
-        density="default"
+        density="compact"
         variant="outlined"
         :multiple="multiple"
         chips
@@ -136,8 +137,8 @@ function handleMenu(event) {
   flex-direction: column !important;
   justify-content: end !important;
   left: 0 !important;
-  top: -70lvh !important;
-  padding-y: 1rem !important;
+  top: -71lvh !important;
+  padding-y: 2rem !important;
 }
 .flex-menu .v-list {
   background: black !important;

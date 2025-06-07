@@ -1,13 +1,12 @@
-import { useMediaQuery } from '@vueuse/core'
+import { useMyBreakpoints } from "@/composables/useMyBreakpoints";
 
 export const useDeviceLayout = () => {
-    const isMobile = useMediaQuery('(max-width: 1024px)')
-    const isDesktop = useMediaQuery('(min-width: 1025px)')
+  const { isMobile, isDesktop } = useMyBreakpoints();
 
-    const layout = computed(() => {
-        if (isMobile.value) return 'mobile'
-        if (isDesktop.value) return 'desktop'
-    })
+  const layout = computed(() => {
+    if (isMobile.value) return "mobile";
+    else if (isDesktop.value) return "desktop";
+  });
 
-    return { layout }
-}
+  return { layout };
+};

@@ -44,7 +44,7 @@ watch(
 
 <template>
   <div
-    class="flex fixed bottom-[98px] right-0 lg:bottom-0 p-1 lg:p-3 lg:pl-[250px] bg-black w-full justify-center"
+    class="flex fixed bottom-[50px] right-0 lg:bottom-0 p-1 lg:p-3 lg:pl-[250px] bg-black w-full justify-center"
   >
     <v-pagination
       density="compact"

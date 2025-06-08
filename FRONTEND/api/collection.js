@@ -1,6 +1,8 @@
 export async function fetchUserCollection(userUuid) {
   const client = useSupabaseClient();
-  const { data, error } = await client
+  const { allCards } = await useOnePieceCards();
+
+  const { data: userCollection = [], error } = await client
     .from("collection")
     .select("*")
     .eq("user_uuid", userUuid);
@@ -9,12 +11,14 @@ export async function fetchUserCollection(userUuid) {
     throw new Error(error.message);
   }
 
-  return data;
+  console.log(`Fetching collection for user ${userUuid}`, userCollection);
+
+  const idsSet = new Set(userCollection.map((item) => item?.card_id));
+
+  return allCards.filter((card) => idsSet.has(card.id));
 }
 
 export async function fetchCardInCollection(userUuid, cardId) {
-  //console.log(`Fetching card ${cardId} for user ${userUuid}`);
-
   const client = useSupabaseClient();
   const { data: collectionInfo, error } = await client
     .from("collection")

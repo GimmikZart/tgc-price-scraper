@@ -2,8 +2,14 @@
 import { ref, computed, watch } from "vue";
 const emit = defineEmits(["update:filtered", "close"]);
 
+const props = defineProps({
+  cardsList: {
+    type: Array,
+    default: [],
+  },
+});
+
 const {
-  allCards,
   setNameList,
   typeList,
   familyList,
@@ -28,7 +34,7 @@ const powerFilter = ref([powerLimits.min, powerLimits.max]);
 const hasTriggerFilter = ref(false);
 
 const filtered = computed(() => {
-  return allCards.filter((card) => {
+  return props.cardsList.filter((card) => {
     const nameMatch = !nameFilter.value || nameFilter.value.includes(card.name);
     const colorMatch =
       !colorFilter.value.length ||

@@ -40,7 +40,7 @@ async function removeCardInCollection() {
 }
 </script>
 <template>
-  <div :class="{ 'border-2 rounded-2xl p-1 border-white/50': editCollection }">
+  <div :class="{ 'border-[1px] rounded-2xl border-white': editCollection }">
     <v-img
       :src="card.image"
       :lazy-src="card.image"
@@ -87,7 +87,7 @@ async function removeCardInCollection() {
       <v-btn variant="text" color="white" @click="removeCardInCollection">
         <v-icon size="25">mdi-minus-circle-outline</v-icon>
       </v-btn>
-      <span class="font-bold">{{ cardCountInCollection }}</span>
+      <span class="font-bold text-2xl">{{ cardCountInCollection }}</span>
       <v-btn variant="text" color="white" @click="addCardInCollection">
         <v-icon size="25">mdi-plus-circle-outline</v-icon>
       </v-btn>

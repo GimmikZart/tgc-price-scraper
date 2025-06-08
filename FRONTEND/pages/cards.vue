@@ -85,13 +85,18 @@ onMounted(() => {
 
     <CardViewFilter
       v-show="openFilter"
+      :cards-list="allCards"
       @update:filtered="handleFilteredUpdate"
       @close="openFilter = false"
     />
 
     <MobileFloatMenu>
       <template #buttons>
-        <v-btn class="text-white" variant="text" @click="editCollection = true">
+        <v-btn
+          class="text-white"
+          variant="text"
+          @click="editCollection = !editCollection"
+        >
           <v-icon size="30">mdi-list-status</v-icon>
         </v-btn>
         <v-btn class="text-white" variant="text" @click="openFilter = true">

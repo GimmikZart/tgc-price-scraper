@@ -15,11 +15,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "PURPLE/BLACK Monkey.D.Luffy [ST26]",
+    "setName": "PURPLE/BLACK Monkey.D.Luffy [ST-26]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-065_r1.png",
     "cost": 6,
     "expansionCode": "OP05",
-    "id": "OP05-065_r1"
+    "imageId": "OP05-065_r1",
+    "id": "OP05-065_r1_PURPLEBLACK_MonkeyDLuffy_[ST-26]"
   },
   {
     "name": "Jinbe",
@@ -38,7 +39,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Opponent's Turn] If you have 10 DON!! cards on your field, this Character gains +1000 power.",
     "trigger": null,
-    "setName": "PURPLE/BLACK Monkey.D.Luffy [ST26]",
+    "setName": "PURPLE/BLACK Monkey.D.Luffy [ST-26]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-066_r2.png",
     "cost": 5,
     "abilityKeywords": [
@@ -46,7 +47,8 @@
       "[Opponent's Turn]"
     ],
     "expansionCode": "OP05",
-    "id": "OP05-066_r2"
+    "imageId": "OP05-066_r2",
+    "id": "OP05-066_r2_PURPLEBLACK_MonkeyDLuffy_[ST-26]"
   },
   {
     "name": "Fra-Nosuke",
@@ -64,7 +66,7 @@
     ],
     "effect": "[DON!! x1] If you have 8 or more DON!! cards on your field, this Character gains [Rush].(This card can attack on the turn in which it is played.)",
     "trigger": null,
-    "setName": "PURPLE/BLACK Monkey.D.Luffy [ST26]",
+    "setName": "PURPLE/BLACK Monkey.D.Luffy [ST-26]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-070_r2.png",
     "cost": 5,
     "abilityKeywords": [
@@ -72,7 +74,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP05",
-    "id": "OP05-070_r2"
+    "imageId": "OP05-070_r2",
+    "id": "OP05-070_r2_PURPLEBLACK_MonkeyDLuffy_[ST-26]"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -92,7 +95,7 @@
     ],
     "effect": "[DON!! x1] All of your Characters gain +1 cost.[Your Turn] [Once Per Turn] When 2 or more DON!! cards on your field are returned to your DON!! deck, add up to 1 DON!! card from your DON!! deck and set it as active, and add up to 1 additional DON!! card and rest it.",
     "trigger": null,
-    "setName": "PURPLE/BLACK Monkey.D.Luffy [ST26]",
+    "setName": "PURPLE/BLACK Monkey.D.Luffy [ST-26]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-061_p2.png",
     "life": 4,
     "abilityKeywords": [
@@ -101,7 +104,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-061_p2"
+    "imageId": "OP09-061_p2",
+    "id": "OP09-061_p2_PURPLEBLACK_MonkeyDLuffy_[ST-26]"
   },
   {
     "name": "Usopp",
@@ -119,11 +123,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "PURPLE/BLACK Monkey.D.Luffy [ST26]",
+    "setName": "PURPLE/BLACK Monkey.D.Luffy [ST-26]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-063_r1.png",
     "cost": 4,
     "expansionCode": "OP09",
-    "id": "OP09-063_r1"
+    "imageId": "OP09-063_r1",
+    "id": "OP09-063_r1_PURPLEBLACK_MonkeyDLuffy_[ST-26]"
   },
   {
     "name": "Nami",
@@ -141,11 +146,12 @@
     ],
     "effect": "[On Play] You may return 1 or more DON!! cards from your field to your DON!! deck: Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
     "trigger": null,
-    "setName": "PURPLE/BLACK Monkey.D.Luffy [ST26]",
+    "setName": "PURPLE/BLACK Monkey.D.Luffy [ST-26]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-070_r1.png",
     "cost": 3,
     "expansionCode": "OP09",
-    "id": "OP09-070_r1"
+    "imageId": "OP09-070_r1",
+    "id": "OP09-070_r1_PURPLEBLACK_MonkeyDLuffy_[ST-26]"
   },
   {
     "name": "Roronoa Zoro",
@@ -163,11 +169,12 @@
     ],
     "effect": "[On Play] You may return 1 or more DON!! cards from your field to your DON!! deck: Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": null,
-    "setName": "PURPLE/BLACK Monkey.D.Luffy [ST26]",
+    "setName": "PURPLE/BLACK Monkey.D.Luffy [ST-26]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-076_r1.png",
     "cost": 3,
     "expansionCode": "OP09",
-    "id": "OP09-076_r1"
+    "imageId": "OP09-076_r1",
+    "id": "OP09-076_r1_PURPLEBLACK_MonkeyDLuffy_[ST-26]"
   },
   {
     "name": "Gum-Gum Lightning",
@@ -186,14 +193,15 @@
     ],
     "effect": "[Main] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with 6000 power or less.",
     "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "setName": "PURPLE/BLACK Monkey.D.Luffy [ST26]",
+    "setName": "PURPLE/BLACK Monkey.D.Luffy [ST-26]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-077_r1.png",
     "cost": 2,
     "abilityKeywords": [
       "[Main]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-077_r1"
+    "imageId": "OP09-077_r1",
+    "id": "OP09-077_r1_PURPLEBLACK_MonkeyDLuffy_[ST-26]"
   },
   {
     "name": "Gum-Gum Giant",
@@ -212,14 +220,15 @@
     ],
     "effect": "[Counter] DON!! −2, You may trash 1 card from your hand: If your Leader has the {Straw Hat Crew} type, up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, draw 2 cards.",
     "trigger": null,
-    "setName": "PURPLE/BLACK Monkey.D.Luffy [ST26]",
+    "setName": "PURPLE/BLACK Monkey.D.Luffy [ST-26]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-078_p1.png",
     "cost": 1,
     "abilityKeywords": [
       "[Counter]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-078_p1"
+    "imageId": "OP09-078_p1",
+    "id": "OP09-078_p1_PURPLEBLACK_MonkeyDLuffy_[ST-26]"
   },
   {
     "name": "Brook",
@@ -241,7 +250,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-010_r1.png",
     "cost": 5,
     "expansionCode": "ST14",
-    "id": "ST14-010_r1"
+    "imageId": "ST14-010_r1",
+    "id": "ST14-010_r1_set_not_found"
   },
   {
     "name": "Soba Mask",
@@ -259,11 +269,12 @@
     ],
     "effect": "If you have a [San-Gorou] or [Sanji] Character with 7000 base power or more, give this card in your hand −5 cost.[On Play] Return all of your [San-Gorou] and [Sanji] Characters to the owner's hand.",
     "trigger": null,
-    "setName": "PURPLE/BLACK Monkey.D.Luffy [ST26]",
+    "setName": "PURPLE/BLACK Monkey.D.Luffy [ST-26]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST26-001.png",
     "cost": 7,
     "expansionCode": "ST26",
-    "id": "ST26-001"
+    "imageId": "ST26-001",
+    "id": "ST26-001_PURPLEBLACK_MonkeyDLuffy_[ST-26]"
   },
   {
     "name": "Tony Tony.Chopper",
@@ -282,14 +293,15 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 1 of your opponent's DON!! cards or Characters with a cost of 1 or less.",
     "trigger": null,
-    "setName": "PURPLE/BLACK Monkey.D.Luffy [ST26]",
+    "setName": "PURPLE/BLACK Monkey.D.Luffy [ST-26]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST26-002.png",
     "cost": 3,
     "abilityKeywords": [
       "[Blocker]"
     ],
     "expansionCode": "ST26",
-    "id": "ST26-002"
+    "imageId": "ST26-002",
+    "id": "ST26-002_PURPLEBLACK_MonkeyDLuffy_[ST-26]"
   },
   {
     "name": "Nico Robin",
@@ -307,11 +319,12 @@
     ],
     "effect": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": null,
-    "setName": "PURPLE/BLACK Monkey.D.Luffy [ST26]",
+    "setName": "PURPLE/BLACK Monkey.D.Luffy [ST-26]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST26-003.png",
     "cost": 3,
     "expansionCode": "ST26",
-    "id": "ST26-003"
+    "imageId": "ST26-003",
+    "id": "ST26-003_PURPLEBLACK_MonkeyDLuffy_[ST-26]"
   },
   {
     "name": "General Franky",
@@ -329,11 +342,12 @@
     ],
     "effect": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Give up to 2 of your opponent's Characters −2000 power during this turn.",
     "trigger": null,
-    "setName": "PURPLE/BLACK Monkey.D.Luffy [ST26]",
+    "setName": "PURPLE/BLACK Monkey.D.Luffy [ST-26]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST26-004.png",
     "cost": 8,
     "expansionCode": "ST26",
-    "id": "ST26-004"
+    "imageId": "ST26-004",
+    "id": "ST26-004_PURPLEBLACK_MonkeyDLuffy_[ST-26]"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -351,13 +365,14 @@
     ],
     "effect": "[On Play]/[When Attacking] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader is multicolored and your opponent has 5 or more DON!! cards on their field, your {Straw Hat Crew} type Leader's base power becomes 7000 until the end of your opponent's next End Phase.",
     "trigger": null,
-    "setName": "PURPLE/BLACK Monkey.D.Luffy [ST26]",
+    "setName": "PURPLE/BLACK Monkey.D.Luffy [ST-26]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST26-005.png",
     "cost": 6,
     "abilityKeywords": [
       "[When Attacking]"
     ],
     "expansionCode": "ST26",
-    "id": "ST26-005"
+    "imageId": "ST26-005",
+    "id": "ST26-005_PURPLEBLACK_MonkeyDLuffy_[ST-26]"
   }
 ]

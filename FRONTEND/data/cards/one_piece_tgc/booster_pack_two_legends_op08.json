@@ -17,14 +17,15 @@
     ],
     "effect": "[Activate: Main] You may trash this Character: If you have 2 or less Life cards, K.O. up to 1 of your opponent's Characters with a cost of 4 or less. Then, draw 1 card.",
     "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-109_p2.png",
     "cost": 5,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
     "expansionCode": "OP07",
-    "id": "OP07-109_p2"
+    "imageId": "OP07-109_p2",
+    "id": "OP07-109_p2_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Tony Tony.Chopper",
@@ -45,7 +46,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] Give up to 3 of your {Animal} or {Drum Kingdom} type Characters up to 1 rested DON!! card each.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-001.png",
     "life": 4,
     "abilityKeywords": [
@@ -53,7 +54,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-001"
+    "imageId": "OP08-001",
+    "id": "OP08-001_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Tony Tony.Chopper",
@@ -74,7 +76,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] Give up to 3 of your {Animal} or {Drum Kingdom} type Characters up to 1 rested DON!! card each.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-001_p1.png",
     "life": 4,
     "abilityKeywords": [
@@ -82,7 +84,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-001_p1"
+    "imageId": "OP08-001_p1",
+    "id": "OP08-001_p1_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Marco",
@@ -101,7 +104,7 @@
     ],
     "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] Draw 1 card and place 1 card from your hand at the top or bottom of your deck. Then, give up to 1 of your opponent's Characters −2000 power during this turn.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-002.png",
     "life": 4,
     "abilityKeywords": [
@@ -110,7 +113,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-002"
+    "imageId": "OP08-002",
+    "id": "OP08-002_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Marco",
@@ -129,7 +133,7 @@
     ],
     "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] Draw 1 card and place 1 card from your hand at the top or bottom of your deck. Then, give up to 1 of your opponent's Characters −2000 power during this turn.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-002_p1.png",
     "life": 4,
     "abilityKeywords": [
@@ -138,7 +142,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-002_p1"
+    "imageId": "OP08-002_p1",
+    "id": "OP08-002_p1_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Twenty Doctors",
@@ -156,14 +161,15 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-003.png",
     "cost": 2,
     "abilityKeywords": [
       "[Blocker]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-003"
+    "imageId": "OP08-003",
+    "id": "OP08-003_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Kuromarimo",
@@ -181,11 +187,12 @@
     ],
     "effect": "[On Play] If you have [Chess], K.O. up to 1 of your opponent's Characters with 3000 power or less.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-004.png",
     "cost": 4,
     "expansionCode": "OP08",
-    "id": "OP08-004"
+    "imageId": "OP08-004",
+    "id": "OP08-004_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Chess",
@@ -203,11 +210,12 @@
     ],
     "effect": "[On Play] Give up to 1 of your opponent's Characters −2000 power during this turn. Then, if you don't have [Kuromarimo], play up to 1 [Kuromarimo] from your hand.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-005.png",
     "cost": 3,
     "expansionCode": "OP08",
-    "id": "OP08-005"
+    "imageId": "OP08-005",
+    "id": "OP08-005_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Chessmarimo",
@@ -225,14 +233,15 @@
     ],
     "effect": "[Your Turn] If you have [Kuromarimo] and [Chess] in your trash, this Character gains +2000 power.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-006.png",
     "cost": 5,
     "abilityKeywords": [
       "[Your Turn]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-006"
+    "imageId": "OP08-006",
+    "id": "OP08-006_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Tony Tony.Chopper",
@@ -252,7 +261,7 @@
     ],
     "effect": "[Your Turn] [On Play]/[When Attacking] Look at 5 cards from the top of your deck and play up to 1 {Animal} type Character card with 4000 power or less rested. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-007.png",
     "cost": 3,
     "abilityKeywords": [
@@ -260,7 +269,8 @@
       "[Your Turn]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-007"
+    "imageId": "OP08-007",
+    "id": "OP08-007_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Tony Tony.Chopper",
@@ -280,7 +290,7 @@
     ],
     "effect": "[Your Turn] [On Play]/[When Attacking] Look at 5 cards from the top of your deck and play up to 1 {Animal} type Character card with 4000 power or less rested. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-007_p1.png",
     "cost": 3,
     "abilityKeywords": [
@@ -288,7 +298,8 @@
       "[Your Turn]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-007_p1"
+    "imageId": "OP08-007_p1",
+    "id": "OP08-007_p1_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Dalton",
@@ -306,7 +317,7 @@
     ],
     "effect": "[On Play] Give up to 1 of your opponent's Characters −1000 power during this turn.[DON!! x1] [Activate: Main] [Once Per Turn] You may add 1 card from the top of your Life cards to your hand: This Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-008.png",
     "cost": 5,
     "abilityKeywords": [
@@ -316,7 +327,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-008"
+    "imageId": "OP08-008",
+    "id": "OP08-008_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Maria Onion Bear",
@@ -334,11 +346,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-009.png",
     "cost": 3,
     "expansionCode": "OP08",
-    "id": "OP08-009"
+    "imageId": "OP08-009",
+    "id": "OP08-009_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Hiking Bear",
@@ -357,7 +370,7 @@
     ],
     "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] Up to 1 of your {Animal} type Characters other than this Character gains +1000 power during this turn.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-010.png",
     "cost": 3,
     "abilityKeywords": [
@@ -366,7 +379,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-010"
+    "imageId": "OP08-010",
+    "id": "OP08-010_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Musshuru",
@@ -385,11 +399,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-011.png",
     "cost": 6,
     "expansionCode": "OP08",
-    "id": "OP08-011"
+    "imageId": "OP08-011",
+    "id": "OP08-011_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Lapins",
@@ -408,7 +423,7 @@
     ],
     "effect": "[DON!! x2] [When Attacking] If your Leader has the {Drum Kingdom} type, K.O. up to 1 of your opponent's Characters with 4000 power or less.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-012.png",
     "cost": 3,
     "abilityKeywords": [
@@ -416,7 +431,8 @@
       "[DON!! x2]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-012"
+    "imageId": "OP08-012",
+    "id": "OP08-012_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Robson",
@@ -435,7 +451,7 @@
     ],
     "effect": "[DON!! x2] This Character gains [Rush].(This card can attack on the turn in which it is played.)",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-013.png",
     "cost": 3,
     "abilityKeywords": [
@@ -443,7 +459,8 @@
       "[DON!! x2]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-013"
+    "imageId": "OP08-013",
+    "id": "OP08-013_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Wapol",
@@ -461,7 +478,7 @@
     ],
     "effect": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −2000 power during this turn. Then, this Character gains +2000 power until the end of your opponent's next turn.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-014.png",
     "cost": 6,
     "abilityKeywords": [
@@ -469,7 +486,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-014"
+    "imageId": "OP08-014",
+    "id": "OP08-014_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Dr.Kureha",
@@ -487,11 +505,12 @@
     ],
     "effect": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 [Tony Tony.Chopper] or {Drum Kingdom} type card other than [Dr.Kureha] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-015.png",
     "cost": 1,
     "expansionCode": "OP08",
-    "id": "OP08-015"
+    "imageId": "OP08-015",
+    "id": "OP08-015_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Dr.Kureha",
@@ -509,11 +528,12 @@
     ],
     "effect": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 [Tony Tony.Chopper] or {Drum Kingdom} type card other than [Dr.Kureha] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-015_p1.png",
     "cost": 1,
     "expansionCode": "OP08",
-    "id": "OP08-015_p1"
+    "imageId": "OP08-015_p1",
+    "id": "OP08-015_p1_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Dr.Hiriluk",
@@ -531,14 +551,15 @@
     ],
     "effect": "[Activate: Main] You may rest this Character: If your Leader is [Tony Tony.Chopper], all of your [Tony Tony.Chopper] Characters gain +2000 power during this turn.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-016.png",
     "cost": 3,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-016"
+    "imageId": "OP08-016",
+    "id": "OP08-016_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "I'd Never Shoot You!!!!",
@@ -556,14 +577,15 @@
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, give up to 1 of your opponent's Leader or Character cards −1000 power during this turn.",
     "trigger": "Trigger[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-017.png",
     "cost": 2,
     "abilityKeywords": [
       "[Counter]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-017"
+    "imageId": "OP08-017",
+    "id": "OP08-017_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Cloven Rose",
@@ -583,14 +605,15 @@
     ],
     "effect": "[Main] Up to 3 of your Characters gain +1000 power during this turn. Then, give up to 1 of your opponent's Characters −2000 power during this turn.",
     "trigger": "Trigger[Trigger] Give up to 1 of your opponent's Leader or Character cards −3000 power during this turn.",
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-018.png",
     "cost": 2,
     "abilityKeywords": [
       "[Main]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-018"
+    "imageId": "OP08-018",
+    "id": "OP08-018_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Munch-Munch Mutation",
@@ -608,7 +631,7 @@
     ],
     "effect": "[Main]/[Counter] Give up to 1 of your opponent's Characters −3000 power during this turn. Then, up to 1 of your Characters gains +3000 power during this turn.",
     "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with 5000 power or less.",
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-019.png",
     "cost": 3,
     "abilityKeywords": [
@@ -616,7 +639,8 @@
       "[Counter]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-019"
+    "imageId": "OP08-019",
+    "id": "OP08-019_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Drum Kingdom",
@@ -634,14 +658,15 @@
     ],
     "effect": "[Opponent's Turn] All of your {Drum Kingdom} type Characters gain +1000 power.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-020.png",
     "cost": 1,
     "abilityKeywords": [
       "[Opponent's Turn]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-020"
+    "imageId": "OP08-020",
+    "id": "OP08-020_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Carrot",
@@ -659,7 +684,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] If you have a {Minks} type Character, rest up to 1 of your opponent's Characters with a cost of 5 or less.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-021.png",
     "life": 5,
     "abilityKeywords": [
@@ -667,7 +692,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-021"
+    "imageId": "OP08-021",
+    "id": "OP08-021_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Carrot",
@@ -685,7 +711,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] If you have a {Minks} type Character, rest up to 1 of your opponent's Characters with a cost of 5 or less.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-021_p1.png",
     "life": 5,
     "abilityKeywords": [
@@ -693,7 +719,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-021_p1"
+    "imageId": "OP08-021_p1",
+    "id": "OP08-021_p1_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Inuarashi",
@@ -712,11 +739,12 @@
     ],
     "effect": "[On Play] If your Leader has the {Minks} type, up to 2 of your opponent's rested Characters with a cost of 5 or less will not become active in your opponent's next Refresh Phase.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-022.png",
     "cost": 5,
     "expansionCode": "OP08",
-    "id": "OP08-022"
+    "imageId": "OP08-022",
+    "id": "OP08-022_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Carrot",
@@ -734,14 +762,15 @@
     ],
     "effect": "[On Play]/[When Attacking] Up to 1 of your opponent's rested Characters with a cost of 7 or less will not become active in your opponent's next Refresh Phase.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-023.png",
     "cost": 5,
     "abilityKeywords": [
       "[When Attacking]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-023"
+    "imageId": "OP08-023",
+    "id": "OP08-023_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Carrot",
@@ -759,14 +788,15 @@
     ],
     "effect": "[On Play]/[When Attacking] Up to 1 of your opponent's rested Characters with a cost of 7 or less will not become active in your opponent's next Refresh Phase.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-023_p1.png",
     "cost": 5,
     "abilityKeywords": [
       "[When Attacking]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-023_p1"
+    "imageId": "OP08-023_p1",
+    "id": "OP08-023_p1_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Concelot",
@@ -784,14 +814,15 @@
     ],
     "effect": "[When Attacking] Up to 1 of your opponent's rested Characters with a cost of 4 or less will not become active in your opponent's next Refresh Phase.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-024.png",
     "cost": 3,
     "abilityKeywords": [
       "[When Attacking]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-024"
+    "imageId": "OP08-024",
+    "id": "OP08-024_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Shishilian",
@@ -809,11 +840,12 @@
     ],
     "effect": "[On Play] Up to 1 of your opponent's rested Characters with a cost of 3 or less will not become active in your opponent's next Refresh Phase.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-025.png",
     "cost": 3,
     "expansionCode": "OP08",
-    "id": "OP08-025"
+    "imageId": "OP08-025",
+    "id": "OP08-025_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Giovanni",
@@ -831,7 +863,7 @@
     ],
     "effect": "[DON!! x1] [When Attacking] Up to 1 of your opponent's rested Characters with a cost of 1 or less will not become active in your opponent's next Refresh Phase.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-026.png",
     "cost": 2,
     "abilityKeywords": [
@@ -839,7 +871,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-026"
+    "imageId": "OP08-026",
+    "id": "OP08-026_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Tristan",
@@ -857,11 +890,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-027.png",
     "cost": 1,
     "expansionCode": "OP08",
-    "id": "OP08-027"
+    "imageId": "OP08-027",
+    "id": "OP08-027_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Nekomamushi",
@@ -880,14 +914,15 @@
     ],
     "effect": "[On Play] If your opponent has 7 or more rested cards, this Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-028.png",
     "cost": 5,
     "abilityKeywords": [
       "[Rush]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-028"
+    "imageId": "OP08-028",
+    "id": "OP08-028_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Pekoms",
@@ -906,11 +941,12 @@
     ],
     "effect": "If this Character is active, your {Minks} type Characters with a cost of 3 or less other than [Pekoms] cannot be K.O.'d by effects.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-029.png",
     "cost": 4,
     "expansionCode": "OP08",
-    "id": "OP08-029"
+    "imageId": "OP08-029",
+    "id": "OP08-029_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Pedro",
@@ -928,7 +964,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] Choose one:• Rest up to 1 of your opponent's DON!! cards.• K.O. up to 1 of your opponent's rested Characters with a cost of 6 or less.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-030.png",
     "cost": 4,
     "abilityKeywords": [
@@ -936,7 +972,8 @@
       "[On K.O.]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-030"
+    "imageId": "OP08-030",
+    "id": "OP08-030_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Pedro",
@@ -954,7 +991,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] Choose one:• Rest up to 1 of your opponent's DON!! cards.• K.O. up to 1 of your opponent's rested Characters with a cost of 6 or less.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-030_p1.png",
     "cost": 4,
     "abilityKeywords": [
@@ -962,7 +999,8 @@
       "[On K.O.]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-030_p1"
+    "imageId": "OP08-030_p1",
+    "id": "OP08-030_p1_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Miyagi",
@@ -980,11 +1018,12 @@
     ],
     "effect": "[On Play] Set up to 1 of your {Minks} type Characters with a cost of 2 or less as active.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-031.png",
     "cost": 3,
     "expansionCode": "OP08",
-    "id": "OP08-031"
+    "imageId": "OP08-031",
+    "id": "OP08-031_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Milky",
@@ -1002,14 +1041,15 @@
     ],
     "effect": "[Activate: Main] You may rest this Character: If your Leader has the {Minks} type, set up to 1 of your DON!! cards as active.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-032.png",
     "cost": 2,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-032"
+    "imageId": "OP08-032",
+    "id": "OP08-032_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Roddy",
@@ -1027,11 +1067,12 @@
     ],
     "effect": "[On Play] If your Leader has the {Minks} type and your opponent has 7 or more rested cards, K.O. up to 1 of your opponent's rested Characters with a cost of 2 or less.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-033.png",
     "cost": 1,
     "expansionCode": "OP08",
-    "id": "OP08-033"
+    "imageId": "OP08-033",
+    "id": "OP08-033_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Wanda",
@@ -1049,11 +1090,12 @@
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Minks} type card other than [Wanda] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-034.png",
     "cost": 1,
     "expansionCode": "OP08",
-    "id": "OP08-034"
+    "imageId": "OP08-034",
+    "id": "OP08-034_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "BB",
@@ -1071,11 +1113,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-035.png",
     "cost": 2,
     "expansionCode": "OP08",
-    "id": "OP08-035"
+    "imageId": "OP08-035",
+    "id": "OP08-035_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Electrical Luna",
@@ -1093,14 +1136,15 @@
     ],
     "effect": "[Main] All of your opponent's rested Characters with a cost of 7 or less will not become active in your opponent's next Refresh Phase.",
     "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters.",
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-036.png",
     "cost": 3,
     "abilityKeywords": [
       "[Main]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-036"
+    "imageId": "OP08-036",
+    "id": "OP08-036_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Garchu",
@@ -1118,14 +1162,15 @@
     ],
     "effect": "[Main] You may rest 1 of your {Minks} type Characters: Rest up to 1 of your opponent's Characters.",
     "trigger": "Trigger[Trigger] Draw 1 card.",
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-037.png",
     "cost": 1,
     "abilityKeywords": [
       "[Main]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-037"
+    "imageId": "OP08-037",
+    "id": "OP08-037_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "We Would Never Sell a Comrade to an Enemy!!!",
@@ -1144,14 +1189,15 @@
     ],
     "effect": "[Main] You may rest 2 of your Characters: None of your Characters can be K.O.'d by your opponent's effects until the end of your opponent's next turn.",
     "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 3 or less.",
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-038.png",
     "cost": 1,
     "abilityKeywords": [
       "[Main]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-038"
+    "imageId": "OP08-038",
+    "id": "OP08-038_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Zou",
@@ -1169,7 +1215,7 @@
     ],
     "effect": "[Activate: Main] You may rest this Stage: If your Leader has the {Minks} type, set up to 1 of your DON!! cards as active.[End of Your Turn] Set up to 1 of your {Minks} type Characters as active.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-039.png",
     "cost": 3,
     "abilityKeywords": [
@@ -1177,7 +1223,8 @@
       "[End of Your Turn]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-039"
+    "imageId": "OP08-039",
+    "id": "OP08-039_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Atmos",
@@ -1195,11 +1242,12 @@
     ],
     "effect": "[On Play] You may reveal 2 cards with a type including \"Whitebeard Pirates\" from your hand: If your Leader's type includes \"Whitebeard Pirates\", return up to 1 of your opponent's Characters with a cost of 4 or less to the owner's hand.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-040.png",
     "cost": 4,
     "expansionCode": "OP08",
-    "id": "OP08-040"
+    "imageId": "OP08-040",
+    "id": "OP08-040_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Aphelandra",
@@ -1217,14 +1265,15 @@
     ],
     "effect": "[Activate: Main] You may return this Character to the owner's hand: If your Leader has the {Kuja Pirates} type, place up to 1 of your opponent's Characters with a cost of 1 or less at the bottom of the owner's deck.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-041.png",
     "cost": 3,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-041"
+    "imageId": "OP08-041",
+    "id": "OP08-041_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Edward Weevil",
@@ -1242,7 +1291,7 @@
     ],
     "effect": "[DON!! x1] [When Attacking] Return up to 1 Character with a cost of 3 or less to the owner's hand.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-042.png",
     "cost": 4,
     "abilityKeywords": [
@@ -1250,7 +1299,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-042"
+    "imageId": "OP08-042",
+    "id": "OP08-042_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Edward.Newgate",
@@ -1269,11 +1319,12 @@
     ],
     "effect": "[On Play] If your Leader's type includes \"Whitebeard Pirates\" and you have 2 or less Life cards, select all of your opponent's Characters on their field. Until the end of your opponent's next turn, none of the selected Characters can attack unless your opponent trashes 2 cards from their hand whenever they attack.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-043.png",
     "cost": 10,
     "expansionCode": "OP08",
-    "id": "OP08-043"
+    "imageId": "OP08-043",
+    "id": "OP08-043_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Edward.Newgate",
@@ -1292,11 +1343,12 @@
     ],
     "effect": "[On Play] If your Leader's type includes \"Whitebeard Pirates\" and you have 2 or less Life cards, select all of your opponent's Characters on their field. Until the end of your opponent's next turn, none of the selected Characters can attack unless your opponent trashes 2 cards from their hand whenever they attack.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-043_p1.png",
     "cost": 10,
     "expansionCode": "OP08",
-    "id": "OP08-043_p1"
+    "imageId": "OP08-043_p1",
+    "id": "OP08-043_p1_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Kingdew",
@@ -1314,7 +1366,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] You may reveal 2 cards with a type including \"Whitebeard Pirates\" from your hand: This Character gains +2000 power during this turn.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-044.png",
     "cost": 4,
     "abilityKeywords": [
@@ -1322,7 +1374,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-044"
+    "imageId": "OP08-044",
+    "id": "OP08-044_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Thatch",
@@ -1340,11 +1393,12 @@
     ],
     "effect": "If this Character would be removed from the field by your opponent's effect or K.O.'d, trash this Character and draw 1 card instead.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-045.png",
     "cost": 4,
     "expansionCode": "OP08",
-    "id": "OP08-045"
+    "imageId": "OP08-045",
+    "id": "OP08-045_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Shakuyaku",
@@ -1362,7 +1416,7 @@
     ],
     "effect": "[Your Turn] [Once Per Turn] When a Character is removed from the field by your effect, if your opponent has 5 or more cards in their hand, your opponent places 1 card from their hand at the bottom of their deck. Then, rest this Character.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-046.png",
     "cost": 5,
     "abilityKeywords": [
@@ -1370,7 +1424,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-046"
+    "imageId": "OP08-046",
+    "id": "OP08-046_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Jozu",
@@ -1388,11 +1443,12 @@
     ],
     "effect": "[On Play] You may return 1 of your Characters other than this Character to the owner's hand: Return up to 1 Character with a cost of 6 or less to the owner's hand.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-047.png",
     "cost": 6,
     "expansionCode": "OP08",
-    "id": "OP08-047"
+    "imageId": "OP08-047",
+    "id": "OP08-047_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Sweetpea",
@@ -1410,11 +1466,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-048.png",
     "cost": 4,
     "expansionCode": "OP08",
-    "id": "OP08-048"
+    "imageId": "OP08-048",
+    "id": "OP08-048_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Speed Jil",
@@ -1432,14 +1489,15 @@
     ],
     "effect": "[On Play] Reveal 1 card from the top of your deck and place it at the top or bottom of your deck. If the revealed card's type includes \"Whitebeard Pirates\", this Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-049.png",
     "cost": 4,
     "abilityKeywords": [
       "[Rush]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-049"
+    "imageId": "OP08-049",
+    "id": "OP08-049_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Namule",
@@ -1458,14 +1516,15 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Draw 2 cards and place 2 cards from your hand at the top or bottom of your deck in any order.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-050.png",
     "cost": 3,
     "abilityKeywords": [
       "[Blocker]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-050"
+    "imageId": "OP08-050",
+    "id": "OP08-050_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Buckin",
@@ -1483,14 +1542,15 @@
     ],
     "effect": "[Your Turn] [On Play] Up to 1 of your [Edward Weevil] cards gains +2000 power during this turn.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-051.png",
     "cost": 1,
     "abilityKeywords": [
       "[Your Turn]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-051"
+    "imageId": "OP08-051",
+    "id": "OP08-051_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Portgas.D.Ace",
@@ -1508,11 +1568,12 @@
     ],
     "effect": "[On Play] Reveal 1 card from the top of your deck and play up to 1 Character card with a type including \"Whitebeard Pirates\" and a cost of 4 or less. Then, place the rest at the top or bottom of your deck.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-052.png",
     "cost": 5,
     "expansionCode": "OP08",
-    "id": "OP08-052"
+    "imageId": "OP08-052",
+    "id": "OP08-052_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Portgas.D.Ace",
@@ -1530,11 +1591,12 @@
     ],
     "effect": "[On Play] Reveal 1 card from the top of your deck and play up to 1 Character card with a type including \"Whitebeard Pirates\" and a cost of 4 or less. Then, place the rest at the top or bottom of your deck.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-052_p1.png",
     "cost": 5,
     "expansionCode": "OP08",
-    "id": "OP08-052_p1"
+    "imageId": "OP08-052_p1",
+    "id": "OP08-052_p1_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Thank You...for Loving Me!!",
@@ -1552,14 +1614,15 @@
     ],
     "effect": "[Main] If your Leader's type includes \"Whitebeard Pirates\", look at 3 cards from the top of your deck; reveal up to 1 card with a type including \"Whitebeard Pirates\" or [Monkey.D.Luffy] and add it to your hand. Then, place the rest at the top or bottom of your deck in any order.",
     "trigger": "Trigger[Trigger] Draw 1 card.",
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-053.png",
     "cost": 1,
     "abilityKeywords": [
       "[Main]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-053"
+    "imageId": "OP08-053",
+    "id": "OP08-053_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "You Can't Take Our King This Early in the Game.",
@@ -1577,14 +1640,15 @@
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle. Then, reveal 1 card from the top of your deck and play up to 1 Character card with a type including \"Whitebeard Pirates\" and a cost of 3 or less. Then, place the rest at the top or bottom of your deck.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-054.png",
     "cost": 3,
     "abilityKeywords": [
       "[Counter]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-054"
+    "imageId": "OP08-054",
+    "id": "OP08-054_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Phoenix Brand",
@@ -1602,14 +1666,15 @@
     ],
     "effect": "[Main] You may reveal 2 cards with a type including \"Whitebeard Pirates\" from your hand: Place up to 1 Character with a cost of 6 or less at the bottom of the owner's deck.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-055.png",
     "cost": 4,
     "abilityKeywords": [
       "[Main]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-055"
+    "imageId": "OP08-055",
+    "id": "OP08-055_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Moby Dick",
@@ -1627,7 +1692,7 @@
     ],
     "effect": "[Your Turn] [Once Per Turn] When your Character with a type including \"Whitebeard Pirates\" is removed from the field by an effect, draw 1 card. Then, place 1 card from your hand at the top or bottom of your deck.",
     "trigger": "Trigger[Trigger] Play this card.",
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-056.png",
     "cost": 2,
     "abilityKeywords": [
@@ -1635,7 +1700,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-056"
+    "imageId": "OP08-056",
+    "id": "OP08-056_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "King",
@@ -1654,7 +1720,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Choose one:• If you have 5 or less cards in your hand, draw 1 card.• Give up to 1 of your opponent's Characters −2 cost during this turn.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-057.png",
     "life": 4,
     "abilityKeywords": [
@@ -1662,7 +1728,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-057"
+    "imageId": "OP08-057",
+    "id": "OP08-057_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "King",
@@ -1681,7 +1748,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Choose one:• If you have 5 or less cards in your hand, draw 1 card.• Give up to 1 of your opponent's Characters −2 cost during this turn.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-057_p1.png",
     "life": 4,
     "abilityKeywords": [
@@ -1689,7 +1756,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-057_p1"
+    "imageId": "OP08-057_p1",
+    "id": "OP08-057_p1_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Charlotte Pudding",
@@ -1708,14 +1776,15 @@
     ],
     "effect": "[When Attacking] You may turn 2 cards from the top of your Life cards face-up: Add up to 1 DON!! card from your DON!! deck and rest it.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-058.png",
     "life": 4,
     "abilityKeywords": [
       "[When Attacking]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-058"
+    "imageId": "OP08-058",
+    "id": "OP08-058_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Charlotte Pudding",
@@ -1734,14 +1803,15 @@
     ],
     "effect": "[When Attacking] You may turn 2 cards from the top of your Life cards face-up: Add up to 1 DON!! card from your DON!! deck and rest it.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-058_p1.png",
     "life": 4,
     "abilityKeywords": [
       "[When Attacking]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-058_p1"
+    "imageId": "OP08-058_p1",
+    "id": "OP08-058_p1_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Alber",
@@ -1760,14 +1830,15 @@
     ],
     "effect": "[Activate: Main] You may trash this Character: If your Leader has the {Animal Kingdom Pirates} type and you have 10 DON!! cards on your field, play up to 1 [King] with a cost of 7 or less from your hand.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-059.png",
     "cost": 4,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-059"
+    "imageId": "OP08-059",
+    "id": "OP08-059_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "King",
@@ -1785,14 +1856,15 @@
     ],
     "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your opponent has 5 or more DON!! cards on their field, this Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-060.png",
     "cost": 7,
     "abilityKeywords": [
       "[Rush]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-060"
+    "imageId": "OP08-060",
+    "id": "OP08-060_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Charlotte Oven",
@@ -1810,14 +1882,15 @@
     ],
     "effect": "[When Attacking] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-061.png",
     "cost": 5,
     "abilityKeywords": [
       "[When Attacking]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-061"
+    "imageId": "OP08-061",
+    "id": "OP08-061_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Charlotte Katakuri",
@@ -1835,14 +1908,15 @@
     ],
     "effect": "[Activate: Main] You may trash this Character: If your Leader has the {Big Mom Pirates} type, play up to 1 [Charlotte Katakuri] from your hand with a cost of 3 or more that is equal to or less than the number of DON!! cards on your opponent's field.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-062.png",
     "cost": 2,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-062"
+    "imageId": "OP08-062",
+    "id": "OP08-062_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Charlotte Katakuri",
@@ -1860,11 +1934,12 @@
     ],
     "effect": "[On Play] You may turn 1 card from the top of your Life cards face-down: Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-063.png",
     "cost": 6,
     "expansionCode": "OP08",
-    "id": "OP08-063"
+    "imageId": "OP08-063",
+    "id": "OP08-063_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Charlotte Cracker",
@@ -1882,7 +1957,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 [Biscuit Warrior] from your hand.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-064.png",
     "cost": 4,
     "abilityKeywords": [
@@ -1890,7 +1965,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-064"
+    "imageId": "OP08-064",
+    "id": "OP08-064_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Charlotte Smoothie",
@@ -1908,11 +1984,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-065.png",
     "cost": 7,
     "expansionCode": "OP08",
-    "id": "OP08-065"
+    "imageId": "OP08-065",
+    "id": "OP08-065_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Charlotte Brulee",
@@ -1930,7 +2007,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] Add up to 1 DON!! card from your DON!! deck and rest it.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-066.png",
     "cost": 4,
     "abilityKeywords": [
@@ -1938,7 +2015,8 @@
       "[On K.O.]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-066"
+    "imageId": "OP08-066",
+    "id": "OP08-066_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Charlotte Pudding",
@@ -1956,7 +2034,7 @@
     ],
     "effect": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, add up to 1 DON!! card from your DON!! deck and rest it.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-067.png",
     "cost": 3,
     "abilityKeywords": [
@@ -1964,7 +2042,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-067"
+    "imageId": "OP08-067",
+    "id": "OP08-067_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Charlotte Pudding",
@@ -1982,7 +2061,7 @@
     ],
     "effect": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, add up to 1 DON!! card from your DON!! deck and rest it.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-067_p1.png",
     "cost": 3,
     "abilityKeywords": [
@@ -1990,7 +2069,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-067_p1"
+    "imageId": "OP08-067_p1",
+    "id": "OP08-067_p1_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Charlotte Perospero",
@@ -2008,14 +2088,15 @@
     ],
     "effect": "[On K.O.] Add up to 1 DON!! card from your DON!! deck and rest it.",
     "trigger": "Trigger[Trigger] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play this card.",
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-068.png",
     "cost": 3,
     "abilityKeywords": [
       "[On K.O.]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-068"
+    "imageId": "OP08-068",
+    "id": "OP08-068_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Charlotte Linlin",
@@ -2034,11 +2115,12 @@
     ],
     "effect": "[On Play] DON!! −1, You may trash 1 card from your hand: Add up to 1 card from the top of your deck to the top of your Life cards. Then, add up to 1 of your opponent's Characters with a cost of 6 or less to the top or bottom of your opponent's Life cards face-up.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-069.png",
     "cost": 9,
     "expansionCode": "OP08",
-    "id": "OP08-069"
+    "imageId": "OP08-069",
+    "id": "OP08-069_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Charlotte Linlin",
@@ -2057,11 +2139,12 @@
     ],
     "effect": "[On Play] DON!! −1, You may trash 1 card from your hand: Add up to 1 card from the top of your deck to the top of your Life cards. Then, add up to 1 of your opponent's Characters with a cost of 6 or less to the top or bottom of your opponent's Life cards face-up.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-069_p1.png",
     "cost": 9,
     "expansionCode": "OP08",
-    "id": "OP08-069_p1"
+    "imageId": "OP08-069_p1",
+    "id": "OP08-069_p1_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Baron Tamago",
@@ -2079,7 +2162,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 [Viscount Hiyoko] with a cost of 5 or less from your hand.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-070.png",
     "cost": 3,
     "abilityKeywords": [
@@ -2087,7 +2170,8 @@
       "[On K.O.]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-070"
+    "imageId": "OP08-070",
+    "id": "OP08-070_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Count Niwatori",
@@ -2105,7 +2189,7 @@
     ],
     "effect": "[Opponent's Turn] [On K.O.] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 [Baron Tamago] with a cost of 4 or less from your deck. Then, shuffle your deck.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-071.png",
     "cost": 6,
     "abilityKeywords": [
@@ -2113,7 +2197,8 @@
       "[Opponent's Turn]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-071"
+    "imageId": "OP08-071",
+    "id": "OP08-071_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Biscuit Warrior",
@@ -2131,14 +2216,15 @@
     ],
     "effect": "Under the rules of this game, you may have any number of this card in your deck.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-072.png",
     "cost": 5,
     "abilityKeywords": [
       "[Blocker]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-072"
+    "imageId": "OP08-072",
+    "id": "OP08-072_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Viscount Hiyoko",
@@ -2156,7 +2242,7 @@
     ],
     "effect": "[Opponent's Turn] [On K.O.] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 [Count Niwatori] with a cost of 6 or less from your deck. Then, shuffle your deck.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-073.png",
     "cost": 5,
     "abilityKeywords": [
@@ -2164,7 +2250,8 @@
       "[Opponent's Turn]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-073"
+    "imageId": "OP08-073",
+    "id": "OP08-073_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Black Maria",
@@ -2182,7 +2269,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] If you have no other [Black Maria] Characters, add up to 5 DON!! cards from your DON!! deck and rest them. Then, at the end of this turn, return DON!! cards from your field to your DON!! deck until you have the same number of DON!! cards on your field as your opponent.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-074.png",
     "cost": 3,
     "abilityKeywords": [
@@ -2190,7 +2277,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-074"
+    "imageId": "OP08-074",
+    "id": "OP08-074_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Black Maria",
@@ -2208,7 +2296,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] If you have no other [Black Maria] Characters, add up to 5 DON!! cards from your DON!! deck and rest them. Then, at the end of this turn, return DON!! cards from your field to your DON!! deck until you have the same number of DON!! cards on your field as your opponent.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-074_p1.png",
     "cost": 3,
     "abilityKeywords": [
@@ -2216,7 +2304,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-074_p1"
+    "imageId": "OP08-074_p1",
+    "id": "OP08-074_p1_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Candy Maiden",
@@ -2234,14 +2323,15 @@
     ],
     "effect": "[Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 1 of your opponent's Characters with a cost of 2 or less. Then, turn all of your Life cards face-down.",
     "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-075.png",
     "cost": 1,
     "abilityKeywords": [
       "[Main]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-075"
+    "imageId": "OP08-075",
+    "id": "OP08-075_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "It's to Die For...",
@@ -2260,14 +2350,15 @@
     ],
     "effect": "[Main] Add up to 1 DON!! card from your DON!! deck and set it as active. Then, if your opponent has a Character with 6000 power or more, add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-076.png",
     "cost": 3,
     "abilityKeywords": [
       "[Main]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-076"
+    "imageId": "OP08-076",
+    "id": "OP08-076_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Conquest of the Sea",
@@ -2287,14 +2378,15 @@
     ],
     "effect": "[Main] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Animal Kingdom Pirates} or {Big Mom Pirates} type, K.O. up to 2 of your opponent's Characters with a cost of 6 or less.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-077.png",
     "cost": 6,
     "abilityKeywords": [
       "[Main]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-077"
+    "imageId": "OP08-077",
+    "id": "OP08-077_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Ulti",
@@ -2312,11 +2404,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-078.png",
     "cost": 4,
     "expansionCode": "OP08",
-    "id": "OP08-078"
+    "imageId": "OP08-078",
+    "id": "OP08-078_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Kaido",
@@ -2335,7 +2428,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] You may trash 1 card from your hand: If this Character was played on this turn, trash up to 1 of your opponent's Characters with a cost of 7 or less. Then, your opponent trashes 1 card from their hand.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-079.png",
     "cost": 9,
     "abilityKeywords": [
@@ -2343,7 +2436,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-079"
+    "imageId": "OP08-079",
+    "id": "OP08-079_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Kaido",
@@ -2362,7 +2456,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] You may trash 1 card from your hand: If this Character was played on this turn, trash up to 1 of your opponent's Characters with a cost of 7 or less. Then, your opponent trashes 1 card from their hand.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-079_p1.png",
     "cost": 9,
     "abilityKeywords": [
@@ -2370,7 +2464,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-079_p1"
+    "imageId": "OP08-079_p1",
+    "id": "OP08-079_p1_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Queen",
@@ -2388,11 +2483,12 @@
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Animal Kingdom Pirates} type card other than [Queen] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-080.png",
     "cost": 1,
     "expansionCode": "OP08",
-    "id": "OP08-080"
+    "imageId": "OP08-080",
+    "id": "OP08-080_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Queen",
@@ -2410,11 +2506,12 @@
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Animal Kingdom Pirates} type card other than [Queen] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-080_p1.png",
     "cost": 1,
     "expansionCode": "OP08",
-    "id": "OP08-080_p1"
+    "imageId": "OP08-080_p1",
+    "id": "OP08-080_p1_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Guernica",
@@ -2432,14 +2529,15 @@
     ],
     "effect": "[When Attacking] You may place 3 cards with a type including \"CP\" from your trash at the bottom of your deck in any order: K.O. up to 1 of your opponent's Characters with a cost of 0.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-081.png",
     "cost": 1,
     "abilityKeywords": [
       "[When Attacking]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-081"
+    "imageId": "OP08-081",
+    "id": "OP08-081_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Sasaki",
@@ -2457,14 +2555,15 @@
     ],
     "effect": "[Activate: Main] Rest 1 of your DON!! cards and you may rest this Character: Give up to 1 of your opponent's Characters −2 cost during this turn.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-082.png",
     "cost": 1,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-082"
+    "imageId": "OP08-082",
+    "id": "OP08-082_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Sheepshead",
@@ -2483,7 +2582,7 @@
     ],
     "effect": "[DON!! x1] [Your Turn] Give all of your opponent's Characters −1 cost.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-083.png",
     "cost": 2,
     "abilityKeywords": [
@@ -2491,7 +2590,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-083"
+    "imageId": "OP08-083",
+    "id": "OP08-083_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Jack",
@@ -2509,14 +2609,15 @@
     ],
     "effect": "This Character gains +4 cost.[Activate: Main] You may rest this Character: Draw 1 card and trash 1 card from your hand. Then, K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-084.png",
     "cost": 7,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-084"
+    "imageId": "OP08-084",
+    "id": "OP08-084_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Jack",
@@ -2534,14 +2635,15 @@
     ],
     "effect": "This Character gains +4 cost.[Activate: Main] You may rest this Character: Draw 1 card and trash 1 card from your hand. Then, K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-084_p1.png",
     "cost": 7,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-084_p1"
+    "imageId": "OP08-084_p1",
+    "id": "OP08-084_p1_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Jinbe",
@@ -2560,7 +2662,7 @@
     ],
     "effect": "[DON!! x1] [When Attacking] If you have a Character with a cost of 8 or more, K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-085.png",
     "cost": 5,
     "abilityKeywords": [
@@ -2568,7 +2670,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-085"
+    "imageId": "OP08-085",
+    "id": "OP08-085_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Ginrummy",
@@ -2587,11 +2690,12 @@
     ],
     "effect": "[On Play] If your opponent has a Character with a cost of 0, draw 2 cards and trash 2 cards from your hand.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-086.png",
     "cost": 2,
     "expansionCode": "OP08",
-    "id": "OP08-086"
+    "imageId": "OP08-086",
+    "id": "OP08-086_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Scratchmen Apoo",
@@ -2610,7 +2714,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Activate: Main] [Once Per Turn] Give up to 1 of your opponent's Characters −1 cost during this turn.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-087.png",
     "cost": 4,
     "abilityKeywords": [
@@ -2619,7 +2723,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-087"
+    "imageId": "OP08-087",
+    "id": "OP08-087_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Duval",
@@ -2637,11 +2742,12 @@
     ],
     "effect": "[On Play] Up to 1 of your Characters gains +1 cost until the end of your opponent's next turn.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-088.png",
     "cost": 1,
     "expansionCode": "OP08",
-    "id": "OP08-088"
+    "imageId": "OP08-088",
+    "id": "OP08-088_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Basil Hawkins",
@@ -2660,11 +2766,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-089.png",
     "cost": 7,
     "expansionCode": "OP08",
-    "id": "OP08-089"
+    "imageId": "OP08-089",
+    "id": "OP08-089_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Hamlet",
@@ -2683,11 +2790,12 @@
     ],
     "effect": "[On Play] Play up to 1 {SMILE} type Character card with a cost of 2 or less from your trash.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-090.png",
     "cost": 3,
     "expansionCode": "OP08",
-    "id": "OP08-090"
+    "imageId": "OP08-090",
+    "id": "OP08-090_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Who's.Who",
@@ -2706,11 +2814,12 @@
     ],
     "effect": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
     "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-091.png",
     "cost": 5,
     "expansionCode": "OP08",
-    "id": "OP08-091"
+    "imageId": "OP08-091",
+    "id": "OP08-091_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Page One",
@@ -2728,11 +2837,12 @@
     ],
     "effect": "[On Play] Play up to 1 [Ulti] with a cost of 4 or less from your trash.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-092.png",
     "cost": 5,
     "expansionCode": "OP08",
-    "id": "OP08-092"
+    "imageId": "OP08-092",
+    "id": "OP08-092_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "X.Drake",
@@ -2752,14 +2862,15 @@
     ],
     "effect": "[DON!! x1] This Character gains +2 cost.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-093.png",
     "cost": 4,
     "abilityKeywords": [
       "[DON!! x1]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-093"
+    "imageId": "OP08-093",
+    "id": "OP08-093_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Imperial Flame",
@@ -2777,7 +2888,7 @@
     ],
     "effect": "[Main]/[Counter] You may place 3 cards from your trash at the bottom of your deck in any order: K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
     "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-094.png",
     "cost": 2,
     "abilityKeywords": [
@@ -2785,7 +2896,8 @@
       "[Counter]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-094"
+    "imageId": "OP08-094",
+    "id": "OP08-094_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Iron Body Fang Flash",
@@ -2804,14 +2916,15 @@
     ],
     "effect": "[Main] If you have 10 or more cards in your trash, up to 1 of your Characters gains +2000 power until the end of your opponent's next turn.",
     "trigger": "Trigger[Trigger] Up to 1 of your Leader or Character cards gains +2000 power during this turn.",
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-095.png",
     "cost": 2,
     "abilityKeywords": [
       "[Main]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-095"
+    "imageId": "OP08-095",
+    "id": "OP08-095_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "People's Dreams Don't Ever End!!",
@@ -2829,14 +2942,15 @@
     ],
     "effect": "[Counter] Trash 1 card from the top of your deck. If the trashed card has a cost of 6 or more, up to 1 of your Leader or Character cards gains +5000 power during this battle.",
     "trigger": "Trigger[Trigger] Play up to 1 black Character card with a cost of 3 or less from your trash.",
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-096.png",
     "cost": 1,
     "abilityKeywords": [
       "[Counter]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-096"
+    "imageId": "OP08-096",
+    "id": "OP08-096_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Heliceratops",
@@ -2854,14 +2968,15 @@
     ],
     "effect": "[Main] If your Leader has the {Animal Kingdom Pirates} type, give up to 1 of your opponent's Characters −2 cost during this turn. Then, K.O. up to 1 of your opponent's Characters with a cost of 0.",
     "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-097.png",
     "cost": 3,
     "abilityKeywords": [
       "[Main]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-097"
+    "imageId": "OP08-097",
+    "id": "OP08-097_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Kalgara",
@@ -2881,7 +2996,7 @@
     ],
     "effect": "[DON!! x1] [When Attacking] Play up to 1 {Shandian Warrior} type Character card from your hand with a cost equal to or less than the number of DON!! cards on your field. If you do, add 1 card from the top of your Life cards to your hand.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-098.png",
     "life": 5,
     "abilityKeywords": [
@@ -2889,7 +3004,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-098"
+    "imageId": "OP08-098",
+    "id": "OP08-098_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Kalgara",
@@ -2909,7 +3025,7 @@
     ],
     "effect": "[DON!! x1] [When Attacking] Play up to 1 {Shandian Warrior} type Character card from your hand with a cost equal to or less than the number of DON!! cards on your field. If you do, add 1 card from the top of your Life cards to your hand.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-098_p1.png",
     "life": 5,
     "abilityKeywords": [
@@ -2917,7 +3033,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-098_p1"
+    "imageId": "OP08-098_p1",
+    "id": "OP08-098_p1_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Kalgara",
@@ -2937,11 +3054,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-099.png",
     "cost": 6,
     "expansionCode": "OP08",
-    "id": "OP08-099"
+    "imageId": "OP08-099",
+    "id": "OP08-099_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "South Bird",
@@ -2961,11 +3079,12 @@
     ],
     "effect": "[On Play] Look at 7 cards from the top of your deck and play up to 1 [Upper Yard]. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-100.png",
     "cost": 1,
     "expansionCode": "OP08",
-    "id": "OP08-100"
+    "imageId": "OP08-100",
+    "id": "OP08-100_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Charlotte Angel",
@@ -2983,7 +3102,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] You may trash 1 card from the top of your Life cards: If your Leader has the {Big Mom Pirates} type, add 1 card from the top of your deck to the top of your Life cards at the end of this turn.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-101.png",
     "cost": 2,
     "abilityKeywords": [
@@ -2991,7 +3110,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-101"
+    "imageId": "OP08-101",
+    "id": "OP08-101_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Charlotte Opera",
@@ -3009,11 +3129,12 @@
     ],
     "effect": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost equal to or less than your number of Life cards.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-102.png",
     "cost": 6,
     "expansionCode": "OP08",
-    "id": "OP08-102"
+    "imageId": "OP08-102",
+    "id": "OP08-102_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Charlotte Custard",
@@ -3031,7 +3152,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] You may add 1 card from the top of your Life cards to your hand: Up to 1 of your Characters gains +1000 power until the end of your opponent's next turn.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-103.png",
     "cost": 2,
     "abilityKeywords": [
@@ -3039,7 +3160,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-103"
+    "imageId": "OP08-103",
+    "id": "OP08-103_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Charlotte Poire",
@@ -3057,11 +3179,12 @@
     ],
     "effect": null,
     "trigger": "Trigger[Trigger] You may trash 1 card from your hand: Play this card. Then, draw 1 card.",
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-104.png",
     "cost": 1,
     "expansionCode": "OP08",
-    "id": "OP08-104"
+    "imageId": "OP08-104",
+    "id": "OP08-104_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Jewelry Bonney",
@@ -3080,7 +3203,7 @@
     ],
     "effect": "[DON!! x1] [Your Turn] [Once Per Turn] When a card is removed from your opponent's Life cards, draw 2 cards and trash 1 card from your hand.",
     "trigger": "Trigger[Trigger] Draw 2 cards and trash 1 card from your hand.",
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-105.png",
     "cost": 3,
     "abilityKeywords": [
@@ -3089,7 +3212,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-105"
+    "imageId": "OP08-105",
+    "id": "OP08-105_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Jewelry Bonney",
@@ -3108,7 +3232,7 @@
     ],
     "effect": "[DON!! x1] [Your Turn] [Once Per Turn] When a card is removed from your opponent's Life cards, draw 2 cards and trash 1 card from your hand.",
     "trigger": "Trigger[Trigger] Draw 2 cards and trash 1 card from your hand.",
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-105_p1.png",
     "cost": 3,
     "abilityKeywords": [
@@ -3117,7 +3241,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-105_p1"
+    "imageId": "OP08-105_p1",
+    "id": "OP08-105_p1_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Nami",
@@ -3136,14 +3261,15 @@
     ],
     "effect": "[On Play] You may trash 1 card with a [Trigger] from your hand: K.O. up to 1 of your opponent's Characters with a cost of 5 or less. Then, if you have 3 or less cards in your hand, draw 1 card.",
     "trigger": "Trigger[Trigger] Activate this card's [On Play] effect.",
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-106.png",
     "cost": 5,
     "abilityKeywords": [
       "[Trigger]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-106"
+    "imageId": "OP08-106",
+    "id": "OP08-106_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Nami",
@@ -3162,14 +3288,15 @@
     ],
     "effect": "[On Play] You may trash 1 card with a [Trigger] from your hand: K.O. up to 1 of your opponent's Characters with a cost of 5 or less. Then, if you have 3 or less cards in your hand, draw 1 card.",
     "trigger": "Trigger[Trigger] Activate this card's [On Play] effect.",
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-106_p1.png",
     "cost": 5,
     "abilityKeywords": [
       "[Trigger]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-106_p1"
+    "imageId": "OP08-106_p1",
+    "id": "OP08-106_p1_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Nitro",
@@ -3188,14 +3315,15 @@
     ],
     "effect": "[Activate: Main] You may rest this Character: Up to 1 of your [Charlotte Pudding] cards gains +2000 power during this turn.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-107.png",
     "cost": 1,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-107"
+    "imageId": "OP08-107",
+    "id": "OP08-107_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Mont Blanc Cricket",
@@ -3214,11 +3342,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-108.png",
     "cost": 4,
     "expansionCode": "OP08",
-    "id": "OP08-108"
+    "imageId": "OP08-108",
+    "id": "OP08-108_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Mont Blanc Noland",
@@ -3237,11 +3366,12 @@
     ],
     "effect": "[On Play] If your Leader has the {Shandian Warrior} type and you have a [Kalgara] Character, add up to 1 card from the top of your deck to the top of your Life cards.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-109.png",
     "cost": 5,
     "expansionCode": "OP08",
-    "id": "OP08-109"
+    "imageId": "OP08-109",
+    "id": "OP08-109_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Wyper",
@@ -3260,11 +3390,12 @@
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Upper Yard] and add it to your hand. Then, place the rest at the bottom of your deck in any order and play up to 1 [Upper Yard] from your hand.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-110.png",
     "cost": 4,
     "expansionCode": "OP08",
-    "id": "OP08-110"
+    "imageId": "OP08-110",
+    "id": "OP08-110_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Wyper",
@@ -3283,11 +3414,12 @@
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Upper Yard] and add it to your hand. Then, place the rest at the bottom of your deck in any order and play up to 1 [Upper Yard] from your hand.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-110_p1.png",
     "cost": 4,
     "expansionCode": "OP08",
-    "id": "OP08-110_p1"
+    "imageId": "OP08-110_p1",
+    "id": "OP08-110_p1_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "S-Shark",
@@ -3306,7 +3438,7 @@
     ],
     "effect": "[DON!! x1] [When Attacking] Your opponent cannot activate [Blocker] during this battle.",
     "trigger": "Trigger[Trigger] You may trash 1 card from your hand: If you have 2 or less Life cards, play this card.",
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-111.png",
     "cost": 4,
     "abilityKeywords": [
@@ -3315,7 +3447,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-111"
+    "imageId": "OP08-111",
+    "id": "OP08-111_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "S-Snake",
@@ -3334,11 +3467,12 @@
     ],
     "effect": "[On Play] Up to 1 of your opponent's Characters with a cost of 6 or less other than [Monkey.D.Luffy] cannot attack until the end of your opponent's next turn.",
     "trigger": "Trigger[Trigger] Activate this card's [On Play] effect.",
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-112.png",
     "cost": 5,
     "expansionCode": "OP08",
-    "id": "OP08-112"
+    "imageId": "OP08-112",
+    "id": "OP08-112_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "S-Snake",
@@ -3357,11 +3491,12 @@
     ],
     "effect": "[On Play] Up to 1 of your opponent's Characters with a cost of 6 or less other than [Monkey.D.Luffy] cannot attack until the end of your opponent's next turn.",
     "trigger": "Trigger[Trigger] Activate this card's [On Play] effect.",
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-112_p1.png",
     "cost": 5,
     "expansionCode": "OP08",
-    "id": "OP08-112_p1"
+    "imageId": "OP08-112_p1",
+    "id": "OP08-112_p1_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "S-Bear",
@@ -3380,11 +3515,12 @@
     ],
     "effect": null,
     "trigger": "Trigger[Trigger] You may trash 1 card from your hand: If you have 2 or less Life cards, play this card and K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-113.png",
     "cost": 3,
     "expansionCode": "OP08",
-    "id": "OP08-113"
+    "imageId": "OP08-113",
+    "id": "OP08-113_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "S-Hawk",
@@ -3403,14 +3539,15 @@
     ],
     "effect": "[DON!! x1] If you have less Life cards than your opponent, this Character cannot be K.O.'d in battle by <Slash> attribute cards and gains +2000 power.",
     "trigger": "Trigger[Trigger] You may trash 1 card from your hand: If you have 2 or less Life cards, play this card.",
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-114.png",
     "cost": 4,
     "abilityKeywords": [
       "[DON!! x1]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-114"
+    "imageId": "OP08-114",
+    "id": "OP08-114_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "The Earth Will Not Lose!",
@@ -3429,14 +3566,15 @@
     ],
     "effect": "[Counter] If your Leader has the {Shandian Warrior} type, up to 1 of your Leader or Character cards gains +3000 power during this battle. Then, play up to 1 [Upper Yard] from your hand.",
     "trigger": "Trigger[Trigger] Draw 2 cards and trash 1 card from your hand.",
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-115.png",
     "cost": 1,
     "abilityKeywords": [
       "[Counter]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-115"
+    "imageId": "OP08-115",
+    "id": "OP08-115_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Burn Bazooka",
@@ -3455,14 +3593,15 @@
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, you may add 1 card from the top or bottom of your Life cards to your hand. If you do, add up to 1 {Shandian Warrior} type card from your hand to the top of your Life cards face-up.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-116.png",
     "cost": 2,
     "abilityKeywords": [
       "[Counter]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-116"
+    "imageId": "OP08-116",
+    "id": "OP08-116_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Burn Blade",
@@ -3481,14 +3620,15 @@
     ],
     "effect": "[Main] You may trash 1 card from the top of your Life cards: K.O. up to 1 of your opponent's Characters with a cost of 7 or less.",
     "trigger": "Trigger[Trigger] You may add 1 card from the top of your Life cards to your hand: Add up to 1 card from your hand to the top of your Life cards.",
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-117.png",
     "cost": 5,
     "abilityKeywords": [
       "[Main]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-117"
+    "imageId": "OP08-117",
+    "id": "OP08-117_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Silvers Rayleigh",
@@ -3506,11 +3646,12 @@
     ],
     "effect": "[On Play] Select up to 2 of your opponent's Characters, and give 1 Character −3000 power and the other −2000 power until the end of your opponent's next turn. Then, K.O. up to 1 of your opponent's Characters with 3000 power or less.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-118.png",
     "cost": 8,
     "expansionCode": "OP08",
-    "id": "OP08-118"
+    "imageId": "OP08-118",
+    "id": "OP08-118_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Silvers Rayleigh",
@@ -3528,11 +3669,12 @@
     ],
     "effect": "[On Play] Select up to 2 of your opponent's Characters, and give 1 Character −3000 power and the other −2000 power until the end of your opponent's next turn. Then, K.O. up to 1 of your opponent's Characters with 3000 power or less.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-118_p1.png",
     "cost": 8,
     "expansionCode": "OP08",
-    "id": "OP08-118_p1"
+    "imageId": "OP08-118_p1",
+    "id": "OP08-118_p1_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Silvers Rayleigh",
@@ -3550,11 +3692,12 @@
     ],
     "effect": "[On Play] Select up to 2 of your opponent's Characters, and give 1 Character −3000 power and the other −2000 power until the end of your opponent's next turn. Then, K.O. up to 1 of your opponent's Characters with 3000 power or less.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-118_p2.png",
     "cost": 8,
     "expansionCode": "OP08",
-    "id": "OP08-118_p2"
+    "imageId": "OP08-118_p2",
+    "id": "OP08-118_p2_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Kaido & Linlin",
@@ -3574,14 +3717,15 @@
     ],
     "effect": "[When Attacking] DON!! −10: K.O. all Characters other than this Character. Then, add up to 1 card from the top of your deck to the top of your Life cards and trash up to 1 card from the top of your opponent's Life cards.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-119.png",
     "cost": 10,
     "abilityKeywords": [
       "[When Attacking]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-119"
+    "imageId": "OP08-119",
+    "id": "OP08-119_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Kaido & Linlin",
@@ -3601,14 +3745,15 @@
     ],
     "effect": "[When Attacking] DON!! −10: K.O. all Characters other than this Character. Then, add up to 1 card from the top of your deck to the top of your Life cards and trash up to 1 card from the top of your opponent's Life cards.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-119_p1.png",
     "cost": 10,
     "abilityKeywords": [
       "[When Attacking]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-119_p1"
+    "imageId": "OP08-119_p1",
+    "id": "OP08-119_p1_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Portgas.D.Ace",
@@ -3626,14 +3771,15 @@
     ],
     "effect": "[On Play] Give up to 2 of your opponent's Characters −3000 power during this turn. Then, if your Leader's type includes \"Whitebeard Pirates\", this Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-013_p3.png",
     "cost": 7,
     "abilityKeywords": [
       "[Rush]"
     ],
     "expansionCode": "OP02",
-    "id": "OP02-013_p3"
+    "imageId": "OP02-013_p3",
+    "id": "OP02-013_p3_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Charlotte Pudding",
@@ -3651,11 +3797,12 @@
     ],
     "effect": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 [Sanji] or {Big Mom Pirates} type card other than [Charlotte Pudding] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-112_p4.png",
     "cost": 1,
     "expansionCode": "OP03",
-    "id": "OP03-112_p4"
+    "imageId": "OP03-112_p4",
+    "id": "OP03-112_p4_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Jewelry Bonney",
@@ -3674,14 +3821,15 @@
     ],
     "effect": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may rest this Character: Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-007_p2.png",
     "cost": 1,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
     "expansionCode": "ST02",
-    "id": "ST02-007_p2"
+    "imageId": "ST02-007_p2",
+    "id": "ST02-007_p2_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Gecko Moria",
@@ -3700,11 +3848,12 @@
     ],
     "effect": "[On Play] Add up to 1 {The Seven Warlords of the Sea} or {Thriller Bark Pirates} type Character with a cost of 4 or less other than [Gecko Moria] from your trash to your hand.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-004_p1.png",
     "cost": 4,
     "expansionCode": "ST03",
-    "id": "ST03-004_p1"
+    "imageId": "ST03-004_p1",
+    "id": "ST03-004_p1_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Queen",
@@ -3722,14 +3871,15 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Draw 2 cards and trash 1 card from your hand.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-005_p1.png",
     "cost": 5,
     "abilityKeywords": [
       "[Blocker]"
     ],
     "expansionCode": "ST04",
-    "id": "ST04-005_p1"
+    "imageId": "ST04-005_p1",
+    "id": "ST04-005_p1_TWO_LEGENDS_[OP-08]"
   },
   {
     "name": "Tashigi",
@@ -3747,13 +3897,14 @@
     ],
     "effect": "[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −2 cost during this turn.",
     "trigger": null,
-    "setName": "TWO LEGENDS [OP08]",
+    "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-006_p2.png",
     "cost": 3,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
     "expansionCode": "ST06",
-    "id": "ST06-006_p2"
+    "imageId": "ST06-006_p2",
+    "id": "ST06-006_p2_TWO_LEGENDS_[OP-08]"
   }
 ]

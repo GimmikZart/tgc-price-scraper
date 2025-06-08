@@ -608,12 +608,23 @@ async function remapCardsData(cardData) {
   // rimuovo eventuali caratteri non necessari dall'url dell'immagine
   if (cardData.image) {
     try {
+      // rimuovo eventuali querystring
       cardData.image = cardData.image.split("?")[0];
-      // Estrai nome file per creare l'ID
+
+      // estraggo il nome file e creo imageId
       const segments = cardData.image.split("/");
-      const fileName = segments[segments.length - 1];
-      const id = fileName.replace(/\.png$/i, "");
-      cardData.id = id;
+      const fileName = segments[segments.length - 1]; // e.g. "OP01-060_p2.png"
+      const imageId = fileName.replace(/\.png$/i, ""); // "OP01-060_p2"
+      cardData.imageId = imageId;
+
+      // sanitizzo il setName: spazi → underscore, poi rimuovo tutto tranne lettere/numeri/_-[]
+      let sanitizedSetName = (cardData.setName || "set_not_found")
+        .trim()
+        .replace(/\s+/g, "_") // "Blue Donquixote Doflamingo [ST17]" → "Blue_Donquixote_Doflamingo_[ST17]"
+        .replace(/[^A-Za-z0-9_\-\[\]]/g, ""); // rimuove punteggiatura non voluta
+
+      // costruisco il nuovo id
+      cardData.id = `${imageId}_${sanitizedSetName}`;
     } catch (error) {
       console.log({ error });
       await broadcastEvent(

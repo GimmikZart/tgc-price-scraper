@@ -25,7 +25,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-001"
+    "imageId": "EB01-001",
+    "id": "EB01-001_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Kouzuki Oden",
@@ -53,7 +54,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-001_p1"
+    "imageId": "EB01-001_p1",
+    "id": "EB01-001_p1_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Izo",
@@ -80,7 +82,8 @@
       "[On Your Opponent's Attack]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-002"
+    "imageId": "EB01-002",
+    "id": "EB01-002_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Kid & Killer",
@@ -107,7 +110,8 @@
       "[When Attacking]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-003"
+    "imageId": "EB01-003",
+    "id": "EB01-003_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Kid & Killer",
@@ -134,7 +138,8 @@
       "[When Attacking]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-003_p1"
+    "imageId": "EB01-003_p1",
+    "id": "EB01-003_p1_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Koza",
@@ -159,7 +164,8 @@
       "[When Attacking]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-004"
+    "imageId": "EB01-004",
+    "id": "EB01-004_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Doma",
@@ -181,7 +187,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-005.png",
     "cost": 1,
     "expansionCode": "EB01",
-    "id": "EB01-005"
+    "imageId": "EB01-005",
+    "id": "EB01-005_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Tony Tony.Chopper",
@@ -209,7 +216,8 @@
       "[DON!! x2]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-006"
+    "imageId": "EB01-006",
+    "id": "EB01-006_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Tony Tony.Chopper",
@@ -237,7 +245,8 @@
       "[DON!! x2]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-006_p1"
+    "imageId": "EB01-006_p1",
+    "id": "EB01-006_p1_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Tony Tony.Chopper",
@@ -265,7 +274,8 @@
       "[DON!! x2]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-006_p2"
+    "imageId": "EB01-006_p2",
+    "id": "EB01-006_p2_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Yamato",
@@ -291,7 +301,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-007"
+    "imageId": "EB01-007",
+    "id": "EB01-007_Memorial_Collection_[EB-01]"
   },
   {
     "name": "LittleOars Jr.",
@@ -317,7 +328,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-008"
+    "imageId": "EB01-008",
+    "id": "EB01-008_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Just Shut Up and Come with Us!!!!",
@@ -343,7 +355,8 @@
       "[Counter]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-009"
+    "imageId": "EB01-009",
+    "id": "EB01-009_Memorial_Collection_[EB-01]"
   },
   {
     "name": "There's No Way You Could Defeat Me!!",
@@ -369,7 +382,8 @@
       "[Counter]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-010"
+    "imageId": "EB01-010",
+    "id": "EB01-010_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Mini-Merry",
@@ -394,7 +408,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-011"
+    "imageId": "EB01-011",
+    "id": "EB01-011_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Cavendish",
@@ -420,7 +435,8 @@
       "[When Attacking]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-012"
+    "imageId": "EB01-012",
+    "id": "EB01-012_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Cavendish",
@@ -446,7 +462,8 @@
       "[When Attacking]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-012_p1"
+    "imageId": "EB01-012_p1",
+    "id": "EB01-012_p1_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Kouzuki Hiyori",
@@ -472,7 +489,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-013"
+    "imageId": "EB01-013",
+    "id": "EB01-013_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Kouzuki Hiyori",
@@ -498,7 +516,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-013_p1"
+    "imageId": "EB01-013_p1",
+    "id": "EB01-013_p1_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Sanji",
@@ -525,7 +544,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-014"
+    "imageId": "EB01-014",
+    "id": "EB01-014_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Scratchmen Apoo",
@@ -548,7 +568,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-015.png",
     "cost": 1,
     "expansionCode": "EB01",
-    "id": "EB01-015"
+    "imageId": "EB01-015",
+    "id": "EB01-015_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Bingoh",
@@ -573,7 +594,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-016"
+    "imageId": "EB01-016",
+    "id": "EB01-016_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Blueno",
@@ -599,7 +621,8 @@
       "[Blocker]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-017"
+    "imageId": "EB01-017",
+    "id": "EB01-017_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Mountain God",
@@ -622,7 +645,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-018.png",
     "cost": 5,
     "expansionCode": "EB01",
-    "id": "EB01-018"
+    "imageId": "EB01-018",
+    "id": "EB01-018_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Off-White",
@@ -648,7 +672,8 @@
       "[Counter]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-019"
+    "imageId": "EB01-019",
+    "id": "EB01-019_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Chambres",
@@ -674,7 +699,8 @@
       "[Main]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-020"
+    "imageId": "EB01-020",
+    "id": "EB01-020_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Hannyabal",
@@ -700,7 +726,8 @@
       "[End of Your Turn]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-021"
+    "imageId": "EB01-021",
+    "id": "EB01-021_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Hannyabal",
@@ -726,7 +753,8 @@
       "[End of Your Turn]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-021_p1"
+    "imageId": "EB01-021_p1",
+    "id": "EB01-021_p1_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Inazuma",
@@ -752,7 +780,8 @@
       "[End of Your Turn]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-022"
+    "imageId": "EB01-022",
+    "id": "EB01-022_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Inazuma",
@@ -778,7 +807,8 @@
       "[End of Your Turn]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-022_p1"
+    "imageId": "EB01-022_p1",
+    "id": "EB01-022_p1_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Edward Weevil",
@@ -800,7 +830,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-023.png",
     "cost": 4,
     "expansionCode": "EB01",
-    "id": "EB01-023"
+    "imageId": "EB01-023",
+    "id": "EB01-023_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Hamlet",
@@ -823,7 +854,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-024.png",
     "cost": 3,
     "expansionCode": "EB01",
-    "id": "EB01-024"
+    "imageId": "EB01-024",
+    "id": "EB01-024_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Fourtricks",
@@ -846,7 +878,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-025.png",
     "cost": 3,
     "expansionCode": "EB01",
-    "id": "EB01-025"
+    "imageId": "EB01-025",
+    "id": "EB01-025_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Prince Bellett",
@@ -872,7 +905,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-026"
+    "imageId": "EB01-026",
+    "id": "EB01-026_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Mr.1(Daz.Bonez)",
@@ -894,7 +928,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-027.png",
     "cost": 5,
     "expansionCode": "EB01",
-    "id": "EB01-027"
+    "imageId": "EB01-027",
+    "id": "EB01-027_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Mr.1(Daz.Bonez)",
@@ -916,7 +951,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-027_p1.png",
     "cost": 5,
     "expansionCode": "EB01",
-    "id": "EB01-027_p1"
+    "imageId": "EB01-027_p1",
+    "id": "EB01-027_p1_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Gum-Gum Champion Rifle",
@@ -942,7 +978,8 @@
       "[Counter]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-028"
+    "imageId": "EB01-028",
+    "id": "EB01-028_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Sorry. I'm a Goner.",
@@ -968,7 +1005,8 @@
       "[Counter]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-029"
+    "imageId": "EB01-029",
+    "id": "EB01-029_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Loguetown",
@@ -993,7 +1031,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-030"
+    "imageId": "EB01-030",
+    "id": "EB01-030_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Kalifa",
@@ -1016,7 +1055,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-031.png",
     "cost": 5,
     "expansionCode": "EB01",
-    "id": "EB01-031"
+    "imageId": "EB01-031",
+    "id": "EB01-031_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Kalifa",
@@ -1039,7 +1079,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-031_p1.png",
     "cost": 5,
     "expansionCode": "EB01",
-    "id": "EB01-031_p1"
+    "imageId": "EB01-031_p1",
+    "id": "EB01-031_p1_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Army Wolves",
@@ -1062,7 +1103,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-032.png",
     "cost": 5,
     "expansionCode": "EB01",
-    "id": "EB01-032"
+    "imageId": "EB01-032",
+    "id": "EB01-032_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Blueno",
@@ -1084,7 +1126,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-033.png",
     "cost": 4,
     "expansionCode": "EB01",
-    "id": "EB01-033"
+    "imageId": "EB01-033",
+    "id": "EB01-033_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Ms. Wednesday",
@@ -1111,7 +1154,8 @@
       "[On Your Opponent's Attack]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-034"
+    "imageId": "EB01-034",
+    "id": "EB01-034_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Ms. Wednesday",
@@ -1138,7 +1182,8 @@
       "[On Your Opponent's Attack]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-034_p1"
+    "imageId": "EB01-034_p1",
+    "id": "EB01-034_p1_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Ms. Monday",
@@ -1160,7 +1205,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-035.png",
     "cost": 3,
     "expansionCode": "EB01",
-    "id": "EB01-035"
+    "imageId": "EB01-035",
+    "id": "EB01-035_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Minochihuahua",
@@ -1187,7 +1233,8 @@
       "[On K.O.]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-036"
+    "imageId": "EB01-036",
+    "id": "EB01-036_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Mr. 9",
@@ -1213,7 +1260,8 @@
       "[On Your Opponent's Attack]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-037"
+    "imageId": "EB01-037",
+    "id": "EB01-037_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Oh Come My Way",
@@ -1238,7 +1286,8 @@
       "[Counter]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-038"
+    "imageId": "EB01-038",
+    "id": "EB01-038_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Conquerer of Three Worlds Ragnaraku",
@@ -1264,7 +1313,8 @@
       "[Main]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-039"
+    "imageId": "EB01-039",
+    "id": "EB01-039_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Kyros",
@@ -1291,7 +1341,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-040"
+    "imageId": "EB01-040",
+    "id": "EB01-040_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Kyros",
@@ -1318,7 +1369,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-040_p1"
+    "imageId": "EB01-040_p1",
+    "id": "EB01-040_p1_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Crocus",
@@ -1340,7 +1392,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-041.png",
     "cost": 6,
     "expansionCode": "EB01",
-    "id": "EB01-041"
+    "imageId": "EB01-041",
+    "id": "EB01-041_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Scarlet",
@@ -1365,7 +1418,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-042"
+    "imageId": "EB01-042",
+    "id": "EB01-042_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Spandine",
@@ -1387,7 +1441,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-043.png",
     "cost": 3,
     "expansionCode": "EB01",
-    "id": "EB01-043"
+    "imageId": "EB01-043",
+    "id": "EB01-043_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Funkfreed",
@@ -1412,7 +1467,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-044"
+    "imageId": "EB01-044",
+    "id": "EB01-044_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Brook",
@@ -1437,7 +1493,8 @@
       "[Rush]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-045"
+    "imageId": "EB01-045",
+    "id": "EB01-045_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Brook",
@@ -1462,7 +1519,8 @@
       "[When Attacking]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-046"
+    "imageId": "EB01-046",
+    "id": "EB01-046_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Brook",
@@ -1487,7 +1545,8 @@
       "[When Attacking]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-046_p1"
+    "imageId": "EB01-046_p1",
+    "id": "EB01-046_p1_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Laboon",
@@ -1512,7 +1571,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-047"
+    "imageId": "EB01-047",
+    "id": "EB01-047_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Laboon",
@@ -1537,7 +1597,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-048"
+    "imageId": "EB01-048",
+    "id": "EB01-048_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Laboon",
@@ -1562,7 +1623,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-048_p1"
+    "imageId": "EB01-048_p1",
+    "id": "EB01-048_p1_Memorial_Collection_[EB-01]"
   },
   {
     "name": "T-Bone",
@@ -1585,7 +1647,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-049.png",
     "cost": 5,
     "expansionCode": "EB01",
-    "id": "EB01-049"
+    "imageId": "EB01-049",
+    "id": "EB01-049_Memorial_Collection_[EB-01]"
   },
   {
     "name": "T-Bone",
@@ -1608,7 +1671,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-049_p1.png",
     "cost": 5,
     "expansionCode": "EB01",
-    "id": "EB01-049_p1"
+    "imageId": "EB01-049_p1",
+    "id": "EB01-049_p1_Memorial_Collection_[EB-01]"
   },
   {
     "name": "...I Want to Live!!",
@@ -1633,7 +1697,8 @@
       "[Counter]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-050"
+    "imageId": "EB01-050",
+    "id": "EB01-050_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Finger Pistol",
@@ -1658,7 +1723,8 @@
       "[Main]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-051"
+    "imageId": "EB01-051",
+    "id": "EB01-051_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Viola",
@@ -1683,7 +1749,8 @@
       "[Blocker]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-052"
+    "imageId": "EB01-052",
+    "id": "EB01-052_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Viola",
@@ -1708,7 +1775,8 @@
       "[Blocker]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-052_p1"
+    "imageId": "EB01-052_p1",
+    "id": "EB01-052_p1_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Gastino",
@@ -1730,7 +1798,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-053.png",
     "cost": 3,
     "expansionCode": "EB01",
-    "id": "EB01-053"
+    "imageId": "EB01-053",
+    "id": "EB01-053_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Gan.Fall",
@@ -1755,7 +1824,8 @@
       "[Blocker]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-054"
+    "imageId": "EB01-054",
+    "id": "EB01-054_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Charlotte Compote",
@@ -1777,7 +1847,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-055.png",
     "cost": 7,
     "expansionCode": "EB01",
-    "id": "EB01-055"
+    "imageId": "EB01-055",
+    "id": "EB01-055_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Charlotte Flampe",
@@ -1799,7 +1870,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-056.png",
     "cost": 1,
     "expansionCode": "EB01",
-    "id": "EB01-056"
+    "imageId": "EB01-056",
+    "id": "EB01-056_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Charlotte Flampe",
@@ -1821,7 +1893,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-056_p1.png",
     "cost": 1,
     "expansionCode": "EB01",
-    "id": "EB01-056_p1"
+    "imageId": "EB01-056_p1",
+    "id": "EB01-056_p1_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Shirahoshi",
@@ -1846,7 +1919,8 @@
       "[Blocker]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-057"
+    "imageId": "EB01-057",
+    "id": "EB01-057_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Shirahoshi",
@@ -1871,7 +1945,8 @@
       "[Blocker]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-057_p1"
+    "imageId": "EB01-057_p1",
+    "id": "EB01-057_p1_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Mont Blanc Cricket",
@@ -1897,7 +1972,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-058"
+    "imageId": "EB01-058",
+    "id": "EB01-058_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Kingdom Come",
@@ -1922,7 +1998,8 @@
       "[Main]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-059"
+    "imageId": "EB01-059",
+    "id": "EB01-059_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Did Someone Say...Kami?",
@@ -1947,7 +2024,8 @@
       "[Main]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-060"
+    "imageId": "EB01-060",
+    "id": "EB01-060_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Mr.2.Bon.Kurei(Bentham)",
@@ -1972,7 +2050,8 @@
       "[When Attacking]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-061"
+    "imageId": "EB01-061",
+    "id": "EB01-061_Memorial_Collection_[EB-01]"
   },
   {
     "name": "Mr.2.Bon.Kurei(Bentham)",
@@ -1997,6 +2076,7 @@
       "[When Attacking]"
     ],
     "expansionCode": "EB01",
-    "id": "EB01-061_p1"
+    "imageId": "EB01-061_p1",
+    "id": "EB01-061_p1_Memorial_Collection_[EB-01]"
   }
 ]

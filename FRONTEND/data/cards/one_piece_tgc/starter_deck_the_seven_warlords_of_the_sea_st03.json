@@ -16,7 +16,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] DON!! −4 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Return up to 1 Character with a cost of 5 or less to the owner's hand.",
     "trigger": null,
-    "setName": "The Seven Warlords of the Sea [ST03]",
+    "setName": "The Seven Warlords of the Sea [ST-03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-001.png",
     "life": 5,
     "abilityKeywords": [
@@ -24,7 +24,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "ST03",
-    "id": "ST03-001"
+    "imageId": "ST03-001",
+    "id": "ST03-001_The_Seven_Warlords_of_the_Sea_[ST-03]"
   },
   {
     "name": "Edward Weevil",
@@ -42,11 +43,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "The Seven Warlords of the Sea [ST03]",
+    "setName": "The Seven Warlords of the Sea [ST-03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-002.png",
     "cost": 3,
     "expansionCode": "ST03",
-    "id": "ST03-002"
+    "imageId": "ST03-002",
+    "id": "ST03-002_The_Seven_Warlords_of_the_Sea_[ST-03]"
   },
   {
     "name": "Crocodile",
@@ -65,7 +67,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x1] [On Block] Place up to 1 Character with a cost of 2 or less at the bottom of the owner's deck.",
     "trigger": null,
-    "setName": "The Seven Warlords of the Sea [ST03]",
+    "setName": "The Seven Warlords of the Sea [ST-03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-003.png",
     "cost": 5,
     "abilityKeywords": [
@@ -74,7 +76,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "ST03",
-    "id": "ST03-003"
+    "imageId": "ST03-003",
+    "id": "ST03-003_The_Seven_Warlords_of_the_Sea_[ST-03]"
   },
   {
     "name": "Gecko Moria",
@@ -93,11 +96,12 @@
     ],
     "effect": "[On Play] Add up to 1 {The Seven Warlords of the Sea} or {Thriller Bark Pirates} type Character with a cost of 4 or less other than [Gecko Moria] from your trash to your hand.",
     "trigger": null,
-    "setName": "The Seven Warlords of the Sea [ST03]",
+    "setName": "The Seven Warlords of the Sea [ST-03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-004.png",
     "cost": 4,
     "expansionCode": "ST03",
-    "id": "ST03-004"
+    "imageId": "ST03-004",
+    "id": "ST03-004_The_Seven_Warlords_of_the_Sea_[ST-03]"
   },
   {
     "name": "Dracule Mihawk",
@@ -115,7 +119,7 @@
     ],
     "effect": "[DON!! x1] [When Attacking] Draw 2 cards and trash 2 cards from your hand.",
     "trigger": null,
-    "setName": "The Seven Warlords of the Sea [ST03]",
+    "setName": "The Seven Warlords of the Sea [ST-03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-005.png",
     "cost": 4,
     "abilityKeywords": [
@@ -123,7 +127,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "ST03",
-    "id": "ST03-005"
+    "imageId": "ST03-005",
+    "id": "ST03-005_The_Seven_Warlords_of_the_Sea_[ST-03]"
   },
   {
     "name": "Jinbe",
@@ -143,11 +148,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "The Seven Warlords of the Sea [ST03]",
+    "setName": "The Seven Warlords of the Sea [ST-03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-006.png",
     "cost": 2,
     "expansionCode": "ST03",
-    "id": "ST03-006"
+    "imageId": "ST03-006",
+    "id": "ST03-006_The_Seven_Warlords_of_the_Sea_[ST-03]"
   },
   {
     "name": "Sentomaru",
@@ -165,7 +171,7 @@
     ],
     "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] ➁ (You may rest the specified number of DON!! cards in your cost area.): Play up to 1 [Pacifista] with a cost of 4 or less from your deck, then shuffle your deck.",
     "trigger": null,
-    "setName": "The Seven Warlords of the Sea [ST03]",
+    "setName": "The Seven Warlords of the Sea [ST-03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-007.png",
     "cost": 3,
     "abilityKeywords": [
@@ -174,7 +180,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "ST03",
-    "id": "ST03-007"
+    "imageId": "ST03-007",
+    "id": "ST03-007_The_Seven_Warlords_of_the_Sea_[ST-03]"
   },
   {
     "name": "Trafalgar Law",
@@ -193,14 +200,15 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
-    "setName": "The Seven Warlords of the Sea [ST03]",
+    "setName": "The Seven Warlords of the Sea [ST-03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-008.png",
     "cost": 1,
     "abilityKeywords": [
       "[Blocker]"
     ],
     "expansionCode": "ST03",
-    "id": "ST03-008"
+    "imageId": "ST03-008",
+    "id": "ST03-008_The_Seven_Warlords_of_the_Sea_[ST-03]"
   },
   {
     "name": "Donquixote Doflamingo",
@@ -219,11 +227,12 @@
     ],
     "effect": "[On Play] Return up to 1 Character with a cost of 7 or less to the owner's hand.",
     "trigger": null,
-    "setName": "The Seven Warlords of the Sea [ST03]",
+    "setName": "The Seven Warlords of the Sea [ST-03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-009.png",
     "cost": 7,
     "expansionCode": "ST03",
-    "id": "ST03-009"
+    "imageId": "ST03-009",
+    "id": "ST03-009_The_Seven_Warlords_of_the_Sea_[ST-03]"
   },
   {
     "name": "Bartholomew Kuma",
@@ -242,11 +251,12 @@
     ],
     "effect": "[On Play] Look at 3 cards from the top of your deck and return them to the top or bottom of the deck in any order.",
     "trigger": "Trigger[Trigger] Play this card.",
-    "setName": "The Seven Warlords of the Sea [ST03]",
+    "setName": "The Seven Warlords of the Sea [ST-03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-010.png",
     "cost": 2,
     "expansionCode": "ST03",
-    "id": "ST03-010"
+    "imageId": "ST03-010",
+    "id": "ST03-010_The_Seven_Warlords_of_the_Sea_[ST-03]"
   },
   {
     "name": "Buggy",
@@ -265,11 +275,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "The Seven Warlords of the Sea [ST03]",
+    "setName": "The Seven Warlords of the Sea [ST-03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-011.png",
     "cost": 1,
     "expansionCode": "ST03",
-    "id": "ST03-011"
+    "imageId": "ST03-011",
+    "id": "ST03-011_The_Seven_Warlords_of_the_Sea_[ST-03]"
   },
   {
     "name": "Pacifista",
@@ -288,11 +299,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "The Seven Warlords of the Sea [ST03]",
+    "setName": "The Seven Warlords of the Sea [ST-03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-012.png",
     "cost": 4,
     "expansionCode": "ST03",
-    "id": "ST03-012"
+    "imageId": "ST03-012",
+    "id": "ST03-012_The_Seven_Warlords_of_the_Sea_[ST-03]"
   },
   {
     "name": "Boa Hancock",
@@ -311,14 +323,15 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": "Trigger[Trigger] Play this card.",
-    "setName": "The Seven Warlords of the Sea [ST03]",
+    "setName": "The Seven Warlords of the Sea [ST-03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-013.png",
     "cost": 3,
     "abilityKeywords": [
       "[Blocker]"
     ],
     "expansionCode": "ST03",
-    "id": "ST03-013"
+    "imageId": "ST03-013",
+    "id": "ST03-013_The_Seven_Warlords_of_the_Sea_[ST-03]"
   },
   {
     "name": "Marshall.D.Teach",
@@ -337,11 +350,12 @@
     ],
     "effect": "[On Play] Return up to 1 Character with a cost of 3 or less to the owner's hand.",
     "trigger": null,
-    "setName": "The Seven Warlords of the Sea [ST03]",
+    "setName": "The Seven Warlords of the Sea [ST-03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-014.png",
     "cost": 4,
     "expansionCode": "ST03",
-    "id": "ST03-014"
+    "imageId": "ST03-014",
+    "id": "ST03-014_The_Seven_Warlords_of_the_Sea_[ST-03]"
   },
   {
     "name": "Sables",
@@ -360,14 +374,15 @@
     ],
     "effect": "[Main] Return up to 1 Character with a cost of 7 or less to the owner's hand.",
     "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
-    "setName": "The Seven Warlords of the Sea [ST03]",
+    "setName": "The Seven Warlords of the Sea [ST-03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-015.png",
     "cost": 4,
     "abilityKeywords": [
       "[Main]"
     ],
     "expansionCode": "ST03",
-    "id": "ST03-015"
+    "imageId": "ST03-015",
+    "id": "ST03-015_The_Seven_Warlords_of_the_Sea_[ST-03]"
   },
   {
     "name": "Thrust Pad Cannon",
@@ -386,14 +401,15 @@
     ],
     "effect": "[Counter] Return up to 1 Character with a cost of 3 or less to the owner's hand.",
     "trigger": "Trigger[Trigger] Activate this card's [Counter] effect.",
-    "setName": "The Seven Warlords of the Sea [ST03]",
+    "setName": "The Seven Warlords of the Sea [ST-03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-016.png",
     "cost": 2,
     "abilityKeywords": [
       "[Counter]"
     ],
     "expansionCode": "ST03",
-    "id": "ST03-016"
+    "imageId": "ST03-016",
+    "id": "ST03-016_The_Seven_Warlords_of_the_Sea_[ST-03]"
   },
   {
     "name": "Love-Love Mellow",
@@ -412,13 +428,14 @@
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, draw 1 card if you have 3 or less cards in your hand.",
     "trigger": null,
-    "setName": "The Seven Warlords of the Sea [ST03]",
+    "setName": "The Seven Warlords of the Sea [ST-03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-017.png",
     "cost": 2,
     "abilityKeywords": [
       "[Counter]"
     ],
     "expansionCode": "ST03",
-    "id": "ST03-017"
+    "imageId": "ST03-017",
+    "id": "ST03-017_The_Seven_Warlords_of_the_Sea_[ST-03]"
   }
 ]

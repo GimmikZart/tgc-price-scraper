@@ -16,7 +16,7 @@
     ],
     "effect": "[DON!! x2] [When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: If you have 2 or less Life cards, add up to 1 card from your hand to the top of your Life cards.",
     "trigger": null,
-    "setName": "Big Mom Pirates [ST07]",
+    "setName": "Card Set(s)Big Mom Pirates [ST 07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-001.png",
     "life": 5,
     "abilityKeywords": [
@@ -24,7 +24,8 @@
       "[DON!! x2]"
     ],
     "expansionCode": "ST07",
-    "id": "ST07-001"
+    "imageId": "ST07-001",
+    "id": "ST07-001_Card_SetsBig_Mom_Pirates_[ST_07]"
   },
   {
     "name": "Charlotte Anana",
@@ -42,11 +43,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "Big Mom Pirates [ST07]",
+    "setName": "Card Set(s)Big Mom Pirates [ST 07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-002.png",
     "cost": 1,
     "expansionCode": "ST07",
-    "id": "ST07-002"
+    "imageId": "ST07-002",
+    "id": "ST07-002_Card_SetsBig_Mom_Pirates_[ST_07]"
   },
   {
     "name": "Charlotte Katakuri",
@@ -64,14 +66,15 @@
     ],
     "effect": "[On Play] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards. Then, if you have less Life cards than your opponent, this Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
     "trigger": null,
-    "setName": "Big Mom Pirates [ST07]",
+    "setName": "Card Set(s)Big Mom Pirates [ST 07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-003.png",
     "cost": 4,
     "abilityKeywords": [
       "[Rush]"
     ],
     "expansionCode": "ST07",
-    "id": "ST07-003"
+    "imageId": "ST07-003",
+    "id": "ST07-003_Card_SetsBig_Mom_Pirates_[ST_07]"
   },
   {
     "name": "Charlotte Snack",
@@ -89,7 +92,7 @@
     ],
     "effect": "[DON!! x1] [When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: This Character gains [Banish] and +1000 power during this battle.(When this card deals damage, the target card is trashed without activating its Trigger.)",
     "trigger": null,
-    "setName": "Big Mom Pirates [ST07]",
+    "setName": "Card Set(s)Big Mom Pirates [ST 07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-004.png",
     "cost": 5,
     "abilityKeywords": [
@@ -98,7 +101,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "ST07",
-    "id": "ST07-004"
+    "imageId": "ST07-004",
+    "id": "ST07-004_Card_SetsBig_Mom_Pirates_[ST_07]"
   },
   {
     "name": "Charlotte Daifuku",
@@ -116,7 +120,7 @@
     ],
     "effect": "[DON!! x1] [When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
     "trigger": null,
-    "setName": "Big Mom Pirates [ST07]",
+    "setName": "Card Set(s)Big Mom Pirates [ST 07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-005.png",
     "cost": 4,
     "abilityKeywords": [
@@ -124,7 +128,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "ST07",
-    "id": "ST07-005"
+    "imageId": "ST07-005",
+    "id": "ST07-005_Card_SetsBig_Mom_Pirates_[ST_07]"
   },
   {
     "name": "Charlotte Flampe",
@@ -142,11 +147,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "Big Mom Pirates [ST07]",
+    "setName": "Card Set(s)Big Mom Pirates [ST 07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-006.png",
     "cost": 2,
     "expansionCode": "ST07",
-    "id": "ST07-006"
+    "imageId": "ST07-006",
+    "id": "ST07-006_Card_SetsBig_Mom_Pirates_[ST_07]"
   },
   {
     "name": "Charlotte Brulee",
@@ -164,14 +170,15 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": "Trigger[Trigger] Play this card.",
-    "setName": "Big Mom Pirates [ST07]",
+    "setName": "Card Set(s)Big Mom Pirates [ST 07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-007.png",
     "cost": 3,
     "abilityKeywords": [
       "[Blocker]"
     ],
     "expansionCode": "ST07",
-    "id": "ST07-007"
+    "imageId": "ST07-007",
+    "id": "ST07-007_Card_SetsBig_Mom_Pirates_[ST_07]"
   },
   {
     "name": "Charlotte Pudding",
@@ -189,11 +196,12 @@
     ],
     "effect": "[On Play] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards.",
     "trigger": null,
-    "setName": "Big Mom Pirates [ST07]",
+    "setName": "Card Set(s)Big Mom Pirates [ST 07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-008.png",
     "cost": 2,
     "expansionCode": "ST07",
-    "id": "ST07-008"
+    "imageId": "ST07-008",
+    "id": "ST07-008_Card_SetsBig_Mom_Pirates_[ST_07]"
   },
   {
     "name": "Charlotte Mont-d'or",
@@ -211,14 +219,15 @@
     ],
     "effect": "[Activate: Main] You may rest this Character and add 1 card from the top or bottom of your Life cards to your hand: K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
     "trigger": "Trigger[Trigger] You may trash 1 card from your hand: Play this card.",
-    "setName": "Big Mom Pirates [ST07]",
+    "setName": "Card Set(s)Big Mom Pirates [ST 07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-009.png",
     "cost": 3,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
     "expansionCode": "ST07",
-    "id": "ST07-009"
+    "imageId": "ST07-009",
+    "id": "ST07-009_Card_SetsBig_Mom_Pirates_[ST_07]"
   },
   {
     "name": "Charlotte Linlin",
@@ -237,11 +246,12 @@
     ],
     "effect": "[On Play] Your opponent chooses one:- Trash 1 card from the top of your opponent's Life cards.- Add 1 card from the top of your deck to the top of your Life cards.",
     "trigger": null,
-    "setName": "Big Mom Pirates [ST07]",
+    "setName": "Card Set(s)Big Mom Pirates [ST 07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-010.png",
     "cost": 7,
     "expansionCode": "ST07",
-    "id": "ST07-010"
+    "imageId": "ST07-010",
+    "id": "ST07-010_Card_SetsBig_Mom_Pirates_[ST_07]"
   },
   {
     "name": "Zeus",
@@ -260,7 +270,7 @@
     ],
     "effect": "[Activate: Main] You may rest this Character: Up to 1 of your [Charlotte Linlin] cards gains [Banish] during this turn.(When this card deals damage, the target card is trashed without activating its Trigger.)",
     "trigger": "Trigger[Trigger] Play this card.",
-    "setName": "Big Mom Pirates [ST07]",
+    "setName": "Card Set(s)Big Mom Pirates [ST 07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-011.png",
     "cost": 3,
     "abilityKeywords": [
@@ -268,7 +278,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "ST07",
-    "id": "ST07-011"
+    "imageId": "ST07-011",
+    "id": "ST07-011_Card_SetsBig_Mom_Pirates_[ST_07]"
   },
   {
     "name": "Baron Tamago",
@@ -286,11 +297,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "Big Mom Pirates [ST07]",
+    "setName": "Card Set(s)Big Mom Pirates [ST 07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-012.png",
     "cost": 4,
     "expansionCode": "ST07",
-    "id": "ST07-012"
+    "imageId": "ST07-012",
+    "id": "ST07-012_Card_SetsBig_Mom_Pirates_[ST_07]"
   },
   {
     "name": "Prometheus",
@@ -309,7 +321,7 @@
     ],
     "effect": "[Activate: Main] You may rest this Character: Up to 1 of your [Charlotte Linlin] cards gains [Double Attack] during this turn.(This card deals 2 damage.)",
     "trigger": "Trigger[Trigger] Play this card.",
-    "setName": "Big Mom Pirates [ST07]",
+    "setName": "Card Set(s)Big Mom Pirates [ST 07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-013.png",
     "cost": 3,
     "abilityKeywords": [
@@ -317,7 +329,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "ST07",
-    "id": "ST07-013"
+    "imageId": "ST07-013",
+    "id": "ST07-013_Card_SetsBig_Mom_Pirates_[ST_07]"
   },
   {
     "name": "Pekoms",
@@ -336,11 +349,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "Big Mom Pirates [ST07]",
+    "setName": "Card Set(s)Big Mom Pirates [ST 07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-014.png",
     "cost": 3,
     "expansionCode": "ST07",
-    "id": "ST07-014"
+    "imageId": "ST07-014",
+    "id": "ST07-014_Card_SetsBig_Mom_Pirates_[ST_07]"
   },
   {
     "name": "Soul Pocus",
@@ -359,14 +373,15 @@
     ],
     "effect": "[Main] Your opponent chooses one:- Trash 1 card from the top of your opponent's Life cards.- Add 1 card from the top of your deck to the top of your Life cards.",
     "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
-    "setName": "Big Mom Pirates [ST07]",
+    "setName": "Card Set(s)Big Mom Pirates [ST 07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-015.png",
     "cost": 5,
     "abilityKeywords": [
       "[Main]"
     ],
     "expansionCode": "ST07",
-    "id": "ST07-015"
+    "imageId": "ST07-015",
+    "id": "ST07-015_Card_SetsBig_Mom_Pirates_[ST_07]"
   },
   {
     "name": "Power Mochi",
@@ -384,14 +399,15 @@
     ],
     "effect": "[Counter] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards. Then, up to 1 of your Leader or Character cards gains +2000 power during this battle.",
     "trigger": "Trigger[Trigger] Draw 1 card, look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards.",
-    "setName": "Big Mom Pirates [ST07]",
+    "setName": "Card Set(s)Big Mom Pirates [ST 07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-016.png",
     "cost": 1,
     "abilityKeywords": [
       "[Counter]"
     ],
     "expansionCode": "ST07",
-    "id": "ST07-016"
+    "imageId": "ST07-016",
+    "id": "ST07-016_Card_SetsBig_Mom_Pirates_[ST_07]"
   },
   {
     "name": "Queen Mama Chanter",
@@ -410,13 +426,14 @@
     ],
     "effect": "[Activate: Main] You may rest this Stage and add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 of your Characters with a cost of 3 to the top of the owner's Life cards face-up.",
     "trigger": null,
-    "setName": "Big Mom Pirates [ST07]",
+    "setName": "Card Set(s)Big Mom Pirates [ST 07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-017.png",
     "cost": 2,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
     "expansionCode": "ST07",
-    "id": "ST07-017"
+    "imageId": "ST07-017",
+    "id": "ST07-017_Card_SetsBig_Mom_Pirates_[ST_07]"
   }
 ]

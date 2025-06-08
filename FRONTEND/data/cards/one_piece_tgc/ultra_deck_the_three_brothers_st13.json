@@ -26,7 +26,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "ST13",
-    "id": "ST13-001"
+    "imageId": "ST13-001",
+    "id": "ST13-001_The_Three_Brothers_[ST13]"
   },
   {
     "name": "Sabo",
@@ -55,7 +56,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "ST13",
-    "id": "ST13-001_p1"
+    "imageId": "ST13-001_p1",
+    "id": "ST13-001_p1_The_Three_Brothers_[ST13]"
   },
   {
     "name": "Portgas.D.Ace",
@@ -84,7 +86,8 @@
       "[DON!! x2]"
     ],
     "expansionCode": "ST13",
-    "id": "ST13-002"
+    "imageId": "ST13-002",
+    "id": "ST13-002_The_Three_Brothers_[ST13]"
   },
   {
     "name": "Portgas.D.Ace",
@@ -113,7 +116,8 @@
       "[DON!! x2]"
     ],
     "expansionCode": "ST13",
-    "id": "ST13-002_p1"
+    "imageId": "ST13-002_p1",
+    "id": "ST13-002_p1_The_Three_Brothers_[ST13]"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -142,7 +146,8 @@
       "[DON!! x2]"
     ],
     "expansionCode": "ST13",
-    "id": "ST13-003"
+    "imageId": "ST13-003",
+    "id": "ST13-003_The_Three_Brothers_[ST13]"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -171,7 +176,8 @@
       "[DON!! x2]"
     ],
     "expansionCode": "ST13",
-    "id": "ST13-003_p1"
+    "imageId": "ST13-003_p1",
+    "id": "ST13-003_p1_The_Three_Brothers_[ST13]"
   },
   {
     "name": "Edward.Newgate",
@@ -194,7 +200,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-004.png",
     "cost": 6,
     "expansionCode": "ST13",
-    "id": "ST13-004"
+    "imageId": "ST13-004",
+    "id": "ST13-004_The_Three_Brothers_[ST13]"
   },
   {
     "name": "Edward.Newgate",
@@ -217,7 +224,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-004_p1.png",
     "cost": 6,
     "expansionCode": "ST13",
-    "id": "ST13-004_p1"
+    "imageId": "ST13-004_p1",
+    "id": "ST13-004_p1_The_Three_Brothers_[ST13]"
   },
   {
     "name": "Emporio.Ivankov",
@@ -242,7 +250,8 @@
       "[Blocker]"
     ],
     "expansionCode": "ST13",
-    "id": "ST13-005"
+    "imageId": "ST13-005",
+    "id": "ST13-005_The_Three_Brothers_[ST13]"
   },
   {
     "name": "Emporio.Ivankov",
@@ -267,7 +276,8 @@
       "[Blocker]"
     ],
     "expansionCode": "ST13",
-    "id": "ST13-005_p1"
+    "imageId": "ST13-005_p1",
+    "id": "ST13-005_p1_The_Three_Brothers_[ST13]"
   },
   {
     "name": "Curly.Dadan",
@@ -292,7 +302,8 @@
       "[Blocker]"
     ],
     "expansionCode": "ST13",
-    "id": "ST13-006"
+    "imageId": "ST13-006",
+    "id": "ST13-006_The_Three_Brothers_[ST13]"
   },
   {
     "name": "Curly.Dadan",
@@ -317,7 +328,8 @@
       "[Blocker]"
     ],
     "expansionCode": "ST13",
-    "id": "ST13-006_p1"
+    "imageId": "ST13-006_p1",
+    "id": "ST13-006_p1_The_Three_Brothers_[ST13]"
   },
   {
     "name": "Sabo",
@@ -342,7 +354,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "ST13",
-    "id": "ST13-007"
+    "imageId": "ST13-007",
+    "id": "ST13-007_The_Three_Brothers_[ST13]"
   },
   {
     "name": "Sabo",
@@ -367,7 +380,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "ST13",
-    "id": "ST13-007_p1"
+    "imageId": "ST13-007_p1",
+    "id": "ST13-007_p1_The_Three_Brothers_[ST13]"
   },
   {
     "name": "Sabo",
@@ -390,7 +404,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-008.png",
     "cost": 5,
     "expansionCode": "ST13",
-    "id": "ST13-008"
+    "imageId": "ST13-008",
+    "id": "ST13-008_The_Three_Brothers_[ST13]"
   },
   {
     "name": "Sabo",
@@ -413,7 +428,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-008_p1.png",
     "cost": 5,
     "expansionCode": "ST13",
-    "id": "ST13-008_p1"
+    "imageId": "ST13-008_p1",
+    "id": "ST13-008_p1_The_Three_Brothers_[ST13]"
   },
   {
     "name": "Shanks",
@@ -436,7 +452,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-009.png",
     "cost": 7,
     "expansionCode": "ST13",
-    "id": "ST13-009"
+    "imageId": "ST13-009",
+    "id": "ST13-009_The_Three_Brothers_[ST13]"
   },
   {
     "name": "Shanks",
@@ -459,7 +476,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-009_p1.png",
     "cost": 7,
     "expansionCode": "ST13",
-    "id": "ST13-009_p1"
+    "imageId": "ST13-009_p1",
+    "id": "ST13-009_p1_The_Three_Brothers_[ST13]"
   },
   {
     "name": "Portgas.D.Ace",
@@ -484,7 +502,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "ST13",
-    "id": "ST13-010"
+    "imageId": "ST13-010",
+    "id": "ST13-010_The_Three_Brothers_[ST13]"
   },
   {
     "name": "Portgas.D.Ace",
@@ -509,7 +528,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "ST13",
-    "id": "ST13-010_p1"
+    "imageId": "ST13-010_p1",
+    "id": "ST13-010_p1_The_Three_Brothers_[ST13]"
   },
   {
     "name": "Portgas.D.Ace",
@@ -534,7 +554,8 @@
       "[Rush]"
     ],
     "expansionCode": "ST13",
-    "id": "ST13-011"
+    "imageId": "ST13-011",
+    "id": "ST13-011_The_Three_Brothers_[ST13]"
   },
   {
     "name": "Portgas.D.Ace",
@@ -559,7 +580,8 @@
       "[Rush]"
     ],
     "expansionCode": "ST13",
-    "id": "ST13-011_p1"
+    "imageId": "ST13-011_p1",
+    "id": "ST13-011_p1_The_Three_Brothers_[ST13]"
   },
   {
     "name": "Makino",
@@ -581,7 +603,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-012.png",
     "cost": 1,
     "expansionCode": "ST13",
-    "id": "ST13-012"
+    "imageId": "ST13-012",
+    "id": "ST13-012_The_Three_Brothers_[ST13]"
   },
   {
     "name": "Makino",
@@ -603,7 +626,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-012_p1.png",
     "cost": 1,
     "expansionCode": "ST13",
-    "id": "ST13-012_p1"
+    "imageId": "ST13-012_p1",
+    "id": "ST13-012_p1_The_Three_Brothers_[ST13]"
   },
   {
     "name": "Monkey.D.Garp",
@@ -625,7 +649,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-013.png",
     "cost": 1,
     "expansionCode": "ST13",
-    "id": "ST13-013"
+    "imageId": "ST13-013",
+    "id": "ST13-013_The_Three_Brothers_[ST13]"
   },
   {
     "name": "Monkey.D.Garp",
@@ -647,7 +672,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-013_p1.png",
     "cost": 1,
     "expansionCode": "ST13",
-    "id": "ST13-013_p1"
+    "imageId": "ST13-013_p1",
+    "id": "ST13-013_p1_The_Three_Brothers_[ST13]"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -672,7 +698,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "ST13",
-    "id": "ST13-014"
+    "imageId": "ST13-014",
+    "id": "ST13-014_The_Three_Brothers_[ST13]"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -697,7 +724,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "ST13",
-    "id": "ST13-014_p1"
+    "imageId": "ST13-014_p1",
+    "id": "ST13-014_p1_The_Three_Brothers_[ST13]"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -724,7 +752,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "ST13",
-    "id": "ST13-015"
+    "imageId": "ST13-015",
+    "id": "ST13-015_The_Three_Brothers_[ST13]"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -751,7 +780,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "ST13",
-    "id": "ST13-015_p1"
+    "imageId": "ST13-015_p1",
+    "id": "ST13-015_p1_The_Three_Brothers_[ST13]"
   },
   {
     "name": "Yamato",
@@ -776,7 +806,8 @@
       "[Rush]"
     ],
     "expansionCode": "ST13",
-    "id": "ST13-016"
+    "imageId": "ST13-016",
+    "id": "ST13-016_The_Three_Brothers_[ST13]"
   },
   {
     "name": "Yamato",
@@ -801,7 +832,8 @@
       "[Rush]"
     ],
     "expansionCode": "ST13",
-    "id": "ST13-016_p1"
+    "imageId": "ST13-016_p1",
+    "id": "ST13-016_p1_The_Three_Brothers_[ST13]"
   },
   {
     "name": "Flame Dragon King",
@@ -827,7 +859,8 @@
       "[Counter]"
     ],
     "expansionCode": "ST13",
-    "id": "ST13-017"
+    "imageId": "ST13-017",
+    "id": "ST13-017_The_Three_Brothers_[ST13]"
   },
   {
     "name": "Gum-Gum Jet Spear",
@@ -853,7 +886,8 @@
       "[Counter]"
     ],
     "expansionCode": "ST13",
-    "id": "ST13-018"
+    "imageId": "ST13-018",
+    "id": "ST13-018_The_Three_Brothers_[ST13]"
   },
   {
     "name": "The Three Brothers' Bond",
@@ -878,6 +912,7 @@
       "[Main]"
     ],
     "expansionCode": "ST13",
-    "id": "ST13-019"
+    "imageId": "ST13-019",
+    "id": "ST13-019_The_Three_Brothers_[ST13]"
   }
 ]

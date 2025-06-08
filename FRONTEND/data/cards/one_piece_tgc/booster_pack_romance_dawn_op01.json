@@ -24,7 +24,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-001"
+    "imageId": "OP01-001",
+    "id": "OP01-001_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Roronoa Zoro",
@@ -51,7 +52,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-001_p1"
+    "imageId": "OP01-001_p1",
+    "id": "OP01-001_p1_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Trafalgar Law",
@@ -79,7 +81,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-002"
+    "imageId": "OP01-002",
+    "id": "OP01-002_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Trafalgar Law",
@@ -107,7 +110,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-002_p1"
+    "imageId": "OP01-002_p1",
+    "id": "OP01-002_p1_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -135,7 +139,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-003"
+    "imageId": "OP01-003",
+    "id": "OP01-003_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -163,7 +168,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-003_p1"
+    "imageId": "OP01-003_p1",
+    "id": "OP01-003_p1_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Usopp",
@@ -190,7 +196,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-004"
+    "imageId": "OP01-004",
+    "id": "OP01-004_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Uta",
@@ -212,7 +219,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-005.png",
     "cost": 4,
     "expansionCode": "OP01",
-    "id": "OP01-005"
+    "imageId": "OP01-005",
+    "id": "OP01-005_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Otama",
@@ -234,7 +242,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-006.png",
     "cost": 1,
     "expansionCode": "OP01",
-    "id": "OP01-006"
+    "imageId": "OP01-006",
+    "id": "OP01-006_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Caribou",
@@ -260,7 +269,8 @@
       "[On K.O.]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-007"
+    "imageId": "OP01-007",
+    "id": "OP01-007_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Cavendish",
@@ -286,7 +296,8 @@
       "[Rush]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-008"
+    "imageId": "OP01-008",
+    "id": "OP01-008_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Cavendish",
@@ -312,7 +323,8 @@
       "[Rush]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-008_p1"
+    "imageId": "OP01-008_p1",
+    "id": "OP01-008_p1_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Carrot",
@@ -337,7 +349,8 @@
       "[Trigger]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-009"
+    "imageId": "OP01-009",
+    "id": "OP01-009_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Komachiyo",
@@ -360,7 +373,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-010.png",
     "cost": 1,
     "expansionCode": "OP01",
-    "id": "OP01-010"
+    "imageId": "OP01-010",
+    "id": "OP01-010_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Gordon",
@@ -382,7 +396,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-011.png",
     "cost": 2,
     "expansionCode": "OP01",
-    "id": "OP01-011"
+    "imageId": "OP01-011",
+    "id": "OP01-011_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Sai",
@@ -404,7 +419,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-012.png",
     "cost": 2,
     "expansionCode": "OP01",
-    "id": "OP01-012"
+    "imageId": "OP01-012",
+    "id": "OP01-012_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Sanji",
@@ -430,7 +446,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-013"
+    "imageId": "OP01-013",
+    "id": "OP01-013_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Sanji",
@@ -456,7 +473,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-013_p1"
+    "imageId": "OP01-013_p1",
+    "id": "OP01-013_p1_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Jinbe",
@@ -484,7 +502,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-014"
+    "imageId": "OP01-014",
+    "id": "OP01-014_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Tony Tony.Chopper",
@@ -511,7 +530,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-015"
+    "imageId": "OP01-015",
+    "id": "OP01-015_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Nami",
@@ -533,7 +553,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-016.png",
     "cost": 1,
     "expansionCode": "OP01",
-    "id": "OP01-016"
+    "imageId": "OP01-016",
+    "id": "OP01-016_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Nami",
@@ -555,7 +576,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-016_p1.png",
     "cost": 1,
     "expansionCode": "OP01",
-    "id": "OP01-016_p1"
+    "imageId": "OP01-016_p1",
+    "id": "OP01-016_p1_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Nico Robin",
@@ -581,7 +603,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-017"
+    "imageId": "OP01-017",
+    "id": "OP01-017_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Hajrudin",
@@ -604,7 +627,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-018.png",
     "cost": 4,
     "expansionCode": "OP01",
-    "id": "OP01-018"
+    "imageId": "OP01-018",
+    "id": "OP01-018_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Bartolomeo",
@@ -632,7 +656,8 @@
       "[DON!! x2]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-019"
+    "imageId": "OP01-019",
+    "id": "OP01-019_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Hyogoro",
@@ -657,7 +682,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-020"
+    "imageId": "OP01-020",
+    "id": "OP01-020_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Franky",
@@ -682,7 +708,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-021"
+    "imageId": "OP01-021",
+    "id": "OP01-021_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Brook",
@@ -708,7 +735,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-022"
+    "imageId": "OP01-022",
+    "id": "OP01-022_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Marco",
@@ -730,7 +758,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-023.png",
     "cost": 3,
     "expansionCode": "OP01",
-    "id": "OP01-023"
+    "imageId": "OP01-023",
+    "id": "OP01-023_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -758,7 +787,8 @@
       "[DON!! x2]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-024"
+    "imageId": "OP01-024",
+    "id": "OP01-024_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -786,7 +816,8 @@
       "[DON!! x2]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-024_p1"
+    "imageId": "OP01-024_p1",
+    "id": "OP01-024_p1_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Roronoa Zoro",
@@ -812,7 +843,8 @@
       "[Rush]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-025"
+    "imageId": "OP01-025",
+    "id": "OP01-025_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Roronoa Zoro",
@@ -838,7 +870,8 @@
       "[Rush]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-025_p1"
+    "imageId": "OP01-025_p1",
+    "id": "OP01-025_p1_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Gum-Gum Fire-Fist Pistol Red Hawk",
@@ -864,7 +897,8 @@
       "[Counter]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-026"
+    "imageId": "OP01-026",
+    "id": "OP01-026_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Round Table",
@@ -890,7 +924,8 @@
       "[Main]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-027"
+    "imageId": "OP01-027",
+    "id": "OP01-027_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Green Star Rafflesia",
@@ -915,7 +950,8 @@
       "[Counter]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-028"
+    "imageId": "OP01-028",
+    "id": "OP01-028_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Radical Beam!!",
@@ -940,7 +976,8 @@
       "[Counter]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-029"
+    "imageId": "OP01-029",
+    "id": "OP01-029_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "In Two Years!! At the Sabaody Archipelago!!",
@@ -965,7 +1002,8 @@
       "[Main]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-030"
+    "imageId": "OP01-030",
+    "id": "OP01-030_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Kouzuki Oden",
@@ -992,7 +1030,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-031"
+    "imageId": "OP01-031",
+    "id": "OP01-031_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Kouzuki Oden",
@@ -1019,7 +1058,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-031_p1"
+    "imageId": "OP01-031_p1",
+    "id": "OP01-031_p1_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Ashura Doji",
@@ -1045,7 +1085,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-032"
+    "imageId": "OP01-032",
+    "id": "OP01-032_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Izo",
@@ -1068,7 +1109,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-033.png",
     "cost": 3,
     "expansionCode": "OP01",
-    "id": "OP01-033"
+    "imageId": "OP01-033",
+    "id": "OP01-033_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Inuarashi",
@@ -1096,7 +1138,8 @@
       "[DON!! x2]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-034"
+    "imageId": "OP01-034",
+    "id": "OP01-034_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Inuarashi",
@@ -1124,7 +1167,8 @@
       "[DON!! x2]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-034_p1"
+    "imageId": "OP01-034_p1",
+    "id": "OP01-034_p1_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Okiku",
@@ -1152,7 +1196,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-035"
+    "imageId": "OP01-035",
+    "id": "OP01-035_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Otsuru",
@@ -1174,7 +1219,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-036.png",
     "cost": 1,
     "expansionCode": "OP01",
-    "id": "OP01-036"
+    "imageId": "OP01-036",
+    "id": "OP01-036_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Kawamatsu",
@@ -1198,7 +1244,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-037.png",
     "cost": 2,
     "expansionCode": "OP01",
-    "id": "OP01-037"
+    "imageId": "OP01-037",
+    "id": "OP01-037_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Kanjuro",
@@ -1226,7 +1273,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-038"
+    "imageId": "OP01-038",
+    "id": "OP01-038_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Killer",
@@ -1254,7 +1302,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-039"
+    "imageId": "OP01-039",
+    "id": "OP01-039_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Kin'emon",
@@ -1282,7 +1331,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-040"
+    "imageId": "OP01-040",
+    "id": "OP01-040_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Kin'emon",
@@ -1310,7 +1360,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-040_p1"
+    "imageId": "OP01-040_p1",
+    "id": "OP01-040_p1_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Kouzuki Momonosuke",
@@ -1336,7 +1387,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-041"
+    "imageId": "OP01-041",
+    "id": "OP01-041_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Komurasaki",
@@ -1359,7 +1411,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-042.png",
     "cost": 1,
     "expansionCode": "OP01",
-    "id": "OP01-042"
+    "imageId": "OP01-042",
+    "id": "OP01-042_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Shinobu",
@@ -1381,7 +1434,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-043.png",
     "cost": 3,
     "expansionCode": "OP01",
-    "id": "OP01-043"
+    "imageId": "OP01-043",
+    "id": "OP01-043_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Shachi",
@@ -1406,7 +1460,8 @@
       "[Blocker]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-044"
+    "imageId": "OP01-044",
+    "id": "OP01-044_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Jean Bart",
@@ -1428,7 +1483,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-045.png",
     "cost": 4,
     "expansionCode": "OP01",
-    "id": "OP01-045"
+    "imageId": "OP01-045",
+    "id": "OP01-045_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Denjiro",
@@ -1455,7 +1511,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-046"
+    "imageId": "OP01-046",
+    "id": "OP01-046_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Trafalgar Law",
@@ -1481,7 +1538,8 @@
       "[Blocker]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-047"
+    "imageId": "OP01-047",
+    "id": "OP01-047_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Trafalgar Law",
@@ -1507,7 +1565,8 @@
       "[Blocker]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-047_p1"
+    "imageId": "OP01-047_p1",
+    "id": "OP01-047_p1_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Nekomamushi",
@@ -1531,7 +1590,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-048.png",
     "cost": 2,
     "expansionCode": "OP01",
-    "id": "OP01-048"
+    "imageId": "OP01-048",
+    "id": "OP01-048_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Nekomamushi",
@@ -1555,7 +1615,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-048_p1.png",
     "cost": 2,
     "expansionCode": "OP01",
-    "id": "OP01-048_p1"
+    "imageId": "OP01-048_p1",
+    "id": "OP01-048_p1_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Bepo",
@@ -1582,7 +1643,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-049"
+    "imageId": "OP01-049",
+    "id": "OP01-049_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Penguin",
@@ -1607,7 +1669,8 @@
       "[Blocker]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-050"
+    "imageId": "OP01-050",
+    "id": "OP01-050_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -1636,7 +1699,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-051"
+    "imageId": "OP01-051",
+    "id": "OP01-051_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -1665,7 +1729,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-051_p1"
+    "imageId": "OP01-051_p1",
+    "id": "OP01-051_p1_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Raizo",
@@ -1692,7 +1757,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-052"
+    "imageId": "OP01-052",
+    "id": "OP01-052_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Wire",
@@ -1714,7 +1780,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-053.png",
     "cost": 2,
     "expansionCode": "OP01",
-    "id": "OP01-053"
+    "imageId": "OP01-053",
+    "id": "OP01-053_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "X.Drake",
@@ -1738,7 +1805,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-054.png",
     "cost": 5,
     "expansionCode": "OP01",
-    "id": "OP01-054"
+    "imageId": "OP01-054",
+    "id": "OP01-054_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "You Can Be My Samurai!!",
@@ -1764,7 +1832,8 @@
       "[Main]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-055"
+    "imageId": "OP01-055",
+    "id": "OP01-055_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Demon Face",
@@ -1790,7 +1859,8 @@
       "[Main]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-056"
+    "imageId": "OP01-056",
+    "id": "OP01-056_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Paradise Waterfall",
@@ -1816,7 +1886,8 @@
       "[Counter]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-057"
+    "imageId": "OP01-057",
+    "id": "OP01-057_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Punk Gibson",
@@ -1842,7 +1913,8 @@
       "[Counter]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-058"
+    "imageId": "OP01-058",
+    "id": "OP01-058_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "BE-BENG!!",
@@ -1867,7 +1939,8 @@
       "[Main]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-059"
+    "imageId": "OP01-059",
+    "id": "OP01-059_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Donquixote Doflamingo",
@@ -1894,7 +1967,8 @@
       "[DON!! x2]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-060"
+    "imageId": "OP01-060",
+    "id": "OP01-060_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Donquixote Doflamingo",
@@ -1921,7 +1995,8 @@
       "[DON!! x2]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-060_p1"
+    "imageId": "OP01-060_p1",
+    "id": "OP01-060_p1_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Kaido",
@@ -1950,7 +2025,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-061"
+    "imageId": "OP01-061",
+    "id": "OP01-061_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Kaido",
@@ -1979,7 +2055,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-061_p1"
+    "imageId": "OP01-061_p1",
+    "id": "OP01-061_p1_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Crocodile",
@@ -2006,7 +2083,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-062"
+    "imageId": "OP01-062",
+    "id": "OP01-062_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Crocodile",
@@ -2033,7 +2111,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-062_p1"
+    "imageId": "OP01-062_p1",
+    "id": "OP01-062_p1_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Arlong",
@@ -2060,7 +2139,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-063"
+    "imageId": "OP01-063",
+    "id": "OP01-063_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Alvida",
@@ -2086,7 +2166,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-064"
+    "imageId": "OP01-064",
+    "id": "OP01-064_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Alvida",
@@ -2112,7 +2193,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-064_p1"
+    "imageId": "OP01-064_p1",
+    "id": "OP01-064_p1_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Vergo",
@@ -2136,7 +2218,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-065.png",
     "cost": 5,
     "expansionCode": "OP01",
-    "id": "OP01-065"
+    "imageId": "OP01-065",
+    "id": "OP01-065_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Krieg",
@@ -2158,7 +2241,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-066.png",
     "cost": 4,
     "expansionCode": "OP01",
-    "id": "OP01-066"
+    "imageId": "OP01-066",
+    "id": "OP01-066_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Crocodile",
@@ -2185,7 +2269,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-067"
+    "imageId": "OP01-067",
+    "id": "OP01-067_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Crocodile",
@@ -2212,7 +2297,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-067_p1"
+    "imageId": "OP01-067_p1",
+    "id": "OP01-067_p1_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Gecko Moria",
@@ -2239,7 +2325,8 @@
       "[Your Turn]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-068"
+    "imageId": "OP01-068",
+    "id": "OP01-068_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Caesar Clown",
@@ -2265,7 +2352,8 @@
       "[On K.O.]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-069"
+    "imageId": "OP01-069",
+    "id": "OP01-069_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Dracule Mihawk",
@@ -2287,7 +2375,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-070.png",
     "cost": 9,
     "expansionCode": "OP01",
-    "id": "OP01-070"
+    "imageId": "OP01-070",
+    "id": "OP01-070_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Dracule Mihawk",
@@ -2309,7 +2398,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-070_p1.png",
     "cost": 9,
     "expansionCode": "OP01",
-    "id": "OP01-070_p1"
+    "imageId": "OP01-070_p1",
+    "id": "OP01-070_p1_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Jinbe",
@@ -2332,7 +2422,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-071.png",
     "cost": 4,
     "expansionCode": "OP01",
-    "id": "OP01-071"
+    "imageId": "OP01-071",
+    "id": "OP01-071_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Smiley",
@@ -2359,7 +2450,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-072"
+    "imageId": "OP01-072",
+    "id": "OP01-072_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Donquixote Doflamingo",
@@ -2385,7 +2477,8 @@
       "[Blocker]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-073"
+    "imageId": "OP01-073",
+    "id": "OP01-073_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Donquixote Doflamingo",
@@ -2411,7 +2504,8 @@
       "[Blocker]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-073_p1"
+    "imageId": "OP01-073_p1",
+    "id": "OP01-073_p1_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Bartholomew Kuma",
@@ -2438,7 +2532,8 @@
       "[On K.O.]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-074"
+    "imageId": "OP01-074",
+    "id": "OP01-074_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Pacifista",
@@ -2464,7 +2559,8 @@
       "[Blocker]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-075"
+    "imageId": "OP01-075",
+    "id": "OP01-075_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Bellamy",
@@ -2486,7 +2582,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-076.png",
     "cost": 2,
     "expansionCode": "OP01",
-    "id": "OP01-076"
+    "imageId": "OP01-076",
+    "id": "OP01-076_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Perona",
@@ -2508,7 +2605,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-077.png",
     "cost": 1,
     "expansionCode": "OP01",
-    "id": "OP01-077"
+    "imageId": "OP01-077",
+    "id": "OP01-077_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Perona",
@@ -2530,7 +2628,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-077_p1.png",
     "cost": 1,
     "expansionCode": "OP01",
-    "id": "OP01-077_p1"
+    "imageId": "OP01-077_p1",
+    "id": "OP01-077_p1_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Boa Hancock",
@@ -2559,7 +2658,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-078"
+    "imageId": "OP01-078",
+    "id": "OP01-078_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Boa Hancock",
@@ -2588,7 +2688,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-078_p1"
+    "imageId": "OP01-078_p1",
+    "id": "OP01-078_p1_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Ms. All Sunday",
@@ -2614,7 +2715,8 @@
       "[On K.O.]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-079"
+    "imageId": "OP01-079",
+    "id": "OP01-079_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Miss Doublefinger(Zala)",
@@ -2639,7 +2741,8 @@
       "[On K.O.]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-080"
+    "imageId": "OP01-080",
+    "id": "OP01-080_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Mocha",
@@ -2661,7 +2764,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-081.png",
     "cost": 3,
     "expansionCode": "OP01",
-    "id": "OP01-081"
+    "imageId": "OP01-081",
+    "id": "OP01-081_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Monet",
@@ -2684,7 +2788,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-082.png",
     "cost": 2,
     "expansionCode": "OP01",
-    "id": "OP01-082"
+    "imageId": "OP01-082",
+    "id": "OP01-082_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Mr.1(Daz.Bonez)",
@@ -2710,7 +2815,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-083"
+    "imageId": "OP01-083",
+    "id": "OP01-083_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Mr.2.Bon.Kurei(Bentham)",
@@ -2736,7 +2842,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-084"
+    "imageId": "OP01-084",
+    "id": "OP01-084_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Mr.3(Galdino)",
@@ -2758,7 +2865,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-085.png",
     "cost": 2,
     "expansionCode": "OP01",
-    "id": "OP01-085"
+    "imageId": "OP01-085",
+    "id": "OP01-085_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Overheat",
@@ -2784,7 +2892,8 @@
       "[Counter]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-086"
+    "imageId": "OP01-086",
+    "id": "OP01-086_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Officer Agents",
@@ -2809,7 +2918,8 @@
       "[Counter]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-087"
+    "imageId": "OP01-087",
+    "id": "OP01-087_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Desert Spada",
@@ -2835,7 +2945,8 @@
       "[Counter]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-088"
+    "imageId": "OP01-088",
+    "id": "OP01-088_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Crescent Cutlass",
@@ -2861,7 +2972,8 @@
       "[Counter]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-089"
+    "imageId": "OP01-089",
+    "id": "OP01-089_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Baroque Works",
@@ -2886,7 +2998,8 @@
       "[Main]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-090"
+    "imageId": "OP01-090",
+    "id": "OP01-090_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "King",
@@ -2911,7 +3024,8 @@
       "[Your Turn]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-091"
+    "imageId": "OP01-091",
+    "id": "OP01-091_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "King",
@@ -2936,7 +3050,8 @@
       "[Your Turn]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-091_p1"
+    "imageId": "OP01-091_p1",
+    "id": "OP01-091_p1_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Urashima",
@@ -2958,7 +3073,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-092.png",
     "cost": 7,
     "expansionCode": "OP01",
-    "id": "OP01-092"
+    "imageId": "OP01-092",
+    "id": "OP01-092_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Ulti",
@@ -2980,7 +3096,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-093.png",
     "cost": 2,
     "expansionCode": "OP01",
-    "id": "OP01-093"
+    "imageId": "OP01-093",
+    "id": "OP01-093_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Ulti",
@@ -3002,7 +3119,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-093_p1.png",
     "cost": 2,
     "expansionCode": "OP01",
-    "id": "OP01-093_p1"
+    "imageId": "OP01-093_p1",
+    "id": "OP01-093_p1_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Kaido",
@@ -3025,7 +3143,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-094.png",
     "cost": 10,
     "expansionCode": "OP01",
-    "id": "OP01-094"
+    "imageId": "OP01-094",
+    "id": "OP01-094_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Kaido",
@@ -3048,7 +3167,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-094_p1.png",
     "cost": 10,
     "expansionCode": "OP01",
-    "id": "OP01-094_p1"
+    "imageId": "OP01-094_p1",
+    "id": "OP01-094_p1_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Kyoshirou",
@@ -3070,7 +3190,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-095.png",
     "cost": 5,
     "expansionCode": "OP01",
-    "id": "OP01-095"
+    "imageId": "OP01-095",
+    "id": "OP01-095_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "King",
@@ -3092,7 +3213,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-096.png",
     "cost": 7,
     "expansionCode": "OP01",
-    "id": "OP01-096"
+    "imageId": "OP01-096",
+    "id": "OP01-096_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "King",
@@ -3114,7 +3236,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-096_p1.png",
     "cost": 7,
     "expansionCode": "OP01",
-    "id": "OP01-096_p1"
+    "imageId": "OP01-096_p1",
+    "id": "OP01-096_p1_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Queen",
@@ -3139,7 +3262,8 @@
       "[Rush]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-097"
+    "imageId": "OP01-097",
+    "id": "OP01-097_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Queen",
@@ -3164,7 +3288,8 @@
       "[Rush]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-097_p1"
+    "imageId": "OP01-097_p1",
+    "id": "OP01-097_p1_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Kurozumi Orochi",
@@ -3187,7 +3312,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-098.png",
     "cost": 1,
     "expansionCode": "OP01",
-    "id": "OP01-098"
+    "imageId": "OP01-098",
+    "id": "OP01-098_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Kurozumi Semimaru",
@@ -3210,7 +3336,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-099.png",
     "cost": 2,
     "expansionCode": "OP01",
-    "id": "OP01-099"
+    "imageId": "OP01-099",
+    "id": "OP01-099_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Kurozumi Higurashi",
@@ -3236,7 +3363,8 @@
       "[Blocker]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-100"
+    "imageId": "OP01-100",
+    "id": "OP01-100_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Sasaki",
@@ -3262,7 +3390,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-101"
+    "imageId": "OP01-101",
+    "id": "OP01-101_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Jack",
@@ -3287,7 +3416,8 @@
       "[When Attacking]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-102"
+    "imageId": "OP01-102",
+    "id": "OP01-102_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Jack",
@@ -3312,7 +3442,8 @@
       "[When Attacking]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-102_p1"
+    "imageId": "OP01-102_p1",
+    "id": "OP01-102_p1_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Scratchmen Apoo",
@@ -3335,7 +3466,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-103.png",
     "cost": 4,
     "expansionCode": "OP01",
-    "id": "OP01-103"
+    "imageId": "OP01-103",
+    "id": "OP01-103_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Speed",
@@ -3358,7 +3490,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-104.png",
     "cost": 2,
     "expansionCode": "OP01",
-    "id": "OP01-104"
+    "imageId": "OP01-104",
+    "id": "OP01-104_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Bao Huang",
@@ -3381,7 +3514,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-105.png",
     "cost": 2,
     "expansionCode": "OP01",
-    "id": "OP01-105"
+    "imageId": "OP01-105",
+    "id": "OP01-105_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Basil Hawkins",
@@ -3404,7 +3538,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-106.png",
     "cost": 4,
     "expansionCode": "OP01",
-    "id": "OP01-106"
+    "imageId": "OP01-106",
+    "id": "OP01-106_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Babanuki",
@@ -3427,7 +3562,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-107.png",
     "cost": 5,
     "expansionCode": "OP01",
-    "id": "OP01-107"
+    "imageId": "OP01-107",
+    "id": "OP01-107_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Hitokiri Kamazo",
@@ -3454,7 +3590,8 @@
       "[On K.O.]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-108"
+    "imageId": "OP01-108",
+    "id": "OP01-108_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Who's.Who",
@@ -3480,7 +3617,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-109"
+    "imageId": "OP01-109",
+    "id": "OP01-109_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Who's.Who",
@@ -3506,7 +3644,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-109_p1"
+    "imageId": "OP01-109_p1",
+    "id": "OP01-109_p1_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Fukurokuju",
@@ -3529,7 +3668,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-110.png",
     "cost": 6,
     "expansionCode": "OP01",
-    "id": "OP01-110"
+    "imageId": "OP01-110",
+    "id": "OP01-110_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Black Maria",
@@ -3555,7 +3695,8 @@
       "[On Block]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-111"
+    "imageId": "OP01-111",
+    "id": "OP01-111_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Page One",
@@ -3581,7 +3722,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-112"
+    "imageId": "OP01-112",
+    "id": "OP01-112_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Holedem",
@@ -3607,7 +3749,8 @@
       "[On K.O.]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-113"
+    "imageId": "OP01-113",
+    "id": "OP01-113_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "X.Drake",
@@ -3631,7 +3774,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-114.png",
     "cost": 5,
     "expansionCode": "OP01",
-    "id": "OP01-114"
+    "imageId": "OP01-114",
+    "id": "OP01-114_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Elephant's Marchoo",
@@ -3657,7 +3801,8 @@
       "[Main]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-115"
+    "imageId": "OP01-115",
+    "id": "OP01-115_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Artificial Devil Fruit SMILE",
@@ -3683,7 +3828,8 @@
       "[Main]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-116"
+    "imageId": "OP01-116",
+    "id": "OP01-116_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Sheep's Horn",
@@ -3709,7 +3855,8 @@
       "[Main]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-117"
+    "imageId": "OP01-117",
+    "id": "OP01-117_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Ulti-Mortar",
@@ -3734,7 +3881,8 @@
       "[Counter]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-118"
+    "imageId": "OP01-118",
+    "id": "OP01-118_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Thunder Bagua",
@@ -3760,7 +3908,8 @@
       "[Counter]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-119"
+    "imageId": "OP01-119",
+    "id": "OP01-119_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Shanks",
@@ -3788,7 +3937,8 @@
       "[When Attacking]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-120"
+    "imageId": "OP01-120",
+    "id": "OP01-120_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Shanks",
@@ -3816,7 +3966,8 @@
       "[When Attacking]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-120_p1"
+    "imageId": "OP01-120_p1",
+    "id": "OP01-120_p1_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Shanks",
@@ -3844,7 +3995,8 @@
       "[When Attacking]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-120_p2"
+    "imageId": "OP01-120_p2",
+    "id": "OP01-120_p2_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Yamato",
@@ -3870,7 +4022,8 @@
       "[Banish]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-121"
+    "imageId": "OP01-121",
+    "id": "OP01-121_ROMANCE_DAWN_[OP01]"
   },
   {
     "name": "Yamato",
@@ -3896,6 +4049,7 @@
       "[Banish]"
     ],
     "expansionCode": "OP01",
-    "id": "OP01-121_p1"
+    "imageId": "OP01-121_p1",
+    "id": "OP01-121_p1_ROMANCE_DAWN_[OP01]"
   }
 ]

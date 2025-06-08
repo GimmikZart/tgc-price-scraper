@@ -15,11 +15,12 @@
     ],
     "effect": "[On Play] Reveal 1 card from the top of your deck and play up to 1 Character card with a type including \"Whitebeard Pirates\" and a cost of 4 or less. Then, place the rest at the top or bottom of your deck.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-052_p2.png",
     "cost": 5,
     "expansionCode": "OP08",
-    "id": "OP08-052_p2"
+    "imageId": "OP08-052_p2",
+    "id": "OP08-052_p2_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Smoker",
@@ -39,7 +40,7 @@
     ],
     "effect": "[Opponent's Turn] All of your {Navy} or {Punk Hazard} type Characters gain +1000 power.[Activate: Main] [Once Per Turn] If you have a Character with 7000 power or more, set up to 2 of your DON!! cards as active.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-001.png",
     "life": 4,
     "abilityKeywords": [
@@ -48,7 +49,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-001"
+    "imageId": "OP10-001",
+    "id": "OP10-001_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Smoker",
@@ -68,7 +70,7 @@
     ],
     "effect": "[Opponent's Turn] All of your {Navy} or {Punk Hazard} type Characters gain +1000 power.[Activate: Main] [Once Per Turn] If you have a Character with 7000 power or more, set up to 2 of your DON!! cards as active.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-001_p1.png",
     "life": 4,
     "abilityKeywords": [
@@ -77,7 +79,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-001_p1"
+    "imageId": "OP10-001_p1",
+    "id": "OP10-001_p1_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Caesar Clown",
@@ -97,7 +100,7 @@
     ],
     "effect": "[DON!! x2] [When Attacking] You may return 1 of your {Punk Hazard} type Characters with a cost of 2 or more to the owner's hand: K.O. up to 1 of your opponent's Characters with 4000 power or less.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-002.png",
     "life": 4,
     "abilityKeywords": [
@@ -105,7 +108,8 @@
       "[DON!! x2]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-002"
+    "imageId": "OP10-002",
+    "id": "OP10-002_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Caesar Clown",
@@ -125,7 +129,7 @@
     ],
     "effect": "[DON!! x2] [When Attacking] You may return 1 of your {Punk Hazard} type Characters with a cost of 2 or more to the owner's hand: K.O. up to 1 of your opponent's Characters with 4000 power or less.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-002_p1.png",
     "life": 4,
     "abilityKeywords": [
@@ -133,7 +137,8 @@
       "[DON!! x2]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-002_p1"
+    "imageId": "OP10-002_p1",
+    "id": "OP10-002_p1_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Sugar",
@@ -152,7 +157,7 @@
     ],
     "effect": "[End of Your Turn] If you have a {Donquixote Pirates} type Character with 6000 power or more, set up to 1 of your DON!! cards as active.[Opponent's Turn] [Once Per Turn] When you activate an Event, add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-003.png",
     "life": 4,
     "abilityKeywords": [
@@ -161,7 +166,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-003"
+    "imageId": "OP10-003",
+    "id": "OP10-003_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Sugar",
@@ -180,7 +186,7 @@
     ],
     "effect": "[End of Your Turn] If you have a {Donquixote Pirates} type Character with 6000 power or more, set up to 1 of your DON!! cards as active.[Opponent's Turn] [Once Per Turn] When you activate an Event, add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-003_p1.png",
     "life": 4,
     "abilityKeywords": [
@@ -189,7 +195,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-003_p1"
+    "imageId": "OP10-003_p1",
+    "id": "OP10-003_p1_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Vergo",
@@ -209,11 +216,12 @@
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Punk Hazard} type card other than [Vergo] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-004.png",
     "cost": 1,
     "expansionCode": "OP10",
-    "id": "OP10-004"
+    "imageId": "OP10-004",
+    "id": "OP10-004_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Sanji",
@@ -232,7 +240,7 @@
     ],
     "effect": "[Your Turn] This Character gains +3000 power.[On K.O.] Draw 1 card.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-005.png",
     "cost": 3,
     "abilityKeywords": [
@@ -240,7 +248,8 @@
       "[Your Turn]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-005"
+    "imageId": "OP10-005",
+    "id": "OP10-005_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Sanji",
@@ -259,7 +268,7 @@
     ],
     "effect": "[Your Turn] This Character gains +3000 power.[On K.O.] Draw 1 card.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-005_p1.png",
     "cost": 3,
     "abilityKeywords": [
@@ -267,7 +276,8 @@
       "[Your Turn]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-005_p1"
+    "imageId": "OP10-005_p1",
+    "id": "OP10-005_p1_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Caesar Clown",
@@ -286,11 +296,12 @@
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Smiley] and add it to your hand. Then, place the rest at the bottom of your deck in any order and play up to 1 [Smiley] from your hand.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-006.png",
     "cost": 7,
     "expansionCode": "OP10",
-    "id": "OP10-006"
+    "imageId": "OP10-006",
+    "id": "OP10-006_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Ceaser Soldier",
@@ -308,11 +319,12 @@
     ],
     "effect": "[On Play] Play up to 1 {Punk Hazard} type Character card with a cost of 2 or less from your hand.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-007.png",
     "cost": 3,
     "expansionCode": "OP10",
-    "id": "OP10-007"
+    "imageId": "OP10-007",
+    "id": "OP10-007_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Scotch",
@@ -330,14 +342,15 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] If you don't have [Rock], play up to 1 [Rock] from your hand.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-008.png",
     "cost": 2,
     "abilityKeywords": [
       "[Blocker]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-008"
+    "imageId": "OP10-008",
+    "id": "OP10-008_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Smiley",
@@ -356,11 +369,12 @@
     ],
     "effect": "[On Play] If your Leader has the {Punk Hazard} type, give up to 1 of your opponent's Characters −3000 power during this turn.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-009.png",
     "cost": 5,
     "expansionCode": "OP10",
-    "id": "OP10-009"
+    "imageId": "OP10-009",
+    "id": "OP10-009_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Chadros.Higelyges (Brownbeard)",
@@ -379,14 +393,15 @@
     ],
     "effect": "[When Attacking] If you have 1 or less Characters with 6000 power or more, this Character gains +1000 power during this turn.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-010.png",
     "cost": 3,
     "abilityKeywords": [
       "[When Attacking]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-010"
+    "imageId": "OP10-010",
+    "id": "OP10-010_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Tony Tony.Chopper",
@@ -405,7 +420,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Opponent's Turn] This Character gains +2000 power.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-011.png",
     "cost": 4,
     "abilityKeywords": [
@@ -413,7 +428,8 @@
       "[Opponent's Turn]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-011"
+    "imageId": "OP10-011",
+    "id": "OP10-011_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Dragon Number Thirteen",
@@ -432,14 +448,15 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-012.png",
     "cost": 2,
     "abilityKeywords": [
       "[Blocker]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-012"
+    "imageId": "OP10-012",
+    "id": "OP10-012_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Nami",
@@ -458,11 +475,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-013.png",
     "cost": 5,
     "expansionCode": "OP10",
-    "id": "OP10-013"
+    "imageId": "OP10-013",
+    "id": "OP10-013_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Franky",
@@ -482,11 +500,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-014.png",
     "cost": 6,
     "expansionCode": "OP10",
-    "id": "OP10-014"
+    "imageId": "OP10-014",
+    "id": "OP10-014_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Mocha",
@@ -504,11 +523,12 @@
     ],
     "effect": "[On Play] Give up to 1 of your opponent's Characters −1000 power during this turn.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-015.png",
     "cost": 3,
     "expansionCode": "OP10",
-    "id": "OP10-015"
+    "imageId": "OP10-015",
+    "id": "OP10-015_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Monet",
@@ -527,14 +547,15 @@
     ],
     "effect": "[Activate: Main] You may rest this Character: Give up to 2 rested DON!! cards to your Leader or 1 of your Characters. Then, give up to 1 of your opponent's Characters −1000 power during this turn.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-016.png",
     "cost": 2,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-016"
+    "imageId": "OP10-016",
+    "id": "OP10-016_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Monet",
@@ -553,14 +574,15 @@
     ],
     "effect": "[Activate: Main] You may rest this Character: Give up to 2 rested DON!! cards to your Leader or 1 of your Characters. Then, give up to 1 of your opponent's Characters −1000 power during this turn.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-016_p1.png",
     "cost": 2,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-016_p1"
+    "imageId": "OP10-016_p1",
+    "id": "OP10-016_p1_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Rock",
@@ -578,11 +600,12 @@
     ],
     "effect": "[On Play] If you don't have [Scotch], play up to 1 [Scotch] from your hand.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-017.png",
     "cost": 2,
     "expansionCode": "OP10",
-    "id": "OP10-017"
+    "imageId": "OP10-017",
+    "id": "OP10-017_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Ten-Layer Igloo",
@@ -601,14 +624,15 @@
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle. Then, give up to 1 of your opponent's Leader or Character cards −2000 power during this turn.",
     "trigger": "Trigger[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-018.png",
     "cost": 2,
     "abilityKeywords": [
       "[Counter]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-018"
+    "imageId": "OP10-018",
+    "id": "OP10-018_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Divine Departure",
@@ -627,7 +651,7 @@
     ],
     "effect": "[Main] You may rest 5 of your DON!! cards: K.O. up to 1 of your opponent's Characters with 8000 power or less.[Counter] Up to 1 of your Leader gains +3000 power during this battle.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-019.png",
     "cost": 1,
     "abilityKeywords": [
@@ -635,7 +659,8 @@
       "[Counter]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-019"
+    "imageId": "OP10-019",
+    "id": "OP10-019_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Divine Departure",
@@ -654,7 +679,7 @@
     ],
     "effect": "[Main] You may rest 5 of your DON!! cards: K.O. up to 1 of your opponent's Characters with 8000 power or less.[Counter] Up to 1 of your Leader gains +3000 power during this battle.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-019_p1.png",
     "cost": 1,
     "abilityKeywords": [
@@ -662,7 +687,8 @@
       "[Counter]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-019_p1"
+    "imageId": "OP10-019_p1",
+    "id": "OP10-019_p1_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Gum-Gum UFO",
@@ -681,14 +707,15 @@
     ],
     "effect": "[Main] Give up to 1 of your opponent's Characters −4000 power during this turn. Then, if you have 2 or less Life cards, up to 1 of your Leader or Character cards gains +1000 power during this turn.",
     "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with 3000 power or less.",
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-020.png",
     "cost": 2,
     "abilityKeywords": [
       "[Main]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-020"
+    "imageId": "OP10-020",
+    "id": "OP10-020_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Punk Hazard",
@@ -706,14 +733,15 @@
     ],
     "effect": "[Activate: Main] You may rest this Stage: If your Leader is [Caesar Clown], give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-021.png",
     "cost": 1,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-021"
+    "imageId": "OP10-021",
+    "id": "OP10-021_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Trafalgar Law",
@@ -734,7 +762,7 @@
     ],
     "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] If the total cost of your Characters is 5 or more, you may return 1 of your Characters to the owner's hand: Reveal 1 card from the top of your Life cards. If that card is a {Supernovas} type Character card with a cost of 5 or less, you may play that card.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-022.png",
     "life": 4,
     "abilityKeywords": [
@@ -743,7 +771,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-022"
+    "imageId": "OP10-022",
+    "id": "OP10-022_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Trafalgar Law",
@@ -764,7 +793,7 @@
     ],
     "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] If the total cost of your Characters is 5 or more, you may return 1 of your Characters to the owner's hand: Reveal 1 card from the top of your Life cards. If that card is a {Supernovas} type Character card with a cost of 5 or less, you may play that card.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-022_p1.png",
     "life": 4,
     "abilityKeywords": [
@@ -773,7 +802,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-022_p1"
+    "imageId": "OP10-022_p1",
+    "id": "OP10-022_p1_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Issho",
@@ -792,11 +822,12 @@
     ],
     "effect": "[On Play] If your Leader has the {Navy} type, rest up to 2 of your opponent's Characters with a cost of 5 or less.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-023.png",
     "cost": 5,
     "expansionCode": "OP10",
-    "id": "OP10-023"
+    "imageId": "OP10-023",
+    "id": "OP10-023_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Edward.Newgate",
@@ -816,11 +847,12 @@
     ],
     "effect": "[On Play] If you have 2 or more rested Characters, rest up to 1 of your opponent's Characters with a cost of 5 or less. Then, K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-024.png",
     "cost": 5,
     "expansionCode": "OP10",
-    "id": "OP10-024"
+    "imageId": "OP10-024",
+    "id": "OP10-024_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Enel",
@@ -839,11 +871,12 @@
     ],
     "effect": "[On Play] If you have 2 or more rested Characters, draw 3 cards and trash 2 cards from your hand.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-025.png",
     "cost": 5,
     "expansionCode": "OP10",
-    "id": "OP10-025"
+    "imageId": "OP10-025",
+    "id": "OP10-025_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Kin'emon",
@@ -863,14 +896,15 @@
     ],
     "effect": "[Activate: Main] You may place this Character and 1 [Kin'emon] with 0 power from your trash at the bottom of your deck in any order: Play up to 1 [Kin'emon] with a cost of 6 from your hand.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-026.png",
     "cost": 2,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-026"
+    "imageId": "OP10-026",
+    "id": "OP10-026_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Kin'emon",
@@ -890,14 +924,15 @@
     ],
     "effect": "[Activate: Main] You may place this Character and 1 [Kin'emon] with 1000 power from your trash at the bottom of your deck in any order: Play up to 1 [Kin'emon] with a cost of 6 from your hand.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-027.png",
     "cost": 2,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-027"
+    "imageId": "OP10-027",
+    "id": "OP10-027_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Kouzuki Momonosuke",
@@ -917,14 +952,15 @@
     ],
     "effect": "[Activate: Main] You may rest 2 of your DON!! cards and trash this Character: Look at 5 cards from the top of your deck; reveal up to 2 {The Akazaya Nine} type cards and add them to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-028.png",
     "cost": 1,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-028"
+    "imageId": "OP10-028",
+    "id": "OP10-028_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Dracule Mihawk",
@@ -943,11 +979,12 @@
     ],
     "effect": "[On Play] If you have 2 or more rested Characters, set up to 1 of your rested {ODYSSEY} type Characters with a cost of 5 or less as active.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-029.png",
     "cost": 5,
     "expansionCode": "OP10",
-    "id": "OP10-029"
+    "imageId": "OP10-029",
+    "id": "OP10-029_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Smoker",
@@ -966,7 +1003,7 @@
     ],
     "effect": "[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.)[Activate: Main] Set up to 1 of your DON!! cards as active. Then, you cannot set DON!! cards as active using Character effects during this turn.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-030.png",
     "cost": 5,
     "abilityKeywords": [
@@ -974,7 +1011,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-030"
+    "imageId": "OP10-030",
+    "id": "OP10-030_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Smoker",
@@ -993,7 +1031,7 @@
     ],
     "effect": "[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.)[Activate: Main] Set up to 1 of your DON!! cards as active. Then, you cannot set DON!! cards as active using Character effects during this turn.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-030_p1.png",
     "cost": 5,
     "abilityKeywords": [
@@ -1001,7 +1039,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-030_p1"
+    "imageId": "OP10-030_p1",
+    "id": "OP10-030_p1_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Sengoku",
@@ -1020,11 +1059,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-031.png",
     "cost": 5,
     "expansionCode": "OP10",
-    "id": "OP10-031"
+    "imageId": "OP10-031",
+    "id": "OP10-031_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Tashigi",
@@ -1043,11 +1083,12 @@
     ],
     "effect": "If you have a green Character other than [Tashigi] that would be removed from the field by your opponent's effect, you may rest this Character instead.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-032.png",
     "cost": 3,
     "expansionCode": "OP10",
-    "id": "OP10-032"
+    "imageId": "OP10-032",
+    "id": "OP10-032_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Tashigi",
@@ -1066,11 +1107,12 @@
     ],
     "effect": "If you have a green Character other than [Tashigi] that would be removed from the field by your opponent's effect, you may rest this Character instead.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-032_p1.png",
     "cost": 3,
     "expansionCode": "OP10",
-    "id": "OP10-032_p1"
+    "imageId": "OP10-032_p1",
+    "id": "OP10-032_p1_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Nami",
@@ -1089,11 +1131,12 @@
     ],
     "effect": "[On Play] If you have 2 or more rested {ODYSSEY} type Characters, up to 1 of your opponent's rested DON!! cards will not become active in your opponent's next Refresh Phase.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-033.png",
     "cost": 2,
     "expansionCode": "OP10",
-    "id": "OP10-033"
+    "imageId": "OP10-033",
+    "id": "OP10-033_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Franky",
@@ -1112,14 +1155,15 @@
     ],
     "effect": "[Once Per Turn] If this Character would be K.O.'d in battle, you may add 1 card from the top of your Life cards to your hand instead.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-034.png",
     "cost": 4,
     "abilityKeywords": [
       "[Once Per Turn]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-034"
+    "imageId": "OP10-034",
+    "id": "OP10-034_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Brook",
@@ -1138,14 +1182,15 @@
     ],
     "effect": "[On K.O.] Rest up to 1 of your opponent's Leader or Character cards with a cost of 5 or less.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-035.png",
     "cost": 3,
     "abilityKeywords": [
       "[On K.O.]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-035"
+    "imageId": "OP10-035",
+    "id": "OP10-035_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Perona",
@@ -1165,7 +1210,7 @@
     ],
     "effect": "[Your Turn] [Once Per Turn] If a Character is rested by your effect, set up to 1 of your DON!! cards as active.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-036.png",
     "cost": 4,
     "abilityKeywords": [
@@ -1173,7 +1218,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-036"
+    "imageId": "OP10-036",
+    "id": "OP10-036_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Lim",
@@ -1191,7 +1237,7 @@
     ],
     "effect": "[Once Per Turn] If this Character would be removed from the field by your opponent's effect, you may rest 1 of your {ODYSSEY} type Characters instead.[End of Your Turn] Set up to 1 of your {ODYSSEY} type Characters as active.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-037.png",
     "cost": 1,
     "abilityKeywords": [
@@ -1199,7 +1245,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-037"
+    "imageId": "OP10-037",
+    "id": "OP10-037_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Lim",
@@ -1217,7 +1264,7 @@
     ],
     "effect": "[Once Per Turn] If this Character would be removed from the field by your opponent's effect, you may rest 1 of your {ODYSSEY} type Characters instead.[End of Your Turn] Set up to 1 of your {ODYSSEY} type Characters as active.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-037_p1.png",
     "cost": 1,
     "abilityKeywords": [
@@ -1225,7 +1272,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-037_p1"
+    "imageId": "OP10-037_p1",
+    "id": "OP10-037_p1_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Roronoa Zoro",
@@ -1245,14 +1293,15 @@
     ],
     "effect": "[Opponent's Turn] If you have 2 or more rested Characters, this Character gains +2000 power.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-038.png",
     "cost": 5,
     "abilityKeywords": [
       "[Opponent's Turn]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-038"
+    "imageId": "OP10-038",
+    "id": "OP10-038_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Gum-Gum Dragon Fire Pistol Twister Star",
@@ -1272,14 +1321,15 @@
     ],
     "effect": "[Main] If your Leader has the {ODYSSEY} type, look at 5 cards from the top of your deck; reveal up to 2 {ODYSSEY} type Character cards and add them to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 5 or less.",
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-039.png",
     "cost": 3,
     "abilityKeywords": [
       "[Main]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-039"
+    "imageId": "OP10-039",
+    "id": "OP10-039_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "The Weak Do Not Have the Right to Choose How They Die",
@@ -1299,7 +1349,7 @@
     ],
     "effect": "[Main]/[Counter] K.O. up to 1 of your opponent's rested Characters with a cost of 7 or less.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-040.png",
     "cost": 5,
     "abilityKeywords": [
@@ -1307,7 +1357,8 @@
       "[Counter]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-040"
+    "imageId": "OP10-040",
+    "id": "OP10-040_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Radio Knife",
@@ -1327,14 +1378,15 @@
     ],
     "effect": "[Main] Rest up to 1 of your opponent's Characters with a cost of 6 or less. Then, K.O. up to 1 of your opponent's rested Characters with a cost of 5 or less.",
     "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-041.png",
     "cost": 4,
     "abilityKeywords": [
       "[Main]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-041"
+    "imageId": "OP10-041",
+    "id": "OP10-041_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Usopp",
@@ -1354,7 +1406,7 @@
     ],
     "effect": "All of your {Dressrosa} type Characters with a cost of 2 or more gain +1 cost.[Opponent's Turn] [Once Per Turn] This effect can be activated when your {Dressrosa} type Character is removed from the field by your opponent's effect or K.O.'d. If you have 5 or less cards in your hand, draw 1 card.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-042.png",
     "life": 4,
     "abilityKeywords": [
@@ -1362,7 +1414,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-042"
+    "imageId": "OP10-042",
+    "id": "OP10-042_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Usopp",
@@ -1382,7 +1435,7 @@
     ],
     "effect": "All of your {Dressrosa} type Characters with a cost of 2 or more gain +1 cost.[Opponent's Turn] [Once Per Turn] This effect can be activated when your {Dressrosa} type Character is removed from the field by your opponent's effect or K.O.'d. If you have 5 or less cards in your hand, draw 1 card.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-042_p1.png",
     "life": 4,
     "abilityKeywords": [
@@ -1390,7 +1443,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-042_p1"
+    "imageId": "OP10-042_p1",
+    "id": "OP10-042_p1_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Moocy",
@@ -1409,14 +1463,15 @@
     ],
     "effect": "[On Play] You may rest 1 of your {Dressrosa} type Leader or Stage cards: Up to 1 of your [Monkey.D.Luffy] Characters gains [Banish] during this turn.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-043.png",
     "cost": 2,
     "abilityKeywords": [
       "[Banish]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-043"
+    "imageId": "OP10-043",
+    "id": "OP10-043_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Cub",
@@ -1435,11 +1490,12 @@
     ],
     "effect": "[On Play] You may rest 1 of your {Dressrosa} type Leader or Stage cards: Return up to 1 of your opponent's Characters with a cost of 1 or less to the owner's hand.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-044.png",
     "cost": 1,
     "expansionCode": "OP10",
-    "id": "OP10-044"
+    "imageId": "OP10-044",
+    "id": "OP10-044_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Cavendish",
@@ -1458,7 +1514,7 @@
     ],
     "effect": "[When Attacking] [Once Per Turn] Draw 2 cards and trash 1 card from your hand.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-045.png",
     "cost": 4,
     "abilityKeywords": [
@@ -1466,7 +1522,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-045"
+    "imageId": "OP10-045",
+    "id": "OP10-045_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Cavendish",
@@ -1485,7 +1542,7 @@
     ],
     "effect": "[When Attacking] [Once Per Turn] Draw 2 cards and trash 1 card from your hand.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-045_p1.png",
     "cost": 4,
     "abilityKeywords": [
@@ -1493,7 +1550,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-045_p1"
+    "imageId": "OP10-045_p1",
+    "id": "OP10-045_p1_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Kyros",
@@ -1511,11 +1569,12 @@
     ],
     "effect": "[On Play] Return up to 1 Character with a cost of 5 or less to the owner's hand.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-046.png",
     "cost": 7,
     "expansionCode": "OP10",
-    "id": "OP10-046"
+    "imageId": "OP10-046",
+    "id": "OP10-046_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Kyros",
@@ -1533,11 +1592,12 @@
     ],
     "effect": "[On Play] Return up to 1 Character with a cost of 5 or less to the owner's hand.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-046_p1.png",
     "cost": 7,
     "expansionCode": "OP10",
-    "id": "OP10-046_p1"
+    "imageId": "OP10-046_p1",
+    "id": "OP10-046_p1_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Koala",
@@ -1556,14 +1616,15 @@
     ],
     "effect": "[When Attacking] You may return 1 of your {Revolutionary Army} type Characters with a cost of 3 or more to the owner's hand: This Character gains +3000 power during this turn.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-047.png",
     "cost": 2,
     "abilityKeywords": [
       "[When Attacking]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-047"
+    "imageId": "OP10-047",
+    "id": "OP10-047_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Sai",
@@ -1582,11 +1643,12 @@
     ],
     "effect": "[On Play] You may rest 1 of your {Dressrosa} type Leader or Stage cards: Return up to 1 of your opponent's Characters with a cost of 1 or less to the owner's hand.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-048.png",
     "cost": 3,
     "expansionCode": "OP10",
-    "id": "OP10-048"
+    "imageId": "OP10-048",
+    "id": "OP10-048_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Sabo",
@@ -1605,11 +1667,12 @@
     ],
     "effect": "If your Character with a base cost of 7 or less other than [Sabo] would be removed from the field by your opponent's effect, you may return this Character to the owner's hand instead.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-049.png",
     "cost": 4,
     "expansionCode": "OP10",
-    "id": "OP10-049"
+    "imageId": "OP10-049",
+    "id": "OP10-049_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Hajrudin",
@@ -1629,11 +1692,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-050.png",
     "cost": 7,
     "expansionCode": "OP10",
-    "id": "OP10-050"
+    "imageId": "OP10-050",
+    "id": "OP10-050_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Hack",
@@ -1653,7 +1717,7 @@
     ],
     "effect": "[DON!! x1] [When Attacking] Look at 3 cards from the top of your deck; reveal up to 1 {Revolutionary Army} type Character card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-051.png",
     "cost": 4,
     "abilityKeywords": [
@@ -1661,7 +1725,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-051"
+    "imageId": "OP10-051",
+    "id": "OP10-051_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Bartolomeo",
@@ -1680,14 +1745,15 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Place up to 1 Character with a cost of 1 or less at the bottom of the owner's deck.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-052.png",
     "cost": 5,
     "abilityKeywords": [
       "[Blocker]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-052"
+    "imageId": "OP10-052",
+    "id": "OP10-052_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Bian",
@@ -1706,14 +1772,15 @@
     ],
     "effect": "If you have a {The Tontattas} type Character other than [Bian], this Character gains [Blocker].",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-053.png",
     "cost": 1,
     "abilityKeywords": [
       "[Blocker]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-053"
+    "imageId": "OP10-053",
+    "id": "OP10-053_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Blue Gilly",
@@ -1731,11 +1798,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-054.png",
     "cost": 3,
     "expansionCode": "OP10",
-    "id": "OP10-054"
+    "imageId": "OP10-054",
+    "id": "OP10-054_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Marco",
@@ -1753,7 +1821,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] Return up to 1 of your opponent's Characters with a cost of 4 or less to the owner's hand.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-055.png",
     "cost": 3,
     "abilityKeywords": [
@@ -1761,7 +1829,8 @@
       "[On K.O.]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-055"
+    "imageId": "OP10-055",
+    "id": "OP10-055_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Mansherry",
@@ -1780,11 +1849,12 @@
     ],
     "effect": "[On Play] You may rest 1 of your {Dressrosa} type Leader or Stage cards, and return 1 of your {Dressrosa} type Characters with a cost of 4 or more to the owner's hand: Return up to 1 of your opponent's Characters with a cost of 4 or less to the owner's hand.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-056.png",
     "cost": 2,
     "expansionCode": "OP10",
-    "id": "OP10-056"
+    "imageId": "OP10-056",
+    "id": "OP10-056_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Leo",
@@ -1803,11 +1873,12 @@
     ],
     "effect": "[On Play] You may rest your Leader or 1 of your Stage cards: If your Leader is [Usopp], look at 5 cards from the top of your deck; reveal up to 2 {Dressrosa} type cards other than [Leo] and add them to your hand. Then, place the rest at the bottom of your deck in any order, and trash 1 card from your hand.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-057.png",
     "cost": 1,
     "expansionCode": "OP10",
-    "id": "OP10-057"
+    "imageId": "OP10-057",
+    "id": "OP10-057_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Rebecca",
@@ -1825,11 +1896,12 @@
     ],
     "effect": "[On Play] If there is a Character with a cost of 8 or more, draw 1 card. Then, reveal up to 2 {Dressrosa} type Character cards with a cost of 7 or less other than [Rebecca] from your hand. Play 1 of the revealed cards and play the other card rested if it has a cost of 4 or less.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-058.png",
     "cost": 7,
     "expansionCode": "OP10",
-    "id": "OP10-058"
+    "imageId": "OP10-058",
+    "id": "OP10-058_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Rebecca",
@@ -1847,11 +1919,12 @@
     ],
     "effect": "[On Play] If there is a Character with a cost of 8 or more, draw 1 card. Then, reveal up to 2 {Dressrosa} type Character cards with a cost of 7 or less other than [Rebecca] from your hand. Play 1 of the revealed cards and play the other card rested if it has a cost of 4 or less.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-058_p1.png",
     "cost": 7,
     "expansionCode": "OP10",
-    "id": "OP10-058_p1"
+    "imageId": "OP10-058_p1",
+    "id": "OP10-058_p1_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Fo...llow...Me...and...I...Will...Gui...de...You",
@@ -1870,14 +1943,15 @@
     ],
     "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Dressrosa} type Character card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-059.png",
     "cost": 1,
     "abilityKeywords": [
       "[Main]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-059"
+    "imageId": "OP10-059",
+    "id": "OP10-059_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Barrier-Barrier Pistol",
@@ -1896,14 +1970,15 @@
     ],
     "effect": "[Main] Place up to 1 of your opponent's Characters with 6000 power or less at the bottom of the owner's deck.",
     "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-060.png",
     "cost": 5,
     "abilityKeywords": [
       "[Main]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-060"
+    "imageId": "OP10-060",
+    "id": "OP10-060_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Special Long-Range Attack!! Bagworm",
@@ -1922,14 +1997,15 @@
     ],
     "effect": "[Main] Draw 1 card. Then, return up to 1 of your opponent's Characters with a cost of 2 or less to the owner's hand.",
     "trigger": "Trigger[Trigger] Return up to 1 Character with a cost of 2 or less to the owner's hand.",
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-061.png",
     "cost": 3,
     "abilityKeywords": [
       "[Main]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-061"
+    "imageId": "OP10-061",
+    "id": "OP10-061_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Violet",
@@ -1947,7 +2023,7 @@
     ],
     "effect": "[Blocker][On K.O.] DON!! −1: If your Leader has the {Donquixote Pirates} type, add up to 1 purple Event from your trash to your hand.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-062.png",
     "cost": 3,
     "abilityKeywords": [
@@ -1955,7 +2031,8 @@
       "[On K.O.]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-062"
+    "imageId": "OP10-062",
+    "id": "OP10-062_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Vinsmoke Sanji",
@@ -1974,11 +2051,12 @@
     ],
     "effect": "[On Play] If your Leader's type includes \"GERMA\", look at 5 cards from the top of your deck; reveal up to 1 card with a type including \"GERMA\" and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-063.png",
     "cost": 1,
     "expansionCode": "OP10",
-    "id": "OP10-063"
+    "imageId": "OP10-063",
+    "id": "OP10-063_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Clone Soldier",
@@ -1996,14 +2074,15 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-064.png",
     "cost": 2,
     "abilityKeywords": [
       "[Blocker]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-064"
+    "imageId": "OP10-064",
+    "id": "OP10-064_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Sugar",
@@ -2021,14 +2100,15 @@
     ],
     "effect": "[Activate: Main] You may rest 1 of your DON!! cards and this Character: Look at 5 cards from the top of your deck; reveal up to 1 {Donquixote Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-065.png",
     "cost": 1,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-065"
+    "imageId": "OP10-065",
+    "id": "OP10-065_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Giolla",
@@ -2046,7 +2126,7 @@
     ],
     "effect": "[On Your Opponent's Attack] [Once Per Turn] You may rest 2 of your DON!! cards: Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-066.png",
     "cost": 2,
     "abilityKeywords": [
@@ -2054,7 +2134,8 @@
       "[On Your Opponent's Attack]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-066"
+    "imageId": "OP10-066",
+    "id": "OP10-066_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Senor Pink",
@@ -2072,11 +2153,12 @@
     ],
     "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Add up to 1 purple Event with a cost of 5 or less from your trash to your hand. Then, set up to 1 of your DON!! cards as active.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-067.png",
     "cost": 5,
     "expansionCode": "OP10",
-    "id": "OP10-067"
+    "imageId": "OP10-067",
+    "id": "OP10-067_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Senor Pink",
@@ -2094,11 +2176,12 @@
     ],
     "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Add up to 1 purple Event with a cost of 5 or less from your trash to your hand. Then, set up to 1 of your DON!! cards as active.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-067_p1.png",
     "cost": 5,
     "expansionCode": "OP10",
-    "id": "OP10-067_p1"
+    "imageId": "OP10-067_p1",
+    "id": "OP10-067_p1_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Diamante",
@@ -2116,11 +2199,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-068.png",
     "cost": 5,
     "expansionCode": "OP10",
-    "id": "OP10-068"
+    "imageId": "OP10-068",
+    "id": "OP10-068_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Fighting Fish",
@@ -2139,7 +2223,7 @@
     ],
     "effect": "[DON!! x1] [When Attacking] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 1 or less.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-069.png",
     "cost": 4,
     "abilityKeywords": [
@@ -2147,7 +2231,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-069"
+    "imageId": "OP10-069",
+    "id": "OP10-069_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Trebol",
@@ -2165,14 +2250,15 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] All of your Characters with 1000 base power or less cannot be K.O.'d by your opponent's effects until the end of your opponent's next turn.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-070.png",
     "cost": 4,
     "abilityKeywords": [
       "[Blocker]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-070"
+    "imageId": "OP10-070",
+    "id": "OP10-070_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Donquixote Doflamingo",
@@ -2191,7 +2277,7 @@
     ],
     "effect": "[On Play] DON!! −1: Play up to 1 {Donquixote Pirates} type Character card with a cost of 5 or less from your hand.[On Your Opponent's Attack] [Once Per Turn] You may rest 1 of your DON!! cards: Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-071.png",
     "cost": 8,
     "abilityKeywords": [
@@ -2199,7 +2285,8 @@
       "[On Your Opponent's Attack]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-071"
+    "imageId": "OP10-071",
+    "id": "OP10-071_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Donquixote Doflamingo",
@@ -2218,7 +2305,7 @@
     ],
     "effect": "[On Play] DON!! −1: Play up to 1 {Donquixote Pirates} type Character card with a cost of 5 or less from your hand.[On Your Opponent's Attack] [Once Per Turn] You may rest 1 of your DON!! cards: Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-071_p1.png",
     "cost": 8,
     "abilityKeywords": [
@@ -2226,7 +2313,8 @@
       "[On Your Opponent's Attack]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-071_p1"
+    "imageId": "OP10-071_p1",
+    "id": "OP10-071_p1_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Donquixote Rosinante",
@@ -2245,14 +2333,15 @@
     ],
     "effect": "[On Play] You may trash 1 Event from your hand: Draw 2 cards.[End of Your Turn] If you have 7 or more DON!! cards on your field, set up to 2 of your DON!! cards as active.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-072.png",
     "cost": 5,
     "abilityKeywords": [
       "[End of Your Turn]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-072"
+    "imageId": "OP10-072",
+    "id": "OP10-072_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Donquixote Rosinante",
@@ -2271,14 +2360,15 @@
     ],
     "effect": "[On Play] You may trash 1 Event from your hand: Draw 2 cards.[End of Your Turn] If you have 7 or more DON!! cards on your field, set up to 2 of your DON!! cards as active.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-072_p1.png",
     "cost": 5,
     "abilityKeywords": [
       "[End of Your Turn]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-072_p1"
+    "imageId": "OP10-072_p1",
+    "id": "OP10-072_p1_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Buffalo",
@@ -2296,11 +2386,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-073.png",
     "cost": 4,
     "expansionCode": "OP10",
-    "id": "OP10-073"
+    "imageId": "OP10-073",
+    "id": "OP10-073_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Pica",
@@ -2318,14 +2409,15 @@
     ],
     "effect": "[Once Per Turn] If this Character would be K.O.'d by your opponent's effect, you may rest 2 of your active DON!! cards instead.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-074.png",
     "cost": 4,
     "abilityKeywords": [
       "[Once Per Turn]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-074"
+    "imageId": "OP10-074",
+    "id": "OP10-074_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Foxy",
@@ -2343,14 +2435,15 @@
     ],
     "effect": "[Activate: Main] You may trash this Character: If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, draw 1 card.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-075.png",
     "cost": 2,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-075"
+    "imageId": "OP10-075",
+    "id": "OP10-075_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Baby 5",
@@ -2368,11 +2461,12 @@
     ],
     "effect": "[On Play] You may trash 1 card from your hand: If your Leader has the {Donquixote Pirates} type, add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-076.png",
     "cost": 3,
     "expansionCode": "OP10",
-    "id": "OP10-076"
+    "imageId": "OP10-076",
+    "id": "OP10-076_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Bellamy",
@@ -2390,7 +2484,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Block] You may rest 2 of your DON!! cards: Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-077.png",
     "cost": 3,
     "abilityKeywords": [
@@ -2398,7 +2492,8 @@
       "[On Block]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-077"
+    "imageId": "OP10-077",
+    "id": "OP10-077_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "I Do Not Forgive Those Who Laugh at My Family!!!",
@@ -2417,7 +2512,7 @@
     ],
     "effect": "[Main]/[Counter] Look at 3 cards from the top of your deck; reveal up to 1 {Donquixote Pirates} type card other than [I Do Not Forgive Those Who Laugh at My Family!!!] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-078.png",
     "cost": 1,
     "abilityKeywords": [
@@ -2425,7 +2520,8 @@
       "[Counter]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-078"
+    "imageId": "OP10-078",
+    "id": "OP10-078_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "God Thread",
@@ -2444,14 +2540,15 @@
     ],
     "effect": "[Main] K.O. up to 1 of your opponent's Characters with a cost 5 or less. Then, add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-079.png",
     "cost": 5,
     "abilityKeywords": [
       "[Main]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-079"
+    "imageId": "OP10-079",
+    "id": "OP10-079_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Little Black Bears",
@@ -2469,14 +2566,15 @@
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, if you have 7 or more DON!! cards on your field and 5 or less cards in your hand, draw 1 card.",
     "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-080.png",
     "cost": 3,
     "abilityKeywords": [
       "[Counter]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-080"
+    "imageId": "OP10-080",
+    "id": "OP10-080_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Usopp",
@@ -2495,11 +2593,12 @@
     ],
     "effect": "[On Play] You may rest 1 of your {Dressrosa} type Leader or Stage cards: K.O. up to 1 of your opponent's Characters with a cost of 2 or less. Then, trash 2 cards from the top of your deck.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-081.png",
     "cost": 4,
     "expansionCode": "OP10",
-    "id": "OP10-081"
+    "imageId": "OP10-081",
+    "id": "OP10-081_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Kuzan",
@@ -2518,14 +2617,15 @@
     ],
     "effect": "This Character cannot be removed from the field by your opponent's effects.[Activate: Main] You may trash this Character: Draw 1 card. Then, play up to 1 {Blackbeard Pirates} type Character card with a cost of 5 or less other than [Kuzan] from your trash.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-082.png",
     "cost": 5,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-082"
+    "imageId": "OP10-082",
+    "id": "OP10-082_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Kuzan",
@@ -2544,14 +2644,15 @@
     ],
     "effect": "This Character cannot be removed from the field by your opponent's effects.[Activate: Main] You may trash this Character: Draw 1 card. Then, play up to 1 {Blackbeard Pirates} type Character card with a cost of 5 or less other than [Kuzan] from your trash.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-082_p1.png",
     "cost": 5,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-082_p1"
+    "imageId": "OP10-082_p1",
+    "id": "OP10-082_p1_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Kouzuki Momonosuke",
@@ -2571,14 +2672,15 @@
     ],
     "effect": "[Activate: Main] You may rest this Character and 1 of your {Dressrosa} type Leader or Stage cards: Give up to 1 of your opponent's Characters -2 cost during this turn.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-083.png",
     "cost": 2,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-083"
+    "imageId": "OP10-083",
+    "id": "OP10-083_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Sanjuan.Wolf",
@@ -2597,11 +2699,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-084.png",
     "cost": 5,
     "expansionCode": "OP10",
-    "id": "OP10-084"
+    "imageId": "OP10-084",
+    "id": "OP10-084_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Jesus Burgess",
@@ -2620,7 +2723,7 @@
     ],
     "effect": "[DON!! x1] If you have 8 or more cards in your trash, this Character gains [Rush].",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-085.png",
     "cost": 5,
     "abilityKeywords": [
@@ -2628,7 +2731,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-085"
+    "imageId": "OP10-085",
+    "id": "OP10-085_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Shiryu",
@@ -2646,7 +2750,7 @@
     ],
     "effect": "[Opponent's Turn] This Character gains +2000 power.[Activate: Main] [Once Per Turn] If your Leader has the {Blackbeard Pirates} type, and this Character was played on this turn, K.O. up to 1 of your opponent's Characters with a base cost of 3 or less.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-086.png",
     "cost": 4,
     "abilityKeywords": [
@@ -2655,7 +2759,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-086"
+    "imageId": "OP10-086",
+    "id": "OP10-086_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Tony Tony.Chopper",
@@ -2675,14 +2780,15 @@
     ],
     "effect": "[Activate: Main] You may rest this Character and 1 of your {Dressrosa} type Leader or Stage cards: If your opponent has 5 or more cards in their hand, your opponent trashes 1 card from their hand. Then, trash 2 cards from the top of your deck.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-087.png",
     "cost": 2,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-087"
+    "imageId": "OP10-087",
+    "id": "OP10-087_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Nami",
@@ -2701,14 +2807,15 @@
     ],
     "effect": "[Activate: Main] You may rest this Character and 1 of your {Dressrosa} type Leader or Stage cards: Draw 1 card. Then, trash 2 cards from the top of your deck.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-088.png",
     "cost": 2,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-088"
+    "imageId": "OP10-088",
+    "id": "OP10-088_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Nico Robin",
@@ -2727,11 +2834,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-089.png",
     "cost": 6,
     "expansionCode": "OP10",
-    "id": "OP10-089"
+    "imageId": "OP10-089",
+    "id": "OP10-089_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Franky",
@@ -2750,7 +2858,7 @@
     ],
     "effect": "[Blocker][On K.O.] Play up to 1 {Dressrosa} type Character card with a cost of 3 or less from your trash rested.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-090.png",
     "cost": 4,
     "abilityKeywords": [
@@ -2758,7 +2866,8 @@
       "[On K.O.]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-090"
+    "imageId": "OP10-090",
+    "id": "OP10-090_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Franky",
@@ -2777,7 +2886,7 @@
     ],
     "effect": "[Blocker][On K.O.] Play up to 1 {Dressrosa} type Character card with a cost of 3 or less from your trash rested.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-090_p1.png",
     "cost": 4,
     "abilityKeywords": [
@@ -2785,7 +2894,8 @@
       "[On K.O.]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-090_p1"
+    "imageId": "OP10-090_p1",
+    "id": "OP10-090_p1_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Brook",
@@ -2804,14 +2914,15 @@
     ],
     "effect": "[Activate: Main] You may rest this Character and 1 of your {Dressrosa} type Leader or Stage cards: K.O. up to 1 of your opponent's Characters with a cost of 1 or less. Then, trash 2 cards from the top of your deck.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-091.png",
     "cost": 3,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-091"
+    "imageId": "OP10-091",
+    "id": "OP10-091_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Perona",
@@ -2829,7 +2940,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] You may place 2 {Thriller Bark Pirates} type cards from your trash at the bottom of your deck in any order: Up to 1 of your Characters other than [Perona] gains +2000 power during this turn.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-092.png",
     "cost": 4,
     "abilityKeywords": [
@@ -2837,7 +2948,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-092"
+    "imageId": "OP10-092",
+    "id": "OP10-092_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Saint Homing",
@@ -2855,14 +2967,15 @@
     ],
     "effect": "[Activate: Main] You may trash this Character: Up to 1 of your black Characters gains +3 cost until the end of your opponent's next turn.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-093.png",
     "cost": 1,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-093"
+    "imageId": "OP10-093",
+    "id": "OP10-093_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Ryuma",
@@ -2881,7 +2994,7 @@
     ],
     "effect": "[DON!! x1] This Character gains [Double Attack].",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-094.png",
     "cost": 4,
     "abilityKeywords": [
@@ -2889,7 +3002,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-094"
+    "imageId": "OP10-094",
+    "id": "OP10-094_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Roronoa Zoro",
@@ -2909,11 +3023,12 @@
     ],
     "effect": "[On Play] You may rest 1 of your {Dressrosa} type Leader or Stage cards: K.O. up to 1 of your opponent's Characters with a cost of 4 or less. Then, trash 2 cards from the top of your deck.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-095.png",
     "cost": 4,
     "expansionCode": "OP10",
-    "id": "OP10-095"
+    "imageId": "OP10-095",
+    "id": "OP10-095_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "There’s No Longer Any Need for the Seven Warlords of the Sea!!!",
@@ -2931,14 +3046,15 @@
     ],
     "effect": "[Main] K.O. up to 1 of your opponent's {The Seven Warlords of the Sea} type Characters with a cost of 8 or less.",
     "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's {The Seven Warlords of the Sea} type Characters with a cost of 4 or less.",
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-096.png",
     "cost": 4,
     "abilityKeywords": [
       "[Main]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-096"
+    "imageId": "OP10-096",
+    "id": "OP10-096_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Gum-Gum Rhino Schneider",
@@ -2958,7 +3074,7 @@
     ],
     "effect": "[Main] Up to 1 of your {Dressrosa} type Characters gains +2000 power during this turn. Then, if you have 10 or more cards in your trash, that card gains [Banish] during this turn.",
     "trigger": "Trigger[Trigger] Draw 2 cards and trash 1 card from your hand.",
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-097.png",
     "cost": 1,
     "abilityKeywords": [
@@ -2966,7 +3082,8 @@
       "[Main]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-097"
+    "imageId": "OP10-097",
+    "id": "OP10-097_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Liberation",
@@ -2984,14 +3101,15 @@
     ],
     "effect": "[Main] If the number of your Characters is at least 2 less than the number of your opponent's Characters, K.O. up to 1 of your opponent's Characters with a base cost of 6 or less and up to 1 of your opponent's Characters with a base cost of 4 or less.",
     "trigger": "Trigger[Trigger] Negate the effect of up to 1 of each of your opponent's Leader and Character cards during this turn.",
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-098.png",
     "cost": 6,
     "abilityKeywords": [
       "[Main]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-098"
+    "imageId": "OP10-098",
+    "id": "OP10-098_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -3010,7 +3128,7 @@
     ],
     "effect": "[End of Your Turn] You may turn 1 card from the top of your Life cards face-up: Set up to 1 of your {Supernovas} type Characters with a cost of 3 to 8 as active. That Character gains [Blocker] until the end of your opponent's next turn.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-099.png",
     "life": 5,
     "abilityKeywords": [
@@ -3018,7 +3136,8 @@
       "[End of Your Turn]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-099"
+    "imageId": "OP10-099",
+    "id": "OP10-099_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -3037,7 +3156,7 @@
     ],
     "effect": "[End of Your Turn] You may turn 1 card from the top of your Life cards face-up: Set up to 1 of your {Supernovas} type Characters with a cost of 3 to 8 as active. That Character gains [Blocker] until the end of your opponent's next turn.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-099_p1.png",
     "life": 5,
     "abilityKeywords": [
@@ -3045,7 +3164,8 @@
       "[End of Your Turn]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-099_p1"
+    "imageId": "OP10-099_p1",
+    "id": "OP10-099_p1_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Inazuma",
@@ -3063,7 +3183,7 @@
     ],
     "effect": "[DON!! x1] [When Attacking] Rest up to 1 of your opponent's Characters with a cost equal to or less than the total of your and your opponent's Life cards.",
     "trigger": "Trigger[Trigger] If your Leader has the {Revolutionary Army} type and you and your opponent have a total of 5 or less Life cards, play this card.",
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-100.png",
     "cost": 4,
     "abilityKeywords": [
@@ -3071,7 +3191,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-100"
+    "imageId": "OP10-100",
+    "id": "OP10-100_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Urouge",
@@ -3090,11 +3211,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-101.png",
     "cost": 5,
     "expansionCode": "OP10",
-    "id": "OP10-101"
+    "imageId": "OP10-101",
+    "id": "OP10-101_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Emporio.Ivankov",
@@ -3112,7 +3234,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] Up to 3 of your {Revolutionary Army} type Characters gain +1000 power during this turn. Then, add 1 card from the top of your Life cards to your hand.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-102.png",
     "cost": 5,
     "abilityKeywords": [
@@ -3120,7 +3242,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-102"
+    "imageId": "OP10-102",
+    "id": "OP10-102_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Capone\"Gang\"Bege",
@@ -3139,11 +3262,12 @@
     ],
     "effect": "[On Play] You may add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 {Supernovas} type Character card from your hand to the top of your Life cards face-up.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-103.png",
     "cost": 1,
     "expansionCode": "OP10",
-    "id": "OP10-103"
+    "imageId": "OP10-103",
+    "id": "OP10-103_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Caribou",
@@ -3162,14 +3286,15 @@
     ],
     "effect": "[DON!! x1] If your Leader has the {Supernovas} type and your opponent has 3 or more Life cards, this Character cannot be K.O.'d in battle.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-104.png",
     "cost": 4,
     "abilityKeywords": [
       "[DON!! x1]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-104"
+    "imageId": "OP10-104",
+    "id": "OP10-104_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Cavendish",
@@ -3189,11 +3314,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-105.png",
     "cost": 6,
     "expansionCode": "OP10",
-    "id": "OP10-105"
+    "imageId": "OP10-105",
+    "id": "OP10-105_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Killer",
@@ -3212,14 +3338,15 @@
     ],
     "effect": "[On K.O.] If your Leader has the {Supernovas} type, look at 3 cards from the top of your deck; reveal up to 1 {Supernovas} or {Kid Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-106.png",
     "cost": 3,
     "abilityKeywords": [
       "[On K.O.]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-106"
+    "imageId": "OP10-106",
+    "id": "OP10-106_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Jewelry Bonney",
@@ -3238,14 +3365,15 @@
     ],
     "effect": "[Blocker][On Play] You may add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 {Supernovas} type Character card with a cost of 5 from your hand to the top of your Life cards face-up.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-107.png",
     "cost": 3,
     "abilityKeywords": [
       "[Blocker]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-107"
+    "imageId": "OP10-107",
+    "id": "OP10-107_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Scratchmen Apoo",
@@ -3264,14 +3392,15 @@
     ],
     "effect": "If you have a yellow {Supernovas} type Character other than [Scratchmen Apoo], this Character gains [Blocker].",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-108.png",
     "cost": 1,
     "abilityKeywords": [
       "[Blocker]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-108"
+    "imageId": "OP10-108",
+    "id": "OP10-108_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Basil Hawkins",
@@ -3290,14 +3419,15 @@
     ],
     "effect": "[On K.O.] Trash up to 1 card from the top of your opponent's Life cards.",
     "trigger": "Trigger[Trigger] Draw 2 cards and trash 1 card from your hand.",
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-109.png",
     "cost": 4,
     "abilityKeywords": [
       "[On K.O.]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-109"
+    "imageId": "OP10-109",
+    "id": "OP10-109_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Heat & Wire",
@@ -3315,11 +3445,12 @@
     ],
     "effect": "[On Play] Rest up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards.",
     "trigger": "Trigger[Trigger] If you have 2 or less Life cards, play this card.",
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-110.png",
     "cost": 3,
     "expansionCode": "OP10",
-    "id": "OP10-110"
+    "imageId": "OP10-110",
+    "id": "OP10-110_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3338,11 +3469,12 @@
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type card other than [Monkey.D.Luffy] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-111.png",
     "cost": 1,
     "expansionCode": "OP10",
-    "id": "OP10-111"
+    "imageId": "OP10-111",
+    "id": "OP10-111_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3361,11 +3493,12 @@
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type card other than [Monkey.D.Luffy] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-111_p1.png",
     "cost": 1,
     "expansionCode": "OP10",
-    "id": "OP10-111_p1"
+    "imageId": "OP10-111_p1",
+    "id": "OP10-111_p1_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -3384,14 +3517,15 @@
     ],
     "effect": "[On Play] You may rest this Character: Trash up to 1 card from the top of your opponent's Life cards.[End of Your Turn] If your opponent has 2 or less Life cards, draw 1 card and trash 1 card from your hand.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-112.png",
     "cost": 8,
     "abilityKeywords": [
       "[End of Your Turn]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-112"
+    "imageId": "OP10-112",
+    "id": "OP10-112_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -3410,14 +3544,15 @@
     ],
     "effect": "[On Play] You may rest this Character: Trash up to 1 card from the top of your opponent's Life cards.[End of Your Turn] If your opponent has 2 or less Life cards, draw 1 card and trash 1 card from your hand.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-112_p1.png",
     "cost": 8,
     "abilityKeywords": [
       "[End of Your Turn]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-112_p1"
+    "imageId": "OP10-112_p1",
+    "id": "OP10-112_p1_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Roronoa Zoro",
@@ -3436,14 +3571,15 @@
     ],
     "effect": "If you have less Life cards than your opponent, this Character gains [Rush].",
     "trigger": "Trigger[Trigger] You may trash 1 card from your hand: If your Leader has the {Supernovas} type, play this card.",
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-113.png",
     "cost": 3,
     "abilityKeywords": [
       "[Rush]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-113"
+    "imageId": "OP10-113",
+    "id": "OP10-113_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "X.Drake",
@@ -3463,14 +3599,15 @@
     ],
     "effect": "[Activate: Main] You may rest this Character: If the number of your Life cards is equal to or less than the number of your opponent's Life cards, rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-114.png",
     "cost": 3,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-114"
+    "imageId": "OP10-114",
+    "id": "OP10-114_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Let's Meet Again in the New World",
@@ -3489,14 +3626,15 @@
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, if you have 0 Life cards, draw 1 card.",
     "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards.",
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-115.png",
     "cost": 2,
     "abilityKeywords": [
       "[Counter]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-115"
+    "imageId": "OP10-115",
+    "id": "OP10-115_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Damned Punk",
@@ -3515,14 +3653,15 @@
     ],
     "effect": "[Main] Look at up to 1 card from the top of your or your opponent's Life cards and place it at the top or bottom of the Life cards. Then, K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
     "trigger": "Trigger[Trigger] Draw 2 cards and trash 1 card from your hand.",
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-116.png",
     "cost": 4,
     "abilityKeywords": [
       "[Main]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-116"
+    "imageId": "OP10-116",
+    "id": "OP10-116_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "ROOM",
@@ -3541,14 +3680,15 @@
     ],
     "effect": "[Counter] If you have 1 or less Life cards, up to 1 of your Leader or Character cards gains +3000 power during this battle. Then, set up to 1 of your Characters with a cost of 5 or less as active.",
     "trigger": "Trigger[Trigger] Draw 1 card.",
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-117.png",
     "cost": 1,
     "abilityKeywords": [
       "[Counter]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-117"
+    "imageId": "OP10-117",
+    "id": "OP10-117_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3568,14 +3708,15 @@
     ],
     "effect": "Once per turn, this Character cannot be K.O.'d by your opponent's effects.[When Attacking] You may place 3 cards from your trash at the bottom of your deck in any order: If your opponent has 5 or more cards in their hand, your opponent trashes 1 card from their hand.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-118.png",
     "cost": 6,
     "abilityKeywords": [
       "[When Attacking]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-118"
+    "imageId": "OP10-118",
+    "id": "OP10-118_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3595,14 +3736,15 @@
     ],
     "effect": "Once per turn, this Character cannot be K.O.'d by your opponent's effects.[When Attacking] You may place 3 cards from your trash at the bottom of your deck in any order: If your opponent has 5 or more cards in their hand, your opponent trashes 1 card from their hand.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-118_p1.png",
     "cost": 6,
     "abilityKeywords": [
       "[When Attacking]"
     ],
     "expansionCode": "OP10",
-    "id": "OP10-118_p1"
+    "imageId": "OP10-118_p1",
+    "id": "OP10-118_p1_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Trafalgar Law",
@@ -3622,11 +3764,12 @@
     ],
     "effect": "[On Play] Reveal up to 1 {Supernovas} type Character card from your hand and add it to the top of your Life cards face-down. Then, give up to 1 rested DON!! card to 1 of your {Supernovas} type Leader.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-119.png",
     "cost": 7,
     "expansionCode": "OP10",
-    "id": "OP10-119"
+    "imageId": "OP10-119",
+    "id": "OP10-119_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Trafalgar Law",
@@ -3646,11 +3789,12 @@
     ],
     "effect": "[On Play] Reveal up to 1 {Supernovas} type Character card from your hand and add it to the top of your Life cards face-down. Then, give up to 1 rested DON!! card to 1 of your {Supernovas} type Leader.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-119_p1.png",
     "cost": 7,
     "expansionCode": "OP10",
-    "id": "OP10-119_p1"
+    "imageId": "OP10-119_p1",
+    "id": "OP10-119_p1_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Trafalgar Law",
@@ -3670,11 +3814,12 @@
     ],
     "effect": "[On Play] Reveal up to 1 {Supernovas} type Character card from your hand and add it to the top of your Life cards face-down. Then, give up to 1 rested DON!! card to 1 of your {Supernovas} type Leader.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-119_p2.png",
     "cost": 7,
     "expansionCode": "OP10",
-    "id": "OP10-119_p2"
+    "imageId": "OP10-119_p2",
+    "id": "OP10-119_p2_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Charlotte Flampe",
@@ -3692,11 +3837,12 @@
     ],
     "effect": "[On Play] You may add 1 card from the top or bottom of your Life cards to your hand: Draw 1 card.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-056_p2.png",
     "cost": 1,
     "expansionCode": "EB01",
-    "id": "EB01-056_p2"
+    "imageId": "EB01-056_p2",
+    "id": "EB01-056_p2_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Urouge",
@@ -3715,7 +3861,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[End of Your Turn] Set up to 1 of your DON!! cards as active.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-021_p2.png",
     "cost": 4,
     "abilityKeywords": [
@@ -3723,7 +3869,8 @@
       "[End of Your Turn]"
     ],
     "expansionCode": "OP07",
-    "id": "OP07-021_p2"
+    "imageId": "OP07-021_p2",
+    "id": "OP07-021_p2_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Charlotte Pudding",
@@ -3741,14 +3888,15 @@
     ],
     "effect": "[Activate: Main] Return this Character to the owner's hand.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST12-012_p1.png",
     "cost": 2,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
     "expansionCode": "ST12",
-    "id": "ST12-012_p1"
+    "imageId": "ST12-012_p1",
+    "id": "ST12-012_p1_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Sanji",
@@ -3766,11 +3914,12 @@
     ],
     "effect": "[On Play] If you have a Character with a cost of 6 or more, K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-003_p1.png",
     "cost": 5,
     "expansionCode": "ST14",
-    "id": "ST14-003_p1"
+    "imageId": "ST14-003_p1",
+    "id": "ST14-003_p1_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Edward.Newgate",
@@ -3789,14 +3938,15 @@
     ],
     "effect": "[On Play] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.[Activate: Main] You may rest this Character: K.O. up to 1 of your opponent's Characters with 5000 power or less.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST15-002_p1.png",
     "cost": 7,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
     "expansionCode": "ST15",
-    "id": "ST15-002_p1"
+    "imageId": "ST15-002_p1",
+    "id": "ST15-002_p1_ROYAL_BLOOD_[OP-10]"
   },
   {
     "name": "Uso-Hachi",
@@ -3814,10 +3964,11 @@
     ],
     "effect": "[On Play] If you have 8 or more DON!! cards on your field, rest up to 1 of your opponent's Characters with a cost of 5 or less.",
     "trigger": null,
-    "setName": "ROYAL BLOOD [OP10]",
+    "setName": "ROYAL BLOOD [OP-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST18-001_p1.png",
     "cost": 3,
     "expansionCode": "ST18",
-    "id": "ST18-001_p1"
+    "imageId": "ST18-001_p1",
+    "id": "ST18-001_p1_ROYAL_BLOOD_[OP-10]"
   }
 ]

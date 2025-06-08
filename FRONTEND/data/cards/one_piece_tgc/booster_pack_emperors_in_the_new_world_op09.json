@@ -23,7 +23,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-001"
+    "imageId": "OP09-001",
+    "id": "OP09-001_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Shanks",
@@ -49,7 +50,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-001_p1"
+    "imageId": "OP09-001_p1",
+    "id": "OP09-001_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Uta",
@@ -71,7 +73,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-002.png",
     "cost": 1,
     "expansionCode": "OP09",
-    "id": "OP09-002"
+    "imageId": "OP09-002",
+    "id": "OP09-002_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Uta",
@@ -93,7 +96,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-002_p1.png",
     "cost": 1,
     "expansionCode": "OP09",
-    "id": "OP09-002_p1"
+    "imageId": "OP09-002_p1",
+    "id": "OP09-002_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Shachi & Penguin",
@@ -118,7 +122,8 @@
       "[When Attacking]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-003"
+    "imageId": "OP09-003",
+    "id": "OP09-003_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Shanks",
@@ -144,7 +149,8 @@
       "[Rush]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-004"
+    "imageId": "OP09-004",
+    "id": "OP09-004_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Shanks",
@@ -170,7 +176,8 @@
       "[Rush]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-004_p1"
+    "imageId": "OP09-004_p1",
+    "id": "OP09-004_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Shanks",
@@ -196,7 +203,8 @@
       "[Rush]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-004_p2"
+    "imageId": "OP09-004_p2",
+    "id": "OP09-004_p2_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Silvers Rayleigh",
@@ -221,7 +229,8 @@
       "[Blocker]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-005"
+    "imageId": "OP09-005",
+    "id": "OP09-005_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Howling Gab",
@@ -243,7 +252,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-006.png",
     "cost": 5,
     "expansionCode": "OP09",
-    "id": "OP09-006"
+    "imageId": "OP09-006",
+    "id": "OP09-006_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Heat",
@@ -268,7 +278,8 @@
       "[Blocker]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-007"
+    "imageId": "OP09-007",
+    "id": "OP09-007_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Building Snake",
@@ -293,7 +304,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-008"
+    "imageId": "OP09-008",
+    "id": "OP09-008_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Benn.Beckman",
@@ -315,7 +327,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-009.png",
     "cost": 7,
     "expansionCode": "OP09",
-    "id": "OP09-009"
+    "imageId": "OP09-009",
+    "id": "OP09-009_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Benn.Beckman",
@@ -337,7 +350,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-009_p1.png",
     "cost": 7,
     "expansionCode": "OP09",
-    "id": "OP09-009_p1"
+    "imageId": "OP09-009_p1",
+    "id": "OP09-009_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Bonk Punch",
@@ -363,7 +377,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-010"
+    "imageId": "OP09-010",
+    "id": "OP09-010_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Hongo",
@@ -388,7 +403,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-011"
+    "imageId": "OP09-011",
+    "id": "OP09-011_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Monster",
@@ -411,7 +427,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-012.png",
     "cost": 3,
     "expansionCode": "OP09",
-    "id": "OP09-012"
+    "imageId": "OP09-012",
+    "id": "OP09-012_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Yasopp",
@@ -437,7 +454,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-013"
+    "imageId": "OP09-013",
+    "id": "OP09-013_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Limejuice",
@@ -462,7 +480,8 @@
       "[Blocker]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-014"
+    "imageId": "OP09-014",
+    "id": "OP09-014_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Lucky.Roux",
@@ -488,7 +507,8 @@
       "[On K.O.]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-015"
+    "imageId": "OP09-015",
+    "id": "OP09-015_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Rockstar",
@@ -510,7 +530,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-016.png",
     "cost": 4,
     "expansionCode": "OP09",
-    "id": "OP09-016"
+    "imageId": "OP09-016",
+    "id": "OP09-016_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Wire",
@@ -536,7 +557,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-017"
+    "imageId": "OP09-017",
+    "id": "OP09-017_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Get Out of Here!",
@@ -561,7 +583,8 @@
       "[Main]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-018"
+    "imageId": "OP09-018",
+    "id": "OP09-018_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Nobody Hurts a Friend of Mine!!!!",
@@ -586,7 +609,8 @@
       "[Main]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-019"
+    "imageId": "OP09-019",
+    "id": "OP09-019_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Come On!! We'll Fight You!!",
@@ -612,7 +636,8 @@
       "[Main]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-020"
+    "imageId": "OP09-020",
+    "id": "OP09-020_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Red Force",
@@ -637,7 +662,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-021"
+    "imageId": "OP09-021",
+    "id": "OP09-021_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Lim",
@@ -664,7 +690,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-022"
+    "imageId": "OP09-022",
+    "id": "OP09-022_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Lim",
@@ -691,7 +718,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-022_p1"
+    "imageId": "OP09-022_p1",
+    "id": "OP09-022_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Adio",
@@ -717,7 +745,8 @@
       "[On Your Opponent's Attack]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-023"
+    "imageId": "OP09-023",
+    "id": "OP09-023_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Adio",
@@ -743,7 +772,8 @@
       "[On Your Opponent's Attack]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-023_p1"
+    "imageId": "OP09-023_p1",
+    "id": "OP09-023_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Usopp",
@@ -766,7 +796,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-024.png",
     "cost": 4,
     "expansionCode": "OP09",
-    "id": "OP09-024"
+    "imageId": "OP09-024",
+    "id": "OP09-024_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Crocodile",
@@ -790,7 +821,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-025.png",
     "cost": 4,
     "expansionCode": "OP09",
-    "id": "OP09-025"
+    "imageId": "OP09-025",
+    "id": "OP09-025_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Sakazuki",
@@ -813,7 +845,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-026.png",
     "cost": 6,
     "expansionCode": "OP09",
-    "id": "OP09-026"
+    "imageId": "OP09-026",
+    "id": "OP09-026_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Sabo",
@@ -840,7 +873,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-027"
+    "imageId": "OP09-027",
+    "id": "OP09-027_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Sanji",
@@ -866,7 +900,8 @@
       "[On K.O.]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-028"
+    "imageId": "OP09-028",
+    "id": "OP09-028_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Tony Tony.Chopper",
@@ -893,7 +928,8 @@
       "[End of Your Turn]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-029"
+    "imageId": "OP09-029",
+    "id": "OP09-029_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Trafalgar Law",
@@ -917,7 +953,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-030.png",
     "cost": 3,
     "expansionCode": "OP09",
-    "id": "OP09-030"
+    "imageId": "OP09-030",
+    "id": "OP09-030_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Donquixote Doflamingo",
@@ -945,7 +982,8 @@
       "[End of Your Turn]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-031"
+    "imageId": "OP09-031",
+    "id": "OP09-031_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Donquixote Rosinante",
@@ -974,7 +1012,8 @@
       "[On Your Opponent's Attack]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-032"
+    "imageId": "OP09-032",
+    "id": "OP09-032_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Nico Robin",
@@ -997,7 +1036,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-033.png",
     "cost": 4,
     "expansionCode": "OP09",
-    "id": "OP09-033"
+    "imageId": "OP09-033",
+    "id": "OP09-033_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Perona",
@@ -1020,7 +1060,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-034.png",
     "cost": 1,
     "expansionCode": "OP09",
-    "id": "OP09-034"
+    "imageId": "OP09-034",
+    "id": "OP09-034_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Perona",
@@ -1043,7 +1084,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-034_p1.png",
     "cost": 1,
     "expansionCode": "OP09",
-    "id": "OP09-034_p1"
+    "imageId": "OP09-034_p1",
+    "id": "OP09-034_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Portgas.D.Ace",
@@ -1066,7 +1108,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-035.png",
     "cost": 5,
     "expansionCode": "OP09",
-    "id": "OP09-035"
+    "imageId": "OP09-035",
+    "id": "OP09-035_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -1090,7 +1133,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-036.png",
     "cost": 5,
     "expansionCode": "OP09",
-    "id": "OP09-036"
+    "imageId": "OP09-036",
+    "id": "OP09-036_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Lim",
@@ -1115,7 +1159,8 @@
       "[End of Your Turn]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-037"
+    "imageId": "OP09-037",
+    "id": "OP09-037_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Lim",
@@ -1140,7 +1185,8 @@
       "[End of Your Turn]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-037_p1"
+    "imageId": "OP09-037_p1",
+    "id": "OP09-037_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Rob Lucci",
@@ -1163,7 +1209,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-038.png",
     "cost": 4,
     "expansionCode": "OP09",
-    "id": "OP09-038"
+    "imageId": "OP09-038",
+    "id": "OP09-038_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Gum-Gum Cuatro Jet Cross Shock Bazooka",
@@ -1190,7 +1237,8 @@
       "[Counter]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-039"
+    "imageId": "OP09-039",
+    "id": "OP09-039_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Thunder Lance Flip Caliber Phoenix Shot",
@@ -1217,7 +1265,8 @@
       "[Main]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-040"
+    "imageId": "OP09-040",
+    "id": "OP09-040_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Soul Franky Swing Arm Boxing Solid",
@@ -1243,7 +1292,8 @@
       "[Counter]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-041"
+    "imageId": "OP09-041",
+    "id": "OP09-041_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Buggy",
@@ -1269,7 +1319,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-042"
+    "imageId": "OP09-042",
+    "id": "OP09-042_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Buggy",
@@ -1295,7 +1346,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-042_p1"
+    "imageId": "OP09-042_p1",
+    "id": "OP09-042_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Alvida",
@@ -1320,7 +1372,8 @@
       "[On K.O.]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-043"
+    "imageId": "OP09-043",
+    "id": "OP09-043_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Izo",
@@ -1346,7 +1399,8 @@
       "[When Attacking]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-044"
+    "imageId": "OP09-044",
+    "id": "OP09-044_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Cabaji",
@@ -1368,7 +1422,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-045.png",
     "cost": 5,
     "expansionCode": "OP09",
-    "id": "OP09-045"
+    "imageId": "OP09-045",
+    "id": "OP09-045_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Crocodile",
@@ -1391,7 +1446,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-046.png",
     "cost": 7,
     "expansionCode": "OP09",
-    "id": "OP09-046"
+    "imageId": "OP09-046",
+    "id": "OP09-046_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Crocodile",
@@ -1414,7 +1470,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-046_p1.png",
     "cost": 7,
     "expansionCode": "OP09",
-    "id": "OP09-046_p1"
+    "imageId": "OP09-046_p1",
+    "id": "OP09-046_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Kouzuki Oden",
@@ -1441,7 +1498,8 @@
       "[On K.O.]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-047"
+    "imageId": "OP09-047",
+    "id": "OP09-047_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Dracule Mihawk",
@@ -1466,7 +1524,8 @@
       "[Blocker]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-048"
+    "imageId": "OP09-048",
+    "id": "OP09-048_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Dracule Mihawk",
@@ -1491,7 +1550,8 @@
       "[Blocker]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-048_p1"
+    "imageId": "OP09-048_p1",
+    "id": "OP09-048_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Jozu",
@@ -1513,7 +1573,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-049.png",
     "cost": 4,
     "expansionCode": "OP09",
-    "id": "OP09-049"
+    "imageId": "OP09-049",
+    "id": "OP09-049_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Nami",
@@ -1538,7 +1599,8 @@
       "[When Attacking]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-050"
+    "imageId": "OP09-050",
+    "id": "OP09-050_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Nami",
@@ -1563,7 +1625,8 @@
       "[When Attacking]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-050_p1"
+    "imageId": "OP09-050_p1",
+    "id": "OP09-050_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Buggy",
@@ -1586,7 +1649,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-051.png",
     "cost": 10,
     "expansionCode": "OP09",
-    "id": "OP09-051"
+    "imageId": "OP09-051",
+    "id": "OP09-051_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Buggy",
@@ -1609,7 +1673,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-051_p1.png",
     "cost": 10,
     "expansionCode": "OP09",
-    "id": "OP09-051_p1"
+    "imageId": "OP09-051_p1",
+    "id": "OP09-051_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Buggy",
@@ -1632,7 +1697,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-051_p2.png",
     "cost": 10,
     "expansionCode": "OP09",
-    "id": "OP09-051_p2"
+    "imageId": "OP09-051_p2",
+    "id": "OP09-051_p2_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Marco",
@@ -1657,7 +1723,8 @@
       "[Opponent's Turn]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-052"
+    "imageId": "OP09-052",
+    "id": "OP09-052_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Mohji",
@@ -1679,7 +1746,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-053.png",
     "cost": 5,
     "expansionCode": "OP09",
-    "id": "OP09-053"
+    "imageId": "OP09-053",
+    "id": "OP09-053_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Richie",
@@ -1705,7 +1773,8 @@
       "[Blocker]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-054"
+    "imageId": "OP09-054",
+    "id": "OP09-054_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Mr.1(Daz.Bonez)",
@@ -1728,7 +1797,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-055.png",
     "cost": 5,
     "expansionCode": "OP09",
-    "id": "OP09-055"
+    "imageId": "OP09-055",
+    "id": "OP09-055_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Mr.3(Galdino)",
@@ -1751,7 +1821,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-056.png",
     "cost": 1,
     "expansionCode": "OP09",
-    "id": "OP09-056"
+    "imageId": "OP09-056",
+    "id": "OP09-056_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Cross Guild",
@@ -1776,7 +1847,8 @@
       "[Main]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-057"
+    "imageId": "OP09-057",
+    "id": "OP09-057_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Special Muggy Ball",
@@ -1801,7 +1873,8 @@
       "[Main]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-058"
+    "imageId": "OP09-058",
+    "id": "OP09-058_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Murder at the Steam Bath",
@@ -1826,7 +1899,8 @@
       "[Counter]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-059"
+    "imageId": "OP09-059",
+    "id": "OP09-059_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Emptee Bluffs Island",
@@ -1851,7 +1925,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-060"
+    "imageId": "OP09-060",
+    "id": "OP09-060_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -1880,7 +1955,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-061"
+    "imageId": "OP09-061",
+    "id": "OP09-061_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -1909,7 +1985,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-061_p1"
+    "imageId": "OP09-061_p1",
+    "id": "OP09-061_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Nico Robin",
@@ -1937,7 +2014,8 @@
       "[When Attacking]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-062"
+    "imageId": "OP09-062",
+    "id": "OP09-062_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Nico Robin",
@@ -1965,7 +2043,8 @@
       "[When Attacking]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-062_p1"
+    "imageId": "OP09-062_p1",
+    "id": "OP09-062_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Usopp",
@@ -1987,7 +2066,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-063.png",
     "cost": 4,
     "expansionCode": "OP09",
-    "id": "OP09-063"
+    "imageId": "OP09-063",
+    "id": "OP09-063_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Killer",
@@ -2009,7 +2089,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-064.png",
     "cost": 5,
     "expansionCode": "OP09",
-    "id": "OP09-064"
+    "imageId": "OP09-064",
+    "id": "OP09-064_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Sanji",
@@ -2034,7 +2115,8 @@
       "[Rush]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-065"
+    "imageId": "OP09-065",
+    "id": "OP09-065_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Sanji",
@@ -2059,7 +2141,8 @@
       "[Rush]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-065_p1"
+    "imageId": "OP09-065_p1",
+    "id": "OP09-065_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Jean Bart",
@@ -2081,7 +2164,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-066.png",
     "cost": 4,
     "expansionCode": "OP09",
-    "id": "OP09-066"
+    "imageId": "OP09-066",
+    "id": "OP09-066_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Jinbe",
@@ -2104,7 +2188,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-067.png",
     "cost": 7,
     "expansionCode": "OP09",
-    "id": "OP09-067"
+    "imageId": "OP09-067",
+    "id": "OP09-067_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Tony Tony.Chopper",
@@ -2131,7 +2216,8 @@
       "[End of Your Turn]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-068"
+    "imageId": "OP09-068",
+    "id": "OP09-068_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Trafalgar Law",
@@ -2153,7 +2239,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-069.png",
     "cost": 1,
     "expansionCode": "OP09",
-    "id": "OP09-069"
+    "imageId": "OP09-069",
+    "id": "OP09-069_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Trafalgar Law",
@@ -2175,7 +2262,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-069_p1.png",
     "cost": 1,
     "expansionCode": "OP09",
-    "id": "OP09-069_p1"
+    "imageId": "OP09-069_p1",
+    "id": "OP09-069_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Nami",
@@ -2197,7 +2285,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-070.png",
     "cost": 3,
     "expansionCode": "OP09",
-    "id": "OP09-070"
+    "imageId": "OP09-070",
+    "id": "OP09-070_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Nico Robin",
@@ -2222,7 +2311,8 @@
       "[Blocker]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-071"
+    "imageId": "OP09-071",
+    "id": "OP09-071_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Franky",
@@ -2247,7 +2337,8 @@
       "[Blocker]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-072"
+    "imageId": "OP09-072",
+    "id": "OP09-072_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Franky",
@@ -2272,7 +2363,8 @@
       "[Blocker]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-072_p1"
+    "imageId": "OP09-072_p1",
+    "id": "OP09-072_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Brook",
@@ -2297,7 +2389,8 @@
       "[When Attacking]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-073"
+    "imageId": "OP09-073",
+    "id": "OP09-073_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Bepo",
@@ -2324,7 +2417,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-074"
+    "imageId": "OP09-074",
+    "id": "OP09-074_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -2346,7 +2440,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-075.png",
     "cost": 3,
     "expansionCode": "OP09",
-    "id": "OP09-075"
+    "imageId": "OP09-075",
+    "id": "OP09-075_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Roronoa Zoro",
@@ -2368,7 +2463,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-076.png",
     "cost": 3,
     "expansionCode": "OP09",
-    "id": "OP09-076"
+    "imageId": "OP09-076",
+    "id": "OP09-076_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Gum-Gum Lightning",
@@ -2394,7 +2490,8 @@
       "[Main]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-077"
+    "imageId": "OP09-077",
+    "id": "OP09-077_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Gum-Gum Giant",
@@ -2420,7 +2517,8 @@
       "[Counter]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-078"
+    "imageId": "OP09-078",
+    "id": "OP09-078_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Gum-Gum Jump Rope",
@@ -2446,7 +2544,8 @@
       "[Main]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-079"
+    "imageId": "OP09-079",
+    "id": "OP09-079_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Thousand Sunny",
@@ -2471,7 +2570,8 @@
       "[Opponent's Turn]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-080"
+    "imageId": "OP09-080",
+    "id": "OP09-080_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Marshall.D.Teach",
@@ -2497,7 +2597,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-081"
+    "imageId": "OP09-081",
+    "id": "OP09-081_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Marshall.D.Teach",
@@ -2523,7 +2624,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-081_p1"
+    "imageId": "OP09-081_p1",
+    "id": "OP09-081_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Avalo Pizarro",
@@ -2545,7 +2647,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-082.png",
     "cost": 4,
     "expansionCode": "OP09",
-    "id": "OP09-082"
+    "imageId": "OP09-082",
+    "id": "OP09-082_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Van Augur",
@@ -2571,7 +2674,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-083"
+    "imageId": "OP09-083",
+    "id": "OP09-083_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Catarina Devon",
@@ -2600,7 +2704,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-084"
+    "imageId": "OP09-084",
+    "id": "OP09-084_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Gecko Moria",
@@ -2622,7 +2727,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-085.png",
     "cost": 4,
     "expansionCode": "OP09",
-    "id": "OP09-085"
+    "imageId": "OP09-085",
+    "id": "OP09-085_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Jesus Burgess",
@@ -2644,7 +2750,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-086.png",
     "cost": 4,
     "expansionCode": "OP09",
-    "id": "OP09-086"
+    "imageId": "OP09-086",
+    "id": "OP09-086_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Charlotte Pudding",
@@ -2666,7 +2773,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-087.png",
     "cost": 2,
     "expansionCode": "OP09",
-    "id": "OP09-087"
+    "imageId": "OP09-087",
+    "id": "OP09-087_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Shiryu",
@@ -2692,7 +2800,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-088"
+    "imageId": "OP09-088",
+    "id": "OP09-088_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Stronger",
@@ -2718,7 +2827,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-089"
+    "imageId": "OP09-089",
+    "id": "OP09-089_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Doc Q",
@@ -2744,7 +2854,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-090"
+    "imageId": "OP09-090",
+    "id": "OP09-090_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Vasco Shot",
@@ -2769,7 +2880,8 @@
       "[Blocker]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-091"
+    "imageId": "OP09-091",
+    "id": "OP09-091_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Marshall.D.Teach",
@@ -2794,7 +2906,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-092"
+    "imageId": "OP09-092",
+    "id": "OP09-092_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Marshall.D.Teach",
@@ -2822,7 +2935,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-093"
+    "imageId": "OP09-093",
+    "id": "OP09-093_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Marshall.D.Teach",
@@ -2850,7 +2964,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-093_p1"
+    "imageId": "OP09-093_p1",
+    "id": "OP09-093_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Marshall.D.Teach",
@@ -2878,7 +2993,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-093_p2"
+    "imageId": "OP09-093_p2",
+    "id": "OP09-093_p2_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Peachbeard",
@@ -2901,7 +3017,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-094.png",
     "cost": 3,
     "expansionCode": "OP09",
-    "id": "OP09-094"
+    "imageId": "OP09-094",
+    "id": "OP09-094_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Laffitte",
@@ -2926,7 +3043,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-095"
+    "imageId": "OP09-095",
+    "id": "OP09-095_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "My Era...Begins!!",
@@ -2951,7 +3069,8 @@
       "[Main]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-096"
+    "imageId": "OP09-096",
+    "id": "OP09-096_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Black Vortex",
@@ -2976,7 +3095,8 @@
       "[Counter]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-097"
+    "imageId": "OP09-097",
+    "id": "OP09-097_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Black Hole",
@@ -3001,7 +3121,8 @@
       "[Main]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-098"
+    "imageId": "OP09-098",
+    "id": "OP09-098_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Fullalead",
@@ -3026,7 +3147,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-099"
+    "imageId": "OP09-099",
+    "id": "OP09-099_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Karasu",
@@ -3051,7 +3173,8 @@
       "[Blocker]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-100"
+    "imageId": "OP09-100",
+    "id": "OP09-100_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Kuzan",
@@ -3073,7 +3196,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-101.png",
     "cost": 4,
     "expansionCode": "OP09",
-    "id": "OP09-101"
+    "imageId": "OP09-101",
+    "id": "OP09-101_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Professor Clover",
@@ -3098,7 +3222,8 @@
       "[Trigger]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-102"
+    "imageId": "OP09-102",
+    "id": "OP09-102_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Koala",
@@ -3123,7 +3248,8 @@
       "[Blocker]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-103"
+    "imageId": "OP09-103",
+    "id": "OP09-103_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Koala",
@@ -3148,7 +3274,8 @@
       "[Blocker]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-103_p1"
+    "imageId": "OP09-103_p1",
+    "id": "OP09-103_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Sabo",
@@ -3170,7 +3297,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-104.png",
     "cost": 7,
     "expansionCode": "OP09",
-    "id": "OP09-104"
+    "imageId": "OP09-104",
+    "id": "OP09-104_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Sanji",
@@ -3193,7 +3321,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-105.png",
     "cost": 5,
     "expansionCode": "OP09",
-    "id": "OP09-105"
+    "imageId": "OP09-105",
+    "id": "OP09-105_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Nico Olvia",
@@ -3215,7 +3344,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-106.png",
     "cost": 1,
     "expansionCode": "OP09",
-    "id": "OP09-106"
+    "imageId": "OP09-106",
+    "id": "OP09-106_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Nico Robin",
@@ -3237,7 +3367,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-107.png",
     "cost": 6,
     "expansionCode": "OP09",
-    "id": "OP09-107"
+    "imageId": "OP09-107",
+    "id": "OP09-107_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Nico Robin",
@@ -3259,7 +3390,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-107_p1.png",
     "cost": 6,
     "expansionCode": "OP09",
-    "id": "OP09-107_p1"
+    "imageId": "OP09-107_p1",
+    "id": "OP09-107_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Bartholomew Kuma",
@@ -3282,7 +3414,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-108.png",
     "cost": 4,
     "expansionCode": "OP09",
-    "id": "OP09-108"
+    "imageId": "OP09-108",
+    "id": "OP09-108_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Jaguar.D.Saul",
@@ -3309,7 +3442,8 @@
       "[Blocker]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-109"
+    "imageId": "OP09-109",
+    "id": "OP09-109_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Pierre",
@@ -3332,7 +3466,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-110.png",
     "cost": 2,
     "expansionCode": "OP09",
-    "id": "OP09-110"
+    "imageId": "OP09-110",
+    "id": "OP09-110_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Brook",
@@ -3355,7 +3490,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-111.png",
     "cost": 5,
     "expansionCode": "OP09",
-    "id": "OP09-111"
+    "imageId": "OP09-111",
+    "id": "OP09-111_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Belo Betty",
@@ -3377,7 +3513,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-112.png",
     "cost": 3,
     "expansionCode": "OP09",
-    "id": "OP09-112"
+    "imageId": "OP09-112",
+    "id": "OP09-112_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Morley",
@@ -3400,7 +3537,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-113.png",
     "cost": 4,
     "expansionCode": "OP09",
-    "id": "OP09-113"
+    "imageId": "OP09-113",
+    "id": "OP09-113_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Lindbergh",
@@ -3423,7 +3561,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-114.png",
     "cost": 3,
     "expansionCode": "OP09",
-    "id": "OP09-114"
+    "imageId": "OP09-114",
+    "id": "OP09-114_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Ice Block Partisan",
@@ -3449,7 +3588,8 @@
       "[Main]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-115"
+    "imageId": "OP09-115",
+    "id": "OP09-115_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Never Underestimate the Power of Miracles!!",
@@ -3474,7 +3614,8 @@
       "[Counter]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-116"
+    "imageId": "OP09-116",
+    "id": "OP09-116_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Dereshi!",
@@ -3500,7 +3641,8 @@
       "[Main]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-117"
+    "imageId": "OP09-117",
+    "id": "OP09-117_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Gol.D.Roger",
@@ -3527,7 +3669,8 @@
       "[Blocker]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-118"
+    "imageId": "OP09-118",
+    "id": "OP09-118_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Gol.D.Roger",
@@ -3554,7 +3697,8 @@
       "[Blocker]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-118_p1"
+    "imageId": "OP09-118_p1",
+    "id": "OP09-118_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Gol.D.Roger",
@@ -3581,7 +3725,8 @@
       "[Blocker]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-118_p2"
+    "imageId": "OP09-118_p2",
+    "id": "OP09-118_p2_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3606,7 +3751,8 @@
       "[Rush]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-119"
+    "imageId": "OP09-119",
+    "id": "OP09-119_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3631,7 +3777,8 @@
       "[Rush]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-119_p1"
+    "imageId": "OP09-119_p1",
+    "id": "OP09-119_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3656,7 +3803,8 @@
       "[Rush]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-119_p2"
+    "imageId": "OP09-119_p2",
+    "id": "OP09-119_p2_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Zoro-Juurou",
@@ -3678,7 +3826,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST18-004_p1.png",
     "cost": 4,
     "expansionCode": "ST18",
-    "id": "ST18-004_p1"
+    "imageId": "ST18-004_p1",
+    "id": "ST18-004_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Donquixote Rosinante",
@@ -3704,7 +3853,8 @@
       "[Opponent's Turn]"
     ],
     "expansionCode": "OP04",
-    "id": "OP04-119_p2"
+    "imageId": "OP04-119_p2",
+    "id": "OP04-119_p2_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Zoro-Juurou",
@@ -3729,7 +3879,8 @@
       "[When Attacking]"
     ],
     "expansionCode": "OP05",
-    "id": "OP05-067_p4"
+    "imageId": "OP05-067_p4",
+    "id": "OP05-067_p4_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Rob Lucci",
@@ -3751,7 +3902,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-093_p2.png",
     "cost": 4,
     "expansionCode": "OP05",
-    "id": "OP05-093_p2"
+    "imageId": "OP05-093_p2",
+    "id": "OP05-093_p2_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3778,7 +3930,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP05",
-    "id": "OP05-119_p6"
+    "imageId": "OP05-119_p6",
+    "id": "OP05-119_p6_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Monkey.D.Dragon",
@@ -3803,7 +3956,8 @@
       "[Rush]"
     ],
     "expansionCode": "OP07",
-    "id": "OP07-015_p2"
+    "imageId": "OP07-015_p2",
+    "id": "OP07-015_p2_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Boa Hancock",
@@ -3826,7 +3980,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-051_p3.png",
     "cost": 6,
     "expansionCode": "OP07",
-    "id": "OP07-051_p3"
+    "imageId": "OP07-051_p3",
+    "id": "OP07-051_p3_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Nami",
@@ -3852,7 +4007,8 @@
       "[Trigger]"
     ],
     "expansionCode": "OP08",
-    "id": "OP08-106_p2"
+    "imageId": "OP08-106_p2",
+    "id": "OP08-106_p2_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Shanks",
@@ -3878,7 +4034,8 @@
       "[Rush]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-004_p3"
+    "imageId": "OP09-004_p3",
+    "id": "OP09-004_p3_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Buggy",
@@ -3901,7 +4058,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-051_p3.png",
     "cost": 10,
     "expansionCode": "OP09",
-    "id": "OP09-051_p3"
+    "imageId": "OP09-051_p3",
+    "id": "OP09-051_p3_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   },
   {
     "name": "Marshall.D.Teach",
@@ -3929,6 +4087,7 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP09",
-    "id": "OP09-093_p3"
+    "imageId": "OP09-093_p3",
+    "id": "OP09-093_p3_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
   }
 ]

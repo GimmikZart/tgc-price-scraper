@@ -15,7 +15,7 @@
     ],
     "effect": "[DON!! x1] [Opponent's Turn] If you have 2 or less Life cards, this Leader gains +1000 power.",
     "trigger": null,
-    "setName": "Yamato [ST09]",
+    "setName": "Yamato [ST-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-001.png",
     "life": 5,
     "abilityKeywords": [
@@ -23,7 +23,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "ST09",
-    "id": "ST09-001"
+    "imageId": "ST09-001",
+    "id": "ST09-001_Yamato_[ST-09]"
   },
   {
     "name": "Uzuki Tempura",
@@ -41,11 +42,12 @@
     ],
     "effect": null,
     "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 2 or less and add this card to your hand.",
-    "setName": "Yamato [ST09]",
+    "setName": "Yamato [ST-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-002.png",
     "cost": 4,
     "expansionCode": "ST09",
-    "id": "ST09-002"
+    "imageId": "ST09-002",
+    "id": "ST09-002_Yamato_[ST-09]"
   },
   {
     "name": "Ulti",
@@ -63,11 +65,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "Yamato [ST09]",
+    "setName": "Yamato [ST-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-003.png",
     "cost": 4,
     "expansionCode": "ST09",
-    "id": "ST09-003"
+    "imageId": "ST09-003",
+    "id": "ST09-003_Yamato_[ST-09]"
   },
   {
     "name": "Kaido",
@@ -86,14 +89,15 @@
     ],
     "effect": "[DON!! x1] If you have 2 or less Life cards, this Character cannot be K.O.'d in battle.",
     "trigger": null,
-    "setName": "Yamato [ST09]",
+    "setName": "Yamato [ST-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-004.png",
     "cost": 4,
     "abilityKeywords": [
       "[DON!! x1]"
     ],
     "expansionCode": "ST09",
-    "id": "ST09-004"
+    "imageId": "ST09-004",
+    "id": "ST09-004_Yamato_[ST-09]"
   },
   {
     "name": "Kouzuki Oden",
@@ -112,7 +116,7 @@
     ],
     "effect": "[DON!! x1] This Character gains [Double Attack].(This card deals 2 damage.)[On K.O.] You may trash 2 cards from your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
     "trigger": null,
-    "setName": "Yamato [ST09]",
+    "setName": "Yamato [ST-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-005.png",
     "cost": 7,
     "abilityKeywords": [
@@ -121,7 +125,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "ST09",
-    "id": "ST09-005"
+    "imageId": "ST09-005",
+    "id": "ST09-005_Yamato_[ST-09]"
   },
   {
     "name": "Kouzuki Momonosuke",
@@ -140,11 +145,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "Yamato [ST09]",
+    "setName": "Yamato [ST-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-006.png",
     "cost": 2,
     "expansionCode": "ST09",
-    "id": "ST09-006"
+    "imageId": "ST09-006",
+    "id": "ST09-006_Yamato_[ST-09]"
   },
   {
     "name": "Shinobu",
@@ -162,7 +168,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Block] You may add 1 card from the top or bottom of your Life cards to your hand: This Character gains +4000 power during this battle.",
     "trigger": null,
-    "setName": "Yamato [ST09]",
+    "setName": "Yamato [ST-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-007.png",
     "cost": 3,
     "abilityKeywords": [
@@ -170,7 +176,8 @@
       "[On Block]"
     ],
     "expansionCode": "ST09",
-    "id": "ST09-007"
+    "imageId": "ST09-007",
+    "id": "ST09-007_Yamato_[ST-09]"
   },
   {
     "name": "Shimotsuki Ushimaru",
@@ -188,7 +195,7 @@
     ],
     "effect": "[DON!! x1] [When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: Play up to 1 yellow {Land of Wano} type Character card with a cost of 4 or less from your hand.",
     "trigger": null,
-    "setName": "Yamato [ST09]",
+    "setName": "Yamato [ST-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-008.png",
     "cost": 5,
     "abilityKeywords": [
@@ -196,7 +203,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "ST09",
-    "id": "ST09-008"
+    "imageId": "ST09-008",
+    "id": "ST09-008_Yamato_[ST-09]"
   },
   {
     "name": "Fugetsu Omusubi",
@@ -214,11 +222,12 @@
     ],
     "effect": null,
     "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 1 or less and add this card to your hand.",
-    "setName": "Yamato [ST09]",
+    "setName": "Yamato [ST-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-009.png",
     "cost": 3,
     "expansionCode": "ST09",
-    "id": "ST09-009"
+    "imageId": "ST09-009",
+    "id": "ST09-009_Yamato_[ST-09]"
   },
   {
     "name": "Portgas.D.Ace",
@@ -237,14 +246,15 @@
     ],
     "effect": "[Once Per Turn] If this Character would be K.O.'d, you may trash 1 card from the top or bottom of your Life cards instead.",
     "trigger": null,
-    "setName": "Yamato [ST09]",
+    "setName": "Yamato [ST-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-010.png",
     "cost": 6,
     "abilityKeywords": [
       "[Once Per Turn]"
     ],
     "expansionCode": "ST09",
-    "id": "ST09-010"
+    "imageId": "ST09-010",
+    "id": "ST09-010_Yamato_[ST-09]"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -263,11 +273,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "Yamato [ST09]",
+    "setName": "Yamato [ST-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-011.png",
     "cost": 3,
     "expansionCode": "ST09",
-    "id": "ST09-011"
+    "imageId": "ST09-011",
+    "id": "ST09-011_Yamato_[ST-09]"
   },
   {
     "name": "Yamato",
@@ -285,14 +296,15 @@
     ],
     "effect": "[When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: This Character gains +2000 power until the start of your next turn.",
     "trigger": null,
-    "setName": "Yamato [ST09]",
+    "setName": "Yamato [ST-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-012.png",
     "cost": 3,
     "abilityKeywords": [
       "[When Attacking]"
     ],
     "expansionCode": "ST09",
-    "id": "ST09-012"
+    "imageId": "ST09-012",
+    "id": "ST09-012_Yamato_[ST-09]"
   },
   {
     "name": "Yamato",
@@ -310,11 +322,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "Yamato [ST09]",
+    "setName": "Yamato [ST-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-013.png",
     "cost": 5,
     "expansionCode": "ST09",
-    "id": "ST09-013"
+    "imageId": "ST09-013",
+    "id": "ST09-013_Yamato_[ST-09]"
   },
   {
     "name": "Narikabura Arrow",
@@ -332,14 +345,15 @@
     ],
     "effect": "[Counter] If you have 2 or less Life cards, give up to 1 of your opponent's Leader or Character cards −3000 power during this turn.",
     "trigger": "Trigger[Trigger] You may trash 2 cards from your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
-    "setName": "Yamato [ST09]",
+    "setName": "Yamato [ST-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-014.png",
     "cost": 1,
     "abilityKeywords": [
       "[Counter]"
     ],
     "expansionCode": "ST09",
-    "id": "ST09-014"
+    "imageId": "ST09-014",
+    "id": "ST09-014_Yamato_[ST-09]"
   },
   {
     "name": "Thunder Bagua",
@@ -357,13 +371,14 @@
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, if you have 2 or less Life cards, add up to 1 of your opponent's Characters with a cost of 3 or less to the top or bottom of the owner's Life cards face-up.",
     "trigger": "Trigger[Trigger] Draw 1 card.",
-    "setName": "Yamato [ST09]",
+    "setName": "Yamato [ST-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-015.png",
     "cost": 2,
     "abilityKeywords": [
       "[Counter]"
     ],
     "expansionCode": "ST09",
-    "id": "ST09-015"
+    "imageId": "ST09-015",
+    "id": "ST09-015_Yamato_[ST-09]"
   }
 ]

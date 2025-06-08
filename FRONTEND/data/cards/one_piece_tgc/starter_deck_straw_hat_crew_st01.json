@@ -16,7 +16,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] Give this Leader or 1 of your Characters up to 1 rested DON!! card.",
     "trigger": null,
-    "setName": "Straw Hat Crew [ST01]",
+    "setName": "Straw Hat Crew [ST-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-001.png",
     "life": 5,
     "abilityKeywords": [
@@ -24,7 +24,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "ST01",
-    "id": "ST01-001"
+    "imageId": "ST01-001",
+    "id": "ST01-001_Straw_Hat_Crew_[ST-01]"
   },
   {
     "name": "Usopp",
@@ -42,7 +43,7 @@
     ],
     "effect": "[DON!! x2] [When Attacking] Your opponent cannot activate a [Blocker] Character that has 5000 or more power during this battle.",
     "trigger": "Trigger[Trigger] Play this card.",
-    "setName": "Straw Hat Crew [ST01]",
+    "setName": "Straw Hat Crew [ST-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-002.png",
     "cost": 2,
     "abilityKeywords": [
@@ -51,7 +52,8 @@
       "[DON!! x2]"
     ],
     "expansionCode": "ST01",
-    "id": "ST01-002"
+    "imageId": "ST01-002",
+    "id": "ST01-002_Straw_Hat_Crew_[ST-01]"
   },
   {
     "name": "Karoo",
@@ -70,11 +72,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "Straw Hat Crew [ST01]",
+    "setName": "Straw Hat Crew [ST-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-003.png",
     "cost": 1,
     "expansionCode": "ST01",
-    "id": "ST01-003"
+    "imageId": "ST01-003",
+    "id": "ST01-003_Straw_Hat_Crew_[ST-01]"
   },
   {
     "name": "Sanji",
@@ -92,7 +95,7 @@
     ],
     "effect": "[DON!! x2] This Character gains [Rush].(This card can attack on the turn in which it is played.)",
     "trigger": null,
-    "setName": "Straw Hat Crew [ST01]",
+    "setName": "Straw Hat Crew [ST-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-004.png",
     "cost": 2,
     "abilityKeywords": [
@@ -100,7 +103,8 @@
       "[DON!! x2]"
     ],
     "expansionCode": "ST01",
-    "id": "ST01-004"
+    "imageId": "ST01-004",
+    "id": "ST01-004_Straw_Hat_Crew_[ST-01]"
   },
   {
     "name": "Jinbe",
@@ -119,7 +123,7 @@
     ],
     "effect": "[DON!! x1] [When Attacking] Up to 1 of your Leader or Character cards other than this card gains +1000 power during this turn.",
     "trigger": null,
-    "setName": "Straw Hat Crew [ST01]",
+    "setName": "Straw Hat Crew [ST-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-005.png",
     "cost": 3,
     "abilityKeywords": [
@@ -127,7 +131,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "ST01",
-    "id": "ST01-005"
+    "imageId": "ST01-005",
+    "id": "ST01-005_Straw_Hat_Crew_[ST-01]"
   },
   {
     "name": "Tony Tony.Chopper",
@@ -146,14 +151,15 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
-    "setName": "Straw Hat Crew [ST01]",
+    "setName": "Straw Hat Crew [ST-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-006.png",
     "cost": 1,
     "abilityKeywords": [
       "[Blocker]"
     ],
     "expansionCode": "ST01",
-    "id": "ST01-006"
+    "imageId": "ST01-006",
+    "id": "ST01-006_Straw_Hat_Crew_[ST-01]"
   },
   {
     "name": "Nami",
@@ -171,7 +177,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "trigger": null,
-    "setName": "Straw Hat Crew [ST01]",
+    "setName": "Straw Hat Crew [ST-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-007.png",
     "cost": 1,
     "abilityKeywords": [
@@ -179,7 +185,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "ST01",
-    "id": "ST01-007"
+    "imageId": "ST01-007",
+    "id": "ST01-007_Straw_Hat_Crew_[ST-01]"
   },
   {
     "name": "Nico Robin",
@@ -197,11 +204,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "Straw Hat Crew [ST01]",
+    "setName": "Straw Hat Crew [ST-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-008.png",
     "cost": 3,
     "expansionCode": "ST01",
-    "id": "ST01-008"
+    "imageId": "ST01-008",
+    "id": "ST01-008_Straw_Hat_Crew_[ST-01]"
   },
   {
     "name": "Nefeltari Vivi",
@@ -219,11 +227,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "Straw Hat Crew [ST01]",
+    "setName": "Straw Hat Crew [ST-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-009.png",
     "cost": 2,
     "expansionCode": "ST01",
-    "id": "ST01-009"
+    "imageId": "ST01-009",
+    "id": "ST01-009_Straw_Hat_Crew_[ST-01]"
   },
   {
     "name": "Franky",
@@ -241,11 +250,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "Straw Hat Crew [ST01]",
+    "setName": "Straw Hat Crew [ST-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-010.png",
     "cost": 4,
     "expansionCode": "ST01",
-    "id": "ST01-010"
+    "imageId": "ST01-010",
+    "id": "ST01-010_Straw_Hat_Crew_[ST-01]"
   },
   {
     "name": "Brook",
@@ -263,11 +273,12 @@
     ],
     "effect": "[On Play] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
     "trigger": null,
-    "setName": "Straw Hat Crew [ST01]",
+    "setName": "Straw Hat Crew [ST-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-011.png",
     "cost": 2,
     "expansionCode": "ST01",
-    "id": "ST01-011"
+    "imageId": "ST01-011",
+    "id": "ST01-011_Straw_Hat_Crew_[ST-01]"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -286,7 +297,7 @@
     ],
     "effect": "[Rush] (This card can attack on the turn in which it is played.)[DON!! x2] [When Attacking] Your opponent cannot activate [Blocker] during this battle.",
     "trigger": null,
-    "setName": "Straw Hat Crew [ST01]",
+    "setName": "Straw Hat Crew [ST-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-012.png",
     "cost": 5,
     "abilityKeywords": [
@@ -296,7 +307,8 @@
       "[DON!! x2]"
     ],
     "expansionCode": "ST01",
-    "id": "ST01-012"
+    "imageId": "ST01-012",
+    "id": "ST01-012_Straw_Hat_Crew_[ST-01]"
   },
   {
     "name": "Roronoa Zoro",
@@ -315,14 +327,15 @@
     ],
     "effect": "[DON!! x1] This Character gains +1000 power.",
     "trigger": null,
-    "setName": "Straw Hat Crew [ST01]",
+    "setName": "Straw Hat Crew [ST-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-013.png",
     "cost": 3,
     "abilityKeywords": [
       "[DON!! x1]"
     ],
     "expansionCode": "ST01",
-    "id": "ST01-013"
+    "imageId": "ST01-013",
+    "id": "ST01-013_Straw_Hat_Crew_[ST-01]"
   },
   {
     "name": "Guard Point",
@@ -341,14 +354,15 @@
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle.",
     "trigger": "Trigger[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
-    "setName": "Straw Hat Crew [ST01]",
+    "setName": "Straw Hat Crew [ST-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-014.png",
     "cost": 1,
     "abilityKeywords": [
       "[Counter]"
     ],
     "expansionCode": "ST01",
-    "id": "ST01-014"
+    "imageId": "ST01-014",
+    "id": "ST01-014_Straw_Hat_Crew_[ST-01]"
   },
   {
     "name": "Gum-Gum Jet Pistol",
@@ -367,14 +381,15 @@
     ],
     "effect": "[Main] K.O. up to 1 of your opponent's Characters with 6000 power or less.",
     "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
-    "setName": "Straw Hat Crew [ST01]",
+    "setName": "Straw Hat Crew [ST-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-015.png",
     "cost": 4,
     "abilityKeywords": [
       "[Main]"
     ],
     "expansionCode": "ST01",
-    "id": "ST01-015"
+    "imageId": "ST01-015",
+    "id": "ST01-015_Straw_Hat_Crew_[ST-01]"
   },
   {
     "name": "Diable Jambe",
@@ -392,7 +407,7 @@
     ],
     "effect": "[Main] Select up to 1 of your {Straw Hat Crew} type Leader or Character cards. Your opponent cannot activate [Blocker] if that Leader or Character attacks during this turn.",
     "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's [Blocker] Characters with a cost of 3 or less.",
-    "setName": "Straw Hat Crew [ST01]",
+    "setName": "Straw Hat Crew [ST-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-016.png",
     "cost": 1,
     "abilityKeywords": [
@@ -400,7 +415,8 @@
       "[Main]"
     ],
     "expansionCode": "ST01",
-    "id": "ST01-016"
+    "imageId": "ST01-016",
+    "id": "ST01-016_Straw_Hat_Crew_[ST-01]"
   },
   {
     "name": "Thousand Sunny",
@@ -418,13 +434,14 @@
     ],
     "effect": "[Activate: Main] You may rest this Stage: Up to 1 {Straw Hat Crew} type Leader or Character card on your field gains +1000 power during this turn.",
     "trigger": null,
-    "setName": "Straw Hat Crew [ST01]",
+    "setName": "Straw Hat Crew [ST-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-017.png",
     "cost": 2,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
     "expansionCode": "ST01",
-    "id": "ST01-017"
+    "imageId": "ST01-017",
+    "id": "ST01-017_Straw_Hat_Crew_[ST-01]"
   }
 ]

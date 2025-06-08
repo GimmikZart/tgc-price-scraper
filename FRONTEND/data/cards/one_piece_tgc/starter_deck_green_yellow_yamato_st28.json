@@ -16,7 +16,7 @@
     ],
     "effect": "[Double Attack] (This card deals 2 damage.)[Activate: Main] [Once Per Turn] If your opponent has 3 or less Life cards, give up to 2 rested DON!! cards to 1 of your Characters.",
     "trigger": null,
-    "setName": "GREEN/YELLOW Yamato [ST28]",
+    "setName": "GREEN/YELLOW Yamato [ST-28]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-022_p3.png",
     "life": 4,
     "abilityKeywords": [
@@ -25,7 +25,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-022_p3"
+    "imageId": "OP06-022_p3",
+    "id": "OP06-022_p3_GREENYELLOW_Yamato_[ST-28]"
   },
   {
     "name": "Inuarashi",
@@ -45,7 +46,7 @@
     ],
     "effect": "[DON!! x2] [When Attacking] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards.",
     "trigger": "Trigger[Trigger] If your opponent has 3 or less Life cards, play this card.",
-    "setName": "GREEN/YELLOW Yamato [ST28]",
+    "setName": "GREEN/YELLOW Yamato [ST-28]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-100_r2.png",
     "cost": 4,
     "abilityKeywords": [
@@ -53,7 +54,8 @@
       "[DON!! x2]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-100_r2"
+    "imageId": "OP06-100_r2",
+    "id": "OP06-100_r2_GREENYELLOW_Yamato_[ST-28]"
   },
   {
     "name": "Kawamatsu",
@@ -73,14 +75,15 @@
     ],
     "effect": "[When Attacking] You may trash 2 cards from your hand: Add up to 1 of your Characters with 0 power to the top or bottom of the owner's Life cards face-up.",
     "trigger": "Trigger[Trigger] If your opponent has 3 or less Life cards, play this card.",
-    "setName": "GREEN/YELLOW Yamato [ST28]",
+    "setName": "GREEN/YELLOW Yamato [ST-28]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-103_r1.png",
     "cost": 3,
     "abilityKeywords": [
       "[When Attacking]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-103_r1"
+    "imageId": "OP06-103_r1",
+    "id": "OP06-103_r1_GREENYELLOW_Yamato_[ST-28]"
   },
   {
     "name": "Kikunojo",
@@ -99,14 +102,15 @@
     ],
     "effect": "[On K.O.] If your opponent has 3 or less Life cards, add up to 1 card from the top of your deck to the top of your Life cards.",
     "trigger": "Trigger[Trigger] If your opponent has 3 or less Life cards, play this card.",
-    "setName": "GREEN/YELLOW Yamato [ST28]",
+    "setName": "GREEN/YELLOW Yamato [ST-28]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-104_r1.png",
     "cost": 4,
     "abilityKeywords": [
       "[On K.O.]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-104_r1"
+    "imageId": "OP06-104_r1",
+    "id": "OP06-104_r1_GREENYELLOW_Yamato_[ST-28]"
   },
   {
     "name": "Denjiro",
@@ -125,14 +129,15 @@
     ],
     "effect": "[DON!! x2] If your opponent has 3 or less Life cards, this Character cannot be K.O.'d by effects.",
     "trigger": "Trigger[Trigger] If your opponent has 3 or less Life cards, play this card.",
-    "setName": "GREEN/YELLOW Yamato [ST28]",
+    "setName": "GREEN/YELLOW Yamato [ST-28]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-109_r1.png",
     "cost": 5,
     "abilityKeywords": [
       "[DON!! x2]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-109_r1"
+    "imageId": "OP06-109_r1",
+    "id": "OP06-109_r1_GREENYELLOW_Yamato_[ST-28]"
   },
   {
     "name": "Nekomamushi",
@@ -152,14 +157,15 @@
     ],
     "effect": "[DON!! x2] This Character can also attack your opponent's active Characters.",
     "trigger": "Trigger[Trigger] If your opponent has 3 or less Life cards, play this card.",
-    "setName": "GREEN/YELLOW Yamato [ST28]",
+    "setName": "GREEN/YELLOW Yamato [ST-28]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-110_r2.png",
     "cost": 4,
     "abilityKeywords": [
       "[DON!! x2]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-110_r2"
+    "imageId": "OP06-110_r2",
+    "id": "OP06-110_r2_GREENYELLOW_Yamato_[ST-28]"
   },
   {
     "name": "Raizo",
@@ -178,14 +184,15 @@
     ],
     "effect": "[When Attacking] You may trash 1 card from your hand: Rest up to 1 of your opponent's DON!! cards.",
     "trigger": "Trigger[Trigger] If your opponent has 3 or less Life cards, play this card.",
-    "setName": "GREEN/YELLOW Yamato [ST28]",
+    "setName": "GREEN/YELLOW Yamato [ST-28]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-112_r1.png",
     "cost": 3,
     "abilityKeywords": [
       "[When Attacking]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-112_r1"
+    "imageId": "OP06-112_r1",
+    "id": "OP06-112_r1_GREENYELLOW_Yamato_[ST-28]"
   },
   {
     "name": "Blaze Slice",
@@ -204,7 +211,7 @@
     ],
     "effect": "[Main]/[Counter] Up to 1 of your Leader or Character cards gains +1000 power during this turn. Then, if your opponent has 2 or less Life cards, rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
-    "setName": "GREEN/YELLOW Yamato [ST28]",
+    "setName": "GREEN/YELLOW Yamato [ST-28]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-116_p1.png",
     "cost": 1,
     "abilityKeywords": [
@@ -212,7 +219,8 @@
       "[Counter]"
     ],
     "expansionCode": "OP07",
-    "id": "OP07-116_p1"
+    "imageId": "OP07-116_p1",
+    "id": "OP07-116_p1_GREENYELLOW_Yamato_[ST-28]"
   },
   {
     "name": "Portgas.D.Ace",
@@ -231,11 +239,12 @@
     ],
     "effect": "[On Play] If you have 2 or more rested Characters, rest up to 1 of your opponent's Characters with a cost of 5 or less.",
     "trigger": null,
-    "setName": "GREEN/YELLOW Yamato [ST28]",
+    "setName": "GREEN/YELLOW Yamato [ST-28]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-035_r1.png",
     "cost": 5,
     "expansionCode": "OP09",
-    "id": "OP09-035_r1"
+    "imageId": "OP09-035_r1",
+    "id": "OP09-035_r1_GREENYELLOW_Yamato_[ST-28]"
   },
   {
     "name": "Yamato",
@@ -253,14 +262,15 @@
     ],
     "effect": "[Rush] (This card can attack on the turn in which it is played.)[On Play] Look at all your Life cards; place 1 at the top of your deck and place the rest back in your Life area in any order.",
     "trigger": null,
-    "setName": "GREEN/YELLOW Yamato [ST28]",
+    "setName": "GREEN/YELLOW Yamato [ST-28]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-016_r1.png",
     "cost": 5,
     "abilityKeywords": [
       "[Rush]"
     ],
     "expansionCode": "ST13",
-    "id": "ST13-016_r1"
+    "imageId": "ST13-016_r1",
+    "id": "ST13-016_r1_GREENYELLOW_Yamato_[ST-28]"
   },
   {
     "name": "Ashura Doji",
@@ -279,11 +289,12 @@
     ],
     "effect": "[On Play] If your Leader has the {Land of Wano} type and your opponent has 3 or more Life cards, K.O. up to 1 of your opponent's Characters with a base cost of 5 or less.",
     "trigger": null,
-    "setName": "GREEN/YELLOW Yamato [ST28]",
+    "setName": "GREEN/YELLOW Yamato [ST-28]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST28-001.png",
     "cost": 3,
     "expansionCode": "ST28",
-    "id": "ST28-001"
+    "imageId": "ST28-001",
+    "id": "ST28-001_GREENYELLOW_Yamato_[ST-28]"
   },
   {
     "name": "Izo",
@@ -302,7 +313,7 @@
     ],
     "effect": "[DON!! x2] This Character gains [Blocker].[On Play] Your {Land of Wano} type Leader gains [Banish] during this turn.",
     "trigger": null,
-    "setName": "GREEN/YELLOW Yamato [ST28]",
+    "setName": "GREEN/YELLOW Yamato [ST-28]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST28-002.png",
     "cost": 2,
     "abilityKeywords": [
@@ -311,7 +322,8 @@
       "[DON!! x2]"
     ],
     "expansionCode": "ST28",
-    "id": "ST28-002"
+    "imageId": "ST28-002",
+    "id": "ST28-002_GREENYELLOW_Yamato_[ST-28]"
   },
   {
     "name": "Kin'emon",
@@ -330,11 +342,12 @@
     ],
     "effect": null,
     "trigger": "Trigger[Trigger] If your Leader has the {Land of Wano} type and your opponent has 3 or less Life cards, play this card.",
-    "setName": "GREEN/YELLOW Yamato [ST28]",
+    "setName": "GREEN/YELLOW Yamato [ST-28]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST28-003.png",
     "cost": 4,
     "expansionCode": "ST28",
-    "id": "ST28-003"
+    "imageId": "ST28-003",
+    "id": "ST28-003_GREENYELLOW_Yamato_[ST-28]"
   },
   {
     "name": "Kouzuki Momonosuke",
@@ -353,7 +366,7 @@
     ],
     "effect": "[Your Turn] If you have 2 or less Life cards, your Leader gains +1000 power.[Activate: Main] [Once Per Turn] You may return 2 total of your currently given DON!! cards to your cost area rested: This Character gains [Rush] and +1000 power during this turn.(This card can attack on the turn in which it is played.)",
     "trigger": null,
-    "setName": "GREEN/YELLOW Yamato [ST28]",
+    "setName": "GREEN/YELLOW Yamato [ST-28]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST28-004.png",
     "cost": 6,
     "abilityKeywords": [
@@ -363,7 +376,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "ST28",
-    "id": "ST28-004"
+    "imageId": "ST28-004",
+    "id": "ST28-004_GREENYELLOW_Yamato_[ST-28]"
   },
   {
     "name": "Yamato",
@@ -381,7 +395,7 @@
     ],
     "effect": "[DON!! x2] [Your Turn] This Character gains +3000 power.[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Land of Wano} type card with a cost of 2 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "GREEN/YELLOW Yamato [ST28]",
+    "setName": "GREEN/YELLOW Yamato [ST-28]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST28-005.png",
     "cost": 1,
     "abilityKeywords": [
@@ -389,6 +403,7 @@
       "[DON!! x2]"
     ],
     "expansionCode": "ST28",
-    "id": "ST28-005"
+    "imageId": "ST28-005",
+    "id": "ST28-005_GREENYELLOW_Yamato_[ST-28]"
   }
 ]

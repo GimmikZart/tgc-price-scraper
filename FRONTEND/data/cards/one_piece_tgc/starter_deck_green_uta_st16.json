@@ -17,14 +17,15 @@
     ],
     "effect": "[End of Your Turn] You may rest this Character: Set up to 1 of your {FILM} type Characters other than [Bartolomeo] as active.",
     "trigger": null,
-    "setName": "Green Uta [ST16]",
+    "setName": "Green Uta [ST-16]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-029_r1.png",
     "cost": 2,
     "abilityKeywords": [
       "[End of Your Turn]"
     ],
     "expansionCode": "P",
-    "id": "P-029_r1"
+    "imageId": "P-029_r1",
+    "id": "P-029_r1_Green_Uta_[ST-16]"
   },
   {
     "name": "Fleeting Lullaby",
@@ -43,14 +44,15 @@
     ],
     "effect": "[Main] If your Leader is [Uta], up to 2 of your opponent's rested Characters with a cost of 4 or less will not become active in your opponent's next Refresh Phase.",
     "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
-    "setName": "Green Uta [ST16]",
+    "setName": "Green Uta [ST-16]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-057_p1.png",
     "cost": 3,
     "abilityKeywords": [
       "[Main]"
     ],
     "expansionCode": "P",
-    "id": "P-057_p1"
+    "imageId": "P-057_p1",
+    "id": "P-057_p1_Green_Uta_[ST-16]"
   },
   {
     "name": "Where the Wind Blows",
@@ -69,14 +71,15 @@
     ],
     "effect": "[Main] If your Leader is [Uta], set all of your {FILM} type Characters as active at the end of this turn.",
     "trigger": "Trigger[Trigger] Set all of your {FILM} type Characters as active.",
-    "setName": "Green Uta [ST16]",
+    "setName": "Green Uta [ST-16]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-058_p1.png",
     "cost": 2,
     "abilityKeywords": [
       "[Main]"
     ],
     "expansionCode": "P",
-    "id": "P-058_p1"
+    "imageId": "P-058_p1",
+    "id": "P-058_p1_Green_Uta_[ST-16]"
   },
   {
     "name": "The World's Continuation",
@@ -95,14 +98,15 @@
     ],
     "effect": "[Counter] If your Leader is [Uta], you may return any number of Characters on your field to the owner's hand. Up to 1 of your Leader or Character cards gains +2000 power during this battle for every returned Character.",
     "trigger": null,
-    "setName": "Green Uta [ST16]",
+    "setName": "Green Uta [ST-16]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-059_p1.png",
     "cost": 2,
     "abilityKeywords": [
       "[Counter]"
     ],
     "expansionCode": "P",
-    "id": "P-059_p1"
+    "imageId": "P-059_p1",
+    "id": "P-059_p1_Green_Uta_[ST-16]"
   },
   {
     "name": "Tot Musica",
@@ -121,14 +125,15 @@
     ],
     "effect": "[Main] You may rest 1 of your [Uta] cards: Rest up to 2 of your opponent's DON!! cards.",
     "trigger": null,
-    "setName": "Green Uta [ST16]",
+    "setName": "Green Uta [ST-16]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-060_p1.png",
     "cost": 2,
     "abilityKeywords": [
       "[Main]"
     ],
     "expansionCode": "P",
-    "id": "P-060_p1"
+    "imageId": "P-060_p1",
+    "id": "P-060_p1_Green_Uta_[ST-16]"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -147,11 +152,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "Green Uta [ST16]",
+    "setName": "Green Uta [ST-16]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-061_r1.png",
     "cost": 8,
     "expansionCode": "P",
-    "id": "P-061_r1"
+    "imageId": "P-061_r1",
+    "id": "P-061_r1_Green_Uta_[ST-16]"
   },
   {
     "name": "Uta",
@@ -169,7 +175,7 @@
     ],
     "effect": "[DON!! x1] [When Attacking] [Once Per Turn] Reveal 1 card from the top of your deck and add up to 1 {FILM} type card to your hand. Then, place the rest at the bottom of your deck.",
     "trigger": null,
-    "setName": "Green Uta [ST16]",
+    "setName": "Green Uta [ST-16]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST11-001_p1.png",
     "life": 5,
     "abilityKeywords": [
@@ -178,7 +184,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "ST11",
-    "id": "ST11-001_p1"
+    "imageId": "ST11-001_p1",
+    "id": "ST11-001_p1_Green_Uta_[ST-16]"
   },
   {
     "name": "Backlight",
@@ -197,14 +204,15 @@
     ],
     "effect": "[Main] If your Leader is [Uta], choose one:• Rest up to 1 of your opponent's Characters with a cost of 5 or less.• K.O. up to 1 of your opponent's rested Characters with a cost of 5 or less.",
     "trigger": null,
-    "setName": "Green Uta [ST16]",
+    "setName": "Green Uta [ST-16]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST11-003_p2.png",
     "cost": 2,
     "abilityKeywords": [
       "[Main]"
     ],
     "expansionCode": "ST11",
-    "id": "ST11-003_p2"
+    "imageId": "ST11-003_p2",
+    "id": "ST11-003_p2_Green_Uta_[ST-16]"
   },
   {
     "name": "New Genesis",
@@ -223,14 +231,15 @@
     ],
     "effect": "[Main] If your Leader is [Uta], look at 3 cards from the top of your deck; reveal up to 1 {FILM} type card other than [New Genesis] and add it to your hand. Then, place the rest at the bottom of your deck in any order and set up to 1 of your DON!! cards as active.",
     "trigger": null,
-    "setName": "Green Uta [ST16]",
+    "setName": "Green Uta [ST-16]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST11-004_p2.png",
     "cost": 1,
     "abilityKeywords": [
       "[Main]"
     ],
     "expansionCode": "ST11",
-    "id": "ST11-004_p2"
+    "imageId": "ST11-004_p2",
+    "id": "ST11-004_p2_Green_Uta_[ST-16]"
   },
   {
     "name": "I'm invincible",
@@ -249,14 +258,15 @@
     ],
     "effect": "[Main] Set up to 1 of your [Uta] Leader as active.",
     "trigger": "Trigger[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
-    "setName": "Green Uta [ST16]",
+    "setName": "Green Uta [ST-16]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST11-005_p2.png",
     "cost": 3,
     "abilityKeywords": [
       "[Main]"
     ],
     "expansionCode": "ST11",
-    "id": "ST11-005_p2"
+    "imageId": "ST11-005_p2",
+    "id": "ST11-005_p2_Green_Uta_[ST-16]"
   },
   {
     "name": "Uta",
@@ -274,7 +284,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Activate: Main] [Once Per Turn] You may trash 1 {FILM} type card from your hand: Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "trigger": null,
-    "setName": "Green Uta [ST16]",
+    "setName": "Green Uta [ST-16]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST16-001.png",
     "cost": 4,
     "abilityKeywords": [
@@ -283,7 +293,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "ST16",
-    "id": "ST16-001"
+    "imageId": "ST16-001",
+    "id": "ST16-001_Green_Uta_[ST-16]"
   },
   {
     "name": "Gordon",
@@ -301,7 +312,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Your Opponent's Attack] You may trash any number of {Music} type cards from your hand. Your Leader or 1 of your Characters gains +1000 power during this battle for every card trashed.",
     "trigger": null,
-    "setName": "Green Uta [ST16]",
+    "setName": "Green Uta [ST-16]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST16-002.png",
     "cost": 2,
     "abilityKeywords": [
@@ -309,7 +320,8 @@
       "[On Your Opponent's Attack]"
     ],
     "expansionCode": "ST16",
-    "id": "ST16-002"
+    "imageId": "ST16-002",
+    "id": "ST16-002_Green_Uta_[ST-16]"
   },
   {
     "name": "Charlotte Katakuri",
@@ -328,11 +340,12 @@
     ],
     "effect": "If your Leader has the {FILM} type and you have 6 or more rested cards, this Character gains +2000 power.",
     "trigger": null,
-    "setName": "Green Uta [ST16]",
+    "setName": "Green Uta [ST-16]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST16-003.png",
     "cost": 3,
     "expansionCode": "ST16",
-    "id": "ST16-003"
+    "imageId": "ST16-003",
+    "id": "ST16-003_Green_Uta_[ST-16]"
   },
   {
     "name": "Shanks",
@@ -352,11 +365,12 @@
     ],
     "effect": "[On Play] K.O. up to 1 of your opponent's rested Characters.",
     "trigger": null,
-    "setName": "Green Uta [ST16]",
+    "setName": "Green Uta [ST-16]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST16-004.png",
     "cost": 9,
     "expansionCode": "ST16",
-    "id": "ST16-004"
+    "imageId": "ST16-004",
+    "id": "ST16-004_Green_Uta_[ST-16]"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -376,10 +390,11 @@
     ],
     "effect": "If you have a rested [Uta], this Character gains +1000 power.",
     "trigger": null,
-    "setName": "Green Uta [ST16]",
+    "setName": "Green Uta [ST-16]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST16-005.png",
     "cost": 2,
     "expansionCode": "ST16",
-    "id": "ST16-005"
+    "imageId": "ST16-005",
+    "id": "ST16-005_Green_Uta_[ST-16]"
   }
 ]

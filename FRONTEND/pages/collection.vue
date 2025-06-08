@@ -4,8 +4,8 @@ import Toolbar from "@/components/Toolbar.vue";
 import Card from "@/components/Card.vue";
 import { useMyBreakpoints } from "@/composables/useMyBreakpoints";
 import { useMobileFloatMenu } from "@/stores/useMobileFloatMenu";
+import { fetchUserCollection } from "@/api/collection";
 
-const { allCards } = await useOnePieceCards();
 const { isMobile, isTablet, isDesktop } = useMyBreakpoints();
 const mobileFloatMenu = useMobileFloatMenu();
 
@@ -13,6 +13,15 @@ const filteredCards = ref([]);
 const paginatedCards = ref([]);
 const openFilter = ref(false);
 const editCollection = ref(false);
+const userAuth = useUserAuth();
+
+const {
+  data: userCollection,
+  refresh: refreshCard,
+  status,
+} = await useAsyncData(`user-collection-${userAuth.userLogged.id}`, () =>
+  fetchUserCollection(userAuth.userLogged.id)
+);
 
 function handleFilteredUpdate(newFiltered) {
   filteredCards.value = newFiltered;
@@ -39,14 +48,14 @@ watch(openFilter, (newValue) => {
 });
 
 onMounted(() => {
-  filteredCards.value = allCards;
+  filteredCards.value = userCollection.value;
   mobileFloatMenu.open();
 });
 </script>
 
 <template>
   <section class="relative h-full">
-    <Toolbar label="Lista Carte">
+    <Toolbar label="La tua collezione">
       <template #actions>
         <span class="font-bold text-lg">
           {{ filteredCards.length }} carte
@@ -85,7 +94,7 @@ onMounted(() => {
 
     <CardViewFilter
       v-show="openFilter"
-      :cards-list="allCards"
+      :cards-list="userCollection"
       @update:filtered="handleFilteredUpdate"
       @close="openFilter = false"
     />

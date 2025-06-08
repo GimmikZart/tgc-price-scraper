@@ -16,7 +16,7 @@
     ],
     "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] Give up to 2 rested DON!! cards to 1 of your Characters.",
     "trigger": null,
-    "setName": "GEAR5 [ST21]",
+    "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-001.png",
     "life": 5,
     "abilityKeywords": [
@@ -25,7 +25,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "ST21",
-    "id": "ST21-001"
+    "imageId": "ST21-001",
+    "id": "ST21-001_GEAR5_[ST-21]"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -44,7 +45,7 @@
     ],
     "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] Give up to 2 rested DON!! cards to 1 of your Characters.",
     "trigger": null,
-    "setName": "GEAR5 [ST21]",
+    "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-001_p1.png",
     "life": 5,
     "abilityKeywords": [
@@ -53,7 +54,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "ST21",
-    "id": "ST21-001_p1"
+    "imageId": "ST21-001_p1",
+    "id": "ST21-001_p1_GEAR5_[ST-21]"
   },
   {
     "name": "Usopp",
@@ -71,7 +73,7 @@
     ],
     "effect": "[DON!! x2] [Opponent's Turn] This Character gains +2000 power.",
     "trigger": null,
-    "setName": "GEAR5 [ST21]",
+    "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-002.png",
     "cost": 2,
     "abilityKeywords": [
@@ -79,7 +81,8 @@
       "[DON!! x2]"
     ],
     "expansionCode": "ST21",
-    "id": "ST21-002"
+    "imageId": "ST21-002",
+    "id": "ST21-002_GEAR5_[ST-21]"
   },
   {
     "name": "Usopp",
@@ -97,7 +100,7 @@
     ],
     "effect": "[DON!! x2] [Opponent's Turn] This Character gains +2000 power.",
     "trigger": null,
-    "setName": "GEAR5 [ST21]",
+    "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-002_p1.png",
     "cost": 2,
     "abilityKeywords": [
@@ -105,7 +108,8 @@
       "[DON!! x2]"
     ],
     "expansionCode": "ST21",
-    "id": "ST21-002_p1"
+    "imageId": "ST21-002_p1",
+    "id": "ST21-002_p1_GEAR5_[ST-21]"
   },
   {
     "name": "Sanji",
@@ -123,14 +127,15 @@
     ],
     "effect": "[On Play] Select up to 1 of your {Straw Hat Crew} type Characters with 6000 power or more. If the selected Character attacks during this turn, your opponent cannot activate [Blocker].",
     "trigger": null,
-    "setName": "GEAR5 [ST21]",
+    "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-003.png",
     "cost": 2,
     "abilityKeywords": [
       "[Blocker]"
     ],
     "expansionCode": "ST21",
-    "id": "ST21-003"
+    "imageId": "ST21-003",
+    "id": "ST21-003_GEAR5_[ST-21]"
   },
   {
     "name": "Sanji",
@@ -148,14 +153,15 @@
     ],
     "effect": "[On Play] Select up to 1 of your {Straw Hat Crew} type Characters with 6000 power or more. If the selected Character attacks during this turn, your opponent cannot activate [Blocker].",
     "trigger": null,
-    "setName": "GEAR5 [ST21]",
+    "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-003_p1.png",
     "cost": 2,
     "abilityKeywords": [
       "[Blocker]"
     ],
     "expansionCode": "ST21",
-    "id": "ST21-003_p1"
+    "imageId": "ST21-003_p1",
+    "id": "ST21-003_p1_GEAR5_[ST-21]"
   },
   {
     "name": "Jewelry Bonney",
@@ -174,7 +180,7 @@
     ],
     "effect": "[DON!! x2] [On K.O.] Draw 1 card.",
     "trigger": null,
-    "setName": "GEAR5 [ST21]",
+    "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-004.png",
     "cost": 1,
     "abilityKeywords": [
@@ -182,7 +188,8 @@
       "[DON!! x2]"
     ],
     "expansionCode": "ST21",
-    "id": "ST21-004"
+    "imageId": "ST21-004",
+    "id": "ST21-004_GEAR5_[ST-21]"
   },
   {
     "name": "Jewelry Bonney",
@@ -201,7 +208,7 @@
     ],
     "effect": "[DON!! x2] [On K.O.] Draw 1 card.",
     "trigger": null,
-    "setName": "GEAR5 [ST21]",
+    "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-004_p1.png",
     "cost": 1,
     "abilityKeywords": [
@@ -209,7 +216,8 @@
       "[DON!! x2]"
     ],
     "expansionCode": "ST21",
-    "id": "ST21-004_p1"
+    "imageId": "ST21-004_p1",
+    "id": "ST21-004_p1_GEAR5_[ST-21]"
   },
   {
     "name": "Jinbe",
@@ -228,11 +236,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "GEAR5 [ST21]",
+    "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-005.png",
     "cost": 2,
     "expansionCode": "ST21",
-    "id": "ST21-005"
+    "imageId": "ST21-005",
+    "id": "ST21-005_GEAR5_[ST-21]"
   },
   {
     "name": "Jinbe",
@@ -251,11 +260,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "GEAR5 [ST21]",
+    "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-005_p1.png",
     "cost": 2,
     "expansionCode": "ST21",
-    "id": "ST21-005_p1"
+    "imageId": "ST21-005_p1",
+    "id": "ST21-005_p1_GEAR5_[ST-21]"
   },
   {
     "name": "Stussy",
@@ -273,11 +283,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "GEAR5 [ST21]",
+    "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-006.png",
     "cost": 3,
     "expansionCode": "ST21",
-    "id": "ST21-006"
+    "imageId": "ST21-006",
+    "id": "ST21-006_GEAR5_[ST-21]"
   },
   {
     "name": "Stussy",
@@ -295,11 +306,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "GEAR5 [ST21]",
+    "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-006_p1.png",
     "cost": 3,
     "expansionCode": "ST21",
-    "id": "ST21-006_p1"
+    "imageId": "ST21-006_p1",
+    "id": "ST21-006_p1_GEAR5_[ST-21]"
   },
   {
     "name": "Sentomaru",
@@ -318,14 +330,15 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
-    "setName": "GEAR5 [ST21]",
+    "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-007.png",
     "cost": 2,
     "abilityKeywords": [
       "[Blocker]"
     ],
     "expansionCode": "ST21",
-    "id": "ST21-007"
+    "imageId": "ST21-007",
+    "id": "ST21-007_GEAR5_[ST-21]"
   },
   {
     "name": "Sentomaru",
@@ -344,14 +357,15 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
-    "setName": "GEAR5 [ST21]",
+    "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-007_p1.png",
     "cost": 2,
     "abilityKeywords": [
       "[Blocker]"
     ],
     "expansionCode": "ST21",
-    "id": "ST21-007_p1"
+    "imageId": "ST21-007_p1",
+    "id": "ST21-007_p1_GEAR5_[ST-21]"
   },
   {
     "name": "Tony Tony.Chopper",
@@ -370,11 +384,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "GEAR5 [ST21]",
+    "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-008.png",
     "cost": 4,
     "expansionCode": "ST21",
-    "id": "ST21-008"
+    "imageId": "ST21-008",
+    "id": "ST21-008_GEAR5_[ST-21]"
   },
   {
     "name": "Tony Tony.Chopper",
@@ -393,11 +408,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "GEAR5 [ST21]",
+    "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-008_p1.png",
     "cost": 4,
     "expansionCode": "ST21",
-    "id": "ST21-008_p1"
+    "imageId": "ST21-008_p1",
+    "id": "ST21-008_p1_GEAR5_[ST-21]"
   },
   {
     "name": "Nami",
@@ -415,7 +431,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] Give up to 2 rested DON!! cards to 1 of your {Straw Hat Crew} type Leader or Character cards.",
     "trigger": null,
-    "setName": "GEAR5 [ST21]",
+    "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-009.png",
     "cost": 3,
     "abilityKeywords": [
@@ -423,7 +439,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "ST21",
-    "id": "ST21-009"
+    "imageId": "ST21-009",
+    "id": "ST21-009_GEAR5_[ST-21]"
   },
   {
     "name": "Nami",
@@ -441,7 +458,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] Give up to 2 rested DON!! cards to 1 of your {Straw Hat Crew} type Leader or Character cards.",
     "trigger": null,
-    "setName": "GEAR5 [ST21]",
+    "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-009_p1.png",
     "cost": 3,
     "abilityKeywords": [
@@ -449,7 +466,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "ST21",
-    "id": "ST21-009_p1"
+    "imageId": "ST21-009_p1",
+    "id": "ST21-009_p1_GEAR5_[ST-21]"
   },
   {
     "name": "Nico Robin",
@@ -467,7 +485,7 @@
     ],
     "effect": "[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 4000 power or less.",
     "trigger": null,
-    "setName": "GEAR5 [ST21]",
+    "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-010.png",
     "cost": 3,
     "abilityKeywords": [
@@ -475,7 +493,8 @@
       "[DON!! x2]"
     ],
     "expansionCode": "ST21",
-    "id": "ST21-010"
+    "imageId": "ST21-010",
+    "id": "ST21-010_GEAR5_[ST-21]"
   },
   {
     "name": "Nico Robin",
@@ -493,7 +512,7 @@
     ],
     "effect": "[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 4000 power or less.",
     "trigger": null,
-    "setName": "GEAR5 [ST21]",
+    "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-010_p1.png",
     "cost": 3,
     "abilityKeywords": [
@@ -501,7 +520,8 @@
       "[DON!! x2]"
     ],
     "expansionCode": "ST21",
-    "id": "ST21-010_p1"
+    "imageId": "ST21-010_p1",
+    "id": "ST21-010_p1_GEAR5_[ST-21]"
   },
   {
     "name": "Franky",
@@ -519,7 +539,7 @@
     ],
     "effect": "[DON!! x2] [Opponent's Turn] All of your {Straw Hat Crew} type Characters with 4000 base power or less gain +1000 power.",
     "trigger": null,
-    "setName": "GEAR5 [ST21]",
+    "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-011.png",
     "cost": 3,
     "abilityKeywords": [
@@ -527,7 +547,8 @@
       "[DON!! x2]"
     ],
     "expansionCode": "ST21",
-    "id": "ST21-011"
+    "imageId": "ST21-011",
+    "id": "ST21-011_GEAR5_[ST-21]"
   },
   {
     "name": "Franky",
@@ -545,7 +566,7 @@
     ],
     "effect": "[DON!! x2] [Opponent's Turn] All of your {Straw Hat Crew} type Characters with 4000 base power or less gain +1000 power.",
     "trigger": null,
-    "setName": "GEAR5 [ST21]",
+    "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-011_p1.png",
     "cost": 3,
     "abilityKeywords": [
@@ -553,7 +574,8 @@
       "[DON!! x2]"
     ],
     "expansionCode": "ST21",
-    "id": "ST21-011_p1"
+    "imageId": "ST21-011_p1",
+    "id": "ST21-011_p1_GEAR5_[ST-21]"
   },
   {
     "name": "Brook",
@@ -571,14 +593,15 @@
     ],
     "effect": "[When Attacking] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
     "trigger": null,
-    "setName": "GEAR5 [ST21]",
+    "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-012.png",
     "cost": 3,
     "abilityKeywords": [
       "[When Attacking]"
     ],
     "expansionCode": "ST21",
-    "id": "ST21-012"
+    "imageId": "ST21-012",
+    "id": "ST21-012_GEAR5_[ST-21]"
   },
   {
     "name": "Brook",
@@ -596,14 +619,15 @@
     ],
     "effect": "[When Attacking] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
     "trigger": null,
-    "setName": "GEAR5 [ST21]",
+    "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-012_p1.png",
     "cost": 3,
     "abilityKeywords": [
       "[When Attacking]"
     ],
     "expansionCode": "ST21",
-    "id": "ST21-012_p1"
+    "imageId": "ST21-012_p1",
+    "id": "ST21-012_p1_GEAR5_[ST-21]"
   },
   {
     "name": "Vegapunk",
@@ -622,11 +646,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "GEAR5 [ST21]",
+    "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-013.png",
     "cost": 1,
     "expansionCode": "ST21",
-    "id": "ST21-013"
+    "imageId": "ST21-013",
+    "id": "ST21-013_GEAR5_[ST-21]"
   },
   {
     "name": "Vegapunk",
@@ -645,11 +670,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "GEAR5 [ST21]",
+    "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-013_p1.png",
     "cost": 1,
     "expansionCode": "ST21",
-    "id": "ST21-013_p1"
+    "imageId": "ST21-013_p1",
+    "id": "ST21-013_p1_GEAR5_[ST-21]"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -668,7 +694,7 @@
     ],
     "effect": "[Rush] (This card can attack on the turn in which it is played.)[When Attacking] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "trigger": null,
-    "setName": "GEAR5 [ST21]",
+    "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-014.png",
     "cost": 5,
     "abilityKeywords": [
@@ -676,7 +702,8 @@
       "[When Attacking]"
     ],
     "expansionCode": "ST21",
-    "id": "ST21-014"
+    "imageId": "ST21-014",
+    "id": "ST21-014_GEAR5_[ST-21]"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -695,7 +722,7 @@
     ],
     "effect": "[Rush] (This card can attack on the turn in which it is played.)[When Attacking] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "trigger": null,
-    "setName": "GEAR5 [ST21]",
+    "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-014_p1.png",
     "cost": 5,
     "abilityKeywords": [
@@ -703,7 +730,8 @@
       "[When Attacking]"
     ],
     "expansionCode": "ST21",
-    "id": "ST21-014_p1"
+    "imageId": "ST21-014_p1",
+    "id": "ST21-014_p1_GEAR5_[ST-21]"
   },
   {
     "name": "Roronoa Zoro",
@@ -721,7 +749,7 @@
     ],
     "effect": "[DON!! x2] This Character gains [Rush].[On K.O.] Play up to 1 red Character card with 6000 power or less other than [Roronoa Zoro] from your hand.",
     "trigger": null,
-    "setName": "GEAR5 [ST21]",
+    "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-015.png",
     "cost": 4,
     "abilityKeywords": [
@@ -730,7 +758,8 @@
       "[DON!! x2]"
     ],
     "expansionCode": "ST21",
-    "id": "ST21-015"
+    "imageId": "ST21-015",
+    "id": "ST21-015_GEAR5_[ST-21]"
   },
   {
     "name": "Roronoa Zoro",
@@ -748,7 +777,7 @@
     ],
     "effect": "[DON!! x2] This Character gains [Rush].[On K.O.] Play up to 1 red Character card with 6000 power or less other than [Roronoa Zoro] from your hand.",
     "trigger": null,
-    "setName": "GEAR5 [ST21]",
+    "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-015_p1.png",
     "cost": 4,
     "abilityKeywords": [
@@ -757,7 +786,8 @@
       "[DON!! x2]"
     ],
     "expansionCode": "ST21",
-    "id": "ST21-015_p1"
+    "imageId": "ST21-015_p1",
+    "id": "ST21-015_p1_GEAR5_[ST-21]"
   },
   {
     "name": "Gum-Gum Dawn Whip",
@@ -776,7 +806,7 @@
     ],
     "effect": "[Main] Up to 1 of your Leader or Character cards gains +1000 power during this turn. Then, up to 1 of your opponent's Characters with 4000 power or less cannot activate [Blocker] during this turn.",
     "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with 4000 power or less.",
-    "setName": "GEAR5 [ST21]",
+    "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-016.png",
     "cost": 2,
     "abilityKeywords": [
@@ -784,7 +814,8 @@
       "[Main]"
     ],
     "expansionCode": "ST21",
-    "id": "ST21-016"
+    "imageId": "ST21-016",
+    "id": "ST21-016_GEAR5_[ST-21]"
   },
   {
     "name": "Gum-Gum Mole Pistol",
@@ -803,13 +834,14 @@
     ],
     "effect": "[Main] Give up to 1 of your opponent's Characters −5000 power during this turn. Then, if you have a Character with 6000 power or more, K.O. up to 1 of your opponent's Characters with 2000 power or less.",
     "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
-    "setName": "GEAR5 [ST21]",
+    "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-017.png",
     "cost": 4,
     "abilityKeywords": [
       "[Main]"
     ],
     "expansionCode": "ST21",
-    "id": "ST21-017"
+    "imageId": "ST21-017",
+    "id": "ST21-017_GEAR5_[ST-21]"
   }
 ]

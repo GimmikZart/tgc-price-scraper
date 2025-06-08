@@ -16,7 +16,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] DON!! −7 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Trash up to 1 of your opponent's Life cards.",
     "trigger": null,
-    "setName": "Animal Kingdom Pirates [ST04]",
+    "setName": "Animal Kingdom Pirates [ST-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-001.png",
     "life": 5,
     "abilityKeywords": [
@@ -24,7 +24,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "ST04",
-    "id": "ST04-001"
+    "imageId": "ST04-001",
+    "id": "ST04-001_Animal_Kingdom_Pirates_[ST-04]"
   },
   {
     "name": "Ulti",
@@ -42,11 +43,12 @@
     ],
     "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 [Page One] card with a cost of 4 or less from your hand.",
     "trigger": null,
-    "setName": "Animal Kingdom Pirates [ST04]",
+    "setName": "Animal Kingdom Pirates [ST-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-002.png",
     "cost": 4,
     "expansionCode": "ST04",
-    "id": "ST04-002"
+    "imageId": "ST04-002",
+    "id": "ST04-002_Animal_Kingdom_Pirates_[ST-04]"
   },
   {
     "name": "Kaido",
@@ -65,14 +67,15 @@
     ],
     "effect": "[On Play] DON!! −5 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 6 or less. This Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
     "trigger": null,
-    "setName": "Animal Kingdom Pirates [ST04]",
+    "setName": "Animal Kingdom Pirates [ST-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-003.png",
     "cost": 9,
     "abilityKeywords": [
       "[Rush]"
     ],
     "expansionCode": "ST04",
-    "id": "ST04-003"
+    "imageId": "ST04-003",
+    "id": "ST04-003_Animal_Kingdom_Pirates_[ST-04]"
   },
   {
     "name": "King",
@@ -90,11 +93,12 @@
     ],
     "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
     "trigger": null,
-    "setName": "Animal Kingdom Pirates [ST04]",
+    "setName": "Animal Kingdom Pirates [ST-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-004.png",
     "cost": 6,
     "expansionCode": "ST04",
-    "id": "ST04-004"
+    "imageId": "ST04-004",
+    "id": "ST04-004_Animal_Kingdom_Pirates_[ST-04]"
   },
   {
     "name": "Queen",
@@ -112,14 +116,15 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Draw 2 cards and trash 1 card from your hand.",
     "trigger": null,
-    "setName": "Animal Kingdom Pirates [ST04]",
+    "setName": "Animal Kingdom Pirates [ST-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-005.png",
     "cost": 5,
     "abilityKeywords": [
       "[Blocker]"
     ],
     "expansionCode": "ST04",
-    "id": "ST04-005"
+    "imageId": "ST04-005",
+    "id": "ST04-005_Animal_Kingdom_Pirates_[ST-04]"
   },
   {
     "name": "Sasaki",
@@ -137,11 +142,12 @@
     ],
     "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Draw 1 card.",
     "trigger": null,
-    "setName": "Animal Kingdom Pirates [ST04]",
+    "setName": "Animal Kingdom Pirates [ST-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-006.png",
     "cost": 3,
     "expansionCode": "ST04",
-    "id": "ST04-006"
+    "imageId": "ST04-006",
+    "id": "ST04-006_Animal_Kingdom_Pirates_[ST-04]"
   },
   {
     "name": "Sheepshead",
@@ -160,11 +166,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "Animal Kingdom Pirates [ST04]",
+    "setName": "Animal Kingdom Pirates [ST-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-007.png",
     "cost": 2,
     "expansionCode": "ST04",
-    "id": "ST04-007"
+    "imageId": "ST04-007",
+    "id": "ST04-007_Animal_Kingdom_Pirates_[ST-04]"
   },
   {
     "name": "Jack",
@@ -182,11 +189,12 @@
     ],
     "effect": "[On Play] You may trash 1 card from your hand: Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": null,
-    "setName": "Animal Kingdom Pirates [ST04]",
+    "setName": "Animal Kingdom Pirates [ST-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-008.png",
     "cost": 3,
     "expansionCode": "ST04",
-    "id": "ST04-008"
+    "imageId": "ST04-008",
+    "id": "ST04-008_Animal_Kingdom_Pirates_[ST-04]"
   },
   {
     "name": "Ginrummy",
@@ -205,11 +213,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "Animal Kingdom Pirates [ST04]",
+    "setName": "Animal Kingdom Pirates [ST-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-009.png",
     "cost": 1,
     "expansionCode": "ST04",
-    "id": "ST04-009"
+    "imageId": "ST04-009",
+    "id": "ST04-009_Animal_Kingdom_Pirates_[ST-04]"
   },
   {
     "name": "Who's.Who",
@@ -227,11 +236,12 @@
     ],
     "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
     "trigger": "Trigger[Trigger] Play this card.",
-    "setName": "Animal Kingdom Pirates [ST04]",
+    "setName": "Animal Kingdom Pirates [ST-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-010.png",
     "cost": 3,
     "expansionCode": "ST04",
-    "id": "ST04-010"
+    "imageId": "ST04-010",
+    "id": "ST04-010_Animal_Kingdom_Pirates_[ST-04]"
   },
   {
     "name": "Black Maria",
@@ -249,14 +259,15 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
-    "setName": "Animal Kingdom Pirates [ST04]",
+    "setName": "Animal Kingdom Pirates [ST-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-011.png",
     "cost": 2,
     "abilityKeywords": [
       "[Blocker]"
     ],
     "expansionCode": "ST04",
-    "id": "ST04-011"
+    "imageId": "ST04-011",
+    "id": "ST04-011_Animal_Kingdom_Pirates_[ST-04]"
   },
   {
     "name": "Page One",
@@ -274,11 +285,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "Animal Kingdom Pirates [ST04]",
+    "setName": "Animal Kingdom Pirates [ST-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-012.png",
     "cost": 4,
     "expansionCode": "ST04",
-    "id": "ST04-012"
+    "imageId": "ST04-012",
+    "id": "ST04-012_Animal_Kingdom_Pirates_[ST-04]"
   },
   {
     "name": "X.Drake",
@@ -298,11 +310,12 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "Animal Kingdom Pirates [ST04]",
+    "setName": "Animal Kingdom Pirates [ST-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-013.png",
     "cost": 3,
     "expansionCode": "ST04",
-    "id": "ST04-013"
+    "imageId": "ST04-013",
+    "id": "ST04-013_Animal_Kingdom_Pirates_[ST-04]"
   },
   {
     "name": "Lead Performer \"Disaster\"",
@@ -320,14 +333,15 @@
     ],
     "effect": "[Main] Draw 1 card, then add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
-    "setName": "Animal Kingdom Pirates [ST04]",
+    "setName": "Animal Kingdom Pirates [ST-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-014.png",
     "cost": 4,
     "abilityKeywords": [
       "[Main]"
     ],
     "expansionCode": "ST04",
-    "id": "ST04-014"
+    "imageId": "ST04-014",
+    "id": "ST04-014_Animal_Kingdom_Pirates_[ST-04]"
   },
   {
     "name": "Brachio Bomber",
@@ -345,14 +359,15 @@
     ],
     "effect": "[Main] K.O. up to 1 of your opponent's Characters with a cost of 6 or less, then add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "setName": "Animal Kingdom Pirates [ST04]",
+    "setName": "Animal Kingdom Pirates [ST-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-015.png",
     "cost": 6,
     "abilityKeywords": [
       "[Main]"
     ],
     "expansionCode": "ST04",
-    "id": "ST04-015"
+    "imageId": "ST04-015",
+    "id": "ST04-015_Animal_Kingdom_Pirates_[ST-04]"
   },
   {
     "name": "Blast Breath",
@@ -371,14 +386,15 @@
     ],
     "effect": "[Counter] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your Leader or Character cards gains +4000 power during this battle.",
     "trigger": null,
-    "setName": "Animal Kingdom Pirates [ST04]",
+    "setName": "Animal Kingdom Pirates [ST-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-016.png",
     "cost": 1,
     "abilityKeywords": [
       "[Counter]"
     ],
     "expansionCode": "ST04",
-    "id": "ST04-016"
+    "imageId": "ST04-016",
+    "id": "ST04-016_Animal_Kingdom_Pirates_[ST-04]"
   },
   {
     "name": "Onigashima Island",
@@ -396,13 +412,14 @@
     ],
     "effect": "[Activate: Main] You may rest this Stage: If your Leader has the {Animal Kingdom Pirates} type, add up to 1 DON!! card from your DON!! deck and rest it.",
     "trigger": null,
-    "setName": "Animal Kingdom Pirates [ST04]",
+    "setName": "Animal Kingdom Pirates [ST-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-017.png",
     "cost": 3,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
     "expansionCode": "ST04",
-    "id": "ST04-017"
+    "imageId": "ST04-017",
+    "id": "ST04-017_Animal_Kingdom_Pirates_[ST-04]"
   }
 ]

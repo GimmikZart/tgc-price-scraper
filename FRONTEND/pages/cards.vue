@@ -12,6 +12,7 @@ const mobileFloatMenu = useMobileFloatMenu();
 const filteredCards = ref([]);
 const paginatedCards = ref([]);
 const openFilter = ref(false);
+const editCollection = ref(false);
 
 function handleFilteredUpdate(newFiltered) {
   filteredCards.value = newFiltered;
@@ -69,7 +70,12 @@ onMounted(() => {
     </h4>
 
     <div class="grid px-2 pt-2" :class="gridSystem">
-      <Card v-for="(card, ix) in paginatedCards" :key="ix" :card="card" />
+      <Card
+        v-for="(card, ix) in paginatedCards"
+        :key="ix"
+        :card="card"
+        :edit-collection="editCollection"
+      />
     </div>
     <CardViewPagination
       :items="filteredCards"
@@ -85,6 +91,9 @@ onMounted(() => {
 
     <MobileFloatMenu>
       <template #buttons>
+        <v-btn class="text-white" variant="text" @click="editCollection = true">
+          <v-icon size="30">mdi-list-status</v-icon>
+        </v-btn>
         <v-btn class="text-white" variant="text" @click="openFilter = true">
           <v-icon size="30">mdi-magnify</v-icon>
         </v-btn>

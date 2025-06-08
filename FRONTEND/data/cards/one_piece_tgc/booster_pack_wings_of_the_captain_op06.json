@@ -23,7 +23,8 @@
       "[When Attacking]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-001"
+    "imageId": "OP06-001",
+    "id": "OP06-001_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Uta",
@@ -49,7 +50,8 @@
       "[When Attacking]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-001_p1"
+    "imageId": "OP06-001_p1",
+    "id": "OP06-001_p1_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Inazuma",
@@ -74,7 +76,8 @@
       "[Banish]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-002"
+    "imageId": "OP06-002",
+    "id": "OP06-002_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Emporio.Ivankov",
@@ -96,7 +99,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-003.png",
     "cost": 5,
     "expansionCode": "OP06",
-    "id": "OP06-003"
+    "imageId": "OP06-003",
+    "id": "OP06-003_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Baron Omatsuri",
@@ -119,7 +123,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-004.png",
     "cost": 2,
     "expansionCode": "OP06",
-    "id": "OP06-004"
+    "imageId": "OP06-004",
+    "id": "OP06-004_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Gasparde",
@@ -143,7 +148,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-005.png",
     "cost": 6,
     "expansionCode": "OP06",
-    "id": "OP06-005"
+    "imageId": "OP06-005",
+    "id": "OP06-005_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Saga",
@@ -170,7 +176,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-006"
+    "imageId": "OP06-006",
+    "id": "OP06-006_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Shanks",
@@ -194,7 +201,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-007.png",
     "cost": 10,
     "expansionCode": "OP06",
-    "id": "OP06-007"
+    "imageId": "OP06-007",
+    "id": "OP06-007_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Shanks",
@@ -218,7 +226,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-007_p1.png",
     "cost": 10,
     "expansionCode": "OP06",
-    "id": "OP06-007_p1"
+    "imageId": "OP06-007_p1",
+    "id": "OP06-007_p1_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Schneider",
@@ -241,7 +250,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-008.png",
     "cost": 3,
     "expansionCode": "OP06",
-    "id": "OP06-008"
+    "imageId": "OP06-008",
+    "id": "OP06-008_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Shuraiya",
@@ -270,7 +280,8 @@
       "[On Block]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-009"
+    "imageId": "OP06-009",
+    "id": "OP06-009_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Shuraiya",
@@ -299,7 +310,8 @@
       "[On Block]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-009_p1"
+    "imageId": "OP06-009_p1",
+    "id": "OP06-009_p1_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Douglas Bullet",
@@ -325,7 +337,8 @@
       "[Blocker]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-010"
+    "imageId": "OP06-010",
+    "id": "OP06-010_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Tot Musica",
@@ -351,7 +364,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-011"
+    "imageId": "OP06-011",
+    "id": "OP06-011_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Bear.King",
@@ -374,7 +388,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-012.png",
     "cost": 5,
     "expansionCode": "OP06",
-    "id": "OP06-012"
+    "imageId": "OP06-012",
+    "id": "OP06-012_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -397,7 +412,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-013.png",
     "cost": 2,
     "expansionCode": "OP06",
-    "id": "OP06-013"
+    "imageId": "OP06-013",
+    "id": "OP06-013_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -420,7 +436,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-013_p1.png",
     "cost": 2,
     "expansionCode": "OP06",
-    "id": "OP06-013_p1"
+    "imageId": "OP06-013_p1",
+    "id": "OP06-013_p1_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Ratchet",
@@ -446,7 +463,8 @@
       "[On Your Opponent's Attack]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-014"
+    "imageId": "OP06-014",
+    "id": "OP06-014_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Lily Carnation",
@@ -473,7 +491,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-015"
+    "imageId": "OP06-015",
+    "id": "OP06-015_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Raise Max",
@@ -499,7 +518,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-016"
+    "imageId": "OP06-016",
+    "id": "OP06-016_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Meteor-Strike of Love",
@@ -526,7 +546,8 @@
       "[Counter]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-017"
+    "imageId": "OP06-017",
+    "id": "OP06-017_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Gum-Gum King Kong Gatling",
@@ -552,7 +573,8 @@
       "[Main]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-018"
+    "imageId": "OP06-018",
+    "id": "OP06-018_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Blue Dragon Seal Water Stream",
@@ -578,7 +600,8 @@
       "[Main]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-019"
+    "imageId": "OP06-019",
+    "id": "OP06-019_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Hody Jones",
@@ -604,7 +627,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-020"
+    "imageId": "OP06-020",
+    "id": "OP06-020_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Hody Jones",
@@ -630,7 +654,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-020_p1"
+    "imageId": "OP06-020_p1",
+    "id": "OP06-020_p1_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Perona",
@@ -657,7 +682,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-021"
+    "imageId": "OP06-021",
+    "id": "OP06-021_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Perona",
@@ -684,7 +710,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-021_p1"
+    "imageId": "OP06-021_p1",
+    "id": "OP06-021_p1_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Yamato",
@@ -712,7 +739,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-022"
+    "imageId": "OP06-022",
+    "id": "OP06-022_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Yamato",
@@ -740,7 +768,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-022_p1"
+    "imageId": "OP06-022_p1",
+    "id": "OP06-022_p1_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Arlong",
@@ -764,7 +793,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-023.png",
     "cost": 4,
     "expansionCode": "OP06",
-    "id": "OP06-023"
+    "imageId": "OP06-023",
+    "id": "OP06-023_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Ikaros Much",
@@ -787,7 +817,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-024.png",
     "cost": 5,
     "expansionCode": "OP06",
-    "id": "OP06-024"
+    "imageId": "OP06-024",
+    "id": "OP06-024_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Camie",
@@ -809,7 +840,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-025.png",
     "cost": 1,
     "expansionCode": "OP06",
-    "id": "OP06-025"
+    "imageId": "OP06-025",
+    "id": "OP06-025_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Camie",
@@ -831,7 +863,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-025_p1.png",
     "cost": 1,
     "expansionCode": "OP06",
-    "id": "OP06-025_p1"
+    "imageId": "OP06-025_p1",
+    "id": "OP06-025_p1_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Koushirou",
@@ -853,7 +886,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-026.png",
     "cost": 3,
     "expansionCode": "OP06",
-    "id": "OP06-026"
+    "imageId": "OP06-026",
+    "id": "OP06-026_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Gyro",
@@ -878,7 +912,8 @@
       "[On K.O.]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-027"
+    "imageId": "OP06-027",
+    "id": "OP06-027_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Zeo",
@@ -905,7 +940,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-028"
+    "imageId": "OP06-028",
+    "id": "OP06-028_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Daruma",
@@ -933,7 +969,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-029"
+    "imageId": "OP06-029",
+    "id": "OP06-029_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Dosun",
@@ -959,7 +996,8 @@
       "[When Attacking]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-030"
+    "imageId": "OP06-030",
+    "id": "OP06-030_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Hatchan",
@@ -982,7 +1020,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-031.png",
     "cost": 4,
     "expansionCode": "OP06",
-    "id": "OP06-031"
+    "imageId": "OP06-031",
+    "id": "OP06-031_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Hammond",
@@ -1008,7 +1047,8 @@
       "[Blocker]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-032"
+    "imageId": "OP06-032",
+    "id": "OP06-032_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Vander Decken IX",
@@ -1031,7 +1071,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-033.png",
     "cost": 2,
     "expansionCode": "OP06",
-    "id": "OP06-033"
+    "imageId": "OP06-033",
+    "id": "OP06-033_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Hyouzou",
@@ -1057,7 +1098,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-034"
+    "imageId": "OP06-034",
+    "id": "OP06-034_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Hody Jones",
@@ -1083,7 +1125,8 @@
       "[Rush]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-035"
+    "imageId": "OP06-035",
+    "id": "OP06-035_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Hody Jones",
@@ -1109,7 +1152,8 @@
       "[Rush]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-035_p1"
+    "imageId": "OP06-035_p1",
+    "id": "OP06-035_p1_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Ryuma",
@@ -1135,7 +1179,8 @@
       "[On K.O.]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-036"
+    "imageId": "OP06-036",
+    "id": "OP06-036_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Wadatsumi",
@@ -1158,7 +1203,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-037.png",
     "cost": 6,
     "expansionCode": "OP06",
-    "id": "OP06-037"
+    "imageId": "OP06-037",
+    "id": "OP06-037_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "The Billion-fold World Trichiliocosm",
@@ -1184,7 +1230,8 @@
       "[Counter]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-038"
+    "imageId": "OP06-038",
+    "id": "OP06-038_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "You Ain't Even Worth Killing Time!!",
@@ -1209,7 +1256,8 @@
       "[Main]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-039"
+    "imageId": "OP06-039",
+    "id": "OP06-039_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Shark Arrows",
@@ -1235,7 +1283,8 @@
       "[Main]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-040"
+    "imageId": "OP06-040",
+    "id": "OP06-040_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "The Ark Noah",
@@ -1257,7 +1306,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-041.png",
     "cost": 6,
     "expansionCode": "OP06",
-    "id": "OP06-041"
+    "imageId": "OP06-041",
+    "id": "OP06-041_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Vinsmoke Reiju",
@@ -1285,7 +1335,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-042"
+    "imageId": "OP06-042",
+    "id": "OP06-042_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Vinsmoke Reiju",
@@ -1313,7 +1364,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-042_p1"
+    "imageId": "OP06-042_p1",
+    "id": "OP06-042_p1_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Aramaki",
@@ -1340,7 +1392,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-043"
+    "imageId": "OP06-043",
+    "id": "OP06-043_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Aramaki",
@@ -1367,7 +1420,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-043_p1"
+    "imageId": "OP06-043_p1",
+    "id": "OP06-043_p1_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Gion",
@@ -1393,7 +1447,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-044"
+    "imageId": "OP06-044",
+    "id": "OP06-044_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Kuzan",
@@ -1415,7 +1470,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-045.png",
     "cost": 3,
     "expansionCode": "OP06",
-    "id": "OP06-045"
+    "imageId": "OP06-045",
+    "id": "OP06-045_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Sakazuki",
@@ -1437,7 +1493,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-046.png",
     "cost": 5,
     "expansionCode": "OP06",
-    "id": "OP06-046"
+    "imageId": "OP06-046",
+    "id": "OP06-046_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Charlotte Pudding",
@@ -1459,7 +1516,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-047.png",
     "cost": 4,
     "expansionCode": "OP06",
-    "id": "OP06-047"
+    "imageId": "OP06-047",
+    "id": "OP06-047_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Zeff",
@@ -1485,7 +1543,8 @@
       "[Your Turn]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-048"
+    "imageId": "OP06-048",
+    "id": "OP06-048_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Sengoku",
@@ -1507,7 +1566,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-049.png",
     "cost": 5,
     "expansionCode": "OP06",
-    "id": "OP06-049"
+    "imageId": "OP06-049",
+    "id": "OP06-049_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Tashigi",
@@ -1529,7 +1589,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-050.png",
     "cost": 1,
     "expansionCode": "OP06",
-    "id": "OP06-050"
+    "imageId": "OP06-050",
+    "id": "OP06-050_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Tashigi",
@@ -1551,7 +1612,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-050_p1.png",
     "cost": 1,
     "expansionCode": "OP06",
-    "id": "OP06-050_p1"
+    "imageId": "OP06-050_p1",
+    "id": "OP06-050_p1_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Tsuru",
@@ -1573,7 +1635,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-051.png",
     "cost": 5,
     "expansionCode": "OP06",
-    "id": "OP06-051"
+    "imageId": "OP06-051",
+    "id": "OP06-051_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Tokikake",
@@ -1598,7 +1661,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-052"
+    "imageId": "OP06-052",
+    "id": "OP06-052_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Jaguar.D.Saul",
@@ -1624,7 +1688,8 @@
       "[On K.O.]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-053"
+    "imageId": "OP06-053",
+    "id": "OP06-053_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Borsalino",
@@ -1649,7 +1714,8 @@
       "[Blocker]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-054"
+    "imageId": "OP06-054",
+    "id": "OP06-054_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Monkey.D.Garp",
@@ -1676,7 +1742,8 @@
       "[DON!! x2]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-055"
+    "imageId": "OP06-055",
+    "id": "OP06-055_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Ama no Murakumo Sword",
@@ -1701,7 +1768,8 @@
       "[Main]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-056"
+    "imageId": "OP06-056",
+    "id": "OP06-056_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "But I Will Never Doubt a Woman's Tears!!!!",
@@ -1727,7 +1795,8 @@
       "[Main]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-057"
+    "imageId": "OP06-057",
+    "id": "OP06-057_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Gravity Blade Raging Tiger",
@@ -1752,7 +1821,8 @@
       "[Main]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-058"
+    "imageId": "OP06-058",
+    "id": "OP06-058_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "White Snake",
@@ -1777,7 +1847,8 @@
       "[Counter]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-059"
+    "imageId": "OP06-059",
+    "id": "OP06-059_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Vinsmoke Ichiji",
@@ -1803,7 +1874,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-060"
+    "imageId": "OP06-060",
+    "id": "OP06-060_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Vinsmoke Ichiji",
@@ -1829,7 +1901,8 @@
       "[Rush]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-061"
+    "imageId": "OP06-061",
+    "id": "OP06-061_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Vinsmoke Ichiji",
@@ -1855,7 +1928,8 @@
       "[Rush]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-061_p1"
+    "imageId": "OP06-061_p1",
+    "id": "OP06-061_p1_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Vinsmoke Judge",
@@ -1882,7 +1956,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-062"
+    "imageId": "OP06-062",
+    "id": "OP06-062_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Vinsmoke Judge",
@@ -1909,7 +1984,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-062_p1"
+    "imageId": "OP06-062_p1",
+    "id": "OP06-062_p1_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Vinsmoke Sora",
@@ -1932,7 +2008,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-063.png",
     "cost": 1,
     "expansionCode": "OP06",
-    "id": "OP06-063"
+    "imageId": "OP06-063",
+    "id": "OP06-063_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Vinsmoke Niji",
@@ -1958,7 +2035,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-064"
+    "imageId": "OP06-064",
+    "id": "OP06-064_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Vinsmoke Niji",
@@ -1981,7 +2059,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-065.png",
     "cost": 5,
     "expansionCode": "OP06",
-    "id": "OP06-065"
+    "imageId": "OP06-065",
+    "id": "OP06-065_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Vinsmoke Yonji",
@@ -2007,7 +2086,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-066"
+    "imageId": "OP06-066",
+    "id": "OP06-066_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Vinsmoke Yonji",
@@ -2033,7 +2113,8 @@
       "[Blocker]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-067"
+    "imageId": "OP06-067",
+    "id": "OP06-067_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Vinsmoke Reiju",
@@ -2059,7 +2140,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-068"
+    "imageId": "OP06-068",
+    "id": "OP06-068_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Vinsmoke Reiju",
@@ -2082,7 +2164,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-069.png",
     "cost": 4,
     "expansionCode": "OP06",
-    "id": "OP06-069"
+    "imageId": "OP06-069",
+    "id": "OP06-069_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Vinsmoke Reiju",
@@ -2105,7 +2188,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-069_p1.png",
     "cost": 4,
     "expansionCode": "OP06",
-    "id": "OP06-069_p1"
+    "imageId": "OP06-069_p1",
+    "id": "OP06-069_p1_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Eldoraggo",
@@ -2128,7 +2212,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-070.png",
     "cost": 5,
     "expansionCode": "OP06",
-    "id": "OP06-070"
+    "imageId": "OP06-070",
+    "id": "OP06-070_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Gild Tesoro",
@@ -2151,7 +2236,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-071.png",
     "cost": 5,
     "expansionCode": "OP06",
-    "id": "OP06-071"
+    "imageId": "OP06-071",
+    "id": "OP06-071_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Cosette",
@@ -2176,7 +2262,8 @@
       "[Blocker]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-072"
+    "imageId": "OP06-072",
+    "id": "OP06-072_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Shiki",
@@ -2202,7 +2289,8 @@
       "[Blocker]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-073"
+    "imageId": "OP06-073",
+    "id": "OP06-073_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Zephyr (Navy)",
@@ -2225,7 +2313,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-074.png",
     "cost": 7,
     "expansionCode": "OP06",
-    "id": "OP06-074"
+    "imageId": "OP06-074",
+    "id": "OP06-074_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Count Battler",
@@ -2248,7 +2337,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-075.png",
     "cost": 2,
     "expansionCode": "OP06",
-    "id": "OP06-075"
+    "imageId": "OP06-075",
+    "id": "OP06-075_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Hitokiri Kamazo",
@@ -2276,7 +2366,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-076"
+    "imageId": "OP06-076",
+    "id": "OP06-076_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Black Bug",
@@ -2302,7 +2393,8 @@
       "[Main]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-077"
+    "imageId": "OP06-077",
+    "id": "OP06-077_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "GERMA 66",
@@ -2328,7 +2420,8 @@
       "[Main]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-078"
+    "imageId": "OP06-078",
+    "id": "OP06-078_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Kingdom of GERMA",
@@ -2353,7 +2446,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-079"
+    "imageId": "OP06-079",
+    "id": "OP06-079_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Gecko Moria",
@@ -2380,7 +2474,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-080"
+    "imageId": "OP06-080",
+    "id": "OP06-080_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Gecko Moria",
@@ -2407,7 +2502,8 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-080_p1"
+    "imageId": "OP06-080_p1",
+    "id": "OP06-080_p1_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Absalom",
@@ -2429,7 +2525,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-081.png",
     "cost": 4,
     "expansionCode": "OP06",
-    "id": "OP06-081"
+    "imageId": "OP06-081",
+    "id": "OP06-081_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Absalom",
@@ -2451,7 +2548,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-081_p1.png",
     "cost": 4,
     "expansionCode": "OP06",
-    "id": "OP06-081_p1"
+    "imageId": "OP06-081_p1",
+    "id": "OP06-081_p1_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Inuppe",
@@ -2476,7 +2574,8 @@
       "[On K.O.]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-082"
+    "imageId": "OP06-082",
+    "id": "OP06-082_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Oars",
@@ -2502,7 +2601,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-083"
+    "imageId": "OP06-083",
+    "id": "OP06-083_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Jigoro of the Wind",
@@ -2527,7 +2627,8 @@
       "[On K.O.]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-084"
+    "imageId": "OP06-084",
+    "id": "OP06-084_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Kumacy",
@@ -2553,7 +2654,8 @@
       "[DON!! x2]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-085"
+    "imageId": "OP06-085",
+    "id": "OP06-085_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Gecko Moria",
@@ -2576,7 +2678,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-086.png",
     "cost": 8,
     "expansionCode": "OP06",
-    "id": "OP06-086"
+    "imageId": "OP06-086",
+    "id": "OP06-086_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Gecko Moria",
@@ -2599,7 +2702,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-086_p1.png",
     "cost": 8,
     "expansionCode": "OP06",
-    "id": "OP06-086_p1"
+    "imageId": "OP06-086_p1",
+    "id": "OP06-086_p1_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Cerberus",
@@ -2624,7 +2728,8 @@
       "[Blocker]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-087"
+    "imageId": "OP06-087",
+    "id": "OP06-087_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Sai",
@@ -2647,7 +2752,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-088.png",
     "cost": 3,
     "expansionCode": "OP06",
-    "id": "OP06-088"
+    "imageId": "OP06-088",
+    "id": "OP06-088_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Taralan",
@@ -2672,7 +2778,8 @@
       "[On K.O.]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-089"
+    "imageId": "OP06-089",
+    "id": "OP06-089_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Dr. Hogback",
@@ -2694,7 +2801,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-090.png",
     "cost": 4,
     "expansionCode": "OP06",
-    "id": "OP06-090"
+    "imageId": "OP06-090",
+    "id": "OP06-090_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Victoria Cindry",
@@ -2716,7 +2824,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-091.png",
     "cost": 1,
     "expansionCode": "OP06",
-    "id": "OP06-091"
+    "imageId": "OP06-091",
+    "id": "OP06-091_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Brook",
@@ -2738,7 +2847,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-092.png",
     "cost": 6,
     "expansionCode": "OP06",
-    "id": "OP06-092"
+    "imageId": "OP06-092",
+    "id": "OP06-092_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Perona",
@@ -2760,7 +2870,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-093.png",
     "cost": 4,
     "expansionCode": "OP06",
-    "id": "OP06-093"
+    "imageId": "OP06-093",
+    "id": "OP06-093_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Perona",
@@ -2782,7 +2893,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-093_p1.png",
     "cost": 4,
     "expansionCode": "OP06",
-    "id": "OP06-093_p1"
+    "imageId": "OP06-093_p1",
+    "id": "OP06-093_p1_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Lola",
@@ -2804,7 +2916,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-094.png",
     "cost": 4,
     "expansionCode": "OP06",
-    "id": "OP06-094"
+    "imageId": "OP06-094",
+    "id": "OP06-094_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Shadows Asgard",
@@ -2831,7 +2944,8 @@
       "[Counter]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-095"
+    "imageId": "OP06-095",
+    "id": "OP06-095_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "...Nothing...at All!!!",
@@ -2856,7 +2970,8 @@
       "[Counter]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-096"
+    "imageId": "OP06-096",
+    "id": "OP06-096_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Negative Hollow",
@@ -2881,7 +2996,8 @@
       "[Main]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-097"
+    "imageId": "OP06-097",
+    "id": "OP06-097_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Thriller Bark",
@@ -2906,7 +3022,8 @@
       "[Activate: Main]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-098"
+    "imageId": "OP06-098",
+    "id": "OP06-098_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Aisa",
@@ -2928,7 +3045,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-099.png",
     "cost": 1,
     "expansionCode": "OP06",
-    "id": "OP06-099"
+    "imageId": "OP06-099",
+    "id": "OP06-099_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Inuarashi",
@@ -2956,7 +3074,8 @@
       "[DON!! x2]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-100"
+    "imageId": "OP06-100",
+    "id": "OP06-100_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "O-Nami",
@@ -2981,7 +3100,8 @@
       "[Banish]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-101"
+    "imageId": "OP06-101",
+    "id": "OP06-101_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "O-Nami",
@@ -3006,7 +3126,8 @@
       "[Banish]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-101_p1"
+    "imageId": "OP06-101_p1",
+    "id": "OP06-101_p1_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Kamakiri",
@@ -3033,7 +3154,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-102"
+    "imageId": "OP06-102",
+    "id": "OP06-102_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Kawamatsu",
@@ -3060,7 +3182,8 @@
       "[When Attacking]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-103"
+    "imageId": "OP06-103",
+    "id": "OP06-103_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Kikunojo",
@@ -3086,7 +3209,8 @@
       "[On K.O.]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-104"
+    "imageId": "OP06-104",
+    "id": "OP06-104_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Genbo",
@@ -3109,7 +3233,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-105.png",
     "cost": 3,
     "expansionCode": "OP06",
-    "id": "OP06-105"
+    "imageId": "OP06-105",
+    "id": "OP06-105_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Kouzuki Hiyori",
@@ -3132,7 +3257,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-106.png",
     "cost": 2,
     "expansionCode": "OP06",
-    "id": "OP06-106"
+    "imageId": "OP06-106",
+    "id": "OP06-106_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Kouzuki Hiyori",
@@ -3155,7 +3281,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-106_p1.png",
     "cost": 2,
     "expansionCode": "OP06",
-    "id": "OP06-106_p1"
+    "imageId": "OP06-106_p1",
+    "id": "OP06-106_p1_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Kouzuki Momonosuke",
@@ -3181,7 +3308,8 @@
       "[Blocker]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-107"
+    "imageId": "OP06-107",
+    "id": "OP06-107_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Kouzuki Momonosuke",
@@ -3207,7 +3335,8 @@
       "[Blocker]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-107_p1"
+    "imageId": "OP06-107_p1",
+    "id": "OP06-107_p1_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Tenguyama Hitetsu",
@@ -3230,7 +3359,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-108.png",
     "cost": 1,
     "expansionCode": "OP06",
-    "id": "OP06-108"
+    "imageId": "OP06-108",
+    "id": "OP06-108_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Denjiro",
@@ -3256,7 +3386,8 @@
       "[DON!! x2]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-109"
+    "imageId": "OP06-109",
+    "id": "OP06-109_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Nekomamushi",
@@ -3283,7 +3414,8 @@
       "[DON!! x2]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-110"
+    "imageId": "OP06-110",
+    "id": "OP06-110_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Braham",
@@ -3310,7 +3442,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-111"
+    "imageId": "OP06-111",
+    "id": "OP06-111_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Raizo",
@@ -3336,7 +3469,8 @@
       "[When Attacking]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-112"
+    "imageId": "OP06-112",
+    "id": "OP06-112_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Raki",
@@ -3362,7 +3496,8 @@
       "[Blocker]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-113"
+    "imageId": "OP06-113",
+    "id": "OP06-113_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Wyper",
@@ -3385,7 +3520,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-114.png",
     "cost": 5,
     "expansionCode": "OP06",
-    "id": "OP06-114"
+    "imageId": "OP06-114",
+    "id": "OP06-114_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "You're the One Who Should Disappear.",
@@ -3410,7 +3546,8 @@
       "[Counter]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-115"
+    "imageId": "OP06-115",
+    "id": "OP06-115_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Reject",
@@ -3436,7 +3573,8 @@
       "[Main]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-116"
+    "imageId": "OP06-116",
+    "id": "OP06-116_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "The Ark Maxim",
@@ -3462,7 +3600,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-117"
+    "imageId": "OP06-117",
+    "id": "OP06-117_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Roronoa Zoro",
@@ -3489,7 +3628,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-118"
+    "imageId": "OP06-118",
+    "id": "OP06-118_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Roronoa Zoro",
@@ -3516,7 +3656,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-118_p1"
+    "imageId": "OP06-118_p1",
+    "id": "OP06-118_p1_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Roronoa Zoro",
@@ -3543,7 +3684,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP06",
-    "id": "OP06-118_p2"
+    "imageId": "OP06-118_p2",
+    "id": "OP06-118_p2_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Sanji",
@@ -3565,7 +3707,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-119.png",
     "cost": 9,
     "expansionCode": "OP06",
-    "id": "OP06-119"
+    "imageId": "OP06-119",
+    "id": "OP06-119_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Sanji",
@@ -3587,7 +3730,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-119_p1.png",
     "cost": 9,
     "expansionCode": "OP06",
-    "id": "OP06-119_p1"
+    "imageId": "OP06-119_p1",
+    "id": "OP06-119_p1_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Nami",
@@ -3613,7 +3757,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "ST01",
-    "id": "ST01-007_p3"
+    "imageId": "ST01-007_p3",
+    "id": "ST01-007_p3_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Buggy",
@@ -3635,7 +3780,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-008_p1.png",
     "cost": 1,
     "expansionCode": "OP03",
-    "id": "OP03-008_p1"
+    "imageId": "OP03-008_p1",
+    "id": "OP03-008_p1_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Charlotte Linlin",
@@ -3658,7 +3804,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-114_p2.png",
     "cost": 10,
     "expansionCode": "OP03",
-    "id": "OP03-114_p2"
+    "imageId": "OP03-114_p2",
+    "id": "OP03-114_p2_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Sugar",
@@ -3684,7 +3831,8 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP04",
-    "id": "OP04-024_p2"
+    "imageId": "OP04-024_p2",
+    "id": "OP04-024_p2_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Ms. All Sunday",
@@ -3706,7 +3854,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-064_p2.png",
     "cost": 5,
     "expansionCode": "OP04",
-    "id": "OP04-064_p2"
+    "imageId": "OP04-064_p2",
+    "id": "OP04-064_p2_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Borsalino",
@@ -3728,7 +3877,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-051_p2.png",
     "cost": 7,
     "expansionCode": "OP05",
-    "id": "OP05-051_p2"
+    "imageId": "OP05-051_p2",
+    "id": "OP05-051_p2_WINGS_OF_THE_CAPTAIN_[OP06]"
   },
   {
     "name": "Rebecca",
@@ -3753,6 +3903,7 @@
       "[Blocker]"
     ],
     "expansionCode": "OP05",
-    "id": "OP05-091_p2"
+    "imageId": "OP05-091_p2",
+    "id": "OP05-091_p2_WINGS_OF_THE_CAPTAIN_[OP06]"
   }
 ]

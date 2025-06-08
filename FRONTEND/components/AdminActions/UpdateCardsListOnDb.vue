@@ -11,19 +11,17 @@ async function uploadCards() {
   loading.value = true;
 
   try {
-    // 1) carico tutte le chiavi composite esistenti
-    const existingKeys = await fetchActualCardsList();
+    // 1) prendo tutti i card_id già esistenti
+    const existingIds = await fetchActualCardsList();
 
-    // 2) preparo le coppie e filtro solo le nuove
+    // 2) preparo e filtro
     const candidates = allCards.map((card) => ({
       card_id: card.id,
-      set_name: card.setName,
     }));
 
-    const newEntries = candidates.filter((entry) => {
-      const key = JSON.stringify(entry);
-      return !existingKeys.has(key);
-    });
+    const newEntries = candidates.filter(
+      (entry) => !existingIds.has(entry.card_id)
+    );
 
     if (newEntries.length === 0) {
       snackbar.addMessage(
@@ -40,7 +38,7 @@ async function uploadCards() {
     snackbar.addMessage(
       "Errore durante il caricamento",
       "error",
-      `${error.message ?? error}`
+      error.message ?? error
     );
   } finally {
     loading.value = false;

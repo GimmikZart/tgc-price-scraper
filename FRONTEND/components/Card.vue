@@ -1,4 +1,9 @@
 <script setup>
+import {
+  fetchCardInCollection,
+  addCardToUserCollection,
+  removeCardToUserCollection,
+} from "@/api/collection";
 const props = defineProps({
   card: {
     type: Object,
@@ -9,7 +14,30 @@ const props = defineProps({
   },
 });
 
+const userAuth = useUserAuth();
 const cardIsOpen = ref(false);
+const cardsCountInCollection = ref(null);
+
+const {
+  data: cardCountInCollection,
+  refresh: refreshCard,
+  status,
+} = await useAsyncData(
+  `card-collection-${props.card.id}`,
+  /* () => ["user-collection", userAuth.userLogged.id], */
+  // funzione che torna la Promise
+  () => fetchCardInCollection(userAuth.userLogged.id, props.card.id)
+);
+
+async function addCardInCollection() {
+  await addCardToUserCollection(userAuth.userLogged.id, props.card.id);
+  await refreshCard();
+}
+
+async function removeCardInCollection() {
+  await removeCardToUserCollection(userAuth.userLogged.id, props.card.id);
+  await refreshCard();
+}
 </script>
 <template>
   <div :class="{ 'border-2 rounded-2xl p-1 border-white/50': editCollection }">
@@ -55,11 +83,12 @@ const cardIsOpen = ref(false);
         </template>
       </v-img>
     </div>
-    <div v-if="editCollection" class="py-2 flex justify-between">
-      <v-btn variant="text" color="white">
+    <div v-if="editCollection" class="py-2 flex items-center justify-between">
+      <v-btn variant="text" color="white" @click="removeCardInCollection">
         <v-icon size="25">mdi-minus-circle-outline</v-icon>
       </v-btn>
-      <v-btn variant="text" color="green">
+      <span class="font-bold">{{ cardCountInCollection }}</span>
+      <v-btn variant="text" color="white" @click="addCardInCollection">
         <v-icon size="25">mdi-plus-circle-outline</v-icon>
       </v-btn>
     </div>

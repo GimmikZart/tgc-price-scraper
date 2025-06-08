@@ -35,8 +35,7 @@ function handleClick() {
       :class="{ 'opacity-50': disabled }"
       class="text-3xl text-black font-bold absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10"
     >
-      {{ label }} <br />
-      <h5 class="text-sm text-center">( Incoming )</h5>
+      {{ label }}
     </h5>
     <img
       v-if="image"

@@ -1,5 +1,3 @@
-import { useSupabaseClient } from "@supabase/auth-helpers-react";
-
 export async function fetchUserCollection(userUuid) {
   const client = useSupabaseClient();
   const { data, error } = await client
@@ -14,7 +12,25 @@ export async function fetchUserCollection(userUuid) {
   return data;
 }
 
-export async function fetchCardInCollection(userUuid, cardId) {}
+export async function fetchCardInCollection(userUuid, cardId) {
+  //console.log(`Fetching card ${cardId} for user ${userUuid}`);
+
+  const client = useSupabaseClient();
+  const { data: collectionInfo, error } = await client
+    .from("collection")
+    .select("card_number")
+    .eq("user_uuid", userUuid)
+    .eq("card_id", cardId)
+    .maybeSingle();
+
+  console.log(collectionInfo?.card_number);
+
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  return collectionInfo?.card_number || 0;
+}
 
 export async function addCardToUserCollection(userUuid, cardId) {
   const client = useSupabaseClient();

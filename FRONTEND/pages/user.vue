@@ -6,7 +6,6 @@
       <div>
         <ButtonRouter
           to="/collection"
-          disabled
           label="Collezione"
           class="w-full h-[100px]"
         />

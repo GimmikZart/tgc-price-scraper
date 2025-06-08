@@ -19,7 +19,8 @@
     "setName": "GREEN Jewelry Bonney [ST24]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-015_p3.png",
     "cost": 1,
-    "expansionCode": "EB01"
+    "expansionCode": "EB01",
+    "id": "EB01-015_p3"
   },
   {
     "name": "Jewelry Bonney",
@@ -45,7 +46,8 @@
       "[Once Per Turn]",
       "[On Your Opponent's Attack]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-019_p3"
   },
   {
     "name": "Urouge",
@@ -71,7 +73,8 @@
       "[Blocker]",
       "[End of Your Turn]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-021_r1"
   },
   {
     "name": "Caribou",
@@ -96,7 +99,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-023_r1"
   },
   {
     "name": "Coribou",
@@ -118,7 +122,8 @@
     "setName": "GREEN Jewelry Bonney [ST24]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-025_r1.png",
     "cost": 3,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-025_r1"
   },
   {
     "name": "Bartolomeo",
@@ -145,7 +150,8 @@
       "[Your Turn]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-031_r1"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -167,7 +173,8 @@
     "setName": "GREEN Jewelry Bonney [ST24]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-033_r1.png",
     "cost": 5,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-033_r1"
   },
   {
     "name": "Roronoa Zoro",
@@ -192,7 +199,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-034_r1"
   },
   {
     "name": "Demonic Aura Nine-Sword Style Asura Demon Nine Flash",
@@ -210,14 +218,15 @@
       "Straw Hat Crew"
     ],
     "effect": "[Main] Up to 1 of your Leader or Character cards gains +3000 power during this turn. Then, you may rest 1 of your Characters with a cost of 3 or more. If you do, rest up to 1 of your opponent's Characters with a cost of 5 or less.",
-    "trigger": "Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "setName": "GREEN Jewelry Bonney [ST24]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-036_p1.png",
     "cost": 2,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-036_p1"
   },
   {
     "name": "More Pizza!!",
@@ -235,14 +244,15 @@
       "Bonney Pirates"
     ],
     "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type card other than [More Pizza!!] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Draw 1 card.",
+    "trigger": "Trigger[Trigger] Draw 1 card.",
     "setName": "GREEN Jewelry Bonney [ST24]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-037_r1.png",
     "cost": 1,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-037_r1"
   },
   {
     "name": "Capone\"Gang\"Bege",
@@ -267,7 +277,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "ST24"
+    "expansionCode": "ST24",
+    "id": "ST24-001"
   },
   {
     "name": "Kid & Killer",
@@ -292,7 +303,8 @@
     "abilityKeywords": [
       "[On Your Opponent's Attack]"
     ],
-    "expansionCode": "ST24"
+    "expansionCode": "ST24",
+    "id": "ST24-002"
   },
   {
     "name": "Basil Hawkins",
@@ -317,7 +329,8 @@
     "abilityKeywords": [
       "[End of Your Turn]"
     ],
-    "expansionCode": "ST24"
+    "expansionCode": "ST24",
+    "id": "ST24-003"
   },
   {
     "name": "Law & Bepo",
@@ -340,7 +353,8 @@
     "setName": "GREEN Jewelry Bonney [ST24]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST24-004.png",
     "cost": 10,
-    "expansionCode": "ST24"
+    "expansionCode": "ST24",
+    "id": "ST24-004"
   },
   {
     "name": "X.Drake",
@@ -363,6 +377,7 @@
     "setName": "GREEN Jewelry Bonney [ST24]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST24-005.png",
     "cost": 5,
-    "expansionCode": "ST24"
+    "expansionCode": "ST24",
+    "id": "ST24-005"
   }
 ]

@@ -21,8 +21,9 @@ function closeFloatMenu() {
     leave-to-class="translate-y-full"
   >
     <div
-      v-if="isMobile && mobileFloatMenu.isOpen"
-      class="w-screen h-[50px] bg-black flex gap-5 fixed bottom-0 right-0 items-center justify-around z-[10] lg:hidden"
+      v-if="isMobile"
+      v-show="mobileFloatMenu.isOpen"
+      class="w-screen h-[50px] bg-black flex gap-5 fixed bottom-0 right-0 items-center justify-around z-10 lg:hidden"
     >
       <v-btn class="text-purple" variant="text" @click="closeFloatMenu">
         <v-icon size="30">mdi-home</v-icon>

@@ -25,7 +25,8 @@
       "[Once Per Turn]",
       "[DON!! x1]"
     ],
-    "expansionCode": "ST13"
+    "expansionCode": "ST13",
+    "id": "ST13-001"
   },
   {
     "name": "Sabo",
@@ -53,7 +54,8 @@
       "[Once Per Turn]",
       "[DON!! x1]"
     ],
-    "expansionCode": "ST13"
+    "expansionCode": "ST13",
+    "id": "ST13-001_p1"
   },
   {
     "name": "Portgas.D.Ace",
@@ -81,7 +83,8 @@
       "[Once Per Turn]",
       "[DON!! x2]"
     ],
-    "expansionCode": "ST13"
+    "expansionCode": "ST13",
+    "id": "ST13-002"
   },
   {
     "name": "Portgas.D.Ace",
@@ -109,7 +112,8 @@
       "[Once Per Turn]",
       "[DON!! x2]"
     ],
-    "expansionCode": "ST13"
+    "expansionCode": "ST13",
+    "id": "ST13-002_p1"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -137,7 +141,8 @@
       "[Once Per Turn]",
       "[DON!! x2]"
     ],
-    "expansionCode": "ST13"
+    "expansionCode": "ST13",
+    "id": "ST13-003"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -165,7 +170,8 @@
       "[Once Per Turn]",
       "[DON!! x2]"
     ],
-    "expansionCode": "ST13"
+    "expansionCode": "ST13",
+    "id": "ST13-003_p1"
   },
   {
     "name": "Edward.Newgate",
@@ -187,7 +193,8 @@
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-004.png",
     "cost": 6,
-    "expansionCode": "ST13"
+    "expansionCode": "ST13",
+    "id": "ST13-004"
   },
   {
     "name": "Edward.Newgate",
@@ -209,7 +216,8 @@
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-004_p1.png",
     "cost": 6,
-    "expansionCode": "ST13"
+    "expansionCode": "ST13",
+    "id": "ST13-004_p1"
   },
   {
     "name": "Emporio.Ivankov",
@@ -233,7 +241,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "ST13"
+    "expansionCode": "ST13",
+    "id": "ST13-005"
   },
   {
     "name": "Emporio.Ivankov",
@@ -257,7 +266,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "ST13"
+    "expansionCode": "ST13",
+    "id": "ST13-005_p1"
   },
   {
     "name": "Curly.Dadan",
@@ -281,7 +291,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "ST13"
+    "expansionCode": "ST13",
+    "id": "ST13-006"
   },
   {
     "name": "Curly.Dadan",
@@ -305,7 +316,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "ST13"
+    "expansionCode": "ST13",
+    "id": "ST13-006_p1"
   },
   {
     "name": "Sabo",
@@ -329,7 +341,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "ST13"
+    "expansionCode": "ST13",
+    "id": "ST13-007"
   },
   {
     "name": "Sabo",
@@ -353,7 +366,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "ST13"
+    "expansionCode": "ST13",
+    "id": "ST13-007_p1"
   },
   {
     "name": "Sabo",
@@ -375,7 +389,8 @@
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-008.png",
     "cost": 5,
-    "expansionCode": "ST13"
+    "expansionCode": "ST13",
+    "id": "ST13-008"
   },
   {
     "name": "Sabo",
@@ -397,7 +412,8 @@
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-008_p1.png",
     "cost": 5,
-    "expansionCode": "ST13"
+    "expansionCode": "ST13",
+    "id": "ST13-008_p1"
   },
   {
     "name": "Shanks",
@@ -419,7 +435,8 @@
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-009.png",
     "cost": 7,
-    "expansionCode": "ST13"
+    "expansionCode": "ST13",
+    "id": "ST13-009"
   },
   {
     "name": "Shanks",
@@ -441,7 +458,8 @@
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-009_p1.png",
     "cost": 7,
-    "expansionCode": "ST13"
+    "expansionCode": "ST13",
+    "id": "ST13-009_p1"
   },
   {
     "name": "Portgas.D.Ace",
@@ -465,7 +483,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "ST13"
+    "expansionCode": "ST13",
+    "id": "ST13-010"
   },
   {
     "name": "Portgas.D.Ace",
@@ -489,7 +508,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "ST13"
+    "expansionCode": "ST13",
+    "id": "ST13-010_p1"
   },
   {
     "name": "Portgas.D.Ace",
@@ -513,7 +533,8 @@
     "abilityKeywords": [
       "[Rush]"
     ],
-    "expansionCode": "ST13"
+    "expansionCode": "ST13",
+    "id": "ST13-011"
   },
   {
     "name": "Portgas.D.Ace",
@@ -537,7 +558,8 @@
     "abilityKeywords": [
       "[Rush]"
     ],
-    "expansionCode": "ST13"
+    "expansionCode": "ST13",
+    "id": "ST13-011_p1"
   },
   {
     "name": "Makino",
@@ -558,7 +580,8 @@
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-012.png",
     "cost": 1,
-    "expansionCode": "ST13"
+    "expansionCode": "ST13",
+    "id": "ST13-012"
   },
   {
     "name": "Makino",
@@ -579,7 +602,8 @@
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-012_p1.png",
     "cost": 1,
-    "expansionCode": "ST13"
+    "expansionCode": "ST13",
+    "id": "ST13-012_p1"
   },
   {
     "name": "Monkey.D.Garp",
@@ -600,7 +624,8 @@
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-013.png",
     "cost": 1,
-    "expansionCode": "ST13"
+    "expansionCode": "ST13",
+    "id": "ST13-013"
   },
   {
     "name": "Monkey.D.Garp",
@@ -621,7 +646,8 @@
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-013_p1.png",
     "cost": 1,
-    "expansionCode": "ST13"
+    "expansionCode": "ST13",
+    "id": "ST13-013_p1"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -645,7 +671,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "ST13"
+    "expansionCode": "ST13",
+    "id": "ST13-014"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -669,7 +696,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "ST13"
+    "expansionCode": "ST13",
+    "id": "ST13-014_p1"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -695,7 +723,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "ST13"
+    "expansionCode": "ST13",
+    "id": "ST13-015"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -721,7 +750,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "ST13"
+    "expansionCode": "ST13",
+    "id": "ST13-015_p1"
   },
   {
     "name": "Yamato",
@@ -745,7 +775,8 @@
     "abilityKeywords": [
       "[Rush]"
     ],
-    "expansionCode": "ST13"
+    "expansionCode": "ST13",
+    "id": "ST13-016"
   },
   {
     "name": "Yamato",
@@ -769,7 +800,8 @@
     "abilityKeywords": [
       "[Rush]"
     ],
-    "expansionCode": "ST13"
+    "expansionCode": "ST13",
+    "id": "ST13-016_p1"
   },
   {
     "name": "Flame Dragon King",
@@ -787,14 +819,15 @@
       "Revolutionary Army"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, look at all your Life cards and place them back in your Life area in any order.",
-    "trigger": "You may add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 card from your hand to the top of your Life cards.",
+    "trigger": "Trigger[Trigger] You may add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 card from your hand to the top of your Life cards.",
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-017.png",
     "cost": 2,
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "ST13"
+    "expansionCode": "ST13",
+    "id": "ST13-017"
   },
   {
     "name": "Gum-Gum Jet Spear",
@@ -812,14 +845,15 @@
       "Straw Hat Crew"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 0 Life cards, draw 1 card.",
-    "trigger": "You may add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 card from your hand to the top of your Life cards.",
+    "trigger": "Trigger[Trigger] You may add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 card from your hand to the top of your Life cards.",
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-018.png",
     "cost": 1,
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "ST13"
+    "expansionCode": "ST13",
+    "id": "ST13-018"
   },
   {
     "name": "The Three Brothers' Bond",
@@ -836,13 +870,14 @@
       "Goa Kingdom"
     ],
     "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 [Sabo], [Portgas.D.Ace], or [Monkey.D.Luffy] with a cost of 5 or less and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Activate this card's [Main] effect.",
+    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-019.png",
     "cost": 1,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "ST13"
+    "expansionCode": "ST13",
+    "id": "ST13-019"
   }
 ]

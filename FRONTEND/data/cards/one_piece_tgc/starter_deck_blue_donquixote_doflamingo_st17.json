@@ -23,7 +23,8 @@
       "[When Attacking]",
       "[DON!! x2]"
     ],
-    "expansionCode": "OP01"
+    "expansionCode": "OP01",
+    "id": "OP01-060_p2"
   },
   {
     "name": "Donquixote Doflamingo",
@@ -48,7 +49,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP01"
+    "expansionCode": "OP01",
+    "id": "OP01-073_r1"
   },
   {
     "name": "Overheat",
@@ -66,14 +68,15 @@
       "Donquixote Pirates"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, return up to 1 active Character with a cost of 3 or less to the owner's hand.",
-    "trigger": "Return up to 1 Character with a cost of 4 or less to the owner's hand.",
+    "trigger": "Trigger[Trigger] Return up to 1 Character with a cost of 4 or less to the owner's hand.",
     "setName": "Blue Donquixote Doflamingo [ST17]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-086_r1.png",
     "cost": 2,
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "OP01"
+    "expansionCode": "OP01",
+    "id": "OP01-086_r1"
   },
   {
     "name": "Gecko Moria",
@@ -95,7 +98,8 @@
     "setName": "Blue Donquixote Doflamingo [ST17]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-054_r1.png",
     "cost": 4,
-    "expansionCode": "OP02"
+    "expansionCode": "OP02",
+    "id": "OP02-054_r1"
   },
   {
     "name": "Bartholomew Kuma",
@@ -117,7 +121,8 @@
     "setName": "Blue Donquixote Doflamingo [ST17]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-057_r1.png",
     "cost": 3,
-    "expansionCode": "OP02"
+    "expansionCode": "OP02",
+    "id": "OP02-057_r1"
   },
   {
     "name": "Jinbe",
@@ -143,7 +148,8 @@
     "abilityKeywords": [
       "[On K.O.]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-030_r1"
   },
   {
     "name": "Edward Weevil",
@@ -164,7 +170,8 @@
     "setName": "Blue Donquixote Doflamingo [ST17]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-002_r1.png",
     "cost": 3,
-    "expansionCode": "ST03"
+    "expansionCode": "ST03",
+    "id": "ST03-002_r1"
   },
   {
     "name": "Gecko Moria",
@@ -186,7 +193,8 @@
     "setName": "Blue Donquixote Doflamingo [ST17]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-004_r1.png",
     "cost": 4,
-    "expansionCode": "ST03"
+    "expansionCode": "ST03",
+    "id": "ST03-004_r1"
   },
   {
     "name": "Dracule Mihawk",
@@ -211,7 +219,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "ST03"
+    "expansionCode": "ST03",
+    "id": "ST03-005_r1"
   },
   {
     "name": "Trafalgar Law",
@@ -236,7 +245,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "ST03"
+    "expansionCode": "ST03",
+    "id": "ST03-008_r1"
   },
   {
     "name": "Crocodile",
@@ -258,7 +268,8 @@
     "setName": "Blue Donquixote Doflamingo [ST17]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST17-001.png",
     "cost": 4,
-    "expansionCode": "ST17"
+    "expansionCode": "ST17",
+    "id": "ST17-001"
   },
   {
     "name": "Trafalgar Law",
@@ -280,7 +291,8 @@
     "setName": "Blue Donquixote Doflamingo [ST17]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST17-002.png",
     "cost": 4,
-    "expansionCode": "ST17"
+    "expansionCode": "ST17",
+    "id": "ST17-002"
   },
   {
     "name": "Buggy",
@@ -302,7 +314,8 @@
     "setName": "Blue Donquixote Doflamingo [ST17]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST17-003.png",
     "cost": 1,
-    "expansionCode": "ST17"
+    "expansionCode": "ST17",
+    "id": "ST17-003"
   },
   {
     "name": "Boa Hancock",
@@ -327,7 +340,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "ST17"
+    "expansionCode": "ST17",
+    "id": "ST17-004"
   },
   {
     "name": "Marshall.D.Teach",
@@ -353,6 +367,7 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "ST17"
+    "expansionCode": "ST17",
+    "id": "ST17-005"
   }
 ]

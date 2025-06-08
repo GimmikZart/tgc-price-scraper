@@ -14,7 +14,7 @@
     "family": [
       "FILM"
     ],
-    "effect": "[When Attacking] You may trash 1 {FILM} type card from your hand: Give up to 1 of your opponent's Characters -2000 power during this turn. Then, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "effect": "[When Attacking] You may trash 1 {FILM} type card from your hand: Give up to 1 of your opponent's Characters −2000 power during this turn. Then, add up to 1 DON!! card from your DON!! deck and rest it.",
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-001.png",
@@ -22,7 +22,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-001"
   },
   {
     "name": "Uta",
@@ -39,7 +40,7 @@
     "family": [
       "FILM"
     ],
-    "effect": "[When Attacking] You may trash 1 {FILM} type card from your hand: Give up to 1 of your opponent's Characters -2000 power during this turn. Then, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "effect": "[When Attacking] You may trash 1 {FILM} type card from your hand: Give up to 1 of your opponent's Characters −2000 power during this turn. Then, add up to 1 DON!! card from your DON!! deck and rest it.",
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-001_p1.png",
@@ -47,7 +48,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-001_p1"
   },
   {
     "name": "Inazuma",
@@ -71,7 +73,8 @@
     "abilityKeywords": [
       "[Banish]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-002"
   },
   {
     "name": "Emporio.Ivankov",
@@ -92,7 +95,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-003.png",
     "cost": 5,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-003"
   },
   {
     "name": "Baron Omatsuri",
@@ -114,7 +118,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-004.png",
     "cost": 2,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-004"
   },
   {
     "name": "Gasparde",
@@ -137,7 +142,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-005.png",
     "cost": 6,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-005"
   },
   {
     "name": "Saga",
@@ -163,7 +169,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-006"
   },
   {
     "name": "Shanks",
@@ -186,7 +193,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-007.png",
     "cost": 10,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-007"
   },
   {
     "name": "Shanks",
@@ -209,7 +217,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-007_p1.png",
     "cost": 10,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-007_p1"
   },
   {
     "name": "Schneider",
@@ -231,7 +240,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-008.png",
     "cost": 3,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-008"
   },
   {
     "name": "Shuraiya",
@@ -259,7 +269,8 @@
       "[Once Per Turn]",
       "[On Block]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-009"
   },
   {
     "name": "Shuraiya",
@@ -287,7 +298,8 @@
       "[Once Per Turn]",
       "[On Block]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-009_p1"
   },
   {
     "name": "Douglas Bullet",
@@ -312,7 +324,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-010"
   },
   {
     "name": "Tot Musica",
@@ -337,7 +350,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-011"
   },
   {
     "name": "Bear.King",
@@ -359,7 +373,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-012.png",
     "cost": 5,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-012"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -377,11 +392,12 @@
       "Straw Hat Crew"
     ],
     "effect": "[On Play] Look at 3 cards from the top of your deck; reveal up to 1 {FILM} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Activate this card's [On Play] effect.",
+    "trigger": "Trigger[Trigger] Activate this card's [On Play] effect.",
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-013.png",
     "cost": 2,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-013"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -399,11 +415,12 @@
       "Straw Hat Crew"
     ],
     "effect": "[On Play] Look at 3 cards from the top of your deck; reveal up to 1 {FILM} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Activate this card's [On Play] effect.",
+    "trigger": "Trigger[Trigger] Activate this card's [On Play] effect.",
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-013_p1.png",
     "cost": 2,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-013_p1"
   },
   {
     "name": "Ratchet",
@@ -428,7 +445,8 @@
     "abilityKeywords": [
       "[On Your Opponent's Attack]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-014"
   },
   {
     "name": "Lily Carnation",
@@ -454,7 +472,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-015"
   },
   {
     "name": "Raise Max",
@@ -471,7 +490,7 @@
       "FILM",
       "Revolutionary Army"
     ],
-    "effect": "[Activate: Main] You may place this Character at the bottom of the owner's deck: Give up to 1 of your opponent's Characters -3000 power during this turn.",
+    "effect": "[Activate: Main] You may place this Character at the bottom of the owner's deck: Give up to 1 of your opponent's Characters −3000 power during this turn.",
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-016.png",
@@ -479,7 +498,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-016"
   },
   {
     "name": "Meteor-Strike of Love",
@@ -505,7 +525,8 @@
       "[Main]",
       "[Counter]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-017"
   },
   {
     "name": "Gum-Gum King Kong Gatling",
@@ -523,14 +544,15 @@
       "Straw Hat Crew"
     ],
     "effect": "[Main] Up to 1 of your Leader or Character cards gains +3000 power during this turn. Then, if your opponent has a Character with 7000 power or more, up to 1 of your Leader or Character cards gains +1000 power during this turn.",
-    "trigger": "K.O. up to 1 of your opponent's Characters with 5000 power or less.",
+    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with 5000 power or less.",
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-018.png",
     "cost": 2,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-018"
   },
   {
     "name": "Blue Dragon Seal Water Stream",
@@ -548,14 +570,15 @@
       "Straw Hat Crew"
     ],
     "effect": "[Main] K.O. up to 1 of your opponent's Characters with 5000 power or less.",
-    "trigger": "K.O. up to 1 of your opponent's Characters with 4000 power or less.",
+    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with 4000 power or less.",
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-019.png",
     "cost": 3,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-019"
   },
   {
     "name": "Hody Jones",
@@ -580,7 +603,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-020"
   },
   {
     "name": "Hody Jones",
@@ -605,7 +629,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-020_p1"
   },
   {
     "name": "Perona",
@@ -622,7 +647,7 @@
     "family": [
       "Thriller Bark Pirates"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] Choose one:• Rest up to 1 of your opponent's Characters with a cost of 4 or less.• Give up to 1 of your opponent's Characters -1 cost during this turn.",
+    "effect": "[Activate: Main] [Once Per Turn] Choose one:• Rest up to 1 of your opponent's Characters with a cost of 4 or less.• Give up to 1 of your opponent's Characters −1 cost during this turn.",
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-021.png",
@@ -631,7 +656,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-021"
   },
   {
     "name": "Perona",
@@ -648,7 +674,7 @@
     "family": [
       "Thriller Bark Pirates"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] Choose one:• Rest up to 1 of your opponent's Characters with a cost of 4 or less.• Give up to 1 of your opponent's Characters -1 cost during this turn.",
+    "effect": "[Activate: Main] [Once Per Turn] Choose one:• Rest up to 1 of your opponent's Characters with a cost of 4 or less.• Give up to 1 of your opponent's Characters −1 cost during this turn.",
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-021_p1.png",
@@ -657,7 +683,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-021_p1"
   },
   {
     "name": "Yamato",
@@ -684,7 +711,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-022"
   },
   {
     "name": "Yamato",
@@ -711,7 +739,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-022_p1"
   },
   {
     "name": "Arlong",
@@ -730,11 +759,12 @@
       "Arlong Pirates"
     ],
     "effect": "[On Play] You may trash 1 card from your hand: Up to 1 of your opponent's rested Leader cannot attack until the end of your opponent's next turn.",
-    "trigger": "Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-023.png",
     "cost": 4,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-023"
   },
   {
     "name": "Ikaros Much",
@@ -756,7 +786,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-024.png",
     "cost": 5,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-024"
   },
   {
     "name": "Camie",
@@ -777,7 +808,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-025.png",
     "cost": 1,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-025"
   },
   {
     "name": "Camie",
@@ -798,7 +830,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-025_p1.png",
     "cost": 1,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-025_p1"
   },
   {
     "name": "Koushirou",
@@ -819,7 +852,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-026.png",
     "cost": 3,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-026"
   },
   {
     "name": "Gyro",
@@ -843,7 +877,8 @@
     "abilityKeywords": [
       "[On K.O.]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-027"
   },
   {
     "name": "Zeo",
@@ -869,7 +904,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-028"
   },
   {
     "name": "Daruma",
@@ -896,7 +932,8 @@
       "[Once Per Turn]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-029"
   },
   {
     "name": "Dosun",
@@ -921,7 +958,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-030"
   },
   {
     "name": "Hatchan",
@@ -939,11 +977,12 @@
       "Former Arlong Pirates"
     ],
     "effect": null,
-    "trigger": "Play up to 1 {Fish-Man} or {Merfolk} type Character card with a cost of 3 or less from your hand.",
+    "trigger": "Trigger[Trigger] Play up to 1 {Fish-Man} or {Merfolk} type Character card with a cost of 3 or less from your hand.",
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-031.png",
     "cost": 4,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-031"
   },
   {
     "name": "Hammond",
@@ -968,7 +1007,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-032"
   },
   {
     "name": "Vander Decken IX",
@@ -990,7 +1030,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-033.png",
     "cost": 2,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-033"
   },
   {
     "name": "Hyouzou",
@@ -1015,7 +1056,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-034"
   },
   {
     "name": "Hody Jones",
@@ -1040,7 +1082,8 @@
     "abilityKeywords": [
       "[Rush]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-035"
   },
   {
     "name": "Hody Jones",
@@ -1065,7 +1108,8 @@
     "abilityKeywords": [
       "[Rush]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-035_p1"
   },
   {
     "name": "Ryuma",
@@ -1090,7 +1134,8 @@
     "abilityKeywords": [
       "[On K.O.]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-036"
   },
   {
     "name": "Wadatsumi",
@@ -1112,7 +1157,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-037.png",
     "cost": 6,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-037"
   },
   {
     "name": "The Billion-fold World Trichiliocosm",
@@ -1130,14 +1176,15 @@
       "Straw Hat Crew"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 8 or more rested cards, that card gains an additional +2000 power during this battle.",
-    "trigger": "K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
+    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-038.png",
     "cost": 1,
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-038"
   },
   {
     "name": "You Ain't Even Worth Killing Time!!",
@@ -1154,14 +1201,15 @@
       "Straw Hat Crew"
     ],
     "effect": "[Main] Choose one:• Rest up to 1 of your opponent's Characters with a cost of 6 or less.• K.O. up to 1 of your opponent's rested Characters with a cost of 6 or less.",
-    "trigger": "Activate this card's [Main] effect.",
+    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-039.png",
     "cost": 4,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-039"
   },
   {
     "name": "Shark Arrows",
@@ -1179,14 +1227,15 @@
       "New Fish-Man Pirates"
     ],
     "effect": "[Main] K.O. up to 2 of your opponent's rested Characters with a cost of 3 or less.",
-    "trigger": "Activate this card's [Main] effect.",
+    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-040.png",
     "cost": 2,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-040"
   },
   {
     "name": "The Ark Noah",
@@ -1203,11 +1252,12 @@
       "Fish-Man Island"
     ],
     "effect": "[On Play] Rest all of your opponent's Characters.",
-    "trigger": "Play this card.",
+    "trigger": "Trigger[Trigger] Play this card.",
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-041.png",
     "cost": 6,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-041"
   },
   {
     "name": "Vinsmoke Reiju",
@@ -1234,7 +1284,8 @@
       "[Your Turn]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-042"
   },
   {
     "name": "Vinsmoke Reiju",
@@ -1261,7 +1312,8 @@
       "[Your Turn]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-042_p1"
   },
   {
     "name": "Aramaki",
@@ -1287,7 +1339,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-043"
   },
   {
     "name": "Aramaki",
@@ -1313,7 +1366,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-043_p1"
   },
   {
     "name": "Gion",
@@ -1338,7 +1392,8 @@
       "[Your Turn]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-044"
   },
   {
     "name": "Kuzan",
@@ -1359,7 +1414,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-045.png",
     "cost": 3,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-045"
   },
   {
     "name": "Sakazuki",
@@ -1380,7 +1436,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-046.png",
     "cost": 5,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-046"
   },
   {
     "name": "Charlotte Pudding",
@@ -1401,7 +1458,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-047.png",
     "cost": 4,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-047"
   },
   {
     "name": "Zeff",
@@ -1426,7 +1484,8 @@
       "[Blocker]",
       "[Your Turn]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-048"
   },
   {
     "name": "Sengoku",
@@ -1447,7 +1506,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-049.png",
     "cost": 5,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-049"
   },
   {
     "name": "Tashigi",
@@ -1468,7 +1528,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-050.png",
     "cost": 1,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-050"
   },
   {
     "name": "Tashigi",
@@ -1489,7 +1550,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-050_p1.png",
     "cost": 1,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-050_p1"
   },
   {
     "name": "Tsuru",
@@ -1510,7 +1572,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-051.png",
     "cost": 5,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-051"
   },
   {
     "name": "Tokikake",
@@ -1534,7 +1597,8 @@
     "abilityKeywords": [
       "[DON!! x1]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-052"
   },
   {
     "name": "Jaguar.D.Saul",
@@ -1559,7 +1623,8 @@
     "abilityKeywords": [
       "[On K.O.]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-053"
   },
   {
     "name": "Borsalino",
@@ -1583,7 +1648,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-054"
   },
   {
     "name": "Monkey.D.Garp",
@@ -1609,7 +1675,8 @@
       "[When Attacking]",
       "[DON!! x2]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-055"
   },
   {
     "name": "Ama no Murakumo Sword",
@@ -1626,14 +1693,15 @@
       "Navy"
     ],
     "effect": "[Main] Place up to 1 of your opponent's Characters with a cost of 2 or less and up to 1 of your opponent's Characters with a cost of 1 or less at the bottom of the owner's deck in any order.",
-    "trigger": "Activate this card's [Main] effect.",
+    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-056.png",
     "cost": 2,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-056"
   },
   {
     "name": "But I Will Never Doubt a Woman's Tears!!!!",
@@ -1651,14 +1719,15 @@
       "Straw Hat Crew"
     ],
     "effect": "[Main] Up to 1 of your Leader or Character cards gains +1000 power during this turn. Then, reveal 1 card from the top of your deck, play up to 1 Character card with a cost of 2, and place the rest at the top or bottom of your deck.",
-    "trigger": "Play up to 1 Character card with a cost of 2 from your hand.",
+    "trigger": "Trigger[Trigger] Play up to 1 Character card with a cost of 2 from your hand.",
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-057.png",
     "cost": 1,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-057"
   },
   {
     "name": "Gravity Blade Raging Tiger",
@@ -1675,14 +1744,15 @@
       "Navy"
     ],
     "effect": "[Main] Place up to 2 Characters with a cost of 6 or less at the bottom of the owner's deck in any order.",
-    "trigger": "Place up to 1 Character with a cost of 5 or less at the bottom of the owner's deck.",
+    "trigger": "Trigger[Trigger] Place up to 1 Character with a cost of 5 or less at the bottom of the owner's deck.",
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-058.png",
     "cost": 7,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-058"
   },
   {
     "name": "White Snake",
@@ -1699,14 +1769,15 @@
       "Navy"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +1000 power during this turn, and draw 1 card.",
-    "trigger": "Look at 5 cards from the top of your deck and place them at the top or bottom of your deck in any order.",
+    "trigger": "Trigger[Trigger] Look at 5 cards from the top of your deck and place them at the top or bottom of your deck in any order.",
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-059.png",
     "cost": 2,
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-059"
   },
   {
     "name": "Vinsmoke Ichiji",
@@ -1723,7 +1794,7 @@
       "The Vinsmoke Family",
       "GERMA 66"
     ],
-    "effect": "[Activate: Main] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may trash this Character: If your Leader has the {GERMA 66} type, play up to 1 [Vinsmoke Ichiji] with a cost of 7 from your hand or trash.",
+    "effect": "[Activate: Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may trash this Character: If your Leader has the {GERMA 66} type, play up to 1 [Vinsmoke Ichiji] with a cost of 7 from your hand or trash.",
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-060.png",
@@ -1731,7 +1802,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-060"
   },
   {
     "name": "Vinsmoke Ichiji",
@@ -1748,7 +1820,7 @@
       "The Vinsmoke Family",
       "GERMA 66"
     ],
-    "effect": "[On Play] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, give up to 1 of your opponent's Characters -2000 power during this turn and this Character gains [Rush].(This card can attack on the turn in which it is played.)",
+    "effect": "[On Play] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, give up to 1 of your opponent's Characters −2000 power during this turn and this Character gains [Rush].(This card can attack on the turn in which it is played.)",
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-061.png",
@@ -1756,7 +1828,8 @@
     "abilityKeywords": [
       "[Rush]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-061"
   },
   {
     "name": "Vinsmoke Ichiji",
@@ -1773,7 +1846,7 @@
       "The Vinsmoke Family",
       "GERMA 66"
     ],
-    "effect": "[On Play] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, give up to 1 of your opponent's Characters -2000 power during this turn and this Character gains [Rush].(This card can attack on the turn in which it is played.)",
+    "effect": "[On Play] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, give up to 1 of your opponent's Characters −2000 power during this turn and this Character gains [Rush].(This card can attack on the turn in which it is played.)",
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-061_p1.png",
@@ -1781,7 +1854,8 @@
     "abilityKeywords": [
       "[Rush]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-061_p1"
   },
   {
     "name": "Vinsmoke Judge",
@@ -1798,7 +1872,7 @@
       "The Vinsmoke Family",
       "GERMA 66"
     ],
-    "effect": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may trash 2 cards from your hand: Play up to 4 {GERMA 66} type Character cards with different card names and 4000 power or less from your trash.[Activate: Main] [Once Per Turn] DON!! -1: Rest up to 1 of your opponent's DON!! cards.",
+    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may trash 2 cards from your hand: Play up to 4 {GERMA 66} type Character cards with different card names and 4000 power or less from your trash.[Activate: Main] [Once Per Turn] DON!! −1: Rest up to 1 of your opponent's DON!! cards.",
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-062.png",
@@ -1807,7 +1881,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-062"
   },
   {
     "name": "Vinsmoke Judge",
@@ -1824,7 +1899,7 @@
       "The Vinsmoke Family",
       "GERMA 66"
     ],
-    "effect": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may trash 2 cards from your hand: Play up to 4 {GERMA 66} type Character cards with different card names and 4000 power or less from your trash.[Activate: Main] [Once Per Turn] DON!! -1: Rest up to 1 of your opponent's DON!! cards.",
+    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may trash 2 cards from your hand: Play up to 4 {GERMA 66} type Character cards with different card names and 4000 power or less from your trash.[Activate: Main] [Once Per Turn] DON!! −1: Rest up to 1 of your opponent's DON!! cards.",
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-062_p1.png",
@@ -1833,7 +1908,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-062_p1"
   },
   {
     "name": "Vinsmoke Sora",
@@ -1855,7 +1931,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-063.png",
     "cost": 1,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-063"
   },
   {
     "name": "Vinsmoke Niji",
@@ -1872,7 +1949,7 @@
       "The Vinsmoke Family",
       "GERMA 66"
     ],
-    "effect": "[Activate: Main] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may trash this Character: If your Leader has the {GERMA 66} type, play up to 1 [Vinsmoke Niji] with a cost of 5 from your hand or trash.",
+    "effect": "[Activate: Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may trash this Character: If your Leader has the {GERMA 66} type, play up to 1 [Vinsmoke Niji] with a cost of 5 from your hand or trash.",
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-064.png",
@@ -1880,7 +1957,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-064"
   },
   {
     "name": "Vinsmoke Niji",
@@ -1902,7 +1980,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-065.png",
     "cost": 5,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-065"
   },
   {
     "name": "Vinsmoke Yonji",
@@ -1919,7 +1998,7 @@
       "The Vinsmoke Family",
       "GERMA 66"
     ],
-    "effect": "[Activate: Main] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may trash this Character: If your Leader has the {GERMA 66} type, play up to 1 [Vinsmoke Yonji] with a cost of 4 from your hand or trash.",
+    "effect": "[Activate: Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may trash this Character: If your Leader has the {GERMA 66} type, play up to 1 [Vinsmoke Yonji] with a cost of 4 from your hand or trash.",
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-066.png",
@@ -1927,7 +2006,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-066"
   },
   {
     "name": "Vinsmoke Yonji",
@@ -1952,7 +2032,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-067"
   },
   {
     "name": "Vinsmoke Reiju",
@@ -1969,7 +2050,7 @@
       "The Vinsmoke Family",
       "GERMA 66"
     ],
-    "effect": "[Activate: Main] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may trash this Character: If your Leader has the {GERMA 66} type, play up to 1 [Vinsmoke Reiju] with a cost of 4 from your hand or trash.",
+    "effect": "[Activate: Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may trash this Character: If your Leader has the {GERMA 66} type, play up to 1 [Vinsmoke Reiju] with a cost of 4 from your hand or trash.",
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-068.png",
@@ -1977,7 +2058,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-068"
   },
   {
     "name": "Vinsmoke Reiju",
@@ -1999,7 +2081,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-069.png",
     "cost": 4,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-069"
   },
   {
     "name": "Vinsmoke Reiju",
@@ -2021,7 +2104,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-069_p1.png",
     "cost": 4,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-069_p1"
   },
   {
     "name": "Eldoraggo",
@@ -2043,7 +2127,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-070.png",
     "cost": 5,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-070"
   },
   {
     "name": "Gild Tesoro",
@@ -2060,12 +2145,13 @@
       "FILM",
       "Grantesoro"
     ],
-    "effect": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {FILM} type, add up to 2 {FILM} type Character cards with a cost of 4 or less from your trash to your hand.",
+    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {FILM} type, add up to 2 {FILM} type Character cards with a cost of 4 or less from your trash to your hand.",
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-071.png",
     "cost": 5,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-071"
   },
   {
     "name": "Cosette",
@@ -2089,7 +2175,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-072"
   },
   {
     "name": "Shiki",
@@ -2114,7 +2201,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-073"
   },
   {
     "name": "Zephyr (Navy)",
@@ -2131,12 +2219,13 @@
       "FILM",
       "Navy"
     ],
-    "effect": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Negate the effect of up to 1 of your opponent's Characters during this turn. Then, if that Character has 5000 power or less, K.O. it.",
+    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Negate the effect of up to 1 of your opponent's Characters during this turn. Then, if that Character has 5000 power or less, K.O. it.",
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-074.png",
     "cost": 7,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-074"
   },
   {
     "name": "Count Battler",
@@ -2153,12 +2242,13 @@
       "FILM",
       "Crown Island"
     ],
-    "effect": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 2 of your opponent's Characters with a cost of 2 or less.",
+    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 2 of your opponent's Characters with a cost of 2 or less.",
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-075.png",
     "cost": 2,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-075"
   },
   {
     "name": "Hitokiri Kamazo",
@@ -2185,7 +2275,8 @@
       "[Your Turn]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-076"
   },
   {
     "name": "Black Bug",
@@ -2203,14 +2294,15 @@
       "GERMA 66"
     ],
     "effect": "[Main] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field,  place up to 1 of your opponent's Characters with a cost of 5 or less at the bottom of the owner's deck.",
-    "trigger": "Place up to 1 of your opponent's Characters with a cost of 4 or less at the bottom of the owner's deck.",
+    "trigger": "Trigger[Trigger] Place up to 1 of your opponent's Characters with a cost of 4 or less at the bottom of the owner's deck.",
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-077.png",
     "cost": 4,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-077"
   },
   {
     "name": "GERMA 66",
@@ -2228,14 +2320,15 @@
       "GERMA 66"
     ],
     "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 card with a type including \"GERMA\" other than [GERMA 66] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Draw 1 card.",
+    "trigger": "Trigger[Trigger] Draw 1 card.",
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-078.png",
     "cost": 1,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-078"
   },
   {
     "name": "Kingdom of GERMA",
@@ -2259,7 +2352,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-079"
   },
   {
     "name": "Gecko Moria",
@@ -2285,7 +2379,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-080"
   },
   {
     "name": "Gecko Moria",
@@ -2311,7 +2406,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-080_p1"
   },
   {
     "name": "Absalom",
@@ -2332,7 +2428,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-081.png",
     "cost": 4,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-081"
   },
   {
     "name": "Absalom",
@@ -2353,7 +2450,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-081_p1.png",
     "cost": 4,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-081_p1"
   },
   {
     "name": "Inuppe",
@@ -2377,7 +2475,8 @@
     "abilityKeywords": [
       "[On K.O.]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-082"
   },
   {
     "name": "Oars",
@@ -2402,7 +2501,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-083"
   },
   {
     "name": "Jigoro of the Wind",
@@ -2426,7 +2526,8 @@
     "abilityKeywords": [
       "[On K.O.]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-084"
   },
   {
     "name": "Kumacy",
@@ -2451,7 +2552,8 @@
       "[Your Turn]",
       "[DON!! x2]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-085"
   },
   {
     "name": "Gecko Moria",
@@ -2473,7 +2575,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-086.png",
     "cost": 8,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-086"
   },
   {
     "name": "Gecko Moria",
@@ -2495,7 +2598,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-086_p1.png",
     "cost": 8,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-086_p1"
   },
   {
     "name": "Cerberus",
@@ -2519,7 +2623,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-087"
   },
   {
     "name": "Sai",
@@ -2541,7 +2646,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-088.png",
     "cost": 3,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-088"
   },
   {
     "name": "Taralan",
@@ -2565,7 +2671,8 @@
     "abilityKeywords": [
       "[On K.O.]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-089"
   },
   {
     "name": "Dr. Hogback",
@@ -2586,7 +2693,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-090.png",
     "cost": 4,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-090"
   },
   {
     "name": "Victoria Cindry",
@@ -2607,7 +2715,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-091.png",
     "cost": 1,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-091"
   },
   {
     "name": "Brook",
@@ -2628,7 +2737,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-092.png",
     "cost": 6,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-092"
   },
   {
     "name": "Perona",
@@ -2644,12 +2754,13 @@
     "family": [
       "Thriller Bark Pirates"
     ],
-    "effect": "[On Play] If your opponent has 5 or more cards in their hand, choose one:• Your opponent trashes 1 card from their hand.• Give up to 1 of your opponent's Characters -3 cost during this turn.",
+    "effect": "[On Play] If your opponent has 5 or more cards in their hand, choose one:• Your opponent trashes 1 card from their hand.• Give up to 1 of your opponent's Characters −3 cost during this turn.",
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-093.png",
     "cost": 4,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-093"
   },
   {
     "name": "Perona",
@@ -2665,12 +2776,13 @@
     "family": [
       "Thriller Bark Pirates"
     ],
-    "effect": "[On Play] If your opponent has 5 or more cards in their hand, choose one:• Your opponent trashes 1 card from their hand.• Give up to 1 of your opponent's Characters -3 cost during this turn.",
+    "effect": "[On Play] If your opponent has 5 or more cards in their hand, choose one:• Your opponent trashes 1 card from their hand.• Give up to 1 of your opponent's Characters −3 cost during this turn.",
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-093_p1.png",
     "cost": 4,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-093_p1"
   },
   {
     "name": "Lola",
@@ -2691,7 +2803,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-094.png",
     "cost": 4,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-094"
   },
   {
     "name": "Shadows Asgard",
@@ -2709,7 +2822,7 @@
       "Thriller Bark Pirates"
     ],
     "effect": "[Main]/[Counter] Your Leader gains +1000 power during this turn. Then, you may K.O. any number of your {Thriller Bark Pirates} type Characters with a cost of 2 or less. Your Leader gains an additional +1000 power during this turn for every Character K.O.'d.",
-    "trigger": "Draw 2 cards and trash 1 card from your hand.",
+    "trigger": "Trigger[Trigger] Draw 2 cards and trash 1 card from your hand.",
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-095.png",
     "cost": 2,
@@ -2717,7 +2830,8 @@
       "[Main]",
       "[Counter]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-095"
   },
   {
     "name": "...Nothing...at All!!!",
@@ -2734,14 +2848,15 @@
       "Straw Hat Crew"
     ],
     "effect": "[Counter] You may add 1 card from the top of your Life cards to your hand: Your Characters with a cost of 7 or less cannot be K.O.'d in battle during this turn.",
-    "trigger": "Activate this card's [Counter] effect.",
+    "trigger": "Trigger[Trigger] Activate this card's [Counter] effect.",
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-096.png",
     "cost": 3,
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-096"
   },
   {
     "name": "Negative Hollow",
@@ -2758,14 +2873,15 @@
       "Thriller Bark Pirates"
     ],
     "effect": "[Main] Trash 1 card from your opponent's hand.",
-    "trigger": "Activate this card's [Main] effect.",
+    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-097.png",
     "cost": 2,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-097"
   },
   {
     "name": "Thriller Bark",
@@ -2789,7 +2905,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-098"
   },
   {
     "name": "Aisa",
@@ -2810,7 +2927,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-099.png",
     "cost": 1,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-099"
   },
   {
     "name": "Inuarashi",
@@ -2829,7 +2947,7 @@
       "The Akazaya Nine"
     ],
     "effect": "[DON!! x2] [When Attacking] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards.",
-    "trigger": "If your opponent has 3 or less Life cards, play this card.",
+    "trigger": "Trigger[Trigger] If your opponent has 3 or less Life cards, play this card.",
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-100.png",
     "cost": 4,
@@ -2837,7 +2955,8 @@
       "[When Attacking]",
       "[DON!! x2]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-100"
   },
   {
     "name": "O-Nami",
@@ -2854,14 +2973,15 @@
       "Straw Hat Crew"
     ],
     "effect": "[On Play] Up to 1 of your Leader or Character cards gains [Banish] during this turn.(When this card deals damage, the target card is trashed without activating its Trigger.)",
-    "trigger": "K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-101.png",
     "cost": 2,
     "abilityKeywords": [
       "[Banish]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-101"
   },
   {
     "name": "O-Nami",
@@ -2878,14 +2998,15 @@
       "Straw Hat Crew"
     ],
     "effect": "[On Play] Up to 1 of your Leader or Character cards gains [Banish] during this turn.(When this card deals damage, the target card is trashed without activating its Trigger.)",
-    "trigger": "K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-101_p1.png",
     "cost": 2,
     "abilityKeywords": [
       "[Banish]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-101_p1"
   },
   {
     "name": "Kamakiri",
@@ -2903,7 +3024,7 @@
       "Shandian Warrior"
     ],
     "effect": "[Activate: Main] [Once Per Turn] You may place 1 Stage with a cost of 1 at the bottom of the owner's deck: K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
-    "trigger": "If you have 2 or less Life cards, play this card.",
+    "trigger": "Trigger[Trigger] If you have 2 or less Life cards, play this card.",
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-102.png",
     "cost": 3,
@@ -2911,7 +3032,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-102"
   },
   {
     "name": "Kawamatsu",
@@ -2930,14 +3052,15 @@
       "The Akazaya Nine"
     ],
     "effect": "[When Attacking] You may trash 2 cards from your hand: Add up to 1 of your Characters with 0 power to the top or bottom of the owner's Life cards face-up.",
-    "trigger": "If your opponent has 3 or less Life cards, play this card.",
+    "trigger": "Trigger[Trigger] If your opponent has 3 or less Life cards, play this card.",
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-103.png",
     "cost": 3,
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-103"
   },
   {
     "name": "Kikunojo",
@@ -2955,14 +3078,15 @@
       "The Akazaya Nine"
     ],
     "effect": "[On K.O.] If your opponent has 3 or less Life cards, add up to 1 card from the top of your deck to the top of your Life cards.",
-    "trigger": "If your opponent has 3 or less Life cards, play this card.",
+    "trigger": "Trigger[Trigger] If your opponent has 3 or less Life cards, play this card.",
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-104.png",
     "cost": 4,
     "abilityKeywords": [
       "[On K.O.]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-104"
   },
   {
     "name": "Genbo",
@@ -2984,7 +3108,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-105.png",
     "cost": 3,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-105"
   },
   {
     "name": "Kouzuki Hiyori",
@@ -3006,7 +3131,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-106.png",
     "cost": 2,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-106"
   },
   {
     "name": "Kouzuki Hiyori",
@@ -3028,7 +3154,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-106_p1.png",
     "cost": 2,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-106_p1"
   },
   {
     "name": "Kouzuki Momonosuke",
@@ -3053,7 +3180,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-107"
   },
   {
     "name": "Kouzuki Momonosuke",
@@ -3078,7 +3206,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-107_p1"
   },
   {
     "name": "Tenguyama Hitetsu",
@@ -3096,11 +3225,12 @@
       "Kouzuki Clan"
     ],
     "effect": null,
-    "trigger": "Up to 1 of your {Land of Wano} type Leader or Character cards gains +2000 power during this turn.",
+    "trigger": "Trigger[Trigger] Up to 1 of your {Land of Wano} type Leader or Character cards gains +2000 power during this turn.",
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-108.png",
     "cost": 1,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-108"
   },
   {
     "name": "Denjiro",
@@ -3118,14 +3248,15 @@
       "The Akazaya Nine"
     ],
     "effect": "[DON!! x2] If your opponent has 3 or less Life cards, this Character cannot be K.O.'d by effects.",
-    "trigger": "If your opponent has 3 or less Life cards, play this card.",
+    "trigger": "Trigger[Trigger] If your opponent has 3 or less Life cards, play this card.",
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-109.png",
     "cost": 5,
     "abilityKeywords": [
       "[DON!! x2]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-109"
   },
   {
     "name": "Nekomamushi",
@@ -3144,14 +3275,15 @@
       "The Akazaya Nine"
     ],
     "effect": "[DON!! x2] This Character can also attack your opponent's active Characters.",
-    "trigger": "If your opponent has 3 or less Life cards, play this card.",
+    "trigger": "Trigger[Trigger] If your opponent has 3 or less Life cards, play this card.",
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-110.png",
     "cost": 4,
     "abilityKeywords": [
       "[DON!! x2]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-110"
   },
   {
     "name": "Braham",
@@ -3169,7 +3301,7 @@
       "Shandian Warrior"
     ],
     "effect": "[Activate: Main] [Once Per Turn] You may place 1 Stage with a cost of 1 at the bottom of the owner's deck: Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
-    "trigger": "If you have 2 or less Life cards, play this card.",
+    "trigger": "Trigger[Trigger] If you have 2 or less Life cards, play this card.",
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-111.png",
     "cost": 3,
@@ -3177,7 +3309,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-111"
   },
   {
     "name": "Raizo",
@@ -3195,14 +3328,15 @@
       "The Akazaya Nine"
     ],
     "effect": "[When Attacking] You may trash 1 card from your hand: Rest up to 1 of your opponent's DON!! cards.",
-    "trigger": "If your opponent has 3 or less Life cards, play this card.",
+    "trigger": "Trigger[Trigger] If your opponent has 3 or less Life cards, play this card.",
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-112.png",
     "cost": 3,
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-112"
   },
   {
     "name": "Raki",
@@ -3227,7 +3361,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-113"
   },
   {
     "name": "Wyper",
@@ -3249,7 +3384,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-114.png",
     "cost": 5,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-114"
   },
   {
     "name": "You're the One Who Should Disappear.",
@@ -3266,14 +3402,15 @@
       "Sky Island"
     ],
     "effect": "[Counter] You may trash 1 card from your hand: Up to 1 of your Leader or Character cards gains +3000 power during this battle.",
-    "trigger": "If you have 0 Life cards, you may add up to 1 card from the top of your deck to the top of your Life cards. Then, trash 1 card from your hand.",
+    "trigger": "Trigger[Trigger] If you have 0 Life cards, you may add up to 1 card from the top of your deck to the top of your Life cards. Then, trash 1 card from your hand.",
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-115.png",
     "cost": null,
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-115"
   },
   {
     "name": "Reject",
@@ -3291,14 +3428,15 @@
       "Shandian Warrior"
     ],
     "effect": "[Main] Choose one:• K.O. up to 1 of your opponent's Characters with a cost of 5 or less.• If your opponent has 1 Life card, deal 1 damage to your opponent. Then, add 1 card from the top of your Life cards to your hand.",
-    "trigger": "Draw 1 card.",
+    "trigger": "Trigger[Trigger] Draw 1 card.",
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-116.png",
     "cost": 4,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-116"
   },
   {
     "name": "The Ark Maxim",
@@ -3323,7 +3461,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-117"
   },
   {
     "name": "Roronoa Zoro",
@@ -3349,7 +3488,8 @@
       "[When Attacking]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-118"
   },
   {
     "name": "Roronoa Zoro",
@@ -3375,7 +3515,8 @@
       "[When Attacking]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-118_p1"
   },
   {
     "name": "Roronoa Zoro",
@@ -3401,7 +3542,8 @@
       "[When Attacking]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-118_p2"
   },
   {
     "name": "Sanji",
@@ -3422,7 +3564,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-119.png",
     "cost": 9,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-119"
   },
   {
     "name": "Sanji",
@@ -3443,7 +3586,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-119_p1.png",
     "cost": 9,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-119_p1"
   },
   {
     "name": "Nami",
@@ -3468,7 +3612,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "ST01"
+    "expansionCode": "ST01",
+    "id": "ST01-007_p3"
   },
   {
     "name": "Buggy",
@@ -3489,7 +3634,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-008_p1.png",
     "cost": 1,
-    "expansionCode": "OP03"
+    "expansionCode": "OP03",
+    "id": "OP03-008_p1"
   },
   {
     "name": "Charlotte Linlin",
@@ -3511,7 +3657,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-114_p2.png",
     "cost": 10,
-    "expansionCode": "OP03"
+    "expansionCode": "OP03",
+    "id": "OP03-114_p2"
   },
   {
     "name": "Sugar",
@@ -3536,7 +3683,8 @@
       "[Opponent's Turn]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP04"
+    "expansionCode": "OP04",
+    "id": "OP04-024_p2"
   },
   {
     "name": "Ms. All Sunday",
@@ -3553,11 +3701,12 @@
       "Baroque Works"
     ],
     "effect": "[On Play] Add up to 1 DON!! card from your DON!! deck and rest it. Then, if you have 6 or more DON!! cards on your field, draw 1 card.",
-    "trigger": "DON!! -2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play this card.",
+    "trigger": "Trigger[Trigger] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play this card.",
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-064_p2.png",
     "cost": 5,
-    "expansionCode": "OP04"
+    "expansionCode": "OP04",
+    "id": "OP04-064_p2"
   },
   {
     "name": "Borsalino",
@@ -3578,7 +3727,8 @@
     "setName": "WINGS OF THE CAPTAIN [OP06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-051_p2.png",
     "cost": 7,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-051_p2"
   },
   {
     "name": "Rebecca",
@@ -3602,6 +3752,7 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-091_p2"
   }
 ]

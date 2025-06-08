@@ -25,13 +25,13 @@ import path from "path";
  *
  * @returns {Promise<Array<Object>>} Una Promise che risolve in un array di oggetti “carta”.
  */
-export default async function scrapeCardsOfficial({
-  expansionName,
-  cardNumber,
-}) {
+export default async function scrapeCardsOfficial({ expansionName }) {
   const url = "https://en.onepiece-cardgame.com/cardlist/";
 
-  broadcastEvent("generic_info", `Scraping iniziato per ${expansionName}`);
+  await broadcastEvent(
+    "generic_info",
+    `Scraping iniziato per ${expansionName}`
+  );
 
   const startTime = Date.now();
   const ramStart = process.memoryUsage().heapUsed / 1024 / 1024;
@@ -80,7 +80,7 @@ export default async function scrapeCardsOfficial({
         await new Promise((resolve) => setTimeout(resolve, 500));
       }
     } catch {
-      broadcastEvent(
+      await broadcastEvent(
         "generic_error",
         "Impossibile cliccare il pulsante dei cookie. Potrebbe essere già accettato o non presente."
       );
@@ -105,7 +105,7 @@ export default async function scrapeCardsOfficial({
         ".selModalInner .selModalList ul li.selModalClose"
       );
     } catch {
-      broadcastEvent(
+      await broadcastEvent(
         "generic_error",
         "Modale per la scelta del set non trovata"
       );
@@ -122,11 +122,6 @@ export default async function scrapeCardsOfficial({
         "Impossibile trovare “.selModal .selModalList ul li.selModalClose”. Controlla debug-scrape/modal-not-found.html"
       );
     }
-    console.log(`Trovati ${modalItems.length} elementi <li> nel modal.`);
-    broadcastEvent(
-      "generic_info",
-      `Trovati ${modalItems.length} set nella modale di scelta dei set.`
-    );
 
     // Trova l’elemento <li> che contiene `expansionName`
     let foundSet = null;
@@ -140,7 +135,7 @@ export default async function scrapeCardsOfficial({
     }
 
     if (!foundSet) {
-      broadcastEvent(
+      await broadcastEvent(
         "generic_error",
         `Espansione "${expansionName}" non trovata nella lista del modal.`
       );
@@ -153,11 +148,11 @@ export default async function scrapeCardsOfficial({
       (el) => el.textContent?.trim(),
       foundSet
     );
-    broadcastEvent("generic_info", `Trovato l’item: ${foundSetText}`);
+    await broadcastEvent("generic_info", `Trovato l’item: ${foundSetText}`);
 
     // 4) Clicca sull’item trovato
     await foundSet.click();
-    broadcastEvent("generic_info", `Cliccato sul set "${foundSetText}"`);
+    await broadcastEvent("generic_info", `Cliccato sul set "${foundSetText}"`);
 
     // 5) Clicca su "#frmSearch > div.commonBtn.submitBtn > input[type=submit]"
     await page.waitForSelector(
@@ -168,10 +163,23 @@ export default async function scrapeCardsOfficial({
       "#frmSearch > div.commonBtn.submitBtn > input[type=submit]"
     );
 
-    broadcastEvent("generic_info", `Cliccato sul tasto search"`);
+    await broadcastEvent("generic_info", `Cliccato sul tasto search"`);
 
     // 6) Attendi che i risultati siano caricati, poi clicca la prima carta:
     //    "#cardlist > main > article > div > div.resultCol > a:nth-child(1)"
+
+    await wait(2000); // Attendo due secondi per sicurezza
+
+    const cardNumberScraped = await page.$eval(".countCol", (el) => {
+      const text = el.textContent?.trim() ?? "";
+      const m = text.match(/\d+/);
+      return m ? parseInt(m[0], 10) : 0;
+    });
+
+    await broadcastEvent(
+      "generic_info",
+      `Trovate"${cardNumberScraped}" carte per l’espansione "${expansionName}".`
+    );
 
     try {
       await page.waitForSelector(
@@ -183,15 +191,15 @@ export default async function scrapeCardsOfficial({
         "#cardlist > main > article > div > div.resultCol > a:nth-child(1)"
       );
     } catch (error) {
-      broadcastEvent(
+      await broadcastEvent(
         "generic_error",
         `Carte non trovate per l’espansione "${expansionName}". Potrebbe essere un errore di scraping o il set non esiste.`
       );
     }
 
     const cardsList = [];
-    // 7) Loop di estrazione per `cardNumber` carte
-    for (let i = 0; i < cardNumber; i++) {
+    // 7) Loop di estrazione per `cardNumberScraped` carte
+    for (let i = 0; i < cardNumberScraped; i++) {
       // a) Attendi che il popup/fancybox sia presente
       await page.waitForSelector(".fancybox-slide--current", { visible: true });
 
@@ -200,7 +208,7 @@ export default async function scrapeCardsOfficial({
           ".fancybox-slide--current .fancybox-content dt div.cardName"
         );
       } catch (error) {
-        broadcastEvent(
+        await broadcastEvent(
           "generic_error",
           `Problema durante l’attesa del popup/fancybox: ${error}`
         );
@@ -215,7 +223,7 @@ export default async function scrapeCardsOfficial({
           (el) => el.textContent?.trim() || ""
         );
       } catch (error) {
-        broadcastEvent(
+        await broadcastEvent(
           "generic_error",
           `Nome carta non trovato nella slide corrente`
         );
@@ -227,14 +235,14 @@ export default async function scrapeCardsOfficial({
           (el) => el.textContent?.trim() || ""
         );
       } catch (error) {
-        broadcastEvent(
+        await broadcastEvent(
           "generic_error",
           `Codice carta non trovato nella slide corrente`
         );
         cardData.code = null;
       }
 
-      broadcastEvent(
+      await broadcastEvent(
         "generic_info",
         `Trovata carta "${cardData.name} -> ${cardData.code}".`
       );
@@ -245,7 +253,7 @@ export default async function scrapeCardsOfficial({
           (el) => el.textContent?.trim() || ""
         );
       } catch (error) {
-        broadcastEvent(
+        await broadcastEvent(
           "generic_error",
           `Rarità carta non trovata per "${cardData.name} -> ${cardData.code}".`
         );
@@ -257,7 +265,7 @@ export default async function scrapeCardsOfficial({
           (el) => el.textContent?.trim() || ""
         );
       } catch (error) {
-        broadcastEvent(
+        await broadcastEvent(
           "generic_error",
           `Tipo carta non trovato per "${cardData.name} -> ${cardData.code}".`
         );
@@ -269,7 +277,7 @@ export default async function scrapeCardsOfficial({
           (el) => el.textContent?.trim() || ""
         );
       } catch (error) {
-        broadcastEvent(
+        await broadcastEvent(
           "generic_error",
           `Valore Life/Cost non trovato per "${cardData.name} -> ${cardData.code}".`
         );
@@ -281,7 +289,7 @@ export default async function scrapeCardsOfficial({
           (el) => el.textContent?.trim() || ""
         );
       } catch (error) {
-        broadcastEvent(
+        await broadcastEvent(
           "generic_error",
           `Valore attributo non trovato per "${cardData.name} -> ${cardData.code}".`
         );
@@ -293,7 +301,7 @@ export default async function scrapeCardsOfficial({
           (el) => el.textContent?.trim() || ""
         );
       } catch (error) {
-        broadcastEvent(
+        await broadcastEvent(
           "generic_error",
           `Valore power non trovato per "${cardData.name} -> ${cardData.code}".`
         );
@@ -305,7 +313,7 @@ export default async function scrapeCardsOfficial({
           (el) => el.textContent?.trim() || ""
         );
       } catch (error) {
-        broadcastEvent(
+        await broadcastEvent(
           "generic_error",
           `Valore counter non trovato per "${cardData.name} -> ${cardData.code}".`
         );
@@ -317,7 +325,7 @@ export default async function scrapeCardsOfficial({
           (el) => el.textContent?.trim() || ""
         );
       } catch (error) {
-        broadcastEvent(
+        await broadcastEvent(
           "generic_error",
           `Valore color non trovato per "${cardData.name} -> ${cardData.code}".`
         );
@@ -329,7 +337,7 @@ export default async function scrapeCardsOfficial({
           (el) => el.textContent?.trim() || ""
         );
       } catch (error) {
-        broadcastEvent(
+        await broadcastEvent(
           "generic_error",
           `Valore family non trovato per "${cardData.name} -> ${cardData.code}".`
         );
@@ -341,7 +349,7 @@ export default async function scrapeCardsOfficial({
           (el) => el.textContent?.trim() || ""
         );
       } catch (error) {
-        broadcastEvent(
+        await broadcastEvent(
           "generic_error",
           `Valore effect non trovato per "${cardData.name} -> ${cardData.code}".`
         );
@@ -353,8 +361,8 @@ export default async function scrapeCardsOfficial({
           (el) => el.textContent?.trim() || ""
         );
       } catch (error) {
-        broadcastEvent(
-          "generic_error",
+        await broadcastEvent(
+          "generic_warning",
           `Valore trigger non trovato per "${cardData.name} -> ${cardData.code}".`
         );
         cardData.trigger = null;
@@ -365,7 +373,7 @@ export default async function scrapeCardsOfficial({
           (el) => el.textContent?.trim() || ""
         );
       } catch (error) {
-        broadcastEvent(
+        await broadcastEvent(
           "generic_error",
           `Valore Card Set non trovato per "${cardData.name} -> ${cardData.code}".`
         );
@@ -378,20 +386,25 @@ export default async function scrapeCardsOfficial({
           (el) => el.src || ""
         );
       } catch (error) {
-        broadcastEvent(
+        await broadcastEvent(
           "generic_error",
           `Valore immagine non trovato per "${cardData.name} -> ${cardData.code}".`
         );
         cardData.image = null;
       }
 
-      broadcastEvent("scraping_card_success", {
-        name: cardData.name,
-        code: cardData.code,
-      });
+      await broadcastEvent(
+        "generic_success",
+        `Scraping riuscito per ${cardData.name} -> ${cardData.code} -> ${
+          i + 1
+        }/${cardNumberScraped}`
+      );
 
       // Aggiungo l’oggetto carta alla lista
-      cardsList.push(cardData);
+      //console.log({ cardData });
+
+      await cardsList.push(cardData);
+      console.log({ cardsList });
 
       // c) Clicca sulla freccia per passare alla carta successiva
       try {
@@ -403,7 +416,7 @@ export default async function scrapeCardsOfficial({
         // piccola pausa per lasciare il tempo al fancybox di aggiornarsi
         await new Promise((resolve) => setTimeout(resolve, 2000));
       } catch (err) {
-        broadcastEvent(
+        await broadcastEvent(
           "generic_error",
           `Iterazione #${i + 1}: impossibile cliccare “next” → ${err.message}`
         );
@@ -417,21 +430,26 @@ export default async function scrapeCardsOfficial({
     const endTime = Date.now();
     const ramEnd = process.memoryUsage().heapUsed / 1024 / 1024;
 
-    broadcastEvent("scraping_completed", {
+    await broadcastEvent("scraping_completed", {
       url,
       totalCards: cardsList.length,
       duration: Math.round((endTime - startTime) / 1000),
       ramUsed: Math.round((ramEnd - ramStart) * 100) / 100,
     });
 
-    let result = await cardsList.map(remapCardsData);
+    const remappedPromises = cardsList.map((cardData) =>
+      remapCardsData(cardData)
+    );
 
-    broadcastEvent(
+    const result = await Promise.all(remappedPromises);
+
+    await broadcastEvent(
       "generic_success",
       `Rimappatura completata per ${expansionName}.`
     );
 
-    printCardsInJson(foundSetText, result);
+    return await cardsInJson(expansionName, result);
+    //printCardsInJson(foundSetText, result);
 
     return result;
   } catch (error) {
@@ -439,11 +457,14 @@ export default async function scrapeCardsOfficial({
     if (!browser._isClosed) {
       await browser.close();
     }
-    broadcastEvent("generic_error", `Operazione fallita: ${error.message}`);
+    await broadcastEvent(
+      "generic_error",
+      `Operazione fallita: ${error.message}`
+    );
   }
 }
 
-function remapCardsData(cardData) {
+async function remapCardsData(cardData) {
   if (cardData.costLife) {
     try {
       const raw = cardData.costLife.trim();
@@ -456,7 +477,7 @@ function remapCardsData(cardData) {
       }
     } catch (error) {
       console.log({ error });
-      broadcastEvent(
+      await broadcastEvent(
         "generic_error",
         `Mappatura fallita nel campo Cost/Life - ${cardData.name} di ${cardData.code}: ${error.message}`
       );
@@ -472,7 +493,7 @@ function remapCardsData(cardData) {
       cardData.power = isNaN(num) ? null : num;
     } catch (error) {
       console.log({ error });
-      broadcastEvent(
+      await broadcastEvent(
         "generic_error",
         `Mappatura fallita nel campo Power - ${cardData.name} di ${cardData.code}: ${error.message}`
       );
@@ -493,7 +514,7 @@ function remapCardsData(cardData) {
       cardData.effect = sanitizedEffect === "-" ? null : sanitizedEffect;
     } catch (error) {
       console.log({ error });
-      broadcastEvent(
+      await broadcastEvent(
         "generic_error",
         `Mappatura fallita nel campo Effect - ${cardData.name} di ${cardData.code}: ${error.message}`
       );
@@ -512,7 +533,7 @@ function remapCardsData(cardData) {
       }
     } catch (error) {
       console.log({ error });
-      broadcastEvent(
+      await broadcastEvent(
         "generic_error",
         `Mappatura fallita nel campo Counter - ${cardData.name} di ${cardData.code}: ${error.message}`
       );
@@ -529,7 +550,7 @@ function remapCardsData(cardData) {
         .filter((c) => c.length > 0);
     } catch (error) {
       console.log({ error });
-      broadcastEvent(
+      await broadcastEvent(
         "generic_error",
         `Mappatura fallita nel campo Color - ${cardData.name} di ${cardData.code}: ${error.message}`
       );
@@ -546,7 +567,7 @@ function remapCardsData(cardData) {
         .filter((f) => f.length > 0);
     } catch (error) {
       console.log({ error });
-      broadcastEvent(
+      await broadcastEvent(
         "generic_error",
         `Mappatura fallita nel campo Family - ${cardData.name} di ${cardData.code}: ${error.message}`
       );
@@ -560,7 +581,7 @@ function remapCardsData(cardData) {
       cardData.expansionCode = parts[0];
     } catch (error) {
       console.log({ error });
-      broadcastEvent(
+      await broadcastEvent(
         "generic_error",
         `Mappatura fallita nel campo Code - ${cardData.name} di ${cardData.code}: ${error.message}`
       );
@@ -577,7 +598,7 @@ function remapCardsData(cardData) {
       cardData.setName = raw.trim();
     } catch (error) {
       console.log({ error });
-      broadcastEvent(
+      await broadcastEvent(
         "generic_error",
         `Mappatura fallita nel campo Set name - ${cardData.name} di ${cardData.code}: ${error.message}`
       );
@@ -588,9 +609,14 @@ function remapCardsData(cardData) {
   if (cardData.image) {
     try {
       cardData.image = cardData.image.split("?")[0];
+      // Estrai nome file per creare l'ID
+      const segments = cardData.image.split("/");
+      const fileName = segments[segments.length - 1];
+      const id = fileName.replace(/\.png$/i, "");
+      cardData.id = id;
     } catch (error) {
       console.log({ error });
-      broadcastEvent(
+      await broadcastEvent(
         "generic_error",
         `Mappatura fallita nel campo Image - ${cardData.name} di ${cardData.code}: ${error.message}`
       );
@@ -600,7 +626,7 @@ function remapCardsData(cardData) {
   return cardData;
 }
 
-function printCardsInJson(expansionName, cardsList) {
+async function printCardsInJson(expansionName, cardsList) {
   try {
     const rawName = expansionName
       .replace(/[-\[\]]/g, "")
@@ -616,19 +642,37 @@ function printCardsInJson(expansionName, cardsList) {
 
     const filePath = path.join(dir, `${fileName}.json`);
     fs.writeFileSync(filePath, JSON.stringify(cardsList, null, 2), "utf-8");
-    broadcastEvent("generic_success", `💾 File salvato in: ${filePath}`);
+    await broadcastEvent("generic_success", `💾 File salvato in: ${filePath}`);
   } catch (error) {
-    broadcastEvent(
+    await broadcastEvent(
       "generic_error",
       `'Errore durante la stampa su json: ${error.message}"`
     );
   }
 }
 
+async function cardsInJson(expansionName, cardsList) {
+  console.log({ cardsList });
+
+  // 1. Costruisci un nome file “pulito”
+  const rawName = expansionName
+    .replace(/[-\[\]]/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+  const fileName = rawName.replace(/\s/g, "_").toLowerCase() + ".json";
+
+  // 2. Serializza i dati
+  const jsonString = JSON.stringify(cardsList, null, 2);
+  console.log("fileName:", fileName);
+
+  console.log(`jsonString: ${jsonString}`);
+
+  return { jsonString, fileName };
+}
+
 async function wait(ms) {
-  broadcastEvent("generic_info", `Attendo ${ms / 1000} secondi...`);
+  await broadcastEvent("generic_info", `Attendo ${ms / 1000} secondi...`);
   await new Promise((resolve) => setTimeout(resolve, ms));
-  broadcastEvent("generic_info", `Proseguo`);
 }
 
 const abilityKeywords = [

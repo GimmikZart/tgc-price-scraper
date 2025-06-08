@@ -44,16 +44,21 @@ async function fetchCards() {
     <NuxtLink
       v-if="userAuth.isAdmin"
       to="/admin"
+      active-class="text-purple font-bold"
       class="text-white p-2 cursor-pointer rounded-lg"
     >
       <v-icon size="30" icon="mdi-security"></v-icon>
     </NuxtLink>
-    <NuxtLink to="/" class="text-white p-2 cursor-pointer rounded-lg">
+    <NuxtLink
+      to="/"
+      active-class="text-purple font-bold"
+      class="text-white p-2 cursor-pointer rounded-lg"
+    >
       <v-icon size="30" icon="mdi-shopping"></v-icon>
     </NuxtLink>
     <NuxtLink
       to="/cards"
-      class="text-white p-2 cursor-pointer rounded-lg"
+      class="text-white p-2 cursor-pointer rounded-lg relative"
       active-class="text-purple font-bold"
       v-slot="{ isActive }"
       @click="mobileFloatMenu.open"
@@ -65,6 +70,7 @@ async function fetchCards() {
     </NuxtLink>
     <NuxtLink
       to="/user"
+      active-class="text-purple font-bold"
       class="bg-black text-white p-2 cursor-pointer rounded-lg"
     >
       <v-icon size="30" icon="mdi-account-circle"></v-icon>

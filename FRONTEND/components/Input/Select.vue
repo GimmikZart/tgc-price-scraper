@@ -38,11 +38,11 @@ const model = computed({
 const isFocused = ref(false);
 
 const containerClass = computed(() => ({
-  "h-dvh fixed w-full right-0 top-0 bg-black z-10 lg:left-[250px]":
+  "h-dvh fixed w-full right-0 top-0 bg-black z-20 lg:left-[250px]":
     isFocused.value,
 }));
 const inputClass = computed(() => ({
-  "absolute z-[50] bottom-[20px] px-5": isFocused.value,
+  "absolute z-50 bottom-[60px] px-5": isFocused.value,
 }));
 
 const menuProps = computed(() => ({

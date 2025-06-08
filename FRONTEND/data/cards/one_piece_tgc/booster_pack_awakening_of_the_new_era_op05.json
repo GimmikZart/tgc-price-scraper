@@ -14,7 +14,7 @@
     "family": [
       "Revolutionary Army"
     ],
-    "effect": "[DON!! x1] [Opponent's Turn] [Once Per Turn] If your Character with 5000 power or more would be K.O.'d, you may give that Character -1000 power during this turn instead of that Character being K.O.'d.",
+    "effect": "[DON!! x1] [Opponent's Turn] [Once Per Turn] If your Character with 5000 power or more would be K.O.'d, you may give that Character −1000 power during this turn instead of that Character being K.O.'d.",
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-001.png",
@@ -24,7 +24,8 @@
       "[Once Per Turn]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-001"
   },
   {
     "name": "Sabo",
@@ -41,7 +42,7 @@
     "family": [
       "Revolutionary Army"
     ],
-    "effect": "[DON!! x1] [Opponent's Turn] [Once Per Turn] If your Character with 5000 power or more would be K.O.'d, you may give that Character -1000 power during this turn instead of that Character being K.O.'d.",
+    "effect": "[DON!! x1] [Opponent's Turn] [Once Per Turn] If your Character with 5000 power or more would be K.O.'d, you may give that Character −1000 power during this turn instead of that Character being K.O.'d.",
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-001_p1.png",
@@ -51,7 +52,8 @@
       "[Once Per Turn]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-001_p1"
   },
   {
     "name": "Belo Betty",
@@ -78,7 +80,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-002"
   },
   {
     "name": "Belo Betty",
@@ -105,7 +108,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-002_p1"
   },
   {
     "name": "Inazuma",
@@ -129,7 +133,8 @@
     "abilityKeywords": [
       "[Rush]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-003"
   },
   {
     "name": "Emporio.Ivankov",
@@ -154,7 +159,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-004"
   },
   {
     "name": "Karasu",
@@ -170,7 +176,7 @@
     "family": [
       "Revolutionary Army"
     ],
-    "effect": "[On Play] If your Leader has the {Revolutionary Army} type, give up to 1 of your opponent's Leader or Character cards -1000 power during this turn.[When Attacking] If this Character has 7000 power or more, give up to 1 of your opponent's Leader or Character cards -1000 power during this turn.",
+    "effect": "[On Play] If your Leader has the {Revolutionary Army} type, give up to 1 of your opponent's Leader or Character cards −1000 power during this turn.[When Attacking] If this Character has 7000 power or more, give up to 1 of your opponent's Leader or Character cards −1000 power during this turn.",
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-005.png",
@@ -178,7 +184,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-005"
   },
   {
     "name": "Koala",
@@ -194,12 +201,13 @@
     "family": [
       "Revolutionary Army"
     ],
-    "effect": "[On Play] If your Leader has the {Revolutionary Army} type, give up to 1 of your opponent's Characters -3000 power during this turn.",
+    "effect": "[On Play] If your Leader has the {Revolutionary Army} type, give up to 1 of your opponent's Characters −3000 power during this turn.",
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-006.png",
     "cost": 2,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-006"
   },
   {
     "name": "Koala",
@@ -215,12 +223,13 @@
     "family": [
       "Revolutionary Army"
     ],
-    "effect": "[On Play] If your Leader has the {Revolutionary Army} type, give up to 1 of your opponent's Characters -3000 power during this turn.",
+    "effect": "[On Play] If your Leader has the {Revolutionary Army} type, give up to 1 of your opponent's Characters −3000 power during this turn.",
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-006_p1.png",
     "cost": 2,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-006_p1"
   },
   {
     "name": "Sabo",
@@ -241,7 +250,8 @@
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-007.png",
     "cost": 6,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-007"
   },
   {
     "name": "Sabo",
@@ -262,7 +272,8 @@
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-007_p1.png",
     "cost": 6,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-007_p1"
   },
   {
     "name": "Chaka",
@@ -288,7 +299,8 @@
       "[Once Per Turn]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-008"
   },
   {
     "name": "Toh-Toh",
@@ -309,7 +321,8 @@
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-009.png",
     "cost": 1,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-009"
   },
   {
     "name": "Nico Robin",
@@ -330,7 +343,8 @@
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-010.png",
     "cost": 1,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-010"
   },
   {
     "name": "Bartholomew Kuma",
@@ -348,11 +362,12 @@
       "Revolutionary Army"
     ],
     "effect": "[On Play] K.O. up to 1 of your opponent's Characters with 2000 power or less.",
-    "trigger": "If your Leader is multicolored, play this card.",
+    "trigger": "Trigger[Trigger] If your Leader is multicolored, play this card.",
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-011.png",
     "cost": 2,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-011"
   },
   {
     "name": "Hack",
@@ -374,7 +389,8 @@
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-012.png",
     "cost": 3,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-012"
   },
   {
     "name": "Bunny Joe",
@@ -398,7 +414,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-013"
   },
   {
     "name": "Pell",
@@ -414,7 +431,7 @@
     "family": [
       "Alabasta"
     ],
-    "effect": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters -2000 power during this turn.",
+    "effect": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −2000 power during this turn.",
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-014.png",
@@ -423,7 +440,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-014"
   },
   {
     "name": "Belo Betty",
@@ -444,7 +462,8 @@
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-015.png",
     "cost": 1,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-015"
   },
   {
     "name": "Belo Betty",
@@ -465,7 +484,8 @@
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-015_p1.png",
     "cost": 1,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-015_p1"
   },
   {
     "name": "Morley",
@@ -483,7 +503,7 @@
       "Revolutionary Army"
     ],
     "effect": "[When Attacking] If this Character has 7000 power or more, your opponent cannot activate [Blocker] during this battle.",
-    "trigger": "You may trash 1 card from your hand: If your Leader is multicolored, play this card.",
+    "trigger": "Trigger[Trigger] You may trash 1 card from your hand: If your Leader is multicolored, play this card.",
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-016.png",
     "cost": 3,
@@ -491,7 +511,8 @@
       "[Blocker]",
       "[When Attacking]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-016"
   },
   {
     "name": "Lindbergh",
@@ -509,14 +530,15 @@
       "Revolutionary Army"
     ],
     "effect": "[When Attacking] If this Character has 7000 power or more, K.O. up to 1 of your opponent's Characters with 3000 power or less.",
-    "trigger": "You may trash 1 card from your hand: If your Leader is multicolored, play this card.",
+    "trigger": "Trigger[Trigger] You may trash 1 card from your hand: If your Leader is multicolored, play this card.",
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-017.png",
     "cost": 4,
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-017"
   },
   {
     "name": "Emporio Energy Hormone",
@@ -533,14 +555,15 @@
       "Revolutionary Army"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle. Then, play up to 1 {Revolutionary Army} type Character card with 5000 power or less from your hand.",
-    "trigger": "Play up to 1 {Revolutionary Army} type Character card with 5000 power or less from your hand.",
+    "trigger": "Trigger[Trigger] Play up to 1 {Revolutionary Army} type Character card with 5000 power or less from your hand.",
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-018.png",
     "cost": 3,
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-018"
   },
   {
     "name": "Fire Fist",
@@ -556,15 +579,16 @@
     "family": [
       "Revolutionary Army"
     ],
-    "effect": "[Main] Give up to 1 of your opponent's Characters -4000 power during this turn. Then, if you have 2 or less Life cards, K.O. up to 1 of your opponent's Characters with 0 power or less.",
-    "trigger": "Activate this card's [Main] effect.",
+    "effect": "[Main] Give up to 1 of your opponent's Characters −4000 power during this turn. Then, if you have 2 or less Life cards, K.O. up to 1 of your opponent's Characters with 0 power or less.",
+    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-019.png",
     "cost": 2,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-019"
   },
   {
     "name": "Four Thousand-Brick Fist",
@@ -582,14 +606,15 @@
       "Revolutionary Army"
     ],
     "effect": "[Main] Up to 1 of your Leader or Character cards gains +2000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 2000 power or less.",
-    "trigger": "Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "trigger": "Trigger[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-020.png",
     "cost": 2,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-020"
   },
   {
     "name": "Revolutionary Army HQ",
@@ -613,7 +638,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-021"
   },
   {
     "name": "Donquixote Rosinante",
@@ -640,7 +666,8 @@
       "[Blocker]",
       "[End of Your Turn]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-022"
   },
   {
     "name": "Donquixote Rosinante",
@@ -667,7 +694,8 @@
       "[Blocker]",
       "[End of Your Turn]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-022_p1"
   },
   {
     "name": "Vergo",
@@ -693,7 +721,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-023"
   },
   {
     "name": "Kuween",
@@ -717,7 +746,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-024"
   },
   {
     "name": "Gladius",
@@ -741,7 +771,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-025"
   },
   {
     "name": "Sarquiss",
@@ -767,7 +798,8 @@
       "[Once Per Turn]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-026"
   },
   {
     "name": "Trafalgar Law",
@@ -791,7 +823,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-027"
   },
   {
     "name": "Donquixote Doflamingo",
@@ -815,7 +848,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-028"
   },
   {
     "name": "Donquixote Doflamingo",
@@ -840,7 +874,8 @@
       "[Once Per Turn]",
       "[On Your Opponent's Attack]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-029"
   },
   {
     "name": "Donquixote Rosinante",
@@ -866,7 +901,8 @@
       "[Blocker]",
       "[Opponent's Turn]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-030"
   },
   {
     "name": "Buffalo",
@@ -891,7 +927,8 @@
       "[When Attacking]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-031"
   },
   {
     "name": "Pica",
@@ -916,7 +953,8 @@
       "[End of Your Turn]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-032"
   },
   {
     "name": "Pica",
@@ -941,7 +979,8 @@
       "[End of Your Turn]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-032_p1"
   },
   {
     "name": "Baby 5",
@@ -965,7 +1004,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-033"
   },
   {
     "name": "Baby 5",
@@ -989,7 +1029,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-034"
   },
   {
     "name": "Baby 5",
@@ -1013,7 +1054,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-034_p1"
   },
   {
     "name": "Bellamy",
@@ -1034,7 +1076,8 @@
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-035.png",
     "cost": 3,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-035"
   },
   {
     "name": "Monet",
@@ -1059,7 +1102,8 @@
       "[Blocker]",
       "[On Block]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-036"
   },
   {
     "name": "Because the Side of Justice Will Be Whichever Side Wins!!",
@@ -1076,14 +1120,15 @@
       "Donquixote Pirates"
     ],
     "effect": "[Counter] You may trash 1 card from your hand: Up to 1 of your Leader or Character cards gains +3000 power during this battle.",
-    "trigger": "Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-037.png",
     "cost": null,
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-037"
   },
   {
     "name": "Charlestone",
@@ -1100,14 +1145,15 @@
       "Donquixote Pirates"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, you may trash 1 card from your hand. If you do, set up to 3 of your DON!! cards as active.",
-    "trigger": "Rest up to 1 of your opponent's Leader or Character cards with a cost of 3 or less.",
+    "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Leader or Character cards with a cost of 3 or less.",
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-038.png",
     "cost": 2,
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-038"
   },
   {
     "name": "Stick-Stickem Meteora",
@@ -1124,14 +1170,15 @@
       "Donquixote Pirates"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
-    "trigger": "K.O. up to 1 of your opponent's rested Characters with a cost of 5 or less.",
+    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's rested Characters with a cost of 5 or less.",
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-039.png",
     "cost": 2,
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-039"
   },
   {
     "name": "Birdcage",
@@ -1155,7 +1202,8 @@
     "abilityKeywords": [
       "[End of Your Turn]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-040"
   },
   {
     "name": "Sakazuki",
@@ -1172,7 +1220,7 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] You may trash 1 card from your hand: Draw 1 card.[When Attacking] Give up to 1 of your opponent's Characters -1 cost during this turn.",
+    "effect": "[Activate: Main] [Once Per Turn] You may trash 1 card from your hand: Draw 1 card.[When Attacking] Give up to 1 of your opponent's Characters −1 cost during this turn.",
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-041.png",
@@ -1182,7 +1230,8 @@
       "[When Attacking]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-041"
   },
   {
     "name": "Sakazuki",
@@ -1199,7 +1248,7 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] You may trash 1 card from your hand: Draw 1 card.[When Attacking] Give up to 1 of your opponent's Characters -1 cost during this turn.",
+    "effect": "[Activate: Main] [Once Per Turn] You may trash 1 card from your hand: Draw 1 card.[When Attacking] Give up to 1 of your opponent's Characters −1 cost during this turn.",
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-041_p1.png",
@@ -1209,7 +1258,8 @@
       "[When Attacking]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-041_p1"
   },
   {
     "name": "Issho",
@@ -1230,7 +1280,8 @@
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-042.png",
     "cost": 6,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-042"
   },
   {
     "name": "Ulti",
@@ -1251,7 +1302,8 @@
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-043.png",
     "cost": 4,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-043"
   },
   {
     "name": "Ulti",
@@ -1272,7 +1324,8 @@
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-043_p1.png",
     "cost": 4,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-043_p1"
   },
   {
     "name": "John Giant",
@@ -1294,7 +1347,8 @@
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-044.png",
     "cost": 8,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-044"
   },
   {
     "name": "Stainless",
@@ -1318,7 +1372,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-045"
   },
   {
     "name": "Dalmatian",
@@ -1342,7 +1397,8 @@
     "abilityKeywords": [
       "[On K.O.]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-046"
   },
   {
     "name": "Basil Hawkins",
@@ -1368,7 +1424,8 @@
       "[Blocker]",
       "[On Block]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-047"
   },
   {
     "name": "Bastille",
@@ -1393,7 +1450,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-048"
   },
   {
     "name": "Haccha",
@@ -1419,7 +1477,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-049"
   },
   {
     "name": "Hina",
@@ -1440,7 +1499,8 @@
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-050.png",
     "cost": 3,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-050"
   },
   {
     "name": "Borsalino",
@@ -1461,7 +1521,8 @@
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-051.png",
     "cost": 7,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-051"
   },
   {
     "name": "Borsalino",
@@ -1482,7 +1543,8 @@
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-051_p1.png",
     "cost": 7,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-051_p1"
   },
   {
     "name": "Maynard",
@@ -1506,7 +1568,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-052"
   },
   {
     "name": "Mozambia",
@@ -1531,7 +1594,8 @@
       "[Your Turn]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-053"
   },
   {
     "name": "Monkey.D.Garp",
@@ -1552,7 +1616,8 @@
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-054.png",
     "cost": 3,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-054"
   },
   {
     "name": "X.Drake",
@@ -1578,7 +1643,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-055"
   },
   {
     "name": "X.Drake",
@@ -1604,7 +1670,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-055_p1"
   },
   {
     "name": "X.Barrels",
@@ -1625,7 +1692,8 @@
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-056.png",
     "cost": 2,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-056"
   },
   {
     "name": "Hound Blaze",
@@ -1642,14 +1710,15 @@
       "Navy"
     ],
     "effect": "[Main] Up to 1 of your Leader or Character cards gains +3000 power during this turn. Then, place up to 1 Character with a cost of 2 or less at the bottom of the owner's deck.",
-    "trigger": "Return up to 1 Character with a cost of 3 or less to the owner's hand.",
+    "trigger": "Trigger[Trigger] Return up to 1 Character with a cost of 3 or less to the owner's hand.",
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-057.png",
     "cost": 2,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-057"
   },
   {
     "name": "It's a Waste of Human Life!!",
@@ -1666,14 +1735,15 @@
       "Navy"
     ],
     "effect": "[Main] Place all Characters with a cost of 3 or less at the bottom of the owner's deck. Then, you and your opponent trash cards from your hands until you each have 5 cards in your hands.",
-    "trigger": "Place all Characters with a cost of 2 or less at the bottom of the owner's deck.",
+    "trigger": "Trigger[Trigger] Place all Characters with a cost of 2 or less at the bottom of the owner's deck.",
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-058.png",
     "cost": 8,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-058"
   },
   {
     "name": "Let Us Begin the World of Violence!!!",
@@ -1691,14 +1761,15 @@
       "Animal Kingdom Pirates"
     ],
     "effect": "[Main] If your Leader is multicolored, draw 1 card. Then, return up to 1 Character with a cost of 5 or less to the owner's hand.",
-    "trigger": "If your Leader is multicolored, draw 2 cards.",
+    "trigger": "Trigger[Trigger] If your Leader is multicolored, draw 2 cards.",
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-059.png",
     "cost": 5,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-059"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -1723,7 +1794,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-060"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -1748,7 +1820,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-060_p1"
   },
   {
     "name": "Uso-Hachi",
@@ -1773,7 +1846,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-061"
   },
   {
     "name": "O-Nami",
@@ -1797,7 +1871,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-062"
   },
   {
     "name": "O-Robi",
@@ -1818,7 +1893,8 @@
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-063.png",
     "cost": 4,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-063"
   },
   {
     "name": "Killer",
@@ -1839,7 +1915,8 @@
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-064.png",
     "cost": 1,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-064"
   },
   {
     "name": "San-Gorou",
@@ -1860,7 +1937,8 @@
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-065.png",
     "cost": 6,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-065"
   },
   {
     "name": "Jinbe",
@@ -1886,7 +1964,8 @@
       "[Blocker]",
       "[Opponent's Turn]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-066"
   },
   {
     "name": "Zoro-Juurou",
@@ -1910,7 +1989,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-067"
   },
   {
     "name": "Zoro-Juurou",
@@ -1934,7 +2014,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-067_p1"
   },
   {
     "name": "Chopa-Emon",
@@ -1956,7 +2037,8 @@
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-068.png",
     "cost": 2,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-068"
   },
   {
     "name": "Trafalgar Law",
@@ -1980,7 +2062,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-069"
   },
   {
     "name": "Trafalgar Law",
@@ -2004,7 +2087,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-069_p1"
   },
   {
     "name": "Trafalgar Law",
@@ -2028,7 +2112,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-069_p2"
   },
   {
     "name": "Fra-Nosuke",
@@ -2053,7 +2138,8 @@
       "[Rush]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-070"
   },
   {
     "name": "Bepo",
@@ -2070,7 +2156,7 @@
       "Minks",
       "Heart Pirates"
     ],
-    "effect": "[When Attacking] If your opponent has more DON!! cards on their field than you, give up to 1 of your opponent's Characters -2000 power during this turn.",
+    "effect": "[When Attacking] If your opponent has more DON!! cards on their field than you, give up to 1 of your opponent's Characters −2000 power during this turn.",
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-071.png",
@@ -2078,7 +2164,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-071"
   },
   {
     "name": "Hone-Kichi",
@@ -2094,12 +2181,13 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] If you have 8 or more DON!! cards on your field, give up to 2 of your opponent's Characters -2000 power during this turn.",
+    "effect": "[On Play] If you have 8 or more DON!! cards on your field, give up to 2 of your opponent's Characters −2000 power during this turn.",
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-072.png",
     "cost": 4,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-072"
   },
   {
     "name": "Miss Doublefinger(Zala)",
@@ -2116,11 +2204,12 @@
       "Baroque Works"
     ],
     "effect": "[On Play] You may trash 1 card from your hand: Add up to 1 DON!! card from your DON!! deck and rest it.",
-    "trigger": "DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play this card.",
+    "trigger": "Trigger[Trigger] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play this card.",
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-073.png",
     "cost": 4,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-073"
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -2146,7 +2235,8 @@
       "[Your Turn]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-074"
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -2172,7 +2262,8 @@
       "[Your Turn]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-074_p1"
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -2198,7 +2289,8 @@
       "[Your Turn]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-074_p2"
   },
   {
     "name": "Mr.1(Daz.Bonez)",
@@ -2214,7 +2306,7 @@
     "family": [
       "Baroque Works"
     ],
-    "effect": "[On Your Opponent's Attack] [Once Per Turn] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 {Baroque Works} type Character card with a cost of 3 or less from your hand.",
+    "effect": "[On Your Opponent's Attack] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 {Baroque Works} type Character card with a cost of 3 or less from your hand.",
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-075.png",
@@ -2223,7 +2315,8 @@
       "[Once Per Turn]",
       "[On Your Opponent's Attack]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-075"
   },
   {
     "name": "When You're at Sea You Fight against Pirates!!",
@@ -2240,14 +2333,15 @@
       "Land of Wano"
     ],
     "effect": "[Main] Look at 3 cards from the top of your deck; reveal up to 1 {Straw Hat Crew}, {Kid Pirates}, or {Heart Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Activate this card's [Main] effect.",
+    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-076.png",
     "cost": 1,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-076"
   },
   {
     "name": "Gamma Knife",
@@ -2263,15 +2357,16 @@
     "family": [
       "Heart Pirates"
     ],
-    "effect": "[Main] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Give up to 1 of your opponent's Characters -5000 power during this turn.",
-    "trigger": "Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": "[Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Give up to 1 of your opponent's Characters −5000 power during this turn.",
+    "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-077.png",
     "cost": 2,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-077"
   },
   {
     "name": "Punk Rotten",
@@ -2287,15 +2382,16 @@
     "family": [
       "Kid Pirates"
     ],
-    "effect": "[Main] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your {Kid Pirates} type Leader or Character cards gains +5000 power during this turn.",
-    "trigger": "Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": "[Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your {Kid Pirates} type Leader or Character cards gains +5000 power during this turn.",
+    "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-078.png",
     "cost": 2,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-078"
   },
   {
     "name": "Viola",
@@ -2316,7 +2412,8 @@
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-079.png",
     "cost": 2,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-079"
   },
   {
     "name": "Elizabello II",
@@ -2343,7 +2440,8 @@
       "[When Attacking]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-080"
   },
   {
     "name": "One-Legged Toy Soldier",
@@ -2359,7 +2457,7 @@
     "family": [
       "Dressrosa"
     ],
-    "effect": "[Activate: Main] You may trash this Character: Give up to 1 of your opponent's Characters -3 cost during this turn.",
+    "effect": "[Activate: Main] You may trash this Character: Give up to 1 of your opponent's Characters −3 cost during this turn.",
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-081.png",
@@ -2367,7 +2465,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-081"
   },
   {
     "name": "Shirahoshi",
@@ -2391,7 +2490,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-082"
   },
   {
     "name": "Sterry",
@@ -2412,7 +2512,8 @@
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-083.png",
     "cost": 2,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-083"
   },
   {
     "name": "Saint Charlos",
@@ -2428,7 +2529,7 @@
     "family": [
       "Celestial Dragons"
     ],
-    "effect": "[Your Turn] If the only Characters on your field are {Celestial Dragons} type Characters, give all of your opponent's Characters -4 cost.",
+    "effect": "[Your Turn] If the only Characters on your field are {Celestial Dragons} type Characters, give all of your opponent's Characters −4 cost.",
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-084.png",
@@ -2436,7 +2537,8 @@
     "abilityKeywords": [
       "[Your Turn]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-084"
   },
   {
     "name": "Nefeltari Cobra",
@@ -2460,7 +2562,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-085"
   },
   {
     "name": "Nefeltari Vivi",
@@ -2484,7 +2587,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-086"
   },
   {
     "name": "Hakuba",
@@ -2501,7 +2605,7 @@
       "Dressrosa",
       "Beautiful Pirates"
     ],
-    "effect": "[DON!! x1] [When Attacking] You may K.O. 1 of your Characters other than this Character: Give up to 1 of your opponent's Characters -5 cost during this turn.",
+    "effect": "[DON!! x1] [When Attacking] You may K.O. 1 of your Characters other than this Character: Give up to 1 of your opponent's Characters −5 cost during this turn.",
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-087.png",
@@ -2510,7 +2614,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-087"
   },
   {
     "name": "Mansherry",
@@ -2535,7 +2640,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-088"
   },
   {
     "name": "Mansherry",
@@ -2560,7 +2666,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-088_p1"
   },
   {
     "name": "Saint Mjosgard",
@@ -2584,7 +2691,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-089"
   },
   {
     "name": "Riku Doldo III",
@@ -2609,7 +2717,8 @@
       "[Blocker]",
       "[On K.O.]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-090"
   },
   {
     "name": "Rebecca",
@@ -2633,7 +2742,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-091"
   },
   {
     "name": "Rebecca",
@@ -2657,7 +2767,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-091_p1"
   },
   {
     "name": "Saint Rosward",
@@ -2673,7 +2784,7 @@
     "family": [
       "Celestial Dragons"
     ],
-    "effect": "[Your Turn] If the only Characters on your field are {Celestial Dragons} type Characters, give all of your opponent's Characters -6 cost.",
+    "effect": "[Your Turn] If the only Characters on your field are {Celestial Dragons} type Characters, give all of your opponent's Characters −6 cost.",
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-092.png",
@@ -2681,7 +2792,8 @@
     "abilityKeywords": [
       "[Your Turn]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-092"
   },
   {
     "name": "Rob Lucci",
@@ -2702,7 +2814,8 @@
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-093.png",
     "cost": 4,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-093"
   },
   {
     "name": "Rob Lucci",
@@ -2723,7 +2836,8 @@
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-093_p1.png",
     "cost": 4,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-093_p1"
   },
   {
     "name": "Haute Couture Patch★Work",
@@ -2740,15 +2854,16 @@
       "The Tontattas",
       "Dressrosa"
     ],
-    "effect": "[Main] Give up to 1 of your opponent's Characters -3 cost during this turn. Then, up to 1 of your opponent's Characters with a cost of 0 will not become active in the next Refresh Phase.",
-    "trigger": "Draw 2 cards and trash 1 card from your hand.",
+    "effect": "[Main] Give up to 1 of your opponent's Characters −3 cost during this turn. Then, up to 1 of your opponent's Characters with a cost of 0 will not become active in the next Refresh Phase.",
+    "trigger": "Trigger[Trigger] Draw 2 cards and trash 1 card from your hand.",
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-094.png",
     "cost": 1,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-094"
   },
   {
     "name": "Dragon Claw",
@@ -2773,7 +2888,8 @@
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-095"
   },
   {
     "name": "I Bid 500 Million!!",
@@ -2790,14 +2906,15 @@
       "Celestial Dragons"
     ],
     "effect": "[Main] Choose one:• K.O. up to 1 of your opponent's Characters with a cost of 1 or less.• Return up to 1 of your opponent's Characters with a cost of 1 or less to the owner's hand.• Place up to 1 of your opponent's Characters with a cost of 1 or less at the top or bottom of their Life cards face-up.Then, if you have a {Celestial Dragons} type Character, draw 1 card.",
-    "trigger": "K.O. up to 1 of your opponent's Characters with a cost of 6 or less, or return it to the owner's hand.",
+    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 6 or less, or return it to the owner's hand.",
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-096.png",
     "cost": 3,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-096"
   },
   {
     "name": "Mary Geoise",
@@ -2821,7 +2938,8 @@
     "abilityKeywords": [
       "[Your Turn]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-097"
   },
   {
     "name": "Enel",
@@ -2846,7 +2964,8 @@
       "[Opponent's Turn]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-098"
   },
   {
     "name": "Enel",
@@ -2871,7 +2990,8 @@
       "[Opponent's Turn]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-098_p1"
   },
   {
     "name": "Amazon",
@@ -2887,7 +3007,7 @@
     "family": [
       "Sky Island"
     ],
-    "effect": "[On Your Opponent's Attack] You may rest this Character: Your opponent may trash 1 card from the top of their Life cards. If they do not, give up to 1 of your opponent's Leader or Character cards -2000 power during this turn.",
+    "effect": "[On Your Opponent's Attack] You may rest this Character: Your opponent may trash 1 card from the top of their Life cards. If they do not, give up to 1 of your opponent's Leader or Character cards −2000 power during this turn.",
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-099.png",
@@ -2895,7 +3015,8 @@
     "abilityKeywords": [
       "[On Your Opponent's Attack]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-099"
   },
   {
     "name": "Enel",
@@ -2920,7 +3041,8 @@
       "[Rush]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-100"
   },
   {
     "name": "Enel",
@@ -2945,7 +3067,8 @@
       "[Rush]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-100_p1"
   },
   {
     "name": "Ohm",
@@ -2967,7 +3090,8 @@
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-101.png",
     "cost": 4,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-101"
   },
   {
     "name": "Gedatsu",
@@ -2989,7 +3113,8 @@
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-102.png",
     "cost": 5,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-102"
   },
   {
     "name": "Gedatsu",
@@ -3011,7 +3136,8 @@
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-102_p1.png",
     "cost": 5,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-102_p1"
   },
   {
     "name": "Kotori",
@@ -3032,7 +3158,8 @@
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-103.png",
     "cost": 3,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-103"
   },
   {
     "name": "Conis",
@@ -3053,7 +3180,8 @@
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-104.png",
     "cost": 1,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-104"
   },
   {
     "name": "Satori",
@@ -3071,11 +3199,12 @@
       "Vassals"
     ],
     "effect": null,
-    "trigger": "You may trash 1 card from your hand: Play this card.",
+    "trigger": "Trigger[Trigger] You may trash 1 card from your hand: Play this card.",
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-105.png",
     "cost": 5,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-105"
   },
   {
     "name": "Shura",
@@ -3093,11 +3222,12 @@
       "Vassals"
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Sky Island} type card other than [Shura] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Play this card.",
+    "trigger": "Trigger[Trigger] Play this card.",
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-106.png",
     "cost": 2,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-106"
   },
   {
     "name": "Lieutenant Spacey",
@@ -3122,7 +3252,8 @@
       "[Your Turn]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-107"
   },
   {
     "name": "Nola",
@@ -3144,7 +3275,8 @@
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-108.png",
     "cost": 5,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-108"
   },
   {
     "name": "Pagaya",
@@ -3169,7 +3301,8 @@
       "[Trigger]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-109"
   },
   {
     "name": "Holly",
@@ -3191,7 +3324,8 @@
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-110.png",
     "cost": 3,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-110"
   },
   {
     "name": "Hotori",
@@ -3212,7 +3346,8 @@
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-111.png",
     "cost": 3,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-111"
   },
   {
     "name": "Captain McKinley",
@@ -3237,7 +3372,8 @@
       "[Blocker]",
       "[On K.O.]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-112"
   },
   {
     "name": "Yama",
@@ -3261,7 +3397,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-113"
   },
   {
     "name": "El Thor",
@@ -3278,14 +3415,15 @@
       "Sky Island"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if your opponent has 2 or less Life cards, that card gains an additional +2000 power during this battle.",
-    "trigger": "K.O. up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards.",
+    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards.",
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-114.png",
     "cost": 1,
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-114"
   },
   {
     "name": "Two-Hundred Million Volts Amaru",
@@ -3302,14 +3440,15 @@
       "Sky Island"
     ],
     "effect": "[Main] Up to 1 of your Leader or Character cards gains +3000 power during this turn. Then, if you have 1 or less Life cards, rest up to 1 of your opponent's Characters with a cost of 4 or less.",
-    "trigger": "You may trash 2 cards from your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
+    "trigger": "Trigger[Trigger] You may trash 2 cards from your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-115.png",
     "cost": 2,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-115"
   },
   {
     "name": "Hino Bird Zap",
@@ -3326,14 +3465,15 @@
       "Sky Island"
     ],
     "effect": "[Main] K.O. up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards.",
-    "trigger": "Activate this card's [Main] effect.",
+    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-116.png",
     "cost": 2,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-116"
   },
   {
     "name": "Upper Yard",
@@ -3354,7 +3494,8 @@
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-117.png",
     "cost": 1,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-117"
   },
   {
     "name": "Kaido",
@@ -3376,7 +3517,8 @@
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-118.png",
     "cost": 10,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-118"
   },
   {
     "name": "Kaido",
@@ -3398,7 +3540,8 @@
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-118_p1.png",
     "cost": 10,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-118_p1"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3415,7 +3558,7 @@
       "The Four Emperors",
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] DON!! -10: Place all of your Characters except this Character at the bottom of your deck in any order. Then, take an extra turn after this one.[Activate: Main] [Once Per Turn] ➀: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": "[On Play] DON!! −10: Place all of your Characters except this Character at the bottom of your deck in any order. Then, take an extra turn after this one.[Activate: Main] [Once Per Turn] ➀: Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-119.png",
@@ -3424,7 +3567,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-119"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3441,7 +3585,7 @@
       "The Four Emperors",
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] DON!! -10: Place all of your Characters except this Character at the bottom of your deck in any order. Then, take an extra turn after this one.[Activate: Main] [Once Per Turn] ➀: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": "[On Play] DON!! −10: Place all of your Characters except this Character at the bottom of your deck in any order. Then, take an extra turn after this one.[Activate: Main] [Once Per Turn] ➀: Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-119_p1.png",
@@ -3450,7 +3594,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-119_p1"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3467,7 +3612,7 @@
       "The Four Emperors",
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] DON!! -10: Place all of your Characters except this Character at the bottom of your deck in any order. Then, take an extra turn after this one.[Activate: Main] [Once Per Turn] ➀: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": "[On Play] DON!! −10: Place all of your Characters except this Character at the bottom of your deck in any order. Then, take an extra turn after this one.[Activate: Main] [Once Per Turn] ➀: Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-119_p2.png",
@@ -3476,7 +3621,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-119_p2"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3504,7 +3650,8 @@
       "[When Attacking]",
       "[DON!! x2]"
     ],
-    "expansionCode": "ST01"
+    "expansionCode": "ST01",
+    "id": "ST01-012_p2"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3532,7 +3679,8 @@
       "[When Attacking]",
       "[DON!! x2]"
     ],
-    "expansionCode": "ST01"
+    "expansionCode": "ST01",
+    "id": "ST01-012_p3"
   },
   {
     "name": "Nami",
@@ -3553,7 +3701,8 @@
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-016_p4.png",
     "cost": 1,
-    "expansionCode": "OP01"
+    "expansionCode": "OP01",
+    "id": "OP01-016_p4"
   },
   {
     "name": "Yamato",
@@ -3578,7 +3727,8 @@
       "[Double Attack]",
       "[Banish]"
     ],
-    "expansionCode": "OP01"
+    "expansionCode": "OP01",
+    "id": "OP01-121_p2"
   },
   {
     "name": "Uta",
@@ -3594,12 +3744,13 @@
     "family": [
       "FILM"
     ],
-    "effect": "[On Play] DON!! -2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your Leader and all of your Characters gain +1000 power until the start of your next turn.",
+    "effect": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your Leader and all of your Characters gain +1000 power until the start of your next turn.",
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-120_p2.png",
     "cost": 8,
-    "expansionCode": "OP02"
+    "expansionCode": "OP02",
+    "id": "OP02-120_p2"
   },
   {
     "name": "Rob Lucci",
@@ -3623,7 +3774,8 @@
     "abilityKeywords": [
       "[Rush]"
     ],
-    "expansionCode": "OP03"
+    "expansionCode": "OP03",
+    "id": "OP03-092_p2"
   },
   {
     "name": "Kaido",
@@ -3645,7 +3797,8 @@
     "setName": "AWAKENING OF THE NEW ERA [OP05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-044_p2.png",
     "cost": 10,
-    "expansionCode": "OP04"
+    "expansionCode": "OP04",
+    "id": "OP04-044_p2"
   },
   {
     "name": "Enel",
@@ -3670,6 +3823,7 @@
       "[Rush]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-100_p2"
   }
 ]

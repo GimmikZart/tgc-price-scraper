@@ -14,15 +14,16 @@
       "The Four Emperors",
       "Red-Haired Pirates"
     ],
-    "effect": "[Once Per Turn] This effect can be activated when your opponent attacks. Give up to 1 of your opponent's Leader or Character cards -1000 power during this turn.",
+    "effect": "[Once Per Turn] This effect can be activated when your opponent attacks. Give up to 1 of your opponent's Leader or Character cards −1000 power during this turn.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-001.png",
     "life": 5,
     "abilityKeywords": [
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-001"
   },
   {
     "name": "Shanks",
@@ -39,15 +40,16 @@
       "The Four Emperors",
       "Red-Haired Pirates"
     ],
-    "effect": "[Once Per Turn] This effect can be activated when your opponent attacks. Give up to 1 of your opponent's Leader or Character cards -1000 power during this turn.",
+    "effect": "[Once Per Turn] This effect can be activated when your opponent attacks. Give up to 1 of your opponent's Leader or Character cards −1000 power during this turn.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-001_p1.png",
     "life": 5,
     "abilityKeywords": [
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-001_p1"
   },
   {
     "name": "Uta",
@@ -65,10 +67,11 @@
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Red-Haired Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-002.png",
     "cost": 1,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-002"
   },
   {
     "name": "Uta",
@@ -86,10 +89,11 @@
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Red-Haired Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-002_p1.png",
     "cost": 1,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-002_p1"
   },
   {
     "name": "Shachi & Penguin",
@@ -105,15 +109,16 @@
     "family": [
       "Heart Pirates"
     ],
-    "effect": "[When Attacking] Give up to 1 of your opponent's Characters -2000 power during this turn.",
+    "effect": "[When Attacking] Give up to 1 of your opponent's Characters −2000 power during this turn.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-003.png",
     "cost": 4,
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-003"
   },
   {
     "name": "Shanks",
@@ -130,15 +135,16 @@
       "The Four Emperors",
       "Red-Haired Pirates"
     ],
-    "effect": "Give all of your opponent's Characters -1000 power.[Rush] (This card can attack on the turn in which it is played.)",
+    "effect": "Give all of your opponent's Characters −1000 power.[Rush] (This card can attack on the turn in which it is played.)",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-004.png",
     "cost": 10,
     "abilityKeywords": [
       "[Rush]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-004"
   },
   {
     "name": "Shanks",
@@ -155,15 +161,16 @@
       "The Four Emperors",
       "Red-Haired Pirates"
     ],
-    "effect": "Give all of your opponent's Characters -1000 power.[Rush] (This card can attack on the turn in which it is played.)",
+    "effect": "Give all of your opponent's Characters −1000 power.[Rush] (This card can attack on the turn in which it is played.)",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-004_p1.png",
     "cost": 10,
     "abilityKeywords": [
       "[Rush]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-004_p1"
   },
   {
     "name": "Shanks",
@@ -180,15 +187,16 @@
       "The Four Emperors",
       "Red-Haired Pirates"
     ],
-    "effect": "Give all of your opponent's Characters -1000 power.[Rush] (This card can attack on the turn in which it is played.)",
+    "effect": "Give all of your opponent's Characters −1000 power.[Rush] (This card can attack on the turn in which it is played.)",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-004_p2.png",
     "cost": 10,
     "abilityKeywords": [
       "[Rush]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-004_p2"
   },
   {
     "name": "Silvers Rayleigh",
@@ -206,13 +214,14 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] If your opponent has 2 or more Characters with a base power of 5000 or more, draw 2 cards and trash 1 card from your hand.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-005.png",
     "cost": 5,
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-005"
   },
   {
     "name": "Howling Gab",
@@ -230,10 +239,11 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-006.png",
     "cost": 5,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-006"
   },
   {
     "name": "Heat",
@@ -251,13 +261,14 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Up to 1 of your Leader with 4000 power or less gains +1000 power during this turn.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-007.png",
     "cost": 3,
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-007"
   },
   {
     "name": "Building Snake",
@@ -273,15 +284,16 @@
     "family": [
       "Red-Haired Pirates"
     ],
-    "effect": "[Activate: Main] You may place this Character at the bottom of the owner's deck: Give up to 1 of your opponent's Characters -3000 power during this turn.",
+    "effect": "[Activate: Main] You may place this Character at the bottom of the owner's deck: Give up to 1 of your opponent's Characters −3000 power during this turn.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-008.png",
     "cost": 1,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-008"
   },
   {
     "name": "Benn.Beckman",
@@ -299,10 +311,11 @@
     ],
     "effect": "[On Play] Trash up to 1 of your opponent's Characters with 6000 power or less.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-009.png",
     "cost": 7,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-009"
   },
   {
     "name": "Benn.Beckman",
@@ -320,10 +333,11 @@
     ],
     "effect": "[On Play] Trash up to 1 of your opponent's Characters with 6000 power or less.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-009_p1.png",
     "cost": 7,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-009_p1"
   },
   {
     "name": "Bonk Punch",
@@ -341,14 +355,15 @@
     ],
     "effect": "[On Play] Play up to 1 [Monster] from your hand.[DON!! x1] [When Attacking] This Character gains +2000 power during this turn.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-010.png",
     "cost": 4,
     "abilityKeywords": [
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-010"
   },
   {
     "name": "Hongo",
@@ -364,15 +379,16 @@
     "family": [
       "Red-Haired Pirates"
     ],
-    "effect": "[Activate: Main] You may rest this Character: If your Leader has the {Red-Haired Pirates} type, give up to 1 of your opponent's Characters -2000 power during this turn.",
+    "effect": "[Activate: Main] You may rest this Character: If your Leader has the {Red-Haired Pirates} type, give up to 1 of your opponent's Characters −2000 power during this turn.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-011.png",
     "cost": 3,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-011"
   },
   {
     "name": "Monster",
@@ -391,10 +407,11 @@
     ],
     "effect": "If your Character [Bonk Punch] would be K.O.'d by an effect, you may trash this Character instead.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-012.png",
     "cost": 3,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-012"
   },
   {
     "name": "Yasopp",
@@ -410,16 +427,17 @@
     "family": [
       "Red-Haired Pirates"
     ],
-    "effect": "[On Play] Up to 1 of your Leader gains +1000 power until the end of your opponent's next turn.[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters -1000 power during this turn.",
+    "effect": "[On Play] Up to 1 of your Leader gains +1000 power until the end of your opponent's next turn.[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −1000 power during this turn.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-013.png",
     "cost": 5,
     "abilityKeywords": [
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-013"
   },
   {
     "name": "Limejuice",
@@ -437,13 +455,14 @@
     ],
     "effect": "[On Play] Your opponent cannot activate up to 1 [Blocker] Character that has 4000 power or less during this turn.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-014.png",
     "cost": 3,
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-014"
   },
   {
     "name": "Lucky.Roux",
@@ -461,14 +480,15 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] If your Leader has the {Red-Haired Pirates} type, K.O. up to 1 of your opponent's Characters with a base power of 6000 or less.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-015.png",
     "cost": 4,
     "abilityKeywords": [
       "[Blocker]",
       "[On K.O.]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-015"
   },
   {
     "name": "Rockstar",
@@ -486,10 +506,11 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-016.png",
     "cost": 4,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-016"
   },
   {
     "name": "Wire",
@@ -507,14 +528,15 @@
     ],
     "effect": "[DON!! x1] If your Leader has 7000 power or more and the {Kid Pirates} type, this Character gains [Rush].",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-017.png",
     "cost": 4,
     "abilityKeywords": [
       "[Rush]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-017"
   },
   {
     "name": "Get Out of Here!",
@@ -532,13 +554,14 @@
     ],
     "effect": "[Main] K.O. up to 2 of your opponent's Characters with a total power of 4000 or less.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-018.png",
     "cost": 3,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-018"
   },
   {
     "name": "Nobody Hurts a Friend of Mine!!!!",
@@ -554,15 +577,16 @@
     "family": [
       "Red-Haired Pirates"
     ],
-    "effect": "[Main] If your Leader has the {Red-Haired Pirates} type, give up to 1 of your opponent's Characters -3000 power during this turn. Then, if your opponent has a Character with 5000 or more power, draw 1 card.",
-    "trigger": "Draw 1 card.",
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "effect": "[Main] If your Leader has the {Red-Haired Pirates} type, give up to 1 of your opponent's Characters −3000 power during this turn. Then, if your opponent has a Character with 5000 or more power, draw 1 card.",
+    "trigger": "Trigger[Trigger] Draw 1 card.",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-019.png",
     "cost": 2,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-019"
   },
   {
     "name": "Come On!! We'll Fight You!!",
@@ -580,14 +604,15 @@
       "Red-Haired Pirates"
     ],
     "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Red-Haired Pirates} type card other than [Come On!! We'll Fight You!!] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Draw 1 card.",
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "trigger": "Trigger[Trigger] Draw 1 card.",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-020.png",
     "cost": 1,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-020"
   },
   {
     "name": "Red Force",
@@ -603,15 +628,16 @@
     "family": [
       "Red-Haired Pirates"
     ],
-    "effect": "[Activate: Main] You may rest this Stage: If your Leader has the {Red-Haired Pirates} type, give up to 1 of your opponent's Characters -1000 power during this turn.",
+    "effect": "[Activate: Main] You may rest this Stage: If your Leader has the {Red-Haired Pirates} type, give up to 1 of your opponent's Characters −1000 power during this turn.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-021.png",
     "cost": 2,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-021"
   },
   {
     "name": "Lim",
@@ -630,14 +656,15 @@
     ],
     "effect": "Your Character cards are played rested.[Activate: Main] [Once Per Turn] You may rest 3 of your DON!! cards: Add up to 1 DON!! card from your DON!! deck and rest it, and play up to 1 {ODYSSEY} type Character card with a cost of 5 or less from your hand.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-022.png",
     "life": 4,
     "abilityKeywords": [
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-022"
   },
   {
     "name": "Lim",
@@ -656,14 +683,15 @@
     ],
     "effect": "Your Character cards are played rested.[Activate: Main] [Once Per Turn] You may rest 3 of your DON!! cards: Add up to 1 DON!! card from your DON!! deck and rest it, and play up to 1 {ODYSSEY} type Character card with a cost of 5 or less from your hand.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-022_p1.png",
     "life": 4,
     "abilityKeywords": [
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-022_p1"
   },
   {
     "name": "Adio",
@@ -681,14 +709,15 @@
     ],
     "effect": "[On Play] If your Leader has the {ODYSSEY} type, set up to 3 of your DON!! cards as active.[On Your Opponent's Attack] [Once Per Turn] You may rest 1 of your DON!! cards: Up to 1 of your Leader or Character cards gains +2000 power during this battle.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-023.png",
     "cost": 9,
     "abilityKeywords": [
       "[Once Per Turn]",
       "[On Your Opponent's Attack]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-023"
   },
   {
     "name": "Adio",
@@ -706,14 +735,15 @@
     ],
     "effect": "[On Play] If your Leader has the {ODYSSEY} type, set up to 3 of your DON!! cards as active.[On Your Opponent's Attack] [Once Per Turn] You may rest 1 of your DON!! cards: Up to 1 of your Leader or Character cards gains +2000 power during this battle.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-023_p1.png",
     "cost": 9,
     "abilityKeywords": [
       "[Once Per Turn]",
       "[On Your Opponent's Attack]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-023_p1"
   },
   {
     "name": "Usopp",
@@ -732,10 +762,11 @@
     ],
     "effect": "[On Play] If you have 2 or more rested Characters, draw 2 cards and trash 2 cards from your hand.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-024.png",
     "cost": 4,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-024"
   },
   {
     "name": "Crocodile",
@@ -755,10 +786,11 @@
     ],
     "effect": "If your Leader has the {ODYSSEY} type, this Character cannot be K.O.'d in battle by Leaders.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-025.png",
     "cost": 4,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-025"
   },
   {
     "name": "Sakazuki",
@@ -777,10 +809,11 @@
     ],
     "effect": "[On Play] If you have 2 or more rested Characters, K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-026.png",
     "cost": 6,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-026"
   },
   {
     "name": "Sabo",
@@ -799,14 +832,15 @@
     ],
     "effect": "[When Attacking] [Once Per Turn] If you have 3 or more rested Characters, draw 1 card.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-027.png",
     "cost": 5,
     "abilityKeywords": [
       "[When Attacking]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-027"
   },
   {
     "name": "Sanji",
@@ -825,13 +859,14 @@
     ],
     "effect": "[On K.O.] You may add 1 card from the top or bottom of your Life cards to your hand: Play up to 1 {ODYSSEY} or {Straw Hat Crew} type Character card with a cost of 4 or less from your trash rested.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-028.png",
     "cost": 5,
     "abilityKeywords": [
       "[On K.O.]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-028"
   },
   {
     "name": "Tony Tony.Chopper",
@@ -851,13 +886,14 @@
     ],
     "effect": "[End of Your Turn] Set up to 1 of your {ODYSSEY} type Characters with a cost of 4 or less as active.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-029.png",
     "cost": 3,
     "abilityKeywords": [
       "[End of Your Turn]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-029"
   },
   {
     "name": "Trafalgar Law",
@@ -877,10 +913,11 @@
     ],
     "effect": "[On Play] You may return 1 of your Characters to the owner's hand: Play up to 1 {ODYSSEY} type Character card with a cost of 3 or less other than [Trafalgar Law] from your hand.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-030.png",
     "cost": 3,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-030"
   },
   {
     "name": "Donquixote Doflamingo",
@@ -900,14 +937,15 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[End of Your Turn] If you have 2 or more rested Characters, set this Character as active.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-031.png",
     "cost": 5,
     "abilityKeywords": [
       "[Blocker]",
       "[End of Your Turn]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-031"
   },
   {
     "name": "Donquixote Rosinante",
@@ -927,7 +965,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Your Opponent's Attack] [Once Per Turn] Set this Character as active.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-032.png",
     "cost": 3,
     "abilityKeywords": [
@@ -935,7 +973,8 @@
       "[Once Per Turn]",
       "[On Your Opponent's Attack]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-032"
   },
   {
     "name": "Nico Robin",
@@ -954,10 +993,11 @@
     ],
     "effect": "[On Play] If you have 2 or more rested Characters, none of your {ODYSSEY} or {Straw Hat Crew} type Characters can be K.O.'d by effects until the end of your opponent's next turn.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-033.png",
     "cost": 4,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-033"
   },
   {
     "name": "Perona",
@@ -976,10 +1016,11 @@
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Dracule Mihawk] or {Thriller Bark Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order and trash 1 card from your hand.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-034.png",
     "cost": 1,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-034"
   },
   {
     "name": "Perona",
@@ -998,10 +1039,11 @@
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Dracule Mihawk] or {Thriller Bark Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order and trash 1 card from your hand.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-034_p1.png",
     "cost": 1,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-034_p1"
   },
   {
     "name": "Portgas.D.Ace",
@@ -1020,10 +1062,11 @@
     ],
     "effect": "[On Play] If you have 2 or more rested Characters, rest up to 1 of your opponent's Characters with a cost of 5 or less.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-035.png",
     "cost": 5,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-035"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -1043,10 +1086,11 @@
     ],
     "effect": "[On Play] If you have 2 or more rested Characters, rest up to 1 of your opponent's DON!! cards or Characters with a cost of 6 or less.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-036.png",
     "cost": 5,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-036"
   },
   {
     "name": "Lim",
@@ -1064,13 +1108,14 @@
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {ODYSSEY} type card other than [Lim] and add it to your hand. Then, place the rest at the bottom of your deck in any order.[End of Your Turn] If you have 3 or more rested Characters, set this Character as active.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-037.png",
     "cost": 3,
     "abilityKeywords": [
       "[End of Your Turn]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-037"
   },
   {
     "name": "Lim",
@@ -1088,13 +1133,14 @@
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {ODYSSEY} type card other than [Lim] and add it to your hand. Then, place the rest at the bottom of your deck in any order.[End of Your Turn] If you have 3 or more rested Characters, set this Character as active.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-037_p1.png",
     "cost": 3,
     "abilityKeywords": [
       "[End of Your Turn]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-037_p1"
   },
   {
     "name": "Rob Lucci",
@@ -1113,10 +1159,11 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-038.png",
     "cost": 4,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-038"
   },
   {
     "name": "Gum-Gum Cuatro Jet Cross Shock Bazooka",
@@ -1135,14 +1182,15 @@
       "Straw Hat Crew"
     ],
     "effect": "[Counter] If your Leader has the {ODYSSEY} type and you have 2 or more rested Characters, up to 1 of your Leader or Character cards gains +2000 power during this turn.",
-    "trigger": "K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-039.png",
     "cost": 1,
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-039"
   },
   {
     "name": "Thunder Lance Flip Caliber Phoenix Shot",
@@ -1161,14 +1209,15 @@
       "Straw Hat Crew"
     ],
     "effect": "[Main] If you have 2 or more rested Characters, K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
-    "trigger": "Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-040.png",
     "cost": 3,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-040"
   },
   {
     "name": "Soul Franky Swing Arm Boxing Solid",
@@ -1186,14 +1235,15 @@
       "Straw Hat Crew"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if your Leader has the {ODYSSEY} type and you have 2 or more rested Characters, set up to 2 of your Characters as active.",
-    "trigger": "Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-041.png",
     "cost": 1,
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-041"
   },
   {
     "name": "Buggy",
@@ -1212,13 +1262,14 @@
     ],
     "effect": "[Activate: Main] You may rest 5 of your DON!! cards and trash 1 card from your hand: Play up to 1 {Cross Guild} type Character card from your hand.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-042.png",
     "life": 5,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-042"
   },
   {
     "name": "Buggy",
@@ -1237,13 +1288,14 @@
     ],
     "effect": "[Activate: Main] You may rest 5 of your DON!! cards and trash 1 card from your hand: Play up to 1 {Cross Guild} type Character card from your hand.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-042_p1.png",
     "life": 5,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-042_p1"
   },
   {
     "name": "Alvida",
@@ -1261,13 +1313,14 @@
     ],
     "effect": "[On K.O.] If your Leader has the {Cross Guild} type, play up to 1 Character card with a cost of 5 or less other than [Alvida] from your hand.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-043.png",
     "cost": 5,
     "abilityKeywords": [
       "[On K.O.]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-043"
   },
   {
     "name": "Izo",
@@ -1286,13 +1339,14 @@
     ],
     "effect": "[When Attacking] Look at 5 cards from the top of your deck; reveal up to 1 {Land of Wano} type card or card with a type including \"Whitebeard Pirates\" and add it to your hand. Then, place the rest at the bottom of your deck in any order and trash 1 card from your hand.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-044.png",
     "cost": 3,
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-044"
   },
   {
     "name": "Cabaji",
@@ -1310,10 +1364,11 @@
     ],
     "effect": "If you have a [Buggy] or [Mohji] Character, this Character cannot be K.O.'d in battle.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-045.png",
     "cost": 5,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-045"
   },
   {
     "name": "Crocodile",
@@ -1332,10 +1387,11 @@
     ],
     "effect": "[On Play] Play up to 1 {Cross Guild} type Character card or Character card with a type including \"Baroque Works\" with a cost of 5 or less from your hand.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-046.png",
     "cost": 7,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-046"
   },
   {
     "name": "Crocodile",
@@ -1354,10 +1410,11 @@
     ],
     "effect": "[On Play] Play up to 1 {Cross Guild} type Character card or Character card with a type including \"Baroque Works\" with a cost of 5 or less from your hand.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-046_p1.png",
     "cost": 7,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-046_p1"
   },
   {
     "name": "Kouzuki Oden",
@@ -1376,14 +1433,15 @@
     ],
     "effect": "[Double Attack] (This card deals 2 damage.)[On K.O.] Draw 2 cards and trash 1 card from your hand.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-047.png",
     "cost": 9,
     "abilityKeywords": [
       "[Double Attack]",
       "[On K.O.]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-047"
   },
   {
     "name": "Dracule Mihawk",
@@ -1401,13 +1459,14 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Draw 2 cards and trash 1 card from your hand.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-048.png",
     "cost": 6,
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-048"
   },
   {
     "name": "Dracule Mihawk",
@@ -1425,13 +1484,14 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Draw 2 cards and trash 1 card from your hand.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-048_p1.png",
     "cost": 6,
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-048_p1"
   },
   {
     "name": "Jozu",
@@ -1449,10 +1509,11 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-049.png",
     "cost": 4,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-049"
   },
   {
     "name": "Nami",
@@ -1470,13 +1531,14 @@
     ],
     "effect": "[When Attacking] Look at 5 cards from the top of your deck; reveal up to 1 blue Event and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-050.png",
     "cost": 1,
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-050"
   },
   {
     "name": "Nami",
@@ -1494,13 +1556,14 @@
     ],
     "effect": "[When Attacking] Look at 5 cards from the top of your deck; reveal up to 1 blue Event and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-050_p1.png",
     "cost": 1,
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-050_p1"
   },
   {
     "name": "Buggy",
@@ -1519,10 +1582,11 @@
     ],
     "effect": "[On Play] Place up to 1 of your opponent's Characters at the bottom of the owner's deck. Then, if you do not have 5 Characters with a cost of 5 or more, place this Character at the bottom of the owner's deck.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-051.png",
     "cost": 10,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-051"
   },
   {
     "name": "Buggy",
@@ -1541,10 +1605,11 @@
     ],
     "effect": "[On Play] Place up to 1 of your opponent's Characters at the bottom of the owner's deck. Then, if you do not have 5 Characters with a cost of 5 or more, place this Character at the bottom of the owner's deck.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-051_p1.png",
     "cost": 10,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-051_p1"
   },
   {
     "name": "Buggy",
@@ -1563,10 +1628,11 @@
     ],
     "effect": "[On Play] Place up to 1 of your opponent's Characters at the bottom of the owner's deck. Then, if you do not have 5 Characters with a cost of 5 or more, place this Character at the bottom of the owner's deck.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-051_p2.png",
     "cost": 10,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-051_p2"
   },
   {
     "name": "Marco",
@@ -1584,13 +1650,14 @@
     ],
     "effect": "[Opponent's Turn] You may trash 1 card from your hand: When this Character is K.O.'d by your opponent's effect, play this Character card from your trash rested.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-052.png",
     "cost": 3,
     "abilityKeywords": [
       "[Opponent's Turn]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-052"
   },
   {
     "name": "Mohji",
@@ -1608,10 +1675,11 @@
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Richie] and add it to your hand. Then, place the rest at the bottom of your deck in any order and play up to 1 [Richie] from your hand.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-053.png",
     "cost": 5,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-053"
   },
   {
     "name": "Richie",
@@ -1630,13 +1698,14 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-054.png",
     "cost": 2,
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-054"
   },
   {
     "name": "Mr.1(Daz.Bonez)",
@@ -1655,10 +1724,11 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-055.png",
     "cost": 5,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-055"
   },
   {
     "name": "Mr.3(Galdino)",
@@ -1677,10 +1747,11 @@
     ],
     "effect": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 {Cross Guild} type card or card with a type including \"Baroque Works\" other than [Mr.3(Galdino)] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-056.png",
     "cost": 1,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-056"
   },
   {
     "name": "Cross Guild",
@@ -1697,14 +1768,15 @@
       "Cross Guild"
     ],
     "effect": "[Main] Look at 4 cards from the top of your deck; reveal up to 1 {Cross Guild} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Activate this card's [Main] effect.",
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-057.png",
     "cost": 1,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-057"
   },
   {
     "name": "Special Muggy Ball",
@@ -1721,14 +1793,15 @@
       "Buggy Pirates"
     ],
     "effect": "[Main] Return up to 1 of your opponent's Characters with a cost of 6 or less to the owner's hand.",
-    "trigger": "Return up to 1 Character with a cost of 3 or less to the owner's hand.",
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "trigger": "Trigger[Trigger] Return up to 1 Character with a cost of 3 or less to the owner's hand.",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-058.png",
     "cost": 2,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-058"
   },
   {
     "name": "Murder at the Steam Bath",
@@ -1745,14 +1818,15 @@
       "Buggy Pirates"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle. Then, trash up to 2 cards from your hand. Trash the same number of cards from the top of your deck as you did from your hand.",
-    "trigger": "Draw 1 card.",
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "trigger": "Trigger[Trigger] Draw 1 card.",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-059.png",
     "cost": 2,
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-059"
   },
   {
     "name": "Emptee Bluffs Island",
@@ -1770,13 +1844,14 @@
     ],
     "effect": "[Activate: Main] You may place 2 cards from your hand at the bottom of your deck in any order and rest this Stage: If your Leader has the {Cross Guild} type, draw 2 cards.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-060.png",
     "cost": 1,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-060"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -1796,7 +1871,7 @@
     ],
     "effect": "[DON!! x1] All of your Characters gain +1 cost.[Your Turn] [Once Per Turn] When 2 or more DON!! cards on your field are returned to your DON!! deck, add up to 1 DON!! card from your DON!! deck and set it as active, and add up to 1 additional DON!! card and rest it.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-061.png",
     "life": 4,
     "abilityKeywords": [
@@ -1804,7 +1879,8 @@
       "[Once Per Turn]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-061"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -1824,7 +1900,7 @@
     ],
     "effect": "[DON!! x1] All of your Characters gain +1 cost.[Your Turn] [Once Per Turn] When 2 or more DON!! cards on your field are returned to your DON!! deck, add up to 1 DON!! card from your DON!! deck and set it as active, and add up to 1 additional DON!! card and rest it.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-061_p1.png",
     "life": 4,
     "abilityKeywords": [
@@ -1832,7 +1908,8 @@
       "[Once Per Turn]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-061_p1"
   },
   {
     "name": "Nico Robin",
@@ -1851,7 +1928,7 @@
     ],
     "effect": "[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.)[When Attacking] You may trash 1 card with a [Trigger] from your hand: Add up to 1 DON!! card from your DON!! deck and rest it.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-062.png",
     "life": 4,
     "abilityKeywords": [
@@ -1859,7 +1936,8 @@
       "[Trigger]",
       "[When Attacking]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-062"
   },
   {
     "name": "Nico Robin",
@@ -1878,7 +1956,7 @@
     ],
     "effect": "[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.)[When Attacking] You may trash 1 card with a [Trigger] from your hand: Add up to 1 DON!! card from your DON!! deck and rest it.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-062_p1.png",
     "life": 4,
     "abilityKeywords": [
@@ -1886,7 +1964,8 @@
       "[Trigger]",
       "[When Attacking]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-062_p1"
   },
   {
     "name": "Usopp",
@@ -1904,10 +1983,11 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-063.png",
     "cost": 4,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-063"
   },
   {
     "name": "Killer",
@@ -1923,12 +2003,13 @@
     "family": [
       "Kid Pirates"
     ],
-    "effect": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Set up to 1 of your {Kid Pirates} type Leader as active.",
+    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Set up to 1 of your {Kid Pirates} type Leader as active.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-064.png",
     "cost": 5,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-064"
   },
   {
     "name": "Sanji",
@@ -1946,13 +2027,14 @@
     ],
     "effect": "[On Play] You may return 1 or more DON!! cards from your field to your DON!! deck: This Character gains [Rush] during this turn. Then, rest up to 1 of your opponent's Characters with a cost of 6 or less.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-065.png",
     "cost": 7,
     "abilityKeywords": [
       "[Rush]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-065"
   },
   {
     "name": "Sanji",
@@ -1970,13 +2052,14 @@
     ],
     "effect": "[On Play] You may return 1 or more DON!! cards from your field to your DON!! deck: This Character gains [Rush] during this turn. Then, rest up to 1 of your opponent's Characters with a cost of 6 or less.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-065_p1.png",
     "cost": 7,
     "abilityKeywords": [
       "[Rush]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-065_p1"
   },
   {
     "name": "Jean Bart",
@@ -1994,10 +2077,11 @@
     ],
     "effect": "[On Play] If your opponent has more DON!! cards on their field than you, K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-066.png",
     "cost": 4,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-066"
   },
   {
     "name": "Jinbe",
@@ -2016,10 +2100,11 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-067.png",
     "cost": 7,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-067"
   },
   {
     "name": "Tony Tony.Chopper",
@@ -2038,14 +2123,15 @@
     ],
     "effect": "[End of Your Turn] You may return 1 or more DON!! cards from your field to your DON!! deck: Set this Character as active. Then, this Character gains [Blocker] until the end of your opponent's next turn.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-068.png",
     "cost": 5,
     "abilityKeywords": [
       "[Blocker]",
       "[End of Your Turn]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-068"
   },
   {
     "name": "Trafalgar Law",
@@ -2063,10 +2149,11 @@
     ],
     "effect": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} or {Heart Pirates} type card with a cost of 2 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-069.png",
     "cost": 1,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-069"
   },
   {
     "name": "Trafalgar Law",
@@ -2084,10 +2171,11 @@
     ],
     "effect": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} or {Heart Pirates} type card with a cost of 2 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-069_p1.png",
     "cost": 1,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-069_p1"
   },
   {
     "name": "Nami",
@@ -2105,10 +2193,11 @@
     ],
     "effect": "[On Play] You may return 1 or more DON!! cards from your field to your DON!! deck: Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-070.png",
     "cost": 3,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-070"
   },
   {
     "name": "Nico Robin",
@@ -2126,13 +2215,14 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-071.png",
     "cost": 2,
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-071"
   },
   {
     "name": "Franky",
@@ -2148,15 +2238,16 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] DON!! -2, You may trash 1 card from your hand: Draw 2 cards.",
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] DON!! −2, You may trash 1 card from your hand: Draw 2 cards.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-072.png",
     "cost": 4,
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-072"
   },
   {
     "name": "Franky",
@@ -2172,15 +2263,16 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] DON!! -2, You may trash 1 card from your hand: Draw 2 cards.",
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] DON!! −2, You may trash 1 card from your hand: Draw 2 cards.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-072_p1.png",
     "cost": 4,
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-072_p1"
   },
   {
     "name": "Brook",
@@ -2196,15 +2288,16 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[When Attacking] You may return 1 or more DON!! cards from your field to your DON!! deck: Give up to 2 of your opponent's Characters -2000 power during this turn.",
+    "effect": "[When Attacking] You may return 1 or more DON!! cards from your field to your DON!! deck: Give up to 2 of your opponent's Characters −2000 power during this turn.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-073.png",
     "cost": 6,
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-073"
   },
   {
     "name": "Bepo",
@@ -2223,14 +2316,15 @@
     ],
     "effect": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, up to 1 of your Leader or Character cards gains +1000 power during this turn.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-074.png",
     "cost": 2,
     "abilityKeywords": [
       "[Your Turn]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-074"
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -2248,10 +2342,11 @@
     ],
     "effect": "[On Play] You may add 1 card from the top of your Life cards to your hand: If your Leader has the {Kid Pirates} type, add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-075.png",
     "cost": 3,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-075"
   },
   {
     "name": "Roronoa Zoro",
@@ -2269,10 +2364,11 @@
     ],
     "effect": "[On Play] You may return 1 or more DON!! cards from your field to your DON!! deck: Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-076.png",
     "cost": 3,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-076"
   },
   {
     "name": "Gum-Gum Lightning",
@@ -2289,15 +2385,16 @@
       "The Four Emperors",
       "Straw Hat Crew"
     ],
-    "effect": "[Main] DON!! -2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with 6000 power or less.",
-    "trigger": "Add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "effect": "[Main] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with 6000 power or less.",
+    "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-077.png",
     "cost": 2,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-077"
   },
   {
     "name": "Gum-Gum Giant",
@@ -2314,15 +2411,16 @@
       "The Four Emperors",
       "Straw Hat Crew"
     ],
-    "effect": "[Counter] DON!! -2, You may trash 1 card from your hand: If your Leader has the {Straw Hat Crew} type, up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, draw 2 cards.",
+    "effect": "[Counter] DON!! −2, You may trash 1 card from your hand: If your Leader has the {Straw Hat Crew} type, up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, draw 2 cards.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-078.png",
     "cost": 1,
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-078"
   },
   {
     "name": "Gum-Gum Jump Rope",
@@ -2339,15 +2437,16 @@
       "The Four Emperors",
       "Straw Hat Crew"
     ],
-    "effect": "[Main] DON!! -2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 1 of your opponent's Characters with a cost of 5 or less. Then, draw 1 card.",
-    "trigger": "Add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "effect": "[Main] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 1 of your opponent's Characters with a cost of 5 or less. Then, draw 1 card.",
+    "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-079.png",
     "cost": 2,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-079"
   },
   {
     "name": "Thousand Sunny",
@@ -2365,13 +2464,14 @@
     ],
     "effect": "[Opponent's Turn] You may rest this Stage: When your {Straw Hat Crew} type Character is removed from the field by your opponent's effect, add up to 1 DON!! card from your DON!! deck and rest it.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-080.png",
     "cost": 1,
     "abilityKeywords": [
       "[Opponent's Turn]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-080"
   },
   {
     "name": "Marshall.D.Teach",
@@ -2390,13 +2490,14 @@
     ],
     "effect": "Your [On Play] effects are negated.[Activate: Main] You may trash 1 card from your hand: Your opponent's [On Play] effects are negated until the end of your opponent's next turn.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-081.png",
     "life": 5,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-081"
   },
   {
     "name": "Marshall.D.Teach",
@@ -2415,13 +2516,14 @@
     ],
     "effect": "Your [On Play] effects are negated.[Activate: Main] You may trash 1 card from your hand: Your opponent's [On Play] effects are negated until the end of your opponent's next turn.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-081_p1.png",
     "life": 5,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-081_p1"
   },
   {
     "name": "Avalo Pizarro",
@@ -2439,10 +2541,11 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-082.png",
     "cost": 4,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-082"
   },
   {
     "name": "Van Augur",
@@ -2458,16 +2561,17 @@
     "family": [
       "Blackbeard Pirates"
     ],
-    "effect": "[Activate: Main] You may rest this Character: If your Leader has the {Blackbeard Pirates} type, give up to 1 of your opponent's Characters -3 cost during this turn.[On K.O.] Draw 1 card.",
+    "effect": "[Activate: Main] You may rest this Character: If your Leader has the {Blackbeard Pirates} type, give up to 1 of your opponent's Characters −3 cost during this turn.[On K.O.] Draw 1 card.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-083.png",
     "cost": 5,
     "abilityKeywords": [
       "[On K.O.]",
       "[Activate: Main]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-083"
   },
   {
     "name": "Catarina Devon",
@@ -2485,7 +2589,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] If your Leader has the {Blackbeard Pirates} type, this Character gains [Double Attack], [Banish] or [Blocker] until the end of your opponent's next turn.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-084.png",
     "cost": 5,
     "abilityKeywords": [
@@ -2495,7 +2599,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-084"
   },
   {
     "name": "Gecko Moria",
@@ -2513,10 +2618,11 @@
     ],
     "effect": "[On Play] Play up to 1 {Thriller Bark Pirates} type Character card with a cost of 2 or less from your trash rested.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-085.png",
     "cost": 4,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-085"
   },
   {
     "name": "Jesus Burgess",
@@ -2534,10 +2640,11 @@
     ],
     "effect": "This Character cannot be K.O.'d by your opponent's effects.If your Leader has the {Blackbeard Pirates} type, this Character gains +1000 power for every 4 cards in your trash.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-086.png",
     "cost": 4,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-086"
   },
   {
     "name": "Charlotte Pudding",
@@ -2555,10 +2662,11 @@
     ],
     "effect": "[On Play] If your opponent has 5 or more cards in their hand, your opponent trashes 1 card from their hand.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-087.png",
     "cost": 2,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-087"
   },
   {
     "name": "Shiryu",
@@ -2576,14 +2684,15 @@
     ],
     "effect": "[DON!! x1] [When Attacking] You may trash 2 cards from your hand: Draw 2 cards.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-088.png",
     "cost": 3,
     "abilityKeywords": [
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-088"
   },
   {
     "name": "Stronger",
@@ -2602,13 +2711,14 @@
     ],
     "effect": "[Activate: Main] You may trash 1 card from your hand and trash this Character: If your Leader has the {Blackbeard Pirates} type, draw 1 card. Then, give up to 1 of your opponent's Characters –2 cost during this turn.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-089.png",
     "cost": 1,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-089"
   },
   {
     "name": "Doc Q",
@@ -2626,14 +2736,15 @@
     ],
     "effect": "[Activate: Main] You may rest this Character: If your Leader has the {Blackbeard Pirates} type, K.O. up to 1 of your opponent's Characters with a cost of 1 or less.[On K.O.] Draw 1 card.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-090.png",
     "cost": 2,
     "abilityKeywords": [
       "[On K.O.]",
       "[Activate: Main]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-090"
   },
   {
     "name": "Vasco Shot",
@@ -2651,13 +2762,14 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-091.png",
     "cost": 2,
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-091"
   },
   {
     "name": "Marshall.D.Teach",
@@ -2675,13 +2787,14 @@
     ],
     "effect": "[Activate: Main] You may rest this Character: If the number of cards in your hand is at least 3 less than the number in your opponent's hand, draw 2 cards and trash 1 card from your hand.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-092.png",
     "cost": 3,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-092"
   },
   {
     "name": "Marshall.D.Teach",
@@ -2700,7 +2813,7 @@
     ],
     "effect": "[Blocker][Activate: Main] [Once Per Turn] If your Leader has the {Blackbeard Pirates} type and this Character was played on this turn, negate the effect of up to 1 of your opponent's Leader during this turn. Then, negate the effect of up to 1 of your opponent's Characters and that Character cannot attack until the end of your opponent's next turn.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-093.png",
     "cost": 10,
     "abilityKeywords": [
@@ -2708,7 +2821,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-093"
   },
   {
     "name": "Marshall.D.Teach",
@@ -2727,7 +2841,7 @@
     ],
     "effect": "[Blocker][Activate: Main] [Once Per Turn] If your Leader has the {Blackbeard Pirates} type and this Character was played on this turn, negate the effect of up to 1 of your opponent's Leader during this turn. Then, negate the effect of up to 1 of your opponent's Characters and that Character cannot attack until the end of your opponent's next turn.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-093_p1.png",
     "cost": 10,
     "abilityKeywords": [
@@ -2735,7 +2849,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-093_p1"
   },
   {
     "name": "Marshall.D.Teach",
@@ -2754,7 +2869,7 @@
     ],
     "effect": "[Blocker][Activate: Main] [Once Per Turn] If your Leader has the {Blackbeard Pirates} type and this Character was played on this turn, negate the effect of up to 1 of your opponent's Leader during this turn. Then, negate the effect of up to 1 of your opponent's Characters and that Character cannot attack until the end of your opponent's next turn.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-093_p2.png",
     "cost": 10,
     "abilityKeywords": [
@@ -2762,7 +2877,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-093_p2"
   },
   {
     "name": "Peachbeard",
@@ -2781,10 +2897,11 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-094.png",
     "cost": 3,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-094"
   },
   {
     "name": "Laffitte",
@@ -2802,13 +2919,14 @@
     ],
     "effect": "[Activate: Main] You may rest 1 of your DON!! cards and this Character: Look at 5 cards from the top of your deck; reveal up to 1 {Blackbeard Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-095.png",
     "cost": 1,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-095"
   },
   {
     "name": "My Era...Begins!!",
@@ -2825,14 +2943,15 @@
       "Blackbeard Pirates"
     ],
     "effect": "[Main] Look at 3 cards from the top of your deck; reveal up to 1 {Blackbeard Pirates} type card other than [My Era...Begins!!] and add it to your hand. Then, trash the rest.",
-    "trigger": "Activate this card's [Main] effect.",
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-096.png",
     "cost": 1,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-096"
   },
   {
     "name": "Black Vortex",
@@ -2848,15 +2967,16 @@
     "family": [
       "Blackbeard Pirates"
     ],
-    "effect": "[Counter] Negate the effect of up to 1 of your opponent's Leader or Character cards and give that card -4000 power during this turn.",
-    "trigger": "Negate the effect of up to 1 of your opponent's Leader or Character cards during this turn.",
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "effect": "[Counter] Negate the effect of up to 1 of your opponent's Leader or Character cards and give that card −4000 power during this turn.",
+    "trigger": "Trigger[Trigger] Negate the effect of up to 1 of your opponent's Leader or Character cards during this turn.",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-097.png",
     "cost": 2,
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-097"
   },
   {
     "name": "Black Hole",
@@ -2873,14 +2993,15 @@
       "Blackbeard Pirates"
     ],
     "effect": "[Main] If your Leader has the {Blackbeard Pirates} type, negate the effect of up to 1 of your opponent's Characters during this turn. Then, if that Character has a cost of 4 or less, K.O. it.",
-    "trigger": "Negate the effect of up to 1 of your opponent's Leader or Character cards during this turn.",
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "trigger": "Trigger[Trigger] Negate the effect of up to 1 of your opponent's Leader or Character cards during this turn.",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-098.png",
     "cost": 4,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-098"
   },
   {
     "name": "Fullalead",
@@ -2898,13 +3019,14 @@
     ],
     "effect": "[Activate: Main] You may trash 1 card from your hand and rest this Stage: Look at 3 cards from the top of your deck; reveal up to 1 {Blackbeard Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-099.png",
     "cost": 1,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-099"
   },
   {
     "name": "Karasu",
@@ -2921,14 +3043,15 @@
       "Revolutionary Army"
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
-    "trigger": "If your Leader has the {Revolutionary Army} type and you and your opponent have a total of 5 or less Life cards, play this card.",
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "trigger": "Trigger[Trigger] If your Leader has the {Revolutionary Army} type and you and your opponent have a total of 5 or less Life cards, play this card.",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-100.png",
     "cost": 3,
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-100"
   },
   {
     "name": "Kuzan",
@@ -2946,10 +3069,11 @@
     ],
     "effect": "[On Play] Place 1 of your opponent's Characters with a cost of 3 or less at the top or bottom of your opponent's Life cards face-up: Your opponent trashes 1 card from their hand.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-101.png",
     "cost": 4,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-101"
   },
   {
     "name": "Professor Clover",
@@ -2966,14 +3090,15 @@
       "Ohara"
     ],
     "effect": "[On Play] If your Leader is [Nico Robin], look at 3 cards from the top of your deck; reveal up to 1 card with a [Trigger] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Activate this card's [On Play] effect.",
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "trigger": "Trigger[Trigger] Activate this card's [On Play] effect.",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-102.png",
     "cost": 1,
     "abilityKeywords": [
       "[Trigger]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-102"
   },
   {
     "name": "Koala",
@@ -2991,13 +3116,14 @@
     ],
     "effect": "[Blocker][On Play] You may add 1 card from the top or bottom of your Life cards to your hand: Play up to 1 {Revolutionary Army} type Character card with a cost of 4 or less from your hand. If you do, draw 1 card.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-103.png",
     "cost": 6,
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-103"
   },
   {
     "name": "Koala",
@@ -3015,13 +3141,14 @@
     ],
     "effect": "[Blocker][On Play] You may add 1 card from the top or bottom of your Life cards to your hand: Play up to 1 {Revolutionary Army} type Character card with a cost of 4 or less from your hand. If you do, draw 1 card.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-103_p1.png",
     "cost": 6,
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-103_p1"
   },
   {
     "name": "Sabo",
@@ -3038,11 +3165,12 @@
       "Revolutionary Army"
     ],
     "effect": "[On Play] Add up to 1 {Revolutionary Army} type Character card from your hand to the top of your Life cards face-up. Then, if you have 2 or more Life cards, add 1 card from the top or bottom of your Life cards to your hand.",
-    "trigger": "If your Leader is multicolored, draw 2 cards.",
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "trigger": "Trigger[Trigger] If your Leader is multicolored, draw 2 cards.",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-104.png",
     "cost": 7,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-104"
   },
   {
     "name": "Sanji",
@@ -3060,11 +3188,12 @@
       "Straw Hat Crew"
     ],
     "effect": null,
-    "trigger": "If your Leader has the {Egghead} type, add up to 1 card from the top of your deck to the top of your Life cards. Then, trash 2 cards from your hand.",
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "trigger": "Trigger[Trigger] If your Leader has the {Egghead} type, add up to 1 card from the top of your deck to the top of your Life cards. Then, trash 2 cards from your hand.",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-105.png",
     "cost": 5,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-105"
   },
   {
     "name": "Nico Olvia",
@@ -3081,11 +3210,12 @@
       "Ohara"
     ],
     "effect": "[On Play] Up to 1 of your [Nico Robin] Leader gains +3000 power during this turn.",
-    "trigger": "If your Leader is [Nico Robin], draw 3 cards and trash 2 cards from your hand.",
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "trigger": "Trigger[Trigger] If your Leader is [Nico Robin], draw 3 cards and trash 2 cards from your hand.",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-106.png",
     "cost": 1,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-106"
   },
   {
     "name": "Nico Robin",
@@ -3102,11 +3232,12 @@
       "Straw Hat Crew"
     ],
     "effect": "[On Play] If your opponent has 3 or more Life cards, trash up to 1 card from the top of your opponent's Life cards.",
-    "trigger": "Play up to 1 yellow Character card with a cost of 3 or less from your hand.",
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "trigger": "Trigger[Trigger] Play up to 1 yellow Character card with a cost of 3 or less from your hand.",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-107.png",
     "cost": 6,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-107"
   },
   {
     "name": "Nico Robin",
@@ -3123,11 +3254,12 @@
       "Straw Hat Crew"
     ],
     "effect": "[On Play] If your opponent has 3 or more Life cards, trash up to 1 card from the top of your opponent's Life cards.",
-    "trigger": "Play up to 1 yellow Character card with a cost of 3 or less from your hand.",
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "trigger": "Trigger[Trigger] Play up to 1 yellow Character card with a cost of 3 or less from your hand.",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-107_p1.png",
     "cost": 6,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-107_p1"
   },
   {
     "name": "Bartholomew Kuma",
@@ -3145,11 +3277,12 @@
       "Revolutionary Army"
     ],
     "effect": null,
-    "trigger": "If your Leader has the {Revolutionary Army} type and you and your opponent have a total of 5 or less Life cards, play this card.",
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "trigger": "Trigger[Trigger] If your Leader has the {Revolutionary Army} type and you and your opponent have a total of 5 or less Life cards, play this card.",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-108.png",
     "cost": 4,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-108"
   },
   {
     "name": "Jaguar.D.Saul",
@@ -3168,14 +3301,15 @@
       "Navy"
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
-    "trigger": "If your Leader is [Nico Robin], play this card.",
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "trigger": "Trigger[Trigger] If your Leader is [Nico Robin], play this card.",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-109.png",
     "cost": 3,
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-109"
   },
   {
     "name": "Pierre",
@@ -3193,11 +3327,12 @@
       "Sky Island"
     ],
     "effect": "[On Play] Draw 2 cards and trash 2 cards from your hand.",
-    "trigger": "Play this card.",
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "trigger": "Trigger[Trigger] Play this card.",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-110.png",
     "cost": 2,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-110"
   },
   {
     "name": "Brook",
@@ -3215,11 +3350,12 @@
       "Straw Hat Crew"
     ],
     "effect": null,
-    "trigger": "If your Leader has the {Egghead} type and your opponent has 6 or more cards in their hand, your opponent trashes 2 cards from their hand.",
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "trigger": "Trigger[Trigger] If your Leader has the {Egghead} type and your opponent has 6 or more cards in their hand, your opponent trashes 2 cards from their hand.",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-111.png",
     "cost": 5,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-111"
   },
   {
     "name": "Belo Betty",
@@ -3236,11 +3372,12 @@
       "Revolutionary Army"
     ],
     "effect": "[On Play] If you have 2 or less Life cards, draw 1 card.",
-    "trigger": "If your Leader has the {Revolutionary Army} type and you and your opponent have a total of 5 or less Life cards, play this card.",
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "trigger": "Trigger[Trigger] If your Leader has the {Revolutionary Army} type and you and your opponent have a total of 5 or less Life cards, play this card.",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-112.png",
     "cost": 3,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-112"
   },
   {
     "name": "Morley",
@@ -3259,10 +3396,11 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-113.png",
     "cost": 4,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-113"
   },
   {
     "name": "Lindbergh",
@@ -3280,11 +3418,12 @@
       "Revolutionary Army"
     ],
     "effect": "[On Play] If you and your opponent have a total of 5 or less Life cards, K.O. up to 1 of your opponent's Characters with 2000 power or less.",
-    "trigger": "If you and your opponent have a total of 5 or less Life cards, play this card.",
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "trigger": "Trigger[Trigger] If you and your opponent have a total of 5 or less Life cards, play this card.",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-114.png",
     "cost": 3,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-114"
   },
   {
     "name": "Ice Block Partisan",
@@ -3301,15 +3440,16 @@
       "Navy"
     ],
     "effect": "[Main] K.O. up to 1 of your opponent's Characters with a cost of 3 or less and a [Trigger].",
-    "trigger": "Draw 1 card.",
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "trigger": "Trigger[Trigger] Draw 1 card.",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-115.png",
     "cost": 1,
     "abilityKeywords": [
       "[Trigger]",
       "[Main]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-115"
   },
   {
     "name": "Never Underestimate the Power of Miracles!!",
@@ -3326,14 +3466,15 @@
       "Revolutionary Army"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle.",
-    "trigger": "Play up to 1 {Revolutionary Army} type Character card with a cost of 4 or less from your hand.",
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "trigger": "Trigger[Trigger] Play up to 1 {Revolutionary Army} type Character card with a cost of 4 or less from your hand.",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-116.png",
     "cost": 1,
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-116"
   },
   {
     "name": "Dereshi!",
@@ -3350,15 +3491,16 @@
       "Ohara"
     ],
     "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 2 cards with a [Trigger] other than [Dereshi!] and add them to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Draw 1 card.",
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "trigger": "Trigger[Trigger] Draw 1 card.",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-117.png",
     "cost": 3,
     "abilityKeywords": [
       "[Trigger]",
       "[Main]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-117"
   },
   {
     "name": "Gol.D.Roger",
@@ -3377,14 +3519,15 @@
     ],
     "effect": "[Rush] (This card can attack on the turn in which it is played.)When your opponent activates [Blocker], if either you or your opponent has 0 Life cards, you win the game.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-118.png",
     "cost": 10,
     "abilityKeywords": [
       "[Rush]",
       "[Blocker]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-118"
   },
   {
     "name": "Gol.D.Roger",
@@ -3403,14 +3546,15 @@
     ],
     "effect": "[Rush] (This card can attack on the turn in which it is played.)When your opponent activates [Blocker], if either you or your opponent has 0 Life cards, you win the game.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-118_p1.png",
     "cost": 10,
     "abilityKeywords": [
       "[Rush]",
       "[Blocker]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-118_p1"
   },
   {
     "name": "Gol.D.Roger",
@@ -3429,14 +3573,15 @@
     ],
     "effect": "[Rush] (This card can attack on the turn in which it is played.)When your opponent activates [Blocker], if either you or your opponent has 0 Life cards, you win the game.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-118_p2.png",
     "cost": 10,
     "abilityKeywords": [
       "[Rush]",
       "[Blocker]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-118_p2"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3454,13 +3599,14 @@
     ],
     "effect": "[On Play] You may return 1 or more DON!! cards from your field to your DON!! deck: Draw 1 card and this Character gains [Rush] during this turn.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-119.png",
     "cost": 9,
     "abilityKeywords": [
       "[Rush]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-119"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3478,13 +3624,14 @@
     ],
     "effect": "[On Play] You may return 1 or more DON!! cards from your field to your DON!! deck: Draw 1 card and this Character gains [Rush] during this turn.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-119_p1.png",
     "cost": 9,
     "abilityKeywords": [
       "[Rush]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-119_p1"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3502,13 +3649,14 @@
     ],
     "effect": "[On Play] You may return 1 or more DON!! cards from your field to your DON!! deck: Draw 1 card and this Character gains [Rush] during this turn.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-119_p2.png",
     "cost": 9,
     "abilityKeywords": [
       "[Rush]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-119_p2"
   },
   {
     "name": "Zoro-Juurou",
@@ -3526,10 +3674,11 @@
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 purple {Straw Hat Crew} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST18-004_p1.png",
     "cost": 4,
-    "expansionCode": "ST18"
+    "expansionCode": "ST18",
+    "id": "ST18-004_p1"
   },
   {
     "name": "Donquixote Rosinante",
@@ -3548,13 +3697,14 @@
     ],
     "effect": "[Opponent's Turn] If this Character is rested, your active Characters with a base cost of 5 cannot be K.O.'d by effects.[On Play] You may rest this Character: Play up to 1 green Character card with a cost of 5 from your hand.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-119_p2.png",
     "cost": 8,
     "abilityKeywords": [
       "[Opponent's Turn]"
     ],
-    "expansionCode": "OP04"
+    "expansionCode": "OP04",
+    "id": "OP04-119_p2"
   },
   {
     "name": "Zoro-Juurou",
@@ -3572,13 +3722,14 @@
     ],
     "effect": "[When Attacking] If you have 3 or less Life cards, add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-067_p4.png",
     "cost": 3,
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-067_p4"
   },
   {
     "name": "Rob Lucci",
@@ -3596,10 +3747,11 @@
     ],
     "effect": "[On Play] You may place 3 cards from your trash at the bottom of your deck in any order: K.O. up to 1 of your opponent's Characters with a cost of 2 or less and up to 1 of your opponent's Characters with a cost of 1 or less.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-093_p2.png",
     "cost": 4,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-093_p2"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3616,16 +3768,17 @@
       "The Four Emperors",
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] DON!! -10: Place all of your Characters except this Character at the bottom of your deck in any order. Then, take an extra turn after this one.[Activate: Main] [Once Per Turn] You may rest 1 of your DON!! cards: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": "[On Play] DON!! −10: Place all of your Characters except this Character at the bottom of your deck in any order. Then, take an extra turn after this one.[Activate: Main] [Once Per Turn] You may rest 1 of your DON!! cards: Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-119_p6.png",
     "cost": 10,
     "abilityKeywords": [
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-119_p6"
   },
   {
     "name": "Monkey.D.Dragon",
@@ -3643,13 +3796,14 @@
     ],
     "effect": "[Rush] (This card can attack on the turn in which it is played.)[On Play] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-015_p2.png",
     "cost": 8,
     "abilityKeywords": [
       "[Rush]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-015_p2"
   },
   {
     "name": "Boa Hancock",
@@ -3668,10 +3822,11 @@
     ],
     "effect": "[On Play] Up to 1 of your opponent's Characters other than [Monkey.D.Luffy] cannot attack until the end of your opponent's next turn. Then, place up to 1 Character with a cost of 1 or less at the bottom of the owner's deck.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-051_p3.png",
     "cost": 6,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-051_p3"
   },
   {
     "name": "Nami",
@@ -3689,14 +3844,15 @@
       "Straw Hat Crew"
     ],
     "effect": "[On Play] You may trash 1 card with a [Trigger] from your hand: K.O. up to 1 of your opponent's Characters with a cost of 5 or less. Then, if you have 3 or less cards in your hand, draw 1 card.",
-    "trigger": "Activate this card's [On Play] effect.",
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "trigger": "Trigger[Trigger] Activate this card's [On Play] effect.",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-106_p2.png",
     "cost": 5,
     "abilityKeywords": [
       "[Trigger]"
     ],
-    "expansionCode": "OP08"
+    "expansionCode": "OP08",
+    "id": "OP08-106_p2"
   },
   {
     "name": "Shanks",
@@ -3713,15 +3869,16 @@
       "The Four Emperors",
       "Red-Haired Pirates"
     ],
-    "effect": "Give all of your opponent's Characters -1000 power.[Rush] (This card can attack on the turn in which it is played.)",
+    "effect": "Give all of your opponent's Characters −1000 power.[Rush] (This card can attack on the turn in which it is played.)",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-004_p3.png",
     "cost": 10,
     "abilityKeywords": [
       "[Rush]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-004_p3"
   },
   {
     "name": "Buggy",
@@ -3740,10 +3897,11 @@
     ],
     "effect": "[On Play] Place up to 1 of your opponent's Characters at the bottom of the owner's deck. Then, if you do not have 5 Characters with a cost of 5 or more, place this Character at the bottom of the owner's deck.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-051_p3.png",
     "cost": 10,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-051_p3"
   },
   {
     "name": "Marshall.D.Teach",
@@ -3762,7 +3920,7 @@
     ],
     "effect": "[Blocker][Activate: Main] [Once Per Turn] If your Leader has the {Blackbeard Pirates} type and this Character was played on this turn, negate the effect of up to 1 of your opponent's Leader during this turn. Then, negate the effect of up to 1 of your opponent's Characters and that Character cannot attack until the end of your opponent's next turn.",
     "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP09]",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-093_p3.png",
     "cost": 10,
     "abilityKeywords": [
@@ -3770,6 +3928,7 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-093_p3"
   }
 ]

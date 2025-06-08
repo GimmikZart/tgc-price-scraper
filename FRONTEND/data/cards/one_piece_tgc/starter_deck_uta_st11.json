@@ -19,7 +19,8 @@
     "setName": "Uta [ST11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-028_p1.png",
     "cost": 3,
-    "expansionCode": "OP02"
+    "expansionCode": "OP02",
+    "id": "OP02-028_p1"
   },
   {
     "name": "Jinbe",
@@ -42,7 +43,8 @@
     "setName": "Uta [ST11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-033_p1.png",
     "cost": 2,
-    "expansionCode": "OP02"
+    "expansionCode": "OP02",
+    "id": "OP02-033_p1"
   },
   {
     "name": "Tony Tony.Chopper",
@@ -69,7 +71,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP02"
+    "expansionCode": "OP02",
+    "id": "OP02-034_p1"
   },
   {
     "name": "Trafalgar Law",
@@ -95,7 +98,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP02"
+    "expansionCode": "OP02",
+    "id": "OP02-035_p2"
   },
   {
     "name": "Nico Robin",
@@ -117,7 +121,8 @@
     "setName": "Uta [ST11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-037_p1.png",
     "cost": 3,
-    "expansionCode": "OP02"
+    "expansionCode": "OP02",
+    "id": "OP02-037_p1"
   },
   {
     "name": "Franky",
@@ -139,7 +144,8 @@
     "setName": "Uta [ST11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-039_p1.png",
     "cost": 5,
-    "expansionCode": "OP02"
+    "expansionCode": "OP02",
+    "id": "OP02-039_p1"
   },
   {
     "name": "Brook",
@@ -161,7 +167,8 @@
     "setName": "Uta [ST11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-040_p1.png",
     "cost": 4,
-    "expansionCode": "OP02"
+    "expansionCode": "OP02",
+    "id": "OP02-040_p1"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -187,7 +194,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP02"
+    "expansionCode": "OP02",
+    "id": "OP02-041_p2"
   },
   {
     "name": "Roronoa Zoro",
@@ -210,7 +218,8 @@
     "setName": "Uta [ST11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-043_p1.png",
     "cost": 4,
-    "expansionCode": "OP02"
+    "expansionCode": "OP02",
+    "id": "OP02-043_p1"
   },
   {
     "name": "Three Sword Style Oni Giri",
@@ -229,14 +238,15 @@
       "Straw Hat Crew"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +6000 power during this battle. Then, play up to 1 Character card with a cost of 3 or less and no base effect from your hand.",
-    "trigger": "Rest up to 1 of your opponent's Leader or Character cards with a cost of 5 or less.",
+    "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Leader or Character cards with a cost of 5 or less.",
     "setName": "Uta [ST11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-045_p1.png",
     "cost": 3,
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "OP02"
+    "expansionCode": "OP02",
+    "id": "OP02-045_p1"
   },
   {
     "name": "Uta",
@@ -262,7 +272,8 @@
       "[Once Per Turn]",
       "[DON!! x1]"
     ],
-    "expansionCode": "ST11"
+    "expansionCode": "ST11",
+    "id": "ST11-001"
   },
   {
     "name": "Uta",
@@ -288,7 +299,8 @@
       "[Blocker]",
       "[End of Your Turn]"
     ],
-    "expansionCode": "ST11"
+    "expansionCode": "ST11",
+    "id": "ST11-002"
   },
   {
     "name": "Backlight",
@@ -313,7 +325,8 @@
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "ST11"
+    "expansionCode": "ST11",
+    "id": "ST11-003"
   },
   {
     "name": "New Genesis",
@@ -338,7 +351,8 @@
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "ST11"
+    "expansionCode": "ST11",
+    "id": "ST11-004"
   },
   {
     "name": "I'm invincible",
@@ -356,13 +370,14 @@
       "FILM"
     ],
     "effect": "[Main] Set up to 1 of your [Uta] Leader as active.",
-    "trigger": "Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "trigger": "Trigger[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
     "setName": "Uta [ST11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST11-005.png",
     "cost": 3,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "ST11"
+    "expansionCode": "ST11",
+    "id": "ST11-005"
   }
 ]

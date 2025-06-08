@@ -14,7 +14,7 @@
       "Animal",
       "Straw Hat Crew"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x2] [When Attacking] Give up to 1 of your opponent's Characters -3000 power during this turn.",
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x2] [When Attacking] Give up to 1 of your opponent's Characters −3000 power during this turn.",
     "trigger": null,
     "setName": "Treasure Cup November December",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-006_p3.png",
@@ -24,7 +24,8 @@
       "[When Attacking]",
       "[DON!! x2]"
     ],
-    "expansionCode": "EB01"
+    "expansionCode": "EB01",
+    "id": "EB01-006_p3"
   },
   {
     "name": "Cavendish",
@@ -49,7 +50,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "EB01"
+    "expansionCode": "EB01",
+    "id": "EB01-012_p3"
   },
   {
     "name": "Scratchmen Apoo",
@@ -71,7 +73,8 @@
     "setName": "Tournament Kit 2025 Vol.2",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-015_p1.png",
     "cost": 1,
-    "expansionCode": "EB01"
+    "expansionCode": "EB01",
+    "id": "EB01-015_p1"
   },
   {
     "name": "Scratchmen Apoo",
@@ -93,7 +96,8 @@
     "setName": "Winner Pack 2025 Vol.2",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-015_p2.png",
     "cost": 1,
-    "expansionCode": "EB01"
+    "expansionCode": "EB01",
+    "id": "EB01-015_p2"
   },
   {
     "name": "Spandine",
@@ -114,7 +118,8 @@
     "setName": "Offline Regional Participation Pack 2025 Vol.1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-043_p1.png",
     "cost": 3,
-    "expansionCode": "EB01"
+    "expansionCode": "EB01",
+    "id": "EB01-043_p1"
   },
   {
     "name": "Spandine",
@@ -135,7 +140,8 @@
     "setName": "Offline Regional Finalist Card Set 25 26 Season 1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-043_p2.png",
     "cost": 3,
-    "expansionCode": "EB01"
+    "expansionCode": "EB01",
+    "id": "EB01-043_p2"
   },
   {
     "name": "Spandine",
@@ -156,7 +162,8 @@
     "setName": "Offline Regional Champion Card Set 25 26 Season 1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-043_p3.png",
     "cost": 3,
-    "expansionCode": "EB01"
+    "expansionCode": "EB01",
+    "id": "EB01-043_p3"
   },
   {
     "name": "Spandine",
@@ -177,7 +184,8 @@
     "setName": "Online Regional Participation Pack 25 26 Season 1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-043_p4.png",
     "cost": 3,
-    "expansionCode": "EB01"
+    "expansionCode": "EB01",
+    "id": "EB01-043_p4"
   },
   {
     "name": "Spandine",
@@ -198,7 +206,8 @@
     "setName": "Online Regional Finalist Card Set 25 26 Season 1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-043_p5.png",
     "cost": 3,
-    "expansionCode": "EB01"
+    "expansionCode": "EB01",
+    "id": "EB01-043_p5"
   },
   {
     "name": "Spandine",
@@ -219,7 +228,8 @@
     "setName": "Online Regional Champion Card Set 25 26 Season 1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-043_p6.png",
     "cost": 3,
-    "expansionCode": "EB01"
+    "expansionCode": "EB01",
+    "id": "EB01-043_p6"
   },
   {
     "name": "Roronoa Zoro",
@@ -241,7 +251,8 @@
     "setName": "Tournament Pack 2025 Vol. 3",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB02-019_p1.png",
     "cost": 4,
-    "expansionCode": "EB02"
+    "expansionCode": "EB02",
+    "id": "EB02-019_p1"
   },
   {
     "name": "Roronoa Zoro",
@@ -263,7 +274,8 @@
     "setName": "Winner Pack 2025 Vol. 3",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB02-019_p2.png",
     "cost": 4,
-    "expansionCode": "EB02"
+    "expansionCode": "EB02",
+    "id": "EB02-019_p2"
   },
   {
     "name": "Jinbe",
@@ -281,11 +293,12 @@
       "Straw Hat Crew"
     ],
     "effect": null,
-    "trigger": "If your Leader has the {Fish-Man} or {Merfolk} type and you have 2 or less Life cards, play this card.",
+    "trigger": "Trigger[Trigger] If your Leader has the {Fish-Man} or {Merfolk} type and you have 2 or less Life cards, play this card.",
     "setName": "Tournament Pack 2025 Vol. 3",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB02-055_p1.png",
     "cost": 4,
-    "expansionCode": "EB02"
+    "expansionCode": "EB02",
+    "id": "EB02-055_p1"
   },
   {
     "name": "Jinbe",
@@ -303,11 +316,12 @@
       "Straw Hat Crew"
     ],
     "effect": null,
-    "trigger": "If your Leader has the {Fish-Man} or {Merfolk} type and you have 2 or less Life cards, play this card.",
+    "trigger": "Trigger[Trigger] If your Leader has the {Fish-Man} or {Merfolk} type and you have 2 or less Life cards, play this card.",
     "setName": "Winner Pack 2025 Vol. 3",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB02-055_p2.png",
     "cost": 4,
-    "expansionCode": "EB02"
+    "expansionCode": "EB02",
+    "id": "EB02-055_p2"
   },
   {
     "name": "Tony Tony.Chopper",
@@ -333,7 +347,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP01"
+    "expansionCode": "OP01",
+    "id": "OP01-015_p1"
   },
   {
     "name": "Franky",
@@ -357,7 +372,8 @@
     "abilityKeywords": [
       "[DON!! x1]"
     ],
-    "expansionCode": "OP01"
+    "expansionCode": "OP01",
+    "id": "OP01-021_p2"
   },
   {
     "name": "Izo",
@@ -379,7 +395,8 @@
     "setName": "Tournament Pack Vol.2",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-033_p1.png",
     "cost": 3,
-    "expansionCode": "OP01"
+    "expansionCode": "OP01",
+    "id": "OP01-033_p1"
   },
   {
     "name": "Okiku",
@@ -406,7 +423,8 @@
       "[Once Per Turn]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP01"
+    "expansionCode": "OP01",
+    "id": "OP01-035_p1"
   },
   {
     "name": "Kouzuki Momonosuke",
@@ -431,7 +449,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP01"
+    "expansionCode": "OP01",
+    "id": "OP01-041_p1"
   },
   {
     "name": "Raizo",
@@ -457,7 +476,8 @@
       "[When Attacking]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP01"
+    "expansionCode": "OP01",
+    "id": "OP01-052_p1"
   },
   {
     "name": "Dracule Mihawk",
@@ -478,7 +498,8 @@
     "setName": "Treasure Cup August – September",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-070_p2.png",
     "cost": 9,
-    "expansionCode": "OP01"
+    "expansionCode": "OP01",
+    "id": "OP01-070_p2"
   },
   {
     "name": "Sasaki",
@@ -503,7 +524,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP01"
+    "expansionCode": "OP01",
+    "id": "OP01-101_p1"
   },
   {
     "name": "Whitebeard Pirates",
@@ -520,14 +542,15 @@
       "Whitebeard Pirates"
     ],
     "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 Character card with a type including \"Whitebeard Pirates\" and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Activate this card's [Main] effect.",
+    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "ST15 20 Release Event",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-022_p1.png",
     "cost": 1,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP02"
+    "expansionCode": "OP02",
+    "id": "OP02-022_p1"
   },
   {
     "name": "Tony Tony.Chopper",
@@ -554,7 +577,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP02"
+    "expansionCode": "OP02",
+    "id": "OP02-034_p2"
   },
   {
     "name": "Trafalgar Law",
@@ -580,7 +604,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP02"
+    "expansionCode": "OP02",
+    "id": "OP02-035_p1"
   },
   {
     "name": "Mr.1(Daz.Bonez)",
@@ -602,7 +627,8 @@
     "setName": "Offline Regional Participation Pack 2024 Vol. 3",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-063_p1.png",
     "cost": 1,
-    "expansionCode": "OP02"
+    "expansionCode": "OP02",
+    "id": "OP02-063_p1"
   },
   {
     "name": "Koby",
@@ -623,7 +649,8 @@
     "setName": "Included in Online Regional Participation Pack Vol.1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-098_p1.png",
     "cost": 3,
-    "expansionCode": "OP02"
+    "expansionCode": "OP02",
+    "id": "OP02-098_p1"
   },
   {
     "name": "Tsuru",
@@ -639,12 +666,13 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] Give up to 1 of your opponent's Characters -2 cost during this turn.",
+    "effect": "[On Play] Give up to 1 of your opponent's Characters −2 cost during this turn.",
     "trigger": null,
     "setName": "Included in Event Pack Vol.2",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-106_p1.png",
     "cost": 1,
-    "expansionCode": "OP02"
+    "expansionCode": "OP02",
+    "id": "OP02-106_p1"
   },
   {
     "name": "Hatchan",
@@ -663,11 +691,12 @@
       "Arlong Pirates"
     ],
     "effect": null,
-    "trigger": "If your Leader has the {East Blue} type, play this card.",
+    "trigger": "Trigger[Trigger] If your Leader has the {East Blue} type, play this card.",
     "setName": "Tournament Pack Vol.6",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-033_p1.png",
     "cost": 4,
-    "expansionCode": "OP03"
+    "expansionCode": "OP03",
+    "id": "OP03-033_p1"
   },
   {
     "name": "Kaya",
@@ -688,7 +717,8 @@
     "setName": "Tournament Pack Vol.6",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-044_p1.png",
     "cost": 1,
-    "expansionCode": "OP03"
+    "expansionCode": "OP03",
+    "id": "OP03-044_p1"
   },
   {
     "name": "Fukurou",
@@ -712,7 +742,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP03"
+    "expansionCode": "OP03",
+    "id": "OP03-088_p1"
   },
   {
     "name": "Brannew",
@@ -733,7 +764,8 @@
     "setName": "Offline Regional Participation Pack 2024 Vol. 1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-089_p1.png",
     "cost": 2,
-    "expansionCode": "OP03"
+    "expansionCode": "OP03",
+    "id": "OP03-089_p1"
   },
   {
     "name": "Sanji",
@@ -758,7 +790,8 @@
       "[When Attacking]",
       "[DON!! x2]"
     ],
-    "expansionCode": "OP03"
+    "expansionCode": "OP03",
+    "id": "OP03-102_p1"
   },
   {
     "name": "Charlotte Pudding",
@@ -779,7 +812,8 @@
     "setName": "Regional 2024 wave2",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-112_p2.png",
     "cost": 1,
-    "expansionCode": "OP03"
+    "expansionCode": "OP03",
+    "id": "OP03-112_p2"
   },
   {
     "name": "Charlotte Pudding",
@@ -800,7 +834,8 @@
     "setName": "Tournament Pack 2024 Oct. Dec.",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-112_p3.png",
     "cost": 1,
-    "expansionCode": "OP03"
+    "expansionCode": "OP03",
+    "id": "OP03-112_p3"
   },
   {
     "name": "Charlotte Linlin",
@@ -822,7 +857,8 @@
     "setName": "Regional 2024 wave2",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-114_p3.png",
     "cost": 10,
-    "expansionCode": "OP03"
+    "expansionCode": "OP03",
+    "id": "OP03-114_p3"
   },
   {
     "name": "Shirahoshi",
@@ -839,11 +875,12 @@
       "Merfolk"
     ],
     "effect": "[On Play] Draw 3 cards and trash 2 cards from your hand.",
-    "trigger": "Play this card.",
+    "trigger": "Trigger[Trigger] Play this card.",
     "setName": "Tournament Pack Vol.6",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-116_p1.png",
     "cost": 5,
-    "expansionCode": "OP03"
+    "expansionCode": "OP03",
+    "id": "OP03-116_p1"
   },
   {
     "name": "Shirahoshi",
@@ -860,11 +897,12 @@
       "Merfolk"
     ],
     "effect": "[On Play] Draw 3 cards and trash 2 cards from your hand.",
-    "trigger": "Play this card.",
+    "trigger": "Trigger[Trigger] Play this card.",
     "setName": "Regionals Wave 3",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-116_p2.png",
     "cost": 5,
-    "expansionCode": "OP03"
+    "expansionCode": "OP03",
+    "id": "OP03-116_p2"
   },
   {
     "name": "Shirahoshi",
@@ -881,11 +919,12 @@
       "Merfolk"
     ],
     "effect": "[On Play] Draw 3 cards and trash 2 cards from your hand.",
-    "trigger": "Play this card.",
+    "trigger": "Trigger[Trigger] Play this card.",
     "setName": "ST15 20 Release Event",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-116_p3.png",
     "cost": 5,
-    "expansionCode": "OP03"
+    "expansionCode": "OP03",
+    "id": "OP03-116_p3"
   },
   {
     "name": "Charlotte Katakuri",
@@ -906,7 +945,8 @@
     "setName": "Regional 2024 wave2",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-123_p2.png",
     "cost": 8,
-    "expansionCode": "OP03"
+    "expansionCode": "OP03",
+    "id": "OP03-123_p2"
   },
   {
     "name": "Tony Tony.Chopper",
@@ -929,7 +969,8 @@
     "setName": "Tournament Pack 2024 Oct. Dec.",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-010_p1.png",
     "cost": 3,
-    "expansionCode": "OP04"
+    "expansionCode": "OP04",
+    "id": "OP04-010_p1"
   },
   {
     "name": "Sabo",
@@ -954,7 +995,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP04"
+    "expansionCode": "OP04",
+    "id": "OP04-083_p3"
   },
   {
     "name": "Rebecca",
@@ -975,7 +1017,8 @@
     "setName": "Tournament Kit 2025 Vol.2",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-092_p1.png",
     "cost": 1,
-    "expansionCode": "OP04"
+    "expansionCode": "OP04",
+    "id": "OP04-092_p1"
   },
   {
     "name": "Rebecca",
@@ -996,7 +1039,8 @@
     "setName": "Winner Pack 2025 Vol.2",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-092_p2.png",
     "cost": 1,
-    "expansionCode": "OP04"
+    "expansionCode": "OP04",
+    "id": "OP04-092_p2"
   },
   {
     "name": "Monet",
@@ -1021,7 +1065,8 @@
       "[Blocker]",
       "[On Block]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-036_p1"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -1046,7 +1091,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-060_p2"
   },
   {
     "name": "Zoro-Juurou",
@@ -1070,7 +1116,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-067_p2"
   },
   {
     "name": "Nefeltari Vivi",
@@ -1094,7 +1141,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-086_p1"
   },
   {
     "name": "Rebecca",
@@ -1118,7 +1166,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-091_p3"
   },
   {
     "name": "Shura",
@@ -1136,11 +1185,12 @@
       "Vassals"
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Sky Island} type card other than [Shura] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Play this card.",
+    "trigger": "Trigger[Trigger] Play this card.",
     "setName": "Tournament Pack Vol.7",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-106_p1.png",
     "cost": 2,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-106_p1"
   },
   {
     "name": "Vinsmoke Reiju",
@@ -1162,7 +1212,8 @@
     "setName": "Treasure Cup November December",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-069_p2.png",
     "cost": 4,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-069_p2"
   },
   {
     "name": "Perona",
@@ -1178,12 +1229,13 @@
     "family": [
       "Thriller Bark Pirates"
     ],
-    "effect": "[On Play] If your opponent has 5 or more cards in their hand, choose one:• Your opponent trashes 1 card from their hand.• Give up to 1 of your opponent's Characters -3 cost during this turn.",
+    "effect": "[On Play] If your opponent has 5 or more cards in their hand, choose one:• Your opponent trashes 1 card from their hand.• Give up to 1 of your opponent's Characters −3 cost during this turn.",
     "trigger": null,
     "setName": "Treasure Cup August – September",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-093_p3.png",
     "cost": 4,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-093_p3"
   },
   {
     "name": "Perona",
@@ -1199,12 +1251,13 @@
     "family": [
       "Thriller Bark Pirates"
     ],
-    "effect": "[On Play] If your opponent has 5 or more cards in their hand, choose one:• Your opponent trashes 1 card from their hand.• Give up to 1 of your opponent's Characters -3 cost during this turn.",
+    "effect": "[On Play] If your opponent has 5 or more cards in their hand, choose one:• Your opponent trashes 1 card from their hand.• Give up to 1 of your opponent's Characters −3 cost during this turn.",
     "trigger": null,
     "setName": "Store Treasure Cup August – September 2024",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-093_p4.png",
     "cost": 4,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-093_p4"
   },
   {
     "name": "O-Nami",
@@ -1221,14 +1274,15 @@
       "Straw Hat Crew"
     ],
     "effect": "[On Play] Up to 1 of your Leader or Character cards gains [Banish] during this turn.(When this card deals damage, the target card is trashed without activating its Trigger.)",
-    "trigger": "K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
     "setName": "Event Pack Vol.5",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-101_p3.png",
     "cost": 2,
     "abilityKeywords": [
       "[Banish]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-101_p3"
   },
   {
     "name": "Nekomamushi",
@@ -1247,14 +1301,15 @@
       "The Akazaya Nine"
     ],
     "effect": "[DON!! x2] This Character can also attack your opponent's active Characters.",
-    "trigger": "If your opponent has 3 or less Life cards, play this card.",
+    "trigger": "Trigger[Trigger] If your opponent has 3 or less Life cards, play this card.",
     "setName": "Offline Regional Participation Pack 2024 Vol. 3",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-110_p1.png",
     "cost": 4,
     "abilityKeywords": [
       "[DON!! x2]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-110_p1"
   },
   {
     "name": "Urouge",
@@ -1280,7 +1335,8 @@
       "[Blocker]",
       "[End of Your Turn]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-021_p1"
   },
   {
     "name": "Urouge",
@@ -1306,7 +1362,8 @@
       "[Blocker]",
       "[End of Your Turn]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-021_p3"
   },
   {
     "name": "Urouge",
@@ -1332,7 +1389,8 @@
       "[Blocker]",
       "[End of Your Turn]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-021_p4"
   },
   {
     "name": "Urouge",
@@ -1358,7 +1416,8 @@
       "[Blocker]",
       "[End of Your Turn]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-021_p5"
   },
   {
     "name": "Urouge",
@@ -1384,7 +1443,8 @@
       "[Blocker]",
       "[End of Your Turn]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-021_p6"
   },
   {
     "name": "Urouge",
@@ -1410,7 +1470,8 @@
       "[Blocker]",
       "[End of Your Turn]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-021_p7"
   },
   {
     "name": "Crocodile",
@@ -1432,7 +1493,8 @@
     "setName": "ST15 20 Release Event",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-040_p1.png",
     "cost": 4,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-040_p1"
   },
   {
     "name": "Portgas.D.Ace",
@@ -1456,7 +1518,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-053_p1"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -1480,7 +1543,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-091_p1"
   },
   {
     "name": "Edison",
@@ -1498,11 +1562,12 @@
       "Egghead"
     ],
     "effect": "[On Play] If you have 2 or less Life cards, draw 2 cards and trash 2 card from your hand.",
-    "trigger": "If your Leader is [Vegapunk], play this card.",
+    "trigger": "Trigger[Trigger] If your Leader is [Vegapunk], play this card.",
     "setName": "Tournament Pack 2024 Oct. Dec.",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-100_p1.png",
     "cost": 4,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-100_p1"
   },
   {
     "name": "Roronoa Zoro",
@@ -1520,11 +1585,12 @@
       "Straw Hat Crew"
     ],
     "effect": null,
-    "trigger": "If your Leader has the {Egghead} type, rest up to 1 of your opponent's Leader or Character cards.",
+    "trigger": "Trigger[Trigger] If your Leader has the {Egghead} type, rest up to 1 of your opponent's Leader or Character cards.",
     "setName": "ONE PIECE DAY Dallas  Card Game Celebration-",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-113_p1.png",
     "cost": 5,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-113_p1"
   },
   {
     "name": "Portgas.D.Ace",
@@ -1548,7 +1614,8 @@
     "abilityKeywords": [
       "[Rush]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-119_p2"
   },
   {
     "name": "Charlotte Katakuri",
@@ -1572,7 +1639,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP08"
+    "expansionCode": "OP08",
+    "id": "OP08-062_p1"
   },
   {
     "name": "Charlotte Katakuri",
@@ -1596,7 +1664,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP08"
+    "expansionCode": "OP08",
+    "id": "OP08-062_p2"
   },
   {
     "name": "Jack",
@@ -1620,7 +1689,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP08"
+    "expansionCode": "OP08",
+    "id": "OP08-084_p2"
   },
   {
     "name": "Wyper",
@@ -1642,7 +1712,8 @@
     "setName": "Tournament Kit 2025 Vol.2",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-110_p2.png",
     "cost": 4,
-    "expansionCode": "OP08"
+    "expansionCode": "OP08",
+    "id": "OP08-110_p2"
   },
   {
     "name": "Wyper",
@@ -1664,7 +1735,8 @@
     "setName": "Winner Pack 2025 Vol.2",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-110_p3.png",
     "cost": 4,
-    "expansionCode": "OP08"
+    "expansionCode": "OP08",
+    "id": "OP08-110_p3"
   },
   {
     "name": "Uta",
@@ -1685,7 +1757,8 @@
     "setName": "Treasure Cup February 2025",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-002_p2.png",
     "cost": 1,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-002_p2"
   },
   {
     "name": "Hongo",
@@ -1701,7 +1774,7 @@
     "family": [
       "Red-Haired Pirates"
     ],
-    "effect": "[Activate: Main] You may rest this Character: If your Leader has the {Red-Haired Pirates} type, give up to 1 of your opponent's Characters -2000 power during this turn.",
+    "effect": "[Activate: Main] You may rest this Character: If your Leader has the {Red-Haired Pirates} type, give up to 1 of your opponent's Characters −2000 power during this turn.",
     "trigger": null,
     "setName": "Tournament Kit 2025 Vol.2",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-011_p1.png",
@@ -1709,7 +1782,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-011_p1"
   },
   {
     "name": "Hongo",
@@ -1725,7 +1799,7 @@
     "family": [
       "Red-Haired Pirates"
     ],
-    "effect": "[Activate: Main] You may rest this Character: If your Leader has the {Red-Haired Pirates} type, give up to 1 of your opponent's Characters -2000 power during this turn.",
+    "effect": "[Activate: Main] You may rest this Character: If your Leader has the {Red-Haired Pirates} type, give up to 1 of your opponent's Characters −2000 power during this turn.",
     "trigger": null,
     "setName": "Winner Pack 2025 Vol.2",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-011_p2.png",
@@ -1733,7 +1807,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-011_p2"
   },
   {
     "name": "Nami",
@@ -1757,7 +1832,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-050_p2"
   },
   {
     "name": "Sanji",
@@ -1781,7 +1857,8 @@
     "abilityKeywords": [
       "[Rush]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-065_p2"
   },
   {
     "name": "Roronoa Zoro",
@@ -1802,7 +1879,8 @@
     "setName": "Regional 25 26 Season1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-076_p1.png",
     "cost": 3,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-076_p1"
   },
   {
     "name": "Nico Olvia",
@@ -1819,11 +1897,12 @@
       "Ohara"
     ],
     "effect": "[On Play] Up to 1 of your [Nico Robin] Leader gains +3000 power during this turn.",
-    "trigger": "If your Leader is [Nico Robin], draw 3 cards and trash 2 cards from your hand.",
+    "trigger": "Trigger[Trigger] If your Leader is [Nico Robin], draw 3 cards and trash 2 cards from your hand.",
     "setName": "Offline Regional Participation Pack 2025 Vol.1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-106_p1.png",
     "cost": 1,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-106_p1"
   },
   {
     "name": "Nico Olvia",
@@ -1840,11 +1919,12 @@
       "Ohara"
     ],
     "effect": "[On Play] Up to 1 of your [Nico Robin] Leader gains +3000 power during this turn.",
-    "trigger": "If your Leader is [Nico Robin], draw 3 cards and trash 2 cards from your hand.",
+    "trigger": "Trigger[Trigger] If your Leader is [Nico Robin], draw 3 cards and trash 2 cards from your hand.",
     "setName": "Offline Regional Finalist Card Set 25 26 Season 1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-106_p2.png",
     "cost": 1,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-106_p2"
   },
   {
     "name": "Nico Olvia",
@@ -1861,11 +1941,12 @@
       "Ohara"
     ],
     "effect": "[On Play] Up to 1 of your [Nico Robin] Leader gains +3000 power during this turn.",
-    "trigger": "If your Leader is [Nico Robin], draw 3 cards and trash 2 cards from your hand.",
+    "trigger": "Trigger[Trigger] If your Leader is [Nico Robin], draw 3 cards and trash 2 cards from your hand.",
     "setName": "Offline Regional Champion Card Set 25 26 Season 1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-106_p3.png",
     "cost": 1,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-106_p3"
   },
   {
     "name": "Nico Olvia",
@@ -1882,11 +1963,12 @@
       "Ohara"
     ],
     "effect": "[On Play] Up to 1 of your [Nico Robin] Leader gains +3000 power during this turn.",
-    "trigger": "If your Leader is [Nico Robin], draw 3 cards and trash 2 cards from your hand.",
+    "trigger": "Trigger[Trigger] If your Leader is [Nico Robin], draw 3 cards and trash 2 cards from your hand.",
     "setName": "Online Regional Participation Pack 25 26 Season 1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-106_p4.png",
     "cost": 1,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-106_p4"
   },
   {
     "name": "Nico Olvia",
@@ -1903,11 +1985,12 @@
       "Ohara"
     ],
     "effect": "[On Play] Up to 1 of your [Nico Robin] Leader gains +3000 power during this turn.",
-    "trigger": "If your Leader is [Nico Robin], draw 3 cards and trash 2 cards from your hand.",
+    "trigger": "Trigger[Trigger] If your Leader is [Nico Robin], draw 3 cards and trash 2 cards from your hand.",
     "setName": "Online Regional Finalist Card Set 25 26 Season 1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-106_p5.png",
     "cost": 1,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-106_p5"
   },
   {
     "name": "Nico Olvia",
@@ -1924,11 +2007,12 @@
       "Ohara"
     ],
     "effect": "[On Play] Up to 1 of your [Nico Robin] Leader gains +3000 power during this turn.",
-    "trigger": "If your Leader is [Nico Robin], draw 3 cards and trash 2 cards from your hand.",
+    "trigger": "Trigger[Trigger] If your Leader is [Nico Robin], draw 3 cards and trash 2 cards from your hand.",
     "setName": "Online Regional Champion Card Set 25 26 Season 1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-106_p6.png",
     "cost": 1,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-106_p6"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -1954,7 +2038,8 @@
       "[Rush]",
       "[DON!! x2]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-001"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -1980,7 +2065,8 @@
       "[Rush]",
       "[DON!! x2]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-001_p1"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -2006,7 +2092,8 @@
       "[Rush]",
       "[DON!! x2]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-001_p2"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -2032,7 +2119,8 @@
       "[Rush]",
       "[DON!! x2]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-001_p5"
   },
   {
     "name": "I Smell Adventure!!!",
@@ -2049,14 +2137,15 @@
       "Straw Hat Crew"
     ],
     "effect": "[Main] Return all cards in your hand to your deck and shuffle your deck. Then, draw cards equal to the number you returned to your deck.",
-    "trigger": "Activate this card's [Main] effect.",
+    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "Included in Promotion Pack 2022",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-002.png",
     "cost": 1,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-002"
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -2082,7 +2171,8 @@
       "[Double Attack]",
       "[DON!! x2]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-003"
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -2108,7 +2198,8 @@
       "[Double Attack]",
       "[DON!! x2]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-003_p1"
   },
   {
     "name": "Crocodile",
@@ -2134,7 +2225,8 @@
       "[Blocker]",
       "[DON!! x1]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-004"
   },
   {
     "name": "Kaido",
@@ -2151,7 +2243,7 @@
       "The Four Emperors",
       "Animal Kingdom Pirates"
     ],
-    "effect": "[Activate: Main]  DON!! -2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains [Banish] during this turn.(When this card deals damage, the target card is trashed without activating its Trigger.)",
+    "effect": "[Activate: Main]  DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains [Banish] during this turn.(When this card deals damage, the target card is trashed without activating its Trigger.)",
     "trigger": null,
     "setName": "Included in Promotion Pack 2022",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-005.png",
@@ -2160,7 +2252,8 @@
       "[Banish]",
       "[Activate: Main]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-005"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -2186,7 +2279,8 @@
       "[Your Turn]",
       "[DON!! x2]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-006"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -2211,7 +2305,8 @@
     "abilityKeywords": [
       "[DON!! x1]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-007"
   },
   {
     "name": "Yamato",
@@ -2235,7 +2330,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-008"
   },
   {
     "name": "Trafalgar Law",
@@ -2257,7 +2353,8 @@
     "setName": "Tournament Pack Vol.1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-009.png",
     "cost": 6,
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-009"
   },
   {
     "name": "Kaido",
@@ -2282,7 +2379,8 @@
     "abilityKeywords": [
       "[End of Your Turn]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-010"
   },
   {
     "name": "Uta",
@@ -2307,7 +2405,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-011"
   },
   {
     "name": "Jellyfish Pirates",
@@ -2329,7 +2428,8 @@
     "setName": "Included in FILM RED Promotion Card Set",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-012.png",
     "cost": 3,
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-012"
   },
   {
     "name": "Gordon",
@@ -2345,7 +2445,7 @@
     "family": [
       "FILM"
     ],
-    "effect": "[Activate: Main] You may place this Character at the bottom of the owner's deck: Give up to 1 of your opponent's Characters -3000 power during this turn.",
+    "effect": "[Activate: Main] You may place this Character at the bottom of the owner's deck: Give up to 1 of your opponent's Characters −3000 power during this turn.",
     "trigger": null,
     "setName": "Included in FILM RED Promotion Card Set",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-013.png",
@@ -2353,7 +2453,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-013"
   },
   {
     "name": "Koby",
@@ -2371,14 +2472,15 @@
       "Navy"
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
-    "trigger": "Play this card.",
+    "trigger": "Trigger[Trigger] Play this card.",
     "setName": "Included in FILM RED Promotion Card Set",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-014.png",
     "cost": 3,
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-014"
   },
   {
     "name": "Sunny-Kun",
@@ -2400,7 +2502,8 @@
     "setName": "Included in FILM RED Promotion Card Set",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-015.png",
     "cost": 1,
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-015"
   },
   {
     "name": "Shanks",
@@ -2423,7 +2526,8 @@
     "setName": "Included in FILM RED Promotion Card Set",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-016.png",
     "cost": 8,
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-016"
   },
   {
     "name": "Trafalgar Law",
@@ -2441,12 +2545,13 @@
       "Supernovas",
       "Heart Pirates"
     ],
-    "effect": "[On Play] Give up to 1 of your opponent's Characters -2000 power during this turn.",
+    "effect": "[On Play] Give up to 1 of your opponent's Characters −2000 power during this turn.",
     "trigger": null,
     "setName": "Included in FILM RED Promotion Card Set",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-017.png",
     "cost": 4,
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-017"
   },
   {
     "name": "Trafalgar Law",
@@ -2469,7 +2574,8 @@
     "setName": "Tournament Pack Vol.7",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-017_p1.png",
     "cost": 4,
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-017_p1"
   },
   {
     "name": "Bartolomeo",
@@ -2495,7 +2601,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-018"
   },
   {
     "name": "Bepo",
@@ -2522,7 +2629,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-019"
   },
   {
     "name": "Bepo",
@@ -2549,7 +2657,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-019_p1"
   },
   {
     "name": "Helmeppo",
@@ -2571,7 +2680,8 @@
     "setName": "Included in FILM RED Promotion Card Set",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-020.png",
     "cost": 1,
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-020"
   },
   {
     "name": "Benn.Beckman",
@@ -2593,7 +2703,8 @@
     "setName": "Included in FILM RED Promotion Card Set",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-021.png",
     "cost": 7,
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-021"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -2616,7 +2727,8 @@
     "setName": "Included in FILM RED Promotion Card Set",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-022.png",
     "cost": 4,
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-022"
   },
   {
     "name": "Yasopp",
@@ -2638,7 +2750,8 @@
     "setName": "Included in FILM RED Promotion Card Set",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-023.png",
     "cost": 6,
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-023"
   },
   {
     "name": "I'm Gonna Be King of the Pirates!!",
@@ -2656,14 +2769,15 @@
       "Straw Hat Crew"
     ],
     "effect": "[Main] Your Leader gains +1000 power for each of your Characters during this turn.",
-    "trigger": "Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "trigger": "Trigger[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
     "setName": "Included in Pirates Party Card Vol.1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-024.png",
     "cost": 2,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-024"
   },
   {
     "name": "Smoker",
@@ -2687,7 +2801,8 @@
     "abilityKeywords": [
       "[DON!! x1]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-025"
   },
   {
     "name": "Morgan",
@@ -2703,7 +2818,7 @@
     "family": [
       "Navy"
     ],
-    "effect": "[When Attacking] Give up to 1 of your opponent's Characters -3 cost during this turn.",
+    "effect": "[When Attacking] Give up to 1 of your opponent's Characters −3 cost during this turn.",
     "trigger": null,
     "setName": "Included in Pirates Party Card Vol.2",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-026.png",
@@ -2711,7 +2826,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-026"
   },
   {
     "name": "General Franky",
@@ -2735,7 +2851,8 @@
     "abilityKeywords": [
       "[Opponent's Turn]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-027"
   },
   {
     "name": "Portgas.D.Ace",
@@ -2759,7 +2876,8 @@
     "abilityKeywords": [
       "[Double Attack]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-028"
   },
   {
     "name": "Bartolomeo",
@@ -2785,7 +2903,8 @@
     "abilityKeywords": [
       "[End of Your Turn]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-029"
   },
   {
     "name": "Jinbe",
@@ -2811,7 +2930,8 @@
     "abilityKeywords": [
       "[On K.O.]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-030"
   },
   {
     "name": "Uta",
@@ -2832,7 +2952,8 @@
     "setName": "Included in Event Pack Vol.1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-031.png",
     "cost": 5,
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-031"
   },
   {
     "name": "Sengoku",
@@ -2848,7 +2969,7 @@
     "family": [
       "Navy"
     ],
-    "effect": "[DON!! x1] [Your Turn] Give all of your opponent's Characters -2 cost.",
+    "effect": "[DON!! x1] [Your Turn] Give all of your opponent's Characters −2 cost.",
     "trigger": null,
     "setName": "Included in Event Pack Vol.1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-032.png",
@@ -2857,7 +2978,8 @@
       "[Your Turn]",
       "[DON!! x1]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-032"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -2881,7 +3003,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-033"
   },
   {
     "name": "Sanji",
@@ -2906,7 +3029,8 @@
       "[Your Turn]",
       "[DON!! x1]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-034"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -2931,7 +3055,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-035"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -2956,7 +3081,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-036"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -2980,7 +3106,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-037"
   },
   {
     "name": "Bellamy",
@@ -3005,7 +3132,8 @@
       "[Banish]",
       "[DON!! x2]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-039"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3027,7 +3155,8 @@
     "setName": "Pirates Party Vol.5",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-041.png",
     "cost": 10,
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-041"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3049,7 +3178,8 @@
     "setName": "Offline Regional Participation Pack 2024 Vol. 2",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-041_p1.png",
     "cost": 10,
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-041_p1"
   },
   {
     "name": "Roronoa Zoro",
@@ -3067,11 +3197,12 @@
       "Straw Hat Crew"
     ],
     "effect": null,
-    "trigger": "K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
     "setName": "Event Pack Vol.3",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-042.png",
     "cost": 4,
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-042"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3092,7 +3223,8 @@
     "setName": "Dreamhack Dallas 2024",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-043.png",
     "cost": 7,
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-043"
   },
   {
     "name": "Roronoa Zoro",
@@ -3116,7 +3248,8 @@
     "abilityKeywords": [
       "[Banish]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-045"
   },
   {
     "name": "Roronoa Zoro",
@@ -3140,7 +3273,8 @@
     "abilityKeywords": [
       "[Banish]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-045_p1"
   },
   {
     "name": "Yamato",
@@ -3161,7 +3295,8 @@
     "setName": "Event Pack Vol.3",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-046.png",
     "cost": 1,
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-046"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3186,7 +3321,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-047"
   },
   {
     "name": "Arlong",
@@ -3212,7 +3348,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-048"
   },
   {
     "name": "Usopp",
@@ -3233,7 +3370,8 @@
     "setName": "Sealed Battle 2023 Vol.1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-049.png",
     "cost": 2,
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-049"
   },
   {
     "name": "Sanji",
@@ -3259,7 +3397,8 @@
       "[Your Turn]",
       "[DON!! x1]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-050"
   },
   {
     "name": "Shanks",
@@ -3283,7 +3422,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-051"
   },
   {
     "name": "Dracule Mihawk",
@@ -3307,7 +3447,8 @@
     "abilityKeywords": [
       "[DON!! x1]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-052"
   },
   {
     "name": "Nami",
@@ -3328,7 +3469,8 @@
     "setName": "Sealed Battle Kit Vol.1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-053.png",
     "cost": 1,
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-053"
   },
   {
     "name": "Monkey.D.Garp",
@@ -3352,7 +3494,8 @@
     "abilityKeywords": [
       "[DON!! x1]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-054"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3373,7 +3516,8 @@
     "setName": "Sealed Battle Kit Vol.1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-055.png",
     "cost": 4,
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-055"
   },
   {
     "name": "Roronoa Zoro",
@@ -3394,7 +3538,8 @@
     "setName": "Sealed Battle Kit Vol.1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-056.png",
     "cost": 4,
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-056"
   },
   {
     "name": "Fleeting Lullaby",
@@ -3412,14 +3557,15 @@
       "FILM"
     ],
     "effect": "[Main] If your Leader is [Uta], up to 2 of your opponent's rested Characters with a cost of 4 or less will not become active in your opponent's next Refresh Phase.",
-    "trigger": "Activate this card's [Main] effect.",
+    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "ST 11 Uta Deck Battle Participation Pack",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-057.png",
     "cost": 3,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-057"
   },
   {
     "name": "Where the Wind Blows",
@@ -3437,14 +3583,15 @@
       "FILM"
     ],
     "effect": "[Main] If your Leader is [Uta], set all of your {FILM} type Characters as active at the end of this turn.",
-    "trigger": "Set all of your {FILM} type Characters as active.",
+    "trigger": "Trigger[Trigger] Set all of your {FILM} type Characters as active.",
     "setName": "ST 11 Uta Deck Battle Participation Pack",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-058.png",
     "cost": 2,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-058"
   },
   {
     "name": "The World's Continuation",
@@ -3469,7 +3616,8 @@
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-059"
   },
   {
     "name": "Tot Musica",
@@ -3494,7 +3642,8 @@
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-060"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3516,7 +3665,8 @@
     "setName": "ST 11 Uta Deck Battle Participation Pack",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-061.png",
     "cost": 8,
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-061"
   },
   {
     "name": "Hody & Hyouzou",
@@ -3543,7 +3693,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-062"
   },
   {
     "name": "Tony Tony.Chopper",
@@ -3568,7 +3719,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-065"
   },
   {
     "name": "Sanji",
@@ -3593,7 +3745,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-068"
   },
   {
     "name": "Koala",
@@ -3618,7 +3771,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-069"
   },
   {
     "name": "Carrot",
@@ -3642,7 +3796,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-070"
   },
   {
     "name": "Marco",
@@ -3666,7 +3821,8 @@
     "abilityKeywords": [
       "[On K.O.]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-071"
   },
   {
     "name": "Sakazuki",
@@ -3692,7 +3848,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-076"
   },
   {
     "name": "Ulti",
@@ -3716,7 +3873,8 @@
     "abilityKeywords": [
       "[Once Per Turn]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-077"
   },
   {
     "name": "Adio",
@@ -3737,7 +3895,8 @@
     "setName": "Offline Regional Participation Pack 2025 Vol.1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-078.png",
     "cost": 4,
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-078"
   },
   {
     "name": "Adio",
@@ -3758,7 +3917,8 @@
     "setName": "Offline Regional Finalist Card Set 25 26 Season 1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-078_p1.png",
     "cost": 4,
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-078_p1"
   },
   {
     "name": "Adio",
@@ -3779,7 +3939,8 @@
     "setName": "Offline Regional Champion Card Set 25 26 Season 1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-078_p2.png",
     "cost": 4,
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-078_p2"
   },
   {
     "name": "Adio",
@@ -3800,7 +3961,8 @@
     "setName": "Online Regional Participation Pack 25 26 Season 1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-078_p3.png",
     "cost": 4,
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-078_p3"
   },
   {
     "name": "Adio",
@@ -3821,7 +3983,8 @@
     "setName": "Online Regional Finalist Card Set 25 26 Season 1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-078_p4.png",
     "cost": 4,
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-078_p4"
   },
   {
     "name": "Adio",
@@ -3842,7 +4005,8 @@
     "setName": "Online Regional Champion Card Set 25 26 Season 1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-078_p5.png",
     "cost": 4,
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-078_p5"
   },
   {
     "name": "Lim",
@@ -3867,7 +4031,8 @@
       "[Blocker]",
       "[End of Your Turn]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-079"
   },
   {
     "name": "Shanks",
@@ -3884,7 +4049,7 @@
       "The Four Emperors",
       "Red-Haired Pirates"
     ],
-    "effect": "[DON!! x1] [When Attacking] You may trash 1 Character card from your hand: Give up to 1 of your opponent's Characters -1000 power during this turn. Then, draw 1 card.",
+    "effect": "[DON!! x1] [When Attacking] You may trash 1 Character card from your hand: Give up to 1 of your opponent's Characters −1000 power during this turn. Then, draw 1 card.",
     "trigger": null,
     "setName": "Event Pack Vol.6",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-083.png",
@@ -3893,7 +4058,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-083"
   },
   {
     "name": "Sanji",
@@ -3918,7 +4084,8 @@
       "[Rush]",
       "[DON!! x2]"
     ],
-    "expansionCode": "ST01"
+    "expansionCode": "ST01",
+    "id": "ST01-004_p1"
   },
   {
     "name": "Nami",
@@ -3943,7 +4110,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "ST01"
+    "expansionCode": "ST01",
+    "id": "ST01-007_p2"
   },
   {
     "name": "Nami",
@@ -3968,7 +4136,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "ST01"
+    "expansionCode": "ST01",
+    "id": "ST01-007_p4"
   },
   {
     "name": "Nami",
@@ -3993,7 +4162,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "ST01"
+    "expansionCode": "ST01",
+    "id": "ST01-007_p5"
   },
   {
     "name": "Nefeltari Vivi",
@@ -4014,7 +4184,8 @@
     "setName": "Pre Release OP03",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-009_p1.png",
     "cost": 2,
-    "expansionCode": "ST01"
+    "expansionCode": "ST01",
+    "id": "ST01-009_p1"
   },
   {
     "name": "Brook",
@@ -4035,7 +4206,8 @@
     "setName": "Tournament Pack Vol.4",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-011_p2.png",
     "cost": 2,
-    "expansionCode": "ST01"
+    "expansionCode": "ST01",
+    "id": "ST01-011_p2"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -4063,7 +4235,8 @@
       "[When Attacking]",
       "[DON!! x2]"
     ],
-    "expansionCode": "ST01"
+    "expansionCode": "ST01",
+    "id": "ST01-012_p4"
   },
   {
     "name": "Gum-Gum Jet Pistol",
@@ -4081,14 +4254,15 @@
       "Straw Hat Crew"
     ],
     "effect": "[Main] K.O. up to 1 of your opponent's Characters with 6000 power or less.",
-    "trigger": "Activate this card's [Main] effect.",
+    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "Offline Regional Participation Pack 2024 Vol. 1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-015_p1.png",
     "cost": 4,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "ST01"
+    "expansionCode": "ST01",
+    "id": "ST01-015_p1"
   },
   {
     "name": "Jewelry Bonney",
@@ -4113,7 +4287,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "ST02"
+    "expansionCode": "ST02",
+    "id": "ST02-007_p1"
   },
   {
     "name": "Scratchmen Apoo",
@@ -4139,7 +4314,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "ST02"
+    "expansionCode": "ST02",
+    "id": "ST02-008_p1"
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -4166,7 +4342,8 @@
       "[End of Your Turn]",
       "[DON!! x1]"
     ],
-    "expansionCode": "ST02"
+    "expansionCode": "ST02",
+    "id": "ST02-013_p1"
   },
   {
     "name": "Crocodile",
@@ -4193,7 +4370,8 @@
       "[On Block]",
       "[DON!! x1]"
     ],
-    "expansionCode": "ST03"
+    "expansionCode": "ST03",
+    "id": "ST03-003_p1"
   },
   {
     "name": "Dracule Mihawk",
@@ -4218,7 +4396,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "ST03"
+    "expansionCode": "ST03",
+    "id": "ST03-005_p1"
   },
   {
     "name": "Sentomaru",
@@ -4244,7 +4423,8 @@
       "[Once Per Turn]",
       "[DON!! x1]"
     ],
-    "expansionCode": "ST03"
+    "expansionCode": "ST03",
+    "id": "ST03-007_p1"
   },
   {
     "name": "Trafalgar Law",
@@ -4269,7 +4449,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "ST03"
+    "expansionCode": "ST03",
+    "id": "ST03-008_p2"
   },
   {
     "name": "Trafalgar Law",
@@ -4294,7 +4475,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "ST03"
+    "expansionCode": "ST03",
+    "id": "ST03-008_p3"
   },
   {
     "name": "Marshall.D.Teach",
@@ -4316,7 +4498,8 @@
     "setName": "Included in Online Regional Participation Pack Vol.1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-014_p1.png",
     "cost": 4,
-    "expansionCode": "ST03"
+    "expansionCode": "ST03",
+    "id": "ST03-014_p1"
   },
   {
     "name": "Kaido",
@@ -4333,7 +4516,7 @@
       "The Four Emperors",
       "Animal Kingdom Pirates"
     ],
-    "effect": "[On Play] DON!! -5 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 6 or less. This Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+    "effect": "[On Play] DON!! −5 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 6 or less. This Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
     "trigger": null,
     "setName": "Tournament Pack Vol.5",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-003_p2.png",
@@ -4341,7 +4524,8 @@
     "abilityKeywords": [
       "[Rush]"
     ],
-    "expansionCode": "ST04"
+    "expansionCode": "ST04",
+    "id": "ST04-003_p2"
   },
   {
     "name": "Jack",
@@ -4362,7 +4546,8 @@
     "setName": "Included in Online Regional Participation Pack Vol.1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-008_p1.png",
     "cost": 3,
-    "expansionCode": "ST04"
+    "expansionCode": "ST04",
+    "id": "ST04-008_p1"
   },
   {
     "name": "Who's.Who",
@@ -4378,12 +4563,13 @@
     "family": [
       "Animal Kingdom Pirates"
     ],
-    "effect": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
-    "trigger": "Play this card.",
+    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "trigger": "Trigger[Trigger] Play this card.",
     "setName": "Tournament Pack Vol.3",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-010_p1.png",
     "cost": 3,
-    "expansionCode": "ST04"
+    "expansionCode": "ST04",
+    "id": "ST04-010_p1"
   },
   {
     "name": "Black Maria",
@@ -4407,7 +4593,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "ST04"
+    "expansionCode": "ST04",
+    "id": "ST04-011_p1"
   },
   {
     "name": "Tashigi",
@@ -4423,7 +4610,7 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters -2 cost during this turn.",
+    "effect": "[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −2 cost during this turn.",
     "trigger": null,
     "setName": "Tournament Pack Vol.4",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-006_p1.png",
@@ -4431,7 +4618,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "ST06"
+    "expansionCode": "ST06",
+    "id": "ST06-006_p1"
   },
   {
     "name": "Tashigi",
@@ -4447,7 +4635,7 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters -2 cost during this turn.",
+    "effect": "[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −2 cost during this turn.",
     "trigger": null,
     "setName": "ST15 20 Release Event",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-006_p3.png",
@@ -4455,7 +4643,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "ST06"
+    "expansionCode": "ST06",
+    "id": "ST06-006_p3"
   },
   {
     "name": "Charlotte Pudding",
@@ -4476,7 +4665,8 @@
     "setName": "Included in Online Regional Participation Pack Vol.1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-008_p1.png",
     "cost": 2,
-    "expansionCode": "ST07"
+    "expansionCode": "ST07",
+    "id": "ST07-008_p1"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -4502,7 +4692,8 @@
       "[Blocker]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "ST10"
+    "expansionCode": "ST10",
+    "id": "ST10-006_p1"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -4528,7 +4719,8 @@
       "[Blocker]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "ST10"
+    "expansionCode": "ST10",
+    "id": "ST10-006_p4"
   },
   {
     "name": "Trafalgar Law",
@@ -4544,7 +4736,7 @@
     "family": [
       "Heart Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your opponent has 7 or more cards in their hand, trash 2 cards from your opponent's hand.",
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your opponent has 7 or more cards in their hand, trash 2 cards from your opponent's hand.",
     "trigger": null,
     "setName": "Regional 2024 wave1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-010_p1.png",
@@ -4552,7 +4744,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "ST10"
+    "expansionCode": "ST10",
+    "id": "ST10-010_p1"
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -4568,7 +4761,7 @@
     "family": [
       "Kid Pirates"
     ],
-    "effect": "[On Play]/[When Attacking] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your Leader gains +1000 power until the start of your next turn.",
+    "effect": "[On Play]/[When Attacking] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your Leader gains +1000 power until the start of your next turn.",
     "trigger": null,
     "setName": "Regional 2024 wave1",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-013_p1.png",
@@ -4576,7 +4769,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "ST10"
+    "expansionCode": "ST10",
+    "id": "ST10-013_p1"
   },
   {
     "name": "Backlight",
@@ -4601,7 +4795,8 @@
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "ST11"
+    "expansionCode": "ST11",
+    "id": "ST11-003_p1"
   },
   {
     "name": "New Genesis",
@@ -4626,7 +4821,8 @@
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "ST11"
+    "expansionCode": "ST11",
+    "id": "ST11-004_p1"
   },
   {
     "name": "I'm invincible",
@@ -4644,14 +4840,15 @@
       "FILM"
     ],
     "effect": "[Main] Set up to 1 of your [Uta] Leader as active.",
-    "trigger": "Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "trigger": "Trigger[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
     "setName": "ST 11 Uta Deck Battle Participation Pack",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST11-005_p1.png",
     "cost": 3,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "ST11"
+    "expansionCode": "ST11",
+    "id": "ST11-005_p1"
   },
   {
     "name": "Roronoa Zoro",
@@ -4676,7 +4873,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "ST12"
+    "expansionCode": "ST12",
+    "id": "ST12-008_p1"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -4704,7 +4902,8 @@
       "[Once Per Turn]",
       "[DON!! x2]"
     ],
-    "expansionCode": "ST13"
+    "expansionCode": "ST13",
+    "id": "ST13-003_p2"
   },
   {
     "name": "San-Gorou",
@@ -4729,7 +4928,8 @@
       "[When Attacking]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "ST18"
+    "expansionCode": "ST18",
+    "id": "ST18-003_p1"
   },
   {
     "name": "Sengoku",
@@ -4750,7 +4950,8 @@
     "setName": "Tournament Pack 2025 Vol. 3",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST19-002_p1.png",
     "cost": 1,
-    "expansionCode": "ST19"
+    "expansionCode": "ST19",
+    "id": "ST19-002_p1"
   },
   {
     "name": "Sengoku",
@@ -4771,6 +4972,7 @@
     "setName": "Winner Pack 2025 Vol. 3",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST19-002_p2.png",
     "cost": 1,
-    "expansionCode": "ST19"
+    "expansionCode": "ST19",
+    "id": "ST19-002_p2"
   }
 ]

@@ -18,7 +18,8 @@
     "setName": "The Three Captains [ST10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-016_p3.png",
     "cost": 1,
-    "expansionCode": "OP01"
+    "expansionCode": "OP01",
+    "id": "OP01-016_p3"
   },
   {
     "name": "Roronoa Zoro",
@@ -43,7 +44,8 @@
     "abilityKeywords": [
       "[Rush]"
     ],
-    "expansionCode": "OP01"
+    "expansionCode": "OP01",
+    "id": "OP01-025_p2"
   },
   {
     "name": "Trafalgar Law",
@@ -60,7 +62,7 @@
     "family": [
       "Heart Pirates"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] DON!! -3 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Place up to 1 of your opponent's Characters with 3000 power or less at the bottom of the owner's deck, and play up to 1 Character card with a cost of 4 or less from your hand.",
+    "effect": "[Activate: Main] [Once Per Turn] DON!! −3 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Place up to 1 of your opponent's Characters with 3000 power or less at the bottom of the owner's deck, and play up to 1 Character card with a cost of 4 or less from your hand.",
     "trigger": null,
     "setName": "The Three Captains [ST10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-001.png",
@@ -69,7 +71,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "ST10"
+    "expansionCode": "ST10",
+    "id": "ST10-001"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -95,7 +98,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "ST10"
+    "expansionCode": "ST10",
+    "id": "ST10-002"
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -112,7 +116,7 @@
     "family": [
       "Kid Pirates"
     ],
-    "effect": "[Your Turn] If you have 4 or more Life cards, give this Leader -1000 power.[When Attacking] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Leader gains +2000 power during this turn.",
+    "effect": "[Your Turn] If you have 4 or more Life cards, give this Leader −1000 power.[When Attacking] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Leader gains +2000 power during this turn.",
     "trigger": null,
     "setName": "The Three Captains [ST10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-003.png",
@@ -121,7 +125,8 @@
       "[When Attacking]",
       "[Your Turn]"
     ],
-    "expansionCode": "ST10"
+    "expansionCode": "ST10",
+    "id": "ST10-003"
   },
   {
     "name": "Sanji",
@@ -145,7 +150,8 @@
     "abilityKeywords": [
       "[Rush]"
     ],
-    "expansionCode": "ST10"
+    "expansionCode": "ST10",
+    "id": "ST10-004"
   },
   {
     "name": "Jinbe",
@@ -162,7 +168,7 @@
       "Fish-Man",
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters -2000 power during this turn.",
+    "effect": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −2000 power during this turn.",
     "trigger": null,
     "setName": "The Three Captains [ST10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-005.png",
@@ -171,7 +177,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "ST10"
+    "expansionCode": "ST10",
+    "id": "ST10-005"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -197,7 +204,8 @@
       "[Blocker]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "ST10"
+    "expansionCode": "ST10",
+    "id": "ST10-006"
   },
   {
     "name": "Killer",
@@ -222,7 +230,8 @@
       "[Your Turn]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "ST10"
+    "expansionCode": "ST10",
+    "id": "ST10-007"
   },
   {
     "name": "Shachi & Penguin",
@@ -243,7 +252,8 @@
     "setName": "The Three Captains [ST10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-008.png",
     "cost": 4,
-    "expansionCode": "ST10"
+    "expansionCode": "ST10",
+    "id": "ST10-008"
   },
   {
     "name": "Jean Bart",
@@ -264,7 +274,8 @@
     "setName": "The Three Captains [ST10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-009.png",
     "cost": 4,
-    "expansionCode": "ST10"
+    "expansionCode": "ST10",
+    "id": "ST10-009"
   },
   {
     "name": "Trafalgar Law",
@@ -280,7 +291,7 @@
     "family": [
       "Heart Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your opponent has 7 or more cards in their hand, trash 2 cards from your opponent's hand.",
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your opponent has 7 or more cards in their hand, trash 2 cards from your opponent's hand.",
     "trigger": null,
     "setName": "The Three Captains [ST10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-010.png",
@@ -288,7 +299,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "ST10"
+    "expansionCode": "ST10",
+    "id": "ST10-010"
   },
   {
     "name": "Heat",
@@ -313,7 +325,8 @@
       "[Your Turn]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "ST10"
+    "expansionCode": "ST10",
+    "id": "ST10-011"
   },
   {
     "name": "Bepo",
@@ -338,7 +351,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "ST10"
+    "expansionCode": "ST10",
+    "id": "ST10-012"
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -354,7 +368,7 @@
     "family": [
       "Kid Pirates"
     ],
-    "effect": "[On Play]/[When Attacking] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your Leader gains +1000 power until the start of your next turn.",
+    "effect": "[On Play]/[When Attacking] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your Leader gains +1000 power until the start of your next turn.",
     "trigger": null,
     "setName": "The Three Captains [ST10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-013.png",
@@ -362,7 +376,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "ST10"
+    "expansionCode": "ST10",
+    "id": "ST10-013"
   },
   {
     "name": "Wire",
@@ -387,7 +402,8 @@
       "[Blocker]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "ST10"
+    "expansionCode": "ST10",
+    "id": "ST10-014"
   },
   {
     "name": "Gum-Gum Giant Sumo Slap",
@@ -411,7 +427,8 @@
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "ST10"
+    "expansionCode": "ST10",
+    "id": "ST10-015"
   },
   {
     "name": "Gum-Gum Kong Gatling",
@@ -428,14 +445,15 @@
       "Straw Hat Crew"
     ],
     "effect": "[Main] K.O. up to 1 of your opponent's Characters with 7000 power or less.",
-    "trigger": "Up to 1 of your Leader gains +1000 power until the end of your next turn.",
+    "trigger": "Trigger[Trigger] Up to 1 of your Leader gains +1000 power until the end of your next turn.",
     "setName": "The Three Captains [ST10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-016.png",
     "cost": 5,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "ST10"
+    "expansionCode": "ST10",
+    "id": "ST10-016"
   },
   {
     "name": "Punk Vise",
@@ -452,13 +470,14 @@
       "Kid Pirates"
     ],
     "effect": "[Main] Rest up to 1 of your opponent's Characters with a cost of 2 or less, and add up to 1 DON!! card from your DON!! deck and rest it.",
-    "trigger": "Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "setName": "The Three Captains [ST10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-017.png",
     "cost": 3,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "ST10"
+    "expansionCode": "ST10",
+    "id": "ST10-017"
   }
 ]

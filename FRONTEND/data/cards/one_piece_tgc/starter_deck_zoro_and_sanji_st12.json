@@ -24,7 +24,8 @@
       "[Once Per Turn]",
       "[DON!! x1]"
     ],
-    "expansionCode": "ST12"
+    "expansionCode": "ST12",
+    "id": "ST12-001"
   },
   {
     "name": "Kuina",
@@ -41,14 +42,15 @@
       "Frost Moon Village"
     ],
     "effect": "[Activate: Main] You may rest this Character: Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
-    "trigger": "Play this card.",
+    "trigger": "Trigger[Trigger] Play this card.",
     "setName": "Zoro & Sanji [ST12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST12-002.png",
     "cost": 3,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "ST12"
+    "expansionCode": "ST12",
+    "id": "ST12-002"
   },
   {
     "name": "Dracule Mihawk",
@@ -70,7 +72,8 @@
     "setName": "Zoro & Sanji [ST12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST12-003.png",
     "cost": 3,
-    "expansionCode": "ST12"
+    "expansionCode": "ST12",
+    "id": "ST12-003"
   },
   {
     "name": "Humandrill",
@@ -92,7 +95,8 @@
     "setName": "Zoro & Sanji [ST12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST12-004.png",
     "cost": 3,
-    "expansionCode": "ST12"
+    "expansionCode": "ST12",
+    "id": "ST12-004"
   },
   {
     "name": "Perona",
@@ -114,7 +118,8 @@
     "setName": "Zoro & Sanji [ST12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST12-005.png",
     "cost": 4,
-    "expansionCode": "ST12"
+    "expansionCode": "ST12",
+    "id": "ST12-005"
   },
   {
     "name": "Yosaku & Johnny",
@@ -139,7 +144,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "ST12"
+    "expansionCode": "ST12",
+    "id": "ST12-006"
   },
   {
     "name": "Rika",
@@ -160,7 +166,8 @@
     "setName": "Zoro & Sanji [ST12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST12-007.png",
     "cost": 2,
-    "expansionCode": "ST12"
+    "expansionCode": "ST12",
+    "id": "ST12-007"
   },
   {
     "name": "Roronoa Zoro",
@@ -185,7 +192,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "ST12"
+    "expansionCode": "ST12",
+    "id": "ST12-008"
   },
   {
     "name": "Elephant True Bluefin",
@@ -206,7 +214,8 @@
     "setName": "Zoro & Sanji [ST12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST12-009.png",
     "cost": 1,
-    "expansionCode": "ST12"
+    "expansionCode": "ST12",
+    "id": "ST12-009"
   },
   {
     "name": "Emporio.Ivankov",
@@ -232,7 +241,8 @@
       "[When Attacking]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "ST12"
+    "expansionCode": "ST12",
+    "id": "ST12-010"
   },
   {
     "name": "Sanji",
@@ -257,7 +267,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "ST12"
+    "expansionCode": "ST12",
+    "id": "ST12-011"
   },
   {
     "name": "Charlotte Pudding",
@@ -281,7 +292,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "ST12"
+    "expansionCode": "ST12",
+    "id": "ST12-012"
   },
   {
     "name": "Zeff",
@@ -305,7 +317,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "ST12"
+    "expansionCode": "ST12",
+    "id": "ST12-013"
   },
   {
     "name": "Duval",
@@ -329,7 +342,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "ST12"
+    "expansionCode": "ST12",
+    "id": "ST12-014"
   },
   {
     "name": "Patty & Carne",
@@ -350,7 +364,8 @@
     "setName": "Zoro & Sanji [ST12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST12-015.png",
     "cost": 2,
-    "expansionCode": "ST12"
+    "expansionCode": "ST12",
+    "id": "ST12-015"
   },
   {
     "name": "Lion Strike",
@@ -367,7 +382,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[Main]/[Counter] Rest up to 1 of your opponent's Leader or Character cards with a cost of 4 or less.",
-    "trigger": "Activate this card's [Main] effect.",
+    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "Zoro & Sanji [ST12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST12-016.png",
     "cost": 2,
@@ -375,7 +390,8 @@
       "[Main]",
       "[Counter]"
     ],
-    "expansionCode": "ST12"
+    "expansionCode": "ST12",
+    "id": "ST12-016"
   },
   {
     "name": "Plastic Surgery Shot",
@@ -399,6 +415,7 @@
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "ST12"
+    "expansionCode": "ST12",
+    "id": "ST12-017"
   }
 ]

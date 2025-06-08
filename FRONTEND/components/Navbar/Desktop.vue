@@ -1,7 +1,7 @@
 <script setup>
 import { useRouter } from "vue-router";
 import { useUserAuth } from "@/stores/useUserAuth";
-import { fetchCardsFromOfficialWebSite } from "@/api/cardsFromApi";
+import { downloadCardsFromOfficialWebSite } from "@/api/cardsFromApi";
 
 const router = useRouter();
 const userAuth = useUserAuth();
@@ -11,7 +11,7 @@ function goToLogsView() {
 }
 
 async function scrapaMaledetto() {
-  await fetchCardsFromOfficialWebSite();
+  await downloadCardsFromOfficialWebSite();
 }
 </script>
 <template>

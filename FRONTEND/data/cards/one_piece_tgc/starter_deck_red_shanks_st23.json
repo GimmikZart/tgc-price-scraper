@@ -14,7 +14,7 @@
       "The Four Emperors",
       "Red-Haired Pirates"
     ],
-    "effect": "[Once Per Turn] This effect can be activated when your opponent attacks. Give up to 1 of your opponent's Leader or Character cards -1000 power during this turn.",
+    "effect": "[Once Per Turn] This effect can be activated when your opponent attacks. Give up to 1 of your opponent's Leader or Character cards −1000 power during this turn.",
     "trigger": null,
     "setName": "RED Shanks [ST23]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-001_p2.png",
@@ -22,7 +22,8 @@
     "abilityKeywords": [
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-001_p2"
   },
   {
     "name": "Howling Gab",
@@ -43,7 +44,8 @@
     "setName": "RED Shanks [ST23]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-006_r1.png",
     "cost": 5,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-006_r1"
   },
   {
     "name": "Bonk Punch",
@@ -68,7 +70,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-010_r1"
   },
   {
     "name": "Hongo",
@@ -84,7 +87,7 @@
     "family": [
       "Red-Haired Pirates"
     ],
-    "effect": "[Activate: Main] You may rest this Character: If your Leader has the {Red-Haired Pirates} type, give up to 1 of your opponent's Characters -2000 power during this turn.",
+    "effect": "[Activate: Main] You may rest this Character: If your Leader has the {Red-Haired Pirates} type, give up to 1 of your opponent's Characters −2000 power during this turn.",
     "trigger": null,
     "setName": "RED Shanks [ST23]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-011_r1.png",
@@ -92,7 +95,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-011_r1"
   },
   {
     "name": "Monster",
@@ -114,7 +118,8 @@
     "setName": "RED Shanks [ST23]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-012_r1.png",
     "cost": 3,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-012_r1"
   },
   {
     "name": "Yasopp",
@@ -130,7 +135,7 @@
     "family": [
       "Red-Haired Pirates"
     ],
-    "effect": "[On Play] Up to 1 of your Leader gains +1000 power until the end of your opponent's next turn.[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters -1000 power during this turn.",
+    "effect": "[On Play] Up to 1 of your Leader gains +1000 power until the end of your opponent's next turn.[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −1000 power during this turn.",
     "trigger": null,
     "setName": "RED Shanks [ST23]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-013_r1.png",
@@ -139,7 +144,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-013_r1"
   },
   {
     "name": "Limejuice",
@@ -163,7 +169,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-014_r1"
   },
   {
     "name": "Lucky.Roux",
@@ -188,7 +195,8 @@
       "[Blocker]",
       "[On K.O.]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-015_r1"
   },
   {
     "name": "Rockstar",
@@ -209,7 +217,8 @@
     "setName": "RED Shanks [ST23]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-016_r1.png",
     "cost": 4,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-016_r1"
   },
   {
     "name": "Come On!! We'll Fight You!!",
@@ -227,14 +236,15 @@
       "Red-Haired Pirates"
     ],
     "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Red-Haired Pirates} type card other than [Come On!! We'll Fight You!!] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Draw 1 card.",
+    "trigger": "Trigger[Trigger] Draw 1 card.",
     "setName": "RED Shanks [ST23]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-020_r1.png",
     "cost": 1,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-020_r1"
   },
   {
     "name": "Uta",
@@ -250,7 +260,7 @@
     "family": [
       "FILM"
     ],
-    "effect": "If you have a Character with 10000 power or more, give this card in your hand -4 cost.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": "If you have a Character with 10000 power or more, give this card in your hand −4 cost.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
     "setName": "RED Shanks [ST23]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST23-001.png",
@@ -258,7 +268,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "ST23"
+    "expansionCode": "ST23",
+    "id": "ST23-001"
   },
   {
     "name": "Shanks",
@@ -275,12 +286,13 @@
       "The Four Emperors",
       "Red-Haired Pirates"
     ],
-    "effect": "If your opponent has a Character with 8000 base power or more, give this card in your hand -3 cost.[On Play] If your Leader has the {Red-Haired Pirates} type or is [Uta], your Leader gains +2000 power until the end of your opponent's next End Phase.",
+    "effect": "If your opponent has a Character with 8000 base power or more, give this card in your hand −3 cost.[On Play] If your Leader has the {Red-Haired Pirates} type or is [Uta], your Leader gains +2000 power until the end of your opponent's next End Phase.",
     "trigger": null,
     "setName": "RED Shanks [ST23]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST23-002.png",
     "cost": 9,
-    "expansionCode": "ST23"
+    "expansionCode": "ST23",
+    "id": "ST23-002"
   },
   {
     "name": "Benn.Beckman",
@@ -301,7 +313,8 @@
     "setName": "RED Shanks [ST23]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST23-003.png",
     "cost": 4,
-    "expansionCode": "ST23"
+    "expansionCode": "ST23",
+    "id": "ST23-003"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -319,7 +332,7 @@
       "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "[Activate: Main] You may rest 1 of your DON!! cards and this Character: Give up to 1 of your opponent's Characters -1000 power during this turn.",
+    "effect": "[Activate: Main] You may rest 1 of your DON!! cards and this Character: Give up to 1 of your opponent's Characters −1000 power during this turn.",
     "trigger": null,
     "setName": "RED Shanks [ST23]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST23-004.png",
@@ -327,7 +340,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "ST23"
+    "expansionCode": "ST23",
+    "id": "ST23-004"
   },
   {
     "name": "Yasopp",
@@ -352,6 +366,7 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "ST23"
+    "expansionCode": "ST23",
+    "id": "ST23-005"
   }
 ]

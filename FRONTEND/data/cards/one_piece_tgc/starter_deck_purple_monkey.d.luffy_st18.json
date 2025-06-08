@@ -22,7 +22,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-060_p3"
   },
   {
     "name": "Uso-Hachi",
@@ -47,7 +48,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-061_r1"
   },
   {
     "name": "O-Robi",
@@ -68,7 +70,8 @@
     "setName": "Purple Monkey.D.Luffy [ST18]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-063_r1.png",
     "cost": 4,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-063_r1"
   },
   {
     "name": "Jinbe",
@@ -94,7 +97,8 @@
       "[Blocker]",
       "[Opponent's Turn]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-066_r1"
   },
   {
     "name": "Zoro-Juurou",
@@ -118,7 +122,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-067_r1"
   },
   {
     "name": "Chopa-Emon",
@@ -140,7 +145,8 @@
     "setName": "Purple Monkey.D.Luffy [ST18]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-068_r1.png",
     "cost": 2,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-068_r1"
   },
   {
     "name": "Fra-Nosuke",
@@ -165,7 +171,8 @@
       "[Rush]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-070_r1"
   },
   {
     "name": "Hone-Kichi",
@@ -181,12 +188,13 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] If you have 8 or more DON!! cards on your field, give up to 2 of your opponent's Characters -2000 power during this turn.",
+    "effect": "[On Play] If you have 8 or more DON!! cards on your field, give up to 2 of your opponent's Characters −2000 power during this turn.",
     "trigger": null,
     "setName": "Purple Monkey.D.Luffy [ST18]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-072_r1.png",
     "cost": 4,
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-072_r1"
   },
   {
     "name": "When You're at Sea You Fight against Pirates!!",
@@ -203,14 +211,15 @@
       "Land of Wano"
     ],
     "effect": "[Main] Look at 3 cards from the top of your deck; reveal up to 1 {Straw Hat Crew}, {Kid Pirates}, or {Heart Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Activate this card's [Main] effect.",
+    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "Purple Monkey.D.Luffy [ST18]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-076_p1.png",
     "cost": 1,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-076_p1"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -232,7 +241,8 @@
     "setName": "Purple Monkey.D.Luffy [ST18]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-041_r1.png",
     "cost": 10,
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-041_r1"
   },
   {
     "name": "Uso-Hachi",
@@ -253,7 +263,8 @@
     "setName": "Purple Monkey.D.Luffy [ST18]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST18-001.png",
     "cost": 3,
-    "expansionCode": "ST18"
+    "expansionCode": "ST18",
+    "id": "ST18-001"
   },
   {
     "name": "O-Nami",
@@ -277,7 +288,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "ST18"
+    "expansionCode": "ST18",
+    "id": "ST18-002"
   },
   {
     "name": "San-Gorou",
@@ -302,7 +314,8 @@
       "[When Attacking]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "ST18"
+    "expansionCode": "ST18",
+    "id": "ST18-003"
   },
   {
     "name": "Zoro-Juurou",
@@ -323,7 +336,8 @@
     "setName": "Purple Monkey.D.Luffy [ST18]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST18-004.png",
     "cost": 4,
-    "expansionCode": "ST18"
+    "expansionCode": "ST18",
+    "id": "ST18-004"
   },
   {
     "name": "Luffy-Tarou",
@@ -339,11 +353,12 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 purple {Straw Hat Crew} type Character card with a cost of 5 or less from your hand.",
+    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 purple {Straw Hat Crew} type Character card with a cost of 5 or less from your hand.",
     "trigger": null,
     "setName": "Purple Monkey.D.Luffy [ST18]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST18-005.png",
     "cost": 7,
-    "expansionCode": "ST18"
+    "expansionCode": "ST18",
+    "id": "ST18-005"
   }
 ]

@@ -22,7 +22,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-001"
   },
   {
     "name": "Monkey.D.Dragon",
@@ -47,7 +48,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-001_p1"
   },
   {
     "name": "Ain",
@@ -69,7 +71,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-002.png",
     "cost": 7,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-002"
   },
   {
     "name": "Outlook III",
@@ -85,7 +88,7 @@
     "family": [
       "Goa Kingdom"
     ],
-    "effect": "[Activate: Main] You may trash this Character: Give up to 2 of your opponent's Characters -2000 power during this turn.",
+    "effect": "[Activate: Main] You may trash this Character: Give up to 2 of your opponent's Characters −2000 power during this turn.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-003.png",
@@ -93,7 +96,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-003"
   },
   {
     "name": "Curly.Dadan",
@@ -114,7 +118,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-004.png",
     "cost": 2,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-004"
   },
   {
     "name": "Carina",
@@ -131,7 +136,7 @@
       "FILM",
       "Grantesoro"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Give up to 1 of your opponent's Characters -2000 power during this turn.",
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Give up to 1 of your opponent's Characters −2000 power during this turn.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-005.png",
@@ -139,7 +144,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-005"
   },
   {
     "name": "Carina",
@@ -156,7 +162,7 @@
       "FILM",
       "Grantesoro"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Give up to 1 of your opponent's Characters -2000 power during this turn.",
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Give up to 1 of your opponent's Characters −2000 power during this turn.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-005_p1.png",
@@ -164,7 +170,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-005_p1"
   },
   {
     "name": "Sterry",
@@ -180,12 +187,13 @@
     "family": [
       "Goa Kingdom"
     ],
-    "effect": "[On Play] You may give your 1 active Leader -5000 power during this turn: Draw 1 card and trash 1 card from your hand.",
+    "effect": "[On Play] You may give your 1 active Leader −5000 power during this turn: Draw 1 card and trash 1 card from your hand.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-006.png",
     "cost": 1,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-006"
   },
   {
     "name": "Dice",
@@ -207,7 +215,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-007.png",
     "cost": 4,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-007"
   },
   {
     "name": "Mr. Tanaka",
@@ -225,14 +234,15 @@
       "Grantesoro"
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
-    "trigger": "Play this card.",
+    "trigger": "Trigger[Trigger] Play this card.",
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-008.png",
     "cost": 3,
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-008"
   },
   {
     "name": "Dogura & Magura",
@@ -256,7 +266,8 @@
     "abilityKeywords": [
       "[Double Attack]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-009"
   },
   {
     "name": "Baccarat",
@@ -283,7 +294,8 @@
       "[Once Per Turn]",
       "[On Your Opponent's Attack]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-010"
   },
   {
     "name": "Bluejam",
@@ -309,7 +321,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-011"
   },
   {
     "name": "Porchemy",
@@ -326,12 +339,13 @@
       "Goa Kingdom",
       "Bluejam Pirates"
     ],
-    "effect": "[On Play] Give up to 1 of your opponent's Characters -1000 power during this turn.",
+    "effect": "[On Play] Give up to 1 of your opponent's Characters −1000 power during this turn.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-012.png",
     "cost": 2,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-012"
   },
   {
     "name": "Masked Deuce",
@@ -352,7 +366,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-013.png",
     "cost": 1,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-013"
   },
   {
     "name": "Moda",
@@ -376,7 +391,8 @@
     "abilityKeywords": [
       "[Your Turn]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-014"
   },
   {
     "name": "Monkey.D.Dragon",
@@ -400,7 +416,8 @@
     "abilityKeywords": [
       "[Rush]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-015"
   },
   {
     "name": "Monkey.D.Dragon",
@@ -424,7 +441,8 @@
     "abilityKeywords": [
       "[Rush]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-015_p1"
   },
   {
     "name": "Galaxy Wink",
@@ -440,15 +458,16 @@
     "family": [
       "Revolutionary Army"
     ],
-    "effect": "[Main] Up to 1 of your {Revolutionary Army} type Characters gains +2000 power during this turn. Then, give up to 1 of your opponent's Characters -1000 power during this turn.",
-    "trigger": "Activate this card's [Main] effect.",
+    "effect": "[Main] Up to 1 of your {Revolutionary Army} type Characters gains +2000 power during this turn. Then, give up to 1 of your opponent's Characters −1000 power during this turn.",
+    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-016.png",
     "cost": 1,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-016"
   },
   {
     "name": "Dragon Breath",
@@ -465,14 +484,15 @@
       "Revolutionary Army"
     ],
     "effect": "[Main] K.O. up to 1 of your opponent's Characters with 3000 power or less and up to 1 of your opponent's Stages with a cost of 1 or less.",
-    "trigger": "Activate this card's [Main] effect.",
+    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-017.png",
     "cost": 2,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-017"
   },
   {
     "name": "KEEP OUT",
@@ -490,14 +510,15 @@
       "Revolutionary Army"
     ],
     "effect": "[Counter] Up to 1 of your {Revolutionary Army} type Characters gains +2000 power until the end of your next turn.",
-    "trigger": "Activate this card's [Counter] effect.",
+    "trigger": "Trigger[Trigger] Activate this card's [Counter] effect.",
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-018.png",
     "cost": 1,
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-018"
   },
   {
     "name": "Jewelry Bonney",
@@ -523,7 +544,8 @@
       "[Once Per Turn]",
       "[On Your Opponent's Attack]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-019"
   },
   {
     "name": "Jewelry Bonney",
@@ -549,7 +571,8 @@
       "[Once Per Turn]",
       "[On Your Opponent's Attack]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-019_p1"
   },
   {
     "name": "Aladine",
@@ -575,7 +598,8 @@
       "[Blocker]",
       "[On K.O.]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-020"
   },
   {
     "name": "Urouge",
@@ -601,7 +625,8 @@
       "[Blocker]",
       "[End of Your Turn]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-021"
   },
   {
     "name": "Otama",
@@ -622,7 +647,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-022.png",
     "cost": 1,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-022"
   },
   {
     "name": "Otama",
@@ -643,7 +669,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-022_p1.png",
     "cost": 1,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-022_p1"
   },
   {
     "name": "Caribou",
@@ -668,7 +695,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-023"
   },
   {
     "name": "Koala",
@@ -693,7 +721,8 @@
       "[Blocker]",
       "[On Your Opponent's Attack]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-024"
   },
   {
     "name": "Coribou",
@@ -715,7 +744,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-025.png",
     "cost": 3,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-025"
   },
   {
     "name": "Jewelry Bonney",
@@ -737,7 +767,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-026.png",
     "cost": 5,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-026"
   },
   {
     "name": "Jewelry Bonney",
@@ -759,7 +790,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-026_p1.png",
     "cost": 5,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-026_p1"
   },
   {
     "name": "Jinbe",
@@ -781,7 +813,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-027.png",
     "cost": 4,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-027"
   },
   {
     "name": "Scratchmen Apoo",
@@ -803,7 +836,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-028.png",
     "cost": 6,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-028"
   },
   {
     "name": "Basil Hawkins",
@@ -829,7 +863,8 @@
       "[Blocker]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-029"
   },
   {
     "name": "Basil Hawkins",
@@ -855,7 +890,8 @@
       "[Blocker]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-029_p1"
   },
   {
     "name": "Pappag",
@@ -879,7 +915,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-030"
   },
   {
     "name": "Bartolomeo",
@@ -906,7 +943,8 @@
       "[Your Turn]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-031"
   },
   {
     "name": "Fisher Tiger",
@@ -928,7 +966,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-032.png",
     "cost": 5,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-032"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -950,7 +989,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-033.png",
     "cost": 5,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-033"
   },
   {
     "name": "Roronoa Zoro",
@@ -975,7 +1015,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-034"
   },
   {
     "name": "Karmic Punishment",
@@ -993,14 +1034,15 @@
       "Fallen Monk Pirates"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 3 or more Characters, that card gains an additional +1000 power during this battle.",
-    "trigger": "K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
+    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-035.png",
     "cost": 1,
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-035"
   },
   {
     "name": "Demonic Aura Nine-Sword Style Asura Demon Nine Flash",
@@ -1018,14 +1060,15 @@
       "Straw Hat Crew"
     ],
     "effect": "[Main] Up to 1 of your Leader or Character cards gains +3000 power during this turn. Then, you may rest 1 of your Characters with a cost of 3 or more. If you do, rest up to 1 of your opponent's Characters with a cost of 5 or less.",
-    "trigger": "Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-036.png",
     "cost": 2,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-036"
   },
   {
     "name": "More Pizza!!",
@@ -1043,14 +1086,15 @@
       "Bonney Pirates"
     ],
     "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type card other than [More Pizza!!] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Draw 1 card.",
+    "trigger": "Trigger[Trigger] Draw 1 card.",
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-037.png",
     "cost": 1,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-037"
   },
   {
     "name": "Boa Hancock",
@@ -1076,7 +1120,8 @@
       "[Your Turn]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-038"
   },
   {
     "name": "Boa Hancock",
@@ -1102,7 +1147,8 @@
       "[Your Turn]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-038_p1"
   },
   {
     "name": "Edward Weevil",
@@ -1127,7 +1173,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-039"
   },
   {
     "name": "Crocodile",
@@ -1149,7 +1196,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-040.png",
     "cost": 4,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-040"
   },
   {
     "name": "Gloriosa (Grandma Nyon)",
@@ -1170,7 +1218,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-041.png",
     "cost": 1,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-041"
   },
   {
     "name": "Gecko Moria",
@@ -1195,7 +1244,8 @@
     "abilityKeywords": [
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-042"
   },
   {
     "name": "Salome",
@@ -1220,7 +1270,8 @@
     "abilityKeywords": [
       "[Your Turn]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-043"
   },
   {
     "name": "Dracule Mihawk",
@@ -1241,7 +1292,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-044.png",
     "cost": 8,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-044"
   },
   {
     "name": "Jinbe",
@@ -1264,7 +1316,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-045.png",
     "cost": 4,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-045"
   },
   {
     "name": "Jinbe",
@@ -1287,7 +1340,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-045_p1.png",
     "cost": 4,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-045_p1"
   },
   {
     "name": "Sengoku",
@@ -1308,7 +1362,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-046.png",
     "cost": 1,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-046"
   },
   {
     "name": "Sengoku",
@@ -1329,7 +1384,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-046_p1.png",
     "cost": 1,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-046_p1"
   },
   {
     "name": "Trafalgar Law",
@@ -1354,7 +1410,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-047"
   },
   {
     "name": "Trafalgar Law",
@@ -1379,7 +1436,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-047_p1"
   },
   {
     "name": "Donquixote Doflamingo",
@@ -1405,7 +1463,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-048"
   },
   {
     "name": "Buckin",
@@ -1426,7 +1485,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-049.png",
     "cost": 2,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-049"
   },
   {
     "name": "Boa Sandersonia",
@@ -1447,7 +1507,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-050.png",
     "cost": 3,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-050"
   },
   {
     "name": "Boa Hancock",
@@ -1469,7 +1530,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-051.png",
     "cost": 6,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-051"
   },
   {
     "name": "Boa Hancock",
@@ -1491,7 +1553,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-051_p1.png",
     "cost": 6,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-051_p1"
   },
   {
     "name": "Boa Hancock",
@@ -1513,7 +1576,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-051_p2.png",
     "cost": 6,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-051_p2"
   },
   {
     "name": "Boa Marigold",
@@ -1534,7 +1598,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-052.png",
     "cost": 5,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-052"
   },
   {
     "name": "Portgas.D.Ace",
@@ -1558,7 +1623,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-053"
   },
   {
     "name": "Marguerite",
@@ -1582,7 +1648,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-054"
   },
   {
     "name": "Snake Dance",
@@ -1599,14 +1666,15 @@
       "Kuja Pirates"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, return up to 1 of your Characters to the owner's hand.",
-    "trigger": "You may return 1 of your Characters to the owner's hand: Return up to 1 of your opponent's Characters with a cost of 5 or less to the owner's hand.",
+    "trigger": "Trigger[Trigger] You may return 1 of your Characters to the owner's hand: Return up to 1 of your opponent's Characters with a cost of 5 or less to the owner's hand.",
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-055.png",
     "cost": 2,
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-055"
   },
   {
     "name": "Slave Arrow",
@@ -1624,14 +1692,15 @@
       "Kuja Pirates"
     ],
     "effect": "[Counter] You may return 1 of your Characters with a cost of 2 or more to the owner's hand: Up to 1 of your Leader or Character cards gains +4000 power during this battle.",
-    "trigger": "Draw 2 cards and place 2 cards from your hand at the bottom of your deck in any order.",
+    "trigger": "Trigger[Trigger] Draw 2 cards and place 2 cards from your hand at the bottom of your deck in any order.",
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-056.png",
     "cost": 1,
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-056"
   },
   {
     "name": "Perfume Femur",
@@ -1649,7 +1718,7 @@
       "Kuja Pirates"
     ],
     "effect": "[Main] Select up to 1 of your {The Seven Warlords of the Sea} type Leader or Character cards and that card gains +2000 power during this turn. Then, if the selected card attacks during this turn, your opponent cannot activate [Blocker].",
-    "trigger": "Draw 1 card.",
+    "trigger": "Trigger[Trigger] Draw 1 card.",
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-057.png",
     "cost": 2,
@@ -1657,7 +1726,8 @@
       "[Blocker]",
       "[Main]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-057"
   },
   {
     "name": "Island of Women",
@@ -1681,7 +1751,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-058"
   },
   {
     "name": "Foxy",
@@ -1697,7 +1768,7 @@
     "family": [
       "Foxy Pirates"
     ],
-    "effect": "[When Attacking] DON!! -3 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If you have 3 or more {Foxy Pirates} type Characters, select your opponent's rested Leader and up to 1 Character card. The selected cards will not become active in your opponent's next Refresh Phase.",
+    "effect": "[When Attacking] DON!! −3 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If you have 3 or more {Foxy Pirates} type Characters, select your opponent's rested Leader and up to 1 Character card. The selected cards will not become active in your opponent's next Refresh Phase.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-059.png",
@@ -1705,7 +1776,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-059"
   },
   {
     "name": "Foxy",
@@ -1721,7 +1793,7 @@
     "family": [
       "Foxy Pirates"
     ],
-    "effect": "[When Attacking] DON!! -3 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If you have 3 or more {Foxy Pirates} type Characters, select your opponent's rested Leader and up to 1 Character card. The selected cards will not become active in your opponent's next Refresh Phase.",
+    "effect": "[When Attacking] DON!! −3 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If you have 3 or more {Foxy Pirates} type Characters, select your opponent's rested Leader and up to 1 Character card. The selected cards will not become active in your opponent's next Refresh Phase.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-059_p1.png",
@@ -1729,7 +1801,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-059_p1"
   },
   {
     "name": "Itomimizu",
@@ -1754,7 +1827,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-060"
   },
   {
     "name": "Vinsmoke Sanji",
@@ -1771,12 +1845,13 @@
       "Kingdom of GERMA",
       "The Vinsmoke Family"
     ],
-    "effect": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {The Vinsmoke Family} type, draw 1 card.",
+    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {The Vinsmoke Family} type, draw 1 card.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-061.png",
     "cost": 1,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-061"
   },
   {
     "name": "Vinsmoke Reiju",
@@ -1798,7 +1873,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-062.png",
     "cost": 1,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-062"
   },
   {
     "name": "Capote",
@@ -1815,12 +1891,13 @@
       "Fish-Man",
       "Foxy Pirates"
     ],
-    "effect": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Foxy Pirates} type, up to 1 of your opponent's Characters with a cost of 6 or less cannot attack until the end of your opponent's next turn.",
+    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Foxy Pirates} type, up to 1 of your opponent's Characters with a cost of 6 or less cannot attack until the end of your opponent's next turn.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-063.png",
     "cost": 3,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-063"
   },
   {
     "name": "Sanji",
@@ -1836,7 +1913,7 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "If the number of DON!! cards on your field is at least 2 less than the number on your opponent's field, give this card in your hand -3 cost.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": "If the number of DON!! cards on your field is at least 2 less than the number on your opponent's field, give this card in your hand −3 cost.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-064.png",
@@ -1844,7 +1921,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-064"
   },
   {
     "name": "Sanji",
@@ -1860,7 +1938,7 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "If the number of DON!! cards on your field is at least 2 less than the number on your opponent's field, give this card in your hand -3 cost.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": "If the number of DON!! cards on your field is at least 2 less than the number on your opponent's field, give this card in your hand −3 cost.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-064_p1.png",
@@ -1868,7 +1946,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-064_p1"
   },
   {
     "name": "Gina",
@@ -1889,7 +1968,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-065.png",
     "cost": 1,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-065"
   },
   {
     "name": "Tony Tony.Chopper",
@@ -1914,7 +1994,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-066"
   },
   {
     "name": "Tonjit",
@@ -1935,7 +2016,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-067.png",
     "cost": 1,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-067"
   },
   {
     "name": "Hamburg",
@@ -1960,7 +2042,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-068"
   },
   {
     "name": "Pickles",
@@ -1981,7 +2064,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-069.png",
     "cost": 3,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-069"
   },
   {
     "name": "Big Bun",
@@ -2004,7 +2088,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-070.png",
     "cost": 6,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-070"
   },
   {
     "name": "Foxy",
@@ -2020,7 +2105,7 @@
     "family": [
       "Foxy Pirates"
     ],
-    "effect": "[Opponent's Turn] If your Leader has the {Foxy Pirates} type, give all of your opponent's Characters -1000 power.[Activate: Main] [Once Per Turn] Add up to 1 DON!! card from your DON!! deck and rest it.",
+    "effect": "[Opponent's Turn] If your Leader has the {Foxy Pirates} type, give all of your opponent's Characters −1000 power.[Activate: Main] [Once Per Turn] Add up to 1 DON!! card from your DON!! deck and rest it.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-071.png",
@@ -2030,7 +2115,8 @@
       "[Opponent's Turn]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-071"
   },
   {
     "name": "Foxy",
@@ -2046,7 +2132,7 @@
     "family": [
       "Foxy Pirates"
     ],
-    "effect": "[Opponent's Turn] If your Leader has the {Foxy Pirates} type, give all of your opponent's Characters -1000 power.[Activate: Main] [Once Per Turn] Add up to 1 DON!! card from your DON!! deck and rest it.",
+    "effect": "[Opponent's Turn] If your Leader has the {Foxy Pirates} type, give all of your opponent's Characters −1000 power.[Activate: Main] [Once Per Turn] Add up to 1 DON!! card from your DON!! deck and rest it.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-071_p1.png",
@@ -2056,7 +2142,8 @@
       "[Opponent's Turn]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-071_p1"
   },
   {
     "name": "Porche",
@@ -2072,12 +2159,13 @@
     "family": [
       "Foxy Pirates"
     ],
-    "effect": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Look at 5 cards from the top of your deck; reveal up to 1 {Foxy Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order and play up to 1 purple Character card with 4000 power or less from your hand.",
+    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Look at 5 cards from the top of your deck; reveal up to 1 {Foxy Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order and play up to 1 purple Character card with 4000 power or less from your hand.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-072.png",
     "cost": 3,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-072"
   },
   {
     "name": "Porche",
@@ -2093,12 +2181,13 @@
     "family": [
       "Foxy Pirates"
     ],
-    "effect": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Look at 5 cards from the top of your deck; reveal up to 1 {Foxy Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order and play up to 1 purple Character card with 4000 power or less from your hand.",
+    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Look at 5 cards from the top of your deck; reveal up to 1 {Foxy Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order and play up to 1 purple Character card with 4000 power or less from your hand.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-072_p1.png",
     "cost": 3,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-072_p1"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -2114,7 +2203,7 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] DON!! -3 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your opponent has 3 or more Characters, set this Character as active.",
+    "effect": "[Activate: Main] [Once Per Turn] DON!! −3 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your opponent has 3 or more Characters, set this Character as active.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-073.png",
@@ -2123,7 +2212,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-073"
   },
   {
     "name": "Monda",
@@ -2148,7 +2238,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-074"
   },
   {
     "name": "Slow-Slow Beam",
@@ -2164,7 +2255,7 @@
     "family": [
       "Foxy Pirates"
     ],
-    "effect": "[Counter] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Give up to 1 each of your opponent's Leader and Character cards -2000 power during this turn.",
+    "effect": "[Counter] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Give up to 1 each of your opponent's Leader and Character cards −2000 power during this turn.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-075.png",
@@ -2172,7 +2263,8 @@
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-075"
   },
   {
     "name": "Slow-Slow Beam Sword",
@@ -2188,15 +2280,16 @@
     "family": [
       "Foxy Pirates"
     ],
-    "effect": "[Counter] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, rest up to 1 of your opponent's Characters.",
-    "trigger": "Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": "[Counter] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, rest up to 1 of your opponent's Characters.",
+    "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-076.png",
     "cost": 2,
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-076"
   },
   {
     "name": "We're Going to Claim the One Piece!!!",
@@ -2214,14 +2307,15 @@
       "Land of Wano"
     ],
     "effect": "[Main] If your Leader has the {Animal Kingdom Pirates} or {Big Mom Pirates} type, look at 5 cards from the top of your deck; reveal up to 1 {Animal Kingdom Pirates} or {Big Mom Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Activate this card's [Main] effect.",
+    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-077.png",
     "cost": 1,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-077"
   },
   {
     "name": "Megaton Nine-Tails Rush",
@@ -2238,14 +2332,15 @@
       "Foxy Pirates"
     ],
     "effect": "[Main] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, set up to 1 of your [Foxy] cards as active.",
-    "trigger": "Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-078.png",
     "cost": 3,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-078"
   },
   {
     "name": "Rob Lucci",
@@ -2261,7 +2356,7 @@
     "family": [
       "CP0"
     ],
-    "effect": "[When Attacking] You may trash 2 cards from the top of your deck: Give up to 1 of your opponent's Characters -1 cost during this turn.",
+    "effect": "[When Attacking] You may trash 2 cards from the top of your deck: Give up to 1 of your opponent's Characters −1 cost during this turn.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-079.png",
@@ -2269,7 +2364,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-079"
   },
   {
     "name": "Rob Lucci",
@@ -2285,7 +2381,7 @@
     "family": [
       "CP0"
     ],
-    "effect": "[When Attacking] You may trash 2 cards from the top of your deck: Give up to 1 of your opponent's Characters -1 cost during this turn.",
+    "effect": "[When Attacking] You may trash 2 cards from the top of your deck: Give up to 1 of your opponent's Characters −1 cost during this turn.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-079_p1.png",
@@ -2293,7 +2389,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-079_p1"
   },
   {
     "name": "Kaku",
@@ -2309,12 +2406,13 @@
     "family": [
       "CP0"
     ],
-    "effect": "[On Play] You may place 2 cards with a type including \"CP\" from your trash at the bottom of your deck in any order: Give up to 1 of your opponent's Characters -3 cost during this turn.",
+    "effect": "[On Play] You may place 2 cards with a type including \"CP\" from your trash at the bottom of your deck in any order: Give up to 1 of your opponent's Characters −3 cost during this turn.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-080.png",
     "cost": 4,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-080"
   },
   {
     "name": "Kalifa",
@@ -2330,7 +2428,7 @@
     "family": [
       "CP0"
     ],
-    "effect": "[DON!! x1] [Your Turn] Give all of your opponent's Characters -1 cost.",
+    "effect": "[DON!! x1] [Your Turn] Give all of your opponent's Characters −1 cost.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-081.png",
@@ -2339,7 +2437,8 @@
       "[Your Turn]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-081"
   },
   {
     "name": "Captain John",
@@ -2356,12 +2455,13 @@
       "Thriller Bark Pirates",
       "Former Rocks Pirates"
     ],
-    "effect": "[On Play] Trash 2 cards from the top of your deck and give up to 1 of your opponent's Characters -1 cost during this turn.",
+    "effect": "[On Play] Trash 2 cards from the top of your deck and give up to 1 of your opponent's Characters −1 cost during this turn.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-082.png",
     "cost": 2,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-082"
   },
   {
     "name": "Gecko Moria",
@@ -2387,7 +2487,8 @@
       "[Banish]",
       "[Activate: Main]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-083"
   },
   {
     "name": "Gismonda",
@@ -2411,7 +2512,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-084"
   },
   {
     "name": "Stussy",
@@ -2432,7 +2534,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-085.png",
     "cost": 9,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-085"
   },
   {
     "name": "Stussy",
@@ -2453,7 +2556,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-085_p1.png",
     "cost": 9,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-085_p1"
   },
   {
     "name": "Spandam",
@@ -2469,12 +2573,13 @@
     "family": [
       "CP0"
     ],
-    "effect": "[On Play] Trash 2 cards from the top of your deck and give up to 1 of your opponent's Characters -2 cost during this turn.",
+    "effect": "[On Play] Trash 2 cards from the top of your deck and give up to 1 of your opponent's Characters −2 cost during this turn.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-086.png",
     "cost": 3,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-086"
   },
   {
     "name": "Baskerville",
@@ -2498,7 +2603,8 @@
     "abilityKeywords": [
       "[Your Turn]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-087"
   },
   {
     "name": "Hattori",
@@ -2523,7 +2629,8 @@
     "abilityKeywords": [
       "[Your Turn]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-088"
   },
   {
     "name": "Maha",
@@ -2544,7 +2651,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-089.png",
     "cost": 6,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-089"
   },
   {
     "name": "Morgans",
@@ -2565,7 +2673,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-090.png",
     "cost": 2,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-090"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -2589,7 +2698,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-091"
   },
   {
     "name": "Joseph",
@@ -2610,7 +2720,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-092.png",
     "cost": 1,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-092"
   },
   {
     "name": "Rob Lucci",
@@ -2631,7 +2742,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-093.png",
     "cost": 5,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-093"
   },
   {
     "name": "Shave",
@@ -2648,14 +2760,15 @@
       "CP9"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 10 or more cards in your trash, return up to 1 of your Characters with a type including \"CP\" to the owner's hand.",
-    "trigger": "Return up to 1 of your Characters to the owner's hand.",
+    "trigger": "Trigger[Trigger] Return up to 1 of your Characters to the owner's hand.",
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-094.png",
     "cost": 1,
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-094"
   },
   {
     "name": "Iron Body",
@@ -2672,14 +2785,15 @@
       "CP9"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, if you have 10 or more cards in your trash, that card gains an additional +2000 power during this battle.",
-    "trigger": "Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "trigger": "Trigger[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-095.png",
     "cost": 2,
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-095"
   },
   {
     "name": "Tempest Kick",
@@ -2695,15 +2809,16 @@
     "family": [
       "CP9"
     ],
-    "effect": "[Main] Draw 1 card. Then, if you have 10 or more cards in your trash, give up to 1 of your opponent's Characters -3 cost during this turn.",
-    "trigger": "K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "effect": "[Main] Draw 1 card. Then, if you have 10 or more cards in your trash, give up to 1 of your opponent's Characters −3 cost during this turn.",
+    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-096.png",
     "cost": 1,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-096"
   },
   {
     "name": "Vegapunk",
@@ -2729,7 +2844,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-097"
   },
   {
     "name": "Vegapunk",
@@ -2755,7 +2871,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-097_p1"
   },
   {
     "name": "Atlas",
@@ -2773,11 +2890,12 @@
       "Egghead"
     ],
     "effect": "If you have less Life cards than your opponent, this Character cannot be K.O.'d in battle.",
-    "trigger": "If your Leader is [Vegapunk], play this card.",
+    "trigger": "Trigger[Trigger] If your Leader is [Vegapunk], play this card.",
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-098.png",
     "cost": 5,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-098"
   },
   {
     "name": "Usopp",
@@ -2795,11 +2913,12 @@
       "Straw Hat Crew"
     ],
     "effect": null,
-    "trigger": "Up to 1 of your {Egghead} type Leader or Character cards gains +2000 power until the end of your next turn.",
+    "trigger": "Trigger[Trigger] Up to 1 of your {Egghead} type Leader or Character cards gains +2000 power until the end of your next turn.",
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-099.png",
     "cost": 1,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-099"
   },
   {
     "name": "Edison",
@@ -2817,11 +2936,12 @@
       "Egghead"
     ],
     "effect": "[On Play] If you have 2 or less Life cards, draw 2 cards and trash 2 card from your hand.",
-    "trigger": "If your Leader is [Vegapunk], play this card.",
+    "trigger": "Trigger[Trigger] If your Leader is [Vegapunk], play this card.",
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-100.png",
     "cost": 4,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-100"
   },
   {
     "name": "Shaka",
@@ -2839,14 +2959,15 @@
       "Egghead"
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
-    "trigger": "If your Leader is [Vegapunk], play this card.",
+    "trigger": "Trigger[Trigger] If your Leader is [Vegapunk], play this card.",
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-101.png",
     "cost": 5,
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-101"
   },
   {
     "name": "Jinbe",
@@ -2865,11 +2986,12 @@
       "Straw Hat Crew"
     ],
     "effect": null,
-    "trigger": "Return up to 1 of your opponent's Characters with a cost of 4 or less to the owner's hand and add this card to your hand.",
+    "trigger": "Trigger[Trigger] Return up to 1 of your opponent's Characters with a cost of 4 or less to the owner's hand and add this card to your hand.",
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-102.png",
     "cost": 5,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-102"
   },
   {
     "name": "Tony Tony.Chopper",
@@ -2888,11 +3010,12 @@
       "Straw Hat Crew"
     ],
     "effect": null,
-    "trigger": "Up to 1 of your {Egghead} type Characters gains [Blocker] during this turn. Then, add this card to your hand.",
+    "trigger": "Trigger[Trigger] Up to 1 of your {Egghead} type Characters gains [Blocker] during this turn. Then, add this card to your hand.",
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-103.png",
     "cost": 2,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-103"
   },
   {
     "name": "Nico Robin",
@@ -2910,11 +3033,12 @@
       "Straw Hat Crew"
     ],
     "effect": null,
-    "trigger": "If your Leader has the {Egghead} type, draw 2 cards.",
+    "trigger": "Trigger[Trigger] If your Leader has the {Egghead} type, draw 2 cards.",
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-104.png",
     "cost": 3,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-104"
   },
   {
     "name": "Pythagoras",
@@ -2932,14 +3056,15 @@
       "Egghead"
     ],
     "effect": "[On K.O.] If you have 2 or less Life cards, play up to 1 {Egghead} type Character card with a cost of 4 or less from your trash rested.",
-    "trigger": "If your Leader is [Vegapunk], play this card.",
+    "trigger": "Trigger[Trigger] If your Leader is [Vegapunk], play this card.",
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-105.png",
     "cost": 5,
     "abilityKeywords": [
       "[On K.O.]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-105"
   },
   {
     "name": "Fuza",
@@ -2965,7 +3090,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-106"
   },
   {
     "name": "Franky",
@@ -2983,11 +3109,12 @@
       "Straw Hat Crew"
     ],
     "effect": null,
-    "trigger": "Draw 1 card. Then, if you have 1 or less Life cards, play this card.",
+    "trigger": "Trigger[Trigger] Draw 1 card. Then, if you have 1 or less Life cards, play this card.",
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-107.png",
     "cost": 4,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-107"
   },
   {
     "name": "Franky",
@@ -3005,11 +3132,12 @@
       "Straw Hat Crew"
     ],
     "effect": null,
-    "trigger": "Draw 1 card. Then, if you have 1 or less Life cards, play this card.",
+    "trigger": "Trigger[Trigger] Draw 1 card. Then, if you have 1 or less Life cards, play this card.",
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-107_p1.png",
     "cost": 4,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-107_p1"
   },
   {
     "name": "Vega Force 01",
@@ -3030,7 +3158,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-108.png",
     "cost": 4,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-108"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3049,14 +3178,15 @@
       "Straw Hat Crew"
     ],
     "effect": "[Activate: Main] You may trash this Character: If you have 2 or less Life cards, K.O. up to 1 of your opponent's Characters with a cost of 4 or less. Then, draw 1 card.",
-    "trigger": "K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-109.png",
     "cost": 5,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-109"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3075,14 +3205,15 @@
       "Straw Hat Crew"
     ],
     "effect": "[Activate: Main] You may trash this Character: If you have 2 or less Life cards, K.O. up to 1 of your opponent's Characters with a cost of 4 or less. Then, draw 1 card.",
-    "trigger": "K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-109_p1.png",
     "cost": 5,
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-109_p1"
   },
   {
     "name": "York",
@@ -3100,11 +3231,12 @@
       "Egghead"
     ],
     "effect": "[On Play] You may add 1 card from the top or bottom of your Life cards to your hand: K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
-    "trigger": "If your Leader is [Vegapunk], play this card.",
+    "trigger": "Trigger[Trigger] If your Leader is [Vegapunk], play this card.",
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-110.png",
     "cost": 5,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-110"
   },
   {
     "name": "Lilith",
@@ -3122,11 +3254,12 @@
       "Egghead"
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Egghead} type card other than [Lilith] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "If your Leader is [Vegapunk], play this card.",
+    "trigger": "Trigger[Trigger] If your Leader is [Vegapunk], play this card.",
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-111.png",
     "cost": 3,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-111"
   },
   {
     "name": "Lilith",
@@ -3144,11 +3277,12 @@
       "Egghead"
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Egghead} type card other than [Lilith] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "If your Leader is [Vegapunk], play this card.",
+    "trigger": "Trigger[Trigger] If your Leader is [Vegapunk], play this card.",
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-111_p1.png",
     "cost": 3,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-111_p1"
   },
   {
     "name": "Lucy",
@@ -3174,7 +3308,8 @@
       "[When Attacking]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-112"
   },
   {
     "name": "Roronoa Zoro",
@@ -3192,11 +3327,12 @@
       "Straw Hat Crew"
     ],
     "effect": null,
-    "trigger": "If your Leader has the {Egghead} type, rest up to 1 of your opponent's Leader or Character cards.",
+    "trigger": "Trigger[Trigger] If your Leader has the {Egghead} type, rest up to 1 of your opponent's Leader or Character cards.",
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-113.png",
     "cost": 5,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-113"
   },
   {
     "name": "He Possesses the World's Most Brilliant Mind",
@@ -3214,14 +3350,15 @@
       "Egghead"
     ],
     "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Egghead} type card other than [He Possesses the World's Most Brilliant Mind] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Draw 1 card.",
+    "trigger": "Trigger[Trigger] Draw 1 card.",
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-114.png",
     "cost": 1,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-114"
   },
   {
     "name": "I Re-Quasar Helllp!!",
@@ -3239,14 +3376,15 @@
       "Egghead"
     ],
     "effect": "[Counter] If you have 2 or less Life cards, up to 1 of your Leader or Character cards gains +3000 power during this battle.",
-    "trigger": "Play up to 1 of your {Egghead} type Character cards with a cost of 5 or less from your trash.",
+    "trigger": "Trigger[Trigger] Play up to 1 of your {Egghead} type Character cards with a cost of 5 or less from your trash.",
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-115.png",
     "cost": 1,
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-115"
   },
   {
     "name": "Blaze Slice",
@@ -3264,7 +3402,7 @@
       "The Akazaya Nine"
     ],
     "effect": "[Main]/[Counter] Up to 1 of your Leader or Character cards gains +1000 power during this turn. Then, if your opponent has 2 or less Life cards, rest up to 1 of your opponent's Characters with a cost of 4 or less.",
-    "trigger": "Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-116.png",
     "cost": 1,
@@ -3272,7 +3410,8 @@
       "[Main]",
       "[Counter]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-116"
   },
   {
     "name": "Egghead",
@@ -3289,14 +3428,15 @@
       "Egghead"
     ],
     "effect": "[End of Your Turn] If you have 3 or less Life cards, set up to 1 {Egghead} type Character with a cost of 5 or less as active.",
-    "trigger": "Play this card.",
+    "trigger": "Trigger[Trigger] Play this card.",
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-117.png",
     "cost": 2,
     "abilityKeywords": [
       "[End of Your Turn]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-117"
   },
   {
     "name": "Sabo",
@@ -3317,7 +3457,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-118.png",
     "cost": 8,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-118"
   },
   {
     "name": "Sabo",
@@ -3338,7 +3479,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-118_p1.png",
     "cost": 8,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-118_p1"
   },
   {
     "name": "Portgas.D.Ace",
@@ -3362,7 +3504,8 @@
     "abilityKeywords": [
       "[Rush]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-119"
   },
   {
     "name": "Portgas.D.Ace",
@@ -3386,7 +3529,8 @@
     "abilityKeywords": [
       "[Rush]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-119_p1"
   },
   {
     "name": "Trafalgar Law",
@@ -3410,7 +3554,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "ST10"
+    "expansionCode": "ST10",
+    "id": "ST10-010_p2"
   },
   {
     "name": "Okiku",
@@ -3437,7 +3582,8 @@
       "[Once Per Turn]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP01"
+    "expansionCode": "OP01",
+    "id": "OP01-035_p2"
   },
   {
     "name": "Donquixote Doflamingo",
@@ -3462,7 +3608,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP01"
+    "expansionCode": "OP01",
+    "id": "OP01-073_p2"
   },
   {
     "name": "Izo",
@@ -3484,7 +3631,8 @@
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-003_p1.png",
     "cost": 1,
-    "expansionCode": "OP03"
+    "expansionCode": "OP03",
+    "id": "OP03-003_p1"
   },
   {
     "name": "Issho",
@@ -3500,7 +3648,7 @@
     "family": [
       "Navy"
     ],
-    "effect": "[DON!! x1] [Your Turn] Give all of your opponent's Characters -3 cost.[On Play] If your opponent has 6 or more cards in their hand, trash 2 cards from your opponent's hand.",
+    "effect": "[DON!! x1] [Your Turn] Give all of your opponent's Characters −3 cost.[On Play] If your opponent has 6 or more cards in their hand, trash 2 cards from your opponent's hand.",
     "trigger": null,
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-078_p2.png",
@@ -3509,7 +3657,8 @@
       "[Your Turn]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP03"
+    "expansionCode": "OP03",
+    "id": "OP03-078_p2"
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -3535,7 +3684,8 @@
       "[Your Turn]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-074_p3"
   },
   {
     "name": "O-Nami",
@@ -3552,13 +3702,14 @@
       "Straw Hat Crew"
     ],
     "effect": "[On Play] Up to 1 of your Leader or Character cards gains [Banish] during this turn.(When this card deals damage, the target card is trashed without activating its Trigger.)",
-    "trigger": "K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
     "setName": "500 YEARS IN THE FUTURE [OP07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-101_p2.png",
     "cost": 2,
     "abilityKeywords": [
       "[Banish]"
     ],
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-101_p2"
   }
 ]

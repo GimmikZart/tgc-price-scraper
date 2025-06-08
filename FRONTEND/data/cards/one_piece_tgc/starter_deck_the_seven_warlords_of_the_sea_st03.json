@@ -14,7 +14,7 @@
       "The Seven Warlords of the Sea",
       "Baroque Works"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] DON!! -4 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Return up to 1 Character with a cost of 5 or less to the owner's hand.",
+    "effect": "[Activate: Main] [Once Per Turn] DON!! −4 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Return up to 1 Character with a cost of 5 or less to the owner's hand.",
     "trigger": null,
     "setName": "The Seven Warlords of the Sea [ST03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-001.png",
@@ -23,7 +23,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "ST03"
+    "expansionCode": "ST03",
+    "id": "ST03-001"
   },
   {
     "name": "Edward Weevil",
@@ -44,7 +45,8 @@
     "setName": "The Seven Warlords of the Sea [ST03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-002.png",
     "cost": 3,
-    "expansionCode": "ST03"
+    "expansionCode": "ST03",
+    "id": "ST03-002"
   },
   {
     "name": "Crocodile",
@@ -71,7 +73,8 @@
       "[On Block]",
       "[DON!! x1]"
     ],
-    "expansionCode": "ST03"
+    "expansionCode": "ST03",
+    "id": "ST03-003"
   },
   {
     "name": "Gecko Moria",
@@ -93,7 +96,8 @@
     "setName": "The Seven Warlords of the Sea [ST03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-004.png",
     "cost": 4,
-    "expansionCode": "ST03"
+    "expansionCode": "ST03",
+    "id": "ST03-004"
   },
   {
     "name": "Dracule Mihawk",
@@ -118,7 +122,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "ST03"
+    "expansionCode": "ST03",
+    "id": "ST03-005"
   },
   {
     "name": "Jinbe",
@@ -141,7 +146,8 @@
     "setName": "The Seven Warlords of the Sea [ST03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-006.png",
     "cost": 2,
-    "expansionCode": "ST03"
+    "expansionCode": "ST03",
+    "id": "ST03-006"
   },
   {
     "name": "Sentomaru",
@@ -167,7 +173,8 @@
       "[Once Per Turn]",
       "[DON!! x1]"
     ],
-    "expansionCode": "ST03"
+    "expansionCode": "ST03",
+    "id": "ST03-007"
   },
   {
     "name": "Trafalgar Law",
@@ -192,7 +199,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "ST03"
+    "expansionCode": "ST03",
+    "id": "ST03-008"
   },
   {
     "name": "Donquixote Doflamingo",
@@ -214,7 +222,8 @@
     "setName": "The Seven Warlords of the Sea [ST03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-009.png",
     "cost": 7,
-    "expansionCode": "ST03"
+    "expansionCode": "ST03",
+    "id": "ST03-009"
   },
   {
     "name": "Bartholomew Kuma",
@@ -232,11 +241,12 @@
       "Revolutionary Army"
     ],
     "effect": "[On Play] Look at 3 cards from the top of your deck and return them to the top or bottom of the deck in any order.",
-    "trigger": "Play this card.",
+    "trigger": "Trigger[Trigger] Play this card.",
     "setName": "The Seven Warlords of the Sea [ST03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-010.png",
     "cost": 2,
-    "expansionCode": "ST03"
+    "expansionCode": "ST03",
+    "id": "ST03-010"
   },
   {
     "name": "Buggy",
@@ -258,7 +268,8 @@
     "setName": "The Seven Warlords of the Sea [ST03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-011.png",
     "cost": 1,
-    "expansionCode": "ST03"
+    "expansionCode": "ST03",
+    "id": "ST03-011"
   },
   {
     "name": "Pacifista",
@@ -280,7 +291,8 @@
     "setName": "The Seven Warlords of the Sea [ST03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-012.png",
     "cost": 4,
-    "expansionCode": "ST03"
+    "expansionCode": "ST03",
+    "id": "ST03-012"
   },
   {
     "name": "Boa Hancock",
@@ -298,14 +310,15 @@
       "Kuja Pirates"
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
-    "trigger": "Play this card.",
+    "trigger": "Trigger[Trigger] Play this card.",
     "setName": "The Seven Warlords of the Sea [ST03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-013.png",
     "cost": 3,
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "ST03"
+    "expansionCode": "ST03",
+    "id": "ST03-013"
   },
   {
     "name": "Marshall.D.Teach",
@@ -327,7 +340,8 @@
     "setName": "The Seven Warlords of the Sea [ST03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-014.png",
     "cost": 4,
-    "expansionCode": "ST03"
+    "expansionCode": "ST03",
+    "id": "ST03-014"
   },
   {
     "name": "Sables",
@@ -345,14 +359,15 @@
       "Baroque Works"
     ],
     "effect": "[Main] Return up to 1 Character with a cost of 7 or less to the owner's hand.",
-    "trigger": "Activate this card's [Main] effect.",
+    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "The Seven Warlords of the Sea [ST03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-015.png",
     "cost": 4,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "ST03"
+    "expansionCode": "ST03",
+    "id": "ST03-015"
   },
   {
     "name": "Thrust Pad Cannon",
@@ -370,14 +385,15 @@
       "Revolutionary Army"
     ],
     "effect": "[Counter] Return up to 1 Character with a cost of 3 or less to the owner's hand.",
-    "trigger": "Activate this card's [Counter] effect.",
+    "trigger": "Trigger[Trigger] Activate this card's [Counter] effect.",
     "setName": "The Seven Warlords of the Sea [ST03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-016.png",
     "cost": 2,
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "ST03"
+    "expansionCode": "ST03",
+    "id": "ST03-016"
   },
   {
     "name": "Love-Love Mellow",
@@ -402,6 +418,7 @@
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "ST03"
+    "expansionCode": "ST03",
+    "id": "ST03-017"
   }
 ]

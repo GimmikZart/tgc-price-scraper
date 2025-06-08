@@ -22,7 +22,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-042_p2"
   },
   {
     "name": "Alvida",
@@ -46,7 +47,8 @@
     "abilityKeywords": [
       "[On K.O.]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-043_r1"
   },
   {
     "name": "Cabaji",
@@ -67,7 +69,8 @@
     "setName": "BLUE Buggy [ST25]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-045_r1.png",
     "cost": 5,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-045_r1"
   },
   {
     "name": "Buggy",
@@ -89,7 +92,8 @@
     "setName": "BLUE Buggy [ST25]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-051_r1.png",
     "cost": 10,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-051_r1"
   },
   {
     "name": "Mohji",
@@ -110,7 +114,8 @@
     "setName": "BLUE Buggy [ST25]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-053_r1.png",
     "cost": 5,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-053_r1"
   },
   {
     "name": "Richie",
@@ -135,7 +140,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-054_r1"
   },
   {
     "name": "Mr.1(Daz.Bonez)",
@@ -157,7 +163,8 @@
     "setName": "BLUE Buggy [ST25]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-055_r1.png",
     "cost": 5,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-055_r1"
   },
   {
     "name": "Mr.3(Galdino)",
@@ -179,7 +186,8 @@
     "setName": "BLUE Buggy [ST25]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-056_r1.png",
     "cost": 1,
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-056_r1"
   },
   {
     "name": "Cross Guild",
@@ -196,14 +204,15 @@
       "Cross Guild"
     ],
     "effect": "[Main] Look at 4 cards from the top of your deck; reveal up to 1 {Cross Guild} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Activate this card's [Main] effect.",
+    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "BLUE Buggy [ST25]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-057_r1.png",
     "cost": 1,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-057_r1"
   },
   {
     "name": "Buggy",
@@ -225,7 +234,8 @@
     "setName": "BLUE Buggy [ST25]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-084.png",
     "cost": 7,
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-084"
   },
   {
     "name": "Alvida",
@@ -246,7 +256,8 @@
     "setName": "BLUE Buggy [ST25]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST25-001.png",
     "cost": 4,
-    "expansionCode": "ST25"
+    "expansionCode": "ST25",
+    "id": "ST25-001"
   },
   {
     "name": "Cabaji",
@@ -271,7 +282,8 @@
       "[Blocker]",
       "[Opponent's Turn]"
     ],
-    "expansionCode": "ST25"
+    "expansionCode": "ST25",
+    "id": "ST25-002"
   },
   {
     "name": "Crocodile & Mihawk",
@@ -296,7 +308,8 @@
     "abilityKeywords": [
       "[Once Per Turn]"
     ],
-    "expansionCode": "ST25"
+    "expansionCode": "ST25",
+    "id": "ST25-003"
   },
   {
     "name": "Buggy",
@@ -321,7 +334,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "ST25"
+    "expansionCode": "ST25",
+    "id": "ST25-004"
   },
   {
     "name": "Mohji",
@@ -346,6 +360,7 @@
       "[Blocker]",
       "[On K.O.]"
     ],
-    "expansionCode": "ST25"
+    "expansionCode": "ST25",
+    "id": "ST25-005"
   }
 ]

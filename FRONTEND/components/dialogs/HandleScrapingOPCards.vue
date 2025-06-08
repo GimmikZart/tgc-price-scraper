@@ -2,7 +2,7 @@
 import { ref } from "vue";
 import { useDisplay } from "vuetify";
 import { useSnackbar } from "@/stores/useSnackbar";
-import { fetchCardsFromOfficialWebSite } from "@/api/cardsFromApi";
+import { downloadCardsFromOfficialWebSite } from "@/api/cardsFromApi";
 
 const { mdAndDown } = useDisplay();
 const dialog = ref(false);
@@ -14,7 +14,6 @@ const bulkSetList = ref([]);
 function addSetField() {
   bulkSetList.value.push({
     setName: "",
-    cardNumber: null,
   });
 }
 
@@ -29,21 +28,9 @@ async function scrapaCarteOnePiece() {
 
   for (const entry of bulkSetList.value) {
     const expansionName = entry.setName.trim();
-    const cardNumber = parseInt(entry.cardNumber) || 0;
-    if (!expansionName || cardNumber <= 0) {
-      snackbar.addMessage(
-        `Nome set o numero di carte non valido: "${expansionName}" con ${cardNumber} carte`,
-        "error"
-      );
-      continue;
-    }
 
     try {
-      snackbar.addMessage(
-        `Inizio scraping per "${expansionName}" con ${cardNumber} carte`,
-        "info"
-      );
-      await fetchCardsFromOfficialWebSite({ expansionName, cardNumber });
+      await downloadCardsFromOfficialWebSite({ expansionName });
     } catch (e) {
       snackbar.addMessage(
         `Errore nello scraping di "${expansionName}": ${e}`,
@@ -103,17 +90,6 @@ async function scrapaCarteOnePiece() {
               class="w-full"
               dense
               hide-details=""
-            />
-
-            <v-text-field
-              v-model="bulkSetList[index].cardNumber"
-              label="Numero carte"
-              type="number"
-              variant="outlined"
-              min="0"
-              class="w-auto"
-              dense
-              hide-details
             />
 
             <v-btn variant="text" color="red" @click="removeSetField(index)">

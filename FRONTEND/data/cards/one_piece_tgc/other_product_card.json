@@ -23,7 +23,8 @@
       "[Your Turn]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP01"
+    "expansionCode": "OP01",
+    "id": "OP01-001_p2"
   },
   {
     "name": "Usopp",
@@ -49,7 +50,8 @@
       "[Once Per Turn]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP01"
+    "expansionCode": "OP01",
+    "id": "OP01-004_p1"
   },
   {
     "name": "Uta",
@@ -70,7 +72,8 @@
     "setName": "Premium Card Collection  FILM RED Edition-",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-005_p1.png",
     "cost": 4,
-    "expansionCode": "OP01"
+    "expansionCode": "OP01",
+    "id": "OP01-005_p1"
   },
   {
     "name": "Uta",
@@ -91,7 +94,8 @@
     "setName": "GIFT COLLECTION 2023 [GC 01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-005_p2.png",
     "cost": 4,
-    "expansionCode": "OP01"
+    "expansionCode": "OP01",
+    "id": "OP01-005_p2"
   },
   {
     "name": "Otama",
@@ -107,12 +111,13 @@
     "family": [
       "Land of Wano"
     ],
-    "effect": "[On Play] Give up to 1 of your opponent's Characters -2000 power during this turn.",
+    "effect": "[On Play] Give up to 1 of your opponent's Characters −2000 power during this turn.",
     "trigger": null,
     "setName": "Japanese 1st Anniversary Set",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-006_p1.png",
     "cost": 1,
-    "expansionCode": "OP01"
+    "expansionCode": "OP01",
+    "id": "OP01-006_p1"
   },
   {
     "name": "Sanji",
@@ -137,7 +142,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP01"
+    "expansionCode": "OP01",
+    "id": "OP01-013_p2"
   },
   {
     "name": "Sanji",
@@ -162,7 +168,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP01"
+    "expansionCode": "OP01",
+    "id": "OP01-013_p3"
   },
   {
     "name": "Sanji",
@@ -187,7 +194,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP01"
+    "expansionCode": "OP01",
+    "id": "OP01-013_p4"
   },
   {
     "name": "Jinbe",
@@ -214,7 +222,8 @@
       "[On Block]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP01"
+    "expansionCode": "OP01",
+    "id": "OP01-014_p1"
   },
   {
     "name": "Nami",
@@ -235,7 +244,8 @@
     "setName": "Premium Card Collection  25th Edition-",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-016_p2.png",
     "cost": 1,
-    "expansionCode": "OP01"
+    "expansionCode": "OP01",
+    "id": "OP01-016_p2"
   },
   {
     "name": "Nami",
@@ -256,7 +266,8 @@
     "setName": "GIFT COLLECTION 2023 [GC 01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-016_p5.png",
     "cost": 1,
-    "expansionCode": "OP01"
+    "expansionCode": "OP01",
+    "id": "OP01-016_p5"
   },
   {
     "name": "Nami",
@@ -277,7 +288,8 @@
     "setName": "English Version 1st Anniversary Set",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-016_p7.png",
     "cost": 1,
-    "expansionCode": "OP01"
+    "expansionCode": "OP01",
+    "id": "OP01-016_p7"
   },
   {
     "name": "Nico Robin",
@@ -302,7 +314,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP01"
+    "expansionCode": "OP01",
+    "id": "OP01-017_p1"
   },
   {
     "name": "Nico Robin",
@@ -327,7 +340,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP01"
+    "expansionCode": "OP01",
+    "id": "OP01-017_p2"
   },
   {
     "name": "Franky",
@@ -351,7 +365,8 @@
     "abilityKeywords": [
       "[DON!! x1]"
     ],
-    "expansionCode": "OP01"
+    "expansionCode": "OP01",
+    "id": "OP01-021_p1"
   },
   {
     "name": "Franky",
@@ -375,7 +390,8 @@
     "abilityKeywords": [
       "[DON!! x1]"
     ],
-    "expansionCode": "OP01"
+    "expansionCode": "OP01",
+    "id": "OP01-021_p3"
   },
   {
     "name": "Brook",
@@ -400,7 +416,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP01"
+    "expansionCode": "OP01",
+    "id": "OP01-022_p1"
   },
   {
     "name": "Roronoa Zoro",
@@ -425,7 +442,8 @@
     "abilityKeywords": [
       "[Rush]"
     ],
-    "expansionCode": "OP01"
+    "expansionCode": "OP01",
+    "id": "OP01-025_p3"
   },
   {
     "name": "Makino",
@@ -449,7 +467,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP02"
+    "expansionCode": "OP02",
+    "id": "OP02-015_p1"
   },
   {
     "name": "Boa Hancock",
@@ -475,7 +494,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "OP02"
+    "expansionCode": "OP02",
+    "id": "OP02-059_p2"
   },
   {
     "name": "Portgas.D.Ace",
@@ -496,7 +516,8 @@
     "setName": "Special Goods Set  Ace/Sabo/Luffy-",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-001_p2.png",
     "life": 5,
-    "expansionCode": "OP03"
+    "expansionCode": "OP03",
+    "id": "OP03-001_p2"
   },
   {
     "name": "Marco",
@@ -521,7 +542,8 @@
       "[On K.O.]",
       "[Your Turn]"
     ],
-    "expansionCode": "OP03"
+    "expansionCode": "OP03",
+    "id": "OP03-013_p2"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -545,7 +567,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-091_p1"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -571,7 +594,8 @@
       "[Rush]",
       "[DON!! x2]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-001_p3"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -597,7 +621,8 @@
       "[Rush]",
       "[DON!! x2]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-001_p4"
   },
   {
     "name": "Shanks",
@@ -620,7 +645,8 @@
     "setName": "Premium Card Collection  FILM RED Edition-",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-016_p1.png",
     "cost": 8,
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-016_p1"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -643,7 +669,8 @@
     "setName": "Premium Card Collection  FILM RED Edition-",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-022_p1.png",
     "cost": 4,
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-022_p1"
   },
   {
     "name": "Portgas.D.Ace",
@@ -667,7 +694,8 @@
     "abilityKeywords": [
       "[Double Attack]"
     ],
-    "expansionCode": "P"
+    "expansionCode": "P",
+    "id": "P-028_p1"
   },
   {
     "name": "Usopp",
@@ -684,7 +712,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[DON!! x2] [When Attacking] Your opponent cannot activate a [Blocker] Character that has 5000 or more power during this battle.",
-    "trigger": "Play this card.",
+    "trigger": "Trigger[Trigger] Play this card.",
     "setName": "Premium Card Collection  FILM RED Edition-",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-002_p1.png",
     "cost": 2,
@@ -693,7 +721,8 @@
       "[When Attacking]",
       "[DON!! x2]"
     ],
-    "expansionCode": "ST01"
+    "expansionCode": "ST01",
+    "id": "ST01-002_p1"
   },
   {
     "name": "Usopp",
@@ -710,7 +739,7 @@
       "Straw Hat Crew"
     ],
     "effect": "[DON!! x2] [When Attacking] Your opponent cannot activate a [Blocker] Character that has 5000 or more power during this battle.",
-    "trigger": "Play this card.",
+    "trigger": "Trigger[Trigger] Play this card.",
     "setName": "Premium Card Collection  25th Edition-",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-002_p2.png",
     "cost": 2,
@@ -719,7 +748,8 @@
       "[When Attacking]",
       "[DON!! x2]"
     ],
-    "expansionCode": "ST01"
+    "expansionCode": "ST01",
+    "id": "ST01-002_p2"
   },
   {
     "name": "Sanji",
@@ -744,7 +774,8 @@
       "[Rush]",
       "[DON!! x2]"
     ],
-    "expansionCode": "ST01"
+    "expansionCode": "ST01",
+    "id": "ST01-004_p2"
   },
   {
     "name": "Jinbe",
@@ -770,7 +801,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "ST01"
+    "expansionCode": "ST01",
+    "id": "ST01-005_p1"
   },
   {
     "name": "Jinbe",
@@ -796,7 +828,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "ST01"
+    "expansionCode": "ST01",
+    "id": "ST01-005_p2"
   },
   {
     "name": "Tony Tony.Chopper",
@@ -821,7 +854,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "ST01"
+    "expansionCode": "ST01",
+    "id": "ST01-006_p1"
   },
   {
     "name": "Tony Tony.Chopper",
@@ -846,7 +880,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "ST01"
+    "expansionCode": "ST01",
+    "id": "ST01-006_p2"
   },
   {
     "name": "Tony Tony.Chopper",
@@ -871,7 +906,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "ST01"
+    "expansionCode": "ST01",
+    "id": "ST01-006_p3"
   },
   {
     "name": "Tony Tony.Chopper",
@@ -896,7 +932,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "ST01"
+    "expansionCode": "ST01",
+    "id": "ST01-006_p4"
   },
   {
     "name": "Nami",
@@ -921,7 +958,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "ST01"
+    "expansionCode": "ST01",
+    "id": "ST01-007_p1"
   },
   {
     "name": "Nico Robin",
@@ -942,7 +980,8 @@
     "setName": "Premium Card Collection  25th Edition-",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-008_p1.png",
     "cost": 3,
-    "expansionCode": "ST01"
+    "expansionCode": "ST01",
+    "id": "ST01-008_p1"
   },
   {
     "name": "Nico Robin",
@@ -963,7 +1002,8 @@
     "setName": "GIFT COLLECTION 2023 [GC 01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-008_p2.png",
     "cost": 3,
-    "expansionCode": "ST01"
+    "expansionCode": "ST01",
+    "id": "ST01-008_p2"
   },
   {
     "name": "Franky",
@@ -984,7 +1024,8 @@
     "setName": "Premium Card Collection  25th Edition-",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-010_p1.png",
     "cost": 4,
-    "expansionCode": "ST01"
+    "expansionCode": "ST01",
+    "id": "ST01-010_p1"
   },
   {
     "name": "Franky",
@@ -1005,7 +1046,8 @@
     "setName": "English Version 1st Anniversary Set",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-010_p2.png",
     "cost": 4,
-    "expansionCode": "ST01"
+    "expansionCode": "ST01",
+    "id": "ST01-010_p2"
   },
   {
     "name": "Brook",
@@ -1026,7 +1068,8 @@
     "setName": "Premium Card Collection  FILM RED Edition-",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-011_p1.png",
     "cost": 2,
-    "expansionCode": "ST01"
+    "expansionCode": "ST01",
+    "id": "ST01-011_p1"
   },
   {
     "name": "Brook",
@@ -1047,7 +1090,8 @@
     "setName": "English Version 1st Anniversary Set",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-011_p3.png",
     "cost": 2,
-    "expansionCode": "ST01"
+    "expansionCode": "ST01",
+    "id": "ST01-011_p3"
   },
   {
     "name": "Roronoa Zoro",
@@ -1072,7 +1116,8 @@
     "abilityKeywords": [
       "[DON!! x1]"
     ],
-    "expansionCode": "ST01"
+    "expansionCode": "ST01",
+    "id": "ST01-013_p1"
   },
   {
     "name": "Roronoa Zoro",
@@ -1097,7 +1142,8 @@
     "abilityKeywords": [
       "[DON!! x1]"
     ],
-    "expansionCode": "ST01"
+    "expansionCode": "ST01",
+    "id": "ST01-013_p2"
   },
   {
     "name": "Trafalgar Law",
@@ -1122,7 +1168,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "ST03"
+    "expansionCode": "ST03",
+    "id": "ST03-008_p1"
   },
   {
     "name": "Yamato",
@@ -1146,7 +1193,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "ST09"
+    "expansionCode": "ST09",
+    "id": "ST09-012_p1"
   },
   {
     "name": "Jinbe",
@@ -1163,7 +1211,7 @@
       "Fish-Man",
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters -2000 power during this turn.",
+    "effect": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −2000 power during this turn.",
     "trigger": null,
     "setName": "English Version 1st Anniversary Set",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-005_p1.png",
@@ -1172,7 +1220,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "ST10"
+    "expansionCode": "ST10",
+    "id": "ST10-005_p1"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -1198,6 +1247,7 @@
       "[Blocker]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "ST10"
+    "expansionCode": "ST10",
+    "id": "ST10-006_p2"
   }
 ]

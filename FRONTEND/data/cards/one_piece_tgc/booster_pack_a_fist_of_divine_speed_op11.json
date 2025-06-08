@@ -22,7 +22,8 @@
       "[Blocker]",
       "[On K.O.]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-015_p1"
   },
   {
     "name": "Koby",
@@ -48,7 +49,8 @@
     "abilityKeywords": [
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-001"
   },
   {
     "name": "Koby",
@@ -74,7 +76,8 @@
     "abilityKeywords": [
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-001_p1"
   },
   {
     "name": "Ain",
@@ -91,12 +94,13 @@
       "FILM",
       "Neo Navy"
     ],
-    "effect": "[On Play] Give up to 1 of your opponent's Characters -1000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 0 power or less.",
+    "effect": "[On Play] Give up to 1 of your opponent's Characters −1000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 0 power or less.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-002.png",
     "cost": 3,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-002"
   },
   {
     "name": "Usopp",
@@ -117,7 +121,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-003.png",
     "cost": 5,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-003"
   },
   {
     "name": "Kujyaku",
@@ -142,7 +147,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-004"
   },
   {
     "name": "Kujyaku",
@@ -167,7 +173,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-004_p1"
   },
   {
     "name": "Smoker",
@@ -192,7 +199,8 @@
       "[Blocker]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-005"
   },
   {
     "name": "Zephyr",
@@ -209,7 +217,7 @@
       "FILM",
       "Neo Navy"
     ],
-    "effect": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's ＜Special＞ attribute Characters -5000 power during this turn.",
+    "effect": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's ＜Special＞ attribute Characters −5000 power during this turn.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-006.png",
@@ -218,7 +226,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-006"
   },
   {
     "name": "Tashigi",
@@ -242,7 +251,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-007"
   },
   {
     "name": "Doll",
@@ -258,7 +268,7 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Blocker][On Play] You may trash 1 card from your hand: If your Leader has the {Navy} type, give up to 1 of your opponent's Characters -6000 power during this turn.",
+    "effect": "[Blocker][On Play] You may trash 1 card from your hand: If your Leader has the {Navy} type, give up to 1 of your opponent's Characters −6000 power during this turn.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-008.png",
@@ -266,7 +276,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-008"
   },
   {
     "name": "Doll",
@@ -282,7 +293,7 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Blocker][On Play] You may trash 1 card from your hand: If your Leader has the {Navy} type, give up to 1 of your opponent's Characters -6000 power during this turn.",
+    "effect": "[Blocker][On Play] You may trash 1 card from your hand: If your Leader has the {Navy} type, give up to 1 of your opponent's Characters −6000 power during this turn.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-008_p1.png",
@@ -290,7 +301,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-008_p1"
   },
   {
     "name": "Nico Robin",
@@ -306,7 +318,7 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x2] [When Attacking] Give up to 1 of your opponent's Characters -2000 power until the end of your opponent's next turn.",
+    "effect": "[DON!! x2] [When Attacking] Give up to 1 of your opponent's Characters −2000 power until the end of your opponent's next turn.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-009.png",
@@ -315,7 +327,8 @@
       "[When Attacking]",
       "[DON!! x2]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-009"
   },
   {
     "name": "Hibari",
@@ -332,7 +345,7 @@
       "Navy",
       "SWORD"
     ],
-    "effect": "[On Play] Give up to 1 of your opponent's Characters -2000 power during this turn.[When Attacking] This Character gains +1000 power during this turn. Then, up to 1 of your {Navy} type Leader can also attack active Characters during this turn.",
+    "effect": "[On Play] Give up to 1 of your opponent's Characters −2000 power during this turn.[When Attacking] This Character gains +1000 power during this turn. Then, up to 1 of your {Navy} type Leader can also attack active Characters during this turn.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-010.png",
@@ -340,7 +353,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-010"
   },
   {
     "name": "Hibari",
@@ -357,7 +371,7 @@
       "Navy",
       "SWORD"
     ],
-    "effect": "[On Play] Give up to 1 of your opponent's Characters -2000 power during this turn.[When Attacking] This Character gains +1000 power during this turn. Then, up to 1 of your {Navy} type Leader can also attack active Characters during this turn.",
+    "effect": "[On Play] Give up to 1 of your opponent's Characters −2000 power during this turn.[When Attacking] This Character gains +1000 power during this turn. Then, up to 1 of your {Navy} type Leader can also attack active Characters during this turn.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-010_p1.png",
@@ -365,7 +379,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-010_p1"
   },
   {
     "name": "Bins",
@@ -387,7 +402,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-011.png",
     "cost": 5,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-011"
   },
   {
     "name": "Franky",
@@ -412,7 +428,8 @@
       "[Your Turn]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-012"
   },
   {
     "name": "Prince Grus",
@@ -438,7 +455,8 @@
       "[Blocker]",
       "[When Attacking]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-013"
   },
   {
     "name": "Borsalino",
@@ -464,7 +482,8 @@
       "[Blocker]",
       "[Activate: Main]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-014"
   },
   {
     "name": "Mocha",
@@ -485,7 +504,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-015.png",
     "cost": 4,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-015"
   },
   {
     "name": "Roronoa Zoro",
@@ -510,7 +530,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-016"
   },
   {
     "name": "X.Drake",
@@ -533,7 +554,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-017.png",
     "cost": 6,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-017"
   },
   {
     "name": "Honesty Impact",
@@ -550,15 +572,16 @@
       "Navy",
       "SWORD"
     ],
-    "effect": "[Main] Give up to 1 of your opponent's Characters -4000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 6000 power or less.",
-    "trigger": "K.O. up to 1 of your opponent's Characters with 6000 power or less.",
+    "effect": "[Main] Give up to 1 of your opponent's Characters −4000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 6000 power or less.",
+    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with 6000 power or less.",
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-018.png",
     "cost": 6,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-018"
   },
   {
     "name": "Honesty Impact",
@@ -575,15 +598,16 @@
       "Navy",
       "SWORD"
     ],
-    "effect": "[Main] Give up to 1 of your opponent's Characters -4000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 6000 power or less.",
-    "trigger": "K.O. up to 1 of your opponent's Characters with 6000 power or less.",
+    "effect": "[Main] Give up to 1 of your opponent's Characters −4000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 6000 power or less.",
+    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with 6000 power or less.",
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-018_p1.png",
     "cost": 6,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-018_p1"
   },
   {
     "name": "Glorp Web!!",
@@ -601,14 +625,15 @@
       "SWORD"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if your opponent has a Character with 6000 power or more, up to 1 of your Leader or Character cards gains +1000 power during this turn.",
-    "trigger": "Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "trigger": "Trigger[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-019.png",
     "cost": 2,
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-019"
   },
   {
     "name": "X Calibur",
@@ -627,14 +652,15 @@
       "Drake Pirates"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if your opponent has a Character with 6000 power or more, up to 1 of your Leader or Character cards gains +1000 power during this turn.",
-    "trigger": "Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "trigger": "Trigger[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-020.png",
     "cost": 2,
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-020"
   },
   {
     "name": "Jinbe",
@@ -659,7 +685,8 @@
     "abilityKeywords": [
       "[End of Your Turn]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-021"
   },
   {
     "name": "Jinbe",
@@ -684,7 +711,8 @@
     "abilityKeywords": [
       "[End of Your Turn]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-021_p1"
   },
   {
     "name": "Shirahoshi",
@@ -711,7 +739,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-022"
   },
   {
     "name": "Shirahoshi",
@@ -738,7 +767,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-022_p1"
   },
   {
     "name": "Arlong",
@@ -756,12 +786,13 @@
       "Fish-Man Island",
       "The Sun Pirates"
     ],
-    "effect": "If your Leader has the {Fish-Man} type, you have 3 or less Life cards and your opponent has 5 or more rested cards, give this card in your hand -3 cost.",
-    "trigger": "Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "effect": "If your Leader has the {Fish-Man} type, you have 3 or less Life cards and your opponent has 5 or more rested cards, give this card in your hand −3 cost.",
+    "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-023.png",
     "cost": 7,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-023"
   },
   {
     "name": "Arlong",
@@ -779,12 +810,13 @@
       "Fish-Man Island",
       "The Sun Pirates"
     ],
-    "effect": "If your Leader has the {Fish-Man} type, you have 3 or less Life cards and your opponent has 5 or more rested cards, give this card in your hand -3 cost.",
-    "trigger": "Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "effect": "If your Leader has the {Fish-Man} type, you have 3 or less Life cards and your opponent has 5 or more rested cards, give this card in your hand −3 cost.",
+    "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-023_p1.png",
     "cost": 7,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-023_p1"
   },
   {
     "name": "Aladine",
@@ -807,7 +839,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-024.png",
     "cost": 4,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-024"
   },
   {
     "name": "Ishilly",
@@ -833,7 +866,8 @@
       "[Once Per Turn]",
       "[On Your Opponent's Attack]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-025"
   },
   {
     "name": "Scaled Neptunian",
@@ -854,7 +888,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-026.png",
     "cost": 6,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-026"
   },
   {
     "name": "Bulge-Eyed Neptunian",
@@ -875,7 +910,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-027.png",
     "cost": 4,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-027"
   },
   {
     "name": "Lord of the Coast",
@@ -893,11 +929,12 @@
       "East Blue"
     ],
     "effect": "[On Play] Up to 1 of your opponent's rested Characters will not become active in your opponent's next Refresh Phase.",
-    "trigger": "K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
+    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-028.png",
     "cost": 4,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-028"
   },
   {
     "name": "Charlotte Praline",
@@ -923,7 +960,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-029"
   },
   {
     "name": "Shirahoshi",
@@ -948,7 +986,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-030"
   },
   {
     "name": "Jinbe",
@@ -975,7 +1014,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-031"
   },
   {
     "name": "Jinbe",
@@ -1002,7 +1042,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-031_p1"
   },
   {
     "name": "Surume",
@@ -1024,7 +1065,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-032.png",
     "cost": 5,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-032"
   },
   {
     "name": "Bird Neptunian",
@@ -1045,7 +1087,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-033.png",
     "cost": 6,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-033"
   },
   {
     "name": "Hatchan",
@@ -1071,7 +1114,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-034"
   },
   {
     "name": "Fisher Tiger",
@@ -1094,7 +1138,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-035.png",
     "cost": 6,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-035"
   },
   {
     "name": "Spotted Neptunian",
@@ -1115,7 +1160,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-036.png",
     "cost": 4,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-036"
   },
   {
     "name": "Ancient Weapon Poseidon",
@@ -1132,14 +1178,15 @@
       "Fish-Man Island"
     ],
     "effect": "[Main] Look at 4 cards from the top of your deck; reveal up to 1 {Neptunian} or {Fish-Man Island} type Character card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Draw 1 card.",
+    "trigger": "Trigger[Trigger] Draw 1 card.",
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-037.png",
     "cost": 1,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-037"
   },
   {
     "name": "Gum-Gum Elephant Gatling",
@@ -1166,7 +1213,8 @@
       "[Main]",
       "[Counter]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-038"
   },
   {
     "name": "Vagabond Drill",
@@ -1185,14 +1233,15 @@
       "The Sun Pirates"
     ],
     "effect": "[Counter] Up to 1 of your {Fish-Man} or {Merfolk} type Leader or Character cards gains +3000 power during this battle. Then, rest up to 1 of your opponent's Characters with a cost of 3 or less.",
-    "trigger": "Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-039.png",
     "cost": 1,
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-039"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -1214,7 +1263,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-040.png",
     "life": 3,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-040"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -1236,7 +1286,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-040_p1.png",
     "life": 3,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-040_p1"
   },
   {
     "name": "Nami",
@@ -1264,7 +1315,8 @@
       "[On Your Opponent's Attack]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-041"
   },
   {
     "name": "Nami",
@@ -1292,7 +1344,8 @@
       "[On Your Opponent's Attack]",
       "[DON!! x1]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-041_p1"
   },
   {
     "name": "Vito",
@@ -1316,7 +1369,8 @@
     "abilityKeywords": [
       "[Rush]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-042"
   },
   {
     "name": "Vinsmoke Ichiji",
@@ -1343,7 +1397,8 @@
       "[Once Per Turn]",
       "[On Your Opponent's Attack]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-043"
   },
   {
     "name": "Vinsmoke Judge",
@@ -1369,7 +1424,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-044"
   },
   {
     "name": "Vinsmoke Niji",
@@ -1391,7 +1447,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-045.png",
     "cost": 5,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-045"
   },
   {
     "name": "Vinsmoke Yonji",
@@ -1416,7 +1473,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-046"
   },
   {
     "name": "Vinsmoke Reiju",
@@ -1438,7 +1496,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-047.png",
     "cost": 4,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-047"
   },
   {
     "name": "Vinsmoke Reiju",
@@ -1460,7 +1519,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-047_p1.png",
     "cost": 4,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-047_p1"
   },
   {
     "name": "Capone\"Gang\"Bege",
@@ -1482,7 +1542,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-048.png",
     "cost": 1,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-048"
   },
   {
     "name": "Carrot",
@@ -1506,7 +1567,8 @@
     "abilityKeywords": [
       "[On Your Opponent's Attack]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-049"
   },
   {
     "name": "Gotti",
@@ -1530,7 +1592,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-050"
   },
   {
     "name": "Sanji",
@@ -1552,7 +1615,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-051.png",
     "cost": 6,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-051"
   },
   {
     "name": "Sanji",
@@ -1574,7 +1638,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-051_p1.png",
     "cost": 6,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-051_p1"
   },
   {
     "name": "Charlotte Lola",
@@ -1596,7 +1661,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-052.png",
     "cost": 5,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-052"
   },
   {
     "name": "Tony Tony.Chopper",
@@ -1618,7 +1684,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-053.png",
     "cost": 5,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-053"
   },
   {
     "name": "Nami",
@@ -1642,7 +1709,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-054"
   },
   {
     "name": "Nami",
@@ -1666,7 +1734,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-054_p1"
   },
   {
     "name": "Bartolomeo",
@@ -1688,7 +1757,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-055.png",
     "cost": 6,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-055"
   },
   {
     "name": "Brook",
@@ -1712,7 +1782,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-056"
   },
   {
     "name": "Pedro",
@@ -1736,7 +1807,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-057"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -1760,7 +1832,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-058"
   },
   {
     "name": "Gum-Gum King Cobra",
@@ -1777,14 +1850,15 @@
       "Straw Hat Crew"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 4 or less cards in your hand, that card gains an additional +2000 power during this battle.",
-    "trigger": "Return up to 1 Character with a cost of 2 or less to the owner's hand.",
+    "trigger": "Trigger[Trigger] Return up to 1 Character with a cost of 2 or less to the owner's hand.",
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-059.png",
     "cost": 1,
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-059"
   },
   {
     "name": "Let's Crash This Wedding!!!",
@@ -1801,14 +1875,15 @@
       "Straw Hat Crew"
     ],
     "effect": "[Main] If your Leader is multicolored, look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card other than [Let's Crash This Wedding!!!] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Activate this card's [Main] effect.",
+    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-060.png",
     "cost": 1,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-060"
   },
   {
     "name": "Gum-Gum Jet Culverin",
@@ -1825,14 +1900,15 @@
       "Straw Hat Crew"
     ],
     "effect": "[Main] Place up to 1 of your opponent's Characters with a base cost of 4 or less at the bottom of the owner's deck.",
-    "trigger": "Place up to 1 Character with a cost of 1 or less at the bottom of the owner's deck.",
+    "trigger": "Trigger[Trigger] Place up to 1 Character with a cost of 1 or less at the bottom of the owner's deck.",
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-061.png",
     "cost": 3,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-061"
   },
   {
     "name": "Charlotte Katakuri",
@@ -1848,7 +1924,7 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[When Attacking]/[On Your Opponent's Attack] [Once Per Turn] DON!! -1: Look at 1 card from the top of your opponent's deck. Then, this Leader gains +1000 power during this battle.",
+    "effect": "[When Attacking]/[On Your Opponent's Attack] [Once Per Turn] DON!! −1: Look at 1 card from the top of your opponent's deck. Then, this Leader gains +1000 power during this battle.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-062.png",
@@ -1858,7 +1934,8 @@
       "[Once Per Turn]",
       "[On Your Opponent's Attack]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-062"
   },
   {
     "name": "Charlotte Katakuri",
@@ -1874,7 +1951,7 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[When Attacking]/[On Your Opponent's Attack] [Once Per Turn] DON!! -1: Look at 1 card from the top of your opponent's deck. Then, this Leader gains +1000 power during this battle.",
+    "effect": "[When Attacking]/[On Your Opponent's Attack] [Once Per Turn] DON!! −1: Look at 1 card from the top of your opponent's deck. Then, this Leader gains +1000 power during this battle.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-062_p1.png",
@@ -1884,7 +1961,8 @@
       "[Once Per Turn]",
       "[On Your Opponent's Attack]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-062_p1"
   },
   {
     "name": "Little Sadi",
@@ -1900,12 +1978,13 @@
     "family": [
       "Impel Down"
     ],
-    "effect": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Impel Down} type, rest up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Impel Down} type, rest up to 1 of your opponent's Characters with a cost of 3 or less.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-063.png",
     "cost": 2,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-063"
   },
   {
     "name": "Saldeath",
@@ -1926,7 +2005,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-064.png",
     "cost": 6,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-064"
   },
   {
     "name": "Charlotte Anana",
@@ -1950,7 +2030,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-065"
   },
   {
     "name": "Charlotte Oven",
@@ -1974,7 +2055,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-066"
   },
   {
     "name": "Charlotte Katakuri",
@@ -1999,7 +2081,8 @@
       "[Blocker]",
       "[End of Your Turn]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-067"
   },
   {
     "name": "Charlotte Katakuri",
@@ -2024,7 +2107,8 @@
       "[Blocker]",
       "[End of Your Turn]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-067_p1"
   },
   {
     "name": "Charlotte Daifuku",
@@ -2045,7 +2129,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-068.png",
     "cost": 6,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-068"
   },
   {
     "name": "Charlotte Brulee",
@@ -2066,7 +2151,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-069.png",
     "cost": 3,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-069"
   },
   {
     "name": "Charlotte Pudding",
@@ -2082,7 +2168,7 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Big Mom Pirates} type card with a cost of 2 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.[Activate: Main] DON!! -1, You may rest this Character: Look at 1 card from the top of your opponent's deck.",
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Big Mom Pirates} type card with a cost of 2 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.[Activate: Main] DON!! −1, You may rest this Character: Look at 1 card from the top of your opponent's deck.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-070.png",
@@ -2090,7 +2176,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-070"
   },
   {
     "name": "Charlotte Pudding",
@@ -2106,7 +2193,7 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Big Mom Pirates} type card with a cost of 2 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.[Activate: Main] DON!! -1, You may rest this Character: Look at 1 card from the top of your opponent's deck.",
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Big Mom Pirates} type card with a cost of 2 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.[Activate: Main] DON!! −1, You may rest this Character: Look at 1 card from the top of your opponent's deck.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-070_p1.png",
@@ -2114,7 +2201,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-070_p1"
   },
   {
     "name": "Charlotte Perospero",
@@ -2139,7 +2227,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-071"
   },
   {
     "name": "Charlotte Mont-d'or",
@@ -2155,7 +2244,7 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] DON!! -1, You may rest this Character: Your opponent places 2 cards from their trash at the bottom of their deck in any order. Then, add 1 card from the top of your Life cards to your hand.",
+    "effect": "[Activate: Main] [Once Per Turn] DON!! −1, You may rest this Character: Your opponent places 2 cards from their trash at the bottom of their deck in any order. Then, add 1 card from the top of your Life cards to your hand.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-072.png",
@@ -2164,7 +2253,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-072"
   },
   {
     "name": "Charlotte Linlin",
@@ -2181,7 +2271,7 @@
       "The Four Emperors",
       "Big Mom Pirates"
     ],
-    "effect": "If your Leader has the {Big Mom Pirates} type, this Character gains [Rush].[On Your Opponent's Attack] [Once Per Turn] DON!! -5: Choose a cost and reveal 1 card from the top of your opponent's deck. If the revealed card has the chosen cost, up to 1 of your Leader gains +2000 power during this turn.",
+    "effect": "If your Leader has the {Big Mom Pirates} type, this Character gains [Rush].[On Your Opponent's Attack] [Once Per Turn] DON!! −5: Choose a cost and reveal 1 card from the top of your opponent's deck. If the revealed card has the chosen cost, up to 1 of your Leader gains +2000 power during this turn.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-073.png",
@@ -2191,7 +2281,8 @@
       "[Once Per Turn]",
       "[On Your Opponent's Attack]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-073"
   },
   {
     "name": "Charlotte Linlin",
@@ -2208,7 +2299,7 @@
       "The Four Emperors",
       "Big Mom Pirates"
     ],
-    "effect": "If your Leader has the {Big Mom Pirates} type, this Character gains [Rush].[On Your Opponent's Attack] [Once Per Turn] DON!! -5: Choose a cost and reveal 1 card from the top of your opponent's deck. If the revealed card has the chosen cost, up to 1 of your Leader gains +2000 power during this turn.",
+    "effect": "If your Leader has the {Big Mom Pirates} type, this Character gains [Rush].[On Your Opponent's Attack] [Once Per Turn] DON!! −5: Choose a cost and reveal 1 card from the top of your opponent's deck. If the revealed card has the chosen cost, up to 1 of your Leader gains +2000 power during this turn.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-073_p1.png",
@@ -2218,7 +2309,8 @@
       "[Once Per Turn]",
       "[On Your Opponent's Attack]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-073_p1"
   },
   {
     "name": "Streusen",
@@ -2234,7 +2326,7 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] DON!! -1, You may rest this Character: Choose a cost and reveal 1 card from the top of your opponent's deck. If the revealed card has the chosen cost, rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "effect": "[Activate: Main] [Once Per Turn] DON!! −1, You may rest this Character: Choose a cost and reveal 1 card from the top of your opponent's deck. If the revealed card has the chosen cost, rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-074.png",
@@ -2243,7 +2335,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-074"
   },
   {
     "name": "Jaguar.D.Saul",
@@ -2262,11 +2355,12 @@
       "Former Navy"
     ],
     "effect": "[On Play] If your Leader is [Nico Robin] and you have 7 or more DON!! cards on your field, draw 2 cards.",
-    "trigger": "Activate this card's [On Play] effect.",
+    "trigger": "Trigger[Trigger] Activate this card's [On Play] effect.",
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-075.png",
     "cost": 6,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-075"
   },
   {
     "name": "Hannyabal",
@@ -2290,7 +2384,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-076"
   },
   {
     "name": "Randolph",
@@ -2316,7 +2411,8 @@
       "[Your Turn]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-077"
   },
   {
     "name": "Decuplets",
@@ -2337,7 +2433,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-078.png",
     "cost": 5,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-078"
   },
   {
     "name": "When Two Men Are Fighting the Last Thing I Need Is Some Half-Hearted Assistance!!!!",
@@ -2354,14 +2451,15 @@
       "Big Mom Pirates"
     ],
     "effect": "[Counter] Choose a cost and reveal 1 card from the top of your opponent's deck. If the revealed card has the chosen cost, up to 1 of your Leader or Character cards gains +5000 power during this battle.",
-    "trigger": "Draw 1 card.",
+    "trigger": "Trigger[Trigger] Draw 1 card.",
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-079.png",
     "cost": 1,
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-079"
   },
   {
     "name": "Gear Two",
@@ -2386,7 +2484,8 @@
       "[Main]",
       "[Counter]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-080"
   },
   {
     "name": "Gear Two",
@@ -2411,7 +2510,8 @@
       "[Main]",
       "[Counter]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-080_p1"
   },
   {
     "name": "Cognac Mama-Mash",
@@ -2429,14 +2529,15 @@
       "Big Mom Pirates"
     ],
     "effect": "[Main] Choose a cost and reveal 1 card from the top of your opponent's deck. If the revealed card has the chosen cost, K.O. up to 1 of your opponent's Characters with a base cost of 8 or less.",
-    "trigger": "Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-081.png",
     "cost": 6,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-081"
   },
   {
     "name": "Aramaki",
@@ -2460,7 +2561,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-082"
   },
   {
     "name": "Caribou",
@@ -2484,7 +2586,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-083"
   },
   {
     "name": "Kuzan",
@@ -2508,7 +2611,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-084"
   },
   {
     "name": "Kuzan",
@@ -2532,7 +2636,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-084_p1"
   },
   {
     "name": "Kurozumi Orochi",
@@ -2554,7 +2659,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-085.png",
     "cost": 3,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-085"
   },
   {
     "name": "Coribou",
@@ -2578,7 +2684,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-086"
   },
   {
     "name": "Miss Sarahebi",
@@ -2600,7 +2707,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-087.png",
     "cost": 5,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-087"
   },
   {
     "name": "Shu",
@@ -2625,7 +2733,8 @@
       "[Blocker]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-088"
   },
   {
     "name": "Black Maria",
@@ -2646,7 +2755,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-089.png",
     "cost": 5,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-089"
   },
   {
     "name": "Briscola",
@@ -2671,7 +2781,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-090"
   },
   {
     "name": "Berry Good",
@@ -2692,7 +2803,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-091.png",
     "cost": 4,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-091"
   },
   {
     "name": "Helmeppo",
@@ -2714,7 +2826,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-092.png",
     "cost": 6,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-092"
   },
   {
     "name": "Helmeppo",
@@ -2736,7 +2849,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-092_p1.png",
     "cost": 6,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-092_p1"
   },
   {
     "name": "Bogard",
@@ -2757,7 +2871,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-093.png",
     "cost": 6,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-093"
   },
   {
     "name": "Morgan",
@@ -2778,7 +2893,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-094.png",
     "cost": 6,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-094"
   },
   {
     "name": "Monkey.D.Garp",
@@ -2799,7 +2915,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-095.png",
     "cost": 8,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-095"
   },
   {
     "name": "Monkey.D.Garp",
@@ -2820,7 +2937,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-095_p1.png",
     "cost": 8,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-095_p1"
   },
   {
     "name": "Ripper",
@@ -2845,7 +2963,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-096"
   },
   {
     "name": "After All These Years I'm Losing My Edge!!!",
@@ -2869,7 +2988,8 @@
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-097"
   },
   {
     "name": "Blue Hole",
@@ -2886,14 +3006,15 @@
       "Navy"
     ],
     "effect": "[Main] You may trash 3 cards from the top of your deck: K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
-    "trigger": "Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "trigger": "Trigger[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-098.png",
     "cost": 3,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-098"
   },
   {
     "name": "I'm Gonna Be a Navy Officer!!!",
@@ -2911,14 +3032,15 @@
       "Navy"
     ],
     "effect": "[Main] Look at 3 cards from the top of your deck; reveal up to 1 {Navy} type card other than [I'm Gonna Be a Navy Officer!!!] and add it to your hand. Then, trash the rest.",
-    "trigger": "Activate this card's [Main] effect.",
+    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-099.png",
     "cost": 1,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-099"
   },
   {
     "name": "Otohime",
@@ -2940,7 +3062,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-100.png",
     "cost": 1,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-100"
   },
   {
     "name": "Capone\"Gang\"Bege",
@@ -2966,7 +3089,8 @@
       "[Blocker]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-101"
   },
   {
     "name": "Capone\"Gang\"Bege",
@@ -2992,7 +3116,8 @@
       "[Blocker]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-101_p1"
   },
   {
     "name": "Camie",
@@ -3019,7 +3144,8 @@
       "[Your Turn]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-102"
   },
   {
     "name": "Long-Jaw Neptunian",
@@ -3043,7 +3169,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-103"
   },
   {
     "name": "Shirley",
@@ -3068,7 +3195,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-104"
   },
   {
     "name": "Charlotte Chiffon",
@@ -3090,7 +3218,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-105.png",
     "cost": 5,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-105"
   },
   {
     "name": "Zeus",
@@ -3112,7 +3241,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-106.png",
     "cost": 2,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-106"
   },
   {
     "name": "Zeus",
@@ -3134,7 +3264,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-106_p1.png",
     "cost": 2,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-106_p1"
   },
   {
     "name": "Topknot Neptunian",
@@ -3160,7 +3291,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-107"
   },
   {
     "name": "Neptune",
@@ -3182,7 +3314,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-108.png",
     "cost": 5,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-108"
   },
   {
     "name": "Pappag",
@@ -3204,7 +3337,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-109.png",
     "cost": 1,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-109"
   },
   {
     "name": "Fukaboshi",
@@ -3226,7 +3360,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-110.png",
     "cost": 3,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-110"
   },
   {
     "name": "Mamboshi",
@@ -3248,7 +3383,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-111.png",
     "cost": 6,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-111"
   },
   {
     "name": "Megalo",
@@ -3274,7 +3410,8 @@
       "[Blocker]",
       "[Opponent's Turn]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-112"
   },
   {
     "name": "Ryuboshi",
@@ -3296,7 +3433,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-113.png",
     "cost": 5,
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-113"
   },
   {
     "name": "Gum-Gum Fire-Fist Pistol Red Hawk",
@@ -3321,7 +3459,8 @@
       "[Main]",
       "[Counter]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-114"
   },
   {
     "name": "Gum-Gum Fire-Fist Pistol Red Hawk",
@@ -3346,7 +3485,8 @@
       "[Main]",
       "[Counter]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-114_p1"
   },
   {
     "name": "You're Just Not My Type!",
@@ -3364,14 +3504,15 @@
       "Fish-Man Island"
     ],
     "effect": "[Counter] If your Leader is [Shirahoshi], up to 1 of your Leader or Character cards gains +4000 power during this battle.",
-    "trigger": "K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
+    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-115.png",
     "cost": 1,
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-115"
   },
   {
     "name": "Merman Combat Ultramarine",
@@ -3389,14 +3530,15 @@
       "Fish-Man Island"
     ],
     "effect": "[Main] Add up to 1 Character with a cost of 6 or less to the top or bottom of the owner's Life cards face-up.",
-    "trigger": "Add up to 1 of your opponent's Characters with a cost of 4 or less to the top or bottom of the owner's Life cards face-up.",
+    "trigger": "Trigger[Trigger] Add up to 1 of your opponent's Characters with a cost of 4 or less to the top or bottom of the owner's Life cards face-up.",
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-116.png",
     "cost": 6,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-116"
   },
   {
     "name": "Fish-Man Island",
@@ -3421,7 +3563,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-117"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3446,7 +3589,8 @@
       "[Rush]",
       "[When Attacking]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-118"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3471,7 +3615,8 @@
       "[Rush]",
       "[When Attacking]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-118_p1"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3496,7 +3641,8 @@
       "[Rush]",
       "[When Attacking]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-118_p2"
   },
   {
     "name": "Koby",
@@ -3521,7 +3667,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-119"
   },
   {
     "name": "Koby",
@@ -3546,7 +3693,8 @@
     "abilityKeywords": [
       "[When Attacking]"
     ],
-    "expansionCode": "OP11"
+    "expansionCode": "OP11",
+    "id": "OP11-119_p1"
   },
   {
     "name": "Shirahoshi",
@@ -3570,7 +3718,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "EB01"
+    "expansionCode": "EB01",
+    "id": "EB01-057_p2"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3587,7 +3736,7 @@
       "The Four Emperors",
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] DON!! -10: Place all of your Characters except this Character at the bottom of your deck in any order. Then, take an extra turn after this one.[Activate: Main] [Once Per Turn] You may rest 1 of your DON!! cards: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": "[On Play] DON!! −10: Place all of your Characters except this Character at the bottom of your deck in any order. Then, take an extra turn after this one.[Activate: Main] [Once Per Turn] You may rest 1 of your DON!! cards: Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-119_p7.png",
@@ -3596,7 +3745,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-119_p7"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3613,7 +3763,7 @@
       "The Four Emperors",
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] DON!! -10: Place all of your Characters except this Character at the bottom of your deck in any order. Then, take an extra turn after this one.[Activate: Main] [Once Per Turn] You may rest 1 of your DON!! cards: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": "[On Play] DON!! −10: Place all of your Characters except this Character at the bottom of your deck in any order. Then, take an extra turn after this one.[Activate: Main] [Once Per Turn] You may rest 1 of your DON!! cards: Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-119_p8.png",
@@ -3622,7 +3772,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "OP05"
+    "expansionCode": "OP05",
+    "id": "OP05-119_p8"
   },
   {
     "name": "Sanji",
@@ -3643,7 +3794,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-119_p2.png",
     "cost": 9,
-    "expansionCode": "OP06"
+    "expansionCode": "OP06",
+    "id": "OP06-119_p2"
   },
   {
     "name": "Stussy",
@@ -3664,7 +3816,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-085_p2.png",
     "cost": 9,
-    "expansionCode": "OP07"
+    "expansionCode": "OP07",
+    "id": "OP07-085_p2"
   },
   {
     "name": "Silvers Rayleigh",
@@ -3688,7 +3841,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "OP09"
+    "expansionCode": "OP09",
+    "id": "OP09-005_p1"
   },
   {
     "name": "Shanks",
@@ -3711,7 +3865,8 @@
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST16-004_p1.png",
     "cost": 9,
-    "expansionCode": "ST16"
+    "expansionCode": "ST16",
+    "id": "ST16-004_p1"
   },
   {
     "name": "Luffy-Tarou",
@@ -3727,11 +3882,12 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] DON!! -1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 purple {Straw Hat Crew} type Character card with a cost of 5 or less from your hand.",
+    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 purple {Straw Hat Crew} type Character card with a cost of 5 or less from your hand.",
     "trigger": null,
     "setName": "A FIST OF DIVINE SPEED [OP11]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST18-005_p1.png",
     "cost": 7,
-    "expansionCode": "ST18"
+    "expansionCode": "ST18",
+    "id": "ST18-005_p1"
   }
 ]

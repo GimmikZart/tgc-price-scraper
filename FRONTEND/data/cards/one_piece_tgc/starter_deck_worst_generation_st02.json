@@ -23,7 +23,8 @@
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
-    "expansionCode": "ST02"
+    "expansionCode": "ST02",
+    "id": "ST02-001"
   },
   {
     "name": "Vito",
@@ -44,7 +45,8 @@
     "setName": "Worst Generation [ST02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-002.png",
     "cost": 3,
-    "expansionCode": "ST02"
+    "expansionCode": "ST02",
+    "id": "ST02-002"
   },
   {
     "name": "Urouge",
@@ -69,7 +71,8 @@
     "abilityKeywords": [
       "[DON!! x1]"
     ],
-    "expansionCode": "ST02"
+    "expansionCode": "ST02",
+    "id": "ST02-003"
   },
   {
     "name": "Capone\"Gang\"Bege",
@@ -94,7 +97,8 @@
     "abilityKeywords": [
       "[Blocker]"
     ],
-    "expansionCode": "ST02"
+    "expansionCode": "ST02",
+    "id": "ST02-004"
   },
   {
     "name": "Killer",
@@ -112,11 +116,12 @@
       "Kid Pirates"
     ],
     "effect": "[On Play] K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
-    "trigger": "Play this card.",
+    "trigger": "Trigger[Trigger] Play this card.",
     "setName": "Worst Generation [ST02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-005.png",
     "cost": 3,
-    "expansionCode": "ST02"
+    "expansionCode": "ST02",
+    "id": "ST02-005"
   },
   {
     "name": "Koby",
@@ -137,7 +142,8 @@
     "setName": "Worst Generation [ST02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-006.png",
     "cost": 4,
-    "expansionCode": "ST02"
+    "expansionCode": "ST02",
+    "id": "ST02-006"
   },
   {
     "name": "Jewelry Bonney",
@@ -162,7 +168,8 @@
     "abilityKeywords": [
       "[Activate: Main]"
     ],
-    "expansionCode": "ST02"
+    "expansionCode": "ST02",
+    "id": "ST02-007"
   },
   {
     "name": "Scratchmen Apoo",
@@ -188,7 +195,8 @@
       "[When Attacking]",
       "[DON!! x1]"
     ],
-    "expansionCode": "ST02"
+    "expansionCode": "ST02",
+    "id": "ST02-008"
   },
   {
     "name": "Trafalgar Law",
@@ -210,7 +218,8 @@
     "setName": "Worst Generation [ST02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-009.png",
     "cost": 5,
-    "expansionCode": "ST02"
+    "expansionCode": "ST02",
+    "id": "ST02-009"
   },
   {
     "name": "Basil Hawkins",
@@ -237,7 +246,8 @@
       "[Once Per Turn]",
       "[DON!! x1]"
     ],
-    "expansionCode": "ST02"
+    "expansionCode": "ST02",
+    "id": "ST02-010"
   },
   {
     "name": "Heat",
@@ -258,7 +268,8 @@
     "setName": "Worst Generation [ST02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-011.png",
     "cost": 2,
-    "expansionCode": "ST02"
+    "expansionCode": "ST02",
+    "id": "ST02-011"
   },
   {
     "name": "Bepo",
@@ -280,7 +291,8 @@
     "setName": "Worst Generation [ST02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-012.png",
     "cost": 1,
-    "expansionCode": "ST02"
+    "expansionCode": "ST02",
+    "id": "ST02-012"
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -307,7 +319,8 @@
       "[End of Your Turn]",
       "[DON!! x1]"
     ],
-    "expansionCode": "ST02"
+    "expansionCode": "ST02",
+    "id": "ST02-013"
   },
   {
     "name": "X.Drake",
@@ -334,7 +347,8 @@
       "[Your Turn]",
       "[DON!! x1]"
     ],
-    "expansionCode": "ST02"
+    "expansionCode": "ST02",
+    "id": "ST02-014"
   },
   {
     "name": "Scalpel",
@@ -352,14 +366,15 @@
       "Heart Pirates"
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, set up to 1 of your DON!! cards as active.",
-    "trigger": "Set up to 2 of your DON!! cards as active.",
+    "trigger": "Trigger[Trigger] Set up to 2 of your DON!! cards as active.",
     "setName": "Worst Generation [ST02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-015.png",
     "cost": 1,
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "ST02"
+    "expansionCode": "ST02",
+    "id": "ST02-015"
   },
   {
     "name": "Repel",
@@ -384,7 +399,8 @@
     "abilityKeywords": [
       "[Counter]"
     ],
-    "expansionCode": "ST02"
+    "expansionCode": "ST02",
+    "id": "ST02-016"
   },
   {
     "name": "Straw Sword",
@@ -402,13 +418,14 @@
       "Hawkins Pirates"
     ],
     "effect": "[Main] Rest up to 1 of your opponent's Characters.",
-    "trigger": "Play up to 1 {Supernovas} type card with a cost of 2 or less from your hand.",
+    "trigger": "Trigger[Trigger] Play up to 1 {Supernovas} type card with a cost of 2 or less from your hand.",
     "setName": "Worst Generation [ST02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-017.png",
     "cost": 2,
     "abilityKeywords": [
       "[Main]"
     ],
-    "expansionCode": "ST02"
+    "expansionCode": "ST02",
+    "id": "ST02-017"
   }
 ]

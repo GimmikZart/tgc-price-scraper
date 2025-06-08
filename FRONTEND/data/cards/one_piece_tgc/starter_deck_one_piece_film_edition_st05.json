@@ -1,0 +1,444 @@
+[
+  {
+    "name": "Shanks",
+    "code": "ST05-001",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "FILM",
+      "The Four Emperors",
+      "Red-Haired Pirates"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] DON!! −3 (You may return the specified number of DON!! cards from your field to your DON!! deck.): All of your {FILM} type Characters gain +2000 power during this turn.",
+    "trigger": null,
+    "setName": "Card Set(s)ONE PIECE FILM edition [ST 05]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST05-001.png",
+    "life": 5,
+    "abilityKeywords": [
+      "[Activate: Main]",
+      "[Once Per Turn]"
+    ],
+    "expansionCode": "ST05",
+    "imageId": "ST05-001",
+    "id": "ST05-001_Card_SetsONE_PIECE_FILM_edition_[ST_05]"
+  },
+  {
+    "name": "Ain",
+    "code": "ST05-002",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "FILM",
+      "Neo Navy"
+    ],
+    "effect": "[On Play] Add up to 1 DON!! card from your DON!! deck and rest it.",
+    "trigger": null,
+    "setName": "Card Set(s)ONE PIECE FILM edition [ST 05]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST05-002.png",
+    "cost": 4,
+    "expansionCode": "ST05",
+    "imageId": "ST05-002",
+    "id": "ST05-002_Card_SetsONE_PIECE_FILM_edition_[ST_05]"
+  },
+  {
+    "name": "Ann",
+    "code": "ST05-003",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 3000,
+    "counter": null,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "FILM",
+      "The Pirates Fest"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "trigger": null,
+    "setName": "Card Set(s)ONE PIECE FILM edition [ST 05]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST05-003.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[Blocker]"
+    ],
+    "expansionCode": "ST05",
+    "imageId": "ST05-003",
+    "id": "ST05-003_Card_SetsONE_PIECE_FILM_edition_[ST_05]"
+  },
+  {
+    "name": "Uta",
+    "code": "ST05-004",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "FILM"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Block] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "trigger": null,
+    "setName": "Card Set(s)ONE PIECE FILM edition [ST 05]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST05-004.png",
+    "cost": 4,
+    "abilityKeywords": [
+      "[Blocker]",
+      "[On Block]"
+    ],
+    "expansionCode": "ST05",
+    "imageId": "ST05-004",
+    "id": "ST05-004_Card_SetsONE_PIECE_FILM_edition_[ST_05]"
+  },
+  {
+    "name": "Carina",
+    "code": "ST05-005",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": 3000,
+    "counter": 1000,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "FILM",
+      "Grantesoro"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] You may rest this Character and trash 1 {FILM} type card from your hand: If your opponent has more DON!! cards on their field than you, add 2 DON!! cards from your DON!! deck and rest them.",
+    "trigger": null,
+    "setName": "Card Set(s)ONE PIECE FILM edition [ST 05]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST05-005.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[Activate: Main]",
+      "[Once Per Turn]"
+    ],
+    "expansionCode": "ST05",
+    "imageId": "ST05-005",
+    "id": "ST05-005_Card_SetsONE_PIECE_FILM_edition_[ST_05]"
+  },
+  {
+    "name": "Gild Tesoro",
+    "code": "ST05-006",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": null,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "FILM",
+      "Grantesoro"
+    ],
+    "effect": "[When Attacking] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Draw 2 cards.",
+    "trigger": null,
+    "setName": "Card Set(s)ONE PIECE FILM edition [ST 05]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST05-006.png",
+    "cost": 5,
+    "abilityKeywords": [
+      "[When Attacking]"
+    ],
+    "expansionCode": "ST05",
+    "imageId": "ST05-006",
+    "id": "ST05-006_Card_SetsONE_PIECE_FILM_edition_[ST_05]"
+  },
+  {
+    "name": "Gordon",
+    "code": "ST05-007",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": 3000,
+    "counter": 1000,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "FILM"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "Card Set(s)ONE PIECE FILM edition [ST 05]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST05-007.png",
+    "cost": 1,
+    "expansionCode": "ST05",
+    "imageId": "ST05-007",
+    "id": "ST05-007_Card_SetsONE_PIECE_FILM_edition_[ST_05]"
+  },
+  {
+    "name": "Shiki",
+    "code": "ST05-008",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 7000,
+    "counter": 1000,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "FILM",
+      "Golden Lion Pirates"
+    ],
+    "effect": "If you have 8 or more DON!! cards on your field, this Character cannot be K.O.'d in battle.",
+    "trigger": null,
+    "setName": "Card Set(s)ONE PIECE FILM edition [ST 05]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST05-008.png",
+    "cost": 6,
+    "expansionCode": "ST05",
+    "imageId": "ST05-008",
+    "id": "ST05-008_Card_SetsONE_PIECE_FILM_edition_[ST_05]"
+  },
+  {
+    "name": "Scarlet",
+    "code": "ST05-009",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 3000,
+    "counter": 1000,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "FILM",
+      "Animal",
+      "Golden Lion Pirates"
+    ],
+    "effect": null,
+    "trigger": "Trigger[Trigger] Play this card.",
+    "setName": "Card Set(s)ONE PIECE FILM edition [ST 05]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST05-009.png",
+    "cost": 2,
+    "expansionCode": "ST05",
+    "imageId": "ST05-009",
+    "id": "ST05-009_Card_SetsONE_PIECE_FILM_edition_[ST_05]"
+  },
+  {
+    "name": "Zephyr",
+    "code": "ST05-010",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 8000,
+    "counter": null,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "FILM",
+      "Neo Navy"
+    ],
+    "effect": "When this Character battles ＜Strike＞ attribute Characters, this Character gains +3000 power during this turn.[Activate: Main] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains +2000 power during this turn.",
+    "trigger": null,
+    "setName": "Card Set(s)ONE PIECE FILM edition [ST 05]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST05-010.png",
+    "cost": 7,
+    "abilityKeywords": [
+      "[Activate: Main]",
+      "[Once Per Turn]"
+    ],
+    "expansionCode": "ST05",
+    "imageId": "ST05-010",
+    "id": "ST05-010_Card_SetsONE_PIECE_FILM_edition_[ST_05]"
+  },
+  {
+    "name": "Douglas Bullet",
+    "code": "ST05-011",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 10000,
+    "counter": null,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "FILM",
+      "The Pirates Fest"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] DON!! −4 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 2 of your opponent's Characters with a cost of 6 or less. Then, this Character gains [Double Attack] during this turn.(This card deals 2 damage.)",
+    "trigger": null,
+    "setName": "Card Set(s)ONE PIECE FILM edition [ST 05]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST05-011.png",
+    "cost": 8,
+    "abilityKeywords": [
+      "[Double Attack]",
+      "[Activate: Main]",
+      "[Once Per Turn]"
+    ],
+    "expansionCode": "ST05",
+    "imageId": "ST05-011",
+    "id": "ST05-011_Card_SetsONE_PIECE_FILM_edition_[ST_05]"
+  },
+  {
+    "name": "Baccarat",
+    "code": "ST05-012",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "FILM",
+      "Grantesoro"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "Card Set(s)ONE PIECE FILM edition [ST 05]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST05-012.png",
+    "cost": 3,
+    "expansionCode": "ST05",
+    "imageId": "ST05-012",
+    "id": "ST05-012_Card_SetsONE_PIECE_FILM_edition_[ST_05]"
+  },
+  {
+    "name": "Bins",
+    "code": "ST05-013",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": 1000,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "FILM",
+      "Neo Navy"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "Card Set(s)ONE PIECE FILM edition [ST 05]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST05-013.png",
+    "cost": 4,
+    "expansionCode": "ST05",
+    "imageId": "ST05-013",
+    "id": "ST05-013_Card_SetsONE_PIECE_FILM_edition_[ST_05]"
+  },
+  {
+    "name": "Buena Festa",
+    "code": "ST05-014",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": null,
+    "counter": 2000,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "FILM",
+      "The Pirates Fest"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {FILM} type card other than [Buena Festa] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": null,
+    "setName": "Card Set(s)ONE PIECE FILM edition [ST 05]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST05-014.png",
+    "cost": 1,
+    "expansionCode": "ST05",
+    "imageId": "ST05-014",
+    "id": "ST05-014_Card_SetsONE_PIECE_FILM_edition_[ST_05]"
+  },
+  {
+    "name": "Dr. Indigo",
+    "code": "ST05-015",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": 4000,
+    "counter": 1000,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "FILM",
+      "Scientist",
+      "Golden Lion Pirates"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "Card Set(s)ONE PIECE FILM edition [ST 05]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST05-015.png",
+    "cost": 2,
+    "expansionCode": "ST05",
+    "imageId": "ST05-015",
+    "id": "ST05-015_Card_SetsONE_PIECE_FILM_edition_[ST_05]"
+  },
+  {
+    "name": "Lion's Threat Imperial Earth Bind",
+    "code": "ST05-016",
+    "rarity": "C",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "FILM",
+      "Golden Lion Pirates"
+    ],
+    "effect": "[Main] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "setName": "Card Set(s)ONE PIECE FILM edition [ST 05]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST05-016.png",
+    "cost": 3,
+    "abilityKeywords": [
+      "[Main]"
+    ],
+    "expansionCode": "ST05",
+    "imageId": "ST05-016",
+    "id": "ST05-016_Card_SetsONE_PIECE_FILM_edition_[ST_05]"
+  },
+  {
+    "name": "Union Armada",
+    "code": "ST05-017",
+    "rarity": "C",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "FILM",
+      "The Pirates Fest"
+    ],
+    "effect": "[Counter] Up to 1 of your {FILM} type Leader or Character cards gains +4000 power during this battle. If that card is a Character, that Character cannot be K.O.'d during this turn.",
+    "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "setName": "Card Set(s)ONE PIECE FILM edition [ST 05]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST05-017.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[Counter]"
+    ],
+    "expansionCode": "ST05",
+    "imageId": "ST05-017",
+    "id": "ST05-017_Card_SetsONE_PIECE_FILM_edition_[ST_05]"
+  }
+]

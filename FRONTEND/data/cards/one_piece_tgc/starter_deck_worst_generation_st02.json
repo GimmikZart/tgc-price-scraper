@@ -1,0 +1,448 @@
+[
+  {
+    "name": "Eustass\"Captain\"Kid",
+    "code": "ST02-001",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Supernovas",
+      "Kid Pirates"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn]  ③ (You may rest the specified number of DON!! cards in your cost area.) You may trash 1 card from your hand: Set this Leader as active.",
+    "trigger": null,
+    "setName": "Worst Generation [ST-02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-001.png",
+    "life": 5,
+    "abilityKeywords": [
+      "[Activate: Main]",
+      "[Once Per Turn]"
+    ],
+    "expansionCode": "ST02",
+    "imageId": "ST02-001",
+    "id": "ST02-001_Worst_Generation_[ST-02]"
+  },
+  {
+    "name": "Vito",
+    "code": "ST02-002",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Ranged",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Firetank Pirates"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "Worst Generation [ST-02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-002.png",
+    "cost": 3,
+    "expansionCode": "ST02",
+    "imageId": "ST02-002",
+    "id": "ST02-002_Worst_Generation_[ST-02]"
+  },
+  {
+    "name": "Urouge",
+    "code": "ST02-003",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 3000,
+    "counter": 1000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Supernovas",
+      "Fallen Monk Pirates"
+    ],
+    "effect": "[DON!! x1] If you have 3 or more Characters, this card gains +2000 power.",
+    "trigger": null,
+    "setName": "Worst Generation [ST-02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-003.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[DON!! x1]"
+    ],
+    "expansionCode": "ST02",
+    "imageId": "ST02-003",
+    "id": "ST02-003_Worst_Generation_[ST-02]"
+  },
+  {
+    "name": "Capone\"Gang\"Bege",
+    "code": "ST02-004",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 1000,
+    "counter": null,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Supernovas",
+      "Firetank Pirates"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "trigger": null,
+    "setName": "Worst Generation [ST-02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-004.png",
+    "cost": 1,
+    "abilityKeywords": [
+      "[Blocker]"
+    ],
+    "expansionCode": "ST02",
+    "imageId": "ST02-004",
+    "id": "ST02-004_Worst_Generation_[ST-02]"
+  },
+  {
+    "name": "Killer",
+    "code": "ST02-005",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 3000,
+    "counter": 1000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Supernovas",
+      "Kid Pirates"
+    ],
+    "effect": "[On Play] K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
+    "trigger": "Trigger[Trigger] Play this card.",
+    "setName": "Worst Generation [ST-02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-005.png",
+    "cost": 3,
+    "expansionCode": "ST02",
+    "imageId": "ST02-005",
+    "id": "ST02-005_Worst_Generation_[ST-02]"
+  },
+  {
+    "name": "Koby",
+    "code": "ST02-006",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 6000,
+    "counter": 1000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "Worst Generation [ST-02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-006.png",
+    "cost": 4,
+    "expansionCode": "ST02",
+    "imageId": "ST02-006",
+    "id": "ST02-006_Worst_Generation_[ST-02]"
+  },
+  {
+    "name": "Jewelry Bonney",
+    "code": "ST02-007",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 1000,
+    "counter": 1000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Supernovas",
+      "Bonney Pirates"
+    ],
+    "effect": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may rest this Character: Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": null,
+    "setName": "Worst Generation [ST-02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-007.png",
+    "cost": 1,
+    "abilityKeywords": [
+      "[Activate: Main]"
+    ],
+    "expansionCode": "ST02",
+    "imageId": "ST02-007",
+    "id": "ST02-007_Worst_Generation_[ST-02]"
+  },
+  {
+    "name": "Scratchmen Apoo",
+    "code": "ST02-008",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Ranged",
+    "power": 3000,
+    "counter": 2000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Supernovas",
+      "On-Air Pirates"
+    ],
+    "effect": "[DON!! x1] [When Attacking] Rest up to 1 of your opponent's DON!! cards.",
+    "trigger": null,
+    "setName": "Worst Generation [ST-02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-008.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[When Attacking]",
+      "[DON!! x1]"
+    ],
+    "expansionCode": "ST02",
+    "imageId": "ST02-008",
+    "id": "ST02-008_Worst_Generation_[ST-02]"
+  },
+  {
+    "name": "Trafalgar Law",
+    "code": "ST02-009",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 6000,
+    "counter": 1000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Supernovas",
+      "Heart Pirates"
+    ],
+    "effect": "[On Play] Set up to 1 of your {Supernovas} or {Heart Pirates} type rested Characters with a cost of 5 or less as active.",
+    "trigger": null,
+    "setName": "Worst Generation [ST-02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-009.png",
+    "cost": 5,
+    "expansionCode": "ST02",
+    "imageId": "ST02-009",
+    "id": "ST02-009_Worst_Generation_[ST-02]"
+  },
+  {
+    "name": "Basil Hawkins",
+    "code": "ST02-010",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 6000,
+    "counter": null,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Supernovas",
+      "Hawkins Pirates"
+    ],
+    "effect": "[DON!! x1] [Once Per Turn] [Your Turn] If this Character battles your opponent's Character, set this card as active.",
+    "trigger": null,
+    "setName": "Worst Generation [ST-02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-010.png",
+    "cost": 5,
+    "abilityKeywords": [
+      "[Your Turn]",
+      "[Once Per Turn]",
+      "[DON!! x1]"
+    ],
+    "expansionCode": "ST02",
+    "imageId": "ST02-010",
+    "id": "ST02-010_Worst_Generation_[ST-02]"
+  },
+  {
+    "name": "Heat",
+    "code": "ST02-011",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 4000,
+    "counter": 1000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Kid Pirates"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "Worst Generation [ST-02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-011.png",
+    "cost": 2,
+    "expansionCode": "ST02",
+    "imageId": "ST02-011",
+    "id": "ST02-011_Worst_Generation_[ST-02]"
+  },
+  {
+    "name": "Bepo",
+    "code": "ST02-012",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 3000,
+    "counter": 1000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Minks",
+      "Heart Pirates"
+    ],
+    "effect": null,
+    "trigger": null,
+    "setName": "Worst Generation [ST-02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-012.png",
+    "cost": 1,
+    "expansionCode": "ST02",
+    "imageId": "ST02-012",
+    "id": "ST02-012_Worst_Generation_[ST-02]"
+  },
+  {
+    "name": "Eustass\"Captain\"Kid",
+    "code": "ST02-013",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 7000,
+    "counter": null,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Supernovas",
+      "Kid Pirates"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x1] [End of Your Turn] Set this Character as active.",
+    "trigger": null,
+    "setName": "Worst Generation [ST-02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-013.png",
+    "cost": 7,
+    "abilityKeywords": [
+      "[Blocker]",
+      "[End of Your Turn]",
+      "[DON!! x1]"
+    ],
+    "expansionCode": "ST02",
+    "imageId": "ST02-013",
+    "id": "ST02-013_Worst_Generation_[ST-02]"
+  },
+  {
+    "name": "X.Drake",
+    "code": "ST02-014",
+    "rarity": "C",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Navy",
+      "Supernovas",
+      "Drake Pirates"
+    ],
+    "effect": "[DON!! x1] [Your Turn] If this Character is rested, your {Supernovas} or {Navy} type Leaders and Characters gain +1000 power.",
+    "trigger": null,
+    "setName": "Worst Generation [ST-02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-014.png",
+    "cost": 4,
+    "abilityKeywords": [
+      "[Your Turn]",
+      "[DON!! x1]"
+    ],
+    "expansionCode": "ST02",
+    "imageId": "ST02-014",
+    "id": "ST02-014_Worst_Generation_[ST-02]"
+  },
+  {
+    "name": "Scalpel",
+    "code": "ST02-015",
+    "rarity": "C",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Supernovas",
+      "Heart Pirates"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, set up to 1 of your DON!! cards as active.",
+    "trigger": "Trigger[Trigger] Set up to 2 of your DON!! cards as active.",
+    "setName": "Worst Generation [ST-02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-015.png",
+    "cost": 1,
+    "abilityKeywords": [
+      "[Counter]"
+    ],
+    "expansionCode": "ST02",
+    "imageId": "ST02-015",
+    "id": "ST02-015_Worst_Generation_[ST-02]"
+  },
+  {
+    "name": "Repel",
+    "code": "ST02-016",
+    "rarity": "C",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Supernovas",
+      "Kid Pirates"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, set up to 1 of your DON!! cards as active.",
+    "trigger": null,
+    "setName": "Worst Generation [ST-02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-016.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[Counter]"
+    ],
+    "expansionCode": "ST02",
+    "imageId": "ST02-016",
+    "id": "ST02-016_Worst_Generation_[ST-02]"
+  },
+  {
+    "name": "Straw Sword",
+    "code": "ST02-017",
+    "rarity": "C",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Supernovas",
+      "Hawkins Pirates"
+    ],
+    "effect": "[Main] Rest up to 1 of your opponent's Characters.",
+    "trigger": "Trigger[Trigger] Play up to 1 {Supernovas} type card with a cost of 2 or less from your hand.",
+    "setName": "Worst Generation [ST-02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-017.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[Main]"
+    ],
+    "expansionCode": "ST02",
+    "imageId": "ST02-017",
+    "id": "ST02-017_Worst_Generation_[ST-02]"
+  }
+]

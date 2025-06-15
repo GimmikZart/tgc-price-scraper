@@ -4,6 +4,7 @@ import Toolbar from "@/components/Toolbar.vue";
 import Card from "@/components/Card.vue";
 import { useMyBreakpoints } from "@/composables/useMyBreakpoints";
 import { useMobileFloatMenu } from "@/stores/useMobileFloatMenu";
+import { Icon } from "@iconify/vue";
 
 const { allCards } = await useOnePieceCards();
 const { isMobile, isTablet, isDesktop } = useMyBreakpoints();
@@ -41,7 +42,6 @@ watch(openFilter, (newValue) => {
 
 onMounted(() => {
   filteredCards.value = allCards;
-  mobileFloatMenu.open();
 });
 </script>
 
@@ -70,13 +70,6 @@ onMounted(() => {
       La ricerca non ha prodotto risultati
     </h4>
 
-    <div
-      v-if="editCollection"
-      class="p-2 sticky top-[50px] z-10 bg-black/70 backdrop-blur-[3px]"
-    >
-      <v-btn block to="/collection">Vai alla tua collezione</v-btn>
-    </div>
-
     <div class="grid px-2 pt-2 transition-all" :class="gridSystem">
       <Card
         v-for="(card, ix) in paginatedCards"
@@ -103,13 +96,22 @@ onMounted(() => {
         <v-btn
           class="text-white"
           variant="text"
+          to="/collection"
+          @click="mobileFloatMenu.close()"
+        >
+          <span class="text-xs mr-3">Vai a Collezione</span>
+          <Icon class="text-xl" icon="tdesign:collection-filled"></Icon>
+        </v-btn>
+        <v-btn
+          class="text-white"
+          variant="text"
           @click="
             editCollection = !editCollection;
             mobileFloatMenu.close();
           "
         >
-          <span class="text-xs mr-3">Collezione</span>
-          <v-icon size="20">mdi-list-status</v-icon>
+          <span class="text-xs mr-3">Gestisci Collezione</span>
+          <Icon class="text-xl" icon="fluent:collections-add-24-regular"></Icon>
         </v-btn>
         <v-btn
           class="text-white"
@@ -120,7 +122,7 @@ onMounted(() => {
           "
         >
           <span class="text-xs mr-3">Filtra</span>
-          <v-icon size="30">mdi-magnify</v-icon>
+          <Icon class="text-2xl" icon="material-symbols:search-rounded"></Icon>
         </v-btn>
       </template>
     </MobileFloatMenu>

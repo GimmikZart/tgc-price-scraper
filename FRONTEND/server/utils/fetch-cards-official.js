@@ -404,7 +404,6 @@ export default async function scrapeCardsOfficial({ expansionName }) {
       //console.log({ cardData });
 
       await cardsList.push(cardData);
-      console.log({ cardsList });
 
       // c) Clicca sulla freccia per passare alla carta successiva
       try {

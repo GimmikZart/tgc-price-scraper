@@ -11,16 +11,12 @@ export async function fetchUserCollection(userUuid) {
     throw new Error(error.message);
   }
 
-  console.log(`Fetching collection for user ${userUuid}`, userCollection);
-
   const idsSet = new Set(userCollection.map((item) => item?.card_id));
 
   return allCards.filter((card) => idsSet.has(card.id));
 }
 
 export async function fetchCardInCollection(userUuid, cardId) {
-  console.log({ cardId });
-
   const client = useSupabaseClient();
   const { data: collectionInfo, error } = await client
     .from("collection")
@@ -28,8 +24,6 @@ export async function fetchCardInCollection(userUuid, cardId) {
     .eq("user_uuid", userUuid)
     .eq("card_id", cardId)
     .maybeSingle();
-
-  if (collectionInfo) console.log({ collectionInfo });
 
   if (error) {
     throw new Error(error.message);

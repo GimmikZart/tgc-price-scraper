@@ -5,6 +5,7 @@ import Card from "@/components/Card.vue";
 import { useMyBreakpoints } from "@/composables/useMyBreakpoints";
 import { useMobileFloatMenu } from "@/stores/useMobileFloatMenu";
 import { fetchUserCollection } from "@/api/collection";
+import { Icon } from "@iconify/vue";
 
 const { isMobile, isTablet, isDesktop } = useMyBreakpoints();
 const mobileFloatMenu = useMobileFloatMenu();
@@ -49,7 +50,6 @@ watch(openFilter, (newValue) => {
 
 onMounted(() => {
   filteredCards.value = userCollection.value;
-  mobileFloatMenu.open();
 });
 </script>
 
@@ -104,12 +104,24 @@ onMounted(() => {
         <v-btn
           class="text-white"
           variant="text"
-          @click="editCollection = !editCollection"
+          @click="
+            editCollection = !editCollection;
+            mobileFloatMenu.close();
+          "
         >
-          <v-icon size="30">mdi-list-status</v-icon>
+          <span class="text-xs mr-3">Gestisci Collezione</span>
+          <Icon class="text-xl" icon="fluent:collections-add-24-regular"></Icon>
         </v-btn>
-        <v-btn class="text-white" variant="text" @click="openFilter = true">
-          <v-icon size="30">mdi-magnify</v-icon>
+        <v-btn
+          class="text-white"
+          variant="text"
+          @click="
+            openFilter = true;
+            mobileFloatMenu.close();
+          "
+        >
+          <span class="text-xs mr-3">Filtra</span>
+          <Icon class="text-2xl" icon="material-symbols:search-rounded"></Icon>
         </v-btn>
       </template>
     </MobileFloatMenu>

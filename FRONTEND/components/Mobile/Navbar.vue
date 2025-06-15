@@ -60,7 +60,6 @@ async function fetchCards() {
       to="/cards"
       active-class="text-white font-bold"
       class="text-white/60 p-2 cursor-pointer rounded-lg relative"
-      @click="mobileFloatMenu.open"
     >
       <v-icon size="30" icon="mdi-cards"></v-icon>
     </NuxtLink>

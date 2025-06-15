@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { useMyBreakpoints } from "@/composables/useMyBreakpoints";
 import { useMobileFloatMenu } from "@/stores/useMobileFloatMenu";
+import { Icon } from "@iconify/vue";
 
 const { isMobile } = useMyBreakpoints();
 const mobileFloatMenu = useMobileFloatMenu();
@@ -9,20 +10,29 @@ const mobileFloatMenu = useMobileFloatMenu();
 <template>
   <div
     v-if="isMobile"
-    class="min-w-[50px] h-[50px] rounded-full border-[1px] border-white/20 bg-black flex gap-5 fixed bottom-[100px] right-2 items-center justify-around z-2 lg:hidden"
+    class="min-w-[50px] min-h-[50px] rounded-lg border-[1px] border-white/20 bg-black flex flex-col-reverse gap-3 fixed bottom-[100px] right-2 py-3 items-end justify-around z-2 lg:hidden"
   >
-    <v-icon color="yellow" @click="mobileFloatMenu.open()" size="20"
-      >mdi-lightning-bolt</v-icon
-    >
+    <div class="w-full flex justify-center" v-if="!mobileFloatMenu.isOpen">
+      <Icon
+        class="text-yellow text-xl"
+        @click="mobileFloatMenu.open()"
+        icon="heroicons:bolt-16-solid"
+      />
+    </div>
+    <v-btn variant="text" @click="mobileFloatMenu.close()" v-else>
+      <span class="mr-3 text-xs">Chiudi</span>
+      <Icon
+        class="text-yellow text-xl"
+        @click="mobileFloatMenu.close()"
+        icon="heroicons:bolt-slash-16-solid"
+      />
+    </v-btn>
+
     <div
       v-if="mobileFloatMenu.isOpen"
-      class="min-w-[50px] h-auto bg-black fixed border-[1px] border-white/20 bottom-[100px] right-2 flex flex-col items-end gap-10 p-5 rounded-lg"
+      class="flex flex-col items-end gap-5 py-3 rounded-lg"
     >
       <slot name="buttons" />
-      <v-btn variant="text" @click="mobileFloatMenu.close()">
-        <span class="tex-xs mr-3">Chiudi</span>
-        <v-icon color="yellow" size="20">mdi-flash-off</v-icon>
-      </v-btn>
     </div>
   </div>
 </template>

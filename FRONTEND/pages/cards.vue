@@ -70,8 +70,11 @@ onMounted(() => {
       La ricerca non ha prodotto risultati
     </h4>
 
-    <div class="p-3 sticky top-[50px] z-10 bg-black/70 backdrop-blur-[3px]">
-      Filtri applicati:
+    <div
+      v-if="editCollection"
+      class="p-2 sticky top-[50px] z-10 bg-black/70 backdrop-blur-[3px]"
+    >
+      <v-btn block to="/collection">Vai alla tua collezione</v-btn>
     </div>
 
     <div class="grid px-2 pt-2 transition-all" :class="gridSystem">

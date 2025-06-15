@@ -87,19 +87,11 @@ const filtered = computed(() => {
   });
 });
 
-watch(
-  filtered,
-  (newVal) => {
-    emit("update:filtered", newVal);
-  },
-  { immediate: true }
-);
-
 function resetFilters() {
   nameFilter.value = null;
   colorFilter.value = [];
   typesFilter.value = [];
-  setNamesFilter.value = [];
+  setNamesFilter.value = null;
   familiesFilter.value = [];
   abilityFilter.value = "";
   rarityFilter.value = [];
@@ -108,6 +100,14 @@ function resetFilters() {
   powerFilter.value = [powerLimits.min, powerLimits.max];
   hasTriggerFilter.value = false;
 }
+
+watch(
+  filtered,
+  (newVal) => {
+    emit("update:filtered", newVal);
+  },
+  { immediate: true }
+);
 
 function closeOverlay() {
   emit("close");

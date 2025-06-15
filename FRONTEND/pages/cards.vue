@@ -71,7 +71,7 @@ onMounted(() => {
     </h4>
 
     <div class="p-3 sticky top-[50px] z-10 bg-black/70 backdrop-blur-[3px]">
-      Filtri applicati
+      Filtri applicati:
     </div>
 
     <div class="grid px-2 pt-2 transition-all" :class="gridSystem">
@@ -95,17 +95,27 @@ onMounted(() => {
       @close="openFilter = false"
     />
 
-    <MobileFloatMenu>
+    <MobileFloatMenu :menu-open="mobileFloatMenu.open">
       <template #buttons>
         <v-btn
           class="text-white"
           variant="text"
-          @click="editCollection = !editCollection"
+          @click="
+            editCollection = !editCollection;
+            mobileFloatMenu.close();
+          "
         >
           <span class="text-xs mr-3">Collezione</span>
           <v-icon size="20">mdi-list-status</v-icon>
         </v-btn>
-        <v-btn class="text-white" variant="text" @click="openFilter = true">
+        <v-btn
+          class="text-white"
+          variant="text"
+          @click="
+            openFilter = true;
+            mobileFloatMenu.close();
+          "
+        >
           <span class="text-xs mr-3">Filtra</span>
           <v-icon size="30">mdi-magnify</v-icon>
         </v-btn>

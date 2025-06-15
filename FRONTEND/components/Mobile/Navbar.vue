@@ -44,34 +44,30 @@ async function fetchCards() {
     <NuxtLink
       v-if="userAuth.isAdmin"
       to="/admin"
-      active-class="text-purple font-bold"
-      class="text-white/80 p-2 cursor-pointer rounded-lg"
+      active-class="text-white font-bold"
+      class="text-white/60 p-2 cursor-pointer rounded-lg relative"
     >
       <v-icon size="30" icon="mdi-security"></v-icon>
     </NuxtLink>
     <NuxtLink
       to="/"
       active-class="text-white font-bold"
-      class="text-white/70 p-2 cursor-pointer rounded-lg"
+      class="text-white/60 p-2 cursor-pointer rounded-lg"
     >
       <v-icon size="30" icon="mdi-shopping"></v-icon>
     </NuxtLink>
     <NuxtLink
       to="/cards"
-      class="text-white/70 p-2 cursor-pointer rounded-lg relative"
       active-class="text-white font-bold"
-      v-slot="{ isActive }"
+      class="text-white/60 p-2 cursor-pointer rounded-lg relative"
       @click="mobileFloatMenu.open"
     >
       <v-icon size="30" icon="mdi-cards"></v-icon>
-      <v-icon v-if="isActive" size="15" class="animate-bounce"
-        >mdi-arrow-up</v-icon
-      >
     </NuxtLink>
     <NuxtLink
       to="/user"
       active-class="text-white font-bold"
-      class="bg-black text-white/70 p-2 cursor-pointer rounded-lg"
+      class="text-white/60 p-2 cursor-pointer rounded-lg relative"
     >
       <v-icon size="30" icon="mdi-account-circle"></v-icon>
     </NuxtLink>

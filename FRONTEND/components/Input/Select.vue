@@ -42,11 +42,11 @@ const containerClass = computed(() => ({
     isFocused.value,
 }));
 const inputClass = computed(() => ({
-  "absolute z-50 bottom-[60px] px-5": isFocused.value,
+  "absolute z-50 top-[60px] px-5": isFocused.value,
 }));
 
 const menuProps = computed(() => ({
-  location: isFocused.value ? "top" : null,
+  location: isFocused.value ? "bottom" : null,
   offset: isFocused.value ? "50px" : null,
   height: "700px",
 }));
@@ -58,7 +58,7 @@ function handleMenu(event) {
 
 <template>
   <div :class="containerClass">
-    <div class="w-full flex gap-5 flex-col" :class="inputClass">
+    <div class="w-full flex gap-5 flex-col justify-between" :class="inputClass">
       <v-autocomplete
         v-if="autocomplete"
         v-model="model"
@@ -132,12 +132,12 @@ function handleMenu(event) {
 
 <style>
 .flex-menu {
-  min-height: 70lvh !important;
+  max-height: 70lvh !important;
   display: flex !important;
   flex-direction: column !important;
   justify-content: end !important;
   left: 0 !important;
-  top: -71lvh !important;
+  top: 15lvh !important;
   padding-y: 2rem !important;
 }
 .flex-menu .v-list {

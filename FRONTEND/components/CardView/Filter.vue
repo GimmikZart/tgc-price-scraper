@@ -150,6 +150,13 @@ function closeOverlay() {
             />
 
             <InputSelect
+              v-model="setNamesFilter"
+              :items="setNameList"
+              autocomplete
+              label="Filtra per set"
+            />
+
+            <InputSelect
               v-model="colorFilter"
               :items="colorList"
               multiple
@@ -164,7 +171,7 @@ function closeOverlay() {
             />
           </div>
           <!-- Pulsante “Più / Meno filtri” -->
-          <div class="mb-4 text-center">
+          <div class="text-center">
             <v-btn
               variant="outlined"
               class="text-white"
@@ -178,8 +185,40 @@ function closeOverlay() {
           <!-- PIù FILTRI -->
           <div
             v-if="moreFilters"
-            class="grid grid-cols-1 lg:grid-cols-3 gap-4 mb-4"
+            class="grid grid-cols-1 lg:grid-cols-3 gap-4 my-4"
           >
+            <InputSelect
+              v-model="abilityKwFilter"
+              :items="abilityKwList"
+              multiple
+              label="Filtra per abilità chiave"
+            />
+
+            <InputSelect
+              v-model="familiesFilter"
+              :items="familyList"
+              multiple
+              autocomplete
+              label="Filtra per famiglia"
+            />
+
+            <InputSelect
+              v-model="rarityFilter"
+              :items="rarityList"
+              multiple
+              label="Filtra per rarità"
+            />
+
+            <div
+              class="flex items-center border-2 border-white/20 rounded px-2 py-1"
+            >
+              <v-checkbox
+                v-model="hasTriggerFilter"
+                hide-details
+                label="Ha effetto Trigger"
+              />
+            </div>
+
             <v-range-slider
               v-model="powerFilter"
               :min="0"
@@ -202,44 +241,6 @@ function closeOverlay() {
               class="border-2 ma-0 border-white/20 rounded p-4 pt-10"
             ></v-range-slider>
 
-            <InputSelect
-              v-model="familiesFilter"
-              :items="familyList"
-              multiple
-              label="Filtra per famiglia"
-            />
-
-            <InputSelect
-              v-model="abilityKwFilter"
-              :items="abilityKwList"
-              multiple
-              label="Filtra per abilità chiave"
-            />
-
-            <div
-              class="flex items-center border-2 border-white/20 rounded px-2 py-1"
-            >
-              <v-checkbox
-                v-model="hasTriggerFilter"
-                hide-details
-                label="Ha effetto Trigger"
-              />
-            </div>
-
-            <InputSelect
-              v-model="setNamesFilter"
-              :items="setNameList"
-              autocomplete
-              label="Filtra per set"
-            />
-
-            <InputSelect
-              v-model="rarityFilter"
-              :items="rarityList"
-              multiple
-              label="Filtra per rarità"
-            />
-
             <v-textarea
               v-model="abilityFilter"
               density="compact"
@@ -249,7 +250,7 @@ function closeOverlay() {
               clearable
               hide-details
               auto-grow
-              rows="2"
+              rows="3"
             />
           </div>
         </div>

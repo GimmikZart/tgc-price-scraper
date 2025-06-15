@@ -19,15 +19,17 @@ export async function fetchUserCollection(userUuid) {
 }
 
 export async function fetchCardInCollection(userUuid, cardId) {
+  console.log({ cardId });
+
   const client = useSupabaseClient();
   const { data: collectionInfo, error } = await client
     .from("collection")
-    .select("card_number")
+    .select("*")
     .eq("user_uuid", userUuid)
     .eq("card_id", cardId)
     .maybeSingle();
 
-  console.log(collectionInfo?.card_number);
+  if (collectionInfo) console.log({ collectionInfo });
 
   if (error) {
     throw new Error(error.message);

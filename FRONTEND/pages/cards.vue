@@ -27,6 +27,7 @@ const gridSystem = computed(() => {
     "grid-cols-2 px-2 pb-5 gap-2": isMobile.value,
     "grid-cols-4": isTablet.value,
     "grid-cols-8 px-4 pb-20": isDesktop.value,
+    "gap-2": editCollection.value,
   };
 });
 
@@ -69,7 +70,7 @@ onMounted(() => {
       La ricerca non ha prodotto risultati
     </h4>
 
-    <div class="grid px-2 pt-2" :class="gridSystem">
+    <div class="grid px-2 pt-2 transition-all" :class="gridSystem">
       <Card
         v-for="(card, ix) in paginatedCards"
         :key="ix"

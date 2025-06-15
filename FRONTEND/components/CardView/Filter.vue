@@ -120,7 +120,7 @@ function closeOverlay() {
     enter-active-class="transition-all duration-300 ease-out"
     enter-from-class="translate-y-full"
     enter-to-class="translate-y-0"
-    leave-active-class="transition-all duration-300 ease-in"
+    leave-active-class="transition-all duration-300 ease-out"
     leave-from-class="translate-y-0"
     leave-to-class="translate-y-full"
   >

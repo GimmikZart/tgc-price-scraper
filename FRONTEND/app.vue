@@ -22,8 +22,3 @@ onUnmounted(() => disconnect());
     <NuxtPage />
   </NuxtLayout>
 </template>
-<style>
-* {
-  transition: all 0.3s ease;
-}
-</style>

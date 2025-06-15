@@ -4,6 +4,7 @@ import { useMobileFloatMenu } from "@/stores/useMobileFloatMenu";
 
 const { isMobile } = useMyBreakpoints();
 const mobileFloatMenu = useMobileFloatMenu();
+const menuOpen = ref(false);
 
 function closeFloatMenu() {
   mobileFloatMenu.close();
@@ -11,25 +12,22 @@ function closeFloatMenu() {
 </script>
 
 <template>
-  <Transition
-    appear
-    enter-active-class="transition-transform duration-300 ease-out"
-    enter-from-class="translate-y-full"
-    enter-to-class="translate-y-0"
-    leave-active-class="transition-transform duration-300 ease-in"
-    leave-from-class="translate-y-0"
-    leave-to-class="translate-y-full"
+  <div
+    v-if="isMobile"
+    class="min-w-[50px] h-[50px] rounded-full border-[1px] border-white/20 bg-black flex gap-5 fixed bottom-[100px] right-2 items-center justify-around z-2 lg:hidden"
   >
-    <div
-      v-if="isMobile"
-      v-show="mobileFloatMenu.isOpen"
-      class="w-screen h-[50px] bg-black flex gap-5 fixed bottom-0 right-0 items-center justify-around z-10 lg:hidden"
+    <v-icon color="yellow" @click="menuOpen = true" size="20"
+      >mdi-lightning-bolt</v-icon
     >
-      <v-btn class="text-purple" variant="text" @click="closeFloatMenu">
-        <v-icon size="30">mdi-home</v-icon>
-        <v-icon size="15" class="animate-bounce">mdi-arrow-down</v-icon>
-      </v-btn>
+    <div
+      v-if="menuOpen"
+      class="min-w-[50px] h-auto bg-black fixed border-[1px] border-white/20 bottom-[100px] right-2 flex flex-col items-end gap-10 p-5 rounded-lg"
+    >
       <slot name="buttons" />
+      <v-btn variant="text" @click="menuOpen = false">
+        <span class="tex-xs mr-3">Chiudi</span>
+        <v-icon color="yellow" size="20">mdi-flash-off</v-icon>
+      </v-btn>
     </div>
-  </Transition>
+  </div>
 </template>

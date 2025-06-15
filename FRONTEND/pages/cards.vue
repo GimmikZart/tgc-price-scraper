@@ -24,7 +24,7 @@ function handlePaginatedUpdate(newPaginated) {
 
 const gridSystem = computed(() => {
   return {
-    "grid-cols-2 px-2 pb-5 gap-2": isMobile.value,
+    "grid-cols-2 px-2 pb-15 gap-2": isMobile.value,
     "grid-cols-4": isTablet.value,
     "grid-cols-8 px-4 pb-20": isDesktop.value,
     "gap-2": editCollection.value,
@@ -70,6 +70,10 @@ onMounted(() => {
       La ricerca non ha prodotto risultati
     </h4>
 
+    <div class="p-3 sticky top-[50px] z-10 bg-black/70 backdrop-blur-[3px]">
+      Filtri applicati
+    </div>
+
     <div class="grid px-2 pt-2 transition-all" :class="gridSystem">
       <Card
         v-for="(card, ix) in paginatedCards"
@@ -98,9 +102,11 @@ onMounted(() => {
           variant="text"
           @click="editCollection = !editCollection"
         >
-          <v-icon size="30">mdi-list-status</v-icon>
+          <span class="text-xs mr-3">Collezione</span>
+          <v-icon size="20">mdi-list-status</v-icon>
         </v-btn>
         <v-btn class="text-white" variant="text" @click="openFilter = true">
+          <span class="text-xs mr-3">Filtra</span>
           <v-icon size="30">mdi-magnify</v-icon>
         </v-btn>
       </template>

@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-main class="bg-black" style="padding-bottom: 100px">
+    <v-main class="bg-black" style="padding-bottom: 50px">
       <slot />
     </v-main>
     <MobileNavbar />

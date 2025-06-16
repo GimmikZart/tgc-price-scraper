@@ -3,6 +3,7 @@ import { useSnackbar } from "@/stores/useSnackbar";
 import { updateProductsBatch } from "@/api/products";
 import { useUserAuth } from "@/stores/useUserAuth";
 import { fetchCardsFromApi } from "@/api/cardsFromApi";
+import { Icon } from "@iconify/vue";
 
 const snackbar = useSnackbar();
 const isLoading = ref(false);
@@ -47,7 +48,7 @@ async function fetchCards() {
       active-class="text-white font-bold"
       class="text-white/60 p-2 cursor-pointer rounded-lg relative"
     >
-      <v-icon size="30" icon="mdi-security"></v-icon>
+      <Icon icon="mdi:admin-panel-settings" />
     </NuxtLink>
     <NuxtLink
       to="/"
@@ -61,14 +62,21 @@ async function fetchCards() {
       active-class="text-white font-bold"
       class="text-white/60 p-2 cursor-pointer rounded-lg relative"
     >
-      <v-icon size="30" icon="mdi-cards"></v-icon>
+      <Icon class="text-3xl" icon="mdi:cards" />
+    </NuxtLink>
+    <NuxtLink
+      to="/cards"
+      active-class="text-white font-bold"
+      class="text-white/60 p-2 cursor-pointer rounded-lg relative"
+    >
+      <Icon class="text-3xl" icon="material-symbols:collections-bookmark" />
     </NuxtLink>
     <NuxtLink
       to="/user"
       active-class="text-white font-bold"
       class="text-white/60 p-2 cursor-pointer rounded-lg relative"
     >
-      <v-icon size="30" icon="mdi-account-circle"></v-icon>
+      <Icon class="text-3xl" icon="mdi:user-circle" />
     </NuxtLink>
   </nav>
 </template>

@@ -6,12 +6,13 @@ const snackbar = useSnackbar();
 const isLoading = ref(false);
 const dialog = ref(false);
 const albumName = ref("");
+const totalSlots = ref(12);
 const router = useRouter();
 
 async function create() {
   isLoading.value = true;
   try {
-    const slug = await createAlbum(albumName.value);
+    const slug = await createAlbum(albumName.value, totalSlots.value);
     if (slug) router.push(`/collection/album/${slug}`);
   } catch (error) {
     snackbar.addMessage(`Errore durante il logout`, "error", error);

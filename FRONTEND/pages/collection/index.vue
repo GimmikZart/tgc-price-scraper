@@ -22,7 +22,9 @@ const {
         <h2 class="text-2xl font-bold text-center">Album</h2>
         <DialogsHandleAlbum />
       </div>
-      <div>
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
+      >
         <ButtonRouter
           v-for="album in albums"
           :key="album.slug"

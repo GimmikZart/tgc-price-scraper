@@ -27,20 +27,30 @@ async function create() {
     </v-btn>
     <v-dialog
       v-model="dialog"
-      width="auto"
+      width="90%"
       variant="outlined"
       transition="dialog-bottom-transition"
       style="z-index: 2000"
     >
       <v-card class="border border-2 border-white">
         <v-card-title class="bg-black text-white font-bold text-2xl">
-          Dai un nome al tuo nuovo album
+          Crea nuovo Album
         </v-card-title>
         <v-card-text>
           <v-text-field
             label="Nome"
             v-model="albumName"
+            density="compact"
             variant="outlined"
+          ></v-text-field>
+          <v-text-field
+            type="number"
+            label="Tasche totali"
+            v-model="totalSlots"
+            density="compact"
+            variant="outlined"
+            persistent-hint
+            hint="Potrai modificare il numero di tasche in seguito"
           ></v-text-field>
         </v-card-text>
         <v-card-actions class="pa-3">

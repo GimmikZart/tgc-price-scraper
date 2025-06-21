@@ -33,38 +33,6 @@ const costFilter = ref([0, 10]);
 const powerFilter = ref([powerLimits.min, powerLimits.max]);
 const hasTriggerFilter = ref(false);
 
-const availableNames = computed(() => {
-  return [...new Set(filtered.value.map((card) => card.name))].sort();
-});
-const availableFamilies = computed(() => {
-  return [
-    ...new Set(filtered.value.flatMap((card) => card.family ?? [])),
-  ].sort();
-});
-const availableColors = computed(() => {
-  return [
-    ...new Set(filtered.value.flatMap((card) => card.color ?? [])),
-  ].sort();
-});
-
-const availableTypes = computed(() => {
-  return [...new Set(filtered.value.map((card) => card.type))].sort();
-});
-
-const availableSetNames = computed(() => {
-  return [...new Set(filtered.value.map((card) => card.setName))].sort();
-});
-
-const availableRarities = computed(() => {
-  return [...new Set(filtered.value.map((card) => card.rarity))].sort();
-});
-
-const availableAbilityKeywords = computed(() => {
-  return [
-    ...new Set(filtered.value.flatMap((card) => card.abilityKeywords ?? [])),
-  ].sort();
-});
-
 const filtered = computed(() => {
   return props.cardsList.filter((card) => {
     const nameMatch = !nameFilter.value || nameFilter.value.includes(card.name);
@@ -157,7 +125,7 @@ function closeOverlay() {
     leave-to-class="translate-y-full"
   >
     <div
-      class="fixed flex flex-col justify-end bottom-[50px] right-0 inset-0 z-10 lg:ml-[250px]"
+      class="fixed flex flex-col justify-end bottom-[90px] right-0 inset-0 z-10 lg:ml-[250px]"
     >
       <!-- Layer scuro di sfondo -->
       <div
@@ -176,28 +144,28 @@ function closeOverlay() {
           <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 mb-3 w-full">
             <InputSelect
               v-model="nameFilter"
-              :items="availableNames"
+              :items="nameList"
               autocomplete
               label="Filtra per nome"
             />
 
             <InputSelect
               v-model="setNamesFilter"
-              :items="availableSetNames"
+              :items="setNameList"
               autocomplete
               label="Filtra per set"
             />
 
             <InputSelect
               v-model="colorFilter"
-              :items="availableColors"
+              :items="colorList"
               multiple
               label="Filtra per colore"
             />
 
             <InputSelect
               v-model="typesFilter"
-              :items="availableTypes"
+              :items="typeList"
               multiple
               label="Filtra per tipo"
             />
@@ -221,14 +189,14 @@ function closeOverlay() {
           >
             <InputSelect
               v-model="abilityKwFilter"
-              :items="availableAbilityKeywords"
+              :items="abilityKwList"
               multiple
               label="Filtra per abilità chiave"
             />
 
             <InputSelect
               v-model="familiesFilter"
-              :items="availableFamilies"
+              :items="familyList"
               multiple
               autocomplete
               label="Filtra per famiglia"
@@ -236,7 +204,7 @@ function closeOverlay() {
 
             <InputSelect
               v-model="rarityFilter"
-              :items="availableRarities"
+              :items="rarityList"
               multiple
               label="Filtra per rarità"
             />

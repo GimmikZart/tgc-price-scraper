@@ -7,6 +7,7 @@ const route = useRoute();
 const router = useRouter();
 const slug = route.params.slug;
 const removeCardMode = ref(false);
+const paginatedCards = ref([]);
 const { allCards } = await useOnePieceCards();
 
 const {
@@ -45,10 +46,15 @@ const albumSlotsWithCards = computed(() => {
   return slots;
 });
 
+function handlePaginatedUpdate(newPaginated) {
+  paginatedCards.value = newPaginated;
+}
+
 async function removeCard(idx) {
   await removeCardFromAlbum(album.value, idx);
   refreshAlbum();
 }
+
 function goToSelectCard(idx) {
   router.push({
     path: "/collection/all",
@@ -62,13 +68,13 @@ function goToSelectCard(idx) {
 
 <template>
   <section class="h-full flex flex-col">
-    <Toolbar :label="`Album ${album.name}`" />
+    <Toolbar backButton :label="`Album ${album.name}`" />
 
     <v-container
       class="bg-stitched pb-10 mt-4 px-1 h-full pa-0 grid grid-cols-2 gap-1 border-l-8 border-blue-900"
     >
       <div
-        v-for="(slot, idx) in albumSlotsWithCards"
+        v-for="(slot, idx) in paginatedCards"
         :key="idx"
         class="w-full relative flex items-end pa-1 bg-black aspect-[5/7] border-[1px] border-white/20"
       >
@@ -76,7 +82,7 @@ function goToSelectCard(idx) {
           <Card :key="ix" :card="slot.card" class="w-full h-auto z-[1]" />
           <div
             v-if="removeCardMode"
-            class="absolute inset-0 bg-black/80 flex items-center justify-center"
+            class="absolute inset-0 bg-black/80 flex items-center justify-center z-[2]"
           >
             <v-btn
               variant="text"
@@ -93,7 +99,7 @@ function goToSelectCard(idx) {
           v-else
           class="w-full h-full flex flex-col items-center justify-center"
         >
-          <h3 class="text-lg font-semibold mb-2">Slot {{ idx + 1 }}</h3>
+          <h3 class="text-lg font-semibold mb-2">Slot {{ slot.index + 1 }}</h3>
           <v-btn
             v-if="!removeCardMode"
             variant="text"
@@ -108,7 +114,7 @@ function goToSelectCard(idx) {
           class="absolute opacity-20 plastic-card w-full h-full bottom-0 left-0 z-[0]"
         ></div>
         <div
-          class="absolute opacity-35 plastic-card w-full h-[90%] bottom-0 left-0 z-[2]"
+          class="absolute opacity-35 plastic-card w-full h-[90%] bottom-0 left-0 z-[1]"
         ></div>
       </div>
     </v-container>
@@ -117,8 +123,9 @@ function goToSelectCard(idx) {
       :itemsPerPage="16"
       @update:paginated="handlePaginatedUpdate"
     />
-    <MobileFloatMenu>
+    <MobileFloatMenu class="z-30 p-2">
       <template #buttons>
+        <DialogsHandleRemoveAlbum :album-id="album.id" class="text-white" />
         <v-btn
           v-if="!removeCardMode"
           variant="text"
@@ -167,6 +174,7 @@ function goToSelectCard(idx) {
   pointer-events: none;
   background-color: #1f1f1f;
   background-image: url("@/public/assets/images/sleeve-effect-1.png");
+  background-size: cover;
   /* background-image: linear-gradient(
     145deg,
     rgba(255, 255, 255, 0.08) 0%,

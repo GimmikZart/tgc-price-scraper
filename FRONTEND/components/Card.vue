@@ -133,28 +133,40 @@ watch(
     </div>
 
     <!-- CARTA APERTA -->
-    <div
-      v-if="cardIsOpen"
-      class="fixed inset-0 bg-black/80 flex items-center justify-center z-50 px-10 cursor-zoom-out"
-      @click="cardIsOpen = false"
-    >
-      <v-img
-        :src="card.image"
-        :lazy-src="card.image"
-        class="h-3/4 w-auto"
-        contain
-        @click="cardIsOpen = true"
-        :alt="card.name"
+    <Teleport to="body">
+      <div
+        v-if="cardIsOpen"
+        class="fixed inset-0 bg-black/80 flex flex-col items-center justify-center pb-[90px] pt-[50px] gap-5 z-50 px-10 cursor-zoom-out"
+        @click="cardIsOpen = false"
       >
-        <template v-slot:placeholder>
-          <div class="d-flex align-center justify-center fill-height">
-            <v-progress-circular
-              color="grey-lighten-4"
-              indeterminate
-            ></v-progress-circular>
-          </div>
-        </template>
-      </v-img>
-    </div>
+        <div class="text-center">
+          <h3 class="text-white/60 font-light text-sm text-center">
+            {{ card.setName }}
+          </h3>
+          <h3 class="text-white font-bold text-3xl">{{ card.name }}</h3>
+          <h4 class="text-white">{{ card.code }}</h4>
+        </div>
+
+        <div class="w-full h-auto">
+          <v-img
+            :src="card.image"
+            :lazy-src="card.image"
+            class="w-full z-[50]"
+            contain
+            @click="cardIsOpen = true"
+            :alt="card.name"
+          >
+            <template v-slot:placeholder>
+              <div class="d-flex align-center justify-center fill-height">
+                <v-progress-circular
+                  color="grey-lighten-4"
+                  indeterminate
+                ></v-progress-circular>
+              </div>
+            </template>
+          </v-img>
+        </div>
+      </div>
+    </Teleport>
   </div>
 </template>

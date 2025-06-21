@@ -24,11 +24,16 @@ function goBack() {
 </script>
 <template>
   <div
-    class="bg-black h-[50px] w-full sticky top-0 left-0 z-[1000] border-b px-4 py-2"
+    class="bg-black h-[50px] w-full sticky top-0 left-0 z-[1000] border-b py-2"
     :class="vertical ? 'flex-col' : 'flex-row'"
   >
-    <div class="flex items-center">
-      <v-btn v-if="backButton" variant="plain" @click="goBack">
+    <div class="flex items-center px-4 pb-2">
+      <v-btn
+        v-if="backButton"
+        variant="plain"
+        @click="goBack"
+        class="w-fit pl-0"
+      >
         <v-icon size="30" icon="mdi-chevron-left"></v-icon>
       </v-btn>
       <h2 class="font-bold text-lg">{{ label }}</h2>

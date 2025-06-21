@@ -12,10 +12,11 @@ const router = useRouter();
 async function create() {
   isLoading.value = true;
   try {
+    dialog.value = false;
     const slug = await createAlbum(albumName.value, totalSlots.value);
     if (slug) router.push(`/collection/album/${slug}`);
   } catch (error) {
-    snackbar.addMessage(`Errore durante il logout`, "error", error);
+    snackbar.addMessage(`Errore durante la creazione`, "error", error);
   } finally {
     isLoading.value = false;
   }

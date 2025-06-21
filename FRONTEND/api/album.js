@@ -1,9 +1,20 @@
-import { Snackbar } from "#components";
+import { useSnackbar } from "@/stores/useSnackbar";
 import { generateSlug } from "@/utilities/generateSlug";
 export async function createAlbum(albumName, slots) {
   const client = useSupabaseClient();
   const userAuth = useUserAuth();
+
   const slug = generateSlug(albumName);
+
+  const { data: albums } = await client
+    .from("albums")
+    .select("slug")
+    .eq("slug", slug);
+
+  if (albums.length > 0) {
+    throw new Error("Album con questo nome già esistente", "error");
+  }
+
   const data = {
     user_uuid: userAuth?.userLogged?.id || null,
     name: albumName,
@@ -72,6 +83,7 @@ export async function insertCardToAlbum(album, cardId, index) {
 
   const client = useSupabaseClient();
   const userAuth = useUserAuth();
+  const snackbar = useSnackbar();
 
   const { data: cardInCollection, error: collectionError } = await client
     .from("collection")
@@ -81,7 +93,11 @@ export async function insertCardToAlbum(album, cardId, index) {
     .single();
 
   if (collectionError) {
-    Snackbar.error("Carta non presente in collezione: " + collectionError);
+    snackbar.addMessage(
+      "Carta non presente in collezione:",
+      "error",
+      collectionError
+    );
     return;
   }
 
@@ -92,7 +108,11 @@ export async function insertCardToAlbum(album, cardId, index) {
   });
 
   if (error) {
-    Snackbar.error("Errore inserimento in album: " + collectionError.message);
+    snackbar.addMessage(
+      "Errore inserimento in album:",
+      "error",
+      collectionError.message
+    );
     return;
   }
 
@@ -100,11 +120,8 @@ export async function insertCardToAlbum(album, cardId, index) {
 }
 
 export async function removeCardFromAlbum(album, index) {
-  console.log("removeCardFromAlbum", album.id);
-  console.log("removeCardFromAlbum", { index });
-
   const client = useSupabaseClient();
-  const userAuth = useUserAuth();
+  const snackbar = useSnackbar();
 
   const { data, error } = await client
     .from("card_album")
@@ -115,8 +132,27 @@ export async function removeCardFromAlbum(album, index) {
   console.log({ data });
 
   if (error) {
-    Snackbar.error("Errore rimozione da album: " + error.message);
+    snackbar.addMessage("Errore rimozione da album: ", "error", error.message);
     return;
+  }
+
+  return true;
+}
+
+export async function removeAlbum(albumId) {
+  const client = useSupabaseClient();
+  const snackbar = useSnackbar();
+
+  const { data, error } = await client
+    .from("albums")
+    .delete()
+    .eq("id", albumId);
+
+  if (error) {
+    snackbar.addMessage("Errore rimozione album:", "error", error.message);
+    return;
+  } else {
+    snackbar.addMessage("Album rimosso con successo", "success");
   }
 
   return true;

@@ -46,7 +46,7 @@ function handlePaginatedUpdate(newPaginated) {
 
 const gridSystem = computed(() => {
   return {
-    "grid-cols-2 px-2 pb-5 gap-2": isMobile.value,
+    "grid-cols-2 px-2 pb-10 gap-2": isMobile.value,
     "grid-cols-4": isTablet.value,
     "grid-cols-8 px-4 pb-20": isDesktop.value,
   };

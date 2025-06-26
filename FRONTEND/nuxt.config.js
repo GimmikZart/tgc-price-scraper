@@ -45,27 +45,6 @@ export default defineNuxtConfig({
       ],
     },
 
-    /* workbox: {
-      runtimeCaching: [
-        {
-          urlPattern: "^/.*\\.(js|css|png|jpg|svg)$",
-          handler: "CacheFirst",
-          options: {
-            cacheName: "static-assets",
-            expiration: { maxEntries: 100, maxAgeSeconds: 60 * 60 * 24 * 7 }, // 7 gg
-          },
-        },
-        {
-          urlPattern: "^https://api\\.miodominio\\.com/.*",
-          handler: "NetworkFirst",
-          options: {
-            cacheName: "api-cache",
-            expiration: { maxEntries: 50, maxAgeSeconds: 60 * 60 * 24 }, // 1 gg
-          },
-        },
-      ],
-    }, */
-
     client: {
       installPrompt: true,
       registerPlugin: true,

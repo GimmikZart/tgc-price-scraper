@@ -5,16 +5,21 @@ import { Icon } from "@iconify/vue";
 const snackbar = useSnackbar();
 const isLoading = ref(false);
 const dialog = ref(false);
-const albumName = ref("");
-const totalSlots = ref(12);
+const deckName = ref("");
 const router = useRouter();
+const deckStore = useDeckStore();
 
 async function create() {
-  isLoading.value = true;
   try {
     dialog.value = false;
-    const slug = await createAlbum(albumName.value, totalSlots.value);
-    if (slug) router.push(`/collection/album/${slug}`);
+    const newDeck = {
+      name: deckName.value,
+      slug: deckName.value.toLowerCase().replace(/\s+/g, "-"),
+      leader: null,
+      cards: [],
+    };
+    await deckStore.addDeck(deckName.value);
+    router.push(`/decks/edit/${newDeck.slug}`);
   } catch (error) {
     snackbar.addMessage(`Errore durante la creazione`, "error", error);
   } finally {
@@ -24,8 +29,9 @@ async function create() {
 </script>
 <template>
   <div>
-    <v-btn icon density="compact" @click="dialog = true">
-      <Icon class="text-sm" icon="fa-solid:plus"></Icon>
+    <v-btn density="compact" variant="text" @click="dialog = true">
+      Crea Deck
+      <Icon class="text-sm ml-3" icon="fa-solid:plus"></Icon>
     </v-btn>
     <v-dialog
       v-model="dialog"
@@ -41,18 +47,9 @@ async function create() {
         <v-card-text>
           <v-text-field
             label="Nome"
-            v-model="albumName"
+            v-model="deckName"
             density="compact"
             variant="outlined"
-          ></v-text-field>
-          <v-text-field
-            type="number"
-            label="Tasche totali"
-            v-model="totalSlots"
-            density="compact"
-            variant="outlined"
-            persistent-hint
-            hint="Potrai modificare il numero di tasche in seguito"
           ></v-text-field>
         </v-card-text>
         <v-card-actions class="pa-3">
@@ -65,7 +62,7 @@ async function create() {
             Annulla
           </v-btn>
           <v-btn :loading="isLoading" variant="outlined" @click="create">
-            Crea Album
+            Crea Deck
           </v-btn>
         </v-card-actions>
       </v-card>

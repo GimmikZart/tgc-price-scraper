@@ -12,6 +12,10 @@ const props = defineProps({
   editCollection: {
     type: Boolean,
   },
+  disableOpening: {
+    type: Boolean,
+    default: false,
+  },
 });
 
 const userAuth = useUserAuth();
@@ -42,6 +46,10 @@ async function addCardInCollection() {
 async function removeCardInCollection() {
   await removeCardToUserCollection(userAuth.userLogged.id, props.card.id);
   await loadCardCount();
+}
+
+function openCard() {
+  if (!props.disableOpening) cardIsOpen.value = true;
 }
 
 onMounted(() => {
@@ -89,7 +97,7 @@ watch(
         height="auto"
         class="border shadow-md cursor-zoom-in"
         cover
-        @click="cardIsOpen = true"
+        @click="openCard()"
         :alt="card.name"
       >
         <template v-slot:placeholder>
@@ -138,10 +146,12 @@ watch(
       <div
         v-if="cardIsOpen"
         class="fixed inset-0 bg-black/80 flex flex-col items-center justify-center pb-[90px] pt-[50px] gap-5 z-50 px-10 cursor-zoom-out"
-        @click.self="cardIsOpen = false"
+        @click="cardIsOpen = false"
       >
         <div class="text-center">
-          <h3 class="text-white/80 font-light text-sm text-center">
+          <h3
+            class="text-white/80 bg-black/50 p-1 rounded-lg font-light text-sm text-center"
+          >
             {{ card.setName }}
           </h3>
           <h3 class="text-white font-bold text-3xl">{{ card.name }}</h3>

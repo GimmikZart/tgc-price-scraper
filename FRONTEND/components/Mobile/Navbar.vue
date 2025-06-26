@@ -72,6 +72,13 @@ async function fetchCards() {
       <Icon class="text-3xl" icon="material-symbols:collections-bookmark" />
     </NuxtLink>
     <NuxtLink
+      to="/decks"
+      active-class="text-white font-bold"
+      class="text-white/60 p-2 cursor-pointer rounded-lg relative"
+    >
+      <Icon class="text-3xl" icon="ph:cards-three-bold" />
+    </NuxtLink>
+    <NuxtLink
       to="/user"
       active-class="text-white font-bold"
       class="text-white/60 p-2 cursor-pointer rounded-lg relative"

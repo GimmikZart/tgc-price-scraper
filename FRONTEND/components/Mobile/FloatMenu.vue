@@ -10,7 +10,7 @@ const mobileFloatMenu = useMobileFloatMenu();
 <template>
   <div
     v-if="isMobile"
-    class="min-w-[50px] min-h-[50px] rounded-lg border-[1px] border-white/20 bg-black flex flex-col-reverse gap-3 fixed bottom-[100px] right-2 py-3 items-end justify-around z-2 lg:hidden"
+    class="min-w-[50px] z-[50] min-h-[50px] rounded-lg border-[1px] border-white/20 bg-black flex flex-col-reverse gap-3 fixed bottom-[100px] right-2 py-3 items-end justify-around z-2 lg:hidden"
   >
     <div class="w-full flex justify-center" v-if="!mobileFloatMenu.isOpen">
       <Icon

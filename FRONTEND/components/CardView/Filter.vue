@@ -7,6 +7,14 @@ const props = defineProps({
     type: Array,
     default: [],
   },
+  hideColorFilter: {
+    type: Boolean,
+    default: false,
+  },
+  hideTypeFilter: {
+    type: Boolean,
+    default: false,
+  },
 });
 
 const {
@@ -22,6 +30,7 @@ const {
 
 const nameFilter = ref(null);
 const colorFilter = ref([]);
+const isMulticolored = ref(false);
 const typesFilter = ref([]);
 const moreFilters = ref(false);
 const setNamesFilter = ref(null);
@@ -38,7 +47,9 @@ const filtered = computed(() => {
     const nameMatch = !nameFilter.value || nameFilter.value.includes(card.name);
     const colorMatch =
       !colorFilter.value.length ||
-      card.color.some((c) => colorFilter.value.includes(c));
+      (isMulticolored.value
+        ? colorFilter.value.every((c) => card.color.includes(c))
+        : card.color.some((c) => colorFilter.value.includes(c)));
     const typeMatch =
       !typesFilter.value.length || typesFilter.value.includes(card.type);
     const setMatch =
@@ -112,6 +123,9 @@ watch(
 function closeOverlay() {
   emit("close");
 }
+onMounted(() => {
+  resetFilters();
+});
 </script>
 
 <template>
@@ -156,14 +170,23 @@ function closeOverlay() {
               label="Filtra per set"
             />
 
-            <InputSelect
-              v-model="colorFilter"
-              :items="colorList"
-              multiple
-              label="Filtra per colore"
-            />
+            <div v-if="!props.hideColorFilter" class="flex items-center gap-2">
+              <InputSelect
+                v-model="colorFilter"
+                :items="colorList"
+                multiple
+                label="Filtra per colore"
+                class="grow"
+              />
+              <v-checkbox
+                v-model="isMulticolored"
+                label="Multi"
+                hide-details
+              ></v-checkbox>
+            </div>
 
             <InputSelect
+              v-if="!props.hideTypeFilter"
               v-model="typesFilter"
               :items="typeList"
               multiple

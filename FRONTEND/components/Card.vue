@@ -101,6 +101,7 @@ watch(
           </div>
         </template>
       </v-img>
+      <slot name="actions" />
       <!-- TASTI COLLEZIONE -->
       <Transition
         appear
@@ -137,10 +138,10 @@ watch(
       <div
         v-if="cardIsOpen"
         class="fixed inset-0 bg-black/80 flex flex-col items-center justify-center pb-[90px] pt-[50px] gap-5 z-50 px-10 cursor-zoom-out"
-        @click="cardIsOpen = false"
+        @click.self="cardIsOpen = false"
       >
         <div class="text-center">
-          <h3 class="text-white/60 font-light text-sm text-center">
+          <h3 class="text-white/80 font-light text-sm text-center">
             {{ card.setName }}
           </h3>
           <h3 class="text-white font-bold text-3xl">{{ card.name }}</h3>
@@ -153,7 +154,6 @@ watch(
             :lazy-src="card.image"
             class="w-full z-[50]"
             contain
-            @click="cardIsOpen = true"
             :alt="card.name"
           >
             <template v-slot:placeholder>
@@ -166,6 +166,7 @@ watch(
             </template>
           </v-img>
         </div>
+        <slot name="open-bottom" />
       </div>
     </Teleport>
   </div>

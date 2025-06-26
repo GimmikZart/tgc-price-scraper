@@ -24,7 +24,7 @@ function goBack() {
 </script>
 <template>
   <div
-    class="bg-black h-[50px] w-full sticky top-0 left-0 z-[1000] border-b py-2"
+    class="bg-black w-full sticky top-0 left-0 z-[10] border-b py-2"
     :class="vertical ? 'flex-col' : 'flex-row'"
   >
     <div class="flex items-center px-4 pb-2">
@@ -42,7 +42,9 @@ function goBack() {
         <slot name="actions" />
       </div>
     </div>
-
     <TimedSnackbarList v-if="!route.meta.hideFloatSnackbar" />
+    <div class="px-4 py-2">
+      <slot name="info" />
+    </div>
   </div>
 </template>

@@ -1,6 +1,9 @@
 <script setup>
 import { Icon } from "@iconify/vue";
 import { useDeckStore } from "@/stores/useDeckStore";
+import { copyDeckOnClipboard } from "@/utilities/copyDeckOnClipboard";
+
+const snackbar = useSnackbar();
 const { allCards } = await useOnePieceCards();
 const mobileFloatMenu = useMobileFloatMenu();
 const route = useRoute();
@@ -106,6 +109,11 @@ function saveDeck() {
   const leaderId = leaderChoosen.value ? leaderChoosen.value.id : null;
   decksStore.editDeck(route.params.slug, leaderId, cardsInDeckIds);
   //router.push(`/decks/${existingDeckInStore.value.slug}`);
+}
+
+function exportDeck() {
+  copyDeckOnClipboard(leaderChoosen.value, singleCardsInDeck.value);
+  snackbar.addMessage("Deck copiato negli appunti", "success");
 }
 onMounted(() => {
   const existingDeckInStore = decksStore.getDeckBySlug(route.params.slug);
@@ -270,6 +278,18 @@ onMounted(() => {
     />
     <MobileFloatMenu :menu-open="mobileFloatMenu.open">
       <template #buttons>
+        <v-btn
+          :disabled="cardsInDeck.length != 50"
+          class="text-white"
+          variant="text"
+          @click="exportDeck"
+        >
+          <span class="text-xs mr-3">Esporta</span>
+          <Icon
+            class="text-2xl"
+            icon="material-symbols:export-notes-outline"
+          ></Icon>
+        </v-btn>
         <v-btn class="text-white" variant="text" @click="saveDeck">
           <span class="text-xs mr-3">Salva</span>
           <Icon class="text-2xl" icon="material-symbols:save-rounded"></Icon>

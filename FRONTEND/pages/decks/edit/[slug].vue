@@ -43,20 +43,6 @@ watch(openFilter, (newValue) => {
   }
 });
 
-const singleCardsInDeck = computed(() => {
-  const uniqueCards = new Map();
-  cardsInDeck.value.forEach((card) => {
-    if (uniqueCards.has(card.id)) {
-      uniqueCards.get(card.id).count++;
-    } else {
-      uniqueCards.set(card.id, { ...card, count: 1 });
-    }
-  });
-  return Array.from(uniqueCards.values()).sort((a, b) => {
-    return a.cost - b.cost || a.name.localeCompare(b.name);
-  });
-});
-
 function handleFilteredUpdate(newFiltered) {
   filteredCards.value = newFiltered;
 }
@@ -70,46 +56,26 @@ function chooseLeader(card) {
   leaderChoosen.value = card;
 }
 
+function getCopyInDeck(card) {
+  return cardsInDeck.value.filter((c) => c.id === card.id).length;
+}
+
 function addCardInDeck(card) {
   cardsInDeck.value.push(card);
 }
 
-function handleCardCopy(card) {
-  if (actionOnDeck.value === "add") {
-    addCardInDeck(card);
-  } else if (actionOnDeck.value === "remove") {
-    removeCardFromDeck(card);
-  }
-}
-
 function removeCardFromDeck(cardToRemove) {
-  // 1) ricavo l'array di soli ID
   const ids = cardsInDeck.value.map((c) => c.id);
 
-  // 2) conto quante copie ho
   const count = ids.filter((id) => id === cardToRemove.id).length;
 
   if (count > 1) {
-    // ci sono altre copie → ne tolgo una “diversa” (l'ultima nell'array)
     const idxToRemove = ids.lastIndexOf(cardToRemove.id);
     cardsInDeck.value.splice(idxToRemove, 1);
   } else if (count === 1) {
-    // è l'ultima copia → tolgo quella e poi chiudo il fullscreen
     const idxToRemove = ids.indexOf(cardToRemove.id);
     cardsInDeck.value.splice(idxToRemove, 1);
   }
-}
-
-watch([openFilter, showDeck], (newValue) => {
-  if (openFilter.value || showDeck.value) {
-    document.documentElement.classList.add("overflow-hidden");
-  } else {
-    document.documentElement.classList.remove("overflow-hidden");
-  }
-});
-
-function getCopyInDeck(card) {
-  return cardsInDeck.value.filter((c) => c.id === card.id).length;
 }
 
 function saveDeck() {
@@ -118,7 +84,7 @@ function saveDeck() {
   decksStore.editDeck(route.params.slug, leaderId, cardsInDeckIds);
   snackbar.addMessage("Deck salvato in locale con successo", "success");
   mobileFloatMenu.close();
-  //router.push(`/decks/${existingDeckInStore.value.slug}`);
+  router.push(`/decks/${route.params.slug}`);
 }
 
 function exportDeck() {
@@ -127,12 +93,6 @@ function exportDeck() {
   mobileFloatMenu.close();
 }
 
-function deleteDeck() {
-  decksStore.removeDeck(route.params.slug);
-  router.push("/decks");
-  snackbar.addMessage("Deck eliminato con successo", "success");
-  mobileFloatMenu.close();
-}
 onMounted(() => {
   mobileFloatMenu.close();
   const existingDeckInStore = decksStore.getDeckBySlug(route.params.slug);
@@ -149,9 +109,13 @@ onMounted(() => {
     });
   }
 });
+
+provide("cardsInDeck", cardsInDeck);
+provide("addCardInDeck", addCardInDeck);
+provide("removeCardFromDeck", removeCardFromDeck);
 </script>
 <template>
-  <section class="relative h-full">
+  <section class="relative">
     <Toolbar label="Crea Deck" class="rounded-b-xl">
       <template #actions>
         <p class="text-xl font-bold text-left">{{ cardsInDeck.length }} / 50</p>
@@ -163,9 +127,9 @@ onMounted(() => {
         >
           SCEGLI IL LEADER
         </p>
-        <div v-else class="pb-5 rounded-b-xl">
+        <div v-else class="rounded-b-xl">
           <div
-            class="min-h-[50px] text-lg bg-black border-[1px] p-2 rounded-lg flex text-center font-bold z-0"
+            class="text-lg bg-black border-[1px] p-2 rounded-lg flex text-center font-bold z-0"
           >
             <Card :card="leaderChoosen" class="w-[50px] flex-none" />
             <div class="w-full h-cover flex items-center justify-between">
@@ -187,88 +151,53 @@ onMounted(() => {
               </div>
             </div>
           </div>
-          <div v-if="showDeck" class="mt-2 bg-black p-2 pb-10 gap-8 w-full">
-            <div class="flex flex-col items-center gap-2 justify-center mb-5">
-              <span class="text-xs">AL click sulla carta</span>
-              <v-btn-toggle
-                base-color="white"
-                v-model="actionOnDeck"
-                density="compact"
-                divided
-                variant="tonal"
-              >
-                <v-btn size="small" color="info" value="info"> Info </v-btn>
-                <v-btn size="small" color="success" value="add">
-                  Aggiungi
-                </v-btn>
-                <v-btn size="small" color="error" value="remove">
-                  Rimuovi
-                </v-btn>
-              </v-btn-toggle>
-            </div>
-
-            <div class="grid grid-cols-4 gap-8">
-              <div
-                v-for="(card, idx) in singleCardsInDeck"
-                :key="idx"
-                class="relative bg-black w-full"
-              >
-                <Card
-                  v-for="(copy, ydx) in card.count"
-                  :key="ydx"
-                  :card="card"
-                  class="w-full top-0 left-0"
-                  :class="{
-                    absolute: ydx > 0,
-                    'border-[2px] animate-pulse rounded-lg border-red-500':
-                      copy > 4,
-                  }"
-                  :style="`transform: translateY(${ydx * 6}px) translateX(${
-                    ydx * 5
-                  }px) `"
-                  @click="handleCardCopy(card)"
-                  :disable-opening="actionOnDeck !== 'info'"
-                >
-                  <template #open-bottom>
-                    <div class="text-3xl font-bold text-white">
-                      x {{ card.count }}
-                    </div>
-                  </template>
-                </Card>
-              </div>
-            </div>
+          <div
+            v-if="showDeck"
+            class="flex flex-col items-center gap-2 justify-center mt-2"
+          >
+            <span class="text-xs">AL click sulla carta</span>
+            <v-btn-toggle
+              base-color="white"
+              v-model="actionOnDeck"
+              density="compact"
+              divided
+              variant="tonal"
+            >
+              <v-btn size="small" color="info" value="info"> Info </v-btn>
+              <v-btn size="small" color="success" value="add"> Aggiungi </v-btn>
+              <v-btn size="small" color="error" value="remove"> Rimuovi </v-btn>
+            </v-btn-toggle>
           </div>
         </div>
       </template>
     </Toolbar>
-    <div
-      v-if="showDeck"
-      @click="showDeck = false"
-      class="fixed top-0 left-0 h-screen w-full bg-black/60 backdrop-blur-[2px] z-[2]"
-    ></div>
-    <h4
-      v-if="paginatedCards.length == 0"
-      class="text-center text-gray-500 my-5"
-    >
-      La ricerca non ha prodotto risultati
-    </h4>
+    <CardViewDeck v-if="showDeck" :action-on-deck="actionOnDeck" />
 
-    <div class="grid grid-cols-2 gap-3 px-2 pt-2 pb-32 transition-all">
-      <Card
-        v-for="(card, ix) in paginatedCards"
-        :key="ix"
-        :card="card"
-        :choose-card="!leaderChoosen"
-        :handle-cards="leaderChoosen != null"
-        @chooseCard="chooseLeader(card)"
-        @addCard="addCardInDeck(card)"
-        @removeCard="removeCardFromDeck(card)"
-        :card-count="getCopyInDeck(card)"
+    <div v-else>
+      <h4
+        v-if="paginatedCards.length == 0"
+        class="text-center text-gray-500 my-5"
       >
-      </Card>
+        La ricerca non ha prodotto risultati
+      </h4>
+      <div class="grid grid-cols-2 gap-3 px-2 pt-2 pb-32 transition-all">
+        <Card
+          v-for="(card, ix) in paginatedCards"
+          :key="ix"
+          :card="card"
+          :choose-card="!leaderChoosen"
+          :handle-cards="leaderChoosen != null"
+          @chooseCard="chooseLeader(card)"
+          @addCard="addCardInDeck(card)"
+          @removeCard="removeCardFromDeck(card)"
+          :card-count="getCopyInDeck(card)"
+        >
+        </Card>
+      </div>
     </div>
 
     <CardViewPagination
+      ref="pagination"
       :items="filteredCards"
       :itemsPerPage="32"
       @update:paginated="handlePaginatedUpdate"
@@ -285,7 +214,7 @@ onMounted(() => {
     />
     <MobileFloatMenu :menu-open="mobileFloatMenu.open">
       <template #buttons>
-        <DialogsHandleDelete @delete="deleteDeck" />
+        <DialogsHandleDelete @delete="deleteDeck" :slug="route.params.slug" />
         <v-btn
           :disabled="cardsInDeck.length != 50"
           class="text-white"
@@ -323,8 +252,8 @@ onMounted(() => {
             mobileFloatMenu.close();
           "
         >
-          <span class="text-xs mr-3">Nascondi Mazzo</span>
-          <Icon class="text-2xl" icon="mdi:hide"></Icon>
+          <span class="text-xs mr-3">Lista Carte</span>
+          <Icon class="text-2xl" icon="streamline:cards"></Icon>
         </v-btn>
         <v-btn
           class="text-white"

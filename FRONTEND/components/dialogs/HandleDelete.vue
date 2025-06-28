@@ -1,8 +1,24 @@
 <script setup>
 import { Icon } from "@iconify/vue";
-const emit = defineEmits(["delete"]);
+import { useDeckStore } from "@/stores/useDeckStore";
+
+const props = defineProps({
+  slug: {
+    type: String,
+    required: true,
+  },
+});
+const decksStore = useDeckStore();
 const snackbar = useSnackbar();
 const dialog = ref(false);
+const router = useRouter();
+
+function deleteDeck() {
+  decksStore.removeDeck(props.slug);
+  router.push("/decks");
+  snackbar.addMessage("Deck eliminato con successo", "success");
+  mobileFloatMenu.close();
+}
 </script>
 <template>
   <div>
@@ -35,7 +51,7 @@ const dialog = ref(false);
             :loading="isLoading"
             color="red"
             variant="outlined"
-            @click="emit('delete')"
+            @click="deleteDeck()"
           >
             Cancella
           </v-btn>

@@ -1,4 +1,5 @@
 <script setup>
+import { Icon } from "@iconify/vue";
 const props = defineProps({
   card: {
     type: Object,
@@ -100,7 +101,6 @@ function openCard() {
       <div
         v-if="cardIsOpen"
         class="fixed inset-0 bg-black/80 flex flex-col items-center justify-center pb-[90px] pt-[50px] gap-5 z-50 px-10 cursor-zoom-out"
-        @click="cardIsOpen = false"
       >
         <div class="text-center">
           <h3
@@ -123,6 +123,10 @@ function openCard() {
           </NuxtImg>
         </div>
         <slot name="open-bottom" />
+        <v-btn variant="outlined" color="white" @click="cardIsOpen = false">
+          Chiudi
+          <Icon icon="carbon:close-filled" class="ml-3 text-xl"></Icon>
+        </v-btn>
       </div>
     </Teleport>
   </div>

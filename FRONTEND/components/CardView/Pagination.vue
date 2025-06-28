@@ -51,6 +51,8 @@ watch(
       v-model="currentPage"
       :length="totalPages"
       class="w-full"
+      size="default"
+      total-visible="5"
     ></v-pagination>
   </div>
 </template>

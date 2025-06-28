@@ -7,6 +7,11 @@ import { useMobileFloatMenu } from "@/stores/useMobileFloatMenu";
 import { fetchUserCollection } from "@/api/collection";
 import { getAlbums, insertCardToAlbum } from "@/api/album";
 import { Icon } from "@iconify/vue";
+import {
+  fetchCardCountInCollection,
+  addCardToUserCollection,
+  removeCardToUserCollection,
+} from "@/api/collection";
 
 const route = useRoute();
 const router = useRouter();
@@ -15,7 +20,6 @@ const mobileFloatMenu = useMobileFloatMenu();
 
 const handleAlbum = ref(false); // id dell’album selezionato
 const selectedAlbum = ref(null); // dati completi dell'album
-const remainingSlots = ref(0);
 
 const filteredCards = ref([]);
 const paginatedCards = ref([]);
@@ -23,18 +27,41 @@ const openFilter = ref(false);
 const editCollection = ref(false);
 const userAuth = useUserAuth();
 
-const {
-  data: userCollection,
-  refresh: refreshCard,
-  status,
-} = await useAsyncData(`user-collection-${userAuth.userLogged.id}`, () =>
-  fetchUserCollection(userAuth.userLogged.id)
+const { data: userCollection } = await useAsyncData(
+  `user-collection-${userAuth.userLogged.id}`,
+  () => fetchUserCollection(userAuth.userLogged.id)
 );
 
-const { data: userAlbums, refresh: refreshAlbums } = await useAsyncData(
-  `user-albums-${userAuth.userLogged.id}`,
-  () => getAlbums()
-);
+async function addCardInCollection(card) {
+  card.count = ++card.count;
+  await addCardToUserCollection(userAuth.userLogged.id, card.id);
+}
+
+async function removeCardInCollection(card) {
+  card.count = --card.count;
+  await removeCardToUserCollection(userAuth.userLogged.id, card.id);
+}
+
+async function loadCollectionCardCounts() {
+  if (!userAuth.userLogged?.id) return;
+  const userId = userAuth.userLogged.id;
+
+  await Promise.all(
+    paginatedCards.value.map(async (card) => {
+      try {
+        const c = await fetchCardCountInCollection(userId, card.id);
+        card.count = c;
+      } catch (e) {
+        console.error("Errore fetch count per", card.id, e);
+        card.count = 0;
+      }
+    })
+  );
+}
+
+watch(editCollection, async () => {
+  if (editCollection.value) await loadCollectionCardCounts();
+});
 
 function handleFilteredUpdate(newFiltered) {
   filteredCards.value = newFiltered;
@@ -94,7 +121,8 @@ onMounted(async () => {
   filteredCards.value = userCollection.value;
   if (route.query.album) {
     handleAlbum.value = true;
-    const selectedAlbumFromQuery = userAlbums.value.find(
+    const userAlbums = await getAlbums();
+    const selectedAlbumFromQuery = userAlbums.find(
       (a) => a.slug === route.query.album
     );
 
@@ -130,7 +158,7 @@ onMounted(async () => {
         <h5>Aggiungi ad Album</h5>
         <Icon icon="icomoon-free:arrow-right" class="text-xl" />
         <span class="font-bold">
-          {{ selectedAlbum.name }}
+          {{ selectedAlbum?.name }}
         </span>
       </div>
       <!-- ------------------- -->
@@ -147,9 +175,21 @@ onMounted(async () => {
         v-for="(card, ix) in paginatedCards"
         :key="ix"
         :card="card"
-        :edit-collection="editCollection"
+        :handle-cards="editCollection"
+        @addCard="addCardInCollection(card)"
+        @removeCard="removeCardInCollection(card)"
+        :card-count="card.count"
+        :disable-opening="handleAlbum"
         @click="handleInsertAlbum(card)"
-      />
+      >
+        <template #open-bottom>
+          <div
+            class="flex text-white font-bold text-3xl items-center justify-center"
+          >
+            x{{ card.count }}
+          </div>
+        </template>
+      </Card>
     </div>
     <CardViewPagination
       :items="filteredCards"
@@ -174,7 +214,10 @@ onMounted(async () => {
             mobileFloatMenu.close();
           "
         >
-          <span class="text-xs mr-3">Gestisci Collezione</span>
+          <span v-if="!editCollection" class="text-xs mr-3"
+            >Gestisci Collezione</span
+          >
+          <span v-else class="text-xs mr-3">Termina Gestione</span>
           <Icon class="text-xl" icon="fluent:collections-add-24-regular"></Icon>
         </v-btn>
         <v-btn

@@ -5,7 +5,13 @@ import Card from "@/components/Card.vue";
 import { useMyBreakpoints } from "@/composables/useMyBreakpoints";
 import { useMobileFloatMenu } from "@/stores/useMobileFloatMenu";
 import { Icon } from "@iconify/vue";
+import {
+  fetchCardCountInCollection,
+  addCardToUserCollection,
+  removeCardToUserCollection,
+} from "@/api/collection";
 
+const userAuth = useUserAuth();
 const { allCards } = await useOnePieceCards();
 const { isMobile, isTablet, isDesktop } = useMyBreakpoints();
 const mobileFloatMenu = useMobileFloatMenu();
@@ -22,6 +28,37 @@ function handleFilteredUpdate(newFiltered) {
 function handlePaginatedUpdate(newPaginated) {
   paginatedCards.value = newPaginated;
 }
+
+async function addCardInCollection(card) {
+  card.count = ++card.count;
+  await addCardToUserCollection(userAuth.userLogged.id, card.id);
+}
+
+async function removeCardInCollection(card) {
+  card.count = --card.count;
+  await removeCardToUserCollection(userAuth.userLogged.id, card.id);
+}
+
+async function loadCollectionCardCounts() {
+  if (!userAuth.userLogged?.id) return;
+  const userId = userAuth.userLogged.id;
+
+  await Promise.all(
+    paginatedCards.value.map(async (card) => {
+      try {
+        const c = await fetchCardCountInCollection(userId, card.id);
+        card.count = c;
+      } catch (e) {
+        console.error("Errore fetch count per", card.id, e);
+        card.count = 0;
+      }
+    })
+  );
+}
+
+watch(editCollection, async () => {
+  if (editCollection.value) await loadCollectionCardCounts();
+});
 
 const gridSystem = computed(() => {
   return {
@@ -75,7 +112,10 @@ onMounted(() => {
         v-for="(card, ix) in paginatedCards"
         :key="ix"
         :card="card"
-        :edit-collection="editCollection"
+        :handle-cards="editCollection"
+        @addCard="addCardInCollection(card)"
+        @removeCard="removeCardInCollection(card)"
+        :card-count="card.count"
       />
     </div>
     <CardViewPagination

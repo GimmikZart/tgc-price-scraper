@@ -16,7 +16,7 @@ export async function fetchUserCollection(userUuid) {
   return allCards.filter((card) => idsSet.has(card.id));
 }
 
-export async function fetchCardInCollection(userUuid, cardId) {
+export async function fetchCardCountInCollection(userUuid, cardId) {
   const client = useSupabaseClient();
   const { data: collectionInfo, error } = await client
     .from("collection")

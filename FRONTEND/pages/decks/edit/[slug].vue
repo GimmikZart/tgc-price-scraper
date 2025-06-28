@@ -235,29 +235,17 @@ onMounted(() => {
     </h4>
 
     <div class="grid grid-cols-2 gap-3 px-2 pt-2 pb-32 transition-all">
-      <Card v-for="(card, ix) in paginatedCards" :key="ix" :card="card">
-        <template #actions>
-          <v-btn
-            v-if="!leaderChoosen"
-            class="bg-gray-500"
-            block
-            variant="outlined"
-            @click="chooseLeader(card)"
-          >
-            SCEGLI
-          </v-btn>
-          <div v-else class="w-full flex items-center justify-between">
-            <v-btn variant="tonal" color="white">
-              <v-icon size="25" color="red" @click="removeCardFromDeck(card)"
-                >mdi-minus</v-icon
-              >
-            </v-btn>
-            <span class="text-xl">{{ getCopyInDeck(card) }} </span>
-            <v-btn variant="tonal" color="white" @click="addCardInDeck(card)">
-              <v-icon size="25" color="green">mdi-plus</v-icon>
-            </v-btn>
-          </div>
-        </template>
+      <Card
+        v-for="(card, ix) in paginatedCards"
+        :key="ix"
+        :card="card"
+        :choose-card="!leaderChoosen"
+        :handle-cards="leaderChoosen != null"
+        @chooseCard="chooseLeader(card)"
+        @addCard="addCardInDeck(card)"
+        @removeCard="removeCardFromDeck(card)"
+        :card-count="getCopyInDeck(card)"
+      >
       </Card>
     </div>
 

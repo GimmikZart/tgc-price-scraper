@@ -100,6 +100,14 @@ function removeCardFromDeck(cardToRemove) {
   }
 }
 
+watch([openFilter, showDeck], (newValue) => {
+  if (openFilter.value || showDeck.value) {
+    document.documentElement.classList.add("overflow-hidden");
+  } else {
+    document.documentElement.classList.remove("overflow-hidden");
+  }
+});
+
 function getCopyInDeck(card) {
   return cardsInDeck.value.filter((c) => c.id === card.id).length;
 }
@@ -108,14 +116,25 @@ function saveDeck() {
   const cardsInDeckIds = cardsInDeck.value.map((c) => c.id);
   const leaderId = leaderChoosen.value ? leaderChoosen.value.id : null;
   decksStore.editDeck(route.params.slug, leaderId, cardsInDeckIds);
+  snackbar.addMessage("Deck salvato in locale con successo", "success");
+  mobileFloatMenu.close();
   //router.push(`/decks/${existingDeckInStore.value.slug}`);
 }
 
 function exportDeck() {
   copyDeckOnClipboard(leaderChoosen.value, singleCardsInDeck.value);
   snackbar.addMessage("Deck copiato negli appunti", "success");
+  mobileFloatMenu.close();
+}
+
+function deleteDeck() {
+  decksStore.removeDeck(route.params.slug);
+  router.push("/decks");
+  snackbar.addMessage("Deck eliminato con successo", "success");
+  mobileFloatMenu.close();
 }
 onMounted(() => {
+  mobileFloatMenu.close();
   const existingDeckInStore = decksStore.getDeckBySlug(route.params.slug);
   if (existingDeckInStore) {
     deckName.value = existingDeckInStore.name;
@@ -266,6 +285,7 @@ onMounted(() => {
     />
     <MobileFloatMenu :menu-open="mobileFloatMenu.open">
       <template #buttons>
+        <DialogsHandleDelete @delete="deleteDeck" />
         <v-btn
           :disabled="cardsInDeck.length != 50"
           class="text-white"
@@ -283,7 +303,7 @@ onMounted(() => {
           <Icon class="text-2xl" icon="material-symbols:save-rounded"></Icon>
         </v-btn>
         <v-btn
-          v-if="!showDeck"
+          v-if="!showDeck && leaderChoosen"
           class="text-white"
           variant="text"
           @click="
@@ -295,7 +315,7 @@ onMounted(() => {
           <Icon class="text-2xl" icon="mdi:show"></Icon>
         </v-btn>
         <v-btn
-          v-else
+          v-else-if="showDeck && leaderChoosen"
           class="text-white"
           variant="text"
           @click="

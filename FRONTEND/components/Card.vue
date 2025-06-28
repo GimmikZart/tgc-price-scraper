@@ -38,7 +38,7 @@ function openCard() {
       enter-active-class="transition-all duration-300 ease-out"
       enter-from-class="translate-y-full"
       enter-to-class="translate-y-0"
-      leave-active-class="transition-all duration-100 ease-out"
+      leave-active-class="transition-all duration-300 ease-out"
       leave-from-class="translate-y-0"
       leave-to-class="translate-y-full"
     >
@@ -65,7 +65,7 @@ function openCard() {
       enter-active-class="transition-all duration-300 ease-out"
       enter-from-class="-translate-y-full"
       enter-to-class="translate-y-0"
-      leave-active-class="transition-all duration-100 ease-out"
+      leave-active-class="transition-all duration-300 ease-out"
       leave-from-class="translate-y-0"
       leave-to-class="-translate-y-full"
     >
@@ -84,26 +84,16 @@ function openCard() {
         </div>
       </div>
     </Transition>
-    <Transition
-      appear
-      enter-active-class="transition-all duration-300 ease-out"
-      enter-from-class="-translate-y-full"
-      enter-to-class="translate-y-0"
-      leave-active-class="transition-all duration-300 ease-out"
-      leave-from-class="translate-y-0"
-      leave-to-class="-translate-y-full"
+
+    <v-btn
+      v-if="chooseCard"
+      class="bg-gray-500"
+      block
+      variant="outlined"
+      @click="emit('choose-card')"
     >
-      <div v-if="chooseCard" class="flex gap-3 items-center justify-between">
-        <v-btn
-          class="bg-gray-500"
-          block
-          variant="outlined"
-          @click="emit('choose-card')"
-        >
-          SCEGLI
-        </v-btn>
-      </div>
-    </Transition>
+      SCEGLI
+    </v-btn>
 
     <!-- CARTA APERTA -->
     <Teleport to="body">

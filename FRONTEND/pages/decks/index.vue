@@ -5,6 +5,13 @@ const router = useRouter();
 const mobileFloatMenu = useMobileFloatMenu();
 const deckStore = useDeckStore();
 const deckLists = computed(() => deckStore.decksList);
+
+function goToEditDeck(deck) {
+  router.push(`/decks/edit/${deck.slug}`);
+}
+onMounted(() => {
+  mobileFloatMenu.close();
+});
 </script>
 <template>
   <section class="relative h-full">
@@ -14,7 +21,7 @@ const deckLists = computed(() => deckStore.decksList);
         <div
           v-for="(deck, idx) in deckLists"
           :key="idx"
-          @click="() => router.push(`/decks/edit/${deck.slug}`)"
+          @click="goToEditDeck(deck)"
           class="flex bg-white p-5 flex-col items-center justify-center rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 cursor-pointer"
         >
           <h3 class="text-black font-bold text-2xl">

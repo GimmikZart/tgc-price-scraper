@@ -44,5 +44,6 @@ export const useDeckStore = defineStore(
     persist: {
       pick: ["decksList"],
     },
+    debug: true,
   }
 );

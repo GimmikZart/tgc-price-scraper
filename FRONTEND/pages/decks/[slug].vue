@@ -1,46 +1,127 @@
 <script setup>
-//TODO: NON FUNZIONA BENE IL ROUTER CHE MANDA QUA DOPO IL SAVE, FIXA
-import { useDeckStore } from "@/stores/useDeckStore";
 import { Icon } from "@iconify/vue";
+import { updateDeckVisibility } from "~/api/decks";
+import { getVisibilityLabel } from "~/enums/visibility";
+import { copyDeckOnClipboard } from "@/utilities/copyDeckOnClipboard";
 
+const snackbar = useSnackbar();
 const route = useRoute();
 
-const decksStore = useDeckStore();
-const deckName = ref("");
+const currentDeck = ref({
+  name: "",
+  slug: "",
+  leader: null,
+  cards: [],
+  visibility: "private",
+  location: "local",
+});
 const leaderChoosen = ref(null);
 const router = useRouter();
 const { allCards } = await useOnePieceCards();
 const mobileFloatMenu = useMobileFloatMenu();
 const cardsInDeck = ref([]);
+const { getLocal, getCloud } = useDeckManager();
 
 function goToEditDeck() {
   router.push(`/decks/edit/${route.params.slug}`);
 }
 
-onMounted(() => {
-  mobileFloatMenu.close();
-  const existingDeckInStore = decksStore.getDeckBySlug(route.params.slug);
-  if (existingDeckInStore) {
-    deckName.value = existingDeckInStore.name;
-    leaderChoosen.value = allCards.find(
-      (c) => c.id === existingDeckInStore.leader
-    );
-    existingDeckInStore.cards.forEach((cardId) => {
-      const card = allCards.find((c) => c.id === cardId);
-      if (card) {
-        cardsInDeck.value.push(card);
-      }
-    });
-  }
+const singleCardsInDeck = computed(() => {
+  const uniqueCards = new Map();
+  currentDeck.value.cards.forEach((card) => {
+    const cardData = allCards.find((c) => c.id === card);
+    if (uniqueCards.has(cardData)) {
+      uniqueCards.get(cardData).count++;
+    } else {
+      uniqueCards.set(cardData, { ...cardData, count: 1 });
+    }
+  });
+  return Array.from(uniqueCards.values()).sort((a, b) => {
+    return a.cost - b.cost || a.name.localeCompare(b.name);
+  });
 });
 
-provide("cardsInDeck", cardsInDeck);
+const leaderCards = computed(() => {
+  return allCards.filter((card) => card.type === "LEADER");
+});
+
+function chooseLeader(cardId) {
+  currentDeck.value.leader = cardId;
+  const leaderCard = leaderCards.value.find((c) => c.id === cardId);
+  leaderChoosen.value = leaderCard || null;
+}
+
+async function getDeckFromSlug(slug) {
+  if (!slug) return;
+  // 1) Provo a prendere il draft locale
+  const local = await getLocal(slug);
+  if (local) {
+    currentDeck.value = local;
+    chooseLeader(local.leader);
+    return;
+  }
+
+  // 2) Non esiste in locale → prendo dal cloud e creo il draft
+  const cloudDeck = await getCloud(slug);
+  if (cloudDeck) {
+    currentDeck.value = cloudDeck;
+    chooseLeader(cloudDeck.leader);
+  }
+}
+
+const updateVisibility = async (newValue) => {
+  await updateDeckVisibility(currentDeck.value.slug, newValue);
+};
+
+function exportDeck() {
+  copyDeckOnClipboard(leaderChoosen.value, singleCardsInDeck.value);
+  snackbar.addMessage("Deck copiato negli appunti", "success");
+}
+
+onMounted(async () => {
+  await getDeckFromSlug(route.params.slug);
+});
+
+definePageMeta({
+  ssr: false,
+});
+
+provide("addCardInDeck", null);
+provide("removeCardFromDeck", null);
+provide("item", currentDeck);
 </script>
 <template>
-  <Toolbar :label="`Mazzo ${deckName}`">
+  <Toolbar v-if="leaderChoosen" :label="`Mazzo ${currentDeck.name}`">
+    <template #actions>
+      <MobileFloatMenu :menu-open="mobileFloatMenu.open">
+        <template #buttons>
+          <DialogsHandleDelete @delete="deleteDeck" />
+          <v-btn
+            :disabled="currentDeck.cards.length != 50"
+            class="text-white"
+            variant="text"
+            @click="exportDeck"
+          >
+            <span class="text-xs mr-3">Esporta</span>
+            <Icon
+              class="text-2xl"
+              icon="material-symbols:export-notes-outline"
+            ></Icon>
+          </v-btn>
+          <DialogsHandleVisibility
+            v-if="!currentDeck.isLocal"
+            @update-visibility="(newValue) => updateVisibility(newValue)"
+          />
+          <v-btn @click="goToEditDeck()" variant="text">
+            <span class="text-xs mr-3">Modifica</span>
+            <Icon class="text-2xl" icon="iconoir:wrench"></Icon>
+          </v-btn>
+        </template>
+      </MobileFloatMenu>
+    </template>
     <template #info>
       <div
-        class="text-lg bg-black border-[1px] p-2 rounded-lg flex text-center font-bold z-0"
+        class="text-lg bg-black p-2 px-5 rounded-lg flex text-center font-bold z-0"
       >
         <Card :card="leaderChoosen" class="w-[50px] flex-none" />
         <div class="w-full h-cover flex items-center justify-between">
@@ -49,6 +130,27 @@ provide("cardsInDeck", cardsInDeck);
             <p class="w-auto text-left text-xl truncate">
               {{ leaderChoosen.name }}
             </p>
+            <div class="flex gap-3 items-center">
+              <p class="text-sm font-normal text-left">
+                {{ currentDeck.cards.length }} / 50
+              </p>
+              <v-chip
+                v-if="currentDeck.isLocal"
+                color="orange"
+                size="small"
+                class="text-xs"
+              >
+                Locale
+                <Icon icon="mdi:offline" class="text-orange text-lg ml-1" />
+              </v-chip>
+              <v-chip v-else size="small" color="green" class="text-xs">
+                {{ getVisibilityLabel(currentDeck.visibility) }}
+                <Icon
+                  icon="material-symbols-light:cloud-done-rounded"
+                  class="text-green text-lg ml-1"
+                />
+              </v-chip>
+            </div>
           </div>
           <div class="w-1/5 h-full grow flex gap-1 flex-col">
             <div
@@ -64,26 +166,5 @@ provide("cardsInDeck", cardsInDeck);
       </div>
     </template>
   </Toolbar>
-  <CardViewDeck />
-  <MobileFloatMenu :menu-open="mobileFloatMenu.open">
-    <template #buttons>
-      <DialogsHandleDelete @delete="deleteDeck" />
-      <v-btn
-        :disabled="cardsInDeck.length != 50"
-        class="text-white"
-        variant="text"
-        @click="exportDeck"
-      >
-        <span class="text-xs mr-3">Esporta</span>
-        <Icon
-          class="text-2xl"
-          icon="material-symbols:export-notes-outline"
-        ></Icon>
-      </v-btn>
-      <v-btn @click="goToEditDeck()" variant="text">
-        <span class="text-xs mr-3">Edit</span>
-        <Icon class="text-2xl" icon="iconoir:wrench"></Icon>
-      </v-btn>
-    </template>
-  </MobileFloatMenu>
+  <CardViewDeck :single-cards-in-deck="singleCardsInDeck" />
 </template>

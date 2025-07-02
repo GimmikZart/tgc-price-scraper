@@ -11,6 +11,7 @@ export default defineNuxtConfig({
     "@vite-pwa/nuxt",
     "@nuxt/image",
   ],
+  plugins: ["~/plugins/indexeddb.client.ts"],
   supabase: {
     redirect: false,
   },

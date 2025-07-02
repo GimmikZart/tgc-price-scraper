@@ -2,13 +2,37 @@
 import { Icon } from "@iconify/vue";
 import { useDeckStore } from "@/stores/useDeckStore";
 import { copyDeckOnClipboard } from "@/utilities/copyDeckOnClipboard";
+import { saveDeckOnCloud } from "@/api/decks";
 
 const snackbar = useSnackbar();
 const { allCards } = await useOnePieceCards();
 const mobileFloatMenu = useMobileFloatMenu();
 const route = useRoute();
 const router = useRouter();
-const decksStore = useDeckStore();
+const { getLocal, saveLocal, getCloud, publish } = useDeckManager();
+
+const currentDeck = ref({
+  name: "",
+  slug: "",
+  leader: null,
+  cards: [],
+  visibility: "private",
+  location: "local",
+});
+
+const filteredCards = ref([]);
+const paginatedCards = ref([]);
+const openFilter = ref(false);
+const cardsInDeck = ref([]);
+const showDeck = ref(false);
+const filterKey = ref(0);
+const actionOnDeck = ref("info");
+const leaderChoosen = ref(null);
+const existingDeckInStore = ref(null);
+
+const leaderCards = computed(() => {
+  return allCards.filter((card) => card.type === "LEADER");
+});
 
 const builderCards = computed(() => {
   if (leaderChoosen.value != null) {
@@ -21,19 +45,24 @@ const builderCards = computed(() => {
       return cardIsNotTypeLeader && cardHasLeaderColor;
     });
   } else {
-    return allCards.filter((card) => card.type === "LEADER");
+    return leaderCards.value.filter((card) => card.type === "LEADER");
   }
 });
 
-const filteredCards = ref([]);
-const paginatedCards = ref([]);
-const openFilter = ref(false);
-const cardsInDeck = ref([]);
-const showDeck = ref(false);
-const filterKey = ref(0);
-const actionOnDeck = ref("info");
-const deckName = ref("");
-const leaderChoosen = ref(null);
+const singleCardsInDeck = computed(() => {
+  const uniqueCards = new Map();
+  currentDeck.value.cards.forEach((card) => {
+    const cardData = allCards.find((c) => c.id === card);
+    if (uniqueCards.has(cardData)) {
+      uniqueCards.get(cardData).count++;
+    } else {
+      uniqueCards.set(cardData, { ...cardData, count: 1 });
+    }
+  });
+  return Array.from(uniqueCards.values()).sort((a, b) => {
+    return a.cost - b.cost || a.name.localeCompare(b.name);
+  });
+});
 
 watch(openFilter, (newValue) => {
   if (newValue) {
@@ -51,85 +80,167 @@ function handlePaginatedUpdate(newPaginated) {
   paginatedCards.value = newPaginated;
 }
 
-function chooseLeader(card) {
+function chooseLeader(cardId) {
   filterKey.value++;
-  leaderChoosen.value = card;
+  currentDeck.value.leader = cardId;
+  const leaderCard = leaderCards.value.find((c) => c.id === cardId);
+  leaderChoosen.value = leaderCard || null;
 }
 
 function getCopyInDeck(card) {
-  return cardsInDeck.value.filter((c) => c.id === card.id).length;
+  return currentDeck.value.cards.filter((cId) => cId === card.id).length;
 }
 
 function addCardInDeck(card) {
-  cardsInDeck.value.push(card);
+  currentDeck.value.cards.push(card.id);
 }
 
 function removeCardFromDeck(cardToRemove) {
-  const ids = cardsInDeck.value.map((c) => c.id);
-
-  const count = ids.filter((id) => id === cardToRemove.id).length;
+  const count = currentDeck.value.cards.filter(
+    (id) => id === cardToRemove.id
+  ).length;
 
   if (count > 1) {
-    const idxToRemove = ids.lastIndexOf(cardToRemove.id);
-    cardsInDeck.value.splice(idxToRemove, 1);
+    const idxToRemove = currentDeck.value.cards.lastIndexOf(cardToRemove.id);
+    currentDeck.value.cards.splice(idxToRemove, 1);
   } else if (count === 1) {
-    const idxToRemove = ids.indexOf(cardToRemove.id);
-    cardsInDeck.value.splice(idxToRemove, 1);
+    const idxToRemove = currentDeck.value.cards.indexOf(cardToRemove.id);
+    currentDeck.value.cards.splice(idxToRemove, 1);
   }
 }
 
-function saveDeck() {
-  const cardsInDeckIds = cardsInDeck.value.map((c) => c.id);
-  const leaderId = leaderChoosen.value ? leaderChoosen.value.id : null;
-  decksStore.editDeck(route.params.slug, leaderId, cardsInDeckIds);
+watch(
+  currentDeck,
+  (current) => {
+    console.log("current deck changed:", current);
+
+    saveLocal(current);
+  },
+  { deep: true }
+);
+
+async function getDeckFromSlug(slug) {
+  if (!slug) return;
+  // 1) Provo a prendere il draft locale
+  const local = await getLocal(slug);
+  if (local) {
+    currentDeck.value = local;
+    chooseLeader(local.leader);
+    return;
+  }
+
+  // 2) Non esiste in locale → prendo dal cloud e creo il draft
+  const cloudDeck = await getCloud(slug);
+  if (cloudDeck) {
+    currentDeck.value = cloudDeck;
+    chooseLeader(cloudDeck.leader);
+  }
+}
+
+async function saveDeck() {
+  await publish(currentDeck.value);
   snackbar.addMessage("Deck salvato in locale con successo", "success");
-  mobileFloatMenu.close();
   router.push(`/decks/${route.params.slug}`);
 }
 
 function exportDeck() {
   copyDeckOnClipboard(leaderChoosen.value, singleCardsInDeck.value);
   snackbar.addMessage("Deck copiato negli appunti", "success");
-  mobileFloatMenu.close();
 }
 
-onMounted(() => {
-  mobileFloatMenu.close();
-  const existingDeckInStore = decksStore.getDeckBySlug(route.params.slug);
-  if (existingDeckInStore) {
-    deckName.value = existingDeckInStore.name;
-    leaderChoosen.value = allCards.find(
-      (c) => c.id === existingDeckInStore.leader
-    );
-    existingDeckInStore.cards.forEach((cardId) => {
-      const card = allCards.find((c) => c.id === cardId);
-      if (card) {
-        cardsInDeck.value.push(card);
-      }
-    });
-  }
+onMounted(async () => {
+  await getDeckFromSlug(route.params.slug);
 });
 
-provide("cardsInDeck", cardsInDeck);
+definePageMeta({
+  ssr: false,
+});
+
+provide("cardsInDeck", currentDeck.value.cards);
 provide("addCardInDeck", addCardInDeck);
 provide("removeCardFromDeck", removeCardFromDeck);
+provide("item", currentDeck);
 </script>
 <template>
   <section class="relative">
-    <Toolbar label="Crea Deck" class="rounded-b-xl">
+    <Toolbar :label="currentDeck.name" class="rounded-b-xl">
       <template #actions>
-        <p class="text-xl font-bold text-left">{{ cardsInDeck.length }} / 50</p>
+        <MobileFloatMenu>
+          <template #buttons>
+            <DialogsHandleDelete
+              @delete="deleteDeck"
+              :slug="route.params.slug"
+            />
+            <v-btn
+              :disabled="currentDeck.cards.length != 50"
+              class="text-white"
+              variant="text"
+              @click="exportDeck"
+            >
+              <span class="text-xs mr-3">Esporta</span>
+              <Icon
+                class="text-2xl"
+                icon="material-symbols:export-notes-outline"
+              ></Icon>
+            </v-btn>
+            <v-btn class="text-white" variant="text" @click="saveDeck">
+              <span class="text-xs mr-3">Salva</span>
+              <Icon
+                class="text-2xl"
+                icon="material-symbols:save-rounded"
+              ></Icon>
+            </v-btn>
+            <v-btn
+              v-if="!showDeck && leaderChoosen"
+              class="text-white"
+              variant="text"
+              @click="
+                showDeck = true;
+                mobileFloatMenu.close();
+              "
+            >
+              <span class="text-xs mr-3">Mostra Mazzo</span>
+              <Icon class="text-2xl" icon="mdi:show"></Icon>
+            </v-btn>
+            <v-btn
+              v-else-if="showDeck && leaderChoosen"
+              class="text-white"
+              variant="text"
+              @click="
+                showDeck = false;
+                mobileFloatMenu.close();
+              "
+            >
+              <span class="text-xs mr-3">Lista Carte</span>
+              <Icon class="text-2xl" icon="streamline:cards"></Icon>
+            </v-btn>
+            <v-btn
+              class="text-white"
+              variant="text"
+              @click="
+                openFilter = true;
+                mobileFloatMenu.close();
+              "
+            >
+              <span class="text-xs mr-3">Filtra</span>
+              <Icon
+                class="text-2xl"
+                icon="material-symbols:search-rounded"
+              ></Icon>
+            </v-btn>
+          </template>
+        </MobileFloatMenu>
       </template>
       <template #info>
         <p
           v-if="!leaderChoosen"
-          class="text-lg border-[1px] p-2 rounded-lg text-center font-bold z-0"
+          class="text-lg p-2 rounded-lg text-center font-bold z-0"
         >
           SCEGLI IL LEADER
         </p>
         <div v-else class="rounded-b-xl">
           <div
-            class="text-lg bg-black border-[1px] p-2 rounded-lg flex text-center font-bold z-0"
+            class="text-lg bg-black p-2 rounded-lg flex text-center font-bold z-0"
           >
             <Card :card="leaderChoosen" class="w-[50px] flex-none" />
             <div class="w-full h-cover flex items-center justify-between">
@@ -137,6 +248,9 @@ provide("removeCardFromDeck", removeCardFromDeck);
                 <p class="text-left text-xs">COMPONI MAZZO</p>
                 <p class="w-auto text-left text-xl truncate">
                   {{ leaderChoosen.name }}
+                </p>
+                <p class="text-sm font-normal text-left">
+                  {{ currentDeck.cards.length }} / 50
                 </p>
               </div>
               <div class="w-1/5 h-full grow flex gap-1 flex-col">
@@ -171,7 +285,11 @@ provide("removeCardFromDeck", removeCardFromDeck);
         </div>
       </template>
     </Toolbar>
-    <CardViewDeck v-if="showDeck" :action-on-deck="actionOnDeck" />
+    <CardViewDeck
+      v-if="showDeck"
+      :action-on-deck="actionOnDeck"
+      :single-cards-in-deck="singleCardsInDeck"
+    />
 
     <div v-else>
       <h4
@@ -180,14 +298,14 @@ provide("removeCardFromDeck", removeCardFromDeck);
       >
         La ricerca non ha prodotto risultati
       </h4>
-      <div class="grid grid-cols-2 gap-3 px-2 pt-2 pb-32 transition-all">
+      <div class="grid grid-cols-2 gap-3 px-2 pt-2 pb-12 transition-all">
         <Card
           v-for="(card, ix) in paginatedCards"
           :key="ix"
           :card="card"
           :choose-card="!leaderChoosen"
           :handle-cards="leaderChoosen != null"
-          @chooseCard="chooseLeader(card)"
+          @chooseCard="chooseLeader(card.id)"
           @addCard="addCardInDeck(card)"
           @removeCard="removeCardFromDeck(card)"
           :card-count="getCopyInDeck(card)"
@@ -212,61 +330,5 @@ provide("removeCardFromDeck", removeCardFromDeck);
       :hide-color-filter="leaderChoosen != null"
       :hide-type-filter="leaderChoosen == null"
     />
-    <MobileFloatMenu :menu-open="mobileFloatMenu.open">
-      <template #buttons>
-        <DialogsHandleDelete @delete="deleteDeck" :slug="route.params.slug" />
-        <v-btn
-          :disabled="cardsInDeck.length != 50"
-          class="text-white"
-          variant="text"
-          @click="exportDeck"
-        >
-          <span class="text-xs mr-3">Esporta</span>
-          <Icon
-            class="text-2xl"
-            icon="material-symbols:export-notes-outline"
-          ></Icon>
-        </v-btn>
-        <v-btn class="text-white" variant="text" @click="saveDeck">
-          <span class="text-xs mr-3">Salva</span>
-          <Icon class="text-2xl" icon="material-symbols:save-rounded"></Icon>
-        </v-btn>
-        <v-btn
-          v-if="!showDeck && leaderChoosen"
-          class="text-white"
-          variant="text"
-          @click="
-            showDeck = true;
-            mobileFloatMenu.close();
-          "
-        >
-          <span class="text-xs mr-3">Mostra Mazzo</span>
-          <Icon class="text-2xl" icon="mdi:show"></Icon>
-        </v-btn>
-        <v-btn
-          v-else-if="showDeck && leaderChoosen"
-          class="text-white"
-          variant="text"
-          @click="
-            showDeck = false;
-            mobileFloatMenu.close();
-          "
-        >
-          <span class="text-xs mr-3">Lista Carte</span>
-          <Icon class="text-2xl" icon="streamline:cards"></Icon>
-        </v-btn>
-        <v-btn
-          class="text-white"
-          variant="text"
-          @click="
-            openFilter = true;
-            mobileFloatMenu.close();
-          "
-        >
-          <span class="text-xs mr-3">Filtra</span>
-          <Icon class="text-2xl" icon="material-symbols:search-rounded"></Icon>
-        </v-btn>
-      </template>
-    </MobileFloatMenu>
   </section>
 </template>

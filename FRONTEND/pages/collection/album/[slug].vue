@@ -68,7 +68,36 @@ function goToSelectCard(idx) {
 
 <template>
   <section class="h-full flex flex-col">
-    <Toolbar backButton :label="`Album ${album.name}`" />
+    <Toolbar backButton :label="`Album ${album.name}`">
+      <template #actions>
+        <MobileFloatMenu class="z-30 p-2">
+          <template #buttons>
+            <DialogsHandleRemoveAlbum :album-id="album.id" class="text-white" />
+            <v-btn
+              v-if="!removeCardMode"
+              variant="text"
+              class="text-white"
+              @click="removeCardMode = true"
+            >
+              Rimuovi carte
+              <Icon
+                icon="mdi:card-remove-outline"
+                class="text-xl ml-3 -rotate-90"
+              />
+            </v-btn>
+            <v-btn
+              v-else
+              variant="text"
+              class="text-white"
+              @click="removeCardMode = false"
+            >
+              Termina rimozione
+              <Icon icon="el:ok" class="text-xl ml-3" />
+            </v-btn>
+          </template>
+        </MobileFloatMenu>
+      </template>
+    </Toolbar>
 
     <v-container
       class="bg-stitched pb-10 mt-4 px-1 h-full pa-0 grid grid-cols-2 gap-1 border-l-8 border-blue-900"
@@ -123,32 +152,6 @@ function goToSelectCard(idx) {
       :itemsPerPage="16"
       @update:paginated="handlePaginatedUpdate"
     />
-    <MobileFloatMenu class="z-30 p-2">
-      <template #buttons>
-        <DialogsHandleRemoveAlbum :album-id="album.id" class="text-white" />
-        <v-btn
-          v-if="!removeCardMode"
-          variant="text"
-          class="text-white"
-          @click="removeCardMode = true"
-        >
-          Rimuovi carte
-          <Icon
-            icon="mdi:card-remove-outline"
-            class="text-xl ml-3 -rotate-90"
-          />
-        </v-btn>
-        <v-btn
-          v-else
-          variant="text"
-          class="text-white"
-          @click="removeCardMode = false"
-        >
-          Termina rimozione
-          <Icon icon="el:ok" class="text-xl ml-3" />
-        </v-btn>
-      </template>
-    </MobileFloatMenu>
   </section>
 </template>
 <style>

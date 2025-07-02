@@ -86,17 +86,38 @@ onMounted(() => {
   <section class="relative h-full">
     <Toolbar label="Lista Carte">
       <template #actions>
-        <span class="font-bold text-lg">
-          {{ filteredCards.length }} carte
-        </span>
-        <v-btn
-          v-if="isDesktop"
-          class="text-white"
-          variant="text"
-          @click="openFilter = true"
-        >
-          <v-icon size="30">mdi-magnify</v-icon>
-        </v-btn>
+        <MobileFloatMenu>
+          <template #buttons>
+            <v-btn
+              class="text-white"
+              variant="text"
+              @click="
+                editCollection = !editCollection;
+                mobileFloatMenu.close();
+              "
+            >
+              <span class="text-xs mr-3">Gestisci Collezione</span>
+              <Icon
+                class="text-xl"
+                icon="fluent:collections-add-24-regular"
+              ></Icon>
+            </v-btn>
+            <v-btn
+              class="text-white"
+              variant="text"
+              @click="
+                openFilter = true;
+                mobileFloatMenu.close();
+              "
+            >
+              <span class="text-xs mr-3">Filtra</span>
+              <Icon
+                class="text-2xl"
+                icon="material-symbols:search-rounded"
+              ></Icon>
+            </v-btn>
+          </template>
+        </MobileFloatMenu>
       </template>
     </Toolbar>
 
@@ -130,41 +151,5 @@ onMounted(() => {
       @update:filtered="handleFilteredUpdate"
       @close="openFilter = false"
     />
-
-    <MobileFloatMenu :menu-open="mobileFloatMenu.open">
-      <template #buttons>
-        <v-btn
-          class="text-white"
-          variant="text"
-          to="/collection"
-          @click="mobileFloatMenu.close()"
-        >
-          <span class="text-xs mr-3">Vai a Collezione</span>
-          <Icon class="text-xl" icon="tdesign:collection-filled"></Icon>
-        </v-btn>
-        <v-btn
-          class="text-white"
-          variant="text"
-          @click="
-            editCollection = !editCollection;
-            mobileFloatMenu.close();
-          "
-        >
-          <span class="text-xs mr-3">Gestisci Collezione</span>
-          <Icon class="text-xl" icon="fluent:collections-add-24-regular"></Icon>
-        </v-btn>
-        <v-btn
-          class="text-white"
-          variant="text"
-          @click="
-            openFilter = true;
-            mobileFloatMenu.close();
-          "
-        >
-          <span class="text-xs mr-3">Filtra</span>
-          <Icon class="text-2xl" icon="material-symbols:search-rounded"></Icon>
-        </v-btn>
-      </template>
-    </MobileFloatMenu>
   </section>
 </template>

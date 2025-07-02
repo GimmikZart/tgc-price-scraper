@@ -135,17 +135,41 @@ onMounted(async () => {
   <section class="relative h-full">
     <Toolbar label="La tua collezione">
       <template #actions>
-        <span class="font-bold text-lg">
-          {{ filteredCards.length }} carte
-        </span>
-        <v-btn
-          v-if="isDesktop"
-          class="text-white"
-          variant="text"
-          @click="openFilter = true"
-        >
-          <v-icon size="30">mdi-magnify</v-icon>
-        </v-btn>
+        <MobileFloatMenu>
+          <template #buttons>
+            <v-btn
+              class="text-white"
+              variant="text"
+              @click="
+                editCollection = !editCollection;
+                mobileFloatMenu.close();
+              "
+            >
+              <span v-if="!editCollection" class="text-xs mr-3"
+                >Gestisci Collezione</span
+              >
+              <span v-else class="text-xs mr-3">Termina Gestione</span>
+              <Icon
+                class="text-xl"
+                icon="fluent:collections-add-24-regular"
+              ></Icon>
+            </v-btn>
+            <v-btn
+              class="text-white"
+              variant="text"
+              @click="
+                openFilter = true;
+                mobileFloatMenu.close();
+              "
+            >
+              <span class="text-xs mr-3">Filtra</span>
+              <Icon
+                class="text-2xl"
+                icon="material-symbols:search-rounded"
+              ></Icon>
+            </v-btn>
+          </template>
+        </MobileFloatMenu>
       </template>
     </Toolbar>
 
@@ -203,35 +227,5 @@ onMounted(async () => {
       @update:filtered="handleFilteredUpdate"
       @close="openFilter = false"
     />
-
-    <MobileFloatMenu>
-      <template #buttons>
-        <v-btn
-          class="text-white"
-          variant="text"
-          @click="
-            editCollection = !editCollection;
-            mobileFloatMenu.close();
-          "
-        >
-          <span v-if="!editCollection" class="text-xs mr-3"
-            >Gestisci Collezione</span
-          >
-          <span v-else class="text-xs mr-3">Termina Gestione</span>
-          <Icon class="text-xl" icon="fluent:collections-add-24-regular"></Icon>
-        </v-btn>
-        <v-btn
-          class="text-white"
-          variant="text"
-          @click="
-            openFilter = true;
-            mobileFloatMenu.close();
-          "
-        >
-          <span class="text-xs mr-3">Filtra</span>
-          <Icon class="text-2xl" icon="material-symbols:search-rounded"></Icon>
-        </v-btn>
-      </template>
-    </MobileFloatMenu>
   </section>
 </template>

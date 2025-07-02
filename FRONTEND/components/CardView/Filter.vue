@@ -288,7 +288,7 @@ onMounted(() => {
         >
           Reset
         </v-btn>
-        <v-btn class="flex-1" @click="closeOverlay"> Chiudi </v-btn>
+        <v-btn class="flex-1" @click="closeOverlay"> Ok </v-btn>
       </div>
     </div>
   </Transition>

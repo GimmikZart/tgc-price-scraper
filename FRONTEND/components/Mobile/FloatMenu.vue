@@ -10,29 +10,38 @@ const mobileFloatMenu = useMobileFloatMenu();
 <template>
   <div
     v-if="isMobile"
-    class="min-w-[50px] z-[50] min-h-[50px] rounded-lg border-[1px] border-white/20 bg-black flex flex-col-reverse gap-3 fixed bottom-[100px] right-2 py-3 items-end justify-around z-2 lg:hidden"
+    class="flex flex-col-reverse gap-3 p-2 items-end justify-around z-2 lg:hidden"
   >
-    <div class="w-full flex justify-center" v-if="!mobileFloatMenu.isOpen">
+    <div
+      class="w-full border-[1px] border-white p-1 rounded-lg flex justify-center"
+    >
       <Icon
-        class="text-yellow text-xl"
+        v-if="!mobileFloatMenu.isOpen"
+        class="text-xl"
         @click="mobileFloatMenu.open()"
-        icon="heroicons:bolt-16-solid"
+        icon="line-md:close-to-menu-transition"
+      />
+      <Icon
+        v-else
+        class="text-xl"
+        @click="mobileFloatMenu.close()"
+        icon="line-md:menu-to-close-transition"
       />
     </div>
-    <v-btn variant="text" @click="mobileFloatMenu.close()" v-else>
-      <span class="mr-3 text-xs">Chiudi</span>
-      <Icon
-        class="text-yellow text-xl"
-        @click="mobileFloatMenu.close()"
-        icon="heroicons:bolt-slash-16-solid"
-      />
-    </v-btn>
 
     <div
       v-if="mobileFloatMenu.isOpen"
-      class="flex flex-col items-end gap-5 py-3 rounded-lg"
+      class="fixed h-fit z-[50] top-[50px] right-0 flex flex-col items-end gap-5 py-3 rounded-lg"
     >
-      <slot name="buttons" />
+      <div
+        class="w-screen h-screen z-[10] bg-black/30 backdrop-blur-[2px]"
+        @click="mobileFloatMenu.close()"
+      />
+      <div
+        class="fixed border-[1px] border-white/50 bg-black rounded-lg top-[60px] right-0 z-[50] flex flex-col items-end gap-5 py-5"
+      >
+        <slot name="buttons" />
+      </div>
     </div>
   </div>
 </template>

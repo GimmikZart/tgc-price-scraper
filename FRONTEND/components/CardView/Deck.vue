@@ -5,25 +5,14 @@ const props = defineProps({
     required: false,
     default: "info",
   },
+  singleCardsInDeck: {
+    type: Array,
+    required: true,
+  },
 });
 
-const cardsInDeck = inject("cardsInDeck");
 const addCardInDeck = inject("addCardInDeck");
 const removeCardFromDeck = inject("removeCardFromDeck");
-
-const singleCardsInDeck = computed(() => {
-  const uniqueCards = new Map();
-  cardsInDeck.value.forEach((card) => {
-    if (uniqueCards.has(card.id)) {
-      uniqueCards.get(card.id).count++;
-    } else {
-      uniqueCards.set(card.id, { ...card, count: 1 });
-    }
-  });
-  return Array.from(uniqueCards.values()).sort((a, b) => {
-    return a.cost - b.cost || a.name.localeCompare(b.name);
-  });
-});
 
 function handleCardCopy(card) {
   if (props.actionOnDeck === "add") {
@@ -34,7 +23,7 @@ function handleCardCopy(card) {
 }
 </script>
 <template>
-  <div class="h-full bg-black p-2 gap-8">
+  <div class="h-auto bg-black p-2 gap-8">
     <div class="w-full pb-32 grid grid-cols-4 gap-6 px-6">
       <div
         v-for="(card, idx) in singleCardsInDeck"

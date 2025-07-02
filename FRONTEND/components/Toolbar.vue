@@ -43,7 +43,7 @@ function goBack() {
       </div>
     </div>
     <TimedSnackbarList v-if="!route.meta.hideFloatSnackbar" />
-    <div class="px-4 py-2">
+    <div>
       <slot name="info" />
     </div>
   </div>

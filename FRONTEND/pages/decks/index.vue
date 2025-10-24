@@ -9,7 +9,7 @@ const cloudDecks = ref([]);
 const localDecks = ref([]);
 
 function goToDeck(deck) {
-  router.push(`/decks/${deck.slug}`);
+  router.push(`/decks/edit/${deck.slug}`);
 }
 
 definePageMeta({

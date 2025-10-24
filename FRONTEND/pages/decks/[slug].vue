@@ -3,9 +3,11 @@ import { Icon } from "@iconify/vue";
 import { updateDeckVisibility } from "~/api/decks";
 import { getVisibilityLabel } from "~/enums/visibility";
 import { copyDeckOnClipboard } from "@/utilities/copyDeckOnClipboard";
+import { usePageLoader } from "@/stores/usePageLoader";
 
 const snackbar = useSnackbar();
 const route = useRoute();
+const pageLoader = usePageLoader();
 
 const currentDeck = ref({
   name: "",
@@ -79,7 +81,13 @@ function exportDeck() {
 }
 
 onMounted(async () => {
+  pageLoader.startLoading();
   await getDeckFromSlug(route.params.slug);
+  pageLoader.stopLoading();
+  if(leaderChoosen.value === null) {
+    snackbar.addMessage("Mazzo non trovato", "error");
+    router.push(`/decks/edit/${currentDeck.value.slug}`);
+  }
 });
 
 definePageMeta({
@@ -167,4 +175,7 @@ provide("item", currentDeck);
     </template>
   </Toolbar>
   <CardViewDeck :single-cards-in-deck="singleCardsInDeck" />
+  <div class=" h-full w-full bg-red">
+    ooooooooooooooooooooo
+  </div>
 </template>

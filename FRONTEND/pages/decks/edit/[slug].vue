@@ -3,8 +3,11 @@ import { Icon } from "@iconify/vue";
 import { useDeckStore } from "@/stores/useDeckStore";
 import { copyDeckOnClipboard } from "@/utilities/copyDeckOnClipboard";
 import { saveDeckOnCloud } from "@/api/decks";
+import { usePageLoader } from "@/stores/usePageLoader";
 
 const snackbar = useSnackbar();
+const pageLoader = usePageLoader();
+
 const { allCards } = await useOnePieceCards();
 const mobileFloatMenu = useMobileFloatMenu();
 const route = useRoute();
@@ -149,7 +152,9 @@ function exportDeck() {
 }
 
 onMounted(async () => {
+  pageLoader.startLoading();
   await getDeckFromSlug(route.params.slug);
+  pageLoader.stopLoading();
 });
 
 definePageMeta({

@@ -101,9 +101,9 @@ function openCard() {
     <Teleport to="body">
       <div
         v-if="cardIsOpen"
-        class="fixed inset-0 bg-black/80 flex flex-col items-center justify-center pb-[90px] pt-[50px] gap-5 z-50 px-10 cursor-zoom-out"
+        class="fixed inset-0 bg-black/80 flex flex-col overflow-auto items-center justify-center pb-[90px] pt-[50px] gap-3 h-dvh z-50 px-10 cursor-zoom-out"
       >
-        <div class="text-center">
+        <div id="blocco_1" class="text-center flex-shrink-0">
           <h3
             class="text-white/80 bg-black/50 p-1 rounded-lg font-light text-sm text-center"
           >
@@ -113,22 +113,26 @@ function openCard() {
           <h4 class="text-white">{{ card.code }}</h4>
         </div>
 
-        <div class="w-full h-auto">
+        <div id="blocco_2" class="relative w-full rounded-xl">
+          <Icon 
+            icon="carbon:close-filled" 
+            size=""
+            class="absolute -pa-2 -right-8 -top-8 text-black bg-white rounded-full text-5xl z-20"
+            @click="cardIsOpen = false" 
+          />
           <NuxtImg
             :src="card.image"
             format="webp"
             loading="lazy"
-            class="w-full z-[50]"
+            class="w-full relative z-10"
             fit="contain"
             :alt="card.name"
           >
           </NuxtImg>
         </div>
-        <slot name="open-bottom" />
-        <v-btn variant="outlined" color="white" @click="cardIsOpen = false">
-          Chiudi
-          <Icon icon="carbon:close-filled" class="ml-3 text-xl"></Icon>
-        </v-btn>
+        <div id="blocco_3" class="flex-shrink-0 flex flex-col items-center gap-3">
+          <slot name="open-bottom" />
+        </div>
       </div>
     </Teleport>
   </div>

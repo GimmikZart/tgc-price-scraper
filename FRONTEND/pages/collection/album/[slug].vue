@@ -108,7 +108,7 @@ function goToSelectCard(idx) {
         class="w-full relative flex items-end pa-1 bg-black aspect-[5/7] border-[1px] border-white/20"
       >
         <template v-if="slot.card">
-          <Card :key="ix" :card="slot.card" class="w-full h-auto z-[1]" />
+          <Card :key="slot.id" :card="slot.card" class="w-full h-auto z-[1]" />
           <div
             v-if="removeCardMode"
             class="absolute inset-0 bg-black/80 flex items-center justify-center z-[2]"

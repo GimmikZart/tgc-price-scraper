@@ -196,8 +196,8 @@ onMounted(async () => {
 
     <div class="grid px-2 pt-2" :class="gridSystem">
       <Card
-        v-for="(card, ix) in paginatedCards"
-        :key="ix"
+        v-for="card in paginatedCards"
+        :key="card.id"
         :card="card"
         :handle-cards="editCollection"
         @addCard="addCardInCollection(card)"

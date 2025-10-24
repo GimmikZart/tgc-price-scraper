@@ -51,6 +51,7 @@ function openCard() {
     <NuxtImg
       v-if="card.image"
       :src="card.image"
+      format="webp"
       loading="lazy"
       width="100%"
       height="auto"
@@ -115,6 +116,7 @@ function openCard() {
         <div class="w-full h-auto">
           <NuxtImg
             :src="card.image"
+            format="webp"
             loading="lazy"
             class="w-full z-[50]"
             fit="contain"

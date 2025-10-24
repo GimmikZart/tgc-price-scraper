@@ -300,8 +300,8 @@ provide("item", currentDeck);
       </h4>
       <div class="grid grid-cols-2 gap-3 px-2 pt-2 pb-12 transition-all">
         <Card
-          v-for="(card, ix) in paginatedCards"
-          :key="ix"
+          v-for="card in paginatedCards"
+          :key="card.id"
           :card="card"
           :choose-card="!leaderChoosen"
           :handle-cards="leaderChoosen != null"

@@ -127,11 +127,10 @@ onMounted(() => {
     >
       La ricerca non ha prodotto risultati
     </h4>
-
     <div class="grid px-2 pt-2 transition-all" :class="gridSystem">
       <Card
-        v-for="(card, ix) in paginatedCards"
-        :key="ix"
+        v-for="card in paginatedCards"
+        :key="card.id"
         :card="card"
         :handle-cards="editCollection"
         @addCard="addCardInCollection(card)"

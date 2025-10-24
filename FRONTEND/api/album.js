@@ -9,7 +9,8 @@ export async function createAlbum(albumName, slots) {
   const { data: albums } = await client
     .from("albums")
     .select("slug")
-    .eq("slug", slug);
+    .eq("slug", slug)
+    .eq("user_uuid", userAuth?.userLogged?.id);
 
   if (albums.length > 0) {
     throw new Error("Album con questo nome già esistente", "error");
@@ -35,6 +36,10 @@ export async function createAlbum(albumName, slots) {
 export async function getAlbums() {
   const client = useSupabaseClient();
   const userAuth = useUserAuth();
+
+  console.log('OOOOOOOOOOO', userAuth?.userLogged?.id);
+
+
   const { data: albums, error } = await client
     .from("albums")
     .select("*")

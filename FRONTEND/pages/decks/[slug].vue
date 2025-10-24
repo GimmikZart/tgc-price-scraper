@@ -175,7 +175,4 @@ provide("item", currentDeck);
     </template>
   </Toolbar>
   <CardViewDeck :single-cards-in-deck="singleCardsInDeck" />
-  <div class=" h-full w-full bg-red">
-    ooooooooooooooooooooo
-  </div>
 </template>

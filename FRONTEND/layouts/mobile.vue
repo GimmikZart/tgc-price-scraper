@@ -3,7 +3,7 @@
     <v-main class="bg-black" style="padding-bottom: 50px">
       <slot />
     </v-main>
-    <MobileNavbar />
+    <NavbarMobile />
   </v-app>
 </template>
 

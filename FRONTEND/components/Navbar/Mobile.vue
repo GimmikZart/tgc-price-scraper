@@ -1,42 +1,9 @@
 <script setup>
-import { useSnackbar } from "@/stores/useSnackbar";
-import { updateProductsBatch } from "@/api/products";
 import { useUserAuth } from "@/stores/useUserAuth";
-import { fetchCardsFromApi } from "@/api/cardsFromApi";
 import { Icon } from "@iconify/vue";
 
-const snackbar = useSnackbar();
-const isLoading = ref(false);
 const userAuth = useUserAuth();
-const mobileFloatMenu = useMobileFloatMenu();
 
-async function updateAllProducts() {
-  isLoading.value = true;
-  try {
-    await updateProductsBatch();
-    snackbar.addMessage("Aggiornamento completato", "success");
-  } catch (error) {
-    snackbar.addMessage(`Errore durante l'aggiornamento`, "error", error);
-  } finally {
-    isLoading.value = false;
-  }
-}
-
-async function fetchCards() {
-  isLoading.value = true;
-  try {
-    await fetchCardsFromApi();
-    snackbar.addMessage("Carte aggiornate con successo", "success");
-  } catch (error) {
-    snackbar.addMessage(
-      `Errore durante l'aggiornamento delle carte`,
-      "error",
-      error
-    );
-  } finally {
-    isLoading.value = false;
-  }
-}
 </script>
 <template>
   <nav
@@ -48,15 +15,15 @@ async function fetchCards() {
       active-class="text-white font-bold"
       class="text-white/60 p-2 cursor-pointer rounded-lg relative"
     >
-      <Icon icon="mdi:admin-panel-settings" />
+      <Icon class="text-3xl" icon="material-symbols:admin-panel-settings-outline-rounded" />
     </NuxtLink>
-    <NuxtLink
+    <!-- <NuxtLink
       to="/"
       active-class="text-white font-bold"
-      class="text-white/60 p-2 cursor-pointer rounded-lg"
+      class="text-white/60 p-2 cursor-pointer rounded-lg relative"
     >
-      <v-icon size="30" icon="mdi-shopping"></v-icon>
-    </NuxtLink>
+      <Icon class="text-3xl" icon="mdi-shopping"></Icon>
+    </NuxtLink> -->
     <NuxtLink
       to="/cards"
       active-class="text-white font-bold"

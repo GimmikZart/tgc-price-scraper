@@ -33,6 +33,8 @@ const actionOnDeck = ref("info");
 const leaderChoosen = ref(null);
 const existingDeckInStore = ref(null);
 
+const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer(paginatedCards);
+
 const leaderCards = computed(() => {
   return allCards.filter((card) => card.type === "LEADER");
 });
@@ -247,7 +249,7 @@ provide("item", currentDeck);
           <div
             class="text-lg bg-black p-2 rounded-lg flex text-center font-bold z-0"
           >
-            <Card :card="leaderChoosen" class="w-[50px] flex-none" />
+            <Card :card="leaderChoosen" @open="openViewer(leaderChoosen)" class="w-[50px] flex-none" />
             <div class="w-full h-cover flex items-center justify-between">
               <div class="w-4/5 flex flex-col justify-between px-3 truncate">
                 <p class="text-left text-xs">COMPONI MAZZO</p>
@@ -314,6 +316,7 @@ provide("item", currentDeck);
           @addCard="addCardInDeck(card)"
           @removeCard="removeCardFromDeck(card)"
           :card-count="getCopyInDeck(card)"
+          @open="openViewer(card)"
         >
         </Card>
       </div>
@@ -334,6 +337,14 @@ provide("item", currentDeck);
       :multicolor="false"
       :hide-color-filter="leaderChoosen != null"
       :hide-type-filter="leaderChoosen == null"
+    />
+
+    <!-- Viewer full-screen centralizzato -->
+    <FullscreenCardViewer
+      v-model:show="viewerOpen"
+      v-model:index="viewerIndex"
+      :cards="paginatedCards"
+      @close="viewerOpen = false"
     />
   </section>
 </template>

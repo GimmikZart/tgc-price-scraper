@@ -5,7 +5,7 @@ const isPageLoading = computed(() => pageLoader.isLoading);
 </script>
 <template>
   <v-app>
-    <v-main class="bg-black" style="padding-bottom: 50px">
+    <v-main class="bg-black" style="padding-bottom: 70px">
       <LoadingSpinner v-if="isPageLoading"/>
       <slot />
     </v-main>

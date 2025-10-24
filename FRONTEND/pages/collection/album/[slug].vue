@@ -10,12 +10,20 @@ const removeCardMode = ref(false);
 const paginatedCards = ref([]);
 const { allCards } = await useOnePieceCards();
 
+const paginatedCardFormatted = computed(() => {
+  return paginatedCards.value.map((slot) => slot.card).filter((c) => c !== null);
+});
+
+const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer(paginatedCardFormatted);
+
 const {
   data: album,
   error,
   refresh: refreshAlbum,
   pending,
 } = await useAsyncData(`album-${slug}`, () => getAlbum(slug));
+
+
 
 const albumSlotsWithCards = computed(() => {
   const totalSlots = album.value?.slots ?? 0;
@@ -108,7 +116,7 @@ function goToSelectCard(idx) {
         class="w-full relative flex items-end pa-1 bg-black aspect-[5/7] border-[1px] border-white/20"
       >
         <template v-if="slot.card">
-          <Card :key="slot.id" :card="slot.card" class="w-full h-auto z-[1]" />
+          <Card :key="slot.id" :card="slot.card" @open="openViewer(slot.card)" class="w-full h-auto z-[1]" />
           <div
             v-if="removeCardMode"
             class="absolute inset-0 bg-black/80 flex items-center justify-center z-[2]"
@@ -151,6 +159,13 @@ function goToSelectCard(idx) {
       :items="albumSlotsWithCards"
       :itemsPerPage="16"
       @update:paginated="handlePaginatedUpdate"
+    />
+    <!-- Viewer full-screen centralizzato -->
+    <FullscreenCardViewer
+      v-model:show="viewerOpen"
+      v-model:index="viewerIndex"
+      :cards="paginatedCardFormatted"
+      @close="viewerOpen = false"
     />
   </section>
 </template>

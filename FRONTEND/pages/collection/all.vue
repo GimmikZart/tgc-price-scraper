@@ -18,14 +18,25 @@ const router = useRouter();
 const { isMobile, isTablet, isDesktop } = useMyBreakpoints();
 const mobileFloatMenu = useMobileFloatMenu();
 
-const handleAlbum = ref(false); // id dell’album selezionato
-const selectedAlbum = ref(null); // dati completi dell'album
+const handleAlbum = ref(false);
+const selectedAlbum = ref(null);
 
 const filteredCards = ref([]);
 const paginatedCards = ref([]);
 const openFilter = ref(false);
 const editCollection = ref(false);
 const userAuth = useUserAuth();
+
+const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer(paginatedCards);
+
+const gridSystem = computed(() => {
+  var classes = "";
+  if(isMobile.value) classes += "grid-cols-2 px-2 pb-10 gap-2 ";
+  if(isTablet.value) classes += "grid-cols-4 ";
+  if(isDesktop.value) classes += "grid-cols-8 px-4 pb-20 ";
+  if(handleAlbum.value) classes += "pt-6";
+  return classes;
+});
 
 const { data: userCollection } = await useAsyncData(
   `user-collection-${userAuth.userLogged.id}`,
@@ -59,10 +70,6 @@ async function loadCollectionCardCounts() {
   );
 }
 
-watch(editCollection, async () => {
-  if (editCollection.value) await loadCollectionCardCounts();
-});
-
 function handleFilteredUpdate(newFiltered) {
   filteredCards.value = newFiltered;
 }
@@ -71,31 +78,7 @@ function handlePaginatedUpdate(newPaginated) {
   paginatedCards.value = newPaginated;
 }
 
-const gridSystem = computed(() => {
-  var classes = "";
-  if(isMobile.value) classes += "grid-cols-2 px-2 pb-10 gap-2 ";
-  if(isTablet.value) classes += "grid-cols-4 ";
-  if(isDesktop.value) classes += "grid-cols-8 px-4 pb-20 ";
-  if(handleAlbum.value) classes += "pt-6";
-  return classes;
-});
-
-watch(openFilter, (newValue) => {
-  if (newValue) {
-    document.documentElement.classList.add("overflow-hidden");
-  } else {
-    document.documentElement.classList.remove("overflow-hidden");
-  }
-});
-
-watch(selectedAlbum, async (newAlbum) => {
-  if (!newAlbum) {
-    router.push({ query: {} }); // pulisci query
-    return;
-  }
-});
-
-const handleInsertAlbum = async (card) => {
+async function handleInsertAlbum(card){
   if (handleAlbum.value) {
     if (!selectedAlbum.value) {
       snackbar.addMessage(
@@ -117,6 +100,31 @@ const handleInsertAlbum = async (card) => {
 
   if (response) router.push(`/collection/album/${selectedAlbum.value.slug}`);
 };
+
+watch(openFilter, (newValue) => {
+  if (newValue) {
+    document.documentElement.classList.add("overflow-hidden");
+  } else {
+    document.documentElement.classList.remove("overflow-hidden");
+  }
+});
+
+watch(selectedAlbum, async (newAlbum) => {
+  if (!newAlbum) {
+    router.push({ query: {} }); // pulisci query
+    return;
+  }
+});
+
+watch(paginatedCards, async () => {
+  await loadCollectionCardCounts();
+}, { immediate: true });
+
+/* opzionale: se cambi pagina o filtri, assicurati che l'indice resti valido */
+watch(paginatedCards, (list) => {
+  if (!list?.length) viewerOpen.value = false;
+  else if (viewerIndex.value >= list.length) viewerIndex.value = list.length - 1;
+});
 
 onMounted(async () => {
   filteredCards.value = userCollection.value;
@@ -204,17 +212,10 @@ onMounted(async () => {
         @addCard="addCardInCollection(card)"
         @removeCard="removeCardInCollection(card)"
         :card-count="card.count"
-        :disable-opening="handleAlbum"
+        :disable-opening="handleAlbum"  
+        @open="openViewer(card)"
         @click="handleAlbum ? handleInsertAlbum(card) : null"
-      >
-        <template #open-bottom>
-          <div
-            class="flex text-white font-bold text-3xl items-center justify-center"
-          >
-            x{{ card.count }}
-          </div>
-        </template>
-      </Card>
+      />
     </div>
     <CardViewPagination
       :items="filteredCards"
@@ -227,6 +228,14 @@ onMounted(async () => {
       :cards-list="userCollection"
       @update:filtered="handleFilteredUpdate"
       @close="openFilter = false"
+    />
+
+    <!-- Viewer full-screen centralizzato -->
+    <FullscreenCardViewer
+      v-model:show="viewerOpen"
+      v-model:index="viewerIndex"
+      :cards="paginatedCards"
+      @close="viewerOpen = false"
     />
   </section>
 </template>

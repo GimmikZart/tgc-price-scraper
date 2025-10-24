@@ -14,6 +14,8 @@ const props = defineProps({
 const addCardInDeck = inject("addCardInDeck");
 const removeCardFromDeck = inject("removeCardFromDeck");
 
+const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer(props.singleCardsInDeck);
+
 function handleCardCopy(card) {
   if (props.actionOnDeck === "add") {
     addCardInDeck(card);
@@ -43,13 +45,17 @@ function handleCardCopy(card) {
             ydx * 5
           }px) `"
           @click="handleCardCopy(card)"
+          @open="openViewer(card)"
           :disable-opening="actionOnDeck !== 'info'"
-        >
-          <template #open-bottom>
-            <div class="text-3xl font-bold text-white">x {{ card.count }}</div>
-          </template>
-        </Card>
+        />
       </div>
     </div>
+
+    <FullscreenCardViewer
+      v-model:show="viewerOpen"
+      v-model:index="viewerIndex"
+      :cards="singleCardsInDeck"
+      @close="viewerOpen = false"
+    />
   </div>
 </template>

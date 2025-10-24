@@ -21,6 +21,9 @@ const paginatedCards = ref([]);
 const openFilter = ref(false);
 const editCollection = ref(false);
 
+const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer(paginatedCards);
+
+
 function handleFilteredUpdate(newFiltered) {
   filteredCards.value = newFiltered;
 }
@@ -138,6 +141,7 @@ onMounted(() => {
         :handle-cards="editCollection"
         @addCard="addCardInCollection(card)"
         @removeCard="removeCardInCollection(card)"
+        @open="openViewer(card)"
         :card-count="card.count"
       />
     </div>
@@ -152,6 +156,14 @@ onMounted(() => {
       :cards-list="allCards"
       @update:filtered="handleFilteredUpdate"
       @close="openFilter = false"
+    />
+
+    <!-- Viewer full-screen centralizzato -->
+    <FullscreenCardViewer
+      v-model:show="viewerOpen"
+      v-model:index="viewerIndex"
+      :cards="paginatedCards"
+      @close="viewerOpen = false"
     />
   </section>
 </template>

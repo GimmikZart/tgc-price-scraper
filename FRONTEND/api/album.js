@@ -22,7 +22,6 @@ export async function createAlbum(albumName, slots) {
     slots: slots,
     slug: slug,
   };
-  console.log("Creating album with data:", data);
 
   const { error } = await client.from("albums").insert(data);
 
@@ -37,14 +36,10 @@ export async function getAlbums() {
   const client = useSupabaseClient();
   const userAuth = useUserAuth();
 
-  console.log('OOOOOOOOOOO', userAuth?.userLogged?.id);
-
-
   const { data: albums, error } = await client
     .from("albums")
     .select("*")
     .eq("user_uuid", userAuth?.userLogged?.id);
-  console.log({ albums });
 
   if (error) {
     throw new Error(error.message);
@@ -84,7 +79,6 @@ export async function getAlbum(slug) {
 }
 
 export async function insertCardToAlbum(album, cardId, index) {
-  console.log("insertCardToAlbum", { album, cardId, index });
 
   const client = useSupabaseClient();
   const userAuth = useUserAuth();

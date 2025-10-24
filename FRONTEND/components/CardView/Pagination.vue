@@ -1,5 +1,5 @@
 <script setup>
-import { ref, computed, watch } from "vue";
+import { ref, computed, watch, onMounted, nextTick } from "vue";
 const props = defineProps({
   items: {
     type: Array,
@@ -24,8 +24,7 @@ watch(
     if (currentPage.value > totalPages.value) {
       currentPage.value = 1;
     }
-  },
-  { immediate: true }
+  }
 );
 
 const paginated = computed(() => {
@@ -37,9 +36,13 @@ watch(
   paginated,
   (newVal) => {
     emit("update:paginated", newVal);
-  },
-  { immediate: true }
+  }
 );
+
+onMounted(async () => {
+  await nextTick();
+  emit("update:paginated", paginated.value);
+});
 </script>
 
 <template>

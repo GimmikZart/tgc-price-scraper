@@ -1,5 +1,5 @@
 <script setup>
-import { ref, computed, watch } from "vue";
+import { ref, computed, watch, onMounted, nextTick } from "vue";
 const emit = defineEmits(["update:filtered", "close"]);
 
 const props = defineProps({
@@ -117,13 +117,14 @@ watch(
   (newVal) => {
     emit("update:filtered", newVal);
   },
-  { immediate: true }
 );
 
 function closeOverlay() {
   emit("close");
 }
-onMounted(() => {
+onMounted(async () => {
+  await nextTick();
+  emit("update:filtered", filtered.value);
   resetFilters();
 });
 </script>

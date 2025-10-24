@@ -72,11 +72,12 @@ function handlePaginatedUpdate(newPaginated) {
 }
 
 const gridSystem = computed(() => {
-  return {
-    "grid-cols-2 px-2 pb-10 gap-2": isMobile.value,
-    "grid-cols-4": isTablet.value,
-    "grid-cols-8 px-4 pb-20": isDesktop.value,
-  };
+  var classes = "";
+  if(isMobile.value) classes += "grid-cols-2 px-2 pb-10 gap-2 ";
+  if(isTablet.value) classes += "grid-cols-4 ";
+  if(isDesktop.value) classes += "grid-cols-8 px-4 pb-20 ";
+  if(handleAlbum.value) classes += "pt-6";
+  return classes;
 });
 
 watch(openFilter, (newValue) => {

@@ -59,6 +59,9 @@ async function loadCollectionCardCounts() {
 watch(editCollection, async () => {
   if (editCollection.value) await loadCollectionCardCounts();
 });
+watch(paginatedCards, async () => {
+  if (editCollection.value) await loadCollectionCardCounts();
+});
 
 const gridSystem = computed(() => {
   return {

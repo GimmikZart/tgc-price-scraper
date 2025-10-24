@@ -205,7 +205,7 @@ onMounted(async () => {
         @removeCard="removeCardInCollection(card)"
         :card-count="card.count"
         :disable-opening="handleAlbum"
-        @click="handleInsertAlbum(card)"
+        @click="handleAlbum ? handleInsertAlbum(card) : null"
       >
         <template #open-bottom>
           <div

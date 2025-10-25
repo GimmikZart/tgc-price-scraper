@@ -17,19 +17,15 @@ const { isMobile, isTablet, isDesktop } = useMyBreakpoints();
 const mobileFloatMenu = useMobileFloatMenu();
 
 const filteredCards = ref([]);
-const paginatedCards = ref([]);
+const visibleCards = ref([]);
 const openFilter = ref(false);
 const editCollection = ref(false);
 
-const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer(paginatedCards);
+const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer(visibleCards);
 
 
 function handleFilteredUpdate(newFiltered) {
   filteredCards.value = newFiltered;
-}
-
-function handlePaginatedUpdate(newPaginated) {
-  paginatedCards.value = newPaginated;
 }
 
 async function addCardInCollection(card) {
@@ -47,7 +43,7 @@ async function loadCollectionCardCounts() {
   const userId = userAuth.userLogged.id;
 
   await Promise.all(
-    paginatedCards.value.map(async (card) => {
+    visibleCards.value.map(async (card) => {
       try {
         const c = await fetchCardCountInCollection(userId, card.id);
         card.count = c;
@@ -62,15 +58,15 @@ async function loadCollectionCardCounts() {
 watch(editCollection, async () => {
   if (editCollection.value) await loadCollectionCardCounts();
 });
-watch(paginatedCards, async () => {
+watch(visibleCards, async () => {
   if (editCollection.value) await loadCollectionCardCounts();
 });
 
 const gridSystem = computed(() => {
   return {
-    "grid-cols-2 px-2 pb-15 gap-2": isMobile.value,
-    "grid-cols-4": isTablet.value,
-    "grid-cols-8 px-4 pb-20": isDesktop.value,
+    "grid grid-cols-2 px-2 pb-15 gap-2": isMobile.value,
+    "grid grid-cols-4": isTablet.value,
+    "grid grid-cols-8 px-4 pb-20": isDesktop.value,
     "gap-2": editCollection.value,
   };
 });
@@ -128,28 +124,28 @@ onMounted(() => {
     </Toolbar>
 
     <h4
-      v-if="paginatedCards.length == 0"
+      v-if="visibleCards.length == 0"
       class="text-center text-gray-500 my-5"
     >
       La ricerca non ha prodotto risultati
     </h4>
-    <div class="grid px-2 pt-2 transition-all" :class="gridSystem">
-      <Card
-        v-for="card in paginatedCards"
-        :key="card.id"
-        :card="card"
-        :handle-cards="editCollection"
-        @addCard="addCardInCollection(card)"
-        @removeCard="removeCardInCollection(card)"
-        @open="openViewer(card)"
-        :card-count="card.count"
-      />
-    </div>
-    <CardViewPagination
+    <InfiniteGrid
       :items="filteredCards"
-      :itemsPerPage="32"
-      @update:paginated="handlePaginatedUpdate"
-    />
+      :grid-class="gridSystem"
+      @update:visible="visibleCards = $event"
+    >
+      <template #default="{ item }">
+        <Card
+          :key="item.id"
+          :card="item"
+          :handle-cards="editCollection"
+          :card-count="item.count"
+          @addCard="addCardInCollection(item)"
+          @removeCard="removeCardInCollection(item)"
+          @open="openViewer(item)"
+        />
+      </template>
+    </InfiniteGrid>
 
     <CardViewFilter
       v-show="openFilter"
@@ -158,11 +154,10 @@ onMounted(() => {
       @close="openFilter = false"
     />
 
-    <!-- Viewer full-screen centralizzato -->
     <FullscreenCardViewer
       v-model:show="viewerOpen"
       v-model:index="viewerIndex"
-      :cards="paginatedCards"
+      :cards="filteredCards"
       @close="viewerOpen = false"
     />
   </section>

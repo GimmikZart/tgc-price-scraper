@@ -83,42 +83,7 @@ onMounted(() => {
 
 <template>
   <section class="relative h-full">
-    <Toolbar label="Lista Carte">
-      <template #actions>
-        <MobileFloatMenu>
-          <template #buttons>
-            <v-btn
-              class="text-white"
-              variant="text"
-              @click="
-                editCollection = !editCollection;
-                mobileFloatMenu.close();
-              "
-            >
-              <span class="text-xs mr-3">Gestisci Collezione</span>
-              <Icon
-                class="text-xl"
-                icon="fluent:collections-add-24-regular"
-              ></Icon>
-            </v-btn>
-            <v-btn
-              class="text-white"
-              variant="text"
-              @click="
-                openFilter = true;
-                mobileFloatMenu.close();
-              "
-            >
-              <span class="text-xs mr-3">Filtra</span>
-              <Icon
-                class="text-2xl"
-                icon="material-symbols:search-rounded"
-              ></Icon>
-            </v-btn>
-          </template>
-        </MobileFloatMenu>
-      </template>
-    </Toolbar>
+    <Toolbar label="Lista Carte" />
 
     <h4
       v-if="visibleCards.length == 0"
@@ -151,6 +116,37 @@ onMounted(() => {
       @update:filtered="handleFilteredUpdate"
       @close="openFilter = false"
     />
+
+    <MobileFloatMenu :cols="2">
+      <template #buttons>
+        <button
+          class="text-white border border-white p-2 cursor-pointer rounded-lg relative flex flex-col items-center justify-center"
+          @click="
+            editCollection = !editCollection;
+            mobileFloatMenu.close();
+          "
+        >
+        <Icon
+          class="text-2xl"
+          icon="fluent:collections-add-24-regular"
+        ></Icon>
+          <span class="text-xs">Collezione</span>
+        </button>
+        <button
+          class="p-2 border border-white cursor-pointer rounded-lg relative flex flex-col items-center justify-center"
+          @click="
+            openFilter = true;
+            mobileFloatMenu.close();
+          "
+        >
+          <Icon
+            class="text-2xl"
+            icon="material-symbols:search-rounded"
+          ></Icon>
+          <span class="text-xs">Filtra</span>
+        </button>
+      </template>
+    </MobileFloatMenu>
 
     <FullscreenCardViewer
       v-model:show="viewerOpen"

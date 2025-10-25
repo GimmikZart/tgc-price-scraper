@@ -126,8 +126,10 @@ async function saveDeck() {
 }
 
 function exportDeck() {
-  copyDeckOnClipboard(leaderChoosen.value, singleCardsInDeck.value);
-  snackbar.addMessage("Deck copiato negli appunti", "success");
+  if(currentDeck.cards.length != 50){
+    copyDeckOnClipboard(leaderChoosen.value, singleCardsInDeck.value);
+    snackbar.addMessage("Deck copiato negli appunti", "success");
+  }
 }
 
 function openViewerFromItem(item) {
@@ -159,49 +161,6 @@ provide("actionOnDeck", actionOnDeck);
 <template>
   <section class="relative">
     <Toolbar :label="currentDeck.name" class="rounded-b-xl">
-      <template #actions>
-        <MobileFloatMenu>
-          <template #buttons>
-            <DialogsHandleDeleteDeck :slug="route.params.slug" />
-            <v-btn
-              :disabled="currentDeck.cards.length != 50"
-              class="text-white"
-              variant="text"
-              @click="exportDeck"
-            >
-              <span class="text-xs mr-3">Esporta</span>
-              <Icon class="text-2xl" icon="material-symbols:export-notes-outline" />
-            </v-btn>
-            <v-btn class="text-white" variant="text" @click="saveDeck">
-              <span class="text-xs mr-3">Salva</span>
-              <Icon class="text-2xl" icon="material-symbols:save-rounded" />
-            </v-btn>
-            <v-btn
-              v-if="!showDeck && leaderChoosen"
-              class="text-white"
-              variant="text"
-              @click="showDeck = true; mobileFloatMenu.close();"
-            >
-              <span class="text-xs mr-3">Mostra Mazzo</span>
-              <Icon class="text-2xl" icon="mdi:show" />
-            </v-btn>
-            <v-btn
-              v-else-if="showDeck && leaderChoosen"
-              class="text-white"
-              variant="text"
-              @click="showDeck = false; mobileFloatMenu.close();"
-            >
-              <span class="text-xs mr-3">Lista Carte</span>
-              <Icon class="text-2xl" icon="streamline:cards" />
-            </v-btn>
-            <v-btn class="text-white" variant="text" @click="openFilter = true; mobileFloatMenu.close();">
-              <span class="text-xs mr-3">Filtra</span>
-              <Icon class="text-2xl" icon="material-symbols:search-rounded" />
-            </v-btn>
-          </template>
-        </MobileFloatMenu>
-      </template>
-
       <template #info>
         <DecksTopInfo
           :leader-choosen="leaderChoosen"
@@ -257,6 +216,61 @@ provide("actionOnDeck", actionOnDeck);
       :hide-color-filter="leaderChoosen != null"
       :hide-type-filter="leaderChoosen == null"
     />
+
+    <MobileFloatMenu v-if="showDeck && leaderChoosen" :cols="4">
+      <template #buttons>
+        <DialogsHandleDeleteDeck v-if="showDeck && leaderChoosen" :slug="route.params.slug" />
+
+        <button
+          v-if="showDeck && leaderChoosen"
+          class="p-2 border border-white cursor-pointer rounded-lg relative flex flex-col items-center justify-center" 
+          @click="saveDeck">
+          <Icon class="text-2xl text-green" icon="material-symbols:save-rounded" />
+          <span class="text-xs text-green">Salva</span>
+        </button>
+
+        <button
+          v-if="showDeck && leaderChoosen"
+          class="p-2 border border-white cursor-pointer rounded-lg relative flex flex-col items-center justify-center"
+          :disabled="currentDeck.cards.length != 50"
+          @click="exportDeck"
+        >
+          <Icon class="text-2xl" icon="material-symbols:export-notes-outline" />
+          <span class="text-xs">Esporta</span>
+        </button>
+
+        <button
+          class="p-2 border border-white cursor-pointer rounded-lg relative flex flex-col items-center justify-center" 
+          
+          @click="showDeck = false; mobileFloatMenu.close();"
+        >
+          <Icon class="text-2xl" icon="streamline:cards" />
+          <span class="text-xs">Lista</span>
+        </button>
+      </template>
+    </MobileFloatMenu>
+
+    <MobileFloatMenu v-else :cols="2">
+      <template #buttons>
+        <button
+          class="p-2 border border-white cursor-pointer rounded-lg relative flex flex-col items-center justify-center" 
+          v-if="!showDeck && leaderChoosen"
+          @click="showDeck = true; mobileFloatMenu.close();"
+        >
+          <Icon class="text-2xl" icon="mdi:show" />
+          <span class="text-xs">Panoramica</span>
+        </button>
+        
+        <button
+          v-if="!showDeck && leaderChoosen"
+          class="p-2 border border-white cursor-pointer rounded-lg relative flex flex-col items-center justify-center"  
+          @click="openFilter = true; mobileFloatMenu.close();"
+        >
+          <Icon class="text-2xl" icon="material-symbols:search-rounded" />
+          <span class="text-xs">Filtra</span>
+        </button>
+      </template>
+    </MobileFloatMenu>
 
     <!-- Viewer -->
     <FullscreenCardViewer

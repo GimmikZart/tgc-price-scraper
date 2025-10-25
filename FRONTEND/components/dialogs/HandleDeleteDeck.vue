@@ -19,11 +19,13 @@ function deleteDeck() {
 }
 </script>
 <template>
-  <div>
-    <v-btn color="red" variant="text" block @click="dialog = true">
-      <span class="text-xs mr-3">Cancella</span>
+  <div class="flex justify-center">
+    <button
+      class="p-2 border border-white cursor-pointer rounded-lg relative flex flex-col items-center justify-center" 
+      @click="dialog = true">
       <Icon color="red" icon="tabler:trash" class="text-2xl" />
-    </v-btn>
+      <span class="text-xs text-red">Cancella</span>
+    </button>
     <v-dialog
       v-model="dialog"
       width="auto"

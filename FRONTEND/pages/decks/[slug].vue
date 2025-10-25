@@ -100,36 +100,37 @@ provide("item", currentDeck);
 </script>
 <template>
   <Toolbar v-if="leaderChoosen" :label="`Mazzo ${currentDeck.name}`">
-    <template #actions>
-      <MobileFloatMenu :menu-open="mobileFloatMenu.open">
-        <template #buttons>
-          <DialogsHandleDeleteDeck :slug="route.params.slug"/>
-          <v-btn
-            :disabled="currentDeck.cards.length != 50"
-            class="text-white"
-            variant="text"
-            @click="exportDeck"
-          >
-            <span class="text-xs mr-3">Esporta</span>
-            <Icon
-              class="text-2xl"
-              icon="material-symbols:export-notes-outline"
-            ></Icon>
-          </v-btn>
-          <DialogsHandleVisibility
-            v-if="!currentDeck.isLocal"
-            @update-visibility="(newValue) => updateVisibility(newValue)"
-          />
-          <v-btn @click="goToEditDeck()" variant="text">
-            <span class="text-xs mr-3">Modifica</span>
-            <Icon class="text-2xl" icon="iconoir:wrench"></Icon>
-          </v-btn>
-        </template>
-      </MobileFloatMenu>
-    </template>
     <template #info>
       <DecksTopInfo :leader-choosen="leaderChoosen" :current-deck="currentDeck" />
     </template>
   </Toolbar>
   <CardViewDeck :single-cards-in-deck="singleCardsInDeck" />
+  <MobileFloatMenu :cols="4">
+    <template #buttons>
+      <DialogsHandleDeleteDeck :slug="route.params.slug"/>
+      <button
+        class="text-white border border-white p-2 cursor-pointer rounded-lg relative flex flex-col items-center justify-center"
+
+        :disabled="currentDeck.cards.length != 50"
+        variant="text"
+        @click="exportDeck"
+      >
+      <Icon
+        class="text-2xl"
+        icon="material-symbols:export-notes-outline"
+      ></Icon>
+        <span class="text-xs">Esporta</span>
+      </button>
+      <DialogsHandleVisibility
+        v-if="!currentDeck.isLocal"
+        @update-visibility="(newValue) => updateVisibility(newValue)"
+      />
+      <button
+        class="text-white border border-white p-2 cursor-pointer rounded-lg relative flex flex-col items-center justify-center"
+        @click="goToEditDeck()">
+        <Icon class="text-2xl" icon="iconoir:wrench"></Icon>
+        <span class="text-xs">Modifica</span>
+      </button>
+    </template>
+  </MobileFloatMenu>
 </template>

@@ -149,27 +149,7 @@ onMounted(async () => {
   <section class="relative h-full">
     <Toolbar label="La tua collezione">
       <template #actions>
-        <MobileFloatMenu>
-          <template #buttons>
-            <v-btn
-              class="text-white"
-              variant="text"
-              @click="editCollection = !editCollection; mobileFloatMenu.close();"
-            >
-              <span v-if="!editCollection" class="text-xs mr-3">Gestisci Collezione</span>
-              <span v-else class="text-xs mr-3">Termina Gestione</span>
-              <Icon class="text-xl" icon="fluent:collections-add-24-regular" />
-            </v-btn>
-            <v-btn
-              class="text-white"
-              variant="text"
-              @click="openFilter = true; mobileFloatMenu.close();"
-            >
-              <span class="text-xs mr-3">Filtra</span>
-              <Icon class="text-2xl" icon="material-symbols:search-rounded" />
-            </v-btn>
-          </template>
-        </MobileFloatMenu>
+        
       </template>
     </Toolbar>
 
@@ -215,6 +195,28 @@ onMounted(async () => {
       @update:filtered="filteredCards = $event"
       @close="openFilter = false"
     />
+
+    <MobileFloatMenu>
+      <template #buttons>
+        <button
+          class="p-2 border border-white cursor-pointer rounded-lg relative flex flex-col items-center justify-center"
+          variant="text"
+          @click="editCollection = !editCollection; mobileFloatMenu.close();"
+        >
+        <Icon class="text-xl" icon="fluent:collections-add-24-regular" />
+          <span v-if="!editCollection" class="text-xs">Gestisci Collezione</span>
+          <span v-else class="text-xs">Termina Gestione</span>
+        </button>
+        <button
+          class="p-2 border border-white cursor-pointer rounded-lg relative flex flex-col items-center justify-center"
+          variant="text"
+          @click="openFilter = true; mobileFloatMenu.close();"
+        >
+        <Icon class="text-2xl" icon="material-symbols:search-rounded" />
+          <span class="text-xs">Filtra</span>
+        </button>
+      </template>
+    </MobileFloatMenu>
 
     <!-- Viewer full-screen: su TUTTO il risultato filtrato -->
     <FullscreenCardViewer

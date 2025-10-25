@@ -12,7 +12,7 @@ const props = defineProps({
   // Scroll loader
   loadThresholdPx: { type: Number, default: 600 }, // quando mancano < X px al fondo, carica
   // Layout
-  containerClass: { type: [String, Object, Array], default: 'h-[calc(100dvh-140px)] overflow-auto' },
+  containerClass: { type: [String, Object, Array], default: 'h-[calc(100dvh-120px)] overflow-auto' },
   gridClass: { type: [String, Object, Array], default: 'grid grid-cols-2 gap-2 px-2 pt-2' },
 
   // UI

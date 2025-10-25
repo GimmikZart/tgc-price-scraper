@@ -140,7 +140,7 @@ onMounted(async () => {
     leave-to-class="translate-y-full"
   >
     <div
-      class="fixed flex flex-col justify-end bottom-[50px] right-0 inset-0 z-10 lg:ml-[250px]"
+      class="fixed flex flex-col justify-end bottom-[0px] right-0 inset-0 z-[2000] lg:ml-[250px]"
     >
       <!-- Layer scuro di sfondo -->
       <div

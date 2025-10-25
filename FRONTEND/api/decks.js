@@ -98,3 +98,20 @@ export async function updateDeckVisibility(slug, visibility) {
 
   return updatedDeck;
 }
+
+export async function deleteDeckFromCloud(userUuid, slug) {
+  const client = useSupabaseClient();
+
+  const { data: deletedDeck, error } = await client
+    .from("decks")
+    .delete()
+    .eq("user_uuid", userUuid)
+    .eq("slug", slug)
+    .single();
+
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  return deletedDeck;
+}

@@ -3,6 +3,7 @@ import {
   fetchUserDecks,
   fetchUserDeckCards,
   saveDeckOnCloud,
+  deleteDeckFromCloud
 } from "~/api/decks";
 import { toRaw } from "vue";
 
@@ -48,6 +49,7 @@ export function useDeckManager() {
   const getAllCloud = () => fetchUserDecks();
   const getCloud = (slug) => fetchUserDeckCards(userUuid, slug);
   const saveCloud = (deck) => saveDeckOnCloud(deck);
+  const deleteCloud = (slug) => deleteDeckFromCloud(userUuid, slug);
 
   //
   // LOGICA DI PUBBLICAZIONE / EDIT
@@ -63,6 +65,12 @@ export function useDeckManager() {
     return deck;
   };
 
+  const deleteDeck = async (slug) => {
+    // Rimuovo sia localmente che sul cloud
+    await removeLocal(slug);
+    await deleteCloud(slug);
+  }
+
   return {
     getAllLocal,
     getAllCloud,
@@ -73,5 +81,6 @@ export function useDeckManager() {
     publish,
     createDraftFromCloud,
     removeLocal,
+    deleteDeck
   };
 }

@@ -22,7 +22,6 @@ interface DecksDB extends DBSchema {
 }
 
 export default defineNuxtPlugin(async (nuxtApp) => {
-  console.log("[indexeddb] plugin sta partendo");
   const db = await openDB<DecksDB>("deck-builder", 1, {
     upgrade(db) {
       const store = db.createObjectStore("decks", { keyPath: "slug" });

@@ -1,6 +1,5 @@
 <script setup>
 import { Icon } from "@iconify/vue";
-import { useDeckStore } from "@/stores/useDeckStore";
 
 const props = defineProps({
   slug: {
@@ -8,16 +7,15 @@ const props = defineProps({
     required: true,
   },
 });
-const decksStore = useDeckStore();
+const deckManager = useDeckManager();
 const snackbar = useSnackbar();
 const dialog = ref(false);
 const router = useRouter();
 
 function deleteDeck() {
-  decksStore.removeDeck(props.slug);
+  deckManager.deleteDeck(props.slug);
   router.push("/decks");
   snackbar.addMessage("Deck eliminato con successo", "success");
-  mobileFloatMenu.close();
 }
 </script>
 <template>
@@ -41,17 +39,15 @@ function deleteDeck() {
         <v-card-actions class="pa-3">
           <v-spacer />
           <v-btn
-            :disabled="isLoading"
             variant="outlined"
             @click="dialog = false"
           >
             No, mantengo
           </v-btn>
           <v-btn
-            :loading="isLoading"
             color="red"
             variant="outlined"
-            @click="deleteDeck()"
+            @click="deleteDeck"
           >
             Cancella
           </v-btn>

@@ -5,6 +5,7 @@ export const useDeckStore = defineStore(
     const decksList = ref([]);
 
     const addDeck = (name, leader, cards) => {
+      debugger;
       const newDeck = {
         name: name,
         slug: name.toLowerCase().replace(/\s+/g, "-"),
@@ -29,6 +30,7 @@ export const useDeckStore = defineStore(
     }
 
     const removeDeck = (slug) => {
+      debugger;
       const index = decksList.value.findIndex((deck) => deck.slug === slug);
       if (index !== -1) {
         decksList.value.splice(index, 1);

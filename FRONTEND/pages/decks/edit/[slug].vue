@@ -117,8 +117,6 @@ function removeCardFromDeck(cardToRemove) {
 watch(
   currentDeck,
   (current) => {
-    console.log("current deck changed:", current);
-
     saveLocal(current);
   },
   { deep: true }
@@ -130,6 +128,7 @@ async function getDeckFromSlug(slug) {
   const local = await getLocal(slug);
   if (local) {
     currentDeck.value = local;
+    currentDeck.value.isPublished = true;
     chooseLeader(local.leader);
     return;
   }
@@ -138,6 +137,7 @@ async function getDeckFromSlug(slug) {
   const cloudDeck = await getCloud(slug);
   if (cloudDeck) {
     currentDeck.value = cloudDeck;
+    currentDeck.value.isPublished = true;
     chooseLeader(cloudDeck.leader);
   }
 }
@@ -174,8 +174,7 @@ provide("item", currentDeck);
       <template #actions>
         <MobileFloatMenu>
           <template #buttons>
-            <DialogsHandleDelete
-              @delete="deleteDeck"
+            <DialogsHandleDeleteDeck
               :slug="route.params.slug"
             />
             <v-btn

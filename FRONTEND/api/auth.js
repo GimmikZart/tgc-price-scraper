@@ -47,7 +47,7 @@ export async function signInApi(email, password) {
     userAuth.role = profileData.role
     userAuth.email = profileData.email
     
-    router.push("/")
+    router.push("/cards")
     return { error: null }
   } catch (error) {
     return { error: error.message }

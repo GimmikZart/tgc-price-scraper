@@ -127,7 +127,10 @@
     "cost": 3,
     "expansionCode": "OP02",
     "imageId": "OP02-037_p1",
-    "id": "OP02-037_p1_Uta_[ST-11]"
+    "id": "OP02-037_p1_Uta_[ST-11]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Franky",
@@ -175,7 +178,10 @@
     "cost": 4,
     "expansionCode": "OP02",
     "imageId": "OP02-040_p1",
-    "id": "OP02-040_p1_Uta_[ST-11]"
+    "id": "OP02-040_p1_Uta_[ST-11]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -199,7 +205,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-041_p2.png",
     "cost": 7,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-041_p2",

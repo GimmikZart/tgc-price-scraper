@@ -126,7 +126,10 @@
     "cost": 3,
     "expansionCode": "ST02",
     "imageId": "ST02-005",
-    "id": "ST02-005_Worst_Generation_[ST-02]"
+    "id": "ST02-005_Worst_Generation_[ST-02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Koby",
@@ -228,7 +231,10 @@
     "cost": 5,
     "expansionCode": "ST02",
     "imageId": "ST02-009",
-    "id": "ST02-009_Worst_Generation_[ST-02]"
+    "id": "ST02-009_Worst_Generation_[ST-02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Basil Hawkins",

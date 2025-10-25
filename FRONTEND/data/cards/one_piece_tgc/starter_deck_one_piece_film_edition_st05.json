@@ -50,7 +50,10 @@
     "cost": 4,
     "expansionCode": "ST05",
     "imageId": "ST05-002",
-    "id": "ST05-002_Card_SetsONE_PIECE_FILM_edition_[ST_05]"
+    "id": "ST05-002_Card_SetsONE_PIECE_FILM_edition_[ST_05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Ann",
@@ -360,7 +363,10 @@
     "cost": 1,
     "expansionCode": "ST05",
     "imageId": "ST05-014",
-    "id": "ST05-014_Card_SetsONE_PIECE_FILM_edition_[ST_05]"
+    "id": "ST05-014_Card_SetsONE_PIECE_FILM_edition_[ST_05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Dr. Indigo",

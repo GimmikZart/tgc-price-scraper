@@ -20,7 +20,10 @@
     "cost": 1,
     "expansionCode": "OP01",
     "imageId": "OP01-016_p3",
-    "id": "OP01-016_p3_The_Three_Captains_[ST-10]"
+    "id": "OP01-016_p3_The_Three_Captains_[ST-10]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -153,7 +156,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-004.png",
     "cost": 6,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "ST10",
     "imageId": "ST10-004",
@@ -263,7 +267,10 @@
     "cost": 4,
     "expansionCode": "ST10",
     "imageId": "ST10-008",
-    "id": "ST10-008_The_Three_Captains_[ST-10]"
+    "id": "ST10-008_The_Three_Captains_[ST-10]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Jean Bart",
@@ -286,7 +293,10 @@
     "cost": 4,
     "expansionCode": "ST10",
     "imageId": "ST10-009",
-    "id": "ST10-009_The_Three_Captains_[ST-10]"
+    "id": "ST10-009_The_Three_Captains_[ST-10]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -308,7 +318,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-010.png",
     "cost": 4,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "ST10",
     "imageId": "ST10-010",
@@ -362,7 +373,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-012.png",
     "cost": 4,
     "abilityKeywords": [
-      "[When Attacking]"
+      "[When Attacking]",
+      "[On Play]"
     ],
     "expansionCode": "ST10",
     "imageId": "ST10-012",
@@ -388,7 +400,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-013.png",
     "cost": 7,
     "abilityKeywords": [
-      "[When Attacking]"
+      "[When Attacking]",
+      "[On Play]"
     ],
     "expansionCode": "ST10",
     "imageId": "ST10-013",

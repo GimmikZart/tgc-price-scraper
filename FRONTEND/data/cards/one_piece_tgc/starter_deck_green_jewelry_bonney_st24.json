@@ -21,7 +21,10 @@
     "cost": 1,
     "expansionCode": "EB01",
     "imageId": "EB01-015_p3",
-    "id": "EB01-015_p3_GREEN_Jewelry_Bonney_[ST-24]"
+    "id": "EB01-015_p3_GREEN_Jewelry_Bonney_[ST-24]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Jewelry Bonney",
@@ -128,7 +131,10 @@
     "cost": 3,
     "expansionCode": "OP07",
     "imageId": "OP07-025_r1",
-    "id": "OP07-025_r1_GREEN_Jewelry_Bonney_[ST-24]"
+    "id": "OP07-025_r1_GREEN_Jewelry_Bonney_[ST-24]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Bartolomeo",
@@ -285,7 +291,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST24-001.png",
     "cost": 2,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "ST24",
     "imageId": "ST24-001",
@@ -312,7 +319,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST24-002.png",
     "cost": 2,
     "abilityKeywords": [
-      "[On Your Opponent's Attack]"
+      "[On Your Opponent's Attack]",
+      "[On Play]"
     ],
     "expansionCode": "ST24",
     "imageId": "ST24-002",
@@ -368,7 +376,10 @@
     "cost": 10,
     "expansionCode": "ST24",
     "imageId": "ST24-004",
-    "id": "ST24-004_GREEN_Jewelry_Bonney_[ST-24]"
+    "id": "ST24-004_GREEN_Jewelry_Bonney_[ST-24]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "X.Drake",
@@ -393,6 +404,9 @@
     "cost": 5,
     "expansionCode": "ST24",
     "imageId": "ST24-005",
-    "id": "ST24-005_GREEN_Jewelry_Bonney_[ST-24]"
+    "id": "ST24-005_GREEN_Jewelry_Bonney_[ST-24]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   }
 ]

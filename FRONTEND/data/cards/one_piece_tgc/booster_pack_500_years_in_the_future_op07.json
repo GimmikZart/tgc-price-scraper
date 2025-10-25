@@ -75,7 +75,10 @@
     "cost": 7,
     "expansionCode": "OP07",
     "imageId": "OP07-002",
-    "id": "OP07-002_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-002_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Outlook III",
@@ -124,7 +127,10 @@
     "cost": 2,
     "expansionCode": "OP07",
     "imageId": "OP07-004",
-    "id": "OP07-004_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-004_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Carina",
@@ -147,7 +153,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-005.png",
     "cost": 3,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP07",
     "imageId": "OP07-005",
@@ -174,7 +181,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-005_p1.png",
     "cost": 3,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP07",
     "imageId": "OP07-005_p1",
@@ -201,7 +209,10 @@
     "cost": 1,
     "expansionCode": "OP07",
     "imageId": "OP07-006",
-    "id": "OP07-006_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-006_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Dice",
@@ -274,7 +285,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-009.png",
     "cost": 2,
     "abilityKeywords": [
-      "[Double Attack]"
+      "[Double Attack]",
+      "[On Play]"
     ],
     "expansionCode": "OP07",
     "imageId": "OP07-009",
@@ -359,7 +371,10 @@
     "cost": 2,
     "expansionCode": "OP07",
     "imageId": "OP07-012",
-    "id": "OP07-012_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-012_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Masked Deuce",
@@ -382,7 +397,10 @@
     "cost": 1,
     "expansionCode": "OP07",
     "imageId": "OP07-013",
-    "id": "OP07-013_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-013_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Moda",
@@ -404,7 +422,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-014.png",
     "cost": 1,
     "abilityKeywords": [
-      "[Your Turn]"
+      "[Your Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP07",
     "imageId": "OP07-014",
@@ -430,7 +449,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-015.png",
     "cost": 8,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP07",
     "imageId": "OP07-015",
@@ -456,7 +476,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-015_p1.png",
     "cost": 8,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP07",
     "imageId": "OP07-015_p1",
@@ -674,7 +695,10 @@
     "cost": 1,
     "expansionCode": "OP07",
     "imageId": "OP07-022",
-    "id": "OP07-022_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-022_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Otama",
@@ -697,7 +721,10 @@
     "cost": 1,
     "expansionCode": "OP07",
     "imageId": "OP07-022_p1",
-    "id": "OP07-022_p1_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-022_p1_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Caribou",
@@ -775,7 +802,10 @@
     "cost": 3,
     "expansionCode": "OP07",
     "imageId": "OP07-025",
-    "id": "OP07-025_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-025_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Jewelry Bonney",
@@ -799,7 +829,10 @@
     "cost": 5,
     "expansionCode": "OP07",
     "imageId": "OP07-026",
-    "id": "OP07-026_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-026_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Jewelry Bonney",
@@ -823,7 +856,10 @@
     "cost": 5,
     "expansionCode": "OP07",
     "imageId": "OP07-026_p1",
-    "id": "OP07-026_p1_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-026_p1_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Jinbe",
@@ -1006,7 +1042,10 @@
     "cost": 5,
     "expansionCode": "OP07",
     "imageId": "OP07-032",
-    "id": "OP07-032_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-032_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -1245,7 +1284,10 @@
     "cost": 4,
     "expansionCode": "OP07",
     "imageId": "OP07-040",
-    "id": "OP07-040_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-040_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Gloriosa (Grandma Nyon)",
@@ -1268,7 +1310,10 @@
     "cost": 1,
     "expansionCode": "OP07",
     "imageId": "OP07-041",
-    "id": "OP07-041_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-041_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Gecko Moria",
@@ -1318,7 +1363,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-043.png",
     "cost": 1,
     "abilityKeywords": [
-      "[Your Turn]"
+      "[Your Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP07",
     "imageId": "OP07-043",
@@ -1345,7 +1391,10 @@
     "cost": 8,
     "expansionCode": "OP07",
     "imageId": "OP07-044",
-    "id": "OP07-044_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-044_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Jinbe",
@@ -1370,7 +1419,10 @@
     "cost": 4,
     "expansionCode": "OP07",
     "imageId": "OP07-045",
-    "id": "OP07-045_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-045_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Jinbe",
@@ -1395,7 +1447,10 @@
     "cost": 4,
     "expansionCode": "OP07",
     "imageId": "OP07-045_p1",
-    "id": "OP07-045_p1_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-045_p1_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Sengoku",
@@ -1418,7 +1473,10 @@
     "cost": 1,
     "expansionCode": "OP07",
     "imageId": "OP07-046",
-    "id": "OP07-046_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-046_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Sengoku",
@@ -1441,7 +1499,10 @@
     "cost": 1,
     "expansionCode": "OP07",
     "imageId": "OP07-046_p1",
-    "id": "OP07-046_p1_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-046_p1_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -1546,7 +1607,10 @@
     "cost": 2,
     "expansionCode": "OP07",
     "imageId": "OP07-049",
-    "id": "OP07-049_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-049_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Boa Sandersonia",
@@ -1569,7 +1633,10 @@
     "cost": 3,
     "expansionCode": "OP07",
     "imageId": "OP07-050",
-    "id": "OP07-050_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-050_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Boa Hancock",
@@ -1593,7 +1660,10 @@
     "cost": 6,
     "expansionCode": "OP07",
     "imageId": "OP07-051",
-    "id": "OP07-051_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-051_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Boa Hancock",
@@ -1617,7 +1687,10 @@
     "cost": 6,
     "expansionCode": "OP07",
     "imageId": "OP07-051_p1",
-    "id": "OP07-051_p1_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-051_p1_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Boa Hancock",
@@ -1641,7 +1714,10 @@
     "cost": 6,
     "expansionCode": "OP07",
     "imageId": "OP07-051_p2",
-    "id": "OP07-051_p2_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-051_p2_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Boa Marigold",
@@ -1664,7 +1740,10 @@
     "cost": 5,
     "expansionCode": "OP07",
     "imageId": "OP07-052",
-    "id": "OP07-052_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-052_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Portgas.D.Ace",
@@ -1686,7 +1765,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-053.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP07",
     "imageId": "OP07-053",
@@ -1712,7 +1792,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-054.png",
     "cost": 3,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP07",
     "imageId": "OP07-054",
@@ -1926,7 +2007,10 @@
     "cost": 1,
     "expansionCode": "OP07",
     "imageId": "OP07-061",
-    "id": "OP07-061_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-061_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Vinsmoke Reiju",
@@ -1950,7 +2034,10 @@
     "cost": 1,
     "expansionCode": "OP07",
     "imageId": "OP07-062",
-    "id": "OP07-062_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-062_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Capote",
@@ -1974,7 +2061,10 @@
     "cost": 3,
     "expansionCode": "OP07",
     "imageId": "OP07-063",
-    "id": "OP07-063_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-063_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Sanji",
@@ -2049,7 +2139,10 @@
     "cost": 1,
     "expansionCode": "OP07",
     "imageId": "OP07-065",
-    "id": "OP07-065_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-065_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Tony Tony.Chopper",
@@ -2072,7 +2165,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-066.png",
     "cost": 2,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP07",
     "imageId": "OP07-066",
@@ -2174,7 +2268,10 @@
     "cost": 6,
     "expansionCode": "OP07",
     "imageId": "OP07-070",
-    "id": "OP07-070_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-070_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Foxy",
@@ -2253,7 +2350,10 @@
     "cost": 3,
     "expansionCode": "OP07",
     "imageId": "OP07-072",
-    "id": "OP07-072_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-072_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Porche",
@@ -2276,7 +2376,10 @@
     "cost": 3,
     "expansionCode": "OP07",
     "imageId": "OP07-072_p1",
-    "id": "OP07-072_p1_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-072_p1_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -2510,7 +2613,10 @@
     "cost": 4,
     "expansionCode": "OP07",
     "imageId": "OP07-080",
-    "id": "OP07-080_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-080_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Kalifa",
@@ -2561,7 +2667,10 @@
     "cost": 2,
     "expansionCode": "OP07",
     "imageId": "OP07-082",
-    "id": "OP07-082_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-082_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Gecko Moria",
@@ -2638,7 +2747,10 @@
     "cost": 9,
     "expansionCode": "OP07",
     "imageId": "OP07-085",
-    "id": "OP07-085_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-085_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Stussy",
@@ -2661,7 +2773,10 @@
     "cost": 9,
     "expansionCode": "OP07",
     "imageId": "OP07-085_p1",
-    "id": "OP07-085_p1_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-085_p1_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Spandam",
@@ -2684,7 +2799,10 @@
     "cost": 3,
     "expansionCode": "OP07",
     "imageId": "OP07-086",
-    "id": "OP07-086_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-086_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Baskerville",
@@ -2733,7 +2851,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-088.png",
     "cost": 1,
     "abilityKeywords": [
-      "[Your Turn]"
+      "[Your Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP07",
     "imageId": "OP07-088",
@@ -2783,7 +2902,10 @@
     "cost": 2,
     "expansionCode": "OP07",
     "imageId": "OP07-090",
-    "id": "OP07-090_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-090_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -2832,7 +2954,10 @@
     "cost": 1,
     "expansionCode": "OP07",
     "imageId": "OP07-092",
-    "id": "OP07-092_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-092_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Rob Lucci",
@@ -2855,7 +2980,10 @@
     "cost": 5,
     "expansionCode": "OP07",
     "imageId": "OP07-093",
-    "id": "OP07-093_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-093_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Shave",
@@ -3061,7 +3189,10 @@
     "cost": 4,
     "expansionCode": "OP07",
     "imageId": "OP07-100",
-    "id": "OP07-100_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-100_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Shaka",
@@ -3368,7 +3499,10 @@
     "cost": 5,
     "expansionCode": "OP07",
     "imageId": "OP07-110",
-    "id": "OP07-110_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-110_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Lilith",
@@ -3392,7 +3526,10 @@
     "cost": 3,
     "expansionCode": "OP07",
     "imageId": "OP07-111",
-    "id": "OP07-111_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-111_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Lilith",
@@ -3416,7 +3553,10 @@
     "cost": 3,
     "expansionCode": "OP07",
     "imageId": "OP07-111_p1",
-    "id": "OP07-111_p1_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-111_p1_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Lucy",
@@ -3599,7 +3739,10 @@
     "cost": 8,
     "expansionCode": "OP07",
     "imageId": "OP07-118",
-    "id": "OP07-118_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-118_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Sabo",
@@ -3622,7 +3765,10 @@
     "cost": 8,
     "expansionCode": "OP07",
     "imageId": "OP07-118_p1",
-    "id": "OP07-118_p1_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP07-118_p1_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Portgas.D.Ace",
@@ -3644,7 +3790,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-119.png",
     "cost": 10,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP07",
     "imageId": "OP07-119",
@@ -3670,7 +3817,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-119_p1.png",
     "cost": 10,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP07",
     "imageId": "OP07-119_p1",
@@ -3696,7 +3844,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-010_p2.png",
     "cost": 4,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "ST10",
     "imageId": "ST10-010_p2",
@@ -3752,7 +3901,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-073_p2.png",
     "cost": 3,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-073_p2",
@@ -3780,7 +3930,10 @@
     "cost": 1,
     "expansionCode": "OP03",
     "imageId": "OP03-003_p1",
-    "id": "OP03-003_p1_500_YEARS_IN_THE_FUTURE_[OP-07]"
+    "id": "OP03-003_p1_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Issho",
@@ -3803,7 +3956,8 @@
     "cost": 8,
     "abilityKeywords": [
       "[Your Turn]",
-      "[DON!! x1]"
+      "[DON!! x1]",
+      "[On Play]"
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-078_p2",
@@ -3857,7 +4011,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-101_p2.png",
     "cost": 2,
     "abilityKeywords": [
-      "[Banish]"
+      "[Banish]",
+      "[On Play]"
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-101_p2",

@@ -131,7 +131,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-003.png",
     "cost": 2,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "ST21",
     "imageId": "ST21-003",
@@ -157,7 +158,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-003_p1.png",
     "cost": 2,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "ST21",
     "imageId": "ST21-003_p1",

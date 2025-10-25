@@ -152,7 +152,8 @@
     "cost": 9,
     "abilityKeywords": [
       "[When Attacking]",
-      "[DON!! x2]"
+      "[DON!! x2]",
+      "[On Play]"
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-004",
@@ -180,7 +181,8 @@
     "cost": 9,
     "abilityKeywords": [
       "[When Attacking]",
-      "[DON!! x2]"
+      "[DON!! x2]",
+      "[On Play]"
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-004_p1",
@@ -207,7 +209,10 @@
     "cost": 2,
     "expansionCode": "OP02",
     "imageId": "OP02-005",
-    "id": "OP02-005_PARAMOUNT_WAR_[OP02]"
+    "id": "OP02-005_PARAMOUNT_WAR_[OP02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Kingdew",
@@ -303,7 +308,10 @@
     "cost": 3,
     "expansionCode": "OP02",
     "imageId": "OP02-009",
-    "id": "OP02-009_PARAMOUNT_WAR_[OP02]"
+    "id": "OP02-009_PARAMOUNT_WAR_[OP02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Squard",
@@ -326,7 +334,10 @@
     "cost": 3,
     "expansionCode": "OP02",
     "imageId": "OP02-009_p1",
-    "id": "OP02-009_p1_PARAMOUNT_WAR_[OP02]"
+    "id": "OP02-009_p1_PARAMOUNT_WAR_[OP02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Dogura",
@@ -375,7 +386,10 @@
     "cost": 3,
     "expansionCode": "OP02",
     "imageId": "OP02-011",
-    "id": "OP02-011_PARAMOUNT_WAR_[OP02]"
+    "id": "OP02-011_PARAMOUNT_WAR_[OP02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Blenheim",
@@ -423,7 +437,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-013.png",
     "cost": 7,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-013",
@@ -449,7 +464,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-013_p1.png",
     "cost": 7,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-013_p1",
@@ -475,7 +491,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-013_p2.png",
     "cost": 7,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-013_p2",
@@ -554,7 +571,10 @@
     "cost": 1,
     "expansionCode": "OP02",
     "imageId": "OP02-016",
-    "id": "OP02-016_PARAMOUNT_WAR_[OP02]"
+    "id": "OP02-016_PARAMOUNT_WAR_[OP02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Masked Deuce",
@@ -1139,7 +1159,10 @@
     "cost": 2,
     "expansionCode": "OP02",
     "imageId": "OP02-032",
-    "id": "OP02-032_PARAMOUNT_WAR_[OP02]"
+    "id": "OP02-032_PARAMOUNT_WAR_[OP02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Jinbe",
@@ -1244,7 +1267,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-036.png",
     "cost": 3,
     "abilityKeywords": [
-      "[When Attacking]"
+      "[When Attacking]",
+      "[On Play]"
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-036",
@@ -1271,7 +1295,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-036_p1.png",
     "cost": 3,
     "abilityKeywords": [
-      "[When Attacking]"
+      "[When Attacking]",
+      "[On Play]"
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-036_p1",
@@ -1299,7 +1324,10 @@
     "cost": 3,
     "expansionCode": "OP02",
     "imageId": "OP02-037",
-    "id": "OP02-037_PARAMOUNT_WAR_[OP02]"
+    "id": "OP02-037_PARAMOUNT_WAR_[OP02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Nekomamushi",
@@ -1375,7 +1403,10 @@
     "cost": 4,
     "expansionCode": "OP02",
     "imageId": "OP02-040",
-    "id": "OP02-040_PARAMOUNT_WAR_[OP02]"
+    "id": "OP02-040_PARAMOUNT_WAR_[OP02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -1399,7 +1430,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-041.png",
     "cost": 7,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-041",
@@ -1427,7 +1459,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-041_p1.png",
     "cost": 7,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-041_p1",
@@ -1454,7 +1487,10 @@
     "cost": 4,
     "expansionCode": "OP02",
     "imageId": "OP02-042",
-    "id": "OP02-042_PARAMOUNT_WAR_[OP02]"
+    "id": "OP02-042_PARAMOUNT_WAR_[OP02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -1502,7 +1538,10 @@
     "cost": 2,
     "expansionCode": "OP02",
     "imageId": "OP02-044",
-    "id": "OP02-044_PARAMOUNT_WAR_[OP02]"
+    "id": "OP02-044_PARAMOUNT_WAR_[OP02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Three Sword Style Oni Giri",
@@ -1715,7 +1754,10 @@
     "cost": 7,
     "expansionCode": "OP02",
     "imageId": "OP02-051",
-    "id": "OP02-051_PARAMOUNT_WAR_[OP02]"
+    "id": "OP02-051_PARAMOUNT_WAR_[OP02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Emporio.Ivankov",
@@ -1739,7 +1781,10 @@
     "cost": 7,
     "expansionCode": "OP02",
     "imageId": "OP02-051_p1",
-    "id": "OP02-051_p1_PARAMOUNT_WAR_[OP02]"
+    "id": "OP02-051_p1_PARAMOUNT_WAR_[OP02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Cabaji",
@@ -1762,7 +1807,10 @@
     "cost": 2,
     "expansionCode": "OP02",
     "imageId": "OP02-052",
-    "id": "OP02-052_PARAMOUNT_WAR_[OP02]"
+    "id": "OP02-052_PARAMOUNT_WAR_[OP02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Crocodile",
@@ -1857,7 +1905,8 @@
     "cost": 1,
     "abilityKeywords": [
       "[When Attacking]",
-      "[DON!! x1]"
+      "[DON!! x1]",
+      "[On Play]"
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-056",
@@ -1885,7 +1934,10 @@
     "cost": 3,
     "expansionCode": "OP02",
     "imageId": "OP02-057",
-    "id": "OP02-057_PARAMOUNT_WAR_[OP02]"
+    "id": "OP02-057_PARAMOUNT_WAR_[OP02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Buggy",
@@ -1909,7 +1961,10 @@
     "cost": 1,
     "expansionCode": "OP02",
     "imageId": "OP02-058",
-    "id": "OP02-058_PARAMOUNT_WAR_[OP02]"
+    "id": "OP02-058_PARAMOUNT_WAR_[OP02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Buggy",
@@ -1933,7 +1988,10 @@
     "cost": 1,
     "expansionCode": "OP02",
     "imageId": "OP02-058_p1",
-    "id": "OP02-058_p1_PARAMOUNT_WAR_[OP02]"
+    "id": "OP02-058_p1_PARAMOUNT_WAR_[OP02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Boa Hancock",
@@ -2064,7 +2122,8 @@
     "cost": 6,
     "abilityKeywords": [
       "[Double Attack]",
-      "[When Attacking]"
+      "[When Attacking]",
+      "[On Play]"
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-062",
@@ -2092,7 +2151,8 @@
     "cost": 6,
     "abilityKeywords": [
       "[Double Attack]",
-      "[When Attacking]"
+      "[When Attacking]",
+      "[On Play]"
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-062_p1",
@@ -2120,7 +2180,10 @@
     "cost": 1,
     "expansionCode": "OP02",
     "imageId": "OP02-063",
-    "id": "OP02-063_PARAMOUNT_WAR_[OP02]"
+    "id": "OP02-063_PARAMOUNT_WAR_[OP02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Mr.2.Bon.Kurei(Bentham)",
@@ -2442,7 +2505,10 @@
     "cost": 3,
     "expansionCode": "OP02",
     "imageId": "OP02-073",
-    "id": "OP02-073_PARAMOUNT_WAR_[OP02]"
+    "id": "OP02-073_PARAMOUNT_WAR_[OP02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Little Sadi",
@@ -2465,7 +2531,10 @@
     "cost": 3,
     "expansionCode": "OP02",
     "imageId": "OP02-073_p1",
-    "id": "OP02-073_p1_PARAMOUNT_WAR_[OP02]"
+    "id": "OP02-073_p1_PARAMOUNT_WAR_[OP02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Saldeath",
@@ -2538,7 +2607,10 @@
     "cost": 4,
     "expansionCode": "OP02",
     "imageId": "OP02-076",
-    "id": "OP02-076_PARAMOUNT_WAR_[OP02]"
+    "id": "OP02-076_PARAMOUNT_WAR_[OP02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Solitaire",
@@ -2586,7 +2658,10 @@
     "cost": 3,
     "expansionCode": "OP02",
     "imageId": "OP02-078",
-    "id": "OP02-078_PARAMOUNT_WAR_[OP02]"
+    "id": "OP02-078_PARAMOUNT_WAR_[OP02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Douglas Bullet",
@@ -2610,7 +2685,10 @@
     "cost": 5,
     "expansionCode": "OP02",
     "imageId": "OP02-079",
-    "id": "OP02-079_PARAMOUNT_WAR_[OP02]"
+    "id": "OP02-079_PARAMOUNT_WAR_[OP02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Dobon",
@@ -2709,7 +2787,10 @@
     "cost": 1,
     "expansionCode": "OP02",
     "imageId": "OP02-083",
-    "id": "OP02-083_PARAMOUNT_WAR_[OP02]"
+    "id": "OP02-083_PARAMOUNT_WAR_[OP02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Blugori",
@@ -2755,7 +2836,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-085.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Opponent's Turn]"
+      "[Opponent's Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-085",
@@ -2781,7 +2863,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-085_p1.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Opponent's Turn]"
+      "[Opponent's Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-085_p1",
@@ -3128,7 +3211,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-096.png",
     "cost": 4,
     "abilityKeywords": [
-      "[When Attacking]"
+      "[When Attacking]",
+      "[On Play]"
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-096",
@@ -3154,7 +3238,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-096_p1.png",
     "cost": 4,
     "abilityKeywords": [
-      "[When Attacking]"
+      "[When Attacking]",
+      "[On Play]"
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-096_p1",
@@ -3204,7 +3289,10 @@
     "cost": 3,
     "expansionCode": "OP02",
     "imageId": "OP02-098",
-    "id": "OP02-098_PARAMOUNT_WAR_[OP02]"
+    "id": "OP02-098_PARAMOUNT_WAR_[OP02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Sakazuki",
@@ -3227,7 +3315,10 @@
     "cost": 6,
     "expansionCode": "OP02",
     "imageId": "OP02-099",
-    "id": "OP02-099_PARAMOUNT_WAR_[OP02]"
+    "id": "OP02-099_PARAMOUNT_WAR_[OP02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Sakazuki",
@@ -3250,7 +3341,10 @@
     "cost": 6,
     "expansionCode": "OP02",
     "imageId": "OP02-099_p1",
-    "id": "OP02-099_p1_PARAMOUNT_WAR_[OP02]"
+    "id": "OP02-099_p1_PARAMOUNT_WAR_[OP02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Jango",
@@ -3453,7 +3547,10 @@
     "cost": 1,
     "expansionCode": "OP02",
     "imageId": "OP02-106",
-    "id": "OP02-106_PARAMOUNT_WAR_[OP02]"
+    "id": "OP02-106_PARAMOUNT_WAR_[OP02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Doberman",
@@ -3891,7 +3988,10 @@
     "cost": 8,
     "expansionCode": "OP02",
     "imageId": "OP02-120",
-    "id": "OP02-120_PARAMOUNT_WAR_[OP02]"
+    "id": "OP02-120_PARAMOUNT_WAR_[OP02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Uta",
@@ -3914,7 +4014,10 @@
     "cost": 8,
     "expansionCode": "OP02",
     "imageId": "OP02-120_p1",
-    "id": "OP02-120_p1_PARAMOUNT_WAR_[OP02]"
+    "id": "OP02-120_p1_PARAMOUNT_WAR_[OP02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Kuzan",
@@ -3936,7 +4039,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-121.png",
     "cost": 10,
     "abilityKeywords": [
-      "[Your Turn]"
+      "[Your Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-121",
@@ -3962,7 +4066,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-121_p1.png",
     "cost": 10,
     "abilityKeywords": [
-      "[Your Turn]"
+      "[Your Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-121_p1",

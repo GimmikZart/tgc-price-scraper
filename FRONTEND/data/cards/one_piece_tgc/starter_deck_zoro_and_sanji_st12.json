@@ -76,7 +76,10 @@
     "cost": 3,
     "expansionCode": "ST12",
     "imageId": "ST12-003",
-    "id": "ST12-003_Zoro__Sanji_[ST-12]"
+    "id": "ST12-003_Zoro__Sanji_[ST-12]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Humandrill",
@@ -174,7 +177,10 @@
     "cost": 2,
     "expansionCode": "ST12",
     "imageId": "ST12-007",
-    "id": "ST12-007_Zoro__Sanji_[ST-12]"
+    "id": "ST12-007_Zoro__Sanji_[ST-12]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -248,7 +254,8 @@
     "cost": 3,
     "abilityKeywords": [
       "[When Attacking]",
-      "[Once Per Turn]"
+      "[Once Per Turn]",
+      "[On Play]"
     ],
     "expansionCode": "ST12",
     "imageId": "ST12-010",
@@ -327,7 +334,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST12-013.png",
     "cost": 5,
     "abilityKeywords": [
-      "[When Attacking]"
+      "[When Attacking]",
+      "[On Play]"
     ],
     "expansionCode": "ST12",
     "imageId": "ST12-013",
@@ -353,7 +361,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST12-014.png",
     "cost": 2,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "ST12",
     "imageId": "ST12-014",

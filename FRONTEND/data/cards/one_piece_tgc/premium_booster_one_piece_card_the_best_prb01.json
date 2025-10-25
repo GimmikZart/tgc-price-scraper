@@ -49,7 +49,10 @@
     "cost": 1,
     "expansionCode": "OP01",
     "imageId": "OP01-006_p3",
-    "id": "OP01-006_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP01-006_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Otama",
@@ -72,7 +75,10 @@
     "cost": 1,
     "expansionCode": "OP01",
     "imageId": "OP01-006_p4",
-    "id": "OP01-006_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP01-006_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Otama",
@@ -95,7 +101,10 @@
     "cost": 1,
     "expansionCode": "OP01",
     "imageId": "OP01-006_p5",
-    "id": "OP01-006_p5_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP01-006_p5_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Otama",
@@ -118,7 +127,10 @@
     "cost": 1,
     "expansionCode": "OP01",
     "imageId": "OP01-006_r1",
-    "id": "OP01-006_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP01-006_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Nami",
@@ -141,7 +153,10 @@
     "cost": 1,
     "expansionCode": "OP01",
     "imageId": "OP01-016_p8",
-    "id": "OP01-016_p8_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP01-016_p8_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -301,7 +316,10 @@
     "cost": 3,
     "expansionCode": "OP01",
     "imageId": "OP01-033_p3",
-    "id": "OP01-033_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP01-033_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Izo",
@@ -325,7 +343,10 @@
     "cost": 3,
     "expansionCode": "OP01",
     "imageId": "OP01-033_p4",
-    "id": "OP01-033_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP01-033_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Izo",
@@ -349,7 +370,10 @@
     "cost": 3,
     "expansionCode": "OP01",
     "imageId": "OP01-033_p5",
-    "id": "OP01-033_p5_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP01-033_p5_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Izo",
@@ -373,7 +397,10 @@
     "cost": 3,
     "expansionCode": "OP01",
     "imageId": "OP01-033_r1",
-    "id": "OP01-033_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP01-033_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Kouzuki Momonosuke",
@@ -504,7 +531,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-047_p4.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-047_p4",
@@ -531,7 +559,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-047_r1.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-047_r1",
@@ -702,7 +731,10 @@
     "cost": 9,
     "expansionCode": "OP01",
     "imageId": "OP01-070_p4",
-    "id": "OP01-070_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP01-070_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Dracule Mihawk",
@@ -725,7 +757,10 @@
     "cost": 9,
     "expansionCode": "OP01",
     "imageId": "OP01-070_r1",
-    "id": "OP01-070_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP01-070_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Boa Hancock",
@@ -950,7 +985,8 @@
     "cost": 9,
     "abilityKeywords": [
       "[When Attacking]",
-      "[DON!! x2]"
+      "[DON!! x2]",
+      "[On Play]"
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-004_p4",
@@ -978,7 +1014,8 @@
     "cost": 9,
     "abilityKeywords": [
       "[When Attacking]",
-      "[DON!! x2]"
+      "[DON!! x2]",
+      "[On Play]"
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-004_r1",
@@ -1004,7 +1041,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-013_r1.png",
     "cost": 7,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-013_r1",
@@ -1320,7 +1358,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-096_p3.png",
     "cost": 4,
     "abilityKeywords": [
-      "[When Attacking]"
+      "[When Attacking]",
+      "[On Play]"
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-096_p3",
@@ -1346,7 +1385,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-096_r1.png",
     "cost": 4,
     "abilityKeywords": [
-      "[When Attacking]"
+      "[When Attacking]",
+      "[On Play]"
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-096_r1",
@@ -1373,7 +1413,10 @@
     "cost": 6,
     "expansionCode": "OP02",
     "imageId": "OP02-099_p4",
-    "id": "OP02-099_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP02-099_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Sakazuki",
@@ -1396,7 +1439,10 @@
     "cost": 6,
     "expansionCode": "OP02",
     "imageId": "OP02-099_r1",
-    "id": "OP02-099_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP02-099_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Tsuru",
@@ -1419,7 +1465,10 @@
     "cost": 1,
     "expansionCode": "OP02",
     "imageId": "OP02-106_p4",
-    "id": "OP02-106_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP02-106_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Tsuru",
@@ -1442,7 +1491,10 @@
     "cost": 1,
     "expansionCode": "OP02",
     "imageId": "OP02-106_p5",
-    "id": "OP02-106_p5_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP02-106_p5_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Tsuru",
@@ -1465,7 +1517,10 @@
     "cost": 1,
     "expansionCode": "OP02",
     "imageId": "OP02-106_r2",
-    "id": "OP02-106_r2_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP02-106_r2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Borsalino",
@@ -1619,7 +1674,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-121_p3.png",
     "cost": 10,
     "abilityKeywords": [
-      "[Your Turn]"
+      "[Your Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-121_p3",
@@ -1645,7 +1701,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-121_r1.png",
     "cost": 10,
     "abilityKeywords": [
-      "[Your Turn]"
+      "[Your Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-121_r1",
@@ -1673,7 +1730,10 @@
     "cost": 1,
     "expansionCode": "OP03",
     "imageId": "OP03-003_p4",
-    "id": "OP03-003_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP03-003_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Izo",
@@ -1697,7 +1757,10 @@
     "cost": 1,
     "expansionCode": "OP03",
     "imageId": "OP03-003_p5",
-    "id": "OP03-003_p5_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP03-003_p5_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Izo",
@@ -1721,7 +1784,10 @@
     "cost": 1,
     "expansionCode": "OP03",
     "imageId": "OP03-003_p6",
-    "id": "OP03-003_p6_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP03-003_p6_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Izo",
@@ -1745,7 +1811,10 @@
     "cost": 1,
     "expansionCode": "OP03",
     "imageId": "OP03-003_r2",
-    "id": "OP03-003_r2_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP03-003_r2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Gum-Gum Giant Gavel",
@@ -2223,7 +2292,10 @@
     "cost": 2,
     "expansionCode": "OP03",
     "imageId": "OP03-089_p4",
-    "id": "OP03-089_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP03-089_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Brannew",
@@ -2246,7 +2318,10 @@
     "cost": 2,
     "expansionCode": "OP03",
     "imageId": "OP03-089_p5",
-    "id": "OP03-089_p5_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP03-089_p5_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Brannew",
@@ -2269,7 +2344,10 @@
     "cost": 2,
     "expansionCode": "OP03",
     "imageId": "OP03-089_p6",
-    "id": "OP03-089_p6_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP03-089_p6_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Brannew",
@@ -2292,7 +2370,10 @@
     "cost": 2,
     "expansionCode": "OP03",
     "imageId": "OP03-089_r2",
-    "id": "OP03-089_r2_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP03-089_r2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Air Door",
@@ -2603,7 +2684,10 @@
     "cost": 5,
     "expansionCode": "OP03",
     "imageId": "OP03-116_p5",
-    "id": "OP03-116_p5_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP03-116_p5_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Shirahoshi",
@@ -2626,7 +2710,10 @@
     "cost": 5,
     "expansionCode": "OP03",
     "imageId": "OP03-116_p6",
-    "id": "OP03-116_p6_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP03-116_p6_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Shirahoshi",
@@ -2649,7 +2736,10 @@
     "cost": 5,
     "expansionCode": "OP03",
     "imageId": "OP03-116_r1",
-    "id": "OP03-116_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP03-116_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Thunder Bolt",
@@ -2753,7 +2843,10 @@
     "cost": 7,
     "expansionCode": "OP03",
     "imageId": "OP03-122_r1",
-    "id": "OP03-122_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP03-122_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Charlotte Katakuri",
@@ -2776,7 +2869,10 @@
     "cost": 8,
     "expansionCode": "OP03",
     "imageId": "OP03-123_p4",
-    "id": "OP03-123_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP03-123_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Charlotte Katakuri",
@@ -2799,7 +2895,10 @@
     "cost": 8,
     "expansionCode": "OP03",
     "imageId": "OP03-123_r1",
-    "id": "OP03-123_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP03-123_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Dellinger",
@@ -2901,7 +3000,10 @@
     "cost": 10,
     "expansionCode": "OP04",
     "imageId": "OP04-031_p3",
-    "id": "OP04-031_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP04-031_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Donquixote Doflamingo",
@@ -2925,7 +3027,10 @@
     "cost": 10,
     "expansionCode": "OP04",
     "imageId": "OP04-031_r1",
-    "id": "OP04-031_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP04-031_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Baby 5",
@@ -3105,7 +3210,10 @@
     "cost": 10,
     "expansionCode": "OP04",
     "imageId": "OP04-044_p4",
-    "id": "OP04-044_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP04-044_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Kaido",
@@ -3129,7 +3237,10 @@
     "cost": 10,
     "expansionCode": "OP04",
     "imageId": "OP04-044_r1",
-    "id": "OP04-044_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP04-044_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Gum-Gum Red Roc",
@@ -3256,7 +3367,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-083_r1.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-083_r1",
@@ -3616,7 +3728,10 @@
     "cost": 9,
     "expansionCode": "OP04",
     "imageId": "OP04-112_p3",
-    "id": "OP04-112_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP04-112_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Yamato",
@@ -3639,7 +3754,10 @@
     "cost": 9,
     "expansionCode": "OP04",
     "imageId": "OP04-112_r1",
-    "id": "OP04-112_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP04-112_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Koala",
@@ -3662,7 +3780,10 @@
     "cost": 2,
     "expansionCode": "OP05",
     "imageId": "OP05-006_p3",
-    "id": "OP05-006_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP05-006_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Koala",
@@ -3685,7 +3806,10 @@
     "cost": 2,
     "expansionCode": "OP05",
     "imageId": "OP05-006_r1",
-    "id": "OP05-006_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP05-006_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Sabo",
@@ -3708,7 +3832,10 @@
     "cost": 6,
     "expansionCode": "OP05",
     "imageId": "OP05-007_p3",
-    "id": "OP05-007_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP05-007_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Sabo",
@@ -3731,7 +3858,10 @@
     "cost": 6,
     "expansionCode": "OP05",
     "imageId": "OP05-007_r1",
-    "id": "OP05-007_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP05-007_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Nico Robin",
@@ -3754,7 +3884,10 @@
     "cost": 1,
     "expansionCode": "OP05",
     "imageId": "OP05-010_p2",
-    "id": "OP05-010_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP05-010_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Nico Robin",
@@ -3777,7 +3910,10 @@
     "cost": 1,
     "expansionCode": "OP05",
     "imageId": "OP05-010_p3",
-    "id": "OP05-010_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP05-010_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Nico Robin",
@@ -3800,7 +3936,10 @@
     "cost": 1,
     "expansionCode": "OP05",
     "imageId": "OP05-010_r1",
-    "id": "OP05-010_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP05-010_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Belo Betty",
@@ -3823,7 +3962,10 @@
     "cost": 1,
     "expansionCode": "OP05",
     "imageId": "OP05-015_p3",
-    "id": "OP05-015_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP05-015_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Belo Betty",
@@ -3846,7 +3988,10 @@
     "cost": 1,
     "expansionCode": "OP05",
     "imageId": "OP05-015_p4",
-    "id": "OP05-015_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP05-015_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Belo Betty",
@@ -3869,7 +4014,10 @@
     "cost": 1,
     "expansionCode": "OP05",
     "imageId": "OP05-015_p5",
-    "id": "OP05-015_p5_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP05-015_p5_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Belo Betty",
@@ -3892,7 +4040,10 @@
     "cost": 1,
     "expansionCode": "OP05",
     "imageId": "OP05-015_r1",
-    "id": "OP05-015_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP05-015_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Baby 5",
@@ -4019,7 +4170,10 @@
     "cost": 4,
     "expansionCode": "OP05",
     "imageId": "OP05-043_p3",
-    "id": "OP05-043_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP05-043_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Ulti",
@@ -4042,7 +4196,10 @@
     "cost": 4,
     "expansionCode": "OP05",
     "imageId": "OP05-043_r1",
-    "id": "OP05-043_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP05-043_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Hound Blaze",
@@ -4195,7 +4352,10 @@
     "cost": 4,
     "expansionCode": "OP05",
     "imageId": "OP05-073_p2",
-    "id": "OP05-073_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP05-073_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Miss Doublefinger(Zala)",
@@ -4218,7 +4378,10 @@
     "cost": 4,
     "expansionCode": "OP05",
     "imageId": "OP05-073_p3",
-    "id": "OP05-073_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP05-073_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Miss Doublefinger(Zala)",
@@ -4241,7 +4404,10 @@
     "cost": 4,
     "expansionCode": "OP05",
     "imageId": "OP05-073_r1",
-    "id": "OP05-073_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP05-073_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -4834,7 +5000,10 @@
     "cost": 1,
     "expansionCode": "OP05",
     "imageId": "OP05-117_p2",
-    "id": "OP05-117_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP05-117_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Upper Yard",
@@ -4857,7 +5026,10 @@
     "cost": 1,
     "expansionCode": "OP05",
     "imageId": "OP05-117_p3",
-    "id": "OP05-117_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP05-117_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Upper Yard",
@@ -4880,7 +5052,10 @@
     "cost": 1,
     "expansionCode": "OP05",
     "imageId": "OP05-117_p4",
-    "id": "OP05-117_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP05-117_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Upper Yard",
@@ -4903,7 +5078,10 @@
     "cost": 1,
     "expansionCode": "OP05",
     "imageId": "OP05-117_r1",
-    "id": "OP05-117_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP05-117_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Kaido",
@@ -4927,7 +5105,10 @@
     "cost": 10,
     "expansionCode": "OP05",
     "imageId": "OP05-118_p3",
-    "id": "OP05-118_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP05-118_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Kaido",
@@ -4951,7 +5132,10 @@
     "cost": 10,
     "expansionCode": "OP05",
     "imageId": "OP05-118_r1",
-    "id": "OP05-118_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP05-118_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -4975,7 +5159,8 @@
     "cost": 10,
     "abilityKeywords": [
       "[Activate: Main]",
-      "[Once Per Turn]"
+      "[Once Per Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-119_p4",
@@ -5003,7 +5188,8 @@
     "cost": 10,
     "abilityKeywords": [
       "[Activate: Main]",
-      "[Once Per Turn]"
+      "[Once Per Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-119_r1",
@@ -5031,7 +5217,8 @@
     "cost": 10,
     "abilityKeywords": [
       "[Activate: Main]",
-      "[Once Per Turn]"
+      "[Once Per Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-119_r2",
@@ -5058,7 +5245,10 @@
     "cost": 5,
     "expansionCode": "OP06",
     "imageId": "OP06-003_p2",
-    "id": "OP06-003_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP06-003_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Emporio.Ivankov",
@@ -5081,7 +5271,10 @@
     "cost": 5,
     "expansionCode": "OP06",
     "imageId": "OP06-003_p3",
-    "id": "OP06-003_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP06-003_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Emporio.Ivankov",
@@ -5104,7 +5297,10 @@
     "cost": 5,
     "expansionCode": "OP06",
     "imageId": "OP06-003_r1",
-    "id": "OP06-003_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP06-003_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Arlong",
@@ -5129,7 +5325,10 @@
     "cost": 4,
     "expansionCode": "OP06",
     "imageId": "OP06-023_p2",
-    "id": "OP06-023_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP06-023_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Arlong",
@@ -5154,7 +5353,10 @@
     "cost": 4,
     "expansionCode": "OP06",
     "imageId": "OP06-023_p3",
-    "id": "OP06-023_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP06-023_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Arlong",
@@ -5179,7 +5381,10 @@
     "cost": 4,
     "expansionCode": "OP06",
     "imageId": "OP06-023_p4",
-    "id": "OP06-023_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP06-023_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Arlong",
@@ -5204,7 +5409,10 @@
     "cost": 4,
     "expansionCode": "OP06",
     "imageId": "OP06-023_r1",
-    "id": "OP06-023_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP06-023_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Hody Jones",
@@ -5227,7 +5435,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-035_p3.png",
     "cost": 7,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-035_p3",
@@ -5254,7 +5463,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-035_r1.png",
     "cost": 7,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-035_r1",
@@ -5281,7 +5491,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-036_p2.png",
     "cost": 4,
     "abilityKeywords": [
-      "[On K.O.]"
+      "[On K.O.]",
+      "[On Play]"
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-036_p2",
@@ -5308,7 +5519,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-036_p3.png",
     "cost": 4,
     "abilityKeywords": [
-      "[On K.O.]"
+      "[On K.O.]",
+      "[On Play]"
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-036_p3",
@@ -5335,7 +5547,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-036_p4.png",
     "cost": 4,
     "abilityKeywords": [
-      "[On K.O.]"
+      "[On K.O.]",
+      "[On Play]"
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-036_p4",
@@ -5362,7 +5575,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-036_r1.png",
     "cost": 4,
     "abilityKeywords": [
-      "[On K.O.]"
+      "[On K.O.]",
+      "[On Play]"
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-036_r1",
@@ -5711,7 +5925,10 @@
     "cost": 5,
     "expansionCode": "OP06",
     "imageId": "OP06-065_p2",
-    "id": "OP06-065_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP06-065_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Vinsmoke Niji",
@@ -5735,7 +5952,10 @@
     "cost": 5,
     "expansionCode": "OP06",
     "imageId": "OP06-065_p3",
-    "id": "OP06-065_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP06-065_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Vinsmoke Niji",
@@ -5759,7 +5979,10 @@
     "cost": 5,
     "expansionCode": "OP06",
     "imageId": "OP06-065_p4",
-    "id": "OP06-065_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP06-065_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Vinsmoke Niji",
@@ -5783,7 +6006,10 @@
     "cost": 5,
     "expansionCode": "OP06",
     "imageId": "OP06-065_r1",
-    "id": "OP06-065_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP06-065_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Vinsmoke Yonji",
@@ -6077,7 +6303,10 @@
     "cost": 4,
     "expansionCode": "OP06",
     "imageId": "OP06-069_p4",
-    "id": "OP06-069_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP06-069_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Vinsmoke Reiju",
@@ -6101,7 +6330,10 @@
     "cost": 4,
     "expansionCode": "OP06",
     "imageId": "OP06-069_r1",
-    "id": "OP06-069_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP06-069_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Kingdom of GERMA",
@@ -6229,7 +6461,10 @@
     "cost": 8,
     "expansionCode": "OP06",
     "imageId": "OP06-086_p3",
-    "id": "OP06-086_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP06-086_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Gecko Moria",
@@ -6253,7 +6488,10 @@
     "cost": 8,
     "expansionCode": "OP06",
     "imageId": "OP06-086_r1",
-    "id": "OP06-086_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP06-086_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Victoria Cindry",
@@ -6276,7 +6514,10 @@
     "cost": 1,
     "expansionCode": "OP06",
     "imageId": "OP06-091_p2",
-    "id": "OP06-091_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP06-091_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Victoria Cindry",
@@ -6299,7 +6540,10 @@
     "cost": 1,
     "expansionCode": "OP06",
     "imageId": "OP06-091_p3",
-    "id": "OP06-091_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP06-091_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Victoria Cindry",
@@ -6322,7 +6566,10 @@
     "cost": 1,
     "expansionCode": "OP06",
     "imageId": "OP06-091_r1",
-    "id": "OP06-091_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP06-091_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Inuarashi",
@@ -6433,7 +6680,10 @@
     "cost": 2,
     "expansionCode": "OP06",
     "imageId": "OP06-106_p3",
-    "id": "OP06-106_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP06-106_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Kouzuki Hiyori",
@@ -6457,7 +6707,10 @@
     "cost": 2,
     "expansionCode": "OP06",
     "imageId": "OP06-106_r1",
-    "id": "OP06-106_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP06-106_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Nekomamushi",
@@ -6565,7 +6818,10 @@
     "cost": 5,
     "expansionCode": "OP06",
     "imageId": "OP06-114_p2",
-    "id": "OP06-114_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP06-114_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Wyper",
@@ -6589,7 +6845,10 @@
     "cost": 5,
     "expansionCode": "OP06",
     "imageId": "OP06-114_p3",
-    "id": "OP06-114_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP06-114_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Wyper",
@@ -6613,7 +6872,10 @@
     "cost": 5,
     "expansionCode": "OP06",
     "imageId": "OP06-114_r1",
-    "id": "OP06-114_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "OP06-114_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -6829,7 +7091,10 @@
     "cost": 1,
     "expansionCode": "P",
     "imageId": "P-053_p2",
-    "id": "P-053_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "P-053_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Nami",
@@ -6852,7 +7117,10 @@
     "cost": 1,
     "expansionCode": "P",
     "imageId": "P-053_p3",
-    "id": "P-053_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "P-053_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Nami",
@@ -6875,7 +7143,10 @@
     "cost": 1,
     "expansionCode": "P",
     "imageId": "P-053_r1",
-    "id": "P-053_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "P-053_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -6898,7 +7169,10 @@
     "cost": 4,
     "expansionCode": "P",
     "imageId": "P-055_p2",
-    "id": "P-055_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "P-055_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -6921,7 +7195,10 @@
     "cost": 4,
     "expansionCode": "P",
     "imageId": "P-055_p3",
-    "id": "P-055_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "P-055_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -6944,7 +7221,10 @@
     "cost": 4,
     "expansionCode": "P",
     "imageId": "P-055_r1",
-    "id": "P-055_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "P-055_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Sanji",
@@ -6968,7 +7248,8 @@
     "abilityKeywords": [
       "[Rush]",
       "[Activate: Main]",
-      "[Once Per Turn]"
+      "[Once Per Turn]",
+      "[On Play]"
     ],
     "expansionCode": "PRB01",
     "imageId": "PRB01-001",
@@ -6996,7 +7277,8 @@
     "abilityKeywords": [
       "[Rush]",
       "[Activate: Main]",
-      "[Once Per Turn]"
+      "[Once Per Turn]",
+      "[On Play]"
     ],
     "expansionCode": "PRB01",
     "imageId": "PRB01-001_p1",
@@ -7590,7 +7872,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-003_p4.png",
     "cost": 9,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "ST04",
     "imageId": "ST04-003_p4",
@@ -7617,7 +7900,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-003_r1.png",
     "cost": 9,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "ST04",
     "imageId": "ST04-003_r1",
@@ -7643,7 +7927,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-005_p3.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "ST04",
     "imageId": "ST04-005_p3",
@@ -7669,7 +7954,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-005_p4.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "ST04",
     "imageId": "ST04-005_p4",
@@ -7695,7 +7981,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-005_r1.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "ST04",
     "imageId": "ST04-005_r1",
@@ -7803,7 +8090,10 @@
     "cost": 2,
     "expansionCode": "ST06",
     "imageId": "ST06-010_p2",
-    "id": "ST06-010_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "ST06-010_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Helmeppo",
@@ -7826,7 +8116,10 @@
     "cost": 2,
     "expansionCode": "ST06",
     "imageId": "ST06-010_p3",
-    "id": "ST06-010_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "ST06-010_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Helmeppo",
@@ -7849,7 +8142,10 @@
     "cost": 2,
     "expansionCode": "ST06",
     "imageId": "ST06-010_r1",
-    "id": "ST06-010_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "ST06-010_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Shockwave",
@@ -8105,7 +8401,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-010_p4.png",
     "cost": 4,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "ST10",
     "imageId": "ST10-010_p4",
@@ -8131,7 +8428,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-010_r1.png",
     "cost": 4,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "ST10",
     "imageId": "ST10-010_r1",
@@ -8157,7 +8455,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST12-014_p2.png",
     "cost": 2,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "ST12",
     "imageId": "ST12-014_p2",
@@ -8183,7 +8482,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST12-014_p3.png",
     "cost": 2,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "ST12",
     "imageId": "ST12-014_p3",
@@ -8209,7 +8509,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST12-014_r1.png",
     "cost": 2,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "ST12",
     "imageId": "ST12-014_r1",

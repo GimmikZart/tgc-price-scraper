@@ -268,7 +268,10 @@
     "cost": 4,
     "expansionCode": "OP13",
     "imageId": "OP13-005",
-    "id": "OP13-005_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-005_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Woop Slap",
@@ -291,7 +294,10 @@
     "cost": 1,
     "expansionCode": "OP13",
     "imageId": "OP13-006",
-    "id": "OP13-006_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-006_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Ace & Sabo & Luffy",
@@ -462,7 +468,10 @@
     "cost": 1,
     "expansionCode": "OP13",
     "imageId": "OP13-012",
-    "id": "OP13-012_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-012_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Higuma",
@@ -485,7 +494,10 @@
     "cost": 1,
     "expansionCode": "OP13",
     "imageId": "OP13-013",
-    "id": "OP13-013_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-013_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Portgas.D.Rouge",
@@ -557,7 +569,10 @@
     "cost": 1,
     "expansionCode": "OP13",
     "imageId": "OP13-016",
-    "id": "OP13-016_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-016_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Monkey.D.Garp",
@@ -580,7 +595,10 @@
     "cost": 1,
     "expansionCode": "OP13",
     "imageId": "OP13-016_p1",
-    "id": "OP13-016_p1_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-016_p1_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Monkey.D.Dragon",
@@ -757,7 +775,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-023.png",
     "cost": 4,
     "abilityKeywords": [
-      "[On K.O.]"
+      "[On K.O.]",
+      "[On Play]"
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-023",
@@ -783,7 +802,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-023_p1.png",
     "cost": 4,
     "abilityKeywords": [
-      "[On K.O.]"
+      "[On K.O.]",
+      "[On Play]"
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-023_p1",
@@ -810,7 +830,10 @@
     "cost": 1,
     "expansionCode": "OP13",
     "imageId": "OP13-024",
-    "id": "OP13-024_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-024_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Koby",
@@ -833,7 +856,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-025.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-025",
@@ -888,7 +912,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-027.png",
     "cost": 5,
     "abilityKeywords": [
-      "[End of Your Turn]"
+      "[End of Your Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-027",
@@ -915,7 +940,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-027_p1.png",
     "cost": 5,
     "abilityKeywords": [
-      "[End of Your Turn]"
+      "[End of Your Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-027_p1",
@@ -944,7 +970,10 @@
     "cost": 10,
     "expansionCode": "OP13",
     "imageId": "OP13-028",
-    "id": "OP13-028_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-028_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Shanks",
@@ -969,7 +998,10 @@
     "cost": 10,
     "expansionCode": "OP13",
     "imageId": "OP13-028_p1",
-    "id": "OP13-028_p1_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-028_p1_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Jinbe",
@@ -1019,7 +1051,10 @@
     "cost": 5,
     "expansionCode": "OP13",
     "imageId": "OP13-030",
-    "id": "OP13-030_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-030_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -1043,7 +1078,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-031.png",
     "cost": 6,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-031",
@@ -1071,7 +1107,10 @@
     "cost": 7,
     "expansionCode": "OP13",
     "imageId": "OP13-032",
-    "id": "OP13-032_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-032_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Franky",
@@ -1122,7 +1161,10 @@
     "cost": 3,
     "expansionCode": "OP13",
     "imageId": "OP13-034",
-    "id": "OP13-034_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-034_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Bepo",
@@ -1198,7 +1240,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-037.png",
     "cost": 4,
     "abilityKeywords": [
-      "[End of Your Turn]"
+      "[End of Your Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-037",
@@ -1309,7 +1352,10 @@
     "cost": 6,
     "expansionCode": "OP13",
     "imageId": "OP13-041",
-    "id": "OP13-041_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-041_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Edward.Newgate",
@@ -1332,7 +1378,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-042.png",
     "cost": 10,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-042",
@@ -1359,7 +1406,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-042_p1.png",
     "cost": 10,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-042_p1",
@@ -1386,7 +1434,10 @@
     "cost": 1,
     "expansionCode": "OP13",
     "imageId": "OP13-043",
-    "id": "OP13-043_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-043_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Curiel",
@@ -1558,7 +1609,10 @@
     "cost": 2,
     "expansionCode": "OP13",
     "imageId": "OP13-050",
-    "id": "OP13-050_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-050_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Boa Hancock",
@@ -1634,7 +1688,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-052.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-052",
@@ -1688,7 +1743,10 @@
     "cost": 5,
     "expansionCode": "OP13",
     "imageId": "OP13-054",
-    "id": "OP13-054_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-054_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Yamato",
@@ -1711,7 +1769,10 @@
     "cost": 5,
     "expansionCode": "OP13",
     "imageId": "OP13-054_p1",
-    "id": "OP13-054_p1_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-054_p1_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Rakuyo",
@@ -1893,7 +1954,10 @@
     "cost": 3,
     "expansionCode": "OP13",
     "imageId": "OP13-061",
-    "id": "OP13-061_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-061_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Crocus",
@@ -1915,7 +1979,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-062.png",
     "cost": 5,
     "abilityKeywords": [
-      "[When Attacking]"
+      "[When Attacking]",
+      "[On Play]"
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-062",
@@ -1943,7 +2008,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-063.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-063",
@@ -1971,7 +2037,10 @@
     "cost": 10,
     "expansionCode": "OP13",
     "imageId": "OP13-064",
-    "id": "OP13-064_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-064_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Gol.D.Roger",
@@ -1995,7 +2064,10 @@
     "cost": 10,
     "expansionCode": "OP13",
     "imageId": "OP13-064_p1",
-    "id": "OP13-064_p1_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-064_p1_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Shanks",
@@ -2018,7 +2090,10 @@
     "cost": 1,
     "expansionCode": "OP13",
     "imageId": "OP13-065",
-    "id": "OP13-065_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-065_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Shanks",
@@ -2041,7 +2116,10 @@
     "cost": 1,
     "expansionCode": "OP13",
     "imageId": "OP13-065_p1",
-    "id": "OP13-065_p1_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-065_p1_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Silvers Rayleigh",
@@ -2063,7 +2141,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-066.png",
     "cost": 8,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-066",
@@ -2089,7 +2168,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-066_p1.png",
     "cost": 8,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-066_p1",
@@ -2116,7 +2196,10 @@
     "cost": 6,
     "expansionCode": "OP13",
     "imageId": "OP13-067",
-    "id": "OP13-067_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-067_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Douglas Bullet",
@@ -2140,7 +2223,10 @@
     "cost": 3,
     "expansionCode": "OP13",
     "imageId": "OP13-068",
-    "id": "OP13-068_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-068_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Tom",
@@ -2164,7 +2250,10 @@
     "cost": 2,
     "expansionCode": "OP13",
     "imageId": "OP13-069",
-    "id": "OP13-069_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-069_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Napoleon",
@@ -2212,7 +2301,10 @@
     "cost": 3,
     "expansionCode": "OP13",
     "imageId": "OP13-071",
-    "id": "OP13-071_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-071_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Buggy",
@@ -2235,7 +2327,10 @@
     "cost": 2,
     "expansionCode": "OP13",
     "imageId": "OP13-072",
-    "id": "OP13-072_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-072_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Prometheus",
@@ -2283,7 +2378,10 @@
     "cost": 4,
     "expansionCode": "OP13",
     "imageId": "OP13-074",
-    "id": "OP13-074_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-074_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Guess We'll Have Another Scrap. You Can Only Risk Death While You're Still Alive!!",
@@ -2664,7 +2762,10 @@
     "cost": 4,
     "expansionCode": "OP13",
     "imageId": "OP13-083",
-    "id": "OP13-083_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-083_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "St. Jaygarcia Saturn",
@@ -2688,7 +2789,10 @@
     "cost": 4,
     "expansionCode": "OP13",
     "imageId": "OP13-083_p1",
-    "id": "OP13-083_p1_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-083_p1_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "St. Jaygarcia Saturn",
@@ -2712,7 +2816,10 @@
     "cost": 4,
     "expansionCode": "OP13",
     "imageId": "OP13-083_p2",
-    "id": "OP13-083_p2_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-083_p2_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "St. Shepherd Ju Peter",
@@ -2839,7 +2946,10 @@
     "cost": 1,
     "expansionCode": "OP13",
     "imageId": "OP13-086",
-    "id": "OP13-086_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-086_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Saint Charlos",
@@ -2861,7 +2971,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-087.png",
     "cost": 2,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-087",
@@ -3020,7 +3131,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-091.png",
     "cost": 6,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-091",
@@ -3047,7 +3159,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-091_p1.png",
     "cost": 6,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-091_p1",
@@ -3074,7 +3187,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-091_p2.png",
     "cost": 6,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-091_p2",
@@ -3101,7 +3215,10 @@
     "cost": 2,
     "expansionCode": "OP13",
     "imageId": "OP13-092",
-    "id": "OP13-092_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-092_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Morgans",
@@ -3123,7 +3240,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-093.png",
     "cost": 3,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-093",
@@ -3151,7 +3269,10 @@
     "cost": 1,
     "expansionCode": "OP13",
     "imageId": "OP13-094",
-    "id": "OP13-094_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-094_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Saint Rosward",
@@ -3174,7 +3295,10 @@
     "cost": 3,
     "expansionCode": "OP13",
     "imageId": "OP13-095",
-    "id": "OP13-095_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-095_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "The Five Elders Are at Your Service!!!",
@@ -3468,7 +3592,10 @@
     "cost": 3,
     "expansionCode": "OP13",
     "imageId": "OP13-105",
-    "id": "OP13-105_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-105_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Conney",
@@ -3543,7 +3670,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-108.png",
     "cost": 9,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-108",
@@ -3570,7 +3698,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-108_p1.png",
     "cost": 9,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-108_p1",
@@ -3622,7 +3751,8 @@
     "cost": 7,
     "abilityKeywords": [
       "[Blocker]",
-      "[Trigger]"
+      "[Trigger]",
+      "[On Play]"
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-110",
@@ -3650,7 +3780,8 @@
     "cost": 7,
     "abilityKeywords": [
       "[Blocker]",
-      "[Trigger]"
+      "[Trigger]",
+      "[On Play]"
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-110_p1",
@@ -3728,7 +3859,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-113.png",
     "cost": 1,
     "abilityKeywords": [
-      "[Trigger]"
+      "[Trigger]",
+      "[On Play]"
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-113",
@@ -3755,7 +3887,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-113_p1.png",
     "cost": 1,
     "abilityKeywords": [
-      "[Trigger]"
+      "[Trigger]",
+      "[On Play]"
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-113_p1",
@@ -3782,7 +3915,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-114.png",
     "cost": 4,
     "abilityKeywords": [
-      "[When Attacking]"
+      "[When Attacking]",
+      "[On Play]"
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-114",
@@ -3809,7 +3943,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-114_p1.png",
     "cost": 4,
     "abilityKeywords": [
-      "[When Attacking]"
+      "[When Attacking]",
+      "[On Play]"
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-114_p1",
@@ -3919,7 +4054,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-118.png",
     "cost": 6,
     "abilityKeywords": [
-      "[Double Attack]"
+      "[Double Attack]",
+      "[On Play]"
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-118",
@@ -3947,7 +4083,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-118_p1.png",
     "cost": 6,
     "abilityKeywords": [
-      "[Double Attack]"
+      "[Double Attack]",
+      "[On Play]"
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-118_p1",
@@ -3975,7 +4112,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-118_p2.png",
     "cost": 6,
     "abilityKeywords": [
-      "[Double Attack]"
+      "[Double Attack]",
+      "[On Play]"
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-118_p2",
@@ -4003,7 +4141,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-118_p3.png",
     "cost": 6,
     "abilityKeywords": [
-      "[Double Attack]"
+      "[Double Attack]",
+      "[On Play]"
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-118_p3",
@@ -4029,7 +4168,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-119.png",
     "cost": 6,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-119",
@@ -4055,7 +4195,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-119_p1.png",
     "cost": 6,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-119_p1",
@@ -4081,7 +4222,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-119_p2.png",
     "cost": 6,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-119_p2",
@@ -4107,7 +4249,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-119_p3.png",
     "cost": 6,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-119_p3",
@@ -4251,7 +4394,10 @@
     "cost": 5,
     "expansionCode": "EB02",
     "imageId": "EB02-028_p1",
-    "id": "EB02-028_p1_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "EB02-028_p1_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Lilith",
@@ -4275,7 +4421,10 @@
     "cost": 3,
     "expansionCode": "OP07",
     "imageId": "OP07-111_p2",
-    "id": "OP07-111_p2_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP07-111_p2_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Sabo",
@@ -4298,7 +4447,10 @@
     "cost": 8,
     "expansionCode": "OP07",
     "imageId": "OP07-118_p2",
-    "id": "OP07-118_p2_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP07-118_p2_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Shanks",
@@ -4375,7 +4527,10 @@
     "cost": 7,
     "expansionCode": "OP09",
     "imageId": "OP09-009_p3",
-    "id": "OP09-009_p3_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP09-009_p3_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Gol.D.Roger",
@@ -4425,7 +4580,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-119_p3.png",
     "cost": 9,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-119_p3",
@@ -4481,7 +4637,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-118_p4.png",
     "cost": 6,
     "abilityKeywords": [
-      "[Double Attack]"
+      "[Double Attack]",
+      "[On Play]"
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-118_p4",
@@ -4507,7 +4664,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-119_p4.png",
     "cost": 6,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-119_p4",

@@ -95,7 +95,10 @@
     "cost": 1,
     "expansionCode": "OP03",
     "imageId": "OP03-003",
-    "id": "OP03-003_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-003_PILLARS_OF_STRENGTH_[OP03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Curiel",
@@ -219,7 +222,10 @@
     "cost": 1,
     "expansionCode": "OP03",
     "imageId": "OP03-008",
-    "id": "OP03-008_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-008_PILLARS_OF_STRENGTH_[OP03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Haruta",
@@ -348,7 +354,8 @@
     "cost": 5,
     "abilityKeywords": [
       "[On K.O.]",
-      "[Your Turn]"
+      "[Your Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-013",
@@ -375,7 +382,8 @@
     "cost": 5,
     "abilityKeywords": [
       "[On K.O.]",
-      "[Your Turn]"
+      "[Your Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-013_p1",
@@ -754,7 +762,10 @@
     "cost": 4,
     "expansionCode": "OP03",
     "imageId": "OP03-024",
-    "id": "OP03-024_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-024_PILLARS_OF_STRENGTH_[OP03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Gin",
@@ -778,7 +789,10 @@
     "cost": 4,
     "expansionCode": "OP03",
     "imageId": "OP03-024_p1",
-    "id": "OP03-024_p1_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-024_p1_PILLARS_OF_STRENGTH_[OP03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Krieg",
@@ -802,7 +816,8 @@
     "cost": 6,
     "abilityKeywords": [
       "[Double Attack]",
-      "[DON!! x1]"
+      "[DON!! x1]",
+      "[On Play]"
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-025",
@@ -830,7 +845,8 @@
     "cost": 6,
     "abilityKeywords": [
       "[Double Attack]",
-      "[DON!! x1]"
+      "[DON!! x1]",
+      "[On Play]"
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-025_p1",
@@ -859,7 +875,10 @@
     "cost": 4,
     "expansionCode": "OP03",
     "imageId": "OP03-026",
-    "id": "OP03-026_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-026_PILLARS_OF_STRENGTH_[OP03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Sham",
@@ -883,7 +902,10 @@
     "cost": 3,
     "expansionCode": "OP03",
     "imageId": "OP03-027",
-    "id": "OP03-027_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-027_PILLARS_OF_STRENGTH_[OP03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Jango",
@@ -907,7 +929,10 @@
     "cost": 5,
     "expansionCode": "OP03",
     "imageId": "OP03-028",
-    "id": "OP03-028_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-028_PILLARS_OF_STRENGTH_[OP03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Chew",
@@ -932,7 +957,10 @@
     "cost": 4,
     "expansionCode": "OP03",
     "imageId": "OP03-029",
-    "id": "OP03-029_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-029_PILLARS_OF_STRENGTH_[OP03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Nami",
@@ -956,7 +984,10 @@
     "cost": 2,
     "expansionCode": "OP03",
     "imageId": "OP03-030",
-    "id": "OP03-030_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-030_PILLARS_OF_STRENGTH_[OP03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Pearl",
@@ -1056,7 +1087,10 @@
     "cost": 4,
     "expansionCode": "OP03",
     "imageId": "OP03-034",
-    "id": "OP03-034_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-034_PILLARS_OF_STRENGTH_[OP03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Momoo",
@@ -1318,7 +1352,10 @@
     "cost": 1,
     "expansionCode": "OP03",
     "imageId": "OP03-042",
-    "id": "OP03-042_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-042_PILLARS_OF_STRENGTH_[OP03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Gaimon",
@@ -1364,7 +1401,10 @@
     "cost": 1,
     "expansionCode": "OP03",
     "imageId": "OP03-044",
-    "id": "OP03-044_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-044_PILLARS_OF_STRENGTH_[OP03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Carne",
@@ -1436,7 +1476,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-047.png",
     "cost": 5,
     "abilityKeywords": [
-      "[DON!! x1]"
+      "[DON!! x1]",
+      "[On Play]"
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-047",
@@ -1462,7 +1503,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-047_p1.png",
     "cost": 5,
     "abilityKeywords": [
-      "[DON!! x1]"
+      "[DON!! x1]",
+      "[On Play]"
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-047_p1",
@@ -1489,7 +1531,10 @@
     "cost": 2,
     "expansionCode": "OP03",
     "imageId": "OP03-048",
-    "id": "OP03-048_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-048_PILLARS_OF_STRENGTH_[OP03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Patty",
@@ -1512,7 +1557,10 @@
     "cost": 3,
     "expansionCode": "OP03",
     "imageId": "OP03-049",
-    "id": "OP03-049_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-049_PILLARS_OF_STRENGTH_[OP03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Boodle",
@@ -1880,7 +1928,10 @@
     "cost": 1,
     "expansionCode": "OP03",
     "imageId": "OP03-062",
-    "id": "OP03-062_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-062_PILLARS_OF_STRENGTH_[OP03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Zambai",
@@ -1903,7 +1954,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-063.png",
     "cost": 3,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-063",
@@ -1985,7 +2037,10 @@
     "cost": 5,
     "expansionCode": "OP03",
     "imageId": "OP03-066",
-    "id": "OP03-066_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-066_PILLARS_OF_STRENGTH_[OP03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Paulie",
@@ -2009,7 +2064,10 @@
     "cost": 5,
     "expansionCode": "OP03",
     "imageId": "OP03-066_p1",
-    "id": "OP03-066_p1_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-066_p1_PILLARS_OF_STRENGTH_[OP03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Peepley Lulu",
@@ -2115,7 +2173,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-070.png",
     "cost": 6,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-070",
@@ -2389,7 +2448,8 @@
     "cost": 8,
     "abilityKeywords": [
       "[Your Turn]",
-      "[DON!! x1]"
+      "[DON!! x1]",
+      "[On Play]"
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-078",
@@ -2416,7 +2476,8 @@
     "cost": 8,
     "abilityKeywords": [
       "[Your Turn]",
-      "[DON!! x1]"
+      "[DON!! x1]",
+      "[On Play]"
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-078_p1",
@@ -2470,7 +2531,10 @@
     "cost": 5,
     "expansionCode": "OP03",
     "imageId": "OP03-080",
-    "id": "OP03-080_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-080_PILLARS_OF_STRENGTH_[OP03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Kaku",
@@ -2493,7 +2557,10 @@
     "cost": 5,
     "expansionCode": "OP03",
     "imageId": "OP03-080_p1",
-    "id": "OP03-080_p1_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-080_p1_PILLARS_OF_STRENGTH_[OP03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Kalifa",
@@ -2516,7 +2583,10 @@
     "cost": 4,
     "expansionCode": "OP03",
     "imageId": "OP03-081",
-    "id": "OP03-081_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-081_PILLARS_OF_STRENGTH_[OP03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Kalifa",
@@ -2539,7 +2609,10 @@
     "cost": 4,
     "expansionCode": "OP03",
     "imageId": "OP03-081_p1",
-    "id": "OP03-081_p1_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-081_p1_PILLARS_OF_STRENGTH_[OP03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Kumadori",
@@ -2585,7 +2658,10 @@
     "cost": 1,
     "expansionCode": "OP03",
     "imageId": "OP03-083",
-    "id": "OP03-083_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-083_PILLARS_OF_STRENGTH_[OP03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Jerry",
@@ -2654,7 +2730,10 @@
     "cost": 1,
     "expansionCode": "OP03",
     "imageId": "OP03-086",
-    "id": "OP03-086_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-086_PILLARS_OF_STRENGTH_[OP03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Spandam",
@@ -2677,7 +2756,10 @@
     "cost": 1,
     "expansionCode": "OP03",
     "imageId": "OP03-086_p1",
-    "id": "OP03-086_p1_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-086_p1_PILLARS_OF_STRENGTH_[OP03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Nero",
@@ -2749,7 +2831,10 @@
     "cost": 2,
     "expansionCode": "OP03",
     "imageId": "OP03-089",
-    "id": "OP03-089_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-089_PILLARS_OF_STRENGTH_[OP03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Blueno",
@@ -2800,7 +2885,10 @@
     "cost": 1,
     "expansionCode": "OP03",
     "imageId": "OP03-091",
-    "id": "OP03-091_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-091_PILLARS_OF_STRENGTH_[OP03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Rob Lucci",
@@ -2822,7 +2910,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-092.png",
     "cost": 6,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-092",
@@ -2848,7 +2937,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-092_p1.png",
     "cost": 6,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-092_p1",
@@ -2875,7 +2965,10 @@
     "cost": 2,
     "expansionCode": "OP03",
     "imageId": "OP03-093",
-    "id": "OP03-093_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-093_PILLARS_OF_STRENGTH_[OP03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Air Door",
@@ -3178,7 +3271,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-104.png",
     "cost": 3,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-104",
@@ -3336,7 +3430,10 @@
     "cost": 2,
     "expansionCode": "OP03",
     "imageId": "OP03-109",
-    "id": "OP03-109_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-109_PILLARS_OF_STRENGTH_[OP03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Charlotte Smoothie",
@@ -3409,7 +3506,10 @@
     "cost": 1,
     "expansionCode": "OP03",
     "imageId": "OP03-112",
-    "id": "OP03-112_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-112_PILLARS_OF_STRENGTH_[OP03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Charlotte Pudding",
@@ -3432,7 +3532,10 @@
     "cost": 1,
     "expansionCode": "OP03",
     "imageId": "OP03-112_p1",
-    "id": "OP03-112_p1_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-112_p1_PILLARS_OF_STRENGTH_[OP03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Charlotte Perospero",
@@ -3508,7 +3611,10 @@
     "cost": 10,
     "expansionCode": "OP03",
     "imageId": "OP03-114",
-    "id": "OP03-114_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-114_PILLARS_OF_STRENGTH_[OP03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Charlotte Linlin",
@@ -3532,7 +3638,10 @@
     "cost": 10,
     "expansionCode": "OP03",
     "imageId": "OP03-114_p1",
-    "id": "OP03-114_p1_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-114_p1_PILLARS_OF_STRENGTH_[OP03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Streusen",
@@ -3554,7 +3663,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-115.png",
     "cost": 1,
     "abilityKeywords": [
-      "[Trigger]"
+      "[Trigger]",
+      "[On Play]"
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-115",
@@ -3581,7 +3691,10 @@
     "cost": 5,
     "expansionCode": "OP03",
     "imageId": "OP03-116",
-    "id": "OP03-116_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-116_PILLARS_OF_STRENGTH_[OP03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Napoleon",
@@ -3737,7 +3850,10 @@
     "cost": 7,
     "expansionCode": "OP03",
     "imageId": "OP03-122",
-    "id": "OP03-122_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-122_PILLARS_OF_STRENGTH_[OP03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Sogeking",
@@ -3760,7 +3876,10 @@
     "cost": 7,
     "expansionCode": "OP03",
     "imageId": "OP03-122_p1",
-    "id": "OP03-122_p1_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-122_p1_PILLARS_OF_STRENGTH_[OP03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Sogeking",
@@ -3783,7 +3902,10 @@
     "cost": 7,
     "expansionCode": "OP03",
     "imageId": "OP03-122_p2",
-    "id": "OP03-122_p2_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-122_p2_PILLARS_OF_STRENGTH_[OP03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Charlotte Katakuri",
@@ -3806,7 +3928,10 @@
     "cost": 8,
     "expansionCode": "OP03",
     "imageId": "OP03-123",
-    "id": "OP03-123_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-123_PILLARS_OF_STRENGTH_[OP03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Charlotte Katakuri",
@@ -3829,7 +3954,10 @@
     "cost": 8,
     "expansionCode": "OP03",
     "imageId": "OP03-123_p1",
-    "id": "OP03-123_p1_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-123_p1_PILLARS_OF_STRENGTH_[OP03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -3913,7 +4041,10 @@
     "cost": 7,
     "expansionCode": "ST03",
     "imageId": "ST03-009_p1",
-    "id": "ST03-009_p1_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "ST03-009_p1_PILLARS_OF_STRENGTH_[OP03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Kaido",
@@ -3936,7 +4067,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-003_p1.png",
     "cost": 9,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "ST04",
     "imageId": "ST04-003_p1",

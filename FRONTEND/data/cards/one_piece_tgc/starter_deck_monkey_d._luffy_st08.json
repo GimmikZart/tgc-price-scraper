@@ -121,7 +121,10 @@
     "cost": 9,
     "expansionCode": "ST08",
     "imageId": "ST08-005",
-    "id": "ST08-005_Monkey_D_Luffy_[ST-08]"
+    "id": "ST08-005_Monkey_D_Luffy_[ST-08]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Shirahoshi",
@@ -143,7 +146,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST08-006.png",
     "cost": 4,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "ST08",
     "imageId": "ST08-006",
@@ -196,7 +200,10 @@
     "cost": 1,
     "expansionCode": "ST08",
     "imageId": "ST08-008",
-    "id": "ST08-008_Monkey_D_Luffy_[ST-08]"
+    "id": "ST08-008_Monkey_D_Luffy_[ST-08]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Makino",
@@ -219,7 +226,10 @@
     "cost": 2,
     "expansionCode": "ST08",
     "imageId": "ST08-009",
-    "id": "ST08-009_Monkey_D_Luffy_[ST-08]"
+    "id": "ST08-009_Monkey_D_Luffy_[ST-08]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Monkey.D.Garp",

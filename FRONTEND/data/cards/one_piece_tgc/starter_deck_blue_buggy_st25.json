@@ -97,7 +97,10 @@
     "cost": 10,
     "expansionCode": "OP09",
     "imageId": "OP09-051_r1",
-    "id": "OP09-051_r1_BLUE_Buggy_[ST-25]"
+    "id": "OP09-051_r1_BLUE_Buggy_[ST-25]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Mohji",
@@ -120,7 +123,10 @@
     "cost": 5,
     "expansionCode": "OP09",
     "imageId": "OP09-053_r1",
-    "id": "OP09-053_r1_BLUE_Buggy_[ST-25]"
+    "id": "OP09-053_r1_BLUE_Buggy_[ST-25]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Richie",
@@ -195,7 +201,10 @@
     "cost": 1,
     "expansionCode": "OP09",
     "imageId": "OP09-056_r1",
-    "id": "OP09-056_r1_BLUE_Buggy_[ST-25]"
+    "id": "OP09-056_r1_BLUE_Buggy_[ST-25]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Cross Guild",
@@ -245,7 +254,10 @@
     "cost": 7,
     "expansionCode": "P",
     "imageId": "P-084",
-    "id": "P-084_BLUE_Buggy_[ST-25]"
+    "id": "P-084_BLUE_Buggy_[ST-25]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Alvida",
@@ -268,7 +280,10 @@
     "cost": 4,
     "expansionCode": "ST25",
     "imageId": "ST25-001",
-    "id": "ST25-001_BLUE_Buggy_[ST-25]"
+    "id": "ST25-001_BLUE_Buggy_[ST-25]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Cabaji",
@@ -318,7 +333,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST25-003.png",
     "cost": 8,
     "abilityKeywords": [
-      "[Once Per Turn]"
+      "[Once Per Turn]",
+      "[On Play]"
     ],
     "expansionCode": "ST25",
     "imageId": "ST25-003",

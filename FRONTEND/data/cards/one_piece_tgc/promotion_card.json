@@ -49,7 +49,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-012_p3.png",
     "cost": 5,
     "abilityKeywords": [
-      "[When Attacking]"
+      "[When Attacking]",
+      "[On Play]"
     ],
     "expansionCode": "EB01",
     "imageId": "EB01-012_p3",
@@ -77,7 +78,10 @@
     "cost": 1,
     "expansionCode": "EB01",
     "imageId": "EB01-015_p1",
-    "id": "EB01-015_p1_Card_SetsTournament_Kit_2025_Vol2"
+    "id": "EB01-015_p1_Card_SetsTournament_Kit_2025_Vol2",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Scratchmen Apoo",
@@ -101,7 +105,10 @@
     "cost": 1,
     "expansionCode": "EB01",
     "imageId": "EB01-015_p2",
-    "id": "EB01-015_p2_Card_SetsWinner_Pack_2025_Vol2"
+    "id": "EB01-015_p2_Card_SetsWinner_Pack_2025_Vol2",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Spandine",
@@ -124,7 +131,10 @@
     "cost": 3,
     "expansionCode": "EB01",
     "imageId": "EB01-043_p1",
-    "id": "EB01-043_p1_Card_SetsOffline_Regional_Participation_Pack_2025_Vol1"
+    "id": "EB01-043_p1_Card_SetsOffline_Regional_Participation_Pack_2025_Vol1",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Spandine",
@@ -147,7 +157,10 @@
     "cost": 3,
     "expansionCode": "EB01",
     "imageId": "EB01-043_p2",
-    "id": "EB01-043_p2_Card_SetsOffline_Regional_Finalist_Card_Set_25_26_Season_1"
+    "id": "EB01-043_p2_Card_SetsOffline_Regional_Finalist_Card_Set_25_26_Season_1",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Spandine",
@@ -170,7 +183,10 @@
     "cost": 3,
     "expansionCode": "EB01",
     "imageId": "EB01-043_p3",
-    "id": "EB01-043_p3_Card_SetsOffline_Regional_Champion_Card_Set_25_26_Season_1"
+    "id": "EB01-043_p3_Card_SetsOffline_Regional_Champion_Card_Set_25_26_Season_1",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Spandine",
@@ -193,7 +209,10 @@
     "cost": 3,
     "expansionCode": "EB01",
     "imageId": "EB01-043_p4",
-    "id": "EB01-043_p4_Card_SetsOnline_Regional_Participation_Pack_25_26_Season_1"
+    "id": "EB01-043_p4_Card_SetsOnline_Regional_Participation_Pack_25_26_Season_1",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Spandine",
@@ -216,7 +235,10 @@
     "cost": 3,
     "expansionCode": "EB01",
     "imageId": "EB01-043_p5",
-    "id": "EB01-043_p5_Card_SetsOnline_Regional_Finalist_Card_Set_25_26_Season_1"
+    "id": "EB01-043_p5_Card_SetsOnline_Regional_Finalist_Card_Set_25_26_Season_1",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Spandine",
@@ -239,7 +261,10 @@
     "cost": 3,
     "expansionCode": "EB01",
     "imageId": "EB01-043_p6",
-    "id": "EB01-043_p6_Card_SetsOnline_Regional_Champion_Card_Set_25_26_Season_1"
+    "id": "EB01-043_p6_Card_SetsOnline_Regional_Champion_Card_Set_25_26_Season_1",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -263,7 +288,10 @@
     "cost": 4,
     "expansionCode": "EB02",
     "imageId": "EB02-019_p1",
-    "id": "EB02-019_p1_Card_SetsTournament_Pack_2025_Vol_3"
+    "id": "EB02-019_p1_Card_SetsTournament_Pack_2025_Vol_3",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -287,7 +315,10 @@
     "cost": 4,
     "expansionCode": "EB02",
     "imageId": "EB02-019_p2",
-    "id": "EB02-019_p2_Card_SetsWinner_Pack_2025_Vol_3"
+    "id": "EB02-019_p2_Card_SetsWinner_Pack_2025_Vol_3",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Jinbe",
@@ -413,7 +444,10 @@
     "cost": 3,
     "expansionCode": "OP01",
     "imageId": "OP01-033_p1",
-    "id": "OP01-033_p1_Card_SetsTournament_Pack_Vol2"
+    "id": "OP01-033_p1_Card_SetsTournament_Pack_Vol2",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Okiku",
@@ -520,7 +554,10 @@
     "cost": 9,
     "expansionCode": "OP01",
     "imageId": "OP01-070_p2",
-    "id": "OP01-070_p2_Card_SetsTreasure_Cup_August__September"
+    "id": "OP01-070_p2_Card_SetsTreasure_Cup_August__September",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Sasaki",
@@ -654,7 +691,10 @@
     "cost": 1,
     "expansionCode": "OP02",
     "imageId": "OP02-063_p1",
-    "id": "OP02-063_p1_Card_SetsOffline_Regional_Participation_Pack_2024_Vol_3"
+    "id": "OP02-063_p1_Card_SetsOffline_Regional_Participation_Pack_2024_Vol_3",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Koby",
@@ -677,7 +717,10 @@
     "cost": 3,
     "expansionCode": "OP02",
     "imageId": "OP02-098_p1",
-    "id": "OP02-098_p1_Card_SetsIncluded_in_Online_Regional_Participation_Pack_Vol1"
+    "id": "OP02-098_p1_Card_SetsIncluded_in_Online_Regional_Participation_Pack_Vol1",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Tsuru",
@@ -700,7 +743,10 @@
     "cost": 1,
     "expansionCode": "OP02",
     "imageId": "OP02-106_p1",
-    "id": "OP02-106_p1_Card_SetsIncluded_in_Event_Pack_Vol2"
+    "id": "OP02-106_p1_Card_SetsIncluded_in_Event_Pack_Vol2",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Hatchan",
@@ -748,7 +794,10 @@
     "cost": 1,
     "expansionCode": "OP03",
     "imageId": "OP03-044_p1",
-    "id": "OP03-044_p1_Card_SetsTournament_Pack_Vol6"
+    "id": "OP03-044_p1_Card_SetsTournament_Pack_Vol6",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Fukurou",
@@ -797,7 +846,10 @@
     "cost": 2,
     "expansionCode": "OP03",
     "imageId": "OP03-089_p1",
-    "id": "OP03-089_p1_Card_SetsOffline_Regional_Participation_Pack_2024_Vol_1"
+    "id": "OP03-089_p1_Card_SetsOffline_Regional_Participation_Pack_2024_Vol_1",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Sanji",
@@ -847,7 +899,10 @@
     "cost": 1,
     "expansionCode": "OP03",
     "imageId": "OP03-112_p2",
-    "id": "OP03-112_p2_Card_SetsRegional_2024_wave2"
+    "id": "OP03-112_p2_Card_SetsRegional_2024_wave2",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Charlotte Pudding",
@@ -870,7 +925,10 @@
     "cost": 1,
     "expansionCode": "OP03",
     "imageId": "OP03-112_p3",
-    "id": "OP03-112_p3_Card_SetsTournament_Pack_2024_Oct_Dec"
+    "id": "OP03-112_p3_Card_SetsTournament_Pack_2024_Oct_Dec",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Charlotte Linlin",
@@ -894,7 +952,10 @@
     "cost": 10,
     "expansionCode": "OP03",
     "imageId": "OP03-114_p3",
-    "id": "OP03-114_p3_Card_SetsRegional_2024_wave2"
+    "id": "OP03-114_p3_Card_SetsRegional_2024_wave2",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Shirahoshi",
@@ -917,7 +978,10 @@
     "cost": 5,
     "expansionCode": "OP03",
     "imageId": "OP03-116_p1",
-    "id": "OP03-116_p1_Card_SetsTournament_Pack_Vol6"
+    "id": "OP03-116_p1_Card_SetsTournament_Pack_Vol6",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Shirahoshi",
@@ -940,7 +1004,10 @@
     "cost": 5,
     "expansionCode": "OP03",
     "imageId": "OP03-116_p2",
-    "id": "OP03-116_p2_Card_SetsRegionals_Wave_3"
+    "id": "OP03-116_p2_Card_SetsRegionals_Wave_3",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Shirahoshi",
@@ -963,7 +1030,10 @@
     "cost": 5,
     "expansionCode": "OP03",
     "imageId": "OP03-116_p3",
-    "id": "OP03-116_p3_Card_SetsST15_20_Release_Event"
+    "id": "OP03-116_p3_Card_SetsST15_20_Release_Event",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Charlotte Katakuri",
@@ -986,7 +1056,10 @@
     "cost": 8,
     "expansionCode": "OP03",
     "imageId": "OP03-123_p2",
-    "id": "OP03-123_p2_Card_SetsRegional_2024_wave2"
+    "id": "OP03-123_p2_Card_SetsRegional_2024_wave2",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Tony Tony.Chopper",
@@ -1011,7 +1084,10 @@
     "cost": 3,
     "expansionCode": "OP04",
     "imageId": "OP04-010_p1",
-    "id": "OP04-010_p1_Card_SetsTournament_Pack_2024_Oct_Dec"
+    "id": "OP04-010_p1_Card_SetsTournament_Pack_2024_Oct_Dec",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Sabo",
@@ -1034,7 +1110,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-083_p3.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-083_p3",
@@ -1061,7 +1138,10 @@
     "cost": 1,
     "expansionCode": "OP04",
     "imageId": "OP04-092_p1",
-    "id": "OP04-092_p1_Card_SetsTournament_Kit_2025_Vol2"
+    "id": "OP04-092_p1_Card_SetsTournament_Kit_2025_Vol2",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Rebecca",
@@ -1084,7 +1164,10 @@
     "cost": 1,
     "expansionCode": "OP04",
     "imageId": "OP04-092_p2",
-    "id": "OP04-092_p2_Card_SetsWinner_Pack_2025_Vol2"
+    "id": "OP04-092_p2_Card_SetsWinner_Pack_2025_Vol2",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Monet",
@@ -1212,7 +1295,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-091_p3.png",
     "cost": 4,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-091_p3",
@@ -1240,7 +1324,10 @@
     "cost": 2,
     "expansionCode": "OP05",
     "imageId": "OP05-106_p1",
-    "id": "OP05-106_p1_Card_SetsTournament_Pack_Vol7"
+    "id": "OP05-106_p1_Card_SetsTournament_Pack_Vol7",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Vinsmoke Reiju",
@@ -1264,7 +1351,10 @@
     "cost": 4,
     "expansionCode": "OP06",
     "imageId": "OP06-069_p2",
-    "id": "OP06-069_p2_Card_SetsTreasure_Cup_November_December"
+    "id": "OP06-069_p2_Card_SetsTreasure_Cup_November_December",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Perona",
@@ -1287,7 +1377,10 @@
     "cost": 4,
     "expansionCode": "OP06",
     "imageId": "OP06-093_p3",
-    "id": "OP06-093_p3_Card_SetsTreasure_Cup_August__September"
+    "id": "OP06-093_p3_Card_SetsTreasure_Cup_August__September",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Perona",
@@ -1310,7 +1403,10 @@
     "cost": 4,
     "expansionCode": "OP06",
     "imageId": "OP06-093_p4",
-    "id": "OP06-093_p4_Card_SetsStore_Treasure_Cup_August__September_2024"
+    "id": "OP06-093_p4_Card_SetsStore_Treasure_Cup_August__September_2024",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "O-Nami",
@@ -1332,7 +1428,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-101_p3.png",
     "cost": 2,
     "abilityKeywords": [
-      "[Banish]"
+      "[Banish]",
+      "[On Play]"
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-101_p3",
@@ -1556,7 +1653,10 @@
     "cost": 4,
     "expansionCode": "OP07",
     "imageId": "OP07-040_p1",
-    "id": "OP07-040_p1_Card_SetsST15_20_Release_Event"
+    "id": "OP07-040_p1_Card_SetsST15_20_Release_Event",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Portgas.D.Ace",
@@ -1578,7 +1678,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-053_p1.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP07",
     "imageId": "OP07-053_p1",
@@ -1632,7 +1733,10 @@
     "cost": 4,
     "expansionCode": "OP07",
     "imageId": "OP07-100_p1",
-    "id": "OP07-100_p1_Card_SetsTournament_Pack_2024_Oct_Dec"
+    "id": "OP07-100_p1_Card_SetsTournament_Pack_2024_Oct_Dec",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -1678,7 +1782,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-119_p2.png",
     "cost": 10,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP07",
     "imageId": "OP07-119_p2",
@@ -1784,7 +1889,10 @@
     "cost": 4,
     "expansionCode": "OP08",
     "imageId": "OP08-110_p2",
-    "id": "OP08-110_p2_Card_SetsTournament_Kit_2025_Vol2"
+    "id": "OP08-110_p2_Card_SetsTournament_Kit_2025_Vol2",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Wyper",
@@ -1808,7 +1916,10 @@
     "cost": 4,
     "expansionCode": "OP08",
     "imageId": "OP08-110_p3",
-    "id": "OP08-110_p3_Card_SetsWinner_Pack_2025_Vol2"
+    "id": "OP08-110_p3_Card_SetsWinner_Pack_2025_Vol2",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Uta",
@@ -1831,7 +1942,10 @@
     "cost": 1,
     "expansionCode": "OP09",
     "imageId": "OP09-002_p2",
-    "id": "OP09-002_p2_Card_SetsTreasure_Cup_February_2025"
+    "id": "OP09-002_p2_Card_SetsTreasure_Cup_February_2025",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Hongo",
@@ -1931,7 +2045,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-065_p2.png",
     "cost": 7,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-065_p2",
@@ -1958,7 +2073,10 @@
     "cost": 3,
     "expansionCode": "OP09",
     "imageId": "OP09-076_p1",
-    "id": "OP09-076_p1_Card_SetsRegional_25_26_Season1"
+    "id": "OP09-076_p1_Card_SetsRegional_25_26_Season1",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Nico Olvia",
@@ -1981,7 +2099,10 @@
     "cost": 1,
     "expansionCode": "OP09",
     "imageId": "OP09-106_p1",
-    "id": "OP09-106_p1_Card_SetsOffline_Regional_Participation_Pack_2025_Vol1"
+    "id": "OP09-106_p1_Card_SetsOffline_Regional_Participation_Pack_2025_Vol1",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Nico Olvia",
@@ -2004,7 +2125,10 @@
     "cost": 1,
     "expansionCode": "OP09",
     "imageId": "OP09-106_p2",
-    "id": "OP09-106_p2_Card_SetsOffline_Regional_Finalist_Card_Set_25_26_Season_1"
+    "id": "OP09-106_p2_Card_SetsOffline_Regional_Finalist_Card_Set_25_26_Season_1",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Nico Olvia",
@@ -2027,7 +2151,10 @@
     "cost": 1,
     "expansionCode": "OP09",
     "imageId": "OP09-106_p3",
-    "id": "OP09-106_p3_Card_SetsOffline_Regional_Champion_Card_Set_25_26_Season_1"
+    "id": "OP09-106_p3_Card_SetsOffline_Regional_Champion_Card_Set_25_26_Season_1",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Nico Olvia",
@@ -2050,7 +2177,10 @@
     "cost": 1,
     "expansionCode": "OP09",
     "imageId": "OP09-106_p4",
-    "id": "OP09-106_p4_Card_SetsOnline_Regional_Participation_Pack_25_26_Season_1"
+    "id": "OP09-106_p4_Card_SetsOnline_Regional_Participation_Pack_25_26_Season_1",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Nico Olvia",
@@ -2073,7 +2203,10 @@
     "cost": 1,
     "expansionCode": "OP09",
     "imageId": "OP09-106_p5",
-    "id": "OP09-106_p5_Card_SetsOnline_Regional_Finalist_Card_Set_25_26_Season_1"
+    "id": "OP09-106_p5_Card_SetsOnline_Regional_Finalist_Card_Set_25_26_Season_1",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Nico Olvia",
@@ -2096,7 +2229,10 @@
     "cost": 1,
     "expansionCode": "OP09",
     "imageId": "OP09-106_p6",
-    "id": "OP09-106_p6_Card_SetsOnline_Regional_Champion_Card_Set_25_26_Season_1"
+    "id": "OP09-106_p6_Card_SetsOnline_Regional_Champion_Card_Set_25_26_Season_1",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -2451,7 +2587,10 @@
     "cost": 6,
     "expansionCode": "P",
     "imageId": "P-009",
-    "id": "P-009_Card_SetsTournament_Pack_Vol1"
+    "id": "P-009_Card_SetsTournament_Pack_Vol1",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Kaido",
@@ -2656,7 +2795,10 @@
     "cost": 4,
     "expansionCode": "P",
     "imageId": "P-017",
-    "id": "P-017_Card_SetsIncluded_in_FILM_RED_Promotion_Card_Set"
+    "id": "P-017_Card_SetsIncluded_in_FILM_RED_Promotion_Card_Set",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -2681,7 +2823,10 @@
     "cost": 4,
     "expansionCode": "P",
     "imageId": "P-017_p1",
-    "id": "P-017_p1_Card_SetsTournament_Pack_Vol7"
+    "id": "P-017_p1_Card_SetsTournament_Pack_Vol7",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Bartolomeo",
@@ -2791,7 +2936,10 @@
     "cost": 1,
     "expansionCode": "P",
     "imageId": "P-020",
-    "id": "P-020_Card_SetsIncluded_in_FILM_RED_Promotion_Card_Set"
+    "id": "P-020_Card_SetsIncluded_in_FILM_RED_Promotion_Card_Set",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Benn.Beckman",
@@ -3074,7 +3222,10 @@
     "cost": 5,
     "expansionCode": "P",
     "imageId": "P-031",
-    "id": "P-031_Card_SetsIncluded_in_Event_Pack_Vol1"
+    "id": "P-031_Card_SetsIncluded_in_Event_Pack_Vol1",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Sengoku",
@@ -3356,7 +3507,10 @@
     "cost": 7,
     "expansionCode": "P",
     "imageId": "P-043",
-    "id": "P-043_Card_SetsDreamhack_Dallas_2024"
+    "id": "P-043_Card_SetsDreamhack_Dallas_2024",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -3431,7 +3585,10 @@
     "cost": 1,
     "expansionCode": "P",
     "imageId": "P-046",
-    "id": "P-046_Card_SetsEvent_Pack_Vol3"
+    "id": "P-046_Card_SetsEvent_Pack_Vol3",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3509,7 +3666,10 @@
     "cost": 2,
     "expansionCode": "P",
     "imageId": "P-049",
-    "id": "P-049_Card_SetsSealed_Battle_2023_Vol1"
+    "id": "P-049_Card_SetsSealed_Battle_2023_Vol1",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Sanji",
@@ -3612,7 +3772,10 @@
     "cost": 1,
     "expansionCode": "P",
     "imageId": "P-053",
-    "id": "P-053_Card_SetsSealed_Battle_Kit_Vol1"
+    "id": "P-053_Card_SetsSealed_Battle_Kit_Vol1",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Monkey.D.Garp",
@@ -3661,7 +3824,10 @@
     "cost": 4,
     "expansionCode": "P",
     "imageId": "P-055",
-    "id": "P-055_Card_SetsSealed_Battle_Kit_Vol1"
+    "id": "P-055_Card_SetsSealed_Battle_Kit_Vol1",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -3684,7 +3850,10 @@
     "cost": 4,
     "expansionCode": "P",
     "imageId": "P-056",
-    "id": "P-056_Card_SetsSealed_Battle_Kit_Vol1"
+    "id": "P-056_Card_SetsSealed_Battle_Kit_Vol1",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Fleeting Lullaby",
@@ -4379,7 +4548,10 @@
     "cost": 2,
     "expansionCode": "ST01",
     "imageId": "ST01-011_p2",
-    "id": "ST01-011_p2_Card_SetsTournament_Pack_Vol4"
+    "id": "ST01-011_p2_Card_SetsTournament_Pack_Vol4",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -4682,7 +4854,10 @@
     "cost": 4,
     "expansionCode": "ST03",
     "imageId": "ST03-014_p1",
-    "id": "ST03-014_p1_Card_SetsIncluded_in_Online_Regional_Participation_Pack_Vol1"
+    "id": "ST03-014_p1_Card_SetsIncluded_in_Online_Regional_Participation_Pack_Vol1",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Kaido",
@@ -4705,7 +4880,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-003_p2.png",
     "cost": 9,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "ST04",
     "imageId": "ST04-003_p2",
@@ -4732,7 +4908,10 @@
     "cost": 3,
     "expansionCode": "ST04",
     "imageId": "ST04-008_p1",
-    "id": "ST04-008_p1_Card_SetsIncluded_in_Online_Regional_Participation_Pack_Vol1"
+    "id": "ST04-008_p1_Card_SetsIncluded_in_Online_Regional_Participation_Pack_Vol1",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Who's.Who",
@@ -4755,7 +4934,10 @@
     "cost": 3,
     "expansionCode": "ST04",
     "imageId": "ST04-010_p1",
-    "id": "ST04-010_p1_Card_SetsTournament_Pack_Vol3"
+    "id": "ST04-010_p1_Card_SetsTournament_Pack_Vol3",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Black Maria",
@@ -4856,7 +5038,10 @@
     "cost": 2,
     "expansionCode": "ST07",
     "imageId": "ST07-008_p1",
-    "id": "ST07-008_p1_Card_SetsIncluded_in_Online_Regional_Participation_Pack_Vol1"
+    "id": "ST07-008_p1_Card_SetsIncluded_in_Online_Regional_Participation_Pack_Vol1",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -4934,7 +5119,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-010_p1.png",
     "cost": 4,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "ST10",
     "imageId": "ST10-010_p1",
@@ -4960,7 +5146,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-013_p1.png",
     "cost": 7,
     "abilityKeywords": [
-      "[When Attacking]"
+      "[When Attacking]",
+      "[On Play]"
     ],
     "expansionCode": "ST10",
     "imageId": "ST10-013_p1",
@@ -5152,7 +5339,10 @@
     "cost": 1,
     "expansionCode": "ST19",
     "imageId": "ST19-002_p1",
-    "id": "ST19-002_p1_Card_SetsTournament_Pack_2025_Vol_3"
+    "id": "ST19-002_p1_Card_SetsTournament_Pack_2025_Vol_3",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Sengoku",
@@ -5175,6 +5365,9 @@
     "cost": 1,
     "expansionCode": "ST19",
     "imageId": "ST19-002_p2",
-    "id": "ST19-002_p2_Card_SetsWinner_Pack_2025_Vol_3"
+    "id": "ST19-002_p2_Card_SetsWinner_Pack_2025_Vol_3",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   }
 ]

@@ -220,7 +220,10 @@
     "cost": 4,
     "expansionCode": "OP01",
     "imageId": "OP01-005",
-    "id": "OP01-005_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-005_ROMANCE_DAWN_[OP01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Otama",
@@ -243,7 +246,10 @@
     "cost": 1,
     "expansionCode": "OP01",
     "imageId": "OP01-006",
-    "id": "OP01-006_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-006_ROMANCE_DAWN_[OP01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Caribou",
@@ -293,7 +299,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-008.png",
     "cost": 4,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-008",
@@ -320,7 +327,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-008_p1.png",
     "cost": 4,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-008_p1",
@@ -397,7 +405,10 @@
     "cost": 2,
     "expansionCode": "OP01",
     "imageId": "OP01-011",
-    "id": "OP01-011_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-011_ROMANCE_DAWN_[OP01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Sai",
@@ -554,7 +565,10 @@
     "cost": 1,
     "expansionCode": "OP01",
     "imageId": "OP01-016",
-    "id": "OP01-016_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-016_ROMANCE_DAWN_[OP01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Nami",
@@ -577,7 +591,10 @@
     "cost": 1,
     "expansionCode": "OP01",
     "imageId": "OP01-016_p1",
-    "id": "OP01-016_p1_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-016_p1_ROMANCE_DAWN_[OP01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Nico Robin",
@@ -1110,7 +1127,10 @@
     "cost": 3,
     "expansionCode": "OP01",
     "imageId": "OP01-033",
-    "id": "OP01-033_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-033_ROMANCE_DAWN_[OP01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Inuarashi",
@@ -1328,7 +1348,8 @@
     "abilityKeywords": [
       "[When Attacking]",
       "[Once Per Turn]",
-      "[DON!! x1]"
+      "[DON!! x1]",
+      "[On Play]"
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-040",
@@ -1357,7 +1378,8 @@
     "abilityKeywords": [
       "[When Attacking]",
       "[Once Per Turn]",
-      "[DON!! x1]"
+      "[DON!! x1]",
+      "[On Play]"
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-040_p1",
@@ -1412,7 +1434,10 @@
     "cost": 1,
     "expansionCode": "OP01",
     "imageId": "OP01-042",
-    "id": "OP01-042_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-042_ROMANCE_DAWN_[OP01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Shinobu",
@@ -1457,7 +1482,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-044.png",
     "cost": 3,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-044",
@@ -1535,7 +1561,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-047.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-047",
@@ -1562,7 +1589,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-047_p1.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-047_p1",
@@ -1591,7 +1619,10 @@
     "cost": 2,
     "expansionCode": "OP01",
     "imageId": "OP01-048",
-    "id": "OP01-048_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-048_ROMANCE_DAWN_[OP01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Nekomamushi",
@@ -1616,7 +1647,10 @@
     "cost": 2,
     "expansionCode": "OP01",
     "imageId": "OP01-048_p1",
-    "id": "OP01-048_p1_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-048_p1_ROMANCE_DAWN_[OP01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Bepo",
@@ -1666,7 +1700,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-050.png",
     "cost": 3,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-050",
@@ -1806,7 +1841,10 @@
     "cost": 5,
     "expansionCode": "OP01",
     "imageId": "OP01-054",
-    "id": "OP01-054_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-054_ROMANCE_DAWN_[OP01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "You Can Be My Samurai!!",
@@ -2376,7 +2414,10 @@
     "cost": 9,
     "expansionCode": "OP01",
     "imageId": "OP01-070",
-    "id": "OP01-070_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-070_ROMANCE_DAWN_[OP01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Dracule Mihawk",
@@ -2399,7 +2440,10 @@
     "cost": 9,
     "expansionCode": "OP01",
     "imageId": "OP01-070_p1",
-    "id": "OP01-070_p1_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-070_p1_ROMANCE_DAWN_[OP01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Jinbe",
@@ -2423,7 +2467,10 @@
     "cost": 4,
     "expansionCode": "OP01",
     "imageId": "OP01-071",
-    "id": "OP01-071_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-071_ROMANCE_DAWN_[OP01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Smiley",
@@ -2474,7 +2521,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-073.png",
     "cost": 3,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-073",
@@ -2501,7 +2549,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-073_p1.png",
     "cost": 3,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-073_p1",
@@ -2606,7 +2655,10 @@
     "cost": 1,
     "expansionCode": "OP01",
     "imageId": "OP01-077",
-    "id": "OP01-077_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-077_ROMANCE_DAWN_[OP01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Perona",
@@ -2629,7 +2681,10 @@
     "cost": 1,
     "expansionCode": "OP01",
     "imageId": "OP01-077_p1",
-    "id": "OP01-077_p1_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-077_p1_ROMANCE_DAWN_[OP01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Boa Hancock",
@@ -2866,7 +2921,10 @@
     "cost": 2,
     "expansionCode": "OP01",
     "imageId": "OP01-085",
-    "id": "OP01-085_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-085_ROMANCE_DAWN_[OP01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Overheat",
@@ -3097,7 +3155,10 @@
     "cost": 2,
     "expansionCode": "OP01",
     "imageId": "OP01-093",
-    "id": "OP01-093_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-093_ROMANCE_DAWN_[OP01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Ulti",
@@ -3120,7 +3181,10 @@
     "cost": 2,
     "expansionCode": "OP01",
     "imageId": "OP01-093_p1",
-    "id": "OP01-093_p1_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-093_p1_ROMANCE_DAWN_[OP01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Kaido",
@@ -3144,7 +3208,10 @@
     "cost": 10,
     "expansionCode": "OP01",
     "imageId": "OP01-094",
-    "id": "OP01-094_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-094_ROMANCE_DAWN_[OP01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Kaido",
@@ -3168,7 +3235,10 @@
     "cost": 10,
     "expansionCode": "OP01",
     "imageId": "OP01-094_p1",
-    "id": "OP01-094_p1_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-094_p1_ROMANCE_DAWN_[OP01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Kyoshirou",
@@ -3191,7 +3261,10 @@
     "cost": 5,
     "expansionCode": "OP01",
     "imageId": "OP01-095",
-    "id": "OP01-095_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-095_ROMANCE_DAWN_[OP01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "King",
@@ -3214,7 +3287,10 @@
     "cost": 7,
     "expansionCode": "OP01",
     "imageId": "OP01-096",
-    "id": "OP01-096_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-096_ROMANCE_DAWN_[OP01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "King",
@@ -3237,7 +3313,10 @@
     "cost": 7,
     "expansionCode": "OP01",
     "imageId": "OP01-096_p1",
-    "id": "OP01-096_p1_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-096_p1_ROMANCE_DAWN_[OP01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Queen",
@@ -3259,7 +3338,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-097.png",
     "cost": 6,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-097",
@@ -3285,7 +3365,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-097_p1.png",
     "cost": 6,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-097_p1",
@@ -3313,7 +3394,10 @@
     "cost": 1,
     "expansionCode": "OP01",
     "imageId": "OP01-098",
-    "id": "OP01-098_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-098_ROMANCE_DAWN_[OP01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Kurozumi Semimaru",
@@ -3515,7 +3599,10 @@
     "cost": 2,
     "expansionCode": "OP01",
     "imageId": "OP01-105",
-    "id": "OP01-105_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-105_ROMANCE_DAWN_[OP01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Basil Hawkins",
@@ -3539,7 +3626,10 @@
     "cost": 4,
     "expansionCode": "OP01",
     "imageId": "OP01-106",
-    "id": "OP01-106_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-106_ROMANCE_DAWN_[OP01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Babanuki",
@@ -3775,7 +3865,10 @@
     "cost": 5,
     "expansionCode": "OP01",
     "imageId": "OP01-114",
-    "id": "OP01-114_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-114_ROMANCE_DAWN_[OP01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Elephant's Marchoo",

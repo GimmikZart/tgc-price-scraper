@@ -291,7 +291,10 @@
     "cost": 3,
     "expansionCode": "OP04",
     "imageId": "OP04-010",
-    "id": "OP04-010_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-010_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Nami",
@@ -449,7 +452,10 @@
     "cost": 5,
     "expansionCode": "OP04",
     "imageId": "OP04-015",
-    "id": "OP04-015_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-015_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Bad Manners Kick Course",
@@ -742,7 +748,8 @@
     "cost": 2,
     "abilityKeywords": [
       "[Opponent's Turn]",
-      "[Once Per Turn]"
+      "[Once Per Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-024",
@@ -769,7 +776,8 @@
     "cost": 2,
     "abilityKeywords": [
       "[Opponent's Turn]",
-      "[Once Per Turn]"
+      "[Once Per Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-024_p1",
@@ -957,7 +965,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-030.png",
     "cost": 6,
     "abilityKeywords": [
-      "[On Your Opponent's Attack]"
+      "[On Your Opponent's Attack]",
+      "[On Play]"
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-030",
@@ -983,7 +992,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-030_p1.png",
     "cost": 6,
     "abilityKeywords": [
-      "[On Your Opponent's Attack]"
+      "[On Your Opponent's Attack]",
+      "[On Play]"
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-030_p1",
@@ -1011,7 +1021,10 @@
     "cost": 10,
     "expansionCode": "OP04",
     "imageId": "OP04-031",
-    "id": "OP04-031_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-031_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Donquixote Doflamingo",
@@ -1035,7 +1048,10 @@
     "cost": 10,
     "expansionCode": "OP04",
     "imageId": "OP04-031_p1",
-    "id": "OP04-031_p1_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-031_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Baby 5",
@@ -1084,7 +1100,10 @@
     "cost": 4,
     "expansionCode": "OP04",
     "imageId": "OP04-033",
-    "id": "OP04-033_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-033_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Lao.G",
@@ -1353,7 +1372,10 @@
     "cost": 1,
     "expansionCode": "OP04",
     "imageId": "OP04-041",
-    "id": "OP04-041_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-041_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Ipponmatsu",
@@ -1376,7 +1398,10 @@
     "cost": 2,
     "expansionCode": "OP04",
     "imageId": "OP04-042",
-    "id": "OP04-042_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-042_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Ulti",
@@ -1427,7 +1452,10 @@
     "cost": 10,
     "expansionCode": "OP04",
     "imageId": "OP04-044",
-    "id": "OP04-044_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-044_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Kaido",
@@ -1451,7 +1479,10 @@
     "cost": 10,
     "expansionCode": "OP04",
     "imageId": "OP04-044_p1",
-    "id": "OP04-044_p1_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-044_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "King",
@@ -1474,7 +1505,10 @@
     "cost": 7,
     "expansionCode": "OP04",
     "imageId": "OP04-045",
-    "id": "OP04-045_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-045_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Queen",
@@ -1497,7 +1531,10 @@
     "cost": 4,
     "expansionCode": "OP04",
     "imageId": "OP04-046",
-    "id": "OP04-046_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-046_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Ice Oni",
@@ -1547,7 +1584,10 @@
     "cost": 3,
     "expansionCode": "OP04",
     "imageId": "OP04-048",
-    "id": "OP04-048_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-048_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Jack",
@@ -1622,7 +1662,10 @@
     "cost": 1,
     "expansionCode": "OP04",
     "imageId": "OP04-051",
-    "id": "OP04-051_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-051_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Who's.Who",
@@ -1645,7 +1688,10 @@
     "cost": 1,
     "expansionCode": "OP04",
     "imageId": "OP04-051_p1",
-    "id": "OP04-051_p1_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-051_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Black Maria",
@@ -1911,7 +1957,8 @@
     "cost": 8,
     "abilityKeywords": [
       "[Once Per Turn]",
-      "[On Your Opponent's Attack]"
+      "[On Your Opponent's Attack]",
+      "[On Play]"
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-060",
@@ -1939,7 +1986,8 @@
     "cost": 8,
     "abilityKeywords": [
       "[Once Per Turn]",
-      "[On Your Opponent's Attack]"
+      "[On Your Opponent's Attack]",
+      "[On Play]"
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-060_p1",
@@ -2044,7 +2092,10 @@
     "cost": 5,
     "expansionCode": "OP04",
     "imageId": "OP04-064",
-    "id": "OP04-064_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-064_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Ms. All Sunday",
@@ -2067,7 +2118,10 @@
     "cost": 5,
     "expansionCode": "OP04",
     "imageId": "OP04-064_p1",
-    "id": "OP04-064_p1_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-064_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Miss.Goldenweek(Marianne)",
@@ -2090,7 +2144,10 @@
     "cost": 2,
     "expansionCode": "OP04",
     "imageId": "OP04-065",
-    "id": "OP04-065_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-065_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Miss.Valentine(Mikita)",
@@ -2113,7 +2170,10 @@
     "cost": 2,
     "expansionCode": "OP04",
     "imageId": "OP04-066",
-    "id": "OP04-066_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-066_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Miss.MerryChristmas(Drophy)",
@@ -2508,7 +2568,10 @@
     "cost": 1,
     "expansionCode": "OP04",
     "imageId": "OP04-080",
-    "id": "OP04-080_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-080_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Cavendish",
@@ -2559,7 +2622,10 @@
     "cost": 3,
     "expansionCode": "OP04",
     "imageId": "OP04-082",
-    "id": "OP04-082_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-082_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Kyros",
@@ -2582,7 +2648,10 @@
     "cost": 3,
     "expansionCode": "OP04",
     "imageId": "OP04-082_p1",
-    "id": "OP04-082_p1_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-082_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Sabo",
@@ -2605,7 +2674,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-083.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-083",
@@ -2632,7 +2702,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-083_p1.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-083_p1",
@@ -2659,7 +2730,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-083_p2.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-083_p2",
@@ -2686,7 +2758,10 @@
     "cost": 2,
     "expansionCode": "OP04",
     "imageId": "OP04-084",
-    "id": "OP04-084_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-084_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Suleiman",
@@ -2708,7 +2783,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-085.png",
     "cost": 3,
     "abilityKeywords": [
-      "[When Attacking]"
+      "[When Attacking]",
+      "[On Play]"
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-085",
@@ -2898,7 +2974,10 @@
     "cost": 1,
     "expansionCode": "OP04",
     "imageId": "OP04-091",
-    "id": "OP04-091_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-091_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Rebecca",
@@ -2921,7 +3000,10 @@
     "cost": 1,
     "expansionCode": "OP04",
     "imageId": "OP04-092",
-    "id": "OP04-092_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-092_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Gum-Gum King Kong Gun",
@@ -3048,7 +3130,10 @@
     "cost": 1,
     "expansionCode": "OP04",
     "imageId": "OP04-097",
-    "id": "OP04-097_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-097_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Toko",
@@ -3071,7 +3156,10 @@
     "cost": 2,
     "expansionCode": "OP04",
     "imageId": "OP04-098",
-    "id": "OP04-098_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-098_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Olin",
@@ -3164,7 +3252,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-101.png",
     "cost": 2,
     "abilityKeywords": [
-      "[Your Turn]"
+      "[Your Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-101",
@@ -3219,7 +3308,10 @@
     "cost": 2,
     "expansionCode": "OP04",
     "imageId": "OP04-103",
-    "id": "OP04-103_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-103_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Sanji",
@@ -3478,7 +3570,10 @@
     "cost": 9,
     "expansionCode": "OP04",
     "imageId": "OP04-112",
-    "id": "OP04-112_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-112_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Yamato",
@@ -3501,7 +3596,10 @@
     "cost": 9,
     "expansionCode": "OP04",
     "imageId": "OP04-112_p1",
-    "id": "OP04-112_p1_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-112_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Rabiyan",
@@ -3705,7 +3803,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-119.png",
     "cost": 8,
     "abilityKeywords": [
-      "[Opponent's Turn]"
+      "[Opponent's Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-119",
@@ -3732,7 +3831,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-119_p1.png",
     "cost": 8,
     "abilityKeywords": [
-      "[Opponent's Turn]"
+      "[Opponent's Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-119_p1",
@@ -3759,7 +3859,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-047_p2.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-047_p2",
@@ -3817,7 +3918,8 @@
     "cost": 9,
     "abilityKeywords": [
       "[When Attacking]",
-      "[DON!! x2]"
+      "[DON!! x2]",
+      "[On Play]"
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-004_p2",
@@ -3843,7 +3945,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-085_p2.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Opponent's Turn]"
+      "[Opponent's Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-085_p2",
@@ -3870,6 +3973,9 @@
     "cost": 6,
     "expansionCode": "OP02",
     "imageId": "OP02-099_p2",
-    "id": "OP02-099_p2_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP02-099_p2_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   }
 ]

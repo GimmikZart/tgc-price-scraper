@@ -70,7 +70,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-003.png",
     "cost": 4,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "ST07",
     "imageId": "ST07-003",
@@ -201,7 +202,10 @@
     "cost": 2,
     "expansionCode": "ST07",
     "imageId": "ST07-008",
-    "id": "ST07-008_Card_SetsBig_Mom_Pirates_[ST_07]"
+    "id": "ST07-008_Card_SetsBig_Mom_Pirates_[ST_07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Charlotte Mont-d'or",
@@ -251,7 +255,10 @@
     "cost": 7,
     "expansionCode": "ST07",
     "imageId": "ST07-010",
-    "id": "ST07-010_Card_SetsBig_Mom_Pirates_[ST_07]"
+    "id": "ST07-010_Card_SetsBig_Mom_Pirates_[ST_07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Zeus",

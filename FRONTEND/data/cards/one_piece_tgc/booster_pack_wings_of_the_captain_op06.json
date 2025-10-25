@@ -100,7 +100,10 @@
     "cost": 5,
     "expansionCode": "OP06",
     "imageId": "OP06-003",
-    "id": "OP06-003_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-003_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Baron Omatsuri",
@@ -124,7 +127,10 @@
     "cost": 2,
     "expansionCode": "OP06",
     "imageId": "OP06-004",
-    "id": "OP06-004_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-004_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Gasparde",
@@ -202,7 +208,10 @@
     "cost": 10,
     "expansionCode": "OP06",
     "imageId": "OP06-007",
-    "id": "OP06-007_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-007_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Shanks",
@@ -227,7 +236,10 @@
     "cost": 10,
     "expansionCode": "OP06",
     "imageId": "OP06-007_p1",
-    "id": "OP06-007_p1_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-007_p1_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Schneider",
@@ -413,7 +425,10 @@
     "cost": 2,
     "expansionCode": "OP06",
     "imageId": "OP06-013",
-    "id": "OP06-013_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-013_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -437,7 +452,10 @@
     "cost": 2,
     "expansionCode": "OP06",
     "imageId": "OP06-013_p1",
-    "id": "OP06-013_p1_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-013_p1_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Ratchet",
@@ -794,7 +812,10 @@
     "cost": 4,
     "expansionCode": "OP06",
     "imageId": "OP06-023",
-    "id": "OP06-023_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-023_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Ikaros Much",
@@ -818,7 +839,10 @@
     "cost": 5,
     "expansionCode": "OP06",
     "imageId": "OP06-024",
-    "id": "OP06-024_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-024_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Camie",
@@ -841,7 +865,10 @@
     "cost": 1,
     "expansionCode": "OP06",
     "imageId": "OP06-025",
-    "id": "OP06-025_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-025_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Camie",
@@ -864,7 +891,10 @@
     "cost": 1,
     "expansionCode": "OP06",
     "imageId": "OP06-025_p1",
-    "id": "OP06-025_p1_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-025_p1_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Koushirou",
@@ -887,7 +917,10 @@
     "cost": 3,
     "expansionCode": "OP06",
     "imageId": "OP06-026",
-    "id": "OP06-026_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-026_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Gyro",
@@ -1072,7 +1105,10 @@
     "cost": 2,
     "expansionCode": "OP06",
     "imageId": "OP06-033",
-    "id": "OP06-033_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-033_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Hyouzou",
@@ -1122,7 +1158,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-035.png",
     "cost": 7,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-035",
@@ -1149,7 +1186,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-035_p1.png",
     "cost": 7,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-035_p1",
@@ -1176,7 +1214,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-036.png",
     "cost": 4,
     "abilityKeywords": [
-      "[On K.O.]"
+      "[On K.O.]",
+      "[On Play]"
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-036",
@@ -1307,7 +1346,10 @@
     "cost": 6,
     "expansionCode": "OP06",
     "imageId": "OP06-041",
-    "id": "OP06-041_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-041_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Vinsmoke Reiju",
@@ -1471,7 +1513,10 @@
     "cost": 3,
     "expansionCode": "OP06",
     "imageId": "OP06-045",
-    "id": "OP06-045_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-045_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Sakazuki",
@@ -1494,7 +1539,10 @@
     "cost": 5,
     "expansionCode": "OP06",
     "imageId": "OP06-046",
-    "id": "OP06-046_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-046_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Charlotte Pudding",
@@ -1517,7 +1565,10 @@
     "cost": 4,
     "expansionCode": "OP06",
     "imageId": "OP06-047",
-    "id": "OP06-047_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-047_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Zeff",
@@ -1590,7 +1641,10 @@
     "cost": 1,
     "expansionCode": "OP06",
     "imageId": "OP06-050",
-    "id": "OP06-050_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-050_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Tashigi",
@@ -1613,7 +1667,10 @@
     "cost": 1,
     "expansionCode": "OP06",
     "imageId": "OP06-050_p1",
-    "id": "OP06-050_p1_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-050_p1_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Tsuru",
@@ -1636,7 +1693,10 @@
     "cost": 5,
     "expansionCode": "OP06",
     "imageId": "OP06-051",
-    "id": "OP06-051_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-051_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Tokikake",
@@ -1898,7 +1958,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-061.png",
     "cost": 7,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-061",
@@ -1925,7 +1986,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-061_p1.png",
     "cost": 7,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-061_p1",
@@ -1953,7 +2015,8 @@
     "cost": 8,
     "abilityKeywords": [
       "[Activate: Main]",
-      "[Once Per Turn]"
+      "[Once Per Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-062",
@@ -1981,7 +2044,8 @@
     "cost": 8,
     "abilityKeywords": [
       "[Activate: Main]",
-      "[Once Per Turn]"
+      "[Once Per Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-062_p1",
@@ -2009,7 +2073,10 @@
     "cost": 1,
     "expansionCode": "OP06",
     "imageId": "OP06-063",
-    "id": "OP06-063_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-063_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Vinsmoke Niji",
@@ -2060,7 +2127,10 @@
     "cost": 5,
     "expansionCode": "OP06",
     "imageId": "OP06-065",
-    "id": "OP06-065_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-065_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Vinsmoke Yonji",
@@ -2165,7 +2235,10 @@
     "cost": 4,
     "expansionCode": "OP06",
     "imageId": "OP06-069",
-    "id": "OP06-069_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-069_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Vinsmoke Reiju",
@@ -2189,7 +2262,10 @@
     "cost": 4,
     "expansionCode": "OP06",
     "imageId": "OP06-069_p1",
-    "id": "OP06-069_p1_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-069_p1_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Eldoraggo",
@@ -2237,7 +2313,10 @@
     "cost": 5,
     "expansionCode": "OP06",
     "imageId": "OP06-071",
-    "id": "OP06-071_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-071_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Cosette",
@@ -2286,7 +2365,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-073.png",
     "cost": 2,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-073",
@@ -2314,7 +2394,10 @@
     "cost": 7,
     "expansionCode": "OP06",
     "imageId": "OP06-074",
-    "id": "OP06-074_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-074_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Count Battler",
@@ -2338,7 +2421,10 @@
     "cost": 2,
     "expansionCode": "OP06",
     "imageId": "OP06-075",
-    "id": "OP06-075_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-075_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Hitokiri Kamazo",
@@ -2526,7 +2612,10 @@
     "cost": 4,
     "expansionCode": "OP06",
     "imageId": "OP06-081",
-    "id": "OP06-081_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-081_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Absalom",
@@ -2549,7 +2638,10 @@
     "cost": 4,
     "expansionCode": "OP06",
     "imageId": "OP06-081_p1",
-    "id": "OP06-081_p1_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-081_p1_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Inuppe",
@@ -2571,7 +2663,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-082.png",
     "cost": 2,
     "abilityKeywords": [
-      "[On K.O.]"
+      "[On K.O.]",
+      "[On Play]"
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-082",
@@ -2679,7 +2772,10 @@
     "cost": 8,
     "expansionCode": "OP06",
     "imageId": "OP06-086",
-    "id": "OP06-086_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-086_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Gecko Moria",
@@ -2703,7 +2799,10 @@
     "cost": 8,
     "expansionCode": "OP06",
     "imageId": "OP06-086_p1",
-    "id": "OP06-086_p1_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-086_p1_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Cerberus",
@@ -2775,7 +2874,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-089.png",
     "cost": 2,
     "abilityKeywords": [
-      "[On K.O.]"
+      "[On K.O.]",
+      "[On Play]"
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-089",
@@ -2802,7 +2902,10 @@
     "cost": 4,
     "expansionCode": "OP06",
     "imageId": "OP06-090",
-    "id": "OP06-090_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-090_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Victoria Cindry",
@@ -2825,7 +2928,10 @@
     "cost": 1,
     "expansionCode": "OP06",
     "imageId": "OP06-091",
-    "id": "OP06-091_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-091_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Brook",
@@ -2848,7 +2954,10 @@
     "cost": 6,
     "expansionCode": "OP06",
     "imageId": "OP06-092",
-    "id": "OP06-092_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-092_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Perona",
@@ -2871,7 +2980,10 @@
     "cost": 4,
     "expansionCode": "OP06",
     "imageId": "OP06-093",
-    "id": "OP06-093_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-093_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Perona",
@@ -2894,7 +3006,10 @@
     "cost": 4,
     "expansionCode": "OP06",
     "imageId": "OP06-093_p1",
-    "id": "OP06-093_p1_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-093_p1_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Lola",
@@ -3046,7 +3161,10 @@
     "cost": 1,
     "expansionCode": "OP06",
     "imageId": "OP06-099",
-    "id": "OP06-099_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-099_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Inuarashi",
@@ -3097,7 +3215,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-101.png",
     "cost": 2,
     "abilityKeywords": [
-      "[Banish]"
+      "[Banish]",
+      "[On Play]"
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-101",
@@ -3123,7 +3242,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-101_p1.png",
     "cost": 2,
     "abilityKeywords": [
-      "[Banish]"
+      "[Banish]",
+      "[On Play]"
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-101_p1",
@@ -3258,7 +3378,10 @@
     "cost": 2,
     "expansionCode": "OP06",
     "imageId": "OP06-106",
-    "id": "OP06-106_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-106_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Kouzuki Hiyori",
@@ -3282,7 +3405,10 @@
     "cost": 2,
     "expansionCode": "OP06",
     "imageId": "OP06-106_p1",
-    "id": "OP06-106_p1_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-106_p1_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Kouzuki Momonosuke",
@@ -3305,7 +3431,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-107.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-107",
@@ -3332,7 +3459,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-107_p1.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-107_p1",
@@ -3521,7 +3649,10 @@
     "cost": 5,
     "expansionCode": "OP06",
     "imageId": "OP06-114",
-    "id": "OP06-114_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-114_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "You're the One Who Should Disappear.",
@@ -3708,7 +3839,10 @@
     "cost": 9,
     "expansionCode": "OP06",
     "imageId": "OP06-119",
-    "id": "OP06-119_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-119_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Sanji",
@@ -3731,7 +3865,10 @@
     "cost": 9,
     "expansionCode": "OP06",
     "imageId": "OP06-119_p1",
-    "id": "OP06-119_p1_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-119_p1_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Nami",
@@ -3781,7 +3918,10 @@
     "cost": 1,
     "expansionCode": "OP03",
     "imageId": "OP03-008_p1",
-    "id": "OP03-008_p1_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP03-008_p1_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Charlotte Linlin",
@@ -3805,7 +3945,10 @@
     "cost": 10,
     "expansionCode": "OP03",
     "imageId": "OP03-114_p2",
-    "id": "OP03-114_p2_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP03-114_p2_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Sugar",
@@ -3828,7 +3971,8 @@
     "cost": 2,
     "abilityKeywords": [
       "[Opponent's Turn]",
-      "[Once Per Turn]"
+      "[Once Per Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-024_p2",
@@ -3855,7 +3999,10 @@
     "cost": 5,
     "expansionCode": "OP04",
     "imageId": "OP04-064_p2",
-    "id": "OP04-064_p2_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP04-064_p2_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Borsalino",
@@ -3878,7 +4025,10 @@
     "cost": 7,
     "expansionCode": "OP05",
     "imageId": "OP05-051_p2",
-    "id": "OP05-051_p2_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP05-051_p2_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Rebecca",
@@ -3900,7 +4050,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-091_p2.png",
     "cost": 4,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-091_p2",

@@ -47,7 +47,10 @@
     "cost": 1,
     "expansionCode": "ST06",
     "imageId": "ST06-002",
-    "id": "ST06-002_Absolute_Justice_[ST-06]"
+    "id": "ST06-002_Absolute_Justice_[ST-06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Jango",
@@ -198,7 +201,10 @@
     "cost": 3,
     "expansionCode": "ST06",
     "imageId": "ST06-008",
-    "id": "ST06-008_Absolute_Justice_[ST-06]"
+    "id": "ST06-008_Absolute_Justice_[ST-06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Fullbody",
@@ -244,7 +250,10 @@
     "cost": 2,
     "expansionCode": "ST06",
     "imageId": "ST06-010",
-    "id": "ST06-010_Absolute_Justice_[ST-06]"
+    "id": "ST06-010_Absolute_Justice_[ST-06]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Momonga",
@@ -416,7 +425,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-017.png",
     "cost": 1,
     "abilityKeywords": [
-      "[Activate: Main]"
+      "[Activate: Main]",
+      "[On Play]"
     ],
     "expansionCode": "ST06",
     "imageId": "ST06-017",

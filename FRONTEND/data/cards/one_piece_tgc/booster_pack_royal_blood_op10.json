@@ -20,7 +20,10 @@
     "cost": 5,
     "expansionCode": "OP08",
     "imageId": "OP08-052_p2",
-    "id": "OP08-052_p2_ROYAL_BLOOD_[OP-10]"
+    "id": "OP08-052_p2_ROYAL_BLOOD_[OP-10]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Smoker",
@@ -221,7 +224,10 @@
     "cost": 1,
     "expansionCode": "OP10",
     "imageId": "OP10-004",
-    "id": "OP10-004_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-004_ROYAL_BLOOD_[OP-10]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Sanji",
@@ -301,7 +307,10 @@
     "cost": 7,
     "expansionCode": "OP10",
     "imageId": "OP10-006",
-    "id": "OP10-006_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-006_ROYAL_BLOOD_[OP-10]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Ceaser Soldier",
@@ -324,7 +333,10 @@
     "cost": 3,
     "expansionCode": "OP10",
     "imageId": "OP10-007",
-    "id": "OP10-007_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-007_ROYAL_BLOOD_[OP-10]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Scotch",
@@ -346,7 +358,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-008.png",
     "cost": 2,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-008",
@@ -374,7 +387,10 @@
     "cost": 5,
     "expansionCode": "OP10",
     "imageId": "OP10-009",
-    "id": "OP10-009_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-009_ROYAL_BLOOD_[OP-10]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Chadros.Higelyges (Brownbeard)",
@@ -528,7 +544,10 @@
     "cost": 3,
     "expansionCode": "OP10",
     "imageId": "OP10-015",
-    "id": "OP10-015_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-015_ROYAL_BLOOD_[OP-10]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Monet",
@@ -605,7 +624,10 @@
     "cost": 2,
     "expansionCode": "OP10",
     "imageId": "OP10-017",
-    "id": "OP10-017_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-017_ROYAL_BLOOD_[OP-10]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Ten-Layer Igloo",
@@ -827,7 +849,10 @@
     "cost": 5,
     "expansionCode": "OP10",
     "imageId": "OP10-023",
-    "id": "OP10-023_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-023_ROYAL_BLOOD_[OP-10]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Edward.Newgate",
@@ -852,7 +877,10 @@
     "cost": 5,
     "expansionCode": "OP10",
     "imageId": "OP10-024",
-    "id": "OP10-024_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-024_ROYAL_BLOOD_[OP-10]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Enel",
@@ -876,7 +904,10 @@
     "cost": 5,
     "expansionCode": "OP10",
     "imageId": "OP10-025",
-    "id": "OP10-025_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-025_ROYAL_BLOOD_[OP-10]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Kin'emon",
@@ -984,7 +1015,10 @@
     "cost": 5,
     "expansionCode": "OP10",
     "imageId": "OP10-029",
-    "id": "OP10-029_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-029_ROYAL_BLOOD_[OP-10]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Smoker",
@@ -1136,7 +1170,10 @@
     "cost": 2,
     "expansionCode": "OP10",
     "imageId": "OP10-033",
-    "id": "OP10-033_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-033_ROYAL_BLOOD_[OP-10]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Franky",
@@ -1467,7 +1504,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-043.png",
     "cost": 2,
     "abilityKeywords": [
-      "[Banish]"
+      "[Banish]",
+      "[On Play]"
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-043",
@@ -1495,7 +1533,10 @@
     "cost": 1,
     "expansionCode": "OP10",
     "imageId": "OP10-044",
-    "id": "OP10-044_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-044_ROYAL_BLOOD_[OP-10]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Cavendish",
@@ -1574,7 +1615,10 @@
     "cost": 7,
     "expansionCode": "OP10",
     "imageId": "OP10-046",
-    "id": "OP10-046_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-046_ROYAL_BLOOD_[OP-10]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Kyros",
@@ -1597,7 +1641,10 @@
     "cost": 7,
     "expansionCode": "OP10",
     "imageId": "OP10-046_p1",
-    "id": "OP10-046_p1_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-046_p1_ROYAL_BLOOD_[OP-10]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Koala",
@@ -1648,7 +1695,10 @@
     "cost": 3,
     "expansionCode": "OP10",
     "imageId": "OP10-048",
-    "id": "OP10-048_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-048_ROYAL_BLOOD_[OP-10]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Sabo",
@@ -1749,7 +1799,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-052.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-052",
@@ -1854,7 +1905,10 @@
     "cost": 2,
     "expansionCode": "OP10",
     "imageId": "OP10-056",
-    "id": "OP10-056_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-056_ROYAL_BLOOD_[OP-10]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Leo",
@@ -1878,7 +1932,10 @@
     "cost": 1,
     "expansionCode": "OP10",
     "imageId": "OP10-057",
-    "id": "OP10-057_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-057_ROYAL_BLOOD_[OP-10]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Rebecca",
@@ -1901,7 +1958,10 @@
     "cost": 7,
     "expansionCode": "OP10",
     "imageId": "OP10-058",
-    "id": "OP10-058_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-058_ROYAL_BLOOD_[OP-10]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Rebecca",
@@ -1924,7 +1984,10 @@
     "cost": 7,
     "expansionCode": "OP10",
     "imageId": "OP10-058_p1",
-    "id": "OP10-058_p1_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-058_p1_ROYAL_BLOOD_[OP-10]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Fo...llow...Me...and...I...Will...Gui...de...You",
@@ -2056,7 +2119,10 @@
     "cost": 1,
     "expansionCode": "OP10",
     "imageId": "OP10-063",
-    "id": "OP10-063_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-063_ROYAL_BLOOD_[OP-10]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Clone Soldier",
@@ -2158,7 +2224,10 @@
     "cost": 5,
     "expansionCode": "OP10",
     "imageId": "OP10-067",
-    "id": "OP10-067_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-067_ROYAL_BLOOD_[OP-10]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Senor Pink",
@@ -2181,7 +2250,10 @@
     "cost": 5,
     "expansionCode": "OP10",
     "imageId": "OP10-067_p1",
-    "id": "OP10-067_p1_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-067_p1_ROYAL_BLOOD_[OP-10]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Diamante",
@@ -2254,7 +2326,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-070.png",
     "cost": 4,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-070",
@@ -2282,7 +2355,8 @@
     "cost": 8,
     "abilityKeywords": [
       "[Once Per Turn]",
-      "[On Your Opponent's Attack]"
+      "[On Your Opponent's Attack]",
+      "[On Play]"
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-071",
@@ -2310,7 +2384,8 @@
     "cost": 8,
     "abilityKeywords": [
       "[Once Per Turn]",
-      "[On Your Opponent's Attack]"
+      "[On Your Opponent's Attack]",
+      "[On Play]"
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-071_p1",
@@ -2337,7 +2412,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-072.png",
     "cost": 5,
     "abilityKeywords": [
-      "[End of Your Turn]"
+      "[End of Your Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-072",
@@ -2364,7 +2440,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-072_p1.png",
     "cost": 5,
     "abilityKeywords": [
-      "[End of Your Turn]"
+      "[End of Your Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-072_p1",
@@ -2466,7 +2543,10 @@
     "cost": 3,
     "expansionCode": "OP10",
     "imageId": "OP10-076",
-    "id": "OP10-076_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-076_ROYAL_BLOOD_[OP-10]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Bellamy",
@@ -2598,7 +2678,10 @@
     "cost": 4,
     "expansionCode": "OP10",
     "imageId": "OP10-081",
-    "id": "OP10-081_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-081_ROYAL_BLOOD_[OP-10]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Kuzan",
@@ -3028,7 +3111,10 @@
     "cost": 4,
     "expansionCode": "OP10",
     "imageId": "OP10-095",
-    "id": "OP10-095_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-095_ROYAL_BLOOD_[OP-10]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "There’s No Longer Any Need for the Seven Warlords of the Sea!!!",
@@ -3267,7 +3353,10 @@
     "cost": 1,
     "expansionCode": "OP10",
     "imageId": "OP10-103",
-    "id": "OP10-103_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-103_ROYAL_BLOOD_[OP-10]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Caribou",
@@ -3369,7 +3458,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-107.png",
     "cost": 3,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-107",
@@ -3450,7 +3540,10 @@
     "cost": 3,
     "expansionCode": "OP10",
     "imageId": "OP10-110",
-    "id": "OP10-110_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-110_ROYAL_BLOOD_[OP-10]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3474,7 +3567,10 @@
     "cost": 1,
     "expansionCode": "OP10",
     "imageId": "OP10-111",
-    "id": "OP10-111_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-111_ROYAL_BLOOD_[OP-10]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3498,7 +3594,10 @@
     "cost": 1,
     "expansionCode": "OP10",
     "imageId": "OP10-111_p1",
-    "id": "OP10-111_p1_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-111_p1_ROYAL_BLOOD_[OP-10]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -3521,7 +3620,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-112.png",
     "cost": 8,
     "abilityKeywords": [
-      "[End of Your Turn]"
+      "[End of Your Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-112",
@@ -3548,7 +3648,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-112_p1.png",
     "cost": 8,
     "abilityKeywords": [
-      "[End of Your Turn]"
+      "[End of Your Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-112_p1",
@@ -3769,7 +3870,10 @@
     "cost": 7,
     "expansionCode": "OP10",
     "imageId": "OP10-119",
-    "id": "OP10-119_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-119_ROYAL_BLOOD_[OP-10]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -3794,7 +3898,10 @@
     "cost": 7,
     "expansionCode": "OP10",
     "imageId": "OP10-119_p1",
-    "id": "OP10-119_p1_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-119_p1_ROYAL_BLOOD_[OP-10]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -3819,7 +3926,10 @@
     "cost": 7,
     "expansionCode": "OP10",
     "imageId": "OP10-119_p2",
-    "id": "OP10-119_p2_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-119_p2_ROYAL_BLOOD_[OP-10]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Charlotte Flampe",
@@ -3842,7 +3952,10 @@
     "cost": 1,
     "expansionCode": "EB01",
     "imageId": "EB01-056_p2",
-    "id": "EB01-056_p2_ROYAL_BLOOD_[OP-10]"
+    "id": "EB01-056_p2_ROYAL_BLOOD_[OP-10]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Urouge",
@@ -3919,7 +4032,10 @@
     "cost": 5,
     "expansionCode": "ST14",
     "imageId": "ST14-003_p1",
-    "id": "ST14-003_p1_ROYAL_BLOOD_[OP-10]"
+    "id": "ST14-003_p1_ROYAL_BLOOD_[OP-10]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Edward.Newgate",
@@ -3942,7 +4058,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST15-002_p1.png",
     "cost": 7,
     "abilityKeywords": [
-      "[Activate: Main]"
+      "[Activate: Main]",
+      "[On Play]"
     ],
     "expansionCode": "ST15",
     "imageId": "ST15-002_p1",
@@ -3969,6 +4086,9 @@
     "cost": 3,
     "expansionCode": "ST18",
     "imageId": "ST18-001_p1",
-    "id": "ST18-001_p1_ROYAL_BLOOD_[OP-10]"
+    "id": "ST18-001_p1_ROYAL_BLOOD_[OP-10]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   }
 ]

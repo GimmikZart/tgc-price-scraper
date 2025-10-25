@@ -48,7 +48,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-073_r1.png",
     "cost": 3,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-073_r1",
@@ -127,7 +128,10 @@
     "cost": 3,
     "expansionCode": "OP02",
     "imageId": "OP02-057_r1",
-    "id": "OP02-057_r1_Blue_Donquixote_Doflamingo_[ST-17]"
+    "id": "OP02-057_r1_Blue_Donquixote_Doflamingo_[ST-17]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Jinbe",
@@ -202,7 +206,10 @@
     "cost": 4,
     "expansionCode": "ST03",
     "imageId": "ST03-004_r1",
-    "id": "ST03-004_r1_Blue_Donquixote_Doflamingo_[ST-17]"
+    "id": "ST03-004_r1_Blue_Donquixote_Doflamingo_[ST-17]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Dracule Mihawk",
@@ -280,7 +287,10 @@
     "cost": 4,
     "expansionCode": "ST17",
     "imageId": "ST17-001",
-    "id": "ST17-001_Blue_Donquixote_Doflamingo_[ST-17]"
+    "id": "ST17-001_Blue_Donquixote_Doflamingo_[ST-17]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -304,7 +314,10 @@
     "cost": 4,
     "expansionCode": "ST17",
     "imageId": "ST17-002",
-    "id": "ST17-002_Blue_Donquixote_Doflamingo_[ST-17]"
+    "id": "ST17-002_Blue_Donquixote_Doflamingo_[ST-17]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Buggy",
@@ -328,7 +341,10 @@
     "cost": 1,
     "expansionCode": "ST17",
     "imageId": "ST17-003",
-    "id": "ST17-003_Blue_Donquixote_Doflamingo_[ST-17]"
+    "id": "ST17-003_Blue_Donquixote_Doflamingo_[ST-17]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Boa Hancock",
@@ -351,7 +367,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST17-004.png",
     "cost": 4,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "ST17",
     "imageId": "ST17-004",

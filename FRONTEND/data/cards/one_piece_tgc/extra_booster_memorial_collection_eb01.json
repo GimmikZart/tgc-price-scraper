@@ -79,7 +79,8 @@
     "cost": 5,
     "abilityKeywords": [
       "[Once Per Turn]",
-      "[On Your Opponent's Attack]"
+      "[On Your Opponent's Attack]",
+      "[On Play]"
     ],
     "expansionCode": "EB01",
     "imageId": "EB01-002",
@@ -432,7 +433,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-012.png",
     "cost": 5,
     "abilityKeywords": [
-      "[When Attacking]"
+      "[When Attacking]",
+      "[On Play]"
     ],
     "expansionCode": "EB01",
     "imageId": "EB01-012",
@@ -459,7 +461,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-012_p1.png",
     "cost": 5,
     "abilityKeywords": [
-      "[When Attacking]"
+      "[When Attacking]",
+      "[On Play]"
     ],
     "expansionCode": "EB01",
     "imageId": "EB01-012_p1",
@@ -569,7 +572,10 @@
     "cost": 1,
     "expansionCode": "EB01",
     "imageId": "EB01-015",
-    "id": "EB01-015_Memorial_Collection_[EB-01]"
+    "id": "EB01-015_Memorial_Collection_[EB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Bingoh",
@@ -831,7 +837,10 @@
     "cost": 4,
     "expansionCode": "EB01",
     "imageId": "EB01-023",
-    "id": "EB01-023_Memorial_Collection_[EB-01]"
+    "id": "EB01-023_Memorial_Collection_[EB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Hamlet",
@@ -929,7 +938,10 @@
     "cost": 5,
     "expansionCode": "EB01",
     "imageId": "EB01-027",
-    "id": "EB01-027_Memorial_Collection_[EB-01]"
+    "id": "EB01-027_Memorial_Collection_[EB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Mr.1(Daz.Bonez)",
@@ -952,7 +964,10 @@
     "cost": 5,
     "expansionCode": "EB01",
     "imageId": "EB01-027_p1",
-    "id": "EB01-027_p1_Memorial_Collection_[EB-01]"
+    "id": "EB01-027_p1_Memorial_Collection_[EB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Gum-Gum Champion Rifle",
@@ -1056,7 +1071,10 @@
     "cost": 5,
     "expansionCode": "EB01",
     "imageId": "EB01-031",
-    "id": "EB01-031_Memorial_Collection_[EB-01]"
+    "id": "EB01-031_Memorial_Collection_[EB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Kalifa",
@@ -1080,7 +1098,10 @@
     "cost": 5,
     "expansionCode": "EB01",
     "imageId": "EB01-031_p1",
-    "id": "EB01-031_p1_Memorial_Collection_[EB-01]"
+    "id": "EB01-031_p1_Memorial_Collection_[EB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Army Wolves",
@@ -1127,7 +1148,10 @@
     "cost": 4,
     "expansionCode": "EB01",
     "imageId": "EB01-033",
-    "id": "EB01-033_Memorial_Collection_[EB-01]"
+    "id": "EB01-033_Memorial_Collection_[EB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Ms. Wednesday",
@@ -1206,7 +1230,10 @@
     "cost": 3,
     "expansionCode": "EB01",
     "imageId": "EB01-035",
-    "id": "EB01-035_Memorial_Collection_[EB-01]"
+    "id": "EB01-035_Memorial_Collection_[EB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Minochihuahua",
@@ -1442,7 +1469,10 @@
     "cost": 3,
     "expansionCode": "EB01",
     "imageId": "EB01-043",
-    "id": "EB01-043_Memorial_Collection_[EB-01]"
+    "id": "EB01-043_Memorial_Collection_[EB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Funkfreed",
@@ -1490,7 +1520,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-045.png",
     "cost": 3,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "EB01",
     "imageId": "EB01-045",
@@ -1516,7 +1547,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-046.png",
     "cost": 3,
     "abilityKeywords": [
-      "[When Attacking]"
+      "[When Attacking]",
+      "[On Play]"
     ],
     "expansionCode": "EB01",
     "imageId": "EB01-046",
@@ -1542,7 +1574,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-046_p1.png",
     "cost": 3,
     "abilityKeywords": [
-      "[When Attacking]"
+      "[When Attacking]",
+      "[On Play]"
     ],
     "expansionCode": "EB01",
     "imageId": "EB01-046_p1",
@@ -1648,7 +1681,10 @@
     "cost": 5,
     "expansionCode": "EB01",
     "imageId": "EB01-049",
-    "id": "EB01-049_Memorial_Collection_[EB-01]"
+    "id": "EB01-049_Memorial_Collection_[EB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "T-Bone",
@@ -1672,7 +1708,10 @@
     "cost": 5,
     "expansionCode": "EB01",
     "imageId": "EB01-049_p1",
-    "id": "EB01-049_p1_Memorial_Collection_[EB-01]"
+    "id": "EB01-049_p1_Memorial_Collection_[EB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "...I Want to Live!!",
@@ -1746,7 +1785,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-052.png",
     "cost": 2,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "EB01",
     "imageId": "EB01-052",
@@ -1772,7 +1812,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-052_p1.png",
     "cost": 2,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "EB01",
     "imageId": "EB01-052_p1",
@@ -1799,7 +1840,10 @@
     "cost": 3,
     "expansionCode": "EB01",
     "imageId": "EB01-053",
-    "id": "EB01-053_Memorial_Collection_[EB-01]"
+    "id": "EB01-053_Memorial_Collection_[EB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Gan.Fall",
@@ -1821,7 +1865,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-054.png",
     "cost": 3,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "EB01",
     "imageId": "EB01-054",
@@ -1871,7 +1916,10 @@
     "cost": 1,
     "expansionCode": "EB01",
     "imageId": "EB01-056",
-    "id": "EB01-056_Memorial_Collection_[EB-01]"
+    "id": "EB01-056_Memorial_Collection_[EB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Charlotte Flampe",
@@ -1894,7 +1942,10 @@
     "cost": 1,
     "expansionCode": "EB01",
     "imageId": "EB01-056_p1",
-    "id": "EB01-056_p1_Memorial_Collection_[EB-01]"
+    "id": "EB01-056_p1_Memorial_Collection_[EB-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Shirahoshi",
@@ -2047,7 +2098,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-061.png",
     "cost": 4,
     "abilityKeywords": [
-      "[When Attacking]"
+      "[When Attacking]",
+      "[On Play]"
     ],
     "expansionCode": "EB01",
     "imageId": "EB01-061",
@@ -2073,7 +2125,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-061_p1.png",
     "cost": 4,
     "abilityKeywords": [
-      "[When Attacking]"
+      "[When Attacking]",
+      "[On Play]"
     ],
     "expansionCode": "EB01",
     "imageId": "EB01-061_p1",

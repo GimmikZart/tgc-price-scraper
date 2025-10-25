@@ -244,7 +244,10 @@
     "cost": 5,
     "expansionCode": "OP09",
     "imageId": "OP09-035_r1",
-    "id": "OP09-035_r1_GREENYELLOW_Yamato_[ST-28]"
+    "id": "OP09-035_r1_GREENYELLOW_Yamato_[ST-28]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Yamato",
@@ -266,7 +269,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-016_r1.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "ST13",
     "imageId": "ST13-016_r1",
@@ -294,7 +298,10 @@
     "cost": 3,
     "expansionCode": "ST28",
     "imageId": "ST28-001",
-    "id": "ST28-001_GREENYELLOW_Yamato_[ST-28]"
+    "id": "ST28-001_GREENYELLOW_Yamato_[ST-28]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Izo",
@@ -319,7 +326,8 @@
     "abilityKeywords": [
       "[Banish]",
       "[Blocker]",
-      "[DON!! x2]"
+      "[DON!! x2]",
+      "[On Play]"
     ],
     "expansionCode": "ST28",
     "imageId": "ST28-002",
@@ -400,7 +408,8 @@
     "cost": 1,
     "abilityKeywords": [
       "[Your Turn]",
-      "[DON!! x2]"
+      "[DON!! x2]",
+      "[On Play]"
     ],
     "expansionCode": "ST28",
     "imageId": "ST28-005",

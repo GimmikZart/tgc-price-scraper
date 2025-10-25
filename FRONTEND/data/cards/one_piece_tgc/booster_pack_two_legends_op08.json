@@ -192,7 +192,10 @@
     "cost": 4,
     "expansionCode": "OP08",
     "imageId": "OP08-004",
-    "id": "OP08-004_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-004_TWO_LEGENDS_[OP-08]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Chess",
@@ -215,7 +218,10 @@
     "cost": 3,
     "expansionCode": "OP08",
     "imageId": "OP08-005",
-    "id": "OP08-005_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-005_TWO_LEGENDS_[OP-08]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Chessmarimo",
@@ -266,7 +272,8 @@
     "cost": 3,
     "abilityKeywords": [
       "[When Attacking]",
-      "[Your Turn]"
+      "[Your Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP08",
     "imageId": "OP08-007",
@@ -295,7 +302,8 @@
     "cost": 3,
     "abilityKeywords": [
       "[When Attacking]",
-      "[Your Turn]"
+      "[Your Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP08",
     "imageId": "OP08-007_p1",
@@ -324,7 +332,8 @@
       "[Rush]",
       "[Activate: Main]",
       "[Once Per Turn]",
-      "[DON!! x1]"
+      "[DON!! x1]",
+      "[On Play]"
     ],
     "expansionCode": "OP08",
     "imageId": "OP08-008",
@@ -510,7 +519,10 @@
     "cost": 1,
     "expansionCode": "OP08",
     "imageId": "OP08-015",
-    "id": "OP08-015_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-015_TWO_LEGENDS_[OP-08]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Dr.Kureha",
@@ -533,7 +545,10 @@
     "cost": 1,
     "expansionCode": "OP08",
     "imageId": "OP08-015_p1",
-    "id": "OP08-015_p1_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-015_p1_TWO_LEGENDS_[OP-08]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Dr.Hiriluk",
@@ -744,7 +759,10 @@
     "cost": 5,
     "expansionCode": "OP08",
     "imageId": "OP08-022",
-    "id": "OP08-022_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-022_TWO_LEGENDS_[OP-08]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Carrot",
@@ -766,7 +784,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-023.png",
     "cost": 5,
     "abilityKeywords": [
-      "[When Attacking]"
+      "[When Attacking]",
+      "[On Play]"
     ],
     "expansionCode": "OP08",
     "imageId": "OP08-023",
@@ -792,7 +811,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-023_p1.png",
     "cost": 5,
     "abilityKeywords": [
-      "[When Attacking]"
+      "[When Attacking]",
+      "[On Play]"
     ],
     "expansionCode": "OP08",
     "imageId": "OP08-023_p1",
@@ -845,7 +865,10 @@
     "cost": 3,
     "expansionCode": "OP08",
     "imageId": "OP08-025",
-    "id": "OP08-025_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-025_TWO_LEGENDS_[OP-08]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Giovanni",
@@ -918,7 +941,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-028.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP08",
     "imageId": "OP08-028",
@@ -1023,7 +1047,10 @@
     "cost": 3,
     "expansionCode": "OP08",
     "imageId": "OP08-031",
-    "id": "OP08-031_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-031_TWO_LEGENDS_[OP-08]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Milky",
@@ -1072,7 +1099,10 @@
     "cost": 1,
     "expansionCode": "OP08",
     "imageId": "OP08-033",
-    "id": "OP08-033_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-033_TWO_LEGENDS_[OP-08]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Wanda",
@@ -1095,7 +1125,10 @@
     "cost": 1,
     "expansionCode": "OP08",
     "imageId": "OP08-034",
-    "id": "OP08-034_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-034_TWO_LEGENDS_[OP-08]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "BB",
@@ -1247,7 +1280,10 @@
     "cost": 4,
     "expansionCode": "OP08",
     "imageId": "OP08-040",
-    "id": "OP08-040_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-040_TWO_LEGENDS_[OP-08]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Aphelandra",
@@ -1324,7 +1360,10 @@
     "cost": 10,
     "expansionCode": "OP08",
     "imageId": "OP08-043",
-    "id": "OP08-043_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-043_TWO_LEGENDS_[OP-08]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Edward.Newgate",
@@ -1348,7 +1387,10 @@
     "cost": 10,
     "expansionCode": "OP08",
     "imageId": "OP08-043_p1",
-    "id": "OP08-043_p1_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-043_p1_TWO_LEGENDS_[OP-08]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Kingdew",
@@ -1448,7 +1490,10 @@
     "cost": 6,
     "expansionCode": "OP08",
     "imageId": "OP08-047",
-    "id": "OP08-047_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-047_TWO_LEGENDS_[OP-08]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Sweetpea",
@@ -1493,7 +1538,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-049.png",
     "cost": 4,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP08",
     "imageId": "OP08-049",
@@ -1520,7 +1566,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-050.png",
     "cost": 3,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP08",
     "imageId": "OP08-050",
@@ -1546,7 +1593,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-051.png",
     "cost": 1,
     "abilityKeywords": [
-      "[Your Turn]"
+      "[Your Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP08",
     "imageId": "OP08-051",
@@ -1573,7 +1621,10 @@
     "cost": 5,
     "expansionCode": "OP08",
     "imageId": "OP08-052",
-    "id": "OP08-052_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-052_TWO_LEGENDS_[OP-08]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Portgas.D.Ace",
@@ -1596,7 +1647,10 @@
     "cost": 5,
     "expansionCode": "OP08",
     "imageId": "OP08-052_p1",
-    "id": "OP08-052_p1_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-052_p1_TWO_LEGENDS_[OP-08]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Thank You...for Loving Me!!",
@@ -1860,7 +1914,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-060.png",
     "cost": 7,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP08",
     "imageId": "OP08-060",
@@ -1939,7 +1994,10 @@
     "cost": 6,
     "expansionCode": "OP08",
     "imageId": "OP08-063",
-    "id": "OP08-063_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-063_TWO_LEGENDS_[OP-08]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Charlotte Cracker",
@@ -2120,7 +2178,10 @@
     "cost": 9,
     "expansionCode": "OP08",
     "imageId": "OP08-069",
-    "id": "OP08-069_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-069_TWO_LEGENDS_[OP-08]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Charlotte Linlin",
@@ -2144,7 +2205,10 @@
     "cost": 9,
     "expansionCode": "OP08",
     "imageId": "OP08-069_p1",
-    "id": "OP08-069_p1_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-069_p1_TWO_LEGENDS_[OP-08]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Baron Tamago",
@@ -2488,7 +2552,10 @@
     "cost": 1,
     "expansionCode": "OP08",
     "imageId": "OP08-080",
-    "id": "OP08-080_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-080_TWO_LEGENDS_[OP-08]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Queen",
@@ -2511,7 +2578,10 @@
     "cost": 1,
     "expansionCode": "OP08",
     "imageId": "OP08-080_p1",
-    "id": "OP08-080_p1_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-080_p1_TWO_LEGENDS_[OP-08]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Guernica",
@@ -2695,7 +2765,10 @@
     "cost": 2,
     "expansionCode": "OP08",
     "imageId": "OP08-086",
-    "id": "OP08-086_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-086_TWO_LEGENDS_[OP-08]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Scratchmen Apoo",
@@ -2747,7 +2820,10 @@
     "cost": 1,
     "expansionCode": "OP08",
     "imageId": "OP08-088",
-    "id": "OP08-088_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-088_TWO_LEGENDS_[OP-08]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Basil Hawkins",
@@ -2795,7 +2871,10 @@
     "cost": 3,
     "expansionCode": "OP08",
     "imageId": "OP08-090",
-    "id": "OP08-090_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-090_TWO_LEGENDS_[OP-08]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Who's.Who",
@@ -2819,7 +2898,10 @@
     "cost": 5,
     "expansionCode": "OP08",
     "imageId": "OP08-091",
-    "id": "OP08-091_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-091_TWO_LEGENDS_[OP-08]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Page One",
@@ -2842,7 +2924,10 @@
     "cost": 5,
     "expansionCode": "OP08",
     "imageId": "OP08-092",
-    "id": "OP08-092_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-092_TWO_LEGENDS_[OP-08]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "X.Drake",
@@ -3084,7 +3169,10 @@
     "cost": 1,
     "expansionCode": "OP08",
     "imageId": "OP08-100",
-    "id": "OP08-100_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-100_TWO_LEGENDS_[OP-08]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Charlotte Angel",
@@ -3134,7 +3222,10 @@
     "cost": 6,
     "expansionCode": "OP08",
     "imageId": "OP08-102",
-    "id": "OP08-102_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-102_TWO_LEGENDS_[OP-08]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Charlotte Custard",
@@ -3265,7 +3356,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-106.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Trigger]"
+      "[Trigger]",
+      "[On Play]"
     ],
     "expansionCode": "OP08",
     "imageId": "OP08-106",
@@ -3292,7 +3384,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-106_p1.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Trigger]"
+      "[Trigger]",
+      "[On Play]"
     ],
     "expansionCode": "OP08",
     "imageId": "OP08-106_p1",
@@ -3371,7 +3464,10 @@
     "cost": 5,
     "expansionCode": "OP08",
     "imageId": "OP08-109",
-    "id": "OP08-109_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-109_TWO_LEGENDS_[OP-08]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Wyper",
@@ -3395,7 +3491,10 @@
     "cost": 4,
     "expansionCode": "OP08",
     "imageId": "OP08-110",
-    "id": "OP08-110_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-110_TWO_LEGENDS_[OP-08]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Wyper",
@@ -3419,7 +3518,10 @@
     "cost": 4,
     "expansionCode": "OP08",
     "imageId": "OP08-110_p1",
-    "id": "OP08-110_p1_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-110_p1_TWO_LEGENDS_[OP-08]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "S-Shark",
@@ -3472,7 +3574,10 @@
     "cost": 5,
     "expansionCode": "OP08",
     "imageId": "OP08-112",
-    "id": "OP08-112_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-112_TWO_LEGENDS_[OP-08]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "S-Snake",
@@ -3496,7 +3601,10 @@
     "cost": 5,
     "expansionCode": "OP08",
     "imageId": "OP08-112_p1",
-    "id": "OP08-112_p1_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-112_p1_TWO_LEGENDS_[OP-08]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "S-Bear",
@@ -3651,7 +3759,10 @@
     "cost": 8,
     "expansionCode": "OP08",
     "imageId": "OP08-118",
-    "id": "OP08-118_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-118_TWO_LEGENDS_[OP-08]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Silvers Rayleigh",
@@ -3674,7 +3785,10 @@
     "cost": 8,
     "expansionCode": "OP08",
     "imageId": "OP08-118_p1",
-    "id": "OP08-118_p1_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-118_p1_TWO_LEGENDS_[OP-08]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Silvers Rayleigh",
@@ -3697,7 +3811,10 @@
     "cost": 8,
     "expansionCode": "OP08",
     "imageId": "OP08-118_p2",
-    "id": "OP08-118_p2_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-118_p2_TWO_LEGENDS_[OP-08]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Kaido & Linlin",
@@ -3775,7 +3892,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-013_p3.png",
     "cost": 7,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-013_p3",
@@ -3802,7 +3920,10 @@
     "cost": 1,
     "expansionCode": "OP03",
     "imageId": "OP03-112_p4",
-    "id": "OP03-112_p4_TWO_LEGENDS_[OP-08]"
+    "id": "OP03-112_p4_TWO_LEGENDS_[OP-08]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Jewelry Bonney",
@@ -3853,7 +3974,10 @@
     "cost": 4,
     "expansionCode": "ST03",
     "imageId": "ST03-004_p1",
-    "id": "ST03-004_p1_TWO_LEGENDS_[OP-08]"
+    "id": "ST03-004_p1_TWO_LEGENDS_[OP-08]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Queen",
@@ -3875,7 +3999,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-005_p1.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "ST04",
     "imageId": "ST04-005_p1",

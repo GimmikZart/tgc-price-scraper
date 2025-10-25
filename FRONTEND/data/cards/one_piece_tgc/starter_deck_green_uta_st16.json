@@ -370,7 +370,10 @@
     "cost": 9,
     "expansionCode": "ST16",
     "imageId": "ST16-004",
-    "id": "ST16-004_Green_Uta_[ST-16]"
+    "id": "ST16-004_Green_Uta_[ST-16]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Monkey.D.Luffy",

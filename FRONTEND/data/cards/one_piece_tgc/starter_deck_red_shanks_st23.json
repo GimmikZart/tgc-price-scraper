@@ -70,7 +70,8 @@
     "cost": 4,
     "abilityKeywords": [
       "[When Attacking]",
-      "[DON!! x1]"
+      "[DON!! x1]",
+      "[On Play]"
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-010_r1",
@@ -147,7 +148,8 @@
     "cost": 5,
     "abilityKeywords": [
       "[When Attacking]",
-      "[DON!! x1]"
+      "[DON!! x1]",
+      "[On Play]"
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-013_r1",
@@ -173,7 +175,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-014_r1.png",
     "cost": 3,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-014_r1",
@@ -304,7 +307,10 @@
     "cost": 9,
     "expansionCode": "ST23",
     "imageId": "ST23-002",
-    "id": "ST23-002_RED_Shanks_[ST-23]"
+    "id": "ST23-002_RED_Shanks_[ST-23]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Benn.Beckman",
@@ -327,7 +333,10 @@
     "cost": 4,
     "expansionCode": "ST23",
     "imageId": "ST23-003",
-    "id": "ST23-003_RED_Shanks_[ST-23]"
+    "id": "ST23-003_RED_Shanks_[ST-23]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Monkey.D.Luffy",

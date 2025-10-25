@@ -156,7 +156,10 @@
     "cost": 1,
     "expansionCode": "OP03",
     "imageId": "OP03-003_r1",
-    "id": "OP03-003_r1_Red_EdwardNewgate_[ST-15]"
+    "id": "OP03-003_r1_Red_EdwardNewgate_[ST-15]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Speed Jil",
@@ -305,7 +308,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST15-002.png",
     "cost": 7,
     "abilityKeywords": [
-      "[Activate: Main]"
+      "[Activate: Main]",
+      "[On Play]"
     ],
     "expansionCode": "ST15",
     "imageId": "ST15-002",
@@ -359,7 +363,10 @@
     "cost": 1,
     "expansionCode": "ST15",
     "imageId": "ST15-004",
-    "id": "ST15-004_Red_EdwardNewgate_[ST-15]"
+    "id": "ST15-004_Red_EdwardNewgate_[ST-15]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Portgas.D.Ace",

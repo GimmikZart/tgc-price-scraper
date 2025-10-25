@@ -188,7 +188,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-005.png",
     "cost": 4,
     "abilityKeywords": [
-      "[When Attacking]"
+      "[When Attacking]",
+      "[On Play]"
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-005",
@@ -215,7 +216,10 @@
     "cost": 2,
     "expansionCode": "OP05",
     "imageId": "OP05-006",
-    "id": "OP05-006_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-006_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Koala",
@@ -238,7 +242,10 @@
     "cost": 2,
     "expansionCode": "OP05",
     "imageId": "OP05-006_p1",
-    "id": "OP05-006_p1_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-006_p1_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Sabo",
@@ -261,7 +268,10 @@
     "cost": 6,
     "expansionCode": "OP05",
     "imageId": "OP05-007",
-    "id": "OP05-007_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-007_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Sabo",
@@ -284,7 +294,10 @@
     "cost": 6,
     "expansionCode": "OP05",
     "imageId": "OP05-007_p1",
-    "id": "OP05-007_p1_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-007_p1_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Chaka",
@@ -335,7 +348,10 @@
     "cost": 1,
     "expansionCode": "OP05",
     "imageId": "OP05-009",
-    "id": "OP05-009_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-009_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Nico Robin",
@@ -358,7 +374,10 @@
     "cost": 1,
     "expansionCode": "OP05",
     "imageId": "OP05-010",
-    "id": "OP05-010_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-010_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Bartholomew Kuma",
@@ -382,7 +401,10 @@
     "cost": 2,
     "expansionCode": "OP05",
     "imageId": "OP05-011",
-    "id": "OP05-011_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-011_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Hack",
@@ -482,7 +504,10 @@
     "cost": 1,
     "expansionCode": "OP05",
     "imageId": "OP05-015",
-    "id": "OP05-015_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-015_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Belo Betty",
@@ -505,7 +530,10 @@
     "cost": 1,
     "expansionCode": "OP05",
     "imageId": "OP05-015_p1",
-    "id": "OP05-015_p1_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-015_p1_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Morley",
@@ -1332,7 +1360,10 @@
     "cost": 6,
     "expansionCode": "OP05",
     "imageId": "OP05-042",
-    "id": "OP05-042_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-042_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Ulti",
@@ -1355,7 +1386,10 @@
     "cost": 4,
     "expansionCode": "OP05",
     "imageId": "OP05-043",
-    "id": "OP05-043_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-043_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Ulti",
@@ -1378,7 +1412,10 @@
     "cost": 4,
     "expansionCode": "OP05",
     "imageId": "OP05-043_p1",
-    "id": "OP05-043_p1_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-043_p1_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "John Giant",
@@ -1560,7 +1597,10 @@
     "cost": 3,
     "expansionCode": "OP05",
     "imageId": "OP05-050",
-    "id": "OP05-050_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-050_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Borsalino",
@@ -1583,7 +1623,10 @@
     "cost": 7,
     "expansionCode": "OP05",
     "imageId": "OP05-051",
-    "id": "OP05-051_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-051_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Borsalino",
@@ -1606,7 +1649,10 @@
     "cost": 7,
     "expansionCode": "OP05",
     "imageId": "OP05-051_p1",
-    "id": "OP05-051_p1_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-051_p1_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Maynard",
@@ -1682,7 +1728,10 @@
     "cost": 3,
     "expansionCode": "OP05",
     "imageId": "OP05-054",
-    "id": "OP05-054_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-054_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "X.Drake",
@@ -1706,7 +1755,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-055.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-055",
@@ -1734,7 +1784,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-055_p1.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-055_p1",
@@ -1761,7 +1812,10 @@
     "cost": 2,
     "expansionCode": "OP05",
     "imageId": "OP05-056",
-    "id": "OP05-056_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-056_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Hound Blaze",
@@ -1970,7 +2024,10 @@
     "cost": 4,
     "expansionCode": "OP05",
     "imageId": "OP05-063",
-    "id": "OP05-063_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-063_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Killer",
@@ -1993,7 +2050,10 @@
     "cost": 1,
     "expansionCode": "OP05",
     "imageId": "OP05-064",
-    "id": "OP05-064_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-064_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "San-Gorou",
@@ -2120,7 +2180,10 @@
     "cost": 2,
     "expansionCode": "OP05",
     "imageId": "OP05-068",
-    "id": "OP05-068_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-068_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -2275,7 +2338,10 @@
     "cost": 4,
     "expansionCode": "OP05",
     "imageId": "OP05-072",
-    "id": "OP05-072_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-072_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Miss Doublefinger(Zala)",
@@ -2298,7 +2364,10 @@
     "cost": 4,
     "expansionCode": "OP05",
     "imageId": "OP05-073",
-    "id": "OP05-073_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-073_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -2510,7 +2579,10 @@
     "cost": 2,
     "expansionCode": "OP05",
     "imageId": "OP05-079",
-    "id": "OP05-079_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-079_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Elizabello II",
@@ -2662,7 +2734,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-085.png",
     "cost": 2,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-085",
@@ -2823,7 +2896,8 @@
     "cost": 4,
     "abilityKeywords": [
       "[Blocker]",
-      "[On K.O.]"
+      "[On K.O.]",
+      "[On Play]"
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-090",
@@ -2849,7 +2923,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-091.png",
     "cost": 4,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-091",
@@ -2875,7 +2950,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-091_p1.png",
     "cost": 4,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-091_p1",
@@ -2928,7 +3004,10 @@
     "cost": 4,
     "expansionCode": "OP05",
     "imageId": "OP05-093",
-    "id": "OP05-093_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-093_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Rob Lucci",
@@ -2951,7 +3030,10 @@
     "cost": 4,
     "expansionCode": "OP05",
     "imageId": "OP05-093_p1",
-    "id": "OP05-093_p1_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-093_p1_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Haute Couture Patch★Work",
@@ -3215,7 +3297,10 @@
     "cost": 4,
     "expansionCode": "OP05",
     "imageId": "OP05-101",
-    "id": "OP05-101_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-101_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Gedatsu",
@@ -3239,7 +3324,10 @@
     "cost": 5,
     "expansionCode": "OP05",
     "imageId": "OP05-102",
-    "id": "OP05-102_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-102_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Gedatsu",
@@ -3263,7 +3351,10 @@
     "cost": 5,
     "expansionCode": "OP05",
     "imageId": "OP05-102_p1",
-    "id": "OP05-102_p1_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-102_p1_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Kotori",
@@ -3286,7 +3377,10 @@
     "cost": 3,
     "expansionCode": "OP05",
     "imageId": "OP05-103",
-    "id": "OP05-103_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-103_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Conis",
@@ -3309,7 +3403,10 @@
     "cost": 1,
     "expansionCode": "OP05",
     "imageId": "OP05-104",
-    "id": "OP05-104_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-104_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Satori",
@@ -3357,7 +3454,10 @@
     "cost": 2,
     "expansionCode": "OP05",
     "imageId": "OP05-106",
-    "id": "OP05-106_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-106_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Lieutenant Spacey",
@@ -3482,7 +3582,10 @@
     "cost": 3,
     "expansionCode": "OP05",
     "imageId": "OP05-111",
-    "id": "OP05-111_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-111_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Captain McKinley",
@@ -3636,7 +3739,10 @@
     "cost": 1,
     "expansionCode": "OP05",
     "imageId": "OP05-117",
-    "id": "OP05-117_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-117_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Kaido",
@@ -3660,7 +3766,10 @@
     "cost": 10,
     "expansionCode": "OP05",
     "imageId": "OP05-118",
-    "id": "OP05-118_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-118_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Kaido",
@@ -3684,7 +3793,10 @@
     "cost": 10,
     "expansionCode": "OP05",
     "imageId": "OP05-118_p1",
-    "id": "OP05-118_p1_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-118_p1_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3708,7 +3820,8 @@
     "cost": 10,
     "abilityKeywords": [
       "[Activate: Main]",
-      "[Once Per Turn]"
+      "[Once Per Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-119",
@@ -3736,7 +3849,8 @@
     "cost": 10,
     "abilityKeywords": [
       "[Activate: Main]",
-      "[Once Per Turn]"
+      "[Once Per Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-119_p1",
@@ -3764,7 +3878,8 @@
     "cost": 10,
     "abilityKeywords": [
       "[Activate: Main]",
-      "[Once Per Turn]"
+      "[Once Per Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-119_p2",
@@ -3851,7 +3966,10 @@
     "cost": 1,
     "expansionCode": "OP01",
     "imageId": "OP01-016_p4",
-    "id": "OP01-016_p4_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP01-016_p4_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Yamato",
@@ -3901,7 +4019,10 @@
     "cost": 8,
     "expansionCode": "OP02",
     "imageId": "OP02-120_p2",
-    "id": "OP02-120_p2_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP02-120_p2_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Rob Lucci",
@@ -3923,7 +4044,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-092_p2.png",
     "cost": 6,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-092_p2",
@@ -3951,7 +4073,10 @@
     "cost": 10,
     "expansionCode": "OP04",
     "imageId": "OP04-044_p2",
-    "id": "OP04-044_p2_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP04-044_p2_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Enel",

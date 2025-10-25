@@ -76,7 +76,10 @@
     "cost": 4,
     "expansionCode": "OP01",
     "imageId": "OP01-005_p1",
-    "id": "OP01-005_p1_Card_SetsPremium_Card_Collection_FILM_RED_Edition-"
+    "id": "OP01-005_p1_Card_SetsPremium_Card_Collection_FILM_RED_Edition-",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Uta",
@@ -99,7 +102,10 @@
     "cost": 4,
     "expansionCode": "OP01",
     "imageId": "OP01-005_p2",
-    "id": "OP01-005_p2_Card_SetsGIFT_COLLECTION_2023_[GC_01]"
+    "id": "OP01-005_p2_Card_SetsGIFT_COLLECTION_2023_[GC_01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Otama",
@@ -122,7 +128,10 @@
     "cost": 1,
     "expansionCode": "OP01",
     "imageId": "OP01-006_p1",
-    "id": "OP01-006_p1_Card_SetsJapanese_1st_Anniversary_Set"
+    "id": "OP01-006_p1_Card_SetsJapanese_1st_Anniversary_Set",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Sanji",
@@ -255,7 +264,10 @@
     "cost": 1,
     "expansionCode": "OP01",
     "imageId": "OP01-016_p2",
-    "id": "OP01-016_p2_Card_SetsPremium_Card_Collection_25th_Edition-"
+    "id": "OP01-016_p2_Card_SetsPremium_Card_Collection_25th_Edition-",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Nami",
@@ -278,7 +290,10 @@
     "cost": 1,
     "expansionCode": "OP01",
     "imageId": "OP01-016_p5",
-    "id": "OP01-016_p5_Card_SetsGIFT_COLLECTION_2023_[GC_01]"
+    "id": "OP01-016_p5_Card_SetsGIFT_COLLECTION_2023_[GC_01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Nami",
@@ -301,7 +316,10 @@
     "cost": 1,
     "expansionCode": "OP01",
     "imageId": "OP01-016_p7",
-    "id": "OP01-016_p7_Card_SetsEnglish_Version_1st_Anniversary_Set"
+    "id": "OP01-016_p7_Card_SetsEnglish_Version_1st_Anniversary_Set",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Nico Robin",
@@ -561,7 +579,8 @@
     "cost": 5,
     "abilityKeywords": [
       "[On K.O.]",
-      "[Your Turn]"
+      "[Your Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-013_p2",
@@ -1112,7 +1131,10 @@
     "cost": 2,
     "expansionCode": "ST01",
     "imageId": "ST01-011_p1",
-    "id": "ST01-011_p1_Card_SetsPremium_Card_Collection_FILM_RED_Edition-"
+    "id": "ST01-011_p1_Card_SetsPremium_Card_Collection_FILM_RED_Edition-",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Brook",
@@ -1135,7 +1157,10 @@
     "cost": 2,
     "expansionCode": "ST01",
     "imageId": "ST01-011_p3",
-    "id": "ST01-011_p3_Card_SetsEnglish_Version_1st_Anniversary_Set"
+    "id": "ST01-011_p3_Card_SetsEnglish_Version_1st_Anniversary_Set",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Roronoa Zoro",

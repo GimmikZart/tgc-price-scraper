@@ -104,7 +104,10 @@
     "cost": 3,
     "expansionCode": "OP11",
     "imageId": "OP11-002",
-    "id": "OP11-002_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-002_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Usopp",
@@ -150,7 +153,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-004.png",
     "cost": 1,
     "abilityKeywords": [
-      "[Activate: Main]"
+      "[Activate: Main]",
+      "[On Play]"
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-004",
@@ -177,7 +181,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-004_p1.png",
     "cost": 1,
     "abilityKeywords": [
-      "[Activate: Main]"
+      "[Activate: Main]",
+      "[On Play]"
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-004_p1",
@@ -284,7 +289,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-008.png",
     "cost": 4,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-008",
@@ -310,7 +316,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-008_p1.png",
     "cost": 4,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-008_p1",
@@ -364,7 +371,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-010.png",
     "cost": 5,
     "abilityKeywords": [
-      "[When Attacking]"
+      "[When Attacking]",
+      "[On Play]"
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-010",
@@ -391,7 +399,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-010_p1.png",
     "cost": 5,
     "abilityKeywords": [
-      "[When Attacking]"
+      "[When Attacking]",
+      "[On Play]"
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-010_p1",
@@ -971,7 +980,10 @@
     "cost": 4,
     "expansionCode": "OP11",
     "imageId": "OP11-028",
-    "id": "OP11-028_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-028_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Charlotte Praline",
@@ -995,7 +1007,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-029.png",
     "cost": 3,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-029",
@@ -1051,7 +1064,8 @@
     "cost": 6,
     "abilityKeywords": [
       "[Activate: Main]",
-      "[Once Per Turn]"
+      "[Once Per Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-031",
@@ -1080,7 +1094,8 @@
     "cost": 6,
     "abilityKeywords": [
       "[Activate: Main]",
-      "[Once Per Turn]"
+      "[Once Per Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-031_p1",
@@ -1184,7 +1199,10 @@
     "cost": 6,
     "expansionCode": "OP11",
     "imageId": "OP11-035",
-    "id": "OP11-035_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-035_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Spotted Neptunian",
@@ -1207,7 +1225,10 @@
     "cost": 4,
     "expansionCode": "OP11",
     "imageId": "OP11-036",
-    "id": "OP11-036_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-036_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Ancient Weapon Poseidon",
@@ -1420,7 +1441,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-042.png",
     "cost": 3,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-042",
@@ -1556,7 +1578,10 @@
     "cost": 4,
     "expansionCode": "OP11",
     "imageId": "OP11-047",
-    "id": "OP11-047_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-047_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Vinsmoke Reiju",
@@ -1580,7 +1605,10 @@
     "cost": 4,
     "expansionCode": "OP11",
     "imageId": "OP11-047_p1",
-    "id": "OP11-047_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-047_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Capone\"Gang\"Bege",
@@ -1604,7 +1632,10 @@
     "cost": 1,
     "expansionCode": "OP11",
     "imageId": "OP11-048",
-    "id": "OP11-048_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-048_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Carrot",
@@ -1626,7 +1657,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-049.png",
     "cost": 1,
     "abilityKeywords": [
-      "[On Your Opponent's Attack]"
+      "[On Your Opponent's Attack]",
+      "[On Play]"
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-049",
@@ -1680,7 +1712,10 @@
     "cost": 6,
     "expansionCode": "OP11",
     "imageId": "OP11-051",
-    "id": "OP11-051_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-051_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Sanji",
@@ -1704,7 +1739,10 @@
     "cost": 6,
     "expansionCode": "OP11",
     "imageId": "OP11-051_p1",
-    "id": "OP11-051_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-051_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Charlotte Lola",
@@ -1774,7 +1812,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-054.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-054",
@@ -1800,7 +1839,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-054_p1.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-054_p1",
@@ -1850,7 +1890,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-056.png",
     "cost": 3,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-056",
@@ -2063,7 +2104,10 @@
     "cost": 2,
     "expansionCode": "OP11",
     "imageId": "OP11-063",
-    "id": "OP11-063_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-063_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Saldeath",
@@ -2238,7 +2282,10 @@
     "cost": 3,
     "expansionCode": "OP11",
     "imageId": "OP11-069",
-    "id": "OP11-069_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-069_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Charlotte Pudding",
@@ -2260,7 +2307,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-070.png",
     "cost": 1,
     "abilityKeywords": [
-      "[Activate: Main]"
+      "[Activate: Main]",
+      "[On Play]"
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-070",
@@ -2286,7 +2334,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-070_p1.png",
     "cost": 1,
     "abilityKeywords": [
-      "[Activate: Main]"
+      "[Activate: Main]",
+      "[On Play]"
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-070_p1",
@@ -2454,7 +2503,10 @@
     "cost": 6,
     "expansionCode": "OP11",
     "imageId": "OP11-075",
-    "id": "OP11-075_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-075_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Hannyabal",
@@ -2476,7 +2528,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-076.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-076",
@@ -2686,7 +2739,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-083.png",
     "cost": 1,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-083",
@@ -2712,7 +2766,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-084.png",
     "cost": 4,
     "abilityKeywords": [
-      "[When Attacking]"
+      "[When Attacking]",
+      "[On Play]"
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-084",
@@ -2738,7 +2793,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-084_p1.png",
     "cost": 4,
     "abilityKeywords": [
-      "[When Attacking]"
+      "[When Attacking]",
+      "[On Play]"
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-084_p1",
@@ -2766,7 +2822,10 @@
     "cost": 3,
     "expansionCode": "OP11",
     "imageId": "OP11-085",
-    "id": "OP11-085_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-085_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Coribou",
@@ -2788,7 +2847,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-086.png",
     "cost": 3,
     "abilityKeywords": [
-      "[Activate: Main]"
+      "[Activate: Main]",
+      "[On Play]"
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-086",
@@ -2916,7 +2976,10 @@
     "cost": 4,
     "expansionCode": "OP11",
     "imageId": "OP11-091",
-    "id": "OP11-091_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-091_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Helmeppo",
@@ -2940,7 +3003,10 @@
     "cost": 6,
     "expansionCode": "OP11",
     "imageId": "OP11-092",
-    "id": "OP11-092_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-092_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Helmeppo",
@@ -2964,7 +3030,10 @@
     "cost": 6,
     "expansionCode": "OP11",
     "imageId": "OP11-092_p1",
-    "id": "OP11-092_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-092_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Bogard",
@@ -3033,7 +3102,10 @@
     "cost": 8,
     "expansionCode": "OP11",
     "imageId": "OP11-095",
-    "id": "OP11-095_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-095_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Monkey.D.Garp",
@@ -3056,7 +3128,10 @@
     "cost": 8,
     "expansionCode": "OP11",
     "imageId": "OP11-095_p1",
-    "id": "OP11-095_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-095_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Ripper",
@@ -3186,7 +3261,10 @@
     "cost": 1,
     "expansionCode": "OP11",
     "imageId": "OP11-100",
-    "id": "OP11-100_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-100_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Capone\"Gang\"Bege",
@@ -3320,7 +3398,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-104.png",
     "cost": 3,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-104",
@@ -3372,7 +3451,10 @@
     "cost": 2,
     "expansionCode": "OP11",
     "imageId": "OP11-106",
-    "id": "OP11-106_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-106_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Zeus",
@@ -3396,7 +3478,10 @@
     "cost": 2,
     "expansionCode": "OP11",
     "imageId": "OP11-106_p1",
-    "id": "OP11-106_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-106_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Topknot Neptunian",
@@ -3448,7 +3533,10 @@
     "cost": 5,
     "expansionCode": "OP11",
     "imageId": "OP11-108",
-    "id": "OP11-108_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-108_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Pappag",
@@ -3472,7 +3560,10 @@
     "cost": 1,
     "expansionCode": "OP11",
     "imageId": "OP11-109",
-    "id": "OP11-109_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-109_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Fukaboshi",
@@ -3496,7 +3587,10 @@
     "cost": 3,
     "expansionCode": "OP11",
     "imageId": "OP11-110",
-    "id": "OP11-110_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-110_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Mamboshi",
@@ -3811,7 +3905,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-119.png",
     "cost": 8,
     "abilityKeywords": [
-      "[When Attacking]"
+      "[When Attacking]",
+      "[On Play]"
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-119",
@@ -3838,7 +3933,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-119_p1.png",
     "cost": 8,
     "abilityKeywords": [
-      "[When Attacking]"
+      "[When Attacking]",
+      "[On Play]"
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-119_p1",
@@ -3892,7 +3988,8 @@
     "cost": 10,
     "abilityKeywords": [
       "[Activate: Main]",
-      "[Once Per Turn]"
+      "[Once Per Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-119_p7",
@@ -3920,7 +4017,8 @@
     "cost": 10,
     "abilityKeywords": [
       "[Activate: Main]",
-      "[Once Per Turn]"
+      "[Once Per Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-119_p8",
@@ -3947,7 +4045,10 @@
     "cost": 9,
     "expansionCode": "OP06",
     "imageId": "OP06-119_p2",
-    "id": "OP06-119_p2_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP06-119_p2_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Stussy",
@@ -3970,7 +4071,10 @@
     "cost": 9,
     "expansionCode": "OP07",
     "imageId": "OP07-085_p2",
-    "id": "OP07-085_p2_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP07-085_p2_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Silvers Rayleigh",
@@ -3992,7 +4096,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-005_p1.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-005_p1",
@@ -4021,7 +4126,10 @@
     "cost": 9,
     "expansionCode": "ST16",
     "imageId": "ST16-004_p1",
-    "id": "ST16-004_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "ST16-004_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Luffy-Tarou",
@@ -4044,6 +4152,9 @@
     "cost": 7,
     "expansionCode": "ST18",
     "imageId": "ST18-005_p1",
-    "id": "ST18-005_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "ST18-005_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   }
 ]

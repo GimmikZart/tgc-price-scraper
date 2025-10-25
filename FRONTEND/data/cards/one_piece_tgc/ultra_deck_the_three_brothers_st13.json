@@ -201,7 +201,10 @@
     "cost": 6,
     "expansionCode": "ST13",
     "imageId": "ST13-004",
-    "id": "ST13-004_The_Three_Brothers_[ST13]"
+    "id": "ST13-004_The_Three_Brothers_[ST13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Edward.Newgate",
@@ -225,7 +228,10 @@
     "cost": 6,
     "expansionCode": "ST13",
     "imageId": "ST13-004_p1",
-    "id": "ST13-004_p1_The_Three_Brothers_[ST13]"
+    "id": "ST13-004_p1_The_Three_Brothers_[ST13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Emporio.Ivankov",
@@ -247,7 +253,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-005.png",
     "cost": 3,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "ST13",
     "imageId": "ST13-005",
@@ -273,7 +280,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-005_p1.png",
     "cost": 3,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "ST13",
     "imageId": "ST13-005_p1",
@@ -299,7 +307,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-006.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "ST13",
     "imageId": "ST13-006",
@@ -325,7 +334,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-006_p1.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "ST13",
     "imageId": "ST13-006_p1",
@@ -405,7 +415,10 @@
     "cost": 5,
     "expansionCode": "ST13",
     "imageId": "ST13-008",
-    "id": "ST13-008_The_Three_Brothers_[ST13]"
+    "id": "ST13-008_The_Three_Brothers_[ST13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Sabo",
@@ -429,7 +442,10 @@
     "cost": 5,
     "expansionCode": "ST13",
     "imageId": "ST13-008_p1",
-    "id": "ST13-008_p1_The_Three_Brothers_[ST13]"
+    "id": "ST13-008_p1_The_Three_Brothers_[ST13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Shanks",
@@ -453,7 +469,10 @@
     "cost": 7,
     "expansionCode": "ST13",
     "imageId": "ST13-009",
-    "id": "ST13-009_The_Three_Brothers_[ST13]"
+    "id": "ST13-009_The_Three_Brothers_[ST13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Shanks",
@@ -477,7 +496,10 @@
     "cost": 7,
     "expansionCode": "ST13",
     "imageId": "ST13-009_p1",
-    "id": "ST13-009_p1_The_Three_Brothers_[ST13]"
+    "id": "ST13-009_p1_The_Three_Brothers_[ST13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Portgas.D.Ace",
@@ -551,7 +573,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-011.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "ST13",
     "imageId": "ST13-011",
@@ -577,7 +600,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-011_p1.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "ST13",
     "imageId": "ST13-011_p1",
@@ -604,7 +628,10 @@
     "cost": 1,
     "expansionCode": "ST13",
     "imageId": "ST13-012",
-    "id": "ST13-012_The_Three_Brothers_[ST13]"
+    "id": "ST13-012_The_Three_Brothers_[ST13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Makino",
@@ -627,7 +654,10 @@
     "cost": 1,
     "expansionCode": "ST13",
     "imageId": "ST13-012_p1",
-    "id": "ST13-012_p1_The_Three_Brothers_[ST13]"
+    "id": "ST13-012_p1_The_Three_Brothers_[ST13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Monkey.D.Garp",
@@ -650,7 +680,10 @@
     "cost": 1,
     "expansionCode": "ST13",
     "imageId": "ST13-013",
-    "id": "ST13-013_The_Three_Brothers_[ST13]"
+    "id": "ST13-013_The_Three_Brothers_[ST13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Monkey.D.Garp",
@@ -673,7 +706,10 @@
     "cost": 1,
     "expansionCode": "ST13",
     "imageId": "ST13-013_p1",
-    "id": "ST13-013_p1_The_Three_Brothers_[ST13]"
+    "id": "ST13-013_p1_The_Three_Brothers_[ST13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -803,7 +839,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-016.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "ST13",
     "imageId": "ST13-016",
@@ -829,7 +866,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-016_p1.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "ST13",
     "imageId": "ST13-016_p1",

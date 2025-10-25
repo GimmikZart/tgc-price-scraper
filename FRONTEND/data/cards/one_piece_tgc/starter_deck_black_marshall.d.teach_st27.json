@@ -20,7 +20,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-081_p2.png",
     "life": 5,
     "abilityKeywords": [
-      "[Activate: Main]"
+      "[Activate: Main]",
+      "[On Play]"
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-081_p2",
@@ -363,7 +364,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST27-004.png",
     "cost": 4,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "ST27",
     "imageId": "ST27-004",

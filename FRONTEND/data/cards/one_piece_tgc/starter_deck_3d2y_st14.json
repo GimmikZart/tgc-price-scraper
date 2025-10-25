@@ -73,7 +73,10 @@
     "cost": 5,
     "expansionCode": "ST14",
     "imageId": "ST14-003",
-    "id": "ST14-003_3D2Y_[ST-14]"
+    "id": "ST14-003_3D2Y_[ST-14]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Jinbe",
@@ -147,7 +150,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-006.png",
     "cost": 3,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "ST14",
     "imageId": "ST14-006",
@@ -173,7 +177,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-007.png",
     "cost": 6,
     "abilityKeywords": [
-      "[When Attacking]"
+      "[When Attacking]",
+      "[On Play]"
     ],
     "expansionCode": "ST14",
     "imageId": "ST14-007",
@@ -429,6 +434,9 @@
     "cost": 1,
     "expansionCode": "ST14",
     "imageId": "ST14-017",
-    "id": "ST14-017_3D2Y_[ST-14]"
+    "id": "ST14-017_3D2Y_[ST-14]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   }
 ]

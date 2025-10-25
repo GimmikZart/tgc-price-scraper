@@ -101,7 +101,10 @@
     "cost": 4,
     "expansionCode": "ST03",
     "imageId": "ST03-004",
-    "id": "ST03-004_The_Seven_Warlords_of_the_Sea_[ST-03]"
+    "id": "ST03-004_The_Seven_Warlords_of_the_Sea_[ST-03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Dracule Mihawk",
@@ -232,7 +235,10 @@
     "cost": 7,
     "expansionCode": "ST03",
     "imageId": "ST03-009",
-    "id": "ST03-009_The_Seven_Warlords_of_the_Sea_[ST-03]"
+    "id": "ST03-009_The_Seven_Warlords_of_the_Sea_[ST-03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Bartholomew Kuma",
@@ -256,7 +262,10 @@
     "cost": 2,
     "expansionCode": "ST03",
     "imageId": "ST03-010",
-    "id": "ST03-010_The_Seven_Warlords_of_the_Sea_[ST-03]"
+    "id": "ST03-010_The_Seven_Warlords_of_the_Sea_[ST-03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Buggy",
@@ -355,7 +364,10 @@
     "cost": 4,
     "expansionCode": "ST03",
     "imageId": "ST03-014",
-    "id": "ST03-014_The_Seven_Warlords_of_the_Sea_[ST-03]"
+    "id": "ST03-014_The_Seven_Warlords_of_the_Sea_[ST-03]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Sables",

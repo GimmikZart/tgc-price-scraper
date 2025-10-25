@@ -278,7 +278,10 @@
     "cost": 2,
     "expansionCode": "ST01",
     "imageId": "ST01-011",
-    "id": "ST01-011_Straw_Hat_Crew_[ST-01]"
+    "id": "ST01-011_Straw_Hat_Crew_[ST-01]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Monkey.D.Luffy",

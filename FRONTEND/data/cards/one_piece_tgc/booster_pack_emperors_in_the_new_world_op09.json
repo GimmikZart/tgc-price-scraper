@@ -74,7 +74,10 @@
     "cost": 1,
     "expansionCode": "OP09",
     "imageId": "OP09-002",
-    "id": "OP09-002_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-002_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Uta",
@@ -97,7 +100,10 @@
     "cost": 1,
     "expansionCode": "OP09",
     "imageId": "OP09-002_p1",
-    "id": "OP09-002_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-002_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Shachi & Penguin",
@@ -226,7 +232,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-005.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-005",
@@ -275,7 +282,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-007.png",
     "cost": 3,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-007",
@@ -328,7 +336,10 @@
     "cost": 7,
     "expansionCode": "OP09",
     "imageId": "OP09-009",
-    "id": "OP09-009_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-009_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Benn.Beckman",
@@ -351,7 +362,10 @@
     "cost": 7,
     "expansionCode": "OP09",
     "imageId": "OP09-009_p1",
-    "id": "OP09-009_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-009_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Bonk Punch",
@@ -374,7 +388,8 @@
     "cost": 4,
     "abilityKeywords": [
       "[When Attacking]",
-      "[DON!! x1]"
+      "[DON!! x1]",
+      "[On Play]"
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-010",
@@ -451,7 +466,8 @@
     "cost": 5,
     "abilityKeywords": [
       "[When Attacking]",
-      "[DON!! x1]"
+      "[DON!! x1]",
+      "[On Play]"
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-013",
@@ -477,7 +493,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-014.png",
     "cost": 3,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-014",
@@ -742,7 +759,8 @@
     "cost": 9,
     "abilityKeywords": [
       "[Once Per Turn]",
-      "[On Your Opponent's Attack]"
+      "[On Your Opponent's Attack]",
+      "[On Play]"
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-023",
@@ -769,7 +787,8 @@
     "cost": 9,
     "abilityKeywords": [
       "[Once Per Turn]",
-      "[On Your Opponent's Attack]"
+      "[On Your Opponent's Attack]",
+      "[On Play]"
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-023_p1",
@@ -797,7 +816,10 @@
     "cost": 4,
     "expansionCode": "OP09",
     "imageId": "OP09-024",
-    "id": "OP09-024_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-024_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Crocodile",
@@ -846,7 +868,10 @@
     "cost": 6,
     "expansionCode": "OP09",
     "imageId": "OP09-026",
-    "id": "OP09-026_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-026_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Sabo",
@@ -954,7 +979,10 @@
     "cost": 3,
     "expansionCode": "OP09",
     "imageId": "OP09-030",
-    "id": "OP09-030_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-030_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Donquixote Doflamingo",
@@ -1037,7 +1065,10 @@
     "cost": 4,
     "expansionCode": "OP09",
     "imageId": "OP09-033",
-    "id": "OP09-033_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-033_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Perona",
@@ -1061,7 +1092,10 @@
     "cost": 1,
     "expansionCode": "OP09",
     "imageId": "OP09-034",
-    "id": "OP09-034_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-034_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Perona",
@@ -1085,7 +1119,10 @@
     "cost": 1,
     "expansionCode": "OP09",
     "imageId": "OP09-034_p1",
-    "id": "OP09-034_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-034_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Portgas.D.Ace",
@@ -1109,7 +1146,10 @@
     "cost": 5,
     "expansionCode": "OP09",
     "imageId": "OP09-035",
-    "id": "OP09-035_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-035_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -1134,7 +1174,10 @@
     "cost": 5,
     "expansionCode": "OP09",
     "imageId": "OP09-036",
-    "id": "OP09-036_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-036_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Lim",
@@ -1156,7 +1199,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-037.png",
     "cost": 3,
     "abilityKeywords": [
-      "[End of Your Turn]"
+      "[End of Your Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-037",
@@ -1182,7 +1226,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-037_p1.png",
     "cost": 3,
     "abilityKeywords": [
-      "[End of Your Turn]"
+      "[End of Your Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-037_p1",
@@ -1447,7 +1492,10 @@
     "cost": 7,
     "expansionCode": "OP09",
     "imageId": "OP09-046",
-    "id": "OP09-046_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-046_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Crocodile",
@@ -1471,7 +1519,10 @@
     "cost": 7,
     "expansionCode": "OP09",
     "imageId": "OP09-046_p1",
-    "id": "OP09-046_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-046_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Kouzuki Oden",
@@ -1521,7 +1572,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-048.png",
     "cost": 6,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-048",
@@ -1547,7 +1599,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-048_p1.png",
     "cost": 6,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-048_p1",
@@ -1650,7 +1703,10 @@
     "cost": 10,
     "expansionCode": "OP09",
     "imageId": "OP09-051",
-    "id": "OP09-051_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-051_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Buggy",
@@ -1674,7 +1730,10 @@
     "cost": 10,
     "expansionCode": "OP09",
     "imageId": "OP09-051_p1",
-    "id": "OP09-051_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-051_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Buggy",
@@ -1698,7 +1757,10 @@
     "cost": 10,
     "expansionCode": "OP09",
     "imageId": "OP09-051_p2",
-    "id": "OP09-051_p2_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-051_p2_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Marco",
@@ -1747,7 +1809,10 @@
     "cost": 5,
     "expansionCode": "OP09",
     "imageId": "OP09-053",
-    "id": "OP09-053_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-053_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Richie",
@@ -1822,7 +1887,10 @@
     "cost": 1,
     "expansionCode": "OP09",
     "imageId": "OP09-056",
-    "id": "OP09-056_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-056_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Cross Guild",
@@ -2090,7 +2158,10 @@
     "cost": 5,
     "expansionCode": "OP09",
     "imageId": "OP09-064",
-    "id": "OP09-064_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-064_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Sanji",
@@ -2112,7 +2183,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-065.png",
     "cost": 7,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-065",
@@ -2138,7 +2210,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-065_p1.png",
     "cost": 7,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-065_p1",
@@ -2165,7 +2238,10 @@
     "cost": 4,
     "expansionCode": "OP09",
     "imageId": "OP09-066",
-    "id": "OP09-066_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-066_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Jinbe",
@@ -2240,7 +2316,10 @@
     "cost": 1,
     "expansionCode": "OP09",
     "imageId": "OP09-069",
-    "id": "OP09-069_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-069_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -2263,7 +2342,10 @@
     "cost": 1,
     "expansionCode": "OP09",
     "imageId": "OP09-069_p1",
-    "id": "OP09-069_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-069_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Nami",
@@ -2286,7 +2368,10 @@
     "cost": 3,
     "expansionCode": "OP09",
     "imageId": "OP09-070",
-    "id": "OP09-070_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-070_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Nico Robin",
@@ -2334,7 +2419,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-072.png",
     "cost": 4,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-072",
@@ -2360,7 +2446,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-072_p1.png",
     "cost": 4,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-072_p1",
@@ -2441,7 +2528,10 @@
     "cost": 3,
     "expansionCode": "OP09",
     "imageId": "OP09-075",
-    "id": "OP09-075_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-075_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -2464,7 +2554,10 @@
     "cost": 3,
     "expansionCode": "OP09",
     "imageId": "OP09-076",
-    "id": "OP09-076_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-076_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Gum-Gum Lightning",
@@ -2594,7 +2687,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-081.png",
     "life": 5,
     "abilityKeywords": [
-      "[Activate: Main]"
+      "[Activate: Main]",
+      "[On Play]"
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-081",
@@ -2621,7 +2715,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-081_p1.png",
     "life": 5,
     "abilityKeywords": [
-      "[Activate: Main]"
+      "[Activate: Main]",
+      "[On Play]"
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-081_p1",
@@ -2728,7 +2823,10 @@
     "cost": 4,
     "expansionCode": "OP09",
     "imageId": "OP09-085",
-    "id": "OP09-085_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-085_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Jesus Burgess",
@@ -2774,7 +2872,10 @@
     "cost": 2,
     "expansionCode": "OP09",
     "imageId": "OP09-087",
-    "id": "OP09-087_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-087_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Shiryu",
@@ -3197,7 +3298,10 @@
     "cost": 4,
     "expansionCode": "OP09",
     "imageId": "OP09-101",
-    "id": "OP09-101_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-101_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Professor Clover",
@@ -3219,7 +3323,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-102.png",
     "cost": 1,
     "abilityKeywords": [
-      "[Trigger]"
+      "[Trigger]",
+      "[On Play]"
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-102",
@@ -3245,7 +3350,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-103.png",
     "cost": 6,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-103",
@@ -3271,7 +3377,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-103_p1.png",
     "cost": 6,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-103_p1",
@@ -3298,7 +3405,10 @@
     "cost": 7,
     "expansionCode": "OP09",
     "imageId": "OP09-104",
-    "id": "OP09-104_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-104_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Sanji",
@@ -3345,7 +3455,10 @@
     "cost": 1,
     "expansionCode": "OP09",
     "imageId": "OP09-106",
-    "id": "OP09-106_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-106_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Nico Robin",
@@ -3368,7 +3481,10 @@
     "cost": 6,
     "expansionCode": "OP09",
     "imageId": "OP09-107",
-    "id": "OP09-107_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-107_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Nico Robin",
@@ -3391,7 +3507,10 @@
     "cost": 6,
     "expansionCode": "OP09",
     "imageId": "OP09-107_p1",
-    "id": "OP09-107_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-107_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Bartholomew Kuma",
@@ -3467,7 +3586,10 @@
     "cost": 2,
     "expansionCode": "OP09",
     "imageId": "OP09-110",
-    "id": "OP09-110_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-110_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Brook",
@@ -3514,7 +3636,10 @@
     "cost": 3,
     "expansionCode": "OP09",
     "imageId": "OP09-112",
-    "id": "OP09-112_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-112_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Morley",
@@ -3562,7 +3687,10 @@
     "cost": 3,
     "expansionCode": "OP09",
     "imageId": "OP09-114",
-    "id": "OP09-114_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-114_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Ice Block Partisan",
@@ -3748,7 +3876,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-119.png",
     "cost": 9,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-119",
@@ -3774,7 +3903,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-119_p1.png",
     "cost": 9,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-119_p1",
@@ -3800,7 +3930,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-119_p2.png",
     "cost": 9,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-119_p2",
@@ -3827,7 +3958,10 @@
     "cost": 4,
     "expansionCode": "ST18",
     "imageId": "ST18-004_p1",
-    "id": "ST18-004_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "ST18-004_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Donquixote Rosinante",
@@ -3850,7 +3984,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-119_p2.png",
     "cost": 8,
     "abilityKeywords": [
-      "[Opponent's Turn]"
+      "[Opponent's Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-119_p2",
@@ -3903,7 +4038,10 @@
     "cost": 4,
     "expansionCode": "OP05",
     "imageId": "OP05-093_p2",
-    "id": "OP05-093_p2_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP05-093_p2_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3927,7 +4065,8 @@
     "cost": 10,
     "abilityKeywords": [
       "[Activate: Main]",
-      "[Once Per Turn]"
+      "[Once Per Turn]",
+      "[On Play]"
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-119_p6",
@@ -3953,7 +4092,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-015_p2.png",
     "cost": 8,
     "abilityKeywords": [
-      "[Rush]"
+      "[Rush]",
+      "[On Play]"
     ],
     "expansionCode": "OP07",
     "imageId": "OP07-015_p2",
@@ -3981,7 +4121,10 @@
     "cost": 6,
     "expansionCode": "OP07",
     "imageId": "OP07-051_p3",
-    "id": "OP07-051_p3_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP07-051_p3_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Nami",
@@ -4004,7 +4147,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-106_p2.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Trigger]"
+      "[Trigger]",
+      "[On Play]"
     ],
     "expansionCode": "OP08",
     "imageId": "OP08-106_p2",
@@ -4059,7 +4203,10 @@
     "cost": 10,
     "expansionCode": "OP09",
     "imageId": "OP09-051_p3",
-    "id": "OP09-051_p3_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-051_p3_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Marshall.D.Teach",

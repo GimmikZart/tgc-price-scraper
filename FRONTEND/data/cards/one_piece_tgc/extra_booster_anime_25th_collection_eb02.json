@@ -157,7 +157,8 @@
     "cost": 3,
     "abilityKeywords": [
       "[Opponent's Turn]",
-      "[DON!! x2]"
+      "[DON!! x2]",
+      "[On Play]"
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-003",
@@ -186,7 +187,8 @@
     "cost": 3,
     "abilityKeywords": [
       "[Opponent's Turn]",
-      "[DON!! x2]"
+      "[DON!! x2]",
+      "[On Play]"
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-003_p1",
@@ -457,7 +459,10 @@
     "cost": 3,
     "expansionCode": "EB02",
     "imageId": "EB02-011",
-    "id": "EB02-011_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-011_Anime_25th_Collection_[EB-02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Arlong",
@@ -482,7 +487,10 @@
     "cost": 3,
     "expansionCode": "EB02",
     "imageId": "EB02-011_p1",
-    "id": "EB02-011_p1_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-011_p1_Anime_25th_Collection_[EB-02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Gaimon",
@@ -531,7 +539,10 @@
     "cost": 1,
     "expansionCode": "EB02",
     "imageId": "EB02-013",
-    "id": "EB02-013_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-013_Anime_25th_Collection_[EB-02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Sarfunkel",
@@ -554,7 +565,10 @@
     "cost": 2,
     "expansionCode": "EB02",
     "imageId": "EB02-014",
-    "id": "EB02-014_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-014_Anime_25th_Collection_[EB-02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Jewelry Bonney",
@@ -578,7 +592,10 @@
     "cost": 7,
     "expansionCode": "EB02",
     "imageId": "EB02-015",
-    "id": "EB02-015_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-015_Anime_25th_Collection_[EB-02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Jewelry Bonney",
@@ -602,7 +619,10 @@
     "cost": 7,
     "expansionCode": "EB02",
     "imageId": "EB02-015_p1",
-    "id": "EB02-015_p1_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-015_p1_Anime_25th_Collection_[EB-02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Chopperman",
@@ -626,7 +646,10 @@
     "cost": 5,
     "expansionCode": "EB02",
     "imageId": "EB02-016",
-    "id": "EB02-016_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-016_Anime_25th_Collection_[EB-02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Nami",
@@ -650,7 +673,10 @@
     "cost": 1,
     "expansionCode": "EB02",
     "imageId": "EB02-017",
-    "id": "EB02-017_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-017_Anime_25th_Collection_[EB-02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Nami",
@@ -674,7 +700,10 @@
     "cost": 1,
     "expansionCode": "EB02",
     "imageId": "EB02-017_p1",
-    "id": "EB02-017_p1_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-017_p1_Anime_25th_Collection_[EB-02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Buggy",
@@ -697,7 +726,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB02-018.png",
     "cost": 4,
     "abilityKeywords": [
-      "[Double Attack]"
+      "[Double Attack]",
+      "[On Play]"
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-018",
@@ -725,7 +755,10 @@
     "cost": 4,
     "expansionCode": "EB02",
     "imageId": "EB02-019",
-    "id": "EB02-019_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-019_Anime_25th_Collection_[EB-02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "We Are!",
@@ -802,7 +835,10 @@
     "cost": 4,
     "expansionCode": "EB02",
     "imageId": "EB02-022",
-    "id": "EB02-022_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-022_Anime_25th_Collection_[EB-02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Usopp",
@@ -826,7 +862,10 @@
     "cost": 4,
     "expansionCode": "EB02",
     "imageId": "EB02-022_p1",
-    "id": "EB02-022_p1_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-022_p1_Anime_25th_Collection_[EB-02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Crocodile",
@@ -877,7 +916,10 @@
     "cost": 4,
     "expansionCode": "EB02",
     "imageId": "EB02-024",
-    "id": "EB02-024_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-024_Anime_25th_Collection_[EB-02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Donquixote Rosinante",
@@ -927,7 +969,10 @@
     "cost": 3,
     "expansionCode": "EB02",
     "imageId": "EB02-026",
-    "id": "EB02-026_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-026_Anime_25th_Collection_[EB-02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Nefeltari Vivi",
@@ -950,7 +995,10 @@
     "cost": 3,
     "expansionCode": "EB02",
     "imageId": "EB02-026_p1",
-    "id": "EB02-026_p1_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-026_p1_Anime_25th_Collection_[EB-02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Vista",
@@ -973,7 +1021,10 @@
     "cost": 4,
     "expansionCode": "EB02",
     "imageId": "EB02-027",
-    "id": "EB02-027_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-027_Anime_25th_Collection_[EB-02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Portgas.D.Ace",
@@ -997,7 +1048,10 @@
     "cost": 5,
     "expansionCode": "EB02",
     "imageId": "EB02-028",
-    "id": "EB02-028_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-028_Anime_25th_Collection_[EB-02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Grandpa Ryu",
@@ -1098,7 +1152,10 @@
     "cost": 1,
     "expansionCode": "EB02",
     "imageId": "EB02-032",
-    "id": "EB02-032_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-032_Anime_25th_Collection_[EB-02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Klabautermann",
@@ -1172,7 +1229,8 @@
     "cost": 5,
     "abilityKeywords": [
       "[Your Turn]",
-      "[Once Per Turn]"
+      "[Once Per Turn]",
+      "[On Play]"
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-035",
@@ -1200,7 +1258,8 @@
     "cost": 5,
     "abilityKeywords": [
       "[Your Turn]",
-      "[Once Per Turn]"
+      "[Once Per Turn]",
+      "[On Play]"
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-035_p1",
@@ -1281,7 +1340,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB02-037.png",
     "cost": 3,
     "abilityKeywords": [
-      "[When Attacking]"
+      "[When Attacking]",
+      "[On Play]"
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-037",
@@ -1308,7 +1368,10 @@
     "cost": 3,
     "expansionCode": "EB02",
     "imageId": "EB02-038",
-    "id": "EB02-038_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-038_Anime_25th_Collection_[EB-02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "GERMA 66",
@@ -1383,7 +1446,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB02-041.png",
     "cost": 1,
     "abilityKeywords": [
-      "[Activate: Main]"
+      "[Activate: Main]",
+      "[On Play]"
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-041",
@@ -1455,7 +1519,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB02-044.png",
     "cost": 7,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-044",
@@ -1481,7 +1546,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB02-044_p1.png",
     "cost": 7,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-044_p1",
@@ -1509,7 +1575,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB02-045.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-045",
@@ -1537,7 +1604,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB02-045_p1.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-045_p1",
@@ -1564,7 +1632,10 @@
     "cost": 3,
     "expansionCode": "EB02",
     "imageId": "EB02-046",
-    "id": "EB02-046_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-046_Anime_25th_Collection_[EB-02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ]
   },
   {
     "name": "Blueno",
@@ -1612,7 +1683,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB02-048.png",
     "cost": 5,
     "abilityKeywords": [
-      "[On K.O.]"
+      "[On K.O.]",
+      "[On Play]"
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-048",
@@ -1638,7 +1710,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB02-048_p1.png",
     "cost": 5,
     "abilityKeywords": [
-      "[On K.O.]"
+      "[On K.O.]",
+      "[On Play]"
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-048_p1",
@@ -1664,7 +1737,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB02-049.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Activate: Main]"
+      "[Activate: Main]",
+      "[On Play]"
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-049",
@@ -1796,7 +1870,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB02-053.png",
     "cost": 3,
     "abilityKeywords": [
-      "[On K.O.]"
+      "[On K.O.]",
+      "[On Play]"
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-053",
@@ -1823,7 +1898,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB02-054.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-054",
@@ -1850,7 +1926,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB02-054_p1.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-054_p1",
@@ -1901,7 +1978,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB02-056.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-056",
@@ -1928,7 +2006,8 @@
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB02-056_p1.png",
     "cost": 5,
     "abilityKeywords": [
-      "[Blocker]"
+      "[Blocker]",
+      "[On Play]"
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-056_p1",

@@ -21,8 +21,8 @@ const leaderChoosen = ref(null);
 const router = useRouter();
 const { allCards } = await useOnePieceCards();
 const mobileFloatMenu = useMobileFloatMenu();
-const cardsInDeck = ref([]);
 const { getLocal, getCloud } = useDeckManager();
+
 
 function goToEditDeck() {
   router.push(`/decks/edit/${route.params.slug}`);
@@ -103,7 +103,7 @@ provide("item", currentDeck);
     <template #actions>
       <MobileFloatMenu :menu-open="mobileFloatMenu.open">
         <template #buttons>
-          <DialogsHandleDelete @delete="deleteDeck" />
+          <DialogsHandleDeleteDeck :slug="route.params.slug"/>
           <v-btn
             :disabled="currentDeck.cards.length != 50"
             class="text-white"
@@ -128,50 +128,7 @@ provide("item", currentDeck);
       </MobileFloatMenu>
     </template>
     <template #info>
-      <div
-        class="text-lg bg-black p-2 px-5 rounded-lg flex text-center font-bold z-0"
-      >
-        <Card :card="leaderChoosen" class="w-[50px] flex-none" />
-        <div class="w-full h-cover flex items-center justify-between">
-          <div class="w-4/5 flex flex-col justify-between px-3 truncate">
-            <p class="text-left text-xs">Leader</p>
-            <p class="w-auto text-left text-xl truncate">
-              {{ leaderChoosen.name }}
-            </p>
-            <div class="flex gap-3 items-center">
-              <p class="text-sm font-normal text-left">
-                {{ currentDeck.cards.length }} / 50
-              </p>
-              <v-chip
-                v-if="currentDeck.isLocal"
-                color="orange"
-                size="small"
-                class="text-xs"
-              >
-                Locale
-                <Icon icon="mdi:offline" class="text-orange text-lg ml-1" />
-              </v-chip>
-              <v-chip v-else size="small" color="green" class="text-xs">
-                {{ getVisibilityLabel(currentDeck.visibility) }}
-                <Icon
-                  icon="material-symbols-light:cloud-done-rounded"
-                  class="text-green text-lg ml-1"
-                />
-              </v-chip>
-            </div>
-          </div>
-          <div class="w-1/5 h-full grow flex gap-1 flex-col">
-            <div
-              v-for="(color, idx) in leaderChoosen.color"
-              :key="idx"
-              :class="`bg-${color.toLowerCase()}`"
-              class="text-xs px-2 h-full rounded flex items-center justify-center border-[1px] border-white/20"
-            >
-              {{ color }}
-            </div>
-          </div>
-        </div>
-      </div>
+      <DecksTopInfo :leader-choosen="leaderChoosen" :current-deck="currentDeck" />
     </template>
   </Toolbar>
   <CardViewDeck :single-cards-in-deck="singleCardsInDeck" />

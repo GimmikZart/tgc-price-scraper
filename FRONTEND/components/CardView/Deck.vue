@@ -1,10 +1,5 @@
 <script setup>
 const props = defineProps({
-  actionOnDeck: {
-    type: String,
-    required: false,
-    default: "info",
-  },
   singleCardsInDeck: {
     type: Array,
     required: true,
@@ -13,14 +8,20 @@ const props = defineProps({
 
 const addCardInDeck = inject("addCardInDeck");
 const removeCardFromDeck = inject("removeCardFromDeck");
+const actionOnDeck = inject("actionOnDeck");
 
-const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer(props.singleCardsInDeck);
+const viewerList = computed(() => props.singleCardsInDeck);
+
+const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer(viewerList);
 
 function handleCardCopy(card) {
-  if (props.actionOnDeck === "add") {
+  if (actionOnDeck.value === "add") {
     addCardInDeck(card);
-  } else if (props.actionOnDeck === "remove") {
+  } else if (actionOnDeck.value === "remove") {
     removeCardFromDeck(card);
+  } else {
+    console.log("open viewer for", card);
+    openViewer(card);
   }
 }
 </script>
@@ -31,6 +32,7 @@ function handleCardCopy(card) {
         v-for="(card, idx) in singleCardsInDeck"
         :key="idx"
         class="relative h-fit w-full"
+        @click="handleCardCopy(card)"
       >
         <Card
           v-for="(copy, ydx) in card.count"
@@ -44,8 +46,7 @@ function handleCardCopy(card) {
           :style="`transform: translateY(${ydx * 6}px) translateX(${
             ydx * 5
           }px) `"
-          @click="handleCardCopy(card)"
-          @open="openViewer(card)"
+          @open="openViewer"
           :disable-opening="actionOnDeck !== 'info'"
         />
       </div>
@@ -54,7 +55,7 @@ function handleCardCopy(card) {
     <FullscreenCardViewer
       v-model:show="viewerOpen"
       v-model:index="viewerIndex"
-      :cards="singleCardsInDeck"
+      :cards="viewerList"
       @close="viewerOpen = false"
     />
   </div>

@@ -163,6 +163,7 @@ provide("cardsInDeck", currentDeck.value.cards);
 provide("addCardInDeck", addCardInDeck);
 provide("removeCardFromDeck", removeCardFromDeck);
 provide("item", currentDeck);
+provide("actionOnDeck", actionOnDeck);
 </script>
 <template>
   <section class="relative">
@@ -234,62 +235,11 @@ provide("item", currentDeck);
         </MobileFloatMenu>
       </template>
       <template #info>
-        <p
-          v-if="!leaderChoosen"
-          class="text-lg p-2 rounded-lg text-center font-bold z-0"
-        >
-          SCEGLI IL LEADER
-        </p>
-        <div v-else class="rounded-b-xl">
-          <div
-            class="text-lg bg-black p-2 rounded-lg flex text-center font-bold z-0"
-          >
-            <Card :card="leaderChoosen" @open="openViewer(leaderChoosen)" class="w-[50px] flex-none" />
-            <div class="w-full h-cover flex items-center justify-between">
-              <div class="w-4/5 flex flex-col justify-between px-3 truncate">
-                <p class="text-left text-xs">COMPONI MAZZO</p>
-                <p class="w-auto text-left text-xl truncate">
-                  {{ leaderChoosen.name }}
-                </p>
-                <p class="text-sm font-normal text-left">
-                  {{ currentDeck.cards.length }} / 50
-                </p>
-              </div>
-              <div class="w-1/5 h-full grow flex gap-1 flex-col">
-                <div
-                  v-for="(color, idx) in leaderChoosen.color"
-                  :key="idx"
-                  :class="`bg-${color.toLowerCase()}`"
-                  class="text-xs px-2 h-full rounded flex items-center justify-center border-[1px] border-white/20"
-                >
-                  {{ color }}
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            v-if="showDeck"
-            class="flex flex-col items-center gap-2 justify-center mt-2"
-          >
-            <span class="text-xs">AL click sulla carta</span>
-            <v-btn-toggle
-              base-color="white"
-              v-model="actionOnDeck"
-              density="compact"
-              divided
-              variant="tonal"
-            >
-              <v-btn size="small" color="info" value="info"> Info </v-btn>
-              <v-btn size="small" color="success" value="add"> Aggiungi </v-btn>
-              <v-btn size="small" color="error" value="remove"> Rimuovi </v-btn>
-            </v-btn-toggle>
-          </div>
-        </div>
+        <DecksTopInfo :leader-choosen="leaderChoosen" :current-deck="currentDeck" :toggle-cards="showDeck"/>
       </template>
     </Toolbar>
     <CardViewDeck
       v-if="showDeck"
-      :action-on-deck="actionOnDeck"
       :single-cards-in-deck="singleCardsInDeck"
     />
 

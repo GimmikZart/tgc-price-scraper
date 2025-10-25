@@ -687,6 +687,7 @@ async function wait(ms) {
 
 const abilityKeywords = [
   "[Rush]",
+  "[On Play]",
   "[Double Attack]",
   "[Banish]",
   "[Blocker]",

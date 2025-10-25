@@ -15,7 +15,7 @@ function openCard() {
 
 <template>
   <div class="flex flex-col justify-between" :class="{ 'border-[1px] border-white/30 rounded-lg': handleCards }">
-    <Transition
+    <!-- <Transition
       appear
       enter-active-class="transition-all duration-300 ease-out"
       enter-from-class="translate-y-full"
@@ -28,7 +28,7 @@ function openCard() {
         <h3 class="font-bold mb-1">{{ card.name }}</h3>
         <h4 class="text-[10px]">{{ card.setName }}</h4>
       </div>
-    </Transition>
+    </Transition> -->
 
     <NuxtImg
       v-if="card.image"
@@ -49,11 +49,11 @@ function openCard() {
       enter-active-class="transition-all duration-300 ease-out"
       enter-from-class="-translate-y-full"
       enter-to-class="translate-y-0"
-      leave-active-class="transition-all duration-300 ease-out"
+      leave-active-class="transition-all duration-0 ease-out"
       leave-from-class="translate-y-0"
       leave-to-class="-translate-y-full"
     >
-      <div v-if="handleCards" class="flex gap-3 items-center justify-between z-1">
+      <div v-if="handleCards" class="flex gap-3 items-center justify-between -z-1">
         <div class="w-full flex items-center justify-between">
           <v-btn variant="tonal" color="white" @click="$emit('remove-card')">
             <v-icon size="25" color="red">mdi-minus</v-icon>

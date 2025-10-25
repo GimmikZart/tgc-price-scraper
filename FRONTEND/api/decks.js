@@ -60,9 +60,8 @@ export async function saveDeckOnCloud(localDeck) {
       throw new Error(updateError.message);
     }
     return updatedDeck;
-  }
-
-  const { data: deckCreationResponse, error: deckCreationError } = await client
+  } else {
+    const { data: deckCreationResponse, error: deckCreationError } = await client
     .from("decks")
     .insert({
       user_uuid: userAuth.userLogged.id,
@@ -74,10 +73,11 @@ export async function saveDeckOnCloud(localDeck) {
     })
     .single();
 
-  if (deckCreationError) {
-    console.log("Error creating deck:", deckCreationError);
+    if (deckCreationError) {
+      throw new Error(deckCreationError.message);
+    }
 
-    throw new Error(deckCreationError.message);
+    return deckCreationResponse;
   }
 }
 

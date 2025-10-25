@@ -1,8 +1,6 @@
 <script setup>
 import { Icon } from "@iconify/vue";
-import { useDeckStore } from "@/stores/useDeckStore";
 import { copyDeckOnClipboard } from "@/utilities/copyDeckOnClipboard";
-import { saveDeckOnCloud } from "@/api/decks";
 import { usePageLoader } from "@/stores/usePageLoader";
 
 const snackbar = useSnackbar();
@@ -26,12 +24,10 @@ const currentDeck = ref({
 const filteredCards = ref([]);
 const paginatedCards = ref([]);
 const openFilter = ref(false);
-const cardsInDeck = ref([]);
 const showDeck = ref(false);
 const filterKey = ref(0);
 const actionOnDeck = ref("info");
 const leaderChoosen = ref(null);
-const existingDeckInStore = ref(null);
 
 const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer(paginatedCards);
 

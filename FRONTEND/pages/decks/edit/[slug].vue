@@ -22,14 +22,15 @@ const currentDeck = ref({
 });
 
 const filteredCards = ref([]);
-const paginatedCards = ref([]);
+const visibleCards = ref([]);            // <-- buffer visibile dall'InfiniteGrid
 const openFilter = ref(false);
 const showDeck = ref(false);
 const filterKey = ref(0);
 const actionOnDeck = ref("info");
 const leaderChoosen = ref(null);
 
-const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer(paginatedCards);
+// Viewer: meglio su TUTTO il risultato (filteredCards)
+const { show: viewerOpen, index: viewerIndex } = useCardViewer(filteredCards);
 
 const leaderCards = computed(() => {
   return allCards.filter((card) => card.type === "LEADER");
@@ -41,44 +42,36 @@ const builderCards = computed(() => {
       const cardHasLeaderColor = leaderChoosen.value?.color?.some((item) =>
         card.color.includes(item)
       );
-
       const cardIsNotTypeLeader = card.type !== "LEADER";
       return cardIsNotTypeLeader && cardHasLeaderColor;
     });
   } else {
-    return leaderCards.value.filter((card) => card.type === "LEADER");
+    // prima schermata: scegli un LEADER
+    return leaderCards.value;
   }
 });
 
 const singleCardsInDeck = computed(() => {
-  const uniqueCards = new Map();
-  currentDeck.value.cards.forEach((card) => {
-    const cardData = allCards.find((c) => c.id === card);
-    if (uniqueCards.has(cardData)) {
-      uniqueCards.get(cardData).count++;
+  const unique = new Map();
+  currentDeck.value.cards.forEach((cardId) => {
+    const cardData = allCards.find((c) => c.id === cardId);
+    if (!cardData) return;
+    if (unique.has(cardData.id)) {
+      unique.get(cardData.id).count++;
     } else {
-      uniqueCards.set(cardData, { ...cardData, count: 1 });
+      unique.set(cardData.id, { ...cardData, count: 1 });
     }
   });
-  return Array.from(uniqueCards.values()).sort((a, b) => {
-    return a.cost - b.cost || a.name.localeCompare(b.name);
-  });
+  return Array.from(unique.values()).sort((a, b) => a.cost - b.cost || a.name.localeCompare(b.name));
 });
 
-watch(openFilter, (newValue) => {
-  if (newValue) {
-    document.documentElement.classList.add("overflow-hidden");
-  } else {
-    document.documentElement.classList.remove("overflow-hidden");
-  }
+watch(openFilter, (v) => {
+  document.documentElement.classList.toggle("overflow-hidden", v);
 });
 
 function handleFilteredUpdate(newFiltered) {
-  filteredCards.value = newFiltered;
-}
-
-function handlePaginatedUpdate(newPaginated) {
-  paginatedCards.value = newPaginated;
+  // sostituisci interamente l’array per far reagire l’InfiniteGrid
+  filteredCards.value = newFiltered.slice();
 }
 
 function chooseLeader(cardId) {
@@ -86,6 +79,9 @@ function chooseLeader(cardId) {
   currentDeck.value.leader = cardId;
   const leaderCard = leaderCards.value.find((c) => c.id === cardId);
   leaderChoosen.value = leaderCard || null;
+
+  // reset lista filtrata sul nuovo insieme “builderCards”
+  filteredCards.value = builderCards.value.slice();
 }
 
 function getCopyInDeck(card) {
@@ -97,30 +93,16 @@ function addCardInDeck(card) {
 }
 
 function removeCardFromDeck(cardToRemove) {
-  const count = currentDeck.value.cards.filter(
-    (id) => id === cardToRemove.id
-  ).length;
-
-  if (count > 1) {
-    const idxToRemove = currentDeck.value.cards.lastIndexOf(cardToRemove.id);
-    currentDeck.value.cards.splice(idxToRemove, 1);
-  } else if (count === 1) {
-    const idxToRemove = currentDeck.value.cards.indexOf(cardToRemove.id);
-    currentDeck.value.cards.splice(idxToRemove, 1);
-  }
+  const idx = currentDeck.value.cards.lastIndexOf(cardToRemove.id);
+  if (idx !== -1) currentDeck.value.cards.splice(idx, 1);
 }
 
-watch(
-  currentDeck,
-  (current) => {
-    saveLocal(current);
-  },
-  { deep: true }
-);
+// persistenza locale del draft
+watch(currentDeck, (current) => { saveLocal(current); }, { deep: true });
 
 async function getDeckFromSlug(slug) {
   if (!slug) return;
-  // 1) Provo a prendere il draft locale
+  // 1) prova locale
   const local = await getLocal(slug);
   if (local) {
     currentDeck.value = local;
@@ -128,8 +110,7 @@ async function getDeckFromSlug(slug) {
     chooseLeader(local.leader);
     return;
   }
-
-  // 2) Non esiste in locale → prendo dal cloud e creo il draft
+  // 2) fallback cloud
   const cloudDeck = await getCloud(slug);
   if (cloudDeck) {
     currentDeck.value = cloudDeck;
@@ -149,31 +130,39 @@ function exportDeck() {
   snackbar.addMessage("Deck copiato negli appunti", "success");
 }
 
+function openViewerFromItem(item) {
+  const i = filteredCards.value.findIndex(c => c.id === item.id);
+  if (i !== -1) {
+    viewerIndex.value = i;
+    viewerOpen.value = true;
+  }
+}
+
 onMounted(async () => {
   pageLoader.startLoading();
   await getDeckFromSlug(route.params.slug);
+  // prima popolazione lista (in base a leader / non leader)
+  filteredCards.value = builderCards.value.slice();
   pageLoader.stopLoading();
 });
 
-definePageMeta({
-  ssr: false,
-});
+definePageMeta({ ssr: false });
 
+// provide per child (deck, card actions)
 provide("cardsInDeck", currentDeck.value.cards);
 provide("addCardInDeck", addCardInDeck);
 provide("removeCardFromDeck", removeCardFromDeck);
 provide("item", currentDeck);
 provide("actionOnDeck", actionOnDeck);
 </script>
+
 <template>
   <section class="relative">
     <Toolbar :label="currentDeck.name" class="rounded-b-xl">
       <template #actions>
         <MobileFloatMenu>
           <template #buttons>
-            <DialogsHandleDeleteDeck
-              :slug="route.params.slug"
-            />
+            <DialogsHandleDeleteDeck :slug="route.params.slug" />
             <v-btn
               :disabled="currentDeck.cards.length != 50"
               class="text-white"
@@ -181,98 +170,83 @@ provide("actionOnDeck", actionOnDeck);
               @click="exportDeck"
             >
               <span class="text-xs mr-3">Esporta</span>
-              <Icon
-                class="text-2xl"
-                icon="material-symbols:export-notes-outline"
-              ></Icon>
+              <Icon class="text-2xl" icon="material-symbols:export-notes-outline" />
             </v-btn>
             <v-btn class="text-white" variant="text" @click="saveDeck">
               <span class="text-xs mr-3">Salva</span>
-              <Icon
-                class="text-2xl"
-                icon="material-symbols:save-rounded"
-              ></Icon>
+              <Icon class="text-2xl" icon="material-symbols:save-rounded" />
             </v-btn>
             <v-btn
               v-if="!showDeck && leaderChoosen"
               class="text-white"
               variant="text"
-              @click="
-                showDeck = true;
-                mobileFloatMenu.close();
-              "
+              @click="showDeck = true; mobileFloatMenu.close();"
             >
               <span class="text-xs mr-3">Mostra Mazzo</span>
-              <Icon class="text-2xl" icon="mdi:show"></Icon>
+              <Icon class="text-2xl" icon="mdi:show" />
             </v-btn>
             <v-btn
               v-else-if="showDeck && leaderChoosen"
               class="text-white"
               variant="text"
-              @click="
-                showDeck = false;
-                mobileFloatMenu.close();
-              "
+              @click="showDeck = false; mobileFloatMenu.close();"
             >
               <span class="text-xs mr-3">Lista Carte</span>
-              <Icon class="text-2xl" icon="streamline:cards"></Icon>
+              <Icon class="text-2xl" icon="streamline:cards" />
             </v-btn>
-            <v-btn
-              class="text-white"
-              variant="text"
-              @click="
-                openFilter = true;
-                mobileFloatMenu.close();
-              "
-            >
+            <v-btn class="text-white" variant="text" @click="openFilter = true; mobileFloatMenu.close();">
               <span class="text-xs mr-3">Filtra</span>
-              <Icon
-                class="text-2xl"
-                icon="material-symbols:search-rounded"
-              ></Icon>
+              <Icon class="text-2xl" icon="material-symbols:search-rounded" />
             </v-btn>
           </template>
         </MobileFloatMenu>
       </template>
+
       <template #info>
-        <DecksTopInfo :leader-choosen="leaderChoosen" :current-deck="currentDeck" :toggle-cards="showDeck"/>
+        <DecksTopInfo
+          :leader-choosen="leaderChoosen"
+          :current-deck="currentDeck"
+          :toggle-cards="showDeck"
+        />
       </template>
     </Toolbar>
+
+    <!-- Sezione Mazzo -->
     <CardViewDeck
       v-if="showDeck"
       :single-cards-in-deck="singleCardsInDeck"
     />
 
+    <!-- Lista carte (builder) -->
     <div v-else>
-      <h4
-        v-if="paginatedCards.length == 0"
-        class="text-center text-gray-500 my-5"
-      >
+      <h4 v-if="visibleCards.length === 0" class="text-center text-gray-500 my-5">
         La ricerca non ha prodotto risultati
       </h4>
-      <div class="grid grid-cols-2 gap-3 px-2 pt-2 pb-12 transition-all">
-        <Card
-          v-for="card in paginatedCards"
-          :key="card.id"
-          :card="card"
-          :choose-card="!leaderChoosen"
-          :handle-cards="leaderChoosen != null"
-          @chooseCard="chooseLeader(card.id)"
-          @addCard="addCardInDeck(card)"
-          @removeCard="removeCardFromDeck(card)"
-          :card-count="getCopyInDeck(card)"
-          @open="openViewer(card)"
-        >
-        </Card>
-      </div>
+
+      <InfiniteGrid
+        :items="filteredCards"
+        :grid-class="['grid','grid-cols-2','gap-3','px-2','pt-2','pb-12','transition-all']"
+        @update:visible="visibleCards = $event"
+        :step="30"
+        :load-threshold-px="500"
+      >
+        <template #default="{ item }">
+          <Card
+            :key="item.id"
+            :card="item"
+            :choose-card="!leaderChoosen"
+            :handle-cards="leaderChoosen != null"
+            @chooseCard="chooseLeader(item.id)"
+            @addCard="addCardInDeck(item)"
+            @removeCard="removeCardFromDeck(item)"
+            :card-count="getCopyInDeck(item)"
+            @open="openViewerFromItem(item)"
+          />
+        </template>
+      </InfiniteGrid>
     </div>
 
-    <CardViewPagination
-      ref="pagination"
-      :items="filteredCards"
-      :itemsPerPage="32"
-      @update:paginated="handlePaginatedUpdate"
-    />
+    <!-- FILTRI -->
     <CardViewFilter
       :key="filterKey"
       v-show="openFilter"
@@ -284,11 +258,11 @@ provide("actionOnDeck", actionOnDeck);
       :hide-type-filter="leaderChoosen == null"
     />
 
-    <!-- Viewer full-screen centralizzato -->
+    <!-- Viewer -->
     <FullscreenCardViewer
       v-model:show="viewerOpen"
       v-model:index="viewerIndex"
-      :cards="paginatedCards"
+      :cards="filteredCards"
       @close="viewerOpen = false"
     />
   </section>

@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted } from "vue";
+import { ref, computed, watch, onMounted } from "vue";
 import Toolbar from "@/components/Toolbar.vue";
 import Card from "@/components/Card.vue";
 import { useMyBreakpoints } from "@/composables/useMyBreakpoints";
@@ -22,19 +22,20 @@ const handleAlbum = ref(false);
 const selectedAlbum = ref(null);
 
 const filteredCards = ref([]);
-const paginatedCards = ref([]);
+const visibleCards = ref([]); // <-- buffer visibile
 const openFilter = ref(false);
 const editCollection = ref(false);
 const userAuth = useUserAuth();
 
-const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer(paginatedCards);
+// Viewer: ora scegliamo di navigare sull’INTERO risultato filtrato
+const { show: viewerOpen, index: viewerIndex } = useCardViewer(filteredCards);
 
 const gridSystem = computed(() => {
-  var classes = "";
-  if(isMobile.value) classes += "grid-cols-2 px-2 pb-10 gap-2 ";
-  if(isTablet.value) classes += "grid-cols-4 ";
-  if(isDesktop.value) classes += "grid-cols-8 px-4 pb-20 ";
-  if(handleAlbum.value) classes += "pt-6";
+  let classes = "";
+  if (isMobile.value)  classes += "grid-cols-2 px-2 pb-10 gap-2 ";
+  if (isTablet.value)  classes += "grid-cols-4 ";
+  if (isDesktop.value) classes += "grid-cols-8 px-4 pb-20 ";
+  if (handleAlbum.value) classes += "pt-6";
   return classes;
 });
 
@@ -43,22 +44,59 @@ const { data: userCollection } = await useAsyncData(
   () => fetchUserCollection(userAuth.userLogged.id)
 );
 
+function openViewerFromItem(item) {
+  const i = filteredCards.value.findIndex(c => c.id === item.id);
+  if (i === -1) return;
+  viewerIndex.value = i;
+  viewerOpen.value = true;
+}
+
 async function addCardInCollection(card) {
-  card.count = ++card.count;
+  card.count = (card.count || 0) + 1;
   await addCardToUserCollection(userAuth.userLogged.id, card.id);
 }
 
 async function removeCardInCollection(card) {
-  card.count = --card.count;
+  // 1) update ottimistico
+  card.count = Math.max(0, (card.count || 0) - 1);
+
+  // 2) chiama API
   await removeCardToUserCollection(userAuth.userLogged.id, card.id);
+
+  // 3) se è arrivata a zero, rimuovi la carta dalla lista mostrata
+  if ((card.count || 0) === 0) {
+    const idx = filteredCards.value.findIndex(c => c.id === card.id);
+    if (idx !== -1) {
+      // nuovo array per triggerare il reset "pulito" dell'InfiniteGrid
+      const next = filteredCards.value.slice();
+      next.splice(idx, 1);
+      filteredCards.value = next;
+    }
+
+    // 4) se il viewer era aperto, mantieni lo stato coerente
+    if (viewerOpen.value) {
+      // Se stai usando useCardViewer(filteredCards) lasciamo l'indice valido,
+      // se invece stai usando useCardViewer(visibleCards), chiudi per semplicità:
+      // viewerOpen.value = false
+      const len = filteredCards.value.length;
+      if (len === 0) {
+        viewerOpen.value = false;
+      } else if (viewerIndex.value >= len) {
+        viewerIndex.value = len - 1;
+      }
+    }
+  }
 }
 
-async function loadCollectionCardCounts() {
-  if (!userAuth.userLogged?.id) return;
-  const userId = userAuth.userLogged.id;
+// Carica i count solo per i NUOVI item che entrano nel buffer
+async function loadCountsForChunk(chunk) {
+  if (!editCollection.value) return;
+  const userId = userAuth.userLogged?.id;
+  if (!userId) return;
 
   await Promise.all(
-    paginatedCards.value.map(async (card) => {
+    chunk.map(async (card) => {
+      if (card._countLoaded) return;
       try {
         const c = await fetchCardCountInCollection(userId, card.id);
         card.count = c;
@@ -66,76 +104,43 @@ async function loadCollectionCardCounts() {
         console.error("Errore fetch count per", card.id, e);
         card.count = 0;
       }
+      card._countLoaded = true;
     })
   );
 }
 
-function handleFilteredUpdate(newFiltered) {
-  filteredCards.value = newFiltered;
-}
+// Se l’utente attiva/disattiva la gestione, aggiorniamo i count del buffer corrente
+watch(editCollection, async () => {
+  if (editCollection.value) await loadCountsForChunk(visibleCards.value);
+});
 
-function handlePaginatedUpdate(newPaginated) {
-  paginatedCards.value = newPaginated;
-}
+// Lock body scroll quando filtro è aperto
+watch(openFilter, (newValue) => {
+  document.documentElement.classList.toggle("overflow-hidden", newValue);
+});
 
-async function handleInsertAlbum(card){
-  if (handleAlbum.value) {
-    if (!selectedAlbum.value) {
-      snackbar.addMessage(
-        "Seleziona un album prima di aggiungere la carta",
-        "error"
-      );
-      return;
-    }
+async function handleInsertAlbum(card) {
+  if (handleAlbum.value && !selectedAlbum.value) {
+    snackbar.addMessage("Seleziona un album prima di aggiungere la carta", "error");
+    return;
   }
 
   const cardIndex = parseInt(route.query?.index) || 0;
-
-  const response = await insertCardToAlbum(
-    selectedAlbum.value,
-    card.id,
-    cardIndex
-  );
-  console.log("Response from insertCardToAlbum:", response);
-
+  const response = await insertCardToAlbum(selectedAlbum.value, card.id, cardIndex);
   if (response) router.push(`/collection/album/${selectedAlbum.value.slug}`);
-};
+}
 
-watch(openFilter, (newValue) => {
-  if (newValue) {
-    document.documentElement.classList.add("overflow-hidden");
-  } else {
-    document.documentElement.classList.remove("overflow-hidden");
-  }
-});
-
-watch(selectedAlbum, async (newAlbum) => {
-  if (!newAlbum) {
-    router.push({ query: {} }); // pulisci query
-    return;
-  }
-});
-
-watch(paginatedCards, async () => {
-  await loadCollectionCardCounts();
-}, { immediate: true });
-
-/* opzionale: se cambi pagina o filtri, assicurati che l'indice resti valido */
-watch(paginatedCards, (list) => {
-  if (!list?.length) viewerOpen.value = false;
-  else if (viewerIndex.value >= list.length) viewerIndex.value = list.length - 1;
+// Sincronizza album da query
+watch(selectedAlbum, (newAlbum) => {
+  if (!newAlbum) router.push({ query: {} });
 });
 
 onMounted(async () => {
-  filteredCards.value = userCollection.value;
+  filteredCards.value = userCollection.value || [];
   if (route.query.album) {
     handleAlbum.value = true;
     const userAlbums = await getAlbums();
-    const selectedAlbumFromQuery = userAlbums.find(
-      (a) => a.slug === route.query.album
-    );
-
-    selectedAlbum.value = selectedAlbumFromQuery;
+    selectedAlbum.value = userAlbums.find((a) => a.slug === route.query.album);
   }
 });
 </script>
@@ -149,33 +154,19 @@ onMounted(async () => {
             <v-btn
               class="text-white"
               variant="text"
-              @click="
-                editCollection = !editCollection;
-                mobileFloatMenu.close();
-              "
+              @click="editCollection = !editCollection; mobileFloatMenu.close();"
             >
-              <span v-if="!editCollection" class="text-xs mr-3"
-                >Gestisci Collezione</span
-              >
+              <span v-if="!editCollection" class="text-xs mr-3">Gestisci Collezione</span>
               <span v-else class="text-xs mr-3">Termina Gestione</span>
-              <Icon
-                class="text-xl"
-                icon="fluent:collections-add-24-regular"
-              ></Icon>
+              <Icon class="text-xl" icon="fluent:collections-add-24-regular" />
             </v-btn>
             <v-btn
               class="text-white"
               variant="text"
-              @click="
-                openFilter = true;
-                mobileFloatMenu.close();
-              "
+              @click="openFilter = true; mobileFloatMenu.close();"
             >
               <span class="text-xs mr-3">Filtra</span>
-              <Icon
-                class="text-2xl"
-                icon="material-symbols:search-rounded"
-              ></Icon>
+              <Icon class="text-2xl" icon="material-symbols:search-rounded" />
             </v-btn>
           </template>
         </MobileFloatMenu>
@@ -187,54 +178,49 @@ onMounted(async () => {
         v-if="handleAlbum"
         class="fixed bg-black/80 backdrop-blur-[3px] p-3 w-full flex justify-around top-[50px] left-0 z-[100] px-3 text-sm text-white/70"
       >
-        <!-- GESTIONE ALBUM -->
         <h5>Aggiungi ad Album</h5>
         <Icon icon="icomoon-free:arrow-right" class="text-xl" />
-        <span class="font-bold">
-          {{ selectedAlbum?.name }}
-        </span>
+        <span class="font-bold">{{ selectedAlbum?.name }}</span>
       </div>
-      <!-- ------------------- -->
-      <h4
-        v-if="paginatedCards.length == 0"
-        class="text-center text-gray-500 my-5"
-      >
+
+      <h4 v-if="visibleCards.length === 0" class="text-center text-gray-500 my-5">
         La ricerca non ha prodotto risultati
       </h4>
     </div>
 
-    <div class="grid px-2 pt-2" :class="gridSystem">
-      <Card
-        v-for="card in paginatedCards"
-        :key="card.id"
-        :card="card"
-        :handle-cards="editCollection"
-        @addCard="addCardInCollection(card)"
-        @removeCard="removeCardInCollection(card)"
-        :card-count="card.count"
-        :disable-opening="handleAlbum"  
-        @open="openViewer(card)"
-        @click="handleAlbum ? handleInsertAlbum(card) : null"
-      />
-    </div>
-    <CardViewPagination
+    <!-- INFINITE GRID -->
+    <InfiniteGrid
       :items="filteredCards"
-      :itemsPerPage="32"
-      @update:paginated="handlePaginatedUpdate"
-    />
+      :grid-class="['grid','px-2','pt-2', gridSystem]"
+      @update:visible="visibleCards = $event"
+    >
+      <template #default="{ item }">
+        <Card
+          :key="item.id"
+          :card="item"
+          :handle-cards="editCollection"
+          :card-count="item.count"
+          :disable-opening="handleAlbum"
+          @addCard="addCardInCollection(item)"
+          @removeCard="removeCardInCollection(item)"
+          @open="openViewerFromItem(item)"
+          @click="handleAlbum ? handleInsertAlbum(item) : null"
+        />
+      </template>
+    </InfiniteGrid>
 
     <CardViewFilter
       v-show="openFilter"
       :cards-list="userCollection"
-      @update:filtered="handleFilteredUpdate"
+      @update:filtered="filteredCards = $event"
       @close="openFilter = false"
     />
 
-    <!-- Viewer full-screen centralizzato -->
+    <!-- Viewer full-screen: su TUTTO il risultato filtrato -->
     <FullscreenCardViewer
       v-model:show="viewerOpen"
       v-model:index="viewerIndex"
-      :cards="paginatedCards"
+      :cards="filteredCards"
       @close="viewerOpen = false"
     />
   </section>

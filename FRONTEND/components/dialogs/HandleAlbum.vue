@@ -5,7 +5,7 @@ import { Icon } from "@iconify/vue";
 const snackbar = useSnackbar();
 const isLoading = ref(false);
 const dialog = ref(false);
-const albumName = ref("");
+const albumName = ref(null);
 const totalPages = ref(1);
 const totalSlots = computed(() => totalPages.value * 10);
 const router = useRouter();
@@ -14,7 +14,7 @@ async function create() {
   isLoading.value = true;
   try {
     dialog.value = false;
-    const slug = await createAlbum(albumName.value, totalSlots.value);
+    const slug = await createAlbum(albumName.value.trim(), totalSlots.value);
     if (slug) router.push(`/collection/album/${slug}`);
   } catch (error) {
     snackbar.addMessage(`Errore durante la creazione`, "error", error);
@@ -22,6 +22,11 @@ async function create() {
     isLoading.value = false;
   }
 }
+
+//metodo per controllare che una stringa abbia valori e non sia vuota
+const isValidAlbumName = computed(() => {
+  return albumName.value && albumName.value.trim().length > 0;
+});
 </script>
 <template>
   <button
@@ -44,7 +49,7 @@ async function create() {
       </v-card-title>
       <v-card-text>
         <v-text-field
-          label="Nome"
+          label="Nome*"
           v-model="albumName"
           density="compact"
           variant="outlined"
@@ -77,7 +82,7 @@ async function create() {
         >
           Annulla
         </v-btn>
-        <v-btn :loading="isLoading" variant="outlined" @click="create">
+        <v-btn :disabled="!isValidAlbumName" :loading="isLoading" variant="outlined" @click="create">
           Crea Album
         </v-btn>
       </v-card-actions>

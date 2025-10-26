@@ -8,23 +8,32 @@ const props = defineProps({
   cardCount: { type: Number, default: 0 },
 });
 const emit = defineEmits(["remove-card", "add-card", "choose-card", "open"]);
+
+const isLoaded = ref(false);
+function onLoad() {
+  isLoaded.value = true;
+}
 function openCard() {
   if (!props.disableOpening) emit("open", props.card);
 }
 </script>
 
 <template>
-  <div class="flex flex-col justify-between" :class="{ 'border-[1px] border-white/30 rounded-lg': handleCards }">
+  <div :key="card.id" class="flex flex-col justify-between overflow-hidden" :class="{ 'border-[1px] border-white/30 rounded-lg': handleCards || !isLoaded }">
+    <v-skeleton-loader type="image" v-if="!isLoaded" color="black" class="image-skeleton w-full overflow-hidden aspect-[63/88]" />
     <NuxtImg
-      v-if="card.image"
+      v-show="card.image"
       :src="card.image"
       format="webp"
       loading="lazy"
       width="100%"
-      height="auto"
       class="border shadow-md cursor-zoom-in z-2"
+      :class="{
+        'h-[1px]': !isLoaded,
+      }"
       fit="cover"
       :alt="card.name"
+      @load="onLoad"
       @click="openCard()"
     />
 
@@ -62,3 +71,9 @@ function openCard() {
     </v-btn>
   </div>
 </template>
+<style>
+.v-skeleton-loader.image-skeleton .v-skeleton-loader__bone.v-skeleton-loader__image {
+    height: 100%;
+    border-radius: 0;
+}
+</style>

@@ -47,7 +47,7 @@ const gridCols = computed(() => {
 <template>
   <div
     v-if="isMobile"
-    class="fixed left-0 w-full h-auto bg-black rounded-t-3xl z-2" 
+    class="fixed left-0 w-full h-auto bg-black rounded-t-3xl z-10" 
     :class="fromBottom"
   > 
     <div v-if="closeable" class="flex justify-center py-1">

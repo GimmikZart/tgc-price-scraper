@@ -5,7 +5,7 @@
   <div class="loader"></div>
 </div>
 </template>
-<style scoped>
+<style>
 .loader {
   width: 50px;
   aspect-ratio: 1;

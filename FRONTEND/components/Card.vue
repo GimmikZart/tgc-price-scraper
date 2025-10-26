@@ -15,21 +15,6 @@ function openCard() {
 
 <template>
   <div class="flex flex-col justify-between" :class="{ 'border-[1px] border-white/30 rounded-lg': handleCards }">
-    <!-- <Transition
-      appear
-      enter-active-class="transition-all duration-300 ease-out"
-      enter-from-class="translate-y-full"
-      enter-to-class="translate-y-0"
-      leave-active-class="transition-all duration-300 ease-out"
-      leave-from-class="translate-y-0"
-      leave-to-class="translate-y-full"
-    >
-      <div v-if="handleCards" class="p-2 z-1">
-        <h3 class="font-bold mb-1">{{ card.name }}</h3>
-        <h4 class="text-[10px]">{{ card.setName }}</h4>
-      </div>
-    </Transition> -->
-
     <NuxtImg
       v-if="card.image"
       :src="card.image"

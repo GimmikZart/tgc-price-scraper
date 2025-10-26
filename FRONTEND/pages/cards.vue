@@ -130,7 +130,7 @@ onMounted(() => {
           class="text-2xl"
           icon="fluent:collections-add-24-regular"
         ></Icon>
-          <span class="text-xs">Collezione</span>
+          <span class="text-xs">Gestisci</span>
         </button>
         <button
           class="p-2 border border-white cursor-pointer rounded-lg relative flex flex-col items-center justify-center"

@@ -6,7 +6,8 @@ import { Icon } from "@iconify/vue";
 const route = useRoute();
 const router = useRouter();
 const slug = route.params.slug;
-const removeCardMode = ref(false);
+const handleCardMode = ref(false);
+const addCardMode = ref(false);
 const paginatedCards = ref([]);
 const { allCards } = await useOnePieceCards();
 
@@ -65,7 +66,7 @@ async function removeCard(idx) {
 
 function goToSelectCard(idx) {
   router.push({
-    path: "/collection/all",
+    path: "/collection",
     query: {
       album: album.value.slug,
       index: idx,
@@ -75,40 +76,12 @@ function goToSelectCard(idx) {
 </script>
 
 <template>
-  <section class="h-full flex flex-col">
+  <section class="h-full flex flex-col pb-[120px]">
     <Toolbar backButton :label="`Album ${album.name}`">
-      <template #actions>
-        <MobileFloatMenu class="z-30 p-2">
-          <template #buttons>
-            <DialogsHandleRemoveAlbum :album-id="album.id" class="text-white" />
-            <v-btn
-              v-if="!removeCardMode"
-              variant="text"
-              class="text-white"
-              @click="removeCardMode = true"
-            >
-              Rimuovi carte
-              <Icon
-                icon="mdi:card-remove-outline"
-                class="text-xl ml-3 -rotate-90"
-              />
-            </v-btn>
-            <v-btn
-              v-else
-              variant="text"
-              class="text-white"
-              @click="removeCardMode = false"
-            >
-              Termina rimozione
-              <Icon icon="el:ok" class="text-xl ml-3" />
-            </v-btn>
-          </template>
-        </MobileFloatMenu>
-      </template>
     </Toolbar>
 
     <v-container
-      class="bg-stitched pb-10 mt-4 px-1 h-full pa-0 grid grid-cols-2 gap-1 border-l-8 border-blue-900"
+      class="bg-stitched mt-4 pb-1 px-1 h-full pa-0 grid grid-cols-2 gap-1 border-l-8 border-blue-900"
     >
       <div
         v-for="(slot, idx) in paginatedCards"
@@ -118,27 +91,25 @@ function goToSelectCard(idx) {
         <template v-if="slot.card">
           <Card :key="slot.id" :card="slot.card" @open="openViewer(slot.card)" class="w-full h-auto z-[1]" />
           <div
-            v-if="removeCardMode"
-            class="absolute inset-0 bg-black/80 flex items-center justify-center z-[2]"
+            v-if="handleCardMode"
+            class="absolute inset-0 bg-black/80 flex flex-col items-center justify-center z-[2]"
           >
-            <v-btn
-              variant="text"
-              icon
-              class="text-white"
+            <div
+            class="flex flex-col items-center"
               @click="removeCard(idx)"
             >
-              <Icon icon="tabler:trash" class="text-5xl text-red"></Icon>
-            </v-btn>
+              <Icon icon="fluent:square-hint-arrow-back-16-filled" class="text-4xl text-red"></Icon>
+              <span class="text-xs text-red">Rimuovi da album</span>
+            </div>
           </div>
         </template>
 
         <div
-          v-else
+          v-else-if="handleCardMode"
           class="w-full h-full flex flex-col items-center justify-center"
         >
           <h3 class="text-lg font-semibold mb-2">Slot {{ slot.index + 1 }}</h3>
           <v-btn
-            v-if="!removeCardMode"
             variant="text"
             icon
             class="text-white"
@@ -157,9 +128,34 @@ function goToSelectCard(idx) {
     </v-container>
     <CardViewPagination
       :items="albumSlotsWithCards"
-      :itemsPerPage="16"
+      :itemsPerPage="10"
       @update:paginated="handlePaginatedUpdate"
     />
+
+    <MobileFloatMenu fromBottom="bottom-[100px]" closeable class="z-30" >
+      <template #buttons>
+        <DialogsHandleRemoveAlbum :album-id="album.id" />
+
+        <button
+          class="text-white border border-white p-2 cursor-pointer rounded-lg relative flex flex-col items-center justify-center"
+          @click="handleCardMode = !handleCardMode"
+        >
+          <template v-if="!handleCardMode">
+            <Icon
+              icon="ph:swap"
+              class="text-2xl -rotate-90"
+            />
+            Gestici
+          </template>
+          <template v-else>
+            <Icon icon="el:ok" class="text-2xl" />
+            Termina
+          </template>
+        </button>
+      </template>
+    </MobileFloatMenu>
+
+
     <!-- Viewer full-screen centralizzato -->
     <FullscreenCardViewer
       v-model:show="viewerOpen"

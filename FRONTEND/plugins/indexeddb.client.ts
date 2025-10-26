@@ -1,8 +1,6 @@
 import { defineNuxtPlugin } from "#app";
 import { openDB, type DBSchema } from "idb";
 
-console.log("[indexeddb.client.ts] plugin caricato");
-
 /** Definisci qui il tuo schema */
 interface DecksDB extends DBSchema {
   decks: {
@@ -30,5 +28,4 @@ export default defineNuxtPlugin(async (nuxtApp) => {
   });
   // inietto su $deckDb
   nuxtApp.provide("deckLocalDb", db);
-  console.log("[indexeddb] plugin ha fornito db:", db);
 });

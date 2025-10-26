@@ -47,8 +47,6 @@ async function create() {
     // navigo alla pagina di editing
     router.push(`/decks/edit/${slug}`);
   } catch (error) {
-    console.log("Errore durante la creazione del mazzo:", error);
-
     snackbar.addMessage(
       "Errore durante la creazione del mazzo",
       "error",

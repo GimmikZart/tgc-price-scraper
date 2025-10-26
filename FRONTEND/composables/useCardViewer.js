@@ -2,8 +2,6 @@
 import { ref, watch, unref } from "vue";
 
 export function useCardViewer(listRef) {
-  console.log('listRef in useCardViewer:', listRef);
-  
   const show = ref(false);
   const index = ref(0);
 

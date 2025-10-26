@@ -475,7 +475,6 @@ async function remapCardsData(cardData) {
         cardData.cost = isNaN(num) ? null : num;
       }
     } catch (error) {
-      console.log({ error });
       await broadcastEvent(
         "generic_error",
         `Mappatura fallita nel campo Cost/Life - ${cardData.name} di ${cardData.code}: ${error.message}`
@@ -491,7 +490,6 @@ async function remapCardsData(cardData) {
       const num = parseInt(raw, 10);
       cardData.power = isNaN(num) ? null : num;
     } catch (error) {
-      console.log({ error });
       await broadcastEvent(
         "generic_error",
         `Mappatura fallita nel campo Power - ${cardData.name} di ${cardData.code}: ${error.message}`
@@ -512,7 +510,6 @@ async function remapCardsData(cardData) {
       const sanitizedEffect = cardData.effect.trim().replace("Effect", "");
       cardData.effect = sanitizedEffect === "-" ? null : sanitizedEffect;
     } catch (error) {
-      console.log({ error });
       await broadcastEvent(
         "generic_error",
         `Mappatura fallita nel campo Effect - ${cardData.name} di ${cardData.code}: ${error.message}`
@@ -531,7 +528,6 @@ async function remapCardsData(cardData) {
         cardData.counter = isNaN(num) ? null : num;
       }
     } catch (error) {
-      console.log({ error });
       await broadcastEvent(
         "generic_error",
         `Mappatura fallita nel campo Counter - ${cardData.name} di ${cardData.code}: ${error.message}`
@@ -548,7 +544,6 @@ async function remapCardsData(cardData) {
         .map((c) => c.trim())
         .filter((c) => c.length > 0);
     } catch (error) {
-      console.log({ error });
       await broadcastEvent(
         "generic_error",
         `Mappatura fallita nel campo Color - ${cardData.name} di ${cardData.code}: ${error.message}`
@@ -565,7 +560,6 @@ async function remapCardsData(cardData) {
         .map((f) => f.trim())
         .filter((f) => f.length > 0);
     } catch (error) {
-      console.log({ error });
       await broadcastEvent(
         "generic_error",
         `Mappatura fallita nel campo Family - ${cardData.name} di ${cardData.code}: ${error.message}`
@@ -579,7 +573,6 @@ async function remapCardsData(cardData) {
       const parts = cardData.code.split("-");
       cardData.expansionCode = parts[0];
     } catch (error) {
-      console.log({ error });
       await broadcastEvent(
         "generic_error",
         `Mappatura fallita nel campo Code - ${cardData.name} di ${cardData.code}: ${error.message}`
@@ -596,7 +589,6 @@ async function remapCardsData(cardData) {
       raw = raw.replace(/-\s*/, " ");
       cardData.setName = raw.trim();
     } catch (error) {
-      console.log({ error });
       await broadcastEvent(
         "generic_error",
         `Mappatura fallita nel campo Set name - ${cardData.name} di ${cardData.code}: ${error.message}`
@@ -625,7 +617,6 @@ async function remapCardsData(cardData) {
       // costruisco il nuovo id
       cardData.id = `${imageId}_${sanitizedSetName}`;
     } catch (error) {
-      console.log({ error });
       await broadcastEvent(
         "generic_error",
         `Mappatura fallita nel campo Image - ${cardData.name} di ${cardData.code}: ${error.message}`
@@ -662,8 +653,6 @@ async function printCardsInJson(expansionName, cardsList) {
 }
 
 async function cardsInJson(expansionName, cardsList) {
-  console.log({ cardsList });
-
   // 1. Costruisci un nome file “pulito”
   const rawName = expansionName
     .replace(/[-\[\]]/g, "")

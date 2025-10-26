@@ -73,7 +73,6 @@ export async function getAlbum(slug) {
   if (error) {
     throw new Error(error.message);
   }
-  console.log({ data });
 
   return data;
 }
@@ -127,8 +126,6 @@ export async function removeCardFromAlbum(album, index) {
     .delete()
     .eq("album_id", album.id)
     .eq("index", index);
-
-  console.log({ data });
 
   if (error) {
     snackbar.addMessage("Errore rimozione da album: ", "error", error.message);

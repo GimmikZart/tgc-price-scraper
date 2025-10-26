@@ -12,7 +12,6 @@ export const useDeckStore = defineStore(
         leader: leader ?? null,
         cards: cards ?? [],
       };
-      console.log("Adding deck:", newDeck);
 
       decksList.value.push(newDeck);
     };

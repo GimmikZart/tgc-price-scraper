@@ -69,7 +69,6 @@ async function walkAndPatch(dir) {
         const patched = patchUnknownJson(data);
         // Solo se cambia, riscrivo (per semplicità riscrivo sempre formattato)
         await fs.writeFile(full, JSON.stringify(patched, null, 2), "utf8");
-        console.log("Patched:", full);
       } catch (err) {
         console.error("Errore su", full, "-", err.message);
       }

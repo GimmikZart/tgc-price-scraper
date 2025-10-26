@@ -20,7 +20,6 @@ function handleCardCopy(card) {
   } else if (actionOnDeck.value === "remove") {
     removeCardFromDeck(card);
   } else {
-    console.log("open viewer for", card);
     openViewer(card);
   }
 }

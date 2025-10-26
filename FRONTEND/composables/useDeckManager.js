@@ -10,7 +10,6 @@ import { toRaw } from "vue";
 export function useDeckManager() {
   const nuxt = useNuxtApp();
   const db = nuxt.$deckLocalDb; // viene iniettato dal plugin client-only
-  console.log("DeckManager initialized with db:", db);
 
   const userAuth = useUserAuth();
   const userUuid = userAuth.userLogged.id;
@@ -19,7 +18,6 @@ export function useDeckManager() {
   // LOCAL (IndexedDB via db)
   //
   const saveLocal = async (deck) => {
-    console.log("save local:", deck);
     const plainDeck = JSON.parse(JSON.stringify(deck));
     return db.put("decks", plainDeck);
   };

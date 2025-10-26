@@ -13,12 +13,9 @@ const props = defineProps({
 });
 const { leaderCards } = useOnePieceCards();
 const leaderChoosen = computed(() => {
-  console.log(leaderCards);
-  
   var found = leaderCards?.find(
     (card) => card.id === props.leaderId
   );
-  console.log({ found });
   
   return found;
 });

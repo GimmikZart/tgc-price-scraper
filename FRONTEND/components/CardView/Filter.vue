@@ -7,11 +7,7 @@ const props = defineProps({
     type: Array,
     default: [],
   },
-  hideColorFilter: {
-    type: Boolean,
-    default: false,
-  },
-  hideTypeFilter: {
+  isLeaderFilter: {
     type: Boolean,
     default: false,
   },
@@ -187,7 +183,7 @@ onMounted(async () => {
             </div>
 
             <InputSelect
-              v-if="!props.hideTypeFilter"
+              v-if="!props.isLeaderFilter"
               v-model="typesFilter"
               :items="typeList"
               multiple
@@ -234,6 +230,7 @@ onMounted(async () => {
             />
 
             <div
+              v-if="!props.isLeaderFilter"
               class="flex items-center border-2 border-white/20 rounded px-2 py-1"
             >
               <v-checkbox
@@ -255,6 +252,7 @@ onMounted(async () => {
             ></v-range-slider>
 
             <v-range-slider
+              v-if="!props.isLeaderFilter"
               v-model="costFilter"
               :min="0"
               :max="10"

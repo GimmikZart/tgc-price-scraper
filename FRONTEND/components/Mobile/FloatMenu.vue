@@ -11,6 +11,8 @@ const { isMobile } = useMyBreakpoints();
 
 const gridCols = computed(() => {
   switch (props.cols) {
+    case 1:
+      return 'grid-cols-1';
     case 2:
       return 'grid-cols-2';
     case 3:

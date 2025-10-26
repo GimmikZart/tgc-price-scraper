@@ -27,6 +27,7 @@ function handleCardCopy(card) {
 </script>
 <template>
   <div class="h-auto bg-black p-2 gap-8">
+    <p v-if="singleCardsInDeck.length === 0" class="text-center mt-5 text-white/50">Nessuna carta aggiunta fin'ora</p>
     <div class="w-full pb-32 grid grid-cols-4 gap-6 px-6">
       <div
         v-for="(card, idx) in singleCardsInDeck"

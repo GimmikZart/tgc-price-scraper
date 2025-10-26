@@ -213,16 +213,14 @@ provide("actionOnDeck", actionOnDeck);
       @update:filtered="handleFilteredUpdate"
       @close="openFilter = false"
       :multicolor="false"
-      :hide-color-filter="leaderChoosen != null"
-      :hide-type-filter="leaderChoosen == null"
+      :is-leader-filter="leaderChoosen == null"
     />
 
     <MobileFloatMenu v-if="showDeck && leaderChoosen" :cols="4">
       <template #buttons>
-        <DialogsHandleDeleteDeck v-if="showDeck && leaderChoosen" :slug="route.params.slug" />
+        <DialogsHandleDeleteDeck :slug="route.params.slug" />
 
         <button
-          v-if="showDeck && leaderChoosen"
           class="p-2 border border-white cursor-pointer rounded-lg relative flex flex-col items-center justify-center" 
           @click="saveDeck">
           <Icon class="text-2xl text-green" icon="material-symbols:save-rounded" />
@@ -230,7 +228,6 @@ provide("actionOnDeck", actionOnDeck);
         </button>
 
         <button
-          v-if="showDeck && leaderChoosen"
           class="p-2 border border-white cursor-pointer rounded-lg relative flex flex-col items-center justify-center"
           :disabled="currentDeck.cards.length != 50"
           @click="exportDeck"
@@ -250,11 +247,12 @@ provide("actionOnDeck", actionOnDeck);
       </template>
     </MobileFloatMenu>
 
-    <MobileFloatMenu v-else :cols="2">
+    <MobileFloatMenu v-else :cols="leaderChoosen != null ? 2 : 1">
       <template #buttons>
         <button
+          v-if="leaderChoosen"
           class="p-2 border border-white cursor-pointer rounded-lg relative flex flex-col items-center justify-center" 
-          v-if="!showDeck && leaderChoosen"
+          
           @click="showDeck = true; mobileFloatMenu.close();"
         >
           <Icon class="text-2xl" icon="mdi:show" />
@@ -262,7 +260,7 @@ provide("actionOnDeck", actionOnDeck);
         </button>
         
         <button
-          v-if="!showDeck && leaderChoosen"
+          
           class="p-2 border border-white cursor-pointer rounded-lg relative flex flex-col items-center justify-center"  
           @click="openFilter = true; mobileFloatMenu.close();"
         >

@@ -19,7 +19,8 @@ function openCard() {
 </script>
 
 <template>
-  <div :key="card.id" class="flex flex-col justify-between overflow-hidden" :class="{ 'border-[1px] border-white/30 rounded-lg': handleCards || !isLoaded }">
+  <div :key="card.id" class="w-full relative flex flex-col justify-between overflow-hidden aspect-[63/88]" :class="{ 'border-[1px] border-white/30 rounded-lg': handleCards || !isLoaded }">
+    <h5 v-if="!isLoaded" class="absolute bottom-0 left-0 w-full text-italic text-center py-3 truncate text-sm z-[2]">{{ card.name }}</h5>
     <v-skeleton-loader type="image" v-if="!isLoaded" color="black" class="image-skeleton w-full overflow-hidden aspect-[63/88]" />
     <NuxtImg
       v-show="card.image"

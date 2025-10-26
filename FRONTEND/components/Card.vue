@@ -45,7 +45,7 @@ function openCard() {
       fit="cover"
       :alt="card.name"
       @load="onLoad"
-      @click="openCard()"
+      @click.stop="openCard()"
     />
 
     <!-- Tasti collezione -->

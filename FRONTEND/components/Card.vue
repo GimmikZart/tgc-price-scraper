@@ -8,18 +8,27 @@ const props = defineProps({
   cardCount: { type: Number, default: 0 },
 });
 const emit = defineEmits(["remove-card", "add-card", "choose-card", "open"]);
-
 const isLoaded = ref(false);
+
+const cardClass = computed(() => {
+  return { 
+    'border-[1px] border-white/30 rounded-lg': props.handleCards || !isLoaded.value ,
+    'relative': !isLoaded.value 
+  }
+})
+
+
 function onLoad() {
   isLoaded.value = true;
 }
 function openCard() {
   if (!props.disableOpening) emit("open", props.card);
 }
+
 </script>
 
 <template>
-  <div :key="card.id" class="w-full relative flex flex-col justify-between overflow-hidden aspect-[63/88]" :class="{ 'border-[1px] border-white/30 rounded-lg': handleCards || !isLoaded }">
+  <div :key="card.id" class="h-auto flex flex-col justify-between overflow-hidden" :class="cardClass">
     <h5 v-if="!isLoaded" class="absolute bottom-0 left-0 w-full text-italic text-center py-3 truncate text-sm z-[2]">{{ card.name }}</h5>
     <v-skeleton-loader type="image" v-if="!isLoaded" color="black" class="image-skeleton w-full overflow-hidden aspect-[63/88]" />
     <NuxtImg
@@ -31,6 +40,7 @@ function openCard() {
       class="border shadow-md cursor-zoom-in z-2"
       :class="{
         'h-[1px]': !isLoaded,
+        'h-auto': isLoaded
       }"
       fit="cover"
       :alt="card.name"
@@ -48,7 +58,7 @@ function openCard() {
       leave-from-class="translate-y-0"
       leave-to-class="-translate-y-full"
     >
-      <div v-if="handleCards" class="flex gap-3 items-center justify-between -z-1">
+      <div v-if="handleCards && isLoaded" class="flex gap-3 items-center justify-between -z-1">
         <div class="w-full flex items-center justify-between">
           <v-btn variant="tonal" color="white" @click="$emit('remove-card')">
             <v-icon size="25" color="red">mdi-minus</v-icon>

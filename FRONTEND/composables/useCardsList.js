@@ -11,6 +11,10 @@ export function useOnePieceCards() {
     }
   });
 
+  const leaderCards = allCards.filter((card =>
+    card.type && card.type.toLowerCase().includes("leader")
+  ));
+
   const setNameSet = new Set();
   const typeSet = new Set();
   const familySet = new Set();
@@ -75,5 +79,6 @@ export function useOnePieceCards() {
     abilityKwList,
     nameList,
     powerLimits,
+    leaderCards
   };
 }

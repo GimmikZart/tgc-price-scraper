@@ -5,8 +5,8 @@ import { Icon } from "@iconify/vue";
 
 const route = useRoute();
 const router = useRouter();
+const globalSettings = useGlobalSettings();
 const slug = route.params.slug;
-const handleCardMode = ref(false);
 const addCardMode = ref(false);
 const paginatedCards = ref([]);
 const { allCards } = await useOnePieceCards();
@@ -77,7 +77,7 @@ function goToSelectCard(idx) {
 
 <template>
   <section class="h-full flex flex-col pb-[120px]">
-    <Toolbar backButton :label="`Album ${album.name}`">
+    <Toolbar backButton :label="`${album.name}`">
     </Toolbar>
 
     <v-container
@@ -91,7 +91,7 @@ function goToSelectCard(idx) {
         <template v-if="slot.card">
           <Card :key="slot.id" :card="slot.card" @open="openViewer(slot.card)" class="w-full h-auto z-[1]" />
           <div
-            v-if="handleCardMode"
+            v-if="globalSettings.albumIsHandling"
             class="absolute inset-0 bg-black/80 flex flex-col items-center justify-center z-[2]"
           >
             <div
@@ -105,7 +105,7 @@ function goToSelectCard(idx) {
         </template>
 
         <div
-          v-else-if="handleCardMode"
+          v-else-if="globalSettings.albumIsHandling"
           class="w-full h-full flex flex-col items-center justify-center"
         >
           <h3 class="text-lg font-semibold mb-2">Slot {{ slot.index + 1 }}</h3>
@@ -138,9 +138,9 @@ function goToSelectCard(idx) {
 
         <button
           class="text-white border border-white p-2 cursor-pointer rounded-lg relative flex flex-col items-center justify-center"
-          @click="handleCardMode = !handleCardMode"
+          @click="globalSettings.toggleAlbumHandling()"
         >
-          <template v-if="!handleCardMode">
+          <template v-if="!globalSettings.albumIsHandling">
             <Icon
               icon="ph:swap"
               class="text-2xl -rotate-90"

@@ -14,14 +14,13 @@ const {
     <v-container class="flex flex-col justify-start grow relative gap-5">
       <p v-if="!albums || albums.length === 0" class="text-white/50 text-center">Non hai ancora creato nessun album!</p>
       <div
-        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
+        class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
       >
-        <ButtonRouter
+        <ButtonAlbum
           v-for="album in albums"
           :key="album.slug"
           :to="`/collection/album/${album.slug}`"
           :label="album.name"
-          class="w-full h-[100px]"
         />
       </div>
     </v-container>

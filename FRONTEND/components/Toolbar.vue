@@ -36,7 +36,7 @@ function goBack() {
       >
         <v-icon size="30" icon="mdi-chevron-left"></v-icon>
       </v-btn>
-      <h2 class="font-bold text-lg">{{ label }}</h2>
+      <h2 class="font-bold text-lg truncate">{{ label }}</h2>
       <v-spacer></v-spacer>
       <div class="flex justify-end items-center gap-3">
         <slot name="actions" />

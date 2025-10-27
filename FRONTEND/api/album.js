@@ -153,3 +153,23 @@ export async function removeAlbum(albumId) {
 
   return true;
 }
+
+export async function renameAlbum(albumId, newName) {
+  const client = useSupabaseClient();
+  const snackbar = useSnackbar();
+
+  const { data, error } = await client
+    .from("albums")
+    .update({ name: newName })
+    .eq("id", albumId);
+
+  if (error) {
+    snackbar.addMessage("Errore rinominazione album:", "error", error.message);
+    return;
+  } else {
+    snackbar.addMessage("Album rinominato con successo", "success");
+  }
+
+  return true;
+}
+

@@ -28,7 +28,7 @@ async function changeVisibility() {
 
 <template>
   <button
-    class="text-white border border-white p-2 cursor-pointer rounded-lg relative flex flex-col items-center justify-center" 
+    class="text-white h-full border border-white p-2 cursor-pointer rounded-lg relative flex flex-col items-center justify-between" 
     @click="dialog = true">
     <Icon class="text-sm" icon="fa-eye" />
     <span class="text-xs">Visibilità</span>

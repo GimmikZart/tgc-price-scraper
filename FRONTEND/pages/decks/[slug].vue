@@ -110,16 +110,9 @@ provide("item", currentDeck);
       <DialogsHandleDeleteDeck :slug="route.params.slug"/>
       <button
         class="text-white border border-white p-2 cursor-pointer rounded-lg relative flex flex-col items-center justify-center"
-
-        :disabled="currentDeck.cards.length != 50"
-        variant="text"
-        @click="exportDeck"
-      >
-      <Icon
-        class="text-2xl"
-        icon="material-symbols:export-notes-outline"
-      ></Icon>
-        <span class="text-xs">Esporta</span>
+        @click="goToEditDeck()">
+        <Icon class="text-2xl" icon="iconoir:wrench"></Icon>
+        <span class="text-xs">Modifica</span>
       </button>
       <DialogsHandleVisibility
         v-if="!currentDeck.isLocal"
@@ -127,9 +120,15 @@ provide("item", currentDeck);
       />
       <button
         class="text-white border border-white p-2 cursor-pointer rounded-lg relative flex flex-col items-center justify-center"
-        @click="goToEditDeck()">
-        <Icon class="text-2xl" icon="iconoir:wrench"></Icon>
-        <span class="text-xs">Modifica</span>
+        :disabled="currentDeck.cards.length != 50"
+        variant="text"
+        @click="exportDeck()"
+      >
+      <Icon
+        class="text-2xl"
+        icon="material-symbols:export-notes-outline"
+      ></Icon>
+        <span class="text-xs">Esporta</span>
       </button>
     </template>
   </MobileFloatMenu>

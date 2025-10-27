@@ -224,7 +224,7 @@ provide("actionOnDeck", actionOnDeck);
           class="p-2 border border-white cursor-pointer rounded-lg relative flex flex-col items-center justify-center" 
           @click="saveDeck">
           <Icon class="text-2xl text-green" icon="material-symbols:save-rounded" />
-          <span class="text-xs text-green">Salva</span>
+          <span class="text-xs">Salva</span>
         </button>
 
         <button

@@ -63,12 +63,13 @@ const gridCols = computed(() => {
   <div
     v-if="isMobile"
     ref="floatMenu"
-    class="fixed left-0 w-full h-auto bg-black rounded-t-3xl p-1 z-10" 
+    id="float-menu"
+    class="fixed left-0 w-full h-auto bg-black border-t-2 border-white/10 rounded-t-2xl px-5 py-1 z-[1000] transform-none" 
     :style="`bottom:${fromBottomCalc}px`"
   > 
     <div v-if="closeable" class="flex justify-center py-1">
       <slot name="handle"/>
-      <Icon icon="icons8:chevron-up-round" class="text-2xl transition-all" :class="{'rotate-180': menuOpen}" @click="menuOpen = !menuOpen"/>
+      <Icon icon="icons8:chevron-up-round" class="text-2xl transition-all" :class="{'rotate-180': menuOpen}" @click="menuOpen = !menuOpen" />
     </div>
     <v-expand-transition>
       <div v-show="showMenu" class="grid gap-2" :class="gridCols">

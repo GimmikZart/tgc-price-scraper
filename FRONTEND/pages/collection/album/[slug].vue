@@ -136,16 +136,7 @@ function goToSelectCard(idx) {
       <template #buttons>
         <DialogsHandleRemoveAlbum :album-id="album.id" />
 
-        <button
-          class="text-white border border-white p-2 cursor-pointer rounded-lg relative flex flex-col items-center justify-center"
-          @click="gs.toggleAlbumHandling()"
-        >
-            <Icon
-              icon="ph:pencil-simple"
-              class="text-2xl -rotate-90"
-            />
-            Rinomina
-        </button>
+        <DialogsRenameAlbum :album="album" @refresh="refreshAlbum()"/>
 
         <button
           class="text-white border border-white p-2 cursor-pointer rounded-lg relative flex flex-col items-center justify-center"

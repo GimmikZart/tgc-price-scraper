@@ -278,7 +278,7 @@ onMounted(async () => {
         </div>
       </div>
       <!-- Bottoni di azione: Reset e Chiudi -->
-      <div class="flex w-full gap-3 bg-black px-6 py-3 pt-0">
+      <div class="flex w-full gap-3 bg-black px-6 py-3 pt-0 pb-16">
         <v-btn
           color="white"
           variant="tonal"

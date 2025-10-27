@@ -1,5 +1,7 @@
 <script setup>
 import { ref, computed, watch, onMounted, nextTick } from "vue";
+import { useElementSize } from '@vueuse/core'
+
 const props = defineProps({
   items: {
     type: Array,
@@ -11,6 +13,10 @@ const props = defineProps({
   },
 });
 const emit = defineEmits(["update:paginated"]);
+const globalSettings = useGlobalSettings();
+
+const pagination = ref(null);
+const { height } = useElementSize(pagination)
 
 const currentPage = ref(1);
 
@@ -26,6 +32,10 @@ watch(
     }
   }
 );
+
+watch(height, (newHeight) => {
+  globalSettings.paginationHeight = newHeight;
+}, { immediate: true });
 
 const paginated = computed(() => {
   const start = (currentPage.value - 1) * props.itemsPerPage;
@@ -47,7 +57,9 @@ onMounted(async () => {
 
 <template>
   <div
-    class="flex h-[45px] fixed bottom-[60px] right-0 lg:bottom-0 p-1 lg:p-3 lg:pl-[250px] bg-black w-full justify-center z-[1000]"
+    ref="pagination"
+    :style="`bottom:${globalSettings.navbarHeight}px`"
+    class="flex h-[45px] fixed right-0 lg:bottom-0 p-1 lg:p-3 lg:pl-[250px] bg-black w-full justify-center z-[1000]"
   >
     <v-pagination
       density="compact"

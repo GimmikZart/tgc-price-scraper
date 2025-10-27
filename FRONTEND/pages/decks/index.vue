@@ -3,6 +3,7 @@ import { Icon } from "@iconify/vue";
 import { fetchUserDecks } from "@/api/decks";
 
 const router = useRouter();
+const gs = useGlobalSettings();
 const { getAllLocal, getAllCloud } = useDeckManager();
 
 const cloudDecks = ref([]);

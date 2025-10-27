@@ -1,13 +1,23 @@
 <script setup>
 import { useUserAuth } from "@/stores/useUserAuth";
 import { Icon } from "@iconify/vue";
+import { useElementBounding  } from '@vueuse/core'
+
+const nav = ref(null)
+const { height } = useElementBounding (nav)
 
 const userAuth = useUserAuth();
+const globalSettings = useGlobalSettings();
+
+watch(height, (newHeight) => {
+  globalSettings.navbarHeight = newHeight;
+}, { immediate: true });
 
 </script>
 <template>
   <nav
-    class="w-screen flex gap-5 fixed bottom-0 right-0 items-center justify-around h-[60px] bg-black z-[1000]"
+    ref="nav"
+    class="w-screen flex gap-5 fixed bottom-0 right-0 items-center justify-around h-auto pb-5 bg-black z-[1000]"
   >
     <NuxtLink
       v-if="userAuth.isAdmin"

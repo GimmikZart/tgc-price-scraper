@@ -5,7 +5,7 @@ import { Icon } from "@iconify/vue";
 
 const route = useRoute();
 const router = useRouter();
-const globalSettings = useGlobalSettings();
+const gs = useGlobalSettings();
 const slug = route.params.slug;
 const addCardMode = ref(false);
 const paginatedCards = ref([]);
@@ -91,7 +91,7 @@ function goToSelectCard(idx) {
         <template v-if="slot.card">
           <Card :key="slot.id" :card="slot.card" @open="openViewer(slot.card)" class="w-full h-auto z-[1]" />
           <div
-            v-if="globalSettings.albumIsHandling"
+            v-if="gs.albumIsHandling"
             class="absolute inset-0 bg-black/80 flex flex-col items-center justify-center z-[2]"
           >
             <div
@@ -105,7 +105,7 @@ function goToSelectCard(idx) {
         </template>
 
         <div
-          v-else-if="globalSettings.albumIsHandling"
+          v-else-if="gs.albumIsHandling"
           class="w-full h-full flex flex-col items-center justify-center"
         >
           <h3 class="text-lg font-semibold mb-2">Slot {{ slot.index + 1 }}</h3>
@@ -132,15 +132,26 @@ function goToSelectCard(idx) {
       @update:paginated="handlePaginatedUpdate"
     />
 
-    <MobileFloatMenu fromBottom="bottom-[100px]" closeable class="z-30" >
+    <MobileFloatMenu :cols="3" :fromBottom="gs.navbarHeight + gs.paginationHeight" closeable class="z-30" >
       <template #buttons>
         <DialogsHandleRemoveAlbum :album-id="album.id" />
 
         <button
           class="text-white border border-white p-2 cursor-pointer rounded-lg relative flex flex-col items-center justify-center"
-          @click="globalSettings.toggleAlbumHandling()"
+          @click="gs.toggleAlbumHandling()"
         >
-          <template v-if="!globalSettings.albumIsHandling">
+            <Icon
+              icon="ph:pencil-simple"
+              class="text-2xl -rotate-90"
+            />
+            Rinomina
+        </button>
+
+        <button
+          class="text-white border border-white p-2 cursor-pointer rounded-lg relative flex flex-col items-center justify-center"
+          @click="gs.toggleAlbumHandling()"
+        >
+          <template v-if="!gs.albumIsHandling">
             <Icon
               icon="ph:swap"
               class="text-2xl -rotate-90"

@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { useMyBreakpoints } from "@/composables/useMyBreakpoints";
 import { Icon } from "@iconify/vue";
+import { useElementBounding  } from '@vueuse/core'
 
 const props = defineProps({
   cols: { 
@@ -8,8 +9,8 @@ const props = defineProps({
     default: 2 
   },
   fromBottom: {
-    type: String,
-    default: "bottom-[60px]",
+    type: Number,
+    default: null,
   },
   closeable: {
     type: Boolean,
@@ -17,12 +18,26 @@ const props = defineProps({
   },
 });
 const { isMobile } = useMyBreakpoints();
+const globalSettings = useGlobalSettings();
+
 const menuOpen = ref(false);
+const floatMenu = ref(null);
+const { height } = useElementBounding(floatMenu);
+
+watch(height, ( newHeight ) => {
+  globalSettings.floatMenuHeight = newHeight;
+}, { immediate: true });
 
 const showMenu = computed(() => {
   if (props.closeable == true) return menuOpen.value;
   return true;
 });
+
+const fromBottomCalc = computed(() => {
+  if (props.fromBottom !== null) return props.fromBottom;
+  return globalSettings.navbarHeight;
+});
+
 
 const gridCols = computed(() => {
   switch (props.cols) {
@@ -47,14 +62,19 @@ const gridCols = computed(() => {
 <template>
   <div
     v-if="isMobile"
-    class="fixed left-0 w-full h-auto bg-black rounded-t-3xl z-10" 
-    :class="fromBottom"
+    ref="floatMenu"
+    class="fixed left-0 w-full h-auto bg-black rounded-t-3xl p-1 z-10" 
+    :style="`bottom:${fromBottomCalc}px`"
   > 
     <div v-if="closeable" class="flex justify-center py-1">
-      <Icon icon="icons8:chevron-up-round" class="text-2xl" :class="{'rotate-180': menuOpen}" @click="menuOpen = !menuOpen"/>
+      <slot name="handle"/>
+      <Icon icon="icons8:chevron-up-round" class="text-2xl transition-all" :class="{'rotate-180': menuOpen}" @click="menuOpen = !menuOpen"/>
     </div>
-    <div v-show="showMenu" class="grid gap-2" :class="gridCols">
-      <slot name="buttons" />
-    </div>
+    <v-expand-transition>
+      <div v-show="showMenu" class="grid gap-2" :class="gridCols">
+        <slot name="buttons" />
+      </div>
+    </v-expand-transition>
+    
   </div>
 </template>

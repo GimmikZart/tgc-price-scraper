@@ -102,15 +102,7 @@ watch(currentDeck, (current) => { saveLocal(current); }, { deep: true });
 
 async function getDeckFromSlug(slug) {
   if (!slug) return;
-  // 1) cloud
-  const cloudDeck = await getCloud(slug);
-  if (cloudDeck) {
-    currentDeck.value = cloudDeck;
-    currentDeck.value.isPublished = true;
-    chooseLeader(cloudDeck.leader);
-    return;
-  }
-  // 2) fallback locale
+  // 1) prova locale
   const local = await getLocal(slug);
   if (local) {
     currentDeck.value = local;
@@ -118,7 +110,13 @@ async function getDeckFromSlug(slug) {
     chooseLeader(local.leader);
     return;
   }
-  
+  // 2) fallback cloud
+  const cloudDeck = await getCloud(slug);
+  if (cloudDeck) {
+    currentDeck.value = cloudDeck;
+    currentDeck.value.isPublished = true;
+    chooseLeader(cloudDeck.leader);
+  }
 }
 
 async function saveDeck() {

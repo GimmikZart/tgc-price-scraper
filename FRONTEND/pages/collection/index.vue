@@ -199,39 +199,31 @@ onMounted(async () => {
 
     <MobileFloatMenu :cols="3">
       <template #buttons>
-        <button
-          class="p-2 border border-white cursor-pointer rounded-lg relative flex flex-col items-center justify-center"
-          variant="text"
-          @click="editCollection = !editCollection; mobileFloatMenu.close();"
-        >
-          <template v-if="!editCollection">
-            <Icon class="text-xl" icon="fluent:collections-add-24-regular" />
-            <span class="text-xs">Gestisci</span>
-          </template>
-          <template v-else>
-            <Icon class="text-xl text-green" icon="mdi-check" />
-            <span class="text-xs text-green">Termina</span>
-          </template>
-        </button>
+        <ButtonMenu
+          :icon="editCollection ? 'mdi-check' : 'fluent:collections-add-24-regular'"
+          :label="editCollection ? 'Termina' : 'Gestisci'"
+          :icon-color="editCollection ? 'green' : 'orange'"
+          :color="editCollection ? 'green' : 'orange'"
+          @click="
+            editCollection = !editCollection;
+            mobileFloatMenu.close();
+          "
+        />
 
-        <button
-          class="p-2 border border-white cursor-pointer rounded-lg relative flex flex-col items-center justify-center"
-          variant="text"
-          @click="router.push('/collection/all');"
-        >
-          <Icon class="text-xl" icon="material-symbols-light:book-ribbon" />
-          <span class="text-xs">Album</span>
-        </button>
+        <ButtonMenu
+          icon="material-symbols-light:book-ribbon"
+          label="Album"
+          @click="router.push('/collection/all')"
+        />
 
-
-        <button
-          class="p-2 border border-white cursor-pointer rounded-lg relative flex flex-col items-center justify-center"
-          variant="text"
-          @click="openFilter = true; mobileFloatMenu.close();"
-        >
-          <Icon class="text-2xl" icon="material-symbols:search-rounded" />
-          <span class="text-xs">Filtra</span>
-        </button>
+        <ButtonMenu
+          icon="material-symbols:search-rounded"
+          label="Filtra"
+          @click="
+            openFilter = true;
+            mobileFloatMenu.close();
+          "
+        />
       </template>
     </MobileFloatMenu>
 

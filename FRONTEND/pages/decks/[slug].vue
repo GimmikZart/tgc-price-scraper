@@ -108,28 +108,20 @@ provide("item", currentDeck);
   <MobileFloatMenu :cols="4">
     <template #buttons>
       <DialogsHandleDeleteDeck :slug="route.params.slug"/>
-      <button
-        class="text-white border border-white p-2 cursor-pointer rounded-lg relative flex flex-col items-center justify-center"
-        @click="goToEditDeck()">
-        <Icon class="text-2xl" icon="iconoir:wrench"></Icon>
-        <span class="text-xs">Modifica</span>
-      </button>
+      <ButtonMenu
+        @click="goToEditDeck()"
+        icon="iconoir:wrench"
+        label="Modifica"
+      />
       <DialogsHandleVisibility
         v-if="!currentDeck.isLocal"
         @update-visibility="(newValue) => updateVisibility(newValue)"
       />
-      <button
-        class="text-white border border-white p-2 cursor-pointer rounded-lg relative flex flex-col items-center justify-center"
-        :disabled="currentDeck.cards.length != 50"
-        variant="text"
+      <ButtonMenu
         @click="exportDeck()"
-      >
-      <Icon
-        class="text-2xl"
         icon="material-symbols:export-notes-outline"
-      ></Icon>
-        <span class="text-xs">Esporta</span>
-      </button>
+        label="Esporta"
+      />
     </template>
   </MobileFloatMenu>
 </template>

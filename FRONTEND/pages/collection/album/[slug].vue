@@ -143,15 +143,17 @@ function goToSelectCard(idx) {
           @click="gs.toggleAlbumHandling()"
         >
           <template v-if="!gs.albumIsHandling">
-            <Icon
+            <ButtonMenu
               icon="ph:swap"
-              class="text-2xl -rotate-90"
+              label="Gestisci"
             />
-            Gestici
           </template>
           <template v-else>
-            <Icon icon="el:ok" class="text-2xl" />
-            Termina
+            <ButtonMenu
+              icon="el:ok"
+              label="Termina"
+              color="green"
+            />
           </template>
         </button>
       </template>

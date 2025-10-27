@@ -31,8 +31,11 @@ async function deleteDeck() {
       accept-label="Cancella"
     >
       <template #button>
-        <Icon color="red" icon="tabler:trash" class="text-2xl" />
-        <span class="text-xs">Cancella</span>
+        <ButtonMenu
+          icon="tabler:trash"
+          label="Cancella"
+          icon-color="red"
+        />
       </template>
 
       <template #title>Sei sicuro di voler cancellare?</template>

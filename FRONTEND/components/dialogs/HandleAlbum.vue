@@ -41,12 +41,10 @@ async function onConfirm() {
     accept-label="Crea Album"
   >
     <template #button>
-      <button
-        class="p-2 border border-white cursor-pointer rounded-lg relative flex flex-col items-center justify-center"
-      >
-        <Icon class="text-xl text-green" icon="fluent:book-add-28-filled" />
-        <span class="text-xs">Aggiungi</span>
-      </button>
+      <ButtonMenu
+        icon="fluent:book-add-28-filled"
+        label="Aggiungi"
+      />
     </template>
 
     <template #title>Crea nuovo Album</template>

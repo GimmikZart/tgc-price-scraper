@@ -1,4 +1,8 @@
 export function copyDeckOnClipboard(leader, cardsSetWithCount) {
+  console.log({leader});
+  console.log({cardsSetWithCount});
+  
+  
   const lines = [];
 
   if (leader.code) {

@@ -27,12 +27,11 @@ async function changeVisibility() {
 </script>
 
 <template>
-  <button
-    class="text-white h-full border border-white p-2 cursor-pointer rounded-lg relative flex flex-col items-center justify-between" 
-    @click="dialog = true">
-    <Icon class="text-sm" icon="fa-eye" />
-    <span class="text-xs">Visibilità</span>
-  </button>
+  <ButtonMenu
+    @click="dialog = true"
+    icon="fa-eye"
+    label="Visibilità"
+  />
 
   <v-dialog
     v-model="dialog"

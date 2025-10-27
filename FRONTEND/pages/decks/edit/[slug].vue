@@ -126,9 +126,15 @@ async function saveDeck() {
 }
 
 function exportDeck() {
-  if(currentDeck.cards.length != 50){
+  console.log("current deck cards", currentDeck.value.cards.length);
+  
+  if(currentDeck.value.cards.length == 50){
     copyDeckOnClipboard(leaderChoosen.value, singleCardsInDeck.value);
     snackbar.addMessage("Deck copiato negli appunti", "success");
+  } else {
+    console.log("deck non esportabile, carte:", currentDeck.value.cards.length);
+    
+    snackbar.addMessage("Il deck deve contenere esattamente 50 carte per essere esportato", "error");
   }
 }
 
@@ -220,53 +226,49 @@ provide("actionOnDeck", actionOnDeck);
       <template #buttons>
         <DialogsHandleDeleteDeck :slug="route.params.slug" />
 
-        <button
-          class="p-2 border border-white cursor-pointer rounded-lg relative flex flex-col items-center justify-center" 
-          @click="saveDeck">
-          <Icon class="text-2xl text-green" icon="material-symbols:save-rounded" />
-          <span class="text-xs">Salva</span>
-        </button>
+        <ButtonMenu
+          icon="material-symbols:save-rounded"
+          label="Salva"
+          icon-color="lime"
+          @click="saveDeck"
+        />
 
-        <button
-          class="p-2 border border-white cursor-pointer rounded-lg relative flex flex-col items-center justify-center"
+        <ButtonMenu
+          icon="material-symbols:export-notes-outline"
+          label="Esporta"
           :disabled="currentDeck.cards.length != 50"
           @click="exportDeck"
-        >
-          <Icon class="text-2xl" icon="material-symbols:export-notes-outline" />
-          <span class="text-xs">Esporta</span>
-        </button>
+        />
 
-        <button
-          class="p-2 border border-white cursor-pointer rounded-lg relative flex flex-col items-center justify-center" 
-          
-          @click="showDeck = false; mobileFloatMenu.close();"
-        >
-          <Icon class="text-2xl" icon="streamline:cards" />
-          <span class="text-xs">Lista</span>
-        </button>
+        <ButtonMenu
+          icon="streamline:cards"
+          label="Catalogo"
+          @click="() => { showDeck = false; mobileFloatMenu.close(); }"
+        />
+
       </template>
     </MobileFloatMenu>
 
     <MobileFloatMenu v-else :cols="leaderChoosen != null ? 2 : 1">
       <template #buttons>
-        <button
+        <ButtonMenu
           v-if="leaderChoosen"
-          class="p-2 border border-white cursor-pointer rounded-lg relative flex flex-col items-center justify-center" 
-          
-          @click="showDeck = true; mobileFloatMenu.close();"
-        >
-          <Icon class="text-2xl" icon="mdi:show" />
-          <span class="text-xs">Panoramica</span>
-        </button>
-        
-        <button
-          
-          class="p-2 border border-white cursor-pointer rounded-lg relative flex flex-col items-center justify-center"  
-          @click="openFilter = true; mobileFloatMenu.close();"
-        >
-          <Icon class="text-2xl" icon="material-symbols:search-rounded" />
-          <span class="text-xs">Filtra</span>
-        </button>
+          icon="mdi:show"
+          label="Panoramica"
+          @click="
+            showDeck = true;
+            mobileFloatMenu.close();
+          "
+        />
+
+        <ButtonMenu
+          icon="material-symbols:search-rounded"
+          label="Filtra"
+          @click="
+            openFilter = true;
+            mobileFloatMenu.close();
+          "
+        />
       </template>
     </MobileFloatMenu>
 

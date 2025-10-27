@@ -119,34 +119,26 @@ onMounted(() => {
 
     <MobileFloatMenu :cols="2">
       <template #buttons>
-        <button
-          class="text-white border border-white p-2 cursor-pointer rounded-lg relative flex flex-col items-center justify-center"
+        <ButtonMenu
+          icon="fluent:collections-add-24-regular"
+          label="Gestisci"
           @click="
             editCollection = !editCollection;
             mobileFloatMenu.close();
           "
-        >
-        <Icon
-          class="text-2xl"
-          icon="fluent:collections-add-24-regular"
-        ></Icon>
-          <span class="text-xs">Gestisci</span>
-        </button>
-        <button
-          class="p-2 border border-white cursor-pointer rounded-lg relative flex flex-col items-center justify-center"
+        />
+
+        <ButtonMenu
+          icon="material-symbols:search-rounded"
+          label="Filtra"
           @click="
             openFilter = true;
             mobileFloatMenu.close();
           "
-        >
-          <Icon
-            class="text-2xl"
-            icon="material-symbols:search-rounded"
-          ></Icon>
-          <span class="text-xs">Filtra</span>
-        </button>
+        />
       </template>
     </MobileFloatMenu>
+
 
     <FullscreenCardViewer
       v-model:show="viewerOpen"

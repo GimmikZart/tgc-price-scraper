@@ -27,8 +27,10 @@ onMounted(() => {
 <template>
   <DialogsGeneric @confirm="saveName" :from-bottom="bottomDistance">
     <template #button>
-      <Icon icon="mdi:pencil" class="text-2xl" />
-      <span>Rinomina</span>
+      <ButtonMenu
+        icon="mdi:pencil"
+        label="Rinomina"
+      />
     </template>
     <template #title>
       Rinomina Album

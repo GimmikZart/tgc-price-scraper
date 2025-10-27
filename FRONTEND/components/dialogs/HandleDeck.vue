@@ -55,12 +55,11 @@ async function onConfirm() {
     accept-label="Crea Deck"
   >
     <template #button>
-      <button
-        class="text-white border border-white p-2 cursor-pointer rounded-lg relative flex flex-col items-center justify-center"
-      >
-        <Icon class="text-xl ml-3 text-green" icon="fa-solid:plus" />
-        Crea Mazzo
-      </button>
+      <ButtonMenu
+        icon="fa-solid:plus"
+        label="Crea Mazzo"
+        icon-color="green"
+      />
     </template>
 
     <template #title>Crea nuovo Mazzo</template>

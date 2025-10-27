@@ -38,6 +38,8 @@ export function useDeckManager() {
   };
 
   const removeLocal = async (slug) => {
+    const deck = await db.get("decks", slug);
+    if (!deck) return;
     return db.delete("decks", slug);
   };
 

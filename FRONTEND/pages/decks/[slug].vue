@@ -105,7 +105,7 @@ provide("item", currentDeck);
     </template>
   </Toolbar>
   <CardViewDeck :single-cards-in-deck="singleCardsInDeck" />
-  <MobileFloatMenu :cols="4">
+  <MobileFloatMenu :cols="currentDeck.isLocal ? 3 : 4">
     <template #buttons>
       <DialogsHandleDeleteDeck :slug="route.params.slug"/>
       <ButtonMenu

@@ -52,7 +52,7 @@ const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer
             size="small"
             class="text-xs"
           >
-            Dispositivo
+            Bozza
             <Icon icon="mdi:offline" class="text-orange text-lg ml-1" />
           </v-chip>
           <v-chip v-else size="small" color="green" class="text-xs">

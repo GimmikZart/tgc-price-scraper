@@ -10,7 +10,7 @@ const cloudDecks = ref([]);
 const localDecks = ref([]);
 
 function goToDeck(deck) {
-  router.push(`/decks/edit/${deck.slug}`);
+  router.push(`/decks/${deck.slug}`);
 }
 
 definePageMeta({
@@ -43,8 +43,9 @@ onMounted(async () => {
         />
       </div>
     </v-container>
-    <MobileFloatMenu :cols="1">
+    <MobileFloatMenu :cols="2">
       <template #buttons>
+        <DialogsImportDeck />
         <DialogsHandleDeck />
       </template>
     </MobileFloatMenu>

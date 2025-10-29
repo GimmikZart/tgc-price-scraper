@@ -19,9 +19,9 @@ const currentDeck = ref({
   location: "bozza",
 });
 const leaderChoosen = ref(null);
+const statsOpen = ref(false);
 const router = useRouter();
 const { allCards } = await useOnePieceCards();
-const mobileFloatMenu = useMobileFloatMenu();
 const { getLocal, getCloud } = useDeckManager();
 
 
@@ -102,17 +102,28 @@ provide("item", currentDeck);
       <DecksTopInfo :leader-choosen="leaderChoosen" :current-deck="currentDeck" />
     </template>
   </Toolbar>
-  <CardViewDeck :single-cards-in-deck="singleCardsInDeck" />
+  <CardViewDeck v-if="!statsOpen" :single-cards-in-deck="singleCardsInDeck" />
+  <DecksStats v-else :current-deck="singleCardsInDeck" />
   <MobileFloatMenu :cols="currentDeck.isLocal ? 3 : 4">
     <template #buttons>
       <ButtonMenu
-        @click="goToEditDeck()"
+        v-show="statsOpen"
+        @click="statsOpen = false"
+        icon="material-symbols:cards"
+        transition
+        :delay="200"
+        label="Panoramica"
+      />
+
+      <ButtonMenu
+        v-show="!statsOpen"
+        @click="statsOpen = true"
         icon="ion:stats-chart"
         transition
-        disabled
         :delay="200"
         label="Stats"
       />
+      
       <ButtonMenu
         @click="goToEditDeck()"
         icon="iconoir:wrench"

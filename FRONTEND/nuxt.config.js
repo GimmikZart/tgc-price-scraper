@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     "pinia-plugin-persistedstate/nuxt",
     "@vite-pwa/nuxt",
     "@nuxt/image",
+    "nuxt-charts"
   ],
   plugins: ["~/plugins/indexeddb.client.ts"],
   supabase: {

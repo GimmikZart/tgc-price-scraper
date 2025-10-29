@@ -1,7 +1,7 @@
 <script setup>
 import { Icon } from "@iconify/vue";
 import { fetchUserDecks } from "@/api/decks";
-
+import { DeckLocation } from "~/enums/deckLocation";
 const router = useRouter();
 const gs = useGlobalSettings();
 const { getAllLocal, getAllCloud } = useDeckManager();
@@ -9,8 +9,8 @@ const { getAllLocal, getAllCloud } = useDeckManager();
 const cloudDecks = ref([]);
 const localDecks = ref([]);
 
-function goToDeck(deck) {
-  router.push(`/decks/${deck.slug}`);
+function goToDeck(deck, location) {
+  router.push(`/decks/${deck.slug}?location=${location}`);
 }
 
 definePageMeta({
@@ -32,14 +32,14 @@ onMounted(async () => {
           :key="idx"
           :leader-id="deck.leader"
           :current-deck="deck"
-          @click="goToDeck(deck)"
+          @click="goToDeck(deck, DeckLocation.CLOUD)"
         />
         <DecksItem
           v-for="(deck, idx) in localDecks"
           :key="idx"
           :leader-id="deck.leader"
           :current-deck="deck"
-          @click="goToDeck(deck)"
+          @click="goToDeck(deck, DeckLocation.BOZZA)"
         />
       </div>
     </v-container>

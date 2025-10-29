@@ -1,4 +1,7 @@
 import { useNuxtApp } from "#app";
+import { DeckLocation } from "~/enums/deckLocation";
+import { useSnackbar } from "@/stores/useSnackbar";
+
 import {
   fetchUserDecks,
   fetchUserDeckCards,
@@ -15,7 +18,7 @@ export function useDeckManager() {
   const userUuid = userAuth.userLogged.id;
 
   //
-  // LOCAL (IndexedDB via db)
+  // BOZZA (IndexedDB via db)
   //
   const saveLocal = async (deck) => {
     const plainDeck = JSON.parse(JSON.stringify(deck));
@@ -47,7 +50,18 @@ export function useDeckManager() {
   // CLOUD (Supabase via le tue API)
   //
   const getAllCloud = () => fetchUserDecks();
-  const getCloud = (slug) => fetchUserDeckCards(userUuid, slug);
+  const getCloud = (slug) => {
+    const deck = fetchUserDeckCards(userUuid, slug);
+    if(!deck){
+      const snackbar = useSnackbar();
+      snackbar.addMessage(
+        "Deck non trovato sul cloud.",
+        "error"
+      );
+    }
+
+    return deck;
+  }
   const saveCloud = (deck) => saveDeckOnCloud(deck);
   const deleteCloud = (slug) => deleteDeckFromCloud(userUuid, slug);
 
@@ -65,10 +79,17 @@ export function useDeckManager() {
     return deck;
   };
 
-  const deleteDeck = async (slug) => {
+  const deleteDeck = async (slug, deckLocation) => {
     // Rimuovo sia localmente che sul cloud
-    await removeLocal(slug);
-    await deleteCloud(slug);
+    console.log("Deleting deck final:", slug, deckLocation, DeckLocation.CLOUD, DeckLocation.BOZZA, deckLocation === DeckLocation.CLOUD );
+    
+    if (deckLocation === DeckLocation.CLOUD) {
+      await deleteCloud(slug);
+      return;
+    } else if (deckLocation === DeckLocation.BOZZA) {
+      await removeLocal(slug);
+      return;
+    }
   }
 
   return {

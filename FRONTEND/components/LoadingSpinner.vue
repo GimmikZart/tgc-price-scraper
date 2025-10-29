@@ -1,7 +1,7 @@
 <script setup>
 </script>
 <template>
-<div class="absolute flex items-center justify-center top-0 left-0 h-dvh w-full bg-black z-[1000]">
+<div class="absolute flex items-center justify-center top-0 left-0 h-dvh w-full bg-black z-[2000]">
   <div class="loader"></div>
 </div>
 </template>

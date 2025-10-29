@@ -1,13 +1,14 @@
 <script setup>
-import { Icon } from "@iconify/vue";
 import { updateDeckVisibility } from "~/api/decks";
-import { getVisibilityLabel } from "~/enums/visibility";
 import { copyDeckOnClipboard } from "@/utilities/copyDeckOnClipboard";
 import { usePageLoader } from "@/stores/usePageLoader";
+import { DeckLocation } from "~/enums/deckLocation";
 
 const snackbar = useSnackbar();
 const route = useRoute();
 const pageLoader = usePageLoader();
+
+const deckLocation = ref(route.query.location);
 
 const currentDeck = ref({
   name: "",
@@ -15,7 +16,7 @@ const currentDeck = ref({
   leader: null,
   cards: [],
   visibility: "private",
-  location: "local",
+  location: "bozza",
 });
 const leaderChoosen = ref(null);
 const router = useRouter();
@@ -25,7 +26,7 @@ const { getLocal, getCloud } = useDeckManager();
 
 
 function goToEditDeck() {
-  router.push(`/decks/edit/${route.params.slug}`);
+  router.push(`/decks/edit/${route.params.slug}?location=${deckLocation.value}`);
 }
 
 const singleCardsInDeck = computed(() => {
@@ -57,15 +58,12 @@ async function getDeckFromSlug(slug) {
   if (!slug) return;
   // 1) Provo a prendere il draft locale
   const local = await getLocal(slug);
-  if (local) {
+  const cloudDeck = await getCloud(slug);
+  if (deckLocation.value === DeckLocation.BOZZA && local) {
     currentDeck.value = local;
     chooseLeader(local.leader);
     return;
-  }
-
-  // 2) Non esiste in locale → prendo dal cloud e creo il draft
-  const cloudDeck = await getCloud(slug);
-  if (cloudDeck) {
+  } else if (deckLocation.value === DeckLocation.CLOUD && cloudDeck) {
     currentDeck.value = cloudDeck;
     chooseLeader(cloudDeck.leader);
   }
@@ -86,7 +84,7 @@ onMounted(async () => {
   pageLoader.stopLoading();
   if(leaderChoosen.value === null) {
     snackbar.addMessage("Mazzo non trovato", "error");
-    router.push(`/decks/edit/${currentDeck.value.slug}`);
+    router.push(`/decks/edit/${currentDeck.value.slug}?location=${deckLocation.value}`);
   }
 });
 
@@ -99,7 +97,7 @@ provide("removeCardFromDeck", null);
 provide("item", currentDeck);
 </script>
 <template>
-  <Toolbar v-if="leaderChoosen" :label="`Mazzo ${currentDeck.name}`">
+  <Toolbar v-if="leaderChoosen" :label="`Mazzo ${deckLocation} ${currentDeck.name}`">
     <template #info>
       <DecksTopInfo :leader-choosen="leaderChoosen" :current-deck="currentDeck" />
     </template>
@@ -107,10 +105,19 @@ provide("item", currentDeck);
   <CardViewDeck :single-cards-in-deck="singleCardsInDeck" />
   <MobileFloatMenu :cols="currentDeck.isLocal ? 3 : 4">
     <template #buttons>
-      <DialogsHandleDeleteDeck :slug="route.params.slug"/>
+      <ButtonMenu
+        @click="goToEditDeck()"
+        icon="ion:stats-chart"
+        transition
+        disabled
+        :delay="200"
+        label="Stats"
+      />
       <ButtonMenu
         @click="goToEditDeck()"
         icon="iconoir:wrench"
+        transition
+        :delay="100"
         label="Modifica"
       />
       <DialogsHandleVisibility
@@ -120,6 +127,8 @@ provide("item", currentDeck);
       <ButtonMenu
         @click="exportDeck()"
         icon="material-symbols:export-notes-outline"
+        transition
+        :delay="200"
         label="Esporta"
       />
     </template>

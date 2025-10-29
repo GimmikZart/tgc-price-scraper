@@ -1,12 +1,15 @@
 <script setup>
 import { onMounted, onBeforeUnmount, getCurrentInstance } from "vue";
+import { onClickOutside } from "@vueuse/core";
 
 const props = defineProps({
   fromBottom: { type: Number, default: null },
   acceptLabel: { type: String, default: "Salva" },
+  acceptColor: { type: String, default: "success" },
 });
 const emits = defineEmits(["confirm"]);
 const gs = useGlobalSettings();
+const rootEl = ref(null);
 
 const dialog = ref(false);
 
@@ -35,6 +38,10 @@ function handleGlobalOpen(e) {
     closeDialog();
   }
 }
+
+onClickOutside(rootEl, () => {
+  closeDialog();
+});
 
 // ESC per chiudere
 function handleKeydown(e) {
@@ -69,6 +76,7 @@ const bottomDistance = computed(() => {
   <Teleport to="body">
     <!-- BACKDROP full-screen: click sul backdrop chiude; click sul contenuto no -->
     <div
+      ref="rootEl"
       :class="dialog ? 'z-[2]' : '-z-[10]'"
       class="fixed inset-0 flex items-end"
       @click.self="closeDialog"
@@ -91,7 +99,7 @@ const bottomDistance = computed(() => {
           <v-card-actions class="pa-3">
             <v-spacer />
             <v-btn text @click.stop="closeDialog">Annulla</v-btn>
-            <v-btn color="success" @click="handleConfirm">{{ acceptLabel }}</v-btn>
+            <v-btn :color="acceptColor" @click="handleConfirm">{{ acceptLabel }}</v-btn>
           </v-card-actions>
         </v-card>
       </div>

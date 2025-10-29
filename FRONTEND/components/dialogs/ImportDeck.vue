@@ -51,6 +51,8 @@ async function onConfirm() {
     <template #button>
       <ButtonMenu
         icon="ri:import-fill"
+        transition
+          :delay="100"
         label="Importa Deck"
         icon-color="purple"
       />

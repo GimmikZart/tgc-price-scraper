@@ -6,12 +6,14 @@ const props = defineProps({
 });
 const emits = defineEmits(["refresh"]);
 
+const route = useRoute();
+const deckLocation = ref(route.query.location);
 const deckManager = useDeckManager();
 const snackbar = useSnackbar();
 const router = useRouter();
 
 async function deleteDeck() {
-  await deckManager.deleteDeck(props.slug);
+  await deckManager.deleteDeck(props.slug, deckLocation.value);
   emits("refresh");
   snackbar.addMessage("Deck eliminato con successo", "success");
   router.push("/decks");
@@ -29,15 +31,17 @@ async function deleteDeck() {
           icon="tabler:trash"
           label="Cancella"
           icon-color="red"
+          transition
+          :delay="200"
         />
       </template>
 
       <template #title>
-        Sei sicuro di voler cancellare?
+        Sei sicuro di voler cancellare il mazzo [{{ deckLocation }}]?
       </template>
 
       <template #content>
-        <p class="text-white">L'operazione è irreversibile.</p>
+        <p class="text-white">Poi non piangere se non posso ridartelo ( il processo è irreversibile).</p>
       </template>
     </DialogsGeneric>
   </div>

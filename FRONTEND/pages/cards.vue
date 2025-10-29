@@ -122,6 +122,8 @@ onMounted(() => {
         <ButtonMenu
           icon="fluent:collections-add-24-regular"
           label="Gestisci"
+          transition
+            :delay="100"
           @click="
             editCollection = !editCollection;
             mobileFloatMenu.close();
@@ -131,6 +133,8 @@ onMounted(() => {
         <ButtonMenu
           icon="material-symbols:search-rounded"
           label="Filtra"
+          transition
+          :delay="200"
           @click="
             openFilter = true;
             mobileFloatMenu.close();

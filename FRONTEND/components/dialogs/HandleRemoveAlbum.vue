@@ -29,6 +29,7 @@ async function deleteDeck() {
       :from-bottom="bottomDistance"
       @confirm="deleteDeck"
       accept-label="Cancella"
+      accept-color="red"
     >
       <template #button>
         <ButtonMenu

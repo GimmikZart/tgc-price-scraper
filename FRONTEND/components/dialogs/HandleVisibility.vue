@@ -29,7 +29,9 @@ async function changeVisibility() {
 <template>
   <ButtonMenu
     @click="dialog = true"
-    icon="fa-eye"
+    icon="mdi:show"
+    transition
+    :delay="100"
     label="Visibilità"
   />
 

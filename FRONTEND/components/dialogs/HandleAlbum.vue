@@ -44,6 +44,8 @@ async function onConfirm() {
       <ButtonMenu
         icon="fluent:book-add-28-filled"
         label="Aggiungi"
+        transition
+        :delay="100"
       />
     </template>
 

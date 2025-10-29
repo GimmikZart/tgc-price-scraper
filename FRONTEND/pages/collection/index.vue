@@ -204,6 +204,8 @@ onMounted(async () => {
           :label="editCollection ? 'Termina' : 'Gestisci'"
           :icon-color="editCollection ? 'green' : 'orange'"
           :color="editCollection ? 'green' : 'orange'"
+          transition
+          :delay="200"
           @click="
             editCollection = !editCollection;
             mobileFloatMenu.close();
@@ -213,12 +215,16 @@ onMounted(async () => {
         <ButtonMenu
           icon="material-symbols-light:book-ribbon"
           label="Album"
+          transition
+          :delay="100"
           @click="router.push('/collection/all')"
         />
 
         <ButtonMenu
           icon="material-symbols:search-rounded"
           label="Filtra"
+          transition
+          :delay="200"
           @click="
             openFilter = true;
             mobileFloatMenu.close();

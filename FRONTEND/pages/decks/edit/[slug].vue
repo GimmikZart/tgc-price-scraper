@@ -2,15 +2,20 @@
 import { Icon } from "@iconify/vue";
 import { copyDeckOnClipboard } from "@/utilities/copyDeckOnClipboard";
 import { usePageLoader } from "@/stores/usePageLoader";
+import { DeckLocation } from "~/enums/deckLocation";
 
 const snackbar = useSnackbar();
 const pageLoader = usePageLoader();
+
+
 
 const { allCards } = await useOnePieceCards();
 const mobileFloatMenu = useMobileFloatMenu();
 const route = useRoute();
 const router = useRouter();
 const { getLocal, saveLocal, getCloud, publish } = useDeckManager();
+
+const deckLocation = ref(route.query.location);
 
 const currentDeck = ref({
   name: "",
@@ -24,7 +29,7 @@ const currentDeck = ref({
 const filteredCards = ref([]);
 const visibleCards = ref([]);            // <-- buffer visibile dall'InfiniteGrid
 const openFilter = ref(false);
-const showDeck = ref(false);
+const showDeck = ref(true);
 const filterKey = ref(0);
 const actionOnDeck = ref("info");
 const leaderChoosen = ref(null);
@@ -119,15 +124,20 @@ async function getDeckFromSlug(slug) {
   }
 }
 
-async function saveDeck() {
+async function saveCloudDeck() {
   await publish(currentDeck.value);
+  snackbar.addMessage("Deck salvato in cloud con successo", "success");
+  router.push(`/decks/${route.params.slug}?location=${DeckLocation.CLOUD}`);
+}
+async function saveLocalDeck() {
+  await saveLocal(currentDeck.value);
   snackbar.addMessage("Deck salvato in locale con successo", "success");
-  router.push(`/decks/${route.params.slug}`);
+  router.push(`/decks/${route.params.slug}?location=${DeckLocation.BOZZA}`);
 }
 
 function exportDeck() {
   console.log("current deck cards", currentDeck.value.cards.length);
-  
+  snackbar.addMessage("Il deck deve contenere esattamente 50 carte per essere esportato", "error");
   if(currentDeck.value.cards.length == 50){
     copyDeckOnClipboard(leaderChoosen.value, singleCardsInDeck.value);
     snackbar.addMessage("Deck copiato negli appunti", "success");
@@ -166,7 +176,7 @@ provide("actionOnDeck", actionOnDeck);
 
 <template>
   <section class="relative">
-    <Toolbar :label="currentDeck.name" class="rounded-b-xl">
+    <Toolbar :label="currentDeck.name + deckLocation" class="rounded-b-xl">
       <template #info>
         <DecksTopInfo
           :leader-choosen="leaderChoosen"
@@ -175,7 +185,6 @@ provide("actionOnDeck", actionOnDeck);
         />
       </template>
     </Toolbar>
-
     <!-- Sezione Mazzo -->
     <CardViewDeck
       v-if="showDeck"
@@ -210,7 +219,6 @@ provide("actionOnDeck", actionOnDeck);
         </template>
       </InfiniteGrid>
     </div>
-
     <!-- FILTRI -->
     <CardViewFilter
       :key="filterKey"
@@ -229,20 +237,41 @@ provide("actionOnDeck", actionOnDeck);
         <ButtonMenu
           icon="material-symbols:save-rounded"
           label="Salva"
-          icon-color="lime"
-          @click="saveDeck"
-        />
-
+          multi
+          transition
+          :delay="100"
+        >
+          <template #buttons>
+            <ButtonMenu
+              icon="ic:baseline-cloud-done"
+              label="Salva nel cloud"
+              transition
+              icon-color="green"
+              :delay="100"
+              @click="saveCloudDeck()"
+            />
+            <ButtonMenu
+              icon="material-symbols:save-as-outline"
+              label="Salva Bozza"
+              transition
+              :delay="0"
+              @click="saveLocalDeck()"
+            />
+          </template>
+        </ButtonMenu>
         <ButtonMenu
           icon="material-symbols:export-notes-outline"
           label="Esporta"
-          :disabled="currentDeck.cards.length != 50"
+          transition
+          :delay="100"
           @click="exportDeck"
         />
 
         <ButtonMenu
           icon="streamline:cards"
           label="Catalogo"
+          transition
+          :delay="200"
           @click="() => { showDeck = false; mobileFloatMenu.close(); }"
         />
 
@@ -253,8 +282,10 @@ provide("actionOnDeck", actionOnDeck);
       <template #buttons>
         <ButtonMenu
           v-if="leaderChoosen"
-          icon="mdi:show"
+          icon="material-symbols:cards"
           label="Panoramica"
+          transition
+          :delay="100"
           @click="
             showDeck = true;
             mobileFloatMenu.close();
@@ -264,6 +295,8 @@ provide("actionOnDeck", actionOnDeck);
         <ButtonMenu
           icon="material-symbols:search-rounded"
           label="Filtra"
+          transition
+          :delay="200"
           @click="
             openFilter = true;
             mobileFloatMenu.close();

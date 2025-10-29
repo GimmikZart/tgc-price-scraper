@@ -23,7 +23,7 @@ export async function fetchUserDeckCards(userUuid, slug) {
     .select("*")
     .eq("user_uuid", userUuid)
     .eq("slug", slug)
-    .single();
+    .maybeSingle();
 
   if (error) {
     throw new Error(error.message);

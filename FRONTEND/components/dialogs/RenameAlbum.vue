@@ -25,7 +25,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <DialogsGeneric @confirm="saveName" :from-bottom="bottomDistance">
+  <DialogsGeneric @confirm="saveName" accept-label="Rinomina" :from-bottom="bottomDistance">
     <template #button>
       <ButtonMenu
         icon="mdi:pencil"

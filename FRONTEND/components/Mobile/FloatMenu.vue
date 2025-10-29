@@ -35,7 +35,7 @@ const showMenu = computed(() => {
 
 const fromBottomCalc = computed(() => {
   if (props.fromBottom !== null) return props.fromBottom;
-  return globalSettings.navbarHeight;
+  return globalSettings.navbarHeight - 1; // -1 per il bug grafico che crea uno spazietto sotto al flat menu
 });
 
 

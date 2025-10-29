@@ -44,23 +44,30 @@ const attributeFilter = ref([]);
 
 const filtered = computed(() => {
   return props.cardsList.filter((card) => {
-    const nameMatch = !nameFilter.value || nameFilter.value.includes(card.name);
+    const nameMatch = 
+      !nameFilter.value || nameFilter.value.includes(card.name);
+
     const colorMatch =
       !colorFilter.value.length ||
       (isMulticolored.value
         ? colorFilter.value.every((c) => card.color.includes(c))
         : card.color.some((c) => colorFilter.value.includes(c)));
+
     const typeMatch =
       !typesFilter.value.length || typesFilter.value.includes(card.type);
+
     const setMatch =
       !setNamesFilter.value || setNamesFilter.value.includes(card.setName);
+
     const familyMatch =
       !familiesFilter.value.length ||
       card.family.some((c) => familiesFilter.value.includes(c));
+
     const abilityMatch =
       !abilityFilter.value ||
       (card.effect &&
         card.effect.toLowerCase().includes(abilityFilter.value.toLowerCase()));
+
     const abilityKwMatch =
       !abilityKwFilter.value.length ||
       (card.abilityKeywords &&
@@ -69,20 +76,27 @@ const filtered = computed(() => {
             a.toLowerCase().includes(kw.toLowerCase())
           )
         ));
+
     const powerMatch =
       (powerFilter.value[0] === powerLimits.min &&
         powerFilter.value[1] === powerLimits.max) ||
       (card.power &&
         card.power >= powerFilter.value[0] &&
         card.power <= powerFilter.value[1]);
+
     const costMatch =
       (costFilter.value[0] === 0 && costFilter.value[1] === 10) ||
       (card.cost >= costFilter.value[0] && card.cost <= costFilter.value[1]);
+
     const rarityMatch =
       !rarityFilter.value.length || rarityFilter.value.includes(card.rarity);
-    const hasTriggerMatch = hasTriggerFilter.value ? card.trigger : true;
+
+    const hasTriggerMatch = 
+      hasTriggerFilter.value ? card.trigger : true;
+
     const counterMatch =
       !counterFilter.value.length || counterFilter.value.includes(card.counter);
+
     const attributeMatch =
       !attributeFilter.value.length || attributeFilter.value.includes(card.attribute);
 

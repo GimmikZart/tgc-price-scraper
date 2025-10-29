@@ -16,15 +16,16 @@ import {
 const route = useRoute();
 const router = useRouter();
 const { isMobile, isTablet, isDesktop } = useMyBreakpoints();
-const mobileFloatMenu = useMobileFloatMenu();
+const globalSettings = useGlobalSettings()
+const { collectionIsHandling } = storeToRefs(globalSettings)
+const { toggleHandlingCollections } = globalSettings
 
 const handleAlbum = ref(false);
 const selectedAlbum = ref(null);
 
 const filteredCards = ref([]);
-const visibleCards = ref([]); // <-- buffer visibile
+const visibleCards = ref([]);
 const openFilter = ref(false);
-const editCollection = ref(false);
 const userAuth = useUserAuth();
 
 // Viewer: ora scegliamo di navigare sull’INTERO risultato filtrato
@@ -56,7 +57,7 @@ async function addCardInCollection(card) {
   await addCardToUserCollection(userAuth.userLogged.id, card.id);
 }
 
-async function removeCardInCollection(card) {
+async function removeCardFromCollection(card) {
   // 1) update ottimistico
   card.count = Math.max(0, (card.count || 0) - 1);
 
@@ -90,7 +91,7 @@ async function removeCardInCollection(card) {
 
 // Carica i count solo per i NUOVI item che entrano nel buffer
 async function loadCountsForChunk(chunk) {
-  if (!editCollection.value) return;
+  if (!collectionIsHandling.value) return;
   const userId = userAuth.userLogged?.id;
   if (!userId) return;
 
@@ -110,8 +111,8 @@ async function loadCountsForChunk(chunk) {
 }
 
 // Se l’utente attiva/disattiva la gestione, aggiorniamo i count del buffer corrente
-watch(editCollection, async () => {
-  if (editCollection.value) await loadCountsForChunk(visibleCards.value);
+watch(collectionIsHandling, async () => {
+  if (collectionIsHandling.value) await loadCountsForChunk(visibleCards.value);
 });
 
 // Lock body scroll quando filtro è aperto
@@ -179,11 +180,10 @@ onMounted(async () => {
         <Card
           :key="item.id"
           :card="item"
-          :handle-cards="editCollection"
           :card-count="item.count"
           :disable-opening="handleAlbum"
           @addCard="addCardInCollection(item)"
-          @removeCard="removeCardInCollection(item)"
+          @removeCard="removeCardFromCollection(item)"
           @open="openViewerFromItem(item)"
           @click="handleAlbum ? handleInsertAlbum(item) : null"
         />
@@ -200,16 +200,12 @@ onMounted(async () => {
     <MobileFloatMenu :cols="3">
       <template #buttons>
         <ButtonMenu
-          :icon="editCollection ? 'mdi-check' : 'fluent:collections-add-24-regular'"
-          :label="editCollection ? 'Termina' : 'Gestisci'"
-          :icon-color="editCollection ? 'green' : 'orange'"
-          :color="editCollection ? 'green' : 'orange'"
+          :icon="collectionIsHandling ? 'mdi-check' : 'fluent:collections-add-24-regular'"
+          :label="collectionIsHandling ? 'Termina' : 'Gestisci'"
+          :color="collectionIsHandling ? 'green' : 'orange'"
           transition
-          :delay="200"
-          @click="
-            editCollection = !editCollection;
-            mobileFloatMenu.close();
-          "
+            :delay="200"
+          @click="toggleHandlingCollections()"
         />
 
         <ButtonMenu
@@ -217,7 +213,7 @@ onMounted(async () => {
           label="Album"
           transition
           :delay="100"
-          @click="router.push('/collection/all')"
+          @click="router.push('/collection/albums')"
         />
 
         <ButtonMenu
@@ -227,7 +223,6 @@ onMounted(async () => {
           :delay="200"
           @click="
             openFilter = true;
-            mobileFloatMenu.close();
           "
         />
       </template>

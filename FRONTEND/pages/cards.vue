@@ -3,7 +3,7 @@ import { ref, onMounted } from "vue";
 import Toolbar from "@/components/Toolbar.vue";
 import Card from "@/components/Card.vue";
 import { useMyBreakpoints } from "@/composables/useMyBreakpoints";
-import { useMobileFloatMenu } from "@/stores/useMobileFloatMenu";
+import { storeToRefs } from 'pinia'    
 import { Icon } from "@iconify/vue";
 import {
   fetchCardCountInCollection,
@@ -14,22 +14,27 @@ import {
 const userAuth = useUserAuth();
 const { allCards } = await useOnePieceCards();
 const { isMobile, isTablet, isDesktop } = useMyBreakpoints();
-const mobileFloatMenu = useMobileFloatMenu();
+
+const globalSettings = useGlobalSettings()
+const { collectionIsHandling } = storeToRefs(globalSettings)
+const { toggleHandlingCollections } = globalSettings
 
 const filteredCards = ref([]);
 const visibleCards = ref([]);
 const openFilter = ref(false);
-const editCollection = ref(false);
+const gridKey = ref(0);
 
 const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer(visibleCards);
 
 
 function handleFilteredUpdate(newFiltered) {
-  filteredCards.value = newFiltered;
+  filteredCards.value = [...newFiltered];
+  visibleCards.value = [];
+  gridKey.value++; 
+  window.scrollTo({ top: 0, behavior: 'instant'});
 }
-
 async function loadCountsForChunk(chunk) {
-  if (!editCollection.value) return
+  if (!collectionIsHandling.value) return
   const userId = userAuth.userLogged?.id
   if (!userId) return
 
@@ -60,7 +65,7 @@ const gridSystem = computed(() => {
   if (isMobile.value)  cls.push('grid-cols-2','px-2','pb-15','gap-2');
   if (isTablet.value)  cls.push('grid-cols-4');
   if (isDesktop.value) cls.push('grid-cols-8','px-4','pb-20');
-  if (editCollection.value) cls.push('gap-2'); // opzionale sovrascrittura
+  if (collectionIsHandling.value) cls.push('gap-2'); // opzionale sovrascrittura
   return cls; // array o .join(' ')
 });
 
@@ -72,12 +77,12 @@ watch(openFilter, (newValue) => {
   }
 });
 
-watch(editCollection, async () => {
-  if (editCollection.value) await loadCountsForChunk(visibleCards.value);
+watch(collectionIsHandling, async (val) => {
+  if (val) await loadCountsForChunk(visibleCards.value);
 });
 
 onMounted(() => {
-  filteredCards.value = allCards;
+  filteredCards.value = [...allCards];
 });
 </script>
 
@@ -92,6 +97,7 @@ onMounted(() => {
       La ricerca non ha prodotto risultati
     </h4>
     <InfiniteGrid
+      :key="gridKey" 
       :items="filteredCards"
       :grid-class="gridSystem"
       :onChunk="loadCountsForChunk"
@@ -101,7 +107,6 @@ onMounted(() => {
         <Card
           :key="item.id"
           :card="item"
-          :handle-cards="editCollection"
           :card-count="item.count"
           @addCard="addCardInCollection(item)"
           @removeCard="removeCardInCollection(item)"
@@ -120,14 +125,12 @@ onMounted(() => {
     <MobileFloatMenu :cols="2">
       <template #buttons>
         <ButtonMenu
-          icon="fluent:collections-add-24-regular"
-          label="Gestisci"
+          :icon="collectionIsHandling ? 'mdi-check' : 'fluent:collections-add-24-regular'"
+          :label="collectionIsHandling ? 'Termina' : 'Gestisci'"
+          :color="collectionIsHandling ? 'green' : 'orange'"
           transition
             :delay="100"
-          @click="
-            editCollection = !editCollection;
-            mobileFloatMenu.close();
-          "
+          @click="toggleHandlingCollections()"
         />
 
         <ButtonMenu
@@ -137,7 +140,6 @@ onMounted(() => {
           :delay="200"
           @click="
             openFilter = true;
-            mobileFloatMenu.close();
           "
         />
       </template>

@@ -11,8 +11,7 @@ const props = defineProps({
     default: "Select",
   },
   modelValue: {
-    type: Array,
-    default: () => [],
+    default: () => null,
   },
   autocomplete: {
     type: Boolean,

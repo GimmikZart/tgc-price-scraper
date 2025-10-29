@@ -4,7 +4,6 @@ import { ref, computed } from "vue";
 
 const props = defineProps({
   card: { type: Object, required: true },
-  handleCards: { type: Boolean, default: false },
   chooseCard: { type: Boolean, default: false },
   disableOpening: { type: Boolean, default: false },
   cardCount: { type: Number, default: 0 },
@@ -12,8 +11,11 @@ const props = defineProps({
 const emit = defineEmits(["remove-card", "add-card", "choose-card", "open"]);
 const isLoaded = ref(false);
 
+const globalSettings = useGlobalSettings()
+const { collectionIsHandling } = storeToRefs(globalSettings)
+
 const cardClass = computed(() => ({
-  "border-[1px] border-white/30 rounded-lg": props.handleCards || !isLoaded.value,
+  "border-[1px] border-white/30 rounded-lg": collectionIsHandling.value || !isLoaded.value,
 }));
 
 function onLoad() { isLoaded.value = true; }
@@ -48,8 +50,7 @@ function openCard() { if (!props.disableOpening) emit("open", props.card); }
     <!-- Tasti collezione - espansione in altezza -->
     <v-expand-transition>
       <div
-        v-if="handleCards && isLoaded"
-        class="overflow-hidden" 
+        v-if="collectionIsHandling && isLoaded"
       >
         <div class="flex gap-3 items-center justify-between px-1 py-1">
           <v-btn variant="tonal" color="white" @click="cardCount >= 1 ? $emit('remove-card') : null">
@@ -62,7 +63,6 @@ function openCard() { if (!props.disableOpening) emit("open", props.card); }
         </div>
       </div>
     </v-expand-transition>
-
     <v-btn
       v-if="chooseCard"
       class="bg-gray-500"

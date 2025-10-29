@@ -19,7 +19,7 @@ const {
         <ButtonAlbum
           v-for="album in albums"
           :key="album.slug"
-          :to="`/collection/album/${album.slug}`"
+          :to="`/collection/albums/${album.slug}`"
           :label="album.name"
         />
       </div>

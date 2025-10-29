@@ -1,5 +1,6 @@
 <script setup>
 import { Icon } from "@iconify/vue";
+import { DeckLocation, getDeckLocationLabel } from "~/enums/deckLocation";
 
 const props = defineProps({
   slug: { type: String, required: true },
@@ -25,6 +26,7 @@ async function deleteDeck() {
     <DialogsGeneric
       @confirm="deleteDeck"
       accept-label="Cancella"
+      accept-color="red"
     >
       <template #button>
         <ButtonMenu
@@ -37,7 +39,17 @@ async function deleteDeck() {
       </template>
 
       <template #title>
-        Sei sicuro di voler cancellare il mazzo [{{ deckLocation }}]?
+        <div class="whitespace-break-spaces">
+          Sei sicuro di voler cancellare il mazzo
+          <span 
+            :class="deckLocation == DeckLocation.BOZZA ? 
+                    'text-orange' 
+                    : 'text-green'"
+          > 
+            {{ getDeckLocationLabel(deckLocation) }} 
+          </span>
+          ?
+        </div>
       </template>
 
       <template #content>

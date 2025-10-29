@@ -1,6 +1,8 @@
 <script setup>
 import { getVisibilityLabel } from "~/enums/visibility";
+import { DeckLocation } from "~/enums/deckLocation";
 import { Icon } from "@iconify/vue";
+
 const props = defineProps({
   leaderChoosen: {
     type: Object,
@@ -17,6 +19,8 @@ const props = defineProps({
   },
 });
 
+const route = useRoute();
+const deckLocation = ref(route.query.location);
 const actionOnDeck = inject("actionOnDeck", null);
 const viewerList = computed(() => props.leaderChoosen ? [props.leaderChoosen] : []);
 const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer(viewerList);
@@ -50,7 +54,7 @@ const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer
             {{ currentDeck.cards.length }} / 50
           </p>
           <v-chip
-            v-if="currentDeck.isLocal"
+            v-if="deckLocation == DeckLocation.BOZZA"
             color="orange"
             size="small"
             class="text-xs"

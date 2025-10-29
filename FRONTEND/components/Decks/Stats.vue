@@ -86,7 +86,7 @@ const costXAxisFormatter = (i) => `${costBuckets.value[i]?.cost ?? ''}`
 
     <div class="grid gap-6 md:grid-cols-3">
       <!-- DONUT: Distribuzione colori -->
-      <div class="col-span-1 bg-white/5 rounded-2xl p-4">
+      <div class="col-span-1 bg-white/5 rounded-2xl p-5">
         <h3 class="text-white font-medium mb-2">Distribuzione colori</h3>
         <ClientOnly>
           <DonutChart
@@ -98,16 +98,19 @@ const costXAxisFormatter = (i) => `${costBuckets.value[i]?.cost ?? ''}`
             type="half"
             :legend-position="'right'"
           >
-            <div class="text-center">
-              <div class="font-semibold">Label</div>
-              <div class="text-muted">2 seconds ago</div>
-            </div>
+           <!--  <div class="text-center">
+              <div class="mt-10 text-2xl font-bold">
+                <span :class="`text-${donutCategories[0].color}`">{{ donutData[0] }}</span>
+                /
+                <span :class="`text-${donutCategories[1].color}`">{{  donutData[1] }}</span>
+              </div>
+            </div> -->
           </DonutChart>
         </ClientOnly>
       </div>
 
       <!-- BAR: Cost 0..10 -->
-      <div class="col-span-1 bg-white/5 rounded-2xl p-4">
+      <div class="col-span-1 bg-white/5 rounded-2xl p-5">
         <h3 class="text-white font-medium mb-2">I tuoi costi (0–10)</h3>
         <ClientOnly>
           <BarChart
@@ -122,6 +125,29 @@ const costXAxisFormatter = (i) => `${costBuckets.value[i]?.cost ?? ''}`
             :hide-legend="true"
           />
         </ClientOnly>
+      </div>
+
+      <!-- TRACKER: triggers -->
+      <div class="col-span-1 bg-white/5 rounded-2xl p-5">
+        <h3 class="text-white font-medium mb-2">Triggers</h3>
+        <div class="w-full flex gap-1 justify-start">
+          <div 
+            v-for="card in [...expandedCards].sort((a, b) => (a.trigger ? -1 : 1))"
+            :key="card.id" 
+            class="h-[40px] bg-white/20" 
+            :class="{ 'bg-yellow': card.trigger != null }" 
+            :style="`width: ${(1 / 50) * 100}%`">
+          </div>
+          <div 
+            v-for="cardUnset in 50 - expandedCards.length" 
+            :key="cardUnset" 
+            class="h-[40px] bg-white/5" 
+            :style="`width: ${(1 / 50) * 100}%`">
+          </div>
+        </div>
+      </div>
+      <div class="col-span-1 bg-white/5 rounded-2xl p-5">
+        <h3 class="text-white/50 text-center font-medium mb-2">More incoming...</h3>
       </div>
     </div>
   </div>

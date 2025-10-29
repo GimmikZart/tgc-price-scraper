@@ -48,8 +48,17 @@ let pendingTrigger = false    // IO arrivato mentre appending=true
 function resetBuffer() {
   const src = props.items || []
   const take = Math.min(src.length, props.step * props.startBlocks)
-  visibleItems.value = take > 0 ? src.slice(0, take) : []
+  const slice = take > 0 ? src.slice(0, take) : []
+
+  visibleItems.value = slice
   emit('update:visible', visibleItems.value)
+
+  if (slice.length) {
+    emit('chunk', slice)
+    if (typeof props.onChunk === 'function') {
+      try { props.onChunk(slice) } catch {}
+    }
+  }
 }
 
 /** Controllo manuale post-append: se vicino al fondo, carica */

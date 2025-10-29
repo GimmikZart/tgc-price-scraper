@@ -78,6 +78,19 @@ const costBuckets = computed(() => {
 })
 const costCategories = { qty: { name: 'Costi', color: '#60a5fa' } }
 const costXAxisFormatter = (i) => `${costBuckets.value[i]?.cost ?? ''}`
+
+/* ---------------------- CategoryDistribution: distribuzione abilità ---------------------- */
+const abilityCountMap = computed(() => {
+  const m = new Map()
+  for (const c of expandedCards.value) {
+    const abilities = c.abilityKeywords || ['Nessuna']
+    for (const ab of abilities) {
+      const key = String(ab.replace(/[\[\]]/g, ""))
+      m.set(key, (m.get(key) ?? 0) + 1) // conta per copia
+    }
+  }
+  return m
+})
 </script>
 
 <template>
@@ -105,7 +118,9 @@ const costXAxisFormatter = (i) => `${costBuckets.value[i]?.cost ?? ''}`
 
       <!-- TRACKER: triggers -->
       <div class="col-span-1 bg-white/5 rounded-2xl p-5">
-        <h3 class="text-white font-medium mb-2">Triggers</h3>
+        <h3 class="text-white font-medium mb-2">Triggers 
+          <span class="text-white/50 text-xs ml-3">( {{ expandedCards.filter(c => c.trigger).length }} / {{ expandedCards.length }} )</span>
+        </h3>
         <div class="w-full flex gap-1 justify-start">
           <div 
             v-for="card in [...expandedCards].sort((a, b) => (a.trigger ? -1 : 1))"
@@ -124,7 +139,7 @@ const costXAxisFormatter = (i) => `${costBuckets.value[i]?.cost ?? ''}`
       </div>
 
       <!-- DONUT: Distribuzione colori -->
-      <div class="col-span-1 bg-white/5 rounded-2xl p-5">
+      <div v-if="donutData[1]" class="col-span-1 bg-white/5 rounded-2xl p-5">
         <h3 class="text-white font-medium mb-2">Distribuzione colori</h3>
         <ClientOnly>
           <DonutChart
@@ -150,10 +165,6 @@ const costXAxisFormatter = (i) => `${costBuckets.value[i]?.cost ?? ''}`
           </DonutChart>
         </ClientOnly>
       </div>
-
-     
-
-      
       <div class="col-span-1 bg-white/5 rounded-2xl p-5">
         <h3 class="text-white/50 text-center font-medium mb-2">More incoming...</h3>
       </div>

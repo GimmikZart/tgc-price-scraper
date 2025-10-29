@@ -97,14 +97,14 @@ provide("removeCardFromDeck", null);
 provide("item", currentDeck);
 </script>
 <template>
-  <Toolbar v-if="leaderChoosen" :label="`Mazzo ${deckLocation} ${currentDeck.name}`">
+  <Toolbar v-if="leaderChoosen" :label="`Mazzo ${currentDeck.name}`">
     <template #info>
       <DecksTopInfo :leader-choosen="leaderChoosen" :current-deck="currentDeck" />
     </template>
   </Toolbar>
   <CardViewDeck v-if="!statsOpen" :single-cards-in-deck="singleCardsInDeck" />
   <DecksStats v-else :current-deck="singleCardsInDeck" />
-  <MobileFloatMenu :cols="currentDeck.isLocal ? 3 : 4">
+  <MobileFloatMenu :cols="currentDeck.isLocal ? 3 : 3">
     <template #buttons>
       <ButtonMenu
         v-show="statsOpen"
@@ -131,10 +131,10 @@ provide("item", currentDeck);
         :delay="100"
         label="Modifica"
       />
-      <DialogsHandleVisibility
+      <!-- <DialogsHandleVisibility
         v-if="!currentDeck.isLocal"
         @update-visibility="(newValue) => updateVisibility(newValue)"
-      />
+      /> -->
       <ButtonMenu
         @click="exportDeck()"
         icon="material-symbols:export-notes-outline"

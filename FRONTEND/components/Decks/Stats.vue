@@ -85,30 +85,6 @@ const costXAxisFormatter = (i) => `${costBuckets.value[i]?.cost ?? ''}`
     <h2 class="text-white text-2xl font-semibold">Deck Stats</h2>
 
     <div class="grid gap-6 md:grid-cols-3">
-      <!-- DONUT: Distribuzione colori -->
-      <div class="col-span-1 bg-white/5 rounded-2xl p-5">
-        <h3 class="text-white font-medium mb-2">Distribuzione colori</h3>
-        <ClientOnly>
-          <DonutChart
-            :data="donutData"
-            :categories="donutCategories"
-            :height="220"
-            :arc-width="50"
-            :pad-angle="0.00"
-            type="half"
-            :legend-position="'right'"
-          >
-           <!--  <div class="text-center">
-              <div class="mt-10 text-2xl font-bold">
-                <span :class="`text-${donutCategories[0].color}`">{{ donutData[0] }}</span>
-                /
-                <span :class="`text-${donutCategories[1].color}`">{{  donutData[1] }}</span>
-              </div>
-            </div> -->
-          </DonutChart>
-        </ClientOnly>
-      </div>
-
       <!-- BAR: Cost 0..10 -->
       <div class="col-span-1 bg-white/5 rounded-2xl p-5">
         <h3 class="text-white font-medium mb-2">I tuoi costi (0–10)</h3>
@@ -146,6 +122,38 @@ const costXAxisFormatter = (i) => `${costBuckets.value[i]?.cost ?? ''}`
           </div>
         </div>
       </div>
+
+      <!-- DONUT: Distribuzione colori -->
+      <div class="col-span-1 bg-white/5 rounded-2xl p-5">
+        <h3 class="text-white font-medium mb-2">Distribuzione colori</h3>
+        <ClientOnly>
+          <DonutChart
+            :data="donutData"
+            :categories="donutCategories"
+            :height="220"
+            :arc-width="50"
+            :pad-angle="0.00"
+            type="half"
+            :legend-position="'right'"
+          >
+            <div class="text-center mt-12 bg-white/30 p-1 px-3 rounded-full">
+              <div class=" text-2xl font-bold">
+                <span :style="{ color: donutCategories[donutLabels[0]].color }">
+                  {{ donutData[0].toFixed() }}%
+                </span>
+                <span class="text-white mx-1">/</span>
+                <span :style="{ color: donutCategories[donutLabels[1]].color }">
+                  {{ donutData[1].toFixed() }}%
+                </span>
+              </div>
+            </div>
+          </DonutChart>
+        </ClientOnly>
+      </div>
+
+     
+
+      
       <div class="col-span-1 bg-white/5 rounded-2xl p-5">
         <h3 class="text-white/50 text-center font-medium mb-2">More incoming...</h3>
       </div>

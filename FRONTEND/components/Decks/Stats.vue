@@ -149,10 +149,10 @@ const abilityCountMap = computed(() => {
             :arc-width="50"
             :pad-angle="0.00"
             type="half"
-            :legend-position="'right'"
+            :legend-position="'center'"
           >
-            <div class="text-center mt-12 bg-white/30 p-1 px-3 rounded-full">
-              <div class=" text-2xl font-bold">
+            <div class="text-center mt-12 p-1 px-3 rounded-full">
+              <div class=" text-base bg-white/20 px-3 rounded-full font-bold">
                 <span :style="{ color: donutCategories[donutLabels[0]].color }">
                   {{ donutData[0].toFixed() }}%
                 </span>

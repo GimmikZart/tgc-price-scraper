@@ -12,6 +12,7 @@ import {
 } from "@/api/collection";
 
 const userAuth = useUserAuth();
+
 const { allCards } = await useOnePieceCards();
 const { isMobile, isTablet, isDesktop } = useMyBreakpoints();
 
@@ -19,13 +20,21 @@ const globalSettings = useGlobalSettings()
 const { collectionIsHandling } = storeToRefs(globalSettings)
 const { toggleHandlingCollections } = globalSettings
 
+
 const filteredCards = ref([]);
 const visibleCards = ref([]);
 const openFilter = ref(false);
+
+const gridRef = ref(null)
 const gridKey = ref(0);
 
 const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer(visibleCards);
 
+const scroller = computed(() => gridRef.value?.containerEl?.value || null)
+const { setItemRef, captureFromList, restore } = useScrollAnchor({
+  scroller,        // <-- PASSA QUESTO!
+  headerOffset: 0  // se hai una toolbar sticky DENTRO lo scroller, metti la sua altezza
+})
 
 function handleFilteredUpdate(newFiltered) {
   filteredCards.value = [...newFiltered];
@@ -81,6 +90,14 @@ watch(collectionIsHandling, async (val) => {
   if (val) await loadCountsForChunk(visibleCards.value);
 });
 
+async function onToggleHandlingCollections() {
+  captureFromList(visibleCards.value)
+  toggleHandlingCollections()
+  await restore()
+}
+
+
+
 definePageMeta({
     middleware: 'auth'
 })
@@ -101,6 +118,7 @@ onMounted(() => {
       La ricerca non ha prodotto risultati
     </h4>
     <InfiniteGrid
+      ref="gridRef"  
       :key="gridKey" 
       :items="filteredCards"
       :grid-class="gridSystem"
@@ -108,14 +126,16 @@ onMounted(() => {
       @update:visible="visibleCards = $event"
     >
       <template #default="{ item }">
-        <Card
-          :key="item.id"
-          :card="item"
-          :card-count="item.count"
-          @addCard="addCardInCollection(item)"
-          @removeCard="removeCardInCollection(item)"
-          @open="openViewer(item)"
-        />
+        <div :ref="el => setItemRef(item.id, el)">
+          <Card
+            :key="item.id"
+            :card="item"
+            :card-count="item.count"
+            @addCard="addCardInCollection(item)"
+            @removeCard="removeCardInCollection(item)"
+            @open="openViewer(item)"
+          />
+        </div>
       </template>
     </InfiniteGrid>
 
@@ -134,7 +154,7 @@ onMounted(() => {
           :color="collectionIsHandling ? 'green' : 'orange'"
           transition
             :delay="100"
-          @click="toggleHandlingCollections()"
+          @click="onToggleHandlingCollections()"
         />
 
         <ButtonMenu

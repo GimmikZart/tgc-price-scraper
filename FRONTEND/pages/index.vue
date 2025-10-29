@@ -33,7 +33,7 @@ function editGame(game) {
 }
 
 definePageMeta({
-    middleware: 'auth'
+    middleware: () => navigateTo('/cards')
 })
 </script>
 <template>

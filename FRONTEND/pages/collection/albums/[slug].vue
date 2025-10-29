@@ -73,6 +73,10 @@ function goToSelectCard(idx) {
     },
   });
 }
+
+definePageMeta({
+    middleware: 'auth'
+})
 </script>
 
 <template>

@@ -81,6 +81,10 @@ watch(collectionIsHandling, async (val) => {
   if (val) await loadCountsForChunk(visibleCards.value);
 });
 
+definePageMeta({
+    middleware: 'auth'
+})
+
 onMounted(() => {
   filteredCards.value = [...allCards];
 });

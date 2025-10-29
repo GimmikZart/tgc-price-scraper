@@ -15,6 +15,7 @@ function goToDeck(deck, location) {
 
 definePageMeta({
   ssr: false,
+  middleware: 'auth',
 });
 
 onMounted(async () => {

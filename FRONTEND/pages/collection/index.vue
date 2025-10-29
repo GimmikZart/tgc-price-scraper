@@ -128,13 +128,17 @@ async function handleInsertAlbum(card) {
 
   const cardIndex = parseInt(route.query?.index) || 0;
   const response = await insertCardToAlbum(selectedAlbum.value, card.id, cardIndex);
-  if (response) router.push(`/collection/album/${selectedAlbum.value.slug}`);
+  if (response) router.push(`/collection/albums/${selectedAlbum.value.slug}`);
 }
 
 // Sincronizza album da query
 watch(selectedAlbum, (newAlbum) => {
   if (!newAlbum) router.push({ query: {} });
 });
+
+definePageMeta({
+    middleware: 'auth'
+})
 
 onMounted(async () => {
   filteredCards.value = userCollection.value || [];

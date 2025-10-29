@@ -1,4 +1,8 @@
-<script setup></script>
+<script setup>
+definePageMeta({
+    middleware: 'auth'
+})
+</script>
 <template>
   <section class="h-full flex flex-col">
     <Toolbar label="User"> </Toolbar>

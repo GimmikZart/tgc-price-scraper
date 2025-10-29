@@ -7,6 +7,10 @@ const {
   error,
   pending: pendingAlbums,
 } = await useAsyncData("albums", getAlbums);
+
+definePageMeta({
+    middleware: 'auth'
+})
 </script>
 <template>
   <section class="h-full flex flex-col">

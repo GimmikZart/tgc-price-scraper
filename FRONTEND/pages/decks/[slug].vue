@@ -89,8 +89,10 @@ onMounted(async () => {
 });
 
 definePageMeta({
+  middleware: 'auth',
   ssr: false,
 });
+
 
 provide("addCardInDeck", null);
 provide("removeCardFromDeck", null);

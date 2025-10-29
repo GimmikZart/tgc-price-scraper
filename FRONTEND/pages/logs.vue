@@ -20,6 +20,7 @@ watch(
 );
 definePageMeta({
   hideFloatSnackbar: true,
+  middleware: 'auth',
 });
 
 onMounted(() => {

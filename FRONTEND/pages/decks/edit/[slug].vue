@@ -165,7 +165,10 @@ onMounted(async () => {
   if(leaderChoosen.value != null) showDeck.value = true;
 });
 
-definePageMeta({ ssr: false });
+definePageMeta({
+    middleware: 'auth',
+    ssr: false
+})
 
 // provide per child (deck, card actions)
 provide("cardsInDeck", currentDeck.value.cards);

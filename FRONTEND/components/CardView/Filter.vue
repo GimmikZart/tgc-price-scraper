@@ -22,6 +22,8 @@ const {
   abilityKwList,
   nameList,
   powerLimits,
+  counterList,
+  attributeList
 } = await useOnePieceCards();
 
 const nameFilter = ref(null);
@@ -37,6 +39,8 @@ const abilityKwFilter = ref([]);
 const costFilter = ref([0, 10]);
 const powerFilter = ref([powerLimits.min, powerLimits.max]);
 const hasTriggerFilter = ref(false);
+const counterFilter = ref([]);
+const attributeFilter = ref([]);
 
 const filtered = computed(() => {
   return props.cardsList.filter((card) => {
@@ -77,6 +81,10 @@ const filtered = computed(() => {
     const rarityMatch =
       !rarityFilter.value.length || rarityFilter.value.includes(card.rarity);
     const hasTriggerMatch = hasTriggerFilter.value ? card.trigger : true;
+    const counterMatch =
+      !counterFilter.value.length || counterFilter.value.includes(card.counter);
+    const attributeMatch =
+      !attributeFilter.value.length || attributeFilter.value.includes(card.attribute);
 
     return (
       nameMatch &&
@@ -89,7 +97,9 @@ const filtered = computed(() => {
       abilityKwMatch &&
       powerMatch &&
       costMatch &&
-      hasTriggerMatch
+      hasTriggerMatch &&
+      counterMatch &&
+      attributeMatch
     );
   });
 });
@@ -106,6 +116,8 @@ function resetFilters() {
   costFilter.value = [0, 10];
   powerFilter.value = [powerLimits.min, powerLimits.max];
   hasTriggerFilter.value = false;
+  counterFilter.value = [];
+  attributeFilter.value = [];
 }
 
 watch(
@@ -229,13 +241,29 @@ onMounted(async () => {
               label="Filtra per rarità"
             />
 
+            <InputSelect
+              v-model="counterFilter"
+              :items="counterList"
+              multiple
+              label="Filtra per counter"
+            />
+
+            <InputSelect
+              v-model="attributeFilter"
+              :items="attributeList"
+              multiple
+              label="Filtra per attributo"
+            />
+
             <div
               v-if="!props.isLeaderFilter"
-              class="flex items-center border-2 border-white/20 rounded px-2 py-1"
+              @click="hasTriggerFilter =!hasTriggerFilter"
+              class="flex items-center border-2 border-white/20 rounded px-1 py-0"
             >
               <v-checkbox
                 v-model="hasTriggerFilter"
                 hide-details
+                density="compact"
                 label="Ha effetto Trigger"
               />
             </div>
@@ -248,7 +276,7 @@ onMounted(async () => {
               hint="Range di potenza"
               persistent-hint
               thumb-label="always"
-              class="border-2 ma-0 border-white/20 rounded p-4 pt-10"
+              class="border-2 ma-0 border-white/20 rounded p-4 px-6 pt-10"
             ></v-range-slider>
 
             <v-range-slider
@@ -260,7 +288,7 @@ onMounted(async () => {
               hint="Range di costo"
               persistent-hint
               thumb-label="always"
-              class="border-2 ma-0 border-white/20 rounded p-4 pt-10"
+              class="border-2 ma-0 border-white/20 rounded p-4 px-6 pt-10"
             ></v-range-slider>
 
             <v-textarea

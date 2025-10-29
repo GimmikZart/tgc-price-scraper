@@ -29,7 +29,7 @@ const currentDeck = ref({
 const filteredCards = ref([]);
 const visibleCards = ref([]);            // <-- buffer visibile dall'InfiniteGrid
 const openFilter = ref(false);
-const showDeck = ref(true);
+const showDeck = ref(false);
 const filterKey = ref(0);
 const actionOnDeck = ref("info");
 const leaderChoosen = ref(null);
@@ -162,6 +162,7 @@ onMounted(async () => {
   // prima popolazione lista (in base a leader / non leader)
   filteredCards.value = builderCards.value.slice();
   pageLoader.stopLoading();
+  if(leaderChoosen.value != null) showDeck.value = true;
 });
 
 definePageMeta({ ssr: false });

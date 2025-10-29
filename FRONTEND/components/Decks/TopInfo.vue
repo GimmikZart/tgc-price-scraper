@@ -17,7 +17,7 @@ const props = defineProps({
   },
 });
 
-const actionOnDeck = inject("actionOnDeck");
+const actionOnDeck = inject("actionOnDeck", null);
 const viewerList = computed(() => props.leaderChoosen ? [props.leaderChoosen] : []);
 const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer(viewerList);
 </script>

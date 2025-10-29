@@ -70,7 +70,7 @@ const animateBase = computed(() =>
 </script>
 
 <template>
-  <div ref="rootEl" class="flex items-center justify-center flex-col relative">
+  <div ref="rootEl" class="flex bg-black items-center justify-center flex-col relative">
     <button
       :style="timingStyle"
       :class="[
@@ -87,12 +87,12 @@ const animateBase = computed(() =>
 
     <div
       v-if="multiOpened"
-      class="absolute z-10"
+      class="absolute z-10 bg-black p-3 px-5 rounded-lg z-[10000]"
       :class="{
         'bottom-full mb-2 flex flex-col items-center': direction === 'up',
-        'top-full mt-2 flex flex-col items-center': direction === 'down',
-        'right-full mr-2 flex flex-col items-center': direction === 'left',
-        'left-full ml-2 flex flex-col items-center': direction === 'right'
+      'top-full mt-2 flex flex-col items-center': direction === 'down',
+      'right-full mr-2 flex flex-col items-center': direction === 'left',
+      'left-full ml-2 flex flex-col items-center': direction === 'right'
       }"
     >
       <slot name="buttons"></slot>

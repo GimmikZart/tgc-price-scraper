@@ -8,7 +8,7 @@ const props = defineProps({
 
 const addCardInDeck = inject("addCardInDeck");
 const removeCardFromDeck = inject("removeCardFromDeck");
-const actionOnDeck = inject("actionOnDeck");
+const actionOnDeck = inject("actionOnDeck", null);
 
 const viewerList = computed(() => props.singleCardsInDeck);
 

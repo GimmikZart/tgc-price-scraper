@@ -25,8 +25,12 @@ const rootEl = ref(null); //
 const entered = ref(!props.transition);
 
 onClickOutside(rootEl, () => {
-  if (multiOpened.value) multiOpened.value = false;
+  closeMenu();
 });
+
+function closeMenu() {
+  multiOpened.value = false;
+}
 
 onMounted(() => {
   if (!props.transition) return;
@@ -70,13 +74,15 @@ const animateBase = computed(() =>
 </script>
 
 <template>
-  <div ref="rootEl" class="flex bg-black items-center justify-center flex-col relative">
+  <div ref="rootEl" class="flex bg-black mt-2 items-center justify-center flex-col relative">
+    <Icon v-if="multi" :class="multiOpened ? 'rotate-180' : 'rotate-0'" class="transition-all absolute -top-0 left-1/2 -translate-x-1/2" icon="lucide:chevron-up" />
     <button
       :style="timingStyle"
       :class="[
-        `p-2 border rounded-lg flex flex-col items-center justify-center hover:bg-white/10 disabled:opacity-50 disabled:cursor-not-allowed text-white border-${color}`,
+        `p-2  border rounded-lg flex flex-col items-center justify-center hover:bg-white/10 disabled:opacity-50 disabled:cursor-not-allowed text-white border-${color}`,
         animateBase,
-        entered ? endClasses : startClasses
+        entered ? endClasses : startClasses,
+        multi ? 'pt-4' : '',
       ]"
       :disabled="disabled"
       @click="multi ? (multiOpened = !multiOpened) : emit('click')"
@@ -87,6 +93,7 @@ const animateBase = computed(() =>
 
     <div
       v-if="multiOpened"
+      @click="closeMenu()"
       class="absolute z-10 bg-black p-3 px-5 rounded-lg z-[10000]"
       :class="{
         'bottom-full mb-2 flex flex-col items-center': direction === 'up',

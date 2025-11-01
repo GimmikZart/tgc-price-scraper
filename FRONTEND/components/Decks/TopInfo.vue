@@ -83,21 +83,4 @@ const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer
       </div>
     </div>
   </div>
-  <div
-    v-if="toggleCards"
-    class="flex flex-col items-center gap-2 justify-center mt-2"
-  >
-    <span class="text-xs">AL click sulla carta</span>
-    <v-btn-toggle
-      base-color="white"
-      v-model="actionOnDeck"
-      density="compact"
-      divided
-      variant="tonal"
-    >
-      <v-btn size="small" color="info" value="info"> Info </v-btn>
-      <v-btn size="small" color="success" value="add"> Aggiungi </v-btn>
-      <v-btn size="small" color="error" value="remove"> Rimuovi </v-btn>
-    </v-btn-toggle>
-  </div>
 </template>

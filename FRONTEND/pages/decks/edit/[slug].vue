@@ -80,6 +80,12 @@ const singleCardsInDeck = computed(() => {
   return Array.from(unique.values()).sort((a, b) => a.cost - b.cost || a.name.localeCompare(b.name));
 });
 
+const oncardClickIcon = computed(() => {
+  if (actionOnDeck.value === "add") return "streamline-ultimate:card-add-1-bold";
+  if (actionOnDeck.value === "remove") return "hugeicons:file-remove";
+  return "lucide:info";
+});
+
 watch(openFilter, (v) => {
   document.documentElement.classList.toggle("overflow-hidden", v);
 });
@@ -243,8 +249,6 @@ provide("actionOnDeck", actionOnDeck);
 
     <MobileFloatMenu v-if="showDeck && leaderChoosen" :cols="4">
       <template #buttons>
-        <DialogsHandleDeleteDeck :slug="route.params.slug" />
-
         <ButtonMenu
           icon="material-symbols:save-rounded"
           label="Salva"
@@ -253,6 +257,7 @@ provide("actionOnDeck", actionOnDeck);
           :delay="100"
         >
           <template #buttons>
+            <DialogsHandleDeleteDeck :slug="route.params.slug" />
             <ButtonMenu
               icon="ic:baseline-cloud-done"
               label="Salva nel cloud"
@@ -277,6 +282,38 @@ provide("actionOnDeck", actionOnDeck);
           :delay="100"
           @click="exportDeck"
         />
+
+        <ButtonMenu
+          :icon="oncardClickIcon"
+          label="Al click"
+          multi
+          transition
+          :delay="100"
+        >
+          <template #buttons>
+            <ButtonMenu
+              icon="hugeicons:file-remove"
+              label="Rimuovi"
+              transition
+              :delay="0"
+              @click="actionOnDeck = 'remove'"
+            />
+            <ButtonMenu
+              icon="streamline-ultimate:card-add-1-bold"
+              label="Aggiungi"
+              transition
+              :delay="100"
+              @click="actionOnDeck = 'add'"
+            />
+            <ButtonMenu
+              icon="lucide:info"
+              label="Info"
+              transition
+              :delay="200"
+              @click="actionOnDeck = 'info'"
+            />
+          </template>
+        </ButtonMenu>
 
         <ButtonMenu
           icon="streamline:cards"

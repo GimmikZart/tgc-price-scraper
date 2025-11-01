@@ -32,7 +32,7 @@ const scroller = ref(null)
 
 const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer(visibleCards);
 
-const { updateTopMost } = useScrollAnchor({
+useScrollAnchor({
   scroller,            
   headerOffset: 0,
   triggerVariable: collectionIsHandling,
@@ -135,6 +135,7 @@ onMounted(async () => {
         <Card
           :key="item.id"
           :card="item"
+          :handle-cards="collectionIsHandling"
           :card-count="item.count"
           @addCard="addCardInCollection(item)"
           @removeCard="removeCardInCollection(item)"

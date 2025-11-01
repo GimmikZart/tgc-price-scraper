@@ -5,17 +5,15 @@ import { ref, computed } from "vue";
 const props = defineProps({
   card: { type: Object, required: true },
   chooseCard: { type: Boolean, default: false },
+  handleCards: { type: Boolean, default: false },
   disableOpening: { type: Boolean, default: false },
   cardCount: { type: Number, default: 0 },
 });
 const emit = defineEmits(["remove-card", "add-card", "choose-card", "open"]);
 const isLoaded = ref(false);
 
-const globalSettings = useGlobalSettings()
-const { collectionIsHandling } = storeToRefs(globalSettings)
-
 const cardClass = computed(() => ({
-  "border-[1px] border-white/30 rounded-lg": collectionIsHandling.value || !isLoaded.value,
+  "border-[1px] border-white/30 rounded-lg": props.handleCards || !isLoaded.value,
 }));
 
 function onLoad() { isLoaded.value = true; }
@@ -48,7 +46,7 @@ function openCard() { if (!props.disableOpening) emit("open", props.card); }
     />
 
     <div
-      v-show="collectionIsHandling && isLoaded"
+      v-show="handleCards && isLoaded"
     >
       <div class="flex gap-3 items-center justify-between px-1 py-1">
         <v-btn variant="tonal" color="white" @click="cardCount >= 1 ? $emit('remove-card') : null">

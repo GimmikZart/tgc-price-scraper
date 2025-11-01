@@ -34,8 +34,18 @@ const filterKey = ref(0);
 const actionOnDeck = ref("info");
 const leaderChoosen = ref(null);
 
+const gridRef = ref(null)
+const gridKey = ref(0);
+const scroller = ref(null)
+
 // Viewer: meglio su TUTTO il risultato (filteredCards)
 const { show: viewerOpen, index: viewerIndex } = useCardViewer(filteredCards);
+
+useScrollAnchor({
+  scroller,
+  headerOffset: 0,
+  triggerVariable: visibleCards,
+})
 
 const leaderCards = computed(() => {
   return allCards.filter((card) => card.type === "LEADER");

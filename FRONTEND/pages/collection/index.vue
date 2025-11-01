@@ -23,6 +23,10 @@ const { toggleHandlingCollections } = globalSettings
 const handleAlbum = ref(false);
 const selectedAlbum = ref(null);
 
+const gridRef = ref(null)
+const gridKey = ref(0);
+const scroller = ref(null)
+
 const filteredCards = ref([]);
 const visibleCards = ref([]);
 const openFilter = ref(false);
@@ -30,6 +34,12 @@ const userAuth = useUserAuth();
 
 // Viewer: ora scegliamo di navigare sull’INTERO risultato filtrato
 const { show: viewerOpen, index: viewerIndex } = useCardViewer(filteredCards);
+
+useScrollAnchor({
+  scroller,            
+  headerOffset: 0,
+  triggerVariable: collectionIsHandling,
+})
 
 const gridSystem = computed(() => {
   let classes = "";
@@ -50,6 +60,16 @@ function openViewerFromItem(item) {
   if (i === -1) return;
   viewerIndex.value = i;
   viewerOpen.value = true;
+}
+
+function handleFilteredUpdate(newFiltered) {
+  filteredCards.value = [...newFiltered]
+  visibleCards.value = []
+  gridKey.value++
+
+  const s = scroller.value
+  if (s?.scrollTo) s.scrollTo({ top: 0, behavior: 'smooth' })
+  else if (s) s.scrollTop = 0
 }
 
 async function addCardInCollection(card) {
@@ -142,6 +162,7 @@ definePageMeta({
 
 onMounted(async () => {
   filteredCards.value = userCollection.value || [];
+  scroller.value = gridRef.value?.containerEl || null
   if (route.query.album) {
     handleAlbum.value = true;
     const userAlbums = await getAlbums();
@@ -175,6 +196,8 @@ onMounted(async () => {
 
     <!-- INFINITE GRID -->
     <InfiniteGrid
+      ref="gridRef"
+      :key="gridKey"
       :items="filteredCards"
       :grid-class="['grid','px-2','pt-2', gridSystem]"
       :class="handleAlbum ? 'pt-6' : 'pt-0'"
@@ -184,6 +207,7 @@ onMounted(async () => {
         <Card
           :key="item.id"
           :card="item"
+          :handle-cards="collectionIsHandling"
           :card-count="item.count"
           :disable-opening="handleAlbum"
           @addCard="addCardInCollection(item)"
@@ -197,7 +221,7 @@ onMounted(async () => {
     <CardViewFilter
       v-show="openFilter"
       :cards-list="userCollection"
-      @update:filtered="filteredCards = $event"
+      @update:filtered="handleFilteredUpdate"
       @close="openFilter = false"
     />
 

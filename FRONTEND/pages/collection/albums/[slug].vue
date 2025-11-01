@@ -100,7 +100,7 @@ definePageMeta({
           >
             <div
             class="flex flex-col items-center"
-              @click="removeCard(idx)"
+              @click="removeCard(slot.index)"
             >
               <Icon icon="fluent:square-hint-arrow-back-16-filled" class="text-4xl text-red"></Icon>
               <span class="text-xs text-red">Rimuovi da album</span>
@@ -117,7 +117,7 @@ definePageMeta({
             variant="text"
             icon
             class="text-white"
-            @click="goToSelectCard(idx)"
+            @click="goToSelectCard(slot.index)"
           >
             <Icon icon="heroicons:plus-16-solid" class="text-5xl"></Icon>
           </v-btn>

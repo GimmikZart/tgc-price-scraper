@@ -8,6 +8,7 @@ const props = defineProps({
   handleCards: { type: Boolean, default: false },
   disableOpening: { type: Boolean, default: false },
   cardCount: { type: Number, default: 0 },
+  showCount: { type: Boolean, default: false },
 });
 const emit = defineEmits(["remove-card", "add-card", "choose-card", "open"]);
 const isLoaded = ref(false);
@@ -21,7 +22,7 @@ function openCard() { if (!props.disableOpening) emit("open", props.card); }
 </script>
 
 <template>
-  <div :key="card.id" class="h-auto flex flex-col overflow-hidden" :class="cardClass">
+  <div :key="card.id" class="h-auto relative flex flex-col" :class="cardClass">
     <!-- Skeleton -->
     <v-skeleton-loader
       v-if="!isLoaded"
@@ -29,6 +30,11 @@ function openCard() { if (!props.disableOpening) emit("open", props.card); }
       color="black"
       class="image-skeleton w-full overflow-hidden aspect-[63/88]"
     />
+
+    <!-- CARD NUMBER LABEL -->
+    <div v-if="!handleCards && showCount" class="absolute top-0 right-1/2 translate-x-1/2 py-0 px-4 bg-black text-white text-xs rounded-b-lg">
+      x {{ cardCount }}
+    </div>
 
     <!-- Immagine -->
     <NuxtImg

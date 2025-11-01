@@ -43,7 +43,7 @@ useScrollAnchor({
 
 const gridSystem = computed(() => {
   let classes = "";
-  if (isMobile.value)  classes += "grid-cols-2 px-2 pb-10 gap-2 ";
+  if (isMobile.value)  classes += "grid-cols-2 px-2 pb-10 gap-3 ";
   if (isTablet.value)  classes += "grid-cols-4 ";
   if (isDesktop.value) classes += "grid-cols-8 px-4 pb-20 ";
   if (handleAlbum.value) classes += "pt-6";
@@ -111,7 +111,6 @@ async function removeCardFromCollection(card) {
 
 // Carica i count solo per i NUOVI item che entrano nel buffer
 async function loadCountsForChunk(chunk) {
-  if (!collectionIsHandling.value) return;
   const userId = userAuth.userLogged?.id;
   if (!userId) return;
 
@@ -121,6 +120,8 @@ async function loadCountsForChunk(chunk) {
       try {
         const c = await fetchCardCountInCollection(userId, card.id);
         card.count = c;
+        console.log(card.count);
+        
       } catch (e) {
         console.error("Errore fetch count per", card.id, e);
         card.count = 0;
@@ -131,8 +132,8 @@ async function loadCountsForChunk(chunk) {
 }
 
 // Se l’utente attiva/disattiva la gestione, aggiorniamo i count del buffer corrente
-watch(collectionIsHandling, async () => {
-  if (collectionIsHandling.value) await loadCountsForChunk(visibleCards.value);
+watch(visibleCards, async () => {
+  await loadCountsForChunk(visibleCards.value);
 });
 
 // Lock body scroll quando filtro è aperto
@@ -209,6 +210,7 @@ onMounted(async () => {
           :card="item"
           :handle-cards="collectionIsHandling"
           :card-count="item.count"
+          show-count
           :disable-opening="handleAlbum"
           @addCard="addCardInCollection(item)"
           @removeCard="removeCardFromCollection(item)"

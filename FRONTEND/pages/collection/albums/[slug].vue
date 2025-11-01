@@ -11,6 +11,10 @@ const addCardMode = ref(false);
 const paginatedCards = ref([]);
 const { allCards } = await useOnePieceCards();
 
+const qPage  = ref(1);
+const qFocus = ref(route.query.focus ? parseInt(route.query.focus) : null);
+
+
 const paginatedCardFormatted = computed(() => {
   return paginatedCards.value.map((slot) => slot.card).filter((c) => c !== null);
 });
@@ -74,6 +78,27 @@ function goToSelectCard(idx) {
   });
 }
 
+onMounted(async () => {
+  // dopo il render iniziale, se ho focus, provo a scrollare lo slot in vista
+  if (qFocus.value != null) {
+    await nextTick();
+    const el = document.getElementById(`slot-${qFocus.value}`);
+    if (el && typeof el.scrollIntoView === "function") {
+      el.scrollIntoView({ block: "center", behavior: "smooth" });
+    }
+  }
+  if(route.query.page){
+    qPage.value = Math.max(1, parseInt(route.query.page || '1'));
+  }
+
+  setTimeout(() => {
+      qFocus.value = null;
+      const newQuery = { ...route.query };
+      delete newQuery.page;
+      delete newQuery.focus;
+    }, 2000);
+});
+
 definePageMeta({
     middleware: 'auth'
 })
@@ -90,13 +115,15 @@ definePageMeta({
       <div
         v-for="(slot, idx) in paginatedCards"
         :key="idx"
+        :id="'slot-' + slot.index"
         class="w-full relative flex items-end pa-1 bg-black aspect-[5/7] border-[1px] border-white/20"
       >
         <template v-if="slot.card">
-          <Card :key="slot.id" :card="slot.card" @open="openViewer(slot.card)" class="w-full h-auto z-[1]" />
+          <Card :key="slot.id" :card="slot.card" :class="qFocus === slot.index ? 'slide-in-slot' : ''" @open="openViewer(slot.card)" class="w-full h-auto z-[1]" />
           <div
             v-if="gs.albumIsHandling"
-            class="absolute inset-0 bg-black/80 flex flex-col items-center justify-center z-[2]"
+            :class="{'remove-button-appear' : qFocus === slot.index}"
+            class="absolute left-0 bottom-0 bg-black/80 h-[90%] w-full flex flex-col items-center justify-center z-[2]"
           >
             <div
             class="flex flex-col items-center"
@@ -133,6 +160,7 @@ definePageMeta({
     <CardViewPagination
       :items="albumSlotsWithCards"
       :itemsPerPage="10"
+      :initial-page="qPage"
       @update:paginated="handlePaginatedUpdate"
     />
 
@@ -205,5 +233,38 @@ definePageMeta({
   box-shadow: inset 0 0 4px rgba(255, 255, 255, 0.1),
     0 1px 4px rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(1px);
+}
+
+.slide-in-slot {
+  animation: slide-in-slot 1.5s ease-out;
+}
+
+.remove-button-appear {
+  opacity: 0!important;
+  animation: remove-button-appear 2s ease-out;
+  animation-delay: 2s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes remove-button-appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1!important;
+  }
+}
+
+@keyframes slide-in-slot {
+  0% {
+    transform: translateY(-100%);
+  }
+  30% {
+    transform: translateY(-30%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+  
 }
 </style>

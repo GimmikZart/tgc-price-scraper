@@ -150,10 +150,20 @@ async function handleInsertAlbum(card) {
     return;
   }
 
-  const cardIndex = parseInt(route.query?.index) || 0;
-  const response = await insertCardToAlbum(selectedAlbum.value, card.id, cardIndex);
-  if (response) router.push(`/collection/albums/${selectedAlbum.value.slug}`);
+  const slotIndex = parseInt(route.query?.index) || 0;
+
+  const response = await insertCardToAlbum(selectedAlbum.value, card.id, slotIndex);
+  if (response) {
+    const perPage = 10; // deve combaciare con :itemsPerPage dell’album
+    const page = Math.floor(slotIndex / perPage) + 1; // 1-based
+
+    router.push({
+      path: `/collection/albums/${selectedAlbum.value.slug}`,
+      query: { page: String(page), focus: String(slotIndex) },
+    });
+  }
 }
+
 
 // Sincronizza album da query
 watch(selectedAlbum, (newAlbum) => {

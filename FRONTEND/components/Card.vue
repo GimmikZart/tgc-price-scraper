@@ -47,22 +47,20 @@ function openCard() { if (!props.disableOpening) emit("open", props.card); }
       placeholder
     />
 
-    <!-- Tasti collezione - espansione in altezza -->
-    <v-expand-transition>
-      <div
-        v-if="collectionIsHandling && isLoaded"
-      >
-        <div class="flex gap-3 items-center justify-between px-1 py-1">
-          <v-btn variant="tonal" color="white" @click="cardCount >= 1 ? $emit('remove-card') : null">
-            <v-icon size="25" color="red">mdi-minus</v-icon>
-          </v-btn>
-          <span class="text-xl">{{ cardCount }}</span>
-          <v-btn variant="tonal" color="white" @click="$emit('add-card')">
-            <v-icon size="25" color="green">mdi-plus</v-icon>
-          </v-btn>
-        </div>
+    <div
+      v-show="collectionIsHandling && isLoaded"
+    >
+      <div class="flex gap-3 items-center justify-between px-1 py-1">
+        <v-btn variant="tonal" color="white" @click="cardCount >= 1 ? $emit('remove-card') : null">
+          <v-icon size="25" color="red">mdi-minus</v-icon>
+        </v-btn>
+        <span class="text-xl">{{ cardCount }}</span>
+        <v-btn variant="tonal" color="white" @click="$emit('add-card')">
+          <v-icon size="25" color="green">mdi-plus</v-icon>
+        </v-btn>
       </div>
-    </v-expand-transition>
+    </div>
+    
     <v-btn
       v-if="chooseCard"
       class="bg-gray-500"

@@ -109,7 +109,6 @@ onMounted(async () => {
   scroller.value = gridRef.value?.containerEl || null
   
   await nextTick()
-  updateTopMost()
 });
 </script>
 

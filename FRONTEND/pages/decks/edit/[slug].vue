@@ -34,6 +34,8 @@ const filterKey = ref(0);
 const actionOnDeck = ref("info");
 const leaderChoosen = ref(null);
 
+const sort = useCardSort('name', 'asc')
+
 const gridRef = ref(null)
 const gridKey = ref(0);
 const scroller = ref(null)
@@ -50,6 +52,8 @@ useScrollAnchor({
 const leaderCards = computed(() => {
   return allCards.filter((card) => card.type === "LEADER");
 });
+
+const sortedCards = computed(() => sort.applySort(filteredCards.value))
 
 const builderCards = computed(() => {
   if (leaderChoosen.value != null) {
@@ -215,7 +219,7 @@ provide("actionOnDeck", actionOnDeck);
       </h4>
 
       <InfiniteGrid
-        :items="filteredCards"
+        :items="sortedCards"
         :grid-class="['grid','grid-cols-2','gap-3','px-2','pt-2','pb-12','transition-all']"
         @update:visible="visibleCards = $event"
         :step="30"
@@ -326,7 +330,7 @@ provide("actionOnDeck", actionOnDeck);
       </template>
     </MobileFloatMenu>
 
-    <MobileFloatMenu v-else :cols="leaderChoosen != null ? 2 : 1">
+    <MobileFloatMenu v-else :cols="leaderChoosen != null ? 3 : 1">
       <template #buttons>
         <ButtonMenu
           v-if="leaderChoosen"
@@ -338,6 +342,12 @@ provide("actionOnDeck", actionOnDeck);
             showDeck = true;
             mobileFloatMenu.close();
           "
+        />
+
+        <ButtonSortMenu
+          :model-key="sort.sortKey"
+          :model-dir="sort.sortDir"
+          @change="({ key, dir }) => sort.setSort(key, dir)"
         />
 
         <ButtonMenu

@@ -19,6 +19,7 @@ const { isMobile, isTablet, isDesktop } = useMyBreakpoints();
 const globalSettings = useGlobalSettings()
 const { collectionIsHandling } = storeToRefs(globalSettings)
 const { toggleHandlingCollections } = globalSettings
+const sort = useCardSort('name', 'asc')
 
 const handleAlbum = ref(false);
 const selectedAlbum = ref(null);
@@ -71,6 +72,8 @@ function handleFilteredUpdate(newFiltered) {
   if (s?.scrollTo) s.scrollTo({ top: 0, behavior: 'smooth' })
   else if (s) s.scrollTop = 0
 }
+
+const sortedCards = computed(() => sort.applySort(filteredCards.value))
 
 async function addCardInCollection(card) {
   card.count = (card.count || 0) + 1;
@@ -199,7 +202,7 @@ onMounted(async () => {
     <InfiniteGrid
       ref="gridRef"
       :key="gridKey"
-      :items="filteredCards"
+      :items="sortedCards"
       :grid-class="['grid','px-2','pt-2', gridSystem]"
       :class="handleAlbum ? 'pt-6' : 'pt-0'"
       @update:visible="visibleCards = $event"
@@ -227,7 +230,7 @@ onMounted(async () => {
       @close="openFilter = false"
     />
 
-    <MobileFloatMenu :cols="3">
+    <MobileFloatMenu :cols="4">
       <template #buttons>
         <ButtonMenu
           :icon="collectionIsHandling ? 'mdi-check' : 'fluent:collections-add-24-regular'"
@@ -244,6 +247,12 @@ onMounted(async () => {
           transition
           :delay="100"
           @click="router.push('/collection/albums')"
+        />
+
+        <ButtonSortMenu
+          :model-key="sort.sortKey"
+          :model-dir="sort.sortDir"
+          @change="({ key, dir }) => sort.setSort(key, dir)"
         />
 
         <ButtonMenu

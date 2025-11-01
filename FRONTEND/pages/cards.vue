@@ -110,7 +110,6 @@ definePageMeta({
 onMounted(async () => {
   filteredCards.value = [...allCards];
   scroller.value = gridRef.value?.containerEl || null
-  
   await nextTick()
 });
 </script>

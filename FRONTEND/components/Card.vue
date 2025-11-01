@@ -15,6 +15,7 @@ const isLoaded = ref(false);
 
 const cardClass = computed(() => ({
   "border-[1px] border-white/30 rounded-lg": props.handleCards || !isLoaded.value,
+  "relative": props.showCount
 }));
 
 function onLoad() { isLoaded.value = true; }
@@ -22,7 +23,7 @@ function openCard() { if (!props.disableOpening) emit("open", props.card); }
 </script>
 
 <template>
-  <div :key="card.id" class="h-auto relative flex flex-col" :class="cardClass">
+  <div :key="card.id" class="h-auto flex flex-col" :class="cardClass">
     <!-- Skeleton -->
     <v-skeleton-loader
       v-if="!isLoaded"

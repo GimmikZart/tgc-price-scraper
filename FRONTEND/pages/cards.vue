@@ -22,6 +22,7 @@ const globalSettings = useGlobalSettings()
 const { collectionIsHandling } = storeToRefs(globalSettings)
 const { toggleHandlingCollections } = globalSettings
 
+const sort = useCardSort('name', 'asc')
 const filteredCards = ref([]);
 const visibleCards = ref([]);
 const openFilter = ref(false);
@@ -84,6 +85,8 @@ const gridSystem = computed(() => {
   return cls;
 });
 
+const sortedCards = computed(() => sort.applySort(filteredCards.value))
+
 watch(openFilter, (newValue) => {
   if (newValue) {
     document.documentElement.classList.add("overflow-hidden");
@@ -126,7 +129,7 @@ onMounted(async () => {
     <InfiniteGrid
       ref="gridRef"
       :key="gridKey"
-      :items="filteredCards"
+      :items="sortedCards"
       :grid-class="gridSystem"
       :onChunk="loadCountsForChunk"
       @update:visible="visibleCards = $event"
@@ -151,7 +154,7 @@ onMounted(async () => {
       @close="openFilter = false"
     />
 
-    <MobileFloatMenu :cols="2">
+    <MobileFloatMenu :cols="3">
       <template #buttons>
         <ButtonMenu
           :icon="collectionIsHandling ? 'mdi-check' : 'fluent:collections-add-24-regular'"
@@ -160,6 +163,12 @@ onMounted(async () => {
           transition
           :delay="100"
           @click="onToggleHandlingCollections()"
+        />
+
+        <ButtonSortMenu
+          :model-key="sort.sortKey"
+          :model-dir="sort.sortDir"
+          @change="({ key, dir }) => sort.setSort(key, dir)"
         />
 
         <ButtonMenu

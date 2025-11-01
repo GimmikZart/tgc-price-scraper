@@ -5,7 +5,7 @@ export const useGlobalSettings = defineStore("globalSettings", () => {
 
   const collectionIsHandling = ref(false);
   const toggleHandlingCollections = () => {
-    collectionIsHandling.value = !collectionIsHandling.value 
+    collectionIsHandling.value = !collectionIsHandling.value
   }
   
   const albumIsHandling = ref(false);

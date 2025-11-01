@@ -97,7 +97,6 @@ watch(collectionIsHandling, async (val) => {
 });
 
 async function onToggleHandlingCollections() {
-  // niente preserveOnToggle: ci pensa il watcher interno del composable
   toggleHandlingCollections()
 }
 
@@ -108,7 +107,7 @@ definePageMeta({
 onMounted(async () => {
   filteredCards.value = [...allCards];
   scroller.value = gridRef.value?.containerEl || null
-  // opzionale: prima calibrazione dell’anchor quando il container è pronto
+  
   await nextTick()
   updateTopMost()
 });

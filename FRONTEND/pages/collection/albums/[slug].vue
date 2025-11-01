@@ -1,4 +1,5 @@
 <script setup>
+import { ref, computed, onMounted, watch, nextTick } from "vue";
 import { useRoute } from "vue-router";
 import { getAlbum, removeCardFromAlbum } from "@/api/album";
 import { Icon } from "@iconify/vue";
@@ -6,14 +7,25 @@ import { Icon } from "@iconify/vue";
 const route = useRoute();
 const router = useRouter();
 const gs = useGlobalSettings();
+
 const slug = route.params.slug;
 const addCardMode = ref(false);
 const paginatedCards = ref([]);
 const { allCards } = await useOnePieceCards();
 
-const qPage  = ref(1);
-const qFocus = ref(route.query.focus ? parseInt(route.query.focus) : null);
+// --- parametri da query
+const itemsPerPage = 10; // deve combaciare con CardViewPagination
+const rawPage  = route.query.page ? parseInt(route.query.page) : null;
+const rawFocus = route.query.focus ? parseInt(route.query.focus) : null;
 
+// pagina iniziale: se manca `page`, la ricavo da `focus`
+const qPage  = ref(Number.isFinite(rawPage) && rawPage > 0
+  ? rawPage
+  : (Number.isFinite(rawFocus) && rawFocus >= 0
+      ? Math.floor(rawFocus / itemsPerPage) + 1
+      : 1)
+);
+const qFocus = ref(Number.isFinite(rawFocus) ? rawFocus : null);
 
 const paginatedCardFormatted = computed(() => {
   return paginatedCards.value.map((slot) => slot.card).filter((c) => c !== null);
@@ -21,22 +33,14 @@ const paginatedCardFormatted = computed(() => {
 
 const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer(paginatedCardFormatted);
 
-const {
-  data: album,
-  error,
-  refresh: refreshAlbum,
-  pending,
-} = await useAsyncData(`album-${slug}`, () => getAlbum(slug));
-
-
+const { data: album, error, refresh: refreshAlbum, pending } =
+  await useAsyncData(`album-${slug}`, () => getAlbum(slug));
 
 const albumSlotsWithCards = computed(() => {
   const totalSlots = album.value?.slots ?? 0;
   const cardAlbumEntries = album.value?.card_album ?? [];
-
   if (totalSlots === 0 || !allCards.length) return [];
 
-  // Prepara una mappa: index → entry.collection.card_id
   const cardMap = new Map();
   cardAlbumEntries.forEach((entry) => {
     if (typeof entry.index === "number" && entry.collection?.card_id) {
@@ -44,18 +48,12 @@ const albumSlotsWithCards = computed(() => {
     }
   });
 
-  // Costruisci lo slot array
   const slots = [];
   for (let i = 0; i < totalSlots; i++) {
     const cardId = cardMap.get(i);
     const found = allCards.find((card) => card.id === cardId);
-
-    slots.push({
-      index: i,
-      card: found || null,
-    });
+    slots.push({ index: i, card: found || null });
   }
-
   return slots;
 });
 
@@ -71,38 +69,103 @@ async function removeCard(idx) {
 function goToSelectCard(idx) {
   router.push({
     path: "/collection",
-    query: {
-      album: album.value.slug,
-      index: idx,
-    },
+    query: { album: album.value.slug, index: idx },
   });
 }
 
-onMounted(async () => {
-  // dopo il render iniziale, se ho focus, provo a scrollare lo slot in vista
-  if (qFocus.value != null) {
-    await nextTick();
-    const el = document.getElementById(`slot-${qFocus.value}`);
-    if (el && typeof el.scrollIntoView === "function") {
-      el.scrollIntoView({ block: "center", behavior: "smooth" });
-    }
-  }
-  if(route.query.page){
-    qPage.value = Math.max(1, parseInt(route.query.page || '1'));
-  }
+/* ===== SCROLL UTILS ROBUSTE ===== */
 
-  setTimeout(() => {
+// trova il primo ancestor scrollabile; se non c'è, usa window
+function getScrollRoot(startEl) {
+  let el = startEl?.parentElement || document.body;
+  const isScrollable = (node) => {
+    const s = window.getComputedStyle(node);
+    const oy = s.overflowY;
+    return (oy === "auto" || oy === "scroll") && node.scrollHeight > node.clientHeight;
+  };
+  while (el && el !== document.body && el !== document.documentElement) {
+    if (isScrollable(el)) return el;
+    el = el.parentElement;
+  }
+  return window; // fallback
+}
+
+// top dell'elemento relativo al suo scrollRoot
+function getOffsetTopRelativeToRoot(el, root) {
+  const elRect = el.getBoundingClientRect();
+
+  if (root === window) {
+    return elRect.top + window.scrollY;
+  } else {
+    const rootRect = root.getBoundingClientRect();
+    return (elRect.top - rootRect.top) + root.scrollTop;
+  }
+}
+
+// scroll “vero” sul root corretto (con eventuale offset header se serve)
+function scrollRootToEl(el, headerOffsetPx = 0) {
+  const root = getScrollRoot(el);
+  const targetY = Math.max(0, getOffsetTopRelativeToRoot(el, root) - headerOffsetPx);
+
+  if (root === window) {
+    window.scrollTo({ top: targetY, behavior: "smooth" });
+  } else {
+    root.scrollTo({ top: targetY, behavior: "smooth" });
+  }
+}
+
+// attende che l’elemento esista e sia “rendered” (ha dimensioni)
+async function waitForElReady(id, tries = 40, delayMs = 50) {
+  for (let i = 0; i < tries; i++) {
+    await nextTick();
+    const el = document.getElementById(id);
+    if (el && el.offsetHeight > 0 && el.offsetWidth > 0) {
+      return el;
+    }
+    await new Promise((r) => setTimeout(r, delayMs));
+  }
+  return null;
+}
+
+async function scrollToFocusIfPresent() {
+  if (qFocus.value == null) return;
+
+  // aspetta che il DOM della pagina corrente sia pronto
+  const el = await waitForElReady(`slot-${qFocus.value}`);
+  if (!el) return;
+
+  // se hai una navbar fissa in alto, metti la sua altezza qui (px)
+  const HEADER_OFFSET = 100;
+  scrollRootToEl(el, HEADER_OFFSET);
+}
+
+/* ===== TRIGGER SCROLL =====
+   Scatena lo scroll quando:
+   - cambia il buffer paginato (nuova pagina)
+   - cambia il focus
+*/
+watch(
+  () => [paginatedCards.value.length, qFocus.value],
+  () => { scrollToFocusIfPresent(); }
+);
+
+// tentativo extra subito dopo il mount (nel caso arrivi già tutto pronto)
+onMounted(() => {
+  setTimeout(() => { scrollToFocusIfPresent(); }, 0);
+  if (qFocus.value != null) {
+    setTimeout(() => {
       qFocus.value = null;
       const newQuery = { ...route.query };
       delete newQuery.page;
       delete newQuery.focus;
+      router.replace({ query: newQuery });
     }, 2000);
+  }
 });
 
-definePageMeta({
-    middleware: 'auth'
-})
+definePageMeta({ middleware: "auth" });
 </script>
+
 
 <template>
   <section class="h-full flex flex-col pb-[120px]">
@@ -153,7 +216,7 @@ definePageMeta({
           class="absolute opacity-20 plastic-card w-full h-full bottom-0 left-0 z-[0]"
         ></div>
         <div
-          class="absolute opacity-35 plastic-card w-full h-[90%] bottom-0 left-0 z-[1]"
+          class="absolute opacity-20 plastic-card w-full h-[90%] bottom-0 left-0 z-[1]"
         ></div>
       </div>
     </v-container>

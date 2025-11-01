@@ -81,7 +81,6 @@ export function useDeckManager() {
 
   const deleteDeck = async (slug, deckLocation) => {
     // Rimuovo sia localmente che sul cloud
-    console.log("Deleting deck final:", slug, deckLocation, DeckLocation.CLOUD, DeckLocation.BOZZA, deckLocation === DeckLocation.CLOUD );
     
     if (deckLocation === DeckLocation.CLOUD) {
       await deleteCloud(slug);

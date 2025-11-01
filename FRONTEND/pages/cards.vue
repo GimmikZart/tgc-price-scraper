@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted } from "vue";
+import { ref, onMounted, nextTick, computed, watch } from "vue";
 import Toolbar from "@/components/Toolbar.vue";
 import Card from "@/components/Card.vue";
 import { useMyBreakpoints } from "@/composables/useMyBreakpoints";
@@ -11,6 +11,8 @@ import {
   removeCardToUserCollection,
 } from "@/api/collection";
 
+import { useScrollAnchor } from "~/composables/useScrollAnchor"; 
+
 const userAuth = useUserAuth();
 
 const { allCards } = await useOnePieceCards();
@@ -20,28 +22,32 @@ const globalSettings = useGlobalSettings()
 const { collectionIsHandling } = storeToRefs(globalSettings)
 const { toggleHandlingCollections } = globalSettings
 
-
 const filteredCards = ref([]);
 const visibleCards = ref([]);
 const openFilter = ref(false);
 
 const gridRef = ref(null)
 const gridKey = ref(0);
+const scroller = ref(null)
 
 const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer(visibleCards);
 
-const scroller = computed(() => gridRef.value?.containerEl?.value || null)
-const { setItemRef, captureFromList, restore } = useScrollAnchor({
-  scroller,        // <-- PASSA QUESTO!
-  headerOffset: 0  // se hai una toolbar sticky DENTRO lo scroller, metti la sua altezza
+const { updateTopMost } = useScrollAnchor({
+  scroller,            
+  headerOffset: 0,
+  triggerVariable: collectionIsHandling,
 })
 
 function handleFilteredUpdate(newFiltered) {
-  filteredCards.value = [...newFiltered];
-  visibleCards.value = [];
-  gridKey.value++; 
-  window.scrollTo({ top: 0, behavior: 'instant'});
+  filteredCards.value = [...newFiltered]
+  visibleCards.value = []
+  gridKey.value++
+
+  const s = scroller.value
+  if (s?.scrollTo) s.scrollTo({ top: 0, behavior: 'smooth' })
+  else if (s) s.scrollTop = 0
 }
+
 async function loadCountsForChunk(chunk) {
   if (!collectionIsHandling.value) return
   const userId = userAuth.userLogged?.id
@@ -70,12 +76,12 @@ async function removeCardInCollection(card) {
 }
 
 const gridSystem = computed(() => {
-  const cls = ['grid']; // 'grid' sempre
+  const cls = ['grid'];
   if (isMobile.value)  cls.push('grid-cols-2','px-2','pb-15','gap-2');
   if (isTablet.value)  cls.push('grid-cols-4');
   if (isDesktop.value) cls.push('grid-cols-8','px-4','pb-20');
-  if (collectionIsHandling.value) cls.push('gap-2'); // opzionale sovrascrittura
-  return cls; // array o .join(' ')
+  if (collectionIsHandling.value) cls.push('gap-2');
+  return cls;
 });
 
 watch(openFilter, (newValue) => {
@@ -91,19 +97,20 @@ watch(collectionIsHandling, async (val) => {
 });
 
 async function onToggleHandlingCollections() {
-  captureFromList(visibleCards.value)
+  // niente preserveOnToggle: ci pensa il watcher interno del composable
   toggleHandlingCollections()
-  await restore()
 }
 
-
-
 definePageMeta({
-    middleware: 'auth'
+  middleware: 'auth'
 })
 
-onMounted(() => {
+onMounted(async () => {
   filteredCards.value = [...allCards];
+  scroller.value = gridRef.value?.containerEl || null
+  // opzionale: prima calibrazione dell’anchor quando il container è pronto
+  await nextTick()
+  updateTopMost()
 });
 </script>
 
@@ -117,25 +124,24 @@ onMounted(() => {
     >
       La ricerca non ha prodotto risultati
     </h4>
+
     <InfiniteGrid
-      ref="gridRef"  
-      :key="gridKey" 
+      ref="gridRef"
+      :key="gridKey"
       :items="filteredCards"
       :grid-class="gridSystem"
       :onChunk="loadCountsForChunk"
       @update:visible="visibleCards = $event"
     >
       <template #default="{ item }">
-        <div :ref="el => setItemRef(item.id, el)">
-          <Card
-            :key="item.id"
-            :card="item"
-            :card-count="item.count"
-            @addCard="addCardInCollection(item)"
-            @removeCard="removeCardInCollection(item)"
-            @open="openViewer(item)"
-          />
-        </div>
+        <Card
+          :key="item.id"
+          :card="item"
+          :card-count="item.count"
+          @addCard="addCardInCollection(item)"
+          @removeCard="removeCardInCollection(item)"
+          @open="openViewer(item)"
+        />
       </template>
     </InfiniteGrid>
 
@@ -153,7 +159,7 @@ onMounted(() => {
           :label="collectionIsHandling ? 'Termina' : 'Gestisci'"
           :color="collectionIsHandling ? 'green' : 'orange'"
           transition
-            :delay="100"
+          :delay="100"
           @click="onToggleHandlingCollections()"
         />
 
@@ -162,13 +168,10 @@ onMounted(() => {
           label="Filtra"
           transition
           :delay="200"
-          @click="
-            openFilter = true;
-          "
+          @click="openFilter = true"
         />
       </template>
     </MobileFloatMenu>
-
 
     <FullscreenCardViewer
       v-model:show="viewerOpen"

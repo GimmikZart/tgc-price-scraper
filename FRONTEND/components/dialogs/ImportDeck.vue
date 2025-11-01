@@ -26,7 +26,6 @@ async function onConfirm() {
 
   try {
     isLoading.value = true;
-    console.log(allCards);
     const slug = deckName.value.toLowerCase().replace(/\s+/g, "-");
     const deck = await importDeckFromClipboard(deckName.value, allCards);
     await saveLocal(deck);

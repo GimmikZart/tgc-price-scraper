@@ -18,8 +18,8 @@ const props = defineProps({
   loadThresholdPx: { type: Number, default: 100 },
 
   // Layout
-  containerClass: { type: [String, Object, Array], default: 'h-[calc(100dvh-120px)] overflow-auto pb-[70px]' },
-  gridClass: { type: [String, Object, Array], default: 'grid grid-cols-2 gap-2 px-2 pt-2' },
+  containerClass: { type: [String, Object, Array], default: 'h-[calc(100dvh-120px)] overflow-scroll pb-[70px]' },
+  gridClass: { type: [String, Object, Array], default: 'grid grid-cols-2 overflow-scroll gap-2 px-2 pt-2' },
 
   // UI
   showStatus: { type: Boolean, default: true },
@@ -175,7 +175,6 @@ defineExpose({ loadMore, reset: resetBuffer, containerEl: containerRef })
   <div
     :class="containerClass"
     ref="containerRef"
-    style="overflow-anchor: none;"
   >
     <div :class="gridClass">
       <slot

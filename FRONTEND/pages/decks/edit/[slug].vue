@@ -136,14 +136,11 @@ async function saveLocalDeck() {
 }
 
 function exportDeck() {
-  console.log("current deck cards", currentDeck.value.cards.length);
   snackbar.addMessage("Il deck deve contenere esattamente 50 carte per essere esportato", "error");
   if(currentDeck.value.cards.length == 50){
     copyDeckOnClipboard(leaderChoosen.value, singleCardsInDeck.value);
     snackbar.addMessage("Deck copiato negli appunti", "success");
   } else {
-    console.log("deck non esportabile, carte:", currentDeck.value.cards.length);
-    
     snackbar.addMessage("Il deck deve contenere esattamente 50 carte per essere esportato", "error");
   }
 }

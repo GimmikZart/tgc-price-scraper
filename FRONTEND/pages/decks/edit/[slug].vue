@@ -367,7 +367,7 @@ provide("actionOnDeck", actionOnDeck);
     <FullscreenCardViewer
       v-model:show="viewerOpen"
       v-model:index="viewerIndex"
-      :cards="filteredCards"
+      :cards="sortedCards"
       @close="viewerOpen = false"
     />
   </section>

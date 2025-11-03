@@ -11,7 +11,7 @@ const currentIndex = ref(0)
 const modifiedIds = ref(new Set())
 
 const illustrationTypes = [
-  'wanted', 'manga', 'alternate-art', 'red-manga', 'gold-manga', 'special'
+  'alternate-art', 'wanted', 'special', 'manga', 'red-manga', 'gold-manga',
 ]
 
 // match _p<number>_  (es: _p1_, _p12_)
@@ -105,31 +105,28 @@ onUnmounted(() => window.removeEventListener('keydown', onKey))
 </script>
 
 <template>
-  <div class="p-6 space-y-6">
+  <section class="relative h-full">
     <Toolbar label="Set illustration type" />
+    <div class="h-full overflow-auto">
+      <!-- Select file -->
+      <div class="flex pb-10 flex-col md:flex-row items-center gap-2">
+        <v-select label="Select JSON" hide-details :items="files" v-model="selectedFile" @change="loadFile(selectedFile)" />
 
-    <!-- Select file -->
-    <div class="flex items-center gap-3">
-      <v-select label="Select JSON" :items="files" v-model="selectedFile" @change="loadFile(selectedFile)" />
-
-      <div v-if="total" class="ml-auto text-sm opacity-70">
-        {{ modifiedIds.size }}/{{ total }} ({{ progress }}%)
-      </div>
-    </div>
-
-    <!-- Viewer -->
-    <div v-if="currentCard" class="grid md:grid-cols-2 gap-6">
-      <div class="space-y-2 w-1/2">
-        <Card :card="currentCard" />
-        <h2 class="text-xl font-bold">{{ currentCard.name || currentCard.id }}</h2>
-        <p class="text-sm opacity-70">ID: {{ currentCard.id }}</p>
-        <p v-if="currentCard.illustration" class="text-sm">
-          Current illustration: <b>{{ currentCard.illustration }}</b>
-        </p>
+        <div v-if="total" class="text-sm text-center opacity-70">
+          {{ modifiedIds.size }}/{{ total }} ({{ progress }}%)
+        </div>
       </div>
 
-      <div class="flex flex-col gap-3">
-        <div class="grid grid-cols-2 md:grid-cols-3 gap-2">
+      <!-- Viewer -->
+      <div v-if="currentCard" class="grid grid-cols-2 gap-6 px-2 pb-10">
+        <div class="space-y-2 w-full md:w-1/2">
+          <Card :card="currentCard" />
+          <div class="w-full text-center">
+            <v-chip color="orange">{{ currentCard.illustration || 'none' }}</v-chip>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-6 gap-2 px-3">
           <v-btn
             v-for="t in illustrationTypes"
             :key="t"
@@ -139,21 +136,23 @@ onUnmounted(() => window.removeEventListener('keydown', onKey))
             {{ t }}
           </v-btn>
         </div>
+      </div>
 
-        <div class="flex items-center gap-2 pt-3">
-          <button class="px-3 py-2 rounded border" @click="prev" :disabled="currentIndex===0">Prev</button>
-          <span class="text-sm opacity-70">Card {{ currentIndex + 1 }} / {{ total }}</span>
-          <button class="px-3 py-2 rounded border" @click="next" :disabled="currentIndex===total-1">Next</button>
-        </div>
+      <div class="flex w-full justify-center items-center gap-2 pt-3 pb-10">
+        <v-btn density="compact" class="rounded border" @click="prev" :disabled="currentIndex===0">Prev</v-btn>
+        <span class="text-sm opacity-70">Card {{ currentIndex + 1 }} / {{ total }}</span>
+        <v-btn density="compact" class="rounded border" @click="next" :disabled="currentIndex===total-1">Next</v-btn>
+      </div>
+
+      <!-- Azioni finali -->
+      <div v-if="selectedFile" class="flex flex-col md:flex-row items-center gap-5 pt-4 border-t">
+        <v-btn class="px-3 py-2 rounded border" @click="saveOverwrite">💾 Save (overwrite)</v-btn>
+        <v-btn class="px-3 py-2 rounded border" @click="downloadJson">⬇️ Download new JSON</v-btn>
       </div>
     </div>
-
-    <!-- Azioni finali -->
-    <div v-if="selectedFile" class="flex items-center gap-3 pt-4 border-t">
-      <v-btn class="px-3 py-2 rounded border" @click="saveOverwrite">💾 Save (overwrite)</v-btn>
-      <v-btn class="px-3 py-2 rounded border" @click="downloadJson">⬇️ Download new JSON</v-btn>
-    </div>
-  </div>
+    
+  </section>
+    
 </template>
 
 <style scoped>

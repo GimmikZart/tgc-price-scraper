@@ -23,6 +23,7 @@ const sort = useCardSort('name', 'asc')
 
 const handleAlbum = ref(false);
 const selectedAlbum = ref(null);
+const showPrice = ref(false)
 
 const gridRef = ref(null)
 const gridKey = ref(0);
@@ -221,6 +222,7 @@ onMounted(async () => {
         <Card
           :key="item.id"
           :card="item"
+          :show-price="showPrice"
           :handle-cards="collectionIsHandling"
           :card-count="item.count"
           show-count
@@ -240,7 +242,7 @@ onMounted(async () => {
       @close="openFilter = false"
     />
 
-    <MobileFloatMenu :cols="4">
+    <MobileFloatMenu :cols="5">
       <template #buttons>
         <ButtonMenu
           :icon="collectionIsHandling ? 'mdi-check' : 'fluent:collections-add-24-regular'"
@@ -249,6 +251,17 @@ onMounted(async () => {
           transition
             :delay="200"
           @click="toggleHandlingCollections()"
+        />
+
+        <ButtonMenu
+          icon="solar:tag-price-outline"
+          label="Prezzi"
+          transition
+          :delay="200"
+          :class="{
+            'opacity-40': !showPrice
+          }"
+          @click="showPrice = !showPrice"
         />
 
         <ButtonMenu

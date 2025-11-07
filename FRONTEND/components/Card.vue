@@ -9,7 +9,7 @@ const props = defineProps({
   disableOpening: { type: Boolean, default: false },
   cardCount: { type: Number, default: 0 },
   showCount: { type: Boolean, default: false },
-  showPrice: { type: Boolean, default: true },
+  showPrice: { type: Boolean, default: false },
 });
 const emit = defineEmits(["remove-card", "add-card", "choose-card", "open"]);
 const isLoaded = ref(false);
@@ -39,19 +39,35 @@ function openCard() { if (!props.disableOpening) emit("open", props.card); }
     </div>
 
     <!-- Immagine -->
-    <NuxtImg
-      v-show="card.image"
-      :src="card.image"
-      format="webp"
-      loading="lazy"
-      class="border shadow-md cursor-zoom-in block w-full"
-      :class="{ 'h-[1px]': !isLoaded, 'h-auto': isLoaded }"
-      fit="cover"
-      :alt="card.name"
-      @load="onLoad"
-      @click="openCard()"
-      placeholder
-    />
+    <div class="relative">
+      <NuxtImg
+        v-show="card.image"
+        :src="card.image"
+        format="webp"
+        loading="lazy"
+        class="border shadow-md cursor-zoom-in block w-full"
+        :class="{ 'h-[1px]': !isLoaded, 'h-auto': isLoaded }"
+        fit="cover"
+        :alt="card.name"
+        @load="onLoad"
+        @click="openCard()"
+        placeholder
+      />
+
+      <div v-if="card.slugs && showPrice" class="absolute top-1/4 right-1 -translate-y-1/2 bg-yellow-300/90 p-0 w-fit">
+        <a 
+          v-for="(service, idx) in card.slugs" 
+          :key="idx" 
+          class="w-full px-4 text-black text-xs font-bold"
+          :href="service.url"
+          target="_blank"
+        >
+          {{ service.current_price ?? '---' }}€
+        </a>
+        <div class="w-[30px] h-[10px] absolute -top-1 left-1/2 -translate-x-1/2 bg-white opacity-70"></div>
+      </div>
+    </div>
+    
 
     <div
       v-show="handleCards && isLoaded"
@@ -65,19 +81,6 @@ function openCard() { if (!props.disableOpening) emit("open", props.card); }
           <v-icon size="25" color="green">mdi-plus</v-icon>
         </v-btn>
       </div>
-    </div>
-
-    <div v-if="card.slugs && showPrice" class="absolute top-1/4 right-1 -translate-y-1/2 bg-yellow-300/90 p-0 w-fit">
-      <a 
-        v-for="(service, idx) in card.slugs" 
-        :key="idx" 
-        class="w-full px-4 text-black text-xs font-bold"
-        :href="service.url"
-        target="_blank"
-      >
-        {{ service.current_price ?? '---' }}€
-      </a>
-      <div class="w-[30px] h-[10px] absolute -top-1 left-1/2 -translate-x-1/2 bg-white opacity-70"></div>
     </div>
     
     <v-btn

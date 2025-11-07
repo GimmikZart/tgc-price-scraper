@@ -41,6 +41,10 @@ const powerFilter = ref([powerLimits.min, powerLimits.max]);
 const hasTriggerFilter = ref(false);
 const counterFilter = ref([]);
 const attributeFilter = ref([]);
+const priceFilter = ref({
+  min: 0,
+  max: null
+});
 
 const filtered = computed(() => {
   return props.cardsList.filter((card) => {
@@ -100,6 +104,12 @@ const filtered = computed(() => {
     const attributeMatch =
       !attributeFilter.value.length || attributeFilter.value.includes(card.attribute);
 
+    const priceMin = priceFilter.value.min || 0;
+    const priceMax = priceFilter.value.max || Number.MAX_SAFE_INTEGER;
+    const cardPrice = card.slugs ? parseFloat(card.slugs[0]?.current_price) || 0 : null;
+    const priceMatch =
+      cardPrice >= priceMin && cardPrice <= priceMax;
+
     return (
       nameMatch &&
       colorMatch &&
@@ -113,7 +123,8 @@ const filtered = computed(() => {
       costMatch &&
       hasTriggerMatch &&
       counterMatch &&
-      attributeMatch
+      attributeMatch &&
+      priceMatch
     );
   });
 });
@@ -279,6 +290,23 @@ onMounted(async () => {
                 hide-details
                 density="compact"
                 label="Ha effetto Trigger"
+              />
+            </div>
+
+            <div class="flex gap-5">
+              <v-text-field
+                v-model.number="priceFilter.min"
+                type="number"
+                label="Prezzo Minimo"
+                clearable
+                hide-details
+              />
+              <v-text-field
+                v-model.number="priceFilter.max"
+                type="number"
+                label="Prezzo Massimo"
+                clearable
+                hide-details
               />
             </div>
 

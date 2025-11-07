@@ -26,6 +26,7 @@ const sort = useCardSort('name', 'asc')
 const filteredCards = ref([]);
 const visibleCards = ref([]);
 const openFilter = ref(false);
+const showPrice = ref(false)
 
 const gridRef = ref(null)
 const gridKey = ref(0);
@@ -139,6 +140,7 @@ onMounted(async () => {
           :card="item"
           :handle-cards="collectionIsHandling"
           :card-count="item.count"
+          :show-price="showPrice"
           @addCard="addCardInCollection(item)"
           @removeCard="removeCardInCollection(item)"
           @open="openViewer(item)"
@@ -153,7 +155,7 @@ onMounted(async () => {
       @close="openFilter = false"
     />
 
-    <MobileFloatMenu :cols="3">
+    <MobileFloatMenu :cols="4">
       <template #buttons>
         <ButtonMenu
           :icon="collectionIsHandling ? 'mdi-check' : 'fluent:collections-add-24-regular'"
@@ -162,6 +164,17 @@ onMounted(async () => {
           transition
           :delay="100"
           @click="onToggleHandlingCollections()"
+        />
+
+        <ButtonMenu
+          icon="solar:tag-price-outline"
+          label="Prezzi"
+          transition
+          :delay="200"
+          :class="{
+            'opacity-40': !showPrice
+          }"
+          @click="showPrice = !showPrice"
         />
 
         <ButtonSortMenu

@@ -33,6 +33,7 @@ const showDeck = ref(false);
 const filterKey = ref(0);
 const actionOnDeck = ref("info");
 const leaderChoosen = ref(null);
+const showPrice = ref(false)
 
 const sort = useCardSort('name', 'asc')
 
@@ -229,6 +230,7 @@ provide("actionOnDeck", actionOnDeck);
           <Card
             :key="item.id"
             :card="item"
+            :show-price="showPrice"
             :choose-card="!leaderChoosen"
             :handle-cards="leaderChoosen != null"
             @chooseCard="chooseLeader(item.id)"
@@ -330,7 +332,7 @@ provide("actionOnDeck", actionOnDeck);
       </template>
     </MobileFloatMenu>
 
-    <MobileFloatMenu v-else :cols="leaderChoosen != null ? 3 : 1">
+    <MobileFloatMenu v-else :cols="leaderChoosen != null ? 4 : 2">
       <template #buttons>
         <ButtonMenu
           v-if="leaderChoosen"
@@ -342,6 +344,17 @@ provide("actionOnDeck", actionOnDeck);
             showDeck = true;
             mobileFloatMenu.close();
           "
+        />
+
+        <ButtonMenu
+          icon="solar:tag-price-outline"
+          label="Prezzi"
+          transition
+          :delay="200"
+          :class="{
+            'opacity-50': !showPrice
+          }"
+          @click="showPrice = !showPrice"
         />
 
         <ButtonSortMenu

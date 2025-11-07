@@ -79,7 +79,7 @@ const animateBase = computed(() =>
     <button
       :style="timingStyle"
       :class="[
-        `p-2  border rounded-lg flex flex-col items-center justify-center hover:bg-white/10 disabled:opacity-50 disabled:cursor-not-allowed text-white border-${color}`,
+        `p-2  border rounded-lg flex flex-col items-center justify-center disabled:opacity-50 disabled:cursor-not-allowed text-white border-${color}`,
         animateBase,
         entered ? endClasses : startClasses,
         multi ? 'pt-4' : '',

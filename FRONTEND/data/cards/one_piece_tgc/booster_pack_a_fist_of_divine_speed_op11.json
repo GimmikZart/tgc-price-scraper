@@ -24,7 +24,16 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-015_p1",
-    "id": "OP09-015_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP09-015_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/lucky-roux-special-rare-op-11-a-fist-of-divine-speed",
+        "verified": true,
+        "current_price": 20.89
+      }
+    ],
+    "price": 20.89
   },
   {
     "name": "Koby",
@@ -52,7 +61,15 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-001",
-    "id": "OP11-001_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-001_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/koby-op-11-a-fist-of-divine-speed",
+        "verified": true,
+        "current_price": 0.11
+      }
+    ]
   },
   {
     "name": "Koby",
@@ -80,7 +97,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-001_p1",
-    "id": "OP11-001_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-001_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/koby-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Ain",
@@ -107,6 +131,13 @@
     "id": "OP11-002_A_FIST_OF_DIVINE_SPEED_[OP-11]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ain-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
     ]
   },
   {
@@ -130,7 +161,14 @@
     "cost": 5,
     "expansionCode": "OP11",
     "imageId": "OP11-003",
-    "id": "OP11-003_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-003_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/usopp-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Kujyaku",
@@ -158,7 +196,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-004",
-    "id": "OP11-004_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-004_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kujyaku-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Kujyaku",
@@ -186,7 +231,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-004_p1",
-    "id": "OP11-004_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-004_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kujyaku-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Smoker",
@@ -213,7 +265,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-005",
-    "id": "OP11-005_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-005_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/smoker-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Zephyr",
@@ -241,7 +300,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-006",
-    "id": "OP11-006_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-006_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/zephyr-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Tashigi",
@@ -267,7 +333,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-007",
-    "id": "OP11-007_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-007_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tashigi-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Doll",
@@ -294,7 +367,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-008",
-    "id": "OP11-008_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-008_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/doll-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Doll",
@@ -321,7 +401,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-008_p1",
-    "id": "OP11-008_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-008_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/doll-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Nico Robin",
@@ -348,7 +435,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-009",
-    "id": "OP11-009_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-009_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nico-robin-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Hibari",
@@ -376,7 +470,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-010",
-    "id": "OP11-010_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-010_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hibari-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Hibari",
@@ -404,7 +505,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-010_p1",
-    "id": "OP11-010_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-010_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hibari-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Bins",
@@ -428,7 +536,14 @@
     "cost": 5,
     "expansionCode": "OP11",
     "imageId": "OP11-011",
-    "id": "OP11-011_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-011_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/bins-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Franky",
@@ -455,7 +570,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-012",
-    "id": "OP11-012_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-012_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/franky-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Prince Grus",
@@ -483,7 +605,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-013",
-    "id": "OP11-013_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-013_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/prince-grus-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Borsalino",
@@ -511,7 +640,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-014",
-    "id": "OP11-014_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-014_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/borsalino-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Mocha",
@@ -534,7 +670,14 @@
     "cost": 4,
     "expansionCode": "OP11",
     "imageId": "OP11-015",
-    "id": "OP11-015_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-015_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/mocha-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -561,7 +704,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-016",
-    "id": "OP11-016_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-016_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/roronoa-zoro-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "X.Drake",
@@ -586,7 +736,14 @@
     "cost": 6,
     "expansionCode": "OP11",
     "imageId": "OP11-017",
-    "id": "OP11-017_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-017_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/x-drake-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Honesty Impact",
@@ -613,7 +770,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-018",
-    "id": "OP11-018_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-018_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/honesty-impact-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Honesty Impact",
@@ -640,7 +804,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-018_p1",
-    "id": "OP11-018_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-018_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/honesty-impact-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Glorp Web!!",
@@ -667,7 +838,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-019",
-    "id": "OP11-019_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-019_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/glorp-web-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "X Calibur",
@@ -695,7 +873,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-020",
-    "id": "OP11-020_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-020_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/x-calibur-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Jinbe",
@@ -722,7 +907,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-021",
-    "id": "OP11-021_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-021_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jinbe-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Jinbe",
@@ -749,7 +941,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-021_p1",
-    "id": "OP11-021_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-021_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jinbe-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Shirahoshi",
@@ -778,7 +977,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-022",
-    "id": "OP11-022_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-022_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shirahoshi-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Shirahoshi",
@@ -807,7 +1013,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-022_p1",
-    "id": "OP11-022_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-022_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shirahoshi-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Arlong",
@@ -832,7 +1045,14 @@
     "cost": 7,
     "expansionCode": "OP11",
     "imageId": "OP11-023",
-    "id": "OP11-023_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-023_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/arlong-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Arlong",
@@ -857,7 +1077,14 @@
     "cost": 7,
     "expansionCode": "OP11",
     "imageId": "OP11-023_p1",
-    "id": "OP11-023_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-023_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/arlong-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Aladine",
@@ -882,7 +1109,14 @@
     "cost": 4,
     "expansionCode": "OP11",
     "imageId": "OP11-024",
-    "id": "OP11-024_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-024_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/aladine-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Ishilly",
@@ -910,7 +1144,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-025",
-    "id": "OP11-025_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-025_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ishilly-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Scaled Neptunian",
@@ -933,7 +1174,14 @@
     "cost": 6,
     "expansionCode": "OP11",
     "imageId": "OP11-026",
-    "id": "OP11-026_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-026_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/scaled-neptunian-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Bulge-Eyed Neptunian",
@@ -956,7 +1204,14 @@
     "cost": 4,
     "expansionCode": "OP11",
     "imageId": "OP11-027",
-    "id": "OP11-027_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-027_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/bulge-eyed-neptunian-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Lord of the Coast",
@@ -983,6 +1238,13 @@
     "id": "OP11-028_A_FIST_OF_DIVINE_SPEED_[OP-11]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/lord-of-the-coast-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
     ]
   },
   {
@@ -1012,7 +1274,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-029",
-    "id": "OP11-029_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-029_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-praline-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Shirahoshi",
@@ -1039,7 +1308,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-030",
-    "id": "OP11-030_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-030_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shirahoshi-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Jinbe",
@@ -1069,7 +1345,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-031",
-    "id": "OP11-031_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-031_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jinbe-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Jinbe",
@@ -1099,7 +1382,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-031_p1",
-    "id": "OP11-031_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-031_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jinbe-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Surume",
@@ -1123,7 +1413,14 @@
     "cost": 5,
     "expansionCode": "OP11",
     "imageId": "OP11-032",
-    "id": "OP11-032_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-032_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/surume-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Bird Neptunian",
@@ -1146,7 +1443,14 @@
     "cost": 6,
     "expansionCode": "OP11",
     "imageId": "OP11-033",
-    "id": "OP11-033_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-033_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/bird-neptunian-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Hatchan",
@@ -1174,7 +1478,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-034",
-    "id": "OP11-034_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-034_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hatchan-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Fisher Tiger",
@@ -1202,6 +1513,13 @@
     "id": "OP11-035_A_FIST_OF_DIVINE_SPEED_[OP-11]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/fisher-tiger-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
     ]
   },
   {
@@ -1228,6 +1546,13 @@
     "id": "OP11-036_A_FIST_OF_DIVINE_SPEED_[OP-11]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/spotted-neptunian-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
     ]
   },
   {
@@ -1254,7 +1579,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-037",
-    "id": "OP11-037_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-037_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ancient-weapon-poseidon-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gum-Gum Elephant Gatling",
@@ -1283,7 +1615,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-038",
-    "id": "OP11-038_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-038_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gum-gum-elephant-gatling-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Vagabond Drill",
@@ -1311,7 +1650,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-039",
-    "id": "OP11-039_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-039_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vagabond-drill-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -1335,7 +1681,14 @@
     "life": 3,
     "expansionCode": "OP11",
     "imageId": "OP11-040",
-    "id": "OP11-040_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-040_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -1359,7 +1712,14 @@
     "life": 3,
     "expansionCode": "OP11",
     "imageId": "OP11-040_p1",
-    "id": "OP11-040_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-040_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Nami",
@@ -1389,7 +1749,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-041",
-    "id": "OP11-041_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-041_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nami-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Nami",
@@ -1419,7 +1786,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-041_p1",
-    "id": "OP11-041_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-041_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nami-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Vito",
@@ -1446,7 +1820,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-042",
-    "id": "OP11-042_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-042_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vito-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Vinsmoke Ichiji",
@@ -1475,7 +1856,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-043",
-    "id": "OP11-043_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-043_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-ichiji-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Vinsmoke Judge",
@@ -1503,7 +1891,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-044",
-    "id": "OP11-044_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-044_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-judge-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Vinsmoke Niji",
@@ -1527,7 +1922,14 @@
     "cost": 5,
     "expansionCode": "OP11",
     "imageId": "OP11-045",
-    "id": "OP11-045_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-045_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-niji-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Vinsmoke Yonji",
@@ -1554,7 +1956,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-046",
-    "id": "OP11-046_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-046_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-yonji-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Vinsmoke Reiju",
@@ -1581,6 +1990,13 @@
     "id": "OP11-047_A_FIST_OF_DIVINE_SPEED_[OP-11]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-reiju-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
     ]
   },
   {
@@ -1608,6 +2024,13 @@
     "id": "OP11-047_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-reiju-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
     ]
   },
   {
@@ -1635,6 +2058,13 @@
     "id": "OP11-048_A_FIST_OF_DIVINE_SPEED_[OP-11]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/caponegangbege-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
     ]
   },
   {
@@ -1662,7 +2092,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-049",
-    "id": "OP11-049_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-049_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/carrot-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gotti",
@@ -1688,7 +2125,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-050",
-    "id": "OP11-050_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-050_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gotti-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -1715,6 +2159,13 @@
     "id": "OP11-051_A_FIST_OF_DIVINE_SPEED_[OP-11]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
     ]
   },
   {
@@ -1742,6 +2193,13 @@
     "id": "OP11-051_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
     ]
   },
   {
@@ -1766,7 +2224,14 @@
     "cost": 5,
     "expansionCode": "OP11",
     "imageId": "OP11-052",
-    "id": "OP11-052_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-052_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-lola-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Tony Tony.Chopper",
@@ -1790,7 +2255,14 @@
     "cost": 5,
     "expansionCode": "OP11",
     "imageId": "OP11-053",
-    "id": "OP11-053_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-053_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tony-tony-chopper-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Nami",
@@ -1817,7 +2289,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-054",
-    "id": "OP11-054_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-054_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nami-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Nami",
@@ -1844,7 +2323,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-054_p1",
-    "id": "OP11-054_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-054_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nami-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Bartolomeo",
@@ -1868,7 +2354,14 @@
     "cost": 6,
     "expansionCode": "OP11",
     "imageId": "OP11-055",
-    "id": "OP11-055_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-055_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/bartolomeo-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Brook",
@@ -1895,7 +2388,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-056",
-    "id": "OP11-056_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-056_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/brook-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Pedro",
@@ -1921,7 +2421,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-057",
-    "id": "OP11-057_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-057_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/pedro-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -1947,7 +2454,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-058",
-    "id": "OP11-058_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-058_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gum-Gum King Cobra",
@@ -1973,7 +2487,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-059",
-    "id": "OP11-059_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-059_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gum-gum-king-cobra-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Let's Crash This Wedding!!!",
@@ -1999,7 +2520,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-060",
-    "id": "OP11-060_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-060_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/lets-crash-this-wedding-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gum-Gum Jet Culverin",
@@ -2025,7 +2553,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-061",
-    "id": "OP11-061_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-061_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gum-gum-jet-culverin-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Katakuri",
@@ -2053,7 +2588,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-062",
-    "id": "OP11-062_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-062_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-katakuri-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Katakuri",
@@ -2081,7 +2623,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-062_p1",
-    "id": "OP11-062_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-062_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-katakuri-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Little Sadi",
@@ -2107,6 +2656,13 @@
     "id": "OP11-063_A_FIST_OF_DIVINE_SPEED_[OP-11]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/little-sadi-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
     ]
   },
   {
@@ -2130,7 +2686,14 @@
     "cost": 6,
     "expansionCode": "OP11",
     "imageId": "OP11-064",
-    "id": "OP11-064_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-064_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/saldeath-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Anana",
@@ -2156,7 +2719,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-065",
-    "id": "OP11-065_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-065_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-anana-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Oven",
@@ -2182,7 +2752,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-066",
-    "id": "OP11-066_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-066_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-oven-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Katakuri",
@@ -2209,7 +2786,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-067",
-    "id": "OP11-067_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-067_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-katakuri-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Katakuri",
@@ -2236,7 +2820,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-067_p1",
-    "id": "OP11-067_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-067_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-katakuri-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Daifuku",
@@ -2259,7 +2850,14 @@
     "cost": 6,
     "expansionCode": "OP11",
     "imageId": "OP11-068",
-    "id": "OP11-068_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-068_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-daifuku-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Brulee",
@@ -2285,6 +2883,13 @@
     "id": "OP11-069_A_FIST_OF_DIVINE_SPEED_[OP-11]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-brulee-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
     ]
   },
   {
@@ -2312,7 +2917,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-070",
-    "id": "OP11-070_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-070_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-pudding-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Pudding",
@@ -2339,7 +2951,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-070_p1",
-    "id": "OP11-070_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-070_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-pudding-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Perospero",
@@ -2366,7 +2985,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-071",
-    "id": "OP11-071_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-071_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-perospero-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Mont-d'or",
@@ -2393,7 +3019,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-072",
-    "id": "OP11-072_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-072_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-mont-dor-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Linlin",
@@ -2422,7 +3055,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-073",
-    "id": "OP11-073_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-073_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-linlin-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Linlin",
@@ -2451,7 +3091,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-073_p1",
-    "id": "OP11-073_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-073_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-linlin-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Streusen",
@@ -2478,7 +3125,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-074",
-    "id": "OP11-074_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-074_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/streusen-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Jaguar.D.Saul",
@@ -2506,6 +3160,13 @@
     "id": "OP11-075_A_FIST_OF_DIVINE_SPEED_[OP-11]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jaguar-d-saul-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
     ]
   },
   {
@@ -2533,7 +3194,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-076",
-    "id": "OP11-076_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-076_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hannyabal-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Randolph",
@@ -2561,7 +3229,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-077",
-    "id": "OP11-077_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-077_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/randolph-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Decuplets",
@@ -2584,7 +3259,14 @@
     "cost": 5,
     "expansionCode": "OP11",
     "imageId": "OP11-078",
-    "id": "OP11-078_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-078_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/decuplets-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "When Two Men Are Fighting the Last Thing I Need Is Some Half-Hearted Assistance!!!!",
@@ -2610,7 +3292,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-079",
-    "id": "OP11-079_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-079_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/when-two-men-are-fighting-the-last-thing-i-need-is-some-half-hearted-assistance-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gear Two",
@@ -2637,7 +3326,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-080",
-    "id": "OP11-080_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-080_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gear-two-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gear Two",
@@ -2664,7 +3360,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-080_p1",
-    "id": "OP11-080_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-080_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gear-two-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Cognac Mama-Mash",
@@ -2691,7 +3394,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-081",
-    "id": "OP11-081_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-081_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/cognac-mama-mash-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Aramaki",
@@ -2717,7 +3427,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-082",
-    "id": "OP11-082_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-082_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/aramaki-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Caribou",
@@ -2744,7 +3461,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-083",
-    "id": "OP11-083_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-083_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/caribou-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Kuzan",
@@ -2771,7 +3495,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-084",
-    "id": "OP11-084_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-084_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kuzan-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Kuzan",
@@ -2798,7 +3529,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-084_p1",
-    "id": "OP11-084_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-084_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kuzan-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Kurozumi Orochi",
@@ -2825,6 +3563,13 @@
     "id": "OP11-085_A_FIST_OF_DIVINE_SPEED_[OP-11]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kurozumi-orochi-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
     ]
   },
   {
@@ -2852,7 +3597,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-086",
-    "id": "OP11-086_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-086_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/coribou-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Miss Sarahebi",
@@ -2876,7 +3628,14 @@
     "cost": 5,
     "expansionCode": "OP11",
     "imageId": "OP11-087",
-    "id": "OP11-087_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-087_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/miss-sarahebi-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Shu",
@@ -2903,7 +3662,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-088",
-    "id": "OP11-088_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-088_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shu-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Black Maria",
@@ -2926,7 +3692,14 @@
     "cost": 5,
     "expansionCode": "OP11",
     "imageId": "OP11-089",
-    "id": "OP11-089_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-089_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/black-maria-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Briscola",
@@ -2953,7 +3726,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-090",
-    "id": "OP11-090_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-090_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/briscola-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Berry Good",
@@ -2979,6 +3759,13 @@
     "id": "OP11-091_A_FIST_OF_DIVINE_SPEED_[OP-11]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/berry-good-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
     ]
   },
   {
@@ -3006,6 +3793,13 @@
     "id": "OP11-092_A_FIST_OF_DIVINE_SPEED_[OP-11]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/helmeppo-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
     ]
   },
   {
@@ -3033,6 +3827,13 @@
     "id": "OP11-092_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/helmeppo-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
     ]
   },
   {
@@ -3056,7 +3857,14 @@
     "cost": 6,
     "expansionCode": "OP11",
     "imageId": "OP11-093",
-    "id": "OP11-093_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-093_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/bogard-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Morgan",
@@ -3079,7 +3887,14 @@
     "cost": 6,
     "expansionCode": "OP11",
     "imageId": "OP11-094",
-    "id": "OP11-094_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-094_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/morgan-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monkey.D.Garp",
@@ -3105,6 +3920,13 @@
     "id": "OP11-095_A_FIST_OF_DIVINE_SPEED_[OP-11]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-garp-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
     ]
   },
   {
@@ -3131,6 +3953,13 @@
     "id": "OP11-095_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-garp-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
     ]
   },
   {
@@ -3158,7 +3987,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-096",
-    "id": "OP11-096_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-096_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ripper-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "After All These Years I'm Losing My Edge!!!",
@@ -3184,7 +4020,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-097",
-    "id": "OP11-097_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-097_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/after-all-these-years-im-losing-my-edge-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Blue Hole",
@@ -3210,7 +4053,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-098",
-    "id": "OP11-098_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-098_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/blue-hole-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "I'm Gonna Be a Navy Officer!!!",
@@ -3237,7 +4087,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-099",
-    "id": "OP11-099_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-099_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/im-gonna-be-a-navy-officer-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Otohime",
@@ -3264,6 +4121,13 @@
     "id": "OP11-100_A_FIST_OF_DIVINE_SPEED_[OP-11]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/otohime-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
     ]
   },
   {
@@ -3292,7 +4156,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-101",
-    "id": "OP11-101_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-101_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/caponegangbege-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Capone\"Gang\"Bege",
@@ -3320,7 +4191,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-101_p1",
-    "id": "OP11-101_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-101_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/caponegangbege-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Camie",
@@ -3349,7 +4227,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-102",
-    "id": "OP11-102_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-102_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/camie-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Long-Jaw Neptunian",
@@ -3375,7 +4260,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-103",
-    "id": "OP11-103_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-103_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/long-jaw-neptunian-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Shirley",
@@ -3403,7 +4295,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-104",
-    "id": "OP11-104_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-104_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shirley-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Chiffon",
@@ -3427,7 +4326,14 @@
     "cost": 5,
     "expansionCode": "OP11",
     "imageId": "OP11-105",
-    "id": "OP11-105_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-105_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-chiffon-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Zeus",
@@ -3454,6 +4360,13 @@
     "id": "OP11-106_A_FIST_OF_DIVINE_SPEED_[OP-11]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/zeus-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
     ]
   },
   {
@@ -3481,6 +4394,13 @@
     "id": "OP11-106_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/zeus-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
     ]
   },
   {
@@ -3509,7 +4429,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-107",
-    "id": "OP11-107_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-107_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/topknot-neptunian-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Neptune",
@@ -3536,6 +4463,13 @@
     "id": "OP11-108_A_FIST_OF_DIVINE_SPEED_[OP-11]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/neptune-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
     ]
   },
   {
@@ -3563,6 +4497,13 @@
     "id": "OP11-109_A_FIST_OF_DIVINE_SPEED_[OP-11]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/pappag-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
     ]
   },
   {
@@ -3590,6 +4531,13 @@
     "id": "OP11-110_A_FIST_OF_DIVINE_SPEED_[OP-11]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/fukaboshi-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
     ]
   },
   {
@@ -3614,7 +4562,14 @@
     "cost": 6,
     "expansionCode": "OP11",
     "imageId": "OP11-111",
-    "id": "OP11-111_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-111_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/mamboshi-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Megalo",
@@ -3642,7 +4597,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-112",
-    "id": "OP11-112_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-112_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/megalo-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Ryuboshi",
@@ -3666,7 +4628,14 @@
     "cost": 5,
     "expansionCode": "OP11",
     "imageId": "OP11-113",
-    "id": "OP11-113_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-113_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ryuboshi-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gum-Gum Fire-Fist Pistol Red Hawk",
@@ -3693,7 +4662,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-114",
-    "id": "OP11-114_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-114_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gum-gum-fire-fist-pistol-red-hawk-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gum-Gum Fire-Fist Pistol Red Hawk",
@@ -3720,7 +4696,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-114_p1",
-    "id": "OP11-114_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-114_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gum-gum-fire-fist-pistol-red-hawk-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "You're Just Not My Type!",
@@ -3747,7 +4730,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-115",
-    "id": "OP11-115_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-115_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/youre-just-not-my-type-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Merman Combat Ultramarine",
@@ -3774,7 +4764,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-116",
-    "id": "OP11-116_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-116_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/merman-combat-ultramarine-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Fish-Man Island",
@@ -3801,7 +4798,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-117",
-    "id": "OP11-117_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-117_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/fish-man-island-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3828,7 +4832,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-118",
-    "id": "OP11-118_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-118_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-secret-rare-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3855,7 +4866,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-118_p1",
-    "id": "OP11-118_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-118_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-secret-rare-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3882,7 +4900,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-118_p2",
-    "id": "OP11-118_p2_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-118_p2_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-secret-rare-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Koby",
@@ -3910,7 +4935,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-119",
-    "id": "OP11-119_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-119_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/koby-secret-rare-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Koby",
@@ -3938,7 +4970,14 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-119_p1",
-    "id": "OP11-119_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP11-119_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/koby-secret-rare-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Shirahoshi",
@@ -3964,7 +5003,14 @@
     ],
     "expansionCode": "EB01",
     "imageId": "EB01-057_p2",
-    "id": "EB01-057_p2_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "EB01-057_p2_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shirahoshi-special-rare-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3993,7 +5039,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-119_p7",
-    "id": "OP05-119_p7_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP05-119_p7_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-special-rare-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -4022,7 +5075,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-119_p8",
-    "id": "OP05-119_p8_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP05-119_p8_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-special-rare-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -4048,6 +5108,13 @@
     "id": "OP06-119_p2_A_FIST_OF_DIVINE_SPEED_[OP-11]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-special-rare-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
     ]
   },
   {
@@ -4074,6 +5141,13 @@
     "id": "OP07-085_p2_A_FIST_OF_DIVINE_SPEED_[OP-11]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/stussy-special-rare-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
     ]
   },
   {
@@ -4101,7 +5175,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-005_p1",
-    "id": "OP09-005_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]"
+    "id": "OP09-005_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/silvers-rayleigh-special-rare-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Shanks",
@@ -4129,6 +5210,13 @@
     "id": "ST16-004_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shanks-special-rare-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
     ]
   },
   {
@@ -4155,6 +5243,13 @@
     "id": "ST18-005_p1_A_FIST_OF_DIVINE_SPEED_[OP-11]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/luffy-tarou-special-rare-op-11-a-fist-of-divine-speed",
+        "verified": false
+      }
     ]
   }
 ]

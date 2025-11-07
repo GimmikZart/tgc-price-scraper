@@ -25,7 +25,8 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-060_p2",
-    "id": "OP01-060_p2_Blue_Donquixote_Doflamingo_[ST-17]"
+    "id": "OP01-060_p2_Blue_Donquixote_Doflamingo_[ST-17]",
+    "illustration": "other"
   },
   {
     "name": "Donquixote Doflamingo",
@@ -53,7 +54,8 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-073_r1",
-    "id": "OP01-073_r1_Blue_Donquixote_Doflamingo_[ST-17]"
+    "id": "OP01-073_r1_Blue_Donquixote_Doflamingo_[ST-17]",
+    "illustration": "other"
   },
   {
     "name": "Overheat",
@@ -80,7 +82,8 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-086_r1",
-    "id": "OP01-086_r1_Blue_Donquixote_Doflamingo_[ST-17]"
+    "id": "OP01-086_r1_Blue_Donquixote_Doflamingo_[ST-17]",
+    "illustration": "other"
   },
   {
     "name": "Gecko Moria",
@@ -104,7 +107,8 @@
     "cost": 4,
     "expansionCode": "OP02",
     "imageId": "OP02-054_r1",
-    "id": "OP02-054_r1_Blue_Donquixote_Doflamingo_[ST-17]"
+    "id": "OP02-054_r1_Blue_Donquixote_Doflamingo_[ST-17]",
+    "illustration": "other"
   },
   {
     "name": "Bartholomew Kuma",
@@ -131,7 +135,8 @@
     "id": "OP02-057_r1_Blue_Donquixote_Doflamingo_[ST-17]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "other"
   },
   {
     "name": "Jinbe",

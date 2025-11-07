@@ -55,7 +55,8 @@
     ],
     "expansionCode": "EB01",
     "imageId": "EB01-001_p1",
-    "id": "EB01-001_p1_Memorial_Collection_[EB-01]"
+    "id": "EB01-001_p1_Memorial_Collection_[EB-01]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Izo",
@@ -140,7 +141,8 @@
     ],
     "expansionCode": "EB01",
     "imageId": "EB01-003_p1",
-    "id": "EB01-003_p1_Memorial_Collection_[EB-01]"
+    "id": "EB01-003_p1_Memorial_Collection_[EB-01]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Koza",
@@ -247,7 +249,8 @@
     ],
     "expansionCode": "EB01",
     "imageId": "EB01-006_p1",
-    "id": "EB01-006_p1_Memorial_Collection_[EB-01]"
+    "id": "EB01-006_p1_Memorial_Collection_[EB-01]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Tony Tony.Chopper",
@@ -276,7 +279,8 @@
     ],
     "expansionCode": "EB01",
     "imageId": "EB01-006_p2",
-    "id": "EB01-006_p2_Memorial_Collection_[EB-01]"
+    "id": "EB01-006_p2_Memorial_Collection_[EB-01]",
+    "illustration": "manga"
   },
   {
     "name": "Yamato",
@@ -466,7 +470,8 @@
     ],
     "expansionCode": "EB01",
     "imageId": "EB01-012_p1",
-    "id": "EB01-012_p1_Memorial_Collection_[EB-01]"
+    "id": "EB01-012_p1_Memorial_Collection_[EB-01]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Kouzuki Hiyori",
@@ -520,7 +525,8 @@
     ],
     "expansionCode": "EB01",
     "imageId": "EB01-013_p1",
-    "id": "EB01-013_p1_Memorial_Collection_[EB-01]"
+    "id": "EB01-013_p1_Memorial_Collection_[EB-01]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Sanji",
@@ -760,7 +766,8 @@
     ],
     "expansionCode": "EB01",
     "imageId": "EB01-021_p1",
-    "id": "EB01-021_p1_Memorial_Collection_[EB-01]"
+    "id": "EB01-021_p1_Memorial_Collection_[EB-01]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Inazuma",
@@ -814,7 +821,8 @@
     ],
     "expansionCode": "EB01",
     "imageId": "EB01-022_p1",
-    "id": "EB01-022_p1_Memorial_Collection_[EB-01]"
+    "id": "EB01-022_p1_Memorial_Collection_[EB-01]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Edward Weevil",
@@ -967,7 +975,8 @@
     "id": "EB01-027_p1_Memorial_Collection_[EB-01]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "Gum-Gum Champion Rifle",
@@ -1101,7 +1110,8 @@
     "id": "EB01-031_p1_Memorial_Collection_[EB-01]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "Army Wolves",
@@ -1207,7 +1217,8 @@
     ],
     "expansionCode": "EB01",
     "imageId": "EB01-034_p1",
-    "id": "EB01-034_p1_Memorial_Collection_[EB-01]"
+    "id": "EB01-034_p1_Memorial_Collection_[EB-01]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Ms. Monday",
@@ -1397,7 +1408,8 @@
     ],
     "expansionCode": "EB01",
     "imageId": "EB01-040_p1",
-    "id": "EB01-040_p1_Memorial_Collection_[EB-01]"
+    "id": "EB01-040_p1_Memorial_Collection_[EB-01]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Crocus",
@@ -1579,7 +1591,8 @@
     ],
     "expansionCode": "EB01",
     "imageId": "EB01-046_p1",
-    "id": "EB01-046_p1_Memorial_Collection_[EB-01]"
+    "id": "EB01-046_p1_Memorial_Collection_[EB-01]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Laboon",
@@ -1657,7 +1670,8 @@
     ],
     "expansionCode": "EB01",
     "imageId": "EB01-048_p1",
-    "id": "EB01-048_p1_Memorial_Collection_[EB-01]"
+    "id": "EB01-048_p1_Memorial_Collection_[EB-01]",
+    "illustration": "alternate-art"
   },
   {
     "name": "T-Bone",
@@ -1711,7 +1725,8 @@
     "id": "EB01-049_p1_Memorial_Collection_[EB-01]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "...I Want to Live!!",
@@ -1817,7 +1832,8 @@
     ],
     "expansionCode": "EB01",
     "imageId": "EB01-052_p1",
-    "id": "EB01-052_p1_Memorial_Collection_[EB-01]"
+    "id": "EB01-052_p1_Memorial_Collection_[EB-01]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Gastino",
@@ -1945,7 +1961,8 @@
     "id": "EB01-056_p1_Memorial_Collection_[EB-01]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "Shirahoshi",
@@ -1997,7 +2014,8 @@
     ],
     "expansionCode": "EB01",
     "imageId": "EB01-057_p1",
-    "id": "EB01-057_p1_Memorial_Collection_[EB-01]"
+    "id": "EB01-057_p1_Memorial_Collection_[EB-01]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Mont Blanc Cricket",
@@ -2130,6 +2148,7 @@
     ],
     "expansionCode": "EB01",
     "imageId": "EB01-061_p1",
-    "id": "EB01-061_p1_Memorial_Collection_[EB-01]"
+    "id": "EB01-061_p1_Memorial_Collection_[EB-01]",
+    "illustration": "alternate-art"
   }
 ]

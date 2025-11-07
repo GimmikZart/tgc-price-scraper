@@ -55,7 +55,8 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-001_p1",
-    "id": "OP04-001_p1_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-001_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Igaram",
@@ -401,7 +402,8 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-013_p1",
-    "id": "OP04-013_p1_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-013_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -591,7 +593,8 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-019_p1",
-    "id": "OP04-019_p1_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-019_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Issho",
@@ -649,7 +652,8 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-020_p1",
-    "id": "OP04-020_p1_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-020_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Viola",
@@ -781,7 +785,8 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-024_p1",
-    "id": "OP04-024_p1_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-024_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Giolla",
@@ -917,7 +922,8 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-028_p1",
-    "id": "OP04-028_p1_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-028_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Dellinger",
@@ -997,7 +1003,8 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-030_p1",
-    "id": "OP04-030_p1_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-030_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Donquixote Doflamingo",
@@ -1051,7 +1058,8 @@
     "id": "OP04-031_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "Baby 5",
@@ -1293,7 +1301,8 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-039_p1",
-    "id": "OP04-039_p1_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-039_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Queen",
@@ -1349,7 +1358,8 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-040_p1",
-    "id": "OP04-040_p1_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-040_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Apis",
@@ -1482,7 +1492,8 @@
     "id": "OP04-044_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "King",
@@ -1691,7 +1702,8 @@
     "id": "OP04-051_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "Black Maria",
@@ -1905,7 +1917,8 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-058_p1",
-    "id": "OP04-058_p1_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-058_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Iceburg",
@@ -1991,7 +2004,8 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-060_p1",
-    "id": "OP04-060_p1_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-060_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Tom",
@@ -2121,7 +2135,8 @@
     "id": "OP04-064_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "Miss.Goldenweek(Marianne)",
@@ -2361,7 +2376,8 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-072_p1",
-    "id": "OP04-072_p1_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-072_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Mr.13 & Ms.Friday",
@@ -2651,7 +2667,8 @@
     "id": "OP04-082_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "Sabo",
@@ -2707,7 +2724,8 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-083_p1",
-    "id": "OP04-083_p1_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-083_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Sabo",
@@ -2735,7 +2753,8 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-083_p2",
-    "id": "OP04-083_p2_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-083_p2_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "illustration": "manga"
   },
   {
     "name": "Stussy",
@@ -2950,7 +2969,8 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-090_p1",
-    "id": "OP04-090_p1_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-090_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Leo",
@@ -3230,7 +3250,8 @@
     "cost": 3,
     "expansionCode": "OP04",
     "imageId": "OP04-100_p1",
-    "id": "OP04-100_p1_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-100_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Carmel",
@@ -3363,7 +3384,8 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-104_p1",
-    "id": "OP04-104_p1_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-104_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Charlotte Amande",
@@ -3599,7 +3621,8 @@
     "id": "OP04-112_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "Rabiyan",
@@ -3780,7 +3803,8 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-118_p1",
-    "id": "OP04-118_p1_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-118_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Donquixote Rosinante",
@@ -3836,7 +3860,8 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-119_p1",
-    "id": "OP04-119_p1_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-119_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Trafalgar Law",
@@ -3864,7 +3889,8 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-047_p2",
-    "id": "OP01-047_p2_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP01-047_p2_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "illustration": "special"
   },
   {
     "name": "Boa Hancock",
@@ -3894,7 +3920,8 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-078_p2",
-    "id": "OP01-078_p2_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP01-078_p2_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "illustration": "special"
   },
   {
     "name": "Edward.Newgate",
@@ -3923,7 +3950,8 @@
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-004_p2",
-    "id": "OP02-004_p2_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP02-004_p2_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "illustration": "special"
   },
   {
     "name": "Magellan",
@@ -3950,7 +3978,8 @@
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-085_p2",
-    "id": "OP02-085_p2_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP02-085_p2_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "illustration": "special"
   },
   {
     "name": "Sakazuki",
@@ -3976,6 +4005,7 @@
     "id": "OP02-099_p2_KINGDOMS_OF_INTRIGUE_[OP04]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "special"
   }
 ]

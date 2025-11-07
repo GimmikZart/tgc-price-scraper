@@ -24,7 +24,8 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-042_p2",
-    "id": "OP09-042_p2_BLUE_Buggy_[ST-25]"
+    "id": "OP09-042_p2_BLUE_Buggy_[ST-25]",
+    "illustration": "other"
   },
   {
     "name": "Alvida",
@@ -50,7 +51,8 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-043_r1",
-    "id": "OP09-043_r1_BLUE_Buggy_[ST-25]"
+    "id": "OP09-043_r1_BLUE_Buggy_[ST-25]",
+    "illustration": "other"
   },
   {
     "name": "Cabaji",
@@ -73,7 +75,8 @@
     "cost": 5,
     "expansionCode": "OP09",
     "imageId": "OP09-045_r1",
-    "id": "OP09-045_r1_BLUE_Buggy_[ST-25]"
+    "id": "OP09-045_r1_BLUE_Buggy_[ST-25]",
+    "illustration": "other"
   },
   {
     "name": "Buggy",
@@ -100,7 +103,8 @@
     "id": "OP09-051_r1_BLUE_Buggy_[ST-25]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "other"
   },
   {
     "name": "Mohji",
@@ -126,7 +130,8 @@
     "id": "OP09-053_r1_BLUE_Buggy_[ST-25]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "other"
   },
   {
     "name": "Richie",
@@ -153,7 +158,8 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-054_r1",
-    "id": "OP09-054_r1_BLUE_Buggy_[ST-25]"
+    "id": "OP09-054_r1_BLUE_Buggy_[ST-25]",
+    "illustration": "other"
   },
   {
     "name": "Mr.1(Daz.Bonez)",
@@ -177,7 +183,8 @@
     "cost": 5,
     "expansionCode": "OP09",
     "imageId": "OP09-055_r1",
-    "id": "OP09-055_r1_BLUE_Buggy_[ST-25]"
+    "id": "OP09-055_r1_BLUE_Buggy_[ST-25]",
+    "illustration": "other"
   },
   {
     "name": "Mr.3(Galdino)",
@@ -204,7 +211,8 @@
     "id": "OP09-056_r1_BLUE_Buggy_[ST-25]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "other"
   },
   {
     "name": "Cross Guild",
@@ -230,7 +238,8 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-057_r1",
-    "id": "OP09-057_r1_BLUE_Buggy_[ST-25]"
+    "id": "OP09-057_r1_BLUE_Buggy_[ST-25]",
+    "illustration": "other"
   },
   {
     "name": "Buggy",

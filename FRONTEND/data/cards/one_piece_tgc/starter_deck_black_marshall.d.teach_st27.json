@@ -25,7 +25,8 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-081_p2",
-    "id": "OP09-081_p2_BLACK_MarshallDTeach_[ST-27]"
+    "id": "OP09-081_p2_BLACK_MarshallDTeach_[ST-27]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Van Augur",
@@ -52,7 +53,8 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-083_r1",
-    "id": "OP09-083_r1_BLACK_MarshallDTeach_[ST-27]"
+    "id": "OP09-083_r1_BLACK_MarshallDTeach_[ST-27]",
+    "illustration": "other"
   },
   {
     "name": "Jesus Burgess",
@@ -75,7 +77,8 @@
     "cost": 4,
     "expansionCode": "OP09",
     "imageId": "OP09-086_r1",
-    "id": "OP09-086_r1_BLACK_MarshallDTeach_[ST-27]"
+    "id": "OP09-086_r1_BLACK_MarshallDTeach_[ST-27]",
+    "illustration": "other"
   },
   {
     "name": "Shiryu",
@@ -102,7 +105,8 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-088_r1",
-    "id": "OP09-088_r1_BLACK_MarshallDTeach_[ST-27]"
+    "id": "OP09-088_r1_BLACK_MarshallDTeach_[ST-27]",
+    "illustration": "other"
   },
   {
     "name": "Stronger",
@@ -129,7 +133,8 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-089_r1",
-    "id": "OP09-089_r1_BLACK_MarshallDTeach_[ST-27]"
+    "id": "OP09-089_r1_BLACK_MarshallDTeach_[ST-27]",
+    "illustration": "other"
   },
   {
     "name": "Doc Q",
@@ -156,7 +161,8 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-090_r1",
-    "id": "OP09-090_r1_BLACK_MarshallDTeach_[ST-27]"
+    "id": "OP09-090_r1_BLACK_MarshallDTeach_[ST-27]",
+    "illustration": "other"
   },
   {
     "name": "Vasco Shot",
@@ -182,7 +188,8 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-091_r1",
-    "id": "OP09-091_r1_BLACK_MarshallDTeach_[ST-27]"
+    "id": "OP09-091_r1_BLACK_MarshallDTeach_[ST-27]",
+    "illustration": "other"
   },
   {
     "name": "Laffitte",
@@ -208,7 +215,8 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-095_r1",
-    "id": "OP09-095_r1_BLACK_MarshallDTeach_[ST-27]"
+    "id": "OP09-095_r1_BLACK_MarshallDTeach_[ST-27]",
+    "illustration": "other"
   },
   {
     "name": "Fullalead",
@@ -234,7 +242,8 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-099_r1",
-    "id": "OP09-099_r1_BLACK_MarshallDTeach_[ST-27]"
+    "id": "OP09-099_r1_BLACK_MarshallDTeach_[ST-27]",
+    "illustration": "other"
   },
   {
     "name": "Sanjuan.Wolf",
@@ -258,7 +267,8 @@
     "cost": 5,
     "expansionCode": "OP10",
     "imageId": "OP10-084_r1",
-    "id": "OP10-084_r1_BLACK_MarshallDTeach_[ST-27]"
+    "id": "OP10-084_r1_BLACK_MarshallDTeach_[ST-27]",
+    "illustration": "other"
   },
   {
     "name": "Avalo Pizarro",

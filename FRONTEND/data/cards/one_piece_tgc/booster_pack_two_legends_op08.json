@@ -25,7 +25,8 @@
     ],
     "expansionCode": "OP07",
     "imageId": "OP07-109_p2",
-    "id": "OP07-109_p2_TWO_LEGENDS_[OP-08]"
+    "id": "OP07-109_p2_TWO_LEGENDS_[OP-08]",
+    "illustration": "special"
   },
   {
     "name": "Tony Tony.Chopper",
@@ -85,7 +86,8 @@
     ],
     "expansionCode": "OP08",
     "imageId": "OP08-001_p1",
-    "id": "OP08-001_p1_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-001_p1_TWO_LEGENDS_[OP-08]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Marco",
@@ -143,7 +145,8 @@
     ],
     "expansionCode": "OP08",
     "imageId": "OP08-002_p1",
-    "id": "OP08-002_p1_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-002_p1_TWO_LEGENDS_[OP-08]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Twenty Doctors",
@@ -307,7 +310,8 @@
     ],
     "expansionCode": "OP08",
     "imageId": "OP08-007_p1",
-    "id": "OP08-007_p1_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-007_p1_TWO_LEGENDS_[OP-08]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Dalton",
@@ -548,7 +552,8 @@
     "id": "OP08-015_p1_TWO_LEGENDS_[OP-08]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "Dr.Hiriluk",
@@ -735,7 +740,8 @@
     ],
     "expansionCode": "OP08",
     "imageId": "OP08-021_p1",
-    "id": "OP08-021_p1_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-021_p1_TWO_LEGENDS_[OP-08]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Inuarashi",
@@ -816,7 +822,8 @@
     ],
     "expansionCode": "OP08",
     "imageId": "OP08-023_p1",
-    "id": "OP08-023_p1_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-023_p1_TWO_LEGENDS_[OP-08]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Concelot",
@@ -1024,7 +1031,8 @@
     ],
     "expansionCode": "OP08",
     "imageId": "OP08-030_p1",
-    "id": "OP08-030_p1_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-030_p1_TWO_LEGENDS_[OP-08]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Miyagi",
@@ -1390,7 +1398,8 @@
     "id": "OP08-043_p1_TWO_LEGENDS_[OP-08]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "Kingdew",
@@ -1650,7 +1659,8 @@
     "id": "OP08-052_p1_TWO_LEGENDS_[OP-08]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "Thank You...for Loving Me!!",
@@ -1811,7 +1821,8 @@
     ],
     "expansionCode": "OP08",
     "imageId": "OP08-057_p1",
-    "id": "OP08-057_p1_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-057_p1_TWO_LEGENDS_[OP-08]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Charlotte Pudding",
@@ -1865,7 +1876,8 @@
     ],
     "expansionCode": "OP08",
     "imageId": "OP08-058_p1",
-    "id": "OP08-058_p1_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-058_p1_TWO_LEGENDS_[OP-08]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Alber",
@@ -2128,7 +2140,8 @@
     ],
     "expansionCode": "OP08",
     "imageId": "OP08-067_p1",
-    "id": "OP08-067_p1_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-067_p1_TWO_LEGENDS_[OP-08]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Charlotte Perospero",
@@ -2208,7 +2221,8 @@
     "id": "OP08-069_p1_TWO_LEGENDS_[OP-08]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "Baron Tamago",
@@ -2369,7 +2383,8 @@
     ],
     "expansionCode": "OP08",
     "imageId": "OP08-074_p1",
-    "id": "OP08-074_p1_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-074_p1_TWO_LEGENDS_[OP-08]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Candy Maiden",
@@ -2529,7 +2544,8 @@
     ],
     "expansionCode": "OP08",
     "imageId": "OP08-079_p1",
-    "id": "OP08-079_p1_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-079_p1_TWO_LEGENDS_[OP-08]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Queen",
@@ -2581,7 +2597,8 @@
     "id": "OP08-080_p1_TWO_LEGENDS_[OP-08]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "Guernica",
@@ -2713,7 +2730,8 @@
     ],
     "expansionCode": "OP08",
     "imageId": "OP08-084_p1",
-    "id": "OP08-084_p1_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-084_p1_TWO_LEGENDS_[OP-08]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Jinbe",
@@ -3119,7 +3137,8 @@
     ],
     "expansionCode": "OP08",
     "imageId": "OP08-098_p1",
-    "id": "OP08-098_p1_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-098_p1_TWO_LEGENDS_[OP-08]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Kalgara",
@@ -3333,7 +3352,8 @@
     ],
     "expansionCode": "OP08",
     "imageId": "OP08-105_p1",
-    "id": "OP08-105_p1_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-105_p1_TWO_LEGENDS_[OP-08]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Nami",
@@ -3389,7 +3409,8 @@
     ],
     "expansionCode": "OP08",
     "imageId": "OP08-106_p1",
-    "id": "OP08-106_p1_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-106_p1_TWO_LEGENDS_[OP-08]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Nitro",
@@ -3521,7 +3542,8 @@
     "id": "OP08-110_p1_TWO_LEGENDS_[OP-08]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "S-Shark",
@@ -3604,7 +3626,8 @@
     "id": "OP08-112_p1_TWO_LEGENDS_[OP-08]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "S-Bear",
@@ -3788,7 +3811,8 @@
     "id": "OP08-118_p1_TWO_LEGENDS_[OP-08]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "Silvers Rayleigh",
@@ -3814,7 +3838,8 @@
     "id": "OP08-118_p2_TWO_LEGENDS_[OP-08]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "manga"
   },
   {
     "name": "Kaido & Linlin",
@@ -3870,7 +3895,8 @@
     ],
     "expansionCode": "OP08",
     "imageId": "OP08-119_p1",
-    "id": "OP08-119_p1_TWO_LEGENDS_[OP-08]"
+    "id": "OP08-119_p1_TWO_LEGENDS_[OP-08]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Portgas.D.Ace",
@@ -3897,7 +3923,8 @@
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-013_p3",
-    "id": "OP02-013_p3_TWO_LEGENDS_[OP-08]"
+    "id": "OP02-013_p3_TWO_LEGENDS_[OP-08]",
+    "illustration": "special"
   },
   {
     "name": "Charlotte Pudding",
@@ -3923,7 +3950,8 @@
     "id": "OP03-112_p4_TWO_LEGENDS_[OP-08]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "special"
   },
   {
     "name": "Jewelry Bonney",
@@ -3950,7 +3978,8 @@
     ],
     "expansionCode": "ST02",
     "imageId": "ST02-007_p2",
-    "id": "ST02-007_p2_TWO_LEGENDS_[OP-08]"
+    "id": "ST02-007_p2_TWO_LEGENDS_[OP-08]",
+    "illustration": "special"
   },
   {
     "name": "Gecko Moria",
@@ -3977,7 +4006,8 @@
     "id": "ST03-004_p1_TWO_LEGENDS_[OP-08]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "special"
   },
   {
     "name": "Queen",
@@ -4004,7 +4034,8 @@
     ],
     "expansionCode": "ST04",
     "imageId": "ST04-005_p1",
-    "id": "ST04-005_p1_TWO_LEGENDS_[OP-08]"
+    "id": "ST04-005_p1_TWO_LEGENDS_[OP-08]",
+    "illustration": "special"
   },
   {
     "name": "Tashigi",
@@ -4030,6 +4061,7 @@
     ],
     "expansionCode": "ST06",
     "imageId": "ST06-006_p2",
-    "id": "ST06-006_p2_TWO_LEGENDS_[OP-08]"
+    "id": "ST06-006_p2_TWO_LEGENDS_[OP-08]",
+    "illustration": "special"
   }
 ]

@@ -57,7 +57,8 @@
     ],
     "expansionCode": "ST13",
     "imageId": "ST13-001_p1",
-    "id": "ST13-001_p1_The_Three_Brothers_[ST13]"
+    "id": "ST13-001_p1_The_Three_Brothers_[ST13]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Portgas.D.Ace",
@@ -117,7 +118,8 @@
     ],
     "expansionCode": "ST13",
     "imageId": "ST13-002_p1",
-    "id": "ST13-002_p1_The_Three_Brothers_[ST13]"
+    "id": "ST13-002_p1_The_Three_Brothers_[ST13]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -177,7 +179,8 @@
     ],
     "expansionCode": "ST13",
     "imageId": "ST13-003_p1",
-    "id": "ST13-003_p1_The_Three_Brothers_[ST13]"
+    "id": "ST13-003_p1_The_Three_Brothers_[ST13]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Edward.Newgate",
@@ -231,7 +234,8 @@
     "id": "ST13-004_p1_The_Three_Brothers_[ST13]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "Emporio.Ivankov",
@@ -285,7 +289,8 @@
     ],
     "expansionCode": "ST13",
     "imageId": "ST13-005_p1",
-    "id": "ST13-005_p1_The_Three_Brothers_[ST13]"
+    "id": "ST13-005_p1_The_Three_Brothers_[ST13]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Curly.Dadan",
@@ -339,7 +344,8 @@
     ],
     "expansionCode": "ST13",
     "imageId": "ST13-006_p1",
-    "id": "ST13-006_p1_The_Three_Brothers_[ST13]"
+    "id": "ST13-006_p1_The_Three_Brothers_[ST13]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Sabo",
@@ -391,7 +397,8 @@
     ],
     "expansionCode": "ST13",
     "imageId": "ST13-007_p1",
-    "id": "ST13-007_p1_The_Three_Brothers_[ST13]"
+    "id": "ST13-007_p1_The_Three_Brothers_[ST13]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Sabo",
@@ -445,7 +452,8 @@
     "id": "ST13-008_p1_The_Three_Brothers_[ST13]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "Shanks",
@@ -499,7 +507,8 @@
     "id": "ST13-009_p1_The_Three_Brothers_[ST13]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "Portgas.D.Ace",
@@ -551,7 +560,8 @@
     ],
     "expansionCode": "ST13",
     "imageId": "ST13-010_p1",
-    "id": "ST13-010_p1_The_Three_Brothers_[ST13]"
+    "id": "ST13-010_p1_The_Three_Brothers_[ST13]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Portgas.D.Ace",
@@ -605,7 +615,8 @@
     ],
     "expansionCode": "ST13",
     "imageId": "ST13-011_p1",
-    "id": "ST13-011_p1_The_Three_Brothers_[ST13]"
+    "id": "ST13-011_p1_The_Three_Brothers_[ST13]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Makino",
@@ -657,7 +668,8 @@
     "id": "ST13-012_p1_The_Three_Brothers_[ST13]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "Monkey.D.Garp",
@@ -709,7 +721,8 @@
     "id": "ST13-013_p1_The_Three_Brothers_[ST13]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -761,7 +774,8 @@
     ],
     "expansionCode": "ST13",
     "imageId": "ST13-014_p1",
-    "id": "ST13-014_p1_The_Three_Brothers_[ST13]"
+    "id": "ST13-014_p1_The_Three_Brothers_[ST13]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -817,7 +831,8 @@
     ],
     "expansionCode": "ST13",
     "imageId": "ST13-015_p1",
-    "id": "ST13-015_p1_The_Three_Brothers_[ST13]"
+    "id": "ST13-015_p1_The_Three_Brothers_[ST13]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Yamato",
@@ -871,7 +886,8 @@
     ],
     "expansionCode": "ST13",
     "imageId": "ST13-016_p1",
-    "id": "ST13-016_p1_The_Three_Brothers_[ST13]"
+    "id": "ST13-016_p1_The_Three_Brothers_[ST13]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Flame Dragon King",

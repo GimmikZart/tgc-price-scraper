@@ -23,7 +23,8 @@
     ],
     "expansionCode": "OP11",
     "imageId": "OP11-058_p1",
-    "id": "OP11-058_p1_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP11-058_p1_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "special"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -81,7 +82,8 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-001_p1",
-    "id": "OP13-001_p1_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-001_p1_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Portgas.D.Ace",
@@ -139,7 +141,8 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-002_p1",
-    "id": "OP13-002_p1_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-002_p1_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Gol.D.Roger",
@@ -189,7 +192,8 @@
     "life": 5,
     "expansionCode": "OP13",
     "imageId": "OP13-003_p1",
-    "id": "OP13-003_p1_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-003_p1_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Sabo",
@@ -245,7 +249,8 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-004_p1",
-    "id": "OP13-004_p1_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-004_p1_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Inazuma",
@@ -349,7 +354,8 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-007_p1",
-    "id": "OP13-007_p1_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-007_p1_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Emporio.Ivankov",
@@ -598,7 +604,8 @@
     "id": "OP13-016_p1_CARRYING_ON_HIS_WILL_[OP-13]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "Monkey.D.Dragon",
@@ -807,7 +814,8 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-023_p1",
-    "id": "OP13-023_p1_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-023_p1_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Gordon",
@@ -945,7 +953,8 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-027_p1",
-    "id": "OP13-027_p1_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-027_p1_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Shanks",
@@ -1001,7 +1010,8 @@
     "id": "OP13-028_p1_CARRYING_ON_HIS_WILL_[OP-13]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "Jinbe",
@@ -1411,7 +1421,8 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-042_p1",
-    "id": "OP13-042_p1_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-042_p1_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Otama",
@@ -1666,7 +1677,8 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-051_p1",
-    "id": "OP13-051_p1_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-051_p1_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Boa Marigold",
@@ -1772,7 +1784,8 @@
     "id": "OP13-054_p1_CARRYING_ON_HIS_WILL_[OP-13]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "Rakuyo",
@@ -2067,7 +2080,8 @@
     "id": "OP13-064_p1_CARRYING_ON_HIS_WILL_[OP-13]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "Shanks",
@@ -2119,7 +2133,8 @@
     "id": "OP13-065_p1_CARRYING_ON_HIS_WILL_[OP-13]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "Silvers Rayleigh",
@@ -2173,7 +2188,8 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-066_p1",
-    "id": "OP13-066_p1_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-066_p1_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Scopper Gaban",
@@ -2465,7 +2481,8 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-076_p1",
-    "id": "OP13-076_p1_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-076_p1_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Go All the Way to the Top!!",
@@ -2572,7 +2589,8 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-079_p1",
-    "id": "OP13-079_p1_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-079_p1_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "alternate-art"
   },
   {
     "name": "St. Ethanbaron V. Nusjuro",
@@ -2628,7 +2646,8 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-080_p1",
-    "id": "OP13-080_p1_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-080_p1_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "alternate-art"
   },
   {
     "name": "St. Ethanbaron V. Nusjuro",
@@ -2656,7 +2675,8 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-080_p2",
-    "id": "OP13-080_p2_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-080_p2_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "special"
   },
   {
     "name": "Koala",
@@ -2738,7 +2758,8 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-082_p1",
-    "id": "OP13-082_p1_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-082_p1_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "alternate-art"
   },
   {
     "name": "St. Jaygarcia Saturn",
@@ -2792,7 +2813,8 @@
     "id": "OP13-083_p1_CARRYING_ON_HIS_WILL_[OP-13]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "St. Jaygarcia Saturn",
@@ -2819,7 +2841,8 @@
     "id": "OP13-083_p2_CARRYING_ON_HIS_WILL_[OP-13]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "special"
   },
   {
     "name": "St. Shepherd Ju Peter",
@@ -2873,7 +2896,8 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-084_p1",
-    "id": "OP13-084_p1_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-084_p1_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "alternate-art"
   },
   {
     "name": "St. Shepherd Ju Peter",
@@ -2900,7 +2924,8 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-084_p2",
-    "id": "OP13-084_p2_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-084_p2_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "special"
   },
   {
     "name": "Saint Jalmac",
@@ -3055,7 +3080,8 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-089_p1",
-    "id": "OP13-089_p1_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-089_p1_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "alternate-art"
   },
   {
     "name": "St. Topman Warcury",
@@ -3083,7 +3109,8 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-089_p2",
-    "id": "OP13-089_p2_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-089_p2_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "special"
   },
   {
     "name": "Hack",
@@ -3164,7 +3191,8 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-091_p1",
-    "id": "OP13-091_p1_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-091_p1_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "alternate-art"
   },
   {
     "name": "St. Marcus Mars",
@@ -3192,7 +3220,8 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-091_p2",
-    "id": "OP13-091_p2_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-091_p2_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "special"
   },
   {
     "name": "Saint Mjosgard",
@@ -3466,7 +3495,8 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-100_p1",
-    "id": "OP13-100_p1_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-100_p1_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Atlas",
@@ -3703,7 +3733,8 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-108_p1",
-    "id": "OP13-108_p1_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-108_p1_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Jewelry Bonney",
@@ -3785,7 +3816,8 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-110_p1",
-    "id": "OP13-110_p1_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-110_p1_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Pythagoras",
@@ -3892,7 +3924,8 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-113_p1",
-    "id": "OP13-113_p1_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-113_p1_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "alternate-art"
   },
   {
     "name": "S-Snake",
@@ -3948,7 +3981,8 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-114_p1",
-    "id": "OP13-114_p1_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-114_p1_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Paper Art Afterimage",
@@ -4088,7 +4122,8 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-118_p1",
-    "id": "OP13-118_p1_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-118_p1_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -4117,7 +4152,8 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-118_p2",
-    "id": "OP13-118_p2_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-118_p2_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "manga"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -4146,7 +4182,8 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-118_p3",
-    "id": "OP13-118_p3_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-118_p3_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "red-manga"
   },
   {
     "name": "Portgas.D.Ace",
@@ -4200,7 +4237,8 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-119_p1",
-    "id": "OP13-119_p1_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-119_p1_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Portgas.D.Ace",
@@ -4227,7 +4265,8 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-119_p2",
-    "id": "OP13-119_p2_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-119_p2_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "manga"
   },
   {
     "name": "Portgas.D.Ace",
@@ -4254,7 +4293,8 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-119_p3",
-    "id": "OP13-119_p3_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-119_p3_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "red-manga"
   },
   {
     "name": "Sabo",
@@ -4312,7 +4352,8 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-120_p1",
-    "id": "OP13-120_p1_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-120_p1_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Sabo",
@@ -4341,7 +4382,8 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-120_p2",
-    "id": "OP13-120_p2_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-120_p2_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "manga"
   },
   {
     "name": "Sabo",
@@ -4370,7 +4412,8 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-120_p3",
-    "id": "OP13-120_p3_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-120_p3_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "red-manga"
   },
   {
     "name": "Portgas.D.Ace",
@@ -4397,7 +4440,8 @@
     "id": "EB02-028_p1_CARRYING_ON_HIS_WILL_[OP-13]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "special"
   },
   {
     "name": "Lilith",
@@ -4424,7 +4468,8 @@
     "id": "OP07-111_p2_CARRYING_ON_HIS_WILL_[OP-13]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "special"
   },
   {
     "name": "Sabo",
@@ -4450,7 +4495,8 @@
     "id": "OP07-118_p2_CARRYING_ON_HIS_WILL_[OP-13]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "special"
   },
   {
     "name": "Shanks",
@@ -4477,7 +4523,8 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-004_p5",
-    "id": "OP09-004_p5_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP09-004_p5_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "special"
   },
   {
     "name": "Shanks",
@@ -4504,7 +4551,8 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-004_p6",
-    "id": "OP09-004_p6_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP09-004_p6_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "special"
   },
   {
     "name": "Benn.Beckman",
@@ -4530,7 +4578,8 @@
     "id": "OP09-009_p3_CARRYING_ON_HIS_WILL_[OP-13]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "special"
   },
   {
     "name": "Gol.D.Roger",
@@ -4558,7 +4607,8 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-118_p3",
-    "id": "OP09-118_p3_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP09-118_p3_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "wanted"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -4585,7 +4635,8 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-119_p3",
-    "id": "OP09-119_p3_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP09-119_p3_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "special"
   },
   {
     "name": "Smoker",
@@ -4613,7 +4664,8 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-030_p2",
-    "id": "OP10-030_p2_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP10-030_p2_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "special"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -4642,7 +4694,8 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-118_p4",
-    "id": "OP13-118_p4_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-118_p4_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "wanted"
   },
   {
     "name": "Portgas.D.Ace",
@@ -4669,7 +4722,8 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-119_p4",
-    "id": "OP13-119_p4_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-119_p4_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "wanted"
   },
   {
     "name": "Sabo",
@@ -4698,6 +4752,7 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-120_p4",
-    "id": "OP13-120_p4_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-120_p4_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "wanted"
   }
 ]

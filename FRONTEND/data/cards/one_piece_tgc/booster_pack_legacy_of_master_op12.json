@@ -24,7 +24,8 @@
     "id": "OP10-063_p1_LEGACY_OF_THE_MASTER_[OP-12]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "special"
   },
   {
     "name": "Silvers Rayleigh",
@@ -78,7 +79,8 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-001_p1",
-    "id": "OP12-001_p1_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-001_p1_LEGACY_OF_THE_MASTER_[OP-12]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Edward.Newgate",
@@ -291,7 +293,8 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-008_p1",
-    "id": "OP12-008_p1_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-008_p1_LEGACY_OF_THE_MASTER_[OP-12]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Jinbe",
@@ -477,7 +480,8 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-014_p1",
-    "id": "OP12-014_p1_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-014_p1_LEGACY_OF_THE_MASTER_[OP-12]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -531,7 +535,8 @@
     "id": "OP12-015_p1_LEGACY_OF_THE_MASTER_[OP-12]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "To Never Doubt--That Is Power!",
@@ -694,7 +699,8 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-020_p1",
-    "id": "OP12-020_p1_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-020_p1_LEGACY_OF_THE_MASTER_[OP-12]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Ipponmatsu",
@@ -989,7 +995,8 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-030_p1",
-    "id": "OP12-030_p1_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-030_p1_LEGACY_OF_THE_MASTER_[OP-12]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Tashigi",
@@ -1043,7 +1050,8 @@
     "id": "OP12-031_p1_LEGACY_OF_THE_MASTER_[OP-12]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "Nekomamushi",
@@ -1150,7 +1158,8 @@
     "id": "OP12-034_p1_LEGACY_OF_THE_MASTER_[OP-12]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "Morgan",
@@ -1252,7 +1261,8 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-037_p1",
-    "id": "OP12-037_p1_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-037_p1_LEGACY_OF_THE_MASTER_[OP-12]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Two-Sword Style Rashomon",
@@ -1351,7 +1361,8 @@
     "life": 5,
     "expansionCode": "OP12",
     "imageId": "OP12-040_p1",
-    "id": "OP12-040_p1_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-040_p1_LEGACY_OF_THE_MASTER_[OP-12]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Sanji",
@@ -1411,7 +1422,8 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-041_p1",
-    "id": "OP12-041_p1_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-041_p1_LEGACY_OF_THE_MASTER_[OP-12]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Alvida",
@@ -1489,7 +1501,8 @@
     "id": "OP12-043_p1_LEGACY_OF_THE_MASTER_[OP-12]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "Sakazuki",
@@ -1852,7 +1865,8 @@
     "id": "OP12-056_p1_LEGACY_OF_THE_MASTER_[OP-12]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "Ice Block Pheasant Peck",
@@ -1985,7 +1999,8 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-060_p1",
-    "id": "OP12-060_p1_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-060_p1_LEGACY_OF_THE_MASTER_[OP-12]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Donquixote Rosinante",
@@ -2043,7 +2058,8 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-061_p1",
-    "id": "OP12-061_p1_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-061_p1_LEGACY_OF_THE_MASTER_[OP-12]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Vinsmoke Sora",
@@ -2124,7 +2140,8 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-063_p1",
-    "id": "OP12-063_p1_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-063_p1_LEGACY_OF_THE_MASTER_[OP-12]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Vergo",
@@ -2326,7 +2343,8 @@
     "cost": 3,
     "expansionCode": "OP12",
     "imageId": "OP12-070_p1",
-    "id": "OP12-070_p1_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-070_p1_LEGACY_OF_THE_MASTER_[OP-12]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Charlotte Pudding",
@@ -2434,7 +2452,8 @@
     "id": "OP12-073_p1_LEGACY_OF_THE_MASTER_[OP-12]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "Patty",
@@ -2671,7 +2690,8 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-081_p1",
-    "id": "OP12-081_p1_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-081_p1_LEGACY_OF_THE_MASTER_[OP-12]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Issho",
@@ -2825,7 +2845,8 @@
     "id": "OP12-086_p1_LEGACY_OF_THE_MASTER_[OP-12]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "Nico Robin",
@@ -2879,7 +2900,8 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-087_p1",
-    "id": "OP12-087_p1_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-087_p1_LEGACY_OF_THE_MASTER_[OP-12]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Bastille",
@@ -3086,7 +3108,8 @@
     "id": "OP12-094_p1_LEGACY_OF_THE_MASTER_[OP-12]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "Lindbergh",
@@ -3330,7 +3353,8 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-102_p1",
-    "id": "OP12-102_p1_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-102_p1_LEGACY_OF_THE_MASTER_[OP-12]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Seto",
@@ -3517,7 +3541,8 @@
     "id": "OP12-108_p1_LEGACY_OF_THE_MASTER_[OP-12]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "Pacifista",
@@ -3801,7 +3826,8 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-118_p1",
-    "id": "OP12-118_p1_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-118_p1_LEGACY_OF_THE_MASTER_[OP-12]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Jewelry Bonney",
@@ -3829,7 +3855,8 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-118_p2",
-    "id": "OP12-118_p2_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-118_p2_LEGACY_OF_THE_MASTER_[OP-12]",
+    "illustration": "manga"
   },
   {
     "name": "Bartholomew Kuma",
@@ -3887,7 +3914,8 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-119_p1",
-    "id": "OP12-119_p1_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-119_p1_LEGACY_OF_THE_MASTER_[OP-12]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Tashigi",
@@ -3913,7 +3941,8 @@
     "id": "OP06-050_p2_LEGACY_OF_THE_MASTER_[OP-12]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "special"
   },
   {
     "name": "Yasopp",
@@ -3941,7 +3970,8 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-013_p2",
-    "id": "OP09-013_p2_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP09-013_p2_LEGACY_OF_THE_MASTER_[OP-12]",
+    "illustration": "special"
   },
   {
     "name": "Lim",
@@ -3968,7 +3998,8 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-037_p2",
-    "id": "OP09-037_p2_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP09-037_p2_LEGACY_OF_THE_MASTER_[OP-12]",
+    "illustration": "special"
   },
   {
     "name": "Marshall.D.Teach",
@@ -3997,7 +4028,8 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-093_p4",
-    "id": "OP09-093_p4_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP09-093_p4_LEGACY_OF_THE_MASTER_[OP-12]",
+    "illustration": "special"
   },
   {
     "name": "Marshall.D.Teach",
@@ -4026,7 +4058,8 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-093_p5",
-    "id": "OP09-093_p5_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP09-093_p5_LEGACY_OF_THE_MASTER_[OP-12]",
+    "illustration": "special"
   },
   {
     "name": "Kuzan",
@@ -4053,7 +4086,8 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-082_p2",
-    "id": "OP10-082_p2_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP10-082_p2_LEGACY_OF_THE_MASTER_[OP-12]",
+    "illustration": "special"
   },
   {
     "name": "Portgas.D.Ace",
@@ -4080,7 +4114,8 @@
     ],
     "expansionCode": "ST13",
     "imageId": "ST13-011_p2",
-    "id": "ST13-011_p2_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "ST13-011_p2_LEGACY_OF_THE_MASTER_[OP-12]",
+    "illustration": "special"
   },
   {
     "name": "Zoro-Juurou",
@@ -4106,6 +4141,7 @@
     "id": "ST18-004_p2_LEGACY_OF_THE_MASTER_[OP-12]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "special"
   }
 ]

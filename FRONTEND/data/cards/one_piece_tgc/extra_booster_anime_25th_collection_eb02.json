@@ -26,7 +26,8 @@
     ],
     "expansionCode": "EB01",
     "imageId": "EB01-001_p2",
-    "id": "EB01-001_p2_Anime_25th_Collection_[EB-02]"
+    "id": "EB01-001_p2_Anime_25th_Collection_[EB-02]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Hannyabal",
@@ -53,7 +54,8 @@
     ],
     "expansionCode": "EB01",
     "imageId": "EB01-021_p2",
-    "id": "EB01-021_p2_Anime_25th_Collection_[EB-02]"
+    "id": "EB01-021_p2_Anime_25th_Collection_[EB-02]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Kyros",
@@ -81,7 +83,8 @@
     ],
     "expansionCode": "EB01",
     "imageId": "EB01-040_p2",
-    "id": "EB01-040_p2_Anime_25th_Collection_[EB-02]"
+    "id": "EB01-040_p2_Anime_25th_Collection_[EB-02]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Karoo",
@@ -192,7 +195,8 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-003_p1",
-    "id": "EB02-003_p1_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-003_p1_Anime_25th_Collection_[EB-02]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Don Accino",
@@ -298,7 +302,8 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-006_p1",
-    "id": "EB02-006_p1_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-006_p1_Anime_25th_Collection_[EB-02]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Cloven Rose Blizzard",
@@ -434,7 +439,8 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-010_p1",
-    "id": "EB02-010_p1_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-010_p1_Anime_25th_Collection_[EB-02]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Arlong",
@@ -490,7 +496,8 @@
     "id": "EB02-011_p1_Anime_25th_Collection_[EB-02]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "Gaimon",
@@ -622,7 +629,8 @@
     "id": "EB02-015_p1_Anime_25th_Collection_[EB-02]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "Chopperman",
@@ -703,7 +711,8 @@
     "id": "EB02-017_p1_Anime_25th_Collection_[EB-02]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "Buggy",
@@ -865,7 +874,8 @@
     "id": "EB02-022_p1_Anime_25th_Collection_[EB-02]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "Crocodile",
@@ -998,7 +1008,8 @@
     "id": "EB02-026_p1_Anime_25th_Collection_[EB-02]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "alternate-art"
   },
   {
     "name": "Vista",
@@ -1263,7 +1274,8 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-035_p1",
-    "id": "EB02-035_p1_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-035_p1_Anime_25th_Collection_[EB-02]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Nico Robin",
@@ -1317,7 +1329,8 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-036_p1",
-    "id": "EB02-036_p1_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-036_p1_Anime_25th_Collection_[EB-02]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Franky",
@@ -1551,7 +1564,8 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-044_p1",
-    "id": "EB02-044_p1_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-044_p1_Anime_25th_Collection_[EB-02]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Trafalgar Law",
@@ -1609,7 +1623,8 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-045_p1",
-    "id": "EB02-045_p1_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-045_p1_Anime_25th_Collection_[EB-02]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Hildon",
@@ -1715,7 +1730,8 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-048_p1",
-    "id": "EB02-048_p1_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-048_p1_Anime_25th_Collection_[EB-02]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Monkey.D.Garp",
@@ -1848,7 +1864,8 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-052_p1",
-    "id": "EB02-052_p1_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-052_p1_Anime_25th_Collection_[EB-02]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Myskina Olga",
@@ -1931,7 +1948,8 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-054_p1",
-    "id": "EB02-054_p1_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-054_p1_Anime_25th_Collection_[EB-02]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Jinbe",
@@ -2011,7 +2029,8 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-056_p1",
-    "id": "EB02-056_p1_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-056_p1_Anime_25th_Collection_[EB-02]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Mad Treasure",
@@ -2173,7 +2192,8 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-061_p1",
-    "id": "EB02-061_p1_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-061_p1_Anime_25th_Collection_[EB-02]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -2202,7 +2222,8 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-061_p2",
-    "id": "EB02-061_p2_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-061_p2_Anime_25th_Collection_[EB-02]",
+    "illustration": "manga"
   },
   {
     "name": "Sabo",
@@ -2231,7 +2252,8 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-001_p2",
-    "id": "OP05-001_p2_Anime_25th_Collection_[EB-02]"
+    "id": "OP05-001_p2_Anime_25th_Collection_[EB-02]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Belo Betty",
@@ -2260,7 +2282,8 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-002_p2",
-    "id": "OP05-002_p2_Anime_25th_Collection_[EB-02]"
+    "id": "OP05-002_p2_Anime_25th_Collection_[EB-02]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Donquixote Rosinante",
@@ -2289,7 +2312,8 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-022_p2",
-    "id": "OP05-022_p2_Anime_25th_Collection_[EB-02]"
+    "id": "OP05-022_p2_Anime_25th_Collection_[EB-02]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -2316,7 +2340,8 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-060_p4",
-    "id": "OP05-060_p4_Anime_25th_Collection_[EB-02]"
+    "id": "OP05-060_p4_Anime_25th_Collection_[EB-02]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Enel",
@@ -2343,7 +2368,8 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-098_p2",
-    "id": "OP05-098_p2_Anime_25th_Collection_[EB-02]"
+    "id": "OP05-098_p2_Anime_25th_Collection_[EB-02]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Uta",
@@ -2370,7 +2396,8 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-001_p2",
-    "id": "OP06-001_p2_Anime_25th_Collection_[EB-02]"
+    "id": "OP06-001_p2_Anime_25th_Collection_[EB-02]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Hody Jones",
@@ -2397,7 +2424,8 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-020_p2",
-    "id": "OP06-020_p2_Anime_25th_Collection_[EB-02]"
+    "id": "OP06-020_p2_Anime_25th_Collection_[EB-02]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Perona",
@@ -2425,7 +2453,8 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-021_p2",
-    "id": "OP06-021_p2_Anime_25th_Collection_[EB-02]"
+    "id": "OP06-021_p2_Anime_25th_Collection_[EB-02]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Yamato",
@@ -2454,7 +2483,8 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-022_p2",
-    "id": "OP06-022_p2_Anime_25th_Collection_[EB-02]"
+    "id": "OP06-022_p2_Anime_25th_Collection_[EB-02]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Vinsmoke Reiju",
@@ -2483,7 +2513,8 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-042_p2",
-    "id": "OP06-042_p2_Anime_25th_Collection_[EB-02]"
+    "id": "OP06-042_p2_Anime_25th_Collection_[EB-02]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Gecko Moria",
@@ -2511,7 +2542,8 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-080_p2",
-    "id": "OP06-080_p2_Anime_25th_Collection_[EB-02]"
+    "id": "OP06-080_p2_Anime_25th_Collection_[EB-02]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Monkey.D.Dragon",
@@ -2538,7 +2570,8 @@
     ],
     "expansionCode": "OP07",
     "imageId": "OP07-001_p2",
-    "id": "OP07-001_p2_Anime_25th_Collection_[EB-02]"
+    "id": "OP07-001_p2_Anime_25th_Collection_[EB-02]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Jewelry Bonney",
@@ -2566,7 +2599,8 @@
     ],
     "expansionCode": "OP07",
     "imageId": "OP07-019_p2",
-    "id": "OP07-019_p2_Anime_25th_Collection_[EB-02]"
+    "id": "OP07-019_p2_Anime_25th_Collection_[EB-02]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Boa Hancock",
@@ -2594,7 +2628,8 @@
     ],
     "expansionCode": "OP07",
     "imageId": "OP07-038_p2",
-    "id": "OP07-038_p2_Anime_25th_Collection_[EB-02]"
+    "id": "OP07-038_p2_Anime_25th_Collection_[EB-02]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Foxy",
@@ -2620,7 +2655,8 @@
     ],
     "expansionCode": "OP07",
     "imageId": "OP07-059_p2",
-    "id": "OP07-059_p2_Anime_25th_Collection_[EB-02]"
+    "id": "OP07-059_p2_Anime_25th_Collection_[EB-02]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Rob Lucci",
@@ -2646,7 +2682,8 @@
     ],
     "expansionCode": "OP07",
     "imageId": "OP07-079_p2",
-    "id": "OP07-079_p2_Anime_25th_Collection_[EB-02]"
+    "id": "OP07-079_p2_Anime_25th_Collection_[EB-02]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Vegapunk",
@@ -2674,7 +2711,8 @@
     ],
     "expansionCode": "OP07",
     "imageId": "OP07-097_p2",
-    "id": "OP07-097_p2_Anime_25th_Collection_[EB-02]"
+    "id": "OP07-097_p2_Anime_25th_Collection_[EB-02]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Tony Tony.Chopper",
@@ -2704,7 +2742,8 @@
     ],
     "expansionCode": "OP08",
     "imageId": "OP08-001_p2",
-    "id": "OP08-001_p2_Anime_25th_Collection_[EB-02]"
+    "id": "OP08-001_p2_Anime_25th_Collection_[EB-02]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Marco",
@@ -2733,7 +2772,8 @@
     ],
     "expansionCode": "OP08",
     "imageId": "OP08-002_p2",
-    "id": "OP08-002_p2_Anime_25th_Collection_[EB-02]"
+    "id": "OP08-002_p2_Anime_25th_Collection_[EB-02]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Carrot",
@@ -2760,7 +2800,8 @@
     ],
     "expansionCode": "OP08",
     "imageId": "OP08-021_p2",
-    "id": "OP08-021_p2_Anime_25th_Collection_[EB-02]"
+    "id": "OP08-021_p2_Anime_25th_Collection_[EB-02]",
+    "illustration": "alternate-art"
   },
   {
     "name": "King",
@@ -2788,7 +2829,8 @@
     ],
     "expansionCode": "OP08",
     "imageId": "OP08-057_p2",
-    "id": "OP08-057_p2_Anime_25th_Collection_[EB-02]"
+    "id": "OP08-057_p2_Anime_25th_Collection_[EB-02]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Charlotte Pudding",
@@ -2815,7 +2857,8 @@
     ],
     "expansionCode": "OP08",
     "imageId": "OP08-058_p2",
-    "id": "OP08-058_p2_Anime_25th_Collection_[EB-02]"
+    "id": "OP08-058_p2_Anime_25th_Collection_[EB-02]",
+    "illustration": "alternate-art"
   },
   {
     "name": "Kalgara",
@@ -2844,6 +2887,7 @@
     ],
     "expansionCode": "OP08",
     "imageId": "OP08-098_p2",
-    "id": "OP08-098_p2_Anime_25th_Collection_[EB-02]"
+    "id": "OP08-098_p2_Anime_25th_Collection_[EB-02]",
+    "illustration": "alternate-art"
   }
 ]

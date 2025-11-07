@@ -26,6 +26,7 @@ export function useCardSort(initialKey = 'name', initialDir = 'asc') {
     name: 'Nome',
     cost: 'Costo',
     power: 'Power',
+    price: 'Prezzo',
   }
 
   const iconFor = (key, dir) => {

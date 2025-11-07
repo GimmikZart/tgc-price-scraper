@@ -185,7 +185,7 @@ export default defineEventHandler(async (event) => {
             await broadcastEvent('generic_error', `Errore durante scraping prezzo per "${card.name || card.code || 'unknown'}" in ${fileName}: ${String(err?.message || err)}`)
           }
 
-          await broadcastEvent('generic_info', `✅ ${fileName}: Delay di ${jitteredDelay(PER_CARD_BASE_DELAY_MS, PER_CARD_JITTER_MS)} milli-secondi`)
+          await broadcastEvent('generic_info', `Delay di ${jitteredDelay(PER_CARD_BASE_DELAY_MS, PER_CARD_JITTER_MS)} milli-secondi`)
           // Delay "gentile" tra richieste
           await sleep(jitteredDelay(PER_CARD_BASE_DELAY_MS, PER_CARD_JITTER_MS))
           await broadcastEvent('generic_info', `Delay concluso`)

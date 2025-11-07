@@ -2,19 +2,9 @@
 definePageMeta({
   middleware: "admin",
 });
-
+const snackbar = useSnackbar()
 async function scrapeAllPrices() {
-  if (!selectedFile.value) {
-    snackbar.addMessage('Seleziona prima un file', 'warning')
-    return
-  }
-  if (!cards.value?.length) {
-    snackbar.addMessage('Nessuna carta nel file selezionato', 'warning')
-    return
-  }
-
   try {
-    scraping.value = true
     snackbar.addMessage('Scrape avviato. Controlla i log e la cartella debug-scrape/cardtrader', 'success')
     // invio solo ciò che serve: lista carte (backend userà SOLO la prima con slugs[0].url)
     await $fetch('/api/scrape-cards-price', {
@@ -25,8 +15,6 @@ async function scrapeAllPrices() {
   } catch (err) {
     console.error(err)
     snackbar.addMessage('Errore durante l’avvio dello scrape', 'error', err)
-  } finally {
-    scraping.value = false
   }
 }
 </script>

@@ -242,7 +242,7 @@
         "service": "Card Trader",
         "url": "https://www.cardtrader.com/cards/carina-alternate-art-op-07-500-years-into-the-future",
         "verified": true,
-        "current_price": 3.94
+        "current_price": 3.93
       }
     ]
   },
@@ -626,7 +626,7 @@
         "service": "Card Trader",
         "url": "https://www.cardtrader.com/cards/monkey-d-dragon-alternate-art-op-07-500-years-into-the-future-290949",
         "verified": true,
-        "current_price": 15.26
+        "current_price": 15.24
       }
     ]
   },
@@ -943,7 +943,7 @@
         "service": "Card Trader",
         "url": "https://www.cardtrader.com/cards/otama-alternate-art-op-07-500-years-into-the-future",
         "verified": true,
-        "current_price": 4.11
+        "current_price": 4.12
       }
     ]
   },
@@ -1182,7 +1182,8 @@
       {
         "service": "Card Trader",
         "url": "https://www.cardtrader.com/cards/scratchmen-apoo-op-07-500-years-into-the-future",
-        "verified": true
+        "verified": true,
+        "current_price": 0.11
       }
     ]
   },
@@ -3792,7 +3793,8 @@
       {
         "service": "Card Trader",
         "url": "https://www.cardtrader.com/cards/morgans-op-07-500-years-into-the-future",
-        "verified": true
+        "verified": true,
+        "current_price": 0.11
       }
     ]
   },
@@ -4541,7 +4543,7 @@
         "service": "Card Trader",
         "url": "https://www.cardtrader.com/cards/monkey-d-luffy-alternate-art-op-07-500-years-into-the-future",
         "verified": true,
-        "current_price": 11.08
+        "current_price": 11.67
       }
     ]
   },

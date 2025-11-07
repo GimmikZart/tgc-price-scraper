@@ -67,16 +67,16 @@ function openCard() { if (!props.disableOpening) emit("open", props.card); }
       </div>
     </div>
 
-    <div class="absolute top-1/4 right-1 -translate-y-1/2 bg-yellow-300/90 py-0 px-3 w-fit">
-      <button 
+    <div v-if="card.slugs" class="absolute top-1/4 right-1 -translate-y-1/2 bg-yellow-300/90 p-0 w-fit">
+      <a 
         v-for="(service, idx) in card.slugs" 
         :key="idx" 
-        class="text-black text-xs font-bold"
+        class="w-full px-4 text-black text-xs font-bold"
         :href="service.url"
         target="_blank"
       >
         {{ service.current_price ?? '---' }}€
-      </button>
+      </a>
       <div class="w-[30px] h-[10px] absolute -top-1 left-1/2 -translate-x-1/2 bg-white opacity-70"></div>
     </div>
     

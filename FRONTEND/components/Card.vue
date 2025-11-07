@@ -67,7 +67,7 @@ function openCard() { if (!props.disableOpening) emit("open", props.card); }
       </div>
     </div>
 
-    <div v-if="card.slugs" class="absolute top-1/4 right-1 -translate-y-1/2 bg-yellow-300/90 p-0 w-fit">
+    <div v-if="card.slugs && showPrice" class="absolute top-1/4 right-1 -translate-y-1/2 bg-yellow-300/90 p-0 w-fit">
       <a 
         v-for="(service, idx) in card.slugs" 
         :key="idx" 

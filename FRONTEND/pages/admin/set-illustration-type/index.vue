@@ -1,5 +1,6 @@
 <script setup>
 import { ref, computed, onMounted, onUnmounted } from 'vue'
+const snackbar = useSnackbar()
 
 const files = ref([])
 const selectedFile = ref(null)
@@ -11,11 +12,11 @@ const currentIndex = ref(0)
 const modifiedIds = ref(new Set())
 
 const illustrationTypes = [
-  'alternate-art', 'wanted', 'special', 'manga', 'red-manga', 'gold-manga',
+  'jolly-roger-foil', 'full-art', 'alternate-art', 'wanted', 'special', 'treasure-rare', 'manga', 'red-manga', 'gold-manga', 'reprint-missing-pen-symbol-next-to-the-artist-name', 'textured-foil', 'other'
 ]
 
 // match _p<number>_  (es: _p1_, _p12_)
-const pxRegex = /_p\d+_/i
+const pxRegex = /-\d{3}_.+/
 
 onMounted(async () => {
   files.value = await $fetch('/api/get-json-files')
@@ -34,7 +35,9 @@ async function loadFile(name) {
     : (rawData.value && rawData.value.cards ? rawData.value.cards : [])
 
   cards.value = list
-  onlyPxCards.value = list.filter(c => typeof c.id === 'string' && pxRegex.test(c.id))
+  console.log({list});
+  
+  onlyPxCards.value = list.filter(c => typeof c.imageId === 'string' && pxRegex.test(c.imageId))
 }
 
 const total = computed(() => onlyPxCards.value.length)
@@ -74,7 +77,10 @@ async function saveOverwrite() {
     method: 'POST',
     body: { name: selectedFile.value, data: output }
   })
-  alert('File salvato ✅')
+  snackbar.addMessage(
+      "File salvato ✅",
+      "success",
+    );
 }
 
 function downloadJson() {
@@ -126,7 +132,7 @@ onUnmounted(() => window.removeEventListener('keydown', onKey))
           </div>
         </div>
 
-        <div class="grid grid-cols-6 gap-2 px-3">
+        <div class="grid grid-cols-2 gap-2 px-3">
           <v-btn
             v-for="t in illustrationTypes"
             :key="t"

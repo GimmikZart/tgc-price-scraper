@@ -13,6 +13,7 @@ definePageMeta({
       <v-btn height="100px" to="/brands">Vai a Brands</v-btn> -->
       <AdminActionsUpdateCardsListOnDb height="100px" />
       <v-btn to="admin/set-illustration-type">SETTA ILLUSTRAZIONI</v-btn>
+      <v-btn to="admin/set-price-services">SETTA SERVIZI PREZZI</v-btn>
     </v-container>
   </section>
 </template>

@@ -62,9 +62,9 @@ definePageMeta({
                 </v-btn>
             </template>
         </Toolbar>
-        <div v-if="productList.length < 1" class="p-5">
+       <!--  <div v-if="productList.length < 1" class="p-5">
             <h3 class="text-xl font-italic text-center text-white/50">Nessun prodotto trovato</h3>
-        </div>
+        </div> -->
         <v-container fluid class="grid grid-cols-2 gap-2 pa-2 lg:pa-4 lg:grid-cols-8 lg:gap-4">
             <DialogsHandleAgents
                 v-model="openDialog"

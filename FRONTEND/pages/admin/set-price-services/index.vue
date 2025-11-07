@@ -207,39 +207,6 @@ async function saveThis(i) {
 }
 
 const scraping = ref(false)
-
-async function sendCardsForSnapshot() {
-  if (!selectedFile.value) {
-    snackbar.addMessage('Seleziona prima un file', 'warning')
-    return
-  }
-  if (!cards.value?.length) {
-    snackbar.addMessage('Nessuna carta nel file selezionato', 'warning')
-    return
-  }
-
-  try {
-    scraping.value = true
-    const output = Array.isArray(rawData.value)
-      ? cards.value
-      : { ...rawData.value, cards: cards.value }
-    // invio solo ciò che serve: lista carte (backend userà SOLO la prima con slugs[0].url)
-    await $fetch('/api/scrape-first-card', {
-      method: 'POST',
-      body: {
-        name: selectedFile.value, // es. "op07_eng.json"
-        data: output              // file completo
-      }
-    })
-    // Il backend risponde 204, qui non arriva nulla.
-    snackbar.addMessage('Scrape avviato. Controlla i log e la cartella debug-scrape/cardtrader', 'success')
-  } catch (err) {
-    console.error(err)
-    snackbar.addMessage('Errore durante l’avvio dello scrape', 'error')
-  } finally {
-    scraping.value = false
-  }
-}
 </script>
 
 <template>
@@ -266,15 +233,6 @@ async function sendCardsForSnapshot() {
         >
           ⚙️ Genera tutti — {{ service }}
         </v-btn>
-        <v-btn
-          color="black"
-          v-if="selectedFile && cards.length"
-          :disabled="scraping"
-          @click="sendCardsForSnapshot"
-        >
-          📸 Snapshot (prima carta, server)
-        </v-btn>
-
       </template>
     </div>
 

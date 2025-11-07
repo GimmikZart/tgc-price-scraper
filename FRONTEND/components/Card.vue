@@ -9,13 +9,14 @@ const props = defineProps({
   disableOpening: { type: Boolean, default: false },
   cardCount: { type: Number, default: 0 },
   showCount: { type: Boolean, default: false },
+  showPrice: { type: Boolean, default: true },
 });
 const emit = defineEmits(["remove-card", "add-card", "choose-card", "open"]);
 const isLoaded = ref(false);
 
 const cardClass = computed(() => ({
   "border-[1px] border-white/30 rounded-lg": props.handleCards || !isLoaded.value,
-  "relative": props.showCount
+  "relative": props.showCount || props.showPrice
 }));
 
 function onLoad() { isLoaded.value = true; }
@@ -64,6 +65,19 @@ function openCard() { if (!props.disableOpening) emit("open", props.card); }
           <v-icon size="25" color="green">mdi-plus</v-icon>
         </v-btn>
       </div>
+    </div>
+
+    <div class="absolute top-1/4 right-1 -translate-y-1/2 bg-yellow-300/90 py-0 px-3 w-fit">
+      <button 
+        v-for="(service, idx) in card.slugs" 
+        :key="idx" 
+        class="text-black text-xs font-bold"
+        :href="service.url"
+        target="_blank"
+      >
+        {{ service.current_price ?? '---' }}€
+      </button>
+      <div class="w-[30px] h-[10px] absolute -top-1 left-1/2 -translate-x-1/2 bg-white opacity-70"></div>
     </div>
     
     <v-btn

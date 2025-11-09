@@ -33,6 +33,25 @@ export async function fetchActualCardsList() {
   }
 }
 
+export async function updateCardPrice(cardId, price) {
+  const supabase = useSupabaseClient();
+  const snackbar = useSnackbar();
+
+  try {
+    const { error } = await supabase
+      .from("cards")
+      .update({ cardtrader_avg_price: price })
+      .eq("card_id", cardId);
+    if (error) throw new Error(error.message);
+  } catch (error) {
+    snackbar.addMessage(
+      `Errore nell'aggiornamento del prezzo per la carta ${cardId}`,
+      "error",
+      error.message ?? error
+    );
+  }
+}
+
 export async function bulkUpdateCardsList(newEntries) {
   const supabase = useSupabaseClient();
   const snackbar = useSnackbar();

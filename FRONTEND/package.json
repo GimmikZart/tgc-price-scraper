@@ -9,7 +9,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "scrape:price": "node server/utils/run-scrape-cards-price.js"
+    "scrape:price": "node scripts/run-scrape-cards-price.js"
   },
   "dependencies": {
     "@nuxt/image": "^1.10.0",

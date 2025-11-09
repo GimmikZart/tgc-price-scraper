@@ -22,17 +22,17 @@ watch(selectedFile, (newFile) => {
 })
 
 // === HELPERS ===
-
 // minuscole + rimuove caratteri speciali → trattini
 function slugify(str) {
   if (!str) return ''
   return String(str)
     .toLowerCase()
-    .replace(/[\s._/]+/g, '-')     // converte spazi, punti, underscore, slash in trattino
-    .replace(/[^a-z0-9-]/g, '')    // elimina tutto ciò che non è a-z, 0-9 o "-"
-    .replace(/-+/g, '-')           // comprime trattini multipli
-    .replace(/^-|-$/g, '')         // rimuove trattini iniziali/finali
+    .replace(/[\s._/()"']+/g, '-')  // converte spazi, punti, underscore, slash, parentesi e virgolette in trattino
+    .replace(/[^a-z0-9-]/g, '')     // elimina tutto ciò che non è a-z, 0-9 o "-"
+    .replace(/-+/g, '-')            // comprime trattini multipli
+    .replace(/^-|-$/g, '')          // rimuove trattini iniziali/finali
 }
+
 
 // normalizza codice set: "OP05" → "op-05", "ST13" → "st-13"
 function normalizeSetCode(code) {
@@ -67,8 +67,8 @@ function getRaritySlug(rarity) {
   if (!rarity) return ''
   switch (rarity.toLowerCase()) {
     case 'sec': return 'secret-rare'
-    case 'sp card': return 'special-rare'
-    case 'tr' : return 'special-rare'
+    case 'sp card' || 'SPECIAL' || 'SP': return 'special-rare'
+    case 'tr' : return 'treasure-rare'
     default: return null
   }
 }
@@ -77,9 +77,9 @@ function getIllustrationSlug(illustration) {
   if (!illustration) return ''
   switch (illustration.toLowerCase()) {
     case 'wanted': return 'wanted'
-    case 'manga': return 'manga'
+    case 'manga': return 'manga-panel'
     case 'alternate-art': return 'alternate-art'
-    default: return illustration.toLowerCase()
+    default: null
   }
 }
 
@@ -135,7 +135,7 @@ function generateAllSlugs(service) {
     const existing = card.slugs.find(s => s.service === service)
 
     // non sovrascrivo se già verificato
-    if (existing?.url && existing?.verified) continue
+    if (existing?.verified) continue
 
     const before = existing?.url || null
     generateSlug(card, service)
@@ -262,11 +262,12 @@ const scraping = ref(false)
             </v-btn>
 
             <v-checkbox
+              v-if="card.slugs?.some(s => s.service === service)"
               hide-details
               label="Verificato"
-              v-if="card.slugs?.some(s => s.service === service)"
               v-model="card.slugs.find(s => s.service === service).verified"
-              @click="saveThis()"
+              @update:modelValue="() => saveThis(i)"
+              :disabled="savingIndex === i"
             />
 
             <div class="w-full" v-if="card.slugs?.some(s => s.service === service)">

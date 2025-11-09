@@ -24,7 +24,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-001",
-    "id": "OP09-001_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-001_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shanks-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shanks",
@@ -52,7 +59,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-001_p1",
     "id": "OP09-001_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shanks-alternate-art-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Uta",
@@ -78,6 +92,13 @@
     "id": "OP09-002_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/uta-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
     ]
   },
   {
@@ -105,7 +126,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/uta-alternate-art-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shachi & Penguin",
@@ -131,7 +159,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-003",
-    "id": "OP09-003_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-003_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shachi-penguin-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shanks",
@@ -158,7 +193,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-004",
-    "id": "OP09-004_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-004_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shanks-op-09-emperors-in-the-new-world-313146",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shanks",
@@ -186,7 +228,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-004_p1",
     "id": "OP09-004_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shanks-alternate-art-op-09-emperors-in-the-new-world-313145",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shanks",
@@ -214,7 +263,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-004_p2",
     "id": "OP09-004_p2_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
-    "illustration": "manga"
+    "illustration": "manga",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shanks-manga-panel-alternate-art-secret-rare-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Silvers Rayleigh",
@@ -241,7 +297,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-005",
-    "id": "OP09-005_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-005_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/silvers-rayleigh-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Howling Gab",
@@ -264,7 +327,14 @@
     "cost": 5,
     "expansionCode": "OP09",
     "imageId": "OP09-006",
-    "id": "OP09-006_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-006_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/howling-gab-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Heat",
@@ -291,7 +361,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-007",
-    "id": "OP09-007_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-007_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/heat-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Building Snake",
@@ -317,7 +394,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-008",
-    "id": "OP09-008_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-008_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/building-snake-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Benn.Beckman",
@@ -343,6 +427,13 @@
     "id": "OP09-009_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/benn-beckman-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
     ]
   },
   {
@@ -370,7 +461,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/benn-beckman-alternate-art-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Bonk Punch",
@@ -398,7 +496,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-010",
-    "id": "OP09-010_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-010_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/bonk-punch-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Hongo",
@@ -424,7 +529,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-011",
-    "id": "OP09-011_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-011_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hongo-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monster",
@@ -448,7 +560,14 @@
     "cost": 3,
     "expansionCode": "OP09",
     "imageId": "OP09-012",
-    "id": "OP09-012_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-012_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monster-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Yasopp",
@@ -476,7 +595,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-013",
-    "id": "OP09-013_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-013_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/yasopp-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Limejuice",
@@ -503,7 +629,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-014",
-    "id": "OP09-014_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-014_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/limejuice-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Lucky.Roux",
@@ -530,7 +663,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-015",
-    "id": "OP09-015_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-015_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/lucky-roux-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Rockstar",
@@ -553,7 +693,14 @@
     "cost": 4,
     "expansionCode": "OP09",
     "imageId": "OP09-016",
-    "id": "OP09-016_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-016_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/rockstar-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Wire",
@@ -580,7 +727,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-017",
-    "id": "OP09-017_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-017_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/wire-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Get Out of Here!",
@@ -606,7 +760,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-018",
-    "id": "OP09-018_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-018_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/get-out-of-here-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nobody Hurts a Friend of Mine!!!!",
@@ -632,7 +793,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-019",
-    "id": "OP09-019_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-019_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nobody-hurts-a-friend-of-mine-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Come On!! We'll Fight You!!",
@@ -659,7 +827,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-020",
-    "id": "OP09-020_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-020_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/come-on-we-ll-fight-you-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Red Force",
@@ -685,7 +860,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-021",
-    "id": "OP09-021_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-021_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/red-force-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Lim",
@@ -713,7 +895,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-022",
-    "id": "OP09-022_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-022_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/lim-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Lim",
@@ -742,7 +931,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-022_p1",
     "id": "OP09-022_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/lim-alternate-art-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Adio",
@@ -770,7 +966,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-023",
-    "id": "OP09-023_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-023_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/adio-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Adio",
@@ -799,7 +1002,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-023_p1",
     "id": "OP09-023_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/adio-alternate-art-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Usopp",
@@ -826,6 +1036,13 @@
     "id": "OP09-024_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/usopp-op-09-emperors-in-the-new-world-313132",
+        "verified": true
+      }
     ]
   },
   {
@@ -851,7 +1068,14 @@
     "cost": 4,
     "expansionCode": "OP09",
     "imageId": "OP09-025",
-    "id": "OP09-025_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-025_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/crocodile-op-09-emperors-in-the-new-world-313029",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sakazuki",
@@ -878,6 +1102,13 @@
     "id": "OP09-026_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sakazuki-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
     ]
   },
   {
@@ -906,7 +1137,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-027",
-    "id": "OP09-027_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-027_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sabo-op-09-emperors-in-the-new-world-313107",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -933,7 +1171,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-028",
-    "id": "OP09-028_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-028_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-op-09-emperors-in-the-new-world-313102",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Tony Tony.Chopper",
@@ -961,7 +1206,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-029",
-    "id": "OP09-029_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-029_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tony-tony-chopper-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -989,6 +1241,13 @@
     "id": "OP09-030_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/trafalgar-law-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
     ]
   },
   {
@@ -1018,7 +1277,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-031",
-    "id": "OP09-031_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-031_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/donquixote-doflamingo-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Donquixote Rosinante",
@@ -1048,7 +1314,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-032",
-    "id": "OP09-032_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-032_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/donquixote-rosinante-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nico Robin",
@@ -1075,6 +1348,13 @@
     "id": "OP09-033_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nico-robin-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
     ]
   },
   {
@@ -1102,6 +1382,13 @@
     "id": "OP09-034_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/perona-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
     ]
   },
   {
@@ -1130,7 +1417,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/perona-alternate-art-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Portgas.D.Ace",
@@ -1157,6 +1451,13 @@
     "id": "OP09-035_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/portgas-d-ace-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
     ]
   },
   {
@@ -1185,6 +1486,13 @@
     "id": "OP09-036_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-op-09-emperors-in-the-new-world-313080",
+        "verified": true
+      }
     ]
   },
   {
@@ -1212,7 +1520,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-037",
-    "id": "OP09-037_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-037_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/lim-op-09-emperors-in-the-new-world-313073",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Lim",
@@ -1240,7 +1555,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-037_p1",
     "id": "OP09-037_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/lim-alternate-art-op-09-emperors-in-the-new-world-313072",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Rob Lucci",
@@ -1264,7 +1586,14 @@
     "cost": 4,
     "expansionCode": "OP09",
     "imageId": "OP09-038",
-    "id": "OP09-038_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-038_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/rob-lucci-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gum-Gum Cuatro Jet Cross Shock Bazooka",
@@ -1292,7 +1621,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-039",
-    "id": "OP09-039_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-039_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gum-gum-cuatro-jet-cross-shock-bazooka-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Thunder Lance Flip Caliber Phoenix Shot",
@@ -1320,7 +1656,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-040",
-    "id": "OP09-040_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-040_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/thunder-lance-flip-caliber-phoenix-shot-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Soul Franky Swing Arm Boxing Solid",
@@ -1347,7 +1690,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-041",
-    "id": "OP09-041_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-041_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/soul-franky-swing-arm-boxing-solid-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Buggy",
@@ -1374,7 +1724,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-042",
-    "id": "OP09-042_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-042_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/buggy-op-09-emperors-in-the-new-world-313022",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Buggy",
@@ -1402,7 +1759,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-042_p1",
     "id": "OP09-042_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/buggy-alternate-art-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Alvida",
@@ -1428,7 +1792,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-043",
-    "id": "OP09-043_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-043_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/alvida-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Izo",
@@ -1455,7 +1826,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-044",
-    "id": "OP09-044_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-044_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/izo-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Cabaji",
@@ -1478,7 +1856,14 @@
     "cost": 5,
     "expansionCode": "OP09",
     "imageId": "OP09-045",
-    "id": "OP09-045_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-045_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/cabaji-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Crocodile",
@@ -1505,6 +1890,13 @@
     "id": "OP09-046_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/crocodile-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
     ]
   },
   {
@@ -1533,7 +1925,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/crocodile-alternate-art-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kouzuki Oden",
@@ -1561,7 +1960,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-047",
-    "id": "OP09-047_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-047_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kouzuki-oden-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Dracule Mihawk",
@@ -1588,7 +1994,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-048",
-    "id": "OP09-048_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-048_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/dracule-mihawk-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Dracule Mihawk",
@@ -1616,7 +2029,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-048_p1",
     "id": "OP09-048_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/dracule-mihawk-alternate-art-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Jozu",
@@ -1639,7 +2059,14 @@
     "cost": 4,
     "expansionCode": "OP09",
     "imageId": "OP09-049",
-    "id": "OP09-049_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-049_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jozu-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nami",
@@ -1665,7 +2092,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-050",
-    "id": "OP09-050_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-050_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nami-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nami",
@@ -1692,7 +2126,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-050_p1",
     "id": "OP09-050_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nami-alternate-art-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Buggy",
@@ -1719,6 +2160,13 @@
     "id": "OP09-051_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/buggy-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
     ]
   },
   {
@@ -1747,7 +2195,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/buggy-alternate-art-op-09-emperors-in-the-new-world-313020",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Buggy",
@@ -1775,7 +2230,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "manga"
+    "illustration": "manga",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/buggy-manga-panel-alternate-art-secret-rare-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Marco",
@@ -1801,7 +2263,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-052",
-    "id": "OP09-052_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-052_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/marco-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Mohji",
@@ -1827,6 +2296,13 @@
     "id": "OP09-053_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/mohji-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
     ]
   },
   {
@@ -1854,7 +2330,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-054",
-    "id": "OP09-054_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-054_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/richie-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Mr.1(Daz.Bonez)",
@@ -1878,7 +2361,14 @@
     "cost": 5,
     "expansionCode": "OP09",
     "imageId": "OP09-055",
-    "id": "OP09-055_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-055_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/mr-1-daz-bonez-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Mr.3(Galdino)",
@@ -1905,6 +2395,13 @@
     "id": "OP09-056_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/mr-3-galdino-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
     ]
   },
   {
@@ -1931,7 +2428,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-057",
-    "id": "OP09-057_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-057_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/cross-guild-foil-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Special Muggy Ball",
@@ -1957,7 +2461,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-058",
-    "id": "OP09-058_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-058_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/special-muggy-ball-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Murder at the Steam Bath",
@@ -1983,7 +2494,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-059",
-    "id": "OP09-059_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-059_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/murder-at-the-steam-bath-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Emptee Bluffs Island",
@@ -2009,7 +2527,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-060",
-    "id": "OP09-060_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-060_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/emptee-bluffs-island-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -2039,7 +2564,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-061",
-    "id": "OP09-061_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-061_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -2070,7 +2602,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-061_p1",
     "id": "OP09-061_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-alternate-art-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nico Robin",
@@ -2099,7 +2638,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-062",
-    "id": "OP09-062_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-062_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nico-robin-op-09-emperors-in-the-new-world-313094",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nico Robin",
@@ -2129,7 +2675,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-062_p1",
     "id": "OP09-062_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nico-robin-alternate-art-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Usopp",
@@ -2152,7 +2705,14 @@
     "cost": 4,
     "expansionCode": "OP09",
     "imageId": "OP09-063",
-    "id": "OP09-063_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-063_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/usopp-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Killer",
@@ -2178,6 +2738,13 @@
     "id": "OP09-064_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/killer-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
     ]
   },
   {
@@ -2205,7 +2772,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-065",
-    "id": "OP09-065_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-065_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-op-09-emperors-in-the-new-world-313103",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -2233,7 +2807,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-065_p1",
     "id": "OP09-065_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-alternate-art-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Jean Bart",
@@ -2259,6 +2840,13 @@
     "id": "OP09-066_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jean-bart-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
     ]
   },
   {
@@ -2283,7 +2871,14 @@
     "cost": 7,
     "expansionCode": "OP09",
     "imageId": "OP09-067",
-    "id": "OP09-067_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-067_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jinbe-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Tony Tony.Chopper",
@@ -2311,7 +2906,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-068",
-    "id": "OP09-068_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-068_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tony-tony-chopper-op-09-emperors-in-the-new-world-313136",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -2337,6 +2939,13 @@
     "id": "OP09-069_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/trafalgar-law-op-09-emperors-in-the-new-world-313135",
+        "verified": true
+      }
     ]
   },
   {
@@ -2364,7 +2973,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/trafalgar-law-alternate-art-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nami",
@@ -2390,6 +3006,13 @@
     "id": "OP09-070_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nami-op-09-emperors-in-the-new-world-313122",
+        "verified": true
+      }
     ]
   },
   {
@@ -2416,7 +3039,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-071",
-    "id": "OP09-071_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-071_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nico-robin-op-09-emperors-in-the-new-world-313121",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Franky",
@@ -2443,7 +3073,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-072",
-    "id": "OP09-072_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-072_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/franky-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Franky",
@@ -2471,7 +3108,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-072_p1",
     "id": "OP09-072_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/franky-alternate-art-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Brook",
@@ -2497,7 +3141,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-073",
-    "id": "OP09-073_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-073_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/brook-op-09-emperors-in-the-new-world-313018",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Bepo",
@@ -2525,7 +3176,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-074",
-    "id": "OP09-074_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-074_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/bepo-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -2551,6 +3209,13 @@
     "id": "OP09-075_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/eustass-captain-kid-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
     ]
   },
   {
@@ -2577,6 +3242,13 @@
     "id": "OP09-076_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/roronoa-zoro-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
     ]
   },
   {
@@ -2604,7 +3276,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-077",
-    "id": "OP09-077_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-077_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gum-gum-lightning-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gum-Gum Giant",
@@ -2631,7 +3310,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-078",
-    "id": "OP09-078_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-078_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gum-gum-giant-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gum-Gum Jump Rope",
@@ -2658,7 +3344,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-079",
-    "id": "OP09-079_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-079_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gum-gum-jump-rope-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Thousand Sunny",
@@ -2684,7 +3377,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-080",
-    "id": "OP09-080_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-080_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/thousand-sunny-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Marshall.D.Teach",
@@ -2712,7 +3412,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-081",
-    "id": "OP09-081_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-081_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/marshall-d-teach-op-09-emperors-in-the-new-world-313076",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Marshall.D.Teach",
@@ -2741,7 +3448,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-081_p1",
     "id": "OP09-081_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/marshall-d-teach-alternate-art-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Avalo Pizarro",
@@ -2764,7 +3478,14 @@
     "cost": 4,
     "expansionCode": "OP09",
     "imageId": "OP09-082",
-    "id": "OP09-082_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-082_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/avalo-pizarro-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Van Augur",
@@ -2791,7 +3512,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-083",
-    "id": "OP09-083_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-083_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/van-augur-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Catarina Devon",
@@ -2821,7 +3549,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-084",
-    "id": "OP09-084_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-084_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/catarina-devon-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gecko Moria",
@@ -2847,6 +3582,13 @@
     "id": "OP09-085_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gecko-moria-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
     ]
   },
   {
@@ -2870,7 +3612,14 @@
     "cost": 4,
     "expansionCode": "OP09",
     "imageId": "OP09-086",
-    "id": "OP09-086_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-086_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jesus-burgess-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Charlotte Pudding",
@@ -2896,6 +3645,13 @@
     "id": "OP09-087_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-pudding-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
     ]
   },
   {
@@ -2923,7 +3679,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-088",
-    "id": "OP09-088_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-088_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shiryu-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Stronger",
@@ -2950,7 +3713,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-089",
-    "id": "OP09-089_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-089_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/stronger-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Doc Q",
@@ -2977,7 +3747,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-090",
-    "id": "OP09-090_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-090_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/doc-q-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vasco Shot",
@@ -3003,7 +3780,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-091",
-    "id": "OP09-091_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-091_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vasco-shot-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Marshall.D.Teach",
@@ -3029,7 +3813,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-092",
-    "id": "OP09-092_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-092_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/marshall-d-teach-op-09-emperors-in-the-new-world-313078",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Marshall.D.Teach",
@@ -3058,7 +3849,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-093",
-    "id": "OP09-093_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-093_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/marshall-d-teach-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Marshall.D.Teach",
@@ -3088,7 +3886,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-093_p1",
     "id": "OP09-093_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/marshall-d-teach-alternate-art-op-09-emperors-in-the-new-world-313075",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Marshall.D.Teach",
@@ -3118,7 +3923,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-093_p2",
     "id": "OP09-093_p2_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
-    "illustration": "manga"
+    "illustration": "manga",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/marshall-d-teach-manga-panel-alternate-art-secret-rare-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Peachbeard",
@@ -3142,7 +3954,14 @@
     "cost": 3,
     "expansionCode": "OP09",
     "imageId": "OP09-094",
-    "id": "OP09-094_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-094_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/peachbeard-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Laffitte",
@@ -3168,7 +3987,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-095",
-    "id": "OP09-095_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-095_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/laffitte-op-09-emperors-in-the-new-world",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "My Era...Begins!!",
@@ -3194,7 +4020,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-096",
-    "id": "OP09-096_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-096_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/my-era-begins-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Black Vortex",
@@ -3220,7 +4053,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-097",
-    "id": "OP09-097_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-097_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/black-vortex-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Black Hole",
@@ -3246,7 +4086,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-098",
-    "id": "OP09-098_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-098_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/black-hole-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Fullalead",
@@ -3272,7 +4119,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-099",
-    "id": "OP09-099_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-099_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/fullalead-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Karasu",
@@ -3298,7 +4152,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-100",
-    "id": "OP09-100_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-100_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/karasu-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kuzan",
@@ -3324,6 +4185,13 @@
     "id": "OP09-101_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kuzan-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
     ]
   },
   {
@@ -3351,7 +4219,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-102",
-    "id": "OP09-102_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-102_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/professor-clover-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Koala",
@@ -3378,7 +4253,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-103",
-    "id": "OP09-103_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-103_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/koala-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Koala",
@@ -3406,7 +4288,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-103_p1",
     "id": "OP09-103_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/koala-alternate-art-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sabo",
@@ -3432,6 +4321,13 @@
     "id": "OP09-104_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sabo-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
     ]
   },
   {
@@ -3456,7 +4352,14 @@
     "cost": 5,
     "expansionCode": "OP09",
     "imageId": "OP09-105",
-    "id": "OP09-105_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-105_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nico Olvia",
@@ -3482,6 +4385,13 @@
     "id": "OP09-106_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nico-olvia-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
     ]
   },
   {
@@ -3508,6 +4418,13 @@
     "id": "OP09-107_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nico-robin-foil-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
     ]
   },
   {
@@ -3535,7 +4452,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nico-robin-alternate-art-op-09-emperors-in-the-new-world-313112",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Bartholomew Kuma",
@@ -3559,7 +4483,14 @@
     "cost": 4,
     "expansionCode": "OP09",
     "imageId": "OP09-108",
-    "id": "OP09-108_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-108_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/bartholomew-kuma-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Jaguar.D.Saul",
@@ -3587,7 +4518,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-109",
-    "id": "OP09-109_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-109_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jaguar-d-saul-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Pierre",
@@ -3614,6 +4552,13 @@
     "id": "OP09-110_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/pierre-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
     ]
   },
   {
@@ -3638,7 +4583,14 @@
     "cost": 5,
     "expansionCode": "OP09",
     "imageId": "OP09-111",
-    "id": "OP09-111_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-111_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/brook-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Belo Betty",
@@ -3664,6 +4616,13 @@
     "id": "OP09-112_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/belo-betty-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
     ]
   },
   {
@@ -3688,7 +4647,14 @@
     "cost": 4,
     "expansionCode": "OP09",
     "imageId": "OP09-113",
-    "id": "OP09-113_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-113_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/morley-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Lindbergh",
@@ -3715,6 +4681,13 @@
     "id": "OP09-114_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/lindbergh-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
     ]
   },
   {
@@ -3742,7 +4715,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-115",
-    "id": "OP09-115_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-115_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ice-block-partisan-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Never Underestimate the Power of Miracles!!",
@@ -3768,7 +4748,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-116",
-    "id": "OP09-116_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-116_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/never-underestimate-the-power-of-miracles-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Dereshi!",
@@ -3795,7 +4782,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-117",
-    "id": "OP09-117_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-117_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/dereshi-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gol.D.Roger",
@@ -3823,7 +4817,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-118",
-    "id": "OP09-118_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-118_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gol-d-roger-secret-rare-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gol.D.Roger",
@@ -3852,7 +4853,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-118_p1",
     "id": "OP09-118_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gol-d-roger-alternate-art-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gol.D.Roger",
@@ -3881,7 +4889,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-118_p2",
     "id": "OP09-118_p2_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
-    "illustration": "gold-manga"
+    "illustration": "gold-manga",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gol-d-roger-gold-manga-panel-alternate-art-secret-rare-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3908,7 +4923,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-119",
-    "id": "OP09-119_EMPERORS_IN_THE_NEW_WORLD_[OP-09]"
+    "id": "OP09-119_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-secret-rare-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3936,7 +4958,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-119_p1",
     "id": "OP09-119_p1_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-alternate-art-op-09-emperors-in-the-new-world-313082",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3964,7 +4993,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-119_p2",
     "id": "OP09-119_p2_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
-    "illustration": "manga"
+    "illustration": "manga",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-manga-panel-alternate-art-secret-rare-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Zoro-Juurou",
@@ -3991,7 +5027,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/zoro-juurou-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Donquixote Rosinante",
@@ -4020,7 +5063,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-119_p2",
     "id": "OP04-119_p2_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/donquixote-rosinante-special-rare-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Zoro-Juurou",
@@ -4047,7 +5097,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-067_p4",
     "id": "OP05-067_p4_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/zoro-juurou-special-rare-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Rob Lucci",
@@ -4074,7 +5131,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/rob-lucci-special-rare-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -4104,7 +5168,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-119_p6",
     "id": "OP05-119_p6_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
-    "illustration": "wanted"
+    "illustration": "wanted",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-wanted-alternate-art-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Dragon",
@@ -4132,7 +5203,14 @@
     "expansionCode": "OP07",
     "imageId": "OP07-015_p2",
     "id": "OP07-015_p2_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-dragon-special-rare-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Boa Hancock",
@@ -4160,7 +5238,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/boa-hancock-special-rare-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nami",
@@ -4189,7 +5274,14 @@
     "expansionCode": "OP08",
     "imageId": "OP08-106_p2",
     "id": "OP08-106_p2_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nami-special-rare-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shanks",
@@ -4217,7 +5309,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-004_p3",
     "id": "OP09-004_p3_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
-    "illustration": "wanted"
+    "illustration": "wanted",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shanks-wanted-alternate-art-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Buggy",
@@ -4245,7 +5344,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "wanted"
+    "illustration": "wanted",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/buggy-wanted-alternate-art-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Marshall.D.Teach",
@@ -4275,6 +5381,13 @@
     "expansionCode": "OP09",
     "imageId": "OP09-093_p3",
     "id": "OP09-093_p3_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
-    "illustration": "wanted"
+    "illustration": "wanted",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/marshall-d-teach-wanted-alternate-art-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
   }
 ]

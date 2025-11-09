@@ -26,7 +26,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-001",
-    "id": "OP04-001_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-001_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nefeltari-vivi-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nefeltari Vivi",
@@ -56,7 +63,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-001_p1",
     "id": "OP04-001_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nefeltari-vivi-alternate-art-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Igaram",
@@ -82,7 +96,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-002",
-    "id": "OP04-002_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-002_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/igaram-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Usopp",
@@ -109,7 +130,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-003",
-    "id": "OP04-003_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-003_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/usopp-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Karoo",
@@ -136,7 +164,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-004",
-    "id": "OP04-004_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-004_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/karoo-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kung Fu Jugon",
@@ -163,7 +198,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-005",
-    "id": "OP04-005_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-005_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kung-fu-jugon-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Koza",
@@ -189,7 +231,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-006",
-    "id": "OP04-006_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-006_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/koza-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -213,7 +262,14 @@
     "cost": 1,
     "expansionCode": "OP04",
     "imageId": "OP04-007",
-    "id": "OP04-007_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-007_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Chaka",
@@ -240,7 +296,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-008",
-    "id": "OP04-008_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-008_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/chaka-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Super Spot-Billed Duck Troops",
@@ -267,7 +330,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-009",
-    "id": "OP04-009_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-009_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/super-spot-billed-duck-troops-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Tony Tony.Chopper",
@@ -295,6 +365,13 @@
     "id": "OP04-010_KINGDOMS_OF_INTRIGUE_[OP04]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tony-tony-chopper-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
     ]
   },
   {
@@ -322,7 +399,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-011",
-    "id": "OP04-011_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-011_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nami-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nefeltari Cobra",
@@ -348,7 +432,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-012",
-    "id": "OP04-012_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-012_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nefeltari-cobra-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Pell",
@@ -375,7 +466,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-013",
-    "id": "OP04-013_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-013_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/pell-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Pell",
@@ -403,7 +501,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-013_p1",
     "id": "OP04-013_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/pell-alternate-art-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -430,7 +535,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-014",
-    "id": "OP04-014_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-014_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-op-04-kingdoms-of-intrigue-260876",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -457,6 +569,13 @@
     "id": "OP04-015_KINGDOMS_OF_INTRIGUE_[OP04]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/roronoa-zoro-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
     ]
   },
   {
@@ -484,7 +603,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-016",
-    "id": "OP04-016_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-016_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/bad-manners-kick-course-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Happiness Punch",
@@ -511,7 +637,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-017",
-    "id": "OP04-017_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-017_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/happiness-punch-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Enchanting Vertigo Dance",
@@ -537,7 +670,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-018",
-    "id": "OP04-018_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-018_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/enchanting-vertigo-dance-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Donquixote Doflamingo",
@@ -565,7 +705,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-019",
-    "id": "OP04-019_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-019_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/donquixote-doflamingo-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Donquixote Doflamingo",
@@ -594,7 +741,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-019_p1",
     "id": "OP04-019_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/donquixote-doflamingo-alternate-art-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Issho",
@@ -623,7 +777,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-020",
-    "id": "OP04-020_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-020_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/issho-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Issho",
@@ -653,7 +814,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-020_p1",
     "id": "OP04-020_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/issho-alternate-art-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Viola",
@@ -679,7 +847,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-021",
-    "id": "OP04-021_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-021_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/viola-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Eric",
@@ -705,7 +880,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-022",
-    "id": "OP04-022_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-022_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/eric-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kuro",
@@ -729,7 +911,14 @@
     "cost": 6,
     "expansionCode": "OP04",
     "imageId": "OP04-023",
-    "id": "OP04-023_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-023_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kuro-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sugar",
@@ -757,7 +946,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-024",
-    "id": "OP04-024_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-024_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sugar-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sugar",
@@ -786,7 +982,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-024_p1",
     "id": "OP04-024_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sugar-alternate-art-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Giolla",
@@ -812,7 +1015,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-025",
-    "id": "OP04-025_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-025_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/giolla-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Senor Pink",
@@ -838,7 +1048,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-026",
-    "id": "OP04-026_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-026_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/senor-pink-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Daddy Masterson",
@@ -866,7 +1083,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-027",
-    "id": "OP04-027_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-027_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/daddy-masterson-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Diamante",
@@ -894,7 +1118,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-028",
-    "id": "OP04-028_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-028_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/diamante-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Diamante",
@@ -923,7 +1154,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-028_p1",
     "id": "OP04-028_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/diamante-alternate-art-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Dellinger",
@@ -949,7 +1187,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-029",
-    "id": "OP04-029_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-029_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/dellinger-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Trebol",
@@ -976,7 +1221,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-030",
-    "id": "OP04-030_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-030_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/trebol-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Trebol",
@@ -1004,7 +1256,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-030_p1",
     "id": "OP04-030_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/trebol-alternate-art-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Donquixote Doflamingo",
@@ -1031,6 +1290,13 @@
     "id": "OP04-031_KINGDOMS_OF_INTRIGUE_[OP04]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/donquixote-doflamingo-op-04-kingdoms-of-intrigue-258840",
+        "verified": true
+      }
     ]
   },
   {
@@ -1059,7 +1325,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/donquixote-doflamingo-alternate-art-op-04-kingdoms-of-intrigue-258841",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Baby 5",
@@ -1085,7 +1358,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-032",
-    "id": "OP04-032_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-032_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/baby-5-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Machvise",
@@ -1111,6 +1391,13 @@
     "id": "OP04-033_KINGDOMS_OF_INTRIGUE_[OP04]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/machvise-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
     ]
   },
   {
@@ -1137,7 +1424,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-034",
-    "id": "OP04-034_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-034_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/lao-g-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Spiderweb",
@@ -1164,7 +1458,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-035",
-    "id": "OP04-035_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-035_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/spiderweb-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Donquixote Family",
@@ -1190,7 +1491,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-036",
-    "id": "OP04-036_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-036_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/donquixote-family-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Flapping Thread",
@@ -1217,7 +1525,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-037",
-    "id": "OP04-037_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-037_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/flapping-thread-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "The Weak Do Not Have the Right to Choose How They Die!!!",
@@ -1245,7 +1560,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-038",
-    "id": "OP04-038_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-038_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/the-weak-do-not-have-the-right-to-choose-how-they-die-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Rebecca",
@@ -1273,7 +1595,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-039",
-    "id": "OP04-039_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-039_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/rebecca-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Rebecca",
@@ -1302,7 +1631,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-039_p1",
     "id": "OP04-039_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/rebecca-alternate-art-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Queen",
@@ -1330,7 +1666,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-040",
-    "id": "OP04-040_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-040_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/queen-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Queen",
@@ -1359,7 +1702,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-040_p1",
     "id": "OP04-040_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/queen-alternate-art-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Apis",
@@ -1385,6 +1735,13 @@
     "id": "OP04-041_KINGDOMS_OF_INTRIGUE_[OP04]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/apis-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
     ]
   },
   {
@@ -1411,6 +1768,13 @@
     "id": "OP04-042_KINGDOMS_OF_INTRIGUE_[OP04]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ipponmatsu-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
     ]
   },
   {
@@ -1438,7 +1802,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-043",
-    "id": "OP04-043_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-043_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ulti-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kaido",
@@ -1465,6 +1836,13 @@
     "id": "OP04-044_KINGDOMS_OF_INTRIGUE_[OP04]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kaido-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
     ]
   },
   {
@@ -1493,7 +1871,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kaido-alternate-art-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "King",
@@ -1519,6 +1904,13 @@
     "id": "OP04-045_KINGDOMS_OF_INTRIGUE_[OP04]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/king-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
     ]
   },
   {
@@ -1545,6 +1937,13 @@
     "id": "OP04-046_KINGDOMS_OF_INTRIGUE_[OP04]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/queen-op-04-kingdoms-of-intrigue-260850",
+        "verified": true
+      }
     ]
   },
   {
@@ -1572,7 +1971,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-047",
-    "id": "OP04-047_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-047_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ice-oni-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sasaki",
@@ -1598,6 +2004,13 @@
     "id": "OP04-048_KINGDOMS_OF_INTRIGUE_[OP04]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sasaki-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
     ]
   },
   {
@@ -1624,7 +2037,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-049",
-    "id": "OP04-049_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-049_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jack-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Hanger",
@@ -1650,7 +2070,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-050",
-    "id": "OP04-050_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-050_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hanger-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Who's.Who",
@@ -1676,6 +2103,13 @@
     "id": "OP04-051_KINGDOMS_OF_INTRIGUE_[OP04]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/who-s-who-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
     ]
   },
   {
@@ -1703,7 +2137,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/who-s-who-alternate-art-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Black Maria",
@@ -1729,7 +2170,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-052",
-    "id": "OP04-052_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-052_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/black-maria-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Page One",
@@ -1756,7 +2204,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-053",
-    "id": "OP04-053_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-053_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/page-one-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Rokki",
@@ -1780,7 +2235,14 @@
     "cost": 5,
     "expansionCode": "OP04",
     "imageId": "OP04-054",
-    "id": "OP04-054_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-054_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/rokki-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Plague Rounds",
@@ -1806,7 +2268,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-055",
-    "id": "OP04-055_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-055_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/plague-rounds-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gum-Gum Red Roc",
@@ -1832,7 +2301,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-056",
-    "id": "OP04-056_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-056_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gum-gum-red-roc-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Dragon Twister Demolition Breath",
@@ -1859,7 +2335,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-057",
-    "id": "OP04-057_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-057_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/dragon-twister-demolition-breath-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Crocodile",
@@ -1888,7 +2371,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-058",
-    "id": "OP04-058_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-058_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/crocodile-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Crocodile",
@@ -1918,7 +2408,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-058_p1",
     "id": "OP04-058_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/crocodile-alternate-art-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Iceburg",
@@ -1946,7 +2443,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-059",
-    "id": "OP04-059_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-059_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/iceburg-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Crocodile",
@@ -1975,7 +2479,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-060",
-    "id": "OP04-060_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-060_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/crocodile-op-04-kingdoms-of-intrigue-258834",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Crocodile",
@@ -2005,7 +2516,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-060_p1",
     "id": "OP04-060_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/crocodile-alternate-art-op-04-kingdoms-of-intrigue-258835",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Tom",
@@ -2032,7 +2550,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-061",
-    "id": "OP04-061_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-061_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tom-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Bananagator",
@@ -2055,7 +2580,14 @@
     "cost": 5,
     "expansionCode": "OP04",
     "imageId": "OP04-062",
-    "id": "OP04-062_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-062_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/bananagator-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Franky",
@@ -2083,7 +2615,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-063",
-    "id": "OP04-063_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-063_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/franky-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Ms. All Sunday",
@@ -2109,6 +2648,13 @@
     "id": "OP04-064_KINGDOMS_OF_INTRIGUE_[OP04]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ms-all-sunday-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
     ]
   },
   {
@@ -2136,7 +2682,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ms-all-sunday-alternate-art-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Miss.Goldenweek(Marianne)",
@@ -2162,6 +2715,13 @@
     "id": "OP04-065_KINGDOMS_OF_INTRIGUE_[OP04]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/miss-goldenweek-marianne-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
     ]
   },
   {
@@ -2188,6 +2748,13 @@
     "id": "OP04-066_KINGDOMS_OF_INTRIGUE_[OP04]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/miss-valentine-mikita-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
     ]
   },
   {
@@ -2214,7 +2781,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-067",
-    "id": "OP04-067_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-067_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/miss-merrychristmas-drophy-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Yokozuna",
@@ -2242,7 +2816,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-068",
-    "id": "OP04-068_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-068_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/yokozuna-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Mr.2.Bon.Kurei(Bentham)",
@@ -2268,7 +2849,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-069",
-    "id": "OP04-069_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-069_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/mr-2-bon-kurei-bentham-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Mr.3(Galdino)",
@@ -2295,7 +2883,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-070",
-    "id": "OP04-070_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-070_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/mr-3-galdino-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Mr.4(Babe)",
@@ -2322,7 +2917,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-071",
-    "id": "OP04-071_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-071_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/mr-4-babe-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Mr.5(Gem)",
@@ -2349,7 +2951,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-072",
-    "id": "OP04-072_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-072_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/mr-5-gem-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Mr.5(Gem)",
@@ -2377,7 +2986,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-072_p1",
     "id": "OP04-072_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/mr-5-gem-alternate-art-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Mr.13 & Ms.Friday",
@@ -2404,7 +3020,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-073",
-    "id": "OP04-073_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-073_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/mr-13-ms-friday-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Colors Trap",
@@ -2430,7 +3053,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-074",
-    "id": "OP04-074_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-074_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/colors-trap-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nez-Palm Cannon",
@@ -2456,7 +3086,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-075",
-    "id": "OP04-075_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-075_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nez-palm-cannon-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Weakness...Is an Unforgivable Sin.",
@@ -2483,7 +3120,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-076",
-    "id": "OP04-076_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-076_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/weakness-is-an-unforgivable-sin-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Ideo",
@@ -2509,7 +3153,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-077",
-    "id": "OP04-077_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-077_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ideo-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Oimo & Kashii",
@@ -2533,7 +3184,14 @@
     "cost": 6,
     "expansionCode": "OP04",
     "imageId": "OP04-078",
-    "id": "OP04-078_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-078_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/oimo-kashii-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Orlumbus",
@@ -2561,7 +3219,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-079",
-    "id": "OP04-079_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-079_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/orlumbus-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gyats",
@@ -2587,6 +3252,13 @@
     "id": "OP04-080_KINGDOMS_OF_INTRIGUE_[OP04]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gyats-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
     ]
   },
   {
@@ -2615,7 +3287,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-081",
-    "id": "OP04-081_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-081_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/cavendish-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kyros",
@@ -2641,6 +3320,13 @@
     "id": "OP04-082_KINGDOMS_OF_INTRIGUE_[OP04]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kyros-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
     ]
   },
   {
@@ -2668,7 +3354,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kyros-alternate-art-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sabo",
@@ -2696,7 +3389,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-083",
-    "id": "OP04-083_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-083_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sabo-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sabo",
@@ -2725,7 +3425,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-083_p1",
     "id": "OP04-083_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sabo-alternate-art-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sabo",
@@ -2754,7 +3461,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-083_p2",
     "id": "OP04-083_p2_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "manga"
+    "illustration": "manga",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sabo-manga-panel-alternate-art-secret-rare-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Stussy",
@@ -2780,6 +3494,13 @@
     "id": "OP04-084_KINGDOMS_OF_INTRIGUE_[OP04]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/stussy-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
     ]
   },
   {
@@ -2807,7 +3528,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-085",
-    "id": "OP04-085_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-085_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/suleiman-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Chinjao",
@@ -2834,7 +3562,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-086",
-    "id": "OP04-086_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-086_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/chinjao-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -2858,7 +3593,14 @@
     "cost": 5,
     "expansionCode": "OP04",
     "imageId": "OP04-087",
-    "id": "OP04-087_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-087_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/trafalgar-law-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Hajrudin",
@@ -2886,7 +3628,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-088",
-    "id": "OP04-088_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-088_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hajrudin-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Bartolomeo",
@@ -2913,7 +3662,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-089",
-    "id": "OP04-089_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-089_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/bartolomeo-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -2941,7 +3697,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-090",
-    "id": "OP04-090_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-090_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -2970,7 +3733,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-090_p1",
     "id": "OP04-090_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-alternate-art-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Leo",
@@ -2997,6 +3767,13 @@
     "id": "OP04-091_KINGDOMS_OF_INTRIGUE_[OP04]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/leo-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
     ]
   },
   {
@@ -3023,6 +3800,13 @@
     "id": "OP04-092_KINGDOMS_OF_INTRIGUE_[OP04]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/rebecca-op-04-kingdoms-of-intrigue-260859",
+        "verified": true
+      }
     ]
   },
   {
@@ -3051,7 +3835,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-093",
-    "id": "OP04-093_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-093_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gum-gum-king-kong-gun-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Trueno Bastardo",
@@ -3077,7 +3868,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-094",
-    "id": "OP04-094_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-094_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/trueno-bastardo-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Barrier!!",
@@ -3104,7 +3902,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-095",
-    "id": "OP04-095_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-095_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/barrier-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Corrida Coliseum",
@@ -3127,7 +3932,14 @@
     "cost": 1,
     "expansionCode": "OP04",
     "imageId": "OP04-096",
-    "id": "OP04-096_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-096_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/corrida-coliseum-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Otama",
@@ -3153,6 +3965,13 @@
     "id": "OP04-097_KINGDOMS_OF_INTRIGUE_[OP04]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/otama-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
     ]
   },
   {
@@ -3179,6 +3998,13 @@
     "id": "OP04-098_KINGDOMS_OF_INTRIGUE_[OP04]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/toko-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
     ]
   },
   {
@@ -3204,7 +4030,14 @@
     "cost": 7,
     "expansionCode": "OP04",
     "imageId": "OP04-099",
-    "id": "OP04-099_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-099_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/olin-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Capone\"Gang\"Bege",
@@ -3227,7 +4060,14 @@
     "cost": 3,
     "expansionCode": "OP04",
     "imageId": "OP04-100",
-    "id": "OP04-100_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-100_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/capone-gang-bege-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Capone\"Gang\"Bege",
@@ -3251,7 +4091,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-100_p1",
     "id": "OP04-100_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/capone-gang-bege-alternate-art-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Carmel",
@@ -3278,7 +4125,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-101",
-    "id": "OP04-101_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-101_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/carmel-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kin'emon",
@@ -3305,7 +4159,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-102",
-    "id": "OP04-102_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-102_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kin-emon-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kouzuki Hiyori",
@@ -3332,6 +4193,13 @@
     "id": "OP04-103_KINGDOMS_OF_INTRIGUE_[OP04]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kouzuki-hiyori-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
     ]
   },
   {
@@ -3358,7 +4226,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-104",
-    "id": "OP04-104_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-104_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-op-04-kingdoms-of-intrigue-260847",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -3385,7 +4260,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-104_p1",
     "id": "OP04-104_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-alternate-art-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Charlotte Amande",
@@ -3413,7 +4295,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-105",
-    "id": "OP04-105_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-105_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-amande-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Charlotte Bavarois",
@@ -3439,7 +4328,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-106",
-    "id": "OP04-106_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-106_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-bavarois-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Charlotte Perospero",
@@ -3462,7 +4358,14 @@
     "cost": 6,
     "expansionCode": "OP04",
     "imageId": "OP04-107",
-    "id": "OP04-107_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-107_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-perospero-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Charlotte Moscato",
@@ -3489,7 +4392,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-108",
-    "id": "OP04-108_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-108_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-moscato-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Tonoyasu",
@@ -3515,7 +4425,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-109",
-    "id": "OP04-109_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-109_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tonoyasu-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Pound",
@@ -3542,7 +4459,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-110",
-    "id": "OP04-110_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-110_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/pound-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Hera",
@@ -3569,7 +4493,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-111",
-    "id": "OP04-111_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-111_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hera-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Yamato",
@@ -3595,6 +4526,13 @@
     "id": "OP04-112_KINGDOMS_OF_INTRIGUE_[OP04]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/yamato-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
     ]
   },
   {
@@ -3622,7 +4560,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/yamato-alternate-art-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Rabiyan",
@@ -3646,7 +4591,14 @@
     "cost": 2,
     "expansionCode": "OP04",
     "imageId": "OP04-113",
-    "id": "OP04-113_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-113_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/rabiyan-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Randolph",
@@ -3670,7 +4622,14 @@
     "cost": 5,
     "expansionCode": "OP04",
     "imageId": "OP04-114",
-    "id": "OP04-114_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-114_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/randolph-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gun Modoki",
@@ -3698,7 +4657,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-115",
-    "id": "OP04-115_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-115_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gun-modoki-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Diable Jambe Joue Shot",
@@ -3724,7 +4690,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-116",
-    "id": "OP04-116_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-116_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/diable-jambe-joue-shot-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Heavenly Fire",
@@ -3751,7 +4724,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-117",
-    "id": "OP04-117_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-117_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/heavenly-fire-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nefeltari Vivi",
@@ -3777,7 +4757,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-118",
-    "id": "OP04-118_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-118_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nefeltari-vivi-op-04-kingdoms-of-intrigue-260868",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nefeltari Vivi",
@@ -3804,7 +4791,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-118_p1",
     "id": "OP04-118_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nefeltari-vivi-alternate-art-secret-rare-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Donquixote Rosinante",
@@ -3832,7 +4826,14 @@
     ],
     "expansionCode": "OP04",
     "imageId": "OP04-119",
-    "id": "OP04-119_KINGDOMS_OF_INTRIGUE_[OP04]"
+    "id": "OP04-119_KINGDOMS_OF_INTRIGUE_[OP04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/donquixote-rosinante-secret-rare-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Donquixote Rosinante",
@@ -3861,7 +4862,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-119_p1",
     "id": "OP04-119_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/donquixote-rosinante-alternate-art-secret-rare-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -3890,7 +4898,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-047_p2",
     "id": "OP01-047_p2_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/trafalgar-law-alternate-art-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Boa Hancock",
@@ -3921,7 +4936,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-078_p2",
     "id": "OP01-078_p2_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/boa-hancock-alternate-art-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Edward.Newgate",
@@ -3951,7 +4973,14 @@
     "expansionCode": "OP02",
     "imageId": "OP02-004_p2",
     "id": "OP02-004_p2_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/edward-newgate-alternate-art-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Magellan",
@@ -3979,7 +5008,14 @@
     "expansionCode": "OP02",
     "imageId": "OP02-085_p2",
     "id": "OP02-085_p2_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/magellan-alternate-art-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sakazuki",
@@ -4006,6 +5042,13 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sakazuki-alternate-art-op-04-kingdoms-of-intrigue",
+        "verified": true
+      }
+    ]
   }
 ]

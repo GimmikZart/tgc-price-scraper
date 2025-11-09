@@ -27,7 +27,14 @@
     "expansionCode": "EB01",
     "imageId": "EB01-001_p2",
     "id": "EB01-001_p2_Anime_25th_Collection_[EB-02]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kouzuki-oden-special-rare-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Hannyabal",
@@ -55,7 +62,14 @@
     "expansionCode": "EB01",
     "imageId": "EB01-021_p2",
     "id": "EB01-021_p2_Anime_25th_Collection_[EB-02]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hannyabal-special-rare-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kyros",
@@ -84,7 +98,14 @@
     "expansionCode": "EB01",
     "imageId": "EB01-040_p2",
     "id": "EB01-040_p2_Anime_25th_Collection_[EB-02]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kyros-special-rare-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Karoo",
@@ -108,7 +129,14 @@
     "cost": 5,
     "expansionCode": "EB02",
     "imageId": "EB02-001",
-    "id": "EB02-001_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-001_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/karoo-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sabo",
@@ -135,7 +163,14 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-002",
-    "id": "EB02-002_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-002_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sabo-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Tony Tony.Chopper",
@@ -165,7 +200,14 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-003",
-    "id": "EB02-003_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-003_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tony-tony-chopper-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Tony Tony.Chopper",
@@ -196,7 +238,14 @@
     "expansionCode": "EB02",
     "imageId": "EB02-003_p1",
     "id": "EB02-003_p1_Anime_25th_Collection_[EB-02]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tony-tony-chopper-alternate-art-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Don Accino",
@@ -219,7 +268,14 @@
     "cost": 8,
     "expansionCode": "EB02",
     "imageId": "EB02-004",
-    "id": "EB02-004_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-004_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/don-accino-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Fake Straw Hat Crew",
@@ -246,7 +302,14 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-005",
-    "id": "EB02-005_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-005_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/fake-straw-hat-crew-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Yamato",
@@ -274,7 +337,14 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-006",
-    "id": "EB02-006_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-006_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/yamato-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Yamato",
@@ -303,7 +373,14 @@
     "expansionCode": "EB02",
     "imageId": "EB02-006_p1",
     "id": "EB02-006_p1_Anime_25th_Collection_[EB-02]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/yamato-alternate-art-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Cloven Rose Blizzard",
@@ -331,7 +408,14 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-007",
-    "id": "EB02-007_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-007_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/cloven-rose-blizzard-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "The Peak",
@@ -357,7 +441,14 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-008",
-    "id": "EB02-008_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-008_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/the-peak-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Thousand Sunny",
@@ -383,7 +474,14 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-009",
-    "id": "EB02-009_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-009_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/thousand-sunny-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -411,7 +509,14 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-010",
-    "id": "EB02-010_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-010_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -440,7 +545,14 @@
     "expansionCode": "EB02",
     "imageId": "EB02-010_p1",
     "id": "EB02-010_p1_Anime_25th_Collection_[EB-02]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-alternate-art-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Arlong",
@@ -468,6 +580,13 @@
     "id": "EB02-011_Anime_25th_Collection_[EB-02]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/arlong-eb-02-anime-25th-collection",
+        "verified": true
+      }
     ]
   },
   {
@@ -497,7 +616,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/arlong-alternate-art-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gaimon",
@@ -523,7 +649,14 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-012",
-    "id": "EB02-012_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-012_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gaimon-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Carrot",
@@ -549,6 +682,13 @@
     "id": "EB02-013_Anime_25th_Collection_[EB-02]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/carrot-eb-02-anime-25th-collection",
+        "verified": true
+      }
     ]
   },
   {
@@ -575,6 +715,13 @@
     "id": "EB02-014_Anime_25th_Collection_[EB-02]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sarfunkel-eb-02-anime-25th-collection",
+        "verified": true
+      }
     ]
   },
   {
@@ -602,6 +749,13 @@
     "id": "EB02-015_Anime_25th_Collection_[EB-02]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jewelry-bonney-eb-02-anime-25th-collection",
+        "verified": true
+      }
     ]
   },
   {
@@ -630,7 +784,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jewelry-bonney-alternate-art-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Chopperman",
@@ -657,6 +818,13 @@
     "id": "EB02-016_Anime_25th_Collection_[EB-02]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/chopperman-eb-02-anime-25th-collection",
+        "verified": true
+      }
     ]
   },
   {
@@ -684,6 +852,13 @@
     "id": "EB02-017_Anime_25th_Collection_[EB-02]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nami-eb-02-anime-25th-collection",
+        "verified": true
+      }
     ]
   },
   {
@@ -712,7 +887,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nami-alternate-art-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Buggy",
@@ -740,7 +922,14 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-018",
-    "id": "EB02-018_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-018_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/buggy-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -767,6 +956,13 @@
     "id": "EB02-019_Anime_25th_Collection_[EB-02]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/roronoa-zoro-eb-02-anime-25th-collection",
+        "verified": true
+      }
     ]
   },
   {
@@ -793,7 +989,14 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-020",
-    "id": "EB02-020_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-020_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/we-are-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gum-Gum Giant Pistol",
@@ -820,7 +1023,14 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-021",
-    "id": "EB02-021_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-021_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gum-gum-giant-pistol-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Usopp",
@@ -847,6 +1057,13 @@
     "id": "EB02-022_Anime_25th_Collection_[EB-02]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/usopp-eb-02-anime-25th-collection",
+        "verified": true
+      }
     ]
   },
   {
@@ -875,7 +1092,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/usopp-alternate-art-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Crocodile",
@@ -903,7 +1127,14 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-023",
-    "id": "EB02-023_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-023_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/crocodile-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sogeking",
@@ -929,6 +1160,13 @@
     "id": "EB02-024_Anime_25th_Collection_[EB-02]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sogeking-eb-02-anime-25th-collection",
+        "verified": true
+      }
     ]
   },
   {
@@ -956,7 +1194,14 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-025",
-    "id": "EB02-025_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-025_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/donquixote-rosinante-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nefeltari Vivi",
@@ -982,6 +1227,13 @@
     "id": "EB02-026_Anime_25th_Collection_[EB-02]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nefeltari-vivi-eb-02-anime-25th-collection",
+        "verified": true
+      }
     ]
   },
   {
@@ -1009,7 +1261,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nefeltari-vivi-alternate-art-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vista",
@@ -1035,6 +1294,13 @@
     "id": "EB02-027_Anime_25th_Collection_[EB-02]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vista-eb-02-anime-25th-collection",
+        "verified": true
+      }
     ]
   },
   {
@@ -1062,6 +1328,13 @@
     "id": "EB02-028_Anime_25th_Collection_[EB-02]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/portgas-d-ace-eb-02-anime-25th-collection",
+        "verified": true
+      }
     ]
   },
   {
@@ -1086,7 +1359,14 @@
     "cost": 3,
     "expansionCode": "EB02",
     "imageId": "EB02-029",
-    "id": "EB02-029_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-029_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/grandpa-ryu-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "And That's When Somebody Makes Fun of Their Friend's Dream!!!!",
@@ -1113,7 +1393,14 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-030",
-    "id": "EB02-030_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-030_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/and-that-s-when-somebody-makes-fun-of-their-friend-s-dream-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Hope",
@@ -1139,7 +1426,14 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-031",
-    "id": "EB02-031_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-031_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hope-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Iceburg",
@@ -1166,6 +1460,13 @@
     "id": "EB02-032_Anime_25th_Collection_[EB-02]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/iceburg-eb-02-anime-25th-collection",
+        "verified": true
+      }
     ]
   },
   {
@@ -1192,7 +1493,14 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-033",
-    "id": "EB02-033_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-033_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/klabautermann-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Komei",
@@ -1216,7 +1524,14 @@
     "cost": 4,
     "expansionCode": "EB02",
     "imageId": "EB02-034",
-    "id": "EB02-034_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-034_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/komei-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sanji & Pudding",
@@ -1245,7 +1560,14 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-035",
-    "id": "EB02-035_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-035_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-pudding-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sanji & Pudding",
@@ -1275,7 +1597,14 @@
     "expansionCode": "EB02",
     "imageId": "EB02-035_p1",
     "id": "EB02-035_p1_Anime_25th_Collection_[EB-02]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-pudding-alternate-art-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nico Robin",
@@ -1302,7 +1631,14 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-036",
-    "id": "EB02-036_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-036_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nico-robin-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nico Robin",
@@ -1330,7 +1666,14 @@
     "expansionCode": "EB02",
     "imageId": "EB02-036_p1",
     "id": "EB02-036_p1_Anime_25th_Collection_[EB-02]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nico-robin-alternate-art-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Franky",
@@ -1358,7 +1701,14 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-037",
-    "id": "EB02-037_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-037_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/franky-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Magellan",
@@ -1384,6 +1734,13 @@
     "id": "EB02-038_Anime_25th_Collection_[EB-02]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/magellan-eb-02-anime-25th-collection",
+        "verified": true
+      }
     ]
   },
   {
@@ -1411,7 +1768,14 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-039",
-    "id": "EB02-039_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-039_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/germa-66-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "BRAND NEW WORLD",
@@ -1437,7 +1801,14 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-040",
-    "id": "EB02-040_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-040_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/brand-new-world-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Merry Go",
@@ -1464,7 +1835,14 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-041",
-    "id": "EB02-041_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-041_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/merry-go-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "All-Hunt Grount",
@@ -1487,7 +1865,14 @@
     "cost": 6,
     "expansionCode": "EB02",
     "imageId": "EB02-042",
-    "id": "EB02-042_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-042_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/all-hunt-grount-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Jonathan",
@@ -1510,7 +1895,14 @@
     "cost": 7,
     "expansionCode": "EB02",
     "imageId": "EB02-043",
-    "id": "EB02-043_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-043_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jonathan-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sengoku",
@@ -1537,7 +1929,14 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-044",
-    "id": "EB02-044_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-044_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sengoku-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sengoku",
@@ -1565,7 +1964,14 @@
     "expansionCode": "EB02",
     "imageId": "EB02-044_p1",
     "id": "EB02-044_p1_Anime_25th_Collection_[EB-02]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sengoku-alternate-art-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -1594,7 +2000,14 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-045",
-    "id": "EB02-045_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-045_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/trafalgar-law-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -1624,7 +2037,14 @@
     "expansionCode": "EB02",
     "imageId": "EB02-045_p1",
     "id": "EB02-045_p1_Anime_25th_Collection_[EB-02]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/trafalgar-law-alternate-art-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Hildon",
@@ -1650,6 +2070,13 @@
     "id": "EB02-046_Anime_25th_Collection_[EB-02]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hildon-eb-02-anime-25th-collection",
+        "verified": true
+      }
     ]
   },
   {
@@ -1676,7 +2103,14 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-047",
-    "id": "EB02-047_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-047_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/blueno-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Brook",
@@ -1703,7 +2137,14 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-048",
-    "id": "EB02-048_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-048_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/brook-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Brook",
@@ -1731,7 +2172,14 @@
     "expansionCode": "EB02",
     "imageId": "EB02-048_p1",
     "id": "EB02-048_p1_Anime_25th_Collection_[EB-02]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/brook-alternate-art-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Garp",
@@ -1758,7 +2206,14 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-049",
-    "id": "EB02-049_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-049_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-garp-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kokoro no Chizu",
@@ -1784,7 +2239,14 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-050",
-    "id": "EB02-050_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-050_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kokoro-no-chizu-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Three-Pace Hum Soul Notch Slash",
@@ -1810,7 +2272,14 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-051",
-    "id": "EB02-051_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-051_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/three-pace-hum-soul-notch-slash-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Enel",
@@ -1837,7 +2306,14 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-052",
-    "id": "EB02-052_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-052_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/enel-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Enel",
@@ -1865,7 +2341,14 @@
     "expansionCode": "EB02",
     "imageId": "EB02-052_p1",
     "id": "EB02-052_p1_Anime_25th_Collection_[EB-02]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/enel-alternate-art-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Myskina Olga",
@@ -1892,7 +2375,14 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-053",
-    "id": "EB02-053_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-053_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/myskina-olga-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -1920,7 +2410,14 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-054",
-    "id": "EB02-054_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-054_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -1949,7 +2446,14 @@
     "expansionCode": "EB02",
     "imageId": "EB02-054_p1",
     "id": "EB02-054_p1_Anime_25th_Collection_[EB-02]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-alternate-art-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Jinbe",
@@ -1973,7 +2477,14 @@
     "cost": 4,
     "expansionCode": "EB02",
     "imageId": "EB02-055",
-    "id": "EB02-055_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-055_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jinbe-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vegapunk",
@@ -2001,7 +2512,14 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-056",
-    "id": "EB02-056_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-056_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vegapunk-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vegapunk",
@@ -2030,7 +2548,14 @@
     "expansionCode": "EB02",
     "imageId": "EB02-056_p1",
     "id": "EB02-056_p1_Anime_25th_Collection_[EB-02]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vegapunk-alternate-art-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Mad Treasure",
@@ -2056,7 +2581,14 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-057",
-    "id": "EB02-057_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-057_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/mad-treasure-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "UUUUUS!",
@@ -2082,7 +2614,14 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-058",
-    "id": "EB02-058_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-058_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/uuuuus-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Without Your Help I Can't Become the King of the Pirates!!!!",
@@ -2108,7 +2647,14 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-059",
-    "id": "EB02-059_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-059_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/without-your-help-i-can-t-become-the-king-of-the-pirates-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Merry Go",
@@ -2134,7 +2680,14 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-060",
-    "id": "EB02-060_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-060_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/merry-go-eb-02-anime-25th-collection-330429",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -2163,7 +2716,14 @@
     ],
     "expansionCode": "EB02",
     "imageId": "EB02-061",
-    "id": "EB02-061_Anime_25th_Collection_[EB-02]"
+    "id": "EB02-061_Anime_25th_Collection_[EB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-secret-rare-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -2193,7 +2753,14 @@
     "expansionCode": "EB02",
     "imageId": "EB02-061_p1",
     "id": "EB02-061_p1_Anime_25th_Collection_[EB-02]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-secret-rare-alternate-art-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -2223,7 +2790,14 @@
     "expansionCode": "EB02",
     "imageId": "EB02-061_p2",
     "id": "EB02-061_p2_Anime_25th_Collection_[EB-02]",
-    "illustration": "manga"
+    "illustration": "manga",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-manga-panel-alternate-art-secret-rare-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sabo",
@@ -2253,7 +2827,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-001_p2",
     "id": "OP05-001_p2_Anime_25th_Collection_[EB-02]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sabo-special-rare-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Belo Betty",
@@ -2283,7 +2864,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-002_p2",
     "id": "OP05-002_p2_Anime_25th_Collection_[EB-02]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/belo-betty-special-rare-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Donquixote Rosinante",
@@ -2313,7 +2901,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-022_p2",
     "id": "OP05-022_p2_Anime_25th_Collection_[EB-02]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/donquixote-rosinante-special-rare-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -2341,7 +2936,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-060_p4",
     "id": "OP05-060_p4_Anime_25th_Collection_[EB-02]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-special-rare-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Enel",
@@ -2369,7 +2971,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-098_p2",
     "id": "OP05-098_p2_Anime_25th_Collection_[EB-02]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/enel-special-rare-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Uta",
@@ -2397,7 +3006,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-001_p2",
     "id": "OP06-001_p2_Anime_25th_Collection_[EB-02]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/uta-special-rare-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Hody Jones",
@@ -2425,7 +3041,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-020_p2",
     "id": "OP06-020_p2_Anime_25th_Collection_[EB-02]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hody-jones-special-rare-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Perona",
@@ -2454,7 +3077,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-021_p2",
     "id": "OP06-021_p2_Anime_25th_Collection_[EB-02]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/perona-special-rare-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Yamato",
@@ -2484,7 +3114,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-022_p2",
     "id": "OP06-022_p2_Anime_25th_Collection_[EB-02]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/yamato-special-rare-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vinsmoke Reiju",
@@ -2514,7 +3151,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-042_p2",
     "id": "OP06-042_p2_Anime_25th_Collection_[EB-02]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-reiju-special-rare-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gecko Moria",
@@ -2543,7 +3187,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-080_p2",
     "id": "OP06-080_p2_Anime_25th_Collection_[EB-02]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gecko-moria-special-rare-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Dragon",
@@ -2571,7 +3222,14 @@
     "expansionCode": "OP07",
     "imageId": "OP07-001_p2",
     "id": "OP07-001_p2_Anime_25th_Collection_[EB-02]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-dragon-special-rare-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Jewelry Bonney",
@@ -2600,7 +3258,14 @@
     "expansionCode": "OP07",
     "imageId": "OP07-019_p2",
     "id": "OP07-019_p2_Anime_25th_Collection_[EB-02]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jewelry-bonney-special-rare-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Boa Hancock",
@@ -2629,7 +3294,14 @@
     "expansionCode": "OP07",
     "imageId": "OP07-038_p2",
     "id": "OP07-038_p2_Anime_25th_Collection_[EB-02]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/boa-hancock-special-rare-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Foxy",
@@ -2656,7 +3328,14 @@
     "expansionCode": "OP07",
     "imageId": "OP07-059_p2",
     "id": "OP07-059_p2_Anime_25th_Collection_[EB-02]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/foxy-special-rare-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Rob Lucci",
@@ -2683,7 +3362,14 @@
     "expansionCode": "OP07",
     "imageId": "OP07-079_p2",
     "id": "OP07-079_p2_Anime_25th_Collection_[EB-02]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/rob-lucci-special-rare-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vegapunk",
@@ -2712,7 +3398,14 @@
     "expansionCode": "OP07",
     "imageId": "OP07-097_p2",
     "id": "OP07-097_p2_Anime_25th_Collection_[EB-02]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vegapunk-special-rare-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Tony Tony.Chopper",
@@ -2743,7 +3436,14 @@
     "expansionCode": "OP08",
     "imageId": "OP08-001_p2",
     "id": "OP08-001_p2_Anime_25th_Collection_[EB-02]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tony-tony-chopper-special-rare-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Marco",
@@ -2773,7 +3473,14 @@
     "expansionCode": "OP08",
     "imageId": "OP08-002_p2",
     "id": "OP08-002_p2_Anime_25th_Collection_[EB-02]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/marco-special-rare-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Carrot",
@@ -2801,7 +3508,14 @@
     "expansionCode": "OP08",
     "imageId": "OP08-021_p2",
     "id": "OP08-021_p2_Anime_25th_Collection_[EB-02]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/carrot-special-rare-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "King",
@@ -2830,7 +3544,14 @@
     "expansionCode": "OP08",
     "imageId": "OP08-057_p2",
     "id": "OP08-057_p2_Anime_25th_Collection_[EB-02]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/king-special-rare-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Charlotte Pudding",
@@ -2858,7 +3579,14 @@
     "expansionCode": "OP08",
     "imageId": "OP08-058_p2",
     "id": "OP08-058_p2_Anime_25th_Collection_[EB-02]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-pudding-special-rare-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kalgara",
@@ -2888,6 +3616,13 @@
     "expansionCode": "OP08",
     "imageId": "OP08-098_p2",
     "id": "OP08-098_p2_Anime_25th_Collection_[EB-02]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kalgara-special-rare-eb-02-anime-25th-collection",
+        "verified": true
+      }
+    ]
   }
 ]

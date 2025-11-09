@@ -26,7 +26,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-001",
-    "id": "OP05-001_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-001_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sabo-001-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sabo",
@@ -56,7 +63,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-001_p1",
     "id": "OP05-001_p1_AWAKENING_OF_THE_NEW_ERA_[OP05]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sabo-001-alternate-art-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Belo Betty",
@@ -85,7 +99,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-002",
-    "id": "OP05-002_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-002_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/belo-betty-002-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Belo Betty",
@@ -115,7 +136,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-002_p1",
     "id": "OP05-002_p1_AWAKENING_OF_THE_NEW_ERA_[OP05]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/belo-betty-002-alternate-art-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Inazuma",
@@ -141,7 +169,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-003",
-    "id": "OP05-003_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-003_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/inazuma-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Emporio.Ivankov",
@@ -168,7 +203,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-004",
-    "id": "OP05-004_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-004_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/emporio-ivankov-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Karasu",
@@ -195,7 +237,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-005",
-    "id": "OP05-005_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-005_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/karasu-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Koala",
@@ -221,6 +270,13 @@
     "id": "OP05-006_AWAKENING_OF_THE_NEW_ERA_[OP05]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/koala-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
     ]
   },
   {
@@ -248,7 +304,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/koala-alternate-art-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sabo",
@@ -274,6 +337,13 @@
     "id": "OP05-007_AWAKENING_OF_THE_NEW_ERA_[OP05]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sabo-007-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
     ]
   },
   {
@@ -301,7 +371,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sabo-007-alternate-art-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Chaka",
@@ -329,7 +406,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-008",
-    "id": "OP05-008_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-008_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/chaka-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Toh-Toh",
@@ -355,6 +439,13 @@
     "id": "OP05-009_AWAKENING_OF_THE_NEW_ERA_[OP05]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/toh-toh-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
     ]
   },
   {
@@ -381,6 +472,13 @@
     "id": "OP05-010_AWAKENING_OF_THE_NEW_ERA_[OP05]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nico-robin-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
     ]
   },
   {
@@ -408,6 +506,13 @@
     "id": "OP05-011_AWAKENING_OF_THE_NEW_ERA_[OP05]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/bartholomew-kuma-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
     ]
   },
   {
@@ -432,7 +537,14 @@
     "cost": 3,
     "expansionCode": "OP05",
     "imageId": "OP05-012",
-    "id": "OP05-012_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-012_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hack-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Bunny Joe",
@@ -458,7 +570,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-013",
-    "id": "OP05-013_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-013_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/bunny-joe-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Pell",
@@ -485,7 +604,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-014",
-    "id": "OP05-014_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-014_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/pell-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Belo Betty",
@@ -511,6 +637,13 @@
     "id": "OP05-015_AWAKENING_OF_THE_NEW_ERA_[OP05]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/belo-betty-015-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
     ]
   },
   {
@@ -538,7 +671,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/belo-betty-015-alternate-art-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Morley",
@@ -566,7 +706,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-016",
-    "id": "OP05-016_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-016_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/morley-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Lindbergh",
@@ -593,7 +740,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-017",
-    "id": "OP05-017_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-017_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/lindbergh-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Emporio Energy Hormone",
@@ -619,7 +773,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-018",
-    "id": "OP05-018_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-018_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/emporio-energy-hormone-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Fire Fist",
@@ -645,7 +806,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-019",
-    "id": "OP05-019_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-019_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/fire-fist-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Four Thousand-Brick Fist",
@@ -672,7 +840,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-020",
-    "id": "OP05-020_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-020_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/four-thousand-brick-fist-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Revolutionary Army HQ",
@@ -698,7 +873,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-021",
-    "id": "OP05-021_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-021_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/revolutionary-army-hq-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Donquixote Rosinante",
@@ -727,7 +909,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-022",
-    "id": "OP05-022_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-022_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/donquixote-rosinante-022-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Donquixote Rosinante",
@@ -757,7 +946,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-022_p1",
     "id": "OP05-022_p1_AWAKENING_OF_THE_NEW_ERA_[OP05]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/donquixote-rosinante-alternate-art-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vergo",
@@ -785,7 +981,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-023",
-    "id": "OP05-023_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-023_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vergo-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kuween",
@@ -811,7 +1014,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-024",
-    "id": "OP05-024_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-024_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kuween-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gladius",
@@ -837,7 +1047,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-025",
-    "id": "OP05-025_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-025_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gladius-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sarquiss",
@@ -865,7 +1082,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-026",
-    "id": "OP05-026_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-026_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sarquiss-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -891,7 +1115,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-027",
-    "id": "OP05-027_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-027_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/trafalgar-law-027-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Donquixote Doflamingo",
@@ -917,7 +1148,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-028",
-    "id": "OP05-028_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-028_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/donquixote-doflamingo-028-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Donquixote Doflamingo",
@@ -944,7 +1182,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-029",
-    "id": "OP05-029_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-029_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/donquixote-doflamingo-029-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Donquixote Rosinante",
@@ -972,7 +1217,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-030",
-    "id": "OP05-030_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-030_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/donquixote-rosinante-030-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Buffalo",
@@ -999,7 +1251,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-031",
-    "id": "OP05-031_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-031_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/buffalo-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Pica",
@@ -1026,7 +1285,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-032",
-    "id": "OP05-032_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-032_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/pica-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Pica",
@@ -1054,7 +1320,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-032_p1",
     "id": "OP05-032_p1_AWAKENING_OF_THE_NEW_ERA_[OP05]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/pica-alternate-art-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Baby 5",
@@ -1080,7 +1353,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-033",
-    "id": "OP05-033_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-033_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/baby-5-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Baby 5",
@@ -1106,7 +1386,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-034",
-    "id": "OP05-034_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-034_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/baby-5-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Baby 5",
@@ -1133,7 +1420,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-034_p1",
     "id": "OP05-034_p1_AWAKENING_OF_THE_NEW_ERA_[OP05]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/baby-5-alternate-art-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Bellamy",
@@ -1156,7 +1450,14 @@
     "cost": 3,
     "expansionCode": "OP05",
     "imageId": "OP05-035",
-    "id": "OP05-035_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-035_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/bellamy-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monet",
@@ -1183,7 +1484,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-036",
-    "id": "OP05-036_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-036_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monet-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Because the Side of Justice Will Be Whichever Side Wins!!",
@@ -1209,7 +1517,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-037",
-    "id": "OP05-037_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-037_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/because-the-side-of-justice-will-be-whichever-side-wins-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Charlestone",
@@ -1235,7 +1550,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-038",
-    "id": "OP05-038_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-038_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlestone-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Stick-Stickem Meteora",
@@ -1261,7 +1583,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-039",
-    "id": "OP05-039_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-039_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/stick-stickem-meteora-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Birdcage",
@@ -1287,7 +1616,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-040",
-    "id": "OP05-040_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-040_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/birdcage-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sakazuki",
@@ -1316,7 +1652,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-041",
-    "id": "OP05-041_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-041_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sakazuki-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sakazuki",
@@ -1346,7 +1689,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-041_p1",
     "id": "OP05-041_p1_AWAKENING_OF_THE_NEW_ERA_[OP05]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sakazuki-alternate-art-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Issho",
@@ -1372,6 +1722,13 @@
     "id": "OP05-042_AWAKENING_OF_THE_NEW_ERA_[OP05]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/issho-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
     ]
   },
   {
@@ -1398,6 +1755,13 @@
     "id": "OP05-043_AWAKENING_OF_THE_NEW_ERA_[OP05]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ulti-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
     ]
   },
   {
@@ -1425,7 +1789,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ulti-alternate-art-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "John Giant",
@@ -1449,7 +1820,14 @@
     "cost": 8,
     "expansionCode": "OP05",
     "imageId": "OP05-044",
-    "id": "OP05-044_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-044_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/john-giant-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Stainless",
@@ -1475,7 +1853,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-045",
-    "id": "OP05-045_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-045_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/stainless-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Dalmatian",
@@ -1501,7 +1886,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-046",
-    "id": "OP05-046_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-046_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/dalmatian-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Basil Hawkins",
@@ -1529,7 +1921,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-047",
-    "id": "OP05-047_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-047_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/basil-hawkins-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Bastille",
@@ -1556,7 +1955,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-048",
-    "id": "OP05-048_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-048_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/bastille-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Haccha",
@@ -1584,7 +1990,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-049",
-    "id": "OP05-049_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-049_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/haccha-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Hina",
@@ -1610,6 +2023,13 @@
     "id": "OP05-050_AWAKENING_OF_THE_NEW_ERA_[OP05]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hina-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
     ]
   },
   {
@@ -1636,6 +2056,13 @@
     "id": "OP05-051_AWAKENING_OF_THE_NEW_ERA_[OP05]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/borsalino-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
     ]
   },
   {
@@ -1663,7 +2090,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/borsalino-alternate-art-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Maynard",
@@ -1689,7 +2123,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-052",
-    "id": "OP05-052_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-052_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/maynard-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Mozambia",
@@ -1716,7 +2157,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-053",
-    "id": "OP05-053_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-053_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/mozambia-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Garp",
@@ -1742,6 +2190,13 @@
     "id": "OP05-054_AWAKENING_OF_THE_NEW_ERA_[OP05]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-garp-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
     ]
   },
   {
@@ -1771,7 +2226,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-055",
-    "id": "OP05-055_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-055_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/x-drake-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "X.Drake",
@@ -1801,7 +2263,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-055_p1",
     "id": "OP05-055_p1_AWAKENING_OF_THE_NEW_ERA_[OP05]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/x-drake-alternate-art-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "X.Barrels",
@@ -1827,6 +2296,13 @@
     "id": "OP05-056_AWAKENING_OF_THE_NEW_ERA_[OP05]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/x-barrels-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
     ]
   },
   {
@@ -1853,7 +2329,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-057",
-    "id": "OP05-057_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-057_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hound-blaze-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "It's a Waste of Human Life!!",
@@ -1879,7 +2362,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-058",
-    "id": "OP05-058_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-058_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/it-s-a-waste-of-human-life-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Let Us Begin the World of Violence!!!",
@@ -1906,7 +2396,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-059",
-    "id": "OP05-059_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-059_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/let-us-begin-the-world-of-violence-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -1933,7 +2430,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-060",
-    "id": "OP05-060_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-060_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-060-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -1961,7 +2465,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-060_p1",
     "id": "OP05-060_p1_AWAKENING_OF_THE_NEW_ERA_[OP05]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-060-alternate-art-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Uso-Hachi",
@@ -1988,7 +2499,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-061",
-    "id": "OP05-061_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-061_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/uso-hachi-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "O-Nami",
@@ -2014,7 +2532,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-062",
-    "id": "OP05-062_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-062_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/o-nami-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "O-Robi",
@@ -2040,6 +2565,13 @@
     "id": "OP05-063_AWAKENING_OF_THE_NEW_ERA_[OP05]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/o-robi-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
     ]
   },
   {
@@ -2066,6 +2598,13 @@
     "id": "OP05-064_AWAKENING_OF_THE_NEW_ERA_[OP05]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/killer-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
     ]
   },
   {
@@ -2089,7 +2628,14 @@
     "cost": 6,
     "expansionCode": "OP05",
     "imageId": "OP05-065",
-    "id": "OP05-065_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-065_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/san-gorou-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Jinbe",
@@ -2117,7 +2663,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-066",
-    "id": "OP05-066_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-066_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jinbe-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Zoro-Juurou",
@@ -2143,7 +2696,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-067",
-    "id": "OP05-067_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-067_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/zoro-juurou-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Zoro-Juurou",
@@ -2197,6 +2757,13 @@
     "id": "OP05-068_AWAKENING_OF_THE_NEW_ERA_[OP05]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/chopa-emon-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
     ]
   },
   {
@@ -2223,7 +2790,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-069",
-    "id": "OP05-069_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-069_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/trafalgar-law-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -2250,7 +2824,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-069_p1",
     "id": "OP05-069_p1_AWAKENING_OF_THE_NEW_ERA_[OP05]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/trafalgar-law-alternate-art-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -2277,7 +2858,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-069_p2",
     "id": "OP05-069_p2_AWAKENING_OF_THE_NEW_ERA_[OP05]",
-    "illustration": "manga"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/trafalgar-law-manga-panel-alternate-art-secret-rare-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Fra-Nosuke",
@@ -2304,7 +2892,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-070",
-    "id": "OP05-070_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-070_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/fra-nosuke-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Bepo",
@@ -2331,7 +2926,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-071",
-    "id": "OP05-071_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-071_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/bepo-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Hone-Kichi",
@@ -2357,6 +2959,13 @@
     "id": "OP05-072_AWAKENING_OF_THE_NEW_ERA_[OP05]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hone-kichi-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
     ]
   },
   {
@@ -2383,6 +2992,13 @@
     "id": "OP05-073_AWAKENING_OF_THE_NEW_ERA_[OP05]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/miss-doublefinger-zala-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
     ]
   },
   {
@@ -2411,7 +3027,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-074",
-    "id": "OP05-074_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-074_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/eustass-captain-kid-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -2440,7 +3063,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-074_p1",
     "id": "OP05-074_p1_AWAKENING_OF_THE_NEW_ERA_[OP05]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/eustass-captain-kid-alternate-art-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -2469,7 +3099,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-074_p2",
     "id": "OP05-074_p2_AWAKENING_OF_THE_NEW_ERA_[OP05]",
-    "illustration": "manga"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/eustass-captain-kid-manga-panel-alternate-art-secret-rare-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Mr.1(Daz.Bonez)",
@@ -2496,7 +3133,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-075",
-    "id": "OP05-075_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-075_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/mr-1-daz-bonez-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "When You're at Sea You Fight against Pirates!!",
@@ -2522,7 +3166,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-076",
-    "id": "OP05-076_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-076_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/when-you-re-at-sea-you-fight-against-pirates-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gamma Knife",
@@ -2548,7 +3199,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-077",
-    "id": "OP05-077_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-077_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gamma-knife-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Punk Rotten",
@@ -2574,7 +3232,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-078",
-    "id": "OP05-078_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-078_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/punk-rotten-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Viola",
@@ -2600,6 +3265,13 @@
     "id": "OP05-079_AWAKENING_OF_THE_NEW_ERA_[OP05]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/viola-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
     ]
   },
   {
@@ -2629,7 +3301,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-080",
-    "id": "OP05-080_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-080_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/elizabello-ii-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "One-Legged Toy Soldier",
@@ -2655,7 +3334,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-081",
-    "id": "OP05-081_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-081_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/one-legged-toy-soldier-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shirahoshi",
@@ -2681,7 +3367,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-082",
-    "id": "OP05-082_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-082_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shirahoshi-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sterry",
@@ -2704,7 +3397,14 @@
     "cost": 2,
     "expansionCode": "OP05",
     "imageId": "OP05-083",
-    "id": "OP05-083_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-083_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sterry-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Saint Charlos",
@@ -2730,7 +3430,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-084",
-    "id": "OP05-084_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-084_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/saint-charlos-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nefeltari Cobra",
@@ -2757,7 +3464,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-085",
-    "id": "OP05-085_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-085_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nefeltari-cobra-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nefeltari Vivi",
@@ -2783,7 +3497,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-086",
-    "id": "OP05-086_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-086_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nefeltari-vivi-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Hakuba",
@@ -2811,7 +3532,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-087",
-    "id": "OP05-087_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-087_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hakuba-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Mansherry",
@@ -2838,7 +3566,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-088",
-    "id": "OP05-088_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-088_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/mansherry-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Mansherry",
@@ -2866,7 +3601,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-088_p1",
     "id": "OP05-088_p1_AWAKENING_OF_THE_NEW_ERA_[OP05]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/mansherry-alternate-art-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Saint Mjosgard",
@@ -2892,7 +3634,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-089",
-    "id": "OP05-089_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-089_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/saint-mjosgard-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Riku Doldo III",
@@ -2920,7 +3669,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-090",
-    "id": "OP05-090_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-090_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/riku-doldo-iii-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Rebecca",
@@ -2947,7 +3703,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-091",
-    "id": "OP05-091_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-091_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/rebecca-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Rebecca",
@@ -2975,7 +3738,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-091_p1",
     "id": "OP05-091_p1_AWAKENING_OF_THE_NEW_ERA_[OP05]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/rebecca-alternate-art-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Saint Rosward",
@@ -3001,7 +3771,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-092",
-    "id": "OP05-092_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-092_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/saint-rosward-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Rob Lucci",
@@ -3027,6 +3804,13 @@
     "id": "OP05-093_AWAKENING_OF_THE_NEW_ERA_[OP05]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/rob-lucci-93-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
     ]
   },
   {
@@ -3054,7 +3838,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/rob-lucci-093-alternate-art-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Haute Couture Patch★Work",
@@ -3081,7 +3872,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-094",
-    "id": "OP05-094_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-094_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/haute-couture-patch-work-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Dragon Claw",
@@ -3108,7 +3906,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-095",
-    "id": "OP05-095_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-095_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/dragon-claw-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "I Bid 500 Million!!",
@@ -3134,7 +3939,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-096",
-    "id": "OP05-096_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-096_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/i-bid-500-million-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Mary Geoise",
@@ -3160,7 +3972,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-097",
-    "id": "OP05-097_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-097_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/mary-geoise-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Enel",
@@ -3187,7 +4006,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-098",
-    "id": "OP05-098_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-098_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/enel-098-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Enel",
@@ -3215,7 +4041,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-098_p1",
     "id": "OP05-098_p1_AWAKENING_OF_THE_NEW_ERA_[OP05]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/enel-098-alternate-art-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Amazon",
@@ -3241,7 +4074,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-099",
-    "id": "OP05-099_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-099_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/amazon-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Enel",
@@ -3268,7 +4108,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-100",
-    "id": "OP05-100_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-100_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/enel-100-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Enel",
@@ -3296,7 +4143,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-100_p1",
     "id": "OP05-100_p1_AWAKENING_OF_THE_NEW_ERA_[OP05]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/enel-100-alternate-art-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Ohm",
@@ -3323,6 +4177,13 @@
     "id": "OP05-101_AWAKENING_OF_THE_NEW_ERA_[OP05]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ohm-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
     ]
   },
   {
@@ -3350,6 +4211,13 @@
     "id": "OP05-102_AWAKENING_OF_THE_NEW_ERA_[OP05]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gedatsu-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
     ]
   },
   {
@@ -3378,7 +4246,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gedatsu-alternate-art-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kotori",
@@ -3404,6 +4279,13 @@
     "id": "OP05-103_AWAKENING_OF_THE_NEW_ERA_[OP05]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kotori-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
     ]
   },
   {
@@ -3430,6 +4312,13 @@
     "id": "OP05-104_AWAKENING_OF_THE_NEW_ERA_[OP05]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/conis-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
     ]
   },
   {
@@ -3454,7 +4343,14 @@
     "cost": 5,
     "expansionCode": "OP05",
     "imageId": "OP05-105",
-    "id": "OP05-105_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-105_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/satori-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shura",
@@ -3481,6 +4377,13 @@
     "id": "OP05-106_AWAKENING_OF_THE_NEW_ERA_[OP05]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shura-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
     ]
   },
   {
@@ -3508,7 +4411,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-107",
-    "id": "OP05-107_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-107_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/lieutenant-spacey-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nola",
@@ -3532,7 +4442,14 @@
     "cost": 5,
     "expansionCode": "OP05",
     "imageId": "OP05-108",
-    "id": "OP05-108_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-108_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nola-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Pagaya",
@@ -3559,7 +4476,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-109",
-    "id": "OP05-109_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-109_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/pagaya-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Holly",
@@ -3583,7 +4507,14 @@
     "cost": 3,
     "expansionCode": "OP05",
     "imageId": "OP05-110",
-    "id": "OP05-110_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-110_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/holly-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Hotori",
@@ -3609,6 +4540,13 @@
     "id": "OP05-111_AWAKENING_OF_THE_NEW_ERA_[OP05]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hotori-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
     ]
   },
   {
@@ -3636,7 +4574,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-112",
-    "id": "OP05-112_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-112_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/captain-mckinley-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Yama",
@@ -3662,7 +4607,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-113",
-    "id": "OP05-113_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-113_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/yama-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "El Thor",
@@ -3688,7 +4640,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-114",
-    "id": "OP05-114_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-114_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/el-thor-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Two-Hundred Million Volts Amaru",
@@ -3714,7 +4673,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-115",
-    "id": "OP05-115_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-115_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/two-hundred-million-volts-amaru-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Hino Bird Zap",
@@ -3740,7 +4706,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-116",
-    "id": "OP05-116_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-116_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hino-bird-zap-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Upper Yard",
@@ -3766,6 +4739,13 @@
     "id": "OP05-117_AWAKENING_OF_THE_NEW_ERA_[OP05]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/upper-yard-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
     ]
   },
   {
@@ -3793,6 +4773,13 @@
     "id": "OP05-118_AWAKENING_OF_THE_NEW_ERA_[OP05]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kaido-secret-rare-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
     ]
   },
   {
@@ -3821,7 +4808,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kaido-secret-rare-alternate-art-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3850,7 +4844,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-119",
-    "id": "OP05-119_AWAKENING_OF_THE_NEW_ERA_[OP05]"
+    "id": "OP05-119_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-secret-rare-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3880,7 +4881,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-119_p1",
     "id": "OP05-119_p1_AWAKENING_OF_THE_NEW_ERA_[OP05]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-alternate-art-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3910,7 +4918,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-119_p2",
     "id": "OP05-119_p2_AWAKENING_OF_THE_NEW_ERA_[OP05]",
-    "illustration": "manga"
+    "illustration": "manga",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-manga-panel-alternate-art-secret-rare-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3941,7 +4956,14 @@
     "expansionCode": "ST01",
     "imageId": "ST01-012_p2",
     "id": "ST01-012_p2_AWAKENING_OF_THE_NEW_ERA_[OP05]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3972,7 +4994,14 @@
     "expansionCode": "ST01",
     "imageId": "ST01-012_p3",
     "id": "ST01-012_p3_AWAKENING_OF_THE_NEW_ERA_[OP05]",
-    "illustration": "special"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-gold-signed-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nami",
@@ -3999,7 +5028,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nami-special-rare-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Yamato",
@@ -4027,7 +5063,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-121_p2",
     "id": "OP01-121_p2_AWAKENING_OF_THE_NEW_ERA_[OP05]",
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/yamato-special-rare-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Uta",
@@ -4054,7 +5097,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/uta-special-rare-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Rob Lucci",
@@ -4082,7 +5132,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-092_p2",
     "id": "OP03-092_p2_AWAKENING_OF_THE_NEW_ERA_[OP05]",
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/rob-lucci-special-rare-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kaido",
@@ -4110,7 +5167,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kaido-special-rare-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Enel",
@@ -4138,6 +5202,13 @@
     "expansionCode": "OP05",
     "imageId": "OP05-100_p2",
     "id": "OP05-100_p2_AWAKENING_OF_THE_NEW_ERA_[OP05]",
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/enel-special-rare-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
   }
 ]

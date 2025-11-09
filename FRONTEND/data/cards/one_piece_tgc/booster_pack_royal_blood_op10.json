@@ -24,7 +24,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/portgas-d-ace-treasure-rare-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Smoker",
@@ -54,7 +61,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-001",
-    "id": "OP10-001_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-001_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/smoker-op-10-royal-blood-323940",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Smoker",
@@ -85,7 +99,14 @@
     "expansionCode": "OP10",
     "imageId": "OP10-001_p1",
     "id": "OP10-001_p1_ROYAL_BLOOD_[OP-10]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/smoker-alternate-art-op-10-royal-blood-323935",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Caesar Clown",
@@ -114,7 +135,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-002",
-    "id": "OP10-002_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-002_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/caesar-clown-op-10-royal-blood-323818",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Caesar Clown",
@@ -144,7 +172,14 @@
     "expansionCode": "OP10",
     "imageId": "OP10-002_p1",
     "id": "OP10-002_p1_ROYAL_BLOOD_[OP-10]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/caesar-clown-alternate-art-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sugar",
@@ -173,7 +208,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-003",
-    "id": "OP10-003_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-003_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sugar-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sugar",
@@ -203,7 +245,14 @@
     "expansionCode": "OP10",
     "imageId": "OP10-003_p1",
     "id": "OP10-003_p1_ROYAL_BLOOD_[OP-10]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sugar-alternate-art-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vergo",
@@ -231,6 +280,13 @@
     "id": "OP10-004_ROYAL_BLOOD_[OP-10]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vergo-op-10-royal-blood",
+        "verified": true
+      }
     ]
   },
   {
@@ -259,7 +315,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-005",
-    "id": "OP10-005_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-005_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -288,7 +351,14 @@
     "expansionCode": "OP10",
     "imageId": "OP10-005_p1",
     "id": "OP10-005_p1_ROYAL_BLOOD_[OP-10]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-alternate-art-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Caesar Clown",
@@ -315,6 +385,13 @@
     "id": "OP10-006_ROYAL_BLOOD_[OP-10]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/caesar-clown-op-10-royal-blood",
+        "verified": true
+      }
     ]
   },
   {
@@ -341,6 +418,13 @@
     "id": "OP10-007_ROYAL_BLOOD_[OP-10]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ceaser-soldier-op-10-royal-blood",
+        "verified": true
+      }
     ]
   },
   {
@@ -368,7 +452,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-008",
-    "id": "OP10-008_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-008_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/scotch-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Smiley",
@@ -395,6 +486,13 @@
     "id": "OP10-009_ROYAL_BLOOD_[OP-10]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/smiley-op-10-royal-blood",
+        "verified": true
+      }
     ]
   },
   {
@@ -422,7 +520,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-010",
-    "id": "OP10-010_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-010_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/chadros-higelyges-brownbeard-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Tony Tony.Chopper",
@@ -450,7 +555,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-011",
-    "id": "OP10-011_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-011_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tony-tony-chopper-op-10-royal-blood-323959",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Dragon Number Thirteen",
@@ -477,7 +589,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-012",
-    "id": "OP10-012_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-012_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/dragon-number-thirteen-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nami",
@@ -501,7 +620,14 @@
     "cost": 5,
     "expansionCode": "OP10",
     "imageId": "OP10-013",
-    "id": "OP10-013_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-013_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nami-op-10-royal-blood-323901",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Franky",
@@ -526,7 +652,14 @@
     "cost": 6,
     "expansionCode": "OP10",
     "imageId": "OP10-014",
-    "id": "OP10-014_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-014_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/franky-op-10-royal-blood-323866",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Mocha",
@@ -552,6 +685,13 @@
     "id": "OP10-015_ROYAL_BLOOD_[OP-10]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/mocha-op-10-royal-blood",
+        "verified": true
+      }
     ]
   },
   {
@@ -579,7 +719,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-016",
-    "id": "OP10-016_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-016_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monet-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monet",
@@ -607,7 +754,14 @@
     "expansionCode": "OP10",
     "imageId": "OP10-016_p1",
     "id": "OP10-016_p1_ROYAL_BLOOD_[OP-10]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monet-alternate-art-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Rock",
@@ -633,6 +787,13 @@
     "id": "OP10-017_ROYAL_BLOOD_[OP-10]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/rock-op-10-royal-blood",
+        "verified": true
+      }
     ]
   },
   {
@@ -660,7 +821,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-018",
-    "id": "OP10-018_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-018_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ten-layer-igloo-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Divine Departure",
@@ -688,7 +856,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-019",
-    "id": "OP10-019_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-019_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/divine-departure-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Divine Departure",
@@ -717,7 +892,14 @@
     "expansionCode": "OP10",
     "imageId": "OP10-019_p1",
     "id": "OP10-019_p1_ROYAL_BLOOD_[OP-10]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/divine-departure-alternate-art-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gum-Gum UFO",
@@ -744,7 +926,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-020",
-    "id": "OP10-020_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-020_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gum-gum-ufo-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Punk Hazard",
@@ -770,7 +959,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-021",
-    "id": "OP10-021_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-021_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/punk-hazard-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -801,7 +997,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-022",
-    "id": "OP10-022_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-022_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/trafalgar-law-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -833,7 +1036,14 @@
     "expansionCode": "OP10",
     "imageId": "OP10-022_p1",
     "id": "OP10-022_p1_ROYAL_BLOOD_[OP-10]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/trafalgar-law-alternate-art-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Issho",
@@ -860,6 +1070,13 @@
     "id": "OP10-023_ROYAL_BLOOD_[OP-10]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/issho-op-10-royal-blood",
+        "verified": true
+      }
     ]
   },
   {
@@ -888,6 +1105,13 @@
     "id": "OP10-024_ROYAL_BLOOD_[OP-10]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/edward-newgate-op-10-royal-blood",
+        "verified": true
+      }
     ]
   },
   {
@@ -915,6 +1139,13 @@
     "id": "OP10-025_ROYAL_BLOOD_[OP-10]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/enel-op-10-royal-blood",
+        "verified": true
+      }
     ]
   },
   {
@@ -943,7 +1174,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-026",
-    "id": "OP10-026_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-026_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kin-emon-op-10-royal-blood-323851",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kin'emon",
@@ -971,7 +1209,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-027",
-    "id": "OP10-027_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-027_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kin-emon-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kouzuki Momonosuke",
@@ -999,7 +1244,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-028",
-    "id": "OP10-028_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-028_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kouzuki-momonosuke-op-10-royal-blood-323842",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Dracule Mihawk",
@@ -1026,6 +1278,13 @@
     "id": "OP10-029_ROYAL_BLOOD_[OP-10]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/dracule-mihawk-op-10-royal-blood",
+        "verified": true
+      }
     ]
   },
   {
@@ -1054,7 +1313,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-030",
-    "id": "OP10-030_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-030_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/smoker-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Smoker",
@@ -1083,7 +1349,14 @@
     "expansionCode": "OP10",
     "imageId": "OP10-030_p1",
     "id": "OP10-030_p1_ROYAL_BLOOD_[OP-10]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/smoker-alternate-art-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sengoku",
@@ -1107,7 +1380,14 @@
     "cost": 5,
     "expansionCode": "OP10",
     "imageId": "OP10-031",
-    "id": "OP10-031_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-031_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sengoku-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Tashigi",
@@ -1131,7 +1411,14 @@
     "cost": 3,
     "expansionCode": "OP10",
     "imageId": "OP10-032",
-    "id": "OP10-032_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-032_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tashigi-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Tashigi",
@@ -1156,7 +1443,14 @@
     "expansionCode": "OP10",
     "imageId": "OP10-032_p1",
     "id": "OP10-032_p1_ROYAL_BLOOD_[OP-10]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tashigi-alternate-art-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nami",
@@ -1183,6 +1477,13 @@
     "id": "OP10-033_ROYAL_BLOOD_[OP-10]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nami-op-10-royal-blood-323902",
+        "verified": true
+      }
     ]
   },
   {
@@ -1210,7 +1511,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-034",
-    "id": "OP10-034_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-034_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/franky-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Brook",
@@ -1237,7 +1545,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-035",
-    "id": "OP10-035_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-035_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/brook-op-10-royal-blood-323821",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Perona",
@@ -1266,7 +1581,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-036",
-    "id": "OP10-036_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-036_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/perona-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Lim",
@@ -1293,7 +1615,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-037",
-    "id": "OP10-037_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-037_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/lim-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Lim",
@@ -1321,7 +1650,14 @@
     "expansionCode": "OP10",
     "imageId": "OP10-037_p1",
     "id": "OP10-037_p1_ROYAL_BLOOD_[OP-10]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/lim-alternate-art-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -1349,7 +1685,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-038",
-    "id": "OP10-038_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-038_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/roronoa-zoro-op-10-royal-blood-323930",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gum-Gum Dragon Fire Pistol Twister Star",
@@ -1377,7 +1720,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-039",
-    "id": "OP10-039_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-039_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gum-gum-dragon-fire-pistol-twister-star-op-10-royal-blood",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "The Weak Do Not Have the Right to Choose How They Die",
@@ -1406,7 +1756,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-040",
-    "id": "OP10-040_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-040_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/the-weak-do-not-have-the-right-to-choose-how-they-die-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Radio Knife",
@@ -1434,7 +1791,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-041",
-    "id": "OP10-041_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-041_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/radio-knife-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Usopp",
@@ -1463,7 +1827,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-042",
-    "id": "OP10-042_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-042_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/usopp-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Usopp",
@@ -1493,7 +1864,14 @@
     "expansionCode": "OP10",
     "imageId": "OP10-042_p1",
     "id": "OP10-042_p1_ROYAL_BLOOD_[OP-10]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/usopp-alternate-art-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Moocy",
@@ -1521,7 +1899,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-043",
-    "id": "OP10-043_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-043_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/moocy-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Cub",
@@ -1548,6 +1933,13 @@
     "id": "OP10-044_ROYAL_BLOOD_[OP-10]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/cub-op-10-royal-blood",
+        "verified": true
+      }
     ]
   },
   {
@@ -1576,7 +1968,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-045",
-    "id": "OP10-045_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-045_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/cavendish-op-10-royal-blood-323810",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Cavendish",
@@ -1605,7 +2004,14 @@
     "expansionCode": "OP10",
     "imageId": "OP10-045_p1",
     "id": "OP10-045_p1_ROYAL_BLOOD_[OP-10]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/cavendish-alternate-art-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kyros",
@@ -1631,6 +2037,13 @@
     "id": "OP10-046_ROYAL_BLOOD_[OP-10]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kyros-op-10-royal-blood",
+        "verified": true
+      }
     ]
   },
   {
@@ -1658,7 +2071,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kyros-alternate-art-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Koala",
@@ -1685,7 +2105,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-047",
-    "id": "OP10-047_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-047_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/koala-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sai",
@@ -1712,6 +2139,13 @@
     "id": "OP10-048_ROYAL_BLOOD_[OP-10]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sai-op-10-royal-blood",
+        "verified": true
+      }
     ]
   },
   {
@@ -1736,7 +2170,14 @@
     "cost": 4,
     "expansionCode": "OP10",
     "imageId": "OP10-049",
-    "id": "OP10-049_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-049_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sabo-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Hajrudin",
@@ -1761,7 +2202,14 @@
     "cost": 7,
     "expansionCode": "OP10",
     "imageId": "OP10-050",
-    "id": "OP10-050_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-050_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hajrudin-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Hack",
@@ -1790,7 +2238,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-051",
-    "id": "OP10-051_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-051_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hack-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Bartolomeo",
@@ -1818,7 +2273,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-052",
-    "id": "OP10-052_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-052_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/bartolomeo-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Bian",
@@ -1845,7 +2307,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-053",
-    "id": "OP10-053_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-053_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/bian-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Blue Gilly",
@@ -1868,7 +2337,14 @@
     "cost": 3,
     "expansionCode": "OP10",
     "imageId": "OP10-054",
-    "id": "OP10-054_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-054_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/blue-gilly-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Marco",
@@ -1895,7 +2371,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-055",
-    "id": "OP10-055_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-055_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/marco-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Mansherry",
@@ -1922,6 +2405,13 @@
     "id": "OP10-056_ROYAL_BLOOD_[OP-10]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/mansherry-op-10-royal-blood",
+        "verified": true
+      }
     ]
   },
   {
@@ -1949,6 +2439,13 @@
     "id": "OP10-057_ROYAL_BLOOD_[OP-10]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/leo-op-10-royal-blood",
+        "verified": true
+      }
     ]
   },
   {
@@ -1975,6 +2472,13 @@
     "id": "OP10-058_ROYAL_BLOOD_[OP-10]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/rebecca-op-10-royal-blood",
+        "verified": true
+      }
     ]
   },
   {
@@ -2002,7 +2506,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/rebecca-alternate-art-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Fo...llow...Me...and...I...Will...Gui...de...You",
@@ -2029,7 +2540,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-059",
-    "id": "OP10-059_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-059_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/fo-llow-me-and-i-will-gui-de-you-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Barrier-Barrier Pistol",
@@ -2056,7 +2574,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-060",
-    "id": "OP10-060_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-060_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/barrier-barrier-pistol-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Special Long-Range Attack!! Bagworm",
@@ -2083,7 +2608,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-061",
-    "id": "OP10-061_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-061_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/special-long-range-attack-bagworm-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Violet",
@@ -2110,7 +2642,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-062",
-    "id": "OP10-062_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-062_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/violet-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vinsmoke Sanji",
@@ -2137,6 +2676,13 @@
     "id": "OP10-063_ROYAL_BLOOD_[OP-10]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-sanji-op-10-royal-blood",
+        "verified": true
+      }
     ]
   },
   {
@@ -2163,7 +2709,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-064",
-    "id": "OP10-064_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-064_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/clone-soldier-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sugar",
@@ -2189,7 +2742,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-065",
-    "id": "OP10-065_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-065_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sugar-op-10-royal-blood-323966",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Giolla",
@@ -2216,7 +2776,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-066",
-    "id": "OP10-066_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-066_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/giolla-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Senor Pink",
@@ -2242,6 +2809,13 @@
     "id": "OP10-067_ROYAL_BLOOD_[OP-10]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/senor-pink-op-10-royal-blood",
+        "verified": true
+      }
     ]
   },
   {
@@ -2269,7 +2843,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/senor-pink-alternate-art-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Diamante",
@@ -2292,7 +2873,14 @@
     "cost": 5,
     "expansionCode": "OP10",
     "imageId": "OP10-068",
-    "id": "OP10-068_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-068_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/diamante-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Fighting Fish",
@@ -2320,7 +2908,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-069",
-    "id": "OP10-069_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-069_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/fighting-fish-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Trebol",
@@ -2347,7 +2942,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-070",
-    "id": "OP10-070_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-070_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/trebol-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Donquixote Doflamingo",
@@ -2376,7 +2978,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-071",
-    "id": "OP10-071_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-071_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/donquixote-doflamingo-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Donquixote Doflamingo",
@@ -2406,7 +3015,14 @@
     "expansionCode": "OP10",
     "imageId": "OP10-071_p1",
     "id": "OP10-071_p1_ROYAL_BLOOD_[OP-10]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/donquixote-doflamingo-alternate-art-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Donquixote Rosinante",
@@ -2434,7 +3050,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-072",
-    "id": "OP10-072_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-072_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/donquixote-rosinante-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Donquixote Rosinante",
@@ -2463,7 +3086,14 @@
     "expansionCode": "OP10",
     "imageId": "OP10-072_p1",
     "id": "OP10-072_p1_ROYAL_BLOOD_[OP-10]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/donquixote-rosinante-alternate-art-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Buffalo",
@@ -2486,7 +3116,14 @@
     "cost": 4,
     "expansionCode": "OP10",
     "imageId": "OP10-073",
-    "id": "OP10-073_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-073_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/buffalo-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Pica",
@@ -2512,7 +3149,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-074",
-    "id": "OP10-074_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-074_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/pica-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Foxy",
@@ -2538,7 +3182,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-075",
-    "id": "OP10-075_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-075_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/foxy-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Baby 5",
@@ -2564,6 +3215,13 @@
     "id": "OP10-076_ROYAL_BLOOD_[OP-10]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/baby-5-op-10-royal-blood",
+        "verified": true
+      }
     ]
   },
   {
@@ -2591,7 +3249,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-077",
-    "id": "OP10-077_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-077_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/bellamy-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "I Do Not Forgive Those Who Laugh at My Family!!!",
@@ -2619,7 +3284,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-078",
-    "id": "OP10-078_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-078_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/i-do-not-forgive-those-who-laugh-at-my-family-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "God Thread",
@@ -2646,7 +3318,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-079",
-    "id": "OP10-079_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-079_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/god-thread-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Little Black Bears",
@@ -2672,7 +3351,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-080",
-    "id": "OP10-080_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-080_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/little-black-bears-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Usopp",
@@ -2699,6 +3385,13 @@
     "id": "OP10-081_ROYAL_BLOOD_[OP-10]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/usopp-op-10-royal-blood-323971",
+        "verified": true
+      }
     ]
   },
   {
@@ -2726,7 +3419,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-082",
-    "id": "OP10-082_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-082_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kuzan-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kuzan",
@@ -2754,7 +3454,14 @@
     "expansionCode": "OP10",
     "imageId": "OP10-082_p1",
     "id": "OP10-082_p1_ROYAL_BLOOD_[OP-10]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kuzan-alternate-art-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kouzuki Momonosuke",
@@ -2782,7 +3489,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-083",
-    "id": "OP10-083_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-083_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kouzuki-momonosuke-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sanjuan.Wolf",
@@ -2806,7 +3520,14 @@
     "cost": 5,
     "expansionCode": "OP10",
     "imageId": "OP10-084",
-    "id": "OP10-084_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-084_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanjuan-wolf-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Jesus Burgess",
@@ -2834,7 +3555,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-085",
-    "id": "OP10-085_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-085_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jesus-burgess-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shiryu",
@@ -2862,7 +3590,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-086",
-    "id": "OP10-086_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-086_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shiryu-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Tony Tony.Chopper",
@@ -2890,7 +3625,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-087",
-    "id": "OP10-087_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-087_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tony-tony-chopper-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nami",
@@ -2917,7 +3659,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-088",
-    "id": "OP10-088_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-088_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nami-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nico Robin",
@@ -2941,7 +3690,14 @@
     "cost": 6,
     "expansionCode": "OP10",
     "imageId": "OP10-089",
-    "id": "OP10-089_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-089_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nico-robin-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Franky",
@@ -2969,7 +3725,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-090",
-    "id": "OP10-090_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-090_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/franky-op-10-royal-blood-323863",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Franky",
@@ -2998,7 +3761,14 @@
     "expansionCode": "OP10",
     "imageId": "OP10-090_p1",
     "id": "OP10-090_p1_ROYAL_BLOOD_[OP-10]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/franky-alternate-art-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Brook",
@@ -3025,7 +3795,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-091",
-    "id": "OP10-091_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-091_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/brook-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Perona",
@@ -3052,7 +3829,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-092",
-    "id": "OP10-092_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-092_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/perona-op-10-royal-blood-323896",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Saint Homing",
@@ -3078,7 +3862,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-093",
-    "id": "OP10-093_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-093_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/saint-homing-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Ryuma",
@@ -3106,7 +3897,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-094",
-    "id": "OP10-094_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-094_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ryuma-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -3134,6 +3932,13 @@
     "id": "OP10-095_ROYAL_BLOOD_[OP-10]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/roronoa-zoro-op-10-royal-blood-323928",
+        "verified": true
+      }
     ]
   },
   {
@@ -3160,7 +3965,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-096",
-    "id": "OP10-096_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-096_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/there-s-no-longer-any-need-for-the-seven-warlords-of-the-sea-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gum-Gum Rhino Schneider",
@@ -3189,7 +4001,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-097",
-    "id": "OP10-097_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-097_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gum-gum-rhino-schneider-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Liberation",
@@ -3215,7 +4034,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-098",
-    "id": "OP10-098_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-098_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/liberation-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -3243,7 +4069,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-099",
-    "id": "OP10-099_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-099_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/eustass-captain-kid-op-10-royal-blood-323873",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -3272,7 +4105,14 @@
     "expansionCode": "OP10",
     "imageId": "OP10-099_p1",
     "id": "OP10-099_p1_ROYAL_BLOOD_[OP-10]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/eustass-captain-kid-alternate-art-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Inazuma",
@@ -3299,7 +4139,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-100",
-    "id": "OP10-100_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-100_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/inazuma-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Urouge",
@@ -3323,7 +4170,14 @@
     "cost": 5,
     "expansionCode": "OP10",
     "imageId": "OP10-101",
-    "id": "OP10-101_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-101_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/urouge-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Emporio.Ivankov",
@@ -3350,7 +4204,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-102",
-    "id": "OP10-102_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-102_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/emporio-ivankov-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Capone\"Gang\"Bege",
@@ -3377,6 +4238,13 @@
     "id": "OP10-103_ROYAL_BLOOD_[OP-10]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/capone-gang-bege-op-10-royal-blood",
+        "verified": true
+      }
     ]
   },
   {
@@ -3404,7 +4272,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-104",
-    "id": "OP10-104_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-104_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/caribou-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Cavendish",
@@ -3429,7 +4304,14 @@
     "cost": 6,
     "expansionCode": "OP10",
     "imageId": "OP10-105",
-    "id": "OP10-105_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-105_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/cavendish-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Killer",
@@ -3456,7 +4338,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-106",
-    "id": "OP10-106_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-106_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/killer-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Jewelry Bonney",
@@ -3484,7 +4373,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-107",
-    "id": "OP10-107_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-107_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jewelry-bonney-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Scratchmen Apoo",
@@ -3511,7 +4407,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-108",
-    "id": "OP10-108_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-108_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/scratchmen-apoo-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Basil Hawkins",
@@ -3538,7 +4441,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-109",
-    "id": "OP10-109_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-109_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/basil-hawkins-foil-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Heat & Wire",
@@ -3564,6 +4474,13 @@
     "id": "OP10-110_ROYAL_BLOOD_[OP-10]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/heat-wire-op-10-royal-blood",
+        "verified": true
+      }
     ]
   },
   {
@@ -3591,6 +4508,13 @@
     "id": "OP10-111_ROYAL_BLOOD_[OP-10]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-op-10-royal-blood",
+        "verified": true
+      }
     ]
   },
   {
@@ -3619,7 +4543,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-alternate-art-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -3647,7 +4578,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-112",
-    "id": "OP10-112_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-112_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/eustass-captain-kid-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -3676,7 +4614,14 @@
     "expansionCode": "OP10",
     "imageId": "OP10-112_p1",
     "id": "OP10-112_p1_ROYAL_BLOOD_[OP-10]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/eustass-captain-kid-op-10-royal-blood-323868",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -3703,7 +4648,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-113",
-    "id": "OP10-113_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-113_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/roronoa-zoro-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "X.Drake",
@@ -3731,7 +4683,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-114",
-    "id": "OP10-114_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-114_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/x-drake-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Let's Meet Again in the New World",
@@ -3758,7 +4717,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-115",
-    "id": "OP10-115_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-115_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/let-s-meet-again-in-the-new-world-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Damned Punk",
@@ -3785,7 +4751,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-116",
-    "id": "OP10-116_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-116_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/damned-punk-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "ROOM",
@@ -3812,7 +4785,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-117",
-    "id": "OP10-117_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-117_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/room-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3840,7 +4820,14 @@
     ],
     "expansionCode": "OP10",
     "imageId": "OP10-118",
-    "id": "OP10-118_ROYAL_BLOOD_[OP-10]"
+    "id": "OP10-118_ROYAL_BLOOD_[OP-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-secret-rare-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -3869,7 +4856,14 @@
     "expansionCode": "OP10",
     "imageId": "OP10-118_p1",
     "id": "OP10-118_p1_ROYAL_BLOOD_[OP-10]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-secret-rare-alternate-art-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -3897,6 +4891,13 @@
     "id": "OP10-119_ROYAL_BLOOD_[OP-10]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/trafalgar-law-secret-rare-op-10-royal-blood",
+        "verified": true
+      }
     ]
   },
   {
@@ -3926,7 +4927,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/trafalgar-law-secret-rare-alternate-art-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -3955,7 +4963,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "manga"
+    "illustration": "manga",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/trafalgar-law-secret-rare-manga-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Charlotte Flampe",
@@ -3982,7 +4997,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-flampe-special-rare-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Urouge",
@@ -4011,7 +5033,14 @@
     "expansionCode": "OP07",
     "imageId": "OP07-021_p2",
     "id": "OP07-021_p2_ROYAL_BLOOD_[OP-10]",
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/urouge-special-rare-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Charlotte Pudding",
@@ -4038,7 +5067,14 @@
     "expansionCode": "ST12",
     "imageId": "ST12-012_p1",
     "id": "ST12-012_p1_ROYAL_BLOOD_[OP-10]",
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-pudding-special-rare-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -4065,7 +5101,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-special-rare-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Edward.Newgate",
@@ -4094,7 +5137,14 @@
     "expansionCode": "ST15",
     "imageId": "ST15-002_p1",
     "id": "ST15-002_p1_ROYAL_BLOOD_[OP-10]",
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/edward-newgate-special-rare-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Uso-Hachi",
@@ -4121,6 +5171,13 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/uso-hachi-special-rare-op-10-royal-blood",
+        "verified": true
+      }
+    ]
   }
 ]

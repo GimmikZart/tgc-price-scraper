@@ -25,7 +25,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-001",
-    "id": "OP01-001_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-001_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/roronoa-zoro-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -54,7 +61,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-001_p1",
     "id": "OP01-001_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/roronoa-zoro-alternate-art-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -83,7 +97,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-002",
-    "id": "OP01-002_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-002_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/trafalgar-law-fixed-reprint-op-01-romance-dawn-244461",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -113,7 +134,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-002_p1",
     "id": "OP01-002_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/trafalgar-law-alternate-art-fixed-reprint-op-01-romance-dawn-244463",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -142,7 +170,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-003",
-    "id": "OP01-003_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-003_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-fixed-reprint-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -172,7 +207,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-003_p1",
     "id": "OP01-003_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-alternate-art-fixed-reprint-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Usopp",
@@ -200,7 +242,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-004",
-    "id": "OP01-004_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-004_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/usopp-non-foil-revision-pack-reprints-revision-pack",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Uta",
@@ -226,6 +275,13 @@
     "id": "OP01-005_ROMANCE_DAWN_[OP01]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/uta-foil-rare-op-01-romance-dawn",
+        "verified": true
+      }
     ]
   },
   {
@@ -252,6 +308,13 @@
     "id": "OP01-006_ROMANCE_DAWN_[OP01]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/otama-fixed-reprint-op-01-romance-dawn",
+        "verified": true
+      }
     ]
   },
   {
@@ -279,7 +342,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-007",
-    "id": "OP01-007_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-007_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/caribou-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Cavendish",
@@ -307,7 +377,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-008",
-    "id": "OP01-008_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-008_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/cavendish-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Cavendish",
@@ -336,7 +413,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-008_p1",
     "id": "OP01-008_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/cavendish-box-topper-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Carrot",
@@ -362,7 +446,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-009",
-    "id": "OP01-009_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-009_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/carrot-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Komachiyo",
@@ -386,7 +477,14 @@
     "cost": 1,
     "expansionCode": "OP01",
     "imageId": "OP01-010",
-    "id": "OP01-010_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-010_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/komachiyo-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gordon",
@@ -412,6 +510,13 @@
     "id": "OP01-011_ROMANCE_DAWN_[OP01]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gordon-op-01-romance-dawn",
+        "verified": true
+      }
     ]
   },
   {
@@ -435,7 +540,14 @@
     "cost": 2,
     "expansionCode": "OP01",
     "imageId": "OP01-012",
-    "id": "OP01-012_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-012_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sai-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -462,7 +574,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-013",
-    "id": "OP01-013_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-013_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-foil-rare-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -490,7 +609,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-013_p1",
     "id": "OP01-013_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-alternate-art-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Jinbe",
@@ -519,7 +645,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-014",
-    "id": "OP01-014_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-014_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jinbe-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Tony Tony.Chopper",
@@ -547,7 +680,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-015",
-    "id": "OP01-015_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-015_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tony-tony-chopper-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nami",
@@ -573,6 +713,13 @@
     "id": "OP01-016_ROMANCE_DAWN_[OP01]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nami-beta-pre-errata-card-reveal-up-to-1-straw-hat-crew-type-character-op-01-romance-dawn",
+        "verified": true
+      }
     ]
   },
   {
@@ -600,7 +747,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nami-alternate-art-fixed-reprint-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nico Robin",
@@ -627,7 +781,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-017",
-    "id": "OP01-017_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-017_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nico-robin-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Hajrudin",
@@ -651,7 +812,14 @@
     "cost": 4,
     "expansionCode": "OP01",
     "imageId": "OP01-018",
-    "id": "OP01-018_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-018_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hajrudin-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Bartolomeo",
@@ -680,7 +848,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-019",
-    "id": "OP01-019_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-019_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/bartolomeo-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Hyogoro",
@@ -706,7 +881,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-020",
-    "id": "OP01-020_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-020_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hyogoro-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Franky",
@@ -732,7 +914,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-021",
-    "id": "OP01-021_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-021_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/franky-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Brook",
@@ -759,7 +948,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-022",
-    "id": "OP01-022_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-022_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/brook-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Marco",
@@ -782,7 +978,14 @@
     "cost": 3,
     "expansionCode": "OP01",
     "imageId": "OP01-023",
-    "id": "OP01-023_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-023_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/marco-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -811,7 +1014,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-024",
-    "id": "OP01-024_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-024_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -841,7 +1051,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-024_p1",
     "id": "OP01-024_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-alternate-art-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -868,7 +1085,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-025",
-    "id": "OP01-025_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-025_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/roronoa-zoro-op-01-romance-dawn-244512",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -896,7 +1120,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-025_p1",
     "id": "OP01-025_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/roronoa-zoro-alternate-art-op-01-romance-dawn-244513",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gum-Gum Fire-Fist Pistol Red Hawk",
@@ -923,7 +1154,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-026",
-    "id": "OP01-026_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-026_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gum-gum-fire-fist-pistol-red-hawk-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Round Table",
@@ -950,7 +1188,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-027",
-    "id": "OP01-027_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-027_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/round-table-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Green Star Rafflesia",
@@ -976,7 +1221,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-028",
-    "id": "OP01-028_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-028_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/green-star-rafflesia-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Radical Beam!!",
@@ -1002,7 +1254,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-029",
-    "id": "OP01-029_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-029_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/radical-beam-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "In Two Years!! At the Sabaody Archipelago!!",
@@ -1028,7 +1287,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-030",
-    "id": "OP01-030_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-030_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/in-two-years-at-the-sabaody-archipelago-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kouzuki Oden",
@@ -1056,7 +1322,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-031",
-    "id": "OP01-031_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-031_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kouzuki-oden-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kouzuki Oden",
@@ -1085,7 +1358,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-031_p1",
     "id": "OP01-031_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kouzuki-oden-alternate-art-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Ashura Doji",
@@ -1112,7 +1392,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-032",
-    "id": "OP01-032_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-032_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ashura-doji-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Izo",
@@ -1139,6 +1426,13 @@
     "id": "OP01-033_ROMANCE_DAWN_[OP01]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/izo-op-01-romance-dawn",
+        "verified": true
+      }
     ]
   },
   {
@@ -1168,7 +1462,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-034",
-    "id": "OP01-034_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-034_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/inuarashi-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Inuarashi",
@@ -1198,7 +1499,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-034_p1",
     "id": "OP01-034_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/inuarashi-alternate-art-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Okiku",
@@ -1227,7 +1535,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-035",
-    "id": "OP01-035_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-035_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/okiku-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Otsuru",
@@ -1250,7 +1565,14 @@
     "cost": 1,
     "expansionCode": "OP01",
     "imageId": "OP01-036",
-    "id": "OP01-036_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-036_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/otsuru-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kawamatsu",
@@ -1275,7 +1597,14 @@
     "cost": 2,
     "expansionCode": "OP01",
     "imageId": "OP01-037",
-    "id": "OP01-037_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-037_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kawamatsu-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kanjuro",
@@ -1304,7 +1633,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-038",
-    "id": "OP01-038_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-038_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kanjuro-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Killer",
@@ -1333,7 +1669,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-039",
-    "id": "OP01-039_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-039_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/killer-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kin'emon",
@@ -1363,7 +1706,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-040",
-    "id": "OP01-040_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-040_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kin-emon-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kin'emon",
@@ -1394,7 +1744,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-040_p1",
     "id": "OP01-040_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kin-emon-alternate-art-fixed-reprint-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kouzuki Momonosuke",
@@ -1421,7 +1778,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-041",
-    "id": "OP01-041_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-041_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kouzuki-momonosuke-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Komurasaki",
@@ -1448,6 +1812,13 @@
     "id": "OP01-042_ROMANCE_DAWN_[OP01]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/komurasaki-op-01-romance-dawn",
+        "verified": true
+      }
     ]
   },
   {
@@ -1471,7 +1842,14 @@
     "cost": 3,
     "expansionCode": "OP01",
     "imageId": "OP01-043",
-    "id": "OP01-043_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-043_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shinobu-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shachi",
@@ -1498,7 +1876,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-044",
-    "id": "OP01-044_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-044_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shachi-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Jean Bart",
@@ -1521,7 +1906,14 @@
     "cost": 4,
     "expansionCode": "OP01",
     "imageId": "OP01-045",
-    "id": "OP01-045_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-045_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jean-bart-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Denjiro",
@@ -1549,7 +1941,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-046",
-    "id": "OP01-046_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-046_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/denjiro-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -1577,7 +1976,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-047",
-    "id": "OP01-047_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-047_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/trafalgar-law-fixed-reprint-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -1606,7 +2012,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-047_p1",
     "id": "OP01-047_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/trafalgar-law-alternate-art-fixed-reprint-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nekomamushi",
@@ -1634,6 +2047,13 @@
     "id": "OP01-048_ROMANCE_DAWN_[OP01]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nekomamushi-op-01-romance-dawn",
+        "verified": true
+      }
     ]
   },
   {
@@ -1663,7 +2083,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nekomamushi-box-topper-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Bepo",
@@ -1691,7 +2118,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-049",
-    "id": "OP01-049_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-049_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/bepo-fixed-reprint-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Penguin",
@@ -1718,7 +2152,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-050",
-    "id": "OP01-050_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-050_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/penguin-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -1748,7 +2189,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-051",
-    "id": "OP01-051_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-051_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/eustass-captain-kid-fixed-reprint-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -1779,7 +2227,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-051_p1",
     "id": "OP01-051_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/eustass-captain-kid-alternate-art-fixed-reprint-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Raizo",
@@ -1807,7 +2262,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-052",
-    "id": "OP01-052_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-052_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/raizo-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Wire",
@@ -1830,7 +2292,14 @@
     "cost": 2,
     "expansionCode": "OP01",
     "imageId": "OP01-053",
-    "id": "OP01-053_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-053_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/wire-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "X.Drake",
@@ -1858,6 +2327,13 @@
     "id": "OP01-054_ROMANCE_DAWN_[OP01]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/x-drake-op-01-romance-dawn",
+        "verified": true
+      }
     ]
   },
   {
@@ -1885,7 +2361,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-055",
-    "id": "OP01-055_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-055_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/you-can-be-my-samurai-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Demon Face",
@@ -1912,7 +2395,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-056",
-    "id": "OP01-056_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-056_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/demon-face-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Paradise Waterfall",
@@ -1939,7 +2429,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-057",
-    "id": "OP01-057_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-057_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/paradise-waterfall-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Punk Gibson",
@@ -1966,7 +2463,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-058",
-    "id": "OP01-058_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-058_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/punk-gibson-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "BE-BENG!!",
@@ -1992,7 +2496,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-059",
-    "id": "OP01-059_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-059_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/be-beng-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Donquixote Doflamingo",
@@ -2020,7 +2531,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-060",
-    "id": "OP01-060_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-060_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/donquixote-doflamingo-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Donquixote Doflamingo",
@@ -2049,7 +2567,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-060_p1",
     "id": "OP01-060_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/donquixote-doflamingo-alternate-art-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kaido",
@@ -2079,7 +2604,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-061",
-    "id": "OP01-061_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-061_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kaido-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kaido",
@@ -2110,7 +2642,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-061_p1",
     "id": "OP01-061_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kaido-alternate-art-fixed-reprint-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Crocodile",
@@ -2138,7 +2677,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-062",
-    "id": "OP01-062_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-062_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/crocodile-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Crocodile",
@@ -2167,7 +2713,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-062_p1",
     "id": "OP01-062_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/crocodile-alternate-art-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Arlong",
@@ -2195,7 +2748,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-063",
-    "id": "OP01-063_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-063_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/arlong-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Alvida",
@@ -2222,7 +2782,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-064",
-    "id": "OP01-064_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-064_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/alvida-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Alvida",
@@ -2250,7 +2817,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-064_p1",
     "id": "OP01-064_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/alvida-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vergo",
@@ -2275,7 +2849,14 @@
     "cost": 5,
     "expansionCode": "OP01",
     "imageId": "OP01-065",
-    "id": "OP01-065_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-065_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vergo-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Krieg",
@@ -2298,7 +2879,14 @@
     "cost": 4,
     "expansionCode": "OP01",
     "imageId": "OP01-066",
-    "id": "OP01-066_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-066_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/krieg-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Crocodile",
@@ -2326,7 +2914,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-067",
-    "id": "OP01-067_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-067_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/crocodile-op-01-romance-dawn-244580",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Crocodile",
@@ -2355,7 +2950,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-067_p1",
     "id": "OP01-067_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/crocodile-alternate-art-op-01-romance-dawn-244581",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gecko Moria",
@@ -2383,7 +2985,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-068",
-    "id": "OP01-068_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-068_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gecko-moria-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Caesar Clown",
@@ -2410,7 +3019,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-069",
-    "id": "OP01-069_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-069_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/caesar-clown-fixed-reprint-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Dracule Mihawk",
@@ -2436,6 +3052,13 @@
     "id": "OP01-070_ROMANCE_DAWN_[OP01]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/dracule-mihawk-fixed-reprint-op-01-romance-dawn",
+        "verified": true
+      }
     ]
   },
   {
@@ -2463,7 +3086,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/dracule-mihawk-alternate-art-fixed-reprint-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Jinbe",
@@ -2490,6 +3120,13 @@
     "id": "OP01-071_ROMANCE_DAWN_[OP01]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jinbe-fixed-reprint-op-01-romance-dawn",
+        "verified": true
+      }
     ]
   },
   {
@@ -2518,7 +3155,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-072",
-    "id": "OP01-072_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-072_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/smiley-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Donquixote Doflamingo",
@@ -2546,7 +3190,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-073",
-    "id": "OP01-073_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-073_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/donquixote-doflamingo-op-01-romance-dawn-244602",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Donquixote Doflamingo",
@@ -2575,7 +3226,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-073_p1",
     "id": "OP01-073_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/donquixote-doflamingo-alternate-art-op-01-romance-dawn-244603",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Bartholomew Kuma",
@@ -2603,7 +3261,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-074",
-    "id": "OP01-074_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-074_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/bartholomew-kuma-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Pacifista",
@@ -2630,7 +3295,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-075",
-    "id": "OP01-075_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-075_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/pacifista-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Bellamy",
@@ -2653,7 +3325,14 @@
     "cost": 2,
     "expansionCode": "OP01",
     "imageId": "OP01-076",
-    "id": "OP01-076_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-076_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/bellamy-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Perona",
@@ -2679,6 +3358,13 @@
     "id": "OP01-077_ROMANCE_DAWN_[OP01]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/perona-op-01-romance-dawn",
+        "verified": true
+      }
     ]
   },
   {
@@ -2706,7 +3392,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/perona-box-topper-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Boa Hancock",
@@ -2736,7 +3429,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-078",
-    "id": "OP01-078_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-078_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/boa-hancock-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Boa Hancock",
@@ -2767,7 +3467,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-078_p1",
     "id": "OP01-078_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/boa-hancock-alternate-art-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Ms. All Sunday",
@@ -2794,7 +3501,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-079",
-    "id": "OP01-079_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-079_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ms-all-sunday-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Miss Doublefinger(Zala)",
@@ -2820,7 +3534,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-080",
-    "id": "OP01-080_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-080_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/miss-doublefinger-zala-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Mocha",
@@ -2843,7 +3564,14 @@
     "cost": 3,
     "expansionCode": "OP01",
     "imageId": "OP01-081",
-    "id": "OP01-081_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-081_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/mocha-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monet",
@@ -2867,7 +3595,14 @@
     "cost": 2,
     "expansionCode": "OP01",
     "imageId": "OP01-082",
-    "id": "OP01-082_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-082_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monet-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Mr.1(Daz.Bonez)",
@@ -2894,7 +3629,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-083",
-    "id": "OP01-083_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-083_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/mr-1-daz-bonez-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Mr.2.Bon.Kurei(Bentham)",
@@ -2921,7 +3663,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-084",
-    "id": "OP01-084_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-084_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/mr-2-bon-kurei-bentham-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Mr.3(Galdino)",
@@ -2947,6 +3696,13 @@
     "id": "OP01-085_ROMANCE_DAWN_[OP01]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/mr-3-galdino-op-01-romance-dawn",
+        "verified": true
+      }
     ]
   },
   {
@@ -2974,7 +3730,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-086",
-    "id": "OP01-086_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-086_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/overheat-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Officer Agents",
@@ -3000,7 +3763,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-087",
-    "id": "OP01-087_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-087_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/officer-agents-fixed-reprint-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Desert Spada",
@@ -3027,7 +3797,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-088",
-    "id": "OP01-088_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-088_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/desert-spada-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Crescent Cutlass",
@@ -3054,7 +3831,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-089",
-    "id": "OP01-089_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-089_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/crescent-cutlass-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Baroque Works",
@@ -3080,7 +3864,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-090",
-    "id": "OP01-090_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-090_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/baroque-works-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "King",
@@ -3106,7 +3897,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-091",
-    "id": "OP01-091_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-091_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/king-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "King",
@@ -3133,7 +3931,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-091_p1",
     "id": "OP01-091_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/king-alternate-art-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Urashima",
@@ -3156,7 +3961,14 @@
     "cost": 7,
     "expansionCode": "OP01",
     "imageId": "OP01-092",
-    "id": "OP01-092_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-092_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/urashima-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Ulti",
@@ -3182,6 +3994,13 @@
     "id": "OP01-093_ROMANCE_DAWN_[OP01]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ulti-fixed-reprint-op-01-romance-dawn",
+        "verified": true
+      }
     ]
   },
   {
@@ -3209,7 +4028,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ulti-alternate-art-fixed-reprint-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kaido",
@@ -3236,6 +4062,13 @@
     "id": "OP01-094_ROMANCE_DAWN_[OP01]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kaido-op-01-romance-dawn-244636",
+        "verified": true
+      }
     ]
   },
   {
@@ -3264,7 +4097,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kaido-alternate-art-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kyoshirou",
@@ -3290,6 +4130,13 @@
     "id": "OP01-095_ROMANCE_DAWN_[OP01]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kyoshirou-op-01-romance-dawn",
+        "verified": true
+      }
     ]
   },
   {
@@ -3316,6 +4163,13 @@
     "id": "OP01-096_ROMANCE_DAWN_[OP01]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/king-fixed-reprint-op-01-romance-dawn",
+        "verified": true
+      }
     ]
   },
   {
@@ -3343,7 +4197,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/king-alternate-art-fixed-reprint-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Queen",
@@ -3370,7 +4231,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-097",
-    "id": "OP01-097_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-097_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/queen-fixed-reprint-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Queen",
@@ -3398,7 +4266,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-097_p1",
     "id": "OP01-097_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/queen-alternate-art-fixed-reprint-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kurozumi Orochi",
@@ -3425,6 +4300,13 @@
     "id": "OP01-098_ROMANCE_DAWN_[OP01]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kurozumi-orochi-op-01-romance-dawn",
+        "verified": true
+      }
     ]
   },
   {
@@ -3449,7 +4331,14 @@
     "cost": 2,
     "expansionCode": "OP01",
     "imageId": "OP01-099",
-    "id": "OP01-099_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-099_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kurozumi-semimaru-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kurozumi Higurashi",
@@ -3476,7 +4365,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-100",
-    "id": "OP01-100_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-100_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kurozumi-higurashi-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sasaki",
@@ -3503,7 +4399,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-101",
-    "id": "OP01-101_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-101_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sasaki-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Jack",
@@ -3529,7 +4432,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-102",
-    "id": "OP01-102_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-102_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jack-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Jack",
@@ -3556,7 +4466,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-102_p1",
     "id": "OP01-102_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jack-alternate-art-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Scratchmen Apoo",
@@ -3580,7 +4497,14 @@
     "cost": 4,
     "expansionCode": "OP01",
     "imageId": "OP01-103",
-    "id": "OP01-103_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-103_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/scratchmen-apoo-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Speed",
@@ -3604,7 +4528,14 @@
     "cost": 2,
     "expansionCode": "OP01",
     "imageId": "OP01-104",
-    "id": "OP01-104_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-104_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/speed-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Bao Huang",
@@ -3631,6 +4562,13 @@
     "id": "OP01-105_ROMANCE_DAWN_[OP01]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/bao-huang-op-01-romance-dawn",
+        "verified": true
+      }
     ]
   },
   {
@@ -3658,6 +4596,13 @@
     "id": "OP01-106_ROMANCE_DAWN_[OP01]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/basil-hawkins-op-01-romance-dawn",
+        "verified": true
+      }
     ]
   },
   {
@@ -3682,7 +4627,14 @@
     "cost": 5,
     "expansionCode": "OP01",
     "imageId": "OP01-107",
-    "id": "OP01-107_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-107_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/babanuki-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Hitokiri Kamazo",
@@ -3710,7 +4662,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-108",
-    "id": "OP01-108_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-108_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hitokiri-kamazo-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Who's.Who",
@@ -3737,7 +4696,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-109",
-    "id": "OP01-109_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-109_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/who-s-who-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Who's.Who",
@@ -3765,7 +4731,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-109_p1",
     "id": "OP01-109_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/who-s-who-box-topper-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Fukurokuju",
@@ -3789,7 +4762,14 @@
     "cost": 6,
     "expansionCode": "OP01",
     "imageId": "OP01-110",
-    "id": "OP01-110_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-110_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/fukurokuju-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Black Maria",
@@ -3816,7 +4796,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-111",
-    "id": "OP01-111_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-111_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/black-maria-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Page One",
@@ -3843,7 +4830,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-112",
-    "id": "OP01-112_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-112_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/page-one-fixed-reprint-activate-main-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Holedem",
@@ -3870,7 +4864,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-113",
-    "id": "OP01-113_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-113_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/holedem-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "X.Drake",
@@ -3898,6 +4899,13 @@
     "id": "OP01-114_ROMANCE_DAWN_[OP01]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/x-drake-op-01-romance-dawn-244661",
+        "verified": true
+      }
     ]
   },
   {
@@ -3925,7 +4933,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-115",
-    "id": "OP01-115_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-115_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/elephant-s-marchoo-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Artificial Devil Fruit SMILE",
@@ -3952,7 +4967,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-116",
-    "id": "OP01-116_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-116_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/artificial-devil-fruit-smile-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sheep's Horn",
@@ -3979,7 +5001,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-117",
-    "id": "OP01-117_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-117_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sheep-s-horn-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Ulti-Mortar",
@@ -4005,7 +5034,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-118",
-    "id": "OP01-118_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-118_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ulti-mortar-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Thunder Bagua",
@@ -4032,7 +5068,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-119",
-    "id": "OP01-119_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-119_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/thunder-bagua-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shanks",
@@ -4061,7 +5104,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-120",
-    "id": "OP01-120_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-120_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shanks-secret-rare-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shanks",
@@ -4091,7 +5141,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-120_p1",
     "id": "OP01-120_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shanks-alternative-art-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shanks",
@@ -4121,7 +5178,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-120_p2",
     "id": "OP01-120_p2_ROMANCE_DAWN_[OP01]",
-    "illustration": "manga"
+    "illustration": "manga",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shanks-manga-panel-alternate-art-secret-rare-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Yamato",
@@ -4148,7 +5212,14 @@
     ],
     "expansionCode": "OP01",
     "imageId": "OP01-121",
-    "id": "OP01-121_ROMANCE_DAWN_[OP01]"
+    "id": "OP01-121_ROMANCE_DAWN_[OP01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/yamato-secret-rare-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Yamato",
@@ -4176,6 +5247,13 @@
     "expansionCode": "OP01",
     "imageId": "OP01-121_p1",
     "id": "OP01-121_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/yamato-alternate-art-op-01-romance-dawn",
+        "verified": true
+      }
+    ]
   }
 ]

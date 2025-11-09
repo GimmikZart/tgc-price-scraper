@@ -20,7 +20,14 @@
     "life": 5,
     "expansionCode": "OP03",
     "imageId": "OP03-001",
-    "id": "OP03-001_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-001_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/portgas-d-ace-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Portgas.D.Ace",
@@ -44,7 +51,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-001_p1",
     "id": "OP03-001_p1_PILLARS_OF_STRENGTH_[OP03]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/portgas-d-ace-alternate-art-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Adio",
@@ -72,7 +86,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-002",
-    "id": "OP03-002_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-002_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/adio-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Izo",
@@ -99,6 +120,13 @@
     "id": "OP03-003_PILLARS_OF_STRENGTH_[OP03]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/izo-op-03-pillars-of-strength",
+        "verified": true
+      }
     ]
   },
   {
@@ -126,7 +154,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-004",
-    "id": "OP03-004_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-004_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/curiel-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Thatch",
@@ -153,7 +188,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-005",
-    "id": "OP03-005_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-005_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/thatch-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Speed Jil",
@@ -176,7 +218,14 @@
     "cost": 4,
     "expansionCode": "OP03",
     "imageId": "OP03-006",
-    "id": "OP03-006_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-006_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/speed-jil-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Namule",
@@ -200,7 +249,14 @@
     "cost": 3,
     "expansionCode": "OP03",
     "imageId": "OP03-007",
-    "id": "OP03-007_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-007_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/namule-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Buggy",
@@ -226,6 +282,13 @@
     "id": "OP03-008_PILLARS_OF_STRENGTH_[OP03]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/buggy-op-03-pillars-of-strength",
+        "verified": true
+      }
     ]
   },
   {
@@ -253,7 +316,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-009",
-    "id": "OP03-009_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-009_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/haruta-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Fossa",
@@ -279,7 +349,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-010",
-    "id": "OP03-010_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-010_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/fossa-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Blamenco",
@@ -306,7 +383,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-011",
-    "id": "OP03-011_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-011_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/blamenco-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Marshall.D.Teach",
@@ -332,7 +416,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-012",
-    "id": "OP03-012_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-012_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/marshall-d-teach-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Marco",
@@ -360,7 +451,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-013",
-    "id": "OP03-013_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-013_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/marco-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Marco",
@@ -389,7 +487,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-013_p1",
     "id": "OP03-013_p1_PILLARS_OF_STRENGTH_[OP03]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/marco-alternate-art-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Garp",
@@ -415,7 +520,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-014",
-    "id": "OP03-014_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-014_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-garp-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Lim",
@@ -442,7 +554,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-015",
-    "id": "OP03-015_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-015_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/lim-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Flame Emperor",
@@ -469,7 +588,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-016",
-    "id": "OP03-016_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-016_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/flame-emperor-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Cross Fire",
@@ -496,7 +622,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-017",
-    "id": "OP03-017_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-017_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/cross-fire-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Fire Fist",
@@ -522,7 +655,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-018",
-    "id": "OP03-018_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-018_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/fire-fist-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Fire Fist",
@@ -549,7 +689,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-018_p1",
     "id": "OP03-018_p1_PILLARS_OF_STRENGTH_[OP03]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/fire-fist-alternate-art-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Fiery Doll",
@@ -575,7 +722,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-019",
-    "id": "OP03-019_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-019_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/fiery-doll-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Striker",
@@ -601,7 +755,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-020",
-    "id": "OP03-020_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-020_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/striker-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kuro",
@@ -628,7 +789,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-021",
-    "id": "OP03-021_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-021_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kuro-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kuro",
@@ -656,7 +824,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-021_p1",
     "id": "OP03-021_p1_PILLARS_OF_STRENGTH_[OP03]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kuro-alternate-art-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Arlong",
@@ -687,7 +862,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-022",
-    "id": "OP03-022_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-022_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/arlong-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Arlong",
@@ -719,7 +901,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-022_p1",
     "id": "OP03-022_p1_PILLARS_OF_STRENGTH_[OP03]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/arlong-alternate-art-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Alvida",
@@ -743,7 +932,14 @@
     "cost": 1,
     "expansionCode": "OP03",
     "imageId": "OP03-023",
-    "id": "OP03-023_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-023_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/alvida-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gin",
@@ -770,6 +966,13 @@
     "id": "OP03-024_PILLARS_OF_STRENGTH_[OP03]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gin-op-03-pillars-of-strength",
+        "verified": true
+      }
     ]
   },
   {
@@ -798,7 +1001,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gin-alternate-art-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Krieg",
@@ -827,7 +1037,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-025",
-    "id": "OP03-025_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-025_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/krieg-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Krieg",
@@ -857,7 +1074,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-025_p1",
     "id": "OP03-025_p1_PILLARS_OF_STRENGTH_[OP03]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/krieg-alternate-art-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kuroobi",
@@ -885,6 +1109,13 @@
     "id": "OP03-026_PILLARS_OF_STRENGTH_[OP03]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kuroobi-op-03-pillars-of-strength",
+        "verified": true
+      }
     ]
   },
   {
@@ -912,6 +1143,13 @@
     "id": "OP03-027_PILLARS_OF_STRENGTH_[OP03]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sham-op-03-pillars-of-strength",
+        "verified": true
+      }
     ]
   },
   {
@@ -939,6 +1177,13 @@
     "id": "OP03-028_PILLARS_OF_STRENGTH_[OP03]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jango-op-03-pillars-of-strength",
+        "verified": true
+      }
     ]
   },
   {
@@ -967,6 +1212,13 @@
     "id": "OP03-029_PILLARS_OF_STRENGTH_[OP03]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/chew-op-03-pillars-of-strength",
+        "verified": true
+      }
     ]
   },
   {
@@ -994,6 +1246,13 @@
     "id": "OP03-030_PILLARS_OF_STRENGTH_[OP03]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nami-op-03-pillars-of-strength",
+        "verified": true
+      }
     ]
   },
   {
@@ -1021,7 +1280,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-031",
-    "id": "OP03-031_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-031_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/pearl-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Buggy",
@@ -1045,7 +1311,14 @@
     "cost": 3,
     "expansionCode": "OP03",
     "imageId": "OP03-032",
-    "id": "OP03-032_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-032_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/buggy-op-03-pillars-of-strength-250116",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Hatchan",
@@ -1070,7 +1343,14 @@
     "cost": 4,
     "expansionCode": "OP03",
     "imageId": "OP03-033",
-    "id": "OP03-033_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-033_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hatchan-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Buchi",
@@ -1097,6 +1377,13 @@
     "id": "OP03-034_PILLARS_OF_STRENGTH_[OP03]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/buchi-op-03-pillars-of-strength",
+        "verified": true
+      }
     ]
   },
   {
@@ -1121,7 +1408,14 @@
     "cost": 2,
     "expansionCode": "OP03",
     "imageId": "OP03-035",
-    "id": "OP03-035_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-035_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/momoo-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Out-of-the-Bag",
@@ -1148,7 +1442,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-036",
-    "id": "OP03-036_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-036_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/out-of-the-bag-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Tooth Attack",
@@ -1176,7 +1477,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-037",
-    "id": "OP03-037_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-037_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tooth-attack-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Deathly Poison Gas Bomb MH5",
@@ -1203,7 +1511,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-038",
-    "id": "OP03-038_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-038_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/deathly-poison-gas-bomb-mh5-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "One, Two, Jango",
@@ -1230,7 +1545,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-039",
-    "id": "OP03-039_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-039_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/one-two-jango-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nami",
@@ -1256,7 +1578,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-040",
-    "id": "OP03-040_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-040_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nami-op-03-pillars-of-strength-250282",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nami",
@@ -1283,7 +1612,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-040_p1",
     "id": "OP03-040_p1_PILLARS_OF_STRENGTH_[OP03]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nami-alternate-art-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Usopp",
@@ -1310,7 +1646,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-041",
-    "id": "OP03-041_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-041_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/usopp-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Usopp",
@@ -1338,7 +1681,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-041_p1",
     "id": "OP03-041_p1_PILLARS_OF_STRENGTH_[OP03]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/usopp-alternate-art-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Usopp's Pirate Crew",
@@ -1364,6 +1714,13 @@
     "id": "OP03-042_PILLARS_OF_STRENGTH_[OP03]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/usopp-s-pirate-crew-op-03-pillars-of-strength",
+        "verified": true
+      }
     ]
   },
   {
@@ -1387,7 +1744,14 @@
     "cost": 2,
     "expansionCode": "OP03",
     "imageId": "OP03-043",
-    "id": "OP03-043_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-043_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gaimon-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kaya",
@@ -1413,6 +1777,13 @@
     "id": "OP03-044_PILLARS_OF_STRENGTH_[OP03]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kaya-op-03-pillars-of-strength",
+        "verified": true
+      }
     ]
   },
   {
@@ -1440,7 +1811,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-045",
-    "id": "OP03-045_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-045_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/carne-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Genzo",
@@ -1463,7 +1841,14 @@
     "cost": 2,
     "expansionCode": "OP03",
     "imageId": "OP03-046",
-    "id": "OP03-046_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-046_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/genzo-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Zeff",
@@ -1490,7 +1875,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-047",
-    "id": "OP03-047_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-047_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/zeff-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Zeff",
@@ -1518,7 +1910,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-047_p1",
     "id": "OP03-047_p1_PILLARS_OF_STRENGTH_[OP03]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/zeff-alternate-art-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nojiko",
@@ -1544,6 +1943,13 @@
     "id": "OP03-048_PILLARS_OF_STRENGTH_[OP03]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nojiko-op-03-pillars-of-strength",
+        "verified": true
+      }
     ]
   },
   {
@@ -1570,6 +1976,13 @@
     "id": "OP03-049_PILLARS_OF_STRENGTH_[OP03]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/patty-op-03-pillars-of-strength",
+        "verified": true
+      }
     ]
   },
   {
@@ -1597,7 +2010,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-050",
-    "id": "OP03-050_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-050_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/boodle-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Bell-mère",
@@ -1625,7 +2045,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-051",
-    "id": "OP03-051_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-051_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/bell-mere-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Merry",
@@ -1648,7 +2075,14 @@
     "cost": 1,
     "expansionCode": "OP03",
     "imageId": "OP03-052",
-    "id": "OP03-052_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-052_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/merry-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Yosaku & Johnny",
@@ -1674,7 +2108,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-053",
-    "id": "OP03-053_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-053_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/yosaku-johnny-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Usopp's Rubber Band of Doom!!!",
@@ -1701,7 +2142,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-054",
-    "id": "OP03-054_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-054_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/usopp-s-rubber-band-of-doom-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gum-Gum Giant Gavel",
@@ -1728,7 +2176,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-055",
-    "id": "OP03-055_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-055_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gum-gum-giant-gavel-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sanji's Pilaf",
@@ -1754,7 +2209,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-056",
-    "id": "OP03-056_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-056_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-s-pilaf-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Three Thousand Worlds",
@@ -1781,7 +2243,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-057",
-    "id": "OP03-057_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-057_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/three-thousand-worlds-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Iceburg",
@@ -1808,7 +2277,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-058",
-    "id": "OP03-058_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-058_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/iceburg-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Iceburg",
@@ -1836,7 +2312,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-058_p1",
     "id": "OP03-058_p1_PILLARS_OF_STRENGTH_[OP03]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/iceburg-alternate-art-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kaku",
@@ -1864,7 +2347,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-059",
-    "id": "OP03-059_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-059_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kaku-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kalifa",
@@ -1891,7 +2381,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-060",
-    "id": "OP03-060_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-060_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kalifa-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kiwi & Mozu",
@@ -1915,7 +2412,14 @@
     "cost": 2,
     "expansionCode": "OP03",
     "imageId": "OP03-061",
-    "id": "OP03-061_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-061_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kiwi-mozu-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kokoro",
@@ -1942,6 +2446,13 @@
     "id": "OP03-062_PILLARS_OF_STRENGTH_[OP03]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kokoro-op-03-pillars-of-strength",
+        "verified": true
+      }
     ]
   },
   {
@@ -1970,7 +2481,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-063",
-    "id": "OP03-063_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-063_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/zambai-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Tilestone",
@@ -1997,7 +2515,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-064",
-    "id": "OP03-064_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-064_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tilestone-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Chimney & Gonbe",
@@ -2024,7 +2549,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-065",
-    "id": "OP03-065_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-065_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/chimney-gonbe-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Paulie",
@@ -2051,6 +2583,13 @@
     "id": "OP03-066_PILLARS_OF_STRENGTH_[OP03]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/paulie-op-03-pillars-of-strength",
+        "verified": true
+      }
     ]
   },
   {
@@ -2079,7 +2618,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/paulie-alternate-art-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Peepley Lulu",
@@ -2107,7 +2653,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-067",
-    "id": "OP03-067_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-067_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/peepley-lulu-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Minozebra",
@@ -2135,7 +2688,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-068",
-    "id": "OP03-068_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-068_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/minozebra-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Minorhinoceros",
@@ -2162,7 +2722,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-069",
-    "id": "OP03-069_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-069_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/minorhinoceros-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -2190,7 +2757,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-070",
-    "id": "OP03-070_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-070_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Rob Lucci",
@@ -2217,7 +2791,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-071",
-    "id": "OP03-071_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-071_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/rob-lucci-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gum-Gum Jet Gatling",
@@ -2244,7 +2825,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-072",
-    "id": "OP03-072_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-072_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gum-gum-jet-gatling-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Hull Dismantler Slash",
@@ -2271,7 +2859,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-073",
-    "id": "OP03-073_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-073_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hull-dismantler-slash-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Top Knot",
@@ -2298,7 +2893,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-074",
-    "id": "OP03-074_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-074_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/top-knot-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Galley-La Company",
@@ -2325,7 +2927,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-075",
-    "id": "OP03-075_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-075_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/galley-la-company-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Rob Lucci",
@@ -2352,7 +2961,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-076",
-    "id": "OP03-076_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-076_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/rob-lucci-op-03-pillars-of-strength-250297",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Rob Lucci",
@@ -2380,7 +2996,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-076_p1",
     "id": "OP03-076_p1_PILLARS_OF_STRENGTH_[OP03]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/rob-lucci-alternate-art-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Charlotte Linlin",
@@ -2409,7 +3032,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-077",
-    "id": "OP03-077_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-077_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-linlin-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Charlotte Linlin",
@@ -2439,7 +3069,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-077_p1",
     "id": "OP03-077_p1_PILLARS_OF_STRENGTH_[OP03]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-linlin-alternate-art-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Issho",
@@ -2467,7 +3104,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-078",
-    "id": "OP03-078_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-078_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/issho-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Issho",
@@ -2496,7 +3140,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-078_p1",
     "id": "OP03-078_p1_PILLARS_OF_STRENGTH_[OP03]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/issho-alternate-art-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vergo",
@@ -2523,7 +3174,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-079",
-    "id": "OP03-079_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-079_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vergo-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kaku",
@@ -2549,6 +3207,13 @@
     "id": "OP03-080_PILLARS_OF_STRENGTH_[OP03]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kaku-op-03-pillars-of-strength-250197",
+        "verified": true
+      }
     ]
   },
   {
@@ -2576,7 +3241,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kaku-alternative-art-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kalifa",
@@ -2602,6 +3274,13 @@
     "id": "OP03-081_PILLARS_OF_STRENGTH_[OP03]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kalifa-op-03-pillars-of-strength-250202",
+        "verified": true
+      }
     ]
   },
   {
@@ -2629,7 +3308,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kalifa-alternate-art-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kumadori",
@@ -2652,7 +3338,14 @@
     "cost": 4,
     "expansionCode": "OP03",
     "imageId": "OP03-082",
-    "id": "OP03-082_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-082_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kumadori-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Corgy",
@@ -2678,6 +3371,13 @@
     "id": "OP03-083_PILLARS_OF_STRENGTH_[OP03]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/corgy-op-03-pillars-of-strength",
+        "verified": true
+      }
     ]
   },
   {
@@ -2701,7 +3401,14 @@
     "cost": 2,
     "expansionCode": "OP03",
     "imageId": "OP03-084",
-    "id": "OP03-084_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-084_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jerry-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Jabra",
@@ -2724,7 +3431,14 @@
     "cost": 5,
     "expansionCode": "OP03",
     "imageId": "OP03-085",
-    "id": "OP03-085_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-085_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jabra-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Spandam",
@@ -2750,6 +3464,13 @@
     "id": "OP03-086_PILLARS_OF_STRENGTH_[OP03]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/spandam-op-03-pillars-of-strength",
+        "verified": true
+      }
     ]
   },
   {
@@ -2777,7 +3498,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/spandam-alternate-art-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nero",
@@ -2800,7 +3528,14 @@
     "cost": 3,
     "expansionCode": "OP03",
     "imageId": "OP03-087",
-    "id": "OP03-087_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-087_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nero-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Fukurou",
@@ -2826,7 +3561,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-088",
-    "id": "OP03-088_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-088_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/fukurou-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Brannew",
@@ -2852,6 +3594,13 @@
     "id": "OP03-089_PILLARS_OF_STRENGTH_[OP03]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/brannew-op-03-pillars-of-strength",
+        "verified": true
+      }
     ]
   },
   {
@@ -2880,7 +3629,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-090",
-    "id": "OP03-090_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-090_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/blueno-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Helmeppo",
@@ -2906,6 +3662,13 @@
     "id": "OP03-091_PILLARS_OF_STRENGTH_[OP03]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/helmeppo-op-03-pillars-of-strength",
+        "verified": true
+      }
     ]
   },
   {
@@ -2933,7 +3696,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-092",
-    "id": "OP03-092_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-092_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/rob-lucci-op-03-pillars-of-strength-250298",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Rob Lucci",
@@ -2961,7 +3731,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-092_p1",
     "id": "OP03-092_p1_PILLARS_OF_STRENGTH_[OP03]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "http://cardtrader.com/cards/rob-lucci-alternate-art-op-03-pillars-of-strength-250299",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Wanze",
@@ -2987,6 +3764,13 @@
     "id": "OP03-093_PILLARS_OF_STRENGTH_[OP03]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/wanze-op-03-pillars-of-strength",
+        "verified": true
+      }
     ]
   },
   {
@@ -3013,7 +3797,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-094",
-    "id": "OP03-094_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-094_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/air-door-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Soap Sheep",
@@ -3039,7 +3830,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-095",
-    "id": "OP03-095_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-095_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/soap-sheep-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Tempest Kick Sky Slicer",
@@ -3065,7 +3863,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-096",
-    "id": "OP03-096_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-096_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tempest-kick-sky-slicer-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Six King Pistol",
@@ -3091,7 +3896,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-097",
-    "id": "OP03-097_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-097_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/six-king-pistol-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Enies Lobby",
@@ -3117,7 +3929,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-098",
-    "id": "OP03-098_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-098_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/enies-lobby-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Charlotte Katakuri",
@@ -3144,7 +3963,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-099",
-    "id": "OP03-099_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-099_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-katakuri-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Charlotte Katakuri",
@@ -3172,7 +3998,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-099_p1",
     "id": "OP03-099_p1_PILLARS_OF_STRENGTH_[OP03]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-katakuri-alternate-art-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kingbaum",
@@ -3196,7 +4029,14 @@
     "cost": 3,
     "expansionCode": "OP03",
     "imageId": "OP03-100",
-    "id": "OP03-100_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-100_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kingbaum-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Camie",
@@ -3219,7 +4059,14 @@
     "cost": 1,
     "expansionCode": "OP03",
     "imageId": "OP03-101",
-    "id": "OP03-101_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-101_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/camie-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -3246,7 +4093,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-102",
-    "id": "OP03-102_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-102_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Bobbin the Disposer",
@@ -3269,7 +4123,14 @@
     "cost": 2,
     "expansionCode": "OP03",
     "imageId": "OP03-103",
-    "id": "OP03-103_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-103_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/bobbin-the-disposer-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shirley",
@@ -3296,7 +4157,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-104",
-    "id": "OP03-104_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-104_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shirley-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Charlotte Oven",
@@ -3324,7 +4192,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-105",
-    "id": "OP03-105_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-105_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-oven-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Charlotte Opera",
@@ -3347,7 +4222,14 @@
     "cost": 4,
     "expansionCode": "OP03",
     "imageId": "OP03-106",
-    "id": "OP03-106_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-106_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-opera-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Charlotte Galette",
@@ -3373,7 +4255,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-107",
-    "id": "OP03-107_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-107_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-galette-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Charlotte Cracker",
@@ -3400,7 +4289,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-108",
-    "id": "OP03-108_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-108_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-cracker-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Charlotte Cracker",
@@ -3428,7 +4324,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-108_p1",
     "id": "OP03-108_p1_PILLARS_OF_STRENGTH_[OP03]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-cracker-alternate-art-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Charlotte Chiffon",
@@ -3454,6 +4357,13 @@
     "id": "OP03-109_PILLARS_OF_STRENGTH_[OP03]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-chiffon-op-03-pillars-of-strength",
+        "verified": true
+      }
     ]
   },
   {
@@ -3480,7 +4390,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-110",
-    "id": "OP03-110_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-110_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-smoothie-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Charlotte Praline",
@@ -3504,7 +4421,14 @@
     "cost": 3,
     "expansionCode": "OP03",
     "imageId": "OP03-111",
-    "id": "OP03-111_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-111_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-praline-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Charlotte Pudding",
@@ -3530,6 +4454,13 @@
     "id": "OP03-112_PILLARS_OF_STRENGTH_[OP03]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-pudding-op-03-pillars-of-strength",
+        "verified": true
+      }
     ]
   },
   {
@@ -3557,7 +4488,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-pudding-alternate-art-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Charlotte Perospero",
@@ -3583,7 +4521,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-113",
-    "id": "OP03-113_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-113_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-perospero-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Charlotte Perospero",
@@ -3610,7 +4555,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-113_p1",
     "id": "OP03-113_p1_PILLARS_OF_STRENGTH_[OP03]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-perospero-alternate-art-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Charlotte Linlin",
@@ -3637,6 +4589,13 @@
     "id": "OP03-114_PILLARS_OF_STRENGTH_[OP03]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-linlin-op-03-pillars-of-strength-250133",
+        "verified": true
+      }
     ]
   },
   {
@@ -3665,7 +4624,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-linlin-alternate-art-op-03-pillars-of-strength-250134",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Streusen",
@@ -3692,7 +4658,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-115",
-    "id": "OP03-115_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-115_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/streusen-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shirahoshi",
@@ -3718,6 +4691,13 @@
     "id": "OP03-116_PILLARS_OF_STRENGTH_[OP03]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shirahoshi-op-03-pillars-of-strength",
+        "verified": true
+      }
     ]
   },
   {
@@ -3745,7 +4725,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-117",
-    "id": "OP03-117_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-117_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/napoleon-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Ikoku Sovereignty",
@@ -3772,7 +4759,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-118",
-    "id": "OP03-118_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-118_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ikoku-sovereignty-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Buzz Cut Mochi",
@@ -3798,7 +4792,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-119",
-    "id": "OP03-119_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-119_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/buzz-cut-mochi-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Tropical Torment",
@@ -3824,7 +4825,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-120",
-    "id": "OP03-120_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-120_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tropical-torment-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Thunder Bolt",
@@ -3851,7 +4859,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-121",
-    "id": "OP03-121_PILLARS_OF_STRENGTH_[OP03]"
+    "id": "OP03-121_PILLARS_OF_STRENGTH_[OP03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/thunder-bolt-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sogeking",
@@ -3877,6 +4892,13 @@
     "id": "OP03-122_PILLARS_OF_STRENGTH_[OP03]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sogeking-secret-rare-op-03-pillars-of-strength",
+        "verified": true
+      }
     ]
   },
   {
@@ -3904,7 +4926,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sogeking-secret-rare-alternate-art-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sogeking",
@@ -3931,7 +4960,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "manga"
+    "illustration": "manga",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sogeking-manga-panel-alternate-art-secret-rare-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Charlotte Katakuri",
@@ -3957,6 +4993,13 @@
     "id": "OP03-123_PILLARS_OF_STRENGTH_[OP03]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-katakuri-secret-rare-op-03-pillars-of-strength",
+        "verified": true
+      }
     ]
   },
   {
@@ -3984,7 +5027,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-katakuri-alternate-art-secret-rare-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -4015,7 +5065,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-051_p2",
     "id": "OP01-051_p2_PILLARS_OF_STRENGTH_[OP03]",
-    "illustration": "wanted"
+    "illustration": "wanted",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/eustass-captain-kid-wanted-alternate-art-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -4046,7 +5103,14 @@
     "expansionCode": "ST01",
     "imageId": "ST01-012_p1",
     "id": "ST01-012_p1_PILLARS_OF_STRENGTH_[OP03]",
-    "illustration": "wanted"
+    "illustration": "wanted",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-wanted-alternate-art-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Donquixote Doflamingo",
@@ -4074,7 +5138,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "wanted"
+    "illustration": "wanted",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/donquixote-doflamingo-wanted-alternate-art-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kaido",
@@ -4103,6 +5174,13 @@
     "expansionCode": "ST04",
     "imageId": "ST04-003_p1",
     "id": "ST04-003_p1_PILLARS_OF_STRENGTH_[OP03]",
-    "illustration": "wanted"
+    "illustration": "wanted",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kaido-wanted-alternate-art-op-03-pillars-of-strength",
+        "verified": true
+      }
+    ]
   }
 ]

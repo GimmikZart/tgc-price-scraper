@@ -25,7 +25,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "special"
+    "illustration": "treasure-rare",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-sanji-treasure-rare-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Silvers Rayleigh",
@@ -52,7 +59,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-001",
-    "id": "OP12-001_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-001_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/silvers-rayleigh-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Silvers Rayleigh",
@@ -80,7 +94,14 @@
     "expansionCode": "OP12",
     "imageId": "OP12-001_p1",
     "id": "OP12-001_p1_LEGACY_OF_THE_MASTER_[OP-12]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/silvers-rayleigh-alternate-art-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Edward.Newgate",
@@ -103,7 +124,14 @@
     "cost": 5,
     "expansionCode": "OP12",
     "imageId": "OP12-002",
-    "id": "OP12-002_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-002_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/edward-newgate-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Crocus",
@@ -129,7 +157,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-003",
-    "id": "OP12-003_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-003_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/crocus-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kouzuki Oden",
@@ -158,7 +193,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-004",
-    "id": "OP12-004_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-004_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kouzuki-oden-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shiki",
@@ -182,7 +224,14 @@
     "cost": 8,
     "expansionCode": "OP12",
     "imageId": "OP12-005",
-    "id": "OP12-005_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-005_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shiki-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shakuyaku",
@@ -208,6 +257,13 @@
     "id": "OP12-006_LEGACY_OF_THE_MASTER_[OP-12]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shakuyaku-op-12-legacy-of-the-master",
+        "verified": true
+      }
     ]
   },
   {
@@ -235,7 +291,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-007",
-    "id": "OP12-007_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-007_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shanks-op-12-legacy-of-the-master-345609",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shanks",
@@ -264,7 +327,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-008",
-    "id": "OP12-008_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-008_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shanks-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shanks",
@@ -294,7 +364,14 @@
     "expansionCode": "OP12",
     "imageId": "OP12-008_p1",
     "id": "OP12-008_p1_LEGACY_OF_THE_MASTER_[OP-12]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shanks-alternate-art-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Jinbe",
@@ -322,7 +399,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-009",
-    "id": "OP12-009_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-009_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jinbe-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Douglas Bullet",
@@ -347,7 +431,14 @@
     "cost": 6,
     "expansionCode": "OP12",
     "imageId": "OP12-010",
-    "id": "OP12-010_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-010_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/douglas-bullet-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Duval",
@@ -370,7 +461,14 @@
     "cost": 5,
     "expansionCode": "OP12",
     "imageId": "OP12-011",
-    "id": "OP12-011_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-011_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/duval-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Buggy",
@@ -397,7 +495,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-012",
-    "id": "OP12-012_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-012_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/buggy-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Hatchan",
@@ -424,7 +529,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-013",
-    "id": "OP12-013_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-013_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hatchan-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Boa Hancock",
@@ -452,7 +564,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-014",
-    "id": "OP12-014_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-014_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/boa-hancock-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Boa Hancock",
@@ -481,7 +600,14 @@
     "expansionCode": "OP12",
     "imageId": "OP12-014_p1",
     "id": "OP12-014_p1_LEGACY_OF_THE_MASTER_[OP-12]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/boa-hancock-alternate-art-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -508,6 +634,13 @@
     "id": "OP12-015_LEGACY_OF_THE_MASTER_[OP-12]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-op-12-legacy-of-the-master",
+        "verified": true
+      }
     ]
   },
   {
@@ -536,7 +669,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-alternate-art-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "To Never Doubt--That Is Power!",
@@ -564,7 +704,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-016",
-    "id": "OP12-016_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-016_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/to-never-doubt-that-is-power-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Color of Observation Haki",
@@ -590,7 +737,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-017",
-    "id": "OP12-017_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-017_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/color-of-observation-haki-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Color of the Supreme King Haki",
@@ -616,7 +770,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-018",
-    "id": "OP12-018_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-018_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/color-of-the-supreme-king-haki-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Color of Arms Haki",
@@ -643,7 +804,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-019",
-    "id": "OP12-019_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-019_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/color-of-arms-haki-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -671,7 +839,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-020",
-    "id": "OP12-020_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-020_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/roronoa-zoro-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -700,7 +875,14 @@
     "expansionCode": "OP12",
     "imageId": "OP12-020_p1",
     "id": "OP12-020_p1_LEGACY_OF_THE_MASTER_[OP-12]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/roronoa-zoro-alternate-art-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Ipponmatsu",
@@ -726,7 +908,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-021",
-    "id": "OP12-021_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-021_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ipponmatsu-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Inuarashi",
@@ -754,7 +943,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-022",
-    "id": "OP12-022_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-022_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/inuarashi-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kawamatsu",
@@ -779,7 +975,14 @@
     "cost": 5,
     "expansionCode": "OP12",
     "imageId": "OP12-023",
-    "id": "OP12-023_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-023_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kawamatsu-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gyukimaru",
@@ -806,7 +1009,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-024",
-    "id": "OP12-024_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-024_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gyukimaru-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kin'emon",
@@ -830,7 +1040,14 @@
     "cost": 6,
     "expansionCode": "OP12",
     "imageId": "OP12-025",
-    "id": "OP12-025_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-025_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kin-emon-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kuina",
@@ -857,7 +1074,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-026",
-    "id": "OP12-026_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-026_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kuina-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Koushirou",
@@ -884,7 +1108,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-027",
-    "id": "OP12-027_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-027_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/koushirou-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kouzuki Hiyori",
@@ -911,7 +1142,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-028",
-    "id": "OP12-028_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-028_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kouzuki-hiyori-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shimotsuki Kouzaburou",
@@ -939,6 +1177,13 @@
     "id": "OP12-029_LEGACY_OF_THE_MASTER_[OP-12]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shimotsuki-kouzaburou-op-12-legacy-of-the-master",
+        "verified": true
+      }
     ]
   },
   {
@@ -967,7 +1212,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-030",
-    "id": "OP12-030_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-030_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/dracule-mihawk-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Dracule Mihawk",
@@ -996,7 +1248,14 @@
     "expansionCode": "OP12",
     "imageId": "OP12-030_p1",
     "id": "OP12-030_p1_LEGACY_OF_THE_MASTER_[OP-12]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/dracule-mihawk-alternate-art-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Tashigi",
@@ -1023,6 +1282,13 @@
     "id": "OP12-031_LEGACY_OF_THE_MASTER_[OP-12]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tashigi-op-12-legacy-of-the-master",
+        "verified": true
+      }
     ]
   },
   {
@@ -1051,7 +1317,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tashigi-alternate-art-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nekomamushi",
@@ -1076,7 +1349,14 @@
     "cost": 6,
     "expansionCode": "OP12",
     "imageId": "OP12-032",
-    "id": "OP12-032_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-032_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nekomamushi-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Helmeppo",
@@ -1104,7 +1384,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-033",
-    "id": "OP12-033_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-033_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/helmeppo-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Perona",
@@ -1131,6 +1418,13 @@
     "id": "OP12-034_LEGACY_OF_THE_MASTER_[OP-12]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/perona-op-12-legacy-of-the-master",
+        "verified": true
+      }
     ]
   },
   {
@@ -1159,7 +1453,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/perona-alternate-art-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Morgan",
@@ -1183,7 +1484,14 @@
     "cost": 3,
     "expansionCode": "OP12",
     "imageId": "OP12-035",
-    "id": "OP12-035_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-035_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/morgan-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -1207,7 +1515,14 @@
     "cost": 4,
     "expansionCode": "OP12",
     "imageId": "OP12-036",
-    "id": "OP12-036_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-036_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/roronoa-zoro-op-12-legacy-of-the-master-345605",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Demon Aura Nine Sword Style Asura Blades Drawn Dead Man's Game",
@@ -1234,7 +1549,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-037",
-    "id": "OP12-037_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-037_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/demon-aura-nine-sword-style-asura-blades-drawn-dead-man-s-game-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Demon Aura Nine Sword Style Asura Blades Drawn Dead Man's Game",
@@ -1262,7 +1584,14 @@
     "expansionCode": "OP12",
     "imageId": "OP12-037_p1",
     "id": "OP12-037_p1_LEGACY_OF_THE_MASTER_[OP-12]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/demon-aura-nine-sword-style-asura-blades-drawn-dead-man-s-game-alternate-art-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Two-Sword Style Rashomon",
@@ -1289,7 +1618,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-038",
-    "id": "OP12-038_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-038_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/two-sword-style-rashomon-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Luffy Is the Man Who Will Become the King of Pirates!!!",
@@ -1315,7 +1651,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-039",
-    "id": "OP12-039_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-039_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/luffy-is-the-man-who-will-become-the-king-of-pirates-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kuzan",
@@ -1338,7 +1681,14 @@
     "life": 5,
     "expansionCode": "OP12",
     "imageId": "OP12-040",
-    "id": "OP12-040_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-040_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kuzan-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kuzan",
@@ -1362,7 +1712,14 @@
     "expansionCode": "OP12",
     "imageId": "OP12-040_p1",
     "id": "OP12-040_p1_LEGACY_OF_THE_MASTER_[OP-12]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kuzan-alternate-art-op-12-legacy-of-the-master-343872",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -1392,7 +1749,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-041",
-    "id": "OP12-041_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-041_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-op-12-legacy-of-the-master-343890",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -1423,7 +1787,14 @@
     "expansionCode": "OP12",
     "imageId": "OP12-041_p1",
     "id": "OP12-041_p1_LEGACY_OF_THE_MASTER_[OP-12]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-alternate-art-op-12-legacy-of-the-master-343896",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Alvida",
@@ -1449,6 +1820,13 @@
     "id": "OP12-042_LEGACY_OF_THE_MASTER_[OP-12]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/alvida-op-12-legacy-of-the-master",
+        "verified": true
+      }
     ]
   },
   {
@@ -1475,6 +1853,13 @@
     "id": "OP12-043_LEGACY_OF_THE_MASTER_[OP-12]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kuzan-op-12-legacy-of-the-master-343880",
+        "verified": true
+      }
     ]
   },
   {
@@ -1502,7 +1887,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kuzan-alternate-art-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sakazuki",
@@ -1530,7 +1922,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-044",
-    "id": "OP12-044_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-044_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sakazuki-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Jango",
@@ -1553,7 +1952,14 @@
     "cost": 6,
     "expansionCode": "OP12",
     "imageId": "OP12-045",
-    "id": "OP12-045_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-045_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jango-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Zephyr(Navy)",
@@ -1581,7 +1987,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-046",
-    "id": "OP12-046_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-046_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/zephyr-navy-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sengoku",
@@ -1607,6 +2020,13 @@
     "id": "OP12-047_LEGACY_OF_THE_MASTER_[OP-12]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sengoku-op-12-legacy-of-the-master",
+        "verified": true
+      }
     ]
   },
   {
@@ -1633,7 +2053,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-048",
-    "id": "OP12-048_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-048_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/donquixote-rosinante-op-12-legacy-of-the-master-345562",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Buggy",
@@ -1657,7 +2084,14 @@
     "cost": 6,
     "expansionCode": "OP12",
     "imageId": "OP12-049",
-    "id": "OP12-049_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-049_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/buggy-op-12-legacy-of-the-master-345553",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Jaguar.D.Saul",
@@ -1685,7 +2119,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-050",
-    "id": "OP12-050_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-050_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jaguar-d-saul-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Hina",
@@ -1712,7 +2153,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-051",
-    "id": "OP12-051_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-051_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hina-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Fullbody",
@@ -1735,7 +2183,14 @@
     "cost": 4,
     "expansionCode": "OP12",
     "imageId": "OP12-052",
-    "id": "OP12-052_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-052_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/fullbody-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Borsalino",
@@ -1763,7 +2218,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-053",
-    "id": "OP12-053_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-053_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/borsalino-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Marshall.D.Teach",
@@ -1790,6 +2252,13 @@
     "id": "OP12-054_LEGACY_OF_THE_MASTER_[OP-12]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/marshall-d-teach-op-12-legacy-of-the-master",
+        "verified": true
+      }
     ]
   },
   {
@@ -1813,7 +2282,14 @@
     "cost": 5,
     "expansionCode": "OP12",
     "imageId": "OP12-055",
-    "id": "OP12-055_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-055_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/mohji-cabaji-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Garp",
@@ -1839,6 +2315,13 @@
     "id": "OP12-056_LEGACY_OF_THE_MASTER_[OP-12]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-garp-op-12-legacy-of-the-master",
+        "verified": true
+      }
     ]
   },
   {
@@ -1866,7 +2349,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-garp-alternate-art-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Ice Block Pheasant Peck",
@@ -1892,7 +2382,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-057",
-    "id": "OP12-057_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-057_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ice-block-pheasant-peck-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "I Will Make Whitebeard the King of the Pirates",
@@ -1919,7 +2416,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-058",
-    "id": "OP12-058_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-058_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/i-will-make-whitebeard-the-king-of-the-pirates-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Concasser",
@@ -1947,7 +2451,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-059",
-    "id": "OP12-059_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-059_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/concasser-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Boeuf Burst",
@@ -1973,7 +2484,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-060",
-    "id": "OP12-060_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-060_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/boeuf-burst-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Boeuf Burst",
@@ -2000,7 +2518,14 @@
     "expansionCode": "OP12",
     "imageId": "OP12-060_p1",
     "id": "OP12-060_p1_LEGACY_OF_THE_MASTER_[OP-12]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/boeuf-burst-alternate-art-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Donquixote Rosinante",
@@ -2029,7 +2554,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-061",
-    "id": "OP12-061_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-061_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/donquixote-rosinante-op-12-legacy-of-the-master-344977",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Donquixote Rosinante",
@@ -2059,7 +2591,14 @@
     "expansionCode": "OP12",
     "imageId": "OP12-061_p1",
     "id": "OP12-061_p1_LEGACY_OF_THE_MASTER_[OP-12]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/donquixote-rosinante-alternate-art-op-12-legacy-of-the-master-344976",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vinsmoke Sora",
@@ -2086,6 +2625,13 @@
     "id": "OP12-062_LEGACY_OF_THE_MASTER_[OP-12]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-sora-op-12-legacy-of-the-master",
+        "verified": true
+      }
     ]
   },
   {
@@ -2113,7 +2659,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-063",
-    "id": "OP12-063_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-063_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-reiju-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vinsmoke Reiju",
@@ -2141,7 +2694,14 @@
     "expansionCode": "OP12",
     "imageId": "OP12-063_p1",
     "id": "OP12-063_p1_LEGACY_OF_THE_MASTER_[OP-12]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-reiju-alternate-art-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vergo",
@@ -2166,7 +2726,14 @@
     "cost": 5,
     "expansionCode": "OP12",
     "imageId": "OP12-064",
-    "id": "OP12-064_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-064_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vergo-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Emporio.Ivankov",
@@ -2194,7 +2761,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-065",
-    "id": "OP12-065_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-065_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/emporio-ivankov-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Carne",
@@ -2220,7 +2794,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-066",
-    "id": "OP12-066_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-066_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/carne-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Carmen",
@@ -2243,7 +2824,14 @@
     "cost": 3,
     "expansionCode": "OP12",
     "imageId": "OP12-067",
-    "id": "OP12-067_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-067_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/carmen-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gin",
@@ -2267,7 +2855,14 @@
     "cost": 6,
     "expansionCode": "OP12",
     "imageId": "OP12-068",
-    "id": "OP12-068_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-068_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gin-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Crocodile",
@@ -2295,7 +2890,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-069",
-    "id": "OP12-069_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-069_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/crocodile-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -2319,7 +2921,14 @@
     "cost": 3,
     "expansionCode": "OP12",
     "imageId": "OP12-070",
-    "id": "OP12-070_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-070_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -2344,7 +2953,14 @@
     "expansionCode": "OP12",
     "imageId": "OP12-070_p1",
     "id": "OP12-070_p1_LEGACY_OF_THE_MASTER_[OP-12]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-alternate-art-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Charlotte Pudding",
@@ -2370,6 +2986,13 @@
     "id": "OP12-071_LEGACY_OF_THE_MASTER_[OP-12]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-pudding-op-12-legacy-of-the-master",
+        "verified": true
+      }
     ]
   },
   {
@@ -2396,7 +3019,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-072",
-    "id": "OP12-072_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-072_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/zeff-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -2424,6 +3054,13 @@
     "id": "OP12-073_LEGACY_OF_THE_MASTER_[OP-12]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/trafalgar-law-op-12-legacy-of-the-master",
+        "verified": true
+      }
     ]
   },
   {
@@ -2453,7 +3090,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/trafalgar-law-alternate-art-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Patty",
@@ -2479,6 +3123,13 @@
     "id": "OP12-074_LEGACY_OF_THE_MASTER_[OP-12]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/patty-op-12-legacy-of-the-master",
+        "verified": true
+      }
     ]
   },
   {
@@ -2505,6 +3156,13 @@
     "id": "OP12-075_LEGACY_OF_THE_MASTER_[OP-12]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ms-all-sunday-op-12-legacy-of-the-master",
+        "verified": true
+      }
     ]
   },
   {
@@ -2529,7 +3187,14 @@
     "cost": 5,
     "expansionCode": "OP12",
     "imageId": "OP12-076",
-    "id": "OP12-076_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-076_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monet-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "The \"Extinguishes All Sound Created by Your Influence\" Technique",
@@ -2556,7 +3221,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-077",
-    "id": "OP12-077_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-077_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/the-extinguishes-all-sound-created-by-your-influence-technique-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Brochette Blow",
@@ -2582,7 +3254,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-078",
-    "id": "OP12-078_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-078_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/brochette-blow-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Luffy Is the Man Who Will Be King of the Pirates!!!",
@@ -2608,7 +3287,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-079",
-    "id": "OP12-079_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-079_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/luffy-is-the-man-who-will-be-king-of-the-pirates-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Baratie",
@@ -2634,7 +3320,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-080",
-    "id": "OP12-080_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-080_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/baratie-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Koala",
@@ -2662,7 +3355,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-081",
-    "id": "OP12-081_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-081_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/koala-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Koala",
@@ -2691,7 +3391,14 @@
     "expansionCode": "OP12",
     "imageId": "OP12-081_p1",
     "id": "OP12-081_p1_LEGACY_OF_THE_MASTER_[OP-12]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/koala-alternate-art-op-12-legacy-of-the-master-343871",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Issho",
@@ -2715,7 +3422,14 @@
     "cost": 8,
     "expansionCode": "OP12",
     "imageId": "OP12-082",
-    "id": "OP12-082_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-082_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/issho-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Inazuma",
@@ -2738,7 +3452,14 @@
     "cost": 5,
     "expansionCode": "OP12",
     "imageId": "OP12-083",
-    "id": "OP12-083_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-083_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/inazuma-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Emporio.Ivankov",
@@ -2765,7 +3486,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-084",
-    "id": "OP12-084_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-084_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/emporio-ivankov-op-12-legacy-of-the-master-345567",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Karasu",
@@ -2791,7 +3519,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-085",
-    "id": "OP12-085_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-085_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/karasu-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Koala",
@@ -2818,6 +3553,13 @@
     "id": "OP12-086_LEGACY_OF_THE_MASTER_[OP-12]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/koala-op-12-legacy-of-the-master-343881",
+        "verified": true
+      }
     ]
   },
   {
@@ -2846,7 +3588,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/koala-alternate-art-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nico Robin",
@@ -2873,7 +3622,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-087",
-    "id": "OP12-087_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-087_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nico-robin-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nico Robin",
@@ -2901,7 +3657,14 @@
     "expansionCode": "OP12",
     "imageId": "OP12-087_p1",
     "id": "OP12-087_p1_LEGACY_OF_THE_MASTER_[OP-12]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nico-robin-alternate-art-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Bastille",
@@ -2925,7 +3688,14 @@
     "cost": 6,
     "expansionCode": "OP12",
     "imageId": "OP12-088",
-    "id": "OP12-088_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-088_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/bastille-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Hack",
@@ -2954,7 +3724,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-089",
-    "id": "OP12-089_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-089_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hack-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Belo Betty",
@@ -2980,7 +3757,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-090",
-    "id": "OP12-090_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-090_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/belo-betty-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Poker",
@@ -3008,7 +3792,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-091",
-    "id": "OP12-091_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-091_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/poker-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Mizerka",
@@ -3032,7 +3823,14 @@
     "cost": 6,
     "expansionCode": "OP12",
     "imageId": "OP12-092",
-    "id": "OP12-092_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-092_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/mizerka-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Morley",
@@ -3056,7 +3854,14 @@
     "cost": 4,
     "expansionCode": "OP12",
     "imageId": "OP12-093",
-    "id": "OP12-093_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-093_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/morley-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Dragon",
@@ -3082,6 +3887,13 @@
     "id": "OP12-094_LEGACY_OF_THE_MASTER_[OP-12]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-dragon-op-12-legacy-of-the-master",
+        "verified": true
+      }
     ]
   },
   {
@@ -3109,7 +3921,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "manga",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-dragon-alternate-art-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Lindbergh",
@@ -3136,6 +3955,13 @@
     "id": "OP12-095_LEGACY_OF_THE_MASTER_[OP-12]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/lindbergh-op-12-legacy-of-the-master",
+        "verified": true
+      }
     ]
   },
   {
@@ -3163,7 +3989,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-096",
-    "id": "OP12-096_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-096_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ursa-shock-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Captains Assembled",
@@ -3189,7 +4022,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-097",
-    "id": "OP12-097_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-097_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/captains-assembled-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Hair Removal Fist",
@@ -3216,7 +4056,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-098",
-    "id": "OP12-098_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-098_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hair-removal-fist-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kalgara",
@@ -3244,7 +4091,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-099",
-    "id": "OP12-099_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-099_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kalgara-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sabo",
@@ -3272,7 +4126,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-100",
-    "id": "OP12-100_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-100_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sabo-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Jewelry Bonney",
@@ -3299,7 +4160,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-101",
-    "id": "OP12-101_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-101_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jewelry-bonney-op-12-legacy-of-the-master-345584",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shirahoshi",
@@ -3326,7 +4194,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-102",
-    "id": "OP12-102_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-102_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shirahoshi-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shirahoshi",
@@ -3354,7 +4229,14 @@
     "expansionCode": "OP12",
     "imageId": "OP12-102_p1",
     "id": "OP12-102_p1_LEGACY_OF_THE_MASTER_[OP-12]",
-    "illustration": "alternate-art"
+    "illustration": "manga",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shirahoshi-alternate-art-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Seto",
@@ -3379,7 +4261,14 @@
     "cost": 5,
     "expansionCode": "OP12",
     "imageId": "OP12-103",
-    "id": "OP12-103_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-103_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/seto-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sentomaru",
@@ -3403,7 +4292,14 @@
     "cost": 4,
     "expansionCode": "OP12",
     "imageId": "OP12-104",
-    "id": "OP12-104_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-104_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sentomaru-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Trafalgar Lammy",
@@ -3430,7 +4326,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-105",
-    "id": "OP12-105_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-105_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/trafalgar-lammy-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -3458,7 +4361,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-106",
-    "id": "OP12-106_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-106_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/trafalgar-law-op-12-legacy-of-the-master-345616",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Donquixote Doflamingo",
@@ -3487,7 +4397,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-107",
-    "id": "OP12-107_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-107_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/donquixote-doflamingo-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Donquixote Rosinante",
@@ -3514,6 +4431,13 @@
     "id": "OP12-108_LEGACY_OF_THE_MASTER_[OP-12]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/donquixote-rosinante-op-12-legacy-of-the-master",
+        "verified": true
+      }
     ]
   },
   {
@@ -3542,7 +4466,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/donquixote-rosinante-alternate-art-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Pacifista",
@@ -3567,7 +4498,14 @@
     "cost": 4,
     "expansionCode": "OP12",
     "imageId": "OP12-109",
-    "id": "OP12-109_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-109_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/pacifista-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Buffalo",
@@ -3590,7 +4528,14 @@
     "cost": 3,
     "expansionCode": "OP12",
     "imageId": "OP12-110",
-    "id": "OP12-110_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-110_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/buffalo-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Baby 5",
@@ -3613,7 +4558,14 @@
     "cost": 2,
     "expansionCode": "OP12",
     "imageId": "OP12-111",
-    "id": "OP12-111_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-111_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/baby-5-op-12-legacy-of-the-master-345546",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Baby 5",
@@ -3636,7 +4588,14 @@
     "cost": 4,
     "expansionCode": "OP12",
     "imageId": "OP12-112",
-    "id": "OP12-112_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-112_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/baby-5-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -3663,7 +4622,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-113",
-    "id": "OP12-113_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-113_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/roronoa-zoro-op-12-legacy-of-the-master-345606",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Wyper",
@@ -3687,7 +4653,14 @@
     "cost": 6,
     "expansionCode": "OP12",
     "imageId": "OP12-114",
-    "id": "OP12-114_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-114_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/wyper-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "I Love You!!",
@@ -3714,7 +4687,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-115",
-    "id": "OP12-115_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-115_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/i-love-you-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "We'll Ring the Bell Waiting for You!!",
@@ -3742,7 +4722,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-116",
-    "id": "OP12-116_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-116_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/we-ll-ring-the-bell-waiting-for-you-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Slam Gibson",
@@ -3770,7 +4757,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-117",
-    "id": "OP12-117_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-117_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/slam-gibson-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Jewelry Bonney",
@@ -3798,7 +4792,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-118",
-    "id": "OP12-118_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-118_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jewelry-bonney-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Jewelry Bonney",
@@ -3827,7 +4828,14 @@
     "expansionCode": "OP12",
     "imageId": "OP12-118_p1",
     "id": "OP12-118_p1_LEGACY_OF_THE_MASTER_[OP-12]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jewelry-bonney-alternate-art-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Jewelry Bonney",
@@ -3856,7 +4864,14 @@
     "expansionCode": "OP12",
     "imageId": "OP12-118_p2",
     "id": "OP12-118_p2_LEGACY_OF_THE_MASTER_[OP-12]",
-    "illustration": "manga"
+    "illustration": "manga",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jewelry-bonney-manga-panel-alternate-art-secret-rare-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Bartholomew Kuma",
@@ -3885,7 +4900,14 @@
     ],
     "expansionCode": "OP12",
     "imageId": "OP12-119",
-    "id": "OP12-119_LEGACY_OF_THE_MASTER_[OP-12]"
+    "id": "OP12-119_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/bartholomew-kuma-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Bartholomew Kuma",
@@ -3915,7 +4937,14 @@
     "expansionCode": "OP12",
     "imageId": "OP12-119_p1",
     "id": "OP12-119_p1_LEGACY_OF_THE_MASTER_[OP-12]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/bartholomew-kuma-alternate-art-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Tashigi",
@@ -3942,7 +4971,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tashigi-special-rare-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Yasopp",
@@ -3971,7 +5007,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-013_p2",
     "id": "OP09-013_p2_LEGACY_OF_THE_MASTER_[OP-12]",
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/yasopp-special-rare-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Lim",
@@ -3999,7 +5042,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-037_p2",
     "id": "OP09-037_p2_LEGACY_OF_THE_MASTER_[OP-12]",
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/lim-special-rare-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Marshall.D.Teach",
@@ -4029,7 +5079,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-093_p4",
     "id": "OP09-093_p4_LEGACY_OF_THE_MASTER_[OP-12]",
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/marshall-d-teach-special-rare-gold-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Marshall.D.Teach",
@@ -4059,7 +5116,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-093_p5",
     "id": "OP09-093_p5_LEGACY_OF_THE_MASTER_[OP-12]",
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/marshall-d-teach-special-rare-silver-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kuzan",
@@ -4087,7 +5151,14 @@
     "expansionCode": "OP10",
     "imageId": "OP10-082_p2",
     "id": "OP10-082_p2_LEGACY_OF_THE_MASTER_[OP-12]",
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kuzan-special-rare-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Portgas.D.Ace",
@@ -4115,7 +5186,14 @@
     "expansionCode": "ST13",
     "imageId": "ST13-011_p2",
     "id": "ST13-011_p2_LEGACY_OF_THE_MASTER_[OP-12]",
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/portgas-d-ace-special-rare-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Zoro-Juurou",
@@ -4142,6 +5220,13 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/zoro-juurou-special-rare-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
   }
 ]

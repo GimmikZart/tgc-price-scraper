@@ -26,7 +26,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-001_p2",
     "id": "OP01-001_p2_Card_SetsPremium_Card_Collection_25th_Edition-",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/roronoa-zoro-alternate-art-premium-bandai-products",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Usopp",
@@ -55,7 +62,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-004_p1",
     "id": "OP01-004_p1_Card_SetsEnglish_Version_1st_Anniversary_Set",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/usopp-1st-anniversary-set-premium-bandai-products",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Uta",
@@ -82,7 +96,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/uta-one-piece-film-red-promo-unnumbered-promos",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Uta",
@@ -109,7 +130,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/uta-gift-collection-2023-unnumbered-promos",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Otama",
@@ -136,7 +164,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/otama-1st-anniversary-set-premium-card-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -164,7 +199,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-013_p2",
     "id": "OP01-013_p2_Card_SetsPremium_Card_Collection_25th_Edition-",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-alternate-art-premium-bandai-products?_gl=1*9z60lx*_up*MQ..*_ga*MTYyNzkyOTUzLjE3NjI3MDU3MjA.*_ga_5C7K2T8S8H*czE3NjI3MDU3MjAkbzEkZzAkdDE3NjI3MDU3MjAkajYwJGwwJGgw",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -192,7 +234,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-013_p3",
     "id": "OP01-013_p3_Card_SetsGIFT_COLLECTION_2023_[GC_01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-gift-collection-2023-unnumbered-promos?_gl=1*9z60lx*_up*MQ..*_ga*MTYyNzkyOTUzLjE3NjI3MDU3MjA.*_ga_5C7K2T8S8H*czE3NjI3MDU3MjAkbzEkZzAkdDE3NjI3MDU3MjAkajYwJGwwJGgw",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -220,7 +269,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-013_p4",
     "id": "OP01-013_p4_Card_SetsEnglish_Version_1st_Anniversary_Set",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-1st-anniversary-set-premium-bandai-products?_gl=1*1eax2yj*_up*MQ..*_ga*MTYyNzkyOTUzLjE3NjI3MDU3MjA.*_ga_5C7K2T8S8H*czE3NjI3MDU3MjAkbzEkZzAkdDE3NjI3MDU3MjAkajYwJGwwJGgw",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Jinbe",
@@ -250,7 +306,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-014_p1",
     "id": "OP01-014_p1_Card_SetsPremium_Card_Collection_FILM_RED_Edition-",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jinbe-premium-bandai-products?_gl=1*m1is3r*_up*MQ..*_ga*MTk4Nzc4MjQ4LjE3NjI3MDU3ODU.*_ga_5C7K2T8S8H*czE3NjI3MDU3ODUkbzEkZzAkdDE3NjI3MDU3ODUkajYwJGwwJGgw",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nami",
@@ -277,7 +340,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nami-alternate-art-premium-bandai-products",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nami",
@@ -304,7 +374,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nami-gift-collection-2023-unnumbered-promos",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nami",
@@ -331,7 +408,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nami-1st-anniversary-set-premium-bandai-products",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nico Robin",
@@ -359,7 +443,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-017_p1",
     "id": "OP01-017_p1_Card_SetsPremium_Card_Collection_FILM_RED_Edition-",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nico-robin-premium-bandai-products",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nico Robin",
@@ -387,7 +478,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-017_p2",
     "id": "OP01-017_p2_Card_SetsEnglish_Version_1st_Anniversary_Set",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nico-robin-1st-anniversary-set-premium-bandai-products",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Franky",
@@ -414,7 +512,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-021_p1",
     "id": "OP01-021_p1_Card_SetsPremium_Card_Collection_FILM_RED_Edition-",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/franky-premium-bandai-products",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Franky",
@@ -441,7 +546,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-021_p3",
     "id": "OP01-021_p3_Card_SetsGIFT_COLLECTION_2023_[GC_01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/franky-gift-collection-2023-unnumbered-promos",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Brook",
@@ -469,7 +581,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-022_p1",
     "id": "OP01-022_p1_Card_SetsPremium_Card_Collection_25th_Edition-",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/brook-alternate-art-premium-bandai-products",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -497,7 +616,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-025_p3",
     "id": "OP01-025_p3_Card_SetsEnglish_Version_1st_Anniversary_Set",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/roronoa-zoro-1st-anniversary-set-premium-bandai-products?_gl=1*dtlxqj*_up*MQ..*_ga*MTc0NTI5NjUxNC4xNzYyNzA1OTYx*_ga_5C7K2T8S8H*czE3NjI3MDU5NjAkbzEkZzAkdDE3NjI3MDU5NjAkajYwJGwwJGgw",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Makino",
@@ -524,7 +650,14 @@
     "expansionCode": "OP02",
     "imageId": "OP02-015_p1",
     "id": "OP02-015_p1_Card_SetsJapanese_1st_Anniversary_Set",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/makino-1st-anniversary-set-premium-card-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Boa Hancock",
@@ -553,7 +686,14 @@
     "expansionCode": "OP02",
     "imageId": "OP02-059_p2",
     "id": "OP02-059_p2_Card_SetsGIFT_COLLECTION_2023_[GC_01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/boa-hancock-gift-collection-2023-unnumbered-promos",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Portgas.D.Ace",
@@ -577,7 +717,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-001_p2",
     "id": "OP03-001_p2_Card_SetsSpecial_Goods_Set_AceSaboLuffy-",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/portgas-d-ace-special-set-ace-sabo-luffy-premium-bandai-products",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Marco",
@@ -606,7 +753,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-013_p2",
     "id": "OP03-013_p2_Card_SetsJapanese_1st_Anniversary_Set",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/marco-1st-anniversary-set-premium-card-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -633,7 +787,14 @@
     "expansionCode": "OP07",
     "imageId": "OP07-091_p1",
     "id": "OP07-091_p1_Card_SetsOffline_Regional_Finalist_Card_Set_2024_Vol_3",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-online-regional-2024-vol-3-store-tournaments-promos",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -662,7 +823,14 @@
     "expansionCode": "P",
     "imageId": "P-001_p3",
     "id": "P-001_p3_Card_SetsPremium_Card_Collection_25th_Edition-",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-alternate-art-premium-bandai-products",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -691,7 +859,14 @@
     "expansionCode": "P",
     "imageId": "P-001_p4",
     "id": "P-001_p4_Card_SetsGIFT_COLLECTION_2023_[GC_01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-gift-collection-2023-promos",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shanks",
@@ -717,7 +892,14 @@
     "expansionCode": "P",
     "imageId": "P-016_p1",
     "id": "P-016_p1_Card_SetsPremium_Card_Collection_FILM_RED_Edition-",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shanks-premium-bandai-products",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -743,7 +925,14 @@
     "expansionCode": "P",
     "imageId": "P-022_p1",
     "id": "P-022_p1_Card_SetsPremium_Card_Collection_FILM_RED_Edition-",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-premium-bandai-products",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Portgas.D.Ace",
@@ -770,7 +959,14 @@
     "expansionCode": "P",
     "imageId": "P-028_p1",
     "id": "P-028_p1_Card_SetsGIFT_COLLECTION_2023_[GC_01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/portgas-d-ace-gift-collection-2023-promos",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Usopp",
@@ -799,7 +995,14 @@
     "expansionCode": "ST01",
     "imageId": "ST01-002_p1",
     "id": "ST01-002_p1_Card_SetsPremium_Card_Collection_FILM_RED_Edition-",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/usopp-premium-bandai-products",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Usopp",
@@ -828,7 +1031,14 @@
     "expansionCode": "ST01",
     "imageId": "ST01-002_p2",
     "id": "ST01-002_p2_Card_SetsPremium_Card_Collection_25th_Edition-",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/usopp-alternate-art-premium-bandai-products",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -856,7 +1066,14 @@
     "expansionCode": "ST01",
     "imageId": "ST01-004_p2",
     "id": "ST01-004_p2_Card_SetsPremium_Card_Collection_FILM_RED_Edition-",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-premium-bandai-products",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Jinbe",
@@ -885,7 +1102,14 @@
     "expansionCode": "ST01",
     "imageId": "ST01-005_p1",
     "id": "ST01-005_p1_Card_SetsPremium_Card_Collection_25th_Edition-",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jinbe-alternate-art-premium-bandai-products",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Jinbe",
@@ -914,7 +1138,14 @@
     "expansionCode": "ST01",
     "imageId": "ST01-005_p2",
     "id": "ST01-005_p2_Card_SetsGIFT_COLLECTION_2023_[GC_01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jinbe-gift-collection-2023-unnumbered-promos",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Tony Tony.Chopper",
@@ -942,7 +1173,14 @@
     "expansionCode": "ST01",
     "imageId": "ST01-006_p1",
     "id": "ST01-006_p1_Card_SetsPremium_Card_Collection_FILM_RED_Edition-",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tony-tony-chopper-premium-bandai-products",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Tony Tony.Chopper",
@@ -970,7 +1208,14 @@
     "expansionCode": "ST01",
     "imageId": "ST01-006_p2",
     "id": "ST01-006_p2_Card_SetsPremium_Card_Collection_25th_Edition-",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tony-tony-chopper-alternate-art-premium-bandai-products",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Tony Tony.Chopper",
@@ -998,7 +1243,14 @@
     "expansionCode": "ST01",
     "imageId": "ST01-006_p3",
     "id": "ST01-006_p3_Card_SetsGIFT_COLLECTION_2023_[GC_01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tony-tony-chopper-gift-collection-2023-unnumbered-promos",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Tony Tony.Chopper",
@@ -1026,7 +1278,14 @@
     "expansionCode": "ST01",
     "imageId": "ST01-006_p4",
     "id": "ST01-006_p4_Card_SetsEnglish_Version_1st_Anniversary_Set",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tony-tony-chopper-1st-anniversary-set-premium-bandai-products",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nami",
@@ -1054,7 +1313,14 @@
     "expansionCode": "ST01",
     "imageId": "ST01-007_p1",
     "id": "ST01-007_p1_Card_SetsPremium_Card_Collection_FILM_RED_Edition-",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nami-premium-bandai-products",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nico Robin",
@@ -1078,7 +1344,14 @@
     "expansionCode": "ST01",
     "imageId": "ST01-008_p1",
     "id": "ST01-008_p1_Card_SetsPremium_Card_Collection_25th_Edition-",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nico-robin-alternate-art-premium-bandai-products",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nico Robin",
@@ -1102,7 +1375,14 @@
     "expansionCode": "ST01",
     "imageId": "ST01-008_p2",
     "id": "ST01-008_p2_Card_SetsGIFT_COLLECTION_2023_[GC_01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nico-robin-gift-collection-2023-unnumbered-promos",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Franky",
@@ -1126,7 +1406,14 @@
     "expansionCode": "ST01",
     "imageId": "ST01-010_p1",
     "id": "ST01-010_p1_Card_SetsPremium_Card_Collection_25th_Edition-",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/franky-alternate-art-premium-bandai-products",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Franky",
@@ -1150,7 +1437,14 @@
     "expansionCode": "ST01",
     "imageId": "ST01-010_p2",
     "id": "ST01-010_p2_Card_SetsEnglish_Version_1st_Anniversary_Set",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/franky-1st-anniversary-set-premium-bandai-products",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Brook",
@@ -1177,7 +1471,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/brook-premium-bandai-products",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Brook",
@@ -1204,7 +1505,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/brook-1st-anniversary-set-premium-bandai-products",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -1232,7 +1540,14 @@
     "expansionCode": "ST01",
     "imageId": "ST01-013_p1",
     "id": "ST01-013_p1_Card_SetsPremium_Card_Collection_FILM_RED_Edition-",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/roronoa-zoro-premium-bandai-products",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -1260,7 +1575,14 @@
     "expansionCode": "ST01",
     "imageId": "ST01-013_p2",
     "id": "ST01-013_p2_Card_SetsGIFT_COLLECTION_2023_[GC_01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/roronoa-zoro-gift-collection-2023-unnumbered-promos",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -1288,7 +1610,14 @@
     "expansionCode": "ST03",
     "imageId": "ST03-008_p1",
     "id": "ST03-008_p1_Card_SetsGIFT_COLLECTION_2023_[GC_01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/trafalgar-law-gift-collection-2023-unnumbered-promos",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Yamato",
@@ -1315,7 +1644,14 @@
     "expansionCode": "ST09",
     "imageId": "ST09-012_p1",
     "id": "ST09-012_p1_Card_SetsGIFT_COLLECTION_2023_[GC_01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/yamato-gift-collection-2023-unnumbered-promos",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Jinbe",
@@ -1344,7 +1680,14 @@
     "expansionCode": "ST10",
     "imageId": "ST10-005_p1",
     "id": "ST10-005_p1_Card_SetsEnglish_Version_1st_Anniversary_Set",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jinbe-1st-anniversary-set-premium-bandai-products",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -1373,6 +1716,13 @@
     "expansionCode": "ST10",
     "imageId": "ST10-006_p2",
     "id": "ST10-006_p2_Card_SetsEnglish_Version_1st_Anniversary_Set",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-1st-anniversary-set-premium-bandai-products",
+        "verified": true
+      }
+    ]
   }
 ]

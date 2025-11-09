@@ -24,7 +24,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-001",
-    "id": "OP06-001_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-001_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/uta-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Uta",
@@ -52,7 +59,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-001_p1",
     "id": "OP06-001_p1_WINGS_OF_THE_CAPTAIN_[OP06]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/uta-alternate-art-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Inazuma",
@@ -78,7 +92,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-002",
-    "id": "OP06-002_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-002_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/inazuma-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Emporio.Ivankov",
@@ -104,6 +125,13 @@
     "id": "OP06-003_WINGS_OF_THE_CAPTAIN_[OP06]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/emporio-ivankov-op-06-wings-of-the-captain",
+        "verified": true
+      }
     ]
   },
   {
@@ -131,6 +159,13 @@
     "id": "OP06-004_WINGS_OF_THE_CAPTAIN_[OP06]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/baron-omatsuri-op-06-wings-of-the-captain",
+        "verified": true
+      }
     ]
   },
   {
@@ -156,7 +191,14 @@
     "cost": 6,
     "expansionCode": "OP06",
     "imageId": "OP06-005",
-    "id": "OP06-005_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-005_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gasparde-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Saga",
@@ -184,7 +226,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-006",
-    "id": "OP06-006_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-006_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/saga-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shanks",
@@ -212,6 +261,13 @@
     "id": "OP06-007_WINGS_OF_THE_CAPTAIN_[OP06]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shanks-op-06-wings-of-the-captain",
+        "verified": true
+      }
     ]
   },
   {
@@ -241,7 +297,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shanks-alternate-art-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Schneider",
@@ -265,7 +328,14 @@
     "cost": 3,
     "expansionCode": "OP06",
     "imageId": "OP06-008",
-    "id": "OP06-008_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-008_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/schneider-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shuraiya",
@@ -295,7 +365,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-009",
-    "id": "OP06-009_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-009_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shuraiya-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shuraiya",
@@ -326,7 +403,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-009_p1",
     "id": "OP06-009_p1_WINGS_OF_THE_CAPTAIN_[OP06]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shuraiya-alternate-art-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Douglas Bullet",
@@ -353,7 +437,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-010",
-    "id": "OP06-010_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-010_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/douglas-bullet-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Tot Musica",
@@ -380,7 +471,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-011",
-    "id": "OP06-011_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-011_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tot-musica-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Bear.King",
@@ -404,7 +502,14 @@
     "cost": 5,
     "expansionCode": "OP06",
     "imageId": "OP06-012",
-    "id": "OP06-012_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-012_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/bear-king-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -431,6 +536,13 @@
     "id": "OP06-013_WINGS_OF_THE_CAPTAIN_[OP06]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-op-06-wings-of-the-captain",
+        "verified": true
+      }
     ]
   },
   {
@@ -459,7 +571,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-alternate-art-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Ratchet",
@@ -486,7 +605,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-014",
-    "id": "OP06-014_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-014_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ratchet-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Lily Carnation",
@@ -514,7 +640,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-015",
-    "id": "OP06-015_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-015_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/lily-carnation-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Raise Max",
@@ -541,7 +674,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-016",
-    "id": "OP06-016_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-016_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/raise-max-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Meteor-Strike of Love",
@@ -569,7 +709,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-017",
-    "id": "OP06-017_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-017_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/meteor-strike-of-love-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gum-Gum King Kong Gatling",
@@ -596,7 +743,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-018",
-    "id": "OP06-018_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-018_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gum-gum-king-kong-gatling-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Blue Dragon Seal Water Stream",
@@ -623,7 +777,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-019",
-    "id": "OP06-019_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-019_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/blue-dragon-seal-water-stream-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Hody Jones",
@@ -650,7 +811,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-020",
-    "id": "OP06-020_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-020_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hody-jones-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Hody Jones",
@@ -678,7 +846,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-020_p1",
     "id": "OP06-020_p1_WINGS_OF_THE_CAPTAIN_[OP06]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hody-jones-alternate-art-op-06-wings-of-the-captain-280823",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Perona",
@@ -706,7 +881,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-021",
-    "id": "OP06-021_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-021_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/perona-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Perona",
@@ -735,7 +917,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-021_p1",
     "id": "OP06-021_p1_WINGS_OF_THE_CAPTAIN_[OP06]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/perona-alternate-art-op-06-wings-of-the-captain-280852",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Yamato",
@@ -764,7 +953,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-022",
-    "id": "OP06-022_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-022_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/yamato-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Yamato",
@@ -794,7 +990,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-022_p1",
     "id": "OP06-022_p1_WINGS_OF_THE_CAPTAIN_[OP06]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/yamato-alternate-art-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Arlong",
@@ -822,6 +1025,13 @@
     "id": "OP06-023_WINGS_OF_THE_CAPTAIN_[OP06]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/arlong-foil-op-06-wings-of-the-captain",
+        "verified": true
+      }
     ]
   },
   {
@@ -849,6 +1059,13 @@
     "id": "OP06-024_WINGS_OF_THE_CAPTAIN_[OP06]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ikaros-much-op-06-wings-of-the-captain",
+        "verified": true
+      }
     ]
   },
   {
@@ -875,6 +1092,13 @@
     "id": "OP06-025_WINGS_OF_THE_CAPTAIN_[OP06]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/camie-op-06-wings-of-the-captain",
+        "verified": true
+      }
     ]
   },
   {
@@ -902,7 +1126,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/camie-alternate-art-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Koushirou",
@@ -928,6 +1159,13 @@
     "id": "OP06-026_WINGS_OF_THE_CAPTAIN_[OP06]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/koushirou-op-06-wings-of-the-captain",
+        "verified": true
+      }
     ]
   },
   {
@@ -954,7 +1192,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-027",
-    "id": "OP06-027_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-027_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gyro-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Zeo",
@@ -982,7 +1227,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-028",
-    "id": "OP06-028_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-028_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/zeo-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Daruma",
@@ -1011,7 +1263,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-029",
-    "id": "OP06-029_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-029_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/daruma-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Dosun",
@@ -1038,7 +1297,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-030",
-    "id": "OP06-030_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-030_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/dosun-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Hatchan",
@@ -1062,7 +1328,14 @@
     "cost": 4,
     "expansionCode": "OP06",
     "imageId": "OP06-031",
-    "id": "OP06-031_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-031_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hatchan-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Hammond",
@@ -1089,7 +1362,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-032",
-    "id": "OP06-032_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-032_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hammond-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vander Decken IX",
@@ -1116,6 +1396,13 @@
     "id": "OP06-033_WINGS_OF_THE_CAPTAIN_[OP06]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vander-decken-ix-op-06-wings-of-the-captain",
+        "verified": true
+      }
     ]
   },
   {
@@ -1143,7 +1430,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-034",
-    "id": "OP06-034_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-034_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hyouzou-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Hody Jones",
@@ -1171,7 +1465,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-035",
-    "id": "OP06-035_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-035_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hody-jones-op-06-wings-of-the-captain-280824",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Hody Jones",
@@ -1200,7 +1501,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-035_p1",
     "id": "OP06-035_p1_WINGS_OF_THE_CAPTAIN_[OP06]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hody-jones-alternate-art-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Ryuma",
@@ -1228,7 +1536,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-036",
-    "id": "OP06-036_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-036_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ryuma-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Wadatsumi",
@@ -1252,7 +1567,14 @@
     "cost": 6,
     "expansionCode": "OP06",
     "imageId": "OP06-037",
-    "id": "OP06-037_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-037_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/wadatsumi-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "The Billion-fold World Trichiliocosm",
@@ -1279,7 +1601,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-038",
-    "id": "OP06-038_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-038_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/the-billion-fold-world-trichiliocosm-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "You Ain't Even Worth Killing Time!!",
@@ -1305,7 +1634,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-039",
-    "id": "OP06-039_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-039_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/you-ain-t-even-worth-killing-time-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shark Arrows",
@@ -1332,7 +1668,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-040",
-    "id": "OP06-040_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-040_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shark-arrows-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "The Ark Noah",
@@ -1358,6 +1701,13 @@
     "id": "OP06-041_WINGS_OF_THE_CAPTAIN_[OP06]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/the-ark-noah-op-06-wings-of-the-captain",
+        "verified": true
+      }
     ]
   },
   {
@@ -1387,7 +1737,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-042",
-    "id": "OP06-042_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-042_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-reiju-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vinsmoke Reiju",
@@ -1417,7 +1774,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-042_p1",
     "id": "OP06-042_p1_WINGS_OF_THE_CAPTAIN_[OP06]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-reiju-alternate-art-op-06-wings-of-the-captain-280911",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Aramaki",
@@ -1445,7 +1809,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-043",
-    "id": "OP06-043_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-043_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/aramaki-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Aramaki",
@@ -1474,7 +1845,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-043_p1",
     "id": "OP06-043_p1_WINGS_OF_THE_CAPTAIN_[OP06]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/aramaki-alternate-art-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gion",
@@ -1501,7 +1879,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-044",
-    "id": "OP06-044_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-044_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gion-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kuzan",
@@ -1527,6 +1912,13 @@
     "id": "OP06-045_WINGS_OF_THE_CAPTAIN_[OP06]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kuzan-op-06-wings-of-the-captain",
+        "verified": true
+      }
     ]
   },
   {
@@ -1553,6 +1945,13 @@
     "id": "OP06-046_WINGS_OF_THE_CAPTAIN_[OP06]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sakazuki-op-06-wings-of-the-captain",
+        "verified": true
+      }
     ]
   },
   {
@@ -1579,6 +1978,13 @@
     "id": "OP06-047_WINGS_OF_THE_CAPTAIN_[OP06]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-pudding-op-06-wings-of-the-captain",
+        "verified": true
+      }
     ]
   },
   {
@@ -1606,7 +2012,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-048",
-    "id": "OP06-048_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-048_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/zeff-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sengoku",
@@ -1629,7 +2042,14 @@
     "cost": 5,
     "expansionCode": "OP06",
     "imageId": "OP06-049",
-    "id": "OP06-049_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-049_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sengoku-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Tashigi",
@@ -1655,6 +2075,13 @@
     "id": "OP06-050_WINGS_OF_THE_CAPTAIN_[OP06]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tashigi-op-06-wings-of-the-captain",
+        "verified": true
+      }
     ]
   },
   {
@@ -1682,7 +2109,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tashigi-alternate-art-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Tsuru",
@@ -1708,6 +2142,13 @@
     "id": "OP06-051_WINGS_OF_THE_CAPTAIN_[OP06]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tsuru-op-06-wings-of-the-captain",
+        "verified": true
+      }
     ]
   },
   {
@@ -1734,7 +2175,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-052",
-    "id": "OP06-052_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-052_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tokikake-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Jaguar.D.Saul",
@@ -1761,7 +2209,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-053",
-    "id": "OP06-053_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-053_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jaguar-d-saul-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Borsalino",
@@ -1787,7 +2242,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-054",
-    "id": "OP06-054_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-054_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/borsalino-op-06-wings-of-the-captain-280768",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Garp",
@@ -1815,7 +2277,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-055",
-    "id": "OP06-055_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-055_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-garp-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Ama no Murakumo Sword",
@@ -1841,7 +2310,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-056",
-    "id": "OP06-056_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-056_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ama-no-murakumo-sword-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "But I Will Never Doubt a Woman's Tears!!!!",
@@ -1868,7 +2344,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-057",
-    "id": "OP06-057_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-057_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/but-i-will-never-doubt-a-woman-s-tears-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gravity Blade Raging Tiger",
@@ -1894,7 +2377,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-058",
-    "id": "OP06-058_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-058_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gravity-blade-raging-tiger-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "White Snake",
@@ -1920,7 +2410,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-059",
-    "id": "OP06-059_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-059_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/white-snake-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vinsmoke Ichiji",
@@ -1947,7 +2444,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-060",
-    "id": "OP06-060_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-060_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-ichiji-op-06-wings-of-the-captain-280925",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vinsmoke Ichiji",
@@ -1975,7 +2479,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-061",
-    "id": "OP06-061_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-061_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-ichiji-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vinsmoke Ichiji",
@@ -2004,7 +2515,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-061_p1",
     "id": "OP06-061_p1_WINGS_OF_THE_CAPTAIN_[OP06]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-ichiji-alternate-art-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vinsmoke Judge",
@@ -2033,7 +2551,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-062",
-    "id": "OP06-062_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-062_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-judge-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vinsmoke Judge",
@@ -2063,7 +2588,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-062_p1",
     "id": "OP06-062_p1_WINGS_OF_THE_CAPTAIN_[OP06]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-judge-alternate-art-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vinsmoke Sora",
@@ -2090,6 +2622,13 @@
     "id": "OP06-063_WINGS_OF_THE_CAPTAIN_[OP06]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-sora-op-06-wings-of-the-captain",
+        "verified": true
+      }
     ]
   },
   {
@@ -2117,7 +2656,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-064",
-    "id": "OP06-064_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-064_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-niji-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vinsmoke Niji",
@@ -2144,6 +2690,13 @@
     "id": "OP06-065_WINGS_OF_THE_CAPTAIN_[OP06]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-niji-op-06-wings-of-the-captain-280915",
+        "verified": true
+      }
     ]
   },
   {
@@ -2171,7 +2724,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-066",
-    "id": "OP06-066_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-066_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-yonji-op-06-wings-of-the-captain-280908",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vinsmoke Yonji",
@@ -2198,7 +2758,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-067",
-    "id": "OP06-067_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-067_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-yonji-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vinsmoke Reiju",
@@ -2225,7 +2792,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-068",
-    "id": "OP06-068_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-068_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-reiju-op-06-wings-of-the-captain-280912",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vinsmoke Reiju",
@@ -2252,6 +2826,13 @@
     "id": "OP06-069_WINGS_OF_THE_CAPTAIN_[OP06]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-reiju-op-06-wings-of-the-captain-280913",
+        "verified": true
+      }
     ]
   },
   {
@@ -2280,7 +2861,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-reiju-alternate-art-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Eldoraggo",
@@ -2304,7 +2892,14 @@
     "cost": 5,
     "expansionCode": "OP06",
     "imageId": "OP06-070",
-    "id": "OP06-070_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-070_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/eldoraggo-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gild Tesoro",
@@ -2331,6 +2926,13 @@
     "id": "OP06-071_WINGS_OF_THE_CAPTAIN_[OP06]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gild-tesoro-op-06-wings-of-the-captain",
+        "verified": true
+      }
     ]
   },
   {
@@ -2357,7 +2959,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-072",
-    "id": "OP06-072_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-072_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/cosette-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shiki",
@@ -2385,7 +2994,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-073",
-    "id": "OP06-073_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-073_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shiki-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Zephyr (Navy)",
@@ -2412,6 +3028,13 @@
     "id": "OP06-074_WINGS_OF_THE_CAPTAIN_[OP06]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/zephyr-navy-op-06-wings-of-the-captain",
+        "verified": true
+      }
     ]
   },
   {
@@ -2439,6 +3062,13 @@
     "id": "OP06-075_WINGS_OF_THE_CAPTAIN_[OP06]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/count-battler-op-06-wings-of-the-captain",
+        "verified": true
+      }
     ]
   },
   {
@@ -2468,7 +3098,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-076",
-    "id": "OP06-076_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-076_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hitokiri-kamazo-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Black Bug",
@@ -2495,7 +3132,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-077",
-    "id": "OP06-077_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-077_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/black-bug-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "GERMA 66",
@@ -2522,7 +3166,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-078",
-    "id": "OP06-078_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-078_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/germa-66-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kingdom of GERMA",
@@ -2548,7 +3199,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-079",
-    "id": "OP06-079_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-079_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kingdom-of-germa-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gecko Moria",
@@ -2576,7 +3234,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-080",
-    "id": "OP06-080_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-080_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gecko-moria-op-06-wings-of-the-captain-280796",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gecko Moria",
@@ -2605,7 +3270,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-080_p1",
     "id": "OP06-080_p1_WINGS_OF_THE_CAPTAIN_[OP06]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gecko-moria-alternate-art-op-06-wings-of-the-captain-280793",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Absalom",
@@ -2631,6 +3303,13 @@
     "id": "OP06-081_WINGS_OF_THE_CAPTAIN_[OP06]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/absalom-op-06-wings-of-the-captain",
+        "verified": true
+      }
     ]
   },
   {
@@ -2658,7 +3337,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/absalom-alternate-art-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Inuppe",
@@ -2685,7 +3371,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-082",
-    "id": "OP06-082_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-082_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/inuppe-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Oars",
@@ -2712,7 +3405,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-083",
-    "id": "OP06-083_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-083_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/oars-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Jigoro of the Wind",
@@ -2738,7 +3438,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-084",
-    "id": "OP06-084_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-084_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jigoro-of-the-wind-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kumacy",
@@ -2765,7 +3472,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-085",
-    "id": "OP06-085_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-085_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kumacy-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gecko Moria",
@@ -2792,6 +3506,13 @@
     "id": "OP06-086_WINGS_OF_THE_CAPTAIN_[OP06]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gecko-moria-op-06-wings-of-the-captain",
+        "verified": true
+      }
     ]
   },
   {
@@ -2820,7 +3541,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gecko-moria-alternate-art-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Cerberus",
@@ -2846,7 +3574,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-087",
-    "id": "OP06-087_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-087_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/cerberus-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sai",
@@ -2870,7 +3605,14 @@
     "cost": 3,
     "expansionCode": "OP06",
     "imageId": "OP06-088",
-    "id": "OP06-088_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-088_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sai-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Taralan",
@@ -2897,7 +3639,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-089",
-    "id": "OP06-089_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-089_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/taralan-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Dr. Hogback",
@@ -2923,6 +3672,13 @@
     "id": "OP06-090_WINGS_OF_THE_CAPTAIN_[OP06]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/dr-hogback-op-06-wings-of-the-captain",
+        "verified": true
+      }
     ]
   },
   {
@@ -2949,6 +3705,13 @@
     "id": "OP06-091_WINGS_OF_THE_CAPTAIN_[OP06]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/victoria-cindry-op-06-wings-of-the-captain",
+        "verified": true
+      }
     ]
   },
   {
@@ -2975,6 +3738,13 @@
     "id": "OP06-092_WINGS_OF_THE_CAPTAIN_[OP06]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/brook-op-06-wings-of-the-captain",
+        "verified": true
+      }
     ]
   },
   {
@@ -3001,6 +3771,13 @@
     "id": "OP06-093_WINGS_OF_THE_CAPTAIN_[OP06]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/perona-op-06-wings-of-the-captain-280854",
+        "verified": true
+      }
     ]
   },
   {
@@ -3028,7 +3805,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/perona-alternate-art-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Lola",
@@ -3051,7 +3835,14 @@
     "cost": 4,
     "expansionCode": "OP06",
     "imageId": "OP06-094",
-    "id": "OP06-094_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-094_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/lola-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shadows Asgard",
@@ -3079,7 +3870,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-095",
-    "id": "OP06-095_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-095_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shadows-asgard-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "...Nothing...at All!!!",
@@ -3105,7 +3903,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-096",
-    "id": "OP06-096_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-096_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nothing-at-all-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Negative Hollow",
@@ -3131,7 +3936,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-097",
-    "id": "OP06-097_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-097_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/negative-hollow-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Thriller Bark",
@@ -3157,7 +3969,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-098",
-    "id": "OP06-098_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-098_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/thriller-bark-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Aisa",
@@ -3183,6 +4002,13 @@
     "id": "OP06-099_WINGS_OF_THE_CAPTAIN_[OP06]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/aisa-op-06-wings-of-the-captain",
+        "verified": true
+      }
     ]
   },
   {
@@ -3212,7 +4038,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-100",
-    "id": "OP06-100_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-100_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/inuarashi-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "O-Nami",
@@ -3239,7 +4072,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-101",
-    "id": "OP06-101_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-101_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/o-nami-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "O-Nami",
@@ -3267,7 +4107,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-101_p1",
     "id": "OP06-101_p1_WINGS_OF_THE_CAPTAIN_[OP06]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/o-nami-alternate-art-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kamakiri",
@@ -3295,7 +4142,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-102",
-    "id": "OP06-102_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-102_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kamakiri-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kawamatsu",
@@ -3323,7 +4177,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-103",
-    "id": "OP06-103_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-103_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kawamatsu-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kikunojo",
@@ -3350,7 +4211,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-104",
-    "id": "OP06-104_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-104_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kikunojo-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Genbo",
@@ -3374,7 +4242,14 @@
     "cost": 3,
     "expansionCode": "OP06",
     "imageId": "OP06-105",
-    "id": "OP06-105_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-105_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/genbo-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kouzuki Hiyori",
@@ -3401,6 +4276,13 @@
     "id": "OP06-106_WINGS_OF_THE_CAPTAIN_[OP06]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kouzuki-hiyori-op-06-wings-of-the-captain",
+        "verified": true
+      }
     ]
   },
   {
@@ -3429,7 +4311,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kouzuki-hiyori-alternate-art-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kouzuki Momonosuke",
@@ -3457,7 +4346,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-107",
-    "id": "OP06-107_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-107_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kouzuki-momonosuke-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kouzuki Momonosuke",
@@ -3486,7 +4382,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-107_p1",
     "id": "OP06-107_p1_WINGS_OF_THE_CAPTAIN_[OP06]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kouzuki-momonosuke-alternate-art-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Tenguyama Hitetsu",
@@ -3510,7 +4413,14 @@
     "cost": 1,
     "expansionCode": "OP06",
     "imageId": "OP06-108",
-    "id": "OP06-108_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-108_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tenguyama-hitetsu-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Denjiro",
@@ -3537,7 +4447,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-109",
-    "id": "OP06-109_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-109_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/denjiro-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nekomamushi",
@@ -3565,7 +4482,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-110",
-    "id": "OP06-110_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-110_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nekomamushi-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Braham",
@@ -3593,7 +4517,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-111",
-    "id": "OP06-111_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-111_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/braham-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Raizo",
@@ -3620,7 +4551,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-112",
-    "id": "OP06-112_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-112_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/raizo-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Raki",
@@ -3647,7 +4585,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-113",
-    "id": "OP06-113_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-113_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/raki-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Wyper",
@@ -3674,6 +4619,13 @@
     "id": "OP06-114_WINGS_OF_THE_CAPTAIN_[OP06]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/wyper-op-06-wings-of-the-captain",
+        "verified": true
+      }
     ]
   },
   {
@@ -3700,7 +4652,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-115",
-    "id": "OP06-115_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-115_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/you-re-the-one-who-should-disappear-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Reject",
@@ -3727,7 +4686,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-116",
-    "id": "OP06-116_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-116_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/reject-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "The Ark Maxim",
@@ -3754,7 +4720,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-117",
-    "id": "OP06-117_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-117_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/the-ark-maxim-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -3782,7 +4755,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-118",
-    "id": "OP06-118_WINGS_OF_THE_CAPTAIN_[OP06]"
+    "id": "OP06-118_WINGS_OF_THE_CAPTAIN_[OP06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/roronoa-zoro-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -3811,7 +4791,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-118_p1",
     "id": "OP06-118_p1_WINGS_OF_THE_CAPTAIN_[OP06]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/roronoa-zoro-alternate-art-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -3840,7 +4827,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-118_p2",
     "id": "OP06-118_p2_WINGS_OF_THE_CAPTAIN_[OP06]",
-    "illustration": "manga"
+    "illustration": "manga",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/roronoa-zoro-manga-panel-alternate-art-secret-rare-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -3866,6 +4860,13 @@
     "id": "OP06-119_WINGS_OF_THE_CAPTAIN_[OP06]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-op-06-wings-of-the-captain",
+        "verified": true
+      }
     ]
   },
   {
@@ -3893,7 +4894,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-alternate-art-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nami",
@@ -3921,7 +4929,14 @@
     "expansionCode": "ST01",
     "imageId": "ST01-007_p3",
     "id": "ST01-007_p3_WINGS_OF_THE_CAPTAIN_[OP06]",
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nami-alternate-art-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Buggy",
@@ -3948,7 +4963,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/buggy-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Charlotte Linlin",
@@ -3976,7 +4998,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-linlin-alternate-art-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sugar",
@@ -4005,7 +5034,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-024_p2",
     "id": "OP04-024_p2_WINGS_OF_THE_CAPTAIN_[OP06]",
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sugar-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Ms. All Sunday",
@@ -4032,7 +5068,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ms-all-sunday-alternate-art-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Borsalino",
@@ -4059,7 +5102,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/borsalino-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Rebecca",
@@ -4087,6 +5137,13 @@
     "expansionCode": "OP05",
     "imageId": "OP05-091_p2",
     "id": "OP05-091_p2_WINGS_OF_THE_CAPTAIN_[OP06]",
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/rebecca-alternate-art-op-06-wings-of-the-captain",
+        "verified": true
+      }
+    ]
   }
 ]

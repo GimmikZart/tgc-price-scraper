@@ -24,7 +24,14 @@
     "expansionCode": "OP11",
     "imageId": "OP11-058_p1",
     "id": "OP11-058_p1_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "special"
+    "illustration": "treasure-rare",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-treasure-rare-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -53,7 +60,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-001",
-    "id": "OP13-001_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-001_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -83,7 +97,14 @@
     "expansionCode": "OP13",
     "imageId": "OP13-001_p1",
     "id": "OP13-001_p1_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-alternate-art-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Portgas.D.Ace",
@@ -112,7 +133,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-002",
-    "id": "OP13-002_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-002_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/portgas-d-ace-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Portgas.D.Ace",
@@ -142,7 +170,14 @@
     "expansionCode": "OP13",
     "imageId": "OP13-002_p1",
     "id": "OP13-002_p1_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/portgas-d-ace-alternate-art-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gol.D.Roger",
@@ -167,7 +202,14 @@
     "life": 5,
     "expansionCode": "OP13",
     "imageId": "OP13-003",
-    "id": "OP13-003_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-003_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gol-d-roger-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gol.D.Roger",
@@ -193,7 +235,14 @@
     "expansionCode": "OP13",
     "imageId": "OP13-003_p1",
     "id": "OP13-003_p1_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gol-d-roger-alternate-art-op-13-carrying-on-his-will-354294",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sabo",
@@ -221,7 +270,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-004",
-    "id": "OP13-004_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-004_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sabo-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sabo",
@@ -250,7 +306,14 @@
     "expansionCode": "OP13",
     "imageId": "OP13-004_p1",
     "id": "OP13-004_p1_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sabo-alternate-art-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Inazuma",
@@ -276,6 +339,13 @@
     "id": "OP13-005_CARRYING_ON_HIS_WILL_[OP-13]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/inazuma-op-13-carrying-on-his-will",
+        "verified": true
+      }
     ]
   },
   {
@@ -302,6 +372,13 @@
     "id": "OP13-006_CARRYING_ON_HIS_WILL_[OP-13]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/woop-slap-op-13-carrying-on-his-will",
+        "verified": true
+      }
     ]
   },
   {
@@ -328,7 +405,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-007",
-    "id": "OP13-007_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-007_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ace-sabo-luffy-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Ace & Sabo & Luffy",
@@ -355,7 +439,14 @@
     "expansionCode": "OP13",
     "imageId": "OP13-007_p1",
     "id": "OP13-007_p1_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ace-sabo-luffy-alternate-art-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Emporio.Ivankov",
@@ -378,7 +469,14 @@
     "cost": 2,
     "expansionCode": "OP13",
     "imageId": "OP13-008",
-    "id": "OP13-008_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-008_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/emporio-ivankov-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Curly.Dadan",
@@ -404,7 +502,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-009",
-    "id": "OP13-009_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-009_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/curly-dadan-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Lord of the Coast",
@@ -428,7 +533,14 @@
     "cost": 6,
     "expansionCode": "OP13",
     "imageId": "OP13-010",
-    "id": "OP13-010_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-010_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/lord-of-the-coast-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nefeltari Cobra",
@@ -451,7 +563,14 @@
     "cost": 5,
     "expansionCode": "OP13",
     "imageId": "OP13-011",
-    "id": "OP13-011_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-011_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nefeltari-cobra-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nefeltari Vivi",
@@ -477,6 +596,13 @@
     "id": "OP13-012_CARRYING_ON_HIS_WILL_[OP-13]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nefeltari-vivi-op-13-carrying-on-his-will",
+        "verified": true
+      }
     ]
   },
   {
@@ -503,6 +629,13 @@
     "id": "OP13-013_CARRYING_ON_HIS_WILL_[OP-13]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/higuma-op-13-carrying-on-his-will",
+        "verified": true
+      }
     ]
   },
   {
@@ -526,7 +659,14 @@
     "cost": 1,
     "expansionCode": "OP13",
     "imageId": "OP13-014",
-    "id": "OP13-014_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-014_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/portgas-d-rouge-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Makino",
@@ -552,7 +692,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-015",
-    "id": "OP13-015_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-015_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/makino-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Garp",
@@ -578,6 +725,13 @@
     "id": "OP13-016_CARRYING_ON_HIS_WILL_[OP-13]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-garp-op-13-carrying-on-his-will",
+        "verified": true
+      }
     ]
   },
   {
@@ -605,7 +759,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-garp-alternate-art-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Dragon",
@@ -631,7 +792,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-017",
-    "id": "OP13-017_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-017_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-dragon-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Wapol",
@@ -654,7 +822,14 @@
     "cost": 6,
     "expansionCode": "OP13",
     "imageId": "OP13-018",
-    "id": "OP13-018_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-018_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/wapol-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "But Ace Here Said You Deserved It!!",
@@ -682,7 +857,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-019",
-    "id": "OP13-019_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-019_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/but-ace-here-said-you-deserved-it-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Meteor Fist",
@@ -708,7 +890,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-020",
-    "id": "OP13-020_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-020_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/meteor-fist-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gum-Gum Gatling Gun",
@@ -734,7 +923,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-021",
-    "id": "OP13-021_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-021_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gum-gum-gatling-gun-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Windmill Village",
@@ -760,7 +956,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-022",
-    "id": "OP13-022_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-022_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/windmill-village-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Uta",
@@ -787,7 +990,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-023",
-    "id": "OP13-023_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-023_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/uta-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Uta",
@@ -815,7 +1025,14 @@
     "expansionCode": "OP13",
     "imageId": "OP13-023_p1",
     "id": "OP13-023_p1_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/uta-alternate-art-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gordon",
@@ -841,6 +1058,13 @@
     "id": "OP13-024_CARRYING_ON_HIS_WILL_[OP-13]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gordon-op-13-carrying-on-his-will",
+        "verified": true
+      }
     ]
   },
   {
@@ -869,7 +1093,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-025",
-    "id": "OP13-025_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-025_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/koby-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sunny-Kun",
@@ -897,7 +1128,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-026",
-    "id": "OP13-026_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-026_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sunny-kun-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -925,7 +1163,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-027",
-    "id": "OP13-027_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-027_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -954,7 +1199,14 @@
     "expansionCode": "OP13",
     "imageId": "OP13-027_p1",
     "id": "OP13-027_p1_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-alternate-art-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shanks",
@@ -982,6 +1234,13 @@
     "id": "OP13-028_CARRYING_ON_HIS_WILL_[OP-13]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shanks-op-13-carrying-on-his-will",
+        "verified": true
+      }
     ]
   },
   {
@@ -1011,7 +1270,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shanks-alternate-art-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Jinbe",
@@ -1036,7 +1302,14 @@
     "cost": 6,
     "expansionCode": "OP13",
     "imageId": "OP13-029",
-    "id": "OP13-029_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-029_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jinbe-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Tony Tony.Chopper",
@@ -1064,6 +1337,13 @@
     "id": "OP13-030_CARRYING_ON_HIS_WILL_[OP-13]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tony-tony-chopper-op-13-carrying-on-his-will",
+        "verified": true
+      }
     ]
   },
   {
@@ -1093,7 +1373,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-031",
-    "id": "OP13-031_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-031_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/trafalgar-law-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nico Robin",
@@ -1120,6 +1407,13 @@
     "id": "OP13-032_CARRYING_ON_HIS_WILL_[OP-13]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nico-robin-op-13-carrying-on-his-will",
+        "verified": true
+      }
     ]
   },
   {
@@ -1147,7 +1441,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-033",
-    "id": "OP13-033_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-033_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/franky-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Brook",
@@ -1174,6 +1475,13 @@
     "id": "OP13-034_CARRYING_ON_HIS_WILL_[OP-13]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/brook-op-13-carrying-on-his-will",
+        "verified": true
+      }
     ]
   },
   {
@@ -1202,7 +1510,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-035",
-    "id": "OP13-035_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-035_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/bepo-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Helmeppo",
@@ -1226,7 +1541,14 @@
     "cost": 5,
     "expansionCode": "OP13",
     "imageId": "OP13-036",
-    "id": "OP13-036_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-036_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/helmeppo-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -1255,7 +1577,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-037",
-    "id": "OP13-037_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-037_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/roronoa-zoro-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gum-Gum Elephant Gun",
@@ -1282,7 +1611,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-038",
-    "id": "OP13-038_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-038_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gum-gum-elephant-gun-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gum-Gum Snake Shot",
@@ -1310,7 +1646,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-039",
-    "id": "OP13-039_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-039_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gum-gum-snake-shot-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "I Know You're Strong... So I'll Go All Out from the Very Start!!!",
@@ -1338,7 +1681,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-040",
-    "id": "OP13-040_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-040_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/i-know-you-re-strong-so-i-ll-go-all-out-from-the-very-start-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Izo",
@@ -1365,6 +1715,13 @@
     "id": "OP13-041_CARRYING_ON_HIS_WILL_[OP-13]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/izo-op-13-carrying-on-his-will",
+        "verified": true
+      }
     ]
   },
   {
@@ -1393,7 +1750,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-042",
-    "id": "OP13-042_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-042_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/edward-newgate-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Edward.Newgate",
@@ -1422,7 +1786,14 @@
     "expansionCode": "OP13",
     "imageId": "OP13-042_p1",
     "id": "OP13-042_p1_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/edward-newgate-alternate-art-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Otama",
@@ -1448,6 +1819,13 @@
     "id": "OP13-043_CARRYING_ON_HIS_WILL_[OP-13]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/otama-op-13-carrying-on-his-will",
+        "verified": true
+      }
     ]
   },
   {
@@ -1475,7 +1853,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-044",
-    "id": "OP13-044_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-044_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/curiel-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Haruta",
@@ -1501,7 +1886,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-045",
-    "id": "OP13-045_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-045_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/haruta-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vista",
@@ -1528,7 +1920,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-046",
-    "id": "OP13-046_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-046_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vista-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Fossa",
@@ -1551,7 +1950,14 @@
     "cost": 2,
     "expansionCode": "OP13",
     "imageId": "OP13-047",
-    "id": "OP13-047_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-047_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/fossa-op-13-carrying-on-his-will",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Blamenco",
@@ -1574,7 +1980,14 @@
     "cost": 5,
     "expansionCode": "OP13",
     "imageId": "OP13-048",
-    "id": "OP13-048_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-048_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/blamenco-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Blenheim",
@@ -1597,7 +2010,14 @@
     "cost": 6,
     "expansionCode": "OP13",
     "imageId": "OP13-049",
-    "id": "OP13-049_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-049_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/blenheim-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Boa Sandersonia",
@@ -1623,6 +2043,13 @@
     "id": "OP13-050_CARRYING_ON_HIS_WILL_[OP-13]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/boa-sandersonia-op-13-carrying-on-his-will",
+        "verified": true
+      }
     ]
   },
   {
@@ -1650,7 +2077,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-051",
-    "id": "OP13-051_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-051_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/boa-hancock-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Boa Hancock",
@@ -1678,7 +2112,14 @@
     "expansionCode": "OP13",
     "imageId": "OP13-051_p1",
     "id": "OP13-051_p1_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/boa-hancock-alternate-art-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Boa Marigold",
@@ -1705,7 +2146,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-052",
-    "id": "OP13-052_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-052_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/boa-marigold-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Marshall.D.Teach",
@@ -1732,7 +2180,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-053",
-    "id": "OP13-053_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-053_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/marshall-d-teach-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Yamato",
@@ -1758,6 +2213,13 @@
     "id": "OP13-054_CARRYING_ON_HIS_WILL_[OP-13]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/yamato-op-13-carrying-on-his-will",
+        "verified": true
+      }
     ]
   },
   {
@@ -1785,7 +2247,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/yamato-alternate-art-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Rakuyo",
@@ -1811,7 +2280,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-055",
-    "id": "OP13-055_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-055_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/rakuyo-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "LittleOars Jr.",
@@ -1838,7 +2314,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-056",
-    "id": "OP13-056_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-056_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/littleoars-jr-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "If I Bowed Down to Power, What's the Point in Living?",
@@ -1866,7 +2349,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-057",
-    "id": "OP13-057_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-057_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/if-i-bowed-down-to-power-what-s-the-point-in-living-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Phoenix Pyreapple",
@@ -1893,7 +2383,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-058",
-    "id": "OP13-058_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-058_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/phoenix-pyreapple-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Brilliant Punk",
@@ -1919,7 +2416,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-059",
-    "id": "OP13-059_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-059_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/brilliant-punk-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Amatsuki Toki",
@@ -1943,7 +2447,14 @@
     "cost": 2,
     "expansionCode": "OP13",
     "imageId": "OP13-060",
-    "id": "OP13-060_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-060_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/amatsuki-toki-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Inuarashi",
@@ -1970,6 +2481,13 @@
     "id": "OP13-061_CARRYING_ON_HIS_WILL_[OP-13]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/inuarashi-op-13-carrying-on-his-will",
+        "verified": true
+      }
     ]
   },
   {
@@ -1997,7 +2515,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-062",
-    "id": "OP13-062_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-062_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/crocus-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kouzuki Oden",
@@ -2026,7 +2551,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-063",
-    "id": "OP13-063_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-063_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kouzuki-oden-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gol.D.Roger",
@@ -2053,6 +2585,13 @@
     "id": "OP13-064_CARRYING_ON_HIS_WILL_[OP-13]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gol-d-roger-op-13-carrying-on-his-will-354349",
+        "verified": true
+      }
     ]
   },
   {
@@ -2081,7 +2620,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gol-d-roger-alternate-art-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shanks",
@@ -2107,6 +2653,13 @@
     "id": "OP13-065_CARRYING_ON_HIS_WILL_[OP-13]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shanks-op-13-carrying-on-his-will-354367",
+        "verified": true
+      }
     ]
   },
   {
@@ -2134,7 +2687,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shanks-alternate-art-op-13-carrying-on-his-will-354327",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Silvers Rayleigh",
@@ -2161,7 +2721,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-066",
-    "id": "OP13-066_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-066_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/silvers-rayleigh-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Silvers Rayleigh",
@@ -2189,7 +2756,14 @@
     "expansionCode": "OP13",
     "imageId": "OP13-066_p1",
     "id": "OP13-066_p1_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/silvers-rayleigh-alternate-art-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Scopper Gaban",
@@ -2215,6 +2789,13 @@
     "id": "OP13-067_CARRYING_ON_HIS_WILL_[OP-13]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/scopper-gaban-op-13-carrying-on-his-will",
+        "verified": true
+      }
     ]
   },
   {
@@ -2242,6 +2823,13 @@
     "id": "OP13-068_CARRYING_ON_HIS_WILL_[OP-13]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/douglas-bullet-op-13-carrying-on-his-will",
+        "verified": true
+      }
     ]
   },
   {
@@ -2269,6 +2857,13 @@
     "id": "OP13-069_CARRYING_ON_HIS_WILL_[OP-13]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tom-op-13-carrying-on-his-will",
+        "verified": true
+      }
     ]
   },
   {
@@ -2293,7 +2888,14 @@
     "cost": 5,
     "expansionCode": "OP13",
     "imageId": "OP13-070",
-    "id": "OP13-070_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-070_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/napoleon-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nekomamushi",
@@ -2320,6 +2922,13 @@
     "id": "OP13-071_CARRYING_ON_HIS_WILL_[OP-13]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nekomamushi-op-13-carrying-on-his-will",
+        "verified": true
+      }
     ]
   },
   {
@@ -2346,6 +2955,13 @@
     "id": "OP13-072_CARRYING_ON_HIS_WILL_[OP-13]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/buggy-op-13-carrying-on-his-will",
+        "verified": true
+      }
     ]
   },
   {
@@ -2370,7 +2986,14 @@
     "cost": 5,
     "expansionCode": "OP13",
     "imageId": "OP13-073",
-    "id": "OP13-073_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-073_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/prometheus-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Hera",
@@ -2397,6 +3020,13 @@
     "id": "OP13-074_CARRYING_ON_HIS_WILL_[OP-13]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hera-op-13-carrying-on-his-will",
+        "verified": true
+      }
     ]
   },
   {
@@ -2425,7 +3055,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-075",
-    "id": "OP13-075_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-075_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/guess-we-ll-have-another-scrap-you-can-only-risk-death-while-you-re-still-alive-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Divine Departure",
@@ -2453,7 +3090,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-076",
-    "id": "OP13-076_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-076_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/divine-departure-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Divine Departure",
@@ -2482,7 +3126,14 @@
     "expansionCode": "OP13",
     "imageId": "OP13-076_p1",
     "id": "OP13-076_p1_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/divine-departure-alternate-art-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Go All the Way to the Top!!",
@@ -2509,7 +3160,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-077",
-    "id": "OP13-077_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-077_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/go-all-the-way-to-the-top-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Oro Jackson",
@@ -2535,7 +3193,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-078",
-    "id": "OP13-078_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-078_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/oro-jackson-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Imu",
@@ -2562,7 +3227,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-079",
-    "id": "OP13-079_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-079_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/imu-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Imu",
@@ -2590,7 +3262,14 @@
     "expansionCode": "OP13",
     "imageId": "OP13-079_p1",
     "id": "OP13-079_p1_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/imu-op-13-carrying-on-his-will-354296",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "St. Ethanbaron V. Nusjuro",
@@ -2618,7 +3297,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-080",
-    "id": "OP13-080_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-080_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/st-ethanbaron-v-nusjuro-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "St. Ethanbaron V. Nusjuro",
@@ -2647,7 +3333,14 @@
     "expansionCode": "OP13",
     "imageId": "OP13-080_p1",
     "id": "OP13-080_p1_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/st-ethanbaron-v-nusjuro-alternate-art-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "St. Ethanbaron V. Nusjuro",
@@ -2676,7 +3369,14 @@
     "expansionCode": "OP13",
     "imageId": "OP13-080_p2",
     "id": "OP13-080_p2_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/st-ethanbaron-v-nusjuro-special-rare-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Koala",
@@ -2704,7 +3404,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-081",
-    "id": "OP13-081_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-081_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/koala-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Five Elders",
@@ -2731,7 +3438,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-082",
-    "id": "OP13-082_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-082_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/five-elders-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Five Elders",
@@ -2759,7 +3473,14 @@
     "expansionCode": "OP13",
     "imageId": "OP13-082_p1",
     "id": "OP13-082_p1_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/five-elders-alternate-art-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "St. Jaygarcia Saturn",
@@ -2786,6 +3507,13 @@
     "id": "OP13-083_CARRYING_ON_HIS_WILL_[OP-13]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/st-jaygarcia-saturn-op-13-carrying-on-his-will",
+        "verified": true
+      }
     ]
   },
   {
@@ -2814,7 +3542,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/st-jaygarcia-saturn-alternate-art-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "St. Jaygarcia Saturn",
@@ -2842,7 +3577,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/st-jaygarcia-saturn-special-rare-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "St. Shepherd Ju Peter",
@@ -2869,7 +3611,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-084",
-    "id": "OP13-084_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-084_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/st-shepherd-ju-peter-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "St. Shepherd Ju Peter",
@@ -2897,7 +3646,14 @@
     "expansionCode": "OP13",
     "imageId": "OP13-084_p1",
     "id": "OP13-084_p1_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/st-shepherd-ju-peter-alternate-art-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "St. Shepherd Ju Peter",
@@ -2925,7 +3681,14 @@
     "expansionCode": "OP13",
     "imageId": "OP13-084_p2",
     "id": "OP13-084_p2_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/st-shepherd-ju-peter-special-rare-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Saint Jalmac",
@@ -2948,7 +3711,14 @@
     "cost": 2,
     "expansionCode": "OP13",
     "imageId": "OP13-085",
-    "id": "OP13-085_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-085_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/saint-jalmac-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Saint Shalria",
@@ -2974,6 +3744,13 @@
     "id": "OP13-086_CARRYING_ON_HIS_WILL_[OP-13]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/saint-shalria-op-13-carrying-on-his-will",
+        "verified": true
+      }
     ]
   },
   {
@@ -3001,7 +3778,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-087",
-    "id": "OP13-087_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-087_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/saint-charlos-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Terry Gilteo",
@@ -3024,7 +3808,14 @@
     "cost": 5,
     "expansionCode": "OP13",
     "imageId": "OP13-088",
-    "id": "OP13-088_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-088_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/terry-gilteo-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "St. Topman Warcury",
@@ -3052,7 +3843,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-089",
-    "id": "OP13-089_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-089_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/st-topman-warcury-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "St. Topman Warcury",
@@ -3081,7 +3879,14 @@
     "expansionCode": "OP13",
     "imageId": "OP13-089_p1",
     "id": "OP13-089_p1_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/st-topman-warcury-alternate-art-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "St. Topman Warcury",
@@ -3110,7 +3915,14 @@
     "expansionCode": "OP13",
     "imageId": "OP13-089_p2",
     "id": "OP13-089_p2_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/st-topman-warcury-special-rare-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Hack",
@@ -3135,7 +3947,14 @@
     "cost": 6,
     "expansionCode": "OP13",
     "imageId": "OP13-090",
-    "id": "OP13-090_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-090_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hack-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "St. Marcus Mars",
@@ -3163,7 +3982,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-091",
-    "id": "OP13-091_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-091_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/st-marcus-mars-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "St. Marcus Mars",
@@ -3192,7 +4018,14 @@
     "expansionCode": "OP13",
     "imageId": "OP13-091_p1",
     "id": "OP13-091_p1_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/st-marcus-mars-alternate-art-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "St. Marcus Mars",
@@ -3221,7 +4054,14 @@
     "expansionCode": "OP13",
     "imageId": "OP13-091_p2",
     "id": "OP13-091_p2_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/st-marcus-mars-special-rare-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Saint Mjosgard",
@@ -3247,6 +4087,13 @@
     "id": "OP13-092_CARRYING_ON_HIS_WILL_[OP-13]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/saint-mjosgard-op-13-carrying-on-his-will",
+        "verified": true
+      }
     ]
   },
   {
@@ -3274,7 +4121,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-093",
-    "id": "OP13-093_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-093_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/morgans-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "York",
@@ -3301,6 +4155,13 @@
     "id": "OP13-094_CARRYING_ON_HIS_WILL_[OP-13]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/york-op-13-carrying-on-his-will",
+        "verified": true
+      }
     ]
   },
   {
@@ -3327,6 +4188,13 @@
     "id": "OP13-095_CARRYING_ON_HIS_WILL_[OP-13]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/saint-rosward-op-13-carrying-on-his-will",
+        "verified": true
+      }
     ]
   },
   {
@@ -3354,7 +4222,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-096",
-    "id": "OP13-096_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-096_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/the-five-elders-are-at-your-service-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "The World's Equilibrium Cannot Be Maintained Forever",
@@ -3382,7 +4257,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-097",
-    "id": "OP13-097_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-097_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/the-world-s-equilibrium-cannot-be-maintained-forever-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Never Existed... in the First Place...",
@@ -3410,7 +4292,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-098",
-    "id": "OP13-098_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-098_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/never-existed-in-the-first-place-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "The Empty Throne",
@@ -3437,7 +4326,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-099",
-    "id": "OP13-099_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-099_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/the-empty-throne-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Jewelry Bonney",
@@ -3466,7 +4362,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-100",
-    "id": "OP13-100_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-100_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jewelry-bonney-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Jewelry Bonney",
@@ -3496,7 +4399,14 @@
     "expansionCode": "OP13",
     "imageId": "OP13-100_p1",
     "id": "OP13-100_p1_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jewelry-bonney-alternate-art-op-13-carrying-on-his-will-354298",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Atlas",
@@ -3520,7 +4430,14 @@
     "cost": 5,
     "expansionCode": "OP13",
     "imageId": "OP13-101",
-    "id": "OP13-101_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-101_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/atlas-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Edison",
@@ -3547,7 +4464,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-102",
-    "id": "OP13-102_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-102_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/edison-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gyogyo",
@@ -3570,7 +4494,14 @@
     "cost": 4,
     "expansionCode": "OP13",
     "imageId": "OP13-103",
-    "id": "OP13-103_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-103_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gyogyo-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kouzuki Hiyori",
@@ -3598,7 +4529,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-104",
-    "id": "OP13-104_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-104_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kouzuki-hiyori-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kouzuki Momonosuke",
@@ -3625,6 +4563,13 @@
     "id": "OP13-105_CARRYING_ON_HIS_WILL_[OP-13]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kouzuki-momonosuke-op-13-carrying-on-his-will",
+        "verified": true
+      }
     ]
   },
   {
@@ -3653,7 +4598,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-106",
-    "id": "OP13-106_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-106_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/conney-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shaka",
@@ -3677,7 +4629,14 @@
     "cost": 5,
     "expansionCode": "OP13",
     "imageId": "OP13-107",
-    "id": "OP13-107_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-107_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shaka-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Jewelry Bonney",
@@ -3705,7 +4664,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-108",
-    "id": "OP13-108_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-108_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jewelry-bonney-op-13-carrying-on-his-will-354352",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Jewelry Bonney",
@@ -3734,7 +4700,14 @@
     "expansionCode": "OP13",
     "imageId": "OP13-108_p1",
     "id": "OP13-108_p1_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jewelry-bonney-alternate-art-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Jewelry Bonney",
@@ -3758,7 +4731,14 @@
     "cost": 5,
     "expansionCode": "OP13",
     "imageId": "OP13-109",
-    "id": "OP13-109_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-109_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jewelry-bonney-op-13-carrying-on-his-will-354382",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Stussy",
@@ -3787,7 +4767,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-110",
-    "id": "OP13-110_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-110_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/stussy-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Stussy",
@@ -3817,7 +4804,14 @@
     "expansionCode": "OP13",
     "imageId": "OP13-110_p1",
     "id": "OP13-110_p1_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/stussy-alternate-art-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Pythagoras",
@@ -3841,7 +4835,14 @@
     "cost": 6,
     "expansionCode": "OP13",
     "imageId": "OP13-111",
-    "id": "OP13-111_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-111_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/pythagoras-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vegapunk",
@@ -3868,7 +4869,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-112",
-    "id": "OP13-112_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-112_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vegapunk-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Lilith",
@@ -3896,7 +4904,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-113",
-    "id": "OP13-113_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-113_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/lilith-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Lilith",
@@ -3925,7 +4940,14 @@
     "expansionCode": "OP13",
     "imageId": "OP13-113_p1",
     "id": "OP13-113_p1_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/lilith-alternate-art-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "S-Snake",
@@ -3953,7 +4975,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-114",
-    "id": "OP13-114_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-114_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/s-snake-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "S-Snake",
@@ -3982,7 +5011,14 @@
     "expansionCode": "OP13",
     "imageId": "OP13-114_p1",
     "id": "OP13-114_p1_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/s-snake-alternate-art-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Paper Art Afterimage",
@@ -4009,7 +5045,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-115",
-    "id": "OP13-115_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-115_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/paper-art-afterimage-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "The One Who Is the Most Free Is the Pirate King!!!",
@@ -4036,7 +5079,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-116",
-    "id": "OP13-116_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-116_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/the-one-who-is-the-most-free-is-the-pirate-king-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gum-Gum Dawn Stamp",
@@ -4064,7 +5114,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-117",
-    "id": "OP13-117_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-117_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gum-gum-dawn-stamp-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -4093,7 +5150,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-118",
-    "id": "OP13-118_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-118_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-secret-rare-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -4123,7 +5187,14 @@
     "expansionCode": "OP13",
     "imageId": "OP13-118_p1",
     "id": "OP13-118_p1_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-secret-rare-alternate-art-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -4153,7 +5224,14 @@
     "expansionCode": "OP13",
     "imageId": "OP13-118_p2",
     "id": "OP13-118_p2_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "manga"
+    "illustration": "manga",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-manga-panel-alternate-art-secret-rare-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -4183,7 +5261,14 @@
     "expansionCode": "OP13",
     "imageId": "OP13-118_p3",
     "id": "OP13-118_p3_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "red-manga"
+    "illustration": "red-manga",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-red-manga-panel-alternate-art-secret-rare-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Portgas.D.Ace",
@@ -4210,7 +5295,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-119",
-    "id": "OP13-119_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-119_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/portgas-d-ace-secret-rare-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Portgas.D.Ace",
@@ -4238,7 +5330,14 @@
     "expansionCode": "OP13",
     "imageId": "OP13-119_p1",
     "id": "OP13-119_p1_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/portgas-d-ace-secret-rare-alternate-art-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Portgas.D.Ace",
@@ -4266,7 +5365,14 @@
     "expansionCode": "OP13",
     "imageId": "OP13-119_p2",
     "id": "OP13-119_p2_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "manga"
+    "illustration": "manga",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/portgas-d-ace-manga-panel-alternate-art-secret-rare-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Portgas.D.Ace",
@@ -4294,7 +5400,14 @@
     "expansionCode": "OP13",
     "imageId": "OP13-119_p3",
     "id": "OP13-119_p3_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "red-manga"
+    "illustration": "red-manga",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/portgas-d-ace-red-manga-panel-alternate-art-secret-rare-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sabo",
@@ -4323,7 +5436,14 @@
     ],
     "expansionCode": "OP13",
     "imageId": "OP13-120",
-    "id": "OP13-120_CARRYING_ON_HIS_WILL_[OP-13]"
+    "id": "OP13-120_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sabo-secret-rare-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sabo",
@@ -4353,7 +5473,14 @@
     "expansionCode": "OP13",
     "imageId": "OP13-120_p1",
     "id": "OP13-120_p1_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sabo-secret-rare-alternate-art-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sabo",
@@ -4383,7 +5510,14 @@
     "expansionCode": "OP13",
     "imageId": "OP13-120_p2",
     "id": "OP13-120_p2_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "manga"
+    "illustration": "manga",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sabo-manga-panel-alternate-art-secret-rare-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sabo",
@@ -4413,7 +5547,14 @@
     "expansionCode": "OP13",
     "imageId": "OP13-120_p3",
     "id": "OP13-120_p3_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "red-manga"
+    "illustration": "red-manga",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sabo-red-manga-panel-alternate-art-secret-rare-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Portgas.D.Ace",
@@ -4441,7 +5582,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/portgas-d-ace-special-rare-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Lilith",
@@ -4469,7 +5617,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/lilith-special-rare-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sabo",
@@ -4496,7 +5651,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sabo-special-rare-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shanks",
@@ -4524,7 +5686,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-004_p5",
     "id": "OP09-004_p5_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shanks-special-rare-gold-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shanks",
@@ -4552,7 +5721,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-004_p6",
     "id": "OP09-004_p6_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shanks-special-rare-silver-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Benn.Beckman",
@@ -4579,7 +5755,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/benn-beckman-special-rare-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gol.D.Roger",
@@ -4608,7 +5791,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-118_p3",
     "id": "OP09-118_p3_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "wanted"
+    "illustration": "wanted",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gol-d-roger-wanted-alternate-art-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -4636,7 +5826,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-119_p3",
     "id": "OP09-119_p3_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-special-rare-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Smoker",
@@ -4665,7 +5862,14 @@
     "expansionCode": "OP10",
     "imageId": "OP10-030_p2",
     "id": "OP10-030_p2_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "special"
+    "illustration": "special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/smoker-special-rare-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -4695,7 +5899,14 @@
     "expansionCode": "OP13",
     "imageId": "OP13-118_p4",
     "id": "OP13-118_p4_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "wanted"
+    "illustration": "wanted",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-wanted-alternate-art-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Portgas.D.Ace",
@@ -4723,7 +5934,14 @@
     "expansionCode": "OP13",
     "imageId": "OP13-119_p4",
     "id": "OP13-119_p4_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "wanted"
+    "illustration": "wanted",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/portgas-d-ace-wanted-alternate-art-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sabo",
@@ -4753,6 +5971,13 @@
     "expansionCode": "OP13",
     "imageId": "OP13-120_p4",
     "id": "OP13-120_p4_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "wanted"
+    "illustration": "wanted",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sabo-wanted-alternate-art-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
   }
 ]

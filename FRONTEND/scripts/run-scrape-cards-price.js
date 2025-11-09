@@ -3,7 +3,7 @@ import { defineEventHandler, createError, setResponseStatus } from 'h3'
 import puppeteer from 'puppeteer'
 import path from 'path'
 import fs from 'fs'
-import { broadcastEvent } from './scrape-stream' // adegua il path se diverso
+import { broadcastEvent } from '../server/api/scrape-stream' // adegua il path se diverso
 import { createClient } from '@supabase/supabase-js'
 
 

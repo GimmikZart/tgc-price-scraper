@@ -25,6 +25,19 @@ function jitteredDelay(base, jitter) {
   const sign = Math.random() < 0.5 ? -1 : 1
   return Math.max(0, base + sign * delta)
 }
+// Logga su console e invia anche via broadcastEvent lo stesso payload
+async function logBoth(type, payload) {
+  if (typeof payload === 'string') {
+    console.log(payload)
+  } else {
+    try {
+      console.log(JSON.stringify(payload))
+    } catch {
+      console.log(payload)
+    }
+  }
+  return await broadcastEvent(type, payload)
+}
 function parsePrice(text) {
   if (!text) return null
   let t = String(text).trim()
@@ -64,12 +77,12 @@ export default defineEventHandler(async (event) => {
 
   const files = fs.readdirSync(JSON_BASE_DIR).filter(isJsonFile)
   if (!files.length) {
-    await broadcastEvent('generic_warning', `Nessun file .json trovato in ${JSON_BASE_DIR}`)
+    await logBoth('generic_warning', `Nessun file .json trovato in ${JSON_BASE_DIR}`)
     setResponseStatus(event, 204)
     return null
   }
 
-  await broadcastEvent('generic_info', `🟡 Avvio scraping prezzi Card Trader su ${files.length} file`)
+  await logBoth('generic_info', `🟡 Avvio scraping prezzi Card Trader su ${files.length} file`)
 
   // Browser unico riusato
   const browser = await puppeteer.launch({
@@ -94,7 +107,7 @@ export default defineEventHandler(async (event) => {
       const fileName = files[fi]
       const fullPath = path.join(JSON_BASE_DIR, fileName)
 
-      await broadcastEvent('generic_info', `📁 File ${fi + 1}/${files.length}: ${fileName}`)
+      await logBoth('generic_info', `📁 File ${fi + 1}/${files.length}: ${fileName}`)
 
       // Leggi e parse file
       let json
@@ -102,16 +115,24 @@ export default defineEventHandler(async (event) => {
         const raw = fs.readFileSync(fullPath, 'utf-8')
         json = JSON.parse(raw)
       } catch (err) {
-        await broadcastEvent('generic_error', `Impossibile leggere/parlare JSON: ${fileName} → ${String(err?.message || err)}`)
+        await logBoth('generic_error', `Impossibile leggere/parlare JSON: ${fileName} → ${String(err?.message || err)}`)
         // passa al prossimo file
-        await sleep(jitteredDelay(PER_FILE_COOLDOWN_MS, 2000))
+        {
+          const ms = jitteredDelay(PER_FILE_COOLDOWN_MS, 2000)
+          await logBoth('generic_info', `⏳ Cooldown tra file: attendo ${ms} ms`)
+          await sleep(ms)
+        }
         continue
       }
 
       const { cards, isArrayRoot } = detectCardsRoot(json)
       if (!Array.isArray(cards) || cards.length === 0) {
-        await broadcastEvent('generic_warning', `Nessuna carta in ${fileName}`)
-        await sleep(jitteredDelay(PER_FILE_COOLDOWN_MS, 2000))
+        await logBoth('generic_warning', `Nessuna carta in ${fileName}`)
+        {
+          const ms = jitteredDelay(PER_FILE_COOLDOWN_MS, 2000)
+          await logBoth('generic_info', `⏳ Cooldown tra file: attendo ${ms} ms`)
+          await sleep(ms)
+        }
         continue
       }
 
@@ -137,7 +158,7 @@ export default defineEventHandler(async (event) => {
 
           // Vai alla pagina e leggi prezzo
           try {
-            await broadcastEvent('generic_info', `🔎 [${fileName}] Carta ${ci + 1}/${cards.length} — Card Trader verified → navigo: ${url}`)
+            await logBoth('generic_info', `🔎 [${fileName}] Carta ${ci + 1}/${cards.length} — Card Trader verified → navigo: ${url}`)
             await page.goto(url, { waitUntil: 'networkidle2', timeout: 90000 })
 
             // Cookie banner (best effort)
@@ -146,7 +167,7 @@ export default defineEventHandler(async (event) => {
               if (cookieBtn) {
                 await cookieBtn.click()
                 await page.waitForTimeout(500)
-                await broadcastEvent('generic_info', '✅ Cookie banner chiuso')
+                await logBoth('generic_info', '✅ Cookie banner chiuso')
               }
             } catch {}
 
@@ -160,16 +181,16 @@ export default defineEventHandler(async (event) => {
             while (Date.now() - startTime < 20000) { // max 20 secondi di polling
               priceText = await page.$eval(PRICE_SELECTOR, el => el.textContent?.trim() || '')
               if (priceText && priceText !== '-' && !priceText.toLowerCase().includes('loading')) break
-              await broadcastEvent('generic_info', '⏳ Prezzo non ancora pronto, ritento...')
+              await logBoth('generic_info', '⏳ Prezzo non ancora pronto, ritento...')
               await page.waitForTimeout(1000)
             }
-            await broadcastEvent('generic_info', `💰 Price text found: "${priceText}"`)
+            await logBoth('generic_info', `💰 Price text found: "${priceText}"`)
             const price = parsePrice(priceText)
 
             totalCardsVisited++
 
             if (price == null) {
-              await broadcastEvent('generic_warning', `⚠️ Prezzo non parsabile per "${card.name || card.code || 'unknown'}" in ${fileName}: "${priceText}"`)
+              await logBoth('generic_warning', `⚠️ Prezzo non parsabile per "${card.name || card.code || 'unknown'}" in ${fileName}: "${priceText}"`)
             } else {
               // Salva nel campo dello slug corrente
               card.slugs[si] = { ...slug, current_price: price }
@@ -178,17 +199,20 @@ export default defineEventHandler(async (event) => {
               pricesUpdatedInThisFile++
               totalPricesUpdated++
 
-              await broadcastEvent('generic_success', `💰 Aggiornato prezzo (${price}) per "${card.name || card.code || 'unknown'}" in ${fileName}`)
+              await logBoth('generic_success', `💰 Aggiornato prezzo (${price}) per "${card.name || card.code || 'unknown'}" in ${fileName}`)
             }
 
           } catch (err) {
-            await broadcastEvent('generic_error', `Errore durante scraping prezzo per "${card.name || card.code || 'unknown'}" in ${fileName}: ${String(err?.message || err)}`)
+            await logBoth('generic_error', `Errore durante scraping prezzo per "${card.name || card.code || 'unknown'}" in ${fileName}: ${String(err?.message || err)}`)
           }
 
-          await broadcastEvent('generic_info', `Delay di ${jitteredDelay(PER_CARD_BASE_DELAY_MS, PER_CARD_JITTER_MS)} milli-secondi`)
-          // Delay "gentile" tra richieste
-          await sleep(jitteredDelay(PER_CARD_BASE_DELAY_MS, PER_CARD_JITTER_MS))
-          await broadcastEvent('generic_info', `Delay concluso`)
+          // Delay "gentile" tra richieste — stesso valore per log e sleep
+          {
+            const ms = jitteredDelay(PER_CARD_BASE_DELAY_MS, PER_CARD_JITTER_MS)
+            await logBoth('generic_info', `🛌 Delay tra carte: attendo ${ms} ms`)
+            await sleep(ms)
+            await logBoth('generic_info', '⏱️ Delay concluso')
+          }
         }
       }
 
@@ -197,30 +221,36 @@ export default defineEventHandler(async (event) => {
         const toWrite = isArrayRoot ? cards : { ...json, cards }
         try {
           writeJsonSafe(fullPath, toWrite)
-          await broadcastEvent('generic_success', `✅ ${fileName}: prezzi aggiornati per ${pricesUpdatedInThisFile} slug verificati`)
+          await logBoth('generic_success', `✅ ${fileName}: prezzi aggiornati per ${pricesUpdatedInThisFile} slug verificati`)
         } catch (err) {
-          await broadcastEvent('generic_error', `Errore in scrittura ${fileName}: ${String(err?.message || err)}`)
+          await logBoth('generic_error', `Errore in scrittura ${fileName}: ${String(err?.message || err)}`)
         }
       } else {
-        await broadcastEvent('generic_info', `ℹ️ ${fileName}: nessun prezzo aggiornato (nessuno slug Card Trader verificato trovato o prezzo non parsabile)`)
+        await logBoth('generic_info', `ℹ️ ${fileName}: nessun prezzo aggiornato (nessuno slug Card Trader verificato trovato o prezzo non parsabile)`)
       }
 
-      // Cooldown tra file
-      await sleep(jitteredDelay(PER_FILE_COOLDOWN_MS, 5000))
+      // Cooldown tra file — stesso valore per log e sleep
+      {
+        const ms = jitteredDelay(PER_FILE_COOLDOWN_MS, 5000)
+        await logBoth('generic_info', `⏳ Cooldown tra file: attendo ${ms} ms`)
+        await sleep(ms)
+      }
     }
 
-    await broadcastEvent('scrape:done', {
+    await logBoth('scrape:done', {
       files: files.length,
       totalCardsVisited,
       totalVerifiedFound,
       totalPricesUpdated,
     })
-    await broadcastEvent('generic_success', `🏁 Completato: files=${files.length}, visitati=${totalCardsVisited}, verified=${totalVerifiedFound}, aggiornati=${totalPricesUpdated}`)
+    await logBoth('generic_success', `🏁 Completato: files=${files.length}, visitati=${totalCardsVisited}, verified=${totalVerifiedFound}, aggiornati=${totalPricesUpdated}`)
 
   } catch (err) {
-    await broadcastEvent('scrape:error', { message: String(err?.message || err) })
+    await logBoth('scrape:error', { message: String(err?.message || err) })
   } finally {
-    try { await browser.close() } catch {}
+    try { await browser.close() } catch (e) {
+      console.log(`Errore chiusura browser: ${String(e?.message || e)}`)
+    }
   }
 
   // Nessun payload al client

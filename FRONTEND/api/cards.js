@@ -84,3 +84,19 @@ export async function bulkUpdateCardsList(newEntries) {
     );
   }
 }
+
+export async function fetchCardPrice(cardId) {
+  const client = useSupabaseClient();
+  const { data: cardInfo, error } = await client
+    .from("cards")
+    .select("*")
+    .eq("card_id", cardId)
+    .maybeSingle();
+
+  if (error) {
+    throw new Error(error.message);
+  }
+  console.log('PREZZO A DB: ', cardInfo.cardtrader_avg_price);
+  
+  return cardInfo?.cardtrader_avg_price || null;
+}

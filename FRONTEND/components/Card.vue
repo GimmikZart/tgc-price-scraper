@@ -62,7 +62,7 @@ function openCard() { if (!props.disableOpening) emit("open", props.card); }
           :href="service.url"
           target="_blank"
         >
-          {{ service.current_price ?? '---' }}€
+          {{ card.currentPrice ?? '---' }}€
         </a>
         <div class="w-[30px] h-[10px] absolute -top-1 left-1/2 -translate-x-1/2 bg-white opacity-70"></div>
       </div>

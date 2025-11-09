@@ -10,6 +10,7 @@ import {
   addCardToUserCollection,
   removeCardToUserCollection,
 } from "@/api/collection";
+import { fetchCardPrice } from "@/api/cards";
 
 import { useScrollAnchor } from "~/composables/useScrollAnchor"; 
 
@@ -54,16 +55,31 @@ async function loadCountsForChunk(chunk) {
   if (!collectionIsHandling.value) return
   const userId = userAuth.userLogged?.id
   if (!userId) return
-
   await Promise.all(chunk.map(async (card) => {
     if (card._countLoaded || card._pending) return
     try {
       const c = await fetchCardCountInCollection(userId, card.id)
+      console.log({currentPrice});
+      
       card.count = c
     } catch {
       card.count = card.count ?? 0
     }
     card._countLoaded = true
+  }))
+}
+
+async function loadPricesForChunk(chunk) {
+  await Promise.all(chunk.map(async (card) => {
+    if (card._priceLoaded || card._pending) return
+    try {
+      const currentPrice = await fetchCardPrice(card.id)
+      console.log({currentPrice});
+      card.currentPrice = currentPrice
+    } catch {
+      card.currentPrice = null
+    }
+    card._priceLoaded = true
   }))
 }
 
@@ -131,7 +147,7 @@ onMounted(async () => {
       :key="gridKey"
       :items="sortedCards"
       :grid-class="gridSystem"
-      :onChunk="loadCountsForChunk"
+      :onChunk="[loadCountsForChunk, loadPricesForChunk]"
       @update:visible="visibleCards = $event"
     >
       <template #default="{ item }">

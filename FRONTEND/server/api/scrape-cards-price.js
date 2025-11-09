@@ -70,6 +70,7 @@ export default defineEventHandler(async (event) => {
   // Non leggiamo più data/name dal client: si processa l'intera cartella
   // (se vuoi passare opzioni in futuro, puoi leggere il body qui)
 
+  await logBoth('INIZIAMOOOOOOOOOOOO');
   // Pre-scan directory
   if (!fs.existsSync(JSON_BASE_DIR)) {
     throw createError({ statusCode: 500, statusMessage: `JSON base dir not found: ${JSON_BASE_DIR}` })

@@ -1,34 +1,35 @@
 // scripts/run-scrape-cards-price.js
 import fs from 'fs'
 import path from 'path'
-import puppeteer from 'puppeteer'         // NON puppeteer-core
+import puppeteer from 'puppeteer'
 import { createClient } from '@supabase/supabase-js'
 import { fileURLToPath } from 'url'
 
-// === path helper ESM ===
+/* ---------------- path helper per ESM ---------------- */
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
-// === CONFIG ===
+/* ---------------- CONFIG ---------------- */
 const JSON_BASE_DIR = path.resolve(process.cwd(), 'data', 'cards', 'one_piece_tgc')
 
-// Selettore attuale CardTrader
-const PRICE_SELECTOR =
-  'body > div.d-flex.flex-column.flex-grow-1.padding-top-for-header > div.bg-white > div > div > div.d-flex.pb-3 > div.w-100.ml-3.mr-0.mr-md-3 > div.blueprint-info-container > div > div:nth-child(1) > div.d-sm-flex.justify-content-between.flex-wrap > div:nth-child(2) > div.price-box__price'
+// Selettore CardTrader
+const PRICE_SELECTOR = 'body > div.d-flex.flex-column.flex-grow-1.padding-top-for-header > div.bg-white > div > div > div.d-flex.pb-3 > div.w-100.ml-3.mr-0.mr-md-3 > div.blueprint-info-container > div > div:nth-child(1) > div.d-sm-flex.justify-content-between.flex-wrap > div:nth-child(2) > div.price-box__price'
 
-// Timing "gentili"
-const PER_CARD_BASE_DELAY_MS = 8000
-const PER_CARD_JITTER_MS     = 2500
-const PER_FILE_COOLDOWN_MS   = 25000
+// Timings “gentili”
+const PER_CARD_BASE_DELAY_MS = 9000
+const PER_CARD_JITTER_MS     = 3000
+const PER_FILE_COOLDOWN_MS   = 35000
 
-// Timeout e retry
-const NAV_TIMEOUT_MS         = 120_000   // 120s per evitare i 90s fissi
-const PRICE_WAIT_TOTAL_MS    = 35_000    // attesa max per prezzo
-const PRICE_POLL_MS          = 900
-const MAX_NAV_RETRIES        = 2         // riprova la pagina max 2 volte
-const BACKOFF_AFTER_TIMEOUT  = 15_000    // pausa dopo timeout di navigazione
+// Timeout & retry
+const NAV_TIMEOUT_MS           = 120000          // 120s per goto
+const PROTOCOL_TIMEOUT_MS      = 120000          // 120s per protocollo CDP
+const SELECTOR_TIMEOUT_MS      = 30000           // 30s per vedere il prezzo
+const GOTO_RETRIES             = 2               // n. retry extra oltre al primo tentativo
+const SELECTOR_RETRIES         = 2
+const WATCHDOG_PAGE_STUCK_MS   = 180000          // se non logghiamo nulla per 3 minuti, ricreo la page
+const RECREATE_BROWSER_EVERY_N = 250             // chiude/riapre il browser ogni N navigazioni (evita fughe memoria)
 
-// === HELPERS ===
+/* ---------------- HELPERS ---------------- */
 const sleep = (ms) => new Promise(r => setTimeout(r, ms))
 const jittered = (base, jitter) => {
   const d = Math.floor(Math.random() * (jitter || 0))
@@ -36,7 +37,6 @@ const jittered = (base, jitter) => {
 }
 const isJsonFile = f => f.toLowerCase().endsWith('.json')
 const writeJsonSafe = (p, data) => fs.writeFileSync(p, JSON.stringify(data, null, 2), 'utf-8')
-
 function detectCardsRoot(json) {
   if (Array.isArray(json)) return { cards: json, isArrayRoot: true }
   if (json && typeof json === 'object' && Array.isArray(json.cards)) return { cards: json.cards, isArrayRoot: false }
@@ -51,7 +51,7 @@ function parsePrice(text) {
   return Number.isFinite(n) ? n : null
 }
 
-// === LOG ===
+// Log
 function log(type, payload) {
   const msg = typeof payload === 'string'
     ? payload
@@ -59,7 +59,7 @@ function log(type, payload) {
   console.log(`[${new Date().toISOString()}] [${type}] ${msg}`)
 }
 
-// === DB ===
+/* ---------------- DB ---------------- */
 function getSb() {
   const url = process.env.SUPABASE_URL
   const key = process.env.SUPABASE_SERVICE_ROLE_KEY
@@ -76,16 +76,11 @@ async function updateCardPrice(cardId, price) {
   log('db', `Aggiornato card_id=${cardId} → ${price}`)
 }
 
-// === Puppeteer launch ===
+/* ---------------- Puppeteer bootstrap ---------------- */
 async function launchBrowser() {
-  // Se è stato definito un eseguibile esterno (STRADA B), usalo.
-  // Altrimenti Puppeteer userà quello che ha scaricato in build (STRADA A).
-  const customExec = process.env.PUPPETEER_EXECUTABLE_PATH
-  log('info', `Launching Chromium (customExec=${!!customExec})`)
-
   return puppeteer.launch({
     headless: true,
-    executablePath: customExec || undefined,
+    protocolTimeout: PROTOCOL_TIMEOUT_MS, // evita “Network.enable timed out”
     args: [
       '--no-sandbox',
       '--disable-setuid-sandbox',
@@ -99,48 +94,43 @@ async function launchBrowser() {
       '--disable-background-timer-throttling',
       '--disable-renderer-backgrounding',
       '--mute-audio',
-      '--single-process',                 // aiuta sui 512 MB
-    ],
-    defaultViewport: { width: 1200, height: 800, deviceScaleFactor: 1 },
+      '--single-process', // su istanze piccole aiuta
+    ]
   })
 }
 
-async function newLeanPage(browser) {
+async function makeLeanPage(browser) {
   const page = await browser.newPage()
+  page.setDefaultNavigationTimeout(NAV_TIMEOUT_MS)
+  page.setDefaultTimeout(SELECTOR_TIMEOUT_MS)
 
   await page.setUserAgent(
-    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) ' +
-    'AppleWebKit/537.36 (KHTML, like Gecko) ' +
-    'Chrome/114.0.0.0 Safari/537.36'
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
   )
   await page.setCacheEnabled(false)
 
-  // Blocca risorse pesanti
+  // Blocca risorse pesanti (immagini/media/font/css)
   await page.setRequestInterception(true)
   page.on('request', (req) => {
     const t = req.resourceType()
     if (t === 'image' || t === 'media' || t === 'font' || t === 'stylesheet') {
       req.abort().catch(() => {})
-    } else {
-      req.continue().catch(() => {})
-    }
+    } else req.continue().catch(() => {})
   })
 
   return page
 }
 
-// Goto con retry/backoff
-async function safeGoto(page, url) {
-  for (let attempt = 0; attempt <= MAX_NAV_RETRIES; attempt++) {
+/* ---------------- Retry helpers ---------------- */
+async function gotoWithRetry(page, url, tries = 1 + GOTO_RETRIES) {
+  for (let i = 0; i < tries; i++) {
     try {
-      await page.goto(url, { waitUntil: 'domcontentloaded', timeout: NAV_TIMEOUT_MS })
-      // poi aspetta “rete calma”, ma senza hard stop
-      await page.waitForNetworkIdle({ idleTime: 1200, timeout: 20_000 }).catch(() => {})
+      await page.goto(url, { waitUntil: 'networkidle2', timeout: NAV_TIMEOUT_MS })
       return
     } catch (e) {
-      if (attempt < MAX_NAV_RETRIES) {
-        log('warn', `goto timeout → retry ${attempt + 1}/${MAX_NAV_RETRIES}`)
-        await sleep(BACKOFF_AFTER_TIMEOUT)
+      if (i < tries - 1) {
+        log('warn', `goto timeout → retry ${i + 1}/${tries - 1}`)
+        await sleep(5000 * (i + 1)) // backoff
       } else {
         throw e
       }
@@ -148,20 +138,29 @@ async function safeGoto(page, url) {
   }
 }
 
-// Attende il prezzo con polling più paziente
-async function waitPrice(page) {
-  await page.waitForSelector(PRICE_SELECTOR, { visible: true, timeout: 25_000 })
-  const t0 = Date.now()
-
-  while (Date.now() - t0 < PRICE_WAIT_TOTAL_MS) {
-    const text = await page.$eval(PRICE_SELECTOR, el => el.textContent?.trim() || '')
-    if (text && text !== '-' && !text.toLowerCase().includes('loading')) return text
-    await page.waitForTimeout(PRICE_POLL_MS)
+async function waitForPriceWithRetry(page, selector, tries = 1 + SELECTOR_RETRIES) {
+  for (let i = 0; i < tries; i++) {
+    await page.waitForSelector(selector, { visible: true, timeout: SELECTOR_TIMEOUT_MS })
+    // polling interno sul testo
+    const t0 = Date.now()
+    while (Date.now() - t0 < SELECTOR_TIMEOUT_MS) {
+      const txt = await page.$eval(selector, el => el.textContent?.trim() || '')
+      if (txt && txt !== '-' && !txt.toLowerCase().includes('loading')) {
+        return txt
+      }
+      await page.waitForTimeout(800)
+    }
+    if (i < tries - 1) {
+      log('warn', `selector polling timeout → retry ${i + 1}/${tries - 1}`)
+      // piccolo nudge: prova un leggero scroll e reload soft
+      try { await page.evaluate(() => window.scrollTo(0, 300)) } catch {}
+      await page.waitForTimeout(1500)
+    }
   }
-  return '' // non trovato
+  throw new Error(`Waiting for selector \`${selector}\` failed: ${SELECTOR_TIMEOUT_MS * tries}ms exceeded`)
 }
 
-// === MAIN ===
+/* ---------------- MAIN ---------------- */
 async function main() {
   log('start', `JSON_BASE_DIR = ${JSON_BASE_DIR}`)
 
@@ -176,8 +175,19 @@ async function main() {
   }
   log('info', `File da processare: ${files.length}`)
 
-  const browser = await launchBrowser()
-  const page = await newLeanPage(browser)
+  let browser = await launchBrowser()
+  let page = await makeLeanPage(browser)
+  let lastActivityAt = Date.now()
+  let navigationsCounter = 0
+
+  const ensureFreshPageIfStuck = async () => {
+    if (Date.now() - lastActivityAt > WATCHDOG_PAGE_STUCK_MS) {
+      log('warn', 'watchdog: page “stuck” → ricreo la pagina')
+      try { await page.close() } catch {}
+      page = await makeLeanPage(browser)
+      lastActivityAt = Date.now()
+    }
+  }
 
   let totalCardsVisited = 0
   let totalPricesUpdated = 0
@@ -219,22 +229,37 @@ async function main() {
           if (!isCT || !isVerified || !url) continue
 
           totalVerifiedFound++
+
+          // ogni tot navigazioni, ricreo il browser (anti-leak)
+          if (navigationsCounter > 0 && navigationsCounter % RECREATE_BROWSER_EVERY_N === 0) {
+            log('info', 'ricreo browser per manutenzione periodica')
+            try { await page.close() } catch {}
+            try { await browser.close() } catch {}
+            browser = await launchBrowser()
+            page = await makeLeanPage(browser)
+          }
+
           try {
+            await ensureFreshPageIfStuck()
             log('nav', `→ ${url}`)
-            await safeGoto(page, url)
+            lastActivityAt = Date.now()
+            navigationsCounter++
+
+            await gotoWithRetry(page, url)
 
             // cookie (best effort)
             try {
               const b = await page.$('#onetrust-accept-btn-handler, button[aria-label="Accept All Cookies"]')
-              if (b) { await b.click(); await page.waitForTimeout(350); log('info','Cookie OK') }
+              if (b) { await b.click(); await page.waitForTimeout(400); log('info','Cookie OK') }
             } catch {}
 
-            const priceText = await waitPrice(page)
+            const priceText = await waitForPriceWithRetry(page, PRICE_SELECTOR)
             const price = parsePrice(priceText)
             totalCardsVisited++
+            lastActivityAt = Date.now()
 
             if (price == null) {
-              log('warn', `Prezzo non parsabile per "${card.name || card.code}" (text="${priceText}")`)
+              log('warn', `Prezzo non parsabile per "${card.name || card.code}" : "${priceText}"`)
             } else {
               // salva su JSON
               card.slugs[si] = { ...slug, current_price: price }
@@ -242,8 +267,7 @@ async function main() {
 
               // salva su DB
               if (card.id != null) {
-                try { await updateCardPrice(card.id, price) }
-                catch (dbErr) { log('error', `DB ${card.id}: ${dbErr.message}`) }
+                await updateCardPrice(card.id, price)
               } else {
                 log('warn', `card.id mancante per "${card.name || card.code}"`)
               }
@@ -253,18 +277,35 @@ async function main() {
               log('ok', `Aggiornato ${price} per "${card.name || card.code}"`)
             }
           } catch (e) {
-            log('error', `Scrape "${card.name || card.code}": ${e.message}`)
+            // recupero mirato da errori di protocollo/proxy
+            const msg = e?.message || String(e)
+            log('error', `Scrape "${card.name || card.code}": ${msg}`)
+            if (/Network\.enable timed out|Target closed|Execution context was destroyed/i.test(msg)) {
+              // pagina rotta → ricreo la pagina; se fallisce, ricreo browser
+              log('warn', 'recupero: ricreo pagina')
+              try { await page.close() } catch {}
+              try {
+                page = await makeLeanPage(browser)
+              } catch {
+                log('warn', 'recupero: ricreo browser')
+                try { await browser.close() } catch {}
+                browser = await launchBrowser()
+                page = await makeLeanPage(browser)
+              }
+            }
           }
 
+          // delay gentile tra carte
           await sleep(jittered(PER_CARD_BASE_DELAY_MS, PER_CARD_JITTER_MS))
         }
       }
 
+      // scrivi su file se aggiornato
       if (updatedInThisFile > 0) {
         const toWrite = isArrayRoot ? cards : { ...json, cards }
         try {
           writeJsonSafe(fullPath, toWrite)
-          log('save', `Scritto ${fileName} (${updatedInThisFile} aggiorn.)`)
+          log('save', `Scritto ${fileName} (${updatedInThisFile} aggiornamenti)`)
         } catch (e) {
           log('error', `Write ${fileName}: ${e.message}`)
         }
@@ -272,7 +313,8 @@ async function main() {
         log('info', `${fileName}: nessun aggiornamento`)
       }
 
-      await sleep(jittered(PER_FILE_COOLDOWN_MS, 4000))
+      // cooldown tra file
+      await sleep(jittered(PER_FILE_COOLDOWN_MS, 5000))
     }
 
     log('done', { files: files.length, totalCardsVisited, totalVerifiedFound, totalPricesUpdated })
@@ -282,7 +324,7 @@ async function main() {
   }
 }
 
-// esegui se chiamato direttamente
+/* ---------------- run if invoked directly ---------------- */
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
   main().catch(err => { console.error(err); process.exit(1) })
 }

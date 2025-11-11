@@ -22,12 +22,17 @@ const PER_FILE_COOLDOWN_MS   = 35000
 
 // Timeout & retry
 const NAV_TIMEOUT_MS           = 120000          // 120s per goto
-const PROTOCOL_TIMEOUT_MS      = 120000          // 120s per protocollo CDP
+const PROTOCOL_TIMEOUT_MS      = 120000          // 120s protocollo CDP
 const SELECTOR_TIMEOUT_MS      = 30000           // 30s per vedere il prezzo
-const GOTO_RETRIES             = 2               // n. retry extra oltre al primo tentativo
+const GOTO_RETRIES             = 2               // retry extra oltre al primo tentativo
 const SELECTOR_RETRIES         = 2
-const WATCHDOG_PAGE_STUCK_MS   = 180000          // se non logghiamo nulla per 3 minuti, ricreo la page
-const RECREATE_BROWSER_EVERY_N = 250             // chiude/riapre il browser ogni N navigazioni (evita fughe memoria)
+const WATCHDOG_PAGE_STUCK_MS   = 180000          // se “stuck” per 3m ricrea page
+const RECREATE_BROWSER_EVERY_N = 250             // ricrea browser ogni N navigazioni
+
+// Cache: salta carte aggiornate di recente
+const MAX_AGE_HOURS = Number(process.env.SCRAPE_MAX_AGE_HOURS || 24)
+const MAX_AGE_MS = MAX_AGE_HOURS * 60 * 60 * 1000
+const FORCE_ALL = String(process.env.FORCE_ALL || '') === '1'
 
 /* ---------------- HELPERS ---------------- */
 const sleep = (ms) => new Promise(r => setTimeout(r, ms))
@@ -49,6 +54,11 @@ function parsePrice(text) {
   else if (t.includes(',')) t = t.replace(',', '.')
   const n = parseFloat(t)
   return Number.isFinite(n) ? n : null
+}
+const isFresh = (ts) => {
+  if (ts == null) return false
+  const n = Number(ts)
+  return Number.isFinite(n) && (Date.now() - n) < MAX_AGE_MS
 }
 
 // Log
@@ -80,7 +90,7 @@ async function updateCardPrice(cardId, price) {
 async function launchBrowser() {
   return puppeteer.launch({
     headless: true,
-    protocolTimeout: PROTOCOL_TIMEOUT_MS, // evita “Network.enable timed out”
+    protocolTimeout: PROTOCOL_TIMEOUT_MS,
     args: [
       '--no-sandbox',
       '--disable-setuid-sandbox',
@@ -94,7 +104,7 @@ async function launchBrowser() {
       '--disable-background-timer-throttling',
       '--disable-renderer-backgrounding',
       '--mute-audio',
-      '--single-process', // su istanze piccole aiuta
+      '--single-process',
     ]
   })
 }
@@ -109,7 +119,7 @@ async function makeLeanPage(browser) {
   )
   await page.setCacheEnabled(false)
 
-  // Blocca risorse pesanti (immagini/media/font/css)
+  // Blocca risorse pesanti
   await page.setRequestInterception(true)
   page.on('request', (req) => {
     const t = req.resourceType()
@@ -130,7 +140,7 @@ async function gotoWithRetry(page, url, tries = 1 + GOTO_RETRIES) {
     } catch (e) {
       if (i < tries - 1) {
         log('warn', `goto timeout → retry ${i + 1}/${tries - 1}`)
-        await sleep(5000 * (i + 1)) // backoff
+        await sleep(5000 * (i + 1))
       } else {
         throw e
       }
@@ -141,7 +151,6 @@ async function gotoWithRetry(page, url, tries = 1 + GOTO_RETRIES) {
 async function waitForPriceWithRetry(page, selector, tries = 1 + SELECTOR_RETRIES) {
   for (let i = 0; i < tries; i++) {
     await page.waitForSelector(selector, { visible: true, timeout: SELECTOR_TIMEOUT_MS })
-    // polling interno sul testo
     const t0 = Date.now()
     while (Date.now() - t0 < SELECTOR_TIMEOUT_MS) {
       const txt = await page.$eval(selector, el => el.textContent?.trim() || '')
@@ -152,7 +161,6 @@ async function waitForPriceWithRetry(page, selector, tries = 1 + SELECTOR_RETRIE
     }
     if (i < tries - 1) {
       log('warn', `selector polling timeout → retry ${i + 1}/${tries - 1}`)
-      // piccolo nudge: prova un leggero scroll e reload soft
       try { await page.evaluate(() => window.scrollTo(0, 300)) } catch {}
       await page.waitForTimeout(1500)
     }
@@ -162,7 +170,7 @@ async function waitForPriceWithRetry(page, selector, tries = 1 + SELECTOR_RETRIE
 
 /* ---------------- MAIN ---------------- */
 async function main() {
-  log('start', `JSON_BASE_DIR = ${JSON_BASE_DIR}`)
+  log('start', `JSON_BASE_DIR = ${JSON_BASE_DIR} | MAX_AGE_HOURS=${MAX_AGE_HOURS} | FORCE_ALL=${FORCE_ALL}`)
 
   if (!fs.existsSync(JSON_BASE_DIR)) {
     throw new Error(`JSON base dir not found: ${JSON_BASE_DIR}`)
@@ -192,6 +200,7 @@ async function main() {
   let totalCardsVisited = 0
   let totalPricesUpdated = 0
   let totalVerifiedFound = 0
+  let totalSkippedFresh = 0
 
   try {
     for (let i = 0; i < files.length; i++) {
@@ -228,9 +237,16 @@ async function main() {
           const url = slug?.url
           if (!isCT || !isVerified || !url) continue
 
+          // SKIP se aggiornato nelle ultime X ore (salvo FORCE_ALL)
+          if (!FORCE_ALL && isFresh(slug.lastUpdate)) {
+            totalSkippedFresh++
+            log('skip', `fresh (<${MAX_AGE_HOURS}h) "${card.name || card.code}" → salto`)
+            continue
+          }
+
           totalVerifiedFound++
 
-          // ogni tot navigazioni, ricreo il browser (anti-leak)
+          // manutenzione periodica
           if (navigationsCounter > 0 && navigationsCounter % RECREATE_BROWSER_EVERY_N === 0) {
             log('info', 'ricreo browser per manutenzione periodica')
             try { await page.close() } catch {}
@@ -261,11 +277,11 @@ async function main() {
             if (price == null) {
               log('warn', `Prezzo non parsabile per "${card.name || card.code}" : "${priceText}"`)
             } else {
-              // salva su JSON
-              card.slugs[si] = { ...slug, current_price: price }
+              // SOLO lastUpdate nel JSON
+              card.slugs[si] = { ...slug, lastUpdate: Date.now() }
               cards[ci] = { ...card }
 
-              // salva su DB
+              // Update DB con il prezzo
               if (card.id != null) {
                 await updateCardPrice(card.id, price)
               } else {
@@ -277,11 +293,9 @@ async function main() {
               log('ok', `Aggiornato ${price} per "${card.name || card.code}"`)
             }
           } catch (e) {
-            // recupero mirato da errori di protocollo/proxy
             const msg = e?.message || String(e)
             log('error', `Scrape "${card.name || card.code}": ${msg}`)
             if (/Network\.enable timed out|Target closed|Execution context was destroyed/i.test(msg)) {
-              // pagina rotta → ricreo la pagina; se fallisce, ricreo browser
               log('warn', 'recupero: ricreo pagina')
               try { await page.close() } catch {}
               try {
@@ -300,7 +314,7 @@ async function main() {
         }
       }
 
-      // scrivi su file se aggiornato
+      // Scrittura file se ci sono stati aggiornamenti
       if (updatedInThisFile > 0) {
         const toWrite = isArrayRoot ? cards : { ...json, cards }
         try {
@@ -313,11 +327,18 @@ async function main() {
         log('info', `${fileName}: nessun aggiornamento`)
       }
 
-      // cooldown tra file
       await sleep(jittered(PER_FILE_COOLDOWN_MS, 5000))
     }
 
-    log('done', { files: files.length, totalCardsVisited, totalVerifiedFound, totalPricesUpdated })
+    log('done', {
+      files: files.length,
+      totalCardsVisited,
+      totalVerifiedFound,
+      totalPricesUpdated,
+      totalSkippedFresh,
+      maxAgeHours: MAX_AGE_HOURS,
+      forced: FORCE_ALL
+    })
   } finally {
     try { await page.close() } catch {}
     try { await browser.close() } catch {}

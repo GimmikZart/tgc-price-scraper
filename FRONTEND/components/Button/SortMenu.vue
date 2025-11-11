@@ -108,6 +108,31 @@ function choose(key, dir) {
             />
           </div>
         </div>
+        <div class="h-px bg-neutral-800 mx-1"></div>
+        <!-- Sezione: Prezzo -->
+        <div class="px-1">
+          <div class="text-[10px] uppercase tracking-wide text-neutral-400 mb-1">Prezzo</div>
+          <div class="grid grid-cols-2 gap-2">
+            <ButtonMenu
+              class="scale-90 -my-1"
+              icon="mdi-sort-numeric-ascending"
+              label="Crescente"
+              transition
+              :delay="300"
+              :icon-color="(sort.sortKey === 'price' && sort.sortDir === 'asc') ? 'green' : null"
+              @click="choose('price','asc')"
+            />
+            <ButtonMenu
+              class="scale-90 -my-1"
+              icon="mdi-sort-numeric-descending"
+              label="Decrescente"
+              transition
+              :delay="360"
+              :icon-color="(sort.sortKey === 'price' && sort.sortDir === 'desc') ? 'green' : null"
+              @click="choose('price','desc')"
+            />
+          </div>
+        </div>
       </div>
     </template>
   </ButtonMenu>

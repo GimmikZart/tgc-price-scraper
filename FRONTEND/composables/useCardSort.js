@@ -55,6 +55,7 @@ export function useCardSort(initialKey = 'name', initialDir = 'asc') {
       if (key === 'name') return cmpStrings(normalizeName(a.name), normalizeName(b.name), dir)
       if (key === 'cost') return cmpNumbers(a.cost, b.cost, dir)
       if (key === 'power') return cmpNumbers(a.power, b.power, dir)
+      if (key === 'price') return cmpNumbers(a.price, b.price, dir)
       return 0
     })
   }
@@ -66,6 +67,8 @@ export function useCardSort(initialKey = 'name', initialDir = 'asc') {
     { key: 'cost',  dir: 'desc', label: 'Costo',  icon: 'mdi-sort-numeric-descending' },
     { key: 'power', dir: 'asc',  label: 'Power',  icon: 'mdi-sort-numeric-ascending' },
     { key: 'power', dir: 'desc', label: 'Power',  icon: 'mdi-sort-numeric-descending' },
+    { key: 'price', dir: 'asc',  label: 'Prezzo',  icon: 'mdi-sort-numeric-ascending' },
+    { key: 'price', dir: 'desc', label: 'Prezzo',  icon: 'mdi-sort-numeric-descending' },
   ]
 
   return {

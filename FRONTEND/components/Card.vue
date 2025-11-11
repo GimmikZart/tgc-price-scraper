@@ -24,7 +24,7 @@ function openCard() { if (!props.disableOpening) emit("open", props.card); }
 </script>
 
 <template>
-  <div :key="card.id" class="h-auto flex flex-col" :class="cardClass">
+  <div :key="card.id" class="h-full flex flex-col" :class="cardClass">
     <!-- Skeleton -->
     <v-skeleton-loader
       v-if="!isLoaded"
@@ -32,14 +32,17 @@ function openCard() { if (!props.disableOpening) emit("open", props.card); }
       color="black"
       class="image-skeleton w-full overflow-hidden aspect-[63/88]"
     />
-
+    
     <!-- CARD NUMBER LABEL -->
     <div v-if="!handleCards && showCount" class="absolute top-0 right-1/2 translate-x-1/2 py-0 px-4 bg-black text-white text-xs rounded-b-lg">
       x {{ cardCount }}
     </div>
 
     <!-- Immagine -->
-    <div class="relative">
+    <div class="relative flex flex-col justify-end rounded-lg h-full" :class="{'bg-white/20 px-1' : showPrice}">
+      <div v-if="showPrice && isLoaded" class="text-xs text-center px-2 py-1">
+        {{ card.setName }}
+      </div>
       <NuxtImg
         v-show="card.image"
         :src="card.image"
@@ -54,18 +57,9 @@ function openCard() { if (!props.disableOpening) emit("open", props.card); }
         placeholder
       />
 
-      <div v-if="card.slugs && showPrice" class="absolute top-1/4 right-1 -translate-y-1/2 bg-yellow-300/90 p-0 w-fit">
-        <a 
-          v-for="(service, idx) in card.slugs" 
-          :key="idx" 
-          class="w-full px-4 text-black text-xs font-bold"
-          :href="service.url"
-          target="_blank"
-        >
-          {{ card.currentPrice ?? '---' }}€
-        </a>
-        <div class="w-[30px] h-[10px] absolute -top-1 left-1/2 -translate-x-1/2 bg-white opacity-70"></div>
-      </div>
+      <a v-if="showPrice && isLoaded" class="w-full px-4 block text-white text-center py-1 text-xs font-bold">
+        {{ card.price ?? '---' }} €
+      </a>
     </div>
     
 
@@ -84,7 +78,7 @@ function openCard() { if (!props.disableOpening) emit("open", props.card); }
     </div>
     
     <v-btn
-      v-if="chooseCard"
+      v-if="chooseCard && isLoaded"
       class="bg-gray-500"
       block
       variant="outlined"

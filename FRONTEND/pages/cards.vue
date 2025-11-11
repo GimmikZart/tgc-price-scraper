@@ -59,27 +59,11 @@ async function loadCountsForChunk(chunk) {
     if (card._countLoaded || card._pending) return
     try {
       const c = await fetchCardCountInCollection(userId, card.id)
-      console.log({currentPrice});
-      
       card.count = c
     } catch {
       card.count = card.count ?? 0
     }
     card._countLoaded = true
-  }))
-}
-
-async function loadPricesForChunk(chunk) {
-  await Promise.all(chunk.map(async (card) => {
-    if (card._priceLoaded || card._pending) return
-    try {
-      const currentPrice = await fetchCardPrice(card.id)
-      console.log({currentPrice});
-      card.currentPrice = currentPrice
-    } catch {
-      card.currentPrice = null
-    }
-    card._priceLoaded = true
   }))
 }
 
@@ -147,7 +131,7 @@ onMounted(async () => {
       :key="gridKey"
       :items="sortedCards"
       :grid-class="gridSystem"
-      :onChunk="[loadCountsForChunk, loadPricesForChunk]"
+      :onChunk="loadCountsForChunk"
       @update:visible="visibleCards = $event"
     >
       <template #default="{ item }">

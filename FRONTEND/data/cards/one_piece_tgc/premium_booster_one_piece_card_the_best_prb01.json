@@ -27,7 +27,14 @@
     "expansionCode": "EB01",
     "imageId": "EB01-006_r1",
     "id": "EB01-006_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "manga"
+    "illustration": "manga",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tony-tony-chopper-manga-panel-alternate-art-reprint-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Otama",
@@ -54,7 +61,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/otama-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Otama",
@@ -81,7 +95,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Otama",
@@ -276,7 +290,7 @@
     "expansionCode": "OP01",
     "imageId": "OP01-029_p3",
     "id": "OP01-029_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "textured-foil"
   },
   {
     "name": "Radical Beam!!",
@@ -330,7 +344,8 @@
     "id": "OP01-033_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
     "abilityKeywords": [
       "[On Play]"
-    ]
+    ],
+    "illustration": "jolly-roger-foil"
   },
   {
     "name": "Izo",
@@ -358,7 +373,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Izo",
@@ -470,7 +485,7 @@
     "expansionCode": "OP01",
     "imageId": "OP01-041_p4",
     "id": "OP01-041_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Kouzuki Momonosuke",
@@ -704,7 +719,7 @@
     "expansionCode": "OP01",
     "imageId": "OP01-052_p4",
     "id": "OP01-052_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Raizo",
@@ -1137,7 +1152,7 @@
     "expansionCode": "OP02",
     "imageId": "OP02-015_p4",
     "id": "OP02-015_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Makino",
@@ -1220,7 +1235,7 @@
     "expansionCode": "OP02",
     "imageId": "OP02-018_p5",
     "id": "OP02-018_p5_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Marco",
@@ -1330,7 +1345,7 @@
     "expansionCode": "OP02",
     "imageId": "OP02-089_p3",
     "id": "OP02-089_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "textured-foil"
   },
   {
     "name": "Judgment of Hell",
@@ -1548,7 +1563,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Tsuru",
@@ -1685,7 +1700,7 @@
     "expansionCode": "OP02",
     "imageId": "OP02-117_p6",
     "id": "OP02-117_p6_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "textured-foil"
   },
   {
     "name": "Ice Age",
@@ -1824,7 +1839,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Izo",
@@ -1936,7 +1951,7 @@
     "expansionCode": "OP03",
     "imageId": "OP03-055_p3",
     "id": "OP03-055_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "textured-foil"
   },
   {
     "name": "Gum-Gum Giant Gavel",
@@ -2018,7 +2033,7 @@
     "expansionCode": "OP03",
     "imageId": "OP03-056_p3",
     "id": "OP03-056_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "textured-foil"
   },
   {
     "name": "Sanji's Pilaf",
@@ -2128,7 +2143,7 @@
     "expansionCode": "OP03",
     "imageId": "OP03-057_p3",
     "id": "OP03-057_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "textured-foil"
   },
   {
     "name": "Three Thousand Worlds",
@@ -2240,7 +2255,7 @@
     "expansionCode": "OP03",
     "imageId": "OP03-060_p3",
     "id": "OP03-060_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Kalifa",
@@ -2324,7 +2339,7 @@
     "expansionCode": "OP03",
     "imageId": "OP03-079_p4",
     "id": "OP03-079_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Vergo",
@@ -2406,7 +2421,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Brannew",
@@ -2514,7 +2529,7 @@
     "expansionCode": "OP03",
     "imageId": "OP03-094_p3",
     "id": "OP03-094_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "textured-foil"
   },
   {
     "name": "Air Door",
@@ -2651,7 +2666,7 @@
     "expansionCode": "OP03",
     "imageId": "OP03-110_p4",
     "id": "OP03-110_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Charlotte Smoothie",
@@ -2813,7 +2828,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Shirahoshi",
@@ -2896,7 +2911,7 @@
     "expansionCode": "OP03",
     "imageId": "OP03-121_p4",
     "id": "OP03-121_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "textured-foil"
   },
   {
     "name": "Thunder Bolt",
@@ -3059,7 +3074,7 @@
     "expansionCode": "OP04",
     "imageId": "OP04-029_p3",
     "id": "OP04-029_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Dellinger",
@@ -3196,7 +3211,7 @@
     "expansionCode": "OP04",
     "imageId": "OP04-032_p3",
     "id": "OP04-032_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Baby 5",
@@ -3277,7 +3292,7 @@
     "expansionCode": "OP04",
     "imageId": "OP04-036_p3",
     "id": "OP04-036_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "textured-foil"
   },
   {
     "name": "Donquixote Family",
@@ -3414,7 +3429,7 @@
     "expansionCode": "OP04",
     "imageId": "OP04-056_p3",
     "id": "OP04-056_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "textured-foil"
   },
   {
     "name": "Gum-Gum Red Roc",
@@ -3553,7 +3568,7 @@
     "expansionCode": "OP04",
     "imageId": "OP04-089_p3",
     "id": "OP04-089_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Bartolomeo",
@@ -3665,7 +3680,7 @@
     "expansionCode": "OP04",
     "imageId": "OP04-095_p3",
     "id": "OP04-095_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "textured-foil"
   },
   {
     "name": "Barrier!!",
@@ -3741,7 +3756,7 @@
     "expansionCode": "OP04",
     "imageId": "OP04-100_p4",
     "id": "OP04-100_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Capone\"Gang\"Bege",
@@ -4059,7 +4074,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Nico Robin",
@@ -4140,7 +4155,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Belo Betty",
@@ -4248,7 +4263,7 @@
     "expansionCode": "OP05",
     "imageId": "OP05-034_p4",
     "id": "OP05-034_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Baby 5",
@@ -4410,7 +4425,7 @@
     "expansionCode": "OP05",
     "imageId": "OP05-057_p3",
     "id": "OP05-057_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "textured-foil"
   },
   {
     "name": "Hound Blaze",
@@ -4545,7 +4560,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Miss Doublefinger(Zala)",
@@ -4713,7 +4728,7 @@
     "expansionCode": "OP05",
     "imageId": "OP05-081_p3",
     "id": "OP05-081_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "One-Legged Toy Soldier",
@@ -4821,7 +4836,7 @@
     "expansionCode": "OP05",
     "imageId": "OP05-082_p3",
     "id": "OP05-082_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Shirahoshi",
@@ -4925,7 +4940,7 @@
     "expansionCode": "OP05",
     "imageId": "OP05-105_p3",
     "id": "OP05-105_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Satori",
@@ -5029,7 +5044,7 @@
     "expansionCode": "OP05",
     "imageId": "OP05-114_p3",
     "id": "OP05-114_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "textured-foil"
   },
   {
     "name": "El Thor",
@@ -5110,7 +5125,7 @@
     "expansionCode": "OP05",
     "imageId": "OP05-115_p3",
     "id": "OP05-115_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "textured-foil"
   },
   {
     "name": "Two-Hundred Million Volts Amaru",
@@ -5218,7 +5233,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "textured-foil"
   },
   {
     "name": "Upper Yard",
@@ -5472,7 +5487,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Emporio.Ivankov",
@@ -5557,7 +5572,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Arlong",
@@ -5731,7 +5746,7 @@
     "expansionCode": "OP06",
     "imageId": "OP06-036_p3",
     "id": "OP06-036_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Ryuma",
@@ -5845,7 +5860,7 @@
     "expansionCode": "OP06",
     "imageId": "OP06-038_p3",
     "id": "OP06-038_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "textured-foil"
   },
   {
     "name": "The Billion-fold World Trichiliocosm",
@@ -5927,7 +5942,7 @@
     "expansionCode": "OP06",
     "imageId": "OP06-056_p3",
     "id": "OP06-056_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "textured-foil"
   },
   {
     "name": "Ama no Murakumo Sword",
@@ -6010,7 +6025,7 @@
     "expansionCode": "OP06",
     "imageId": "OP06-060_p3",
     "id": "OP06-060_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Vinsmoke Ichiji",
@@ -6094,7 +6109,7 @@
     "expansionCode": "OP06",
     "imageId": "OP06-064_p3",
     "id": "OP06-064_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Vinsmoke Niji",
@@ -6178,7 +6193,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Vinsmoke Niji",
@@ -6290,7 +6305,7 @@
     "expansionCode": "OP06",
     "imageId": "OP06-066_p3",
     "id": "OP06-066_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Vinsmoke Yonji",
@@ -6374,7 +6389,7 @@
     "expansionCode": "OP06",
     "imageId": "OP06-067_p3",
     "id": "OP06-067_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Vinsmoke Yonji",
@@ -6486,7 +6501,7 @@
     "expansionCode": "OP06",
     "imageId": "OP06-068_p3",
     "id": "OP06-068_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Vinsmoke Reiju",
@@ -6624,7 +6639,7 @@
     "expansionCode": "OP06",
     "imageId": "OP06-079_p3",
     "id": "OP06-079_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "textured-foil"
   },
   {
     "name": "Kingdom of GERMA",
@@ -6788,7 +6803,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Victoria Cindry",
@@ -6875,7 +6890,7 @@
     "expansionCode": "OP06",
     "imageId": "OP06-100_p3",
     "id": "OP06-100_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Inuarashi",
@@ -7019,7 +7034,7 @@
     "expansionCode": "OP06",
     "imageId": "OP06-110_p4",
     "id": "OP06-110_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Nekomamushi",
@@ -7104,7 +7119,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Wyper",
@@ -7217,7 +7232,7 @@
     "expansionCode": "P",
     "imageId": "P-014_p3",
     "id": "P-014_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Koby",
@@ -7332,7 +7347,7 @@
     "expansionCode": "P",
     "imageId": "P-029_r2",
     "id": "P-029_r2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "full-art"
   },
   {
     "name": "Nami",
@@ -7386,7 +7401,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Nami",
@@ -7467,7 +7482,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -7609,7 +7624,7 @@
     "expansionCode": "ST01",
     "imageId": "ST01-006_p7",
     "id": "ST01-006_p7_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Tony Tony.Chopper",
@@ -7721,7 +7736,7 @@
     "expansionCode": "ST01",
     "imageId": "ST01-014_p3",
     "id": "ST01-014_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "textured-foil"
   },
   {
     "name": "Guard Point",
@@ -7805,7 +7820,7 @@
     "expansionCode": "ST02",
     "imageId": "ST02-004_p3",
     "id": "ST02-004_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Capone\"Gang\"Bege",
@@ -7917,7 +7932,7 @@
     "expansionCode": "ST03",
     "imageId": "ST03-005_p5",
     "id": "ST03-005_p5_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Dracule Mihawk",
@@ -8001,7 +8016,7 @@
     "expansionCode": "ST03",
     "imageId": "ST03-008_p7",
     "id": "ST03-008_p7_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Trafalgar Law",
@@ -8085,7 +8100,7 @@
     "expansionCode": "ST03",
     "imageId": "ST03-013_p3",
     "id": "ST03-013_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Boa Hancock",
@@ -8255,7 +8270,7 @@
     "expansionCode": "ST04",
     "imageId": "ST04-005_p4",
     "id": "ST04-005_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Queen",
@@ -8339,7 +8354,7 @@
     "expansionCode": "ST04",
     "imageId": "ST04-016_p3",
     "id": "ST04-016_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "textured-foil"
   },
   {
     "name": "Blast Breath",
@@ -8421,7 +8436,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Helmeppo",
@@ -8502,7 +8517,7 @@
     "expansionCode": "ST06",
     "imageId": "ST06-014_p3",
     "id": "ST06-014_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "textured-foil"
   },
   {
     "name": "Shockwave",
@@ -8583,7 +8598,7 @@
     "expansionCode": "ST07",
     "imageId": "ST07-007_p3",
     "id": "ST07-007_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Charlotte Brulee",
@@ -8664,7 +8679,7 @@
     "expansionCode": "ST09",
     "imageId": "ST09-014_p3",
     "id": "ST09-014_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "textured-foil"
   },
   {
     "name": "Narikabura Arrow",
@@ -8803,7 +8818,7 @@
     "expansionCode": "ST12",
     "imageId": "ST12-014_p3",
     "id": "ST12-014_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "full-art"
   },
   {
     "name": "Duval",

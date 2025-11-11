@@ -25,7 +25,7 @@
     "expansionCode": "EB01",
     "imageId": "EB01-009_p1",
     "id": "EB01-009_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Just Shut Up and Come with Us!!!!",
@@ -163,7 +163,7 @@
     "expansionCode": "EB01",
     "imageId": "EB01-018_p1",
     "id": "EB01-018_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Mountain God",
@@ -215,7 +215,7 @@
     "expansionCode": "EB01",
     "imageId": "EB01-038_p1",
     "id": "EB01-038_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Oh Come My Way",
@@ -405,7 +405,7 @@
     "expansionCode": "EB01",
     "imageId": "EB01-060_p1",
     "id": "EB01-060_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Did Someone Say...Kami?",
@@ -520,7 +520,7 @@
     "expansionCode": "OP01",
     "imageId": "OP01-039_p1",
     "id": "OP01-039_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Killer",
@@ -578,7 +578,7 @@
     "expansionCode": "OP01",
     "imageId": "OP01-055_p1",
     "id": "OP01-055_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "You Can Be My Samurai!!",
@@ -633,7 +633,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Curly.Dadan",
@@ -743,7 +743,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Buggy",
@@ -824,7 +824,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Nojiko",
@@ -1017,7 +1017,7 @@
     "expansionCode": "OP04",
     "imageId": "OP04-077_p1",
     "id": "OP04-077_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Ideo",
@@ -1097,7 +1097,7 @@
     "expansionCode": "OP04",
     "imageId": "OP04-096_p1",
     "id": "OP04-096_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Corrida Coliseum",
@@ -1149,7 +1149,7 @@
     "expansionCode": "OP05",
     "imageId": "OP05-004_p1",
     "id": "OP05-004_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Emporio.Ivankov",
@@ -1204,7 +1204,7 @@
     "expansionCode": "OP05",
     "imageId": "OP05-021_p1",
     "id": "OP05-021_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Revolutionary Army HQ",
@@ -1317,7 +1317,7 @@
     "expansionCode": "OP05",
     "imageId": "OP05-036_p2",
     "id": "OP05-036_p2_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Monet",
@@ -1399,7 +1399,7 @@
     "expansionCode": "OP05",
     "imageId": "OP05-052_p1",
     "id": "OP05-052_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Maynard",
@@ -1453,7 +1453,7 @@
     "expansionCode": "OP05",
     "imageId": "OP05-077_p1",
     "id": "OP05-077_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Gamma Knife",
@@ -1535,7 +1535,7 @@
     "expansionCode": "OP05",
     "imageId": "OP05-097_p1",
     "id": "OP05-097_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Mary Geoise",
@@ -1674,7 +1674,7 @@
     "expansionCode": "OP06",
     "imageId": "OP06-044_p1",
     "id": "OP06-044_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Gion",
@@ -1753,7 +1753,7 @@
     "expansionCode": "OP06",
     "imageId": "OP06-049_p1",
     "id": "OP06-049_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Sengoku",
@@ -1804,7 +1804,7 @@
     "expansionCode": "OP06",
     "imageId": "OP06-056_p4",
     "id": "OP06-056_p4_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Ama no Murakumo Sword",
@@ -1912,7 +1912,7 @@
     "expansionCode": "OP06",
     "imageId": "OP06-059_p1",
     "id": "OP06-059_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "White Snake",
@@ -1967,7 +1967,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Vinsmoke Sora",
@@ -2024,7 +2024,7 @@
     "expansionCode": "OP06",
     "imageId": "OP06-073_p1",
     "id": "OP06-073_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Shiki",
@@ -2083,7 +2083,7 @@
     "expansionCode": "OP06",
     "imageId": "OP06-076_p2",
     "id": "OP06-076_p2_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Hitokiri Kamazo",
@@ -2141,7 +2141,7 @@
     "expansionCode": "OP06",
     "imageId": "OP06-078_p1",
     "id": "OP06-078_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "GERMA 66",
@@ -2252,7 +2252,7 @@
     "expansionCode": "OP06",
     "imageId": "OP06-115_r1",
     "id": "OP06-115_r1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Roronoa Zoro",
@@ -2363,7 +2363,7 @@
     "expansionCode": "OP07",
     "imageId": "OP07-014_p1",
     "id": "OP07-014_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Moda",
@@ -2446,7 +2446,7 @@
     "expansionCode": "OP07",
     "imageId": "OP07-017_p1",
     "id": "OP07-017_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Dragon Breath",
@@ -2618,7 +2618,7 @@
     "expansionCode": "OP07",
     "imageId": "OP07-031_p1",
     "id": "OP07-031_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Bartolomeo",
@@ -2676,7 +2676,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Crocodile",
@@ -2760,7 +2760,7 @@
     "expansionCode": "OP07",
     "imageId": "OP07-056_p1",
     "id": "OP07-056_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Slave Arrow",
@@ -2842,7 +2842,7 @@
     "expansionCode": "OP07",
     "imageId": "OP07-076_p1",
     "id": "OP07-076_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Slow-Slow Beam Sword",
@@ -2951,7 +2951,7 @@
     "expansionCode": "OP07",
     "imageId": "OP07-114_p1",
     "id": "OP07-114_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "He Possesses the World's Most Brilliant Mind",
@@ -3146,7 +3146,7 @@
     "expansionCode": "OP08",
     "imageId": "OP08-076_p1",
     "id": "OP08-076_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "It's to Die For...",
@@ -3204,7 +3204,7 @@
     "expansionCode": "OP08",
     "imageId": "OP08-087_p1",
     "id": "OP08-087_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Scratchmen Apoo",
@@ -3260,7 +3260,7 @@
     "expansionCode": "OP08",
     "imageId": "OP08-099_p1",
     "id": "OP08-099_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Kalgara",
@@ -3451,7 +3451,7 @@
     "expansionCode": "OP09",
     "imageId": "OP09-014_p1",
     "id": "OP09-014_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Limejuice",
@@ -3535,7 +3535,7 @@
     "expansionCode": "OP09",
     "imageId": "OP09-020_r2",
     "id": "OP09-020_r2_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Sabo",
@@ -3564,7 +3564,7 @@
     "expansionCode": "OP09",
     "imageId": "OP09-027_p1",
     "id": "OP09-027_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Sabo",
@@ -3621,7 +3621,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Nico Robin",
@@ -3788,7 +3788,7 @@
     "expansionCode": "OP09",
     "imageId": "OP09-057_r2",
     "id": "OP09-057_r2_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Sanji",
@@ -3953,7 +3953,7 @@
     "expansionCode": "OP09",
     "imageId": "OP09-077_p1",
     "id": "OP09-077_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Gum-Gum Lightning",
@@ -4009,7 +4009,7 @@
     "expansionCode": "OP09",
     "imageId": "OP09-078_r1",
     "id": "OP09-078_r1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Gum-Gum Jump Rope",
@@ -4037,7 +4037,7 @@
     "expansionCode": "OP09",
     "imageId": "OP09-079_p1",
     "id": "OP09-079_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Gum-Gum Jump Rope",
@@ -4096,7 +4096,7 @@
     "expansionCode": "OP09",
     "imageId": "OP09-084_p1",
     "id": "OP09-084_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Catarina Devon",
@@ -4232,7 +4232,7 @@
     "expansionCode": "OP09",
     "imageId": "OP09-096_r1",
     "id": "OP09-096_r1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Black Vortex",
@@ -4259,7 +4259,7 @@
     "expansionCode": "OP09",
     "imageId": "OP09-097_p1",
     "id": "OP09-097_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Black Vortex",
@@ -4313,7 +4313,7 @@
     "expansionCode": "OP09",
     "imageId": "OP09-098_p1",
     "id": "OP09-098_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Black Hole",
@@ -4426,7 +4426,7 @@
     "expansionCode": "OP10",
     "imageId": "OP10-018_p2",
     "id": "OP10-018_p2_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Ten-Layer Igloo",
@@ -4534,7 +4534,7 @@
     "expansionCode": "OP10",
     "imageId": "OP10-079_p1",
     "id": "OP10-079_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "God Thread",
@@ -4646,7 +4646,7 @@
     "expansionCode": "OP10",
     "imageId": "OP10-105_p1",
     "id": "OP10-105_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Cavendish",
@@ -4700,7 +4700,7 @@
     "expansionCode": "OP10",
     "imageId": "OP10-108_p1",
     "id": "OP10-108_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Scratchmen Apoo",
@@ -4842,7 +4842,7 @@
     "expansionCode": "OP10",
     "imageId": "OP10-114_p1",
     "id": "OP10-114_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "X.Drake",
@@ -5090,7 +5090,7 @@
     "expansionCode": "P",
     "imageId": "P-068_p1",
     "id": "P-068_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Sanji",
@@ -5146,7 +5146,7 @@
     "expansionCode": "P",
     "imageId": "P-069_p3",
     "id": "P-069_p3_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Koala",
@@ -5201,7 +5201,7 @@
     "expansionCode": "P",
     "imageId": "P-070_p3",
     "id": "P-070_p3_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Carrot",
@@ -5419,7 +5419,7 @@
     "expansionCode": "P",
     "imageId": "P-078_p6",
     "id": "P-078_p6_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Adio",
@@ -5471,7 +5471,7 @@
     "expansionCode": "P",
     "imageId": "P-079_p3",
     "id": "P-079_p3_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Lim",
@@ -5526,7 +5526,7 @@
     "expansionCode": "P",
     "imageId": "P-081_p2",
     "id": "P-081_p2_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Dracule Mihawk",
@@ -5582,7 +5582,7 @@
     "expansionCode": "P",
     "imageId": "P-082_p2",
     "id": "P-082_p2_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Crocodile",
@@ -5640,7 +5640,7 @@
     "expansionCode": "P",
     "imageId": "P-083_p3",
     "id": "P-083_p3_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Shanks",
@@ -5697,7 +5697,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Jewelry Bonney",
@@ -5750,7 +5750,7 @@
     "expansionCode": "P",
     "imageId": "P-088_p3",
     "id": "P-088_p3_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Trafalgar Law",
@@ -6810,7 +6810,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Brook",
@@ -6865,7 +6865,7 @@
     "expansionCode": "ST02",
     "imageId": "ST02-007_p3",
     "id": "ST02-007_p3_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Jewelry Bonney",
@@ -6920,7 +6920,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Hina",
@@ -6976,7 +6976,7 @@
     "expansionCode": "ST10",
     "imageId": "ST10-005_p2",
     "id": "ST10-005_p2_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Jinbe",
@@ -7032,7 +7032,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Shachi & Penguin",
@@ -7084,7 +7084,7 @@
     "expansionCode": "ST12",
     "imageId": "ST12-005_p1",
     "id": "ST12-005_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Perona",
@@ -7136,7 +7136,7 @@
     "expansionCode": "ST12",
     "imageId": "ST12-017_p1",
     "id": "ST12-017_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Plastic Surgery Shot",
@@ -7191,7 +7191,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Edward.Newgate",
@@ -7246,7 +7246,7 @@
     "expansionCode": "ST13",
     "imageId": "ST13-007_p2",
     "id": "ST13-007_p2_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Sabo",
@@ -7300,7 +7300,7 @@
     "expansionCode": "ST13",
     "imageId": "ST13-010_p2",
     "id": "ST13-010_p2_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Portgas.D.Ace",
@@ -7354,7 +7354,7 @@
     "expansionCode": "ST13",
     "imageId": "ST13-014_p2",
     "id": "ST13-014_p2_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -7408,7 +7408,7 @@
     "expansionCode": "ST13",
     "imageId": "ST13-019_p1",
     "id": "ST13-019_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "The Three Brothers' Bond",
@@ -7463,7 +7463,7 @@
     "expansionCode": "ST14",
     "imageId": "ST14-007_p1",
     "id": "ST14-007_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Nico Robin",
@@ -7515,7 +7515,7 @@
     "expansionCode": "ST14",
     "imageId": "ST14-010_p1",
     "id": "ST14-010_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Brook",
@@ -7563,7 +7563,7 @@
     "expansionCode": "ST14",
     "imageId": "ST14-013_p1",
     "id": "ST14-013_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Roronoa Zoro",
@@ -7614,7 +7614,7 @@
     "expansionCode": "ST14",
     "imageId": "ST14-016_p1",
     "id": "ST14-016_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "I Have My Crew!!",
@@ -7668,7 +7668,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Thousand Sunny",
@@ -7778,7 +7778,7 @@
     "expansionCode": "ST16",
     "imageId": "ST16-003_p1",
     "id": "ST16-003_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Charlotte Katakuri",
@@ -7887,7 +7887,7 @@
     "expansionCode": "ST16",
     "imageId": "ST16-005_p1",
     "id": "ST16-005_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Monkey.D.Luffy",
@@ -7997,7 +7997,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Buggy",
@@ -8054,7 +8054,7 @@
     "expansionCode": "ST17",
     "imageId": "ST17-005_p1",
     "id": "ST17-005_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Marshall.D.Teach",
@@ -8110,7 +8110,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Uso-Hachi",
@@ -8192,7 +8192,7 @@
     "expansionCode": "ST18",
     "imageId": "ST18-002_p1",
     "id": "ST18-002_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "O-Nami",
@@ -8248,7 +8248,7 @@
     "expansionCode": "ST18",
     "imageId": "ST18-003_p2",
     "id": "ST18-003_p2_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "San-Gorou",
@@ -8303,7 +8303,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Sengoku",
@@ -8354,7 +8354,7 @@
     "expansionCode": "ST20",
     "imageId": "ST20-003_p1",
     "id": "ST20-003_p1_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Charlotte Brulee",
@@ -8406,7 +8406,7 @@
     "expansionCode": "ST21",
     "imageId": "ST21-003_p2",
     "id": "ST21-003_p2_ONE_PIECE_CARD_THE_BEST_vol2_[PRB-02]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "pirate-foil"
   },
   {
     "name": "Sanji",

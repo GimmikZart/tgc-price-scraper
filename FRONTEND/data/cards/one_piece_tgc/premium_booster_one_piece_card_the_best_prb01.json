@@ -95,7 +95,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/otama-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Otama",
@@ -122,7 +129,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/otama-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Otama",
@@ -149,7 +163,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/otama-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nami",
@@ -176,7 +197,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "manga"
+    "illustration": "manga",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nami-manga-panel-alternate-art-secret-rare-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -206,7 +234,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-024_p3",
     "id": "OP01-024_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -263,7 +298,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-029_p2",
     "id": "OP01-029_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/radical-beam-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Radical Beam!!",
@@ -290,7 +332,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-029_p3",
     "id": "OP01-029_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "textured-foil"
+    "illustration": "textured-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/radical-beam-textured-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Radical Beam!!",
@@ -345,7 +394,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/izo-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Izo",
@@ -373,7 +429,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/izo-full-art-prb-01-the-best-premium-booster-309959",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Izo",
@@ -401,7 +464,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/izo-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Izo",
@@ -457,7 +527,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-041_p3",
     "id": "OP01-041_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kouzuki-momonosuke-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kouzuki Momonosuke",
@@ -485,7 +562,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-041_p4",
     "id": "OP01-041_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kouzuki-momonosuke-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kouzuki Momonosuke",
@@ -513,7 +597,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-041_p5",
     "id": "OP01-041_p5_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kouzuki-momonosuke-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kouzuki Momonosuke",
@@ -541,7 +632,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-041_r1",
     "id": "OP01-041_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kouzuki-momonosuke-reprint-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -570,7 +668,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-047_p4",
     "id": "OP01-047_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/trafalgar-law-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -630,7 +735,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-051_p4",
     "id": "OP01-051_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/eustass-captain-kid-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -690,7 +802,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-052_p3",
     "id": "OP01-052_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/raizo-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Raizo",
@@ -719,7 +838,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-052_p4",
     "id": "OP01-052_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/raizo-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Raizo",
@@ -748,7 +874,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-052_r1",
     "id": "OP01-052_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/raizo-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Dracule Mihawk",
@@ -775,7 +908,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/dracule-mihawk-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Dracule Mihawk",
@@ -802,7 +942,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/dracule-mihawk-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Boa Hancock",
@@ -833,7 +980,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-078_p4",
     "id": "OP01-078_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/boa-hancock-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Boa Hancock",
@@ -864,7 +1018,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-078_r1",
     "id": "OP01-078_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/boa-hancock-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shanks",
@@ -894,7 +1055,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-120_p5",
     "id": "OP01-120_p5_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shanks-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shanks",
@@ -924,7 +1092,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-120_r1",
     "id": "OP01-120_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shanks-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shanks",
@@ -954,7 +1129,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-120_r2",
     "id": "OP01-120_r2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "manga"
+    "illustration": "manga",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shanks-manga-panel-alternate-art-reprint-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Yamato",
@@ -982,7 +1164,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-121_p4",
     "id": "OP01-121_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/yamato-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Yamato",
@@ -1010,7 +1199,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-121_r1",
     "id": "OP01-121_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/yamato-reprint-onepiece-stamp-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Edward.Newgate",
@@ -1040,7 +1236,14 @@
     "expansionCode": "OP02",
     "imageId": "OP02-004_p4",
     "id": "OP02-004_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/edward-newgate-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Edward.Newgate",
@@ -1070,7 +1273,14 @@
     "expansionCode": "OP02",
     "imageId": "OP02-004_r1",
     "id": "OP02-004_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/edward-newgate-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Portgas.D.Ace",
@@ -1098,7 +1308,14 @@
     "expansionCode": "OP02",
     "imageId": "OP02-013_r1",
     "id": "OP02-013_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "manga"
+    "illustration": "manga",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/portgas-d-ace-manga-panel-alternate-art-reprint-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Makino",
@@ -1125,7 +1342,14 @@
     "expansionCode": "OP02",
     "imageId": "OP02-015_p3",
     "id": "OP02-015_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/makino-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Makino",
@@ -1152,7 +1376,14 @@
     "expansionCode": "OP02",
     "imageId": "OP02-015_p4",
     "id": "OP02-015_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/makino-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Makino",
@@ -1207,7 +1438,14 @@
     "expansionCode": "OP02",
     "imageId": "OP02-018_p4",
     "id": "OP02-018_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/marco-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Marco",
@@ -1235,7 +1473,14 @@
     "expansionCode": "OP02",
     "imageId": "OP02-018_p5",
     "id": "OP02-018_p5_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/marco-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Marco",
@@ -1263,7 +1508,14 @@
     "expansionCode": "OP02",
     "imageId": "OP02-018_p6",
     "id": "OP02-018_p6_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/marco-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Marco",
@@ -1291,7 +1543,14 @@
     "expansionCode": "OP02",
     "imageId": "OP02-018_r2",
     "id": "OP02-018_r2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/marco-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Judgment of Hell",
@@ -1318,7 +1577,14 @@
     "expansionCode": "OP02",
     "imageId": "OP02-089_p2",
     "id": "OP02-089_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/judgment-of-hell-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Judgment of Hell",
@@ -1345,7 +1611,14 @@
     "expansionCode": "OP02",
     "imageId": "OP02-089_p3",
     "id": "OP02-089_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "textured-foil"
+    "illustration": "textured-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/judgment-of-hell-textured-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Judgment of Hell",
@@ -1372,7 +1645,14 @@
     "expansionCode": "OP02",
     "imageId": "OP02-089_p4",
     "id": "OP02-089_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/judgment-of-hell-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Judgment of Hell",
@@ -1427,7 +1707,14 @@
     "expansionCode": "OP02",
     "imageId": "OP02-096_p3",
     "id": "OP02-096_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kuzan-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kuzan",
@@ -1455,7 +1742,14 @@
     "expansionCode": "OP02",
     "imageId": "OP02-096_r1",
     "id": "OP02-096_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kuzan-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster-312125",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sakazuki",
@@ -1482,7 +1776,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sakazuki-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sakazuki",
@@ -1509,7 +1810,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sakazuki-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Tsuru",
@@ -1536,7 +1844,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tsuru-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Tsuru",
@@ -1563,7 +1878,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tsuru-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Tsuru",
@@ -1590,7 +1912,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tsuru-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Borsalino",
@@ -1618,7 +1947,14 @@
     "expansionCode": "OP02",
     "imageId": "OP02-114_p3",
     "id": "OP02-114_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/borsalino-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Borsalino",
@@ -1646,7 +1982,14 @@
     "expansionCode": "OP02",
     "imageId": "OP02-114_r1",
     "id": "OP02-114_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/borsalino-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Ice Age",
@@ -1673,7 +2016,14 @@
     "expansionCode": "OP02",
     "imageId": "OP02-117_p5",
     "id": "OP02-117_p5_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ice-age-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Ice Age",
@@ -1700,7 +2050,14 @@
     "expansionCode": "OP02",
     "imageId": "OP02-117_p6",
     "id": "OP02-117_p6_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "textured-foil"
+    "illustration": "textured-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ice-age-textured-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Ice Age",
@@ -1755,7 +2112,14 @@
     "expansionCode": "OP02",
     "imageId": "OP02-121_p3",
     "id": "OP02-121_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kuzan-alternate-art-prb-01-the-best-premium-booster-308956",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kuzan",
@@ -1783,7 +2147,14 @@
     "expansionCode": "OP02",
     "imageId": "OP02-121_r1",
     "id": "OP02-121_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kuzan-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Izo",
@@ -1811,7 +2182,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/izo-jolly-roger-foil-prb-01-the-best-premium-booster-306557",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Izo",
@@ -1839,7 +2217,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/izo-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Izo",
@@ -1867,7 +2252,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/izo-alternate-art-prb-01-the-best-premium-booster-306558",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Izo",
@@ -1895,7 +2287,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/izo-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gum-Gum Giant Gavel",
@@ -1923,7 +2322,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-055_p2",
     "id": "OP03-055_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gum-gum-giant-gavel-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gum-Gum Giant Gavel",
@@ -1951,7 +2357,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-055_p3",
     "id": "OP03-055_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "textured-foil"
+    "illustration": "textured-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gum-gum-giant-gavel-textured-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gum-Gum Giant Gavel",
@@ -2006,7 +2419,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-056_p2",
     "id": "OP03-056_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-s-pilaf-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sanji's Pilaf",
@@ -2033,7 +2453,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-056_p3",
     "id": "OP03-056_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "textured-foil"
+    "illustration": "textured-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-s-pilaf-textured-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sanji's Pilaf",
@@ -2060,7 +2487,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-056_p4",
     "id": "OP03-056_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-s-pilaf-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sanji's Pilaf",
@@ -2115,7 +2549,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-057_p2",
     "id": "OP03-057_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/three-thousand-worlds-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Three Thousand Worlds",
@@ -2143,7 +2584,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-057_p3",
     "id": "OP03-057_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "textured-foil"
+    "illustration": "textured-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/three-thousand-worlds-textured-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Three Thousand Worlds",
@@ -2171,7 +2619,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-057_p4",
     "id": "OP03-057_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/three-thousand-worlds-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Three Thousand Worlds",
@@ -2227,7 +2682,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-060_p2",
     "id": "OP03-060_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kalifa-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kalifa",
@@ -2255,7 +2717,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-060_p3",
     "id": "OP03-060_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kalifa-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kalifa",
@@ -2283,7 +2752,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-060_r1",
     "id": "OP03-060_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kalifa-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vergo",
@@ -2311,7 +2787,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-079_p3",
     "id": "OP03-079_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vergo-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vergo",
@@ -2339,7 +2822,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-079_p4",
     "id": "OP03-079_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vergo-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vergo",
@@ -2367,7 +2857,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-079_r2",
     "id": "OP03-079_r2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vergo-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Brannew",
@@ -2394,7 +2891,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/brannew-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Brannew",
@@ -2421,7 +2925,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/brannew-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Brannew",
@@ -2448,7 +2959,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/brannew-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Brannew",
@@ -2475,7 +2993,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/brannew-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Air Door",
@@ -2502,7 +3027,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-094_p2",
     "id": "OP03-094_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/air-door-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Air Door",
@@ -2529,7 +3061,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-094_p3",
     "id": "OP03-094_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "textured-foil"
+    "illustration": "textured-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/air-door-textured-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Air Door",
@@ -2584,7 +3123,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-108_p3",
     "id": "OP03-108_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-cracker-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Charlotte Cracker",
@@ -2612,7 +3158,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-108_r1",
     "id": "OP03-108_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-cracker-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Charlotte Smoothie",
@@ -2639,7 +3192,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-110_p3",
     "id": "OP03-110_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-smoothie-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Charlotte Smoothie",
@@ -2666,7 +3226,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-110_p4",
     "id": "OP03-110_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-smoothie-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Charlotte Smoothie",
@@ -2693,7 +3260,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-110_p5",
     "id": "OP03-110_p5_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-smoothie-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Charlotte Smoothie",
@@ -2720,7 +3294,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-110_r2",
     "id": "OP03-110_r2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-smoothie-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Charlotte Perospero",
@@ -2747,7 +3328,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-113_p3",
     "id": "OP03-113_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-perospero-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Charlotte Perospero",
@@ -2774,7 +3362,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-113_r1",
     "id": "OP03-113_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-perospero-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shirahoshi",
@@ -2801,7 +3396,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shirahoshi-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shirahoshi",
@@ -2828,7 +3430,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shirahoshi-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shirahoshi",
@@ -2855,7 +3464,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shirahoshi-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Thunder Bolt",
@@ -2883,7 +3499,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-121_p3",
     "id": "OP03-121_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/thunder-bolt-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Thunder Bolt",
@@ -2911,7 +3534,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-121_p4",
     "id": "OP03-121_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "textured-foil"
+    "illustration": "textured-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/thunder-bolt-textured-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Thunder Bolt",
@@ -2966,7 +3596,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "manga"
+    "illustration": "manga",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sogeking-manga-panel-alternate-art-reprint-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Charlotte Katakuri",
@@ -2993,7 +3630,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-katakuri-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Charlotte Katakuri",
@@ -3020,7 +3664,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-katakuri-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Dellinger",
@@ -3047,7 +3698,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-029_p2",
     "id": "OP04-029_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/dellinger-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Dellinger",
@@ -3074,7 +3732,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-029_p3",
     "id": "OP04-029_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/dellinger-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Dellinger",
@@ -3101,7 +3766,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-029_r1",
     "id": "OP04-029_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/dellinger-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Donquixote Doflamingo",
@@ -3129,7 +3801,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/donquixote-doflamingo-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Donquixote Doflamingo",
@@ -3157,7 +3836,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/donquixote-doflamingo-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Baby 5",
@@ -3184,7 +3870,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-032_p2",
     "id": "OP04-032_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/baby-5-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Baby 5",
@@ -3211,7 +3904,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-032_p3",
     "id": "OP04-032_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/baby-5-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Baby 5",
@@ -3238,7 +3938,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-032_r1",
     "id": "OP04-032_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/baby-5-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Donquixote Family",
@@ -3265,7 +3972,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-036_p2",
     "id": "OP04-036_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/donquixote-family-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Donquixote Family",
@@ -3292,7 +4006,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-036_p3",
     "id": "OP04-036_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "textured-foil"
+    "illustration": "textured-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/donquixote-family-textured-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Donquixote Family",
@@ -3347,7 +4068,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kaido-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kaido",
@@ -3375,7 +4103,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kaido-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gum-Gum Red Roc",
@@ -3402,7 +4137,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-056_p2",
     "id": "OP04-056_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gum-gum-red-roc-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gum-Gum Red Roc",
@@ -3429,7 +4171,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-056_p3",
     "id": "OP04-056_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "textured-foil"
+    "illustration": "textured-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gum-gum-red-roc-textured-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gum-Gum Red Roc",
@@ -3456,7 +4205,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-056_p4",
     "id": "OP04-056_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gum-gum-red-roc-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gum-Gum Red Roc",
@@ -3512,7 +4268,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-083_r1",
     "id": "OP04-083_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "manga"
+    "illustration": "manga",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sabo-manga-panel-alternate-art-reprint-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Bartolomeo",
@@ -3540,7 +4303,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-089_p2",
     "id": "OP04-089_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/bartolomeo-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Bartolomeo",
@@ -3568,7 +4338,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-089_p3",
     "id": "OP04-089_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/bartolomeo-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Bartolomeo",
@@ -3596,7 +4373,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-089_p4",
     "id": "OP04-089_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/bartolomeo-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Bartolomeo",
@@ -3624,7 +4408,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-089_r1",
     "id": "OP04-089_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/bartolomeo-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Barrier!!",
@@ -3652,7 +4443,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-095_p2",
     "id": "OP04-095_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/barrier-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Barrier!!",
@@ -3680,7 +4478,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-095_p3",
     "id": "OP04-095_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "textured-foil"
+    "illustration": "textured-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/barrier-textured-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Barrier!!",
@@ -3732,7 +4537,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-100_p3",
     "id": "OP04-100_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/capone-gang-bege-jolly-roger-foil-prb-01-the-best-premium-booster-306516",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Capone\"Gang\"Bege",
@@ -3756,7 +4568,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-100_p4",
     "id": "OP04-100_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/capone-gang-bege-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Capone\"Gang\"Bege",
@@ -3780,7 +4599,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-100_p5",
     "id": "OP04-100_p5_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/capone-gang-bege-alternate-art-prb-01-the-best-premium-booster-306517",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Capone\"Gang\"Bege",
@@ -3804,7 +4630,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-100_r1",
     "id": "OP04-100_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/capone-gang-bege-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -3831,7 +4664,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-104_p3",
     "id": "OP04-104_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-alternate-art-prb-01-the-best-premium-booster-306613",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -3858,7 +4698,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-104_r1",
     "id": "OP04-104_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Yamato",
@@ -3885,7 +4732,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/yamato-alternate-art-prb-01-the-best-premium-booster-306595",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Yamato",
@@ -3912,7 +4766,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/yamato-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Koala",
@@ -3939,7 +4800,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/koala-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Koala",
@@ -3966,7 +4834,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/koala-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sabo",
@@ -3993,7 +4868,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sabo-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sabo",
@@ -4020,7 +4902,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sabo-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nico Robin",
@@ -4047,7 +4936,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nico-robin-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nico Robin",
@@ -4074,7 +4970,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nico-robin-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nico Robin",
@@ -4101,7 +5004,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nico-robin-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Belo Betty",
@@ -4128,7 +5038,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/belo-betty-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Belo Betty",
@@ -4155,7 +5072,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/belo-betty-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Belo Betty",
@@ -4182,7 +5106,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/belo-betty-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Belo Betty",
@@ -4209,7 +5140,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/belo-betty-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Baby 5",
@@ -4236,7 +5174,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-034_p3",
     "id": "OP05-034_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/baby-5-jolly-roger-foil-prb-01-the-best-premium-booster-306527",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Baby 5",
@@ -4290,7 +5235,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-034_p5",
     "id": "OP05-034_p5_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/baby-5-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Baby 5",
@@ -4317,7 +5269,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-034_r1",
     "id": "OP05-034_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/baby-5-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster-310315",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Ulti",
@@ -4344,7 +5303,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ulti-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Ulti",
@@ -4371,7 +5337,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ulti-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Hound Blaze",
@@ -4398,7 +5371,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-057_p2",
     "id": "OP05-057_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hound-blaze-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Hound Blaze",
@@ -4425,7 +5405,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-057_p3",
     "id": "OP05-057_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "textured-foil"
+    "illustration": "textured-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hound-blaze-textured-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Hound Blaze",
@@ -4452,7 +5439,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-057_p4",
     "id": "OP05-057_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hound-blaze-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Hound Blaze",
@@ -4506,7 +5500,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-069_r1",
     "id": "OP05-069_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "manga"
+    "illustration": "manga",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/trafalgar-law-manga-panel-alternate-art-reprint-lighter-colors-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Miss Doublefinger(Zala)",
@@ -4533,7 +5534,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/miss-doublefinger-zala-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Miss Doublefinger(Zala)",
@@ -4560,7 +5568,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/miss-doublefinger-zala-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Miss Doublefinger(Zala)",
@@ -4587,7 +5602,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/miss-doublefinger-zala-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -4616,7 +5638,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-074_p5",
     "id": "OP05-074_p5_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/eustass-captain-kid-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -4645,7 +5674,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-074_r1",
     "id": "OP05-074_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/eustass-captain-kid-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -4674,7 +5710,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-074_r2",
     "id": "OP05-074_r2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "manga"
+    "illustration": "manga",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/eustass-captain-kid-manga-panel-alternate-art-reprint-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "One-Legged Toy Soldier",
@@ -4701,7 +5744,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-081_p2",
     "id": "OP05-081_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/one-legged-toy-soldier-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "One-Legged Toy Soldier",
@@ -4728,7 +5778,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-081_p3",
     "id": "OP05-081_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/one-legged-toy-soldier-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "One-Legged Toy Soldier",
@@ -4755,7 +5812,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-081_p4",
     "id": "OP05-081_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/one-legged-toy-soldier-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "One-Legged Toy Soldier",
@@ -4782,7 +5846,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-081_r1",
     "id": "OP05-081_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/one-legged-toy-soldier-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shirahoshi",
@@ -4809,7 +5880,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-082_p2",
     "id": "OP05-082_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shirahoshi-jolly-roger-foil-prb-01-the-best-premium-booster-306598",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shirahoshi",
@@ -4836,7 +5914,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-082_p3",
     "id": "OP05-082_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shirahoshi-full-art-prb-01-the-best-premium-booster-306597",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shirahoshi",
@@ -4863,7 +5948,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-082_p4",
     "id": "OP05-082_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shirahoshi-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shirahoshi",
@@ -4890,7 +5982,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-082_r1",
     "id": "OP05-082_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shirahoshi-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Satori",
@@ -4915,7 +6014,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-105_p2",
     "id": "OP05-105_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/satori-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Satori",
@@ -4940,7 +6046,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-105_p3",
     "id": "OP05-105_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/satori-copy-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Satori",
@@ -4965,7 +6078,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-105_p4",
     "id": "OP05-105_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/satori-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Satori",
@@ -4990,7 +6110,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-105_r1",
     "id": "OP05-105_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/satori-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "El Thor",
@@ -5017,7 +6144,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-114_p2",
     "id": "OP05-114_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/el-thor-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "El Thor",
@@ -5044,7 +6178,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-114_p3",
     "id": "OP05-114_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "textured-foil"
+    "illustration": "textured-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/el-thor-textured-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "El Thor",
@@ -5098,7 +6239,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-115_p2",
     "id": "OP05-115_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/two-hundred-million-volts-amaru-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Two-Hundred Million Volts Amaru",
@@ -5125,7 +6273,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-115_p3",
     "id": "OP05-115_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "textured-foil"
+    "illustration": "textured-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/two-hundred-million-volts-amaru-textured-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Two-Hundred Million Volts Amaru",
@@ -5152,7 +6307,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-115_p4",
     "id": "OP05-115_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "manga"
+    "illustration": "manga",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/two-hundred-million-volts-amaru-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Two-Hundred Million Volts Amaru",
@@ -5206,7 +6368,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/upper-yard-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Upper Yard",
@@ -5233,7 +6402,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "textured-foil"
+    "illustration": "textured-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/upper-yard-textured-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Upper Yard",
@@ -5260,7 +6436,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/upper-yard-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Upper Yard",
@@ -5315,7 +6498,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kaido-alternate-art-prb-01-the-best-premium-booster-310600",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kaido",
@@ -5343,7 +6533,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kaido-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster-310597",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -5373,7 +6570,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-119_p4",
     "id": "OP05-119_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -5403,7 +6607,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-119_r1",
     "id": "OP05-119_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -5433,7 +6644,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-119_r2",
     "id": "OP05-119_r2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "manga"
+    "illustration": "manga",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-manga-panel-alternate-art-reprint-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Emporio.Ivankov",
@@ -5460,7 +6678,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/emporio-ivankov-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Emporio.Ivankov",
@@ -5487,7 +6712,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/emporio-ivankov-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Emporio.Ivankov",
@@ -5543,7 +6775,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/arlong-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Arlong",
@@ -5572,7 +6811,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/arlong-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Arlong",
@@ -5601,7 +6847,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/arlong-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Arlong",
@@ -5659,7 +6912,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-035_p3",
     "id": "OP06-035_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/hody-jones-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Hody Jones",
@@ -5717,7 +6977,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-036_p2",
     "id": "OP06-036_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ryuma-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Ryuma",
@@ -5746,7 +7013,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-036_p3",
     "id": "OP06-036_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ryuma-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Ryuma",
@@ -5775,7 +7049,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-036_p4",
     "id": "OP06-036_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ryuma-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Ryuma",
@@ -5832,7 +7113,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-038_p2",
     "id": "OP06-038_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/the-billion-fold-world-trichiliocosm-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "The Billion-fold World Trichiliocosm",
@@ -5860,7 +7148,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-038_p3",
     "id": "OP06-038_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "textured-foil"
+    "illustration": "textured-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/the-billion-fold-world-trichiliocosm-textured-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "The Billion-fold World Trichiliocosm",
@@ -5915,7 +7210,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-056_p2",
     "id": "OP06-056_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ama-no-murakumo-sword-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Ama no Murakumo Sword",
@@ -5942,7 +7244,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-056_p3",
     "id": "OP06-056_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "textured-foil"
+    "illustration": "textured-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/ama-no-murakumo-sword-textured-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Ama no Murakumo Sword",
@@ -5997,7 +7306,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-060_p2",
     "id": "OP06-060_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-ichiji-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vinsmoke Ichiji",
@@ -6025,7 +7341,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-060_p3",
     "id": "OP06-060_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-ichiji-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vinsmoke Ichiji",
@@ -6081,7 +7404,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-064_p2",
     "id": "OP06-064_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-niji-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vinsmoke Niji",
@@ -6109,7 +7439,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-064_p3",
     "id": "OP06-064_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-niji-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vinsmoke Niji",
@@ -6165,7 +7502,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-niji-jolly-roger-foil-prb-01-the-best-premium-booster-306584",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vinsmoke Niji",
@@ -6193,7 +7537,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-niji-full-art-prb-01-the-best-premium-booster-306581",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vinsmoke Niji",
@@ -6221,7 +7572,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-niji-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vinsmoke Niji",
@@ -6277,7 +7635,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-066_p2",
     "id": "OP06-066_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-yonji-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vinsmoke Yonji",
@@ -6305,7 +7670,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-066_p3",
     "id": "OP06-066_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-yonji-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vinsmoke Yonji",
@@ -6361,7 +7733,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-067_p2",
     "id": "OP06-067_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-yonji-jolly-roger-foil-prb-01-the-best-premium-booster-306579",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vinsmoke Yonji",
@@ -6389,7 +7768,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-067_p3",
     "id": "OP06-067_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-yonji-full-art-prb-01-the-best-premium-booster-310685",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vinsmoke Yonji",
@@ -6417,7 +7803,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-067_p4",
     "id": "OP06-067_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-yonji-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vinsmoke Yonji",
@@ -6473,7 +7866,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-068_p2",
     "id": "OP06-068_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-reiju-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vinsmoke Reiju",
@@ -6501,7 +7901,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-068_p3",
     "id": "OP06-068_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-reiju-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vinsmoke Reiju",
@@ -6557,7 +7964,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/vinsmoke-reiju-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Vinsmoke Reiju",
@@ -6612,7 +8026,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-079_p2",
     "id": "OP06-079_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kingdom-of-germa-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kingdom of GERMA",
@@ -6639,7 +8060,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-079_p3",
     "id": "OP06-079_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "textured-foil"
+    "illustration": "textured-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kingdom-of-germa-textured-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kingdom of GERMA",
@@ -6666,7 +8094,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-079_p4",
     "id": "OP06-079_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kingdom-of-germa-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kingdom of GERMA",
@@ -6721,7 +8156,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gecko-moria-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Gecko Moria",
@@ -6776,7 +8218,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/victoria-cindry-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Victoria Cindry",
@@ -6803,7 +8252,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/victoria-cindry-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Victoria Cindry",
@@ -6860,7 +8316,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-100_p2",
     "id": "OP06-100_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/inuarashi-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Inuarashi",
@@ -6890,7 +8353,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-100_p3",
     "id": "OP06-100_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/inuarashi-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Inuarashi",
@@ -6948,7 +8418,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kouzuki-hiyori-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kouzuki Hiyori",
@@ -7005,7 +8482,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-110_p3",
     "id": "OP06-110_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nekomamushi-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nekomamushi",
@@ -7034,7 +8518,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-110_p4",
     "id": "OP06-110_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nekomamushi-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nekomamushi",
@@ -7091,7 +8582,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/wyper-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Wyper",
@@ -7119,7 +8617,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/wyper-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Wyper",
@@ -7176,7 +8681,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-118_r1",
     "id": "OP06-118_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "manga"
+    "illustration": "manga",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/roronoa-zoro-manga-panel-alternate-art-reprint-less-saturated-colors-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Koby",
@@ -7204,7 +8716,14 @@
     "expansionCode": "P",
     "imageId": "P-014_p2",
     "id": "P-014_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/koby-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Koby",
@@ -7232,7 +8751,14 @@
     "expansionCode": "P",
     "imageId": "P-014_p3",
     "id": "P-014_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/koby-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Koby",
@@ -7260,7 +8786,14 @@
     "expansionCode": "P",
     "imageId": "P-014_r1",
     "id": "P-014_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/koby-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Bartolomeo",
@@ -7289,7 +8822,14 @@
     "expansionCode": "P",
     "imageId": "P-029_p3",
     "id": "P-029_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/bartolomeo-jolly-roger-foil-prb-01-the-best-premium-booster-306523",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Bartolomeo",
@@ -7318,7 +8858,14 @@
     "expansionCode": "P",
     "imageId": "P-029_p4",
     "id": "P-029_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/bartolomeo-full-art-prb-01-the-best-premium-booster-310337",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Bartolomeo",
@@ -7347,7 +8894,14 @@
     "expansionCode": "P",
     "imageId": "P-029_r2",
     "id": "P-029_r2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/bartolomeo-full-art-prb-01-the-best-premium-booster-310337",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nami",
@@ -7374,7 +8928,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nami-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nami",
@@ -7401,7 +8962,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nami-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nami",
@@ -7455,7 +9023,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -7482,7 +9057,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -7538,7 +9120,14 @@
     ],
     "expansionCode": "PRB01",
     "imageId": "PRB01-001",
-    "id": "PRB01-001_ONE_PIECE_CARD_THE_BEST_[PRB-01]"
+    "id": "PRB01-001_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -7568,7 +9157,14 @@
     "expansionCode": "PRB01",
     "imageId": "PRB01-001_p1",
     "id": "PRB01-001_p1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Tony Tony.Chopper",
@@ -7596,7 +9192,14 @@
     "expansionCode": "ST01",
     "imageId": "ST01-006_p6",
     "id": "ST01-006_p6_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tony-tony-chopper-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Tony Tony.Chopper",
@@ -7624,7 +9227,14 @@
     "expansionCode": "ST01",
     "imageId": "ST01-006_p7",
     "id": "ST01-006_p7_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tony-tony-chopper-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Tony Tony.Chopper",
@@ -7652,7 +9262,14 @@
     "expansionCode": "ST01",
     "imageId": "ST01-006_p8",
     "id": "ST01-006_p8_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tony-tony-chopper-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Tony Tony.Chopper",
@@ -7708,7 +9325,14 @@
     "expansionCode": "ST01",
     "imageId": "ST01-014_p2",
     "id": "ST01-014_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/guard-point-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Guard Point",
@@ -7736,7 +9360,14 @@
     "expansionCode": "ST01",
     "imageId": "ST01-014_p3",
     "id": "ST01-014_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "textured-foil"
+    "illustration": "textured-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/guard-point-textured-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Guard Point",
@@ -7792,7 +9423,14 @@
     "expansionCode": "ST02",
     "imageId": "ST02-004_p2",
     "id": "ST02-004_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/capone-gang-bege-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Capone\"Gang\"Bege",
@@ -7820,7 +9458,14 @@
     "expansionCode": "ST02",
     "imageId": "ST02-004_p3",
     "id": "ST02-004_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/capone-gang-bege-full-art-prb-01-the-best-premium-booster-310356",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Capone\"Gang\"Bege",
@@ -7848,7 +9493,14 @@
     "expansionCode": "ST02",
     "imageId": "ST02-004_p4",
     "id": "ST02-004_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/capone-gang-bege-alternate-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Capone\"Gang\"Bege",
@@ -7904,7 +9556,14 @@
     "expansionCode": "ST03",
     "imageId": "ST03-005_p4",
     "id": "ST03-005_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/dracule-mihawk-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Dracule Mihawk",
@@ -7932,7 +9591,14 @@
     "expansionCode": "ST03",
     "imageId": "ST03-005_p5",
     "id": "ST03-005_p5_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/dracule-mihawk-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Dracule Mihawk",
@@ -7988,7 +9654,14 @@
     "expansionCode": "ST03",
     "imageId": "ST03-008_p6",
     "id": "ST03-008_p6_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/trafalgar-law-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -8016,7 +9689,14 @@
     "expansionCode": "ST03",
     "imageId": "ST03-008_p7",
     "id": "ST03-008_p7_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/trafalgar-law-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -8072,7 +9752,14 @@
     "expansionCode": "ST03",
     "imageId": "ST03-013_p2",
     "id": "ST03-013_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/boa-hancock-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Boa Hancock",
@@ -8100,7 +9787,14 @@
     "expansionCode": "ST03",
     "imageId": "ST03-013_p3",
     "id": "ST03-013_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/boa-hancock-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Boa Hancock",
@@ -8128,7 +9822,14 @@
     "expansionCode": "ST03",
     "imageId": "ST03-013_p4",
     "id": "ST03-013_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/boa-hancock-alternate-art-prb-01-the-best-premium-booster-310348",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Boa Hancock",
@@ -8185,7 +9886,14 @@
     "expansionCode": "ST04",
     "imageId": "ST04-003_p4",
     "id": "ST04-003_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kaido-alternate-art-prb-01-the-best-premium-booster-306555",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kaido",
@@ -8242,7 +9950,14 @@
     "expansionCode": "ST04",
     "imageId": "ST04-005_p3",
     "id": "ST04-005_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/queen-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Queen",
@@ -8270,7 +9985,14 @@
     "expansionCode": "ST04",
     "imageId": "ST04-005_p4",
     "id": "ST04-005_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/queen-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Queen",
@@ -8326,7 +10048,14 @@
     "expansionCode": "ST04",
     "imageId": "ST04-016_p2",
     "id": "ST04-016_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/blast-breath-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Blast Breath",
@@ -8354,7 +10083,14 @@
     "expansionCode": "ST04",
     "imageId": "ST04-016_p3",
     "id": "ST04-016_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "textured-foil"
+    "illustration": "textured-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/blast-breath-textured-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Blast Breath",
@@ -8409,7 +10145,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/helmeppo-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Helmeppo",
@@ -8436,7 +10179,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/helmeppo-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Helmeppo",
@@ -8463,7 +10213,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/helmeppo-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shockwave",
@@ -8490,7 +10247,14 @@
     "expansionCode": "ST06",
     "imageId": "ST06-014_p2",
     "id": "ST06-014_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shockwave-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shockwave",
@@ -8517,7 +10281,14 @@
     "expansionCode": "ST06",
     "imageId": "ST06-014_p3",
     "id": "ST06-014_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "textured-foil"
+    "illustration": "textured-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shockwave-textured-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shockwave",
@@ -8571,7 +10342,14 @@
     "expansionCode": "ST07",
     "imageId": "ST07-007_p2",
     "id": "ST07-007_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-brulee-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Charlotte Brulee",
@@ -8598,7 +10376,14 @@
     "expansionCode": "ST07",
     "imageId": "ST07-007_p3",
     "id": "ST07-007_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-brulee-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Charlotte Brulee",
@@ -8652,7 +10437,14 @@
     "expansionCode": "ST09",
     "imageId": "ST09-014_p2",
     "id": "ST09-014_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/narikabura-arrow-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Narikabura Arrow",
@@ -8679,7 +10471,14 @@
     "expansionCode": "ST09",
     "imageId": "ST09-014_p3",
     "id": "ST09-014_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "textured-foil"
+    "illustration": "textured-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/narikabura-arrow-textured-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Narikabura Arrow",
@@ -8734,7 +10533,14 @@
     "expansionCode": "ST10",
     "imageId": "ST10-010_p4",
     "id": "ST10-010_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "alternate-art"
+    "illustration": "alternate-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/trafalgar-law-alternate-art-prb-01-the-best-premium-booster-306587",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -8762,7 +10568,14 @@
     "expansionCode": "ST10",
     "imageId": "ST10-010_r1",
     "id": "ST10-010_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name"
+    "illustration": "reprint-missing-pen-symbol-next-to-the-artist-name",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/trafalgar-law-reprint-missing-pen-symbol-next-to-the-artist-name-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Duval",
@@ -8790,7 +10603,14 @@
     "expansionCode": "ST12",
     "imageId": "ST12-014_p2",
     "id": "ST12-014_p2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "jolly-roger-foil"
+    "illustration": "jolly-roger-foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/duval-jolly-roger-foil-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Duval",
@@ -8818,7 +10638,14 @@
     "expansionCode": "ST12",
     "imageId": "ST12-014_p3",
     "id": "ST12-014_p3_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "full-art"
+    "illustration": "full-art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/duval-full-art-prb-01-the-best-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Duval",

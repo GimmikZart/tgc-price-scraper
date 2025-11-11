@@ -50,6 +50,8 @@ function normalizeSetCode(code) {
 // estrae il codice tra [] e lo mette davanti (normalizzato)
 function formatSetName(setName) {
   if (!setName) return ''
+  if(setName == 'ONE PIECE CARD THE BEST [PRB-01]') return 'prb-01-the-best-premium-booster'
+  if(setName == 'ONE PIECE CARD THE BEST vol.2 [PRB-02]') return 'prb-02-the-best-2-premium-booster'
   const match = setName.match(/\[([^\]]+)\]/)
   const code = match ? normalizeSetCode(match[1]) : ''
   const text = setName
@@ -77,9 +79,10 @@ function getIllustrationSlug(illustration) {
   if (!illustration) return ''
   switch (illustration.toLowerCase()) {
     case 'wanted': return 'wanted'
-    case 'manga': return 'manga-panel'
+    case 'manga': return 'manga-panel-alternate-art'
     case 'alternate-art': return 'alternate-art'
-    default: null
+    case 'jolly-roger-foil': return 'jolly-roger-foil'
+    default: return illustration
   }
 }
 

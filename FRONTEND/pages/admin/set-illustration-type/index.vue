@@ -12,7 +12,7 @@ const currentIndex = ref(0)
 const modifiedIds = ref(new Set())
 
 const illustrationTypes = [
-  'jolly-roger-foil', 'full-art', 'alternate-art', 'wanted', 'special', 'treasure-rare', 'manga', 'red-manga', 'gold-manga', 'reprint-missing-pen-symbol-next-to-the-artist-name', 'textured-foil', 'other'
+  'jolly-roger-foil', 'pirate-foil', 'full-art', 'alternate-art', 'reprint', 'non-foil-reprint', /* 'wanted', 'special', */ 'treasure-rare', 'manga', /* 'red-manga', 'gold-manga', */ /* 'reprint-missing-pen-symbol-next-to-the-artist-name' */ 'textured-foil', 'other'
 ]
 
 // match _p<number>_  (es: _p1_, _p12_)

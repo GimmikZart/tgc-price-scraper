@@ -4,6 +4,7 @@ import path from 'path'
 import puppeteer from 'puppeteer'
 import { createClient } from '@supabase/supabase-js'
 import { fileURLToPath } from 'url'
+import 'dotenv/config'  // <--- carica automaticamente .env
 
 /* ---------------- path helper per ESM ---------------- */
 const __filename = fileURLToPath(import.meta.url)
@@ -12,11 +13,16 @@ const __dirname = path.dirname(__filename)
 /* ---------------- CONFIG ---------------- */
 const JSON_BASE_DIR = path.resolve(process.cwd(), 'data', 'cards', 'one_piece_tgc')
 
-/* ------ OUTPUT PRICE INDEX (separato dal catalogo versionato) ------ */
-const PRICE_INDEX_DIR  = path.resolve(process.cwd(), 'data', 'prices')
-const PRICE_INDEX_FILE = path.join(PRICE_INDEX_DIR, 'one-piece.min.json')
+// Supabase Storage (bucket/oggetto per l'index prezzi)
+const PRICES_BUCKET = process.env.PRICES_BUCKET || 'prices'
+const PRICES_OBJECT = process.env.PRICES_OBJECT || 'one-piece.min.json'
 
-// Selettore CardTrader
+// Checkpoint (upload parziali durante la run)
+const CHECKPOINT_ENABLED     = String(process.env.CHECKPOINT || '1') === '1'
+const CHECKPOINT_EVERY_FILES = Number(process.env.CHECKPOINT_EVERY_FILES || 1)   // ogni N file
+const CHECKPOINT_MIN_SECONDS = Number(process.env.CHECKPOINT_MIN_SECONDS || 10)  // almeno X s tra upload
+
+// Selettore CardTrader (immutato)
 const PRICE_SELECTOR = 'body > div.d-flex.flex-column.flex-grow-1.padding-top-for-header > div.bg-white > div > div > div.d-flex.pb-3 > div.w-100.ml-3.mr-0.mr-md-3 > div.blueprint-info-container > div > div:nth-child(1) > div.d-sm-flex.justify-content-between.flex-wrap > div:nth-child(2) > div.price-box__price'
 
 // Timings “gentili”
@@ -25,15 +31,15 @@ const PER_CARD_JITTER_MS     = 3000
 const PER_FILE_COOLDOWN_MS   = 35000
 
 // Timeout & retry
-const NAV_TIMEOUT_MS           = 120000          // 120s per goto
-const PROTOCOL_TIMEOUT_MS      = 120000          // 120s protocollo CDP
-const SELECTOR_TIMEOUT_MS      = 30000           // 30s per vedere il prezzo
-const GOTO_RETRIES             = 2               // retry extra oltre al primo tentativo
+const NAV_TIMEOUT_MS           = 120000
+const PROTOCOL_TIMEOUT_MS      = 120000
+const SELECTOR_TIMEOUT_MS      = 30000
+const GOTO_RETRIES             = 2
 const SELECTOR_RETRIES         = 2
-const WATCHDOG_PAGE_STUCK_MS   = 180000          // se “stuck” per 3m ricrea page
-const RECREATE_BROWSER_EVERY_N = 250             // ricrea browser ogni N navigazioni
+const WATCHDOG_PAGE_STUCK_MS   = 180000
+const RECREATE_BROWSER_EVERY_N = 250
 
-// Cache: salta carte aggiornate di recente
+// Cache: salta carte aggiornate di recente (basato su priceIndex su Storage)
 const MAX_AGE_HOURS = Number(process.env.SCRAPE_MAX_AGE_HOURS || 24)
 const MAX_AGE_MS = MAX_AGE_HOURS * 60 * 60 * 1000
 const FORCE_ALL = String(process.env.FORCE_ALL || '') === '1'
@@ -45,8 +51,8 @@ const jittered = (base, jitter) => {
   return Math.max(0, base + (Math.random() < 0.5 ? -d : d))
 }
 const isJsonFile = f => f.toLowerCase().endsWith('.json')
-const writeJsonSafe = (p, data) => fs.writeFileSync(p, JSON.stringify(data, null, 2), 'utf-8')
 
+// 🔧 Aggiunta: helper usato sotto ma non definito nel tuo file “server”
 function detectCardsRoot(json) {
   if (Array.isArray(json)) return { cards: json, isArrayRoot: true }
   if (json && typeof json === 'object' && Array.isArray(json.cards)) return { cards: json.cards, isArrayRoot: false }
@@ -67,7 +73,7 @@ const isFresh = (ts) => {
   return Number.isFinite(n) && (Date.now() - n) < MAX_AGE_MS
 }
 
-// euro (float) → centesimi (int, robusto a floating point)
+// euro (float) → centesimi (int)
 function toCents(n) {
   if (n == null || !Number.isFinite(n)) return null
   return Math.round(n * 100)
@@ -81,33 +87,62 @@ function log(type, payload) {
   console.log(`[${new Date().toISOString()}] [${type}] ${msg}`)
 }
 
-// Lettura sicura JSON (se non esiste → fallback)
-function readJsonSafe(p, fallback) {
-  try { return JSON.parse(fs.readFileSync(p, 'utf-8')) } catch { return fallback }
-}
-
-// Scrittura atomica (tmp → rename) per evitare file parziali
-function atomicWriteJson(p, data) {
-  const out = JSON.stringify(data)
-  const dir = path.dirname(p)
-  const tmp = p + '.tmp'
-  fs.mkdirSync(dir, { recursive: true })
-  fs.writeFileSync(tmp, out, 'utf-8')
-  fs.renameSync(tmp, p)
-}
-
-/* ---------------- DB ---------------- */
-function getSb() {
+/* ---------------- Supabase helpers ---------------- */
+function getSbService() {
   const url = process.env.SUPABASE_URL
   const key = process.env.SUPABASE_SERVICE_ROLE_KEY
   if (!url || !key) throw new Error('SUPABASE_URL o SUPABASE_SERVICE_ROLE_KEY mancanti')
   return createClient(url, key)
 }
+
+// Legge eventuale index già presente su Storage per riusare lastUpdate/price come cache
+async function readPriceIndexFromStorage() {
+  const sb = getSbService()
+  const { data, error } = await sb.storage.from(PRICES_BUCKET).download(PRICES_OBJECT)
+  if (error || !data) {
+    log('info', `Price index su Storage non trovato (bucket=${PRICES_BUCKET}, object=${PRICES_OBJECT})`)
+    return []
+  }
+  try {
+    const text = await data.text()
+    const json = JSON.parse(text)
+    if (Array.isArray(json)) {
+      log('info', `Price index pre-caricato da Storage: ${json.length} entries`)
+      return json
+    }
+  } catch (e) {
+    log('warn', `Parse price index Storage fallito: ${e.message}`)
+  }
+  return []
+}
+
+function buildCompactArray(priceIndexMap) {
+  const compact = []
+  for (const [id, v] of priceIndexMap.entries()) {
+    compact.push({ id, price: v.price ?? null, lastUpdate: v.lastUpdate ?? null })
+  }
+  compact.sort((a, b) => (a.id > b.id ? 1 : a.id < b.id ? -1 : 0))
+  return compact
+}
+
+async function uploadPriceIndexToStorage(priceIndexMap) {
+  const sb = getSbService()
+  const rows = buildCompactArray(priceIndexMap)
+  const payload = JSON.stringify(rows)
+  const blob = new Blob([payload], { type: 'application/json' })
+  const { error } = await sb.storage
+    .from(PRICES_BUCKET)
+    .upload(PRICES_OBJECT, blob, { upsert: true })
+  if (error) throw error
+  log('save', `Price index caricato su Supabase Storage: bucket=${PRICES_BUCKET}, object=${PRICES_OBJECT} (entries=${rows.length})`)
+}
+
+/* ---------------- DB (tabella cards) ---------------- */
 async function updateCardPrice(cardId, price) {
-  const supabase = getSb()
-  const { error } = await supabase
+  const sb = getSbService()
+  const { error } = await sb
     .from('cards')
-    .update({ cardtrader_avg_price: price })
+    .update({ cardtrader_avg_price: price }) // salvi in euro (float), come già facevi
     .eq('card_id', cardId)
   if (error) throw new Error(error.message)
   log('db', `Aggiornato card_id=${cardId} → ${price}`)
@@ -203,21 +238,38 @@ async function main() {
     throw new Error(`JSON base dir not found: ${JSON_BASE_DIR}`)
   }
 
-  const files = fs.readdirSync(JSON_BASE_DIR).filter(isJsonFile)
+  // 🔁 Ordine inverso robusto:
+  // 1) filtro JSON
+  // 2) sort lessicale con supporto numerico (001 < 010 < 100)
+  // 3) reverse per partire “dagli ultimi”
+  const files = fs
+    .readdirSync(JSON_BASE_DIR)
+    .filter(isJsonFile)
+    .sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' }))
+    .reverse()
+
   if (!files.length) {
     log('warn', `Nessun .json in ${JSON_BASE_DIR}`)
     return
   }
   log('info', `File da processare: ${files.length}`)
+  log('info', `Primo file (in ordine inverso): ${files[0]}`)
 
   // Price index in memoria: id -> { price (cents), lastUpdate (ms) }
-  let priceIndex = new Map()
-  const existingIndex = readJsonSafe(PRICE_INDEX_FILE, [])
-  for (const row of existingIndex) {
-    if (row && row.id != null) {
-      priceIndex.set(row.id, { price: row.price ?? null, lastUpdate: row.lastUpdate ?? null })
+  const priceIndex = new Map()
+
+  // Pre-carica index da Storage per avere lastUpdate e saltare le carte fresche
+  try {
+    const existing = await readPriceIndexFromStorage()
+    for (const row of existing) {
+      if (row && row.id != null) {
+        priceIndex.set(row.id, { price: row.price ?? null, lastUpdate: row.lastUpdate ?? null })
+      }
     }
+  } catch (e) {
+    log('warn', `Impossibile leggere index da Storage: ${e.message}`)
   }
+
   log('info', `Price index pre-caricato: ${priceIndex.size} entries`)
 
   let browser = await launchBrowser()
@@ -232,6 +284,16 @@ async function main() {
       page = await makeLeanPage(browser)
       lastActivityAt = Date.now()
     }
+  }
+
+  // checkpoint state
+  let lastCheckpointAt = 0
+  const shouldCheckpoint = (fileIndex, updatedInThisFile) => {
+    if (!CHECKPOINT_ENABLED) return false
+    if (updatedInThisFile <= 0) return false
+    const enoughTime = (Date.now() - lastCheckpointAt) > (CHECKPOINT_MIN_SECONDS * 1000)
+    const fileBoundary = ((fileIndex + 1) % CHECKPOINT_EVERY_FILES) === 0
+    return enoughTime || fileBoundary
   }
 
   let totalCardsVisited = 0
@@ -254,7 +316,7 @@ async function main() {
         continue
       }
 
-      const { cards, isArrayRoot } = detectCardsRoot(json)
+      const { cards } = detectCardsRoot(json)
       if (!cards.length) {
         log('warn', `Nessuna carta in ${fileName}`)
         await sleep(jittered(PER_FILE_COOLDOWN_MS, 2000))
@@ -267,19 +329,19 @@ async function main() {
         const card = cards[ci]
         if (!Array.isArray(card?.slugs) || !card.slugs.length) continue
 
+        // *** SKIP basato su priceIndex (Supabase Storage), non su slug.lastUpdate ***
+        const prev = priceIndex.get(card.id)
+        if (!FORCE_ALL && prev && isFresh(prev.lastUpdate)) {
+          totalSkippedFresh++
+          continue
+        }
+
         for (let si = 0; si < card.slugs.length; si++) {
           const slug = card.slugs[si]
           const isCT = String(slug?.service || '') === 'Card Trader'
           const isVerified = !!slug?.verified
           const url = slug?.url
           if (!isCT || !isVerified || !url) continue
-
-          // SKIP se aggiornato nelle ultime X ore (salvo FORCE_ALL)
-          if (!FORCE_ALL && isFresh(slug.lastUpdate)) {
-            totalSkippedFresh++
-            log('skip', `fresh (<${MAX_AGE_HOURS}h) "${card.name || card.code}" → salto`)
-            continue
-          }
 
           totalVerifiedFound++
 
@@ -317,18 +379,15 @@ async function main() {
               const now = Date.now()
               const priceCents = toCents(price)
 
-              // SOLO lastUpdate nel JSON del catalogo (non salviamo il prezzo nel catalogo versionato)
-              card.slugs[si] = { ...slug, lastUpdate: now }
-              cards[ci] = { ...card }
-
-              // Update DB con il prezzo (resta com'è: se vuoi passare ai centesimi, adegua lo schema e questa riga)
+              // *** NON scriviamo più lastUpdate nel JSON del progetto ***
+              // *** Aggiornamento DB in euro (float) ***
               if (card.id != null) {
                 await updateCardPrice(card.id, price)
               } else {
                 log('warn', `card.id mancante per "${card.name || card.code}"`)
               }
 
-              // PRICE MAP LOCALE: aggiorna voce id → { price (centesimi), lastUpdate }
+              // **Aggiorna la cache centrale** (usata sia per skip che per export finale/checkpoint)
               if (card.id != null && priceCents != null) {
                 priceIndex.set(card.id, { price: priceCents, lastUpdate: now })
               }
@@ -359,34 +418,24 @@ async function main() {
         }
       }
 
-      // Scrittura file catalogo se ci sono stati aggiornamenti
-      if (updatedInThisFile > 0) {
-        const toWrite = isArrayRoot ? cards : { ...json, cards }
+      // *** CHECKPOINT: upload parziale su Storage ***
+      if (shouldCheckpoint(i, updatedInThisFile)) {
         try {
-          writeJsonSafe(fullPath, toWrite)
-          log('save', `Scritto ${fileName} (${updatedInThisFile} aggiornamenti)`)
+          await uploadPriceIndexToStorage(priceIndex)
+          lastCheckpointAt = Date.now()
         } catch (e) {
-          log('error', `Write ${fileName}: ${e.message}`)
+          log('warn', `Checkpoint upload fallito: ${e.message}`)
         }
-      } else {
-        log('info', `${fileName}: nessun aggiornamento`)
       }
 
       await sleep(jittered(PER_FILE_COOLDOWN_MS, 5000))
     }
 
-    // ---- FLUSH FINALE: scrivi prices.min.json in modo atomico ----
+    // ---- FLUSH FINALE su Supabase Storage ----
     try {
-      const compact = []
-      for (const [id, v] of priceIndex.entries()) {
-        compact.push({ id, price: v.price ?? null, lastUpdate: v.lastUpdate ?? null })
-      }
-      // Ordina per id per diff stabili
-      compact.sort((a, b) => (a.id > b.id ? 1 : a.id < b.id ? -1 : 0))
-      atomicWriteJson(PRICE_INDEX_FILE, compact)
-      log('save', `Price index scritto: ${PRICE_INDEX_FILE} (entries=${compact.length})`)
+      await uploadPriceIndexToStorage(priceIndex)
     } catch (e) {
-      log('error', `Scrittura price index: ${e.message}`)
+      log('error', `Upload finale price index fallito: ${e.message}`)
     }
 
     log('done', {

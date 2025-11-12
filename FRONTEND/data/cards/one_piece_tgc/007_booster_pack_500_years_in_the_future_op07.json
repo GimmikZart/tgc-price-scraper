@@ -588,9 +588,8 @@
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/monkey-d-dragon-op-07-500-years-into-the-future",
-        "verified": true,
-        "current_price": 0.11
+        "url": "https://www.cardtrader.com/cards/monkey-d-dragon-op-07-500-years-into-the-future-290948",
+        "verified": true
       }
     ]
   },
@@ -625,8 +624,7 @@
       {
         "service": "Card Trader",
         "url": "https://www.cardtrader.com/cards/monkey-d-dragon-alternate-art-op-07-500-years-into-the-future-290949",
-        "verified": true,
-        "current_price": 15.24
+        "verified": true
       }
     ]
   },

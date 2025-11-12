@@ -23,7 +23,8 @@ const {
   nameList,
   powerLimits,
   counterList,
-  attributeList
+  attributeList,
+  illustrationList
 } = await useOnePieceCards();
 
 const nameFilter = ref(null);
@@ -41,6 +42,7 @@ const powerFilter = ref([powerLimits.min, powerLimits.max]);
 const hasTriggerFilter = ref(false);
 const counterFilter = ref([]);
 const attributeFilter = ref([]);
+const illustrationFilter = ref([]);
 const priceFilter = ref({
   min: 0,
   max: null
@@ -104,6 +106,9 @@ const filtered = computed(() => {
     const attributeMatch =
       !attributeFilter.value.length || attributeFilter.value.includes(card.attribute);
 
+    const illustrationMatch =
+      !illustrationFilter.value.length || illustrationFilter.value.includes(card.illustration);
+
     const priceMin = priceFilter.value.min || 0;
     const priceMax = priceFilter.value.max || Number.MAX_SAFE_INTEGER;
     const cardPrice = card.slugs ? parseFloat(card.slugs[0]?.current_price) || 0 : null;
@@ -124,6 +129,7 @@ const filtered = computed(() => {
       hasTriggerMatch &&
       counterMatch &&
       attributeMatch &&
+      illustrationMatch &&
       priceMatch
     );
   });
@@ -143,6 +149,11 @@ function resetFilters() {
   hasTriggerFilter.value = false;
   counterFilter.value = [];
   attributeFilter.value = [];
+  illustrationFilter.value = [];
+  priceFilter.value = {
+    min: 0,
+    max: null
+  };
 }
 
 watch(
@@ -264,6 +275,13 @@ onMounted(async () => {
               :items="rarityList"
               multiple
               label="Filtra per rarità"
+            />
+
+            <InputSelect
+              v-model="illustrationFilter"
+              :items="illustrationList"
+              multiple
+              label="Filtra per illustrazione"
             />
 
             <InputSelect

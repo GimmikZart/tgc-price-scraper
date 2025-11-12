@@ -71,6 +71,7 @@ export function useOnePieceCards() {
   const powerSet = new Set()
   const counterSet = new Set()
   const attributeSet = new Set()
+  const illustrationSet = new Set()
 
   for (const card of allCards) {
     if (card.setName) setNameSet.add(card.setName)
@@ -84,6 +85,7 @@ export function useOnePieceCards() {
     if (Array.isArray(card.family)) card.family.forEach(f => f && familySet.add(f))
     if (Array.isArray(card.color)) card.color.forEach(c => c && colorSet.add(c))
     if (Array.isArray(card.abilityKeywords)) card.abilityKeywords.forEach(k => k && abilityKwSet.add(k))
+    if (card.illustration) illustrationSet.add(card.illustration)
   }
 
   const nameList = Array.from(nameSet).sort((a, b) =>
@@ -98,6 +100,7 @@ export function useOnePieceCards() {
   const abilityKwList = Array.from(abilityKwSet).sort()
   const counterList = Array.from(counterSet).sort((a, b) => a - b)
   const attributeList = Array.from(attributeSet).sort()
+  const illustrationList = Array.from(illustrationSet).sort()
 
   const powerLimits = {
     min: 0,
@@ -118,5 +121,6 @@ export function useOnePieceCards() {
     powerLimits,
     counterList,
     attributeList,
+    illustrationList,
   }
 }

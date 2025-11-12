@@ -39,10 +39,7 @@ function openCard() { if (!props.disableOpening) emit("open", props.card); }
     </div>
 
     <!-- Immagine -->
-    <div class="relative flex flex-col justify-end rounded-lg h-full" :class="{'bg-white/20 px-1' : showPrice}">
-      <div v-if="showPrice && isLoaded" class="text-xs text-center px-2 py-1">
-        {{ card.illustration }}
-      </div>
+    <div class="relative flex flex-col justify-end rounded-lg h-full" :class="{'bg-white/20' : showPrice}">
       <NuxtImg
         v-show="card.image"
         :src="card.image"
@@ -56,13 +53,16 @@ function openCard() { if (!props.disableOpening) emit("open", props.card); }
         @click="openCard()"
         placeholder
       />
-
-      <a v-if="showPrice && isLoaded" class="w-full px-4 block text-white text-center py-1 text-xs font-bold">
-        {{ card.price ?? '---' }} €
-      </a>
+      <div class="p-1">
+        <p class="text-xs truncate p-1">{{ card.setName }}</p>
+        <a v-if="showPrice && isLoaded" class="w-full rounded-lg bg-black/70 flex justify-between text-black items-center px-4 py-1 block text-white text-center" :href="card.price ? card.slugs[0].url : '#'" target="_blank" rel="noopener noreferrer">
+          <span class="text-xs">CardTrader</span>
+          <Icon class="text-xs" icon="mdi:arrow-right" />
+          <span class="font-bold text-sm">{{ card.price ?? '---' }} €</span>
+        </a>
+      </div>
+      
     </div>
-    
-
     <div
       v-show="handleCards && isLoaded"
     >

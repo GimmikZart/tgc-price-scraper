@@ -58,7 +58,7 @@ function openCard() { if (!props.disableOpening) emit("open", props.card); }
         <a v-if="showPrice && isLoaded" class="w-full rounded-lg bg-black/70 flex justify-between text-black items-center px-4 py-1 block text-white text-center" :href="card.price ? card.slugs[0].url : '#'" target="_blank" rel="noopener noreferrer">
           <span class="text-xs">CardTrader</span>
           <Icon class="text-xs" icon="mdi:arrow-right" />
-          <span class="font-bold text-sm">{{ card.price ?? '---' }} €</span>
+          <span class="font-bold text-xs">{{ card.price ?? '---' }} €</span>
         </a>
       </div>
       

@@ -18,9 +18,10 @@ const PRICES_BUCKET = process.env.PRICES_BUCKET || 'prices'
 const PRICES_OBJECT = process.env.PRICES_OBJECT || 'one-piece.min.json'
 
 // Checkpoint (upload parziali durante la run)
-const CHECKPOINT_ENABLED     = String(process.env.CHECKPOINT || '1') === '1'
-const CHECKPOINT_EVERY_FILES = Number(process.env.CHECKPOINT_EVERY_FILES || 1)   // ogni N file
-const CHECKPOINT_MIN_SECONDS = Number(process.env.CHECKPOINT_MIN_SECONDS || 10)  // almeno X s tra upload
+const CHECKPOINT_ENABLED          = String(process.env.CHECKPOINT || '1') === '1'
+const CHECKPOINT_EVERY_FILES      = Number(process.env.CHECKPOINT_EVERY_FILES || 1)   // ogni N file
+const CHECKPOINT_MIN_SECONDS      = Number(process.env.CHECKPOINT_MIN_SECONDS || 10)  // almeno X s tra upload
+const CHECKPOINT_EVERY_UPDATES    = Number(process.env.CHECKPOINT_EVERY_UPDATES || 0) // 0 = disattivo (per-carta)
 
 // Selettore CardTrader (immutato)
 const PRICE_SELECTOR = 'body > div.d-flex.flex-column.flex-grow-1.padding-top-for-header > div.bg-white > div > div > div.d-flex.pb-3 > div.w-100.ml-3.mr-0.mr-md-3 > div.blueprint-info-container > div > div:nth-child(1) > div.d-sm-flex.justify-content-between.flex-wrap > div:nth-child(2) > div.price-box__price'
@@ -52,7 +53,6 @@ const jittered = (base, jitter) => {
 }
 const isJsonFile = f => f.toLowerCase().endsWith('.json')
 
-// 🔧 Aggiunta: helper usato sotto ma non definito nel tuo file “server”
 function detectCardsRoot(json) {
   if (Array.isArray(json)) return { cards: json, isArrayRoot: true }
   if (json && typeof json === 'object' && Array.isArray(json.cards)) return { cards: json.cards, isArrayRoot: false }
@@ -142,7 +142,7 @@ async function updateCardPrice(cardId, price) {
   const sb = getSbService()
   const { error } = await sb
     .from('cards')
-    .update({ cardtrader_avg_price: price }) // salvi in euro (float), come già facevi
+    .update({ cardtrader_avg_price: price }) // euro (float)
     .eq('card_id', cardId)
   if (error) throw new Error(error.message)
   log('db', `Aggiornato card_id=${cardId} → ${price}`)
@@ -238,10 +238,7 @@ async function main() {
     throw new Error(`JSON base dir not found: ${JSON_BASE_DIR}`)
   }
 
-  // 🔁 Ordine inverso robusto:
-  // 1) filtro JSON
-  // 2) sort lessicale con supporto numerico (001 < 010 < 100)
-  // 3) reverse per partire “dagli ultimi”
+  // Ordine inverso: sort numerico + reverse
   const files = fs
     .readdirSync(JSON_BASE_DIR)
     .filter(isJsonFile)
@@ -288,12 +285,21 @@ async function main() {
 
   // checkpoint state
   let lastCheckpointAt = 0
+  let updatesSinceLastCheckpoint = 0
+
   const shouldCheckpoint = (fileIndex, updatedInThisFile) => {
     if (!CHECKPOINT_ENABLED) return false
-    if (updatedInThisFile <= 0) return false
-    const enoughTime = (Date.now() - lastCheckpointAt) > (CHECKPOINT_MIN_SECONDS * 1000)
+    const enoughTime   = (Date.now() - lastCheckpointAt) > (CHECKPOINT_MIN_SECONDS * 1000)
     const fileBoundary = ((fileIndex + 1) % CHECKPOINT_EVERY_FILES) === 0
-    return enoughTime || fileBoundary
+    const enoughUpdates = CHECKPOINT_EVERY_UPDATES > 0 && updatesSinceLastCheckpoint >= CHECKPOINT_EVERY_UPDATES
+    return (updatedInThisFile > 0) && (enoughTime || fileBoundary || enoughUpdates)
+  }
+
+  async function doCheckpoint(reason) {
+    await uploadPriceIndexToStorage(priceIndex)
+    lastCheckpointAt = Date.now()
+    updatesSinceLastCheckpoint = 0
+    log('info', `Checkpoint → Storage (${reason})`)
   }
 
   let totalCardsVisited = 0
@@ -329,7 +335,7 @@ async function main() {
         const card = cards[ci]
         if (!Array.isArray(card?.slugs) || !card.slugs.length) continue
 
-        // *** SKIP basato su priceIndex (Supabase Storage), non su slug.lastUpdate ***
+        // SKIP basato su priceIndex (Supabase Storage)
         const prev = priceIndex.get(card.id)
         if (!FORCE_ALL && prev && isFresh(prev.lastUpdate)) {
           totalSkippedFresh++
@@ -369,7 +375,7 @@ async function main() {
             } catch {}
 
             const priceText = await waitForPriceWithRetry(page, PRICE_SELECTOR)
-            const price = parsePrice(priceText) // in euro (float)
+            const price = parsePrice(priceText) // euro (float)
             totalCardsVisited++
             lastActivityAt = Date.now()
 
@@ -379,22 +385,26 @@ async function main() {
               const now = Date.now()
               const priceCents = toCents(price)
 
-              // *** NON scriviamo più lastUpdate nel JSON del progetto ***
-              // *** Aggiornamento DB in euro (float) ***
               if (card.id != null) {
                 await updateCardPrice(card.id, price)
               } else {
                 log('warn', `card.id mancante per "${card.name || card.code}"`)
               }
 
-              // **Aggiorna la cache centrale** (usata sia per skip che per export finale/checkpoint)
               if (card.id != null && priceCents != null) {
                 priceIndex.set(card.id, { price: priceCents, lastUpdate: now })
               }
 
               updatedInThisFile++
               totalPricesUpdated++
+              updatesSinceLastCheckpoint++   // <-- conteggio per checkpoint "per aggiornamenti"
               log('ok', `Aggiornato ${price} (€) per "${card.name || card.code}"`)
+
+              // Checkpoint "in corsa" (per aggiornamenti/tempo)
+              if (shouldCheckpoint(i, 1)) {
+                try { await doCheckpoint('per-updates') } 
+                catch (e) { log('warn', `Checkpoint upload fallito: ${e.message}`) }
+              }
             }
           } catch (e) {
             const msg = e?.message || String(e)
@@ -418,20 +428,16 @@ async function main() {
         }
       }
 
-      // *** CHECKPOINT: upload parziale su Storage ***
+      // CHECKPOINT per-file (boundary/tempo)
       if (shouldCheckpoint(i, updatedInThisFile)) {
-        try {
-          await uploadPriceIndexToStorage(priceIndex)
-          lastCheckpointAt = Date.now()
-        } catch (e) {
-          log('warn', `Checkpoint upload fallito: ${e.message}`)
-        }
+        try { await doCheckpoint('per-file') }
+        catch (e) { log('warn', `Checkpoint upload fallito: ${e.message}`) }
       }
 
       await sleep(jittered(PER_FILE_COOLDOWN_MS, 5000))
     }
 
-    // ---- FLUSH FINALE su Supabase Storage ----
+    // FLUSH FINALE su Supabase Storage
     try {
       await uploadPriceIndexToStorage(priceIndex)
     } catch (e) {

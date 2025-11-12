@@ -41,7 +41,7 @@ function openCard() { if (!props.disableOpening) emit("open", props.card); }
     <!-- Immagine -->
     <div class="relative flex flex-col justify-end rounded-lg h-full" :class="{'bg-white/20 px-1' : showPrice}">
       <div v-if="showPrice && isLoaded" class="text-xs text-center px-2 py-1">
-        {{ card.setName }}
+        {{ card.illustration }}
       </div>
       <NuxtImg
         v-show="card.image"

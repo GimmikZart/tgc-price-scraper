@@ -9,7 +9,8 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare && puppeteer browsers install chrome",
-    "scrape:price": "node scripts/run-scrape-cards-price.js"
+    "scrape:price": "node scripts/run-scrape-cards-price.js",
+    "scrape:price:local": "node scripts/run-scrape-cards-price.local.js"
   },
   "dependencies": {
     "@nuxt/image": "^1.10.0",
@@ -34,6 +35,7 @@
     "cookie": "0.5.0"
   },
   "devDependencies": {
-    "@iconify/vue": "^5.0.0"
+    "@iconify/vue": "^5.0.0",
+    "dotenv": "^17.2.3"
   }
 }

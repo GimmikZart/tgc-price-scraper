@@ -1,54 +1,65 @@
 // composables/useOnePieceCards.js
-// Aggiunge alle carte locali il campo "price" (in euro) e "priceLastUpdate" se disponibile
+// Aggiunge alle carte locali: price (euro) + priceLastUpdate (ms) usando
+// prima /api/prices (Supabase Storage) e in fallback ~/data/prices/one-piece.min.json
 
-import priceIndexRaw from '~/data/prices/one-piece.min.json'
+import localPriceIndexRaw from '~/data/prices/one-piece.min.json'
 
-// Normalizza il JSON importato
-const priceIndex = Array.isArray(priceIndexRaw?.default)
-  ? priceIndexRaw.default
-  : (Array.isArray(priceIndexRaw) ? priceIndexRaw : [])
-
-// Crea una mappa id → { priceCents, lastUpdate }
-function buildPriceMap() {
-  return new Map(
-    priceIndex.map(p => [
-      p.id,
-      {
-        price: typeof p.price === 'number' ? p.price : null,
-        lastUpdate: typeof p.lastUpdate === 'number' ? p.lastUpdate : null,
-      },
-    ])
-  )
+function normalizePriceArray(raw) {
+  const arr = Array.isArray(raw?.default) ? raw.default : (Array.isArray(raw) ? raw : [])
+  return arr.filter(p => p && typeof p.id === 'string')
 }
 
 export function useOnePieceCards() {
+  // 1) prezzi runtime da API (SSR-safe)
+  const { data: runtimePrices } = useAsyncData(
+    'price-index',
+    () => $fetch('/api/prices').catch(() => []),
+    { server: true, default: () => [] }
+  )
+
+  // 2) fallback al file locale se l’API non restituisce nulla
+  const priceArray = computed(() => {
+    const fromApi = Array.isArray(runtimePrices.value) ? runtimePrices.value : []
+    if (fromApi.length) return fromApi
+    return normalizePriceArray(localPriceIndexRaw)
+  })
+
+  // 3) mappa id -> { priceCents, lastUpdate }
+  const priceMap = computed(() => {
+    const map = new Map()
+    for (const p of priceArray.value) {
+      map.set(p.id, {
+        price: typeof p.price === 'number' ? p.price : null,           // centesimi
+        lastUpdate: typeof p.lastUpdate === 'number' ? p.lastUpdate : null,
+      })
+    }
+    return map
+  })
+
+  // 4) importa tutte le card locali e merga i prezzi
   const modules = import.meta.glob('~/data/cards/one_piece_tgc/*.json', {
     eager: true,
     as: 'json',
   })
 
-  const priceMap = buildPriceMap()
   const allCards = []
-
-  // Unisce i prezzi alle carte
   Object.values(modules).forEach((mod) => {
     const cards = Array.isArray(mod.default) ? mod.default : []
     for (const card of cards) {
-      const p = priceMap.get(card.id)
+      const p = priceMap.value.get(card.id)
       allCards.push({
         ...card,
-        price: p ? p.price / 100 : null,          // in euro
-        priceLastUpdate: p ? p.lastUpdate : null, // timestamp ms
+        price: p && typeof p.price === 'number' ? p.price / 100 : null,   // euro
+        priceLastUpdate: p ? p.lastUpdate : null,                         // ms
       })
     }
   })
 
-  // Leader cards
+  // Filtri/liste come prima
   const leaderCards = allCards.filter(
     (card) => card.type && card.type.toLowerCase().includes('leader')
   )
 
-  // Liste/filtri
   const setNameSet = new Set()
   const typeSet = new Set()
   const familySet = new Set()
@@ -61,7 +72,7 @@ export function useOnePieceCards() {
   const counterSet = new Set()
   const attributeSet = new Set()
 
-  allCards.forEach((card) => {
+  for (const card of allCards) {
     if (card.setName) setNameSet.add(card.setName)
     if (card.type) typeSet.add(card.type)
     if (card.rarity) raritySet.add(card.rarity)
@@ -70,11 +81,10 @@ export function useOnePieceCards() {
     if (card.power) powerSet.add(card.power)
     if (card.counter) counterSet.add(card.counter)
     if (card.attribute) attributeSet.add(card.attribute)
-
     if (Array.isArray(card.family)) card.family.forEach(f => f && familySet.add(f))
     if (Array.isArray(card.color)) card.color.forEach(c => c && colorSet.add(c))
     if (Array.isArray(card.abilityKeywords)) card.abilityKeywords.forEach(k => k && abilityKwSet.add(k))
-  })
+  }
 
   const nameList = Array.from(nameSet).sort((a, b) =>
     a.localeCompare(b, undefined, { sensitivity: 'base' })
@@ -95,7 +105,7 @@ export function useOnePieceCards() {
   }
 
   return {
-    allCards, // ogni carta ha { price, priceLastUpdate }
+    allCards,            // ora con { price, priceLastUpdate }
     leaderCards,
     setNameList,
     typeList,

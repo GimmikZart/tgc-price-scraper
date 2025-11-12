@@ -1,7 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: "2024-11-01",
+  compatibilityDate: "2025-11-01",
   devtools: { enabled: true },
+  runtimeConfig: {
+    supabaseUrl: process.env.SUPABASE_URL,
+    supabaseServiceRoleKey: process.env.SUPABASE_SERVICE_ROLE_KEY,
+    pricesBucket: process.env.PRICES_BUCKET || 'prices',
+    pricesObject: process.env.PRICES_OBJECT || 'one-piece.min.json',
+  },
   modules: [
     "@nuxtjs/tailwindcss",
     "@nuxtjs/supabase",

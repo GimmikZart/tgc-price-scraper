@@ -60,7 +60,7 @@
     "expansionCode": "OP07",
     "imageId": "OP07-001_p1",
     "id": "OP07-001_p1_500_YEARS_IN_THE_FUTURE_[OP-07]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -236,7 +236,7 @@
     "expansionCode": "OP07",
     "imageId": "OP07-005_p1",
     "id": "OP07-005_p1_500_YEARS_IN_THE_FUTURE_[OP-07]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -619,7 +619,7 @@
     "expansionCode": "OP07",
     "imageId": "OP07-015_p1",
     "id": "OP07-015_p1_500_YEARS_IN_THE_FUTURE_[OP-07]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -794,7 +794,7 @@
     "expansionCode": "OP07",
     "imageId": "OP07-019_p1",
     "id": "OP07-019_p1_500_YEARS_IN_THE_FUTURE_[OP-07]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -935,7 +935,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -1111,7 +1111,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -1248,7 +1248,7 @@
     "expansionCode": "OP07",
     "imageId": "OP07-029_p1",
     "id": "OP07-029_p1_500_YEARS_IN_THE_FUTURE_[OP-07]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -1599,7 +1599,7 @@
     "expansionCode": "OP07",
     "imageId": "OP07-038_p1",
     "id": "OP07-038_p1_500_YEARS_IN_THE_FUTURE_[OP-07]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -1881,7 +1881,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -1950,7 +1950,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -2021,7 +2021,7 @@
     "expansionCode": "OP07",
     "imageId": "OP07-047_p1",
     "id": "OP07-047_p1_500_YEARS_IN_THE_FUTURE_[OP-07]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -2196,7 +2196,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -2232,7 +2232,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "MANGA",
+    "illustration": "Manga",
     "slugs": [
       {
         "service": "Card Trader",
@@ -2544,7 +2544,7 @@
     "expansionCode": "OP07",
     "imageId": "OP07-059_p1",
     "id": "OP07-059_p1_500_YEARS_IN_THE_FUTURE_[OP-07]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -2753,7 +2753,7 @@
     "expansionCode": "OP07",
     "imageId": "OP07-064_p1",
     "id": "OP07-064_p1_500_YEARS_IN_THE_FUTURE_[OP-07]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -3029,7 +3029,7 @@
     "expansionCode": "OP07",
     "imageId": "OP07-071_p1",
     "id": "OP07-071_p1_500_YEARS_IN_THE_FUTURE_[OP-07]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -3098,7 +3098,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -3374,7 +3374,7 @@
     "expansionCode": "OP07",
     "imageId": "OP07-079_p1",
     "id": "OP07-079_p1_500_YEARS_IN_THE_FUTURE_[OP-07]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -3579,7 +3579,7 @@
     "cost": 9,
     "expansionCode": "OP07",
     "imageId": "OP07-085",
-    "id": "OP07-085_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "id": "OP07-085_500_YEARS_INTO_THE_FUTURE_[OP-07]",
     "abilityKeywords": [
       "[On Play]"
     ],
@@ -3613,11 +3613,11 @@
     "cost": 9,
     "expansionCode": "OP07",
     "imageId": "OP07-085_p1",
-    "id": "OP07-085_p1_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "id": "OP07-085_p1_500_YEARS_INTO_THE_FUTURE_[OP-07]",
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -4063,7 +4063,7 @@
     "expansionCode": "OP07",
     "imageId": "OP07-097_p1",
     "id": "OP07-097_p1_500_YEARS_IN_THE_FUTURE_[OP-07]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -4431,7 +4431,7 @@
     "expansionCode": "OP07",
     "imageId": "OP07-107_p1",
     "id": "OP07-107_p1_500_YEARS_IN_THE_FUTURE_[OP-07]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -4535,7 +4535,7 @@
     "expansionCode": "OP07",
     "imageId": "OP07-109_p1",
     "id": "OP07-109_p1_500_YEARS_IN_THE_FUTURE_[OP-07]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -4641,7 +4641,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -4918,7 +4918,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -4989,7 +4989,7 @@
     "expansionCode": "OP07",
     "imageId": "OP07-119_p1",
     "id": "OP07-119_p1_500_YEARS_IN_THE_FUTURE_[OP-07]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -5025,7 +5025,7 @@
     "expansionCode": "ST10",
     "imageId": "ST10-010_p2",
     "id": "ST10-010_p2_500_YEARS_IN_THE_FUTURE_[OP-07]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -5063,7 +5063,7 @@
     "expansionCode": "OP01",
     "imageId": "OP01-035_p2",
     "id": "OP01-035_p2_500_YEARS_IN_THE_FUTURE_[OP-07]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -5100,7 +5100,7 @@
     "expansionCode": "OP01",
     "imageId": "OP01-073_p2",
     "id": "OP01-073_p2_500_YEARS_IN_THE_FUTURE_[OP-07]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -5136,7 +5136,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -5173,7 +5173,7 @@
     "expansionCode": "OP03",
     "imageId": "OP03-078_p2",
     "id": "OP03-078_p2_500_YEARS_IN_THE_FUTURE_[OP-07]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -5210,7 +5210,7 @@
     "expansionCode": "OP05",
     "imageId": "OP05-074_p3",
     "id": "OP05-074_p3_500_YEARS_IN_THE_FUTURE_[OP-07]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -5246,7 +5246,7 @@
     "expansionCode": "OP06",
     "imageId": "OP06-101_p2",
     "id": "OP06-101_p2_500_YEARS_IN_THE_FUTURE_[OP-07]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",

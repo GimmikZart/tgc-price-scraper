@@ -16,7 +16,7 @@
     ],
     "effect": "[DON!! x1] [Your Turn] All of your Characters gain +1000 power.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-001.png",
     "life": 5,
     "abilityKeywords": [
@@ -51,7 +51,7 @@
     ],
     "effect": "[DON!! x1] [Your Turn] All of your Characters gain +1000 power.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-001_p1.png",
     "life": 5,
     "abilityKeywords": [
@@ -61,7 +61,7 @@
     "expansionCode": "OP01",
     "imageId": "OP01-001_p1",
     "id": "OP01-001_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -88,7 +88,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] ➁ (You may rest the specified number of DON!! cards in your cost area.): If you have 5 Characters, return 1 of your Characters to the owner's hand. Then, play up to 1 Character with a cost of 5 or less from your hand that is a different color than the returned Character.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-002.png",
     "life": 4,
     "abilityKeywords": [
@@ -124,7 +124,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] ➁ (You may rest the specified number of DON!! cards in your cost area.): If you have 5 Characters, return 1 of your Characters to the owner's hand. Then, play up to 1 Character with a cost of 5 or less from your hand that is a different color than the returned Character.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-002_p1.png",
     "life": 4,
     "abilityKeywords": [
@@ -134,7 +134,7 @@
     "expansionCode": "OP01",
     "imageId": "OP01-002_p1",
     "id": "OP01-002_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -161,7 +161,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] ➃ (You may rest the specified number of DON!! cards in your cost area.): Set up to 1 of your {Supernovas} or {Straw Hat Crew} type Character cards with a cost of 5 or less as active. It gains +1000 power during this turn.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-003.png",
     "life": 4,
     "abilityKeywords": [
@@ -197,7 +197,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] ➃ (You may rest the specified number of DON!! cards in your cost area.): Set up to 1 of your {Supernovas} or {Straw Hat Crew} type Character cards with a cost of 5 or less as active. It gains +1000 power during this turn.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-003_p1.png",
     "life": 4,
     "abilityKeywords": [
@@ -207,7 +207,7 @@
     "expansionCode": "OP01",
     "imageId": "OP01-003_p1",
     "id": "OP01-003_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -232,7 +232,7 @@
     ],
     "effect": "[DON!! x1] [Your Turn] [Once Per Turn] Draw 1 card when your opponent activates an Event.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-004.png",
     "cost": 2,
     "abilityKeywords": [
@@ -267,7 +267,7 @@
     ],
     "effect": "[On Play] Add up to 1 red Character card other than [Uta] with a cost of 3 or less from your trash to your hand.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-005.png",
     "cost": 4,
     "expansionCode": "OP01",
@@ -300,7 +300,7 @@
     ],
     "effect": "[On Play] Give up to 1 of your opponent's Characters −2000 power during this turn.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-006.png",
     "cost": 1,
     "expansionCode": "OP01",
@@ -334,7 +334,7 @@
     ],
     "effect": "[On K.O.] K.O. up to 1 of your opponent's Characters with 4000 power or less.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-007.png",
     "cost": 3,
     "abilityKeywords": [
@@ -368,7 +368,7 @@
     ],
     "effect": "[On Play] You may add 1 card from your Life area to your hand: This Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.)",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-008.png",
     "cost": 4,
     "abilityKeywords": [
@@ -403,7 +403,7 @@
     ],
     "effect": "[On Play] You may add 1 card from your Life area to your hand: This Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.)",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-008_p1.png",
     "cost": 4,
     "abilityKeywords": [
@@ -413,7 +413,7 @@
     "expansionCode": "OP01",
     "imageId": "OP01-008_p1",
     "id": "OP01-008_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -438,7 +438,7 @@
     ],
     "effect": "[Trigger] Play this card.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-009.png",
     "cost": 2,
     "abilityKeywords": [
@@ -472,7 +472,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-010.png",
     "cost": 1,
     "expansionCode": "OP01",
@@ -502,7 +502,7 @@
     ],
     "effect": "[On Play] You may place 1 card from your hand at the bottom of your deck: Draw 1 card.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-011.png",
     "cost": 2,
     "expansionCode": "OP01",
@@ -535,7 +535,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-012.png",
     "cost": 2,
     "expansionCode": "OP01",
@@ -565,7 +565,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] You may add 1 card from your Life area to your hand: This Character gains +2000 power during this turn. Then, give this Character up to 2 rested DON!! cards.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-013.png",
     "cost": 2,
     "abilityKeywords": [
@@ -599,7 +599,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] You may add 1 card from your Life area to your hand: This Character gains +2000 power during this turn. Then, give this Character up to 2 rested DON!! cards.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-013_p1.png",
     "cost": 2,
     "abilityKeywords": [
@@ -609,7 +609,7 @@
     "expansionCode": "OP01",
     "imageId": "OP01-013_p1",
     "id": "OP01-013_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -635,7 +635,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x1] [On Block] Play up to 1 red Character card with a cost of 2 or less from your hand.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-014.png",
     "cost": 4,
     "abilityKeywords": [
@@ -671,7 +671,7 @@
     ],
     "effect": "[DON!! x1] [When Attacking] You may trash 1 card from your hand: Add up to 1 {Straw Hat Crew} type Character card other than [Tony Tony.Chopper] with a cost of 4 or less from your trash to your hand.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-015.png",
     "cost": 3,
     "abilityKeywords": [
@@ -705,7 +705,7 @@
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-016.png",
     "cost": 1,
     "expansionCode": "OP01",
@@ -738,7 +738,7 @@
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-016_p1.png",
     "cost": 1,
     "expansionCode": "OP01",
@@ -747,7 +747,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -772,7 +772,7 @@
     ],
     "effect": "[DON!! x1] [When Attacking] K.O. up to 1 of your opponent's Characters with 3000 power or less.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-017.png",
     "cost": 3,
     "abilityKeywords": [
@@ -807,7 +807,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-018.png",
     "cost": 4,
     "expansionCode": "OP01",
@@ -838,7 +838,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x2] [Opponent's Turn] This Character gains +3000 power.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-019.png",
     "cost": 2,
     "abilityKeywords": [
@@ -873,7 +873,7 @@
     ],
     "effect": "[Activate: Main] You may rest this Character: Up to 1 of your Leader or Character cards gains +2000 power during this turn.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-020.png",
     "cost": 2,
     "abilityKeywords": [
@@ -906,7 +906,7 @@
     ],
     "effect": "[DON!! x1] This Character can also attack your opponent's active Characters.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-021.png",
     "cost": 3,
     "abilityKeywords": [
@@ -939,7 +939,7 @@
     ],
     "effect": "[DON!! x1] [When Attacking] Give up to 2 of your opponent's Characters −2000 power during this turn.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-022.png",
     "cost": 4,
     "abilityKeywords": [
@@ -973,7 +973,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-023.png",
     "cost": 3,
     "expansionCode": "OP01",
@@ -1004,7 +1004,7 @@
     ],
     "effect": "[DON!! x2] This Character cannot be K.O.'d in battle by ＜Strike＞ attribute Characters.[Activate: Main] [Once Per Turn] Give this Character up to 2 rested DON!! cards.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-024.png",
     "cost": 2,
     "abilityKeywords": [
@@ -1040,7 +1040,7 @@
     ],
     "effect": "[DON!! x2] This Character cannot be K.O.'d in battle by ＜Strike＞  attribute Characters.[Activate: Main] [Once Per Turn] Give this Character up to 2 rested DON!! cards.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-024_p1.png",
     "cost": 2,
     "abilityKeywords": [
@@ -1051,7 +1051,7 @@
     "expansionCode": "OP01",
     "imageId": "OP01-024_p1",
     "id": "OP01-024_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -1077,7 +1077,7 @@
     ],
     "effect": "[Rush] (This card can attack on the turn in which it is played.)",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-025.png",
     "cost": 3,
     "abilityKeywords": [
@@ -1111,7 +1111,7 @@
     ],
     "effect": "[Rush] (This card can attack on the turn in which it is played.)",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-025_p1.png",
     "cost": 3,
     "abilityKeywords": [
@@ -1120,7 +1120,7 @@
     "expansionCode": "OP01",
     "imageId": "OP01-025_p1",
     "id": "OP01-025_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -1146,7 +1146,7 @@
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, K.O. up to 1 of your opponent's Characters with 4000 power or less.",
     "trigger": "Trigger[Trigger] Give up to 1 of your opponent's Leader or Character cards −10000 power during this turn.",
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-026.png",
     "cost": 2,
     "abilityKeywords": [
@@ -1180,7 +1180,7 @@
     ],
     "effect": "[Main] Give up to 1 of your opponent's Characters −10000 power during this turn.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-027.png",
     "cost": 4,
     "abilityKeywords": [
@@ -1213,7 +1213,7 @@
     ],
     "effect": "[Counter] Give up to 1 of your opponent's Leader or Character cards −2000 power during this turn.",
     "trigger": "Trigger[Trigger] Activate this card's [Counter] effect.",
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-028.png",
     "cost": 1,
     "abilityKeywords": [
@@ -1246,7 +1246,7 @@
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 2 or less Life cards, that card gains an additional +2000 power.",
     "trigger": "Trigger[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-029.png",
     "cost": 1,
     "abilityKeywords": [
@@ -1279,7 +1279,7 @@
     ],
     "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type Character card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-030.png",
     "cost": 1,
     "abilityKeywords": [
@@ -1313,7 +1313,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] You can trash 1 {Land of Wano} type card from your hand: Set up to 2 of your DON!! cards as active.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-031.png",
     "life": 5,
     "abilityKeywords": [
@@ -1348,7 +1348,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] You can trash 1 {Land of Wano} type card from your hand: Set up to 2 of your DON!! cards as active.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-031_p1.png",
     "life": 5,
     "abilityKeywords": [
@@ -1358,7 +1358,7 @@
     "expansionCode": "OP01",
     "imageId": "OP01-031_p1",
     "id": "OP01-031_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -1384,7 +1384,7 @@
     ],
     "effect": "[DON!! x1] If your opponent has 2 or more rested Characters, this Character gains +2000 power.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-032.png",
     "cost": 3,
     "abilityKeywords": [
@@ -1418,7 +1418,7 @@
     ],
     "effect": "[On Play] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-033.png",
     "cost": 3,
     "expansionCode": "OP01",
@@ -1453,7 +1453,7 @@
     ],
     "effect": "[DON!! x2] [When Attacking] Set up to 1 of your DON!! cards as active.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-034.png",
     "cost": 3,
     "abilityKeywords": [
@@ -1489,7 +1489,7 @@
     ],
     "effect": "[DON!! x2] [When Attacking] Set up to 1 of your DON!! cards as active.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-034_p1.png",
     "cost": 3,
     "abilityKeywords": [
@@ -1499,7 +1499,7 @@
     "expansionCode": "OP01",
     "imageId": "OP01-034_p1",
     "id": "OP01-034_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -1525,7 +1525,7 @@
     ],
     "effect": "[DON!! x1] [When Attacking] [Once Per Turn] Rest up to 1 of your opponent's Characters with a cost of 5 or less.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-035.png",
     "cost": 3,
     "abilityKeywords": [
@@ -1560,7 +1560,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-036.png",
     "cost": 1,
     "expansionCode": "OP01",
@@ -1592,7 +1592,7 @@
     ],
     "effect": null,
     "trigger": "Trigger[Trigger] Play this card.",
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-037.png",
     "cost": 2,
     "expansionCode": "OP01",
@@ -1623,7 +1623,7 @@
     ],
     "effect": "[DON!! x1] [When Attacking] K.O. up to 1 of your opponent's rested Characters with a cost of 2 or less.[On K.O.] Your opponent chooses 1 card from your hand; trash that card.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-038.png",
     "cost": 2,
     "abilityKeywords": [
@@ -1659,7 +1659,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x1] [On Block] If you have 3 or more Characters, draw 1 card.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-039.png",
     "cost": 2,
     "abilityKeywords": [
@@ -1695,7 +1695,7 @@
     ],
     "effect": "[On Play] If your Leader is [Kouzuki Oden], play up to 1 {The Akazaya Nine} type Character card with a cost of 3 or less from your hand.[DON!! x1] [When Attacking] [Once Per Turn] Set up to 1 of your {The Akazaya Nine} type Character cards with a cost of 3 or less as active.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-040.png",
     "cost": 6,
     "abilityKeywords": [
@@ -1732,7 +1732,7 @@
     ],
     "effect": "[On Play] If your Leader is [Kouzuki Oden], play up to 1 {The Akazaya Nine} type Character card with a cost of 3 or less from your hand.[DON!! x1] [When Attacking] [Once Per Turn] Set up to 1 of your {The Akazaya Nine} type Character cards with a cost of 3 or less as active.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-040_p1.png",
     "cost": 6,
     "abilityKeywords": [
@@ -1744,7 +1744,7 @@
     "expansionCode": "OP01",
     "imageId": "OP01-040_p1",
     "id": "OP01-040_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -1770,7 +1770,7 @@
     ],
     "effect": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area) You may rest this Character: Look at 5 cards from the top of your deck; reveal up to 1 {Land of Wano} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-041.png",
     "cost": 1,
     "abilityKeywords": [
@@ -1804,7 +1804,7 @@
     ],
     "effect": "[On Play] ③ (You may rest the specified number of DON!! cards in your cost area.): If your Leader is [Kouzuki Oden], set up to 1 of your {Land of Wano} type Character cards with a cost of 3 or less as active.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-042.png",
     "cost": 1,
     "expansionCode": "OP01",
@@ -1837,7 +1837,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-043.png",
     "cost": 3,
     "expansionCode": "OP01",
@@ -1867,7 +1867,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] If you don't have [Penguin], play up to 1 [Penguin] from your hand.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-044.png",
     "cost": 3,
     "abilityKeywords": [
@@ -1901,7 +1901,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-045.png",
     "cost": 4,
     "expansionCode": "OP01",
@@ -1932,7 +1932,7 @@
     ],
     "effect": "[DON!! x1] [When Attacking] If your Leader is [Kouzuki Oden], set up to 2 of your DON!! cards as active.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-046.png",
     "cost": 5,
     "abilityKeywords": [
@@ -1967,7 +1967,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] You may return 1 Character to your hand: Play up to 1 Character card with a cost of 3 or less from your hand.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-047.png",
     "cost": 5,
     "abilityKeywords": [
@@ -2002,7 +2002,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] You may return 1 Character to your hand: Play up to 1 Character card with a cost of 3 or less from your hand.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-047_p1.png",
     "cost": 5,
     "abilityKeywords": [
@@ -2012,7 +2012,7 @@
     "expansionCode": "OP01",
     "imageId": "OP01-047_p1",
     "id": "OP01-047_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -2039,7 +2039,7 @@
     ],
     "effect": "[On Play] Rest up to 1 of your opponent's Characters with a cost of 3 or less.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-048.png",
     "cost": 2,
     "expansionCode": "OP01",
@@ -2074,7 +2074,7 @@
     ],
     "effect": "[On Play] Rest up to 1 of your opponent's Characters with a cost of 3 or less.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-048_p1.png",
     "cost": 2,
     "expansionCode": "OP01",
@@ -2083,7 +2083,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -2109,7 +2109,7 @@
     ],
     "effect": "[DON!! x1] [When Attacking] Play up to 1 {Heart Pirates} type Character card other than [Bepo] with a cost of 4 or less from your hand.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-049.png",
     "cost": 4,
     "abilityKeywords": [
@@ -2143,7 +2143,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] If you don't have [Shachi], play up to 1 [Shachi] from your hand.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-050.png",
     "cost": 3,
     "abilityKeywords": [
@@ -2178,7 +2178,7 @@
     ],
     "effect": "[DON!! x1] [Opponent's Turn] If this Character is rested, your opponent cannot attack any card other than the Character [Eustass\"Captain\"Kid].[Activate: Main] [Once Per Turn] You may rest this Character: Play up to 1 Character card with a cost of 3 or less from your hand.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-051.png",
     "cost": 8,
     "abilityKeywords": [
@@ -2215,7 +2215,7 @@
     ],
     "effect": "[DON!! x1] [Opponent's Turn] If this Character is rested, your opponent cannot attack any card other than the Character [Eustass\"Captain\"Kid].[Activate: Main] [Once Per Turn] You may rest this Character: Play up to 1 Character card with a cost of 3 or less from your hand.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-051_p1.png",
     "cost": 8,
     "abilityKeywords": [
@@ -2227,7 +2227,7 @@
     "expansionCode": "OP01",
     "imageId": "OP01-051_p1",
     "id": "OP01-051_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -2253,7 +2253,7 @@
     ],
     "effect": "[When Attacking] [Once Per Turn] If you have 2 or more rested Characters, draw 1 card.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-052.png",
     "cost": 3,
     "abilityKeywords": [
@@ -2287,7 +2287,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-053.png",
     "cost": 2,
     "expansionCode": "OP01",
@@ -2319,7 +2319,7 @@
     ],
     "effect": "[On Play] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-054.png",
     "cost": 5,
     "expansionCode": "OP01",
@@ -2353,7 +2353,7 @@
     ],
     "effect": "[Main] You may rest 2 of your Characters: Draw 2 cards.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-055.png",
     "cost": 1,
     "abilityKeywords": [
@@ -2387,7 +2387,7 @@
     ],
     "effect": "[Main] K.O. up to 2 of your opponent's rested Characters with a cost of 5 or less.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-056.png",
     "cost": 6,
     "abilityKeywords": [
@@ -2421,7 +2421,7 @@
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, set up to 1 of your Characters as active.",
     "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-057.png",
     "cost": 1,
     "abilityKeywords": [
@@ -2455,7 +2455,7 @@
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters.",
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-058.png",
     "cost": 2,
     "abilityKeywords": [
@@ -2488,7 +2488,7 @@
     ],
     "effect": "[Main] You may trash 1 {Land of Wano} type card from your hand: Set up to 1 of your {Land of Wano} type Character cards with a cost of 3 or less as active.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-059.png",
     "cost": 3,
     "abilityKeywords": [
@@ -2522,7 +2522,7 @@
     ],
     "effect": "[DON!! x2] [When Attacking] ➀ (You may rest the specified number of DON!! cards in your cost area.): Reveal 1 card from the top of your deck. If that card is a {The Seven Warlords of the Sea} type Character card with a cost of 4 or less, you may play that card rested.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-060.png",
     "life": 5,
     "abilityKeywords": [
@@ -2557,7 +2557,7 @@
     ],
     "effect": "[DON!! x2] [When Attacking] ➀ (You may rest the specified number of DON!! cards in your cost area.): Reveal 1 card from the top of your deck. If that card is a {The Seven Warlords of the Sea} type Character card with a cost of 4 or less, you may play that card rested.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-060_p1.png",
     "life": 5,
     "abilityKeywords": [
@@ -2567,7 +2567,7 @@
     "expansionCode": "OP01",
     "imageId": "OP01-060_p1",
     "id": "OP01-060_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -2594,7 +2594,7 @@
     ],
     "effect": "[DON!! x1] [Your Turn] [Once Per Turn] When your opponent's Character is K.O.'d, add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-061.png",
     "life": 4,
     "abilityKeywords": [
@@ -2631,7 +2631,7 @@
     ],
     "effect": "[DON!! x1] [Your Turn] [Once Per Turn] When your opponent's Character is K.O.'d, add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-061_p1.png",
     "life": 4,
     "abilityKeywords": [
@@ -2642,7 +2642,7 @@
     "expansionCode": "OP01",
     "imageId": "OP01-061_p1",
     "id": "OP01-061_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -2669,7 +2669,7 @@
     ],
     "effect": "[DON!! x1] When you activate an Event, you may draw 1 card if you have 4 or less cards in your hand and haven't drawn a card using this Leader's effect during this turn.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-062.png",
     "life": 4,
     "abilityKeywords": [
@@ -2704,7 +2704,7 @@
     ],
     "effect": "[DON!! x1] When you activate an Event, you may draw 1 card if you have 4 or less cards in your hand and haven't drawn a card using this Leader's effect during this turn.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-062_p1.png",
     "life": 4,
     "abilityKeywords": [
@@ -2713,7 +2713,7 @@
     "expansionCode": "OP01",
     "imageId": "OP01-062_p1",
     "id": "OP01-062_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -2739,7 +2739,7 @@
     ],
     "effect": "[DON!! x1] [Activate: Main] You may rest this Character: Choose 1 card from your opponent's hand; your opponent reveals that card. If the revealed card is an Event, place up to 1 card from your opponent's Life area at the bottom of the owner's deck.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-063.png",
     "cost": 4,
     "abilityKeywords": [
@@ -2773,7 +2773,7 @@
     ],
     "effect": "[DON!! x1] [When Attacking] You may trash 1 card from your hand: Return up to 1 of your opponent's Characters with a cost of 3 or less to the owner's hand.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-064.png",
     "cost": 2,
     "abilityKeywords": [
@@ -2807,7 +2807,7 @@
     ],
     "effect": "[DON!! x1] [When Attacking] You may trash 1 card from your hand: Return up to 1 of your opponent's Characters with a cost of 3 or less to the owner's hand.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-064_p1.png",
     "cost": 2,
     "abilityKeywords": [
@@ -2817,7 +2817,7 @@
     "expansionCode": "OP01",
     "imageId": "OP01-064_p1",
     "id": "OP01-064_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -2844,7 +2844,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-065.png",
     "cost": 5,
     "expansionCode": "OP01",
@@ -2874,7 +2874,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-066.png",
     "cost": 4,
     "expansionCode": "OP01",
@@ -2905,7 +2905,7 @@
     ],
     "effect": "[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.)[DON!! x1] Give blue Events in your hand −1 cost.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-067.png",
     "cost": 7,
     "abilityKeywords": [
@@ -2940,7 +2940,7 @@
     ],
     "effect": "[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.)[DON!! x1] Give blue Events in your hand −1 cost.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-067_p1.png",
     "cost": 7,
     "abilityKeywords": [
@@ -2950,7 +2950,7 @@
     "expansionCode": "OP01",
     "imageId": "OP01-067_p1",
     "id": "OP01-067_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -2976,7 +2976,7 @@
     ],
     "effect": "[Your Turn] This Character gains [Double Attack] if you have 5 or more cards in your hand.(This card deals 2 damage.)",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-068.png",
     "cost": 4,
     "abilityKeywords": [
@@ -3011,7 +3011,7 @@
     ],
     "effect": "[On K.O.] Play up to 1 [Smiley] from your deck, then shuffle your deck.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-069.png",
     "cost": 4,
     "abilityKeywords": [
@@ -3044,7 +3044,7 @@
     ],
     "effect": "[On Play] Place up to 1 Character with a cost of 7 or less at the bottom of the owner's deck.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-070.png",
     "cost": 9,
     "expansionCode": "OP01",
@@ -3077,7 +3077,7 @@
     ],
     "effect": "[On Play] Place up to 1 Character with a cost of 7 or less at the bottom of the owner's deck.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-070_p1.png",
     "cost": 9,
     "expansionCode": "OP01",
@@ -3086,7 +3086,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -3112,7 +3112,7 @@
     ],
     "effect": "[On Play] Place up to 1 Character with a cost of 3 or less at the bottom of the owner's deck.",
     "trigger": "Trigger[Trigger] Play this card.",
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-071.png",
     "cost": 4,
     "expansionCode": "OP01",
@@ -3146,7 +3146,7 @@
     ],
     "effect": "[DON!! x1] [Your Turn] This Character gains +1000 power for every card in your hand.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-072.png",
     "cost": 3,
     "abilityKeywords": [
@@ -3181,7 +3181,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Look at 5 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-073.png",
     "cost": 3,
     "abilityKeywords": [
@@ -3216,7 +3216,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Look at 5 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-073_p1.png",
     "cost": 3,
     "abilityKeywords": [
@@ -3226,7 +3226,7 @@
     "expansionCode": "OP01",
     "imageId": "OP01-073_p1",
     "id": "OP01-073_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -3252,7 +3252,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] Play up to 1 [Pacifista] with a cost of 4 or less from your hand.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-074.png",
     "cost": 4,
     "abilityKeywords": [
@@ -3287,7 +3287,7 @@
     ],
     "effect": "Under the rules of this game, you may have any number of this card in your deck.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-075.png",
     "cost": 4,
     "abilityKeywords": [
@@ -3320,7 +3320,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-076.png",
     "cost": 2,
     "expansionCode": "OP01",
@@ -3350,7 +3350,7 @@
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-077.png",
     "cost": 1,
     "expansionCode": "OP01",
@@ -3383,7 +3383,7 @@
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-077_p1.png",
     "cost": 1,
     "expansionCode": "OP01",
@@ -3392,7 +3392,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -3418,7 +3418,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x1] [When Attacking]/[On Block] Draw 1 card if you have 5 or less cards in your hand.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-078.png",
     "cost": 4,
     "abilityKeywords": [
@@ -3455,7 +3455,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x1] [When Attacking]/[On Block] Draw 1 card if you have 5 or less cards in your hand.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-078_p1.png",
     "cost": 4,
     "abilityKeywords": [
@@ -3467,7 +3467,7 @@
     "expansionCode": "OP01",
     "imageId": "OP01-078_p1",
     "id": "OP01-078_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -3492,7 +3492,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] If your Leader has the {Baroque Works} type, add up to 1 Event from your trash to your hand.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-079.png",
     "cost": 3,
     "abilityKeywords": [
@@ -3526,7 +3526,7 @@
     ],
     "effect": "[On K.O.] Draw 1 card.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-080.png",
     "cost": 3,
     "abilityKeywords": [
@@ -3559,7 +3559,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-081.png",
     "cost": 3,
     "expansionCode": "OP01",
@@ -3590,7 +3590,7 @@
     ],
     "effect": null,
     "trigger": "Trigger[Trigger] Play this card.",
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-082.png",
     "cost": 2,
     "expansionCode": "OP01",
@@ -3620,7 +3620,7 @@
     ],
     "effect": "[DON!! x1] [Your Turn] If your Leader has the {Baroque Works} type, this Character gains +1000 power for every 2 Events in your trash.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-083.png",
     "cost": 2,
     "abilityKeywords": [
@@ -3654,7 +3654,7 @@
     ],
     "effect": "[DON!! x1] [When Attacking] Look at 5 cards from the top of your deck; reveal up to 1 {Baroque Works} type Event card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-084.png",
     "cost": 3,
     "abilityKeywords": [
@@ -3688,7 +3688,7 @@
     ],
     "effect": "[On Play] If your Leader has the {Baroque Works} type, select up to 1 of your opponent's Characters with a cost of 4 or less. The selected Character cannot attack until the end of your opponent's next turn.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-085.png",
     "cost": 2,
     "expansionCode": "OP01",
@@ -3722,7 +3722,7 @@
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, return up to 1 active Character with a cost of 3 or less to the owner's hand.",
     "trigger": "Trigger[Trigger] Return up to 1 Character with a cost of 4 or less to the owner's hand.",
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-086.png",
     "cost": 2,
     "abilityKeywords": [
@@ -3755,7 +3755,7 @@
     ],
     "effect": "[Counter] Play up to 1 {Baroque Works} type Character card with a cost of 3 or less from your hand.",
     "trigger": "Trigger[Trigger] Activate this card's [Counter] effect.",
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-087.png",
     "cost": 2,
     "abilityKeywords": [
@@ -3789,7 +3789,7 @@
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, look at 3 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
     "trigger": "Trigger[Trigger] Draw 2 cards and trash 1 card from your hand.",
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-088.png",
     "cost": 1,
     "abilityKeywords": [
@@ -3823,7 +3823,7 @@
     ],
     "effect": "[Counter] If your Leader has the {The Seven Warlords of the Sea} type, return up to 1 Character with a cost of 5 or less to the owner's hand.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-089.png",
     "cost": 3,
     "abilityKeywords": [
@@ -3856,7 +3856,7 @@
     ],
     "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Baroque Works} type card other than [Baroque Works] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-090.png",
     "cost": 1,
     "abilityKeywords": [
@@ -3889,7 +3889,7 @@
     ],
     "effect": "[Your Turn] If you have 10 DON!! cards on your field, give all of your opponent's Characters −1000 power.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-091.png",
     "life": 5,
     "abilityKeywords": [
@@ -3922,7 +3922,7 @@
     ],
     "effect": "[Your Turn] If you have 10 DON!! cards on your field, give all of your opponent's Characters −1000 power.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-091_p1.png",
     "life": 5,
     "abilityKeywords": [
@@ -3931,7 +3931,7 @@
     "expansionCode": "OP01",
     "imageId": "OP01-091_p1",
     "id": "OP01-091_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -3956,7 +3956,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-092.png",
     "cost": 7,
     "expansionCode": "OP01",
@@ -3986,7 +3986,7 @@
     ],
     "effect": "[On Play] ① (You may rest the specified number of DON!! cards in your cost area.): Add up to 1 DON!! card from your DON!! deck and rest it.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-093.png",
     "cost": 2,
     "expansionCode": "OP01",
@@ -4019,7 +4019,7 @@
     ],
     "effect": "[On Play] ① (You may rest the specified number of DON!! cards in your cost area.): Add up to 1 DON!! card from your DON!! deck and rest it.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-093_p1.png",
     "cost": 2,
     "expansionCode": "OP01",
@@ -4028,7 +4028,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -4054,7 +4054,7 @@
     ],
     "effect": "[On Play] DON!! −6 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Animal Kingdom Pirates} type, K.O. all Characters other than this Character.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-094.png",
     "cost": 10,
     "expansionCode": "OP01",
@@ -4088,7 +4088,7 @@
     ],
     "effect": "[On Play] DON!! −6 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Animal Kingdom Pirates} type, K.O. all Characters other than this Character.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-094_p1.png",
     "cost": 10,
     "expansionCode": "OP01",
@@ -4097,7 +4097,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -4122,7 +4122,7 @@
     ],
     "effect": "[On Play] Draw 1 card if you have 8 or more DON!! cards on your field.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-095.png",
     "cost": 5,
     "expansionCode": "OP01",
@@ -4155,7 +4155,7 @@
     ],
     "effect": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 3 or less and up to 1 of your opponent's Characters with a cost of 2 or less.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-096.png",
     "cost": 7,
     "expansionCode": "OP01",
@@ -4188,7 +4188,7 @@
     ],
     "effect": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 3 or less and up to 1 of your opponent's Characters with a cost of 2 or less.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-096_p1.png",
     "cost": 7,
     "expansionCode": "OP01",
@@ -4197,7 +4197,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -4222,7 +4222,7 @@
     ],
     "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains [Rush] during this turn. Then, give up to 1 of your opponent's Characters −2000 power during this turn.(This card can attack on the turn in which it is played.)",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-097.png",
     "cost": 6,
     "abilityKeywords": [
@@ -4256,7 +4256,7 @@
     ],
     "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains [Rush] during this turn. Then, give up to 1 of your opponent's Characters −2000 power during this turn.(This card can attack on the turn in which it is played.)",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-097_p1.png",
     "cost": 6,
     "abilityKeywords": [
@@ -4266,7 +4266,7 @@
     "expansionCode": "OP01",
     "imageId": "OP01-097_p1",
     "id": "OP01-097_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -4292,7 +4292,7 @@
     ],
     "effect": "[On Play] Reveal up to 1 [Artificial Devil Fruit SMILE] from your deck and add it to your hand. Then, shuffle your deck.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-098.png",
     "cost": 1,
     "expansionCode": "OP01",
@@ -4326,7 +4326,7 @@
     ],
     "effect": "{Kurozumi Clan} type Characters other than your [Kurozumi Semimaru] cannot be K.O.'d in battle.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-099.png",
     "cost": 2,
     "expansionCode": "OP01",
@@ -4357,7 +4357,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-100.png",
     "cost": 2,
     "abilityKeywords": [
@@ -4390,7 +4390,7 @@
     ],
     "effect": "[DON!! x1] [When Attacking] You may trash 1 card from your hand: Add up to 1 DON!! card from your DON!! deck and rest it.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-101.png",
     "cost": 3,
     "abilityKeywords": [
@@ -4424,7 +4424,7 @@
     ],
     "effect": "[When Attacking] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your opponent trashes 1 card from their hand.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-102.png",
     "cost": 3,
     "abilityKeywords": [
@@ -4457,7 +4457,7 @@
     ],
     "effect": "[When Attacking] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your opponent trashes 1 card from their hand.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-102_p1.png",
     "cost": 3,
     "abilityKeywords": [
@@ -4466,7 +4466,7 @@
     "expansionCode": "OP01",
     "imageId": "OP01-102_p1",
     "id": "OP01-102_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -4492,7 +4492,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-103.png",
     "cost": 4,
     "expansionCode": "OP01",
@@ -4523,7 +4523,7 @@
     ],
     "effect": null,
     "trigger": "Trigger[Trigger] Play this card.",
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-104.png",
     "cost": 2,
     "expansionCode": "OP01",
@@ -4554,7 +4554,7 @@
     ],
     "effect": "[On Play] Choose 2 cards from your opponent's hand; your opponent reveals those cards.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-105.png",
     "cost": 2,
     "expansionCode": "OP01",
@@ -4588,7 +4588,7 @@
     ],
     "effect": "[On Play] Add up to 1 DON!! card from your DON!! deck and rest it.",
     "trigger": "Trigger[Trigger] Play this card.",
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-106.png",
     "cost": 4,
     "expansionCode": "OP01",
@@ -4622,7 +4622,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-107.png",
     "cost": 5,
     "expansionCode": "OP01",
@@ -4654,7 +4654,7 @@
     ],
     "effect": "[On K.O.] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-108.png",
     "cost": 4,
     "abilityKeywords": [
@@ -4687,7 +4687,7 @@
     ],
     "effect": "[DON!! x1] [Your Turn] If you have 8 or more DON!! cards on your field, this Character gains +1000 power.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-109.png",
     "cost": 2,
     "abilityKeywords": [
@@ -4721,7 +4721,7 @@
     ],
     "effect": "[DON!! x1] [Your Turn] If you have 8 or more DON!! cards on your field, this Character gains +1000 power.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-109_p1.png",
     "cost": 2,
     "abilityKeywords": [
@@ -4731,7 +4731,7 @@
     "expansionCode": "OP01",
     "imageId": "OP01-109_p1",
     "id": "OP01-109_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -4757,7 +4757,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-110.png",
     "cost": 6,
     "expansionCode": "OP01",
@@ -4787,7 +4787,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Block] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains +1000 power during this turn.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-111.png",
     "cost": 4,
     "abilityKeywords": [
@@ -4821,7 +4821,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character can also attack your opponent's active Characters during this turn.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-112.png",
     "cost": 4,
     "abilityKeywords": [
@@ -4856,7 +4856,7 @@
     ],
     "effect": "[On K.O.] Add up to 1 DON!! card from your DON!! deck and rest it.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-113.png",
     "cost": 3,
     "abilityKeywords": [
@@ -4891,7 +4891,7 @@
     ],
     "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your opponent trashes 1 card from their hand.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-114.png",
     "cost": 5,
     "expansionCode": "OP01",
@@ -4925,7 +4925,7 @@
     ],
     "effect": "[Main] K.O. up to 1 of your opponent's Characters with a cost of 2 or less, then add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-115.png",
     "cost": 4,
     "abilityKeywords": [
@@ -4959,7 +4959,7 @@
     ],
     "effect": "[Main] Look at 5 cards from the top of your deck; play up to 1 {SMILE} type Character card with a cost of 3 or less. Then, place the rest at the bottom of your deck in any order.",
     "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-116.png",
     "cost": 2,
     "abilityKeywords": [
@@ -4993,7 +4993,7 @@
     ],
     "effect": "[Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 1 of your opponent's Characters with a cost of 6 or less.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-117.png",
     "cost": 2,
     "abilityKeywords": [
@@ -5026,7 +5026,7 @@
     ],
     "effect": "[Counter] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, draw 1 card.",
     "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-118.png",
     "cost": 1,
     "abilityKeywords": [
@@ -5060,7 +5060,7 @@
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, if you have 2 or less Life cards, add up to 1 DON!! card from your DON!! deck and rest it.",
     "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-119.png",
     "cost": 2,
     "abilityKeywords": [
@@ -5094,7 +5094,7 @@
     ],
     "effect": "[Rush] (This card can attack on the turn in which it is played.)[When Attacking] Your opponent cannot activate a [Blocker] Character that has 2000 or less power during this battle.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-120.png",
     "cost": 9,
     "abilityKeywords": [
@@ -5130,7 +5130,7 @@
     ],
     "effect": "[Rush] (This card can attack on the turn in which it is played.)[When Attacking] Your opponent cannot activate a [Blocker] Character that has 2000 or less power during this battle.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-120_p1.png",
     "cost": 9,
     "abilityKeywords": [
@@ -5141,7 +5141,7 @@
     "expansionCode": "OP01",
     "imageId": "OP01-120_p1",
     "id": "OP01-120_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -5167,7 +5167,7 @@
     ],
     "effect": "[Rush] (This card can attack on the turn in which it is played.)[When Attacking] Your opponent cannot activate a [Blocker] Character that has 2000 or less power during this battle.",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-120_p2.png",
     "cost": 9,
     "abilityKeywords": [
@@ -5178,7 +5178,7 @@
     "expansionCode": "OP01",
     "imageId": "OP01-120_p2",
     "id": "OP01-120_p2_ROMANCE_DAWN_[OP01]",
-    "illustration": "MANGA",
+    "illustration": "Manga",
     "slugs": [
       {
         "service": "Card Trader",
@@ -5203,7 +5203,7 @@
     ],
     "effect": "Also treat this card's name as [Kouzuki Oden] according to the rules.[Double Attack] (This card deals 2 damage.)[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.)",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-121.png",
     "cost": 5,
     "abilityKeywords": [
@@ -5237,7 +5237,7 @@
     ],
     "effect": "Also treat this card's name as [Kouzuki Oden] according to the rules.[Double Attack] (This card deals 2 damage.)[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.)",
     "trigger": null,
-    "setName": "ROMANCE DAWN [OP01]",
+    "setName": "ROMANCE DAWN [OP-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-121_p1.png",
     "cost": 5,
     "abilityKeywords": [
@@ -5247,7 +5247,7 @@
     "expansionCode": "OP01",
     "imageId": "OP01-121_p1",
     "id": "OP01-121_p1_ROMANCE_DAWN_[OP01]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",

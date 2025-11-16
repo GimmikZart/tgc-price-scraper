@@ -30,17 +30,25 @@ function goToEditDeck() {
 }
 
 const singleCardsInDeck = computed(() => {
-  const uniqueCards = new Map();
+  const uniqueCards = new Map(); 
+  if( currentDeck.value.cards.length == 0) return [];
+  console.log('CURRENT DECK', currentDeck);
+  
   currentDeck.value.cards.forEach((card) => {
+    
     const cardData = allCards.find((c) => c.id === card);
+    if(cardData == undefined){
+      console.log({card})
+    }
     if (uniqueCards.has(cardData)) {
       uniqueCards.get(cardData).count++;
     } else {
       uniqueCards.set(cardData, { ...cardData, count: 1 });
     }
+    
   });
   return Array.from(uniqueCards.values()).sort((a, b) => {
-    return a.cost - b.cost || a.name.localeCompare(b.name);
+    return a.cost - b.cost;
   });
 });
 

@@ -46,6 +46,7 @@ function parseLine(line) {
 
 export function parseDeckClipboardText(text, allCards, { deckName, slug }) {
   if (!text) throw new Error("Clipboard vuoto.");
+
   const lines = text
     .split(/\r?\n/)
     .map(l => l.trim())
@@ -62,8 +63,10 @@ export function parseDeckClipboardText(text, allCards, { deckName, slug }) {
       continue;
     }
     entries.push(parsed);
+    console.log('entries after 1 push', entries, parsed);
+    
   }
-
+  console.log({ entries });
   if (!entries.length) throw new Error("Formato non riconosciuto (es. 3xOP07-015).");
 
   // Prova a determinare il leader: prima riga che mappa a una carta type=LEADER, altrimenti la prima riga con count==1.
@@ -122,6 +125,17 @@ export function parseDeckClipboardText(text, allCards, { deckName, slug }) {
     throw new Error(`Il mazzo deve contenere 50 carte (ne ho trovate ${cardIds.length}).`);
   }
 
+  console.log({
+    name: deckName,
+    slug,
+    leader: leaderId,
+    cards: cardIds,
+    visibility: "private",
+    isPublished: true,
+    isLocal: true,
+  });
+  
+
   const deck = {
     name: deckName,
     slug,
@@ -137,6 +151,7 @@ export function parseDeckClipboardText(text, allCards, { deckName, slug }) {
 
 export async function importDeckFromClipboard(deckName, allCards) {
   const text = await navigator.clipboard.readText();
+  console.log({text});
   const slug = deckName.toLowerCase().replace(/\s+/g, "-");
   return parseDeckClipboardText(text, allCards, { deckName, slug });
 }

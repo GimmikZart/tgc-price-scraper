@@ -16,7 +16,7 @@
     ],
     "effect": "This Leader cannot attack.[Activate: Main] [Once Per Turn] ➁ (You may rest the specified number of DON!! cards in your cost area.): Draw 1 card and up to 1 of your Characters gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-001.png",
     "life": 5,
     "abilityKeywords": [
@@ -52,7 +52,7 @@
     ],
     "effect": "This Leader cannot attack.[Activate: Main] [Once Per Turn] ➁ (You may rest the specified number of DON!! cards in your cost area.): Draw 1 card and up to 1 of your Characters gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-001_p1.png",
     "life": 5,
     "abilityKeywords": [
@@ -63,7 +63,7 @@
     "expansionCode": "OP04",
     "imageId": "OP04-001_p1",
     "id": "OP04-001_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -88,7 +88,7 @@
     ],
     "effect": "[Activate: Main] You may rest this Character and give your 1 active Leader −5000 power during this turn: Look at 5 cards from the top of your deck; reveal up to 1 {Alabasta} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-002.png",
     "cost": 2,
     "abilityKeywords": [
@@ -122,7 +122,7 @@
     ],
     "effect": "[On K.O.] K.O. up to 1 of your opponent's Characters with 5000 base power or less.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-003.png",
     "cost": 4,
     "abilityKeywords": [
@@ -156,7 +156,7 @@
     ],
     "effect": "[Activate: Main] You may rest this Character: Give up to 1 rested DON!! card to each of your {Alabasta} type Characters.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-004.png",
     "cost": 1,
     "abilityKeywords": [
@@ -190,7 +190,7 @@
     ],
     "effect": "If you have a [Kung Fu Jugon] other than this Character, this Character gains [Blocker].(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-005.png",
     "cost": 1,
     "abilityKeywords": [
@@ -223,7 +223,7 @@
     ],
     "effect": "[When Attacking] You may give your 1 active Leader −5000 power during this turn: This Character gains +2000 power until the start of your next turn.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-006.png",
     "cost": 3,
     "abilityKeywords": [
@@ -257,7 +257,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-007.png",
     "cost": 1,
     "expansionCode": "OP04",
@@ -287,7 +287,7 @@
     ],
     "effect": "[DON!! x1] [When Attacking] If your Leader is [Nefeltari Vivi], give up to 1 of your opponent's Characters −3000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 0 power or less.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-008.png",
     "cost": 3,
     "abilityKeywords": [
@@ -322,7 +322,7 @@
     ],
     "effect": "[When Attacking] You may give your 1 active Leader −5000 power during this turn: Return this Character to the owner's hand at the end of this turn.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-009.png",
     "cost": 2,
     "abilityKeywords": [
@@ -357,7 +357,7 @@
     ],
     "effect": "[On Play] Play up to 1 {Animal} type Character card with 3000 power or less from your hand.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-010.png",
     "cost": 3,
     "expansionCode": "OP04",
@@ -391,7 +391,7 @@
     ],
     "effect": "[When Attacking] Reveal 1 card from the top of your deck. If the revealed card is a Character card with 6000 power or more, this Character gains +3000 power during this turn. Then, place the revealed card at the bottom of your deck.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-011.png",
     "cost": 2,
     "abilityKeywords": [
@@ -424,7 +424,7 @@
     ],
     "effect": "[Your Turn] All of your {Alabasta} type Characters other than this Character gain +1000 power.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-012.png",
     "cost": 2,
     "abilityKeywords": [
@@ -457,7 +457,7 @@
     ],
     "effect": "[DON!! x1] [When Attacking] K.O. up to 1 of your opponent's Characters with 4000 power or less.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-013.png",
     "cost": 5,
     "abilityKeywords": [
@@ -491,7 +491,7 @@
     ],
     "effect": "[DON!! x1] [When Attacking] K.O. up to 1 of your opponent's Characters with 4000 power or less.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-013_p1.png",
     "cost": 5,
     "abilityKeywords": [
@@ -501,7 +501,7 @@
     "expansionCode": "OP04",
     "imageId": "OP04-013_p1",
     "id": "OP04-013_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -527,7 +527,7 @@
     ],
     "effect": "[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.)",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-014.png",
     "cost": 8,
     "abilityKeywords": [
@@ -561,7 +561,7 @@
     ],
     "effect": "[On Play] Give up to 1 of your opponent's Characters −2000 power during this turn.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-015.png",
     "cost": 5,
     "expansionCode": "OP04",
@@ -595,7 +595,7 @@
     ],
     "effect": "[Counter] You may trash 1 card from your hand: Up to 1 of your Leader or Character cards gains +3000 power during this battle.",
     "trigger": "Trigger[Trigger] Give up to 1 of your opponent's Leader or Character cards −3000 power during this turn.",
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-016.png",
     "cost": null,
     "abilityKeywords": [
@@ -629,7 +629,7 @@
     ],
     "effect": "[Counter] Give up to 1 of your opponent's Leader or Character cards −2000 power during this turn. Then, if your Leader is active, give up to 1 of your opponent's Leader or Character cards −1000 power during this turn.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-017.png",
     "cost": 1,
     "abilityKeywords": [
@@ -662,7 +662,7 @@
     ],
     "effect": "[Main] If your Leader has the {Alabasta} type, give up to 2 of your opponent's Characters −2000 power during this turn.",
     "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-018.png",
     "cost": 3,
     "abilityKeywords": [
@@ -697,7 +697,7 @@
     ],
     "effect": "[End of Your Turn] Set up to 2 of your DON!! cards as active.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-019.png",
     "life": 4,
     "abilityKeywords": [
@@ -732,7 +732,7 @@
     ],
     "effect": "[End of Your Turn] Set up to 2 of your DON!! cards as active.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-019_p1.png",
     "life": 4,
     "abilityKeywords": [
@@ -741,7 +741,7 @@
     "expansionCode": "OP04",
     "imageId": "OP04-019_p1",
     "id": "OP04-019_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -767,7 +767,7 @@
     ],
     "effect": "[DON!! x1] [Your Turn] Give all of your opponent's Characters −1 cost.[End of Your Turn] ➀ (You may rest the specified number of DON!! cards in your cost area.): Set up to 1 of your Characters with a cost of 5 or less as active.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-020.png",
     "life": 4,
     "abilityKeywords": [
@@ -803,7 +803,7 @@
     ],
     "effect": "[DON!! x1] [Your Turn] Give all of your opponent's Characters −1 cost.[End of Your Turn] ➀ (You may rest the specified number of DON!! cards in your cost area.): Set up to 1 of your Characters with a cost of 5 or less as active.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-020_p1.png",
     "life": 4,
     "abilityKeywords": [
@@ -814,7 +814,7 @@
     "expansionCode": "OP04",
     "imageId": "OP04-020_p1",
     "id": "OP04-020_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -839,7 +839,7 @@
     ],
     "effect": "[On Your Opponent's Attack] ➁ (You may rest the specified number of DON!! cards in your cost area.): Rest up to 1 of your opponent's DON!! cards.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-021.png",
     "cost": 3,
     "abilityKeywords": [
@@ -872,7 +872,7 @@
     ],
     "effect": "[Activate: Main] You may rest this Character: Rest up to 1 of your opponent's Characters with a cost of 1 or less.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-022.png",
     "cost": 1,
     "abilityKeywords": [
@@ -906,7 +906,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-023.png",
     "cost": 6,
     "expansionCode": "OP04",
@@ -936,7 +936,7 @@
     ],
     "effect": "[Opponent's Turn] [Once Per Turn] When your opponent plays a Character, if your Leader has the {Donquixote Pirates} type, rest up to 1 of your opponent's Characters. Then, rest this Character.[On Play] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-024.png",
     "cost": 2,
     "abilityKeywords": [
@@ -971,7 +971,7 @@
     ],
     "effect": "[Opponent's Turn] [Once Per Turn] When your opponent plays a Character, if your Leader has the {Donquixote Pirates} type, rest up to 1 of your opponent's Characters. Then, rest this Character.[On Play] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-024_p1.png",
     "cost": 2,
     "abilityKeywords": [
@@ -982,7 +982,7 @@
     "expansionCode": "OP04",
     "imageId": "OP04-024_p1",
     "id": "OP04-024_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -1007,7 +1007,7 @@
     ],
     "effect": "[On Your Opponent's Attack] ➁ (You may rest the specified number of DON!! cards in your cost area.): Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-025.png",
     "cost": 4,
     "abilityKeywords": [
@@ -1040,7 +1040,7 @@
     ],
     "effect": "[When Attacking] ➀ (You may rest the specified number of DON!! cards in your cost area.): If your Leader has the {Donquixote Pirates} type, rest up to 1 of your opponent's Characters with a cost of 4 or less. Then, set up to 1 of your DON!! cards as active at the end of this turn.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-026.png",
     "cost": 3,
     "abilityKeywords": [
@@ -1074,7 +1074,7 @@
     ],
     "effect": "[DON!! x1] [End of Your Turn] Set this Character as active.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-027.png",
     "cost": 4,
     "abilityKeywords": [
@@ -1108,7 +1108,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x1] [End of Your Turn] If you have 2 or more active DON!! cards, set this Character as active.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-028.png",
     "cost": 5,
     "abilityKeywords": [
@@ -1143,7 +1143,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x1] [End of Your Turn] If you have 2 or more active DON!! cards, set this Character as active.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-028_p1.png",
     "cost": 5,
     "abilityKeywords": [
@@ -1154,7 +1154,7 @@
     "expansionCode": "OP04",
     "imageId": "OP04-028_p1",
     "id": "OP04-028_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -1179,7 +1179,7 @@
     ],
     "effect": "[End of Your Turn] Set up to 1 of your DON!! cards as active.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-029.png",
     "cost": 3,
     "abilityKeywords": [
@@ -1212,7 +1212,7 @@
     ],
     "effect": "[On Play] K.O. up to 1 of your opponent's rested Characters with a cost of 5 or less.[On Your Opponent's Attack] ➁ (You may rest the specified number of DON!! cards in your cost area.): Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-030.png",
     "cost": 6,
     "abilityKeywords": [
@@ -1246,7 +1246,7 @@
     ],
     "effect": "[On Play] K.O. up to 1 of your opponent's rested Characters with a cost of 5 or less.[On Your Opponent's Attack] ➁ (You may rest the specified number of DON!! cards in your cost area.): Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-030_p1.png",
     "cost": 6,
     "abilityKeywords": [
@@ -1256,7 +1256,7 @@
     "expansionCode": "OP04",
     "imageId": "OP04-030_p1",
     "id": "OP04-030_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -1282,7 +1282,7 @@
     ],
     "effect": "[On Play] Up to a total of 3 of your opponent's rested Leader and Character cards will not become active in your opponent's next Refresh Phase.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-031.png",
     "cost": 10,
     "expansionCode": "OP04",
@@ -1316,7 +1316,7 @@
     ],
     "effect": "[On Play] Up to a total of 3 of your opponent's rested Leader and Character cards will not become active in your opponent's next Refresh Phase.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-031_p1.png",
     "cost": 10,
     "expansionCode": "OP04",
@@ -1325,7 +1325,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -1350,7 +1350,7 @@
     ],
     "effect": "[End of Your Turn] You may trash this Character: Set up to 2 of your DON!! cards as active.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-032.png",
     "cost": 1,
     "abilityKeywords": [
@@ -1383,7 +1383,7 @@
     ],
     "effect": "[On Play] If your Leader has the {Donquixote Pirates} type, rest up to 1 of your opponent's Characters with a cost of 5 or less. Then, set up to 1 of your DON!! cards as active at the end of this turn.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-033.png",
     "cost": 4,
     "expansionCode": "OP04",
@@ -1416,7 +1416,7 @@
     ],
     "effect": "[End of Your Turn] If you have 3 or more active DON!! cards, K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-034.png",
     "cost": 4,
     "abilityKeywords": [
@@ -1450,7 +1450,7 @@
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, set up to 1 of your Characters as active.",
     "trigger": "Trigger[Trigger] Up to 1 of your Leader gains +2000 power during this turn.",
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-035.png",
     "cost": 2,
     "abilityKeywords": [
@@ -1483,7 +1483,7 @@
     ],
     "effect": "[Counter] Look at 5 cards from the top of your deck; reveal up to 1 {Donquixote Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": "Trigger[Trigger] Activate this card's [Counter] effect.",
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-036.png",
     "cost": 1,
     "abilityKeywords": [
@@ -1517,7 +1517,7 @@
     ],
     "effect": "[Counter] If your Leader has the {Donquixote Pirates} type, up to 1 of your Leader or Character cards gains +2000 power during this turn.",
     "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-037.png",
     "cost": 2,
     "abilityKeywords": [
@@ -1551,7 +1551,7 @@
     ],
     "effect": "[Main]/[Counter] Rest up to 1 of your opponent's Leader or Character cards. Then, K.O. up to 1 of your opponent's rested Characters with a cost of 6 or less.",
     "trigger": "Trigger[Trigger] Set up to 5 of your DON!! cards as active.",
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-038.png",
     "cost": 5,
     "abilityKeywords": [
@@ -1586,7 +1586,7 @@
     ],
     "effect": "This Leader cannot attack.[Activate: Main] [Once Per Turn] ➀ (You may rest the specified number of DON!! cards in your cost area.): If you have 6 or less cards in your hand, look at 2 cards from the top of your deck; reveal up to 1 {Dressrosa} type card and add it to your hand. Then, trash the rest.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-039.png",
     "life": 5,
     "abilityKeywords": [
@@ -1621,7 +1621,7 @@
     ],
     "effect": "This Leader cannot attack.[Activate: Main] [Once Per Turn] ➀ (You may rest the specified number of DON!! cards in your cost area.): If you have 6 or less cards in your hand, look at 2 cards from the top of your deck; reveal up to 1 {Dressrosa} type card and add it to your hand. Then, trash the rest.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-039_p1.png",
     "life": 5,
     "abilityKeywords": [
@@ -1631,7 +1631,7 @@
     "expansionCode": "OP04",
     "imageId": "OP04-039_p1",
     "id": "OP04-039_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -1657,7 +1657,7 @@
     ],
     "effect": "[DON!! x1] [When Attacking] If you have a total of 4 or less cards in your Life area and hand, draw 1 card. If you have a Character with a cost of 8 or more, you may add up to 1 card from the top of your deck to the top of your Life cards instead of drawing 1 card.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-040.png",
     "life": 4,
     "abilityKeywords": [
@@ -1692,7 +1692,7 @@
     ],
     "effect": "[DON!! x1] [When Attacking] If you have a total of 4 or less cards in your Life area and hand, draw 1 card. If you have a Character with a cost of 8 or more, you may add up to 1 card from the top of your deck to the top of your Life cards instead of drawing 1 card.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-040_p1.png",
     "life": 4,
     "abilityKeywords": [
@@ -1702,7 +1702,7 @@
     "expansionCode": "OP04",
     "imageId": "OP04-040_p1",
     "id": "OP04-040_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -1727,7 +1727,7 @@
     ],
     "effect": "[On Play] You may trash 2 cards from your hand: Look at 5 cards from the top of your deck; reveal up to 1 {East Blue} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-041.png",
     "cost": 1,
     "expansionCode": "OP04",
@@ -1760,7 +1760,7 @@
     ],
     "effect": "[On Play] Up to 1 of your  attribute Characters gains +3000 power during this turn. Then, trash 1 card from the top of your deck.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-042.png",
     "cost": 2,
     "expansionCode": "OP04",
@@ -1793,7 +1793,7 @@
     ],
     "effect": "[DON!! x1] [When Attacking] Return up to 1 Character with a cost of 2 or less to the owner's hand or the bottom of their deck.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-043.png",
     "cost": 3,
     "abilityKeywords": [
@@ -1828,7 +1828,7 @@
     ],
     "effect": "[On Play] Return up to 1 Character with a cost of 8 or less and up to 1 Character with a cost of 3 or less to the owner's hand.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-044.png",
     "cost": 10,
     "expansionCode": "OP04",
@@ -1862,7 +1862,7 @@
     ],
     "effect": "[On Play] Return up to 1 Character with a cost of 8 or less and up to 1 Character with a cost of 3 or less to the owner's hand.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-044_p1.png",
     "cost": 10,
     "expansionCode": "OP04",
@@ -1871,7 +1871,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -1896,7 +1896,7 @@
     ],
     "effect": "[On Play] Draw 1 card.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-045.png",
     "cost": 7,
     "expansionCode": "OP04",
@@ -1929,7 +1929,7 @@
     ],
     "effect": "[On Play] If your Leader has the {Animal Kingdom Pirates} type, look at 7 cards from the top of your deck; reveal a total of up to 2 [Plague Rounds] or [Ice Oni] cards and add them to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-046.png",
     "cost": 4,
     "expansionCode": "OP04",
@@ -1963,7 +1963,7 @@
     ],
     "effect": "[Your Turn] At the end of a battle in which this Character battles your opponent's Character with a cost of 5 or less, place the opponent's Character you battled with at the bottom of the owner's deck.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-047.png",
     "cost": 8,
     "abilityKeywords": [
@@ -1996,7 +1996,7 @@
     ],
     "effect": "[On Play] Return all cards in your hand to your deck and shuffle your deck. Then, draw cards equal to the number you returned to your deck.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-048.png",
     "cost": 3,
     "expansionCode": "OP04",
@@ -2029,7 +2029,7 @@
     ],
     "effect": "[On K.O.] Draw 1 card.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-049.png",
     "cost": 2,
     "abilityKeywords": [
@@ -2062,7 +2062,7 @@
     ],
     "effect": "[Activate: Main] You may trash 1 card from your hand and rest this Character: Draw 1 card.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-050.png",
     "cost": 2,
     "abilityKeywords": [
@@ -2095,7 +2095,7 @@
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Animal Kingdom Pirates} type card other than [Who's.Who] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-051.png",
     "cost": 1,
     "expansionCode": "OP04",
@@ -2128,7 +2128,7 @@
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Animal Kingdom Pirates} type card other than [Who's.Who] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-051_p1.png",
     "cost": 1,
     "expansionCode": "OP04",
@@ -2137,7 +2137,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -2162,7 +2162,7 @@
     ],
     "effect": "[Activate: Main] ➁ (You may rest the specified number of DON!! cards in your cost area.) You may rest this Character: Draw 1 card.",
     "trigger": "Trigger[Trigger] Play this card.",
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-052.png",
     "cost": 3,
     "abilityKeywords": [
@@ -2195,7 +2195,7 @@
     ],
     "effect": "[DON!! x1] [Once Per Turn] When you activate an Event, draw 1 card. Then, place 1 card from your hand at the bottom of your deck.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-053.png",
     "cost": 4,
     "abilityKeywords": [
@@ -2230,7 +2230,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-054.png",
     "cost": 5,
     "expansionCode": "OP04",
@@ -2260,7 +2260,7 @@
     ],
     "effect": "[Main] You may trash 1 [Ice Oni] from your hand and place 1 Character with a cost of 4 or less at the bottom of the owner's deck: Play 1 [Ice Oni] from your trash.",
     "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-055.png",
     "cost": 2,
     "abilityKeywords": [
@@ -2293,7 +2293,7 @@
     ],
     "effect": "[Main] Place up to 1 Character at the bottom of the owner's deck.",
     "trigger": "Trigger[Trigger] Place up to 1 Character with a cost of 4 or less at the bottom of the owner's deck.",
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-056.png",
     "cost": 6,
     "abilityKeywords": [
@@ -2327,7 +2327,7 @@
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, place up to 1 Character with a cost of 1 or less at the bottom of the owner's deck.",
     "trigger": "Trigger[Trigger] Return up to 1 Character with a cost of 6 or less to the owner's hand.",
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-057.png",
     "cost": 2,
     "abilityKeywords": [
@@ -2362,7 +2362,7 @@
     ],
     "effect": "[Opponent's Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck by your effect, add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-058.png",
     "life": 4,
     "abilityKeywords": [
@@ -2398,7 +2398,7 @@
     ],
     "effect": "[Opponent's Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck by your effect, add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-058_p1.png",
     "life": 4,
     "abilityKeywords": [
@@ -2408,7 +2408,7 @@
     "expansionCode": "OP04",
     "imageId": "OP04-058_p1",
     "id": "OP04-058_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -2434,7 +2434,7 @@
     ],
     "effect": "[On Your Opponent's Attack] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Water Seven} type, this Character gains [Blocker] during this turn.(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-059.png",
     "cost": 1,
     "abilityKeywords": [
@@ -2469,7 +2469,7 @@
     ],
     "effect": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader's type includes \"Baroque Works\", add up to 1 card from the top of your deck to the top of your Life cards.[On Your Opponent's Attack] [Once Per Turn] DON!! −1: Draw 1 card and trash 1 card from your hand.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-060.png",
     "cost": 8,
     "abilityKeywords": [
@@ -2505,7 +2505,7 @@
     ],
     "effect": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader's type includes \"Baroque Works\", add up to 1 card from the top of your deck to the top of your Life cards.[On Your Opponent's Attack] [Once Per Turn] DON!! −1: Draw 1 card and trash 1 card from your hand.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-060_p1.png",
     "cost": 8,
     "abilityKeywords": [
@@ -2516,7 +2516,7 @@
     "expansionCode": "OP04",
     "imageId": "OP04-060_p1",
     "id": "OP04-060_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -2542,7 +2542,7 @@
     ],
     "effect": "[Activate: Main] You may trash this Character: If your Leader has the {Water Seven} type, add up to 1 DON!! card from your DON!! deck and rest it.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-061.png",
     "cost": 3,
     "abilityKeywords": [
@@ -2575,7 +2575,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-062.png",
     "cost": 5,
     "expansionCode": "OP04",
@@ -2606,7 +2606,7 @@
     ],
     "effect": "[On Your Opponent's Attack] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Water Seven} type, up to 1 of your Leader or Character cards gains +1000 power during this battle.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-063.png",
     "cost": 1,
     "abilityKeywords": [
@@ -2640,7 +2640,7 @@
     ],
     "effect": "[On Play] Add up to 1 DON!! card from your DON!! deck and rest it. Then, if you have 6 or more DON!! cards on your field, draw 1 card.",
     "trigger": "Trigger[Trigger] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play this card.",
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-064.png",
     "cost": 5,
     "expansionCode": "OP04",
@@ -2673,7 +2673,7 @@
     ],
     "effect": "[On Play] Add up to 1 DON!! card from your DON!! deck and rest it. Then, if you have 6 or more DON!! cards on your field, draw 1 card.",
     "trigger": "Trigger[Trigger] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play this card.",
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-064_p1.png",
     "cost": 5,
     "expansionCode": "OP04",
@@ -2682,7 +2682,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -2707,7 +2707,7 @@
     ],
     "effect": "[On Play] If your Leader's type includes \"Baroque Works\", up to 1 of your opponent's Characters with a cost of 5 or less cannot attack until the start of your next turn.",
     "trigger": "Trigger[Trigger] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play this card.",
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-065.png",
     "cost": 2,
     "expansionCode": "OP04",
@@ -2740,7 +2740,7 @@
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 card with a type including \"Baroque Works\" and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": "Trigger[Trigger] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play this card.",
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-066.png",
     "cost": 2,
     "expansionCode": "OP04",
@@ -2773,7 +2773,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": "Trigger[Trigger] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play this card.",
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-067.png",
     "cost": 4,
     "abilityKeywords": [
@@ -2807,7 +2807,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Your Opponent's Attack] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Return up to 1 of your opponent's Characters with a cost of 2 or less to the owner's hand.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-068.png",
     "cost": 3,
     "abilityKeywords": [
@@ -2841,7 +2841,7 @@
     ],
     "effect": "[On Your Opponent's Attack] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character's base power becomes the same as the power of your opponent's attacking Leader or Character during this turn.",
     "trigger": "Trigger[Trigger] DON!! −1: Play this card.",
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-069.png",
     "cost": 3,
     "abilityKeywords": [
@@ -2874,7 +2874,7 @@
     ],
     "effect": "[On Your Opponent's Attack] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Give up to 1 of your opponent's Characters −1000 power during this turn.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-070.png",
     "cost": 3,
     "abilityKeywords": [
@@ -2908,7 +2908,7 @@
     ],
     "effect": "[On Your Opponent's Attack] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains [Blocker] and +1000 power during this battle.(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-071.png",
     "cost": 5,
     "abilityKeywords": [
@@ -2942,7 +2942,7 @@
     ],
     "effect": "[On Your Opponent's Attack] [Once Per Turn] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may rest this Character: K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-072.png",
     "cost": 7,
     "abilityKeywords": [
@@ -2976,7 +2976,7 @@
     ],
     "effect": "[On Your Opponent's Attack] [Once Per Turn] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may rest this Character: K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-072_p1.png",
     "cost": 7,
     "abilityKeywords": [
@@ -2986,7 +2986,7 @@
     "expansionCode": "OP04",
     "imageId": "OP04-072_p1",
     "id": "OP04-072_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -3012,7 +3012,7 @@
     ],
     "effect": "[Activate: Main] You may trash this Character and 1 of your Characters with a type including \"Baroque Works\": Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": "Trigger[Trigger] Play this card.",
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-073.png",
     "cost": 3,
     "abilityKeywords": [
@@ -3045,7 +3045,7 @@
     ],
     "effect": "[Counter] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your Leader or Character cards gains +1000 power during this battle. Then, rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-074.png",
     "cost": 1,
     "abilityKeywords": [
@@ -3078,7 +3078,7 @@
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +6000 power during this battle. Then, if you have 2 or less Life cards, add up to 1 DON!! card from your DON!! deck and rest it.",
     "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-075.png",
     "cost": 3,
     "abilityKeywords": [
@@ -3112,7 +3112,7 @@
     ],
     "effect": "[Counter] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
     "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-076.png",
     "cost": 1,
     "abilityKeywords": [
@@ -3145,7 +3145,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-077.png",
     "cost": 2,
     "abilityKeywords": [
@@ -3179,7 +3179,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-078.png",
     "cost": 6,
     "expansionCode": "OP04",
@@ -3210,7 +3210,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] Give up to 1 of your opponent's Characters −4 cost during this turn and trash 2 cards from the top of your deck. Then, K.O. 1 of your {Dressrosa} type Characters.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-079.png",
     "cost": 4,
     "abilityKeywords": [
@@ -3244,7 +3244,7 @@
     ],
     "effect": "[On Play] Up to 1 of your {Dressrosa} type Characters can also attack active Characters during this turn.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-080.png",
     "cost": 1,
     "expansionCode": "OP04",
@@ -3278,7 +3278,7 @@
     ],
     "effect": "[DON!! x1] This Character can also attack active Characters.[When Attacking] You may rest your Leader: K.O. up to 1 of your opponent's Characters with a cost of 1 or less. Then, trash 2 cards from the top of your deck.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-081.png",
     "cost": 5,
     "abilityKeywords": [
@@ -3312,7 +3312,7 @@
     ],
     "effect": "If this Character would be K.O.'d, you may rest your Leader or 1 [Corrida Coliseum] instead.[On Play] If your Leader is [Rebecca], K.O. up to 1 of your opponent's Characters with a cost of 1 or less. Then, trash 1 card from the top of your deck.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-082.png",
     "cost": 3,
     "expansionCode": "OP04",
@@ -3345,7 +3345,7 @@
     ],
     "effect": "If this Character would be K.O.'d, you may rest your Leader or 1 [Corrida Coliseum] instead.[On Play] If your Leader is [Rebecca], K.O. up to 1 of your opponent's Characters with a cost of 1 or less. Then, trash 1 card from the top of your deck.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-082_p1.png",
     "cost": 3,
     "expansionCode": "OP04",
@@ -3354,7 +3354,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -3380,7 +3380,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] None of your Characters can be K.O.'d by effects until the start of your next turn. Then, draw 2 cards and trash 2 cards from your hand.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-083.png",
     "cost": 5,
     "abilityKeywords": [
@@ -3415,7 +3415,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] None of your Characters can be K.O.'d by effects until the start of your next turn. Then, draw 2 cards and trash 2 cards from your hand.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-083_p1.png",
     "cost": 5,
     "abilityKeywords": [
@@ -3425,7 +3425,7 @@
     "expansionCode": "OP04",
     "imageId": "OP04-083_p1",
     "id": "OP04-083_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -3451,7 +3451,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] None of your Characters can be K.O.'d by effects until the start of your next turn. Then, draw 2 cards and trash 2 cards from your hand.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-083_p2.png",
     "cost": 5,
     "abilityKeywords": [
@@ -3461,7 +3461,7 @@
     "expansionCode": "OP04",
     "imageId": "OP04-083_p2",
     "id": "OP04-083_p2_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "MANGA",
+    "illustration": "Manga",
     "slugs": [
       {
         "service": "Card Trader",
@@ -3486,7 +3486,7 @@
     ],
     "effect": "[On Play] Look at 3 cards from the top of your deck and play up to 1 Character card with a type including \"CP\" other than [Stussy] and a cost of 2 or less. Then, trash the rest.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-084.png",
     "cost": 2,
     "expansionCode": "OP04",
@@ -3519,7 +3519,7 @@
     ],
     "effect": "[On Play]/[When Attacking] If your Leader has the {Dressrosa} type, give up to 1 of your opponent's Characters −2 cost during this turn. Then, trash 1 card from the top of your deck.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-085.png",
     "cost": 3,
     "abilityKeywords": [
@@ -3554,7 +3554,7 @@
     ],
     "effect": "[DON!! x1] When this Character battles and K.O.'s your opponent's Character, draw 2 cards and trash 2 cards from your hand.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-086.png",
     "cost": 5,
     "abilityKeywords": [
@@ -3588,7 +3588,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-087.png",
     "cost": 5,
     "expansionCode": "OP04",
@@ -3620,7 +3620,7 @@
     ],
     "effect": "[Activate: Main] You may rest your 1 Leader: Give up to 1 of your opponent's Characters −4 cost during this turn.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-088.png",
     "cost": 6,
     "abilityKeywords": [
@@ -3654,7 +3654,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-089.png",
     "cost": 3,
     "abilityKeywords": [
@@ -3688,7 +3688,7 @@
     ],
     "effect": "This Character can also attack active Characters.[Activate: Main] [Once Per Turn] You may return 7 cards from your trash to the bottom of your deck in any order: Set this Character as active. Then, this Character will not become active in your next Refresh Phase.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-090.png",
     "cost": 7,
     "abilityKeywords": [
@@ -3723,7 +3723,7 @@
     ],
     "effect": "This Character can also attack active Characters.[Activate: Main] [Once Per Turn] You may return 7 cards from your trash to the bottom of your deck in any order: Set this Character as active. Then, this Character will not become active in your next Refresh Phase.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-090_p1.png",
     "cost": 7,
     "abilityKeywords": [
@@ -3733,7 +3733,7 @@
     "expansionCode": "OP04",
     "imageId": "OP04-090_p1",
     "id": "OP04-090_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -3759,7 +3759,7 @@
     ],
     "effect": "[On Play] You may rest your 1 Leader: If your Leader has the {Dressrosa} type, K.O. up to 1 of your opponent's Characters with a cost of 1 or less. Then, trash 2 cards from the top of your deck.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-091.png",
     "cost": 1,
     "expansionCode": "OP04",
@@ -3792,7 +3792,7 @@
     ],
     "effect": "[On Play] Look at 3 cards from the top of your deck; reveal up to 1 {Dressrosa} type card other than [Rebecca] and add it to your hand. Then, trash the rest.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-092.png",
     "cost": 1,
     "expansionCode": "OP04",
@@ -3826,7 +3826,7 @@
     ],
     "effect": "[Main] Up to 1 of your {Dressrosa} type Characters gains +6000 power during this turn. Then, if you have 15 or more cards in your trash, that card gains [Double Attack] during this turn.(This card deals 2 damage.)",
     "trigger": "Trigger[Trigger] Draw 3 cards and trash 2 cards from your hand.",
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-093.png",
     "cost": 3,
     "abilityKeywords": [
@@ -3860,7 +3860,7 @@
     ],
     "effect": "[Main] Choose up to 1 of your opponent's Characters with a cost of 4 or less and K.O. it. If you have 15 or more cards in your trash, choose up to 1 of your opponent's Characters with a cost of 6 or less instead of a Character with a cost of 4 or less.",
     "trigger": "Trigger[Trigger] You may rest your Leader: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-094.png",
     "cost": 4,
     "abilityKeywords": [
@@ -3894,7 +3894,7 @@
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 15 or more cards in your trash, that card gains an additional +2000 power during this battle.",
     "trigger": "Trigger[Trigger] Draw 2 cards and trash 1 card from your hand.",
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-095.png",
     "cost": 1,
     "abilityKeywords": [
@@ -3927,7 +3927,7 @@
     ],
     "effect": "If your Leader has the {Dressrosa} type, your {Dressrosa} type Characters can attack Characters on the turn in which they are played.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-096.png",
     "cost": 1,
     "expansionCode": "OP04",
@@ -3957,7 +3957,7 @@
     ],
     "effect": "[On Play] Add up to 1 of your opponent's {Animal} or {SMILE} type Characters with a cost of 3 or less to the top of your opponent's Life cards face-up.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-097.png",
     "cost": 1,
     "expansionCode": "OP04",
@@ -3990,7 +3990,7 @@
     ],
     "effect": "[On Play] You may trash 2 {Land of Wano} type cards from your hand: If you have 1 or less Life cards, add 1 card from the top of your deck to the top of your Life cards.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-098.png",
     "cost": 2,
     "expansionCode": "OP04",
@@ -4025,7 +4025,7 @@
     ],
     "effect": "Also treat this card's name as [Charlotte Linlin] according to the rules.",
     "trigger": "Trigger[Trigger] If you have 1 or less Life cards, play this card.",
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-099.png",
     "cost": 7,
     "expansionCode": "OP04",
@@ -4055,7 +4055,7 @@
     ],
     "effect": null,
     "trigger": "Trigger[Trigger] Up to 1 of your opponent's Leader or Character cards cannot attack during this turn.",
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-100.png",
     "cost": 3,
     "expansionCode": "OP04",
@@ -4085,13 +4085,13 @@
     ],
     "effect": null,
     "trigger": "Trigger[Trigger] Up to 1 of your opponent's Leader or Character cards cannot attack during this turn.",
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-100_p1.png",
     "cost": 3,
     "expansionCode": "OP04",
     "imageId": "OP04-100_p1",
     "id": "OP04-100_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -4116,7 +4116,7 @@
     ],
     "effect": "[Your Turn] [On Play] Draw 1 card.",
     "trigger": "Trigger[Trigger] Play this card. Then, K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-101.png",
     "cost": 2,
     "abilityKeywords": [
@@ -4150,7 +4150,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may add 1 card from the top or bottom of your Life cards to your hand: Set this Character as active.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-102.png",
     "cost": 6,
     "abilityKeywords": [
@@ -4185,7 +4185,7 @@
     ],
     "effect": "[On Play] Up to 1 of your {Land of Wano} type Leader or Character cards gains +1000 power during this turn.",
     "trigger": "Trigger[Trigger] Play this card.",
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-103.png",
     "cost": 2,
     "expansionCode": "OP04",
@@ -4218,7 +4218,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": "Trigger[Trigger] You may trash 1 card from your hand: Play this card.",
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-104.png",
     "cost": 4,
     "abilityKeywords": [
@@ -4251,7 +4251,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": "Trigger[Trigger] You may trash 1 card from your hand: Play this card.",
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-104_p1.png",
     "cost": 4,
     "abilityKeywords": [
@@ -4260,7 +4260,7 @@
     "expansionCode": "OP04",
     "imageId": "OP04-104_p1",
     "id": "OP04-104_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -4285,7 +4285,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] You may trash 1 card with a [Trigger] from your hand: Rest up to 1 of your opponent's Characters with a cost of 2 or less.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-105.png",
     "cost": 3,
     "abilityKeywords": [
@@ -4320,7 +4320,7 @@
     ],
     "effect": "[DON!! x1] If you have less Life cards than your opponent, this Character gains +1000 power.",
     "trigger": "Trigger[Trigger] You may trash 1 card from your hand: Play this card.",
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-106.png",
     "cost": 3,
     "abilityKeywords": [
@@ -4353,7 +4353,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-107.png",
     "cost": 6,
     "expansionCode": "OP04",
@@ -4383,7 +4383,7 @@
     ],
     "effect": "[DON!! x1] This Character gains [Banish].(When this card deals damage, the target card is trashed without activating its Trigger.)",
     "trigger": "Trigger[Trigger] You may trash 1 card from your hand: Play this card.",
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-108.png",
     "cost": 3,
     "abilityKeywords": [
@@ -4417,7 +4417,7 @@
     ],
     "effect": "[Activate: Main] You may trash this Character: Up to 1 of your {Land of Wano} type Leader or Character cards gains +3000 power during this turn.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-109.png",
     "cost": 2,
     "abilityKeywords": [
@@ -4450,7 +4450,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] Add up to 1 of your opponent's Characters with a cost of 3 or less to the top or bottom of your opponent's Life cards face-up.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-110.png",
     "cost": 3,
     "abilityKeywords": [
@@ -4485,7 +4485,7 @@
     ],
     "effect": "[Activate: Main] You may trash 1 of your {Homies} type Characters other than this Character and rest this Character: Set up to 1 of your [Charlotte Linlin] Characters as active.",
     "trigger": "Trigger[Trigger] Play this card.",
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-111.png",
     "cost": 5,
     "abilityKeywords": [
@@ -4518,7 +4518,7 @@
     ],
     "effect": "[On Play] K.O. up to 1 of your opponent's Characters with a cost equal to or less than the total of your and your opponent's Life cards. Then, if you have 1 or less Life cards, add up to 1 card from the top of your deck to the top of your Life cards.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-112.png",
     "cost": 9,
     "expansionCode": "OP04",
@@ -4551,7 +4551,7 @@
     ],
     "effect": "[On Play] K.O. up to 1 of your opponent's Characters with a cost equal to or less than the total of your and your opponent's Life cards. Then, if you have 1 or less Life cards, add up to 1 card from the top of your deck to the top of your Life cards.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-112_p1.png",
     "cost": 9,
     "expansionCode": "OP04",
@@ -4560,7 +4560,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -4586,7 +4586,7 @@
     ],
     "effect": null,
     "trigger": "Trigger[Trigger] Play this card.",
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-113.png",
     "cost": 2,
     "expansionCode": "OP04",
@@ -4617,7 +4617,7 @@
     ],
     "effect": null,
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-114.png",
     "cost": 5,
     "expansionCode": "OP04",
@@ -4648,7 +4648,7 @@
     ],
     "effect": "[Main] You may add 1 card from the top or bottom of your Life cards to your hand: Up to 1 of your {Land of Wano} type Characters gains [Double Attack] during this turn.(This card deals 2 damage.)",
     "trigger": "Trigger[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-115.png",
     "cost": 1,
     "abilityKeywords": [
@@ -4682,7 +4682,7 @@
     ],
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +6000 power during this battle. Then, if you and your opponent have a total of 4 or less Life cards, K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
     "trigger": "Trigger[Trigger] Draw 1 card.",
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-116.png",
     "cost": 3,
     "abilityKeywords": [
@@ -4716,7 +4716,7 @@
     ],
     "effect": "[Main] Add up to 1 of your opponent's Characters with a cost of 3 or less to the top or bottom of your opponent's Life cards face-up.",
     "trigger": "Trigger[Trigger] You may add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 card from your hand to the top of your Life cards.",
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-117.png",
     "cost": 1,
     "abilityKeywords": [
@@ -4749,7 +4749,7 @@
     ],
     "effect": "All of your red Characters with a cost of 3 or more other than this Character gain [Rush].(This card can attack on the turn in which it is played.)",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-118.png",
     "cost": 7,
     "abilityKeywords": [
@@ -4782,7 +4782,7 @@
     ],
     "effect": "All of your red Characters with a cost of 3 or more other than this Character gain [Rush].(This card can attack on the turn in which it is played.)",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-118_p1.png",
     "cost": 7,
     "abilityKeywords": [
@@ -4791,7 +4791,7 @@
     "expansionCode": "OP04",
     "imageId": "OP04-118_p1",
     "id": "OP04-118_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -4817,7 +4817,7 @@
     ],
     "effect": "[Opponent's Turn] If this Character is rested, your active Characters with a base cost of 5 cannot be K.O.'d by effects.[On Play] You may rest this Character: Play up to 1 green Character card with a cost of 5 from your hand.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-119.png",
     "cost": 8,
     "abilityKeywords": [
@@ -4852,7 +4852,7 @@
     ],
     "effect": "[Opponent's Turn] If this Character is rested, your active Characters with a base cost of 5 cannot be K.O.'d by effects.[On Play] You may rest this Character: Play up to 1 green Character card with a cost of 5 from your hand.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-119_p1.png",
     "cost": 8,
     "abilityKeywords": [
@@ -4862,7 +4862,7 @@
     "expansionCode": "OP04",
     "imageId": "OP04-119_p1",
     "id": "OP04-119_p1_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "ALTERNATE ART",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
@@ -4888,7 +4888,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] You may return 1 of your Characters to the owner's hand: Play up to 1 Character card with a cost of 3 or less from your hand.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-047_p2.png",
     "cost": 5,
     "abilityKeywords": [
@@ -4898,7 +4898,7 @@
     "expansionCode": "OP01",
     "imageId": "OP01-047_p2",
     "id": "OP01-047_p2_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "SPECIAL",
+    "illustration": "Special",
     "slugs": [
       {
         "service": "Card Trader",
@@ -4924,7 +4924,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x1] [When Attacking]/[On Block] Draw 1 card if you have 5 or less cards in your hand.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-078_p2.png",
     "cost": 4,
     "abilityKeywords": [
@@ -4936,7 +4936,7 @@
     "expansionCode": "OP01",
     "imageId": "OP01-078_p2",
     "id": "OP01-078_p2_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "SPECIAL",
+    "illustration": "Special",
     "slugs": [
       {
         "service": "Card Trader",
@@ -4962,7 +4962,7 @@
     ],
     "effect": "[On Play] Up to 1 of your Leader gains +2000 power until the start of your next turn. Then, you cannot add Life cards to your hand using your own effects during this turn.[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 3000 power or less.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-004_p2.png",
     "cost": 9,
     "abilityKeywords": [
@@ -4973,7 +4973,7 @@
     "expansionCode": "OP02",
     "imageId": "OP02-004_p2",
     "id": "OP02-004_p2_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "SPECIAL",
+    "illustration": "Special",
     "slugs": [
       {
         "service": "Card Trader",
@@ -4998,7 +4998,7 @@
     ],
     "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your opponent returns 1 DON!! card from their field to their DON!! deck.[Opponent's Turn] When this Character is K.O.'d, your opponent returns 2 DON!! cards from their field to their DON!! deck.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-085_p2.png",
     "cost": 5,
     "abilityKeywords": [
@@ -5008,7 +5008,7 @@
     "expansionCode": "OP02",
     "imageId": "OP02-085_p2",
     "id": "OP02-085_p2_KINGDOMS_OF_INTRIGUE_[OP04]",
-    "illustration": "SPECIAL",
+    "illustration": "Special",
     "slugs": [
       {
         "service": "Card Trader",
@@ -5033,7 +5033,7 @@
     ],
     "effect": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
     "trigger": null,
-    "setName": "KINGDOMS OF INTRIGUE [OP04]",
+    "setName": "KINGDOMS OF INTRIGUE [OP-04]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-099_p2.png",
     "cost": 6,
     "expansionCode": "OP02",
@@ -5042,7 +5042,7 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "SPECIAL",
+    "illustration": "Special",
     "slugs": [
       {
         "service": "Card Trader",

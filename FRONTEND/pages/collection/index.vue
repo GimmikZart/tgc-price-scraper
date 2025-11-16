@@ -58,14 +58,14 @@ const { data: userCollection } = await useAsyncData(
 );
 
 function openViewerFromItem(item) {
-  const i = filteredCards.value.findIndex(c => c.id === item.id);
+  const i = sortedCards.value.findIndex(c => c.id === item.id);
   if (i === -1) return;
   viewerIndex.value = i;
   viewerOpen.value = true;
 }
 
 function handleFilteredUpdate(newFiltered) {
-  filteredCards.value = [...newFiltered]
+  sortedCards.value = [...newFiltered]
   visibleCards.value = []
   gridKey.value++
 
@@ -84,33 +84,8 @@ async function addCardInCollection(card) {
 async function removeCardFromCollection(card) {
   // 1) update ottimistico
   card.count = Math.max(0, (card.count || 0) - 1);
-
   // 2) chiama API
   await removeCardToUserCollection(userAuth.userLogged.id, card.id);
-
-  // 3) se è arrivata a zero, rimuovi la carta dalla lista mostrata
-  if ((card.count || 0) === 0) {
-    const idx = filteredCards.value.findIndex(c => c.id === card.id);
-    if (idx !== -1) {
-      // nuovo array per triggerare il reset "pulito" dell'InfiniteGrid
-      const next = filteredCards.value.slice();
-      next.splice(idx, 1);
-      filteredCards.value = next;
-    }
-
-    // 4) se il viewer era aperto, mantieni lo stato coerente
-    if (viewerOpen.value) {
-      // Se stai usando useCardViewer(filteredCards) lasciamo l'indice valido,
-      // se invece stai usando useCardViewer(visibleCards), chiudi per semplicità:
-      // viewerOpen.value = false
-      const len = filteredCards.value.length;
-      if (len === 0) {
-        viewerOpen.value = false;
-      } else if (viewerIndex.value >= len) {
-        viewerIndex.value = len - 1;
-      }
-    }
-  }
 }
 
 // Carica i count solo per i NUOVI item che entrano nel buffer

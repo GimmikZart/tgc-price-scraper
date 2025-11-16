@@ -1,6 +1,7 @@
 <script setup>
 import { onMounted, onUnmounted, ref, watch, computed } from "vue";
 import { Icon } from "@iconify/vue";
+import { getShortSetName } from "@/utilities/cardsFieldsParser";
 
 const props = defineProps({
   cards: { type: Array, required: true },   // array di carte ordinate (es. paginatedCards)
@@ -98,11 +99,11 @@ function onTouchEnd(e) {
         <h3 class="text-white font-bold text-2xl sm:text-3xl mt-1">
           {{ current.name }}
         </h3>
-        <h4 class="text-white/80 text-sm">{{ current.code }}</h4>
+        <h4 class="text-white/80 text-sm">{{ current.code }} | {{ current.illustration ?? 'Base' }}</h4>
       </div>
 
       <!-- Image area -->
-      <div class="relative flex justify-center w-full h-auto">
+      <div class="relative flex flex-col justify-center w-full h-auto">
         <!-- Close -->
         <button
           class="absolute -right-4 -top-4 bg-white text-black rounded-full shadow-lg p-1"
@@ -120,8 +121,15 @@ function onTouchEnd(e) {
           :alt="current.name"
           fit="contain"
         />
-      </div>
 
+        <div class="w-full p-1">
+        <a class="w-full rounded-lg bg-black/70 flex flex-col justify-between gap-1 text-black items-center px-4 py-1 block text-white text-center" :href="current.price ? current.slugs[0].url : '#'" target="_blank" rel="noopener noreferrer">
+          <span class="text-xs">CardTrader</span>
+          <div class="w-full text-center font-bold text-xs">{{ current.price ?? '---' }} €</div>
+        </a>
+      </div>
+      </div>
+      
       <div v-if="current.count" class="mt-4 text-white text-5xl font-bold select-none">
         x {{ current.count }}
       </div>

@@ -1,6 +1,7 @@
 <script setup>
 import { Icon } from "@iconify/vue";
 import { ref, computed } from "vue";
+import { getShortSetName } from "@/utilities/cardsFieldsParser";
 
 const props = defineProps({
   card: { type: Object, required: true },
@@ -54,7 +55,17 @@ function openCard() { if (!props.disableOpening) emit("open", props.card); }
         placeholder
       />
       <div v-if="showPrice && isLoaded" class="p-1">
-        <p class="text-xs truncate p-1">{{ card.setName }}</p>
+        <div class="text-xs truncate p-1">
+          <span class="font-bold"> 
+            {{ getShortSetName(card.setName) }} 
+          </span>
+          <span>
+            | {{ card.rarity ?? 'Base' }}
+          </span>
+          <span class="font-light">
+            | {{ card.illustration ?? 'Base' }}
+          </span>
+        </div>
         <a class="w-full rounded-lg bg-black/70 flex flex-col justify-between gap-1 text-black items-center px-4 py-1 block text-white text-center" :href="card.price ? card.slugs[0].url : '#'" target="_blank" rel="noopener noreferrer">
           <span class="text-xs">CardTrader</span>
           <div class="w-full text-center font-bold text-xs">{{ card.price ?? '---' }} €</div>

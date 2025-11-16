@@ -34,6 +34,7 @@ const filterKey = ref(0);
 const actionOnDeck = ref("info");
 const leaderChoosen = ref(null);
 const showPrice = ref(false)
+const sortedCards = computed(() => sort.applySort(filteredCards.value))
 
 const sort = useCardSort('name', 'asc')
 
@@ -41,8 +42,8 @@ const gridRef = ref(null)
 const gridKey = ref(0);
 const scroller = ref(null)
 
-// Viewer: meglio su TUTTO il risultato (filteredCards)
-const { show: viewerOpen, index: viewerIndex } = useCardViewer(filteredCards);
+// Viewer: meglio su TUTTO il risultato (sortedCards)
+const { show: viewerOpen, index: viewerIndex } = useCardViewer(sortedCards);
 
 useScrollAnchor({
   scroller,
@@ -54,7 +55,7 @@ const leaderCards = computed(() => {
   return allCards.filter((card) => card.type === "LEADER");
 });
 
-const sortedCards = computed(() => sort.applySort(filteredCards.value))
+
 
 const builderCards = computed(() => {
   if (leaderChoosen.value != null) {
@@ -167,7 +168,7 @@ function exportDeck() {
 }
 
 function openViewerFromItem(item) {
-  const i = filteredCards.value.findIndex(c => c.id === item.id);
+  const i = sortedCards.value.findIndex(c => c.id === item.id);
   if (i !== -1) {
     viewerIndex.value = i;
     viewerOpen.value = true;

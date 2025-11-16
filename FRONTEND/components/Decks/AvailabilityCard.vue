@@ -17,13 +17,13 @@ const collectionAvailabilityClass = function(count) {
 }
 </script>
 <template>
-  <div v-show="availabilityOpen" class="p-2">
-    <span class="text-xs">{{ card.count }} x {{ card.price ?? '???' }} € </span>
-    <div class="w-full flex gap-2">
+  <div v-show="availabilityOpen" class="py-2">
+    <span class="text-xs text-left">{{ card.price ?? '???' }} € </span>
+    <div class="w-full flex justify-start gap-1">
       <div 
         v-for="count in card.count" 
         :key="count"
-        class="rounded-full w-[7px] h-[7px]"
+        class="rounded-full w-[5px] h-[5px]"
         :class="collectionAvailabilityClass(count)"
       >
       </div>

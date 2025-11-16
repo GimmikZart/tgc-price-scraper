@@ -256,6 +256,7 @@ provide("actionOnDeck", actionOnDeck);
 
     <MobileFloatMenu v-if="showDeck && leaderChoosen" :cols="4">
       <template #buttons>
+        <DialogsHandleDeleteDeck :slug="route.params.slug" />
         <ButtonMenu
           icon="material-symbols:save-rounded"
           label="Salva"
@@ -264,7 +265,6 @@ provide("actionOnDeck", actionOnDeck);
           :delay="100"
         >
           <template #buttons>
-            <DialogsHandleDeleteDeck :slug="route.params.slug" />
             <ButtonMenu
               icon="ic:baseline-cloud-done"
               label="Salva nel cloud"
@@ -282,13 +282,6 @@ provide("actionOnDeck", actionOnDeck);
             />
           </template>
         </ButtonMenu>
-        <ButtonMenu
-          icon="material-symbols:export-notes-outline"
-          label="Esporta"
-          transition
-          :delay="100"
-          @click="exportDeck"
-        />
 
         <ButtonMenu
           :icon="oncardClickIcon"

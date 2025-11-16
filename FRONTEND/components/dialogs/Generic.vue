@@ -67,7 +67,7 @@ const bottomDistance = computed(() => {
 <template>
   <!-- Bottone trigger -->
   <button
-    class="text-white border border-white p-2 cursor-pointer rounded-lg relative flex flex-col items-center justify-center"
+    class="text-white border border-white mt-2 cursor-pointer rounded-lg relative flex flex-col items-center justify-center"
     @click="openDialog"
   >
     <slot name="button"></slot>

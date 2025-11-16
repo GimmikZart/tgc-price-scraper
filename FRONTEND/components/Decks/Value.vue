@@ -13,7 +13,7 @@ const cardWithoutPrice = computed(() => {
 const totalValue = computed(() => {
   return props.cards.reduce((sum, card) => {
     return sum + (card.price || 0) * (card.count || 1);
-  }, 0);
+  }, 0).toFixed(2);
 });
 </script>
 <template>

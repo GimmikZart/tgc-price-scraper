@@ -11,9 +11,10 @@ const cardWithoutPrice = computed(() => {
   return props.cards.filter(card => !card.price);
 });
 const totalValue = computed(() => {
+  // to fixed 2 decimals
   return props.cards.reduce((sum, card) => {
     return sum + (card.price || 0) * (card.count - card.userCountInCollection);
-  }, 0);
+  }, 0).toFixed(2);
 });
 </script>
 <template>

@@ -21,7 +21,7 @@ const totalValue = computed(() => {
   <div class="flex justify-between items-center px-5">
     <div class="flex flex-col justify-center">
       <p class="text-xs">Investimento rimanente</p>
-      <p class="flex items-center gap-1 text-xs text-red">
+      <p v-if="cardWithoutPrice.length > 0" class="flex items-center gap-1 text-xs text-red">
         <Icon color="red" icon="mdi-error"></Icon>
         {{ cardWithoutPrice.length }} carte senza prezzo
       </p>

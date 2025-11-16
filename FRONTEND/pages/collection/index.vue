@@ -99,8 +99,6 @@ async function loadCountsForChunk(chunk) {
       try {
         const c = await fetchCardCountInCollection(userId, card.id);
         card.count = c;
-        console.log(card.count);
-        
       } catch (e) {
         console.error("Errore fetch count per", card.id, e);
         card.count = 0;

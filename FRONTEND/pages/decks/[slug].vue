@@ -3,7 +3,11 @@ import { updateDeckVisibility } from "~/api/decks";
 import { copyDeckOnClipboard } from "@/utilities/copyDeckOnClipboard";
 import { usePageLoader } from "@/stores/usePageLoader";
 import { DeckLocation } from "~/enums/deckLocation";
+import {
+  fetchCardCountInCollection
+} from "@/api/collection";
 
+const userAuth = useUserAuth();
 const snackbar = useSnackbar();
 const route = useRoute();
 const pageLoader = usePageLoader();
@@ -20,6 +24,7 @@ const currentDeck = ref({
 });
 const leaderChoosen = ref(null);
 const statsOpen = ref(false);
+const availabilityOpen = ref(false);
 const router = useRouter();
 const { allCards } = await useOnePieceCards();
 const { getLocal, getCloud } = useDeckManager();
@@ -77,9 +82,17 @@ async function getDeckFromSlug(slug) {
   }
 }
 
-const updateVisibility = async (newValue) => {
+async function setCardsInCollectionCounts(){
+  const userId = userAuth.userLogged?.id;
+  await singleCardsInDeck.value.map(async (card) => {
+    const cardInCollection = await fetchCardCountInCollection(userId, card.id);
+    card.userCountInCollection = cardInCollection || 0;
+  });
+}
+
+/* const updateVisibility = async (newValue) => {
   await updateDeckVisibility(currentDeck.value.slug, newValue);
-};
+}; */
 
 function exportDeck() {
   copyDeckOnClipboard(leaderChoosen.value, singleCardsInDeck.value);
@@ -94,6 +107,7 @@ onMounted(async () => {
     snackbar.addMessage("Mazzo non trovato", "error");
     router.push(`/decks/edit/${currentDeck.value.slug}?location=${deckLocation.value}`);
   }
+  await setCardsInCollectionCounts();
 });
 
 definePageMeta({
@@ -105,16 +119,21 @@ definePageMeta({
 provide("addCardInDeck", null);
 provide("removeCardFromDeck", null);
 provide("item", currentDeck);
+provide("availabilityOpen", availabilityOpen);
+
 </script>
 <template>
   <Toolbar v-if="leaderChoosen" :label="`Mazzo ${currentDeck.name}`">
     <template #info>
       <DecksTopInfo :leader-choosen="leaderChoosen" :current-deck="currentDeck" />
+      <DecksCost v-if="availabilityOpen" :cards="singleCardsInDeck" />
+      <DecksValue v-else :cards="singleCardsInDeck" />
     </template>
   </Toolbar>
   <CardViewDeck v-if="!statsOpen" :single-cards-in-deck="singleCardsInDeck" />
   <DecksStats v-else :current-deck="singleCardsInDeck" />
-  <MobileFloatMenu :cols="currentDeck.isLocal ? 3 : 3">
+  
+  <MobileFloatMenu :cols="statsOpen ? 3 : 4">
     <template #buttons>
       <ButtonMenu
         v-show="statsOpen"
@@ -145,6 +164,17 @@ provide("item", currentDeck);
         v-if="!currentDeck.isLocal"
         @update-visibility="(newValue) => updateVisibility(newValue)"
       /> -->
+      <ButtonMenu
+        v-show="!statsOpen"
+        @click="availabilityOpen = !availabilityOpen"
+        icon="fluent:shifts-availability-24-regular"
+        transition
+        :delay="100"
+        label="Disponibilità"
+        :class="{
+            'opacity-40': !availabilityOpen
+          }"
+      />
       <ButtonMenu
         @click="exportDeck()"
         icon="material-symbols:export-notes-outline"

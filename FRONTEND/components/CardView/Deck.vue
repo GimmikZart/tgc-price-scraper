@@ -1,4 +1,6 @@
 <script setup>
+const snackbar = useSnackbar();
+
 const props = defineProps({
   singleCardsInDeck: {
     type: Array,
@@ -36,7 +38,10 @@ const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer
 
 function handleCardCopy(card) {
   if (actionOnDeck.value === "add") {
-    addCardInDeck(card);
+    if(card.count < 4)
+      addCardInDeck(card);
+    else 
+      snackbar.addMessage("Massimo 4 copie consentite per ogni carta", "error");
   } else if (actionOnDeck.value === "remove") {
     removeCardFromDeck(card);
   } else {
@@ -48,7 +53,7 @@ function handleCardCopy(card) {
   <div class="h-auto overflow-auto bg-black p-2 gap-8">
     <p v-if="singleCardsInDeck.length === 0" class="text-center mt-5 text-white/50">Nessuna carta aggiunta fin'ora</p>
     <div v-for="category in categoryCards" :key="category.label" class="pb-10">
-      <h2 class="text-white text-xs text-center font-bold mb-2 col-span-full">{{ category.label }}</h2>
+      <h2 class="text-white text-xs text-center font-bold mb-3 col-span-full">{{ category.label }}</h2>
       <div class="w-full h-auto grid grid-cols-4 gap-6 px-6">
         <div
           v-for="(card, idx) in category.cards"
@@ -56,6 +61,7 @@ function handleCardCopy(card) {
           class="relative h-fit w-full"
           @click="handleCardCopy(card)"
         >
+          <DecksAvailabilityCard :card="card" />
           <Card
             v-for="(copy, ydx) in card.count"
             :key="ydx"

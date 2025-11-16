@@ -123,7 +123,7 @@ function onTouchEnd(e) {
         />
 
         <div class="w-full p-1">
-        <a class="w-full rounded-lg bg-black/70 flex flex-col justify-between gap-1 text-black items-center px-4 py-1 block text-white text-center" :href="current.price ? current.slugs[0].url : '#'" target="_blank" rel="noopener noreferrer">
+        <a class="w-full rounded-lg bg-black/70 flex flex-col justify-between gap-1 text-black items-center px-4 py-1 block text-white text-center" :href="current.price ? current.slugs[0].url : null" target="_blank" rel="noopener noreferrer">
           <span class="text-xs">CardTrader</span>
           <div class="w-full text-center font-bold text-xs">{{ current.price ?? '---' }} €</div>
         </a>

@@ -66,7 +66,7 @@ function openCard() { if (!props.disableOpening) emit("open", props.card); }
             | {{ card.illustration ?? 'Base' }}
           </span>
         </div>
-        <a class="w-full rounded-lg bg-black/70 flex flex-col justify-between gap-1 text-black items-center px-4 py-1 block text-white text-center" :href="card.price ? card.slugs[0].url : '#'" target="_blank" rel="noopener noreferrer">
+        <a class="w-full rounded-lg bg-black/70 flex flex-col justify-between gap-1 text-black items-center px-4 py-1 block text-white text-center" :href="card.price ? card.slugs[0].url : null" target="_blank" rel="noopener noreferrer">
           <span class="text-xs">CardTrader</span>
           <div class="w-full text-center font-bold text-xs">{{ card.price ?? '---' }} €</div>
         </a>

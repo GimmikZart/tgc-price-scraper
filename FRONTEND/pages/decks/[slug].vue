@@ -37,14 +37,11 @@ function goToEditDeck() {
 const singleCardsInDeck = computed(() => {
   const uniqueCards = new Map(); 
   if( currentDeck.value.cards.length == 0) return [];
-  console.log('CURRENT DECK', currentDeck);
   
   currentDeck.value.cards.forEach((card) => {
     
     const cardData = allCards.find((c) => c.id === card);
-    if(cardData == undefined){
-      console.log({card})
-    }
+
     if (uniqueCards.has(cardData)) {
       uniqueCards.get(cardData).count++;
     } else {
@@ -123,7 +120,7 @@ provide("availabilityOpen", availabilityOpen);
 
 </script>
 <template>
-  <Toolbar v-if="leaderChoosen" :label="`Mazzo ${currentDeck.name}`">
+  <Toolbar backButton v-if="leaderChoosen" :label="`Mazzo ${currentDeck.name}`">
     <template #info>
       <DecksTopInfo :leader-choosen="leaderChoosen" :current-deck="currentDeck" />
       <DecksCost v-if="availabilityOpen" :cards="singleCardsInDeck" />

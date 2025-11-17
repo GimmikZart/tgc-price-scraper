@@ -35,12 +35,12 @@ function openCard() { if (!props.disableOpening) emit("open", props.card); }
     />
     
     <!-- CARD NUMBER LABEL -->
-    <div v-if="!handleCards && showCount" class="absolute top-0 right-1/2 translate-x-1/2 py-0 px-4 bg-black text-white text-xs rounded-b-lg">
+    <div v-if="!handleCards && showCount && isLoaded" class="absolute top-0 right-1/2 translate-x-1/2 py-0 px-4 bg-black text-white text-xs rounded-b-lg">
       x {{ cardCount }}
     </div>
 
     <!-- Immagine -->
-    <div class="relative flex flex-col justify-end rounded-lg h-full" :class="{'bg-white/20' : showPrice}">
+    <div class="relative flex flex-col justify-end rounded-lg h-full" :class="{'bg-white/20' : showPrice || handleCards}">
       <NuxtImg
         v-show="card.image"
         :src="card.image"
@@ -54,18 +54,18 @@ function openCard() { if (!props.disableOpening) emit("open", props.card); }
         @click="openCard()"
         placeholder
       />
+      <div v-if="isLoaded && (showPrice || handleCards)" class="text-xs truncate px-2 py-1">
+        <span class="font-bold"> 
+          {{ getShortSetName(card.setName) }} 
+        </span>
+        <span>
+          | {{ card.rarity ?? 'Base' }}
+        </span>
+        <span class="font-light">
+          | {{ card.illustration ?? 'Base' }}
+        </span>
+      </div>
       <div v-if="showPrice && isLoaded" class="p-1">
-        <div class="text-xs truncate p-1">
-          <span class="font-bold"> 
-            {{ getShortSetName(card.setName) }} 
-          </span>
-          <span>
-            | {{ card.rarity ?? 'Base' }}
-          </span>
-          <span class="font-light">
-            | {{ card.illustration ?? 'Base' }}
-          </span>
-        </div>
         <a class="w-full rounded-lg bg-black/70 flex flex-col justify-between gap-1 text-black items-center px-4 py-1 block text-white text-center" :href="card.price ? card.slugs[0].url : null" target="_blank" rel="noopener noreferrer">
           <span class="text-xs">CardTrader</span>
           <div class="w-full text-center font-bold text-xs">{{ card.price ?? '---' }} €</div>

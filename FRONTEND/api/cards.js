@@ -96,7 +96,6 @@ export async function fetchCardPrice(cardId) {
   if (error) {
     throw new Error(error.message);
   }
-  console.log('PREZZO A DB: ', cardInfo.cardtrader_avg_price);
   
   return cardInfo?.cardtrader_avg_price || null;
 }

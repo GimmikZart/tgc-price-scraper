@@ -14,7 +14,7 @@ definePageMeta({
 </script>
 <template>
   <section class="h-full flex flex-col">
-    <Toolbar label="I tuoi Album"> </Toolbar>
+    <Toolbar backButton label="I tuoi Album"> </Toolbar>
     <v-container class="flex flex-col justify-start grow relative gap-5">
       <p v-if="!albums || albums.length === 0" class="text-white/50 text-center">Non hai ancora creato nessun album!</p>
       <div

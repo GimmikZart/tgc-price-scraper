@@ -25,10 +25,10 @@ const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer
 </script>
 <template>
   <div
-    class="text-lg bg-black border-2 p-2 border-white rounded-lg flex text-center font-bold z-0"
+    class="relative text-lg bg-black border-2 p-2 border-white rounded-lg flex text-center font-bold z-0"
   >
     <Card v-if="leaderChoosen" :card="leaderChoosen" class="w-[50px] flex-none" @open="openViewer"/>
-    <div v-else  class="w-[50px] aspect-[2/3] bg-gray-800 rounded-sm flex-none" @open="openViewer"/>
+    <div v-else  class="w-[50px] aspect-[2/3] bg-gray-800 rounded-sm flex-none" />
     <FullscreenCardViewer
       v-if="leaderChoosen"
       v-model:show="viewerOpen"
@@ -64,6 +64,7 @@ const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer
           </v-chip>
         </div>
       </div>
+      
       <div v-if="leaderChoosen" class="w-[20px] h-full grow flex gap-1 flex-col">
         <div
           v-for="(color, idx) in leaderChoosen.color"

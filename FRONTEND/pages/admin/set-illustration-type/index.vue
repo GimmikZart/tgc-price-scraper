@@ -35,7 +35,6 @@ async function loadFile(name) {
     : (rawData.value && rawData.value.cards ? rawData.value.cards : [])
 
   cards.value = list
-  console.log({list});
   
   onlyPxCards.value = list.filter(c => typeof c.imageId === 'string' && pxRegex.test(c.imageId))
 }

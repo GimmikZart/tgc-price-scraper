@@ -72,6 +72,33 @@ const jittered = (base, jitter) => {
 }
 const isJsonFile = f => f.toLowerCase().endsWith('.json')
 
+async function applyCardTraderFilters(page) {
+  const CONDITION_SELECTOR = '#prop-condition-Near\\ Mint'
+  const LANGUAGE_SELECTOR  = '#prop-language-en'
+
+  try {
+    // Condizione: Near Mint
+    await page.waitForSelector(CONDITION_SELECTOR, { visible: true, timeout: 10000 })
+    await page.click(CONDITION_SELECTOR)
+    log('debug', 'Filtro condizione impostato a Near Mint')
+  } catch (e) {
+    log('warn', `Impossibile impostare filtro condizione Near Mint: ${e?.message || e}`)
+  }
+
+  try {
+    // Lingua: EN
+    await page.waitForSelector(LANGUAGE_SELECTOR, { visible: true, timeout: 10000 })
+    await page.click(LANGUAGE_SELECTOR)
+    log('debug', 'Filtro lingua impostato a EN')
+  } catch (e) {
+    log('warn', `Impossibile impostare filtro lingua EN: ${e?.message || e}`)
+  }
+
+  // Lascia un attimo alla pagina per aggiornare il prezzo
+  await sleep(1000)
+}
+
+
 function detectCardsRoot(json) {
   if (Array.isArray(json)) return { cards: json, isArrayRoot: true }
   if (json && typeof json === 'object' && Array.isArray(json.cards)) return { cards: json.cards, isArrayRoot: false }
@@ -397,6 +424,8 @@ async function main() {
             navigationsCounter++
 
             await gotoWithRetry(page, url)
+
+            await applyCardTraderFilters(page)
 
             const priceText = await waitForPriceWithRetry(page, PRICE_SELECTOR)
             log('debug', `raw price text = "${priceText}"`)

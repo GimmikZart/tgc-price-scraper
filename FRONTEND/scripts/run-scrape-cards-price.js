@@ -51,6 +51,33 @@ const jittered = (base, jitter) => {
   const d = Math.floor(Math.random() * (jitter || 0))
   return Math.max(0, base + (Math.random() < 0.5 ? -d : d))
 }
+
+async function applyCardTraderFilters(page) {
+  const CONDITION_SELECTOR = '#prop-condition-Near\\ Mint'
+  const LANGUAGE_SELECTOR  = '#prop-language-en'
+
+  try {
+    // Condizione: Near Mint
+    await page.waitForSelector(CONDITION_SELECTOR, { visible: true, timeout: 10000 })
+    await page.click(CONDITION_SELECTOR)
+    log('debug', 'Filtro condizione impostato a Near Mint')
+  } catch (e) {
+    log('warn', `Impossibile impostare filtro condizione Near Mint: ${e?.message || e}`)
+  }
+
+  try {
+    // Lingua: EN
+    await page.waitForSelector(LANGUAGE_SELECTOR, { visible: true, timeout: 10000 })
+    await page.click(LANGUAGE_SELECTOR)
+    log('debug', 'Filtro lingua impostato a EN')
+  } catch (e) {
+    log('warn', `Impossibile impostare filtro lingua EN: ${e?.message || e}`)
+  }
+
+  // Lascia un attimo alla pagina per aggiornare il prezzo
+  await sleep(1000)
+}
+
 const isJsonFile = f => f.toLowerCase().endsWith('.json')
 
 function detectCardsRoot(json) {
@@ -373,6 +400,8 @@ async function main() {
               const b = await page.$('#onetrust-accept-btn-handler, button[aria-label="Accept All Cookies"]')
               if (b) { await b.click(); await page.waitForTimeout(400); log('info','Cookie OK') }
             } catch {}
+
+            await applyCardTraderFilters(page)
 
             const priceText = await waitForPriceWithRetry(page, PRICE_SELECTOR)
             const price = parsePrice(priceText) // euro (float)

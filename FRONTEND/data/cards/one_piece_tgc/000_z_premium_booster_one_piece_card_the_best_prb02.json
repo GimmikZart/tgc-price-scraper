@@ -25,7 +25,14 @@
     "expansionCode": "EB01",
     "imageId": "EB01-009_p1",
     "id": "EB01-009_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/just-shut-up-and-come-with-us-pirate-foil-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Just Shut Up and Come with Us!!!!",
@@ -53,7 +60,14 @@
     "expansionCode": "EB01",
     "imageId": "EB01-009_r1",
     "id": "EB01-009_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/just-shut-up-and-come-with-us-eb-01-memorial-collection",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Cavendish",
@@ -82,7 +96,14 @@
     "expansionCode": "EB01",
     "imageId": "EB01-012_r1",
     "id": "EB01-012_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/cavendish-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Scratchmen Apoo",
@@ -110,7 +131,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/scratchmen-apoo-alternate-art-prb-02-the-best-2-premium-booster?_gl=1*1m31lk0*_up*MQ..*_ga*MTI4NDk0Mjk2Mi4xNzY0NDMzNDUy*_ga_5C7K2T8S8H*czE3NjQ0MzM0NTIkbzEkZzAkdDE3NjQ0MzM0NTIkajYwJGwwJGgw",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Scratchmen Apoo",
@@ -138,7 +166,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/scratchmen-apoo-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Mountain God",
@@ -163,7 +198,14 @@
     "expansionCode": "EB01",
     "imageId": "EB01-018_p1",
     "id": "EB01-018_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/mountain-god-pirate-foil-prb-02-the-best-2-premium-booster?_gl=1*1m31lk0*_up*MQ..*_ga*MTI4NDk0Mjk2Mi4xNzY0NDMzNDUy*_ga_5C7K2T8S8H*czE3NjQ0MzM0NTIkbzEkZzAkdDE3NjQ0MzM0NTIkajYwJGwwJGgw",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Mountain God",
@@ -188,7 +230,14 @@
     "expansionCode": "EB01",
     "imageId": "EB01-018_r1",
     "id": "EB01-018_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/mountain-god-non-foil-reprint-prb-02-the-best-2-premium-booster?_gl=1*1m31lk0*_up*MQ..*_ga*MTI4NDk0Mjk2Mi4xNzY0NDMzNDUy*_ga_5C7K2T8S8H*czE3NjQ0MzM0NTIkbzEkZzAkdDE3NjQ0MzM0NTIkajYwJGwwJGgw",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Oh Come My Way",
@@ -270,7 +319,14 @@
     "expansionCode": "EB01",
     "imageId": "EB01-046_r1",
     "id": "EB01-046_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/brook-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Laboon",
@@ -297,7 +353,14 @@
     "expansionCode": "EB01",
     "imageId": "EB01-048_r1",
     "id": "EB01-048_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/laboon-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Finger Pistol",
@@ -351,7 +414,14 @@
     "expansionCode": "EB01",
     "imageId": "EB01-051_r1",
     "id": "EB01-051_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/finger-pistol-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shirahoshi",
@@ -378,7 +448,14 @@
     "expansionCode": "EB01",
     "imageId": "EB01-057_r1",
     "id": "EB01-057_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shirahoshi-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Did Someone Say...Kami?",
@@ -460,7 +537,14 @@
     "expansionCode": "EB01",
     "imageId": "EB01-061_r1",
     "id": "EB01-061_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/mr-2-bon-kurei-bentham-secret-rare-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -490,7 +574,14 @@
     "expansionCode": "EB02",
     "imageId": "EB02-061_r1",
     "id": "EB02-061_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-secret-rare-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Killer",
@@ -606,7 +697,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-055_r1",
     "id": "OP01-055_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/you-can-be-my-samurai-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Curly.Dadan",
@@ -716,7 +814,14 @@
     "expansionCode": "OP02",
     "imageId": "OP02-068_r1",
     "id": "OP02-068_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gum-gum-rain-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Buggy",
@@ -797,7 +902,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kaya-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Nojiko",
@@ -907,7 +1019,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-072_r1",
     "id": "OP03-072_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gum-gum-jet-gatling-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Six King Pistol",
@@ -934,7 +1053,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-097_r1",
     "id": "OP03-097_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/six-king-pistol-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Bad Manners Kick Course",
@@ -990,7 +1116,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-016_r1",
     "id": "OP04-016_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/bad-manners-kick-course-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Ideo",
@@ -1073,7 +1206,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-083_r2",
     "id": "OP04-083_r2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sabo-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Corrida Coliseum",
@@ -1204,7 +1344,6 @@
     "expansionCode": "OP05",
     "imageId": "OP05-021_p1",
     "id": "OP05-021_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "id": "OP05-021_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
     "illustration": "Pirate Foil"
   },
   {
@@ -1290,7 +1429,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-030_r1",
     "id": "OP05-030_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/donquixote-rosinante-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monet",
@@ -1373,7 +1519,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-037_r1",
     "id": "OP05-037_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/because-the-side-of-justice-will-be-whichever-side-wins-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Maynard",
@@ -1509,7 +1662,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-091_r1",
     "id": "OP05-091_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/rebecca-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Mary Geoise",
@@ -1618,7 +1778,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gedatsu-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shanks",
@@ -1730,7 +1897,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-pudding-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sengoku",
@@ -1886,7 +2060,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-058_r1",
     "id": "OP06-058_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gravity-blade-raging-tiger-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "White Snake",
@@ -2199,7 +2380,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-107_r1",
     "id": "OP06-107_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kouzuki-momonosuke-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "You're the One Who Should Disappear.",
@@ -2282,7 +2470,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-118_r2",
     "id": "OP06-118_r2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/roronoa-zoro-secret-rare-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -2336,7 +2531,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-secret-rare-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Moda",
@@ -2420,7 +2622,14 @@
     "expansionCode": "OP07",
     "imageId": "OP07-015_r1",
     "id": "OP07-015_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-dragon-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Dragon Breath",
@@ -2532,7 +2741,14 @@
     "expansionCode": "OP07",
     "imageId": "OP07-021_r2",
     "id": "OP07-021_r2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/urouge-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Jewelry Bonney",
@@ -2560,7 +2776,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jewelry-bonney-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Basil Hawkins",
@@ -2816,7 +3039,14 @@
     "expansionCode": "OP07",
     "imageId": "OP07-064_r1",
     "id": "OP07-064_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Slow-Slow Beam Sword",
@@ -2895,7 +3125,14 @@
     "expansionCode": "OP07",
     "imageId": "OP07-107_r1",
     "id": "OP07-107_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/franky-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -2924,7 +3161,14 @@
     "expansionCode": "OP07",
     "imageId": "OP07-109_r1",
     "id": "OP07-109_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "He Possesses the World's Most Brilliant Mind",
@@ -3007,7 +3251,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sabo-secret-rare-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Portgas.D.Ace",
@@ -3035,7 +3286,14 @@
     "expansionCode": "OP07",
     "imageId": "OP07-119_r1",
     "id": "OP07-119_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/portgas-d-ace-secret-rare-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Carrot",
@@ -3063,7 +3321,14 @@
     "expansionCode": "OP08",
     "imageId": "OP08-023_r1",
     "id": "OP08-023_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/carrot-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Charlotte Pudding",
@@ -3119,7 +3384,14 @@
     "expansionCode": "OP08",
     "imageId": "OP08-074_r1",
     "id": "OP08-074_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/black-maria-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "It's to Die For...",
@@ -3314,7 +3586,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/silvers-rayleigh-secret-rare-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Uta",
@@ -3341,7 +3620,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/uta-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shanks",
@@ -3397,7 +3683,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-005_r1",
     "id": "OP09-005_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/silvers-rayleigh-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Benn.Beckman",
@@ -3424,7 +3717,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/benn-beckman-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Limejuice",
@@ -3678,7 +3978,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/crocodile-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Dracule Mihawk",
@@ -3706,7 +4013,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-048_r1",
     "id": "OP09-048_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/dracule-mihawk-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Mr.3(Galdino)",
@@ -3762,7 +4076,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/mr-3-galdino-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Cross Guild",
@@ -3844,7 +4165,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/trafalgar-law-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Franky",
@@ -4176,7 +4504,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-086_r2",
     "id": "OP09-086_r2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jesus-burgess-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Marshall.D.Teach",
@@ -4206,7 +4541,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-093_r1",
     "id": "OP09-093_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/marshall-d-teach-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "My Era...Begins!!",
@@ -4399,7 +4741,14 @@
     "expansionCode": "OP10",
     "imageId": "OP10-011_r1",
     "id": "OP10-011_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tony-tony-chopper-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Ten-Layer Igloo",
@@ -4480,7 +4829,14 @@
     "expansionCode": "OP10",
     "imageId": "OP10-032_r1",
     "id": "OP10-032_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tashigi-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Kyros",
@@ -4507,7 +4863,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kyros-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "God Thread",
@@ -4621,7 +4984,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/roronoa-zoro-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Cavendish",
@@ -4785,7 +5155,14 @@
     "expansionCode": "OP10",
     "imageId": "OP10-109_r1",
     "id": "OP10-109_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/basil-hawkins-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -4814,7 +5191,14 @@
     "expansionCode": "OP10",
     "imageId": "OP10-112_r1",
     "id": "OP10-112_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/eustass-captain-kid-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "X.Drake",
@@ -4930,7 +5314,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/trafalgar-law-secret-rare-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sabo",
@@ -5804,7 +6195,14 @@
     ],
     "expansionCode": "PRB02",
     "imageId": "PRB02-001",
-    "id": "PRB02-001_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]"
+    "id": "PRB02-001_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/koby-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Koby",
@@ -5862,7 +6260,14 @@
     ],
     "expansionCode": "PRB02",
     "imageId": "PRB02-002",
-    "id": "PRB02-002_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]"
+    "id": "PRB02-002_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/trafalgar-law-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -5919,7 +6324,14 @@
     ],
     "expansionCode": "PRB02",
     "imageId": "PRB02-003",
-    "id": "PRB02-003_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]"
+    "id": "PRB02-003_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/lucky-roux-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Lucky.Roux",
@@ -5976,7 +6388,14 @@
     ],
     "expansionCode": "PRB02",
     "imageId": "PRB02-004",
-    "id": "PRB02-004_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]"
+    "id": "PRB02-004_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jewelry-bonney-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Jewelry Bonney",
@@ -6034,7 +6453,14 @@
     ],
     "expansionCode": "PRB02",
     "imageId": "PRB02-005",
-    "id": "PRB02-005_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]"
+    "id": "PRB02-005_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -6091,7 +6517,14 @@
     ],
     "expansionCode": "PRB02",
     "imageId": "PRB02-006",
-    "id": "PRB02-006_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]"
+    "id": "PRB02-006_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/roronoa-zoro-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -6149,7 +6582,14 @@
     ],
     "expansionCode": "PRB02",
     "imageId": "PRB02-007",
-    "id": "PRB02-007_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]"
+    "id": "PRB02-007_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/jinbe-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Jinbe",
@@ -6236,7 +6676,14 @@
     "expansionCode": "PRB02",
     "imageId": "PRB02-008_p1",
     "id": "PRB02-008_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/marco-Alternate Art-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Mr.3(Galdino)",
@@ -6263,7 +6710,14 @@
     ],
     "expansionCode": "PRB02",
     "imageId": "PRB02-009",
-    "id": "PRB02-009_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]"
+    "id": "PRB02-009_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/mr-3-galdino-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Mr.3(Galdino)",
@@ -6317,6 +6771,13 @@
     "id": "PRB02-010_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-pudding-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
     ]
   },
   {
@@ -6372,7 +6833,14 @@
     ],
     "expansionCode": "PRB02",
     "imageId": "PRB02-011",
-    "id": "PRB02-011_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]"
+    "id": "PRB02-011_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/donquixote-doflamingo-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Donquixote Doflamingo",
@@ -6427,6 +6895,13 @@
     "id": "PRB02-012_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nami-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
     ]
   },
   {
@@ -6481,6 +6956,13 @@
     "id": "PRB02-013_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gecko-moria-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
     ]
   },
   {
@@ -6536,7 +7018,14 @@
     ],
     "expansionCode": "PRB02",
     "imageId": "PRB02-014",
-    "id": "PRB02-014_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]"
+    "id": "PRB02-014_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sabo-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Sabo",
@@ -6591,7 +7080,14 @@
     ],
     "expansionCode": "PRB02",
     "imageId": "PRB02-015",
-    "id": "PRB02-015_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]"
+    "id": "PRB02-015_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shiryu-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shiryu",
@@ -6645,7 +7141,14 @@
     ],
     "expansionCode": "PRB02",
     "imageId": "PRB02-016",
-    "id": "PRB02-016_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]"
+    "id": "PRB02-016_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/otama-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Otama",
@@ -6701,7 +7204,14 @@
     ],
     "expansionCode": "PRB02",
     "imageId": "PRB02-017",
-    "id": "PRB02-017_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]"
+    "id": "PRB02-017_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/boa-hancock-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Boa Hancock",
@@ -6757,6 +7267,13 @@
     "id": "PRB02-018_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/portgas-d-ace-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
     ]
   },
   {
@@ -7804,7 +8321,14 @@
     "expansionCode": "ST16",
     "imageId": "ST16-003_r1",
     "id": "ST16-003_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/charlotte-katakuri-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
   },
   {
     "name": "Shanks",

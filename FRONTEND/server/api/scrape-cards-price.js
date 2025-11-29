@@ -190,6 +190,28 @@ export default defineEventHandler(async (event) => {
               }
             } catch {}
 
+            // Imposto filtri: condizione Near Mint + lingua EN
+            try {
+              const CONDITION_SELECTOR = '#prop-condition-Near\\ Mint'
+              const LANGUAGE_SELECTOR  = '#prop-language-en'
+
+              await page.waitForSelector(CONDITION_SELECTOR, { visible: true, timeout: 10000 })
+              await page.click(CONDITION_SELECTOR)
+              await logBoth('generic_info', '✅ Condizione impostata a Near Mint')
+
+              await page.waitForSelector(LANGUAGE_SELECTOR, { visible: true, timeout: 10000 })
+              await page.click(LANGUAGE_SELECTOR)
+              await logBoth('generic_info', '✅ Lingua impostata a EN')
+
+              // breve pausa per far aggiornare il prezzo
+              await sleep(1000)
+            } catch (e) {
+              await logBoth(
+                'generic_warning',
+                `Impossibile impostare filtro condizione/lingua per "${card.name || card.code || 'unknown'}": ${String(e?.message || e)}`
+              )
+            }
+
             /**
              * Attende che l’elemento prezzo sia presente e non sia "-" o vuoto.
              */
@@ -226,6 +248,7 @@ export default defineEventHandler(async (event) => {
           } catch (err) {
             await logBoth('generic_error', `Errore durante scraping prezzo per "${card.name || card.code || 'unknown'}" in ${fileName}: ${String(err?.message || err)}`)
           }
+
 
           // Delay "gentile" tra richieste — stesso valore per log e sleep
           {

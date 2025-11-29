@@ -1,7 +1,7 @@
 <script setup>
 import { ref, computed, onMounted, watch, nextTick } from "vue";
 import { useRoute } from "vue-router";
-import { getAlbum, removeCardFromAlbum } from "@/api/album";
+import { getAlbum, removeCardFromAlbum, addPage } from "@/api/album";
 import { Icon } from "@iconify/vue";
 
 const route = useRoute();
@@ -9,9 +9,10 @@ const router = useRouter();
 const gs = useGlobalSettings();
 
 const slug = route.params.slug;
-const addCardMode = ref(false);
 const paginatedCards = ref([]);
 const { allCards } = await useOnePieceCards();
+
+const editMode = ref(false);
 
 // --- parametri da query
 const itemsPerPage = 10; // deve combaciare con CardViewPagination
@@ -139,6 +140,12 @@ async function scrollToFocusIfPresent() {
   scrollRootToEl(el, HEADER_OFFSET);
 }
 
+async function addNewPage() {
+  await addPage(album.value);
+  refreshAlbum();
+
+}
+
 /* ===== TRIGGER SCROLL =====
    Scatena lo scroll quando:
    - cambia il buffer paginato (nuova pagina)
@@ -227,30 +234,50 @@ definePageMeta({ middleware: "auth" });
       @update:paginated="handlePaginatedUpdate"
     />
 
-    <MobileFloatMenu :cols="3" :fromBottom="gs.navbarHeight + gs.paginationHeight" closeable class="z-30" >
+    <MobileFloatMenu :cols="editMode ? 3 : 2" :fromBottom="gs.navbarHeight + gs.paginationHeight" class="z-30" >
       <template #buttons>
-        <DialogsHandleRemoveAlbum :album-id="album.id" />
 
-        <DialogsRenameAlbum :album="album" @refresh="refreshAlbum()"/>
+        <template v-if="!editMode">
+          <ButtonMenu
+            v-if="!gs.albumIsHandling"
+            icon="ph:swap"
+            label="Gestisci"
+            @click="gs.toggleAlbumHandling()"
+          />
+          <ButtonMenu
+            v-else
+            icon="el:ok"
+            label="Termina"
+            color="green"
+            @click="gs.toggleAlbumHandling()"
+          />
+        </template>
 
-        <button
-          class="text-white border border-white p-2 cursor-pointer rounded-lg relative flex flex-col items-center justify-center"
-          @click="gs.toggleAlbumHandling()"
-        >
-          <template v-if="!gs.albumIsHandling">
-            <ButtonMenu
-              icon="ph:swap"
-              label="Gestisci"
-            />
-          </template>
-          <template v-else>
-            <ButtonMenu
-              icon="el:ok"
-              label="Termina"
-              color="green"
-            />
-          </template>
-        </button>
+        <ButtonMenu
+          v-if="editMode"
+          icon="streamline-ultimate:card-add-1-bold"
+          label="Aggiungi Pagina"
+          @click="addNewPage()"
+        />
+
+        <DialogsHandleRemoveAlbumPage v-if="editMode" :album="album" @refresh="refreshAlbum()"/>
+
+        <DialogsRenameAlbum v-if="editMode" :album="album" @refresh="refreshAlbum()"/>
+
+        <DialogsHandleRemoveAlbum v-if="editMode" :album-id="album.id" />
+
+        <ButtonMenu
+          v-if="!editMode"
+          icon="ic:baseline-settings"
+          label="Opzioni"
+          @click="editMode = true"
+        />
+        <ButtonMenu
+          v-else
+          icon="mdi:settings-off"
+          label="Termina"
+          @click="editMode = false"
+        />
       </template>
     </MobileFloatMenu>
 

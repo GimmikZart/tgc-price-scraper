@@ -88,9 +88,9 @@ const bottomDistance = computed(() => {
         :style="{ bottom: `${bottomDistance - 15}px`, position: 'fixed', left: 0 }"
       >
         <v-card class="bg-black rounded-t-xl pb-5">
-          <v-card-title class="text-white font-bold text-2xl">
+          <h5 class="text-white font-bold text-xl px-4 py-2" >
             <slot name="title"></slot>
-          </v-card-title>
+          </h5>
 
           <v-card-text>
             <slot name="content"></slot>

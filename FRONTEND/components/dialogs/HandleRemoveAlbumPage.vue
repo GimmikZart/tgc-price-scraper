@@ -1,22 +1,22 @@
 <script setup>
-import { removeAlbum } from "@/api/album";
+import { removePage } from "@/api/album";
 
 const props = defineProps({
-  albumId: { type: Number, required: true },
+  album: { type: Object, required: true },
 });
 const emits = defineEmits(["refresh"]);
 
-const snackbar = useSnackbar();
-const router = useRouter();
 const gs = useGlobalSettings();
 
 const bottomDistance = computed(() => {
   return (gs.navbarHeight + gs.floatMenuHeight + gs.paginationHeight);
 });
 
-async function deleteAlbum() {
-  await removeAlbum(props.albumId);
-  router.push("/collection/albums");
+async function removeLastPage() {
+  console.log('aooo?');
+  
+  await removePage(props.album);
+  emits("refresh");
 }
 </script>
 
@@ -24,19 +24,19 @@ async function deleteAlbum() {
   <div class="flex justify-center">
     <DialogsGeneric
       :from-bottom="bottomDistance"
-      @confirm="deleteAlbum"
-      accept-label="Cancella"
+      @confirm="removeLastPage"
+      accept-label="Rimuovi"
       accept-color="red"
     >
       <template #button>
         <ButtonMenu
-          icon="tabler:trash"
-          label="Cancella"
-          icon-color="red"
+          icon="hugeicons:file-remove"
+          label="Rimuovi Pagina"
+          icon-color="orange"
         />
       </template>
 
-      <template #title>Sei sicuro di voler cancellare?</template>
+      <template #title>Sei sicuro di voler eliminare l'ultima pagina?</template>
 
       <template #content>
         <p class="text-white">L'operazione è irreversibile.</p>

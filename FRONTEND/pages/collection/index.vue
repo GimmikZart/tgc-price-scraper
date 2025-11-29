@@ -3,7 +3,6 @@ import { ref, computed, watch, onMounted } from "vue";
 import Toolbar from "@/components/Toolbar.vue";
 import Card from "@/components/Card.vue";
 import { useMyBreakpoints } from "@/composables/useMyBreakpoints";
-import { useMobileFloatMenu } from "@/stores/useMobileFloatMenu";
 import { fetchUserCollection } from "@/api/collection";
 import { getAlbums, insertCardToAlbum } from "@/api/album";
 import { Icon } from "@iconify/vue";
@@ -14,6 +13,7 @@ import {
 } from "@/api/collection";
 
 const route = useRoute();
+const snackbar = useSnackbar();
 const router = useRouter();
 const { isMobile, isTablet, isDesktop } = useMyBreakpoints();
 const globalSettings = useGlobalSettings()

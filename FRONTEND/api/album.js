@@ -173,3 +173,49 @@ export async function renameAlbum(albumId, newName) {
   return true;
 }
 
+export async function addPage(album) {
+  const client = useSupabaseClient();
+  const snackbar = useSnackbar();
+
+  const newSlotsValue = album.slots + 10;
+  const { data, error } = await client
+    .from("albums")
+    .update({ slots: newSlotsValue })
+    .eq("id", album.id);
+
+  if (error) {
+    snackbar.addMessage("Errore aggiunta pagina album:", "error", error.message);
+    return;
+  } else {
+    snackbar.addMessage("Pagina aggiunta con successo", "success");
+  }
+
+  return true;
+}
+
+export async function removePage(album) {
+  const client = useSupabaseClient();
+  const snackbar = useSnackbar();
+
+  const newSlotsValue = album.slots - 10;
+  const { data: albumData, error: albumError } = await client
+    .from("albums")
+    .update({ slots: newSlotsValue })
+    .eq("id", album.id);
+
+    const {data: cardAlbumData, error: cardAlbumError} = await client
+    .from("card_album")
+    .delete()
+    .eq("album_id", album.id)
+    .gt("index", newSlotsValue - 1);
+
+  if (albumError || cardAlbumError) {
+    snackbar.addMessage("Errore rimozione pagina album:", "error", albumError?.message || cardAlbumError?.message);
+    return;
+  } else {
+    snackbar.addMessage("Pagina rimossa con successo", "success");
+  }
+
+  return true;
+}
+

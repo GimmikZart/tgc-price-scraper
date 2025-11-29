@@ -25,7 +25,7 @@ function openCard() { if (!props.disableOpening) emit("open", props.card); }
 </script>
 
 <template>
-  <div :key="card.id" class="h-full flex flex-col" :class="cardClass">
+  <div :key="card.id" class="flex flex-col" :class="cardClass">
     <!-- Skeleton -->
     <v-skeleton-loader
       v-if="!isLoaded"

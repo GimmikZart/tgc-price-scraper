@@ -66,7 +66,7 @@ function handleCardCopy(card) {
             v-for="(copy, ydx) in card.count"
             :key="ydx"
             :card="card"
-            class="w-full top-0 left-0"
+            class="w-full h-full top-0 left-0"
             :class="{
               absolute: ydx > 0,
               'border-[2px] animate-pulse rounded-lg border-red-500': copy > 4,

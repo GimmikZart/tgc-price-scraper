@@ -75,28 +75,64 @@ const isJsonFile = f => f.toLowerCase().endsWith('.json')
 async function applyCardTraderFilters(page) {
   const CONDITION_SELECTOR = '#prop-condition-Near\\ Mint'
   const LANGUAGE_SELECTOR  = '#prop-language-en'
+  let changed = false
 
+  // Condizione: Near Mint
   try {
-    // Condizione: Near Mint
     await page.waitForSelector(CONDITION_SELECTOR, { visible: true, timeout: 10000 })
-    await page.click(CONDITION_SELECTOR)
-    log('debug', 'Filtro condizione impostato a Near Mint')
+
+    const shouldClickCond = await page.$eval(CONDITION_SELECTOR, (el) => {
+      const input = el.matches('input') ? el : el.querySelector('input')
+      if (input) return !input.checked
+
+      const aria = el.getAttribute('aria-checked') ?? el.getAttribute('aria-pressed')
+      if (aria != null) return aria !== 'true'
+
+      return !el.classList.contains('active') && !el.classList.contains('selected')
+    })
+
+    if (shouldClickCond) {
+      await page.click(CONDITION_SELECTOR)
+      changed = true
+      log('debug', 'Filtro condizione impostato a Near Mint')
+    } else {
+      log('debug', 'Filtro condizione Near Mint già attivo, non clicco')
+    }
   } catch (e) {
-    log('warn', `Impossibile impostare filtro condizione Near Mint: ${e?.message || e}`)
+    log('warn', `Impossibile gestire filtro condizione Near Mint: ${e?.message || e}`)
   }
 
+  // Lingua: EN
   try {
-    // Lingua: EN
     await page.waitForSelector(LANGUAGE_SELECTOR, { visible: true, timeout: 10000 })
-    await page.click(LANGUAGE_SELECTOR)
-    log('debug', 'Filtro lingua impostato a EN')
+
+    const shouldClickLang = await page.$eval(LANGUAGE_SELECTOR, (el) => {
+      const input = el.matches('input') ? el : el.querySelector('input')
+      if (input) return !input.checked
+
+      const aria = el.getAttribute('aria-checked') ?? el.getAttribute('aria-pressed')
+      if (aria != null) return aria !== 'true'
+
+      return !el.classList.contains('active') && !el.classList.contains('selected')
+    })
+
+    if (shouldClickLang) {
+      await page.click(LANGUAGE_SELECTOR)
+      changed = true
+      log('debug', 'Filtro lingua impostato a EN')
+    } else {
+      log('debug', 'Filtro lingua EN già attivo, non clicco')
+    }
   } catch (e) {
-    log('warn', `Impossibile impostare filtro lingua EN: ${e?.message || e}`)
+    log('warn', `Impossibile gestire filtro lingua EN: ${e?.message || e}`)
   }
 
-  // Lascia un attimo alla pagina per aggiornare il prezzo
-  await sleep(1000)
+  // Se ho toccato almeno un filtro, do il tempo alla pagina di aggiornare il prezzo
+  if (changed) {
+    await sleep(1000)
+  }
 }
+
 
 
 function detectCardsRoot(json) {

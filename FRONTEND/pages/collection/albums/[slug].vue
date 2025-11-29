@@ -237,6 +237,27 @@ definePageMeta({ middleware: "auth" });
     <MobileFloatMenu :cols="editMode ? 3 : 2" :fromBottom="gs.navbarHeight + gs.paginationHeight" class="z-30" >
       <template #buttons>
 
+        <template v-if="editMode">
+          
+          <DialogsHandleRemoveAlbum :album-id="album.id" />
+
+          <DialogsRenameAlbum :album="album" @refresh="refreshAlbum()"/>
+
+
+          <ButtonMenu
+            icon="mdi:settings-off"
+            label="Termina"
+            @click="editMode = false"
+          />
+
+          <DialogsHandleRemoveAlbumPage class="col-start-1" :album="album" @refresh="refreshAlbum()"/>
+
+          <ButtonMenu
+            icon="streamline-ultimate:card-add-1-bold"
+            label="Aggiungi Pagina"
+            @click="addNewPage()"
+          />
+        </template>
         <template v-if="!editMode">
           <ButtonMenu
             v-if="!gs.albumIsHandling"
@@ -251,33 +272,23 @@ definePageMeta({ middleware: "auth" });
             color="green"
             @click="gs.toggleAlbumHandling()"
           />
+
+          <ButtonMenu
+            icon="ic:baseline-settings"
+            label="Opzioni"
+            @click="editMode = true"
+          />
         </template>
+        
+        
 
-        <ButtonMenu
-          v-if="editMode"
-          icon="streamline-ultimate:card-add-1-bold"
-          label="Aggiungi Pagina"
-          @click="addNewPage()"
-        />
+        
 
-        <DialogsHandleRemoveAlbumPage v-if="editMode" :album="album" @refresh="refreshAlbum()"/>
+        
 
-        <DialogsRenameAlbum v-if="editMode" :album="album" @refresh="refreshAlbum()"/>
+        
 
-        <DialogsHandleRemoveAlbum v-if="editMode" :album-id="album.id" />
-
-        <ButtonMenu
-          v-if="!editMode"
-          icon="ic:baseline-settings"
-          label="Opzioni"
-          @click="editMode = true"
-        />
-        <ButtonMenu
-          v-else
-          icon="mdi:settings-off"
-          label="Termina"
-          @click="editMode = false"
-        />
+        
       </template>
     </MobileFloatMenu>
 

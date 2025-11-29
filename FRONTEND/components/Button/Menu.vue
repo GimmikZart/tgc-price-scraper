@@ -74,8 +74,10 @@ const animateBase = computed(() =>
 </script>
 
 <template>
-  <div ref="rootEl" class="flex bg-black mt-2 items-center justify-end flex-col relative">
+  <div ref="rootEl" class="flex bg-black items-center justify-end flex-col relative">
+    
     <Icon v-if="multi" :class="multiOpened ? 'rotate-180' : 'rotate-0'" class="transition-all absolute -top-0 left-1/2 -translate-x-1/2" icon="lucide:chevron-up" />
+  
     <button
       :style="timingStyle"
       :class="[
@@ -87,7 +89,10 @@ const animateBase = computed(() =>
       :disabled="disabled"
       @click="multi ? (multiOpened = !multiOpened) : emit('click')"
     >
-      <Icon :icon="icon" class="text-2xl" :style="{ color: iconColor || color }" />
+      <div class="relative">
+        <slot name="over-icon"></slot>
+        <Icon :icon="icon" class="text-2xl" :style="{ color: iconColor || color }" />
+      </div>
       <span class="text-xs mt-0.5">{{ label }}</span>
     </button>
 

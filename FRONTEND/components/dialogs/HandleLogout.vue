@@ -24,10 +24,11 @@ async function onConfirm() {
     accept-label="Esci"
   >
     <template #button>
-      <v-btn block>
-        Logout
-        <v-icon class="ml-3">mdi-logout</v-icon>
-      </v-btn>
+      <ButtonMenu
+        icon="ri:run-line"
+        label="Logout"
+        transition
+      />
     </template>
 
     <template #title>

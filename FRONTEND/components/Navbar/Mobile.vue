@@ -20,22 +20,6 @@ watch(height, (newHeight) => {
     class="w-screen flex gap-5 fixed bottom-0 right-0 items-center justify-around h-auto pb-5 bg-black z-[1000]"
   >
     <NuxtLink
-      v-if="userAuth.isAdmin"
-      to="/admin"
-      active-class="text-white font-bold"
-      class="text-white/60 p-2 cursor-pointer rounded-lg relative flex flex-col items-center justify-center"
-    >
-      <Icon class="text-3xl" icon="material-symbols:admin-panel-settings-outline-rounded" />
-      <span class="text-xs">Admin</span>
-    </NuxtLink>
-    <!-- <NuxtLink
-      to="/"
-      active-class="text-white font-bold"
-      class="text-white/60 p-2 cursor-pointer rounded-lg relative"
-    >
-      <Icon class="text-3xl" icon="mdi-shopping"></Icon>
-    </NuxtLink> -->
-    <NuxtLink
       to="/cards"
       active-class="text-white font-bold"
       class="text-white/60 p-2 cursor-pointer rounded-lg relative flex flex-col items-center justify-center"

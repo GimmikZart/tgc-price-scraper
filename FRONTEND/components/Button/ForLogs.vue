@@ -12,29 +12,30 @@ function goToLogsView() {
 </script>
 <template>
   <div>
-    <v-btn
-      v-if="userAuth.isAdmin"
-      variant="outlined"
-      block
-      color="white"
+    <ButtonMenu
+      icon="tabler:circle"
+      label="Avvisi"
+      transition
+      class="relative"
       @click="goToLogsView()"
     >
-      AVVISI
-      <v-badge
-        color="info"
-        :content="snackbar.messageCountByType.info"
-        inline
-      ></v-badge>
-      <v-badge
-        color="success"
-        :content="snackbar.messageCountByType.success"
-        inline
-      ></v-badge>
-      <v-badge
-        color="error"
-        :content="snackbar.messageCountByType.error"
-        inline
-      ></v-badge>
-    </v-btn>
+      <template #over-icon>
+        <span
+          class="absolute top-1/2 -left-1 bg-blue-500 flex items-center justify-center text-[10px] rounded-circle w-[15px] h-[15px]"
+        >
+          {{ snackbar.messageCountByType.info }}
+        </span>
+        <span
+          class="absolute -top-1 left-1/2 -translate-x-1/2 bg-red-500 flex items-center justify-center text-[10px] rounded-circle w-[15px] h-[15px]"
+        >
+          {{ snackbar.messageCountByType.error }}
+        </span>
+        <span
+          class="absolute top-1/2 -right-1 bg-green-500 flex items-center justify-center text-[10px] rounded-circle w-[15px] h-[15px]"
+        >
+          {{ snackbar.messageCountByType.success }}
+        </span>
+      </template>
+    </ButtonMenu>
   </div>
 </template>

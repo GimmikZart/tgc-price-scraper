@@ -4,14 +4,22 @@ definePageMeta({
 })
 </script>
 <template>
-  <section class="h-full flex flex-col">
-    <Toolbar label="User"> </Toolbar>
-    <v-container class="flex flex-col justify-between grow relative gap-5">
-      <div></div>
-      <div class="flex flex-col gap-3">
+  <section class="relative h-full">
+    <Toolbar backButton label="Profilo">
+    <template #info>
+      <!-- user top info -->
+      <div>
+        <div>
+          
+        </div>
+      </div>
+    </template>
+  </Toolbar>
+    <MobileFloatMenu :cols="2">
+      <template #buttons>
         <ButtonForLogs />
         <DialogsHandleLogout />
-      </div>
-    </v-container>
+      </template>
+    </MobileFloatMenu>
   </section>
 </template>

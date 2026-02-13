@@ -20,7 +20,14 @@
     "cost": 6,
     "expansionCode": "OP05",
     "imageId": "OP05-065_r1",
-    "id": "OP05-065_r1_PURPLEBLACK_MonkeyDLuffy_[ST-26]"
+    "id": "OP05-065_r1_PURPLEBLACK_MonkeyDLuffy_[ST-26]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Jinbe",
@@ -48,7 +55,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-066_r2",
-    "id": "OP05-066_r2_PURPLEBLACK_MonkeyDLuffy_[ST-26]"
+    "id": "OP05-066_r2_PURPLEBLACK_MonkeyDLuffy_[ST-26]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Fra-Nosuke",
@@ -75,7 +89,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-070_r2",
-    "id": "OP05-070_r2_PURPLEBLACK_MonkeyDLuffy_[ST-26]"
+    "id": "OP05-070_r2_PURPLEBLACK_MonkeyDLuffy_[ST-26]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -105,7 +126,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-061_p2",
-    "id": "OP09-061_p2_PURPLEBLACK_MonkeyDLuffy_[ST-26]"
+    "id": "OP09-061_p2_PURPLEBLACK_MonkeyDLuffy_[ST-26]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Usopp",
@@ -128,7 +156,14 @@
     "cost": 4,
     "expansionCode": "OP09",
     "imageId": "OP09-063_r1",
-    "id": "OP09-063_r1_PURPLEBLACK_MonkeyDLuffy_[ST-26]"
+    "id": "OP09-063_r1_PURPLEBLACK_MonkeyDLuffy_[ST-26]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Nami",
@@ -154,6 +189,13 @@
     "id": "OP09-070_r1_PURPLEBLACK_MonkeyDLuffy_[ST-26]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -180,6 +222,13 @@
     "id": "OP09-076_r1_PURPLEBLACK_MonkeyDLuffy_[ST-26]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -207,7 +256,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-077_r1",
-    "id": "OP09-077_r1_PURPLEBLACK_MonkeyDLuffy_[ST-26]"
+    "id": "OP09-077_r1_PURPLEBLACK_MonkeyDLuffy_[ST-26]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gum-Gum Giant",
@@ -234,7 +290,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-078_p1",
-    "id": "OP09-078_p1_PURPLEBLACK_MonkeyDLuffy_[ST-26]"
+    "id": "OP09-078_p1_PURPLEBLACK_MonkeyDLuffy_[ST-26]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Brook",
@@ -257,7 +320,14 @@
     "cost": 5,
     "expansionCode": "ST14",
     "imageId": "ST14-010_r1",
-    "id": "ST14-010_r1_set_not_found"
+    "id": "ST14-010_r1_set_not_found",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Soba Mask",
@@ -283,6 +353,13 @@
     "id": "ST26-001_PURPLEBLACK_MonkeyDLuffy_[ST-26]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -311,7 +388,14 @@
     ],
     "expansionCode": "ST26",
     "imageId": "ST26-002",
-    "id": "ST26-002_PURPLEBLACK_MonkeyDLuffy_[ST-26]"
+    "id": "ST26-002_PURPLEBLACK_MonkeyDLuffy_[ST-26]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Nico Robin",
@@ -337,6 +421,13 @@
     "id": "ST26-003_PURPLEBLACK_MonkeyDLuffy_[ST-26]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -363,6 +454,13 @@
     "id": "ST26-004_PURPLEBLACK_MonkeyDLuffy_[ST-26]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -390,6 +488,13 @@
     ],
     "expansionCode": "ST26",
     "imageId": "ST26-005",
-    "id": "ST26-005_PURPLEBLACK_MonkeyDLuffy_[ST-26]"
+    "id": "ST26-005_PURPLEBLACK_MonkeyDLuffy_[ST-26]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   }
 ]

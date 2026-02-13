@@ -2730,7 +2730,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-067_p1",
     "id": "OP05-067_p1_AWAKENING_OF_THE_NEW_ERA_[OP05]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Chopa-Emon",

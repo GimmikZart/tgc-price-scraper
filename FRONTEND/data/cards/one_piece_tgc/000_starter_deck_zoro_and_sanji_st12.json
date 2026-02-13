@@ -26,7 +26,14 @@
     ],
     "expansionCode": "ST12",
     "imageId": "ST12-001",
-    "id": "ST12-001_Zoro__Sanji_[ST-12]"
+    "id": "ST12-001_Zoro__Sanji_[ST-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Kuina",
@@ -52,7 +59,14 @@
     ],
     "expansionCode": "ST12",
     "imageId": "ST12-002",
-    "id": "ST12-002_Zoro__Sanji_[ST-12]"
+    "id": "ST12-002_Zoro__Sanji_[ST-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Dracule Mihawk",
@@ -79,6 +93,13 @@
     "id": "ST12-003_Zoro__Sanji_[ST-12]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -103,7 +124,14 @@
     "cost": 3,
     "expansionCode": "ST12",
     "imageId": "ST12-004",
-    "id": "ST12-004_Zoro__Sanji_[ST-12]"
+    "id": "ST12-004_Zoro__Sanji_[ST-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Perona",
@@ -127,7 +155,14 @@
     "cost": 4,
     "expansionCode": "ST12",
     "imageId": "ST12-005",
-    "id": "ST12-005_Zoro__Sanji_[ST-12]"
+    "id": "ST12-005_Zoro__Sanji_[ST-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Yosaku & Johnny",
@@ -154,7 +189,14 @@
     ],
     "expansionCode": "ST12",
     "imageId": "ST12-006",
-    "id": "ST12-006_Zoro__Sanji_[ST-12]"
+    "id": "ST12-006_Zoro__Sanji_[ST-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Rika",
@@ -180,6 +222,13 @@
     "id": "ST12-007_Zoro__Sanji_[ST-12]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -207,7 +256,14 @@
     ],
     "expansionCode": "ST12",
     "imageId": "ST12-008",
-    "id": "ST12-008_Zoro__Sanji_[ST-12]"
+    "id": "ST12-008_Zoro__Sanji_[ST-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Elephant True Bluefin",
@@ -230,7 +286,14 @@
     "cost": 1,
     "expansionCode": "ST12",
     "imageId": "ST12-009",
-    "id": "ST12-009_Zoro__Sanji_[ST-12]"
+    "id": "ST12-009_Zoro__Sanji_[ST-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Emporio.Ivankov",
@@ -259,7 +322,14 @@
     ],
     "expansionCode": "ST12",
     "imageId": "ST12-010",
-    "id": "ST12-010_Zoro__Sanji_[ST-12]"
+    "id": "ST12-010_Zoro__Sanji_[ST-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -286,7 +356,14 @@
     ],
     "expansionCode": "ST12",
     "imageId": "ST12-011",
-    "id": "ST12-011_Zoro__Sanji_[ST-12]"
+    "id": "ST12-011_Zoro__Sanji_[ST-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Pudding",
@@ -312,7 +389,14 @@
     ],
     "expansionCode": "ST12",
     "imageId": "ST12-012",
-    "id": "ST12-012_Zoro__Sanji_[ST-12]"
+    "id": "ST12-012_Zoro__Sanji_[ST-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Zeff",
@@ -339,7 +423,14 @@
     ],
     "expansionCode": "ST12",
     "imageId": "ST12-013",
-    "id": "ST12-013_Zoro__Sanji_[ST-12]"
+    "id": "ST12-013_Zoro__Sanji_[ST-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Duval",
@@ -366,7 +457,14 @@
     ],
     "expansionCode": "ST12",
     "imageId": "ST12-014",
-    "id": "ST12-014_Zoro__Sanji_[ST-12]"
+    "id": "ST12-014_Zoro__Sanji_[ST-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Patty & Carne",
@@ -389,7 +487,14 @@
     "cost": 2,
     "expansionCode": "ST12",
     "imageId": "ST12-015",
-    "id": "ST12-015_Zoro__Sanji_[ST-12]"
+    "id": "ST12-015_Zoro__Sanji_[ST-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Lion Strike",
@@ -416,7 +521,14 @@
     ],
     "expansionCode": "ST12",
     "imageId": "ST12-016",
-    "id": "ST12-016_Zoro__Sanji_[ST-12]"
+    "id": "ST12-016_Zoro__Sanji_[ST-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Plastic Surgery Shot",
@@ -442,6 +554,13 @@
     ],
     "expansionCode": "ST12",
     "imageId": "ST12-017",
-    "id": "ST12-017_Zoro__Sanji_[ST-12]"
+    "id": "ST12-017_Zoro__Sanji_[ST-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   }
 ]

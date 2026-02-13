@@ -264,7 +264,14 @@
     "expansionCode": "EB01",
     "imageId": "EB01-038_p1",
     "id": "EB01-038_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Oh Come My Way",
@@ -291,7 +298,14 @@
     "expansionCode": "EB01",
     "imageId": "EB01-038_r1",
     "id": "EB01-038_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Brook",
@@ -387,7 +401,14 @@
     "expansionCode": "EB01",
     "imageId": "EB01-051_p1",
     "id": "EB01-051_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Finger Pistol",
@@ -482,7 +503,14 @@
     "expansionCode": "EB01",
     "imageId": "EB01-060_p1",
     "id": "EB01-060_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Did Someone Say...Kami?",
@@ -509,7 +537,14 @@
     "expansionCode": "EB01",
     "imageId": "EB01-060_r1",
     "id": "EB01-060_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Mr.2.Bon.Kurei(Bentham)",
@@ -611,7 +646,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-039_p1",
     "id": "OP01-039_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Killer",
@@ -641,7 +683,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-039_r1",
     "id": "OP01-039_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "You Can Be My Samurai!!",
@@ -669,7 +718,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-055_p1",
     "id": "OP01-055_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "You Can Be My Samurai!!",
@@ -731,7 +787,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Curly.Dadan",
@@ -758,7 +821,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gum-Gum Rain",
@@ -786,7 +856,14 @@
     "expansionCode": "OP02",
     "imageId": "OP02-068_p1",
     "id": "OP02-068_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gum-Gum Rain",
@@ -848,7 +925,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Buggy",
@@ -875,7 +959,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Kaya",
@@ -936,7 +1027,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Nojiko",
@@ -963,7 +1061,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gum-Gum Jet Gatling",
@@ -991,7 +1096,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-072_p1",
     "id": "OP03-072_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gum-Gum Jet Gatling",
@@ -1088,7 +1200,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-016_p1",
     "id": "OP04-016_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Bad Manners Kick Course",
@@ -1150,7 +1269,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-077_p1",
     "id": "OP04-077_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Ideo",
@@ -1177,7 +1303,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-077_r1",
     "id": "OP04-077_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sabo",
@@ -1237,7 +1370,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-096_p1",
     "id": "OP04-096_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Corrida Coliseum",
@@ -1261,7 +1401,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-096_r1",
     "id": "OP04-096_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Emporio.Ivankov",
@@ -1289,7 +1436,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-004_p1",
     "id": "OP05-004_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Emporio.Ivankov",
@@ -1317,7 +1471,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-004_r1",
     "id": "OP05-004_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Revolutionary Army HQ",
@@ -1344,7 +1505,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-021_p1",
     "id": "OP05-021_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Revolutionary Army HQ",
@@ -1371,7 +1539,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-021_r1",
     "id": "OP05-021_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Donquixote Rosinante",
@@ -1400,7 +1575,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-030_p1",
     "id": "OP05-030_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Donquixote Rosinante",
@@ -1464,7 +1646,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-036_p2",
     "id": "OP05-036_p2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monet",
@@ -1492,7 +1681,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-036_r1",
     "id": "OP05-036_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Because the Side of Justice Will Be Whichever Side Wins!!",
@@ -1553,7 +1749,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-052_p1",
     "id": "OP05-052_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Maynard",
@@ -1580,7 +1783,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-052_r1",
     "id": "OP05-052_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gamma Knife",
@@ -1607,7 +1817,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-077_p1",
     "id": "OP05-077_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gamma Knife",
@@ -1634,7 +1851,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-077_r1",
     "id": "OP05-077_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Rebecca",
@@ -1696,7 +1920,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-097_p1",
     "id": "OP05-097_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Mary Geoise",
@@ -1723,7 +1954,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-097_p2",
     "id": "OP05-097_p2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Mary Geoise",
@@ -1750,7 +1988,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-097_r1",
     "id": "OP05-097_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gedatsu",
@@ -1814,7 +2059,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gion",
@@ -1842,7 +2094,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-044_p1",
     "id": "OP06-044_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gion",
@@ -1870,7 +2129,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-044_r1",
     "id": "OP06-044_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Pudding",
@@ -1928,7 +2194,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-049_p1",
     "id": "OP06-049_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sengoku",
@@ -1952,7 +2225,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-049_r1",
     "id": "OP06-049_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Ama no Murakumo Sword",
@@ -1979,7 +2259,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-056_p4",
     "id": "OP06-056_p4_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Ama no Murakumo Sword",
@@ -2006,7 +2293,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-056_r2",
     "id": "OP06-056_r2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gravity Blade Raging Tiger",
@@ -2033,7 +2327,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-058_p1",
     "id": "OP06-058_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gravity Blade Raging Tiger",
@@ -2094,7 +2395,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-059_p1",
     "id": "OP06-059_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "White Snake",
@@ -2121,7 +2429,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-059_r1",
     "id": "OP06-059_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Vinsmoke Sora",
@@ -2149,7 +2464,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Vinsmoke Sora",
@@ -2177,7 +2499,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Shiki",
@@ -2206,7 +2535,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-073_p1",
     "id": "OP06-073_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Shiki",
@@ -2235,7 +2571,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-073_r1",
     "id": "OP06-073_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Hitokiri Kamazo",
@@ -2265,7 +2608,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-076_p2",
     "id": "OP06-076_p2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Hitokiri Kamazo",
@@ -2295,7 +2645,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-076_r1",
     "id": "OP06-076_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "GERMA 66",
@@ -2323,7 +2680,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-078_p1",
     "id": "OP06-078_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "GERMA 66",
@@ -2351,7 +2715,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-078_r1",
     "id": "OP06-078_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Kouzuki Momonosuke",
@@ -2414,7 +2785,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-115_p1",
     "id": "OP06-115_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "You're the One Who Should Disappear.",
@@ -2441,7 +2819,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-115_r1",
     "id": "OP06-115_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -2504,7 +2889,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Manga"
+    "illustration": "Manga",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -2566,7 +2958,14 @@
     "expansionCode": "OP07",
     "imageId": "OP07-014_p1",
     "id": "OP07-014_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Moda",
@@ -2594,7 +2993,14 @@
     "expansionCode": "OP07",
     "imageId": "OP07-014_r1",
     "id": "OP07-014_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monkey.D.Dragon",
@@ -2656,7 +3062,14 @@
     "expansionCode": "OP07",
     "imageId": "OP07-017_p1",
     "id": "OP07-017_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Dragon Breath",
@@ -2683,7 +3096,14 @@
     "expansionCode": "OP07",
     "imageId": "OP07-017_r1",
     "id": "OP07-017_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Urouge",
@@ -2712,7 +3132,14 @@
     "expansionCode": "OP07",
     "imageId": "OP07-021_p8",
     "id": "OP07-021_p8_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Urouge",
@@ -2812,7 +3239,14 @@
     "expansionCode": "OP07",
     "imageId": "OP07-029_r1",
     "id": "OP07-029_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Bartolomeo",
@@ -2842,7 +3276,14 @@
     "expansionCode": "OP07",
     "imageId": "OP07-031_p1",
     "id": "OP07-031_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Bartolomeo",
@@ -2872,7 +3313,14 @@
     "expansionCode": "OP07",
     "imageId": "OP07-031_r2",
     "id": "OP07-031_r2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Crocodile",
@@ -2900,7 +3348,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Crocodile",
@@ -2928,7 +3383,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Crocodile",
@@ -2956,7 +3418,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Slave Arrow",
@@ -2984,7 +3453,14 @@
     "expansionCode": "OP07",
     "imageId": "OP07-056_p1",
     "id": "OP07-056_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Slave Arrow",
@@ -3012,7 +3488,14 @@
     "expansionCode": "OP07",
     "imageId": "OP07-056_r1",
     "id": "OP07-056_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -3073,7 +3556,14 @@
     "expansionCode": "OP07",
     "imageId": "OP07-076_p1",
     "id": "OP07-076_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Slow-Slow Beam Sword",
@@ -3100,7 +3590,14 @@
     "expansionCode": "OP07",
     "imageId": "OP07-076_r1",
     "id": "OP07-076_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Franky",
@@ -3196,7 +3693,14 @@
     "expansionCode": "OP07",
     "imageId": "OP07-114_p1",
     "id": "OP07-114_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "He Possesses the World's Most Brilliant Mind",
@@ -3224,7 +3728,14 @@
     "expansionCode": "OP07",
     "imageId": "OP07-114_r1",
     "id": "OP07-114_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sabo",
@@ -3356,7 +3867,14 @@
     "expansionCode": "OP08",
     "imageId": "OP08-067_r1",
     "id": "OP08-067_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Black Maria",
@@ -3419,7 +3937,14 @@
     "expansionCode": "OP08",
     "imageId": "OP08-076_p1",
     "id": "OP08-076_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "It's to Die For...",
@@ -3447,7 +3972,14 @@
     "expansionCode": "OP08",
     "imageId": "OP08-076_r1",
     "id": "OP08-076_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Scratchmen Apoo",
@@ -3477,7 +4009,14 @@
     "expansionCode": "OP08",
     "imageId": "OP08-087_p1",
     "id": "OP08-087_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Scratchmen Apoo",
@@ -3507,7 +4046,14 @@
     "expansionCode": "OP08",
     "imageId": "OP08-087_r1",
     "id": "OP08-087_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Kalgara",
@@ -3533,7 +4079,14 @@
     "expansionCode": "OP08",
     "imageId": "OP08-099_p1",
     "id": "OP08-099_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Kalgara",
@@ -3559,7 +4112,14 @@
     "expansionCode": "OP08",
     "imageId": "OP08-099_r1",
     "id": "OP08-099_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Silvers Rayleigh",
@@ -3655,7 +4215,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-004_r1",
     "id": "OP09-004_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Silvers Rayleigh",
@@ -3752,7 +4319,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-014_p1",
     "id": "OP09-014_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Limejuice",
@@ -3780,7 +4354,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-014_p2",
     "id": "OP09-014_p2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Limejuice",
@@ -3808,7 +4389,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-014_r2",
     "id": "OP09-014_r2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Come On!! We'll Fight You!!",
@@ -3836,7 +4424,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-020_r2",
     "id": "OP09-020_r2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sabo",
@@ -3865,7 +4460,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-027_p1",
     "id": "OP09-027_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sabo",
@@ -3894,7 +4496,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-027_r1",
     "id": "OP09-027_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Nico Robin",
@@ -3922,7 +4531,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Nico Robin",
@@ -3950,7 +4566,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Crocodile",
@@ -4048,7 +4671,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Mr.3(Galdino)",
@@ -4110,7 +4740,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-057_r2",
     "id": "OP09-057_r2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -4138,7 +4775,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-065_r1",
     "id": "OP09-065_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -4200,7 +4844,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-072_r1",
     "id": "OP09-072_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -4227,7 +4878,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -4254,7 +4912,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gum-Gum Lightning",
@@ -4282,7 +4947,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-077_p1",
     "id": "OP09-077_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gum-Gum Lightning",
@@ -4310,7 +4982,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-077_r2",
     "id": "OP09-077_r2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gum-Gum Giant",
@@ -4338,7 +5017,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-078_r1",
     "id": "OP09-078_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gum-Gum Jump Rope",
@@ -4366,7 +5052,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-079_p1",
     "id": "OP09-079_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gum-Gum Jump Rope",
@@ -4394,7 +5087,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-079_r1",
     "id": "OP09-079_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Catarina Devon",
@@ -4425,7 +5125,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-084_p1",
     "id": "OP09-084_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Catarina Devon",
@@ -4456,7 +5163,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-084_r1",
     "id": "OP09-084_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Jesus Burgess",
@@ -4480,7 +5194,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-086_p1",
     "id": "OP09-086_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Jesus Burgess",
@@ -4575,7 +5296,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-096_r1",
     "id": "OP09-096_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Black Vortex",
@@ -4602,7 +5330,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-097_p1",
     "id": "OP09-097_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Black Vortex",
@@ -4629,7 +5364,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-097_r1",
     "id": "OP09-097_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Black Hole",
@@ -4656,7 +5398,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-098_p1",
     "id": "OP09-098_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Black Hole",
@@ -4683,7 +5432,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-098_r1",
     "id": "OP09-098_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Tony Tony.Chopper",
@@ -4712,7 +5468,14 @@
     "expansionCode": "OP10",
     "imageId": "OP10-011_p1",
     "id": "OP10-011_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Tony Tony.Chopper",
@@ -4776,7 +5539,14 @@
     "expansionCode": "OP10",
     "imageId": "OP10-018_p2",
     "id": "OP10-018_p2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Ten-Layer Igloo",
@@ -4804,7 +5574,14 @@
     "expansionCode": "OP10",
     "imageId": "OP10-018_r1",
     "id": "OP10-018_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Tashigi",
@@ -4898,7 +5675,14 @@
     "expansionCode": "OP10",
     "imageId": "OP10-079_p1",
     "id": "OP10-079_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "God Thread",
@@ -4926,7 +5710,14 @@
     "expansionCode": "OP10",
     "imageId": "OP10-079_r1",
     "id": "OP10-079_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -4955,7 +5746,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -5017,7 +5815,14 @@
     "expansionCode": "OP10",
     "imageId": "OP10-105_p1",
     "id": "OP10-105_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Cavendish",
@@ -5043,7 +5848,14 @@
     "expansionCode": "OP10",
     "imageId": "OP10-105_r1",
     "id": "OP10-105_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Scratchmen Apoo",
@@ -5071,7 +5883,14 @@
     "expansionCode": "OP10",
     "imageId": "OP10-108_p1",
     "id": "OP10-108_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Scratchmen Apoo",
@@ -5099,7 +5918,14 @@
     "expansionCode": "OP10",
     "imageId": "OP10-108_r1",
     "id": "OP10-108_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Basil Hawkins",
@@ -5127,7 +5953,14 @@
     "expansionCode": "OP10",
     "imageId": "OP10-109_p1",
     "id": "OP10-109_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Basil Hawkins",
@@ -5227,7 +6060,14 @@
     "expansionCode": "OP10",
     "imageId": "OP10-114_p1",
     "id": "OP10-114_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "X.Drake",
@@ -5256,7 +6096,14 @@
     "expansionCode": "OP10",
     "imageId": "OP10-114_p2",
     "id": "OP10-114_p2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "X.Drake",
@@ -5285,7 +6132,14 @@
     "expansionCode": "OP10",
     "imageId": "OP10-114_r1",
     "id": "OP10-114_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -5347,7 +6201,14 @@
     ],
     "expansionCode": "P",
     "imageId": "P-044",
-    "id": "P-044_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]"
+    "id": "P-044_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sabo",
@@ -5374,7 +6235,14 @@
     "expansionCode": "P",
     "imageId": "P-044_r1",
     "id": "P-044_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Jinbe",
@@ -5400,6 +6268,13 @@
     "id": "P-063_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -5427,7 +6302,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Jinbe",
@@ -5454,7 +6336,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -5482,7 +6371,14 @@
     "expansionCode": "P",
     "imageId": "P-068_p1",
     "id": "P-068_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -5510,7 +6406,14 @@
     "expansionCode": "P",
     "imageId": "P-068_r1",
     "id": "P-068_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Koala",
@@ -5538,7 +6441,14 @@
     "expansionCode": "P",
     "imageId": "P-069_p3",
     "id": "P-069_p3_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Koala",
@@ -5566,7 +6476,14 @@
     "expansionCode": "P",
     "imageId": "P-069_r1",
     "id": "P-069_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Carrot",
@@ -5593,7 +6510,14 @@
     "expansionCode": "P",
     "imageId": "P-070_p3",
     "id": "P-070_p3_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Carrot",
@@ -5620,7 +6544,14 @@
     "expansionCode": "P",
     "imageId": "P-070_r1",
     "id": "P-070_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sabo",
@@ -5648,7 +6579,14 @@
     ],
     "expansionCode": "P",
     "imageId": "P-073",
-    "id": "P-073_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]"
+    "id": "P-073_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sabo",
@@ -5677,7 +6615,14 @@
     "expansionCode": "P",
     "imageId": "P-073_r1",
     "id": "P-073_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Portgas.D.Ace",
@@ -5703,7 +6648,14 @@
     ],
     "expansionCode": "P",
     "imageId": "P-074",
-    "id": "P-074_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]"
+    "id": "P-074_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Portgas.D.Ace",
@@ -5730,7 +6682,14 @@
     "expansionCode": "P",
     "imageId": "P-074_r1",
     "id": "P-074_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -5758,7 +6717,14 @@
     ],
     "expansionCode": "P",
     "imageId": "P-075",
-    "id": "P-075_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]"
+    "id": "P-075_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -5787,7 +6753,14 @@
     "expansionCode": "P",
     "imageId": "P-075_r1",
     "id": "P-075_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Adio",
@@ -5811,7 +6784,14 @@
     "expansionCode": "P",
     "imageId": "P-078_p6",
     "id": "P-078_p6_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Adio",
@@ -5835,7 +6815,14 @@
     "expansionCode": "P",
     "imageId": "P-078_r1",
     "id": "P-078_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Lim",
@@ -5863,7 +6850,14 @@
     "expansionCode": "P",
     "imageId": "P-079_p3",
     "id": "P-079_p3_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Lim",
@@ -5891,7 +6885,14 @@
     "expansionCode": "P",
     "imageId": "P-079_r1",
     "id": "P-079_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Dracule Mihawk",
@@ -5918,7 +6919,14 @@
     "expansionCode": "P",
     "imageId": "P-081_p2",
     "id": "P-081_p2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Dracule Mihawk",
@@ -5945,7 +6953,14 @@
     "expansionCode": "P",
     "imageId": "P-081_r1",
     "id": "P-081_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Crocodile",
@@ -5974,7 +6989,14 @@
     "expansionCode": "P",
     "imageId": "P-082_p2",
     "id": "P-082_p2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Crocodile",
@@ -6003,7 +7025,14 @@
     "expansionCode": "P",
     "imageId": "P-082_r1",
     "id": "P-082_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Shanks",
@@ -6032,7 +7061,14 @@
     "expansionCode": "P",
     "imageId": "P-083_p3",
     "id": "P-083_p3_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Shanks",
@@ -6061,7 +7097,14 @@
     "expansionCode": "P",
     "imageId": "P-083_r1",
     "id": "P-083_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Jewelry Bonney",
@@ -6089,7 +7132,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Jewelry Bonney",
@@ -6117,7 +7167,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -6142,7 +7199,14 @@
     "expansionCode": "P",
     "imageId": "P-088_p3",
     "id": "P-088_p3_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -6167,7 +7231,14 @@
     "expansionCode": "P",
     "imageId": "P-088_r1",
     "id": "P-088_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Koby",
@@ -6231,7 +7302,14 @@
     "expansionCode": "PRB02",
     "imageId": "PRB02-001_p1",
     "id": "PRB02-001_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -6297,7 +7375,14 @@
     "expansionCode": "PRB02",
     "imageId": "PRB02-002_p1",
     "id": "PRB02-002_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Lucky.Roux",
@@ -6359,7 +7444,14 @@
     "expansionCode": "PRB02",
     "imageId": "PRB02-003_p1",
     "id": "PRB02-003_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Jewelry Bonney",
@@ -6425,7 +7517,14 @@
     "expansionCode": "PRB02",
     "imageId": "PRB02-004_p1",
     "id": "PRB02-004_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -6489,7 +7588,14 @@
     "expansionCode": "PRB02",
     "imageId": "PRB02-005_p1",
     "id": "PRB02-005_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -6553,7 +7659,14 @@
     "expansionCode": "PRB02",
     "imageId": "PRB02-006_p1",
     "id": "PRB02-006_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Jinbe",
@@ -6619,7 +7732,14 @@
     "expansionCode": "PRB02",
     "imageId": "PRB02-007_p1",
     "id": "PRB02-007_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Marco",
@@ -6647,7 +7767,14 @@
     ],
     "expansionCode": "PRB02",
     "imageId": "PRB02-008",
-    "id": "PRB02-008_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]"
+    "id": "PRB02-008_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Marco",
@@ -6745,7 +7872,14 @@
     "expansionCode": "PRB02",
     "imageId": "PRB02-009_p1",
     "id": "PRB02-009_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Pudding",
@@ -6805,7 +7939,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Donquixote Doflamingo",
@@ -6869,7 +8010,14 @@
     "expansionCode": "PRB02",
     "imageId": "PRB02-011_p1",
     "id": "PRB02-011_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Nami",
@@ -6929,7 +8077,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gecko Moria",
@@ -6991,7 +8146,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sabo",
@@ -7053,7 +8215,14 @@
     "expansionCode": "PRB02",
     "imageId": "PRB02-014_p1",
     "id": "PRB02-014_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Shiryu",
@@ -7115,7 +8284,14 @@
     "expansionCode": "PRB02",
     "imageId": "PRB02-015_p1",
     "id": "PRB02-015_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Otama",
@@ -7175,7 +8351,14 @@
     "expansionCode": "PRB02",
     "imageId": "PRB02-016_p1",
     "id": "PRB02-016_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Boa Hancock",
@@ -7241,7 +8424,14 @@
     "expansionCode": "PRB02",
     "imageId": "PRB02-017_p1",
     "id": "PRB02-017_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Portgas.D.Ace",
@@ -7301,7 +8491,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Brook",
@@ -7328,7 +8525,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Brook",
@@ -7355,7 +8559,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Jewelry Bonney",
@@ -7383,7 +8594,14 @@
     "expansionCode": "ST02",
     "imageId": "ST02-007_p3",
     "id": "ST02-007_p3_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Jewelry Bonney",
@@ -7411,7 +8629,14 @@
     "expansionCode": "ST02",
     "imageId": "ST02-007_r1",
     "id": "ST02-007_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Hina",
@@ -7438,7 +8663,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Hina",
@@ -7465,7 +8697,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Jinbe",
@@ -7494,7 +8733,14 @@
     "expansionCode": "ST10",
     "imageId": "ST10-005_p2",
     "id": "ST10-005_p2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Jinbe",
@@ -7523,7 +8769,14 @@
     "expansionCode": "ST10",
     "imageId": "ST10-005_r1",
     "id": "ST10-005_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Shachi & Penguin",
@@ -7550,7 +8803,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Shachi & Penguin",
@@ -7577,7 +8837,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Perona",
@@ -7602,7 +8869,14 @@
     "expansionCode": "ST12",
     "imageId": "ST12-005_p1",
     "id": "ST12-005_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Perona",
@@ -7627,7 +8901,14 @@
     "expansionCode": "ST12",
     "imageId": "ST12-005_r1",
     "id": "ST12-005_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Plastic Surgery Shot",
@@ -7654,7 +8935,14 @@
     "expansionCode": "ST12",
     "imageId": "ST12-017_p1",
     "id": "ST12-017_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Plastic Surgery Shot",
@@ -7681,7 +8969,14 @@
     "expansionCode": "ST12",
     "imageId": "ST12-017_r1",
     "id": "ST12-017_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Edward.Newgate",
@@ -7709,7 +9004,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Edward.Newgate",
@@ -7737,7 +9039,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sabo",
@@ -7764,7 +9073,14 @@
     "expansionCode": "ST13",
     "imageId": "ST13-007_p2",
     "id": "ST13-007_p2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sabo",
@@ -7791,7 +9107,14 @@
     "expansionCode": "ST13",
     "imageId": "ST13-007_r1",
     "id": "ST13-007_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Portgas.D.Ace",
@@ -7818,7 +9141,14 @@
     "expansionCode": "ST13",
     "imageId": "ST13-010_p2",
     "id": "ST13-010_p2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Portgas.D.Ace",
@@ -7845,7 +9175,14 @@
     "expansionCode": "ST13",
     "imageId": "ST13-010_r1",
     "id": "ST13-010_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -7872,7 +9209,14 @@
     "expansionCode": "ST13",
     "imageId": "ST13-014_p2",
     "id": "ST13-014_p2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -7899,7 +9243,14 @@
     "expansionCode": "ST13",
     "imageId": "ST13-014_r1",
     "id": "ST13-014_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "The Three Brothers' Bond",
@@ -7926,7 +9277,14 @@
     "expansionCode": "ST13",
     "imageId": "ST13-019_p1",
     "id": "ST13-019_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "The Three Brothers' Bond",
@@ -7953,7 +9311,14 @@
     "expansionCode": "ST13",
     "imageId": "ST13-019_r1",
     "id": "ST13-019_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Nico Robin",
@@ -7981,7 +9346,14 @@
     "expansionCode": "ST14",
     "imageId": "ST14-007_p1",
     "id": "ST14-007_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Nico Robin",
@@ -8009,7 +9381,14 @@
     "expansionCode": "ST14",
     "imageId": "ST14-007_r1",
     "id": "ST14-007_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Brook",
@@ -8033,7 +9412,14 @@
     "expansionCode": "ST14",
     "imageId": "ST14-010_p1",
     "id": "ST14-010_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Brook",
@@ -8057,7 +9443,14 @@
     "expansionCode": "ST14",
     "imageId": "ST14-010_r2",
     "id": "ST14-010_r2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -8081,7 +9474,14 @@
     "expansionCode": "ST14",
     "imageId": "ST14-013_p1",
     "id": "ST14-013_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -8105,7 +9505,14 @@
     "expansionCode": "ST14",
     "imageId": "ST14-013_r1",
     "id": "ST14-013_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "I Have My Crew!!",
@@ -8132,7 +9539,14 @@
     "expansionCode": "ST14",
     "imageId": "ST14-016_p1",
     "id": "ST14-016_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "I Have My Crew!!",
@@ -8159,7 +9573,14 @@
     "expansionCode": "ST14",
     "imageId": "ST14-016_r1",
     "id": "ST14-016_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Thousand Sunny",
@@ -8186,7 +9607,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Thousand Sunny",
@@ -8213,7 +9641,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Edward.Newgate",
@@ -8242,7 +9677,14 @@
     "expansionCode": "ST15",
     "imageId": "ST15-002_p2",
     "id": "ST15-002_p2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Edward.Newgate",
@@ -8271,7 +9713,14 @@
     "expansionCode": "ST15",
     "imageId": "ST15-002_r1",
     "id": "ST15-002_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Katakuri",
@@ -8296,7 +9745,14 @@
     "expansionCode": "ST16",
     "imageId": "ST16-003_p1",
     "id": "ST16-003_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Katakuri",
@@ -8357,7 +9813,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Shanks",
@@ -8386,7 +9849,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -8412,7 +9882,14 @@
     "expansionCode": "ST16",
     "imageId": "ST16-005_p1",
     "id": "ST16-005_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -8438,7 +9915,14 @@
     "expansionCode": "ST16",
     "imageId": "ST16-005_r1",
     "id": "ST16-005_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -8466,7 +9950,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -8494,7 +9985,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Buggy",
@@ -8522,7 +10020,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Buggy",
@@ -8550,7 +10055,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Marshall.D.Teach",
@@ -8579,7 +10091,14 @@
     "expansionCode": "ST17",
     "imageId": "ST17-005_p1",
     "id": "ST17-005_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Marshall.D.Teach",
@@ -8608,7 +10127,14 @@
     "expansionCode": "ST17",
     "imageId": "ST17-005_r1",
     "id": "ST17-005_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Uso-Hachi",
@@ -8635,7 +10161,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Uso-Hachi",
@@ -8662,7 +10195,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Uso-Hachi",
@@ -8689,7 +10229,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "O-Nami",
@@ -8717,7 +10264,14 @@
     "expansionCode": "ST18",
     "imageId": "ST18-002_p1",
     "id": "ST18-002_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "O-Nami",
@@ -8745,7 +10299,14 @@
     "expansionCode": "ST18",
     "imageId": "ST18-002_r1",
     "id": "ST18-002_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "San-Gorou",
@@ -8773,7 +10334,14 @@
     "expansionCode": "ST18",
     "imageId": "ST18-003_p2",
     "id": "ST18-003_p2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "San-Gorou",
@@ -8801,7 +10369,14 @@
     "expansionCode": "ST18",
     "imageId": "ST18-003_r1",
     "id": "ST18-003_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sengoku",
@@ -8828,7 +10403,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sengoku",
@@ -8855,7 +10437,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Brulee",
@@ -8879,7 +10468,14 @@
     "expansionCode": "ST20",
     "imageId": "ST20-003_p1",
     "id": "ST20-003_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Brulee",
@@ -8903,7 +10499,14 @@
     "expansionCode": "ST20",
     "imageId": "ST20-003_r1",
     "id": "ST20-003_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -8931,7 +10534,14 @@
     "expansionCode": "ST21",
     "imageId": "ST21-003_p2",
     "id": "ST21-003_p2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Pirate Foil"
+    "illustration": "Pirate Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -8959,7 +10569,14 @@
     "expansionCode": "ST21",
     "imageId": "ST21-003_r1",
     "id": "ST21-003_r1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -8989,7 +10606,14 @@
     "expansionCode": "EB02",
     "imageId": "EB02-061_p3",
     "id": "EB02-061_p3_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Special"
+    "illustration": "Special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Rebecca",
@@ -9017,7 +10641,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-091_p4",
     "id": "OP05-091_p4_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Special"
+    "illustration": "Special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Shanks",
@@ -9046,7 +10677,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Special"
+    "illustration": "Special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Pudding",
@@ -9073,7 +10711,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Special"
+    "illustration": "Special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Carrot",
@@ -9101,7 +10746,14 @@
     "expansionCode": "OP08",
     "imageId": "OP08-023_p2",
     "id": "OP08-023_p2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Special"
+    "illustration": "Special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Come On!! We'll Fight You!!",
@@ -9129,7 +10781,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-020_p2",
     "id": "OP09-020_p2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Cross Guild",
@@ -9156,7 +10815,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-057_p2",
     "id": "OP09-057_p2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gum-Gum Giant",
@@ -9184,7 +10850,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-078_p2",
     "id": "OP09-078_p2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "My Era...Begins!!",
@@ -9211,7 +10884,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-096_p1",
     "id": "OP09-096_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -9240,6 +10920,13 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Special"
+    "illustration": "Special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   }
 ]

@@ -26,7 +26,14 @@
     ],
     "expansionCode": "ST21",
     "imageId": "ST21-001",
-    "id": "ST21-001_GEAR5_[ST-21]"
+    "id": "ST21-001_GEAR5_[ST-21]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -55,7 +62,14 @@
     ],
     "expansionCode": "ST21",
     "imageId": "ST21-001_p1",
-    "id": "ST21-001_p1_GEAR5_[ST-21]"
+    "id": "ST21-001_p1_GEAR5_[ST-21]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Usopp",
@@ -82,7 +96,14 @@
     ],
     "expansionCode": "ST21",
     "imageId": "ST21-002",
-    "id": "ST21-002_GEAR5_[ST-21]"
+    "id": "ST21-002_GEAR5_[ST-21]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Usopp",
@@ -109,7 +130,14 @@
     ],
     "expansionCode": "ST21",
     "imageId": "ST21-002_p1",
-    "id": "ST21-002_p1_GEAR5_[ST-21]"
+    "id": "ST21-002_p1_GEAR5_[ST-21]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -136,7 +164,14 @@
     ],
     "expansionCode": "ST21",
     "imageId": "ST21-003",
-    "id": "ST21-003_GEAR5_[ST-21]"
+    "id": "ST21-003_GEAR5_[ST-21]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -163,7 +198,14 @@
     ],
     "expansionCode": "ST21",
     "imageId": "ST21-003_p1",
-    "id": "ST21-003_p1_GEAR5_[ST-21]"
+    "id": "ST21-003_p1_GEAR5_[ST-21]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Jewelry Bonney",
@@ -191,7 +233,14 @@
     ],
     "expansionCode": "ST21",
     "imageId": "ST21-004",
-    "id": "ST21-004_GEAR5_[ST-21]"
+    "id": "ST21-004_GEAR5_[ST-21]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Jewelry Bonney",
@@ -219,7 +268,14 @@
     ],
     "expansionCode": "ST21",
     "imageId": "ST21-004_p1",
-    "id": "ST21-004_p1_GEAR5_[ST-21]"
+    "id": "ST21-004_p1_GEAR5_[ST-21]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Jinbe",
@@ -243,7 +299,14 @@
     "cost": 2,
     "expansionCode": "ST21",
     "imageId": "ST21-005",
-    "id": "ST21-005_GEAR5_[ST-21]"
+    "id": "ST21-005_GEAR5_[ST-21]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Jinbe",
@@ -267,7 +330,14 @@
     "cost": 2,
     "expansionCode": "ST21",
     "imageId": "ST21-005_p1",
-    "id": "ST21-005_p1_GEAR5_[ST-21]"
+    "id": "ST21-005_p1_GEAR5_[ST-21]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Stussy",
@@ -290,7 +360,14 @@
     "cost": 3,
     "expansionCode": "ST21",
     "imageId": "ST21-006",
-    "id": "ST21-006_GEAR5_[ST-21]"
+    "id": "ST21-006_GEAR5_[ST-21]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Stussy",
@@ -313,7 +390,14 @@
     "cost": 3,
     "expansionCode": "ST21",
     "imageId": "ST21-006_p1",
-    "id": "ST21-006_p1_GEAR5_[ST-21]"
+    "id": "ST21-006_p1_GEAR5_[ST-21]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sentomaru",
@@ -340,7 +424,14 @@
     ],
     "expansionCode": "ST21",
     "imageId": "ST21-007",
-    "id": "ST21-007_GEAR5_[ST-21]"
+    "id": "ST21-007_GEAR5_[ST-21]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sentomaru",
@@ -367,7 +458,14 @@
     ],
     "expansionCode": "ST21",
     "imageId": "ST21-007_p1",
-    "id": "ST21-007_p1_GEAR5_[ST-21]"
+    "id": "ST21-007_p1_GEAR5_[ST-21]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Tony Tony.Chopper",
@@ -391,7 +489,14 @@
     "cost": 4,
     "expansionCode": "ST21",
     "imageId": "ST21-008",
-    "id": "ST21-008_GEAR5_[ST-21]"
+    "id": "ST21-008_GEAR5_[ST-21]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Tony Tony.Chopper",
@@ -415,7 +520,14 @@
     "cost": 4,
     "expansionCode": "ST21",
     "imageId": "ST21-008_p1",
-    "id": "ST21-008_p1_GEAR5_[ST-21]"
+    "id": "ST21-008_p1_GEAR5_[ST-21]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Nami",
@@ -442,7 +554,14 @@
     ],
     "expansionCode": "ST21",
     "imageId": "ST21-009",
-    "id": "ST21-009_GEAR5_[ST-21]"
+    "id": "ST21-009_GEAR5_[ST-21]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Nami",
@@ -469,7 +588,14 @@
     ],
     "expansionCode": "ST21",
     "imageId": "ST21-009_p1",
-    "id": "ST21-009_p1_GEAR5_[ST-21]"
+    "id": "ST21-009_p1_GEAR5_[ST-21]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Nico Robin",
@@ -496,7 +622,14 @@
     ],
     "expansionCode": "ST21",
     "imageId": "ST21-010",
-    "id": "ST21-010_GEAR5_[ST-21]"
+    "id": "ST21-010_GEAR5_[ST-21]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Nico Robin",
@@ -523,7 +656,14 @@
     ],
     "expansionCode": "ST21",
     "imageId": "ST21-010_p1",
-    "id": "ST21-010_p1_GEAR5_[ST-21]"
+    "id": "ST21-010_p1_GEAR5_[ST-21]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Franky",
@@ -550,7 +690,14 @@
     ],
     "expansionCode": "ST21",
     "imageId": "ST21-011",
-    "id": "ST21-011_GEAR5_[ST-21]"
+    "id": "ST21-011_GEAR5_[ST-21]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Franky",
@@ -577,7 +724,14 @@
     ],
     "expansionCode": "ST21",
     "imageId": "ST21-011_p1",
-    "id": "ST21-011_p1_GEAR5_[ST-21]"
+    "id": "ST21-011_p1_GEAR5_[ST-21]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Brook",
@@ -603,7 +757,14 @@
     ],
     "expansionCode": "ST21",
     "imageId": "ST21-012",
-    "id": "ST21-012_GEAR5_[ST-21]"
+    "id": "ST21-012_GEAR5_[ST-21]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Brook",
@@ -629,7 +790,14 @@
     ],
     "expansionCode": "ST21",
     "imageId": "ST21-012_p1",
-    "id": "ST21-012_p1_GEAR5_[ST-21]"
+    "id": "ST21-012_p1_GEAR5_[ST-21]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Vegapunk",
@@ -653,7 +821,14 @@
     "cost": 1,
     "expansionCode": "ST21",
     "imageId": "ST21-013",
-    "id": "ST21-013_GEAR5_[ST-21]"
+    "id": "ST21-013_GEAR5_[ST-21]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Vegapunk",
@@ -677,7 +852,14 @@
     "cost": 1,
     "expansionCode": "ST21",
     "imageId": "ST21-013_p1",
-    "id": "ST21-013_p1_GEAR5_[ST-21]"
+    "id": "ST21-013_p1_GEAR5_[ST-21]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -705,7 +887,14 @@
     ],
     "expansionCode": "ST21",
     "imageId": "ST21-014",
-    "id": "ST21-014_GEAR5_[ST-21]"
+    "id": "ST21-014_GEAR5_[ST-21]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -733,7 +922,14 @@
     ],
     "expansionCode": "ST21",
     "imageId": "ST21-014_p1",
-    "id": "ST21-014_p1_GEAR5_[ST-21]"
+    "id": "ST21-014_p1_GEAR5_[ST-21]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -761,7 +957,14 @@
     ],
     "expansionCode": "ST21",
     "imageId": "ST21-015",
-    "id": "ST21-015_GEAR5_[ST-21]"
+    "id": "ST21-015_GEAR5_[ST-21]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -789,7 +992,14 @@
     ],
     "expansionCode": "ST21",
     "imageId": "ST21-015_p1",
-    "id": "ST21-015_p1_GEAR5_[ST-21]"
+    "id": "ST21-015_p1_GEAR5_[ST-21]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gum-Gum Dawn Whip",
@@ -817,7 +1027,14 @@
     ],
     "expansionCode": "ST21",
     "imageId": "ST21-016",
-    "id": "ST21-016_GEAR5_[ST-21]"
+    "id": "ST21-016_GEAR5_[ST-21]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gum-Gum Mole Pistol",
@@ -844,6 +1061,13 @@
     ],
     "expansionCode": "ST21",
     "imageId": "ST21-017",
-    "id": "ST21-017_GEAR5_[ST-21]"
+    "id": "ST21-017_GEAR5_[ST-21]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   }
 ]

@@ -26,7 +26,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-060_p2",
     "id": "OP01-060_p2_Blue_Donquixote_Doflamingo_[ST-17]",
-    "illustration": "Other"
+    "illustration": "Other",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Donquixote Doflamingo",
@@ -55,7 +62,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-073_r1",
     "id": "OP01-073_r1_Blue_Donquixote_Doflamingo_[ST-17]",
-    "illustration": "Other"
+    "illustration": "Other",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Overheat",
@@ -83,7 +97,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-086_r1",
     "id": "OP01-086_r1_Blue_Donquixote_Doflamingo_[ST-17]",
-    "illustration": "Other"
+    "illustration": "Other",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gecko Moria",
@@ -108,7 +129,14 @@
     "expansionCode": "OP02",
     "imageId": "OP02-054_r1",
     "id": "OP02-054_r1_Blue_Donquixote_Doflamingo_[ST-17]",
-    "illustration": "Other"
+    "illustration": "Other",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Bartholomew Kuma",
@@ -136,7 +164,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Other"
+    "illustration": "Other",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Jinbe",
@@ -164,7 +199,14 @@
     ],
     "expansionCode": "P",
     "imageId": "P-030_r1",
-    "id": "P-030_r1_Blue_Donquixote_Doflamingo_[ST-17]"
+    "id": "P-030_r1_Blue_Donquixote_Doflamingo_[ST-17]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Edward Weevil",
@@ -187,7 +229,14 @@
     "cost": 3,
     "expansionCode": "ST03",
     "imageId": "ST03-002_r1",
-    "id": "ST03-002_r1_Blue_Donquixote_Doflamingo_[ST-17]"
+    "id": "ST03-002_r1_Blue_Donquixote_Doflamingo_[ST-17]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gecko Moria",
@@ -214,6 +263,13 @@
     "id": "ST03-004_r1_Blue_Donquixote_Doflamingo_[ST-17]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -241,7 +297,14 @@
     ],
     "expansionCode": "ST03",
     "imageId": "ST03-005_r1",
-    "id": "ST03-005_r1_Blue_Donquixote_Doflamingo_[ST-17]"
+    "id": "ST03-005_r1_Blue_Donquixote_Doflamingo_[ST-17]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -268,7 +331,14 @@
     ],
     "expansionCode": "ST03",
     "imageId": "ST03-008_r1",
-    "id": "ST03-008_r1_Blue_Donquixote_Doflamingo_[ST-17]"
+    "id": "ST03-008_r1_Blue_Donquixote_Doflamingo_[ST-17]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Crocodile",
@@ -295,6 +365,13 @@
     "id": "ST17-001_Blue_Donquixote_Doflamingo_[ST-17]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -322,6 +399,13 @@
     "id": "ST17-002_Blue_Donquixote_Doflamingo_[ST-17]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -349,6 +433,13 @@
     "id": "ST17-003_Blue_Donquixote_Doflamingo_[ST-17]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -377,7 +468,14 @@
     ],
     "expansionCode": "ST17",
     "imageId": "ST17-004",
-    "id": "ST17-004_Blue_Donquixote_Doflamingo_[ST-17]"
+    "id": "ST17-004_Blue_Donquixote_Doflamingo_[ST-17]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Marshall.D.Teach",
@@ -405,6 +503,13 @@
     ],
     "expansionCode": "ST17",
     "imageId": "ST17-005",
-    "id": "ST17-005_Blue_Donquixote_Doflamingo_[ST-17]"
+    "id": "ST17-005_Blue_Donquixote_Doflamingo_[ST-17]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   }
 ]

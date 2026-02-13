@@ -24,7 +24,14 @@
     ],
     "expansionCode": "ST06",
     "imageId": "ST06-001",
-    "id": "ST06-001_Absolute_Justice_[ST-06]"
+    "id": "ST06-001_Absolute_Justice_[ST-06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Koby",
@@ -50,6 +57,13 @@
     "id": "ST06-002_Absolute_Justice_[ST-06]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -73,7 +87,14 @@
     "cost": 1,
     "expansionCode": "ST06",
     "imageId": "ST06-003",
-    "id": "ST06-003_Absolute_Justice_[ST-06]"
+    "id": "ST06-003_Absolute_Justice_[ST-06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Smoker",
@@ -100,7 +121,14 @@
     ],
     "expansionCode": "ST06",
     "imageId": "ST06-004",
-    "id": "ST06-004_Absolute_Justice_[ST-06]"
+    "id": "ST06-004_Absolute_Justice_[ST-06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sengoku",
@@ -126,7 +154,14 @@
     ],
     "expansionCode": "ST06",
     "imageId": "ST06-005",
-    "id": "ST06-005_Absolute_Justice_[ST-06]"
+    "id": "ST06-005_Absolute_Justice_[ST-06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Tashigi",
@@ -152,7 +187,14 @@
     ],
     "expansionCode": "ST06",
     "imageId": "ST06-006",
-    "id": "ST06-006_Absolute_Justice_[ST-06]"
+    "id": "ST06-006_Absolute_Justice_[ST-06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Tsuru",
@@ -178,7 +220,14 @@
     ],
     "expansionCode": "ST06",
     "imageId": "ST06-007",
-    "id": "ST06-007_Absolute_Justice_[ST-06]"
+    "id": "ST06-007_Absolute_Justice_[ST-06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Hina",
@@ -204,6 +253,13 @@
     "id": "ST06-008_Absolute_Justice_[ST-06]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -227,7 +283,14 @@
     "cost": 2,
     "expansionCode": "ST06",
     "imageId": "ST06-009",
-    "id": "ST06-009_Absolute_Justice_[ST-06]"
+    "id": "ST06-009_Absolute_Justice_[ST-06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Helmeppo",
@@ -253,6 +316,13 @@
     "id": "ST06-010_Absolute_Justice_[ST-06]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -276,7 +346,14 @@
     "cost": 4,
     "expansionCode": "ST06",
     "imageId": "ST06-011",
-    "id": "ST06-011_Absolute_Justice_[ST-06]"
+    "id": "ST06-011_Absolute_Justice_[ST-06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monkey.D.Garp",
@@ -302,7 +379,14 @@
     ],
     "expansionCode": "ST06",
     "imageId": "ST06-012",
-    "id": "ST06-012_Absolute_Justice_[ST-06]"
+    "id": "ST06-012_Absolute_Justice_[ST-06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "T-Bone",
@@ -325,7 +409,14 @@
     "cost": 3,
     "expansionCode": "ST06",
     "imageId": "ST06-013",
-    "id": "ST06-013_Absolute_Justice_[ST-06]"
+    "id": "ST06-013_Absolute_Justice_[ST-06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Shockwave",
@@ -351,7 +442,14 @@
     ],
     "expansionCode": "ST06",
     "imageId": "ST06-014",
-    "id": "ST06-014_Absolute_Justice_[ST-06]"
+    "id": "ST06-014_Absolute_Justice_[ST-06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Great Eruption",
@@ -377,7 +475,14 @@
     ],
     "expansionCode": "ST06",
     "imageId": "ST06-015",
-    "id": "ST06-015_Absolute_Justice_[ST-06]"
+    "id": "ST06-015_Absolute_Justice_[ST-06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "White Out",
@@ -403,7 +508,14 @@
     ],
     "expansionCode": "ST06",
     "imageId": "ST06-016",
-    "id": "ST06-016_Absolute_Justice_[ST-06]"
+    "id": "ST06-016_Absolute_Justice_[ST-06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Navy HQ",
@@ -430,6 +542,13 @@
     ],
     "expansionCode": "ST06",
     "imageId": "ST06-017",
-    "id": "ST06-017_Absolute_Justice_[ST-06]"
+    "id": "ST06-017_Absolute_Justice_[ST-06]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   }
 ]

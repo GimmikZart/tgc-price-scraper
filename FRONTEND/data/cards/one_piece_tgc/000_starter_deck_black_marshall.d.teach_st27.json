@@ -26,7 +26,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-081_p2",
     "id": "OP09-081_p2_BLACK_MarshallDTeach_[ST-27]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Van Augur",
@@ -54,7 +61,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-083_r1",
     "id": "OP09-083_r1_BLACK_MarshallDTeach_[ST-27]",
-    "illustration": "Other"
+    "illustration": "Other",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Jesus Burgess",
@@ -78,7 +92,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-086_r1",
     "id": "OP09-086_r1_BLACK_MarshallDTeach_[ST-27]",
-    "illustration": "Other"
+    "illustration": "Other",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Shiryu",
@@ -106,7 +127,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-088_r1",
     "id": "OP09-088_r1_BLACK_MarshallDTeach_[ST-27]",
-    "illustration": "Other"
+    "illustration": "Other",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Stronger",
@@ -134,7 +162,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-089_r1",
     "id": "OP09-089_r1_BLACK_MarshallDTeach_[ST-27]",
-    "illustration": "Other"
+    "illustration": "Other",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Doc Q",
@@ -162,7 +197,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-090_r1",
     "id": "OP09-090_r1_BLACK_MarshallDTeach_[ST-27]",
-    "illustration": "Other"
+    "illustration": "Other",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Vasco Shot",
@@ -189,7 +231,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-091_r1",
     "id": "OP09-091_r1_BLACK_MarshallDTeach_[ST-27]",
-    "illustration": "Other"
+    "illustration": "Other",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Laffitte",
@@ -216,7 +265,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-095_r1",
     "id": "OP09-095_r1_BLACK_MarshallDTeach_[ST-27]",
-    "illustration": "Other"
+    "illustration": "Other",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Fullalead",
@@ -243,7 +299,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-099_r1",
     "id": "OP09-099_r1_BLACK_MarshallDTeach_[ST-27]",
-    "illustration": "Other"
+    "illustration": "Other",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sanjuan.Wolf",
@@ -268,7 +331,14 @@
     "expansionCode": "OP10",
     "imageId": "OP10-084_r1",
     "id": "OP10-084_r1_BLACK_MarshallDTeach_[ST-27]",
-    "illustration": "Other"
+    "illustration": "Other",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Avalo Pizarro",
@@ -296,7 +366,14 @@
     ],
     "expansionCode": "ST27",
     "imageId": "ST27-001",
-    "id": "ST27-001_BLACK_MarshallDTeach_[ST-27]"
+    "id": "ST27-001_BLACK_MarshallDTeach_[ST-27]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Catarina Devon",
@@ -323,7 +400,14 @@
     ],
     "expansionCode": "ST27",
     "imageId": "ST27-002",
-    "id": "ST27-002_BLACK_MarshallDTeach_[ST-27]"
+    "id": "ST27-002_BLACK_MarshallDTeach_[ST-27]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Kuzan",
@@ -351,7 +435,14 @@
     ],
     "expansionCode": "ST27",
     "imageId": "ST27-003",
-    "id": "ST27-003_BLACK_MarshallDTeach_[ST-27]"
+    "id": "ST27-003_BLACK_MarshallDTeach_[ST-27]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sanjuan.Wolf",
@@ -379,7 +470,14 @@
     ],
     "expansionCode": "ST27",
     "imageId": "ST27-004",
-    "id": "ST27-004_BLACK_MarshallDTeach_[ST-27]"
+    "id": "ST27-004_BLACK_MarshallDTeach_[ST-27]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Marshall.D.Teach",
@@ -407,6 +505,13 @@
     ],
     "expansionCode": "ST27",
     "imageId": "ST27-005",
-    "id": "ST27-005_BLACK_MarshallDTeach_[ST-27]"
+    "id": "ST27-005_BLACK_MarshallDTeach_[ST-27]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   }
 ]

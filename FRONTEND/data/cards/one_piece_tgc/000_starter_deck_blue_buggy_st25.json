@@ -25,7 +25,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-042_p2",
     "id": "OP09-042_p2_BLUE_Buggy_[ST-25]",
-    "illustration": "Other"
+    "illustration": "Other",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Alvida",
@@ -52,7 +59,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-043_r1",
     "id": "OP09-043_r1_BLUE_Buggy_[ST-25]",
-    "illustration": "Other"
+    "illustration": "Other",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Cabaji",
@@ -76,7 +90,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-045_r1",
     "id": "OP09-045_r1_BLUE_Buggy_[ST-25]",
-    "illustration": "Other"
+    "illustration": "Other",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Buggy",
@@ -104,7 +125,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Other"
+    "illustration": "Other",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Mohji",
@@ -131,7 +159,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Other"
+    "illustration": "Other",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Richie",
@@ -159,7 +194,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-054_r1",
     "id": "OP09-054_r1_BLUE_Buggy_[ST-25]",
-    "illustration": "Other"
+    "illustration": "Other",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Mr.1(Daz.Bonez)",
@@ -184,7 +226,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-055_r1",
     "id": "OP09-055_r1_BLUE_Buggy_[ST-25]",
-    "illustration": "Other"
+    "illustration": "Other",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Mr.3(Galdino)",
@@ -212,7 +261,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Other"
+    "illustration": "Other",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Cross Guild",
@@ -239,7 +295,14 @@
     "expansionCode": "OP09",
     "imageId": "OP09-057_r1",
     "id": "OP09-057_r1_BLUE_Buggy_[ST-25]",
-    "illustration": "Other"
+    "illustration": "Other",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Buggy",
@@ -266,6 +329,13 @@
     "id": "P-084_BLUE_Buggy_[ST-25]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -292,6 +362,13 @@
     "id": "ST25-001_BLUE_Buggy_[ST-25]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -319,7 +396,14 @@
     ],
     "expansionCode": "ST25",
     "imageId": "ST25-002",
-    "id": "ST25-002_BLUE_Buggy_[ST-25]"
+    "id": "ST25-002_BLUE_Buggy_[ST-25]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Crocodile & Mihawk",
@@ -347,7 +431,14 @@
     ],
     "expansionCode": "ST25",
     "imageId": "ST25-003",
-    "id": "ST25-003_BLUE_Buggy_[ST-25]"
+    "id": "ST25-003_BLUE_Buggy_[ST-25]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Buggy",
@@ -374,7 +465,14 @@
     ],
     "expansionCode": "ST25",
     "imageId": "ST25-004",
-    "id": "ST25-004_BLUE_Buggy_[ST-25]"
+    "id": "ST25-004_BLUE_Buggy_[ST-25]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Mohji",
@@ -401,6 +499,13 @@
     ],
     "expansionCode": "ST25",
     "imageId": "ST25-005",
-    "id": "ST25-005_BLUE_Buggy_[ST-25]"
+    "id": "ST25-005_BLUE_Buggy_[ST-25]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   }
 ]

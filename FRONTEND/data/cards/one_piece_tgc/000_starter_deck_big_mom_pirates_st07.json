@@ -25,7 +25,14 @@
     ],
     "expansionCode": "ST07",
     "imageId": "ST07-001",
-    "id": "ST07-001_Card_SetsBig_Mom_Pirates_[ST_07]"
+    "id": "ST07-001_Card_SetsBig_Mom_Pirates_[ST_07]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Anana",
@@ -48,7 +55,14 @@
     "cost": 1,
     "expansionCode": "ST07",
     "imageId": "ST07-002",
-    "id": "ST07-002_Card_SetsBig_Mom_Pirates_[ST_07]"
+    "id": "ST07-002_Card_SetsBig_Mom_Pirates_[ST_07]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Katakuri",
@@ -75,7 +89,14 @@
     ],
     "expansionCode": "ST07",
     "imageId": "ST07-003",
-    "id": "ST07-003_Card_SetsBig_Mom_Pirates_[ST_07]"
+    "id": "ST07-003_Card_SetsBig_Mom_Pirates_[ST_07]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Snack",
@@ -103,7 +124,14 @@
     ],
     "expansionCode": "ST07",
     "imageId": "ST07-004",
-    "id": "ST07-004_Card_SetsBig_Mom_Pirates_[ST_07]"
+    "id": "ST07-004_Card_SetsBig_Mom_Pirates_[ST_07]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Daifuku",
@@ -130,7 +158,14 @@
     ],
     "expansionCode": "ST07",
     "imageId": "ST07-005",
-    "id": "ST07-005_Card_SetsBig_Mom_Pirates_[ST_07]"
+    "id": "ST07-005_Card_SetsBig_Mom_Pirates_[ST_07]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Flampe",
@@ -153,7 +188,14 @@
     "cost": 2,
     "expansionCode": "ST07",
     "imageId": "ST07-006",
-    "id": "ST07-006_Card_SetsBig_Mom_Pirates_[ST_07]"
+    "id": "ST07-006_Card_SetsBig_Mom_Pirates_[ST_07]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Brulee",
@@ -179,7 +221,14 @@
     ],
     "expansionCode": "ST07",
     "imageId": "ST07-007",
-    "id": "ST07-007_Card_SetsBig_Mom_Pirates_[ST_07]"
+    "id": "ST07-007_Card_SetsBig_Mom_Pirates_[ST_07]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Pudding",
@@ -205,6 +254,13 @@
     "id": "ST07-008_Card_SetsBig_Mom_Pirates_[ST_07]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -231,7 +287,14 @@
     ],
     "expansionCode": "ST07",
     "imageId": "ST07-009",
-    "id": "ST07-009_Card_SetsBig_Mom_Pirates_[ST_07]"
+    "id": "ST07-009_Card_SetsBig_Mom_Pirates_[ST_07]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Linlin",
@@ -258,6 +321,13 @@
     "id": "ST07-010_Card_SetsBig_Mom_Pirates_[ST_07]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -286,7 +356,14 @@
     ],
     "expansionCode": "ST07",
     "imageId": "ST07-011",
-    "id": "ST07-011_Card_SetsBig_Mom_Pirates_[ST_07]"
+    "id": "ST07-011_Card_SetsBig_Mom_Pirates_[ST_07]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Baron Tamago",
@@ -309,7 +386,14 @@
     "cost": 4,
     "expansionCode": "ST07",
     "imageId": "ST07-012",
-    "id": "ST07-012_Card_SetsBig_Mom_Pirates_[ST_07]"
+    "id": "ST07-012_Card_SetsBig_Mom_Pirates_[ST_07]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Prometheus",
@@ -337,7 +421,14 @@
     ],
     "expansionCode": "ST07",
     "imageId": "ST07-013",
-    "id": "ST07-013_Card_SetsBig_Mom_Pirates_[ST_07]"
+    "id": "ST07-013_Card_SetsBig_Mom_Pirates_[ST_07]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Pekoms",
@@ -361,7 +452,14 @@
     "cost": 3,
     "expansionCode": "ST07",
     "imageId": "ST07-014",
-    "id": "ST07-014_Card_SetsBig_Mom_Pirates_[ST_07]"
+    "id": "ST07-014_Card_SetsBig_Mom_Pirates_[ST_07]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Soul Pocus",
@@ -388,7 +486,14 @@
     ],
     "expansionCode": "ST07",
     "imageId": "ST07-015",
-    "id": "ST07-015_Card_SetsBig_Mom_Pirates_[ST_07]"
+    "id": "ST07-015_Card_SetsBig_Mom_Pirates_[ST_07]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Power Mochi",
@@ -414,7 +519,14 @@
     ],
     "expansionCode": "ST07",
     "imageId": "ST07-016",
-    "id": "ST07-016_Card_SetsBig_Mom_Pirates_[ST_07]"
+    "id": "ST07-016_Card_SetsBig_Mom_Pirates_[ST_07]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Queen Mama Chanter",
@@ -441,6 +553,13 @@
     ],
     "expansionCode": "ST07",
     "imageId": "ST07-017",
-    "id": "ST07-017_Card_SetsBig_Mom_Pirates_[ST_07]"
+    "id": "ST07-017_Card_SetsBig_Mom_Pirates_[ST_07]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   }
 ]

@@ -27,7 +27,14 @@
     ],
     "expansionCode": "ST13",
     "imageId": "ST13-001",
-    "id": "ST13-001_The_Three_Brothers_[ST13]"
+    "id": "ST13-001_The_Three_Brothers_[ST13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sabo",
@@ -58,7 +65,14 @@
     "expansionCode": "ST13",
     "imageId": "ST13-001_p1",
     "id": "ST13-001_p1_The_Three_Brothers_[ST13]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Portgas.D.Ace",
@@ -88,7 +102,14 @@
     ],
     "expansionCode": "ST13",
     "imageId": "ST13-002",
-    "id": "ST13-002_The_Three_Brothers_[ST13]"
+    "id": "ST13-002_The_Three_Brothers_[ST13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Portgas.D.Ace",
@@ -119,7 +140,14 @@
     "expansionCode": "ST13",
     "imageId": "ST13-002_p1",
     "id": "ST13-002_p1_The_Three_Brothers_[ST13]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -149,7 +177,14 @@
     ],
     "expansionCode": "ST13",
     "imageId": "ST13-003",
-    "id": "ST13-003_The_Three_Brothers_[ST13]"
+    "id": "ST13-003_The_Three_Brothers_[ST13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -180,7 +215,14 @@
     "expansionCode": "ST13",
     "imageId": "ST13-003_p1",
     "id": "ST13-003_p1_The_Three_Brothers_[ST13]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Edward.Newgate",
@@ -207,6 +249,13 @@
     "id": "ST13-004_The_Three_Brothers_[ST13]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -235,7 +284,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Emporio.Ivankov",
@@ -262,7 +318,14 @@
     ],
     "expansionCode": "ST13",
     "imageId": "ST13-005",
-    "id": "ST13-005_The_Three_Brothers_[ST13]"
+    "id": "ST13-005_The_Three_Brothers_[ST13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Emporio.Ivankov",
@@ -290,7 +353,14 @@
     "expansionCode": "ST13",
     "imageId": "ST13-005_p1",
     "id": "ST13-005_p1_The_Three_Brothers_[ST13]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Curly.Dadan",
@@ -317,7 +387,14 @@
     ],
     "expansionCode": "ST13",
     "imageId": "ST13-006",
-    "id": "ST13-006_The_Three_Brothers_[ST13]"
+    "id": "ST13-006_The_Three_Brothers_[ST13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Curly.Dadan",
@@ -345,7 +422,14 @@
     "expansionCode": "ST13",
     "imageId": "ST13-006_p1",
     "id": "ST13-006_p1_The_Three_Brothers_[ST13]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sabo",
@@ -371,7 +455,14 @@
     ],
     "expansionCode": "ST13",
     "imageId": "ST13-007",
-    "id": "ST13-007_The_Three_Brothers_[ST13]"
+    "id": "ST13-007_The_Three_Brothers_[ST13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sabo",
@@ -398,7 +489,14 @@
     "expansionCode": "ST13",
     "imageId": "ST13-007_p1",
     "id": "ST13-007_p1_The_Three_Brothers_[ST13]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sabo",
@@ -425,6 +523,13 @@
     "id": "ST13-008_The_Three_Brothers_[ST13]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -453,7 +558,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Shanks",
@@ -480,6 +592,13 @@
     "id": "ST13-009_The_Three_Brothers_[ST13]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -508,7 +627,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Portgas.D.Ace",
@@ -534,7 +660,14 @@
     ],
     "expansionCode": "ST13",
     "imageId": "ST13-010",
-    "id": "ST13-010_The_Three_Brothers_[ST13]"
+    "id": "ST13-010_The_Three_Brothers_[ST13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Portgas.D.Ace",
@@ -561,7 +694,14 @@
     "expansionCode": "ST13",
     "imageId": "ST13-010_p1",
     "id": "ST13-010_p1_The_Three_Brothers_[ST13]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Portgas.D.Ace",
@@ -588,7 +728,14 @@
     ],
     "expansionCode": "ST13",
     "imageId": "ST13-011",
-    "id": "ST13-011_The_Three_Brothers_[ST13]"
+    "id": "ST13-011_The_Three_Brothers_[ST13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Portgas.D.Ace",
@@ -616,7 +763,14 @@
     "expansionCode": "ST13",
     "imageId": "ST13-011_p1",
     "id": "ST13-011_p1_The_Three_Brothers_[ST13]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Makino",
@@ -642,6 +796,13 @@
     "id": "ST13-012_The_Three_Brothers_[ST13]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -669,7 +830,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monkey.D.Garp",
@@ -695,6 +863,13 @@
     "id": "ST13-013_The_Three_Brothers_[ST13]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -722,7 +897,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -748,7 +930,14 @@
     ],
     "expansionCode": "ST13",
     "imageId": "ST13-014",
-    "id": "ST13-014_The_Three_Brothers_[ST13]"
+    "id": "ST13-014_The_Three_Brothers_[ST13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -775,7 +964,14 @@
     "expansionCode": "ST13",
     "imageId": "ST13-014_p1",
     "id": "ST13-014_p1_The_Three_Brothers_[ST13]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -803,7 +999,14 @@
     ],
     "expansionCode": "ST13",
     "imageId": "ST13-015",
-    "id": "ST13-015_The_Three_Brothers_[ST13]"
+    "id": "ST13-015_The_Three_Brothers_[ST13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -832,7 +1035,14 @@
     "expansionCode": "ST13",
     "imageId": "ST13-015_p1",
     "id": "ST13-015_p1_The_Three_Brothers_[ST13]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Yamato",
@@ -859,7 +1069,14 @@
     ],
     "expansionCode": "ST13",
     "imageId": "ST13-016",
-    "id": "ST13-016_The_Three_Brothers_[ST13]"
+    "id": "ST13-016_The_Three_Brothers_[ST13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Yamato",
@@ -887,7 +1104,14 @@
     "expansionCode": "ST13",
     "imageId": "ST13-016_p1",
     "id": "ST13-016_p1_The_Three_Brothers_[ST13]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Flame Dragon King",
@@ -914,7 +1138,14 @@
     ],
     "expansionCode": "ST13",
     "imageId": "ST13-017",
-    "id": "ST13-017_The_Three_Brothers_[ST13]"
+    "id": "ST13-017_The_Three_Brothers_[ST13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gum-Gum Jet Spear",
@@ -941,7 +1172,14 @@
     ],
     "expansionCode": "ST13",
     "imageId": "ST13-018",
-    "id": "ST13-018_The_Three_Brothers_[ST13]"
+    "id": "ST13-018_The_Three_Brothers_[ST13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "The Three Brothers' Bond",
@@ -967,6 +1205,13 @@
     ],
     "expansionCode": "ST13",
     "imageId": "ST13-019",
-    "id": "ST13-019_The_Three_Brothers_[ST13]"
+    "id": "ST13-019_The_Three_Brothers_[ST13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   }
 ]

@@ -26,7 +26,14 @@
     ],
     "expansionCode": "ST05",
     "imageId": "ST05-001",
-    "id": "ST05-001_Card_SetsONE_PIECE_FILM_edition_[ST_05]"
+    "id": "ST05-001_Card_SetsONE_PIECE_FILM_edition_[ST_05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Ain",
@@ -53,6 +60,13 @@
     "id": "ST05-002_Card_SetsONE_PIECE_FILM_edition_[ST_05]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -80,7 +94,14 @@
     ],
     "expansionCode": "ST05",
     "imageId": "ST05-003",
-    "id": "ST05-003_Card_SetsONE_PIECE_FILM_edition_[ST_05]"
+    "id": "ST05-003_Card_SetsONE_PIECE_FILM_edition_[ST_05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Uta",
@@ -107,7 +128,14 @@
     ],
     "expansionCode": "ST05",
     "imageId": "ST05-004",
-    "id": "ST05-004_Card_SetsONE_PIECE_FILM_edition_[ST_05]"
+    "id": "ST05-004_Card_SetsONE_PIECE_FILM_edition_[ST_05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Carina",
@@ -135,7 +163,14 @@
     ],
     "expansionCode": "ST05",
     "imageId": "ST05-005",
-    "id": "ST05-005_Card_SetsONE_PIECE_FILM_edition_[ST_05]"
+    "id": "ST05-005_Card_SetsONE_PIECE_FILM_edition_[ST_05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gild Tesoro",
@@ -162,7 +197,14 @@
     ],
     "expansionCode": "ST05",
     "imageId": "ST05-006",
-    "id": "ST05-006_Card_SetsONE_PIECE_FILM_edition_[ST_05]"
+    "id": "ST05-006_Card_SetsONE_PIECE_FILM_edition_[ST_05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gordon",
@@ -185,7 +227,14 @@
     "cost": 1,
     "expansionCode": "ST05",
     "imageId": "ST05-007",
-    "id": "ST05-007_Card_SetsONE_PIECE_FILM_edition_[ST_05]"
+    "id": "ST05-007_Card_SetsONE_PIECE_FILM_edition_[ST_05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Shiki",
@@ -209,7 +258,14 @@
     "cost": 6,
     "expansionCode": "ST05",
     "imageId": "ST05-008",
-    "id": "ST05-008_Card_SetsONE_PIECE_FILM_edition_[ST_05]"
+    "id": "ST05-008_Card_SetsONE_PIECE_FILM_edition_[ST_05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Scarlet",
@@ -234,7 +290,14 @@
     "cost": 2,
     "expansionCode": "ST05",
     "imageId": "ST05-009",
-    "id": "ST05-009_Card_SetsONE_PIECE_FILM_edition_[ST_05]"
+    "id": "ST05-009_Card_SetsONE_PIECE_FILM_edition_[ST_05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Zephyr",
@@ -262,7 +325,14 @@
     ],
     "expansionCode": "ST05",
     "imageId": "ST05-010",
-    "id": "ST05-010_Card_SetsONE_PIECE_FILM_edition_[ST_05]"
+    "id": "ST05-010_Card_SetsONE_PIECE_FILM_edition_[ST_05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Douglas Bullet",
@@ -291,7 +361,14 @@
     ],
     "expansionCode": "ST05",
     "imageId": "ST05-011",
-    "id": "ST05-011_Card_SetsONE_PIECE_FILM_edition_[ST_05]"
+    "id": "ST05-011_Card_SetsONE_PIECE_FILM_edition_[ST_05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Baccarat",
@@ -315,7 +392,14 @@
     "cost": 3,
     "expansionCode": "ST05",
     "imageId": "ST05-012",
-    "id": "ST05-012_Card_SetsONE_PIECE_FILM_edition_[ST_05]"
+    "id": "ST05-012_Card_SetsONE_PIECE_FILM_edition_[ST_05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Bins",
@@ -339,7 +423,14 @@
     "cost": 4,
     "expansionCode": "ST05",
     "imageId": "ST05-013",
-    "id": "ST05-013_Card_SetsONE_PIECE_FILM_edition_[ST_05]"
+    "id": "ST05-013_Card_SetsONE_PIECE_FILM_edition_[ST_05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Buena Festa",
@@ -366,6 +457,13 @@
     "id": "ST05-014_Card_SetsONE_PIECE_FILM_edition_[ST_05]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -391,7 +489,14 @@
     "cost": 2,
     "expansionCode": "ST05",
     "imageId": "ST05-015",
-    "id": "ST05-015_Card_SetsONE_PIECE_FILM_edition_[ST_05]"
+    "id": "ST05-015_Card_SetsONE_PIECE_FILM_edition_[ST_05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Lion's Threat Imperial Earth Bind",
@@ -418,7 +523,14 @@
     ],
     "expansionCode": "ST05",
     "imageId": "ST05-016",
-    "id": "ST05-016_Card_SetsONE_PIECE_FILM_edition_[ST_05]"
+    "id": "ST05-016_Card_SetsONE_PIECE_FILM_edition_[ST_05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Union Armada",
@@ -445,6 +557,13 @@
     ],
     "expansionCode": "ST05",
     "imageId": "ST05-017",
-    "id": "ST05-017_Card_SetsONE_PIECE_FILM_edition_[ST_05]"
+    "id": "ST05-017_Card_SetsONE_PIECE_FILM_edition_[ST_05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   }
 ]

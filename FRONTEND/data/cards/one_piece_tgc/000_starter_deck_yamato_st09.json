@@ -24,7 +24,14 @@
     ],
     "expansionCode": "ST09",
     "imageId": "ST09-001",
-    "id": "ST09-001_Yamato_[ST-09]"
+    "id": "ST09-001_Yamato_[ST-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Uzuki Tempura",
@@ -47,7 +54,14 @@
     "cost": 4,
     "expansionCode": "ST09",
     "imageId": "ST09-002",
-    "id": "ST09-002_Yamato_[ST-09]"
+    "id": "ST09-002_Yamato_[ST-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Ulti",
@@ -70,7 +84,14 @@
     "cost": 4,
     "expansionCode": "ST09",
     "imageId": "ST09-003",
-    "id": "ST09-003_Yamato_[ST-09]"
+    "id": "ST09-003_Yamato_[ST-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Kaido",
@@ -97,7 +118,14 @@
     ],
     "expansionCode": "ST09",
     "imageId": "ST09-004",
-    "id": "ST09-004_Yamato_[ST-09]"
+    "id": "ST09-004_Yamato_[ST-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Kouzuki Oden",
@@ -126,7 +154,14 @@
     ],
     "expansionCode": "ST09",
     "imageId": "ST09-005",
-    "id": "ST09-005_Yamato_[ST-09]"
+    "id": "ST09-005_Yamato_[ST-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Kouzuki Momonosuke",
@@ -150,7 +185,14 @@
     "cost": 2,
     "expansionCode": "ST09",
     "imageId": "ST09-006",
-    "id": "ST09-006_Yamato_[ST-09]"
+    "id": "ST09-006_Yamato_[ST-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Shinobu",
@@ -177,7 +219,14 @@
     ],
     "expansionCode": "ST09",
     "imageId": "ST09-007",
-    "id": "ST09-007_Yamato_[ST-09]"
+    "id": "ST09-007_Yamato_[ST-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Shimotsuki Ushimaru",
@@ -204,7 +253,14 @@
     ],
     "expansionCode": "ST09",
     "imageId": "ST09-008",
-    "id": "ST09-008_Yamato_[ST-09]"
+    "id": "ST09-008_Yamato_[ST-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Fugetsu Omusubi",
@@ -227,7 +283,14 @@
     "cost": 3,
     "expansionCode": "ST09",
     "imageId": "ST09-009",
-    "id": "ST09-009_Yamato_[ST-09]"
+    "id": "ST09-009_Yamato_[ST-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Portgas.D.Ace",
@@ -254,7 +317,14 @@
     ],
     "expansionCode": "ST09",
     "imageId": "ST09-010",
-    "id": "ST09-010_Yamato_[ST-09]"
+    "id": "ST09-010_Yamato_[ST-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -278,7 +348,14 @@
     "cost": 3,
     "expansionCode": "ST09",
     "imageId": "ST09-011",
-    "id": "ST09-011_Yamato_[ST-09]"
+    "id": "ST09-011_Yamato_[ST-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Yamato",
@@ -304,7 +381,14 @@
     ],
     "expansionCode": "ST09",
     "imageId": "ST09-012",
-    "id": "ST09-012_Yamato_[ST-09]"
+    "id": "ST09-012_Yamato_[ST-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Yamato",
@@ -327,7 +411,14 @@
     "cost": 5,
     "expansionCode": "ST09",
     "imageId": "ST09-013",
-    "id": "ST09-013_Yamato_[ST-09]"
+    "id": "ST09-013_Yamato_[ST-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Narikabura Arrow",
@@ -353,7 +444,14 @@
     ],
     "expansionCode": "ST09",
     "imageId": "ST09-014",
-    "id": "ST09-014_Yamato_[ST-09]"
+    "id": "ST09-014_Yamato_[ST-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Thunder Bagua",
@@ -379,6 +477,13 @@
     ],
     "expansionCode": "ST09",
     "imageId": "ST09-015",
-    "id": "ST09-015_Yamato_[ST-09]"
+    "id": "ST09-015_Yamato_[ST-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   }
 ]

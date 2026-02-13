@@ -24,7 +24,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-001_p2",
-    "id": "OP09-001_p2_RED_Shanks_[ST-23]"
+    "id": "OP09-001_p2_RED_Shanks_[ST-23]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Howling Gab",
@@ -47,7 +54,14 @@
     "cost": 5,
     "expansionCode": "OP09",
     "imageId": "OP09-006_r1",
-    "id": "OP09-006_r1_RED_Shanks_[ST-23]"
+    "id": "OP09-006_r1_RED_Shanks_[ST-23]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Bonk Punch",
@@ -75,7 +89,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-010_r1",
-    "id": "OP09-010_r1_RED_Shanks_[ST-23]"
+    "id": "OP09-010_r1_RED_Shanks_[ST-23]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Hongo",
@@ -101,7 +122,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-011_r1",
-    "id": "OP09-011_r1_RED_Shanks_[ST-23]"
+    "id": "OP09-011_r1_RED_Shanks_[ST-23]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monster",
@@ -125,7 +153,14 @@
     "cost": 3,
     "expansionCode": "OP09",
     "imageId": "OP09-012_r1",
-    "id": "OP09-012_r1_RED_Shanks_[ST-23]"
+    "id": "OP09-012_r1_RED_Shanks_[ST-23]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Yasopp",
@@ -153,7 +188,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-013_r1",
-    "id": "OP09-013_r1_RED_Shanks_[ST-23]"
+    "id": "OP09-013_r1_RED_Shanks_[ST-23]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Limejuice",
@@ -180,7 +222,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-014_r1",
-    "id": "OP09-014_r1_RED_Shanks_[ST-23]"
+    "id": "OP09-014_r1_RED_Shanks_[ST-23]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Lucky.Roux",
@@ -207,7 +256,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-015_r1",
-    "id": "OP09-015_r1_RED_Shanks_[ST-23]"
+    "id": "OP09-015_r1_RED_Shanks_[ST-23]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Rockstar",
@@ -230,7 +286,14 @@
     "cost": 4,
     "expansionCode": "OP09",
     "imageId": "OP09-016_r1",
-    "id": "OP09-016_r1_RED_Shanks_[ST-23]"
+    "id": "OP09-016_r1_RED_Shanks_[ST-23]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Come On!! We'll Fight You!!",
@@ -257,7 +320,14 @@
     ],
     "expansionCode": "OP09",
     "imageId": "OP09-020_r1",
-    "id": "OP09-020_r1_RED_Shanks_[ST-23]"
+    "id": "OP09-020_r1_RED_Shanks_[ST-23]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Uta",
@@ -283,7 +353,14 @@
     ],
     "expansionCode": "ST23",
     "imageId": "ST23-001",
-    "id": "ST23-001_RED_Shanks_[ST-23]"
+    "id": "ST23-001_RED_Shanks_[ST-23]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Shanks",
@@ -310,6 +387,13 @@
     "id": "ST23-002_RED_Shanks_[ST-23]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -336,6 +420,13 @@
     "id": "ST23-003_RED_Shanks_[ST-23]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -364,7 +455,14 @@
     ],
     "expansionCode": "ST23",
     "imageId": "ST23-004",
-    "id": "ST23-004_RED_Shanks_[ST-23]"
+    "id": "ST23-004_RED_Shanks_[ST-23]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Yasopp",
@@ -391,6 +489,13 @@
     ],
     "expansionCode": "ST23",
     "imageId": "ST23-005",
-    "id": "ST23-005_RED_Shanks_[ST-23]"
+    "id": "ST23-005_RED_Shanks_[ST-23]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   }
 ]

@@ -25,7 +25,14 @@
     ],
     "expansionCode": "ST04",
     "imageId": "ST04-001",
-    "id": "ST04-001_Animal_Kingdom_Pirates_[ST-04]"
+    "id": "ST04-001_Animal_Kingdom_Pirates_[ST-04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Ulti",
@@ -51,6 +58,13 @@
     "id": "ST04-002_Animal_Kingdom_Pirates_[ST-04]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -79,7 +93,14 @@
     ],
     "expansionCode": "ST04",
     "imageId": "ST04-003",
-    "id": "ST04-003_Animal_Kingdom_Pirates_[ST-04]"
+    "id": "ST04-003_Animal_Kingdom_Pirates_[ST-04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "King",
@@ -105,6 +126,13 @@
     "id": "ST04-004_Animal_Kingdom_Pirates_[ST-04]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -132,7 +160,14 @@
     ],
     "expansionCode": "ST04",
     "imageId": "ST04-005",
-    "id": "ST04-005_Animal_Kingdom_Pirates_[ST-04]"
+    "id": "ST04-005_Animal_Kingdom_Pirates_[ST-04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sasaki",
@@ -158,6 +193,13 @@
     "id": "ST04-006_Animal_Kingdom_Pirates_[ST-04]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -182,7 +224,14 @@
     "cost": 2,
     "expansionCode": "ST04",
     "imageId": "ST04-007",
-    "id": "ST04-007_Animal_Kingdom_Pirates_[ST-04]"
+    "id": "ST04-007_Animal_Kingdom_Pirates_[ST-04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Jack",
@@ -208,6 +257,13 @@
     "id": "ST04-008_Animal_Kingdom_Pirates_[ST-04]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -232,7 +288,14 @@
     "cost": 1,
     "expansionCode": "ST04",
     "imageId": "ST04-009",
-    "id": "ST04-009_Animal_Kingdom_Pirates_[ST-04]"
+    "id": "ST04-009_Animal_Kingdom_Pirates_[ST-04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Who's.Who",
@@ -258,6 +321,13 @@
     "id": "ST04-010_Animal_Kingdom_Pirates_[ST-04]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -284,7 +354,14 @@
     ],
     "expansionCode": "ST04",
     "imageId": "ST04-011",
-    "id": "ST04-011_Animal_Kingdom_Pirates_[ST-04]"
+    "id": "ST04-011_Animal_Kingdom_Pirates_[ST-04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Page One",
@@ -307,7 +384,14 @@
     "cost": 4,
     "expansionCode": "ST04",
     "imageId": "ST04-012",
-    "id": "ST04-012_Animal_Kingdom_Pirates_[ST-04]"
+    "id": "ST04-012_Animal_Kingdom_Pirates_[ST-04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "X.Drake",
@@ -332,7 +416,14 @@
     "cost": 3,
     "expansionCode": "ST04",
     "imageId": "ST04-013",
-    "id": "ST04-013_Animal_Kingdom_Pirates_[ST-04]"
+    "id": "ST04-013_Animal_Kingdom_Pirates_[ST-04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Lead Performer \"Disaster\"",
@@ -358,7 +449,14 @@
     ],
     "expansionCode": "ST04",
     "imageId": "ST04-014",
-    "id": "ST04-014_Animal_Kingdom_Pirates_[ST-04]"
+    "id": "ST04-014_Animal_Kingdom_Pirates_[ST-04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Brachio Bomber",
@@ -384,7 +482,14 @@
     ],
     "expansionCode": "ST04",
     "imageId": "ST04-015",
-    "id": "ST04-015_Animal_Kingdom_Pirates_[ST-04]"
+    "id": "ST04-015_Animal_Kingdom_Pirates_[ST-04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Blast Breath",
@@ -411,7 +516,14 @@
     ],
     "expansionCode": "ST04",
     "imageId": "ST04-016",
-    "id": "ST04-016_Animal_Kingdom_Pirates_[ST-04]"
+    "id": "ST04-016_Animal_Kingdom_Pirates_[ST-04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Onigashima Island",
@@ -437,6 +549,13 @@
     ],
     "expansionCode": "ST04",
     "imageId": "ST04-017",
-    "id": "ST04-017_Animal_Kingdom_Pirates_[ST-04]"
+    "id": "ST04-017_Animal_Kingdom_Pirates_[ST-04]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   }
 ]

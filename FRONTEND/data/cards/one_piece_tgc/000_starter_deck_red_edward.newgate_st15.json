@@ -24,7 +24,14 @@
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-001_p2",
-    "id": "OP02-001_p2_Red_EdwardNewgate_[ST-15]"
+    "id": "OP02-001_p2_Red_EdwardNewgate_[ST-15]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Jozu",
@@ -51,7 +58,14 @@
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-008_r1",
-    "id": "OP02-008_r1_Red_EdwardNewgate_[ST-15]"
+    "id": "OP02-008_r1_Red_EdwardNewgate_[ST-15]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Marco",
@@ -78,7 +92,14 @@
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-018_r1",
-    "id": "OP02-018_r1_Red_EdwardNewgate_[ST-15]"
+    "id": "OP02-018_r1_Red_EdwardNewgate_[ST-15]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Rakuyo",
@@ -105,7 +126,14 @@
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-019_r1",
-    "id": "OP02-019_r1_Red_EdwardNewgate_[ST-15]"
+    "id": "OP02-019_r1_Red_EdwardNewgate_[ST-15]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "You May Be a Fool...but I Still Love You",
@@ -132,7 +160,14 @@
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-023_r1",
-    "id": "OP02-023_r1_Red_EdwardNewgate_[ST-15]"
+    "id": "OP02-023_r1_Red_EdwardNewgate_[ST-15]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Izo",
@@ -159,6 +194,13 @@
     "id": "OP03-003_r1_Red_EdwardNewgate_[ST-15]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -182,7 +224,14 @@
     "cost": 4,
     "expansionCode": "OP03",
     "imageId": "OP03-006_r1",
-    "id": "OP03-006_r1_Red_EdwardNewgate_[ST-15]"
+    "id": "OP03-006_r1_Red_EdwardNewgate_[ST-15]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Namule",
@@ -206,7 +255,14 @@
     "cost": 3,
     "expansionCode": "OP03",
     "imageId": "OP03-007_r1",
-    "id": "OP03-007_r1_Red_EdwardNewgate_[ST-15]"
+    "id": "OP03-007_r1_Red_EdwardNewgate_[ST-15]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Haruta",
@@ -233,7 +289,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-009_r1",
-    "id": "OP03-009_r1_Red_EdwardNewgate_[ST-15]"
+    "id": "OP03-009_r1_Red_EdwardNewgate_[ST-15]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Fossa",
@@ -259,7 +322,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-010_r1",
-    "id": "OP03-010_r1_Red_EdwardNewgate_[ST-15]"
+    "id": "OP03-010_r1_Red_EdwardNewgate_[ST-15]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Atmos",
@@ -285,7 +355,14 @@
     ],
     "expansionCode": "ST15",
     "imageId": "ST15-001",
-    "id": "ST15-001_Red_EdwardNewgate_[ST-15]"
+    "id": "ST15-001_Red_EdwardNewgate_[ST-15]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Edward.Newgate",
@@ -313,7 +390,14 @@
     ],
     "expansionCode": "ST15",
     "imageId": "ST15-002",
-    "id": "ST15-002_Red_EdwardNewgate_[ST-15]"
+    "id": "ST15-002_Red_EdwardNewgate_[ST-15]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Kingdew",
@@ -340,7 +424,14 @@
     ],
     "expansionCode": "ST15",
     "imageId": "ST15-003",
-    "id": "ST15-003_Red_EdwardNewgate_[ST-15]"
+    "id": "ST15-003_Red_EdwardNewgate_[ST-15]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Thatch",
@@ -366,6 +457,13 @@
     "id": "ST15-004_Red_EdwardNewgate_[ST-15]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -393,6 +491,13 @@
     ],
     "expansionCode": "ST15",
     "imageId": "ST15-005",
-    "id": "ST15-005_Red_EdwardNewgate_[ST-15]"
+    "id": "ST15-005_Red_EdwardNewgate_[ST-15]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   }
 ]

@@ -26,7 +26,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-022_p3",
-    "id": "OP06-022_p3_GREENYELLOW_Yamato_[ST-28]"
+    "id": "OP06-022_p3_GREENYELLOW_Yamato_[ST-28]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Inuarashi",
@@ -55,7 +62,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-100_r2",
-    "id": "OP06-100_r2_GREENYELLOW_Yamato_[ST-28]"
+    "id": "OP06-100_r2_GREENYELLOW_Yamato_[ST-28]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Kawamatsu",
@@ -83,7 +97,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-103_r1",
-    "id": "OP06-103_r1_GREENYELLOW_Yamato_[ST-28]"
+    "id": "OP06-103_r1_GREENYELLOW_Yamato_[ST-28]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Kikunojo",
@@ -110,7 +131,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-104_r1",
-    "id": "OP06-104_r1_GREENYELLOW_Yamato_[ST-28]"
+    "id": "OP06-104_r1_GREENYELLOW_Yamato_[ST-28]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Denjiro",
@@ -137,7 +165,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-109_r1",
-    "id": "OP06-109_r1_GREENYELLOW_Yamato_[ST-28]"
+    "id": "OP06-109_r1_GREENYELLOW_Yamato_[ST-28]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Nekomamushi",
@@ -165,7 +200,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-110_r2",
-    "id": "OP06-110_r2_GREENYELLOW_Yamato_[ST-28]"
+    "id": "OP06-110_r2_GREENYELLOW_Yamato_[ST-28]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Raizo",
@@ -192,7 +234,14 @@
     ],
     "expansionCode": "OP06",
     "imageId": "OP06-112_r1",
-    "id": "OP06-112_r1_GREENYELLOW_Yamato_[ST-28]"
+    "id": "OP06-112_r1_GREENYELLOW_Yamato_[ST-28]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Blaze Slice",
@@ -220,7 +269,14 @@
     ],
     "expansionCode": "OP07",
     "imageId": "OP07-116_p1",
-    "id": "OP07-116_p1_GREENYELLOW_Yamato_[ST-28]"
+    "id": "OP07-116_p1_GREENYELLOW_Yamato_[ST-28]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Portgas.D.Ace",
@@ -247,6 +303,13 @@
     "id": "OP09-035_r1_GREENYELLOW_Yamato_[ST-28]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -274,7 +337,14 @@
     ],
     "expansionCode": "ST13",
     "imageId": "ST13-016_r1",
-    "id": "ST13-016_r1_GREENYELLOW_Yamato_[ST-28]"
+    "id": "ST13-016_r1_GREENYELLOW_Yamato_[ST-28]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Ashura Doji",
@@ -301,6 +371,13 @@
     "id": "ST28-001_GREENYELLOW_Yamato_[ST-28]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -331,7 +408,14 @@
     ],
     "expansionCode": "ST28",
     "imageId": "ST28-002",
-    "id": "ST28-002_GREENYELLOW_Yamato_[ST-28]"
+    "id": "ST28-002_GREENYELLOW_Yamato_[ST-28]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Kin'emon",
@@ -355,7 +439,14 @@
     "cost": 4,
     "expansionCode": "ST28",
     "imageId": "ST28-003",
-    "id": "ST28-003_GREENYELLOW_Yamato_[ST-28]"
+    "id": "ST28-003_GREENYELLOW_Yamato_[ST-28]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Kouzuki Momonosuke",
@@ -385,7 +476,14 @@
     ],
     "expansionCode": "ST28",
     "imageId": "ST28-004",
-    "id": "ST28-004_GREENYELLOW_Yamato_[ST-28]"
+    "id": "ST28-004_GREENYELLOW_Yamato_[ST-28]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Yamato",
@@ -413,6 +511,13 @@
     ],
     "expansionCode": "ST28",
     "imageId": "ST28-005",
-    "id": "ST28-005_GREENYELLOW_Yamato_[ST-28]"
+    "id": "ST28-005_GREENYELLOW_Yamato_[ST-28]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   }
 ]

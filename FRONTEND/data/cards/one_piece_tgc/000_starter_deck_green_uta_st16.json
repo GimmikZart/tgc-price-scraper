@@ -25,7 +25,14 @@
     ],
     "expansionCode": "P",
     "imageId": "P-029_r1",
-    "id": "P-029_r1_Green_Uta_[ST-16]"
+    "id": "P-029_r1_Green_Uta_[ST-16]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Fleeting Lullaby",
@@ -52,7 +59,14 @@
     ],
     "expansionCode": "P",
     "imageId": "P-057_p1",
-    "id": "P-057_p1_Green_Uta_[ST-16]"
+    "id": "P-057_p1_Green_Uta_[ST-16]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Where the Wind Blows",
@@ -79,7 +93,14 @@
     ],
     "expansionCode": "P",
     "imageId": "P-058_p1",
-    "id": "P-058_p1_Green_Uta_[ST-16]"
+    "id": "P-058_p1_Green_Uta_[ST-16]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "The World's Continuation",
@@ -106,7 +127,14 @@
     ],
     "expansionCode": "P",
     "imageId": "P-059_p1",
-    "id": "P-059_p1_Green_Uta_[ST-16]"
+    "id": "P-059_p1_Green_Uta_[ST-16]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Tot Musica",
@@ -133,7 +161,14 @@
     ],
     "expansionCode": "P",
     "imageId": "P-060_p1",
-    "id": "P-060_p1_Green_Uta_[ST-16]"
+    "id": "P-060_p1_Green_Uta_[ST-16]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -157,7 +192,14 @@
     "cost": 8,
     "expansionCode": "P",
     "imageId": "P-061_r1",
-    "id": "P-061_r1_Green_Uta_[ST-16]"
+    "id": "P-061_r1_Green_Uta_[ST-16]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Uta",
@@ -185,7 +227,14 @@
     ],
     "expansionCode": "ST11",
     "imageId": "ST11-001_p1",
-    "id": "ST11-001_p1_Green_Uta_[ST-16]"
+    "id": "ST11-001_p1_Green_Uta_[ST-16]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Backlight",
@@ -212,7 +261,14 @@
     ],
     "expansionCode": "ST11",
     "imageId": "ST11-003_p2",
-    "id": "ST11-003_p2_Green_Uta_[ST-16]"
+    "id": "ST11-003_p2_Green_Uta_[ST-16]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "New Genesis",
@@ -239,7 +295,14 @@
     ],
     "expansionCode": "ST11",
     "imageId": "ST11-004_p2",
-    "id": "ST11-004_p2_Green_Uta_[ST-16]"
+    "id": "ST11-004_p2_Green_Uta_[ST-16]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "I'm invincible",
@@ -266,7 +329,14 @@
     ],
     "expansionCode": "ST11",
     "imageId": "ST11-005_p2",
-    "id": "ST11-005_p2_Green_Uta_[ST-16]"
+    "id": "ST11-005_p2_Green_Uta_[ST-16]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Uta",
@@ -294,7 +364,14 @@
     ],
     "expansionCode": "ST16",
     "imageId": "ST16-001",
-    "id": "ST16-001_Green_Uta_[ST-16]"
+    "id": "ST16-001_Green_Uta_[ST-16]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gordon",
@@ -321,7 +398,14 @@
     ],
     "expansionCode": "ST16",
     "imageId": "ST16-002",
-    "id": "ST16-002_Green_Uta_[ST-16]"
+    "id": "ST16-002_Green_Uta_[ST-16]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Katakuri",
@@ -345,7 +429,14 @@
     "cost": 3,
     "expansionCode": "ST16",
     "imageId": "ST16-003",
-    "id": "ST16-003_Green_Uta_[ST-16]"
+    "id": "ST16-003_Green_Uta_[ST-16]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Shanks",
@@ -373,6 +464,13 @@
     "id": "ST16-004_Green_Uta_[ST-16]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -398,6 +496,13 @@
     "cost": 2,
     "expansionCode": "ST16",
     "imageId": "ST16-005",
-    "id": "ST16-005_Green_Uta_[ST-16]"
+    "id": "ST16-005_Green_Uta_[ST-16]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   }
 ]

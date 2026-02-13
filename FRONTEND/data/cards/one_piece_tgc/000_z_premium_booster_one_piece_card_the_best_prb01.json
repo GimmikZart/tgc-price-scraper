@@ -271,7 +271,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-024_r1",
     "id": "OP01-024_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Radical Beam!!",
@@ -366,7 +373,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-029_r1",
     "id": "OP01-029_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Izo",
@@ -499,7 +513,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Kouzuki Momonosuke",
@@ -704,7 +725,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-047_r1",
     "id": "OP01-047_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -773,7 +801,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-051_r1",
     "id": "OP01-051_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Raizo",
@@ -1410,7 +1445,14 @@
     "expansionCode": "OP02",
     "imageId": "OP02-015_r1",
     "id": "OP02-015_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Marco",
@@ -1679,7 +1721,14 @@
     "expansionCode": "OP02",
     "imageId": "OP02-089_r1",
     "id": "OP02-089_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Kuzan",
@@ -2084,7 +2133,14 @@
     "expansionCode": "OP02",
     "imageId": "OP02-117_r2",
     "id": "OP02-117_r2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Kuzan",
@@ -2392,7 +2448,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-055_r1",
     "id": "OP03-055_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sanji's Pilaf",
@@ -2521,7 +2584,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-056_r1",
     "id": "OP03-056_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Three Thousand Worlds",
@@ -2654,7 +2724,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-057_r1",
     "id": "OP03-057_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Kalifa",
@@ -3095,7 +3172,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-094_r1",
     "id": "OP03-094_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Cracker",
@@ -3569,7 +3653,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-121_r2",
     "id": "OP03-121_r2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sogeking",
@@ -4040,7 +4131,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-036_r1",
     "id": "OP04-036_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Kaido",
@@ -4239,7 +4337,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-056_r1",
     "id": "OP04-056_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sabo",
@@ -4513,7 +4618,14 @@
     "expansionCode": "OP04",
     "imageId": "OP04-095_r1",
     "id": "OP04-095_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Capone\"Gang\"Bege",
@@ -5208,7 +5320,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-034_p4",
     "id": "OP05-034_p4_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Full Art"
+    "illustration": "Full Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Baby 5",
@@ -5473,7 +5592,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-057_r1",
     "id": "OP05-057_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -6212,7 +6338,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-114_r1",
     "id": "OP05-114_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Two-Hundred Million Volts Amaru",
@@ -6341,7 +6474,14 @@
     "expansionCode": "OP05",
     "imageId": "OP05-115_r1",
     "id": "OP05-115_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Upper Yard",
@@ -6470,7 +6610,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Kaido",
@@ -6746,7 +6893,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Arlong",
@@ -6883,7 +7037,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Hody Jones",
@@ -6948,7 +7109,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-035_r1",
     "id": "OP06-035_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Jolly Roger Foil"
+    "illustration": "Jolly Roger Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Ryuma",
@@ -7085,7 +7253,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-036_r1",
     "id": "OP06-036_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "The Billion-fold World Trichiliocosm",
@@ -7183,7 +7358,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-038_r1",
     "id": "OP06-038_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Ama no Murakumo Sword",
@@ -7278,7 +7460,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-056_r1",
     "id": "OP06-056_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Vinsmoke Ichiji",
@@ -7376,7 +7565,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-060_r1",
     "id": "OP06-060_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Vinsmoke Niji",
@@ -7474,7 +7670,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-064_r1",
     "id": "OP06-064_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Vinsmoke Niji",
@@ -7607,7 +7810,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Vinsmoke Yonji",
@@ -7705,7 +7915,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-066_r1",
     "id": "OP06-066_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Vinsmoke Yonji",
@@ -7838,7 +8055,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-067_r1",
     "id": "OP06-067_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Vinsmoke Reiju",
@@ -7936,7 +8160,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-068_r1",
     "id": "OP06-068_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Vinsmoke Reiju",
@@ -7999,7 +8230,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Kingdom of GERMA",
@@ -8128,7 +8366,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-079_r1",
     "id": "OP06-079_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gecko Moria",
@@ -8191,7 +8436,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Victoria Cindry",
@@ -8286,7 +8538,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Inuarashi",
@@ -8390,7 +8649,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-100_r1",
     "id": "OP06-100_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Kouzuki Hiyori",
@@ -8453,7 +8719,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Nekomamushi",
@@ -8554,7 +8827,14 @@
     "expansionCode": "OP06",
     "imageId": "OP06-110_r1",
     "id": "OP06-110_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Wyper",
@@ -8652,7 +8932,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -8996,7 +9283,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -9091,7 +9385,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -9297,7 +9598,14 @@
     "expansionCode": "ST01",
     "imageId": "ST01-006_r1",
     "id": "ST01-006_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Guard Point",
@@ -9395,7 +9703,14 @@
     "expansionCode": "ST01",
     "imageId": "ST01-014_r1",
     "id": "ST01-014_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Capone\"Gang\"Bege",
@@ -9528,7 +9843,14 @@
     "expansionCode": "ST02",
     "imageId": "ST02-004_r1",
     "id": "ST02-004_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Dracule Mihawk",
@@ -9626,7 +9948,14 @@
     "expansionCode": "ST03",
     "imageId": "ST03-005_r2",
     "id": "ST03-005_r2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -9724,7 +10053,14 @@
     "expansionCode": "ST03",
     "imageId": "ST03-008_r2",
     "id": "ST03-008_r2_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Boa Hancock",
@@ -9857,7 +10193,14 @@
     "expansionCode": "ST03",
     "imageId": "ST03-013_r1",
     "id": "ST03-013_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Kaido",
@@ -9922,7 +10265,14 @@
     "expansionCode": "ST04",
     "imageId": "ST04-003_r1",
     "id": "ST04-003_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Queen",
@@ -10020,7 +10370,14 @@
     "expansionCode": "ST04",
     "imageId": "ST04-005_r1",
     "id": "ST04-005_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Blast Breath",
@@ -10118,7 +10475,14 @@
     "expansionCode": "ST04",
     "imageId": "ST04-016_r1",
     "id": "ST04-016_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Helmeppo",
@@ -10315,7 +10679,14 @@
     "expansionCode": "ST06",
     "imageId": "ST06-014_r1",
     "id": "ST06-014_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Brulee",
@@ -10410,7 +10781,14 @@
     "expansionCode": "ST07",
     "imageId": "ST07-007_r1",
     "id": "ST07-007_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Narikabura Arrow",
@@ -10505,7 +10883,14 @@
     "expansionCode": "ST09",
     "imageId": "ST09-014_r1",
     "id": "ST09-014_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -10673,6 +11058,13 @@
     "expansionCode": "ST12",
     "imageId": "ST12-014_r1",
     "id": "ST12-014_r1_ONE_PIECE_CARD_THE_BEST_[PRB-01]",
-    "illustration": "Reprint"
+    "illustration": "Reprint",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   }
 ]

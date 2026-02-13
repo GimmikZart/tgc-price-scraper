@@ -24,7 +24,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-099_p2",
-    "id": "OP03-099_p2_Yellow_Charlotte_Katakuri_[ST-20]"
+    "id": "OP03-099_p2_Yellow_Charlotte_Katakuri_[ST-20]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Opera",
@@ -47,7 +54,14 @@
     "cost": 4,
     "expansionCode": "OP03",
     "imageId": "OP03-106_r1",
-    "id": "OP03-106_r1_Yellow_Charlotte_Katakuri_[ST-20]"
+    "id": "OP03-106_r1_Yellow_Charlotte_Katakuri_[ST-20]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Galette",
@@ -73,7 +87,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-107_r1",
-    "id": "OP03-107_r1_Yellow_Charlotte_Katakuri_[ST-20]"
+    "id": "OP03-107_r1_Yellow_Charlotte_Katakuri_[ST-20]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Smoothie",
@@ -99,7 +120,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-110_r1",
-    "id": "OP03-110_r1_Yellow_Charlotte_Katakuri_[ST-20]"
+    "id": "OP03-110_r1_Yellow_Charlotte_Katakuri_[ST-20]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Pudding",
@@ -125,6 +153,13 @@
     "id": "OP03-112_r1_Yellow_Charlotte_Katakuri_[ST-20]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -152,7 +187,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-115_r1",
-    "id": "OP03-115_r1_Yellow_Charlotte_Katakuri_[ST-20]"
+    "id": "OP03-115_r1_Yellow_Charlotte_Katakuri_[ST-20]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Ikoku Sovereignty",
@@ -179,7 +221,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-118_r1",
-    "id": "OP03-118_r1_Yellow_Charlotte_Katakuri_[ST-20]"
+    "id": "OP03-118_r1_Yellow_Charlotte_Katakuri_[ST-20]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Thunder Bolt",
@@ -206,7 +255,14 @@
     ],
     "expansionCode": "OP03",
     "imageId": "OP03-121_r1",
-    "id": "OP03-121_r1_Yellow_Charlotte_Katakuri_[ST-20]"
+    "id": "OP03-121_r1_Yellow_Charlotte_Katakuri_[ST-20]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Daifuku",
@@ -233,7 +289,14 @@
     ],
     "expansionCode": "ST07",
     "imageId": "ST07-005_r1",
-    "id": "ST07-005_r1_Yellow_Charlotte_Katakuri_[ST-20]"
+    "id": "ST07-005_r1_Yellow_Charlotte_Katakuri_[ST-20]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Pekoms",
@@ -257,7 +320,14 @@
     "cost": 3,
     "expansionCode": "ST07",
     "imageId": "ST07-014_r1",
-    "id": "ST07-014_r1_Yellow_Charlotte_Katakuri_[ST-20]"
+    "id": "ST07-014_r1_Yellow_Charlotte_Katakuri_[ST-20]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Katakuri",
@@ -285,7 +355,14 @@
     ],
     "expansionCode": "ST20",
     "imageId": "ST20-001",
-    "id": "ST20-001_Yellow_Charlotte_Katakuri_[ST-20]"
+    "id": "ST20-001_Yellow_Charlotte_Katakuri_[ST-20]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Cracker",
@@ -311,7 +388,14 @@
     ],
     "expansionCode": "ST20",
     "imageId": "ST20-002",
-    "id": "ST20-002_Yellow_Charlotte_Katakuri_[ST-20]"
+    "id": "ST20-002_Yellow_Charlotte_Katakuri_[ST-20]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Brulee",
@@ -334,7 +418,14 @@
     "cost": 3,
     "expansionCode": "ST20",
     "imageId": "ST20-003",
-    "id": "ST20-003_Yellow_Charlotte_Katakuri_[ST-20]"
+    "id": "ST20-003_Yellow_Charlotte_Katakuri_[ST-20]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Charlotte Pudding",
@@ -360,6 +451,13 @@
     "id": "ST20-004_Yellow_Charlotte_Katakuri_[ST-20]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -387,6 +485,13 @@
     "id": "ST20-005_Yellow_Charlotte_Katakuri_[ST-20]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   }
 ]

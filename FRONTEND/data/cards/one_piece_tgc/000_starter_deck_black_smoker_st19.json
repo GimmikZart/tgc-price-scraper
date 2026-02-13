@@ -26,7 +26,14 @@
     "expansionCode": "OP02",
     "imageId": "OP02-093_p2",
     "id": "OP02-093_p2_Black_Smoker_[ST-19]",
-    "illustration": "Alternate Art"
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Koby",
@@ -53,7 +60,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Other"
+    "illustration": "Other",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Tsuru",
@@ -80,7 +94,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Other"
+    "illustration": "Other",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Donquixote Rosinante",
@@ -108,7 +129,14 @@
     "expansionCode": "OP02",
     "imageId": "OP02-108_r1",
     "id": "OP02-108_r1_Black_Smoker_[ST-19]",
-    "illustration": "Other"
+    "illustration": "Other",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Jaguar.D.Saul",
@@ -133,7 +161,14 @@
     "expansionCode": "OP02",
     "imageId": "OP02-109_r1",
     "id": "OP02-109_r1_Black_Smoker_[ST-19]",
-    "illustration": "Other"
+    "illustration": "Other",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Helmeppo",
@@ -160,7 +195,14 @@
     "expansionCode": "OP02",
     "imageId": "OP02-113_r1",
     "id": "OP02-113_r1_Black_Smoker_[ST-19]",
-    "illustration": "Other"
+    "illustration": "Other",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Yamakaji",
@@ -184,7 +226,14 @@
     "expansionCode": "OP02",
     "imageId": "OP02-116_r1",
     "id": "OP02-116_r1_Black_Smoker_[ST-19]",
-    "illustration": "Other"
+    "illustration": "Other",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Ice Age",
@@ -211,7 +260,14 @@
     "expansionCode": "OP02",
     "imageId": "OP02-117_r1",
     "id": "OP02-117_r1_Black_Smoker_[ST-19]",
-    "illustration": "Other"
+    "illustration": "Other",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Vergo",
@@ -239,7 +295,14 @@
     "expansionCode": "OP03",
     "imageId": "OP03-079_r1",
     "id": "OP03-079_r1_Black_Smoker_[ST-19]",
-    "illustration": "Other"
+    "illustration": "Other",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Brannew",
@@ -266,7 +329,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Other"
+    "illustration": "Other",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Smoker",
@@ -292,6 +362,13 @@
     "id": "ST19-001_Black_Smoker_[ST-19]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -318,6 +395,13 @@
     "id": "ST19-002_Black_Smoker_[ST-19]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -346,7 +430,14 @@
     ],
     "expansionCode": "ST19",
     "imageId": "ST19-003",
-    "id": "ST19-003_Black_Smoker_[ST-19]"
+    "id": "ST19-003_Black_Smoker_[ST-19]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Hina",
@@ -375,7 +466,14 @@
     ],
     "expansionCode": "ST19",
     "imageId": "ST19-004",
-    "id": "ST19-004_Black_Smoker_[ST-19]"
+    "id": "ST19-004_Black_Smoker_[ST-19]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monkey.D.Garp",
@@ -403,6 +501,13 @@
     ],
     "expansionCode": "ST19",
     "imageId": "ST19-005",
-    "id": "ST19-005_Black_Smoker_[ST-19]"
+    "id": "ST19-005_Black_Smoker_[ST-19]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   }
 ]

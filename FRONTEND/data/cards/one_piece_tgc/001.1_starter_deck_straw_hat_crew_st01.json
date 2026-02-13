@@ -25,7 +25,14 @@
     ],
     "expansionCode": "ST01",
     "imageId": "ST01-001",
-    "id": "ST01-001_Straw_Hat_Crew_[ST-01]"
+    "id": "ST01-001_Straw_Hat_Crew_[ST-01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Usopp",
@@ -53,7 +60,14 @@
     ],
     "expansionCode": "ST01",
     "imageId": "ST01-002",
-    "id": "ST01-002_Straw_Hat_Crew_[ST-01]"
+    "id": "ST01-002_Straw_Hat_Crew_[ST-01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Karoo",
@@ -77,7 +91,14 @@
     "cost": 1,
     "expansionCode": "ST01",
     "imageId": "ST01-003",
-    "id": "ST01-003_Straw_Hat_Crew_[ST-01]"
+    "id": "ST01-003_Straw_Hat_Crew_[ST-01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -104,7 +125,14 @@
     ],
     "expansionCode": "ST01",
     "imageId": "ST01-004",
-    "id": "ST01-004_Straw_Hat_Crew_[ST-01]"
+    "id": "ST01-004_Straw_Hat_Crew_[ST-01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Jinbe",
@@ -132,7 +160,14 @@
     ],
     "expansionCode": "ST01",
     "imageId": "ST01-005",
-    "id": "ST01-005_Straw_Hat_Crew_[ST-01]"
+    "id": "ST01-005_Straw_Hat_Crew_[ST-01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Tony Tony.Chopper",
@@ -159,7 +194,14 @@
     ],
     "expansionCode": "ST01",
     "imageId": "ST01-006",
-    "id": "ST01-006_Straw_Hat_Crew_[ST-01]"
+    "id": "ST01-006_Straw_Hat_Crew_[ST-01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Nami",
@@ -186,7 +228,14 @@
     ],
     "expansionCode": "ST01",
     "imageId": "ST01-007",
-    "id": "ST01-007_Straw_Hat_Crew_[ST-01]"
+    "id": "ST01-007_Straw_Hat_Crew_[ST-01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Nico Robin",
@@ -209,7 +258,14 @@
     "cost": 3,
     "expansionCode": "ST01",
     "imageId": "ST01-008",
-    "id": "ST01-008_Straw_Hat_Crew_[ST-01]"
+    "id": "ST01-008_Straw_Hat_Crew_[ST-01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Nefeltari Vivi",
@@ -232,7 +288,14 @@
     "cost": 2,
     "expansionCode": "ST01",
     "imageId": "ST01-009",
-    "id": "ST01-009_Straw_Hat_Crew_[ST-01]"
+    "id": "ST01-009_Straw_Hat_Crew_[ST-01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Franky",
@@ -255,7 +318,14 @@
     "cost": 4,
     "expansionCode": "ST01",
     "imageId": "ST01-010",
-    "id": "ST01-010_Straw_Hat_Crew_[ST-01]"
+    "id": "ST01-010_Straw_Hat_Crew_[ST-01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Brook",
@@ -281,6 +351,13 @@
     "id": "ST01-011_Straw_Hat_Crew_[ST-01]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -311,7 +388,14 @@
     ],
     "expansionCode": "ST01",
     "imageId": "ST01-012",
-    "id": "ST01-012_Straw_Hat_Crew_[ST-01]"
+    "id": "ST01-012_Straw_Hat_Crew_[ST-01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -338,7 +422,14 @@
     ],
     "expansionCode": "ST01",
     "imageId": "ST01-013",
-    "id": "ST01-013_Straw_Hat_Crew_[ST-01]"
+    "id": "ST01-013_Straw_Hat_Crew_[ST-01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Guard Point",
@@ -365,7 +456,14 @@
     ],
     "expansionCode": "ST01",
     "imageId": "ST01-014",
-    "id": "ST01-014_Straw_Hat_Crew_[ST-01]"
+    "id": "ST01-014_Straw_Hat_Crew_[ST-01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gum-Gum Jet Pistol",
@@ -392,7 +490,14 @@
     ],
     "expansionCode": "ST01",
     "imageId": "ST01-015",
-    "id": "ST01-015_Straw_Hat_Crew_[ST-01]"
+    "id": "ST01-015_Straw_Hat_Crew_[ST-01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Diable Jambe",
@@ -419,7 +524,14 @@
     ],
     "expansionCode": "ST01",
     "imageId": "ST01-016",
-    "id": "ST01-016_Straw_Hat_Crew_[ST-01]"
+    "id": "ST01-016_Straw_Hat_Crew_[ST-01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Thousand Sunny",
@@ -445,6 +557,13 @@
     ],
     "expansionCode": "ST01",
     "imageId": "ST01-017",
-    "id": "ST01-017_Straw_Hat_Crew_[ST-01]"
+    "id": "ST01-017_Straw_Hat_Crew_[ST-01]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   }
 ]

@@ -25,7 +25,14 @@
     ],
     "expansionCode": "ST02",
     "imageId": "ST02-001",
-    "id": "ST02-001_Worst_Generation_[ST-02]"
+    "id": "ST02-001_Worst_Generation_[ST-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Vito",
@@ -48,7 +55,14 @@
     "cost": 3,
     "expansionCode": "ST02",
     "imageId": "ST02-002",
-    "id": "ST02-002_Worst_Generation_[ST-02]"
+    "id": "ST02-002_Worst_Generation_[ST-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Urouge",
@@ -75,7 +89,14 @@
     ],
     "expansionCode": "ST02",
     "imageId": "ST02-003",
-    "id": "ST02-003_Worst_Generation_[ST-02]"
+    "id": "ST02-003_Worst_Generation_[ST-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Capone\"Gang\"Bege",
@@ -102,7 +123,14 @@
     ],
     "expansionCode": "ST02",
     "imageId": "ST02-004",
-    "id": "ST02-004_Worst_Generation_[ST-02]"
+    "id": "ST02-004_Worst_Generation_[ST-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Killer",
@@ -129,6 +157,13 @@
     "id": "ST02-005_Worst_Generation_[ST-02]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -152,7 +187,14 @@
     "cost": 4,
     "expansionCode": "ST02",
     "imageId": "ST02-006",
-    "id": "ST02-006_Worst_Generation_[ST-02]"
+    "id": "ST02-006_Worst_Generation_[ST-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Jewelry Bonney",
@@ -179,7 +221,14 @@
     ],
     "expansionCode": "ST02",
     "imageId": "ST02-007",
-    "id": "ST02-007_Worst_Generation_[ST-02]"
+    "id": "ST02-007_Worst_Generation_[ST-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Scratchmen Apoo",
@@ -207,7 +256,14 @@
     ],
     "expansionCode": "ST02",
     "imageId": "ST02-008",
-    "id": "ST02-008_Worst_Generation_[ST-02]"
+    "id": "ST02-008_Worst_Generation_[ST-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -234,6 +290,13 @@
     "id": "ST02-009_Worst_Generation_[ST-02]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -263,7 +326,14 @@
     ],
     "expansionCode": "ST02",
     "imageId": "ST02-010",
-    "id": "ST02-010_Worst_Generation_[ST-02]"
+    "id": "ST02-010_Worst_Generation_[ST-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Heat",
@@ -286,7 +356,14 @@
     "cost": 2,
     "expansionCode": "ST02",
     "imageId": "ST02-011",
-    "id": "ST02-011_Worst_Generation_[ST-02]"
+    "id": "ST02-011_Worst_Generation_[ST-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Bepo",
@@ -310,7 +387,14 @@
     "cost": 1,
     "expansionCode": "ST02",
     "imageId": "ST02-012",
-    "id": "ST02-012_Worst_Generation_[ST-02]"
+    "id": "ST02-012_Worst_Generation_[ST-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -339,7 +423,14 @@
     ],
     "expansionCode": "ST02",
     "imageId": "ST02-013",
-    "id": "ST02-013_Worst_Generation_[ST-02]"
+    "id": "ST02-013_Worst_Generation_[ST-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "X.Drake",
@@ -368,7 +459,14 @@
     ],
     "expansionCode": "ST02",
     "imageId": "ST02-014",
-    "id": "ST02-014_Worst_Generation_[ST-02]"
+    "id": "ST02-014_Worst_Generation_[ST-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Scalpel",
@@ -395,7 +493,14 @@
     ],
     "expansionCode": "ST02",
     "imageId": "ST02-015",
-    "id": "ST02-015_Worst_Generation_[ST-02]"
+    "id": "ST02-015_Worst_Generation_[ST-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Repel",
@@ -422,7 +527,14 @@
     ],
     "expansionCode": "ST02",
     "imageId": "ST02-016",
-    "id": "ST02-016_Worst_Generation_[ST-02]"
+    "id": "ST02-016_Worst_Generation_[ST-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Straw Sword",
@@ -449,6 +561,13 @@
     ],
     "expansionCode": "ST02",
     "imageId": "ST02-017",
-    "id": "ST02-017_Worst_Generation_[ST-02]"
+    "id": "ST02-017_Worst_Generation_[ST-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   }
 ]

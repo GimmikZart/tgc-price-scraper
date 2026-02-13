@@ -24,6 +24,13 @@
     "id": "EB01-015_p3_GREEN_Jewelry_Bonney_[ST-24]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -52,7 +59,14 @@
     ],
     "expansionCode": "OP07",
     "imageId": "OP07-019_p3",
-    "id": "OP07-019_p3_GREEN_Jewelry_Bonney_[ST-24]"
+    "id": "OP07-019_p3_GREEN_Jewelry_Bonney_[ST-24]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Urouge",
@@ -80,7 +94,14 @@
     ],
     "expansionCode": "OP07",
     "imageId": "OP07-021_r1",
-    "id": "OP07-021_r1_GREEN_Jewelry_Bonney_[ST-24]"
+    "id": "OP07-021_r1_GREEN_Jewelry_Bonney_[ST-24]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Caribou",
@@ -107,7 +128,14 @@
     ],
     "expansionCode": "OP07",
     "imageId": "OP07-023_r1",
-    "id": "OP07-023_r1_GREEN_Jewelry_Bonney_[ST-24]"
+    "id": "OP07-023_r1_GREEN_Jewelry_Bonney_[ST-24]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Coribou",
@@ -134,6 +162,13 @@
     "id": "OP07-025_r1_GREEN_Jewelry_Bonney_[ST-24]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -163,7 +198,14 @@
     ],
     "expansionCode": "OP07",
     "imageId": "OP07-031_r1",
-    "id": "OP07-031_r1_GREEN_Jewelry_Bonney_[ST-24]"
+    "id": "OP07-031_r1_GREEN_Jewelry_Bonney_[ST-24]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -187,7 +229,14 @@
     "cost": 5,
     "expansionCode": "OP07",
     "imageId": "OP07-033_r1",
-    "id": "OP07-033_r1_GREEN_Jewelry_Bonney_[ST-24]"
+    "id": "OP07-033_r1_GREEN_Jewelry_Bonney_[ST-24]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -214,7 +263,14 @@
     ],
     "expansionCode": "OP07",
     "imageId": "OP07-034_r1",
-    "id": "OP07-034_r1_GREEN_Jewelry_Bonney_[ST-24]"
+    "id": "OP07-034_r1_GREEN_Jewelry_Bonney_[ST-24]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Demonic Aura Nine-Sword Style Asura Demon Nine Flash",
@@ -241,7 +297,14 @@
     ],
     "expansionCode": "OP07",
     "imageId": "OP07-036_p1",
-    "id": "OP07-036_p1_GREEN_Jewelry_Bonney_[ST-24]"
+    "id": "OP07-036_p1_GREEN_Jewelry_Bonney_[ST-24]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "More Pizza!!",
@@ -268,7 +331,14 @@
     ],
     "expansionCode": "OP07",
     "imageId": "OP07-037_r1",
-    "id": "OP07-037_r1_GREEN_Jewelry_Bonney_[ST-24]"
+    "id": "OP07-037_r1_GREEN_Jewelry_Bonney_[ST-24]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Capone\"Gang\"Bege",
@@ -296,7 +366,14 @@
     ],
     "expansionCode": "ST24",
     "imageId": "ST24-001",
-    "id": "ST24-001_GREEN_Jewelry_Bonney_[ST-24]"
+    "id": "ST24-001_GREEN_Jewelry_Bonney_[ST-24]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Kid & Killer",
@@ -324,7 +401,14 @@
     ],
     "expansionCode": "ST24",
     "imageId": "ST24-002",
-    "id": "ST24-002_GREEN_Jewelry_Bonney_[ST-24]"
+    "id": "ST24-002_GREEN_Jewelry_Bonney_[ST-24]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Basil Hawkins",
@@ -351,7 +435,14 @@
     ],
     "expansionCode": "ST24",
     "imageId": "ST24-003",
-    "id": "ST24-003_GREEN_Jewelry_Bonney_[ST-24]"
+    "id": "ST24-003_GREEN_Jewelry_Bonney_[ST-24]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Law & Bepo",
@@ -379,6 +470,13 @@
     "id": "ST24-004_GREEN_Jewelry_Bonney_[ST-24]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -407,6 +505,13 @@
     "id": "ST24-005_GREEN_Jewelry_Bonney_[ST-24]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   }
 ]

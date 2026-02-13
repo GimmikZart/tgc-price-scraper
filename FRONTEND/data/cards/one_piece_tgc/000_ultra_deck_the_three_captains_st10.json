@@ -24,7 +24,14 @@
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Other"
+    "illustration": "Other",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -52,7 +59,14 @@
     "expansionCode": "OP01",
     "imageId": "OP01-025_p2",
     "id": "OP01-025_p2_The_Three_Captains_[ST-10]",
-    "illustration": "Other"
+    "illustration": "Other",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -80,7 +94,14 @@
     ],
     "expansionCode": "ST10",
     "imageId": "ST10-001",
-    "id": "ST10-001_The_Three_Captains_[ST-10]"
+    "id": "ST10-001_The_Three_Captains_[ST-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -108,7 +129,14 @@
     ],
     "expansionCode": "ST10",
     "imageId": "ST10-002",
-    "id": "ST10-002_The_Three_Captains_[ST-10]"
+    "id": "ST10-002_The_Three_Captains_[ST-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -136,7 +164,14 @@
     ],
     "expansionCode": "ST10",
     "imageId": "ST10-003",
-    "id": "ST10-003_The_Three_Captains_[ST-10]"
+    "id": "ST10-003_The_Three_Captains_[ST-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -163,7 +198,14 @@
     ],
     "expansionCode": "ST10",
     "imageId": "ST10-004",
-    "id": "ST10-004_The_Three_Captains_[ST-10]"
+    "id": "ST10-004_The_Three_Captains_[ST-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Jinbe",
@@ -191,7 +233,14 @@
     ],
     "expansionCode": "ST10",
     "imageId": "ST10-005",
-    "id": "ST10-005_The_Three_Captains_[ST-10]"
+    "id": "ST10-005_The_Three_Captains_[ST-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -219,7 +268,14 @@
     ],
     "expansionCode": "ST10",
     "imageId": "ST10-006",
-    "id": "ST10-006_The_Three_Captains_[ST-10]"
+    "id": "ST10-006_The_Three_Captains_[ST-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Killer",
@@ -246,7 +302,14 @@
     ],
     "expansionCode": "ST10",
     "imageId": "ST10-007",
-    "id": "ST10-007_The_Three_Captains_[ST-10]"
+    "id": "ST10-007_The_Three_Captains_[ST-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Shachi & Penguin",
@@ -272,6 +335,13 @@
     "id": "ST10-008_The_Three_Captains_[ST-10]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -298,6 +368,13 @@
     "id": "ST10-009_The_Three_Captains_[ST-10]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -325,7 +402,14 @@
     ],
     "expansionCode": "ST10",
     "imageId": "ST10-010",
-    "id": "ST10-010_The_Three_Captains_[ST-10]"
+    "id": "ST10-010_The_Three_Captains_[ST-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Heat",
@@ -352,7 +436,14 @@
     ],
     "expansionCode": "ST10",
     "imageId": "ST10-011",
-    "id": "ST10-011_The_Three_Captains_[ST-10]"
+    "id": "ST10-011_The_Three_Captains_[ST-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Bepo",
@@ -380,7 +471,14 @@
     ],
     "expansionCode": "ST10",
     "imageId": "ST10-012",
-    "id": "ST10-012_The_Three_Captains_[ST-10]"
+    "id": "ST10-012_The_Three_Captains_[ST-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Eustass\"Captain\"Kid",
@@ -407,7 +505,14 @@
     ],
     "expansionCode": "ST10",
     "imageId": "ST10-013",
-    "id": "ST10-013_The_Three_Captains_[ST-10]"
+    "id": "ST10-013_The_Three_Captains_[ST-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Wire",
@@ -434,7 +539,14 @@
     ],
     "expansionCode": "ST10",
     "imageId": "ST10-014",
-    "id": "ST10-014_The_Three_Captains_[ST-10]"
+    "id": "ST10-014_The_Three_Captains_[ST-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gum-Gum Giant Sumo Slap",
@@ -460,7 +572,14 @@
     ],
     "expansionCode": "ST10",
     "imageId": "ST10-015",
-    "id": "ST10-015_The_Three_Captains_[ST-10]"
+    "id": "ST10-015_The_Three_Captains_[ST-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gum-Gum Kong Gatling",
@@ -486,7 +605,14 @@
     ],
     "expansionCode": "ST10",
     "imageId": "ST10-016",
-    "id": "ST10-016_The_Three_Captains_[ST-10]"
+    "id": "ST10-016_The_Three_Captains_[ST-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Punk Vise",
@@ -512,6 +638,13 @@
     ],
     "expansionCode": "ST10",
     "imageId": "ST10-017",
-    "id": "ST10-017_The_Three_Captains_[ST-10]"
+    "id": "ST10-017_The_Three_Captains_[ST-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   }
 ]

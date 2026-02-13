@@ -24,7 +24,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-060_p3",
-    "id": "OP05-060_p3_Purple_MonkeyDLuffy_[ST-18]"
+    "id": "OP05-060_p3_Purple_MonkeyDLuffy_[ST-18]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Uso-Hachi",
@@ -51,7 +58,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-061_r1",
-    "id": "OP05-061_r1_Purple_MonkeyDLuffy_[ST-18]"
+    "id": "OP05-061_r1_Purple_MonkeyDLuffy_[ST-18]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "O-Robi",
@@ -77,6 +91,13 @@
     "id": "OP05-063_r1_Purple_MonkeyDLuffy_[ST-18]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -105,7 +126,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-066_r1",
-    "id": "OP05-066_r1_Purple_MonkeyDLuffy_[ST-18]"
+    "id": "OP05-066_r1_Purple_MonkeyDLuffy_[ST-18]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Zoro-Juurou",
@@ -131,7 +159,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-067_r1",
-    "id": "OP05-067_r1_Purple_MonkeyDLuffy_[ST-18]"
+    "id": "OP05-067_r1_Purple_MonkeyDLuffy_[ST-18]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Chopa-Emon",
@@ -158,6 +193,13 @@
     "id": "OP05-068_r1_Purple_MonkeyDLuffy_[ST-18]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -185,7 +227,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-070_r1",
-    "id": "OP05-070_r1_Purple_MonkeyDLuffy_[ST-18]"
+    "id": "OP05-070_r1_Purple_MonkeyDLuffy_[ST-18]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Hone-Kichi",
@@ -211,6 +260,13 @@
     "id": "OP05-072_r1_Purple_MonkeyDLuffy_[ST-18]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -237,7 +293,14 @@
     ],
     "expansionCode": "OP05",
     "imageId": "OP05-076_p1",
-    "id": "OP05-076_p1_Purple_MonkeyDLuffy_[ST-18]"
+    "id": "OP05-076_p1_Purple_MonkeyDLuffy_[ST-18]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -261,7 +324,14 @@
     "cost": 10,
     "expansionCode": "P",
     "imageId": "P-041_r1",
-    "id": "P-041_r1_Purple_MonkeyDLuffy_[ST-18]"
+    "id": "P-041_r1_Purple_MonkeyDLuffy_[ST-18]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Uso-Hachi",
@@ -287,6 +357,13 @@
     "id": "ST18-001_Purple_MonkeyDLuffy_[ST-18]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -314,7 +391,14 @@
     ],
     "expansionCode": "ST18",
     "imageId": "ST18-002",
-    "id": "ST18-002_Purple_MonkeyDLuffy_[ST-18]"
+    "id": "ST18-002_Purple_MonkeyDLuffy_[ST-18]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "San-Gorou",
@@ -341,7 +425,14 @@
     ],
     "expansionCode": "ST18",
     "imageId": "ST18-003",
-    "id": "ST18-003_Purple_MonkeyDLuffy_[ST-18]"
+    "id": "ST18-003_Purple_MonkeyDLuffy_[ST-18]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Zoro-Juurou",
@@ -367,6 +458,13 @@
     "id": "ST18-004_Purple_MonkeyDLuffy_[ST-18]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -393,6 +491,13 @@
     "id": "ST18-005_Purple_MonkeyDLuffy_[ST-18]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   }
 ]

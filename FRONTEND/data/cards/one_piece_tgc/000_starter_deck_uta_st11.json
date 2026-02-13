@@ -21,7 +21,14 @@
     "cost": 3,
     "expansionCode": "OP02",
     "imageId": "OP02-028_p1",
-    "id": "OP02-028_p1_Uta_[ST-11]"
+    "id": "OP02-028_p1_Uta_[ST-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Jinbe",
@@ -46,7 +53,14 @@
     "cost": 2,
     "expansionCode": "OP02",
     "imageId": "OP02-033_p1",
-    "id": "OP02-033_p1_Uta_[ST-11]"
+    "id": "OP02-033_p1_Uta_[ST-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Tony Tony.Chopper",
@@ -75,7 +89,14 @@
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-034_p1",
-    "id": "OP02-034_p1_Uta_[ST-11]"
+    "id": "OP02-034_p1_Uta_[ST-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Trafalgar Law",
@@ -103,7 +124,14 @@
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-035_p2",
-    "id": "OP02-035_p2_Uta_[ST-11]"
+    "id": "OP02-035_p2_Uta_[ST-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Nico Robin",
@@ -130,6 +158,13 @@
     "id": "OP02-037_p1_Uta_[ST-11]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -154,7 +189,14 @@
     "cost": 5,
     "expansionCode": "OP02",
     "imageId": "OP02-039_p1",
-    "id": "OP02-039_p1_Uta_[ST-11]"
+    "id": "OP02-039_p1_Uta_[ST-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Brook",
@@ -181,6 +223,13 @@
     "id": "OP02-040_p1_Uta_[ST-11]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -210,7 +259,14 @@
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-041_p2",
-    "id": "OP02-041_p2_Uta_[ST-11]"
+    "id": "OP02-041_p2_Uta_[ST-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -235,7 +291,14 @@
     "cost": 4,
     "expansionCode": "OP02",
     "imageId": "OP02-043_p1",
-    "id": "OP02-043_p1_Uta_[ST-11]"
+    "id": "OP02-043_p1_Uta_[ST-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Three Sword Style Oni Giri",
@@ -263,7 +326,14 @@
     ],
     "expansionCode": "OP02",
     "imageId": "OP02-045_p1",
-    "id": "OP02-045_p1_Uta_[ST-11]"
+    "id": "OP02-045_p1_Uta_[ST-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Uta",
@@ -291,7 +361,14 @@
     ],
     "expansionCode": "ST11",
     "imageId": "ST11-001",
-    "id": "ST11-001_Uta_[ST-11]"
+    "id": "ST11-001_Uta_[ST-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Uta",
@@ -319,7 +396,14 @@
     ],
     "expansionCode": "ST11",
     "imageId": "ST11-002",
-    "id": "ST11-002_Uta_[ST-11]"
+    "id": "ST11-002_Uta_[ST-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Backlight",
@@ -346,7 +430,14 @@
     ],
     "expansionCode": "ST11",
     "imageId": "ST11-003",
-    "id": "ST11-003_Uta_[ST-11]"
+    "id": "ST11-003_Uta_[ST-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "New Genesis",
@@ -373,7 +464,14 @@
     ],
     "expansionCode": "ST11",
     "imageId": "ST11-004",
-    "id": "ST11-004_Uta_[ST-11]"
+    "id": "ST11-004_Uta_[ST-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "I'm invincible",
@@ -400,6 +498,13 @@
     ],
     "expansionCode": "ST11",
     "imageId": "ST11-005",
-    "id": "ST11-005_Uta_[ST-11]"
+    "id": "ST11-005_Uta_[ST-11]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   }
 ]

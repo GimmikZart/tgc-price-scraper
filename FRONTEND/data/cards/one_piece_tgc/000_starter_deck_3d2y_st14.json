@@ -23,7 +23,14 @@
     ],
     "expansionCode": "ST14",
     "imageId": "ST14-001",
-    "id": "ST14-001_3D2Y_[ST-14]"
+    "id": "ST14-001_3D2Y_[ST-14]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Usopp",
@@ -50,7 +57,14 @@
     ],
     "expansionCode": "ST14",
     "imageId": "ST14-002",
-    "id": "ST14-002_3D2Y_[ST-14]"
+    "id": "ST14-002_3D2Y_[ST-14]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Sanji",
@@ -76,6 +90,13 @@
     "id": "ST14-003_3D2Y_[ST-14]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   },
   {
@@ -104,7 +125,14 @@
     ],
     "expansionCode": "ST14",
     "imageId": "ST14-004",
-    "id": "ST14-004_3D2Y_[ST-14]"
+    "id": "ST14-004_3D2Y_[ST-14]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Tony Tony.Chopper",
@@ -128,7 +156,14 @@
     "cost": 4,
     "expansionCode": "ST14",
     "imageId": "ST14-005",
-    "id": "ST14-005_3D2Y_[ST-14]"
+    "id": "ST14-005_3D2Y_[ST-14]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Nami",
@@ -155,7 +190,14 @@
     ],
     "expansionCode": "ST14",
     "imageId": "ST14-006",
-    "id": "ST14-006_3D2Y_[ST-14]"
+    "id": "ST14-006_3D2Y_[ST-14]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Nico Robin",
@@ -182,7 +224,14 @@
     ],
     "expansionCode": "ST14",
     "imageId": "ST14-007",
-    "id": "ST14-007_3D2Y_[ST-14]"
+    "id": "ST14-007_3D2Y_[ST-14]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Haredas",
@@ -208,7 +257,14 @@
     ],
     "expansionCode": "ST14",
     "imageId": "ST14-008",
-    "id": "ST14-008_3D2Y_[ST-14]"
+    "id": "ST14-008_3D2Y_[ST-14]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Franky",
@@ -235,7 +291,14 @@
     ],
     "expansionCode": "ST14",
     "imageId": "ST14-009",
-    "id": "ST14-009_3D2Y_[ST-14]"
+    "id": "ST14-009_3D2Y_[ST-14]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Brook",
@@ -258,7 +321,14 @@
     "cost": 5,
     "expansionCode": "ST14",
     "imageId": "ST14-010",
-    "id": "ST14-010_3D2Y_[ST-14]"
+    "id": "ST14-010_3D2Y_[ST-14]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Heracles",
@@ -284,7 +354,14 @@
     ],
     "expansionCode": "ST14",
     "imageId": "ST14-011",
-    "id": "ST14-011_3D2Y_[ST-14]"
+    "id": "ST14-011_3D2Y_[ST-14]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Monkey.D.Luffy",
@@ -310,7 +387,14 @@
     ],
     "expansionCode": "ST14",
     "imageId": "ST14-012",
-    "id": "ST14-012_3D2Y_[ST-14]"
+    "id": "ST14-012_3D2Y_[ST-14]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Roronoa Zoro",
@@ -333,7 +417,14 @@
     "cost": 6,
     "expansionCode": "ST14",
     "imageId": "ST14-013",
-    "id": "ST14-013_3D2Y_[ST-14]"
+    "id": "ST14-013_3D2Y_[ST-14]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gum-Gum Giant Rifle",
@@ -359,7 +450,14 @@
     ],
     "expansionCode": "ST14",
     "imageId": "ST14-014",
-    "id": "ST14-014_3D2Y_[ST-14]"
+    "id": "ST14-014_3D2Y_[ST-14]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Gum-Gum Diable Three-Swords Style Mouten Jet Six Hundred Pound Phoenix Cannon",
@@ -385,7 +483,14 @@
     ],
     "expansionCode": "ST14",
     "imageId": "ST14-015",
-    "id": "ST14-015_3D2Y_[ST-14]"
+    "id": "ST14-015_3D2Y_[ST-14]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "I Have My Crew!!",
@@ -411,7 +516,14 @@
     ],
     "expansionCode": "ST14",
     "imageId": "ST14-016",
-    "id": "ST14-016_3D2Y_[ST-14]"
+    "id": "ST14-016_3D2Y_[ST-14]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
+    ]
   },
   {
     "name": "Thousand Sunny",
@@ -437,6 +549,13 @@
     "id": "ST14-017_3D2Y_[ST-14]",
     "abilityKeywords": [
       "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "",
+        "verified": false
+      }
     ]
   }
 ]

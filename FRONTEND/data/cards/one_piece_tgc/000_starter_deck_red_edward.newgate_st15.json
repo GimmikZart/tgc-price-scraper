@@ -28,8 +28,8 @@
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "",
-        "verified": false
+        "url": "https://www.cardtrader.com/en/cards/edward-newgate-op-02-paramount-war",
+        "verified": true
       }
     ]
   },
@@ -62,8 +62,8 @@
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "",
-        "verified": false
+        "url": "https://www.cardtrader.com/en/cards/jozu-op-02-paramount-war",
+        "verified": true
       }
     ]
   },
@@ -96,8 +96,8 @@
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "",
-        "verified": false
+        "url": "https://www.cardtrader.com/en/cards/marco-op-02-paramount-war",
+        "verified": true
       }
     ]
   },
@@ -130,8 +130,8 @@
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "",
-        "verified": false
+        "url": "https://www.cardtrader.com/en/cards/rakuyo-op-02-paramount-war",
+        "verified": true
       }
     ]
   },
@@ -164,8 +164,8 @@
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "",
-        "verified": false
+        "url": "https://www.cardtrader.com/en/cards/you-may-be-a-fool-but-i-still-love-you-op-02-paramount-war",
+        "verified": true
       }
     ]
   },
@@ -198,8 +198,8 @@
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "",
-        "verified": false
+        "url": "https://www.cardtrader.com/en/cards/izo-op-03-pillars-of-strength",
+        "verified": true
       }
     ]
   },
@@ -228,8 +228,8 @@
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "",
-        "verified": false
+        "url": "https://www.cardtrader.com/en/cards/speed-jil-op-03-pillars-of-strength",
+        "verified": true
       }
     ]
   },
@@ -259,8 +259,8 @@
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "",
-        "verified": false
+        "url": "https://www.cardtrader.com/en/cards/namule-op-03-pillars-of-strength",
+        "verified": true
       }
     ]
   },
@@ -293,8 +293,8 @@
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "",
-        "verified": false
+        "url": "https://www.cardtrader.com/en/cards/haruta-op-03-pillars-of-strength",
+        "verified": true
       }
     ]
   },
@@ -326,8 +326,8 @@
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "",
-        "verified": false
+        "url": "https://www.cardtrader.com/en/cards/fossa-op-03-pillars-of-strength",
+        "verified": true
       }
     ]
   },
@@ -359,8 +359,8 @@
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "",
-        "verified": false
+        "url": "https://www.cardtrader.com/en/cards/atmos-st-15-starter-deck-edward-newgate",
+        "verified": true
       }
     ]
   },
@@ -394,8 +394,8 @@
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "",
-        "verified": false
+        "url": "https://www.cardtrader.com/en/cards/edward-newgate-st-15-starter-deck-edward-newgate",
+        "verified": true
       }
     ]
   },
@@ -428,8 +428,8 @@
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "",
-        "verified": false
+        "url": "https://www.cardtrader.com/en/cards/kingdew-st-15-starter-deck-edward-newgate",
+        "verified": true
       }
     ]
   },
@@ -461,8 +461,8 @@
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "",
-        "verified": false
+        "url": "https://www.cardtrader.com/en/cards/thatch-st-15-starter-deck-edward-newgate",
+        "verified": true
       }
     ]
   },
@@ -495,8 +495,8 @@
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "",
-        "verified": false
+        "url": "https://www.cardtrader.com/en/cards/portgas-d-ace-st-15-starter-deck-edward-newgate",
+        "verified": true
       }
     ]
   }

@@ -54,17 +54,19 @@ definePageMeta({
         </div>
 
         <div class="relative z-10 mx-auto flex h-full w-full max-w-md flex-col px-6">
-            <div class="flex h-[35%] items-start justify-center pt-10">
-                <img
-                    src="/assets/images/deckspedia_logo_titolo.png"
-                    alt="Deckspedia"
-                    class="h-60 w-60 object-contain drop-shadow-[0_12px_24px_rgba(0,0,0,0.35)]"
-                />
+            <div class="flex h-[33%] items-start justify-center pt-6">
+                <div class="relative flex h-60 w-60 items-center justify-center">
+                    <div class="logo-spotlight pointer-events-none"></div>
+                    <img
+                        src="/assets/images/deckspedia_logo_titolo.png"
+                        alt="Deckspedia"
+                        class="relative h-60 w-60 object-contain drop-shadow-[0_12px_24px_rgba(0,0,0,0.35)]"
+                    />
+                </div>
             </div>
 
             <div class="flex-1 pb-6">
-                <h1 class="text-5xl font-bold leading-none text-[#f2f2f2]">Login</h1>
-                <div class="mt-2 h-[4px] w-50 rounded-full bg-[#ff7a3d]"></div>
+                <h1 class="text-4xl font-bold leading-none text-[#f2f2f2]">Login</h1>
 
                 <div v-if="errorMessages.length" class="mt-4 rounded-xl border border-red-500/40 bg-red-500/15 px-3 py-2 text-sm text-red-200">
                     <p v-for="(error, index) in errorMessages" :key="index" class="last:mb-0 mb-1">
@@ -72,7 +74,7 @@ definePageMeta({
                     </p>
                 </div>
 
-                <form class="mt-6 space-y-4" @submit.prevent="signIn">
+                <form class="mt-10 space-y-4" @submit.prevent="signIn">
                     <div>
                         <label class="text-lg font-semibold text-[#ececec]">Email</label>
                         <div class="mt-1 flex items-center gap-2 text-[#9a9a9a]">
@@ -123,3 +125,57 @@ definePageMeta({
         </div>
     </section>
 </template>
+
+<style scoped>
+.logo-spotlight{
+    position: absolute;
+    height: 18rem;
+    width: 18rem;
+    border-radius: 9999px;
+    background:
+        linear-gradient(180deg, rgba(255,212,160,0.08) 0%, rgba(255,201,142,0.18) 38%, rgba(255,187,121,0.44) 74%, rgba(255,174,100,0.74) 100%),
+        radial-gradient(circle at 50% 84%, rgba(255,220,172,0.82) 0%, rgba(255,198,136,0.5) 42%, rgba(255,174,112,0) 78%);
+    mix-blend-mode: screen;
+    filter: blur(5px);
+    animation: logo-spot-move 5.8s ease-in-out infinite alternate, logo-spot-pulse 4.8s ease-in-out infinite;
+}
+
+.logo-spotlight::after{
+    content: '';
+    position: absolute;
+    inset: 18%;
+    border-radius: 9999px;
+    background: radial-gradient(circle at 52% 86%, rgba(255,209,153,0.78) 0%, rgba(255,209,153,0) 72%);
+    filter: blur(6px);
+    animation: logo-core-drift 6.8s ease-in-out infinite;
+}
+
+@keyframes logo-spot-move{
+    0%{
+        transform: translate(-5px, -2px) scale(0.99);
+    }
+    100%{
+        transform: translate(6px, 4px) scale(1.03);
+    }
+}
+
+@keyframes logo-spot-pulse{
+    0%, 100%{
+        opacity: 0.8;
+    }
+    50%{
+        opacity: 0.92;
+    }
+}
+
+@keyframes logo-core-drift{
+    0%, 100%{
+        transform: translate(-3px, 1px) scale(0.96);
+        opacity: 0.66;
+    }
+    50%{
+        transform: translate(4px, -2px) scale(1.04);
+        opacity: 0.83;
+    }
+}
+</style>

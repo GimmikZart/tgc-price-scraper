@@ -56,9 +56,9 @@ definePageMeta({
         <div class="relative z-10 mx-auto flex h-full w-full max-w-md flex-col px-6">
             <div class="flex h-[35%] items-start justify-center pt-10">
                 <img
-                    src="/assets/images/deckspedia_logo.png"
+                    src="/assets/images/deckspedia_logo_titolo.png"
                     alt="Deckspedia"
-                    class="h-44 w-44 object-contain drop-shadow-[0_12px_24px_rgba(0,0,0,0.35)]"
+                    class="h-60 w-60 object-contain drop-shadow-[0_12px_24px_rgba(0,0,0,0.35)]"
                 />
             </div>
 

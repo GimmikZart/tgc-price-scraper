@@ -2,6 +2,15 @@
 export default defineNuxtConfig({
   compatibilityDate: "2025-11-01",
   devtools: { enabled: true },
+  app: {
+    head: {
+      link: [
+        { rel: "icon", type: "image/x-icon", href: "/assets/icons/favicon.ico" },
+        { rel: "icon", type: "image/svg+xml", href: "/assets/icons/favicon.svg" },
+        { rel: "apple-touch-icon", sizes: "180x180", href: "/assets/icons/apple-touch-icon.png" },
+      ],
+    },
+  },
   runtimeConfig: {
     supabaseUrl: process.env.SUPABASE_URL,
     supabaseServiceRoleKey: process.env.SUPABASE_SERVICE_ROLE_KEY,
@@ -37,18 +46,18 @@ export default defineNuxtConfig({
       start_url: "/",
       icons: [
         {
-          src: "assets/icons/dkp-192x192.png",
+          src: "/assets/icons/dkp-192x192.png",
           sizes: "192x192",
           type: "image/png",
         },
         {
-          src: "assets/icons/dkp-512x512.png",
+          src: "/assets/icons/dkp-512x512.png",
           sizes: "512x512",
           type: "image/png",
         },
         {
-          src: "assets/icons/dkp-1024x1024.png",
-          sizes: "1024x1024",
+          src: "/assets/icons/apple-touch-icon.png",
+          sizes: "180x180",
           type: "image/png",
         },
       ],

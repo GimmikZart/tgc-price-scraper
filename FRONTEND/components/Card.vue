@@ -1,6 +1,5 @@
 <script setup>
-import { Icon } from "@iconify/vue";
-import { ref, computed } from "vue";
+import { ref, computed, toRefs } from "vue";
 import { getShortSetName } from "@/utilities/cardsFieldsParser";
 
 const props = defineProps({
@@ -13,15 +12,19 @@ const props = defineProps({
   showPrice: { type: Boolean, default: false },
 });
 const emit = defineEmits(["remove-card", "add-card", "choose-card", "open"]);
+const { card, chooseCard, handleCards, disableOpening, cardCount, showCount, showPrice } = toRefs(props);
 const isLoaded = ref(false);
 
 const cardClass = computed(() => ({
-  "border-[1px] border-white/30 rounded-lg": props.handleCards || !isLoaded.value,
-  "relative": props.showCount || props.showPrice
+  "border-[1px] border-white/30 rounded-lg": handleCards.value || !isLoaded.value,
+  "relative": showCount.value || showPrice.value
 }));
 
-function onLoad() { isLoaded.value = true; }
-function openCard() { if (!props.disableOpening) emit("open", props.card); }
+const shortSetName = computed(() => getShortSetName(card.value?.setName));
+const cardUrl = computed(() => (card.value?.price ? card.value?.slugs?.[0]?.url ?? null : null));
+
+function onLoad() { if (!isLoaded.value) isLoaded.value = true; }
+function openCard() { if (!disableOpening.value) emit("open", card.value); }
 </script>
 
 <template>
@@ -40,23 +43,25 @@ function openCard() { if (!props.disableOpening) emit("open", props.card); }
     </div>
 
     <!-- Immagine -->
-    <div class="relative flex flex-col justify-end rounded-lg h-full" :class="{'bg-white/20' : showPrice || handleCards}">
+    <div class="relative flex flex-col justify-end rounded-lg h-auto" :class="{'bg-white/20' : showPrice || handleCards}">
       <NuxtImg
         v-show="card.image"
         :src="card.image"
         format="webp"
         loading="lazy"
+        decoding="async"
+        fetchpriority="low"
         class="border shadow-md cursor-zoom-in block w-full"
         :class="{ 'h-[1px]': !isLoaded, 'h-auto': isLoaded }"
         fit="cover"
         :alt="card.name"
         @load="onLoad"
-        @click="openCard()"
+        @click="openCard"
         placeholder
       />
       <div v-if="isLoaded && (showPrice || handleCards)" class="text-xs truncate px-2 py-1">
         <span class="font-bold"> 
-          {{ getShortSetName(card.setName) }} 
+          {{ shortSetName }} 
         </span>
         <span>
           | {{ card.rarity ?? 'Base' }}
@@ -66,7 +71,7 @@ function openCard() { if (!props.disableOpening) emit("open", props.card); }
         </span>
       </div>
       <div v-if="showPrice && isLoaded" class="p-1">
-        <a class="w-full rounded-lg bg-black/70 flex flex-col justify-between gap-1 text-black items-center px-4 py-1 block text-white text-center" :href="card.price ? card.slugs[0].url : null" target="_blank" rel="noopener noreferrer">
+        <a class="w-full rounded-lg bg-black/70 flex flex-col justify-between gap-1 text-black items-center px-4 py-1 block text-white text-center" :href="cardUrl" target="_blank" rel="noopener noreferrer">
           <span class="text-xs">CardTrader</span>
           <div class="w-full text-center font-bold text-xs">{{ card.price ?? '---' }} €</div>
         </a>
@@ -74,14 +79,14 @@ function openCard() { if (!props.disableOpening) emit("open", props.card); }
       
     </div>
     <div
-      v-show="handleCards && isLoaded"
+      v-if="handleCards && isLoaded"
     >
       <div class="flex gap-3 items-center justify-between px-1 py-1">
-        <v-btn variant="tonal" color="white" @click="cardCount >= 1 ? $emit('remove-card') : null">
+        <v-btn variant="tonal" color="white" @click="cardCount >= 1 ? $emit('remove-card', card) : null">
           <v-icon size="25" color="red">mdi-minus</v-icon>
         </v-btn>
         <span class="text-xl">{{ cardCount }}</span>
-        <v-btn variant="tonal" color="white" @click="$emit('add-card')">
+        <v-btn variant="tonal" color="white" @click="$emit('add-card', card)">
           <v-icon size="25" color="green">mdi-plus</v-icon>
         </v-btn>
       </div>
@@ -92,7 +97,7 @@ function openCard() { if (!props.disableOpening) emit("open", props.card); }
       class="bg-gray-500"
       block
       variant="outlined"
-      @click="$emit('choose-card')"
+      @click="$emit('choose-card', card)"
     >
       SCEGLI
     </v-btn>

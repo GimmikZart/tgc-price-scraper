@@ -189,7 +189,7 @@ definePageMeta({ middleware: "auth" });
         class="w-full relative flex items-end pa-1 bg-black aspect-[5/7] border-[1px] border-white/20"
       >
         <template v-if="slot.card">
-          <Card :key="slot.id" :card="slot.card" :class="qFocus === slot.index ? 'slide-in-slot' : ''" @open="openViewer(slot.card)" class="w-full h-auto z-[1]" />
+          <Card :key="slot.id" :card="slot.card" :class="qFocus === slot.index ? 'slide-in-slot' : ''" @open="openViewer" class="w-full h-auto z-[1]" />
           <div
             v-if="gs.albumIsHandling"
             :class="{'remove-button-appear' : qFocus === slot.index}"

@@ -141,9 +141,9 @@ onMounted(async () => {
           :handle-cards="collectionIsHandling"
           :card-count="item.count"
           :show-price="showPrice"
-          @addCard="addCardInCollection(item)"
-          @removeCard="removeCardInCollection(item)"
-          @open="openViewer(item)"
+          @addCard="addCardInCollection"
+          @removeCard="removeCardInCollection"
+          @open="openViewer"
         />
       </template>
     </InfiniteGrid>

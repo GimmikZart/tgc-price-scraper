@@ -200,9 +200,9 @@ onMounted(async () => {
           :card-count="item.count"
           show-count
           :disable-opening="handleAlbum"
-          @addCard="addCardInCollection(item)"
-          @removeCard="removeCardFromCollection(item)"
-          @open="openViewerFromItem(item)"
+          @addCard="addCardInCollection"
+          @removeCard="removeCardFromCollection"
+          @open="openViewerFromItem"
           @click="handleAlbum ? handleInsertAlbum(item) : null"
         />
       </template>

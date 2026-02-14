@@ -101,7 +101,9 @@ function handleFilteredUpdate(newFiltered) {
   filteredCards.value = newFiltered.slice();
 }
 
-function chooseLeader(cardId) {
+function chooseLeader(cardOrId) {
+  const cardId = typeof cardOrId === "object" ? cardOrId?.id : cardOrId;
+  if (!cardId) return;
   filterKey.value++;
   currentDeck.value.leader = cardId;
   const leaderCard = leaderCards.value.find((c) => c.id === cardId);
@@ -234,11 +236,11 @@ provide("actionOnDeck", actionOnDeck);
             :show-price="showPrice"
             :choose-card="!leaderChoosen"
             :handle-cards="leaderChoosen != null"
-            @chooseCard="chooseLeader(item.id)"
-            @addCard="addCardInDeck(item)"
-            @removeCard="removeCardFromDeck(item)"
+            @chooseCard="chooseLeader"
+            @addCard="addCardInDeck"
+            @removeCard="removeCardFromDeck"
             :card-count="getCopyInDeck(item)"
-            @open="openViewerFromItem(item)"
+            @open="openViewerFromItem"
           />
         </template>
       </InfiniteGrid>

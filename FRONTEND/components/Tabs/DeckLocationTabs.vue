@@ -15,6 +15,7 @@ const props = defineProps({
 const emit = defineEmits(["change"]);
 
 const isActive = (value) => value === props.active;
+const isCloudTab = (value) => `${value}`.toLowerCase() === "cloud";
 
 const handleClick = (value) => {
   if (value === props.active) return;
@@ -30,9 +31,11 @@ const handleClick = (value) => {
       type="button"
       class="flex min-w-0 flex-1 items-center justify-center gap-2 rounded-xl border px-3 py-2 text-sm font-semibold transition-all duration-200"
       :class="[
-        isActive(tab.value)
-          ? 'border-[#ffb27d]/45 bg-[#ff7a18]/20 text-[#ffd7b3] shadow-[0_0_20px_rgba(255,122,24,0.2),inset_0_1px_0_rgba(255,255,255,0.18)]'
-          : 'border-transparent bg-transparent text-slate-300/80 hover:border-white/10 hover:bg-white/5 hover:text-slate-100',
+        isActive(tab.value) && isCloudTab(tab.value)
+          ? 'border-emerald-300/50 bg-[#14532d] text-emerald-100 shadow-[0_0_18px_rgba(16,185,129,0.22),inset_0_1px_0_rgba(255,255,255,0.16)]'
+          : isActive(tab.value)
+            ? 'border-[#ffb27d]/45 bg-[#ff7a18]/20 text-[#ffd7b3] shadow-[0_0_20px_rgba(255,122,24,0.2),inset_0_1px_0_rgba(255,255,255,0.18)]'
+            : 'border-transparent bg-transparent text-slate-300/80 hover:border-white/10 hover:bg-white/5 hover:text-slate-100',
       ]"
       @click="handleClick(tab.value)"
     >
@@ -41,9 +44,11 @@ const handleClick = (value) => {
       <span
         class="rounded-full border px-2 py-0.5 text-[11px] leading-none"
         :class="[
-          isActive(tab.value)
-            ? 'border-[#ffd4aa]/50 bg-[#ff7a18]/25 text-[#ffe0c2]'
-            : 'border-white/15 bg-white/5 text-slate-300/80',
+          isActive(tab.value) && isCloudTab(tab.value)
+            ? 'border-emerald-200/50 bg-[#166534] text-emerald-100'
+            : isActive(tab.value)
+              ? 'border-[#ffd4aa]/50 bg-[#ff7a18]/25 text-[#ffe0c2]'
+              : 'border-white/15 bg-white/5 text-slate-300/80',
         ]"
       >
         {{ tab.count }}

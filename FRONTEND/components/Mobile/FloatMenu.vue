@@ -65,7 +65,7 @@ watch(
     :style="{ bottom: `${fromBottomCalc}px` }"
   >
     <div
-      class="pointer-events-auto w-full max-w-[520px] rounded-t-3xl border border-white/15 bg-slate-950/70 shadow-[0_22px_48px_rgba(0,0,0,0.6),inset_0_1px_0_rgba(255,255,255,0.16)] backdrop-blur-2xl"
+      class="pointer-events-auto w-full max-w-[520px] rounded-t-3xl border border-white/10 bg-[rgba(12,20,33,0.80)] shadow-[0_20px_44px_rgba(0,0,0,0.58),inset_0_1px_0_rgba(255,255,255,0.1)] backdrop-blur-2xl"
     >
       <div v-if="closeable" class="flex items-center justify-center gap-2 px-3 pb-1 pt-2">
         <slot name="handle" />

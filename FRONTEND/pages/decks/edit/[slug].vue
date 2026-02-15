@@ -328,7 +328,7 @@ provide("actionOnDeck", actionOnDeck);
       </template>
     </MobileFloatMenu>
 
-    <MobileFloatMenu v-else :cols="leaderChoosen != null ? 4 : 2">
+    <MobileFloatMenu v-else :cols="leaderChoosen != null ? 4 : 3">
       <template #buttons>
         <ButtonMenu
           v-if="leaderChoosen"

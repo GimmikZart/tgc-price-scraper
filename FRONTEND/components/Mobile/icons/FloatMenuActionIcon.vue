@@ -26,7 +26,7 @@ const normalize = (value = "") =>
     .replace(/\u2192/g, "->");
 
 const iconAliases = {
-  "fluent:collections-add-24-regular": "manage",
+  "fluent:collections-add-24-regular": "collection-manage",
   "ph:swap": "manage",
   "mdi-check": "done",
   "el:ok": "done",
@@ -35,11 +35,11 @@ const iconAliases = {
   "material-symbols:search-rounded": "filter",
   "material-symbols-light:book-ribbon": "album",
   "fluent:book-add-28-filled": "add",
-  "material-symbols:cards": "cards",
-  "streamline:cards": "cards",
+  "material-symbols:cards": "deck-overview",
+  "streamline:cards": "catalog",
   "ion:stats-chart": "stats",
   "iconoir:wrench": "edit",
-  "fluent:shifts-availability-24-regular": "availability",
+  "fluent:shifts-availability-24-regular": "collection-availability",
   "material-symbols:export-notes-outline": "export",
   "material-symbols:save-rounded": "save",
   "ic:baseline-cloud-done": "cloud-save",
@@ -68,11 +68,11 @@ const labelAliases = {
   prezzi: "price",
   filtra: "filter",
   album: "album",
-  panoramica: "cards",
-  catalogo: "cards",
+  panoramica: "deck-overview",
+  catalogo: "catalog",
   stats: "stats",
   modifica: "edit",
-  disponibilita: "availability",
+  disponibilita: "collection-availability",
   esporta: "export",
   salva: "save",
   "salva nel cloud": "cloud-save",
@@ -123,6 +123,37 @@ const strokeWidth = computed(() => (props.active ? 2.3 : 2));
   </svg>
 
   <svg
+    v-else-if="resolvedIconName === 'collection-manage'"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    aria-hidden="true"
+  >
+    <rect x="4.3" y="6.2" width="9.8" height="12.4" rx="1.8" stroke="currentColor" :stroke-width="strokeWidth" />
+    <rect
+      x="8.1"
+      y="4.2"
+      width="10.2"
+      height="12.2"
+      rx="1.8"
+      stroke="currentColor"
+      :stroke-width="strokeWidth"
+      :fill="active ? 'currentColor' : 'none'"
+      :fill-opacity="active ? 0.1 : 0"
+    />
+    <circle
+      cx="17.8"
+      cy="16.8"
+      r="3.5"
+      stroke="currentColor"
+      :stroke-width="strokeWidth"
+      :fill="active ? 'currentColor' : 'none'"
+      :fill-opacity="active ? 0.14 : 0"
+    />
+    <path d="M17.8 15.2V18.4M16.2 16.8H19.4" stroke="currentColor" :stroke-width="strokeWidth" stroke-linecap="round" />
+  </svg>
+
+  <svg
     v-else-if="resolvedIconName === 'done'"
     viewBox="0 0 24 24"
     fill="none"
@@ -169,6 +200,56 @@ const strokeWidth = computed(() => (props.active ? 2.3 : 2));
   </svg>
 
   <svg
+    v-else-if="resolvedIconName === 'deck-overview'"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    aria-hidden="true"
+  >
+    <rect
+      x="4.3"
+      y="5.2"
+      width="8.8"
+      height="11.4"
+      rx="1.6"
+      stroke="currentColor"
+      :stroke-width="strokeWidth"
+      :fill="active ? 'currentColor' : 'none'"
+      :fill-opacity="active ? 0.08 : 0"
+    />
+    <rect x="6.3" y="8.1" width="4.8" height="1.5" rx="0.7" stroke="currentColor" :stroke-width="strokeWidth" />
+    <rect x="6.3" y="11.1" width="4.8" height="1.5" rx="0.7" stroke="currentColor" :stroke-width="strokeWidth" />
+    <rect x="14.2" y="5.8" width="5.5" height="1.6" rx="0.7" stroke="currentColor" :stroke-width="strokeWidth" />
+    <rect x="14.2" y="9" width="5.5" height="1.6" rx="0.7" stroke="currentColor" :stroke-width="strokeWidth" />
+    <rect x="14.2" y="12.2" width="5.5" height="1.6" rx="0.7" stroke="currentColor" :stroke-width="strokeWidth" />
+    <path d="M5.1 19.4H18.9" stroke="currentColor" :stroke-width="strokeWidth" stroke-linecap="round" />
+  </svg>
+
+  <svg
+    v-else-if="resolvedIconName === 'catalog'"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    aria-hidden="true"
+  >
+    <rect
+      x="4.3"
+      y="4.7"
+      width="15.4"
+      height="14.8"
+      rx="2.2"
+      stroke="currentColor"
+      :stroke-width="strokeWidth"
+      :fill="active ? 'currentColor' : 'none'"
+      :fill-opacity="active ? 0.08 : 0"
+    />
+    <rect x="7" y="7.4" width="3.7" height="3.7" rx="0.9" stroke="currentColor" :stroke-width="strokeWidth" />
+    <rect x="13.3" y="7.4" width="3.7" height="3.7" rx="0.9" stroke="currentColor" :stroke-width="strokeWidth" />
+    <rect x="7" y="13.2" width="3.7" height="3.7" rx="0.9" stroke="currentColor" :stroke-width="strokeWidth" />
+    <rect x="13.3" y="13.2" width="3.7" height="3.7" rx="0.9" stroke="currentColor" :stroke-width="strokeWidth" />
+  </svg>
+
+  <svg
     v-else-if="resolvedIconName === 'cards'"
     viewBox="0 0 24 24"
     fill="none"
@@ -206,15 +287,27 @@ const strokeWidth = computed(() => (props.active ? 2.3 : 2));
   </svg>
 
   <svg
-    v-else-if="resolvedIconName === 'availability'"
+    v-else-if="resolvedIconName === 'collection-availability'"
     viewBox="0 0 24 24"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     aria-hidden="true"
   >
-    <rect x="4.4" y="5.2" width="15.2" height="14.4" rx="2.2" stroke="currentColor" :stroke-width="strokeWidth" :fill="active ? 'currentColor' : 'none'" :fill-opacity="active ? 0.1 : 0" />
-    <path d="M4.5 9.1H19.5M8 3.8V6.6M16 3.8V6.6" stroke="currentColor" :stroke-width="strokeWidth" stroke-linecap="round" />
-    <path d="M8.6 14L10.8 16.2L15.5 11.5" stroke="currentColor" :stroke-width="strokeWidth" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="4.3" y="6.1" width="8.7" height="11.7" rx="1.7" stroke="currentColor" :stroke-width="strokeWidth" />
+    <rect
+      x="7.8"
+      y="4.3"
+      width="8.9"
+      height="11.2"
+      rx="1.7"
+      stroke="currentColor"
+      :stroke-width="strokeWidth"
+      :fill="active ? 'currentColor' : 'none'"
+      :fill-opacity="active ? 0.08 : 0"
+    />
+    <circle cx="16.8" cy="16.8" r="3.2" stroke="currentColor" :stroke-width="strokeWidth" />
+    <path d="M15.4 16.8H18.2" stroke="currentColor" :stroke-width="strokeWidth" stroke-linecap="round" />
+    <path d="M10 10.3H13.9" stroke="currentColor" :stroke-width="strokeWidth" stroke-linecap="round" />
   </svg>
 
   <svg

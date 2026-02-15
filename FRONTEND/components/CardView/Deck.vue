@@ -11,6 +11,7 @@ const props = defineProps({
 const addCardInDeck = inject("addCardInDeck");
 const removeCardFromDeck = inject("removeCardFromDeck");
 const actionOnDeck = inject("actionOnDeck", 'info');
+const availabilityOpen = inject("availabilityOpen", ref(false));
 
 const viewerList = computed(() => props.singleCardsInDeck);
 
@@ -58,25 +59,27 @@ function handleCardCopy(card) {
         <div
           v-for="(card, idx) in category.cards"
           :key="idx"
-          class="relative h-fit w-full"
+          class="h-fit w-full"
           @click="handleCardCopy(card)"
         >
-          <DecksAvailabilityCard :card="card" />
-          <Card
-            v-for="(copy, ydx) in card.count"
-            :key="ydx"
-            :card="card"
-            class="w-full h-full top-0 left-0"
-            :class="{
-              absolute: ydx > 0,
-              'border-[2px] animate-pulse rounded-lg border-red-500': copy > 4,
-            }"
-            :style="`transform: translateY(${ydx * 6}px) translateX(${
-              ydx * 5
-            }px) `"
-            @open="openViewer"
-            :disable-opening="actionOnDeck !== 'info'"
-          />
+          <DecksAvailabilityCard :card="card" :show="availabilityOpen" />
+          <div class="relative w-full">
+            <Card
+              v-for="(copy, ydx) in card.count"
+              :key="ydx"
+              :card="card"
+              class="w-full h-full top-0 left-0"
+              :class="{
+                absolute: ydx > 0,
+                'border-[2px] animate-pulse rounded-lg border-red-500': copy > 4,
+              }"
+              :style="`transform: translateY(${ydx * 6}px) translateX(${
+                ydx * 5
+              }px) `"
+              @open="openViewer"
+              :disable-opening="actionOnDeck !== 'info'"
+            />
+          </div>
         </div>
       </div>
     </div>

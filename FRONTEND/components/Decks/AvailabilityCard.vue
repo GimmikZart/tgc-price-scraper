@@ -5,9 +5,14 @@ const props = defineProps({
     type: Object,
     required: true,
   },
+  show: {
+    type: Boolean,
+    default: null,
+  },
 });
 
 const availabilityOpen = inject("availabilityOpen");
+const shouldShow = computed(() => (props.show ?? availabilityOpen?.value) === true);
 
 const collectionAvailabilityClass = function(count) {
   return {
@@ -17,16 +22,20 @@ const collectionAvailabilityClass = function(count) {
 }
 </script>
 <template>
-  <div v-show="availabilityOpen" class="py-2">
-    <span class="text-xs text-left">{{ card.price ?? '???' }} € </span>
-    <div class="w-full flex justify-start gap-1">
-      <div 
-        v-for="count in card.count" 
+  <div
+    v-show="shouldShow"
+    class="mb-1 pointer-events-none flex flex-col items-start gap-1 leading-none"
+  >
+    <span class="text-xs font-semibold text-white">
+      {{ card.price ?? '???' }} &euro;
+    </span>
+    <div class="flex gap-1">
+      <div
+        v-for="count in card.count"
         :key="count"
         class="rounded-full w-[5px] h-[5px]"
         :class="collectionAvailabilityClass(count)"
-      >
-      </div>
+      ></div>
     </div>
   </div>
 </template>

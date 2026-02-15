@@ -1,12 +1,11 @@
 <script setup lang="ts">
+import { useElementBounding } from "@vueuse/core";
 import { useMyBreakpoints } from "@/composables/useMyBreakpoints";
-import { Icon } from "@iconify/vue";
-import { useElementBounding  } from '@vueuse/core'
 
 const props = defineProps({
-  cols: { 
-    type: Number, 
-    default: 2 
+  cols: {
+    type: Number,
+    default: 2,
   },
   fromBottom: {
     type: Number,
@@ -17,46 +16,44 @@ const props = defineProps({
     default: false,
   },
 });
+
 const { isMobile } = useMyBreakpoints();
 const globalSettings = useGlobalSettings();
 
-const menuOpen = ref(false);
 const floatMenu = ref(null);
+const menuOpen = ref(false);
 const { height } = useElementBounding(floatMenu);
 
-watch(height, ( newHeight ) => {
-  globalSettings.floatMenuHeight = newHeight;
-}, { immediate: true });
+const gridColsMap: Record<number, string> = {
+  1: "grid-cols-1",
+  2: "grid-cols-2",
+  3: "grid-cols-3",
+  4: "grid-cols-4",
+  5: "grid-cols-5",
+  6: "grid-cols-6",
+};
 
 const showMenu = computed(() => {
-  if (props.closeable == true) return menuOpen.value;
+  if (props.closeable) return menuOpen.value;
   return true;
 });
 
 const fromBottomCalc = computed(() => {
   if (props.fromBottom !== null) return props.fromBottom;
-  return globalSettings.navbarHeight - 1; // -1 per il bug grafico che crea uno spazietto sotto al flat menu
+  return globalSettings.navbarHeight - 1;
 });
 
-
-const gridCols = computed(() => {
-  switch (props.cols) {
-    case 1:
-      return ' grid-cols-1 ';
-    case 2:
-      return ' grid-cols-2 ';
-    case 3:
-      return ' grid-cols-3 ';
-    case 4:
-      return ' grid-cols-4 ';
-    case 5:
-      return ' grid-cols-5 ';
-    case 6:
-      return ' grid-cols-6 ';
-    default:
-      return ' grid-cols-2 ';
-  }
+const gridColsClass = computed(() => {
+  return gridColsMap[props.cols] ?? "grid-cols-2";
 });
+
+watch(
+  height,
+  (newHeight) => {
+    globalSettings.floatMenuHeight = newHeight;
+  },
+  { immediate: true },
+);
 </script>
 
 <template>
@@ -64,18 +61,48 @@ const gridCols = computed(() => {
     v-if="isMobile"
     ref="floatMenu"
     id="float-menu"
-    class="fixed left-0 w-full h-auto bg-black border-t-2 border-white/10 rounded-t-2xl px-5 py-1 z-[1000] transform-none" 
-    :style="`bottom:${fromBottomCalc}px`"
-  > 
-    <div v-if="closeable" class="flex justify-center py-1">
-      <slot name="handle"/>
-      <Icon icon="icons8:chevron-up-round" class="text-2xl transition-all" :class="{'rotate-180': menuOpen}" @click="menuOpen = !menuOpen" />
-    </div>
-    <v-expand-transition>
-      <div v-show="showMenu" class="grid gap-2" :class="gridCols">
-        <slot name="buttons" />
+    class="pointer-events-none fixed inset-x-0 z-[1000] flex justify-center px-2"
+    :style="{ bottom: `${fromBottomCalc}px` }"
+  >
+    <div
+      class="pointer-events-auto w-full max-w-[520px] rounded-t-3xl border border-white/15 bg-slate-950/70 shadow-[0_22px_48px_rgba(0,0,0,0.6),inset_0_1px_0_rgba(255,255,255,0.16)] backdrop-blur-2xl"
+    >
+      <div v-if="closeable" class="flex items-center justify-center gap-2 px-3 pb-1 pt-2">
+        <slot name="handle" />
+        <button
+          type="button"
+          class="inline-flex h-6 w-6 items-center justify-center rounded-full text-slate-300/80 transition-colors hover:text-slate-100"
+          :aria-expanded="showMenu"
+          @click="menuOpen = !menuOpen"
+        >
+          <svg
+            viewBox="0 0 12 12"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            class="h-4 w-4 transition-transform duration-200"
+            :class="menuOpen ? 'rotate-180' : ''"
+          >
+            <path
+              d="M2.2 4.5L6 8.1L9.8 4.5"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
       </div>
-    </v-expand-transition>
-    
+
+      <v-expand-transition>
+        <div
+          v-show="showMenu"
+          class="grid gap-2 px-2 pb-2 pt-1"
+          :class="gridColsClass"
+        >
+          <slot name="buttons" />
+        </div>
+      </v-expand-transition>
+    </div>
   </div>
 </template>

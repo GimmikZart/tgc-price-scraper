@@ -25,7 +25,6 @@ const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer
 
 <template>
   <div class="deck-item">
-    <div class="deck-item__chrome" />
     <div class="deck-item__texture" />
     <div class="deck-item__grain" />
 
@@ -34,13 +33,15 @@ const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer
         <Card
           v-if="leaderChoosen"
           :card="leaderChoosen"
-          class="w-[68px] flex-none rounded-md shadow-[0_10px_18px_rgba(0,0,0,0.58)] ring-1 ring-white/25"
+          class="w-[68px] flex-none shadow-[0_15px_20px_rgba(0,0,0,0.58)]"
           @open="openViewer"
         />
         <div
           v-else
-          class="w-[68px] aspect-[2/3] rounded-md border border-white/15 bg-slate-800/70"
-        />
+          class="w-[68px] flex items-center justify-center aspect-[2/3] border border-white/15 bg-slate-800/70"
+        >
+          <v-icon color="white" class="opacity-30" icon="mdi-help-circle-outline"/> <!-- metti l'icona punto interrogativo -->
+        </div>
       </div>
 
       <FullscreenCardViewer
@@ -135,14 +136,6 @@ const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer
     inset 0 1px 0 rgba(255, 255, 255, 0.16);
 }
 
-.deck-item__chrome {
-  pointer-events: none;
-  position: absolute;
-  inset: 3px;
-  border-radius: 20px 0 0 20px;
-  border: 1px solid rgba(255, 255, 255, 0.12);
-}
-
 .deck-item__texture {
   pointer-events: none;
   position: absolute;
@@ -228,10 +221,6 @@ const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer
   .deck-item {
     border-radius: 24px;
     padding: 10px 11px;
-  }
-
-  .deck-item__chrome {
-    border-radius: 23px;
   }
 }
 </style>

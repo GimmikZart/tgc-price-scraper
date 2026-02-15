@@ -37,7 +37,7 @@ function openCard() {
       v-if="!isLoaded"
       type="image"
       color="black"
-      class="image-skeleton w-full overflow-hidden aspect-[63/88] rounded-xl"
+      class="image-skeleton w-full overflow-hidden aspect-[63/88] rounded-lg"
     />
 
     <div
@@ -47,7 +47,7 @@ function openCard() {
       x {{ cardCount }}
     </div>
 
-    <div class="card-shell card-surface relative flex h-auto flex-col justify-end overflow-hidden rounded-xl">
+    <div class="card-shell card-surface relative flex h-auto flex-col justify-end overflow-hidden rounded-lg">
       <NuxtImg
         v-show="card.image"
         :src="card.image"

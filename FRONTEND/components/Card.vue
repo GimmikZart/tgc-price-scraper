@@ -71,7 +71,7 @@ function openCard() {
         <span> | {{ card.rarity ?? "Base" }}</span>
         <span class="font-light"> | {{ card.illustration ?? "Base" }}</span>
       </div>
-      <div v-if="showPrice && isLoaded" class="py-2 px-1">
+      <div v-if="showPrice && isLoaded" class="px-1" :class="handleCards ? 'pt-2' : 'py-2'">
         <a
           class="card-price-link flex w-full flex-col items-center justify-between gap-1 rounded-lg px-4 py-1 text-center text-white"
           :href="cardUrl"
@@ -177,12 +177,7 @@ function openCard() {
 }
 
 .card-price-link {
-  border: 1px solid rgba(255, 176, 113, 0.86);
-}
-
-.card-price-link:hover {
-  border-color: rgba(255, 209, 169, 0.55);
-  transform: translateY(-1px);
+  border: 2px solid rgba(255, 255, 255, 0.14);
 }
 
 .card-counter-wrap {
@@ -237,7 +232,7 @@ function openCard() {
 
 .card-choose-btn {
   border-color: rgba(255, 183, 124, 0.4) !important;
-  color: #ffd8b1 !important;
+  color: white !important;
   background: linear-gradient(120deg, rgba(255, 122, 24, 0.18), rgba(16, 24, 38, 0.84)) !important;
 }
 </style>

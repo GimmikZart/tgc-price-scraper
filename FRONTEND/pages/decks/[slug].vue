@@ -140,7 +140,13 @@ provide("availabilityOpen", availabilityOpen);
         :delay="200"
         label="Panoramica"
       />
-
+      <ButtonMenu
+        @click="exportDeck()"
+        icon="material-symbols:export-notes-outline"
+        transition
+        :delay="200"
+        label="Esporta"
+      />
       <ButtonMenu
         v-show="!statsOpen"
         @click="statsOpen = true"
@@ -148,14 +154,6 @@ provide("availabilityOpen", availabilityOpen);
         transition
         :delay="200"
         label="Stats"
-      />
-      
-      <ButtonMenu
-        @click="goToEditDeck()"
-        icon="iconoir:wrench"
-        transition
-        :delay="100"
-        label="Modifica"
       />
       <!-- <DialogsHandleVisibility
         v-if="!currentDeck.isLocal"
@@ -173,11 +171,11 @@ provide("availabilityOpen", availabilityOpen);
           }"
       />
       <ButtonMenu
-        @click="exportDeck()"
-        icon="material-symbols:export-notes-outline"
+        @click="goToEditDeck()"
+        icon="iconoir:wrench"
         transition
-        :delay="200"
-        label="Esporta"
+        :delay="100"
+        label="Modifica"
       />
     </template>
   </MobileFloatMenu>

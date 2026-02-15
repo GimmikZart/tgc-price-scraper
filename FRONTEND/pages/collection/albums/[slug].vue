@@ -1,5 +1,5 @@
 <script setup>
-import { ref, computed, onMounted, watch, nextTick } from "vue";
+import { ref, computed, onMounted, onBeforeUnmount, watch, nextTick } from "vue";
 import { useRoute } from "vue-router";
 import { getAlbum, removeCardFromAlbum, addPage } from "@/api/album";
 import { Icon } from "@iconify/vue";
@@ -9,13 +9,12 @@ const router = useRouter();
 const gs = useGlobalSettings();
 
 const slug = route.params.slug;
-const paginatedCards = ref([]);
 const { allCards } = await useOnePieceCards();
 
 const editMode = ref(false);
 
 // --- parametri da query
-const itemsPerPage = 10; // deve combaciare con CardViewPagination
+const itemsPerPage = 10;
 const rawPage  = route.query.page ? parseInt(route.query.page) : null;
 const rawFocus = route.query.focus ? parseInt(route.query.focus) : null;
 
@@ -27,12 +26,6 @@ const qPage  = ref(Number.isFinite(rawPage) && rawPage > 0
       : 1)
 );
 const qFocus = ref(Number.isFinite(rawFocus) ? rawFocus : null);
-
-const paginatedCardFormatted = computed(() => {
-  return paginatedCards.value.map((slot) => slot.card).filter((c) => c !== null);
-});
-
-const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer(paginatedCardFormatted);
 
 const { data: album, error, refresh: refreshAlbum, pending } =
   await useAsyncData(`album-${slug}`, () => getAlbum(slug));
@@ -58,9 +51,38 @@ const albumSlotsWithCards = computed(() => {
   return slots;
 });
 
-function handlePaginatedUpdate(newPaginated) {
-  paginatedCards.value = newPaginated;
+const totalPages = computed(() => {
+  return Math.max(1, Math.ceil(albumSlotsWithCards.value.length / itemsPerPage));
+});
+
+watch(
+  totalPages,
+  (maxPage) => {
+    if (qPage.value > maxPage) {
+      qPage.value = maxPage;
+    }
+  },
+  { immediate: true },
+);
+
+const paginatedCards = computed(() => {
+  const start = (qPage.value - 1) * itemsPerPage;
+  return albumSlotsWithCards.value.slice(start, start + itemsPerPage);
+});
+
+const canGoPrevPage = computed(() => qPage.value > 1);
+const canGoNextPage = computed(() => qPage.value < totalPages.value);
+
+function setPage(page) {
+  const nextPage = Math.max(1, Math.min(totalPages.value, page));
+  qPage.value = nextPage;
 }
+
+const paginatedCardFormatted = computed(() => {
+  return paginatedCards.value.map((slot) => slot.card).filter((c) => c !== null);
+});
+
+const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer(paginatedCardFormatted);
 
 async function removeCard(idx) {
   await removeCardFromAlbum(album.value, idx);
@@ -152,12 +174,13 @@ async function addNewPage() {
    - cambia il focus
 */
 watch(
-  () => [paginatedCards.value.length, qFocus.value],
+  () => [qPage.value, qFocus.value],
   () => { scrollToFocusIfPresent(); }
 );
 
 // tentativo extra subito dopo il mount (nel caso arrivi già tutto pronto)
 onMounted(() => {
+  gs.paginationHeight = 0;
   setTimeout(() => { scrollToFocusIfPresent(); }, 0);
   if (qFocus.value != null) {
     setTimeout(() => {
@@ -170,12 +193,16 @@ onMounted(() => {
   }
 });
 
+onBeforeUnmount(() => {
+  gs.paginationHeight = 0;
+});
+
 definePageMeta({ middleware: "auth" });
 </script>
 
 
 <template>
-  <section class="h-full flex flex-col pb-[120px]">
+  <section class="h-full flex flex-col pb-[88px]">
     <Toolbar backButton :label="`${album.name}`">
     </Toolbar>
 
@@ -227,14 +254,7 @@ definePageMeta({ middleware: "auth" });
         ></div>
       </div>
     </v-container>
-    <CardViewPagination
-      :items="albumSlotsWithCards"
-      :itemsPerPage="10"
-      :initial-page="qPage"
-      @update:paginated="handlePaginatedUpdate"
-    />
-
-    <MobileFloatMenu :cols="editMode ? 3 : 2" :fromBottom="gs.navbarHeight + gs.paginationHeight" class="z-30" >
+    <MobileFloatMenu :cols="3" class="z-30">
       <template #buttons>
 
         <template v-if="editMode">
@@ -261,7 +281,7 @@ definePageMeta({ middleware: "auth" });
         <template v-if="!editMode">
           <ButtonMenu
             v-if="!gs.albumIsHandling"
-            icon="ph:swap"
+            icon="fluent:collections-add-24-regular"
             label="Gestisci"
             @click="gs.toggleAlbumHandling()"
           />
@@ -272,6 +292,33 @@ definePageMeta({ middleware: "auth" });
             color="green"
             @click="gs.toggleAlbumHandling()"
           />
+
+          <div class="flex w-full flex-col items-center justify-center gap-1 rounded-2xl px-1 pb-2 pt-2 text-slate-200/85">
+            <span class="text-[10px] uppercase tracking-[0.08em] text-slate-400/90">Pagina</span>
+            <div class="flex h-9 w-full items-center justify-between rounded-xl border border-white/15 bg-white/5 px-1">
+              <button
+                type="button"
+                class="inline-flex h-7 w-7 items-center justify-center rounded-lg transition-colors disabled:opacity-35 disabled:cursor-not-allowed hover:bg-white/10"
+                :disabled="!canGoPrevPage"
+                @click="setPage(qPage - 1)"
+              >
+                <Icon icon="lucide:chevron-left" class="text-base" />
+              </button>
+
+              <span class="text-[12px] font-semibold leading-none tabular-nums">
+                {{ qPage }} / {{ totalPages }}
+              </span>
+
+              <button
+                type="button"
+                class="inline-flex h-7 w-7 items-center justify-center rounded-lg transition-colors disabled:opacity-35 disabled:cursor-not-allowed hover:bg-white/10"
+                :disabled="!canGoNextPage"
+                @click="setPage(qPage + 1)"
+              >
+                <Icon icon="lucide:chevron-right" class="text-base" />
+              </button>
+            </div>
+          </div>
 
           <ButtonMenu
             icon="ic:baseline-settings"

@@ -1,7 +1,9 @@
 <script setup>
 import { useRouter } from "vue-router";
+import { computed, useSlots } from "vue";
 const route = useRoute();
 const router = useRouter();
+const slots = useSlots();
 
 const props = defineProps({
   label: {
@@ -21,33 +23,63 @@ const props = defineProps({
 function goBack() {
   router.back();
 }
+
+const hasInfo = computed(() => Boolean(slots.info));
 </script>
 <template>
   <div
-    class="bg-black px-2 w-full sticky top-0 left-0 z-[10] border-b py-2"
-    :class="vertical ? 'flex-col' : 'flex-row'"
+    class="sticky left-0 top-0 z-[30] w-full px-2 pb-2 pt-2"
   >
-    <div class="flex items-center">
-      <v-btn
-        v-if="backButton"
-        variant="plain"
-        size="small"
-        density="compact"
-        @click="goBack"
-        icon
-        class="h-auto mr-2"
+    <div
+      class="relative overflow-hidden rounded-2xl border border-white/15 bg-slate-950/75 shadow-[0_18px_40px_rgba(0,0,0,0.58),inset_0_1px_0_rgba(255,255,255,0.12)] backdrop-blur-2xl"
+    >
+      <div class="pointer-events-none absolute inset-x-3 top-0 h-px bg-gradient-to-r from-transparent via-white/45 to-transparent" />
+
+      <div
+        class="flex gap-2 p-2"
+        :class="vertical ? 'flex-col items-stretch' : 'items-center'"
       >
-        <v-icon size="30" icon="mdi-chevron-left"></v-icon>
-      </v-btn>
-      <h2 class="font-bold text-lg truncate">{{ label }}</h2>
-      <v-spacer></v-spacer>
-      <div class="flex justify-end items-center gap-3">
-        <slot name="actions" />
+        <div class="flex min-w-0 flex-1 items-center gap-2">
+          <v-btn
+            v-if="backButton"
+            variant="text"
+            size="small"
+            density="comfortable"
+            @click="goBack"
+            icon
+            class="!h-9 !w-9 !min-w-0 rounded-xl border border-white/15 bg-white/[0.03] text-slate-200/85 transition-all duration-200 hover:border-[#ffb27d]/35 hover:bg-[#ff7a18]/15 hover:text-[#ffd1a9]"
+          >
+            <v-icon size="22" icon="mdi-chevron-left"></v-icon>
+          </v-btn>
+
+          <div
+            class="relative min-w-0 flex-1 rounded-xl border border-white/10 bg-white/[0.03] px-3 py-2"
+          >
+            <span class="pointer-events-none absolute inset-y-2 left-0 w-[3px] rounded-r-full bg-[#ff9d52] shadow-[0_0_18px_rgba(255,122,24,0.7)]" />
+            <h2 class="truncate pl-2 text-base font-semibold tracking-wide text-slate-100 md:text-lg">
+              {{ label }}
+            </h2>
+          </div>
+        </div>
+
+        <div
+          class="flex items-center gap-2"
+          :class="vertical ? 'w-full flex-wrap justify-end' : 'shrink-0 justify-end'"
+        >
+          <slot name="actions" />
+        </div>
       </div>
-    </div>
-    <TimedSnackbarList v-if="!route.meta.hideFloatSnackbar" />
-    <div>
-      <slot name="info" />
+
+      <div v-if="!route.meta.hideFloatSnackbar" class="px-2 pb-2">
+        <TimedSnackbarList />
+      </div>
+
+      <div
+        v-if="hasInfo"
+        class="border-t border-white/10 bg-white/[0.03] px-2 pb-2 pt-2"
+      >
+        <slot name="info" />
+      </div>
     </div>
   </div>
 </template>

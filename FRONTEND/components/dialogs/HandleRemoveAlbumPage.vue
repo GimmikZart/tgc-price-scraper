@@ -13,8 +13,6 @@ const bottomDistance = computed(() => {
 });
 
 async function removeLastPage() {
-  console.log('aooo?');
-  
   await removePage(props.album);
   emits("refresh");
 }

@@ -1,7 +1,6 @@
 <script setup>
 import { ref, watch, inject } from "vue";
-import { Icon } from "@iconify/vue";
-import { Visibility, visibilityOptions } from "~/enums/visibility";
+import { visibilityOptions } from "~/enums/visibility";
 
 const emits = defineEmits(["updateVisibility"]);
 
@@ -32,38 +31,35 @@ async function changeVisibility() {
     icon="mdi:show"
     transition
     :delay="100"
-    label="Visibilità"
+    label="Visibilita"
   />
 
-  <v-dialog
+  <DialogsBaseDialog
     v-model="dialog"
     width="90%"
+    :fullscreen="false"
+    card-class="border border-2 border-white"
+    title-class="bg-black text-white font-bold text-2xl"
+    actions-class="pa-3"
     variant="outlined"
     transition="dialog-bottom-transition"
-    style="z-index: 2000"
   >
-    <v-card class="border border-2 border-white">
-      <v-card-title class="bg-black text-white font-bold text-2xl">
-        Modifica Visibilità
-      </v-card-title>
+    <template #title>Modifica Visibilita</template>
 
-      <v-card-text>
-        <v-select
-          v-model="visibilityChoosen"
-          :items="visibilityOptions"
-          item-title="label"
-          item-value="value"
-          label="Visibilità"
-        />
-      </v-card-text>
+    <v-select
+      v-model="visibilityChoosen"
+      :items="visibilityOptions"
+      item-title="label"
+      item-value="value"
+      label="Visibilita"
+    />
 
-      <v-card-actions class="pa-3">
-        <v-spacer />
-        <v-btn variant="outlined" @click="dialog = false">Annulla</v-btn>
-        <v-btn variant="outlined" @click="changeVisibility">
-          Cambia Visibilità
-        </v-btn>
-      </v-card-actions>
-    </v-card>
-  </v-dialog>
+    <template #actions>
+      <v-spacer />
+      <v-btn variant="outlined" @click="dialog = false">Annulla</v-btn>
+      <v-btn variant="outlined" @click="changeVisibility">
+        Cambia Visibilita
+      </v-btn>
+    </template>
+  </DialogsBaseDialog>
 </template>

@@ -1,6 +1,5 @@
 <script setup>
 import { useSnackbar } from '@/stores/useSnackbar'
-import { useDisplay } from 'vuetify'
 import { createSet, updateSet } from '@/api/sets'
 
 const globalDataStore = useGlobalDataStore()
@@ -14,9 +13,11 @@ const emit = defineEmits(['update:modelValue', 'refresh-data'])
 
 const snackbar = useSnackbar()
 
-const { mdAndDown } = useDisplay()
-
 const isLoading = ref(false);
+const dialogModel = computed({
+  get: () => props.modelValue,
+  set: (value) => emit('update:modelValue', value),
+})
 
 const formFields = reactive({
   name: null,
@@ -53,8 +54,11 @@ function resetForm() {
 }
 
 function closeDialog() {
-    resetForm()
-    emit('update:modelValue', false)
+    dialogModel.value = false
+}
+
+function onDialogClosed() {
+  resetForm()
 }
 
 async function updateSetApi() {
@@ -87,68 +91,73 @@ async function createSetApi() {
 </script>
 
 <template>
-  <v-dialog v-model="props.modelValue" max-width="1000" variant="outlined" transition="dialog-bottom-transition" :fullscreen="mdAndDown" style="z-index: 2000">
-    <v-card class="border border-2 border-white">
-      <v-card-title class="bg-black text-white font-bold text-2xl">
-        {{ dialogTitle }}
-      </v-card-title>
-      <v-card-text class="flex flex-col lg:flex-row gap-2 pa-3 lg:pa-8">
-        <div class="grid grid-cols-1 gap-2 grid-rows-5" :class="mdAndDown ? 'w-full' : 'w-2/3'">
-          <v-autocomplete
-            v-model="formFields.game"
-            :items="globalDataStore.games"
-            item-title="name"
-            item-value="id"
-            hide-details
-            label="Gioco"
-            clearable
-          />
+  <DialogsBaseDialog
+    v-model="dialogModel"
+    :title="dialogTitle"
+    card-class="border border-2 border-white"
+    title-class="bg-black text-white font-bold text-2xl"
+    content-class="pa-3 lg:pa-8"
+    actions-class="bg-black"
+    variant="outlined"
+    transition="dialog-bottom-transition"
+    @close="onDialogClosed"
+  >
+    <div class="flex flex-col lg:flex-row gap-2">
+      <div class="grid w-full grid-cols-1 grid-rows-5 gap-2 lg:w-2/3">
+        <v-autocomplete
+          v-model="formFields.game"
+          :items="globalDataStore.games"
+          item-title="name"
+          item-value="id"
+          hide-details
+          label="Gioco"
+          clearable
+        />
+        <v-text-field
+          v-model="formFields.name"
+          hide-details="auto"
+          label="Nome"
+          clearable
+        ></v-text-field>
+        <v-text-field
+          v-model="formFields.code"
+          hide-details="auto"
+          label="Codice"
+          clearable
+        ></v-text-field>
+        <v-text-field
+          v-model="formFields.slug"
+          hide-details="auto"
+          label="Slug"
+          clearable
+        ></v-text-field>
+        <div class="flex gap-2">
+          <v-img
+            v-if="formFields.image_url"
+            height="100%"
+            class="w-[50px] lg:w-[150px]"
+            :src="formFields.image_url"
+            contain
+          ></v-img>
+          <div v-else class="h-full w-[150px] bg-gray-200 flex items-center justify-center">
+              <span class="text-gray-500 text-center">Nessuna immagine</span>
+          </div>
           <v-text-field
-            v-model="formFields.name"
+            v-model="formFields.image_url"
             hide-details="auto"
-            label="Nome"
+            label="Immagine URL"
             clearable
+            class="w-full"
           ></v-text-field>
-          <v-text-field
-            v-model="formFields.code"
-            hide-details="auto"
-            label="Codice"
-            clearable
-          ></v-text-field>
-          <v-text-field
-            v-model="formFields.slug"
-            hide-details="auto"
-            label="Slug"
-            clearable
-          ></v-text-field>
-          <div class="flex gap-2">
-            <v-img
-              v-if="formFields.image_url"
-              height="100%"
-              :width="mdAndDown ? '50px' : '150px'"
-              :src="formFields.image_url"
-              contain
-            ></v-img>
-            <div v-else class="h-full w-[150px] bg-gray-200 flex items-center justify-center">
-                <span class="text-gray-500 text-center">Nessuna immagine</span>
-            </div>
-            <v-text-field
-              v-model="formFields.image_url"
-              hide-details="auto"
-              label="Immagine URL"
-              clearable
-              class="w-full"
-            ></v-text-field>
-          </div>  
-        </div>
-        <v-date-picker v-model="formFields.publish_date" title="Data di uscita" :class="mdAndDown ? 'w-100' : 'w-1/3'"></v-date-picker>
-      </v-card-text> 
-      <v-card-actions class="bg-black">
-        <v-spacer />
-        <v-btn :disabled="isLoading" text="Chiudi" @click="closeDialog" />
-        <v-btn v-if="props.setToEdit" :loading="isLoading" text="Aggiorna Set" @click="updateSetApi()" />
-        <v-btn v-else :loading="isLoading" text="Crea Set" @click="createSetApi()" />
-      </v-card-actions>
-    </v-card>
-  </v-dialog>
+        </div>  
+      </div>
+      <v-date-picker v-model="formFields.publish_date" title="Data di uscita" class="w-full lg:w-1/3"></v-date-picker>
+    </div>
+    <template #actions>
+      <v-spacer />
+      <v-btn :disabled="isLoading" text="Chiudi" @click="closeDialog" />
+      <v-btn v-if="props.setToEdit" :loading="isLoading" text="Aggiorna Set" @click="updateSetApi()" />
+      <v-btn v-else :loading="isLoading" text="Crea Set" @click="createSetApi()" />
+    </template>
+  </DialogsBaseDialog>
 </template>

@@ -96,63 +96,60 @@ async function updateStoreApi() {
         :text="dialogTitle"
         variant="flat"
     ></v-btn>
-    <v-dialog v-model="isActive" max-width="1000">
-        <v-card :title="dialogTitle">
-            <v-card-text class="flex flex-col gap-2">
-                <v-text-field
-                    v-model="formFields.name"
-                    hide-details="auto"
-                    label="Nome"
-                    clearable
-                ></v-text-field>
-                <v-text-field
-                    v-model="formFields.logoUrl"
-                    hide-details="auto"
-                    label="Logo URL"
-                    clearable
-                ></v-text-field>
-                <v-text-field
-                    v-model="formFields.website"
-                    hide-details="auto"
-                    label="Sito Web"
-                    clearable
-                ></v-text-field>
-                <v-text-field
-                    v-model="formFields.regular_price_selector"
-                    hide-details="auto"
-                    label="Selettore Prezzo Regolare"
-                    clearable
-                ></v-text-field>
-                <v-text-field
-                    v-model="formFields.original_price_selector"
-                    hide-details="auto"
-                    label="Selettore Prezzo Originale quando scontato"
-                    clearable
-                ></v-text-field>
-                <v-text-field
-                    v-model="formFields.discounted_price_selector"
-                    hide-details="auto"
-                    label="Selettore Prezzo con sconto applicato"
-                    clearable
-                ></v-text-field>
-                <v-text-field
-                    v-model="formFields.image_selector"
-                    hide-details="auto"
-                    label="Selettore Immagine"
-                    clearable
-                ></v-text-field>
-            </v-card-text>
+    <DialogsBaseDialog
+        v-model="isActive"
+        :title="dialogTitle"
+        :fullscreen="false"
+        content-class="flex flex-col gap-2"
+    >
+        <v-text-field
+            v-model="formFields.name"
+            hide-details="auto"
+            label="Nome"
+            clearable
+        ></v-text-field>
+        <v-text-field
+            v-model="formFields.logoUrl"
+            hide-details="auto"
+            label="Logo URL"
+            clearable
+        ></v-text-field>
+        <v-text-field
+            v-model="formFields.website"
+            hide-details="auto"
+            label="Sito Web"
+            clearable
+        ></v-text-field>
+        <v-text-field
+            v-model="formFields.regular_price_selector"
+            hide-details="auto"
+            label="Selettore Prezzo Regolare"
+            clearable
+        ></v-text-field>
+        <v-text-field
+            v-model="formFields.original_price_selector"
+            hide-details="auto"
+            label="Selettore Prezzo Originale quando scontato"
+            clearable
+        ></v-text-field>
+        <v-text-field
+            v-model="formFields.discounted_price_selector"
+            hide-details="auto"
+            label="Selettore Prezzo con sconto applicato"
+            clearable
+        ></v-text-field>
+        <v-text-field
+            v-model="formFields.image_selector"
+            hide-details="auto"
+            label="Selettore Immagine"
+            clearable
+        ></v-text-field>
 
-            <v-card-actions>
-                <v-spacer></v-spacer>
-
-                <v-btn
-                    text="Close Dialog"
-                    @click="isActive = false"
-                ></v-btn>
-                <v-btn v-if="storeId" :loading="isLoading" text="Aggiorna Store" @click="updateStoreApi()"></v-btn>
-                <v-btn v-else :loading="isLoading" text="Crea Store" @click="createStoreApi()"></v-btn>
-            </v-card-actions>
-        </v-card>
-    </v-dialog>
+        <template #actions>
+            <v-spacer></v-spacer>
+            <v-btn text="Close Dialog" @click="isActive = false"></v-btn>
+            <v-btn v-if="props.storeId" :loading="isLoading" text="Aggiorna Store" @click="updateStoreApi()"></v-btn>
+            <v-btn v-else :loading="isLoading" text="Crea Store" @click="createStoreApi()"></v-btn>
+        </template>
+    </DialogsBaseDialog>
 </template>

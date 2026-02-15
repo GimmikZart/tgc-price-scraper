@@ -22,7 +22,7 @@ const tabOptions = computed(() => [
     count: cloudDecks.value.length,
   },
   {
-    label: "Bozze locali",
+    label: "Bozze",
     value: DeckLocation.BOZZA,
     icon: "mdi:offline",
     count: localDecks.value.length,
@@ -90,7 +90,7 @@ onMounted(async () => {
           class="rounded-2xl border border-dashed border-white/20 bg-white/[0.03] px-4 py-8 text-center text-slate-300/80"
         >
           <p class="text-[11px] uppercase tracking-[0.16em] text-slate-400/80">
-            {{ activeLocation === DeckLocation.BOZZA ? "Bozze locali" : "Cloud" }}
+            {{ activeLocation === DeckLocation.BOZZA ? "Bozze" : "Cloud" }}
           </p>
           <p class="mt-2 text-sm">
             {{ emptyStateLabel }}

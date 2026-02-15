@@ -1,5 +1,5 @@
 <script setup>
-import { reactive, toRefs } from 'vue';
+import { reactive } from 'vue';
 import { useSnackbar } from '@/stores/useSnackbar'
 import { createBrand, updateBrand } from '@/api/brands'
 
@@ -27,6 +27,7 @@ const emit = defineEmits(['refresh-data'])
 const snackbar = useSnackbar()
 
 const isLoading = ref(false);
+const isActive = ref(false);
 
 const dialogTitle = computed(() => {
     return props.brandId ? 'Modifica Brand' : 'Crea Brand';
@@ -67,51 +68,47 @@ async function updateBrandApi() {
 </script>
 
 <template>
-    <v-dialog max-width="1000">
-        <template v-slot:activator="{ props: activatorProps }">
+    <v-btn
+        @click="isActive = true"
+        color="surface-variant"
+        :text="dialogTitle"
+        variant="flat"
+    ></v-btn>
+
+    <DialogsBaseDialog
+        v-model="isActive"
+        :title="dialogTitle"
+        :fullscreen="false"
+        content-class="flex flex-col gap-2"
+    >
+        <v-text-field
+            v-model="formFields.name"
+            hide-details="auto"
+            label="Nome"
+            clearable
+        ></v-text-field>
+        <v-text-field
+            v-model="formFields.logo_url"
+            hide-details="auto"
+            label="Logo URL"
+            clearable
+        ></v-text-field>
+        <v-text-field
+            v-model="formFields.website"
+            hide-details="auto"
+            label="Sito Web"
+            clearable
+        ></v-text-field>
+
+        <template #actions>
+            <v-spacer></v-spacer>
             <v-btn
-                v-bind="activatorProps"
-                color="surface-variant"
-                :text="dialogTitle"
-                variant="flat"
+                :disabled="isLoading"
+                text="Chiudi"
+                @click="isActive = false"
             ></v-btn>
+            <v-btn v-if="props.brandId" :loading="isLoading" text="Aggiorna Brand" @click="updateBrandApi()"></v-btn>
+            <v-btn v-else :loading="isLoading" text="Crea Brand" @click="createBrandApi()"></v-btn>
         </template>
-
-        <template v-slot:default="{ isActive }">
-            <v-card :title="dialogTitle">
-            <v-card-text class="flex flex-col gap-2">
-                <v-text-field
-                    v-model="formFields.name"
-                    hide-details="auto"
-                    label="Nome"
-                    clearable
-                ></v-text-field>
-                <v-text-field
-                    v-model="formFields.logo_url"
-                    hide-details="auto"
-                    label="Logo URL"
-                    clearable
-                ></v-text-field>
-                <v-text-field
-                    v-model="formFields.website"
-                    hide-details="auto"
-                    label="Sito Web"
-                    clearable
-                ></v-text-field>
-            </v-card-text>
-
-            <v-card-actions>
-                <v-spacer></v-spacer>
-
-                <v-btn
-                    :disabled="isLoading"
-                    text="Chiudi"
-                    @click="isActive.value = false"
-                ></v-btn>
-                <v-btn v-if="brandId" :loading="isLoading" text="Aggiorna Brand" @click="updateBrandApi()"></v-btn>
-                <v-btn v-else :loading="isLoading" text="Crea Brand" @click="createBrandApi()"></v-btn>
-            </v-card-actions>
-            </v-card>
-        </template>
-    </v-dialog>
+    </DialogsBaseDialog>
 </template>

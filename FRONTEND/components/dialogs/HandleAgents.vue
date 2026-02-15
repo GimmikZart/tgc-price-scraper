@@ -1,6 +1,5 @@
 <script setup>
 import { useSnackbar } from '@/stores/useSnackbar'
-import { useDisplay } from 'vuetify'
 import { updateProduct, createProduct } from '@/api/products'
 
 const globalDataStore = useGlobalDataStore()
@@ -14,9 +13,11 @@ const emit = defineEmits(['update:modelValue', 'refresh-data'])
 
 const snackbar = useSnackbar()
 
-const { mdAndDown } = useDisplay()
-
 const isLoading = ref(false);
+const dialogModel = computed({
+  get: () => props.modelValue,
+  set: (value) => emit('update:modelValue', value),
+})
 
 const formFields = reactive({
   store: null,
@@ -72,8 +73,11 @@ function resetForm() {
 }
 
 function closeDialog() {
-    resetForm()
-    emit('update:modelValue', false)
+    dialogModel.value = false
+}
+
+function onDialogClosed() {
+  resetForm()
 }
 
 async function updateAgent() {
@@ -108,40 +112,45 @@ async function createAgent() {
 </script>
 
 <template>
-  <v-dialog v-model="props.modelValue" max-width="1000" variant="outlined" transition="dialog-bottom-transition" :fullscreen="mdAndDown" style="z-index: 2000">
-    <v-card class="border border-2 border-white">
-      <v-card-title class="bg-black text-white font-bold text-2xl">
-        {{ dialogTitle }}
-      </v-card-title>
-      <v-card-text class="flex flex-col gap-2 pa-3 lg:pa-8">
-        <v-autocomplete label="Negozio" v-model="formFields.store" :items="globalDataStore.stores" item-title="name" return-object  />
-        <v-autocomplete label="Gioco" v-model="formFields.game" :items="globalDataStore.games" item-title="name" item-value="id"/>
-        <v-autocomplete label="Categoria" v-model="formFields.category" :items="globalDataStore.categories" item-title="name" item-value="id" />
-        <v-autocomplete label="Set" v-model="formFields.set" :items="filteredSets" item-value="id">
-          <template v-slot:chip="{ props, item }">
-              <v-chip v-bind="props">
-                {{ item.props.title.name }} ({{ item.props.title.code }})
-              </v-chip>
-            </template>
-          <template v-slot:item="{ props }">
-            <v-list-item 
-              v-bind="props"
-              :subtitle="props.title.code"
-              :title="props.title.name"
-            />
+  <DialogsBaseDialog
+    v-model="dialogModel"
+    :title="dialogTitle"
+    card-class="border border-2 border-white"
+    title-class="bg-black text-white font-bold text-2xl"
+    content-class="pa-3 lg:pa-8"
+    actions-class="bg-black"
+    variant="outlined"
+    transition="dialog-bottom-transition"
+    @close="onDialogClosed"
+  >
+    <div class="flex flex-col gap-2">
+      <v-autocomplete label="Negozio" v-model="formFields.store" :items="globalDataStore.stores" item-title="name" return-object  />
+      <v-autocomplete label="Gioco" v-model="formFields.game" :items="globalDataStore.games" item-title="name" item-value="id"/>
+      <v-autocomplete label="Categoria" v-model="formFields.category" :items="globalDataStore.categories" item-title="name" item-value="id" />
+      <v-autocomplete label="Set" v-model="formFields.set" :items="filteredSets" item-value="id">
+        <template v-slot:chip="{ props, item }">
+            <v-chip v-bind="props">
+              {{ item.props.title.name }} ({{ item.props.title.code }})
+            </v-chip>
           </template>
-        </v-autocomplete>
-        <v-autocomplete label="Lingua" v-model="formFields.lang" :items="globalDataStore.langs" item-title="name" item-value="id" />
-        <v-autocomplete label="Valuta" v-model="formFields.currency" :items="globalDataStore.currencies" item-title="code" item-value="id" />
-        <v-text-field v-model="formFields.url" label="Link Prodotto" clearable />
-      </v-card-text>
+        <template v-slot:item="{ props }">
+          <v-list-item 
+            v-bind="props"
+            :subtitle="props.title.code"
+            :title="props.title.name"
+          />
+        </template>
+      </v-autocomplete>
+      <v-autocomplete label="Lingua" v-model="formFields.lang" :items="globalDataStore.langs" item-title="name" item-value="id" />
+      <v-autocomplete label="Valuta" v-model="formFields.currency" :items="globalDataStore.currencies" item-title="code" item-value="id" />
+      <v-text-field v-model="formFields.url" label="Link Prodotto" clearable />
+    </div>
 
-      <v-card-actions class="bg-black">
-        <v-spacer />
-        <v-btn :disabled="isLoading" text="Chiudi" @click="closeDialog" />
-        <v-btn v-if="props.agentToEdit" :loading="isLoading" text="Aggiorna Agente" @click="updateAgent" />
-        <v-btn v-else :loading="isLoading" text="Crea Agente" @click="createAgent" />
-      </v-card-actions>
-    </v-card>
-  </v-dialog>
+    <template #actions>
+      <v-spacer />
+      <v-btn :disabled="isLoading" text="Chiudi" @click="closeDialog" />
+      <v-btn v-if="props.agentToEdit" :loading="isLoading" text="Aggiorna Agente" @click="updateAgent" />
+      <v-btn v-else :loading="isLoading" text="Crea Agente" @click="createAgent" />
+    </template>
+  </DialogsBaseDialog>
 </template>

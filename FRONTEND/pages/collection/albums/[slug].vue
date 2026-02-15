@@ -261,8 +261,8 @@ definePageMeta({ middleware: "auth" });
           
           <DialogsHandleRemoveAlbum :album-id="album.id" />
 
-          <DialogsRenameAlbum :album="album" @refresh="refreshAlbum()"/>
-
+          
+          <DialogsHandleRemoveAlbumPage :album="album" @refresh="refreshAlbum()"/>
 
           <ButtonMenu
             icon="mdi:settings-off"
@@ -270,7 +270,7 @@ definePageMeta({ middleware: "auth" });
             @click="editMode = false"
           />
 
-          <DialogsHandleRemoveAlbumPage class="col-start-1" :album="album" @refresh="refreshAlbum()"/>
+          <DialogsRenameAlbum :album="album" @refresh="refreshAlbum()"/>
 
           <ButtonMenu
             icon="streamline-ultimate:card-add-1-bold"
@@ -326,16 +326,6 @@ definePageMeta({ middleware: "auth" });
             @click="editMode = true"
           />
         </template>
-        
-        
-
-        
-
-        
-
-        
-
-        
       </template>
     </MobileFloatMenu>
 

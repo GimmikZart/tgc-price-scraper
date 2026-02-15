@@ -94,10 +94,6 @@ async function createGameApi() {
   <DialogsBaseDialog
     v-model="dialogModel"
     :title="dialogTitle"
-    card-class="border border-2 border-white"
-    title-class="bg-black text-white font-bold text-2xl"
-    content-class="pa-3 lg:pa-8"
-    actions-class="bg-black"
     variant="outlined"
     transition="dialog-bottom-transition"
     @close="onDialogClosed"

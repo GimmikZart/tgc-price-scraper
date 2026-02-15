@@ -56,8 +56,6 @@ async function scrapaCarteOnePiece() {
     <DialogsBaseDialog
       v-model="dialog"
       max-width="600"
-      card-class="border border-2 border-white"
-      title-class="bg-black text-white font-bold text-2xl"
       content-class="space-y-4"
       actions-class="justify-end"
       variant="outlined"

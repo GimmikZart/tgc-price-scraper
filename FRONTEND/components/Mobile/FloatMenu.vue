@@ -61,7 +61,7 @@ watch(
     v-if="isMobile"
     ref="floatMenu"
     id="float-menu"
-    class="pointer-events-none fixed inset-x-0 z-[1000] flex justify-center px-2"
+    class="pointer-events-none fixed inset-x-0 z-[1000] flex justify-center"
     :style="{ bottom: `${fromBottomCalc}px` }"
   >
     <div

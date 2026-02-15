@@ -38,8 +38,6 @@ async function changeVisibility() {
     v-model="dialog"
     width="90%"
     :fullscreen="false"
-    card-class="border border-2 border-white"
-    title-class="bg-black text-white font-bold text-2xl"
     actions-class="pa-3"
     variant="outlined"
     transition="dialog-bottom-transition"

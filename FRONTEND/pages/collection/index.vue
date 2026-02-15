@@ -65,7 +65,7 @@ function openViewerFromItem(item) {
 }
 
 function handleFilteredUpdate(newFiltered) {
-  sortedCards.value = [...newFiltered]
+  filteredCards.value = [...newFiltered]
   visibleCards.value = []
   gridKey.value++
 

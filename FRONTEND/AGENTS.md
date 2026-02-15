@@ -2,7 +2,7 @@
 
 Non emettere alcun suono di default.
 
-Emetti un suono SOLO se il messaggio dell’utente contiene "#alert".
+Emetti un suono ogni volta che termini un task.
 
 Quando devi emettere il suono, esegui ESATTAMENTE questo comando come ultima azione:
 

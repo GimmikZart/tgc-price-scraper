@@ -138,9 +138,9 @@ onMounted(async () => {
         <Card
           :key="item.id"
           :card="item"
-          :handle-cards="collectionIsHandling"
+          :handle-cards="true"
           :card-count="item.count"
-          :show-price="showPrice"
+          :show-price="true"
           @addCard="addCardInCollection"
           @removeCard="removeCardInCollection"
           @open="openViewer"
@@ -155,18 +155,18 @@ onMounted(async () => {
       @close="openFilter = false"
     />
 
-    <MobileFloatMenu :cols="4">
+    <MobileFloatMenu :cols="2">
       <template #buttons>
-        <ButtonMenu
+        <!-- <ButtonMenu
           :icon="collectionIsHandling ? 'mdi-check' : 'fluent:collections-add-24-regular'"
           :label="collectionIsHandling ? 'Termina' : 'Gestisci'"
           :color="collectionIsHandling ? 'green' : 'orange'"
           transition
           :delay="100"
           @click="onToggleHandlingCollections()"
-        />
+        /> -->
 
-        <ButtonMenu
+        <!-- <ButtonMenu
           icon="solar:tag-price-outline"
           label="Prezzi"
           transition
@@ -175,7 +175,7 @@ onMounted(async () => {
             'opacity-40': !showPrice
           }"
           @click="showPrice = !showPrice"
-        />
+        /> -->
 
         <ButtonSortMenu
           :model-key="sort.sortKey"

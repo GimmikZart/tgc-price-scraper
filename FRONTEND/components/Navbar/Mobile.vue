@@ -20,6 +20,7 @@ const route = useRoute();
 const router = useRouter();
 const globalSettings = useGlobalSettings();
 const { height } = useElementBounding(nav);
+const isModeSwitching = ref(false);
 
 const personalNavItems = [
   { to: "/cards", label: "Carte", icon: CardsIcon },
@@ -107,15 +108,22 @@ const selectItem = (item) => {
   visualActiveItemKey.value = item.key;
 };
 
-const toggleMode = () => {
+const toggleMode = async () => {
+  if (isModeSwitching.value) return;
+
   const nextMode = toggleTargetMode.value;
   const nextModeFirstItem = navItemsByMode[nextMode][0];
 
+  isModeSwitching.value = true;
   currentMode.value = nextMode;
   visualActiveItemKey.value = nextModeFirstItem.key;
 
-  if (!isRouteMatch(route.path, nextModeFirstItem)) {
-    router.push(nextModeFirstItem.to);
+  try {
+    if (!isRouteMatch(route.path, nextModeFirstItem)) {
+      await router.push(nextModeFirstItem.to);
+    }
+  } finally {
+    isModeSwitching.value = false;
   }
 };
 
@@ -216,26 +224,38 @@ watch(currentMode, (mode) => {
         <div class="relative flex h-full items-start justify-center">
           <button
             type="button"
-            class="group relative -mt-2 flex h-[66px] w-[66px] flex-col items-center justify-center rounded-full border border-[#ffb27d]/45 bg-slate-950 text-[#ffd1a9] shadow-[0_0_30px_rgba(255,122,24,0.5),0_14px_24px_rgba(0,0,0,0.55)] transition-all duration-200 ease-out hover:scale-[1.03] hover:border-[#ffd0a5]"
+            class="group relative -mt-2 flex h-[66px] w-[66px] flex-col items-center justify-center rounded-full border border-[#ffb27d]/45 bg-slate-950 text-[#ffd1a9] shadow-[0_0_30px_rgba(255,122,24,0.5),0_14px_24px_rgba(0,0,0,0.55)] transition-all duration-200 ease-out hover:scale-[1.03] hover:border-[#ffd0a5] disabled:cursor-wait disabled:opacity-95"
+            :disabled="isModeSwitching"
             @click="toggleMode"
           >
             <span class="pointer-events-none absolute inset-0 rounded-full bg-gradient-to-b from-[#ff9d52]/28 to-[#ff7a18]/10" />
-            <Transition name="center-swap" mode="out-in">
-              <component
-                :is="toggleIcon"
-                :key="`icon-${currentMode}`"
-                active
-                class="relative h-7 w-7"
-              />
-            </Transition>
-            <Transition name="center-swap" mode="out-in">
-              <span
-                :key="`label-${currentMode}`"
-                class="relative mt-0.5 text-[10px] font-semibold uppercase tracking-[0.08em]"
-              >
-                {{ toggleLabel }}
+            <template v-if="isModeSwitching">
+              <span class="relative flex h-7 w-7 items-center justify-center">
+                <span class="h-6 w-6 animate-spin rounded-full border-2 border-[#ffd9b8]/30 border-t-[#ffd9b8]" />
               </span>
-            </Transition>
+              <span class="relative mt-0.5 text-[10px] font-semibold uppercase tracking-[0.08em]">
+                Cambio
+              </span>
+            </template>
+
+            <template v-else>
+              <Transition name="center-swap" mode="out-in">
+                <component
+                  :is="toggleIcon"
+                  :key="`icon-${currentMode}`"
+                  active
+                  class="relative h-7 w-7"
+                />
+              </Transition>
+              <Transition name="center-swap" mode="out-in">
+                <span
+                  :key="`label-${currentMode}`"
+                  class="relative mt-0.5 text-[10px] font-semibold uppercase tracking-[0.08em]"
+                >
+                  {{ toggleLabel }}
+                </span>
+              </Transition>
+            </template>
           </button>
         </div>
 

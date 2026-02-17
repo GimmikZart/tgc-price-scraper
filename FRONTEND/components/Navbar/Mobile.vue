@@ -12,7 +12,7 @@ import CommunityModeIcon from "@/components/Navbar/icons/CommunityModeIcon.vue";
 
 const PERSONAL_MODE = "personal";
 const COMMUNITY_MODE = "community";
-const PERSONAL_MODE_LABEL = "Tu";
+const PERSONAL_MODE_LABEL = "Io";
 const COMMUNITY_MODE_LABEL = "Community";
 
 const nav = ref(null);

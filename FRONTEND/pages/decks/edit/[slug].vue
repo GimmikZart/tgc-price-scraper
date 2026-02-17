@@ -354,8 +354,8 @@ provide("actionOnDeck", actionOnDeck);
         />
 
         <ButtonSortMenu
-          :model-key="sort.sortKey"
-          :model-dir="sort.sortDir"
+          :model-key="sort.sortKey.value"
+          :model-dir="sort.sortDir.value"
           @change="({ key, dir }) => sort.setSort(key, dir)"
         />
 

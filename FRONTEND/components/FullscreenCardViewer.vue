@@ -15,6 +15,10 @@ watch(() => props.index, (v) => (currentIndex.value = v));
 
 const current = computed(() => props.cards?.[currentIndex.value]);
 const total = computed(() => props.cards?.length ?? 0);
+const currentCardUrl = computed(() => {
+  if (!current.value?.price) return null;
+  return current.value?.slugs?.[0]?.url ?? null;
+});
 
 function close() {
   emit("update:show", false);
@@ -122,15 +126,16 @@ function onTouchEnd(e) {
         </div>
 
         <div class="px-5 pb-2 pt-3 sm:px-7">
-          <a
+          <component
+            :is="currentCardUrl ? 'a' : 'div'"
             class="viewer-price-link block w-full"
-            :href="current.price ? current.slugs[0].url : null"
-            target="_blank"
-            rel="noopener noreferrer"
+            :href="currentCardUrl || undefined"
+            :target="currentCardUrl ? '_blank' : undefined"
+            :rel="currentCardUrl ? 'noopener noreferrer' : undefined"
           >
             <span class="text-[10px] uppercase tracking-[0.08em] text-[#ffd8b1]/88">CardTrader</span>
             <div class="w-full text-center text-sm font-bold">{{ current.price ?? "---" }} EUR</div>
-          </a>
+          </component>
         </div>
 
         <div v-if="current.count" class="viewer-count mt-1">

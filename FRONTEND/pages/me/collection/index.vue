@@ -214,7 +214,7 @@ onMounted(async () => {
         <Card
           :key="item.id"
           :card="item"
-          :show-price="showPrice"
+          :show-price="showPrice || sellMode"
           :handle-cards="collectionIsHandling"
           :choose-card="sellMode && !handleAlbum"
           :card-count="item.count"

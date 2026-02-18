@@ -71,46 +71,20 @@ function openCard() {
         <span> | {{ card.rarity ?? "Base" }}</span>
         <span class="font-light"> | {{ card.illustration ?? "Base" }}</span>
       </div>
-      <div v-if="showPrice && isLoaded" class="px-1" :class="handleCards ? 'pt-2' : 'py-2'">
-        <a
-          class="card-price-link flex w-full flex-col items-center justify-between gap-1 rounded-lg px-4 py-1 text-center text-white"
-          :href="cardUrl"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <span class="text-[10px] uppercase tracking-[0.08em] text-[#ffd4aa]/90">CardTrader</span>
-          <div class="w-full text-center text-xs font-bold">{{ card.price ?? "---" }} €</div>
-        </a>
-      </div>
+      <CardPriceLink
+        v-if="showPrice && isLoaded"
+        :price="card.price"
+        :href="cardUrl"
+        :handle-cards="handleCards"
+      />
     </div>
 
-    <div v-if="handleCards && isLoaded" class="px-1 pb-1 pt-1.5">
-      <div class="card-counter-wrap flex items-center justify-between gap-2 px-1.5 py-1">
-        <v-btn
-          variant="tonal"
-          color="white"
-          class="card-counter-btn card-counter-btn--minus"
-          density="comfortable"
-          size="small"
-          icon
-          @click="cardCount >= 1 ? $emit('remove-card', card) : null"
-        >
-          <v-icon size="16">mdi-minus</v-icon>
-        </v-btn>
-        <span class="card-counter-value text-[14px] font-semibold tabular-nums">{{ cardCount }}</span>
-        <v-btn
-          variant="tonal"
-          color="white"
-          class="card-counter-btn card-counter-btn--plus"
-          density="comfortable"
-          size="small"
-          icon
-          @click="$emit('add-card', card)"
-        >
-          <v-icon size="16">mdi-plus</v-icon>
-        </v-btn>
-      </div>
-    </div>
+    <CardCounter
+      v-if="handleCards && isLoaded"
+      :model-value="cardCount"
+      @decrement="$emit('remove-card', card)"
+      @increment="$emit('add-card', card)"
+    />
 
     <v-btn
       v-if="chooseCard && isLoaded"
@@ -174,60 +148,6 @@ function openCard() {
   box-shadow:
     0 8px 18px rgba(255, 122, 24, 0.80),
     inset 0 1px 0 rgba(255, 255, 255, 0.50);
-}
-
-.card-price-link {
-  border: 2px solid rgba(255, 255, 255, 0.14);
-}
-
-.card-counter-wrap {
-  border: 1px solid rgba(255, 255, 255, 0.14);
-  border-radius: 999px;
-  background: linear-gradient(120deg, rgba(15, 23, 36, 0.86), rgba(10, 15, 25, 0.94));
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.1),
-    0 8px 16px rgba(0, 0, 0, 0.3);
-}
-
-.card-counter-btn {
-  border: 1px solid rgba(255, 255, 255, 0.14) !important;
-  background: rgba(255, 255, 255, 0.04) !important;
-  min-width: 30px !important;
-  width: 30px !important;
-  height: 30px !important;
-  transition: border-color 0.2s ease, background-color 0.2s ease, transform 0.2s ease;
-}
-
-.card-counter-btn:hover {
-  transform: translateY(-1px);
-}
-
-.card-counter-btn--minus {
-  color: rgba(255, 152, 152, 0.95) !important;
-}
-
-.card-counter-btn--minus:hover {
-  border-color: rgba(255, 140, 140, 0.4) !important;
-  background: rgba(255, 80, 80, 0.1) !important;
-}
-
-.card-counter-btn--plus {
-  color: rgba(163, 237, 184, 0.95) !important;
-}
-
-.card-counter-btn--plus:hover {
-  border-color: rgba(122, 224, 159, 0.4) !important;
-  background: rgba(48, 190, 114, 0.12) !important;
-}
-
-.card-counter-value {
-  min-width: 42px;
-  padding: 3px 8px;
-  text-align: center;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 999px;
-  color: rgba(232, 239, 247, 0.96);
-  background: rgba(255, 255, 255, 0.04);
 }
 
 .card-choose-btn {

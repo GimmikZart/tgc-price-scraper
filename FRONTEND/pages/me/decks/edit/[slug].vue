@@ -151,12 +151,12 @@ async function getDeckFromSlug(slug) {
 async function saveCloudDeck() {
   await publish(currentDeck.value);
   snackbar.addMessage("Deck salvato in cloud con successo", "success");
-  router.push(`/decks/${route.params.slug}?location=${DeckLocation.CLOUD}`);
+  router.push(`/me/decks/${route.params.slug}?location=${DeckLocation.CLOUD}`);
 }
 async function saveLocalDeck() {
   await saveLocal(currentDeck.value);
   snackbar.addMessage("Deck salvato in locale con successo", "success");
-  router.push(`/decks/${route.params.slug}?location=${DeckLocation.BOZZA}`);
+  router.push(`/me/decks/${route.params.slug}?location=${DeckLocation.BOZZA}`);
 }
 
 function exportDeck() {

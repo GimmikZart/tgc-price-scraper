@@ -26,7 +26,7 @@ async function onConfirm() {
   try {
     const slug = await createAlbum(albumName.value.trim(), totalSlots.value);
     emits("refresh");
-    if (slug) router.push(`/collection/albums/${slug}`);
+    if (slug) router.push(`/me/collection/albums/${slug}`);
   } catch (error) {
     snackbar.addMessage("Errore durante la creazione", "error", error);
   } finally {

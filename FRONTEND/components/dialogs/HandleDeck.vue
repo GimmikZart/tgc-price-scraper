@@ -40,7 +40,7 @@ async function onConfirm() {
     await saveLocal(newDeck);
 
     // redirect alla pagina di editing
-    router.push(`/decks/edit/${slug}`);
+    router.push(`/me/decks/edit/${slug}`);
   } catch (error) {
     snackbar.addMessage("Errore durante la creazione del mazzo", "error", error);
   } finally {

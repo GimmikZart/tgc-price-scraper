@@ -60,7 +60,7 @@ function setActiveLocation(location) {
 }
 
 function goToDeck(deck, location) {
-  router.push(`/decks/${deck.slug}?location=${location}`);
+  router.push(`/me/decks/${deck.slug}?location=${location}`);
 }
 
 definePageMeta({

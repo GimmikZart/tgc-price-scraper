@@ -31,7 +31,7 @@ async function onConfirm() {
     await saveLocal(deck);
 
     // redirect alla pagina di editing
-    router.push(`/decks/${slug}?location=bozza`);
+    router.push(`/me/decks/${slug}?location=bozza`);
   } catch (error) {
     console.log(error);
     

@@ -31,7 +31,7 @@ const { getLocal, getCloud } = useDeckManager();
 
 
 function goToEditDeck() {
-  router.push(`/decks/edit/${route.params.slug}?location=${deckLocation.value}`);
+  router.push(`/me/decks/edit/${route.params.slug}?location=${deckLocation.value}`);
 }
 
 const singleCardsInDeck = computed(() => {
@@ -102,7 +102,7 @@ onMounted(async () => {
   pageLoader.stopLoading();
   if(leaderChoosen.value === null) {
     snackbar.addMessage("Mazzo non trovato", "error");
-    router.push(`/decks/edit/${currentDeck.value.slug}?location=${deckLocation.value}`);
+    router.push(`/me/decks/edit/${currentDeck.value.slug}?location=${deckLocation.value}`);
   }
   await setCardsInCollectionCounts();
 });

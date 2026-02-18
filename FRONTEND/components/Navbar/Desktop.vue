@@ -27,7 +27,7 @@ async function scrapaMaledetto() {
     <v-list nav>
       <v-list-item v-if="userAuth.isAdmin" title="Admin" to="/admin" />
       <v-list-item title="Prodotti" to="/" />
-      <v-list-item title="Lista Carte" to="/cards" />
+      <v-list-item title="Lista Carte" to="/me/cards" />
       <v-spacer></v-spacer>
     </v-list>
     <div class="absolute bottom-0 w-full flex flex-col gap-3 p-3">

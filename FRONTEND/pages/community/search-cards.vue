@@ -28,7 +28,7 @@ definePageMeta({
           class="mt-4"
           color="orange"
           variant="tonal"
-          @click="router.push('/cards')"
+          @click="router.push('/me/cards')"
         >
           Vai alla lista carte
         </v-btn>

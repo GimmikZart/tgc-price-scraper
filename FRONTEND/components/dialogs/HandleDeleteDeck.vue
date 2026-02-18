@@ -17,7 +17,7 @@ async function deleteDeck() {
   await deckManager.deleteDeck(props.slug, deckLocation.value);
   emits("refresh");
   snackbar.addMessage("Deck eliminato con successo", "success");
-  router.push("/decks");
+  router.push("/me/decks");
 }
 </script>
 

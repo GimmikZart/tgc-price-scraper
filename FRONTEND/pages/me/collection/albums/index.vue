@@ -23,7 +23,7 @@ definePageMeta({
         <ButtonAlbum
           v-for="album in albums"
           :key="album.slug"
-          :to="`/collection/albums/${album.slug}`"
+          :to="`/me/collection/albums/${album.slug}`"
           :label="album.name"
         />
       </div>

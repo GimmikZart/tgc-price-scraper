@@ -69,7 +69,7 @@ onMounted(() => {
 });
 
 function goToDeck(deck) {
-  router.push(`/decks/${deck.slug}?location=${DeckLocation.CLOUD}`);
+  router.push(`/me/decks/${deck.slug}?location=${DeckLocation.CLOUD}`);
 }
 
 definePageMeta({
@@ -151,7 +151,7 @@ definePageMeta({
             <ButtonAlbum
               v-for="album in publicAlbums"
               :key="album.slug"
-              :to="`/collection/albums/${album.slug}`"
+              :to="`/me/collection/albums/${album.slug}`"
               :label="album.name"
             />
           </div>

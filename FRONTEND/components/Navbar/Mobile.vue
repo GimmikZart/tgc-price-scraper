@@ -23,17 +23,17 @@ const { height } = useElementBounding(nav);
 const isModeSwitching = ref(false);
 
 const personalNavItems = [
-  { to: "/cards", label: "Carte", icon: CardsIcon },
-  { to: "/collection", label: "Collezione", icon: CollectionIcon },
-  { to: "/decks", label: "Mazzi", icon: DecksIcon },
-  { to: "/user", label: "Profilo", icon: ProfileIcon },
+  { to: "/me/cards", label: "Carte", icon: CardsIcon },
+  { to: "/me/collection", label: "Collezione", icon: CollectionIcon },
+  { to: "/me/decks", label: "Mazzi", icon: DecksIcon },
+  { to: "/me/profile", label: "Profilo", icon: ProfileIcon },
 ];
 
 const communityNavItems = [
   { to: "/community/search-cards", label: "Cerca Carte", icon: SearchCardsIcon },
   { to: "/community/sell-cards", label: "Vendi Carte", icon: SellCardsIcon },
   { to: "/community/friends", label: "Amici", icon: FriendsIcon },
-  { to: "/user", label: "Profilo", icon: ProfileIcon },
+  { to: "/me/profile", label: "Profilo", icon: ProfileIcon },
 ];
 
 const navItemsByMode = {

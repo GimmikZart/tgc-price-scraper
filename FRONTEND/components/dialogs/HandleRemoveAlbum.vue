@@ -16,7 +16,7 @@ const bottomDistance = computed(() => {
 
 async function deleteAlbum() {
   await removeAlbum(props.albumId);
-  router.push("/collection/albums");
+  router.push("/me/collection/albums");
 }
 </script>
 

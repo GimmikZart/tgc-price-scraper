@@ -91,7 +91,7 @@ async function removeCard(idx) {
 
 function goToSelectCard(idx) {
   router.push({
-    path: "/collection",
+    path: "/me/collection",
     query: { album: album.value.slug, index: idx },
   });
 }

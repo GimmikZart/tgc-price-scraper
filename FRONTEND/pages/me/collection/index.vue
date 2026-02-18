@@ -132,7 +132,7 @@ async function handleInsertAlbum(card) {
     const page = Math.floor(slotIndex / perPage) + 1; // 1-based
 
     router.push({
-      path: `/collection/albums/${selectedAlbum.value.slug}`,
+      path: `/me/collection/albums/${selectedAlbum.value.slug}`,
       query: { page: String(page), focus: String(slotIndex) },
     });
   }
@@ -242,7 +242,7 @@ onMounted(async () => {
           label="Album"
           transition
           :delay="100"
-          @click="router.push('/collection/albums')"
+          @click="router.push('/me/collection/albums')"
         />
 
         <ButtonSortMenu

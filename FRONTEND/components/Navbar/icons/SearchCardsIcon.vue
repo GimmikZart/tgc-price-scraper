@@ -21,7 +21,7 @@ defineProps({
       height="14.1"
       rx="2.1"
       stroke="currentColor"
-      :stroke-width="active ? 2.3 : 2"
+      :stroke-width="active ? 1.5 : 1"
       stroke-linejoin="round"
       :fill="active ? 'currentColor' : 'none'"
       :fill-opacity="active ? 0.12 : 0"
@@ -29,7 +29,7 @@ defineProps({
     <path
       d="M6.4 8.3H12.1M6.4 11.3H10.9M6.4 14.3H9.5"
       stroke="currentColor"
-      :stroke-width="active ? 2.3 : 2"
+      :stroke-width="active ? 1.5 : 1"
       stroke-linecap="round"
       :opacity="active ? 1 : 0.88"
     />
@@ -38,14 +38,14 @@ defineProps({
       cy="15.1"
       r="3.3"
       stroke="currentColor"
-      :stroke-width="active ? 2.3 : 2"
+      :stroke-width="active ? 1.5 : 1"
       :fill="active ? 'currentColor' : 'none'"
       :fill-opacity="active ? 0.16 : 0"
     />
     <path
       d="M19.5 17.6L21 19.1"
       stroke="currentColor"
-      :stroke-width="active ? 2.3 : 2"
+      :stroke-width="active ? 1.5 : 1"
       stroke-linecap="round"
     />
   </svg>

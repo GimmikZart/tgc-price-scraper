@@ -22,10 +22,10 @@ defineProps({
       rx="2"
       transform="rotate(-15 2.7 6.1)"
       stroke="currentColor"
-      :stroke-width="active ? 2.3 : 2"
+      :stroke-width="active ? 1.5 : 1"
       stroke-linecap="round"
       stroke-linejoin="round"
-      :opacity="active ? 1 : 0.95"
+      :opacity="1"
     />
     <rect
       x="12.6"
@@ -35,10 +35,10 @@ defineProps({
       rx="2"
       transform="rotate(13 12.6 3.6)"
       stroke="currentColor"
-      :stroke-width="active ? 2.3 : 2"
+      :stroke-width="active ? 1.5 : 1"
       stroke-linecap="round"
       stroke-linejoin="round"
-      :opacity="active ? 1 : 0.95"
+      :opacity="1"
     />
     <rect
       x="6.8"
@@ -47,7 +47,7 @@ defineProps({
       height="14.4"
       rx="2.2"
       stroke="currentColor"
-      :stroke-width="active ? 2.3 : 2"
+      :stroke-width="active ? 1.5 : 1"
       stroke-linecap="round"
       stroke-linejoin="round"
       :fill="active ? 'currentColor' : 'none'"
@@ -56,7 +56,7 @@ defineProps({
     <path
       d="M12.2 8.3L14.6 10.7L12.2 13.1L9.8 10.7L12.2 8.3Z"
       stroke="currentColor"
-      :stroke-width="active ? 2.3 : 2"
+      :stroke-width="active ? 1.5 : 1"
       stroke-linecap="round"
       stroke-linejoin="round"
       :fill="active ? 'currentColor' : 'none'"

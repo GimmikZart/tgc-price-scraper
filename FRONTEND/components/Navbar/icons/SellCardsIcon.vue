@@ -21,7 +21,7 @@ defineProps({
       height="13.6"
       rx="2.2"
       stroke="currentColor"
-      :stroke-width="active ? 2.3 : 2"
+      :stroke-width="active ? 1.5 : 1"
       stroke-linejoin="round"
       :fill="active ? 'currentColor' : 'none'"
       :fill-opacity="active ? 0.1 : 0"
@@ -29,13 +29,13 @@ defineProps({
     <path
       d="M6.3 9.2H12.7M6.3 12.2H10.7"
       stroke="currentColor"
-      :stroke-width="active ? 2.3 : 2"
+      :stroke-width="active ? 1.5 : 1"
       stroke-linecap="round"
     />
     <path
       d="M14.7 11.8L19 10.1L21 12.2L19.3 16.4L15 18.1L13 16L14.7 11.8Z"
       stroke="currentColor"
-      :stroke-width="active ? 2.3 : 2"
+      :stroke-width="active ? 1.5 : 1"
       stroke-linejoin="round"
       :fill="active ? 'currentColor' : 'none'"
       :fill-opacity="active ? 0.15 : 0"

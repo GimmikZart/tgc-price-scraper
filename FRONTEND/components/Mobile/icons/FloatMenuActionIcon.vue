@@ -109,7 +109,7 @@ const resolvedIconName = computed(() => {
 });
 
 const fallbackIcon = computed(() => props.icon || "lucide:circle");
-const strokeWidth = computed(() => (props.active ? 2.3 : 2));
+const strokeWidth = computed(() => (props.active ? 1.5 : 1));
 </script>
 
 <template>

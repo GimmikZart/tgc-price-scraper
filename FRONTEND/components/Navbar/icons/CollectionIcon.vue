@@ -21,7 +21,7 @@ defineProps({
       height="15.8"
       rx="2.8"
       stroke="currentColor"
-      :stroke-width="active ? 2.3 : 2"
+      :stroke-width="active ? 1.5 : 1"
       stroke-linecap="round"
       stroke-linejoin="round"
       :fill="active ? 'currentColor' : 'none'"
@@ -30,7 +30,7 @@ defineProps({
     <path
       d="M9.4 5V19"
       stroke="currentColor"
-      :stroke-width="active ? 2.3 : 2"
+      :stroke-width="active ? 1.5 : 1"
       stroke-linecap="round"
     />
     <circle cx="6.35" cy="8.3" r="0.8" fill="currentColor" />
@@ -43,7 +43,7 @@ defineProps({
       height="3.1"
       rx="0.9"
       stroke="currentColor"
-      :stroke-width="active ? 2.3 : 2"
+      :stroke-width="active ? 1.5 : 1"
       stroke-linejoin="round"
       :fill="active ? 'currentColor' : 'none'"
       :fill-opacity="active ? 0.2 : 0"
@@ -55,7 +55,7 @@ defineProps({
       height="2.2"
       rx="0.6"
       stroke="currentColor"
-      :stroke-width="active ? 2.3 : 2"
+      :stroke-width="active ? 1.5 : 1"
       :fill="active ? 'currentColor' : 'none'"
       :fill-opacity="active ? 0.2 : 0"
     />
@@ -66,7 +66,7 @@ defineProps({
       height="2.2"
       rx="0.6"
       stroke="currentColor"
-      :stroke-width="active ? 2.3 : 2"
+      :stroke-width="active ? 1.5 : 1"
       :fill="active ? 'currentColor' : 'none'"
       :fill-opacity="active ? 0.2 : 0"
     />
@@ -77,7 +77,7 @@ defineProps({
       height="2.2"
       rx="0.7"
       stroke="currentColor"
-      :stroke-width="active ? 2.3 : 2"
+      :stroke-width="active ? 1.5 : 1"
       :fill="active ? 'currentColor' : 'none'"
       :fill-opacity="active ? 0.2 : 0"
     />

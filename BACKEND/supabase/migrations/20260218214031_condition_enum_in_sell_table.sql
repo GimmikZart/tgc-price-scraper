@@ -1,5 +1,15 @@
-create type "public"."condition" as enum ('Perfect', 'Used', 'Worn', 'Damaged');
+DO $$
+BEGIN
+  IF NOT EXISTS (
+    SELECT 1
+    FROM pg_type t
+    JOIN pg_namespace n ON n.oid = t.typnamespace
+    WHERE n.nspname = 'public'
+      AND t.typname = 'condition'
+  ) THEN
+    CREATE TYPE public.condition AS ENUM ('Perfect', 'Used', 'Worn', 'Damaged');
+  END IF;
+END $$;
 
-alter table "public"."sell_listings" add column "condition" public.condition;
-
-
+ALTER TABLE public.sell_listings
+ADD COLUMN IF NOT EXISTS condition public.condition;

@@ -8,33 +8,93 @@ function toFiniteNumber(value, fieldName) {
   return parsedValue;
 }
 
-function mapSellListingWithCard(listing, cardById) {
+function parsePositiveInteger(value, fieldName) {
+  const parsedValue = Number(value);
+  if (!Number.isInteger(parsedValue) || parsedValue <= 0) {
+    throw new Error(`${fieldName} must be a positive integer`);
+  }
+
+  return parsedValue;
+}
+
+function parseListingId(listingId) {
+  return parsePositiveInteger(listingId, "listingId");
+}
+
+function normalizeProfile(rawProfile) {
+  if (!rawProfile) return null;
+  return {
+    id: rawProfile.id ?? null,
+    username: rawProfile.username ?? null,
+    user_tag: rawProfile.user_tag ?? null,
+  };
+}
+
+async function fetchProfilesByIds(client, userIds) {
+  const normalizedUserIds = [...new Set(
+    userIds
+      .filter((userId) => typeof userId === "string")
+      .map((userId) => userId.trim())
+      .filter(Boolean),
+  )];
+
+  if (!normalizedUserIds.length) return new Map();
+
+  const { data: profiles = [], error } = await client
+    .from("profiles")
+    .select("id,username,user_tag")
+    .in("id", normalizedUserIds);
+
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  return new Map(profiles.map((profile) => [profile.id, normalizeProfile(profile)]));
+}
+
+function mapSellListingWithCard(listing, cardById, profileById) {
   const parsedPrice = Number(listing?.price);
   const parsedQuantity = Number(listing?.quantity);
   const hasValidPrice = Number.isFinite(parsedPrice);
   const hasValidQuantity = Number.isInteger(parsedQuantity) && parsedQuantity >= 0;
+  const sellerProfile = profileById.get(listing?.seller_uuid) ?? null;
 
   return {
     ...listing,
     card: cardById.get(listing?.card_id) ?? null,
+    sellerProfile,
+    sellerUsername: sellerProfile?.username ?? null,
+    sellerUserTag: sellerProfile?.user_tag ?? null,
     price: hasValidPrice ? parsedPrice : null,
     quantity: hasValidQuantity ? parsedQuantity : 0,
     totalPrice: hasValidPrice && hasValidQuantity ? parsedPrice * parsedQuantity : null,
   };
 }
 
-function mapSellListingsWithCards(listings, allCards) {
+function mapSellListingsWithCards(listings, allCards, profileById) {
   const cardById = new Map(allCards.map((card) => [card.id, card]));
-  return listings.map((listing) => mapSellListingWithCard(listing, cardById));
+  return listings.map((listing) => mapSellListingWithCard(listing, cardById, profileById));
 }
 
-function parseListingId(listingId) {
-  const parsedListingId = Number(listingId);
-  if (!Number.isInteger(parsedListingId) || parsedListingId <= 0) {
-    throw new Error("listingId must be a positive integer");
-  }
+function mapOfferListing(offerListing, profileById) {
+  const parsedOffer = Number(offerListing?.offer);
+  const parsedQuantity = Number(offerListing?.quantity);
+  const hasValidOffer = Number.isFinite(parsedOffer);
+  const hasValidQuantity = Number.isInteger(parsedQuantity) && parsedQuantity >= 0;
+  const offererProfile = profileById.get(offerListing?.offerer_id) ?? null;
 
-  return parsedListingId;
+  return {
+    ...offerListing,
+    offererProfile,
+    offererUsername: offererProfile?.username ?? null,
+    offererUserTag: offererProfile?.user_tag ?? null,
+    offer: hasValidOffer ? parsedOffer : null,
+    quantity: hasValidQuantity ? parsedQuantity : 0,
+  };
+}
+
+function mapOfferListings(offerListings, profileById) {
+  return offerListings.map((offerListing) => mapOfferListing(offerListing, profileById));
 }
 
 export async function createSellListing(payload) {
@@ -50,11 +110,7 @@ export async function createSellListing(payload) {
     throw new Error("cardId is required");
   }
 
-  const quantity = Number(payload.quantity);
-  if (!Number.isInteger(quantity) || quantity <= 0) {
-    throw new Error("quantity must be a positive integer");
-  }
-
+  const quantity = parsePositiveInteger(payload.quantity, "quantity");
   const latitude = toFiniteNumber(payload.latitude, "latitude");
   const longitude = toFiniteNumber(payload.longitude, "longitude");
   const price = toFiniteNumber(payload.price, "price");
@@ -109,7 +165,12 @@ export async function fetchActiveSellListings() {
     throw new Error(error.message);
   }
 
-  return mapSellListingsWithCards(activeListings, allCards);
+  const sellerProfileById = await fetchProfilesByIds(
+    client,
+    activeListings.map((listing) => listing?.seller_uuid),
+  );
+
+  return mapSellListingsWithCards(activeListings, allCards, sellerProfileById);
 }
 
 export async function fetchLoggedUserSellListings() {
@@ -133,7 +194,12 @@ export async function fetchLoggedUserSellListings() {
     throw new Error(error.message);
   }
 
-  return mapSellListingsWithCards(userListings, allCards);
+  const sellerProfileById = await fetchProfilesByIds(
+    client,
+    userListings.map((listing) => listing?.seller_uuid),
+  );
+
+  return mapSellListingsWithCards(userListings, allCards, sellerProfileById);
 }
 
 export async function fetchActiveSellListingById(listingId) {
@@ -154,7 +220,8 @@ export async function fetchActiveSellListingById(listingId) {
 
   if (!data) return null;
 
-  return mapSellListingsWithCards([data], allCards)[0] ?? null;
+  const sellerProfileById = await fetchProfilesByIds(client, [data?.seller_uuid]);
+  return mapSellListingsWithCards([data], allCards, sellerProfileById)[0] ?? null;
 }
 
 export async function fetchLoggedUserSellListingById(listingId) {
@@ -182,5 +249,70 @@ export async function fetchLoggedUserSellListingById(listingId) {
 
   if (!data) return null;
 
-  return mapSellListingsWithCards([data], allCards)[0] ?? null;
+  const sellerProfileById = await fetchProfilesByIds(client, [data?.seller_uuid]);
+  return mapSellListingsWithCards([data], allCards, sellerProfileById)[0] ?? null;
+}
+
+export async function fetchOfferListingsBySellListingId(sellListingId) {
+  const client = useSupabaseClient();
+  const parsedSellListingId = parseListingId(sellListingId);
+
+  const { data: offerListings = [], error } = await client
+    .from("offer_listing")
+    .select("*")
+    .eq("sell_list_id", parsedSellListingId)
+    .order("created_at", { ascending: false });
+
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  const offererProfileById = await fetchProfilesByIds(
+    client,
+    offerListings.map((offerListing) => offerListing?.offerer_id),
+  );
+
+  return mapOfferListings(offerListings, offererProfileById);
+}
+
+export async function createOfferListing(payload) {
+  const client = useSupabaseClient();
+  const userAuth = useUserAuth();
+
+  const offererId = userAuth?.userLogged?.id;
+  if (!offererId) {
+    throw new Error("User not authenticated");
+  }
+
+  const sellListId = parseListingId(payload?.sellListId);
+  const quantity = parsePositiveInteger(payload?.quantity, "quantity");
+  const offer = toFiniteNumber(payload?.offer, "offer");
+
+  if (offer <= 0) {
+    throw new Error("offer must be greater than 0");
+  }
+
+  const offerListingToInsert = {
+    sell_list_id: sellListId,
+    quantity,
+    offer,
+    offerer_id: offererId,
+  };
+
+  if (payload?.status) {
+    offerListingToInsert.status = payload.status;
+  }
+
+  const { data, error } = await client
+    .from("offer_listing")
+    .insert(offerListingToInsert)
+    .select("*")
+    .single();
+
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  const offererProfileById = await fetchProfilesByIds(client, [data?.offerer_id]);
+  return mapOfferListings([data], offererProfileById)[0] ?? null;
 }

@@ -6,6 +6,7 @@ const props = defineProps({
   fromBottom: { type: Number, default: null },
   acceptLabel: { type: String, default: "Salva" },
   acceptColor: { type: String, default: "success" },
+  disabled: { type: Boolean, default: false },
 });
 const emits = defineEmits(["confirm"]);
 const gs = useGlobalSettings();
@@ -17,6 +18,7 @@ const dialog = ref(false);
 const uid = `dlg_${getCurrentInstance()?.uid ?? Math.random().toString(36).slice(2)}`;
 
 function openDialog() {
+  if (props.disabled) return;
   // emettiamo un evento globale che dice "sto aprendo la dialog X"
   document.dispatchEvent(new CustomEvent("dialogs:open", { detail: { uid } }));
   dialog.value = true;
@@ -68,7 +70,8 @@ const bottomDistance = computed(() => {
   <div
     role="button"
     tabindex="0"
-    class="inline-flex cursor-pointer focus:outline-none"
+    class="inline-flex focus:outline-none"
+    :class="props.disabled ? 'cursor-not-allowed' : 'cursor-pointer'"
     @click="openDialog"
     @keydown.enter.prevent="openDialog"
     @keydown.space.prevent="openDialog"

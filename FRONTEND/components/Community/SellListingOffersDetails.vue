@@ -26,7 +26,16 @@ const props = defineProps({
     type: String,
     default: "Nessuna proposta disponibile al momento",
   },
+  proposals: {
+    type: Array,
+    default: () => [],
+  },
+  isLoadingProposals: {
+    type: Boolean,
+    default: false,
+  },
 });
+const emit = defineEmits(["listing-updated"]);
 
 const route = useRoute();
 const snackbar = useSnackbar();
@@ -36,6 +45,7 @@ const isLoading = ref(true);
 
 const listingId = computed(() => String(route.params.id ?? ""));
 const hasListingCard = computed(() => Boolean(listing.value?.card));
+const hasProposals = computed(() => props.proposals.length > 0);
 
 const copiesInSale = computed(() => {
   const parsedValue = Number(listing.value?.quantity);
@@ -70,8 +80,10 @@ async function loadListing() {
 
   try {
     listing.value = await props.fetchListingById(listingId.value);
+    emit("listing-updated", listing.value);
   } catch (error) {
     listing.value = null;
+    emit("listing-updated", null);
     snackbar.addMessage(error.message || "Errore durante il recupero della vendita", "error");
   } finally {
     isLoading.value = false;
@@ -122,9 +134,16 @@ watch(listingId, loadListing, { immediate: true });
     </Toolbar>
 
     <div class="min-h-0 flex-1 overflow-y-auto px-3 pb-2">
-      <p v-if="isLoading" class="sell-state-message">{{ loadingProposalsMessage }}</p>
+      <p v-if="isLoading || isLoadingProposals" class="sell-state-message">{{ loadingProposalsMessage }}</p>
       <div v-else class="proposal-shell">
-        <p class="sell-state-message">{{ emptyProposalsMessage }}</p>
+        <div v-if="hasProposals" class="space-y-2">
+          <CommunityOfferListingRow
+            v-for="offerListing in proposals"
+            :key="offerListing.id"
+            :offer-listing="offerListing"
+          />
+        </div>
+        <p v-else class="sell-state-message">{{ emptyProposalsMessage }}</p>
       </div>
     </div>
 

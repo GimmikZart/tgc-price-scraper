@@ -8,7 +8,7 @@ const props = defineProps({
   },
   toolbarLabel: {
     type: String,
-    default: "Proposte per",
+    default: "Offerte per",
   },
   loadingDetailsMessage: {
     type: String,

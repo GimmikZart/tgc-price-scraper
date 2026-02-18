@@ -11,11 +11,12 @@ const props = defineProps({
 const statusMeta = computed(() => getOfferStatusMeta(props.offerListing?.status));
 const statusLabel = computed(() => statusMeta.value?.label ?? props.offerListing?.status ?? "N/D");
 const statusColor = computed(() => statusMeta.value?.color ?? "#607d8b");
+const statusIcon = computed(() => statusMeta.value?.icon ?? "mdi-help");
 
 const username = computed(() => {
   const value = props.offerListing?.offererUsername ?? props.offerListing?.offererProfile?.username;
   if (typeof value === "string" && value.trim()) return value.trim();
-  return "Username";
+  return "Utente";
 });
 
 const userTag = computed(() => {
@@ -58,20 +59,19 @@ const usernameInitial = computed(() => {
     </div>
 
     <div class="offer-row-values">
-      <div class="offer-value-box offer-value-box--qty">
-        {{ quantityValue }}
+      <v-chip size="small" color="default" variant="flat" class="offer-qty-chip" label>
+        x {{ quantityValue }}
+      </v-chip>
+
+      <div class="offer-price-box">
+        {{ offerValue }} €
       </div>
-      <div class="offer-value-box offer-value-box--offer">
-        {{ offerValue }} EUR
+
+      <div class="offer-status-dot" :style="{ backgroundColor: statusColor }" :title="statusLabel">
+        <v-icon size="14" color="white">{{ statusIcon }}</v-icon>
       </div>
     </div>
   </article>
-
-  <div class="offer-row-status">
-    <v-chip size="x-small" variant="flat" label :color="statusColor" class="font-bold">
-      {{ statusLabel }}
-    </v-chip>
-  </div>
 </template>
 
 <style scoped>
@@ -80,11 +80,13 @@ const usernameInitial = computed(() => {
   align-items: center;
   justify-content: space-between;
   gap: 0.6rem;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.16);
   border-radius: 0.9rem;
-  background: rgba(241, 245, 249, 0.88);
-  color: rgba(15, 23, 42, 0.95);
-  padding: 0.45rem 0.55rem;
+  background: linear-gradient(140deg, rgba(14, 21, 33, 0.96), rgba(9, 13, 22, 0.96));
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    0 12px 22px rgba(0, 0, 0, 0.34);
+  padding: 0.5rem 0.55rem;
 }
 
 .offer-row-main {
@@ -95,14 +97,15 @@ const usernameInitial = computed(() => {
 }
 
 .offer-avatar {
-  width: 2rem;
-  height: 2rem;
+  width: 2.15rem;
+  height: 2.15rem;
   border-radius: 999px;
-  border: 2px solid rgba(15, 23, 42, 0.9);
+  border: 2px solid rgba(248, 250, 252, 0.78);
   display: grid;
   place-content: center;
   font-size: 0.82rem;
   font-weight: 800;
+  color: rgba(241, 245, 249, 0.95);
 }
 
 .offer-user {
@@ -110,43 +113,48 @@ const usernameInitial = computed(() => {
 }
 
 .offer-username {
-  font-size: 0.96rem;
+  color: rgba(248, 250, 252, 0.95);
+  font-size: 0.9rem;
   font-weight: 700;
   line-height: 1.1;
 }
 
 .offer-user-tag {
-  font-size: 0.74rem;
+  color: rgba(203, 213, 225, 0.84);
+  font-size: 0.72rem;
   font-weight: 600;
   line-height: 1.1;
-  color: rgba(51, 65, 85, 0.85);
 }
 
 .offer-row-values {
   display: flex;
   align-items: center;
-  gap: 0.45rem;
+  gap: 0.4rem;
 }
 
-.offer-value-box {
-  min-width: 4.4rem;
+.offer-qty-chip {
+  font-weight: 700;
+}
+
+.offer-price-box {
+  min-width: 4.8rem;
   text-align: center;
-  border: 2px solid rgba(15, 23, 42, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 0.55rem;
-  padding: 0.35rem 0.25rem;
-  font-size: 0.82rem;
-  font-weight: 800;
-  line-height: 1;
-  background: #ffffff;
+  padding: 0.35rem 0.35rem;
+  font-size: 0.84rem;
+  font-weight: 700;
+  color: rgba(255, 244, 234, 0.95);
 }
 
-.offer-value-box--qty {
-  min-width: 3.4rem;
-}
-
-.offer-row-status {
-  margin-top: 0.3rem;
-  display: flex;
-  justify-content: flex-end;
+.offer-status-dot {
+  width: 1.7rem;
+  height: 1.7rem;
+  border-radius: 999px;
+  display: grid;
+  place-content: center;
+  box-shadow:
+    0 0 0 2px rgba(255, 255, 255, 0.14),
+    0 8px 12px rgba(0, 0, 0, 0.22);
 }
 </style>

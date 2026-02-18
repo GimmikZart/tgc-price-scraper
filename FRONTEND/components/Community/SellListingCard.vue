@@ -33,6 +33,12 @@ const quantityValue = computed(() => {
   return parsedValue;
 });
 
+const proposalsCount = computed(() => {
+  const parsedValue = Number(props.listing?.offersCount);
+  if (!Number.isInteger(parsedValue) || parsedValue < 0) return 0;
+  return parsedValue;
+});
+
 const unitPriceValue = computed(() => {
   const parsedValue = Number(props.listing?.price);
   if (!Number.isFinite(parsedValue) || parsedValue < 0) return null;
@@ -89,7 +95,7 @@ function goToListingDetails() {
         variant="flat"
         label
       >
-        {{ quantityValue }} Proposte
+        {{ proposalsCount }} Proposte
       </v-chip>
     </div>
 

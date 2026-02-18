@@ -52,12 +52,47 @@ async function fetchProfilesByIds(client, userIds) {
   return new Map(profiles.map((profile) => [profile.id, normalizeProfile(profile)]));
 }
 
-function mapSellListingWithCard(listing, cardById, profileById) {
+async function fetchOfferCountsBySellListingIds(client, listingIds) {
+  const normalizedListingIds = [...new Set(
+    listingIds
+      .map((listingId) => Number(listingId))
+      .filter((listingId) => Number.isInteger(listingId) && listingId > 0),
+  )];
+
+  if (!normalizedListingIds.length) return new Map();
+
+  const { data: offerListings = [], error } = await client
+    .from("offer_listing")
+    .select("sell_list_id")
+    .in("sell_list_id", normalizedListingIds);
+
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  const offerCountByListingId = new Map();
+
+  offerListings.forEach((offerListing) => {
+    const parsedListingId = Number(offerListing?.sell_list_id);
+    if (!Number.isInteger(parsedListingId) || parsedListingId <= 0) return;
+
+    const currentCount = offerCountByListingId.get(parsedListingId) ?? 0;
+    offerCountByListingId.set(parsedListingId, currentCount + 1);
+  });
+
+  return offerCountByListingId;
+}
+
+function mapSellListingWithCard(listing, cardById, profileById, offerCountByListingId) {
   const parsedPrice = Number(listing?.price);
   const parsedQuantity = Number(listing?.quantity);
+  const parsedListingId = Number(listing?.id);
   const hasValidPrice = Number.isFinite(parsedPrice);
   const hasValidQuantity = Number.isInteger(parsedQuantity) && parsedQuantity >= 0;
   const sellerProfile = profileById.get(listing?.seller_uuid) ?? null;
+  const offersCount = Number.isInteger(parsedListingId) && parsedListingId > 0
+    ? (offerCountByListingId.get(parsedListingId) ?? 0)
+    : 0;
 
   return {
     ...listing,
@@ -67,13 +102,14 @@ function mapSellListingWithCard(listing, cardById, profileById) {
     sellerUserTag: sellerProfile?.user_tag ?? null,
     price: hasValidPrice ? parsedPrice : null,
     quantity: hasValidQuantity ? parsedQuantity : 0,
+    offersCount,
     totalPrice: hasValidPrice && hasValidQuantity ? parsedPrice * parsedQuantity : null,
   };
 }
 
-function mapSellListingsWithCards(listings, allCards, profileById) {
+function mapSellListingsWithCards(listings, allCards, profileById, offerCountByListingId = new Map()) {
   const cardById = new Map(allCards.map((card) => [card.id, card]));
-  return listings.map((listing) => mapSellListingWithCard(listing, cardById, profileById));
+  return listings.map((listing) => mapSellListingWithCard(listing, cardById, profileById, offerCountByListingId));
 }
 
 function mapOfferListing(offerListing, profileById) {
@@ -169,8 +205,12 @@ export async function fetchActiveSellListings() {
     client,
     activeListings.map((listing) => listing?.seller_uuid),
   );
+  const offerCountByListingId = await fetchOfferCountsBySellListingIds(
+    client,
+    activeListings.map((listing) => listing?.id),
+  );
 
-  return mapSellListingsWithCards(activeListings, allCards, sellerProfileById);
+  return mapSellListingsWithCards(activeListings, allCards, sellerProfileById, offerCountByListingId);
 }
 
 export async function fetchLoggedUserSellListings() {
@@ -198,8 +238,12 @@ export async function fetchLoggedUserSellListings() {
     client,
     userListings.map((listing) => listing?.seller_uuid),
   );
+  const offerCountByListingId = await fetchOfferCountsBySellListingIds(
+    client,
+    userListings.map((listing) => listing?.id),
+  );
 
-  return mapSellListingsWithCards(userListings, allCards, sellerProfileById);
+  return mapSellListingsWithCards(userListings, allCards, sellerProfileById, offerCountByListingId);
 }
 
 export async function fetchActiveSellListingById(listingId) {
@@ -221,7 +265,8 @@ export async function fetchActiveSellListingById(listingId) {
   if (!data) return null;
 
   const sellerProfileById = await fetchProfilesByIds(client, [data?.seller_uuid]);
-  return mapSellListingsWithCards([data], allCards, sellerProfileById)[0] ?? null;
+  const offerCountByListingId = await fetchOfferCountsBySellListingIds(client, [data?.id]);
+  return mapSellListingsWithCards([data], allCards, sellerProfileById, offerCountByListingId)[0] ?? null;
 }
 
 export async function fetchLoggedUserSellListingById(listingId) {
@@ -250,7 +295,8 @@ export async function fetchLoggedUserSellListingById(listingId) {
   if (!data) return null;
 
   const sellerProfileById = await fetchProfilesByIds(client, [data?.seller_uuid]);
-  return mapSellListingsWithCards([data], allCards, sellerProfileById)[0] ?? null;
+  const offerCountByListingId = await fetchOfferCountsBySellListingIds(client, [data?.id]);
+  return mapSellListingsWithCards([data], allCards, sellerProfileById, offerCountByListingId)[0] ?? null;
 }
 
 export async function fetchOfferListingsBySellListingId(sellListingId) {

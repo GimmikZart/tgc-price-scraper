@@ -30,9 +30,9 @@ const personalNavItems = [
 ];
 
 const communityNavItems = [
-  { to: "/community/cerca-carte", label: "Cerca Carte", icon: SearchCardsIcon },
-  { to: "/community/vendi-carte", label: "Vendi Carte", icon: SellCardsIcon },
-  { to: "/community/amici", label: "Amici", icon: FriendsIcon },
+  { to: "/community/search-cards", label: "Cerca Carte", icon: SearchCardsIcon },
+  { to: "/community/sell-cards", label: "Vendi Carte", icon: SellCardsIcon },
+  { to: "/community/friends", label: "Amici", icon: FriendsIcon },
   { to: "/user", label: "Profilo", icon: ProfileIcon },
 ];
 

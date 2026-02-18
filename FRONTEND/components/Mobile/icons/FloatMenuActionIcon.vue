@@ -37,6 +37,8 @@ const iconAliases = {
   "fluent:book-add-28-filled": "add",
   "material-symbols:cards": "deck-overview",
   "streamline:cards": "catalog",
+  "mdi:cash-plus": "new-sale",
+  "mdi:clipboard-clock-outline": "active-sales",
   "ion:stats-chart": "stats",
   "iconoir:wrench": "edit",
   "fluent:shifts-availability-24-regular": "collection-availability",
@@ -68,6 +70,8 @@ const labelAliases = {
   prezzi: "price",
   filtra: "filter",
   album: "album",
+  "nuova vendita": "new-sale",
+  "vendite in corso": "active-sales",
   panoramica: "deck-overview",
   catalogo: "catalog",
   stats: "stats",
@@ -259,6 +263,67 @@ const strokeWidth = computed(() => (props.active ? 2.3 : 2));
     <rect x="5.2" y="6.2" width="11" height="13.6" rx="2" stroke="currentColor" :stroke-width="strokeWidth" />
     <rect x="8.8" y="4.2" width="10" height="13.2" rx="2" stroke="currentColor" :stroke-width="strokeWidth" :fill="active ? 'currentColor' : 'none'" :fill-opacity="active ? 0.12 : 0" />
     <path d="M10.8 8.5H16.6" stroke="currentColor" :stroke-width="strokeWidth" stroke-linecap="round" />
+  </svg>
+
+  <svg
+    v-else-if="resolvedIconName === 'new-sale'"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    aria-hidden="true"
+  >
+    <path
+      d="M4.8 7.1H12L16.8 11.9L10.6 18.1H4.8V7.1Z"
+      stroke="currentColor"
+      :stroke-width="strokeWidth"
+      stroke-linejoin="round"
+      :fill="active ? 'currentColor' : 'none'"
+      :fill-opacity="active ? 0.08 : 0"
+    />
+    <circle cx="10.2" cy="10.5" r="1.1" fill="currentColor" />
+    <path d="M12.4 9.4L14.4 11.4" stroke="currentColor" :stroke-width="strokeWidth" stroke-linecap="round" />
+    <circle
+      cx="17.1"
+      cy="16.7"
+      r="3.2"
+      stroke="currentColor"
+      :stroke-width="strokeWidth"
+      :fill="active ? 'currentColor' : 'none'"
+      :fill-opacity="active ? 0.14 : 0"
+    />
+    <path d="M17.1 15.2V18.2M15.6 16.7H18.6" stroke="currentColor" :stroke-width="strokeWidth" stroke-linecap="round" />
+  </svg>
+
+  <svg
+    v-else-if="resolvedIconName === 'active-sales'"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    aria-hidden="true"
+  >
+    <rect
+      x="4.9"
+      y="5.2"
+      width="10.8"
+      height="13.8"
+      rx="2"
+      stroke="currentColor"
+      :stroke-width="strokeWidth"
+      :fill="active ? 'currentColor' : 'none'"
+      :fill-opacity="active ? 0.08 : 0"
+    />
+    <rect x="8.3" y="3.8" width="4" height="2.3" rx="0.9" stroke="currentColor" :stroke-width="strokeWidth" />
+    <path d="M8 9.5H12.6M8 12H11.7" stroke="currentColor" :stroke-width="strokeWidth" stroke-linecap="round" />
+    <circle
+      cx="17.1"
+      cy="15.8"
+      r="3.5"
+      stroke="currentColor"
+      :stroke-width="strokeWidth"
+      :fill="active ? 'currentColor' : 'none'"
+      :fill-opacity="active ? 0.14 : 0"
+    />
+    <path d="M17.1 14.1V15.9L18.4 16.8" stroke="currentColor" :stroke-width="strokeWidth" stroke-linecap="round" stroke-linejoin="round" />
   </svg>
 
   <svg

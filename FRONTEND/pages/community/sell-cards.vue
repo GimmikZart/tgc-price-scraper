@@ -34,5 +34,22 @@ definePageMeta({
         </v-btn>
       </div>
     </v-container>
+
+    <MobileFloatMenu :cols="2">
+      <template #buttons>
+        <ButtonMenu
+          icon="mdi:cash-plus"
+          label="Nuova Vendita"
+          transition
+          :delay="100"
+        />
+        <ButtonMenu
+          icon="mdi:clipboard-clock-outline"
+          label="Vendite in corso"
+          transition
+          :delay="200"
+        />
+      </template>
+    </MobileFloatMenu>
   </section>
 </template>

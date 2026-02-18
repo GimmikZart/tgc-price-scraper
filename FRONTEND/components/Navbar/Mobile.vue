@@ -14,6 +14,8 @@ const PERSONAL_MODE = "personal";
 const COMMUNITY_MODE = "community";
 const PERSONAL_MODE_LABEL = "Io";
 const COMMUNITY_MODE_LABEL = "Community";
+const BUY_CARDS_PATH = "/community/buy-cards";
+const OFFERS_PATH = "/community/offers";
 
 const nav = ref(null);
 const route = useRoute();
@@ -30,7 +32,7 @@ const personalNavItems = [
 ];
 
 const communityNavItems = [
-  { to: "/community/search-cards", label: "Cerca Carte", icon: SearchCardsIcon },
+  { to: "/community/buy-cards", label: "Compra Carte", icon: SearchCardsIcon },
   { to: "/community/sell-cards", label: "Vendi Carte", icon: SellCardsIcon },
   { to: "/community/friends", label: "Amici", icon: FriendsIcon },
   { to: "/me/profile", label: "Profilo", icon: ProfileIcon },
@@ -42,6 +44,13 @@ const navItemsByMode = {
 };
 
 const isRouteMatch = (path, item) => {
+  if (
+    item.to === BUY_CARDS_PATH
+    && (path === OFFERS_PATH || path.startsWith(`${OFFERS_PATH}/`))
+  ) {
+    return true;
+  }
+
   return path === item.to || path.startsWith(`${item.to}/`);
 };
 

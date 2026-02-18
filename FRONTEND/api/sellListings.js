@@ -8,6 +8,35 @@ function toFiniteNumber(value, fieldName) {
   return parsedValue;
 }
 
+function mapSellListingWithCard(listing, cardById) {
+  const parsedPrice = Number(listing?.price);
+  const parsedQuantity = Number(listing?.quantity);
+  const hasValidPrice = Number.isFinite(parsedPrice);
+  const hasValidQuantity = Number.isInteger(parsedQuantity) && parsedQuantity >= 0;
+
+  return {
+    ...listing,
+    card: cardById.get(listing?.card_id) ?? null,
+    price: hasValidPrice ? parsedPrice : null,
+    quantity: hasValidQuantity ? parsedQuantity : 0,
+    totalPrice: hasValidPrice && hasValidQuantity ? parsedPrice * parsedQuantity : null,
+  };
+}
+
+function mapSellListingsWithCards(listings, allCards) {
+  const cardById = new Map(allCards.map((card) => [card.id, card]));
+  return listings.map((listing) => mapSellListingWithCard(listing, cardById));
+}
+
+function parseListingId(listingId) {
+  const parsedListingId = Number(listingId);
+  if (!Number.isInteger(parsedListingId) || parsedListingId <= 0) {
+    throw new Error("listingId must be a positive integer");
+  }
+
+  return parsedListingId;
+}
+
 export async function createSellListing(payload) {
   const client = useSupabaseClient();
   const userAuth = useUserAuth();
@@ -66,6 +95,23 @@ export async function createSellListing(payload) {
   return data;
 }
 
+export async function fetchActiveSellListings() {
+  const client = useSupabaseClient();
+  const { allCards } = await useOnePieceCards();
+
+  const { data: activeListings = [], error } = await client
+    .from("sell_listings")
+    .select("*")
+    .eq("status", "active")
+    .order("created_at", { ascending: false });
+
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  return mapSellListingsWithCards(activeListings, allCards);
+}
+
 export async function fetchLoggedUserSellListings() {
   const client = useSupabaseClient();
   const userAuth = useUserAuth();
@@ -87,20 +133,54 @@ export async function fetchLoggedUserSellListings() {
     throw new Error(error.message);
   }
 
-  const cardById = new Map(allCards.map((card) => [card.id, card]));
+  return mapSellListingsWithCards(userListings, allCards);
+}
 
-  return userListings.map((listing) => {
-    const parsedPrice = Number(listing.price);
-    const parsedQuantity = Number(listing.quantity);
-    const hasValidPrice = Number.isFinite(parsedPrice);
-    const hasValidQuantity = Number.isInteger(parsedQuantity) && parsedQuantity >= 0;
+export async function fetchActiveSellListingById(listingId) {
+  const client = useSupabaseClient();
+  const { allCards } = await useOnePieceCards();
+  const parsedListingId = parseListingId(listingId);
 
-    return {
-      ...listing,
-      card: cardById.get(listing.card_id) ?? null,
-      price: hasValidPrice ? parsedPrice : null,
-      quantity: hasValidQuantity ? parsedQuantity : 0,
-      totalPrice: hasValidPrice && hasValidQuantity ? parsedPrice * parsedQuantity : null,
-    };
-  });
+  const { data, error } = await client
+    .from("sell_listings")
+    .select("*")
+    .eq("id", parsedListingId)
+    .eq("status", "active")
+    .maybeSingle();
+
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  if (!data) return null;
+
+  return mapSellListingsWithCards([data], allCards)[0] ?? null;
+}
+
+export async function fetchLoggedUserSellListingById(listingId) {
+  const client = useSupabaseClient();
+  const userAuth = useUserAuth();
+  const { allCards } = await useOnePieceCards();
+  const parsedListingId = parseListingId(listingId);
+
+  const sellerUuid = userAuth?.userLogged?.id;
+  if (!sellerUuid) {
+    throw new Error("User not authenticated");
+  }
+
+  const { data, error } = await client
+    .from("sell_listings")
+    .select("*")
+    .eq("id", parsedListingId)
+    .eq("seller_uuid", sellerUuid)
+    .eq("status", "active")
+    .maybeSingle();
+
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  if (!data) return null;
+
+  return mapSellListingsWithCards([data], allCards)[0] ?? null;
 }

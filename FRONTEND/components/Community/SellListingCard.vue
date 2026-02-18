@@ -7,6 +7,10 @@ const props = defineProps({
     type: Object,
     required: true,
   },
+  detailsPathBase: {
+    type: String,
+    default: "/community/sell-cards/current-sells",
+  },
 });
 const router = useRouter();
 
@@ -52,10 +56,15 @@ const totalPriceValue = computed(() => {
 
 const cardTraderUrl = computed(() => props.listing?.card?.slugs?.[0]?.url ?? null);
 const cardName = computed(() => props.listing?.card?.name ?? "Card in vendita");
+const normalizedDetailsPathBase = computed(() => {
+  const path = typeof props.detailsPathBase === "string" ? props.detailsPathBase.trim() : "";
+  if (!path) return "/community/sell-cards/current-sells";
+  return path.endsWith("/") ? path.slice(0, -1) : path;
+});
 
-function goToCurrentSellDetails() {
+function goToListingDetails() {
   if (!props.listing?.id) return;
-  router.push(`/community/sell-cards/current-sells/${props.listing.id}`);
+  router.push(`${normalizedDetailsPathBase.value}/${props.listing.id}`);
 }
 </script>
 
@@ -89,9 +98,9 @@ function goToCurrentSellDetails() {
       tabindex="0"
       class="w-full cursor-pointer rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-300/80"
       :aria-label="`Apri dettaglio vendita di ${cardName}`"
-      @click="goToCurrentSellDetails"
-      @keydown.enter.prevent="goToCurrentSellDetails"
-      @keydown.space.prevent="goToCurrentSellDetails"
+      @click="goToListingDetails"
+      @keydown.enter.prevent="goToListingDetails"
+      @keydown.space.prevent="goToListingDetails"
     >
       <CardPriceLink
         :price="unitPriceValue"

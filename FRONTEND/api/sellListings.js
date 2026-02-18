@@ -94,14 +94,9 @@ export async function fetchLoggedUserSellListings() {
     const parsedQuantity = Number(listing.quantity);
     const hasValidPrice = Number.isFinite(parsedPrice);
     const hasValidQuantity = Number.isInteger(parsedQuantity) && parsedQuantity >= 0;
-    const normalizedCondition =
-      typeof listing?.condition === "string" && listing.condition.trim()
-        ? listing.condition.trim()
-        : null;
 
     return {
       ...listing,
-      condition: normalizedCondition,
       card: cardById.get(listing.card_id) ?? null,
       price: hasValidPrice ? parsedPrice : null,
       quantity: hasValidQuantity ? parsedQuantity : 0,

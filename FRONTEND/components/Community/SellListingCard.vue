@@ -1,5 +1,6 @@
 <script setup>
 import { getConditionMeta } from "@/utilities/enums/conditions";
+import { useRouter } from "vue-router";
 
 const props = defineProps({
   listing: {
@@ -7,6 +8,7 @@ const props = defineProps({
     required: true,
   },
 });
+const router = useRouter();
 
 const conditionMeta = computed(() => getConditionMeta(props.listing?.condition));
 
@@ -50,6 +52,11 @@ const totalPriceValue = computed(() => {
 
 const cardTraderUrl = computed(() => props.listing?.card?.slugs?.[0]?.url ?? null);
 const cardName = computed(() => props.listing?.card?.name ?? "Card in vendita");
+
+function goToCurrentSellDetails() {
+  if (!props.listing?.id) return;
+  router.push(`/community/sell-cards/current-sells/${props.listing.id}`);
+}
 </script>
 
 <template>
@@ -77,14 +84,24 @@ const cardName = computed(() => props.listing?.card?.name ?? "Card in vendita");
       </v-chip>
     </div>
 
-    <CardPriceLink
-      :price="unitPriceValue"
-      :href="cardTraderUrl"
-      label="Prezzo x 1"
-      class="w-full"
-      :show-outer-padding="false"
-      :link-enabled="false"
-    />
+    <div
+      role="button"
+      tabindex="0"
+      class="w-full cursor-pointer rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-300/80"
+      :aria-label="`Apri dettaglio vendita di ${cardName}`"
+      @click="goToCurrentSellDetails"
+      @keydown.enter.prevent="goToCurrentSellDetails"
+      @keydown.space.prevent="goToCurrentSellDetails"
+    >
+      <CardPriceLink
+        :price="unitPriceValue"
+        :href="cardTraderUrl"
+        label="Prezzo x 1"
+        class="pointer-events-none w-full"
+        :show-outer-padding="false"
+        :link-enabled="false"
+      />
+    </div>
     
   </article>
 </template>

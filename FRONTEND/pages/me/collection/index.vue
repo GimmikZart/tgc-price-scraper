@@ -33,6 +33,8 @@ const filteredCards = ref([]);
 const visibleCards = ref([]);
 const openFilter = ref(false);
 const userAuth = useUserAuth();
+const sellListingDraftStore = useSellListingDraftStore();
+const sellMode = computed(() => Object.prototype.hasOwnProperty.call(route.query, "sell-mode"));
 
 // Viewer: ora scegliamo di navigare sull’INTERO risultato filtrato
 const { show: viewerOpen, index: viewerIndex } = useCardViewer(filteredCards);
@@ -138,6 +140,23 @@ async function handleInsertAlbum(card) {
   }
 }
 
+async function sellThisCard(card) {
+  try {
+    const userId = userAuth.userLogged?.id;
+    if (!userId || !card?.id) return;
+
+    let copiesInCollection = Number(card.count);
+    if (!Number.isInteger(copiesInCollection) || copiesInCollection < 0) {
+      copiesInCollection = await fetchCardCountInCollection(userId, card.id);
+    }
+
+    sellListingDraftStore.setSelectedCard(card, copiesInCollection);
+    await router.push("/community/sell-cards/new-sell");
+  } catch (error) {
+    snackbar.addMessage("Errore durante la selezione carta", "error", error.message);
+  }
+}
+
 
 // Sincronizza album da query
 watch(selectedAlbum, (newAlbum) => {
@@ -197,11 +216,13 @@ onMounted(async () => {
           :card="item"
           :show-price="showPrice"
           :handle-cards="collectionIsHandling"
+          :choose-card="sellMode && !handleAlbum"
           :card-count="item.count"
           show-count
           :disable-opening="handleAlbum"
           @addCard="addCardInCollection"
           @removeCard="removeCardFromCollection"
+          @chooseCard="sellThisCard"
           @open="openViewerFromItem"
           @click="handleAlbum ? handleInsertAlbum(item) : null"
         />

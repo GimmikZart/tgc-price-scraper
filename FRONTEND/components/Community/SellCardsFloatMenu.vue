@@ -1,10 +1,13 @@
 <script setup>
 const route = useRoute();
 const router = useRouter();
+const sellListingDraftStore = useSellListingDraftStore();
+const { hasSelectedCard } = storeToRefs(sellListingDraftStore);
 
 const SELL_CARDS_BASE_PATH = "/community/sell-cards";
 const CURRENT_SELLS_PATH = `${SELL_CARDS_BASE_PATH}/current-sells`;
 const NEW_SELL_PATH = `${SELL_CARDS_BASE_PATH}/new-sell`;
+const COLLECTION_SELL_MODE_PATH = "/me/collection?sell-mode";
 
 const isRouteActive = (path) => {
   return route.path === path || route.path === `${path}/`;
@@ -13,6 +16,15 @@ const isRouteActive = (path) => {
 function navigateToPath(path) {
   if (isRouteActive(path)) return;
   router.push(path);
+}
+
+function handleNewSellClick() {
+  if (hasSelectedCard.value) {
+    navigateToPath(NEW_SELL_PATH);
+    return;
+  }
+
+  router.push(COLLECTION_SELL_MODE_PATH);
 }
 </script>
 
@@ -33,7 +45,7 @@ function navigateToPath(path) {
         transition
         :delay="100"
         :icon-color="isRouteActive(NEW_SELL_PATH) ? 'orange' : null"
-        @click="navigateToPath(NEW_SELL_PATH)"
+        @click="handleNewSellClick"
       />
     </template>
   </MobileFloatMenu>

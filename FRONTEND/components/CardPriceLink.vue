@@ -14,7 +14,7 @@ const props = defineProps({
   },
   currency: {
     type: String,
-    default: "EUR",
+    default: "€",
   },
   handleCards: {
     type: Boolean,

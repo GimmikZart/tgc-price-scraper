@@ -196,6 +196,14 @@ onMounted(async () => {
         <span class="font-bold">{{ selectedAlbum?.name }}</span>
       </div>
 
+      <div
+        v-else-if="sellMode"
+        class="fixed bg-black/80 backdrop-blur-[3px] p-3 w-full flex justify-around top-[50px] left-0 z-[100] px-3 text-sm text-white/70"
+      >
+        <h5>Seleziona carta da mettere sul mercato</h5>
+        <Icon icon="mdi-cash-plus" class="text-xl" />
+      </div>
+
       <h4 v-if="visibleCards.length === 0" class="text-center text-gray-500 my-5">
         La ricerca non ha prodotto risultati
       </h4>

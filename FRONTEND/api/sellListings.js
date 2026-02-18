@@ -43,6 +43,12 @@ export async function createSellListing(payload) {
     price,
   };
 
+  if (typeof payload?.condition !== "string" || !payload.condition.trim()) {
+    throw new Error("condition is required");
+  }
+
+  sellListing.condition = payload.condition.trim();
+
   if (payload.status) {
     sellListing.status = payload.status;
   }
@@ -58,4 +64,48 @@ export async function createSellListing(payload) {
   }
 
   return data;
+}
+
+export async function fetchLoggedUserSellListings() {
+  const client = useSupabaseClient();
+  const userAuth = useUserAuth();
+  const { allCards } = await useOnePieceCards();
+
+  const sellerUuid = userAuth?.userLogged?.id;
+  if (!sellerUuid) {
+    throw new Error("User not authenticated");
+  }
+
+  const { data: userListings = [], error } = await client
+    .from("sell_listings")
+    .select("*")
+    .eq("seller_uuid", sellerUuid)
+    .eq("status", "active")
+    .order("created_at", { ascending: false });
+
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  const cardById = new Map(allCards.map((card) => [card.id, card]));
+
+  return userListings.map((listing) => {
+    const parsedPrice = Number(listing.price);
+    const parsedQuantity = Number(listing.quantity);
+    const hasValidPrice = Number.isFinite(parsedPrice);
+    const hasValidQuantity = Number.isInteger(parsedQuantity) && parsedQuantity >= 0;
+    const normalizedCondition =
+      typeof listing?.condition === "string" && listing.condition.trim()
+        ? listing.condition.trim()
+        : null;
+
+    return {
+      ...listing,
+      condition: normalizedCondition,
+      card: cardById.get(listing.card_id) ?? null,
+      price: hasValidPrice ? parsedPrice : null,
+      quantity: hasValidQuantity ? parsedQuantity : 0,
+      totalPrice: hasValidPrice && hasValidQuantity ? parsedPrice * parsedQuantity : null,
+    };
+  });
 }

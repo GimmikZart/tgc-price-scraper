@@ -1,5 +1,6 @@
 <script setup>
-import { conditionOptions, getConditionMeta } from "@/utilities/enums/conditions";
+import { createSellListing } from "@/api/sellListings";
+import { Condition, conditionOptions, getConditionMeta } from "@/utilities/enums/conditions";
 
 const router = useRouter();
 const snackbar = useSnackbar();
@@ -8,6 +9,10 @@ const { selectedCard, hasSelectedCard, quantity, unitPrice, condition } = storeT
 
 const SELL_CARDS_BASE_PATH = "/community/sell-cards";
 const CURRENT_SELLS_PATH = `${SELL_CARDS_BASE_PATH}/current-sells`;
+const PARMA_LATITUDE = 44.8015;
+const PARMA_LONGITUDE = 10.3279;
+
+const isSubmitting = ref(false);
 
 const selectedCardPrice = computed(() => {
   const parsedValue = Number(selectedCard.value?.price);
@@ -21,6 +26,11 @@ const selectedCardPriceUrl = computed(() => {
 });
 
 const conditionItems = conditionOptions;
+const defaultCondition = Condition.PERFETTO;
+
+if (!getConditionMeta(condition.value)) {
+  condition.value = defaultCondition;
+}
 
 const putOnSalePriceValue = computed(() => {
   const parsedValue = Number(unitPrice.value);
@@ -58,6 +68,7 @@ function goToCollectionInSellMode() {
 }
 
 function handleCancel() {
+  sellListingDraftStore.resetDraft();
   router.push(CURRENT_SELLS_PATH);
 }
 
@@ -65,7 +76,9 @@ function openViewerFromSelected(card) {
   openViewer(card);
 }
 
-function handlePutOnSale() {
+async function handlePutOnSale() {
+  if (isSubmitting.value) return;
+
   if (!hasSelectedCard.value) {
     snackbar.addMessage("Seleziona una carta prima di continuare", "error");
     return;
@@ -97,7 +110,26 @@ function handlePutOnSale() {
     return;
   }
 
-  snackbar.addMessage("Form compilato. Invio API non ancora attivo.", "info");
+  isSubmitting.value = true;
+
+  try {
+    await createSellListing({
+      cardId: selectedCard.value.id,
+      quantity: parsedQuantity,
+      price: parsedUnitPrice,
+      latitude: PARMA_LATITUDE,
+      longitude: PARMA_LONGITUDE,
+      condition: condition.value,
+    });
+
+    snackbar.addMessage("Carta messa in vendita con successo", "success");
+    sellListingDraftStore.resetDraft();
+    await router.push(CURRENT_SELLS_PATH);
+  } catch (error) {
+    snackbar.addMessage(error.message || "Errore durante la creazione della vendita", "error");
+  } finally {
+    isSubmitting.value = false;
+  }
 }
 
 </script>
@@ -107,18 +139,19 @@ function handlePutOnSale() {
     <Toolbar label="Nuova Vendita" />
 
     <div class="flex h-full flex-col px-3 pb-24 pt-3">
-      <form class="mx-auto w-full max-w-[500px]" @submit.prevent="handlePutOnSale">
-        <v-btn
-          v-if="!hasSelectedCard"
-          type="button"
-          block
-          variant="outlined"
-          @click="goToCollectionInSellMode"
-        >
-          seleziona carta
-        </v-btn>
-
-        <div v-else class="mt-3 flex w-full gap-3">
+      <v-btn
+        v-if="!hasSelectedCard"
+        type="button"
+        block
+        color="orange"
+        variant="tonal"
+        class="text-white"
+        @click="goToCollectionInSellMode"
+      >
+        seleziona carta
+      </v-btn>
+      <form v-else class="mx-auto w-full max-w-[500px]" @submit.prevent="handlePutOnSale">
+        <div  class="mt-3 flex w-full gap-3">
           <div class="w-2/5">
             <Card :card="selectedCard" @open="openViewerFromSelected" />
           </div>
@@ -151,7 +184,6 @@ function handlePutOnSale() {
             </v-btn>
           </div>
         </div>
-
         <div class="mt-4 space-y-5">
           <div>
             <p class="sell-field-label mb-1">Quantita</p>
@@ -196,7 +228,6 @@ function handlePutOnSale() {
             </template>
           </v-select>
         </div>
-
         <CardPriceLink
           class="mt-4"
           :price="putOnSalePriceValue"
@@ -205,12 +236,18 @@ function handlePutOnSale() {
           label="Prezzo vendita per singola"
           currency="EUR"
         />
-
         <div class="mt-6 flex justify-between gap-2">
-          <v-btn type="button" variant="outlined" color="black" class="text-white w-1/3" @click="handleCancel">
+          <v-btn
+            type="button"
+            variant="outlined"
+            color="black"
+            class="text-white w-1/3"
+            :disabled="isSubmitting"
+            @click="handleCancel"
+          >
             annulla
           </v-btn>
-          <v-btn  type="submit" color="orange" class="w-2/3 text-white">
+          <v-btn type="submit" color="orange" class="w-2/3 text-white" :loading="isSubmitting" :disabled="isSubmitting">
             metti in vendita
           </v-btn>
         </div>

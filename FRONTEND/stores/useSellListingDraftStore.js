@@ -1,10 +1,15 @@
+import { Condition } from "@/utilities/enums/conditions";
+
+const DEFAULT_QUANTITY = "1";
+const DEFAULT_CONDITION = Condition.PERFETTO;
+
 export const useSellListingDraftStore = defineStore(
   "sellListingDraft",
   () => {
     const selectedCard = ref(null);
-    const quantity = ref("");
+    const quantity = ref(DEFAULT_QUANTITY);
     const unitPrice = ref("");
-    const condition = ref("");
+    const condition = ref(DEFAULT_CONDITION);
 
     const hasSelectedCard = computed(() => Boolean(selectedCard.value?.id));
 
@@ -21,12 +26,15 @@ export const useSellListingDraftStore = defineStore(
 
       if (hasCardChanged) {
         clearDraftForm();
-        quantity.value = "1";
         return;
       }
 
       if (!quantity.value) {
-        quantity.value = "1";
+        quantity.value = DEFAULT_QUANTITY;
+      }
+
+      if (!condition.value) {
+        condition.value = DEFAULT_CONDITION;
       }
 
       const parsedCardPrice = Number(card.price);
@@ -40,9 +48,14 @@ export const useSellListingDraftStore = defineStore(
     }
 
     function clearDraftForm() {
-      quantity.value = "";
+      quantity.value = DEFAULT_QUANTITY;
       unitPrice.value = "";
-      condition.value = "";
+      condition.value = DEFAULT_CONDITION;
+    }
+
+    function resetDraft() {
+      clearSelectedCard();
+      clearDraftForm();
     }
 
     return {
@@ -54,6 +67,7 @@ export const useSellListingDraftStore = defineStore(
       setSelectedCard,
       clearSelectedCard,
       clearDraftForm,
+      resetDraft,
     };
   },
   {

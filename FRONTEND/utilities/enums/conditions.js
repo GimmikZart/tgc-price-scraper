@@ -6,10 +6,10 @@ export const Condition = Object.freeze({
 });
 
 export const conditionOptions = Object.freeze([
-  { value: Condition.Perfect, label: "Perfetto", color: "#2e7d32" },
-  { value: Condition.Used, label: "Usato", color: "#8bc34a" },
-  { value: Condition.Worn, label: "Usurato", color: "#fbc02d" },
-  { value: Condition.Damaged, label: "Danneggiato", color: "#e53935" },
+  { value: Condition.Perfect, label: "Perfetta", color: "#2e7d32" },
+  { value: Condition.Used, label: "Usata", color: "#8bc34a" },
+  { value: Condition.Worn, label: "Usurata", color: "#fbc02d" },
+  { value: Condition.Damaged, label: "Danneggiata", color: "#e53935" },
 ]);
 
 export function getConditionMeta(value) {

@@ -80,42 +80,46 @@ definePageMeta({
 
 <template>
   <section class="relative h-full">
-    <Toolbar label="Profilo" />
-    <v-container class="flex flex-col gap-5 px-4 pb-24 pt-3">
-      <div class="rounded-3xl border border-white/10 bg-white/5 p-4">
-        <div class="flex items-center gap-4">
-          <div
-            class="flex h-20 w-20 shrink-0 items-center justify-center rounded-full border border-white/20 bg-white/10 text-xs font-semibold uppercase tracking-[0.3em] text-white/60"
-          >
-            Foto
-          </div>
-          <div class="min-w-0">
-            <p class="truncate text-xl font-semibold text-white">{{ username }}</p>
-            <p class="text-xs uppercase tracking-[0.25em] text-white/50">
-              {{ userTag }}
-            </p>
+    <Toolbar label="Profilo" fixed> 
+      <template #info>
+        <div class="rounded-3xl border border-white/10 bg-white/5 p-2">
+          <div class="flex items-center gap-4">
+            <div
+              class="flex h-20 w-20 shrink-0 items-center justify-center rounded-full border border-white/20 bg-white/10 text-xs font-semibold uppercase tracking-[0.3em] text-white/60"
+            >
+              Foto
+            </div>
+            <div class="min-w-0">
+              <p class="truncate text-xl font-semibold text-white">{{ username }}</p>
+              <p class="text-xs uppercase tracking-[0.25em] text-white/50">
+                {{ userTag }}
+              </p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="flex items-center gap-6 border-b border-white/10">
-        <button
-          type="button"
-          class="pb-3 text-sm font-semibold transition"
-          :class="activeTab === 'decks' ? 'border-b-2 border-white text-white' : 'text-white/50'"
-          @click="activeTab = 'decks'"
-        >
-          Deck Attivi
-        </button>
-        <button
-          type="button"
-          class="pb-3 text-sm font-semibold transition"
-          :class="activeTab === 'albums' ? 'border-b-2 border-white text-white' : 'text-white/50'"
-          @click="activeTab = 'albums'"
-        >
-          Albums
-        </button>
-      </div>
+        <div class="flex items-center gap-6 border-b border-white/10 px-2 pt-2">
+          <button
+            type="button"
+            class="text-sm font-semibold transition"
+            :class="activeTab === 'decks' ? 'border-b-2 border-white text-white' : 'text-white/50'"
+            @click="activeTab = 'decks'"
+          >
+            Deck Attivi
+          </button>
+          <button
+            type="button"
+            class="text-sm font-semibold transition"
+            :class="activeTab === 'albums' ? 'border-b-2 border-white text-white' : 'text-white/50'"
+            @click="activeTab = 'albums'"
+          >
+            Albums
+          </button>
+        </div>
+      </template> 
+    </Toolbar>
+    <v-container class="flex flex-col gap-5 px-4 pb-24 pt-3">
+      
 
       <div v-if="activeTab === 'decks'" class="space-y-3">
         <p v-if="loadingDecks" class="text-center text-sm text-white/50">Caricamento deck in corso...</p>

@@ -160,7 +160,7 @@ async function handlePutOnSale() {
 
 <template>
   <section class="relative h-full overflow-hidden">
-    <Toolbar label="Nuova Vendita" />
+    <Toolbar label="Nuova Vendita" fixed />
 
     <div v-if="!hasAllRequiredFields" class="px-3 pt-2">
       <div class="sell-warning-box">

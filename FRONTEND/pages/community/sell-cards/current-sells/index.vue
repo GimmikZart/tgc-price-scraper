@@ -26,7 +26,7 @@ onMounted(loadSellListings);
 
 <template>
   <section class="relative h-full">
-    <Toolbar label="Vendite in Corso" />
+    <Toolbar label="Vendite in Corso" fixed />
 
     <div class="min-h-0 flex-1 px-3 pb-24 pt-1">
       <p v-if="isLoading" class="sell-state-message">Caricamento vendite in corso...</p>

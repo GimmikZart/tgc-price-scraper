@@ -76,7 +76,7 @@ onMounted(async () => {
 </script>
 <template>
   <section class="relative h-full">
-    <Toolbar label="Mazzi"> </Toolbar>
+    <Toolbar label="Mazzi" fixed> </Toolbar>
     <v-container class="flex flex-col justify-start grow relative gap-5 pt-0">
       <DeckLocationTabs
         :tabs="tabOptions"

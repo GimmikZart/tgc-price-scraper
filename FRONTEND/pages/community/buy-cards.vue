@@ -30,7 +30,7 @@ onMounted(loadSellListings);
 
 <template>
   <section class="relative h-full">
-    <Toolbar label="Compra Carte" />
+    <Toolbar label="Compra Carte" fixed />
 
     <div class="min-h-0 flex-1 overflow-y-auto px-3 pb-24 pt-1">
       <p v-if="isLoading" class="sell-state-message">Caricamento vendite in corso...</p>

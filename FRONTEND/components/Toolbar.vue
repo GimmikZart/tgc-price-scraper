@@ -1,9 +1,12 @@
 <script setup>
 import { useRouter } from "vue-router";
 import { computed, nextTick, onBeforeUnmount, onMounted, ref, useSlots, watch } from "vue";
+import { useSnackbar } from '@/stores/useSnackbar'
+
 const route = useRoute();
 const router = useRouter();
 const slots = useSlots();
+const snackbar = useSnackbar()
 
 const props = defineProps({
   label: {
@@ -110,13 +113,13 @@ onBeforeUnmount(() => {
           </div>
         </div>
 
-        <div v-if="!route.meta.hideFloatSnackbar" class="px-2 pb-2">
+        <div v-if="!route.meta.hideFloatSnackbar && snackbar.currentTimed" class="px-2 pb-2">
           <TimedSnackbarList />
         </div>
 
         <div
           v-if="hasInfo"
-          class="border-t border-white/10 bg-white/[0.03] px-2 pb-2 pt-2"
+          class="border-t rounded-2xl border-white/10 bg-white/[0.03] px-2 pb-2 pt-2"
         >
           <slot name="info" />
         </div>

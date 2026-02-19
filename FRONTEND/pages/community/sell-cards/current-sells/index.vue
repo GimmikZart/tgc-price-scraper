@@ -28,7 +28,7 @@ onMounted(loadSellListings);
   <section class="relative h-full">
     <Toolbar label="Vendite in Corso" />
 
-    <div class="min-h-0 flex-1 overflow-y-auto px-3 pb-24 pt-1">
+    <div class="min-h-0 flex-1 px-3 pb-24 pt-1">
       <p v-if="isLoading" class="sell-state-message">Caricamento vendite in corso...</p>
       <p v-else-if="!hasListings" class="sell-state-message">Nessuna carta attualmente in vendita</p>
 

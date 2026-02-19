@@ -244,9 +244,10 @@ onMounted(async () => {
       @close="openFilter = false"
     />
 
-    <MobileFloatMenu :cols="5">
+    <MobileFloatMenu :cols="!sellMode && !handleAlbum ? 5 : 2">
       <template #buttons>
         <ButtonMenu
+          v-if="!sellMode && !handleAlbum"
           :icon="collectionIsHandling ? 'mdi-check' : 'fluent:collections-add-24-regular'"
           :label="collectionIsHandling ? 'Termina' : 'Gestisci'"
           :color="collectionIsHandling ? 'green' : 'orange'"
@@ -256,6 +257,7 @@ onMounted(async () => {
         />
 
         <ButtonMenu
+          v-if="!sellMode && !handleAlbum"
           icon="solar:tag-price-outline"
           label="Prezzi"
           transition
@@ -267,6 +269,7 @@ onMounted(async () => {
         />
 
         <ButtonMenu
+          v-if="!sellMode && !handleAlbum"
           icon="material-symbols-light:book-ribbon"
           label="Album"
           transition

@@ -61,6 +61,30 @@ const quantityModel = computed({
   },
 });
 
+const isQuantityValid = computed(() => {
+  const parsedQuantity = Number(quantityModel.value);
+  return Number.isInteger(parsedQuantity) && parsedQuantity > 0 && parsedQuantity <= copiesInCollection.value;
+});
+
+const isUnitPriceValid = computed(() => {
+  const parsedUnitPrice = Number(unitPrice.value);
+  return Number.isFinite(parsedUnitPrice) && parsedUnitPrice > 0;
+});
+
+const isConditionValid = computed(() => Boolean(getConditionMeta(condition.value)));
+
+const hasAllRequiredFields = computed(() => {
+  return (
+    hasSelectedCard.value
+    && copiesInCollection.value > 0
+    && isQuantityValid.value
+    && isUnitPriceValid.value
+    && isConditionValid.value
+  );
+});
+
+const canPutOnSale = computed(() => !isSubmitting.value && hasAllRequiredFields.value);
+
 const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer(viewerCards);
 
 function goToCollectionInSellMode() {
@@ -138,6 +162,13 @@ async function handlePutOnSale() {
   <section class="relative h-full overflow-hidden">
     <Toolbar label="Nuova Vendita" />
 
+    <div v-if="!hasAllRequiredFields" class="px-3 pt-2">
+      <div class="sell-warning-box">
+        <v-icon icon="mdi-alert-circle-outline" size="18" />
+        <span>Compila tutti i campi prima di procede</span>
+      </div>
+    </div>
+
     <div class="flex h-full flex-col px-3 pb-24 pt-3">
       <v-btn
         v-if="!hasSelectedCard"
@@ -151,21 +182,20 @@ async function handlePutOnSale() {
         seleziona carta
       </v-btn>
       <form v-else class="mx-auto w-full max-w-[500px]" @submit.prevent="handlePutOnSale">
-        <div  class="mt-3 flex w-full gap-3">
+        <div  class="mt-3 flex w-full gap-3 items-stretch">
           <div class="w-2/5">
             <Card :card="selectedCard" @open="openViewerFromSelected" />
           </div>
 
-          <div class="w-full h-full flex-1 flex flex-col gap-2">
+          <div class="w-full min-h-0 flex-1 flex flex-col gap-2">
             <div>
               <p class="sell-card-name line-clamp-2">{{ selectedCard.name }}</p>
-              <p class="sell-card-copies text-orange mb-2">{{ selectedCard.copiesInCollection }} copie in collezione</p>
+              <p class="sell-card-copies text-orange">{{ selectedCard.copiesInCollection }} copie in collezione</p>
             </div>
             
             <p class="text-xs font-bold">{{ selectedCard.illustration }} | {{ selectedCard.rarity }}</p>
             <p class="text-xs font-thin">{{ selectedCard.setName }}</p>
             <CardPriceLink
-              class="mt-3"
               :price="selectedCardPrice"
               :href="selectedCardPriceUrl"
               :show-outer-padding="false"
@@ -175,9 +205,10 @@ async function handlePutOnSale() {
             <v-btn
               type="button"
               block
+              density="compact"
               variant="tonal"
               color="orange"
-              class="text-white"
+              class="text-white h-fit"
               @click="goToCollectionInSellMode"
             >
               Cambia
@@ -236,21 +267,6 @@ async function handlePutOnSale() {
           label="Prezzo vendita per singola"
           currency="EUR"
         />
-        <div class="mt-6 flex justify-between gap-2">
-          <v-btn
-            type="button"
-            variant="outlined"
-            color="black"
-            class="text-white w-1/3"
-            :disabled="isSubmitting"
-            @click="handleCancel"
-          >
-            annulla
-          </v-btn>
-          <v-btn type="submit" color="orange" class="w-2/3 text-white" :loading="isSubmitting" :disabled="isSubmitting">
-            metti in vendita
-          </v-btn>
-        </div>
       </form>
 
       <FullscreenCardViewer
@@ -260,12 +276,48 @@ async function handlePutOnSale() {
         @close="viewerOpen = false"
       />
     </div>
+
+    <MobileFloatMenu :cols="2">
+      <template #buttons>
+        <ButtonMenu
+          icon="mdi:close"
+          label="Annulla"
+          color="red"
+          transition
+          :delay="200"
+          :disabled="isSubmitting"
+          @click="handleCancel"
+        />
+        <ButtonMenu
+          icon="mdi:tag-check-outline"
+          label="Metti in vendita"
+          color="orange"
+          transition
+          :delay="100"
+          :disabled="!canPutOnSale"
+          @click="handlePutOnSale"
+        />
+      </template>
+    </MobileFloatMenu>
   </section>
 </template>
 
 <style scoped>
 .sell-page {
   position: relative;
+}
+
+.sell-warning-box {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(255, 176, 93, 0.65);
+  background: rgba(255, 122, 24, 0.22);
+  color: #ffe6cc;
+  padding: 0.6rem 0.75rem;
+  font-size: 0.82rem;
+  font-weight: 600;
 }
 
 .sell-choose-btn {

@@ -1,12 +1,19 @@
 <script setup>
 import { getOfferStatusMeta } from "@/utilities/enums/offerStatus";
+import { useRouter } from "vue-router";
 
 const props = defineProps({
   offerListing: {
     type: Object,
     required: true,
   },
+  chatPathBase: {
+    type: String,
+    default: null,
+  },
 });
+
+const router = useRouter();
 
 const statusMeta = computed(() => getOfferStatusMeta(props.offerListing?.status));
 const statusLabel = computed(() => statusMeta.value?.label ?? props.offerListing?.status ?? "N/D");
@@ -45,11 +52,38 @@ const usernameInitial = computed(() => {
   if (!normalizedUsername) return "?";
   return normalizedUsername[0].toUpperCase();
 });
+
+const normalizedChatPathBase = computed(() => {
+  if (typeof props.chatPathBase !== "string") return null;
+  const normalizedPath = props.chatPathBase.trim();
+  if (!normalizedPath) return null;
+  return normalizedPath.endsWith("/") ? normalizedPath.slice(0, -1) : normalizedPath;
+});
+
+const chatPath = computed(() => {
+  const parsedOfferListingId = Number(props.offerListing?.id);
+  if (!Number.isInteger(parsedOfferListingId) || parsedOfferListingId <= 0) return null;
+  if (!normalizedChatPathBase.value) return null;
+  return `${normalizedChatPathBase.value}/${parsedOfferListingId}/chat`;
+});
+
+const canOpenChat = computed(() => Boolean(chatPath.value));
+
+function handleOpenChat() {
+  if (!canOpenChat.value) return;
+  router.push(chatPath.value);
+}
 </script>
 
 <template>
   <article
     class="flex flex-col justify-between gap-[0.6rem] rounded-[0.9rem] border border-[rgba(255,255,255,0.16)] bg-[linear-gradient(140deg,rgba(14,21,33,0.96),rgba(9,13,22,0.96))] px-[0.55rem] py-2 shadow-[inset_0_1px_0_rgba(255,255,255,0.08),0_12px_22px_rgba(0,0,0,0.34)]"
+    :class="canOpenChat ? 'cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-300/80' : ''"
+    :role="canOpenChat ? 'button' : null"
+    :tabindex="canOpenChat ? 0 : null"
+    @click="handleOpenChat"
+    @keydown.enter.prevent="handleOpenChat"
+    @keydown.space.prevent="handleOpenChat"
   >
     <div class="flex justify-between w-full items-center gap-[0.6rem]">
       <div class="flex gap-2 items-center">
@@ -64,13 +98,27 @@ const usernameInitial = computed(() => {
           <p class="text-[0.72rem] font-semibold leading-[1.1] text-[rgba(203,213,225,0.84)]">{{ userTag }}</p>
         </div>
       </div>
-      
-      <div
-        class="grid h-[1.7rem] w-[1.7rem] place-content-center rounded-full shadow-[0_0_0_2px_rgba(255,255,255,0.14),0_8px_12px_rgba(0,0,0,0.22)]"
-        :style="{ backgroundColor: statusColor }"
-        :title="statusLabel"
-      >
-        <v-icon size="14" color="white">{{ statusIcon }}</v-icon>
+
+      <div class="flex items-center gap-2">
+        <v-chip
+          v-if="canOpenChat"
+          size="x-small"
+          color="orange"
+          variant="tonal"
+          class="font-bold"
+          label
+        >
+          <v-icon start size="13">mdi-chat-processing</v-icon>
+          Chat
+        </v-chip>
+
+        <div
+          class="grid h-[1.7rem] w-[1.7rem] place-content-center rounded-full shadow-[0_0_0_2px_rgba(255,255,255,0.14),0_8px_12px_rgba(0,0,0,0.22)]"
+          :style="{ backgroundColor: statusColor }"
+          :title="statusLabel"
+        >
+          <v-icon size="14" color="white">{{ statusIcon }}</v-icon>
+        </div>
       </div>
     </div>
     <p class="flex items-center gap-2 leading-[1.1] text-[rgba(248,250,252,0.95)]"> 

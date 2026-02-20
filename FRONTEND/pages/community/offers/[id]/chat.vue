@@ -5,5 +5,5 @@ definePageMeta({
 </script>
 
 <template>
-  <NuxtPage />
+  <CommunityOfferListingChatView viewer-role="offerer" />
 </template>

@@ -24,6 +24,10 @@ const props = defineProps({
     type: String,
     default: "Nessuna proposta disponibile al momento",
   },
+  chatPathBase: {
+    type: String,
+    default: null,
+  },
   proposals: {
     type: Array,
     default: () => [],
@@ -89,6 +93,7 @@ watch(listingId, loadListing, { immediate: true });
             v-for="offerListing in proposals"
             :key="offerListing.id"
             :offer-listing="offerListing"
+            :chat-path-base="chatPathBase"
           />
         </div>
         <p v-else class="sell-state-message">{{ emptyProposalsMessage }}</p>

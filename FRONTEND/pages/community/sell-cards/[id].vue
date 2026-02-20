@@ -32,6 +32,7 @@ async function loadOfferListings(sellListingId) {
 <template>
   <CommunitySellListingOffersDetails
     :fetch-listing-by-id="fetchLoggedUserSellListingById"
+    chat-path-base="/community/sell-cards/current-sells"
     :proposals="offerListings"
     :is-loading-proposals="isLoadingOfferListings"
     @listing-updated="handleListingUpdated"

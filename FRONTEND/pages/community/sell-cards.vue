@@ -9,7 +9,9 @@ definePageMeta({
 });
 
 const showDefaultFloatMenu = computed(() => {
-  return route.path !== NEW_SELL_PATH && route.path !== `${NEW_SELL_PATH}/`;
+  const isNewSellRoute = route.path === NEW_SELL_PATH || route.path === `${NEW_SELL_PATH}/`;
+  const isChatRoute = route.path.includes("/chat");
+  return !isNewSellRoute && !isChatRoute;
 });
 </script>
 

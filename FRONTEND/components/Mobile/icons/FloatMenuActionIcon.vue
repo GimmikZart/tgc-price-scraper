@@ -62,6 +62,7 @@ const iconAliases = {
   "mdi-sort-numeric-ascending": "sort-asc",
   "mdi-sort-numeric-descending": "sort-desc",
   "mdi-sort": "sort",
+  "lets-icons:refund-back": "cancel",
 };
 
 const labelAliases = {
@@ -98,6 +99,7 @@ const labelAliases = {
   "z->a": "sort-desc",
   crescente: "sort-asc",
   decrescente: "sort-desc",
+  annulla: "cancel",
 };
 
 const resolvedIconName = computed(() => {
@@ -464,6 +466,18 @@ const strokeWidth = computed(() => (props.active ? 1.5 : 1));
   >
     <circle cx="12" cy="12" r="8.2" stroke="currentColor" :stroke-width="strokeWidth" :fill="active ? 'currentColor' : 'none'" :fill-opacity="active ? 0.14 : 0" />
     <path d="M8.3 12H15.7" stroke="currentColor" :stroke-width="strokeWidth" stroke-linecap="round" />
+  </svg>
+
+  <svg
+    v-else-if="resolvedIconName === 'cancel'"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    aria-hidden="true"
+  >
+    <circle cx="12" cy="12" r="8.2" stroke="currentColor" :stroke-width="strokeWidth" :fill="active ? 'currentColor' : 'none'" :fill-opacity="active ? 0.14 : 0" />
+    <path d="M9.4 9.4L14.6 14.6" stroke="currentColor" :stroke-width="strokeWidth" stroke-linecap="round" />
+    <path d="M14.6 9.4L9.4 14.6" stroke="currentColor" :stroke-width="strokeWidth" stroke-linecap="round" />
   </svg>
 
   <svg

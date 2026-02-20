@@ -1,6 +1,4 @@
 <script setup>
-import { getConditionMeta } from "@/utilities/enums/conditions";
-
 const props = defineProps({
   fetchListingById: {
     type: Function,
@@ -47,31 +45,6 @@ const listingId = computed(() => String(route.params.id ?? ""));
 const hasListingCard = computed(() => Boolean(listing.value?.card));
 const hasProposals = computed(() => props.proposals.length > 0);
 
-const copiesInSale = computed(() => {
-  const parsedValue = Number(listing.value?.quantity);
-  if (!Number.isInteger(parsedValue) || parsedValue < 0) return 0;
-  return parsedValue;
-});
-
-const listingPriceValue = computed(() => {
-  const parsedValue = Number(listing.value?.price);
-  if (!Number.isFinite(parsedValue) || parsedValue <= 0) return null;
-  return parsedValue.toFixed(2);
-});
-
-const conditionMeta = computed(() => getConditionMeta(listing.value?.condition));
-const conditionColor = computed(() => conditionMeta.value?.color ?? "#607d8b");
-const conditionLabel = computed(() => {
-  if (conditionMeta.value?.label) return conditionMeta.value.label;
-
-  const fallbackValue = listing.value?.condition;
-  if (typeof fallbackValue === "string" && fallbackValue.trim()) {
-    return fallbackValue.trim();
-  }
-
-  return "N/D";
-});
-
 const viewerCards = computed(() => (hasListingCard.value ? [listing.value.card] : []));
 const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer(viewerCards);
 
@@ -104,32 +77,7 @@ watch(listingId, loadListing, { immediate: true });
         <p v-if="isLoading" class="sell-state-message">{{ loadingDetailsMessage }}</p>
         <p v-else-if="!listing || !hasListingCard" class="sell-state-message">{{ notFoundMessage }}</p>
 
-        <div v-else class="flex w-full gap-3">
-          <div class="w-2/5">
-            <Card :card="listing.card" @open="openViewerFromSelected" />
-          </div>
-
-          <div class="h-full w-full flex-1 flex flex-col gap-1">
-            <div>
-              <p class="sell-card-name line-clamp-2">{{ listing.card.name }}</p>
-              <p class="sell-card-copies text-xs mb-1">{{ copiesInSale }} copie in vendita</p>
-            </div>
-
-            <v-chip size="x-small" variant="flat" label :color="conditionColor" class="w-fit font-bold">
-              {{ conditionLabel }}
-            </v-chip>
-            <p class="text-xs font-bold">{{ listing.card.rarity }} | {{ listing.card.illustration || 'Base' }}</p>
-            <p class="text-xs font-thin truncate">{{ listing.card.setName }}</p>
-            <CardPriceLink
-              class="mt-1"
-              :price="listingPriceValue"
-              :show-outer-padding="false"
-              :link-enabled="false"
-              label="Prezzo vendita x 1"
-              currency="EUR"
-            />
-          </div>
-        </div>
+        <CommunitySellListingInfoCard v-else :listing="listing" @open-card="openViewerFromSelected" />
       </template>
     </Toolbar>
 
@@ -157,17 +105,6 @@ watch(listingId, loadListing, { immediate: true });
 </template>
 
 <style scoped>
-.sell-card-name {
-  color: rgba(248, 250, 252, 0.98);
-  font-weight: 700;
-  line-height: 1.2;
-}
-
-.sell-card-copies {
-  color: rgb(74 222 128 / 0.95);
-  font-weight: 600;
-}
-
 .sell-state-message {
   margin-top: 0.35rem;
   text-align: center;

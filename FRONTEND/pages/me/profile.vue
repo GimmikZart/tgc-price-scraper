@@ -34,6 +34,20 @@ const userTag = computed(() => {
   return `@${handle}`.toLowerCase();
 });
 
+const userAvatarUrl = computed(() => {
+  const metadata = userAuth.userLogged?.user_metadata ?? {};
+  const candidateAvatarUrls = [
+    metadata.avatar_url,
+    metadata.picture,
+    metadata.photo_url,
+  ];
+
+  const normalizedAvatarUrl = candidateAvatarUrls
+    .find((value) => typeof value === "string" && value.trim());
+
+  return typeof normalizedAvatarUrl === "string" ? normalizedAvatarUrl.trim() : null;
+});
+
 const publicAlbums = computed(() =>
   (albums.value ?? []).filter((album) => album.visibility === "public")
 );
@@ -82,21 +96,12 @@ definePageMeta({
   <section class="relative h-full">
     <Toolbar label="Profilo" fixed> 
       <template #info>
-        <div class="rounded-3xl border border-white/10 bg-white/5 p-2">
-          <div class="flex items-center gap-4">
-            <div
-              class="flex h-20 w-20 shrink-0 items-center justify-center rounded-full border border-white/20 bg-white/10 text-xs font-semibold uppercase tracking-[0.3em] text-white/60"
-            >
-              Foto
-            </div>
-            <div class="min-w-0">
-              <p class="truncate text-xl font-semibold text-white">{{ username }}</p>
-              <p class="text-xs uppercase tracking-[0.25em] text-white/50">
-                {{ userTag }}
-              </p>
-            </div>
-          </div>
-        </div>
+        <UserIdentityHeader
+          :username="username"
+          :user-tag="userTag"
+          :avatar-url="userAvatarUrl"
+          size="md"
+        />
 
         <div class="flex items-center gap-6 border-b border-white/10 px-2 pt-2">
           <button

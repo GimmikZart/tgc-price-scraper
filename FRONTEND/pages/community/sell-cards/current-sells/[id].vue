@@ -1,39 +1,10 @@
 <script setup>
-import {
-  fetchLoggedUserSellListingById,
-  fetchOfferListingsBySellListingId,
-} from "@/api/sellListings";
+const route = useRoute();
 
-const snackbar = useSnackbar();
-const offerListings = ref([]);
-const isLoadingOfferListings = ref(false);
+const listingId = String(route.params.id ?? "").trim();
+const targetPath = listingId
+  ? `/community/sell-cards/${listingId}`
+  : "/community/sell-cards";
 
-function handleListingUpdated(listing) {
-  offerListings.value = [];
-
-  if (!listing?.id) return;
-  loadOfferListings(listing.id);
-}
-
-async function loadOfferListings(sellListingId) {
-  isLoadingOfferListings.value = true;
-
-  try {
-    offerListings.value = await fetchOfferListingsBySellListingId(sellListingId);
-  } catch (error) {
-    offerListings.value = [];
-    snackbar.addMessage(error.message || "Errore durante il recupero delle proposte", "error");
-  } finally {
-    isLoadingOfferListings.value = false;
-  }
-}
+await navigateTo(targetPath, { replace: true });
 </script>
-
-<template>
-  <CommunitySellListingOffersDetails
-    :fetch-listing-by-id="fetchLoggedUserSellListingById"
-    :proposals="offerListings"
-    :is-loading-proposals="isLoadingOfferListings"
-    @listing-updated="handleListingUpdated"
-  />
-</template>

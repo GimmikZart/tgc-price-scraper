@@ -157,6 +157,9 @@ async function sellThisCard(card) {
   }
 }
 
+function navigateBack() {
+  router.back();
+}
 
 // Sincronizza album da query
 watch(selectedAlbum, (newAlbum) => {
@@ -244,7 +247,7 @@ onMounted(async () => {
       @close="openFilter = false"
     />
 
-    <MobileFloatMenu :cols="!sellMode && !handleAlbum ? 5 : 2">
+    <MobileFloatMenu :cols="!sellMode && !handleAlbum ? 5 : 3">
       <template #buttons>
         <ButtonMenu
           v-if="!sellMode && !handleAlbum"
@@ -275,6 +278,16 @@ onMounted(async () => {
           transition
           :delay="100"
           @click="router.push('/me/collection/albums')"
+        />
+
+        <ButtonMenu
+          v-if="sellMode || handleAlbum"
+          icon="lets-icons:refund-back"
+          label="Annulla"
+          color="red"
+          transition
+          :delay="200"
+          @click="navigateBack"
         />
 
         <ButtonSortMenu

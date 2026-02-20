@@ -8,7 +8,6 @@ const sellListingDraftStore = useSellListingDraftStore();
 const { selectedCard, hasSelectedCard, quantity, unitPrice, condition } = storeToRefs(sellListingDraftStore);
 
 const SELL_CARDS_BASE_PATH = "/community/sell-cards";
-const CURRENT_SELLS_PATH = `${SELL_CARDS_BASE_PATH}/current-sells`;
 const PARMA_LATITUDE = 44.8015;
 const PARMA_LONGITUDE = 10.3279;
 
@@ -93,7 +92,7 @@ function goToCollectionInSellMode() {
 
 function handleCancel() {
   sellListingDraftStore.resetDraft();
-  router.push(CURRENT_SELLS_PATH);
+  router.push(SELL_CARDS_BASE_PATH);
 }
 
 function openViewerFromSelected(card) {
@@ -148,7 +147,7 @@ async function handlePutOnSale() {
 
     snackbar.addMessage("Carta messa in vendita con successo", "success");
     sellListingDraftStore.resetDraft();
-    await router.push(CURRENT_SELLS_PATH);
+    await router.push(SELL_CARDS_BASE_PATH);
   } catch (error) {
     snackbar.addMessage(error.message || "Errore durante la creazione della vendita", "error");
   } finally {

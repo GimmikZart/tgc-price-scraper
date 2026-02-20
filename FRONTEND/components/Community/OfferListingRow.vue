@@ -48,113 +48,51 @@ const usernameInitial = computed(() => {
 </script>
 
 <template>
-  <article class="offer-row">
-    <div class="offer-row-main">
-      <div class="offer-avatar">{{ usernameInitial }}</div>
+  <article
+    class="flex flex-col justify-between gap-[0.6rem] rounded-[0.9rem] border border-[rgba(255,255,255,0.16)] bg-[linear-gradient(140deg,rgba(14,21,33,0.96),rgba(9,13,22,0.96))] px-[0.55rem] py-2 shadow-[inset_0_1px_0_rgba(255,255,255,0.08),0_12px_22px_rgba(0,0,0,0.34)]"
+  >
+    <div class="flex justify-between w-full items-center gap-[0.6rem]">
+      <div class="flex gap-2 items-center">
+        <div
+          class="grid h-[2.15rem] w-[2.15rem] place-content-center rounded-full border-2 border-[rgba(248,250,252,0.78)] text-[0.82rem] font-extrabold text-[rgba(241,245,249,0.95)]"
+        >
+          {{ usernameInitial }}
+        </div>
 
-      <div class="offer-user">
-        <p class="offer-username">{{ username }}</p>
-        <p class="offer-user-tag">{{ userTag }}</p>
+        <div class="min-w-0">
+          <p class="text-[0.9rem] font-bold leading-[1.1] text-[rgba(248,250,252,0.95)]">{{ username }}</p>
+          <p class="text-[0.72rem] font-semibold leading-[1.1] text-[rgba(203,213,225,0.84)]">{{ userTag }}</p>
+        </div>
       </div>
-    </div>
-
-    <div class="offer-row-values">
-      <v-chip size="small" color="default" variant="flat" class="offer-qty-chip" label>
-        x {{ quantityValue }}
-      </v-chip>
-
-      <div class="offer-price-box">
-        {{ offerValue }} €
-      </div>
-
-      <div class="offer-status-dot" :style="{ backgroundColor: statusColor }" :title="statusLabel">
+      
+      <div
+        class="grid h-[1.7rem] w-[1.7rem] place-content-center rounded-full shadow-[0_0_0_2px_rgba(255,255,255,0.14),0_8px_12px_rgba(0,0,0,0.22)]"
+        :style="{ backgroundColor: statusColor }"
+        :title="statusLabel"
+      >
         <v-icon size="14" color="white">{{ statusIcon }}</v-icon>
       </div>
     </div>
+    <p class="flex items-center gap-2 leading-[1.1] text-[rgba(248,250,252,0.95)]"> 
+      Offro 
+      <v-chip class="text-orange" density="compact" variant="tonal">
+        {{ offerValue }} € 
+      </v-chip>
+      per 
+      <span class="text-orange">
+        {{ quantityValue }}{{ quantityValue === 1 ? " copia" : " copie" }}.
+      </span>
+    </p>
+    
+    <!-- <div class="flex items-center gap-[0.4rem]">
+      <v-chip size="small" color="default" variant="flat" class="font-bold" label>
+        x {{ quantityValue }}
+      </v-chip>
+
+      <div class="min-w-[4.8rem] rounded-[0.55rem] border border-[rgba(255,255,255,0.2)] px-[0.35rem] py-[0.35rem] text-center text-[0.84rem] font-bold text-[rgba(255,244,234,0.95)]">
+        {{ offerValue }} EUR
+      </div>
+
+    </div> -->
   </article>
 </template>
-
-<style scoped>
-.offer-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.6rem;
-  border: 1px solid rgba(255, 255, 255, 0.16);
-  border-radius: 0.9rem;
-  background: linear-gradient(140deg, rgba(14, 21, 33, 0.96), rgba(9, 13, 22, 0.96));
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.08),
-    0 12px 22px rgba(0, 0, 0, 0.34);
-  padding: 0.5rem 0.55rem;
-}
-
-.offer-row-main {
-  min-width: 0;
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
-}
-
-.offer-avatar {
-  width: 2.15rem;
-  height: 2.15rem;
-  border-radius: 999px;
-  border: 2px solid rgba(248, 250, 252, 0.78);
-  display: grid;
-  place-content: center;
-  font-size: 0.82rem;
-  font-weight: 800;
-  color: rgba(241, 245, 249, 0.95);
-}
-
-.offer-user {
-  min-width: 0;
-}
-
-.offer-username {
-  color: rgba(248, 250, 252, 0.95);
-  font-size: 0.9rem;
-  font-weight: 700;
-  line-height: 1.1;
-}
-
-.offer-user-tag {
-  color: rgba(203, 213, 225, 0.84);
-  font-size: 0.72rem;
-  font-weight: 600;
-  line-height: 1.1;
-}
-
-.offer-row-values {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-}
-
-.offer-qty-chip {
-  font-weight: 700;
-}
-
-.offer-price-box {
-  min-width: 4.8rem;
-  text-align: center;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 0.55rem;
-  padding: 0.35rem 0.35rem;
-  font-size: 0.84rem;
-  font-weight: 700;
-  color: rgba(255, 244, 234, 0.95);
-}
-
-.offer-status-dot {
-  width: 1.7rem;
-  height: 1.7rem;
-  border-radius: 999px;
-  display: grid;
-  place-content: center;
-  box-shadow:
-    0 0 0 2px rgba(255, 255, 255, 0.14),
-    0 8px 12px rgba(0, 0, 0, 0.22);
-}
-</style>

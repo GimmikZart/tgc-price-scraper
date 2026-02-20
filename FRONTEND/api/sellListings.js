@@ -21,12 +21,58 @@ function parseListingId(listingId) {
   return parsePositiveInteger(listingId, "listingId");
 }
 
+function normalizeString(value) {
+  if (typeof value !== "string") return null;
+  const trimmedValue = value.trim();
+  return trimmedValue || null;
+}
+
+function normalizeUserTag(userTag, fallbackValue = null) {
+  const normalizedTag = normalizeString(userTag);
+  if (normalizedTag) {
+    return normalizedTag.startsWith("@") ? normalizedTag : `@${normalizedTag}`;
+  }
+
+  const normalizedFallbackValue = normalizeString(fallbackValue);
+  if (normalizedFallbackValue) {
+    const fallbackTag = normalizedFallbackValue.toLowerCase();
+    return fallbackTag.startsWith("@") ? fallbackTag : `@${fallbackTag}`;
+  }
+
+  return null;
+}
+
+function extractEmailUsername(email) {
+  const normalizedEmail = normalizeString(email);
+  if (!normalizedEmail) return null;
+
+  const [localPart] = normalizedEmail.split("@");
+  const normalizedLocalPart = normalizeString(localPart);
+  return normalizedLocalPart;
+}
+
 function normalizeProfile(rawProfile) {
   if (!rawProfile) return null;
+
+  const username = normalizeString(rawProfile.username);
+  const fallbackUsername = extractEmailUsername(rawProfile.email);
+  const displayName = normalizeString(rawProfile.display_name) ??
+    normalizeString(rawProfile.full_name) ??
+    normalizeString(rawProfile.name) ??
+    username ??
+    fallbackUsername;
+  const avatarUrl = normalizeString(rawProfile.avatar_url) ??
+    normalizeString(rawProfile.profile_image_url) ??
+    normalizeString(rawProfile.photo_url) ??
+    normalizeString(rawProfile.picture) ??
+    normalizeString(rawProfile.image_url);
+
   return {
     id: rawProfile.id ?? null,
-    username: rawProfile.username ?? null,
-    user_tag: rawProfile.user_tag ?? null,
+    username: displayName ?? null,
+    user_tag: normalizeUserTag(rawProfile.user_tag, username ?? fallbackUsername),
+    display_name: displayName ?? null,
+    avatar_url: avatarUrl ?? null,
   };
 }
 
@@ -42,7 +88,7 @@ async function fetchProfilesByIds(client, userIds) {
 
   const { data: profiles = [], error } = await client
     .from("profiles")
-    .select("id,username,user_tag")
+    .select("*")
     .in("id", normalizedUserIds);
 
   if (error) {
@@ -100,6 +146,8 @@ function mapSellListingWithCard(listing, cardById, profileById, offerCountByList
     sellerProfile,
     sellerUsername: sellerProfile?.username ?? null,
     sellerUserTag: sellerProfile?.user_tag ?? null,
+    sellerDisplayName: sellerProfile?.display_name ?? sellerProfile?.username ?? null,
+    sellerAvatarUrl: sellerProfile?.avatar_url ?? null,
     price: hasValidPrice ? parsedPrice : null,
     quantity: hasValidQuantity ? parsedQuantity : 0,
     offersCount,

@@ -13,7 +13,7 @@ import CommunityModeIcon from "@/components/Navbar/icons/CommunityModeIcon.vue";
 const PERSONAL_MODE = "personal";
 const COMMUNITY_MODE = "community";
 const PERSONAL_MODE_LABEL = "Io";
-const COMMUNITY_MODE_LABEL = "Community";
+const COMMUNITY_MODE_LABEL = "Mondo";
 const BUY_CARDS_PATH = "/community/buy-cards";
 const OFFERS_PATH = "/community/offers";
 

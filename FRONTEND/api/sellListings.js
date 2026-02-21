@@ -433,3 +433,28 @@ export async function createOfferListing(payload) {
   const offererProfileById = await fetchProfilesByIds(client, [data?.offerer_id]);
   return mapOfferListings([data], offererProfileById)[0] ?? null;
 }
+
+export async function deleteSellListing(listingId) {
+  const client = useSupabaseClient();
+  const userAuth = useUserAuth();
+
+  const sellerUuid = userAuth?.userLogged?.id;
+  if (!sellerUuid) {
+    throw new Error("User not authenticated");
+  }
+
+  const parsedListingId = parseListingId(listingId);
+
+  const { error } = await client
+    .from("sell_listings")
+    .delete()
+    .eq("id", parsedListingId)
+    .eq("seller_uuid", sellerUuid)
+    .eq("status", "active");
+
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  return parsedListingId;
+}

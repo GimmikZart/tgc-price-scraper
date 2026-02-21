@@ -8,10 +8,12 @@ definePageMeta({
   middleware: "auth",
 });
 
+const isListingDetailRoute = computed(() => Boolean(route.params?.id));
+
 const showDefaultFloatMenu = computed(() => {
   const isNewSellRoute = route.path === NEW_SELL_PATH || route.path === `${NEW_SELL_PATH}/`;
   const isChatRoute = route.path.includes("/chat");
-  return !isNewSellRoute && !isChatRoute;
+  return !isNewSellRoute && !isChatRoute && !isListingDetailRoute.value;
 });
 </script>
 

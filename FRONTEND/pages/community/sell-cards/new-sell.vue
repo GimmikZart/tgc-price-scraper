@@ -158,17 +158,20 @@ async function handlePutOnSale() {
 </script>
 
 <template>
-  <section class="relative h-full overflow-hidden">
-    <Toolbar label="Nuova Vendita" fixed />
+  <section class="relative">
+    <Toolbar label="Nuova Vendita" fixed>
+      <template #info>
+        <div v-if="!hasAllRequiredFields" class="px-3 pt-2">
+          <div class="sell-warning-box">
+            <v-icon icon="mdi-alert-circle-outline" size="18" />
+            <span>Compila tutti i campi prima di procede</span>
+          </div>
+        </div>
+      </template>
+    </Toolbar>
 
-    <div v-if="!hasAllRequiredFields" class="px-3 pt-2">
-      <div class="sell-warning-box">
-        <v-icon icon="mdi-alert-circle-outline" size="18" />
-        <span>Compila tutti i campi prima di procede</span>
-      </div>
-    </div>
 
-    <div class="flex h-full flex-col px-3 pb-24 pt-3">
+    <div class="flex flex-col px-3 pb-5 pt-3">
       <v-btn
         v-if="!hasSelectedCard"
         type="button"
@@ -201,18 +204,7 @@ async function handlePutOnSale() {
               label="CardTrader"
             />
 
-            <v-btn
-              type="button"
-              block
-              density="compact"
-              variant="tonal"
-              color="orange"
-              class="text-white h-fit"
-              @click="goToCollectionInSellMode"
-            >
-              Cambia
-            </v-btn>
-          </div>
+      </div>
         </div>
         <div class="mt-4 space-y-5">
           <div>
@@ -276,7 +268,7 @@ async function handlePutOnSale() {
       />
     </div>
 
-    <MobileFloatMenu :cols="2">
+    <MobileFloatMenu :cols="3">
       <template #buttons>
         <ButtonMenu
           icon="mdi:close"
@@ -288,12 +280,24 @@ async function handlePutOnSale() {
           @click="handleCancel"
         />
         <ButtonMenu
+          class="sell-float-button--small-icon"
+          icon="mdi:cards-playing-outline"
+          label="Cambia"
+          transition
+          :delay="150"
+          @click="goToCollectionInSellMode"
+        />
+        <ButtonMenu
           icon="mdi:tag-check-outline"
-          label="Metti in vendita"
+          label="Vendi"
           color="orange"
           transition
           :delay="100"
           :disabled="!canPutOnSale"
+          :class="[
+            'sell-float-button--small-icon',
+            { 'sell-float-button--green-glow': canPutOnSale },
+          ]"
           @click="handlePutOnSale"
         />
       </template>
@@ -302,6 +306,9 @@ async function handlePutOnSale() {
 </template>
 
 <style scoped>
+html{
+  overflow: hidden;
+}
 .sell-page {
   position: relative;
 }
@@ -372,5 +379,17 @@ async function handlePutOnSale() {
   .sell-form-shell {
     margin-top: 0.4rem;
   }
+}
+
+.sell-float-button--small-icon ::v-deep button > span svg {
+  width: 1.4rem !important;
+  height: 1.4rem !important;
+}
+
+.sell-float-button--green-glow ::v-deep button > span {
+  box-shadow:
+    inset 0 0 6px rgba(34, 197, 94, 0.7),
+    0 0 16px rgba(34, 197, 94, 0.35),
+    0 0 28px rgba(16, 185, 129, 0.45);
 }
 </style>

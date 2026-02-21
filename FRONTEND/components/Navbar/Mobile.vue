@@ -88,11 +88,11 @@ const toggleTargetMode = computed(() => {
 });
 
 const toggleLabel = computed(() => {
-  return currentMode.value === PERSONAL_MODE ? PERSONAL_MODE_LABEL : COMMUNITY_MODE_LABEL;
+  return toggleTargetMode.value === PERSONAL_MODE ? PERSONAL_MODE_LABEL : COMMUNITY_MODE_LABEL;
 });
 
 const toggleIcon = computed(() => {
-  return currentMode.value === PERSONAL_MODE ? PersonalModeIcon : CommunityModeIcon;
+  return toggleTargetMode.value === PERSONAL_MODE ? PersonalModeIcon : CommunityModeIcon;
 });
 
 const isVisualActiveItem = (item) => {
@@ -233,7 +233,7 @@ watch(currentMode, (mode) => {
         <div class="relative flex h-full items-start justify-center">
           <button
             type="button"
-            class="group relative border flex h-[66px] w-[66px] flex-col items-center justify-center rounded-full border border-[#ffb27d] bg-slate-900 text-[#ffd1a9] transition-all duration-200 ease-out hover:scale-[1.03] hover:border-[#ffd0a5] disabled:cursor-wait disabled:opacity-95"
+            class="mode-toggle-button group relative flex h-[66px] w-[66px] flex-col items-center justify-center rounded-full border border-[#ff7a18] bg-slate-900 text-[#ffd1a9] transition-all duration-200 ease-out hover:scale-[1.03] hover:border-[#ff7a18] disabled:cursor-wait disabled:opacity-95"
             :disabled="isModeSwitching"
             @click="toggleMode"
           >
@@ -332,5 +332,13 @@ watch(currentMode, (mode) => {
 .center-swap-leave-to {
   opacity: 0;
   transform: scale(0.9);
+}
+
+.mode-toggle-button {
+  box-shadow: 0 0 0 0.2rem #ff7a18;
+}
+
+.mode-toggle-button:hover {
+  box-shadow: 0 0 0 0.24rem #ff7a18;
 }
 </style>

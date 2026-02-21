@@ -71,7 +71,7 @@ function goToListingDetails() {
       size="sm"
     >
       <template v-if="showProposalsInHeaderSlot" #trailing>
-        <v-chip size="small" variant="outlined" color="gray" label>
+        <v-chip size="small" variant="outlined" color="gray" label class="identity-proposals-chip">
           {{ proposalsCount }} Proposte
         </v-chip>
       </template>
@@ -106,5 +106,14 @@ function goToListingDetails() {
   align-items: center;
   justify-content: flex-end;
   gap: 0.35rem;
+}
+.identity-proposals-chip {
+  border-radius: 0.72rem !important;
+  padding-left: 0.6rem !important;
+  padding-right: 0.6rem !important;
+  border-color: rgba(255, 255, 255, 0.35) !important;
+  background: rgba(255, 255, 255, 0.04) !important;
+  min-height: 1.6rem;
+  font-size: 0.68rem;
 }
 </style>

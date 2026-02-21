@@ -37,6 +37,7 @@ onMounted(loadSellListings);
           v-for="listing in sellListings"
           :key="listing.id"
           :listing="listing"
+          show-proposals-in-header-slot
         />
       </div>
     </div>

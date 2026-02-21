@@ -109,18 +109,6 @@ function handleOpenChat() {
           :can-open-chat="canOpenChat"
           :open-chat="handleOpenChat"
         >
-          <v-chip
-            v-if="canOpenChat"
-            size="x-small"
-            color="orange"
-            variant="tonal"
-            class="font-bold"
-            label
-          >
-            <v-icon start size="13">mdi-chat-processing</v-icon>
-            Chat
-          </v-chip>
-
           <div
             class="grid h-[1.7rem] w-[1.7rem] place-content-center rounded-full shadow-[0_0_0_2px_rgba(255,255,255,0.14),0_8px_12px_rgba(0,0,0,0.22)]"
             :style="{ backgroundColor: statusColor }"

@@ -116,9 +116,11 @@ const bottomDistance = computed(() => {
           </v-card-text>
 
           <v-card-actions class="border-t border-white/10 bg-black/30 px-4 py-3 pb-10">
-            <v-spacer />
-            <v-btn class="generic-btn generic-btn--cancel" variant="text" @click.stop="closeDialog">Annulla</v-btn>
-            <v-btn class="generic-btn generic-btn--accept" :color="acceptColor" variant="flat" @click="handleConfirm">{{ acceptLabel }}</v-btn>
+            <slot name="actions" :close-dialog="closeDialog" :handle-confirm="handleConfirm">
+              <v-spacer />
+              <v-btn class="generic-btn generic-btn--cancel" variant="text" @click.stop="closeDialog">Annulla</v-btn>
+              <v-btn class="generic-btn generic-btn--accept" :color="acceptColor" variant="flat" @click="handleConfirm">{{ acceptLabel }}</v-btn>
+            </slot>
           </v-card-actions>
         </v-card>
       </div>

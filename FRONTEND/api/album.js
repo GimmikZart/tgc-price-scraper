@@ -1,5 +1,76 @@
 import { useSnackbar } from "@/stores/useSnackbar";
 import { generateSlug } from "@/utilities/generateSlug";
+
+function normalizeString(value) {
+  if (typeof value !== "string") return null;
+  const trimmedValue = value.trim();
+  return trimmedValue || null;
+}
+
+function isUuid(value) {
+  const normalizedValue = normalizeString(value);
+  if (!normalizedValue) return false;
+
+  return /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i
+    .test(normalizedValue);
+}
+
+function parseProfileTagFilters(profileTagOrSlug) {
+  const normalizedTagOrSlug = normalizeString(profileTagOrSlug);
+  if (!normalizedTagOrSlug) return null;
+
+  let decodedTagOrSlug = normalizedTagOrSlug;
+  try {
+    decodedTagOrSlug = decodeURIComponent(normalizedTagOrSlug);
+  } catch {
+    decodedTagOrSlug = normalizedTagOrSlug;
+  }
+
+  const normalizedTag = decodedTagOrSlug.trim().replace(/^@+/, "").toLowerCase();
+  if (!normalizedTag) return null;
+
+  return {
+    withPrefix: `@${normalizedTag}`,
+    withoutPrefix: normalizedTag,
+  };
+}
+
+function extractProfileUserUuids(profile = {}) {
+  const profileUserUuidCandidates = [
+    profile?.user_uuid,
+    profile?.id,
+    profile?.auth_user_id,
+    profile?.uuid,
+  ];
+
+  return [...new Set(
+    profileUserUuidCandidates
+      .map((candidate) => normalizeString(candidate))
+      .filter((candidate) => isUuid(candidate)),
+  )];
+}
+
+async function fetchProfileUserUuidsByTag(client, profileTagOrSlug) {
+  const profileTagFilters = parseProfileTagFilters(profileTagOrSlug);
+  if (!profileTagFilters) {
+    throw new Error("tag profilo non valido");
+  }
+
+  const { data: profiles = [], error } = await client
+    .from("profiles")
+    .select("*")
+    .or(
+      `user_tag.ilike.${profileTagFilters.withPrefix},user_tag.ilike.${profileTagFilters.withoutPrefix}`
+    )
+    .limit(1);
+
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  if (!profiles.length) return [];
+  return extractProfileUserUuids(profiles[0]);
+}
 export async function createAlbum(albumName, slots) {
   const client = useSupabaseClient();
   const userAuth = useUserAuth();
@@ -46,6 +117,49 @@ export async function getAlbums() {
   }
   return albums;
 }
+
+export async function getPublicAlbumsByUser(userUuid) {
+  const normalizedUserUuid = typeof userUuid === "string" ? userUuid.trim() : "";
+  if (!normalizedUserUuid) {
+    throw new Error("userUuid non valido");
+  }
+
+  const client = useSupabaseClient();
+
+  const { data: albums = [], error } = await client
+    .from("albums")
+    .select("*")
+    .eq("user_uuid", normalizedUserUuid)
+    .eq("visibility", "public")
+    .order("name", { ascending: true });
+
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  return albums;
+}
+
+export async function getPublicAlbumsByUserTag(profileTagOrSlug) {
+  const client = useSupabaseClient();
+  const profileUserUuids = await fetchProfileUserUuidsByTag(client, profileTagOrSlug);
+
+  if (!profileUserUuids.length) return [];
+
+  const { data: albums = [], error } = await client
+    .from("albums")
+    .select("*")
+    .in("user_uuid", profileUserUuids)
+    .eq("visibility", "public")
+    .order("name", { ascending: true });
+
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  return albums;
+}
+
 export async function getAlbum(slug) {
   const client = useSupabaseClient();
   const userAuth = useUserAuth();

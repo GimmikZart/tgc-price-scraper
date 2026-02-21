@@ -1,3 +1,5 @@
+import { OfferStatus } from "@/utilities/enums/offerStatus";
+
 function parsePositiveInteger(value, fieldName) {
   const parsedValue = Number(value);
 
@@ -136,6 +138,20 @@ function normalizeMessageBody(body) {
 
 function parseOfferListingId(offerListingId) {
   return parsePositiveInteger(offerListingId, "offerListingId");
+}
+
+function parseOfferStatus(status) {
+  const normalizedStatus = normalizeString(status);
+  if (!normalizedStatus) {
+    throw new Error("status is required");
+  }
+
+  const validStatuses = Object.values(OfferStatus);
+  if (!validStatuses.includes(normalizedStatus)) {
+    throw new Error(`status must be one of: ${validStatuses.join(", ")}`);
+  }
+
+  return normalizedStatus;
 }
 
 function createChannelName(offerListingId) {
@@ -286,6 +302,85 @@ export async function fetchOfferListingHasUnreadMessages(offerListingId) {
   }
 
   return unreadMessages.length > 0;
+}
+
+export async function updateOfferListingStatus(payload) {
+  const client = useSupabaseClient();
+  const userAuth = useUserAuth();
+  const viewerId = userAuth?.userLogged?.id ?? null;
+
+  if (!viewerId) {
+    throw new Error("User not authenticated");
+  }
+
+  const parsedOfferListingId = parseOfferListingId(payload?.offerListingId);
+  const status = parseOfferStatus(payload?.status);
+
+  const { data: offerListing, error: offerListingError } = await client
+    .from("offer_listing")
+    .select("*")
+    .eq("id", parsedOfferListingId)
+    .maybeSingle();
+
+  if (offerListingError) {
+    throw new Error(offerListingError.message);
+  }
+
+  if (!offerListing) {
+    throw new Error("Offer listing not found");
+  }
+
+  const parsedSellListingId = parsePositiveInteger(offerListing.sell_list_id, "sell_list_id");
+  const { data: sellListing, error: sellListingError } = await client
+    .from("sell_listings")
+    .select("id, seller_uuid")
+    .eq("id", parsedSellListingId)
+    .maybeSingle();
+
+  if (sellListingError) {
+    throw new Error(sellListingError.message);
+  }
+
+  if (!sellListing) {
+    throw new Error("Sell listing not found");
+  }
+
+  if (String(sellListing.seller_uuid ?? "") !== String(viewerId)) {
+    throw new Error("Non sei autorizzato a rispondere a questa proposta");
+  }
+
+  if (offerListing.status === status) {
+    const profileById = await fetchProfilesByIds(client, [offerListing?.offerer_id]);
+    return mapOfferListingWithProfile(offerListing, profileById);
+  }
+
+  const { data: updatedOfferListing, error: updateError } = await client
+    .from("offer_listing")
+    .update({ status })
+    .eq("id", parsedOfferListingId)
+    .select("*")
+    .single();
+
+  if (updateError) {
+    throw new Error(updateError.message);
+  }
+
+  const profileById = await fetchProfilesByIds(client, [updatedOfferListing?.offerer_id]);
+  return mapOfferListingWithProfile(updatedOfferListing, profileById);
+}
+
+export async function acceptOfferListingProposal(offerListingId) {
+  return updateOfferListingStatus({
+    offerListingId,
+    status: OfferStatus.Accepted,
+  });
+}
+
+export async function rejectOfferListingProposal(offerListingId) {
+  return updateOfferListingStatus({
+    offerListingId,
+    status: OfferStatus.Rejected,
+  });
 }
 
 export function subscribeToOfferListingChatMessages(offerListingId, handlers = {}) {

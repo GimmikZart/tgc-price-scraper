@@ -1,11 +1,15 @@
 <script setup>
 import {
+  acceptOfferListingProposal,
   fetchOfferListingChatContext,
   fetchOfferListingChatMessages,
   markOfferListingChatMessagesAsSeen,
+  rejectOfferListingProposal,
   sendOfferListingChatMessage,
   subscribeToOfferListingChatMessages,
+  updateOfferListingStatus,
 } from "@/api/offerListingChat";
+import { OfferStatus } from "@/utilities/enums/offerStatus";
 
 const props = defineProps({
   viewerRole: {
@@ -26,7 +30,10 @@ const draftMessage = ref("");
 const isLoadingContext = ref(true);
 const isLoadingMessages = ref(false);
 const isSendingMessage = ref(false);
+const isUpdatingOfferStatus = ref(false);
+const offerManagementDialogRef = ref(null);
 const messagesScrollRef = ref(null);
+const messagesBottomRef = ref(null);
 const realtimeSubscription = ref(null);
 const isMarkingSeen = ref(false);
 
@@ -53,9 +60,46 @@ const normalizedDraftMessage = computed(() => draftMessage.value.trim());
 const remainingCharacters = computed(() => Math.max(150 - draftMessage.value.length, 0));
 const isSendEnabled = computed(() => {
   if (!viewerCanAccessChat.value) return false;
+  if (isChatDisabledByStatus.value) return false;
   if (isSendingMessage.value) return false;
   if (!normalizedDraftMessage.value) return false;
   return normalizedDraftMessage.value.length <= 150;
+});
+const currentOfferStatus = computed(() => chatContext.value?.offerListing?.status ?? null);
+const isOfferRejected = computed(() => currentOfferStatus.value === OfferStatus.Rejected);
+const isChatDisabledByStatus = computed(() => isOfferRejected.value);
+const showRejectedChatWarning = computed(() => {
+  if (!hasContext.value) return false;
+  if (!viewerCanAccessChat.value) return false;
+  return isOfferRejected.value;
+});
+const rejectedChatWarningMessage = computed(() => {
+  if (props.viewerRole === "seller") {
+    return "Hai rifiutato l'offerta. La chat è stata disattivata.";
+  }
+  return "Il venditore ha rifiutato l'offerta. La chat è stata disattivata.";
+});
+const canManageOfferStatus = computed(() => {
+  if (props.viewerRole !== "seller") return false;
+  if (!viewerCanAccessChat.value) return false;
+
+  const parsedOfferListingId = Number(chatContext.value?.offerListing?.id);
+  return Number.isInteger(parsedOfferListingId) && parsedOfferListingId > 0;
+});
+const canAcceptOffer = computed(() => {
+  if (!canManageOfferStatus.value) return false;
+  if (isUpdatingOfferStatus.value) return false;
+  return currentOfferStatus.value !== OfferStatus.Accepted;
+});
+const canRejectOffer = computed(() => {
+  if (!canManageOfferStatus.value) return false;
+  if (isUpdatingOfferStatus.value) return false;
+  return currentOfferStatus.value !== OfferStatus.Rejected;
+});
+const canRevokeRejectedOffer = computed(() => {
+  if (!canManageOfferStatus.value) return false;
+  if (isUpdatingOfferStatus.value) return false;
+  return isOfferRejected.value;
 });
 
 const viewerCards = computed(() => {
@@ -128,6 +172,18 @@ function removeMessage(messageId) {
   messages.value = messages.value.filter((message) => Number(message?.id) !== parsedMessageId);
 }
 
+function applyUpdatedOfferListing(updatedOfferListing) {
+  if (!chatContext.value || !updatedOfferListing) return;
+
+  chatContext.value = {
+    ...chatContext.value,
+    offerListing: {
+      ...chatContext.value.offerListing,
+      ...updatedOfferListing,
+    },
+  };
+}
+
 function scrollToBottom(behavior = "smooth") {
   nextTick(() => {
     const containerElement = messagesScrollRef.value;
@@ -138,6 +194,114 @@ function scrollToBottom(behavior = "smooth") {
       behavior,
     });
   });
+}
+
+function wait(ms) {
+  return new Promise((resolve) => {
+    setTimeout(resolve, ms);
+  });
+}
+
+async function ensureMessagesAtBottom() {
+  // The message container might appear a bit later due to conditional rendering.
+  for (let attempt = 0; attempt < 12; attempt += 1) {
+    await nextTick();
+
+    const containerElement = messagesScrollRef.value;
+    const anchorElement = messagesBottomRef.value;
+    if (!containerElement) {
+      await wait(30);
+      continue;
+    }
+
+    if (anchorElement?.scrollIntoView) {
+      anchorElement.scrollIntoView({
+        block: "end",
+        inline: "nearest",
+        behavior: "auto",
+      });
+    }
+
+    containerElement.scrollTop = containerElement.scrollHeight;
+
+    const maxScrollTop = Math.max(containerElement.scrollHeight - containerElement.clientHeight, 0);
+    const isAtBottom = Math.abs(maxScrollTop - containerElement.scrollTop) <= 2;
+    if (isAtBottom) return;
+
+    await wait(30);
+  }
+}
+
+function closeOfferManagementDialog() {
+  offerManagementDialogRef.value?.closeDialog?.();
+}
+
+async function handleUpdateOfferStatus(nextStatus) {
+  if (!canManageOfferStatus.value) return;
+
+  const parsedOfferListingId = Number(chatContext.value?.offerListing?.id);
+  if (!Number.isInteger(parsedOfferListingId) || parsedOfferListingId <= 0) return;
+
+  if (currentOfferStatus.value === nextStatus) {
+    closeOfferManagementDialog();
+    return;
+  }
+
+  isUpdatingOfferStatus.value = true;
+
+  try {
+    const updatedOfferListing = nextStatus === OfferStatus.Accepted
+      ? await acceptOfferListingProposal(parsedOfferListingId)
+      : await rejectOfferListingProposal(parsedOfferListingId);
+
+    applyUpdatedOfferListing(updatedOfferListing);
+    closeOfferManagementDialog();
+
+    const successMessage = nextStatus === OfferStatus.Accepted
+      ? "Proposta accettata"
+      : "Proposta rifiutata";
+    snackbar.addMessage(successMessage, "success");
+  } catch (error) {
+    snackbar.addMessage(error.message || "Errore durante l'aggiornamento dello stato proposta", "error");
+  } finally {
+    isUpdatingOfferStatus.value = false;
+  }
+}
+
+async function handleAcceptOffer() {
+  await handleUpdateOfferStatus(OfferStatus.Accepted);
+}
+
+async function handleRejectOffer() {
+  await handleUpdateOfferStatus(OfferStatus.Rejected);
+}
+
+function handleDeliverOffer() {
+  snackbar.addMessage("Azione consegna da implementare", "info");
+}
+
+async function handleRevokeRejectedOffer() {
+  if (!canManageOfferStatus.value) return;
+  if (!isOfferRejected.value) return;
+
+  const parsedOfferListingId = Number(chatContext.value?.offerListing?.id);
+  if (!Number.isInteger(parsedOfferListingId) || parsedOfferListingId <= 0) return;
+
+  isUpdatingOfferStatus.value = true;
+
+  try {
+    const updatedOfferListing = await updateOfferListingStatus({
+      offerListingId: parsedOfferListingId,
+      status: OfferStatus.Pending,
+    });
+
+    applyUpdatedOfferListing(updatedOfferListing);
+    snackbar.addMessage("Rifiuto revocato. Offerta riportata a Pending.", "success");
+  } catch (error) {
+    snackbar.addMessage(error.message || "Errore durante la revoca del rifiuto", "error");
+  } finally {
+    isUpdatingOfferStatus.value = false;
+  }
 }
 
 async function markIncomingMessagesAsSeen() {
@@ -164,12 +328,15 @@ async function loadChatMessages() {
   try {
     messages.value = await fetchOfferListingChatMessages(offerListingId.value);
     await markIncomingMessagesAsSeen();
-    scrollToBottom("auto");
   } catch (error) {
     messages.value = [];
     snackbar.addMessage(error.message || "Errore durante il caricamento dei messaggi", "error");
   } finally {
     isLoadingMessages.value = false;
+
+    if (messages.value.length > 0) {
+      await ensureMessagesAtBottom();
+    }
   }
 }
 
@@ -252,6 +419,7 @@ async function bootstrapChat() {
   messages.value = [];
   draftMessage.value = "";
   chatContext.value = null;
+  closeOfferManagementDialog();
 
   await loadChatContext();
 
@@ -265,6 +433,24 @@ async function bootstrapChat() {
 
 if (import.meta.client) {
   watch(offerListingId, bootstrapChat, { immediate: true });
+  watch(
+    () => messagesScrollRef.value,
+    async (containerElement) => {
+      if (!containerElement) return;
+      if (!hasMessages.value) return;
+      await ensureMessagesAtBottom();
+    },
+    { flush: "post" },
+  );
+  watch(
+    () => [isLoadingMessages.value, hasMessages.value, offerListingId.value],
+    async ([isLoading, hasVisibleMessages]) => {
+      if (isLoading) return;
+      if (!hasVisibleMessages) return;
+      await ensureMessagesAtBottom();
+    },
+    { flush: "post" },
+  );
 
   onBeforeUnmount(() => {
     detachRealtimeSubscription();
@@ -281,6 +467,18 @@ if (import.meta.client) {
 
         <template v-else>
           <CommunityOfferListingRow :offer-listing="chatContext.offerListing" />
+          <div v-if="showRejectedChatWarning" class="chat-warning-box">
+            <p class="chat-warning-message">{{ rejectedChatWarningMessage }}</p>
+            <button
+              v-if="props.viewerRole === 'seller'"
+              type="button"
+              class="chat-warning-action"
+              :disabled="!canRevokeRejectedOffer"
+              @click="handleRevokeRejectedOffer"
+            >
+              Revoca rifiuto
+            </button>
+          </div>
         </template>
       </template>
     </Toolbar>
@@ -292,33 +490,36 @@ if (import.meta.client) {
         <p v-else-if="!viewerCanAccessChat" class="chat-state-message">Non puoi accedere a questa chat</p>
         <p v-else-if="!hasMessages" class="chat-state-message">Nessun messaggio per ora</p>
 
-        <div v-else ref="messagesScrollRef" class="space-y-2 h-full overflow-y-auto pb-1 flex flex-col justify-end">
-          <template v-for="(message, index) in messages" :key="message.id">
-            <div v-if="index === firstUnseenIncomingMessageIndex" class="new-messages-divider mt-5">
-              <span class="new-messages-label">Nuovi messaggi</span>
-              <span class="new-messages-line" />
-            </div>
-
-            <article
-              class="message-row"
-              :class="isOwnMessage(message) ? 'is-own' : 'is-other'"
-            >
-              <div class="message-bubble">
-                <p class="message-body">{{ message.body }}</p>
-                <div class="message-meta">
-                  <span>{{ formatMessageTime(message.created_at) }}</span>
-
-                  <v-icon
-                    v-if="isOwnMessage(message)"
-                    size="13"
-                    :color="message.seen_at ? '#4ade80' : 'rgba(203,213,225,0.82)'"
-                  >
-                    mdi-check-all
-                  </v-icon>
-                </div>
+        <div v-else ref="messagesScrollRef" class="h-full overflow-y-auto pb-1">
+          <div class="min-h-full space-y-2 flex flex-col justify-end">
+            <template v-for="(message, index) in messages" :key="message.id">
+              <div v-if="index === firstUnseenIncomingMessageIndex" class="new-messages-divider mt-5">
+                <span class="new-messages-label">Nuovi messaggi</span>
+                <span class="new-messages-line" />
               </div>
-            </article>
-          </template>
+
+              <article
+                class="message-row"
+                :class="isOwnMessage(message) ? 'is-own' : 'is-other'"
+              >
+                <div class="message-bubble">
+                  <p class="message-body">{{ message.body }}</p>
+                  <div class="message-meta">
+                    <span>{{ formatMessageTime(message.created_at) }}</span>
+
+                    <v-icon
+                      v-if="isOwnMessage(message)"
+                      size="13"
+                      :color="message.seen_at ? '#4ade80' : 'rgba(203,213,225,0.82)'"
+                    >
+                      mdi-check-all
+                    </v-icon>
+                  </div>
+                </div>
+              </article>
+            </template>
+            <div ref="messagesBottomRef" aria-hidden="true" class="h-px w-full" />
+          </div>
         </div>
       </div>
     </div>
@@ -337,7 +538,7 @@ if (import.meta.client) {
           counter
           class="chat-textarea"
           placeholder="Scrivi un messaggio..."
-          :disabled="!viewerCanAccessChat || isSendingMessage"
+          :disabled="!viewerCanAccessChat || isChatDisabledByStatus || isSendingMessage"
           @keydown.ctrl.enter.prevent="handleSendMessage"
         />
 
@@ -358,7 +559,106 @@ if (import.meta.client) {
 
     <MobileFloatMenu v-if="isMobile" :cols="1">
       <template #buttons>
-        <div class="chat-composer">
+        <div
+          class="chat-composer chat-composer-mobile"
+          :class="canManageOfferStatus ? 'with-status-actions' : 'without-status-actions'"
+        >
+          <div v-if="canManageOfferStatus" class="proposal-response-wrap">
+            <DialogsGeneric
+              ref="offerManagementDialogRef"
+              :disabled="isUpdatingOfferStatus"
+            >
+              <template #button>
+                <button
+                  type="button"
+                  class="proposal-response-toggle-btn"
+                  :disabled="isUpdatingOfferStatus"
+                  title="Rispondi alla proposta"
+                >
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="proposal-response-icon"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M5 5.5H19C20.1 5.5 21 6.4 21 7.5V15C21 16.1 20.1 17 19 17H11L7 20V17H5C3.9 17 3 16.1 3 15V7.5C3 6.4 3.9 5.5 5 5.5Z"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M9 10H15"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M13.4 8.5L15 10L13.4 11.5"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M10.6 13.5L9 12L10.6 10.5"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
+              </template>
+
+              <template #title>Gestione vendita</template>
+
+              <template #content>
+                <p class="offer-management-description">Imposta lo status della trattativa.</p>
+              </template>
+
+              <template #actions="{ closeDialog }">
+                <div class="offer-management-actions">
+                  <div class="offer-management-main-actions">
+                    <v-btn
+                      block
+                      variant="flat"
+                      class="offer-management-action-btn offer-management-action-btn--reject"
+                      :disabled="!canRejectOffer"
+                      :loading="isUpdatingOfferStatus"
+                      @click="handleRejectOffer"
+                    >
+                      Rifiuta
+                    </v-btn>
+
+                    <v-btn
+                      block
+                      variant="flat"
+                      class="offer-management-action-btn offer-management-action-btn--accept"
+                      :disabled="!canAcceptOffer"
+                      :loading="isUpdatingOfferStatus"
+                      @click="handleAcceptOffer"
+                    >
+                      Accetta
+                    </v-btn>
+                  </div>
+
+                  <v-btn
+                    block
+                    variant="flat"
+                    class="offer-management-action-btn offer-management-action-btn--deliver"
+                    :disabled="isUpdatingOfferStatus"
+                    @click="handleDeliverOffer(); closeDialog()"
+                  >
+                    Consegna
+                  </v-btn>
+                </div>
+              </template>
+            </DialogsGeneric>
+          </div>
+
           <v-textarea
             v-model="draftMessage"
             variant="outlined"
@@ -371,7 +671,7 @@ if (import.meta.client) {
             counter
             class="chat-textarea"
             placeholder="Scrivi un messaggio..."
-            :disabled="!viewerCanAccessChat || isSendingMessage"
+            :disabled="!viewerCanAccessChat || isChatDisabledByStatus || isSendingMessage"
             @keydown.ctrl.enter.prevent="handleSendMessage"
           />
 
@@ -391,7 +691,6 @@ if (import.meta.client) {
             
               
           </div>
-          
         </div>
       </template>
     </MobileFloatMenu>
@@ -412,6 +711,39 @@ if (import.meta.client) {
   font-size: 0.86rem;
   font-weight: 600;
   padding: 0.55rem 0;
+}
+
+.chat-warning-box {
+  margin-top: 0.45rem;
+  border: 1px solid rgba(239, 68, 68, 0.34);
+  border-radius: 0.75rem;
+  padding: 0.55rem 0.65rem;
+  background: linear-gradient(145deg, rgba(127, 29, 29, 0.25), rgba(30, 41, 59, 0.35));
+}
+
+.chat-warning-message {
+  color: rgba(254, 226, 226, 0.94);
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.chat-warning-action {
+  margin-top: 0.28rem;
+  border: none;
+  background: transparent;
+  padding: 0;
+  color: rgba(254, 226, 226, 0.96);
+  font-size: 0.79rem;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+
+.chat-warning-action:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 
 .message-shell {
@@ -497,13 +829,98 @@ if (import.meta.client) {
   display: grid;
   grid-template-columns: 1fr auto;
   gap: 0.55rem;
-  align-items: end;
+  align-items: center;
+}
+
+.chat-composer-mobile.with-status-actions {
+  grid-template-columns: auto 1fr auto;
+}
+
+.chat-composer-mobile.without-status-actions {
+  grid-template-columns: 1fr auto;
 }
 
 .chat-send-btn {
   min-width: 2.8rem !important;
   min-height: 2.8rem !important;
   border-radius: 999px !important;
+}
+
+.proposal-response-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.proposal-response-toggle-btn {
+  display: grid;
+  place-content: center;
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 999px;
+  border: 1px solid rgba(96, 165, 250, 0.42);
+  background: linear-gradient(155deg, rgba(30, 64, 175, 0.94), rgba(15, 23, 42, 0.96));
+  color: rgba(239, 246, 255, 0.95);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.18),
+    0 10px 18px rgba(0, 0, 0, 0.32);
+  transition: transform 160ms ease, filter 160ms ease, opacity 160ms ease;
+}
+
+.proposal-response-toggle-btn:hover:not(:disabled) {
+  transform: translateY(-1px);
+  filter: brightness(1.08);
+}
+
+.proposal-response-toggle-btn:disabled {
+  opacity: 0.58;
+  cursor: not-allowed;
+}
+
+.proposal-response-icon {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.offer-management-description {
+  color: rgba(226, 232, 240, 0.9);
+  font-size: 0.92rem;
+  line-height: 1.35;
+}
+
+.offer-management-actions {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.offer-management-main-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.55rem;
+}
+
+.offer-management-action-btn {
+  border-radius: 0.75rem !important;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.offer-management-action-btn--reject {
+  background: linear-gradient(145deg, rgba(220, 38, 38, 0.94), rgba(127, 29, 29, 0.98)) !important;
+  color: rgba(248, 250, 252, 0.98) !important;
+}
+
+.offer-management-action-btn--accept {
+  background: linear-gradient(145deg, rgba(22, 163, 74, 0.94), rgba(20, 83, 45, 0.98)) !important;
+  color: rgba(248, 250, 252, 0.98) !important;
+}
+
+.offer-management-action-btn--deliver {
+  background: linear-gradient(145deg, rgba(251, 146, 60, 0.96), rgba(234, 88, 12, 0.98)) !important;
+  color: rgba(248, 250, 252, 0.98) !important;
 }
 
 .chat-remaining-chars {

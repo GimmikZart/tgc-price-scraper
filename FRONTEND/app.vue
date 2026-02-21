@@ -22,4 +22,9 @@ onUnmounted(() => disconnect());
     <NuxtPage />
   </NuxtLayout>
 </template>
+<style>
+html{
+  background: black;
+}
+</style>
 

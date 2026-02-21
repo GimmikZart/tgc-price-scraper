@@ -70,14 +70,6 @@ const paginatedCards = computed(() => {
   return albumSlotsWithCards.value.slice(start, start + itemsPerPage);
 });
 
-const canGoPrevPage = computed(() => qPage.value > 1);
-const canGoNextPage = computed(() => qPage.value < totalPages.value);
-
-function setPage(page) {
-  const nextPage = Math.max(1, Math.min(totalPages.value, page));
-  qPage.value = nextPage;
-}
-
 const paginatedCardFormatted = computed(() => {
   return paginatedCards.value.map((slot) => slot.card).filter((c) => c !== null);
 });
@@ -293,32 +285,11 @@ definePageMeta({ middleware: "auth" });
             @click="gs.toggleAlbumHandling()"
           />
 
-          <div class="flex w-full flex-col items-center justify-center gap-1 rounded-2xl px-1 pb-2 pt-2 text-slate-200/85">
-            <span class="text-[10px] uppercase tracking-[0.08em] text-slate-400/90">Pagina</span>
-            <div class="flex h-9 w-full items-center justify-between rounded-xl border border-white/15 bg-white/5 px-1">
-              <button
-                type="button"
-                class="inline-flex h-7 w-7 items-center justify-center rounded-lg transition-colors disabled:opacity-35 disabled:cursor-not-allowed hover:bg-white/10"
-                :disabled="!canGoPrevPage"
-                @click="setPage(qPage - 1)"
-              >
-                <Icon icon="lucide:chevron-left" class="text-base" />
-              </button>
-
-              <span class="text-[12px] font-semibold leading-none tabular-nums">
-                {{ qPage }} / {{ totalPages }}
-              </span>
-
-              <button
-                type="button"
-                class="inline-flex h-7 w-7 items-center justify-center rounded-lg transition-colors disabled:opacity-35 disabled:cursor-not-allowed hover:bg-white/10"
-                :disabled="!canGoNextPage"
-                @click="setPage(qPage + 1)"
-              >
-                <Icon icon="lucide:chevron-right" class="text-base" />
-              </button>
-            </div>
-          </div>
+          <MobilePaginationControl
+            :page="qPage"
+            :total-pages="totalPages"
+            @update:page="qPage = $event"
+          />
 
           <ButtonMenu
             icon="ic:baseline-settings"

@@ -269,26 +269,19 @@ if (import.meta.client) {
         <p v-else-if="!hasContext" class="chat-state-message">Chat non trovata</p>
 
         <template v-else>
-          <!-- <CommunitySellListingInfoCard
-            :listing="chatContext.sellListing"
-            @open-card="handleOpenCard"
-          /> -->
-
-          <div class="mt-2">
-            <CommunityOfferListingRow :offer-listing="chatContext.offerListing" />
-          </div>
+          <CommunityOfferListingRow :offer-listing="chatContext.offerListing" />
         </template>
       </template>
     </Toolbar>
 
-    <div class="min-h-0 h-100 flex-1 px-3 pb-2">
+    <div class="h-100 flex-1 px-3 pb-3">
       <div ref="messagesContainerRef" class="message-shell">
         <p v-if="isLoadingMessages" class="chat-state-message">Caricamento messaggi...</p>
         <p v-else-if="!hasContext" class="chat-state-message">Chat non trovata</p>
         <p v-else-if="!viewerCanAccessChat" class="chat-state-message">Non puoi accedere a questa chat</p>
         <p v-else-if="!hasMessages" class="chat-state-message">Nessun messaggio per ora</p>
 
-        <div v-else class="space-y-2 h-full overflow-y-auto pb-1">
+        <div v-else class="space-y-2 h-full overflow-y-auto pb-1 flex flex-col justify-end">
           <article
             v-for="message in messages"
             :key="message.id"

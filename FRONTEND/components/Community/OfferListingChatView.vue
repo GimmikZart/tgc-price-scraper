@@ -269,10 +269,10 @@ if (import.meta.client) {
         <p v-else-if="!hasContext" class="chat-state-message">Chat non trovata</p>
 
         <template v-else>
-          <CommunitySellListingInfoCard
+          <!-- <CommunitySellListingInfoCard
             :listing="chatContext.sellListing"
             @open-card="handleOpenCard"
-          />
+          /> -->
 
           <div class="mt-2">
             <CommunityOfferListingRow :offer-listing="chatContext.offerListing" />
@@ -281,27 +281,27 @@ if (import.meta.client) {
       </template>
     </Toolbar>
 
-    <div class="min-h-0 flex-1 px-3 pb-2">
+    <div class="min-h-0 h-100 flex-1 px-3 pb-2">
       <div ref="messagesContainerRef" class="message-shell">
         <p v-if="isLoadingMessages" class="chat-state-message">Caricamento messaggi...</p>
         <p v-else-if="!hasContext" class="chat-state-message">Chat non trovata</p>
         <p v-else-if="!viewerCanAccessChat" class="chat-state-message">Non puoi accedere a questa chat</p>
         <p v-else-if="!hasMessages" class="chat-state-message">Nessun messaggio per ora</p>
 
-        <div v-else class="space-y-2 pb-1">
+        <div v-else class="space-y-2 h-full overflow-y-auto pb-1">
           <article
-            v-for="message in messages"
+            v-for="message in 20"
             :key="message.id"
             class="message-row"
             :class="isOwnMessage(message) ? 'is-own' : 'is-other'"
           >
             <div class="message-bubble">
-              <p class="message-body">{{ message.body }}</p>
+              <p class="message-body"><!-- {{ message.body }} -->ciao </p>
               <div class="message-meta">
-                <span>{{ formatMessageTime(message.created_at) }}</span>
+                <span><!-- {{ formatMessageTime(message.created_at) }} --> oggi</span>
 
                 <v-icon
-                  v-if="isOwnMessage(message)"
+                  v-if="isOwnMessage(true/* message */)"
                   size="13"
                   :color="message.seen_at ? '#4ade80' : 'rgba(203,213,225,0.82)'"
                 >
@@ -342,9 +342,9 @@ if (import.meta.client) {
           @click="handleSendMessage"
         >
           <v-icon icon="mdi-send" />
+          {{ remainingCharacters }}
         </v-btn>
       </div>
-      <p class="chat-remaining-chars">{{ remainingCharacters }} / 150</p>
     </div>
 
     <MobileFloatMenu v-if="isMobile" :cols="1">
@@ -366,19 +366,24 @@ if (import.meta.client) {
             @keydown.ctrl.enter.prevent="handleSendMessage"
           />
 
-          <v-btn
-            icon
-            color="orange"
-            size="large"
-            class="chat-send-btn"
-            :disabled="!isSendEnabled"
-            :loading="isSendingMessage"
-            @click="handleSendMessage"
-          >
-            <v-icon icon="mdi-send" />
-          </v-btn>
+          <div class="flex flex-col items-center">
+            <v-btn
+              icon
+              color="orange"
+              size="medium"
+              class="chat-send-btn"
+              :disabled="!isSendEnabled"
+              :loading="isSendingMessage"
+              @click="handleSendMessage"
+            >
+              <v-icon icon="mdi-send"/>
+            </v-btn>
+            <span class="chat-remaining-chars">{{ remainingCharacters }} / 150</span>
+            
+              
+          </div>
+          
         </div>
-        <p class="chat-remaining-chars">{{ remainingCharacters }} / 150</p>
       </template>
     </MobileFloatMenu>
 
@@ -401,9 +406,7 @@ if (import.meta.client) {
 }
 
 .message-shell {
-  min-height: 220px;
-  max-height: calc(100vh - 280px);
-  overflow-y: auto;
+  height: calc(100% - 172px);
   border-radius: 0.9rem;
   padding: 0.8rem;
   background: linear-gradient(135deg, rgba(15, 23, 42, 0.84), rgba(7, 10, 16, 0.86));
@@ -411,6 +414,7 @@ if (import.meta.client) {
 
 .message-row {
   display: flex;
+  flex-direction: column;
   width: 100%;
 }
 
@@ -469,7 +473,6 @@ if (import.meta.client) {
   min-width: 2.8rem !important;
   min-height: 2.8rem !important;
   border-radius: 999px !important;
-  box-shadow: 0 10px 18px rgba(255, 122, 24, 0.38);
 }
 
 .chat-remaining-chars {
@@ -487,12 +490,10 @@ if (import.meta.client) {
 :deep(.chat-textarea .v-field) {
   border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: 0.9rem;
-  background: linear-gradient(130deg, rgba(17, 24, 39, 0.72), rgba(8, 12, 20, 0.92));
 }
 
 :deep(.chat-textarea .v-field--focused) {
   border-color: rgba(255, 157, 82, 0.64);
-  background: linear-gradient(130deg, rgba(255, 122, 24, 0.16), rgba(12, 18, 29, 0.9));
 }
 
 :deep(.chat-textarea textarea) {
@@ -501,11 +502,5 @@ if (import.meta.client) {
 
 :deep(.chat-textarea textarea::placeholder) {
   color: rgba(203, 213, 225, 0.68);
-}
-
-@media (max-width: 1023px) {
-  .message-shell {
-    max-height: calc(100vh - 305px);
-  }
 }
 </style>

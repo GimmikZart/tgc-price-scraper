@@ -67,31 +67,34 @@ async function handleCloseListing() {
     <MobileFloatMenu :cols="1">
       <template #buttons>
         <div class="close-sale-dialog">
-          <DialogsGeneric
-            accept-label="Procedi comunque"
-            accept-color="error"
-            :disabled="isClosingListing"
-            @confirm="handleCloseListing"
-          >
-            <template #button>
-              <ButtonMenu
-                icon="mdi:close-box-outline"
-                label="Chiudi Vendita"
-                transition
-                :delay="120"
-                :disabled="isClosingListing"
-                :icon-color="'red'"
-              />
-            </template>
+          <div class="close-sale-button-shell">
+            <DialogsGeneric
+              accept-label="Procedi comunque"
+              accept-color="error"
+              :disabled="isClosingListing"
+              @confirm="handleCloseListing"
+            >
+              <template #button>
+                <ButtonMenu
+                  icon="mdi:close-box-outline"
+                  label="Chiudi Vendita"
+                  transition
+                  :delay="120"
+                  :disabled="isClosingListing"
+                  :icon-color="'red'"
+                  class="close-sale-button"
+                />
+              </template>
 
-            <template #title>Sei sicuro di voler chiudere la vendita?</template>
+              <template #title>Sei sicuro di voler chiudere la vendita?</template>
 
-            <template #content>
-              <p class="close-sale-content">
-                Chiudendo la vendita manterrai salvate le vendite concluse, ma eliminerai tutte le offerte sospese e rifiutate.
-              </p>
-            </template>
-          </DialogsGeneric>
+              <template #content>
+                <p class="close-sale-content">
+                  Chiudendo la vendita manterrai salvate le vendite concluse, ma eliminerai tutte le offerte sospese e rifiutate.
+                </p>
+              </template>
+            </DialogsGeneric>
+          </div>
         </div>
       </template>
     </MobileFloatMenu>
@@ -137,5 +140,16 @@ async function handleCloseListing() {
 
 .close-sale-dialog ::v-deep #dialog-generic .generic-btn--cancel {
   color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.close-sale-button-shell {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.close-sale-button ::v-deep button > span svg {
+  width: 1.35rem !important;
+  height: 1.35rem !important;
 }
 </style>

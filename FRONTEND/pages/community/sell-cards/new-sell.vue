@@ -1,6 +1,7 @@
 <script setup>
 import { createSellListing } from "@/api/sellListings";
 import { Condition, conditionOptions, getConditionMeta } from "@/utilities/enums/conditions";
+import DialogsGeneric from "@/components/dialogs/Generic.vue";
 
 const router = useRouter();
 const snackbar = useSnackbar();
@@ -83,6 +84,10 @@ const hasAllRequiredFields = computed(() => {
 });
 
 const canPutOnSale = computed(() => !isSubmitting.value && hasAllRequiredFields.value);
+const saleDialogRef = ref(null);
+const saleDialogPrice = computed(() => {
+  return putOnSalePriceValue ?? "-valore di vendita -";
+});
 
 const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer(viewerCards);
 
@@ -155,23 +160,24 @@ async function handlePutOnSale() {
   }
 }
 
+function handleSellClick() {
+  if (isSubmitting.value) return;
+
+  if (!hasAllRequiredFields.value) {
+    snackbar.addMessage("Bisogna compilare tutti i campi prima di vendere", "warning");
+    return;
+  }
+
+  saleDialogRef.value?.openDialog();
+}
+
 </script>
 
 <template>
   <section class="relative">
-    <Toolbar label="Nuova Vendita" fixed>
-      <template #info>
-        <div v-if="!hasAllRequiredFields" class="px-3 pt-2">
-          <div class="sell-warning-box">
-            <v-icon icon="mdi-alert-circle-outline" size="18" />
-            <span>Compila tutti i campi prima di procede</span>
-          </div>
-        </div>
-      </template>
-    </Toolbar>
+    <Toolbar label="Nuova Vendita" fixed/>
 
-
-    <div class="flex flex-col px-3 pb-5 pt-3">
+    <div class="flex flex-col px-3 pb-4 pt-3">
       <v-btn
         v-if="!hasSelectedCard"
         type="button"
@@ -183,7 +189,7 @@ async function handlePutOnSale() {
       >
         seleziona carta
       </v-btn>
-      <form v-else class="mx-auto w-full max-w-[500px]" @submit.prevent="handlePutOnSale">
+      <form v-else class="mx-auto w-full max-w-[500px]" @submit.prevent>
         <div  class="mt-3 flex w-full gap-3 items-stretch">
           <div class="w-2/5">
             <Card :card="selectedCard" @open="openViewerFromSelected" />
@@ -250,14 +256,6 @@ async function handlePutOnSale() {
             </template>
           </v-select>
         </div>
-        <CardPriceLink
-          class="mt-4"
-          :price="putOnSalePriceValue"
-          :show-outer-padding="false"
-          :link-enabled="false"
-          label="Prezzo vendita per singola"
-          currency="EUR"
-        />
       </form>
 
       <FullscreenCardViewer
@@ -287,19 +285,39 @@ async function handlePutOnSale() {
           :delay="150"
           @click="goToCollectionInSellMode"
         />
-        <ButtonMenu
-          icon="mdi:tag-check-outline"
-          label="Vendi"
-          color="orange"
-          transition
-          :delay="100"
-          :disabled="!canPutOnSale"
-          :class="[
-            'sell-float-button--small-icon',
-            { 'sell-float-button--green-glow': canPutOnSale },
-          ]"
-          @click="handlePutOnSale"
-        />
+        <DialogsGeneric
+          ref="saleDialogRef"
+          accept-label="Procedi"
+          accept-color="green"
+          :disabled="isSubmitting"
+          @confirm="handlePutOnSale"
+        >
+          <template #button>
+            <div class="sell-dialog-trigger" @click.stop>
+              <ButtonMenu
+                icon="mdi:tag-check-outline"
+                label="Vendi"
+                color="orange"
+                transition
+                :delay="100"
+                :disabled="isSubmitting"
+                :class="[
+                  'sell-float-button--small-icon',
+                  { 'sell-float-button--green-glow': canPutOnSale },
+                ]"
+                @click="handleSellClick"
+              />
+            </div>
+          </template>
+
+          <template #title>Conferma vendita</template>
+          <template #content>
+            <p class="sell-confirm-text">
+              Stai per mettere sul mercato questa carta a {{ saleDialogPrice }} €
+            </p>
+            <p class="sell-confirm-subtitle">Sei sicuro di voler procedere?</p>
+          </template>
+        </DialogsGeneric>
       </template>
     </MobileFloatMenu>
   </section>
@@ -324,6 +342,12 @@ html{
   padding: 0.6rem 0.75rem;
   font-size: 0.82rem;
   font-weight: 600;
+}
+
+.sell-warning-box-success {
+  border-color: rgba(34, 197, 94, 0.65);
+  background: rgba(34, 197, 94, 0.22);
+  color: #d1fae5;
 }
 
 .sell-choose-btn {
@@ -391,5 +415,21 @@ html{
     inset 0 0 6px rgba(34, 197, 94, 0.7),
     0 0 16px rgba(34, 197, 94, 0.35),
     0 0 28px rgba(16, 185, 129, 0.45);
+}
+
+.sell-dialog-trigger {
+  width: 100%;
+}
+
+.sell-confirm-text {
+  margin: 0;
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.sell-confirm-subtitle {
+  margin: 0.45rem 0 0;
+  font-size: 0.86rem;
+  color: rgba(203, 213, 225, 0.92);
 }
 </style>

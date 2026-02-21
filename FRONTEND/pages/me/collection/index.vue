@@ -218,7 +218,7 @@ onMounted(async () => {
       :key="gridKey"
       :items="sortedCards"
       :grid-class="['grid','px-2','pt-2', gridSystem]"
-      :class="handleAlbum ? 'pt-6' : 'pt-0'"
+      :class="handleAlbum || sellMode ? 'pt-6' : 'pt-0'"
       @update:visible="visibleCards = $event"
     >
       <template #default="{ item }">

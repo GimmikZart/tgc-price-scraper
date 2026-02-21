@@ -33,6 +33,11 @@ function handleConfirm() {
   closeDialog();
 }
 
+defineExpose({
+  openDialog,
+  closeDialog,
+});
+
 // Chiude quando un'altra dialog viene aperta
 function handleGlobalOpen(e) {
   const openedUid = e?.detail?.uid;

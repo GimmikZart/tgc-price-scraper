@@ -186,7 +186,7 @@ watch(currentMode, (mode) => {
       <div class="relative grid h-[86px] grid-cols-5 items-end gap-0 px-2 pb-2 pt-1">
         <div class="pointer-events-none absolute inset-y-2 left-2 right-2">
           <div
-            class="h-full w-1/5 rounded-2xl bg-[#ff7a18]/10 shadow-[0_0_24px_rgba(255,122,24,0.42),inset_0_0_0_1px_rgba(255,183,124,0.2)] transition-transform duration-300 ease-out"
+            class="h-full w-1/5 rounded-2xl bg-[#ff7a18]/10 transition-transform duration-300 ease-out"
             :style="{ transform: `translateX(${activeColumnIndex * 100}%)` }"
           />
         </div>
@@ -210,7 +210,7 @@ watch(currentMode, (mode) => {
               <span
                 class="relative flex h-9 w-9 items-center justify-center rounded-xl transition-all duration-200 ease-out"
                 :class="isVisualActiveItem(slot.item)
-                  ? 'scale-105 bg-[#ff7a18]/20 shadow-[0_0_22px_rgba(255,122,24,0.55)]'
+                  ? 'scale-105'
                   : 'scale-100 bg-transparent group-hover:bg-white/5'"
               >
                 <component
@@ -233,7 +233,7 @@ watch(currentMode, (mode) => {
         <div class="relative flex h-full items-start justify-center">
           <button
             type="button"
-            class="group relative -mt-2 flex h-[66px] w-[66px] flex-col items-center justify-center rounded-full border border-[#ffb27d]/45 bg-slate-950 text-[#ffd1a9] shadow-[0_0_30px_rgba(255,122,24,0.5),0_14px_24px_rgba(0,0,0,0.55)] transition-all duration-200 ease-out hover:scale-[1.03] hover:border-[#ffd0a5] disabled:cursor-wait disabled:opacity-95"
+            class="group relative border flex h-[66px] w-[66px] flex-col items-center justify-center rounded-full border border-[#ffb27d] bg-slate-900 text-[#ffd1a9] transition-all duration-200 ease-out hover:scale-[1.03] hover:border-[#ffd0a5] disabled:cursor-wait disabled:opacity-95"
             :disabled="isModeSwitching"
             @click="toggleMode"
           >
@@ -287,7 +287,7 @@ watch(currentMode, (mode) => {
               <span
                 class="relative flex h-9 w-9 items-center justify-center rounded-xl transition-all duration-200 ease-out"
                 :class="isVisualActiveItem(slot.item)
-                  ? 'scale-105 bg-[#ff7a18]/20 shadow-[0_0_22px_rgba(255,122,24,0.55)]'
+                  ? 'scale-105'
                   : 'scale-100 bg-transparent group-hover:bg-white/5'"
               >
                 <component

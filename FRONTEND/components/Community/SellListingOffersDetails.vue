@@ -36,6 +36,10 @@ const props = defineProps({
     type: Boolean,
     default: false,
   },
+  showSellerIdentityHeader: {
+    type: Boolean,
+    default: false,
+  },
 });
 const emit = defineEmits(["listing-updated"]);
 
@@ -48,6 +52,29 @@ const isLoading = ref(true);
 const listingId = computed(() => String(route.params.id ?? ""));
 const hasListingCard = computed(() => Boolean(listing.value?.card));
 const hasProposals = computed(() => props.proposals.length > 0);
+const hasSellerIdentityHeader = computed(() => props.showSellerIdentityHeader && Boolean(listing.value));
+
+const sellerName = computed(() => {
+  const value = listing.value?.sellerDisplayName ??
+    listing.value?.sellerUsername ??
+    listing.value?.sellerProfile?.display_name ??
+    listing.value?.sellerProfile?.username;
+
+  if (typeof value === "string" && value.trim()) return value.trim();
+  return "Venditore";
+});
+
+const sellerTag = computed(() => {
+  const value = listing.value?.sellerUserTag ?? listing.value?.sellerProfile?.user_tag;
+  if (typeof value === "string" && value.trim()) return value.trim();
+  return "@venditore";
+});
+
+const sellerAvatarUrl = computed(() => {
+  const value = listing.value?.sellerAvatarUrl ?? listing.value?.sellerProfile?.avatar_url;
+  if (typeof value === "string" && value.trim()) return value.trim();
+  return null;
+});
 
 const viewerCards = computed(() => (hasListingCard.value ? [listing.value.card] : []));
 const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer(viewerCards);
@@ -81,7 +108,13 @@ watch(listingId, loadListing, { immediate: true });
         <p v-if="isLoading" class="sell-state-message">{{ loadingDetailsMessage }}</p>
         <p v-else-if="!listing || !hasListingCard" class="sell-state-message">{{ notFoundMessage }}</p>
 
-        <CommunitySellListingInfoCard v-else :listing="listing" @open-card="openViewerFromSelected" />
+        <template v-else>
+          <div v-if="hasSellerIdentityHeader" class="seller-identity-wrap">
+            <UserIdentityHeader :username="sellerName" :user-tag="sellerTag" :avatar-url="sellerAvatarUrl" size="sm"/>
+          </div>
+
+          <CommunitySellListingInfoCard :listing="listing" @open-card="openViewerFromSelected" />
+        </template>
       </template>
     </Toolbar>
 
@@ -122,5 +155,10 @@ watch(listingId, loadListing, { immediate: true });
   border-radius: 0.9rem;
   padding: 0.9rem;
   background: linear-gradient(135deg, rgba(15, 23, 42, 0.84), rgba(7, 10, 16, 0.86));
+}
+
+.seller-identity-wrap {
+  margin-top: 0.35rem;
+  margin-bottom: 0.45rem;
 }
 </style>

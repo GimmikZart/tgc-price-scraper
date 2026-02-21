@@ -12,7 +12,7 @@ async function loadSellListings() {
   isLoading.value = true;
 
   try {
-    sellListings.value = await fetchActiveSellListings();
+    sellListings.value = await fetchActiveSellListings({ excludeLoggedUser: true });
   } catch (error) {
     sellListings.value = [];
     snackbar.addMessage(error.message || "Errore durante il recupero delle vendite", "error");

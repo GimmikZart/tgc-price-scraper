@@ -262,6 +262,32 @@ export async function markOfferListingChatMessagesAsSeen(offerListingId) {
   }
 }
 
+export async function fetchOfferListingHasUnreadMessages(offerListingId) {
+  const client = useSupabaseClient();
+  const userAuth = useUserAuth();
+  const viewerId = userAuth?.userLogged?.id ?? null;
+
+  if (!viewerId) {
+    throw new Error("User not authenticated");
+  }
+
+  const parsedOfferListingId = parseOfferListingId(offerListingId);
+
+  const { data: unreadMessages = [], error } = await client
+    .from("offer_listing_chat_messages")
+    .select("id")
+    .eq("offer_listing_id", parsedOfferListingId)
+    .neq("sender_id", viewerId)
+    .is("seen_at", null)
+    .limit(1);
+
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  return unreadMessages.length > 0;
+}
+
 export function subscribeToOfferListingChatMessages(offerListingId, handlers = {}) {
   const client = useSupabaseClient();
   const parsedOfferListingId = parseOfferListingId(offerListingId);

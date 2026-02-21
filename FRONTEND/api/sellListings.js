@@ -235,14 +235,22 @@ export async function createSellListing(payload) {
   return data;
 }
 
-export async function fetchActiveSellListings() {
+export async function fetchActiveSellListings(options = {}) {
   const client = useSupabaseClient();
   const { allCards } = await useOnePieceCards();
+  const shouldExcludeLoggedUser = Boolean(options?.excludeLoggedUser);
+  const loggedUserId = shouldExcludeLoggedUser ? (useUserAuth()?.userLogged?.id ?? null) : null;
 
-  const { data: activeListings = [], error } = await client
+  let activeListingsQuery = client
     .from("sell_listings")
     .select("*")
-    .eq("status", "active")
+    .eq("status", "active");
+
+  if (loggedUserId) {
+    activeListingsQuery = activeListingsQuery.neq("seller_uuid", loggedUserId);
+  }
+
+  const { data: activeListings = [], error } = await activeListingsQuery
     .order("created_at", { ascending: false });
 
   if (error) {
@@ -384,6 +392,21 @@ export async function createOfferListing(payload) {
 
   if (offer <= 0) {
     throw new Error("offer must be greater than 0");
+  }
+
+  const { data: existingOfferListings = [], error: existingOfferListingsError } = await client
+    .from("offer_listing")
+    .select("id")
+    .eq("sell_list_id", sellListId)
+    .eq("offerer_id", offererId)
+    .limit(1);
+
+  if (existingOfferListingsError) {
+    throw new Error(existingOfferListingsError.message);
+  }
+
+  if (existingOfferListings.length > 0) {
+    throw new Error("Hai gia inviato un'offerta per questa vendita");
   }
 
   const offerListingToInsert = {

@@ -290,18 +290,18 @@ if (import.meta.client) {
 
         <div v-else class="space-y-2 h-full overflow-y-auto pb-1">
           <article
-            v-for="message in 20"
+            v-for="message in messages"
             :key="message.id"
             class="message-row"
             :class="isOwnMessage(message) ? 'is-own' : 'is-other'"
           >
             <div class="message-bubble">
-              <p class="message-body"><!-- {{ message.body }} -->ciao </p>
+              <p class="message-body">{{ message.body }}</p>
               <div class="message-meta">
-                <span><!-- {{ formatMessageTime(message.created_at) }} --> oggi</span>
+                <span>{{ formatMessageTime(message.created_at) }}</span>
 
                 <v-icon
-                  v-if="isOwnMessage(true/* message */)"
+                  v-if="isOwnMessage(message)"
                   size="13"
                   :color="message.seen_at ? '#4ade80' : 'rgba(203,213,225,0.82)'"
                 >
@@ -414,7 +414,6 @@ if (import.meta.client) {
 
 .message-row {
   display: flex;
-  flex-direction: column;
   width: 100%;
 }
 
@@ -427,7 +426,7 @@ if (import.meta.client) {
 }
 
 .message-bubble {
-  max-width: min(82%, 320px);
+  width: 70%;
   border-radius: 0.85rem;
   padding: 0.5rem 0.65rem;
   border: 1px solid rgba(255, 255, 255, 0.14);

@@ -26,7 +26,7 @@ const draftMessage = ref("");
 const isLoadingContext = ref(true);
 const isLoadingMessages = ref(false);
 const isSendingMessage = ref(false);
-const messagesContainerRef = ref(null);
+const messagesScrollRef = ref(null);
 const realtimeSubscription = ref(null);
 const isMarkingSeen = ref(false);
 
@@ -86,6 +86,17 @@ function formatMessageTime(value) {
   });
 }
 
+function hasSeenAt(message) {
+  if (typeof message?.seen_at === "string") {
+    return message.seen_at.trim().length > 0;
+  }
+  return Boolean(message?.seen_at);
+}
+
+const firstUnseenIncomingMessageIndex = computed(() => {
+  return messages.value.findIndex((message) => !hasSeenAt(message) && !isOwnMessage(message));
+});
+
 function upsertMessage(nextMessage) {
   const parsedMessageId = Number(nextMessage?.id);
   if (!Number.isInteger(parsedMessageId) || parsedMessageId <= 0) return;
@@ -119,7 +130,7 @@ function removeMessage(messageId) {
 
 function scrollToBottom(behavior = "smooth") {
   nextTick(() => {
-    const containerElement = messagesContainerRef.value;
+    const containerElement = messagesScrollRef.value;
     if (!containerElement) return;
 
     containerElement.scrollTo({
@@ -275,34 +286,39 @@ if (import.meta.client) {
     </Toolbar>
 
     <div class="h-100 flex-1 px-3 pb-3">
-      <div ref="messagesContainerRef" class="message-shell">
+      <div class="message-shell">
         <p v-if="isLoadingMessages" class="chat-state-message">Caricamento messaggi...</p>
         <p v-else-if="!hasContext" class="chat-state-message">Chat non trovata</p>
         <p v-else-if="!viewerCanAccessChat" class="chat-state-message">Non puoi accedere a questa chat</p>
         <p v-else-if="!hasMessages" class="chat-state-message">Nessun messaggio per ora</p>
 
-        <div v-else class="space-y-2 h-full overflow-y-auto pb-1 flex flex-col justify-end">
-          <article
-            v-for="message in messages"
-            :key="message.id"
-            class="message-row"
-            :class="isOwnMessage(message) ? 'is-own' : 'is-other'"
-          >
-            <div class="message-bubble">
-              <p class="message-body">{{ message.body }}</p>
-              <div class="message-meta">
-                <span>{{ formatMessageTime(message.created_at) }}</span>
-
-                <v-icon
-                  v-if="isOwnMessage(message)"
-                  size="13"
-                  :color="message.seen_at ? '#4ade80' : 'rgba(203,213,225,0.82)'"
-                >
-                  mdi-check-all
-                </v-icon>
-              </div>
+        <div v-else ref="messagesScrollRef" class="space-y-2 h-full overflow-y-auto pb-1 flex flex-col justify-end">
+          <template v-for="(message, index) in messages" :key="message.id">
+            <div v-if="index === firstUnseenIncomingMessageIndex" class="new-messages-divider mt-5">
+              <span class="new-messages-label">Nuovi messaggi</span>
+              <span class="new-messages-line" />
             </div>
-          </article>
+
+            <article
+              class="message-row"
+              :class="isOwnMessage(message) ? 'is-own' : 'is-other'"
+            >
+              <div class="message-bubble">
+                <p class="message-body">{{ message.body }}</p>
+                <div class="message-meta">
+                  <span>{{ formatMessageTime(message.created_at) }}</span>
+
+                  <v-icon
+                    v-if="isOwnMessage(message)"
+                    size="13"
+                    :color="message.seen_at ? '#4ade80' : 'rgba(203,213,225,0.82)'"
+                  >
+                    mdi-check-all
+                  </v-icon>
+                </div>
+              </div>
+            </article>
+          </template>
         </div>
       </div>
     </div>
@@ -434,6 +450,29 @@ if (import.meta.client) {
 
 .message-row.is-other .message-bubble {
   background: linear-gradient(145deg, rgba(31, 41, 55, 0.88), rgba(17, 24, 39, 0.86));
+}
+
+.new-messages-divider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.18rem;
+  padding: 0.24rem 0 0.34rem;
+}
+
+.new-messages-label {
+  color: #ff9d52;
+  font-size: 0.82rem;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+.new-messages-line {
+  width: 70%;
+  height: 2px;
+  border-radius: 999px;
+  background: #ff7a18;
 }
 
 .message-body {

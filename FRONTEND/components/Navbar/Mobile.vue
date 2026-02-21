@@ -184,11 +184,13 @@ watch(currentMode, (mode) => {
       class="w-full max-w-[520px] border border-white/15 bg-slate-950/70 shadow-[0_22px_48px_rgba(0,0,0,0.6),inset_0_1px_0_rgba(255,255,255,0.16)] backdrop-blur-2xl"
     >
       <div class="relative grid h-[86px] grid-cols-5 items-end gap-0 px-2 pb-2 pt-1">
-        <div class="pointer-events-none absolute inset-y-2 left-2 right-2">
+        <div class="pointer-events-none absolute bottom-2 left-2 right-2">
           <div
-            class="h-full w-1/5 rounded-2xl bg-[#ff7a18]/10 transition-transform duration-300 ease-out"
+            class="w-1/5 transition-transform duration-300 ease-out"
             :style="{ transform: `translateX(${activeColumnIndex * 100}%)` }"
-          />
+          >
+            <div class="mx-auto h-[3px] w-8 rounded-full bg-[#ff7a18]" />
+          </div>
         </div>
 
         <div

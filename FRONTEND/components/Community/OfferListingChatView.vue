@@ -481,17 +481,26 @@ if (import.meta.client) {
 
 <template>
   <section class="relative h-fit flex flex-col overflow-hidden">
-    <Toolbar label="Chat" fixed back-button>
+    <Toolbar fixed back-button>
+      <template #content>
+        <p v-if="isLoadingContext" class="chat-state-message text-start">Chat</p>
+        <UserIdentityHeader 
+          v-else
+          :username="chatContext.sellListing.sellerProfile.username" 
+          :user-tag="chatContext.sellListing.sellerProfile.user_tag"
+          :avatar-url="chatContext.sellListing.sellerProfile.avatar_url"
+          size="sm"
+        />
+      </template>
       <template #info>
-        <p v-if="isLoadingContext" class="chat-state-message">Caricamento dettagli chat...</p>
+        <p v-if="isLoadingContext" class="chat-state-message">Caricamento chat...</p>
         <p v-else-if="!hasContext" class="chat-state-message">Chat non trovata</p>
-
         <template v-else>
-          <div ref="top-info">
-            <!-- <Card /> -->
-            <CommunityOfferListingRow :offer-listing="chatContext.offerListing" />
+          <div class="chat-context-row">
+            <Card :card="chatContext.sellListing.card" class="chat-context-card" />
+            <CommunityOfferListingRow :offer-listing="chatContext.offerListing" class="chat-context-offer-row" />
           </div>
-          
+
           <div v-if="showRejectedChatWarning" class="chat-warning-box">
             <p class="chat-warning-message">{{ rejectedChatWarningMessage }}</p>
             <button
@@ -693,6 +702,104 @@ if (import.meta.client) {
   font-size: 0.86rem;
   font-weight: 600;
   padding: 0.55rem 0;
+}
+
+.chat-context-row {
+  display: flex;
+  align-items: center;
+}
+
+.chat-context-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.72rem;
+  flex: 0 0 auto;
+  aspect-ratio: 5/7;
+  height: 100% !important;
+  min-width: 3rem;
+}
+
+.chat-context-offer-row {
+  flex: 1;
+  min-width: 0;
+}
+
+.chat-context-card :deep(.card-shell.card-surface) {
+  position: relative;
+  width: 100%;
+  height: 100% !important;
+  min-height: 0;
+}
+
+.chat-context-card :deep(.card-image) {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100% !important;
+  object-fit: cover;
+}
+
+.chat-context-card :deep(.image-skeleton) {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100% !important;
+  aspect-ratio: auto;
+}
+
+.chat-top-info {
+  margin-top: 0.35rem;
+  display: grid;
+  grid-template-columns: minmax(84px, 104px) 1fr;
+  gap: 0.6rem;
+  align-items: start;
+}
+
+.chat-top-info--without-card {
+  grid-template-columns: 1fr;
+}
+
+.chat-top-info-card-wrap {
+  width: 100%;
+}
+
+.chat-top-info-right {
+  min-width: 0;
+}
+
+.chat-offerer-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.chat-offerer-summary-message {
+  margin: 0;
+  color: rgba(248, 250, 252, 0.94);
+  font-size: 0.88rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.chat-offerer-summary-chip {
+  border-radius: 0.72rem !important;
+  font-weight: 700;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+  vertical-align: middle;
+}
+
+.chat-offerer-summary-copies {
+  color: #ff9d52;
+  font-weight: 700;
+}
+
+:deep(.chat-offerer-info-card) {
+  width: 100%;
+}
+
+:deep(.chat-offerer-info-card > div:last-child) {
+  min-width: 0;
 }
 
 .chat-warning-box {
@@ -962,5 +1069,26 @@ if (import.meta.client) {
 
 :deep(.chat-textarea textarea::placeholder) {
   color: rgba(203, 213, 225, 0.68);
+}
+
+@media (max-width: 450px) {
+  .chat-top-info {
+    grid-template-columns: minmax(74px, 88px) 1fr;
+    gap: 0.5rem;
+  }
+
+  :deep(.chat-offerer-info-card) {
+    flex-direction: column;
+    gap: 0.55rem;
+  }
+
+  :deep(.chat-offerer-info-card > div:first-child) {
+    width: min(62%, 180px);
+    min-width: 0;
+  }
+
+  :deep(.chat-offerer-info-card > div:last-child) {
+    width: 100%;
+  }
 }
 </style>

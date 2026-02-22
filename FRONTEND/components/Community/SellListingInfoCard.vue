@@ -64,25 +64,27 @@ function handleCardOpen(card) {
 
 <template>
   <div v-if="hasListingCard" class="flex w-full gap-3">
-    <div class="w-2/5 min-w-[140px]">
+    <div class="w-2/5 min-w-[100px]">
       <Card :card="listing.card" @open="handleCardOpen" />
     </div>
 
-    <div class="h-full w-full flex-1 flex flex-col gap-1">
+    <div class="w-full flex-1 flex flex-col justify-between gap-1">
       <div>
         <p class="sell-card-name line-clamp-2">{{ cardName }}</p>
         <p v-if="showCopies" class="sell-card-copies mb-1 text-xs">{{ copiesInSale }} copie in vendita</p>
+        <v-chip size="x-small" variant="flat" label :color="conditionColor" class="w-fit font-bold">
+          {{ conditionLabel }}
+        </v-chip>
       </div>
 
-      <v-chip size="x-small" variant="flat" label :color="conditionColor" class="w-fit font-bold">
-        {{ conditionLabel }}
-      </v-chip>
       <p class="text-xs font-bold">{{ cardRarity }} | {{ cardIllustration }}</p>
       <p class="text-xs font-thin line-clamp-2">{{ cardSetName }}</p>
+      
+      
 
       <CardPriceLink
         v-if="showPrice"
-        class="mt-1"
+        class="mt-1 pb-0"
         :price="listingPriceValue"
         :show-outer-padding="false"
         :link-enabled="false"

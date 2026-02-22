@@ -11,7 +11,7 @@ const snackbar = useSnackbar()
 const props = defineProps({
   label: {
     type: String,
-    required: true,
+    default: "",
   },
   vertical: {
     type: Boolean,
@@ -31,6 +31,7 @@ function goBack() {
   router.back();
 }
 
+const hasLabel = computed(() => Boolean(props.label?.trim()));
 const hasInfo = computed(() => Boolean(slots.info));
 const toolbarEl = ref(null);
 const reservedHeight = ref(0);
@@ -99,9 +100,13 @@ onBeforeUnmount(() => {
               class="relative min-w-0 flex-1 rounded-xl border border-white/10 bg-white/[0.03] px-3 py-2"
             >
               <span class="pointer-events-none absolute inset-y-2 left-0 w-[3px] rounded-r-full bg-[#ff9d52] shadow-[0_0_18px_rgba(255,122,24,0.7)]" />
-              <h2 class="truncate pl-2 text-base font-semibold tracking-wide text-slate-100 md:text-lg">
+              <h2
+                v-if="hasLabel"
+                class="truncate pl-2 text-base font-semibold tracking-wide text-slate-100 md:text-lg"
+              >
                 {{ label }}
               </h2>
+              <slot v-else name="content" />
             </div>
           </div>
 

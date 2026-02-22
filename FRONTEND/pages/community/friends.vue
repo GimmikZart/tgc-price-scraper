@@ -123,7 +123,7 @@ onMounted(async () => {
 
 <template>
   <section class="relative h-full">
-    <Toolbar label="Community: Amici" fixed />
+    <Toolbar label="Cerca Amici" fixed />
 
     <div class="min-h-0 flex-1 overflow-y-auto px-3 pb-24 pt-1">
       <p v-if="isLoading" class="friends-state-message">

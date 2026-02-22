@@ -135,7 +135,7 @@ function handleAvatarError() {
 
 .user-identity-name {
   color: rgba(248, 250, 252, 0.95);
-  font-size: 0.96rem;
+  font-size: 1rem;
   font-weight: 700;
   line-height: 1.1;
 }
@@ -145,7 +145,6 @@ function handleAvatarError() {
   font-size: 0.7rem;
   font-weight: 600;
   line-height: 1.1;
-  text-transform: uppercase;
   letter-spacing: 0.14em;
 }
 
@@ -165,7 +164,7 @@ function handleAvatarError() {
 }
 
 .user-identity--small .user-identity-name {
-  font-size: 0.74rem;
+  font-size: 1rem;
   line-height: 1;
 }
 

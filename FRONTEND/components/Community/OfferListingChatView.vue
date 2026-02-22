@@ -31,11 +31,12 @@ const isLoadingContext = ref(true);
 const isLoadingMessages = ref(false);
 const isSendingMessage = ref(false);
 const isUpdatingOfferStatus = ref(false);
+const isMarkingSeen = ref(false);
 const offerManagementDialogRef = ref(null);
 const messagesScrollRef = ref(null);
 const messagesBottomRef = ref(null);
 const realtimeSubscription = ref(null);
-const isMarkingSeen = ref(false);
+const bootstrapRunId = ref(0);
 
 const currentUserId = computed(() => userAuth?.userLogged?.id ?? null);
 const offerListingId = computed(() => {
@@ -44,7 +45,10 @@ const offerListingId = computed(() => {
   return parsedValue;
 });
 
-const hasContext = computed(() => Boolean(chatContext.value?.offerListing && chatContext.value?.sellListing));
+const hasContext = computed(() => {
+  return Boolean(chatContext.value?.offerListing && chatContext.value?.sellListing);
+});
+
 const viewerCanAccessChat = computed(() => {
   if (!hasContext.value || !currentUserId.value) return false;
 
@@ -58,27 +62,30 @@ const viewerCanAccessChat = computed(() => {
 const hasMessages = computed(() => messages.value.length > 0);
 const normalizedDraftMessage = computed(() => draftMessage.value.trim());
 const remainingCharacters = computed(() => Math.max(150 - draftMessage.value.length, 0));
+const currentOfferStatus = computed(() => chatContext.value?.offerListing?.status ?? null);
+const isOfferRejected = computed(() => currentOfferStatus.value === OfferStatus.Rejected);
+const isChatDisabledByStatus = computed(() => isOfferRejected.value);
 const isSendEnabled = computed(() => {
   if (!viewerCanAccessChat.value) return false;
   if (isChatDisabledByStatus.value) return false;
   if (isSendingMessage.value) return false;
-  if (!normalizedDraftMessage.value) return false;
-  return normalizedDraftMessage.value.length <= 150;
+  const body = normalizedDraftMessage.value;
+  return body.length > 0 && body.length <= 150;
 });
-const currentOfferStatus = computed(() => chatContext.value?.offerListing?.status ?? null);
-const isOfferRejected = computed(() => currentOfferStatus.value === OfferStatus.Rejected);
-const isChatDisabledByStatus = computed(() => isOfferRejected.value);
+
 const showRejectedChatWarning = computed(() => {
   if (!hasContext.value) return false;
   if (!viewerCanAccessChat.value) return false;
   return isOfferRejected.value;
 });
+
 const rejectedChatWarningMessage = computed(() => {
   if (props.viewerRole === "seller") {
-    return "Hai rifiutato l'offerta. La chat è stata disattivata.";
+    return "Hai rifiutato l'offerta. La chat e stata disattivata.";
   }
-  return "Il venditore ha rifiutato l'offerta. La chat è stata disattivata.";
+  return "Il venditore ha rifiutato l'offerta. La chat e stata disattivata.";
 });
+
 const canManageOfferStatus = computed(() => {
   if (props.viewerRole !== "seller") return false;
   if (!viewerCanAccessChat.value) return false;
@@ -86,48 +93,54 @@ const canManageOfferStatus = computed(() => {
   const parsedOfferListingId = Number(chatContext.value?.offerListing?.id);
   return Number.isInteger(parsedOfferListingId) && parsedOfferListingId > 0;
 });
+
 const canAcceptOffer = computed(() => {
   if (!canManageOfferStatus.value) return false;
   if (isUpdatingOfferStatus.value) return false;
   return currentOfferStatus.value !== OfferStatus.Accepted;
 });
+
 const canRejectOffer = computed(() => {
   if (!canManageOfferStatus.value) return false;
   if (isUpdatingOfferStatus.value) return false;
   return currentOfferStatus.value !== OfferStatus.Rejected;
 });
+
 const canRevokeRejectedOffer = computed(() => {
   if (!canManageOfferStatus.value) return false;
   if (isUpdatingOfferStatus.value) return false;
   return isOfferRejected.value;
 });
 
-const viewerCards = computed(() => {
-  const card = chatContext.value?.sellListing?.card;
-  return card ? [card] : [];
+const firstUnseenIncomingMessageIndex = computed(() => {
+  return messages.value.findIndex((message) => !hasSeenAt(message) && !isOwnMessage(message));
 });
 
-const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer(viewerCards);
+function parseMessageTimestamp(value) {
+  const timestamp = new Date(value ?? 0).getTime();
+  if (Number.isFinite(timestamp)) return timestamp;
+  return 0;
+}
 
-function handleOpenCard(card) {
-  openViewer(card);
+function sortMessages(nextMessages) {
+  return [...nextMessages].sort((leftMessage, rightMessage) => {
+    const leftTimestamp = parseMessageTimestamp(leftMessage?.created_at);
+    const rightTimestamp = parseMessageTimestamp(rightMessage?.created_at);
+    if (leftTimestamp === rightTimestamp) {
+      return Number(leftMessage?.id ?? 0) - Number(rightMessage?.id ?? 0);
+    }
+    return leftTimestamp - rightTimestamp;
+  });
+}
+
+function setMessages(nextMessages = []) {
+  const normalizedMessages = Array.isArray(nextMessages) ? nextMessages : [];
+  messages.value = sortMessages(normalizedMessages);
 }
 
 function isOwnMessage(message) {
   if (!currentUserId.value) return false;
   return String(message?.sender_id) === String(currentUserId.value);
-}
-
-function formatMessageTime(value) {
-  if (!value) return "";
-
-  const parsedDate = new Date(value);
-  if (Number.isNaN(parsedDate.getTime())) return "";
-
-  return parsedDate.toLocaleTimeString("it-IT", {
-    hour: "2-digit",
-    minute: "2-digit",
-  });
 }
 
 function hasSeenAt(message) {
@@ -137,39 +150,83 @@ function hasSeenAt(message) {
   return Boolean(message?.seen_at);
 }
 
-const firstUnseenIncomingMessageIndex = computed(() => {
-  return messages.value.findIndex((message) => !hasSeenAt(message) && !isOwnMessage(message));
-});
+function formatMessageTime(value) {
+  if (!value) return "";
+  const parsedDate = new Date(value);
+  if (Number.isNaN(parsedDate.getTime())) return "";
+
+  return parsedDate.toLocaleTimeString("it-IT", {
+    hour: "2-digit",
+    minute: "2-digit",
+  });
+}
+
+function waitForNextFrame() {
+  return new Promise((resolve) => {
+    if (typeof window === "undefined" || typeof window.requestAnimationFrame !== "function") {
+      setTimeout(resolve, 16);
+      return;
+    }
+    window.requestAnimationFrame(() => resolve());
+  });
+}
+
+async function scrollMessagesToBottom(behavior = "smooth", attempts = 1) {
+  for (let attempt = 0; attempt < attempts; attempt += 1) {
+    await nextTick();
+    await waitForNextFrame();
+
+    // scroll element deve essere l'elemento che nel DOM ha classe v-main
+    const scrollElement = document.querySelector("html");
+    const bottomAnchorElement = messagesBottomRef.value;
+    if (!scrollElement) continue;
+
+    if (bottomAnchorElement?.scrollIntoView) {
+      bottomAnchorElement.scrollIntoView({
+        block: "end",
+        inline: "nearest",
+        behavior,
+      });
+    }
+
+    if (behavior === "smooth") {
+      scrollElement.scrollTo({
+        top: scrollElement.scrollHeight,
+        behavior: "smooth",
+      });
+      return;
+    }
+
+    scrollElement.scrollTop = scrollElement.scrollHeight;
+
+    const maxScrollTop = Math.max(scrollElement.scrollHeight - scrollElement.clientHeight, 0);
+    const reachedBottom = Math.abs(maxScrollTop - scrollElement.scrollTop) <= 2;
+    if (reachedBottom) return;
+  }
+}
 
 function upsertMessage(nextMessage) {
   const parsedMessageId = Number(nextMessage?.id);
   if (!Number.isInteger(parsedMessageId) || parsedMessageId <= 0) return;
 
-  const existingMessageIndex = messages.value.findIndex((message) => Number(message?.id) === parsedMessageId);
-  if (existingMessageIndex === -1) {
-    messages.value = [...messages.value, nextMessage];
-  } else {
-    messages.value[existingMessageIndex] = {
-      ...messages.value[existingMessageIndex],
-      ...nextMessage,
-    };
-    messages.value = [...messages.value];
+  const existingIndex = messages.value.findIndex((message) => Number(message?.id) === parsedMessageId);
+  if (existingIndex === -1) {
+    setMessages([...messages.value, nextMessage]);
+    return;
   }
 
-  messages.value.sort((leftMessage, rightMessage) => {
-    const leftTimestamp = new Date(leftMessage?.created_at ?? 0).getTime();
-    const rightTimestamp = new Date(rightMessage?.created_at ?? 0).getTime();
-    if (leftTimestamp === rightTimestamp) {
-      return Number(leftMessage?.id ?? 0) - Number(rightMessage?.id ?? 0);
-    }
-    return leftTimestamp - rightTimestamp;
-  });
+  const updatedMessages = [...messages.value];
+  updatedMessages[existingIndex] = {
+    ...updatedMessages[existingIndex],
+    ...nextMessage,
+  };
+  setMessages(updatedMessages);
 }
 
 function removeMessage(messageId) {
   const parsedMessageId = Number(messageId);
   if (!Number.isInteger(parsedMessageId) || parsedMessageId <= 0) return;
-  messages.value = messages.value.filter((message) => Number(message?.id) !== parsedMessageId);
+  setMessages(messages.value.filter((message) => Number(message?.id) !== parsedMessageId));
 }
 
 function applyUpdatedOfferListing(updatedOfferListing) {
@@ -182,54 +239,6 @@ function applyUpdatedOfferListing(updatedOfferListing) {
       ...updatedOfferListing,
     },
   };
-}
-
-function scrollToBottom(behavior = "smooth") {
-  nextTick(() => {
-    const containerElement = messagesScrollRef.value;
-    if (!containerElement) return;
-
-    containerElement.scrollTo({
-      top: containerElement.scrollHeight,
-      behavior,
-    });
-  });
-}
-
-function wait(ms) {
-  return new Promise((resolve) => {
-    setTimeout(resolve, ms);
-  });
-}
-
-async function ensureMessagesAtBottom() {
-  // The message container might appear a bit later due to conditional rendering.
-  for (let attempt = 0; attempt < 12; attempt += 1) {
-    await nextTick();
-
-    const containerElement = messagesScrollRef.value;
-    const anchorElement = messagesBottomRef.value;
-    if (!containerElement) {
-      await wait(30);
-      continue;
-    }
-
-    if (anchorElement?.scrollIntoView) {
-      anchorElement.scrollIntoView({
-        block: "end",
-        inline: "nearest",
-        behavior: "auto",
-      });
-    }
-
-    containerElement.scrollTop = containerElement.scrollHeight;
-
-    const maxScrollTop = Math.max(containerElement.scrollHeight - containerElement.clientHeight, 0);
-    const isAtBottom = Math.abs(maxScrollTop - containerElement.scrollTop) <= 2;
-    if (isAtBottom) return;
-
-    await wait(30);
-  }
 }
 
 function closeOfferManagementDialog() {
@@ -262,7 +271,7 @@ async function handleUpdateOfferStatus(nextStatus) {
       : "Proposta rifiutata";
     snackbar.addMessage(successMessage, "success");
   } catch (error) {
-    snackbar.addMessage(error.message || "Errore durante l'aggiornamento dello stato proposta", "error");
+    snackbar.addMessage(error.message || "Errore durante l'aggiornamento della proposta", "error");
   } finally {
     isUpdatingOfferStatus.value = false;
   }
@@ -314,29 +323,9 @@ async function markIncomingMessagesAsSeen() {
   try {
     await markOfferListingChatMessagesAsSeen(offerListingId.value);
   } catch (error) {
-    snackbar.addMessage(error.message || "Errore durante l'aggiornamento dei messaggi letti", "error");
+    snackbar.addMessage(error.message || "Errore durante il refresh dei messaggi letti", "error");
   } finally {
     isMarkingSeen.value = false;
-  }
-}
-
-async function loadChatMessages() {
-  if (!offerListingId.value) return;
-
-  isLoadingMessages.value = true;
-
-  try {
-    messages.value = await fetchOfferListingChatMessages(offerListingId.value);
-    await markIncomingMessagesAsSeen();
-  } catch (error) {
-    messages.value = [];
-    snackbar.addMessage(error.message || "Errore durante il caricamento dei messaggi", "error");
-  } finally {
-    isLoadingMessages.value = false;
-
-    if (messages.value.length > 0) {
-      await ensureMessagesAtBottom();
-    }
   }
 }
 
@@ -359,8 +348,33 @@ async function loadChatContext() {
   }
 }
 
+async function loadChatMessages() {
+  if (!offerListingId.value) {
+    setMessages([]);
+    return;
+  }
+
+  isLoadingMessages.value = true;
+
+  try {
+    const fetchedMessages = await fetchOfferListingChatMessages(offerListingId.value);
+    setMessages(fetchedMessages);
+    await markIncomingMessagesAsSeen();
+  } catch (error) {
+    setMessages([]);
+    snackbar.addMessage(error.message || "Errore durante il caricamento dei messaggi", "error");
+  } finally {
+    isLoadingMessages.value = false;
+  }
+
+  if (messages.value.length > 0) {
+    await scrollMessagesToBottom("auto", 10);
+  }
+}
+
 async function handleSendMessage() {
-  if (!isSendEnabled.value || !offerListingId.value) return;
+  if (!isSendEnabled.value) return;
+  if (!offerListingId.value) return;
 
   isSendingMessage.value = true;
 
@@ -372,11 +386,24 @@ async function handleSendMessage() {
 
     upsertMessage(insertedMessage);
     draftMessage.value = "";
-    scrollToBottom("smooth");
+    await scrollMessagesToBottom("smooth");
   } catch (error) {
     snackbar.addMessage(error.message || "Errore durante l'invio del messaggio", "error");
   } finally {
     isSendingMessage.value = false;
+  }
+}
+
+async function detachRealtimeSubscription() {
+  const subscription = realtimeSubscription.value;
+  realtimeSubscription.value = null;
+
+  if (!subscription?.unsubscribe) return;
+
+  try {
+    await subscription.unsubscribe();
+  } catch (error) {
+    snackbar.addMessage(error.message || "Errore durante la chiusura realtime della chat", "error");
   }
 }
 
@@ -386,13 +413,13 @@ async function attachRealtimeSubscription() {
 
   await detachRealtimeSubscription();
 
-  const subscription = subscribeToOfferListingChatMessages(offerListingId.value, {
+  realtimeSubscription.value = subscribeToOfferListingChatMessages(offerListingId.value, {
     onInsert: async (newMessage) => {
       upsertMessage(newMessage);
       if (!isOwnMessage(newMessage)) {
         await markIncomingMessagesAsSeen();
       }
-      scrollToBottom("smooth");
+      await scrollMessagesToBottom("smooth");
     },
     onUpdate: (updatedMessage) => {
       upsertMessage(updatedMessage);
@@ -404,50 +431,43 @@ async function attachRealtimeSubscription() {
       snackbar.addMessage(error.message || "Errore realtime nella chat", "error");
     },
   });
-
-  realtimeSubscription.value = subscription;
-}
-
-async function detachRealtimeSubscription() {
-  if (!realtimeSubscription.value?.unsubscribe) return;
-  await realtimeSubscription.value.unsubscribe();
-  realtimeSubscription.value = null;
 }
 
 async function bootstrapChat() {
+  const runId = bootstrapRunId.value + 1;
+  bootstrapRunId.value = runId;
+
   await detachRealtimeSubscription();
-  messages.value = [];
+  setMessages([]);
   draftMessage.value = "";
   chatContext.value = null;
   closeOfferManagementDialog();
 
   await loadChatContext();
-
+  if (runId !== bootstrapRunId.value) return;
   if (!hasContext.value || !viewerCanAccessChat.value) return;
 
   await loadChatMessages();
-  if (import.meta.client) {
-    await attachRealtimeSubscription();
-  }
+  if (runId !== bootstrapRunId.value) return;
+  await attachRealtimeSubscription();
 }
 
 if (import.meta.client) {
-  watch(offerListingId, bootstrapChat, { immediate: true });
+  watch(offerListingId, () => {
+    bootstrapChat();
+  }, { immediate: true });
+
+  watch(() => messagesScrollRef.value, async (scrollElement) => {
+    if (!scrollElement) return;
+    if (!hasMessages.value) return;
+    await scrollMessagesToBottom("auto", 3);
+  }, { flush: "post" });
+
   watch(
-    () => messagesScrollRef.value,
-    async (containerElement) => {
-      if (!containerElement) return;
-      if (!hasMessages.value) return;
-      await ensureMessagesAtBottom();
-    },
-    { flush: "post" },
-  );
-  watch(
-    () => [isLoadingMessages.value, hasMessages.value, offerListingId.value],
-    async ([isLoading, hasVisibleMessages]) => {
-      if (isLoading) return;
-      if (!hasVisibleMessages) return;
-      await ensureMessagesAtBottom();
+    () => [isLoadingContext.value, isLoadingMessages.value, hasMessages.value],
+    async ([loadingContext, loadingMessages, visibleMessages]) => {
+      if (loadingContext || loadingMessages || !visibleMessages) return;
+      await scrollMessagesToBottom("auto", 10);
     },
     { flush: "post" },
   );
@@ -456,17 +476,22 @@ if (import.meta.client) {
     detachRealtimeSubscription();
   });
 }
+
 </script>
 
 <template>
-  <section class="relative h-full">
+  <section class="relative h-fit flex flex-col overflow-hidden">
     <Toolbar label="Chat" fixed back-button>
       <template #info>
         <p v-if="isLoadingContext" class="chat-state-message">Caricamento dettagli chat...</p>
         <p v-else-if="!hasContext" class="chat-state-message">Chat non trovata</p>
 
         <template v-else>
-          <CommunityOfferListingRow :offer-listing="chatContext.offerListing" />
+          <div ref="top-info">
+            <!-- <Card /> -->
+            <CommunityOfferListingRow :offer-listing="chatContext.offerListing" />
+          </div>
+          
           <div v-if="showRejectedChatWarning" class="chat-warning-box">
             <p class="chat-warning-message">{{ rejectedChatWarningMessage }}</p>
             <button
@@ -483,79 +508,31 @@ if (import.meta.client) {
       </template>
     </Toolbar>
 
-    <div class="h-100 flex-1 px-3 pb-3">
-      <div class="message-shell">
-        <p v-if="isLoadingMessages" class="chat-state-message">Caricamento messaggi...</p>
-        <p v-else-if="!hasContext" class="chat-state-message">Chat non trovata</p>
-        <p v-else-if="!viewerCanAccessChat" class="chat-state-message">Non puoi accedere a questa chat</p>
-        <p v-else-if="!hasMessages" class="chat-state-message">Nessun messaggio per ora</p>
-
-        <div v-else ref="messagesScrollRef" class="h-full overflow-y-auto pb-1">
-          <div class="min-h-full space-y-2 flex flex-col justify-end">
-            <template v-for="(message, index) in messages" :key="message.id">
-              <div v-if="index === firstUnseenIncomingMessageIndex" class="new-messages-divider mt-5">
-                <span class="new-messages-label">Nuovi messaggi</span>
-                <span class="new-messages-line" />
-              </div>
-
-              <article
-                class="message-row"
-                :class="isOwnMessage(message) ? 'is-own' : 'is-other'"
-              >
-                <div class="message-bubble">
-                  <p class="message-body">{{ message.body }}</p>
-                  <div class="message-meta">
-                    <span>{{ formatMessageTime(message.created_at) }}</span>
-
-                    <v-icon
-                      v-if="isOwnMessage(message)"
-                      size="13"
-                      :color="message.seen_at ? '#4ade80' : 'rgba(203,213,225,0.82)'"
-                    >
-                      mdi-check-all
-                    </v-icon>
-                  </div>
-                </div>
-              </article>
-            </template>
-            <div ref="messagesBottomRef" aria-hidden="true" class="h-px w-full" />
-          </div>
+    <section class="chat-container flex flex-col justify-between gap-[0.6rem] rounded-[0.9rem] border border-[rgba(255,255,255,0.16)] bg-[linear-gradient(140deg,rgba(14,21,33,0.96),rgba(9,13,22,0.96))] px-[0.55rem] py-2 shadow-[inset_0_1px_0_rgba(255,255,255,0.08),0_12px_22px_rgba(0,0,0,0.34)]">
+      <template v-for="(message, index) in messages" :key="message.id">
+        <div v-if="index === firstUnseenIncomingMessageIndex" class="new-messages-divider">
+          <span class="new-messages-label">Nuovi messaggi</span>
+          <span class="new-messages-line" />
         </div>
-      </div>
-    </div>
 
-    <div v-if="!isMobile" class="desktop-composer-wrap px-3 pb-2">
-      <div class="chat-composer">
-        <v-textarea
-          v-model="draftMessage"
-          variant="outlined"
-          density="comfortable"
-          rows="2"
-          auto-grow
-          hide-details
-          no-resize
-          maxlength="150"
-          counter
-          class="chat-textarea"
-          placeholder="Scrivi un messaggio..."
-          :disabled="!viewerCanAccessChat || isChatDisabledByStatus || isSendingMessage"
-          @keydown.ctrl.enter.prevent="handleSendMessage"
-        />
+        <article class="message-row" :class="isOwnMessage(message) ? 'is-own' : 'is-other'">
+          <div class="message-bubble">
+            <p class="message-body">{{ message.body }}</p>
+            <div class="message-meta">
+              <span>{{ formatMessageTime(message.created_at) }}</span>
 
-        <v-btn
-          icon
-          color="orange"
-          size="large"
-          class="chat-send-btn"
-          :disabled="!isSendEnabled"
-          :loading="isSendingMessage"
-          @click="handleSendMessage"
-        >
-          <v-icon icon="mdi-send" />
-          {{ remainingCharacters }}
-        </v-btn>
-      </div>
-    </div>
+              <v-icon
+                v-if="isOwnMessage(message)"
+                size="13"
+                :color="message.seen_at ? '#4ade80' : 'rgba(203,213,225,0.82)'"
+              >
+                mdi-check-all
+              </v-icon>
+            </div>
+          </div>
+        </article>
+      </template>
+    </section>
 
     <MobileFloatMenu v-if="isMobile" :cols="1">
       <template #buttons>
@@ -564,10 +541,7 @@ if (import.meta.client) {
           :class="canManageOfferStatus ? 'with-status-actions' : 'without-status-actions'"
         >
           <div v-if="canManageOfferStatus" class="proposal-response-wrap">
-            <DialogsGeneric
-              ref="offerManagementDialogRef"
-              :disabled="isUpdatingOfferStatus"
-            >
+            <DialogsGeneric ref="offerManagementDialogRef" :disabled="isUpdatingOfferStatus">
               <template #button>
                 <button
                   type="button"
@@ -675,7 +649,7 @@ if (import.meta.client) {
             @keydown.ctrl.enter.prevent="handleSendMessage"
           />
 
-          <div class="flex flex-col items-center">
+          <div class="chat-send-wrap">
             <v-btn
               icon
               color="orange"
@@ -685,26 +659,34 @@ if (import.meta.client) {
               :loading="isSendingMessage"
               @click="handleSendMessage"
             >
-              <v-icon icon="mdi-send"/>
+              <v-icon icon="mdi-send" />
             </v-btn>
             <span class="chat-remaining-chars">{{ remainingCharacters }} / 150</span>
-            
-              
           </div>
         </div>
       </template>
     </MobileFloatMenu>
-
-    <FullscreenCardViewer
-      v-model:show="viewerOpen"
-      v-model:index="viewerIndex"
-      :cards="viewerCards"
-      @close="viewerOpen = false"
-    />
   </section>
 </template>
 
 <style scoped>
+
+.chat-container{
+  height: calc(100% - 320px);
+  border-radius: 1rem;
+  overflow: auto;
+  padding: 1rem;
+  margin: 0.5rem;
+  margin-top: 0;
+}
+.chat-content {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
 .chat-state-message {
   text-align: center;
   color: rgba(241, 245, 249, 0.82);
@@ -747,10 +729,28 @@ if (import.meta.client) {
 }
 
 .message-shell {
-  height: calc(100% - 172px);
+  min-height: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
   border-radius: 0.9rem;
   padding: 0.8rem;
   background: linear-gradient(135deg, rgba(15, 23, 42, 0.84), rgba(7, 10, 16, 0.86));
+}
+
+.message-scroll {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  padding-bottom: 0.2rem;
+}
+
+.message-stack {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 0.5rem;
 }
 
 .message-row {
@@ -767,7 +767,7 @@ if (import.meta.client) {
 }
 
 .message-bubble {
-  width: 70%;
+  width: min(70%, 450px);
   border-radius: 0.85rem;
   padding: 0.5rem 0.65rem;
   border: 1px solid rgba(255, 255, 255, 0.14);
@@ -807,6 +807,11 @@ if (import.meta.client) {
   background: #ff7a18;
 }
 
+.message-bottom-anchor {
+  width: 100%;
+  height: 1px;
+}
+
 .message-body {
   white-space: pre-wrap;
   word-break: break-word;
@@ -825,6 +830,10 @@ if (import.meta.client) {
   color: rgba(203, 213, 225, 0.86);
 }
 
+.desktop-composer-wrap {
+  margin-top: 0.1rem;
+}
+
 .chat-composer {
   display: grid;
   grid-template-columns: 1fr auto;
@@ -840,10 +849,25 @@ if (import.meta.client) {
   grid-template-columns: 1fr auto;
 }
 
+.chat-send-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
 .chat-send-btn {
   min-width: 2.8rem !important;
   min-height: 2.8rem !important;
   border-radius: 999px !important;
+}
+
+.chat-remaining-chars {
+  text-align: right;
+  color: rgba(203, 213, 225, 0.8);
+  font-size: 0.7rem;
+  margin-top: 0.25rem;
+  font-weight: 600;
 }
 
 .proposal-response-wrap {
@@ -921,18 +945,6 @@ if (import.meta.client) {
 .offer-management-action-btn--deliver {
   background: linear-gradient(145deg, rgba(251, 146, 60, 0.96), rgba(234, 88, 12, 0.98)) !important;
   color: rgba(248, 250, 252, 0.98) !important;
-}
-
-.chat-remaining-chars {
-  text-align: right;
-  color: rgba(203, 213, 225, 0.8);
-  font-size: 0.7rem;
-  margin-top: 0.25rem;
-  font-weight: 600;
-}
-
-.desktop-composer-wrap {
-  margin-top: 0.5rem;
 }
 
 :deep(.chat-textarea .v-field) {

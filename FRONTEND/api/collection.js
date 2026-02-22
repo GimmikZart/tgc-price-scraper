@@ -34,26 +34,40 @@ export async function fetchCardCountInCollection(userUuid, cardId) {
 
 export async function addCardToUserCollection(userUuid, cardId) {
   const client = useSupabaseClient();
+  const normalizedCardId = typeof cardId === "string" ? cardId.trim() : "";
 
-  // 1) Cerco se esiste già
+  if (!normalizedCardId) {
+    throw new Error("cardId is required");
+  }
+
+  // Ensure FK collection_card_id_fkey can be satisfied before insert.
+  const { error: upsertCardError } = await client
+    .from("cards")
+    .upsert({ card_id: normalizedCardId }, { onConflict: "card_id" });
+
+  if (upsertCardError) {
+    throw new Error(upsertCardError.message);
+  }
+
+  // 1) Check if an entry already exists.
   const { data: existing, error: fetchError } = await client
     .from("collection")
     .select("id, card_number")
     .eq("user_uuid", userUuid)
-    .eq("card_id", cardId)
+    .eq("card_id", normalizedCardId)
     .maybeSingle();
 
   if (fetchError) {
     throw new Error(fetchError.message);
   }
 
-  // 2) Se non esiste, inserisco nuova riga con card_number = 1
+  // 2) If missing, create a new row with card_number = 1.
   if (!existing) {
     const { data, error } = await client
       .from("collection")
       .insert({
         user_uuid: userUuid,
-        card_id: cardId,
+        card_id: normalizedCardId,
         card_number: 1,
       })
       .single();
@@ -64,7 +78,7 @@ export async function addCardToUserCollection(userUuid, cardId) {
     return data;
   }
 
-  // 3) Se esiste, incremento il counter
+  // 3) If present, increment the counter.
   const { data, error } = await client
     .from("collection")
     .update({ card_number: existing.card_number + 1 })
@@ -81,7 +95,7 @@ export async function addCardToUserCollection(userUuid, cardId) {
 export async function removeCardToUserCollection(userUuid, cardId) {
   const client = useSupabaseClient();
 
-  // 1) Cerco se esiste già
+  // 1) Check if an entry already exists.
   const { data: existing, error: fetchError } = await client
     .from("collection")
     .select("id, card_number")
@@ -92,12 +106,13 @@ export async function removeCardToUserCollection(userUuid, cardId) {
   if (fetchError) {
     throw new Error(fetchError.message);
   }
-  // Se non esiste, non c'è nulla da rimuovere
+
+  // If missing, there is nothing to remove.
   if (!existing) {
     return null;
   }
 
-  // 2) Se ne aveva più di uno, decremento
+  // 2) If there is more than one copy, decrement.
   if (existing.card_number > 1) {
     const { data, error } = await client
       .from("collection")
@@ -111,7 +126,7 @@ export async function removeCardToUserCollection(userUuid, cardId) {
     return data;
   }
 
-  // 3) Se era l’ultima copia, elimino la riga
+  // 3) If it was the last copy, delete the row.
   const { data, error } = await client
     .from("collection")
     .delete()
@@ -121,5 +136,6 @@ export async function removeCardToUserCollection(userUuid, cardId) {
   if (error) {
     throw new Error(error.message);
   }
+
   return null;
 }

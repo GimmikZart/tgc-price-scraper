@@ -3,8 +3,12 @@ import {
   acceptOfferListingProposal,
   fetchOfferListingChatContext,
   fetchOfferListingChatMessages,
+  markOfferListingAsDelivered,
+  markOfferListingAsReceived,
   markOfferListingChatMessagesAsSeen,
   rejectOfferListingProposal,
+  revokeOfferListingDelivery,
+  revokeOfferListingReception,
   sendOfferListingChatMessage,
   subscribeToOfferListingChatMessages,
   updateOwnOfferListingProposal,
@@ -21,6 +25,7 @@ const props = defineProps({
 });
 
 const route = useRoute();
+const router = useRouter();
 const snackbar = useSnackbar();
 const userAuth = useUserAuth();
 const { isMobile } = useMyBreakpoints();
@@ -37,12 +42,15 @@ const isMarkingSeen = ref(false);
 const offerManagementDialogRef = ref(null);
 const offerPurchaseManagementDialogRef = ref(null);
 const offerEditDialogRef = ref(null);
+const offerDeliverConfirmDialogRef = ref(null);
+const offerReceiveConfirmDialogRef = ref(null);
 const offerEditQuantity = ref(1);
 const offerEditValue = ref("");
 const messagesScrollRef = ref(null);
 const messagesBottomRef = ref(null);
 const realtimeSubscription = ref(null);
 const bootstrapRunId = ref(0);
+const hasTradeCompletionRedirected = ref(false);
 
 const currentUserId = computed(() => userAuth?.userLogged?.id ?? null);
 const offerListingId = computed(() => {
@@ -70,6 +78,22 @@ const normalizedDraftMessage = computed(() => draftMessage.value.trim());
 const remainingCharacters = computed(() => Math.max(150 - draftMessage.value.length, 0));
 const currentOfferStatus = computed(() => chatContext.value?.offerListing?.status ?? null);
 const isOfferRejected = computed(() => currentOfferStatus.value === OfferStatus.Rejected);
+const isOfferDelivered = computed(() => Boolean(chatContext.value?.offerListing?.delivered_at));
+const isOfferReceived = computed(() => Boolean(chatContext.value?.offerListing?.received_at));
+const isTradeCompleted = computed(() => isOfferDelivered.value && isOfferReceived.value);
+const tradeCompletionRedirectPath = computed(() => {
+  const parsedSellListingId = Number(chatContext.value?.sellListing?.id);
+  if (!Number.isInteger(parsedSellListingId) || parsedSellListingId <= 0) return null;
+
+  if (props.viewerRole === "seller") {
+    return `/community/sell-cards/${parsedSellListingId}`;
+  }
+
+  return `/community/offers/${parsedSellListingId}`;
+});
+const showTradeStatusSection = computed(() => {
+  return isOfferDelivered.value || isOfferReceived.value;
+});
 const counterpartyIdentity = computed(() => {
   if (!hasContext.value) return null;
 
@@ -126,18 +150,48 @@ const canManagePurchase = computed(() => {
   const parsedOfferListingId = Number(chatContext.value?.offerListing?.id);
   return Number.isInteger(parsedOfferListingId) && parsedOfferListingId > 0;
 });
-const hasChatActionButton = computed(() => canManageOfferStatus.value || canManagePurchase.value);
-
-const canAcceptOffer = computed(() => {
+const canShowSellerActionButton = computed(() => {
   if (!canManageOfferStatus.value) return false;
-  if (isUpdatingOfferStatus.value) return false;
-  return currentOfferStatus.value !== OfferStatus.Accepted;
+  return !isOfferRejected.value;
+});
+const canShowOffererActionButton = computed(() => {
+  if (!canManagePurchase.value) return false;
+  return !isOfferRejected.value;
+});
+const hasChatActionButton = computed(() => {
+  return canShowSellerActionButton.value || canShowOffererActionButton.value;
 });
 
 const canRejectOffer = computed(() => {
   if (!canManageOfferStatus.value) return false;
   if (isUpdatingOfferStatus.value) return false;
+  if (isOfferDelivered.value) return false;
   return currentOfferStatus.value !== OfferStatus.Rejected;
+});
+const canMarkAsDelivered = computed(() => {
+  if (!canManageOfferStatus.value) return false;
+  if (isUpdatingOfferStatus.value) return false;
+  return !isOfferDelivered.value;
+});
+const canRevokeDelivery = computed(() => {
+  if (!canManageOfferStatus.value) return false;
+  if (isUpdatingOfferStatus.value) return false;
+  return isOfferDelivered.value;
+});
+const canMarkAsReceived = computed(() => {
+  if (!canManagePurchase.value) return false;
+  if (isUpdatingOfferProposal.value) return false;
+  return !isOfferReceived.value;
+});
+const canRevokeReception = computed(() => {
+  if (!canManagePurchase.value) return false;
+  if (isUpdatingOfferProposal.value) return false;
+  return isOfferReceived.value;
+});
+const canEditOfferProposal = computed(() => {
+  if (!canManagePurchase.value) return false;
+  if (isUpdatingOfferProposal.value) return false;
+  return !isOfferReceived.value;
 });
 
 const canRevokeRejectedOffer = computed(() => {
@@ -165,6 +219,7 @@ const offerEditQuantityModel = computed({
 const canSubmitOfferEdit = computed(() => {
   if (!canManagePurchase.value) return false;
   if (isUpdatingOfferProposal.value) return false;
+  if (isOfferReceived.value) return false;
 
   const parsedOffer = Number(offerEditValue.value);
   const parsedQuantity = Number(offerEditQuantityModel.value);
@@ -314,6 +369,26 @@ function closeOfferEditDialog() {
   offerEditDialogRef.value?.closeDialog?.();
 }
 
+function closeOfferDeliverConfirmDialog() {
+  offerDeliverConfirmDialogRef.value?.closeDialog?.();
+}
+
+function closeOfferReceiveConfirmDialog() {
+  offerReceiveConfirmDialogRef.value?.closeDialog?.();
+}
+
+async function redirectToTradeDetailsIfCompleted() {
+  if (!isTradeCompleted.value) return;
+  if (hasTradeCompletionRedirected.value) return;
+
+  const targetPath = tradeCompletionRedirectPath.value;
+  if (!targetPath) return;
+  if (route.path === targetPath) return;
+
+  hasTradeCompletionRedirected.value = true;
+  await router.push(targetPath);
+}
+
 function resetOfferEditDraft() {
   offerEditQuantity.value = 1;
   offerEditValue.value = "";
@@ -363,20 +438,82 @@ async function handleUpdateOfferStatus(nextStatus) {
   }
 }
 
-async function handleAcceptOffer() {
-  await handleUpdateOfferStatus(OfferStatus.Accepted);
-}
-
 async function handleRejectOffer() {
+  if (!canRejectOffer.value) return;
   await handleUpdateOfferStatus(OfferStatus.Rejected);
 }
 
-function handleDeliverOffer() {
-  snackbar.addMessage("Azione consegna da implementare", "info");
+async function handleOpenOfferDeliverDialog(closeDialog) {
+  if (!canManageOfferStatus.value) return;
+
+  if (isOfferDelivered.value) {
+    closeDialog?.();
+    snackbar.addMessage("Consegna gia confermata", "info");
+    return;
+  }
+
+  closeDialog?.();
+  await nextTick();
+  offerDeliverConfirmDialogRef.value?.openDialog?.();
+}
+
+async function handleConfirmOfferDelivery() {
+  if (!canManageOfferStatus.value) return;
+
+  const parsedOfferListingId = Number(chatContext.value?.offerListing?.id);
+  if (!Number.isInteger(parsedOfferListingId) || parsedOfferListingId <= 0) return;
+
+  if (isOfferDelivered.value) {
+    closeOfferDeliverConfirmDialog();
+    snackbar.addMessage("Consegna gia confermata", "info");
+    return;
+  }
+
+  isUpdatingOfferStatus.value = true;
+
+  try {
+    const updatedOfferListing = await markOfferListingAsDelivered(parsedOfferListingId);
+    applyUpdatedOfferListing(updatedOfferListing);
+    closeOfferDeliverConfirmDialog();
+    snackbar.addMessage("Consegna confermata", "success");
+  } catch (error) {
+    snackbar.addMessage(error.message || "Errore durante la conferma della consegna", "error");
+  } finally {
+    isUpdatingOfferStatus.value = false;
+  }
+}
+
+async function handleRevokeOfferDelivery() {
+  if (!canRevokeDelivery.value) return;
+
+  const parsedOfferListingId = Number(chatContext.value?.offerListing?.id);
+  if (!Number.isInteger(parsedOfferListingId) || parsedOfferListingId <= 0) return;
+
+  isUpdatingOfferStatus.value = true;
+
+  try {
+    const updatedOfferListing = await revokeOfferListingDelivery(parsedOfferListingId);
+    applyUpdatedOfferListing(updatedOfferListing);
+    snackbar.addMessage("Consegna revocata", "success");
+  } catch (error) {
+    snackbar.addMessage(error.message || "Errore durante la revoca della consegna", "error");
+  } finally {
+    isUpdatingOfferStatus.value = false;
+  }
+}
+
+async function handleDeliverManagementAction(closeDialog) {
+  if (isOfferDelivered.value) {
+    closeDialog?.();
+    await handleRevokeOfferDelivery();
+    return;
+  }
+
+  await handleOpenOfferDeliverDialog(closeDialog);
 }
 
 async function handleOpenOfferEditDialog(closeDialog) {
-  if (!canManagePurchase.value) return;
+  if (!canEditOfferProposal.value) return;
 
   hydrateOfferEditDraftFromContext();
   closeDialog?.();
@@ -384,9 +521,74 @@ async function handleOpenOfferEditDialog(closeDialog) {
   offerEditDialogRef.value?.openDialog?.();
 }
 
-function handleOfferPurchaseReceived(closeDialog) {
+async function handleOpenOfferPurchaseReceivedDialog(closeDialog) {
+  if (!canManagePurchase.value) return;
+
+  if (isOfferReceived.value) {
+    closeDialog?.();
+    snackbar.addMessage("Ricezione gia confermata", "info");
+    return;
+  }
+
   closeDialog?.();
-  snackbar.addMessage("Conferma ricezione da implementare", "info");
+  await nextTick();
+  offerReceiveConfirmDialogRef.value?.openDialog?.();
+}
+
+async function handleConfirmOfferReception() {
+  if (!canManagePurchase.value) return;
+
+  const parsedOfferListingId = Number(chatContext.value?.offerListing?.id);
+  if (!Number.isInteger(parsedOfferListingId) || parsedOfferListingId <= 0) return;
+
+  if (isOfferReceived.value) {
+    closeOfferReceiveConfirmDialog();
+    snackbar.addMessage("Ricezione gia confermata", "info");
+    return;
+  }
+
+  isUpdatingOfferProposal.value = true;
+
+  try {
+    const updatedOfferListing = await markOfferListingAsReceived(parsedOfferListingId);
+    applyUpdatedOfferListing(updatedOfferListing);
+    closeOfferReceiveConfirmDialog();
+    closeOfferPurchaseManagementDialog();
+    snackbar.addMessage("Ricezione confermata", "success");
+  } catch (error) {
+    snackbar.addMessage(error.message || "Errore durante la conferma della ricezione", "error");
+  } finally {
+    isUpdatingOfferProposal.value = false;
+  }
+}
+
+async function handleRevokeOfferReception() {
+  if (!canRevokeReception.value) return;
+
+  const parsedOfferListingId = Number(chatContext.value?.offerListing?.id);
+  if (!Number.isInteger(parsedOfferListingId) || parsedOfferListingId <= 0) return;
+
+  isUpdatingOfferProposal.value = true;
+
+  try {
+    const updatedOfferListing = await revokeOfferListingReception(parsedOfferListingId);
+    applyUpdatedOfferListing(updatedOfferListing);
+    snackbar.addMessage("Ricezione revocata", "success");
+  } catch (error) {
+    snackbar.addMessage(error.message || "Errore durante la revoca della ricezione", "error");
+  } finally {
+    isUpdatingOfferProposal.value = false;
+  }
+}
+
+async function handlePurchaseReceivedAction(closeDialog) {
+  if (isOfferReceived.value) {
+    closeDialog?.();
+    await handleRevokeOfferReception();
+    return;
+  }
+
+  await handleOpenOfferPurchaseReceivedDialog(closeDialog);
 }
 
 async function handleSubmitOfferEdit() {
@@ -584,13 +786,18 @@ async function bootstrapChat() {
   setMessages([]);
   draftMessage.value = "";
   chatContext.value = null;
+  hasTradeCompletionRedirected.value = false;
   closeOfferManagementDialog();
   closeOfferPurchaseManagementDialog();
   closeOfferEditDialog();
+  closeOfferDeliverConfirmDialog();
+  closeOfferReceiveConfirmDialog();
   resetOfferEditDraft();
 
   await loadChatContext();
   if (runId !== bootstrapRunId.value) return;
+  await redirectToTradeDetailsIfCompleted();
+  if (hasTradeCompletionRedirected.value) return;
   if (!hasContext.value || !viewerCanAccessChat.value) return;
 
   await loadChatMessages();
@@ -602,6 +809,15 @@ if (import.meta.client) {
   watch(offerListingId, () => {
     bootstrapChat();
   }, { immediate: true });
+
+  watch(
+    () => [isTradeCompleted.value, tradeCompletionRedirectPath.value],
+    async ([completed, targetPath]) => {
+      if (!completed || !targetPath) return;
+      await redirectToTradeDetailsIfCompleted();
+    },
+    { immediate: true },
+  );
 
   watch(() => messagesScrollRef.value, async (scrollElement) => {
     if (!scrollElement) return;
@@ -660,10 +876,11 @@ if (import.meta.client) {
             </button>
           </div>
           <div v-else class="chat-info-box">
-            <h3 class="text-sm text-blue-500 font-bold">Chat rules:</h3>
+            <h3 class="text-sm text-blue-500 text-center font-bold">Regolamento</h3>
             <ul class="chat-info-message list-disc list-inside">
-              <li>Non fornire informazioni personali o sensibili.</li>
-              <li>Deckspedia non si assume responsabilità riguardante l'autenticità dei prodotti.</li>
+              <li class="text-xs">Non fornire informazioni personali o sensibili.</li>
+              <li class="text-xs">Prediligi scambio a mano. Diffida da spedizioni o pagamenti anticipati.</li>
+              <li class="text-xs">Deckspedia non si assume responsabilità riguardante l'autenticità dei prodotti.</li>
             </ul>
           </div>
         </template>
@@ -698,17 +915,46 @@ if (import.meta.client) {
 
     <MobileFloatMenu v-if="isMobile" :cols="1">
       <template #buttons>
-        <div
-          class="chat-composer chat-composer-mobile"
-          :class="hasChatActionButton ? 'with-status-actions' : 'without-status-actions'"
-        >
-          <div v-if="canManageOfferStatus" class="proposal-response-wrap">
-            <DialogsGeneric ref="offerManagementDialogRef" :disabled="isUpdatingOfferStatus">
+        <div class="chat-toolbar-stack">
+          <div v-if="showTradeStatusSection" class="chat-sale-status">
+            <div
+              class="chat-sale-status-card"
+              :class="isOfferDelivered ? 'chat-sale-status-card--completed' : 'chat-sale-status-card--pending'"
+            >
+              <span class="chat-sale-status-role">Venditore</span>
+              <div class="chat-sale-status-line">
+                <v-icon size="15" class="chat-sale-status-icon">
+                  {{ isOfferDelivered ? "mdi-check-circle" : "mdi-timer-sand" }}
+                </v-icon>
+                <span>{{ isOfferDelivered ? "Consegna confermata" : "In attesa consegna" }}</span>
+              </div>
+            </div>
+
+            <div
+              class="chat-sale-status-card"
+              :class="isOfferReceived ? 'chat-sale-status-card--completed' : 'chat-sale-status-card--pending'"
+            >
+              <span class="chat-sale-status-role">Offerente</span>
+              <div class="chat-sale-status-line">
+                <v-icon size="15" class="chat-sale-status-icon">
+                  {{ isOfferReceived ? "mdi-check-circle" : "mdi-timer-sand" }}
+                </v-icon>
+                <span>{{ isOfferReceived ? "Ricezione confermata" : "In attesa ricezione" }}</span>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="chat-composer chat-composer-mobile"
+            :class="hasChatActionButton ? 'with-status-actions' : 'without-status-actions'"
+          >
+            <div v-if="canShowSellerActionButton" class="proposal-response-wrap">
+            <DialogsGeneric ref="offerManagementDialogRef" :disabled="isUpdatingOfferStatus || isOfferRejected">
               <template #button>
                 <button
                   type="button"
                   class="proposal-response-toggle-btn"
-                  :disabled="isUpdatingOfferStatus"
+                  :disabled="isUpdatingOfferStatus || isOfferRejected"
                   title="Rispondi alla proposta"
                 >
                   <svg
@@ -772,29 +1018,60 @@ if (import.meta.client) {
                     <v-btn
                       block
                       variant="flat"
-                      class="offer-management-action-btn offer-management-action-btn--accept"
-                      :disabled="!canAcceptOffer"
+                      :class="[
+                        'offer-management-action-btn',
+                        isOfferDelivered
+                          ? 'offer-management-action-btn--revoke'
+                          : 'offer-management-action-btn--deliver',
+                      ]"
+                      :disabled="isOfferDelivered ? !canRevokeDelivery : !canMarkAsDelivered"
                       :loading="isUpdatingOfferStatus"
-                      @click="handleAcceptOffer"
+                      @click="handleDeliverManagementAction(closeDialog)"
                     >
-                      Accetta
+                      {{ isOfferDelivered ? 'Revoca consegna' : 'Consegna' }}
                     </v-btn>
                   </div>
 
-                  <v-btn
-                    block
-                    variant="flat"
-                    class="offer-management-action-btn offer-management-action-btn--deliver"
-                    :disabled="isUpdatingOfferStatus"
-                    @click="handleDeliverOffer(); closeDialog()"
-                  >
-                    Consegna
-                  </v-btn>
                 </div>
               </template>
             </DialogsGeneric>
+
+            <DialogsGeneric ref="offerDeliverConfirmDialogRef" :disabled="isUpdatingOfferStatus">
+              <template #button>
+                <span class="offer-edit-hidden-trigger" aria-hidden="true" />
+              </template>
+
+              <template #title>Sicuro di voler concludere la vendita?</template>
+
+              <template #content>
+                <p class="offer-management-description">
+                  Una volta che anche l'offerente indicherà che ha ricevuto l'oggetto, la trattativa sarà conclusa e la chat verrà distrutta. Vuoi continuare?
+                </p>
+              </template>
+
+              <template #actions="{ closeDialog }">
+                <v-spacer />
+                <v-btn
+                  variant="flat"
+                  class="offer-finalization-dialog-cancel-btn"
+                  :disabled="isUpdatingOfferStatus"
+                  @click="closeDialog"
+                >
+                  Annulla
+                </v-btn>
+                <v-btn
+                  variant="flat"
+                  class="offer-management-action-btn offer-management-action-btn--deliver"
+                  :disabled="!canMarkAsDelivered"
+                  :loading="isUpdatingOfferStatus"
+                  @click="handleConfirmOfferDelivery"
+                >
+                  Procedi
+                </v-btn>
+              </template>
+            </DialogsGeneric>
           </div>
-          <div v-else-if="canManagePurchase" class="proposal-response-wrap">
+          <div v-else-if="canShowOffererActionButton" class="proposal-response-wrap">
             <DialogsGeneric ref="offerPurchaseManagementDialogRef" :disabled="isUpdatingOfferProposal">
               <template #button>
                 <button
@@ -820,7 +1097,7 @@ if (import.meta.client) {
                       block
                       variant="flat"
                       class="offer-management-action-btn offer-management-action-btn--edit"
-                      :disabled="isUpdatingOfferProposal"
+                      :disabled="!canEditOfferProposal"
                       @click="handleOpenOfferEditDialog(closeDialog)"
                     >
                       Modifica
@@ -829,14 +1106,55 @@ if (import.meta.client) {
                     <v-btn
                       block
                       variant="flat"
-                      class="offer-management-action-btn offer-management-action-btn--received"
-                      :disabled="isUpdatingOfferProposal"
-                      @click="handleOfferPurchaseReceived(closeDialog)"
+                      :class="[
+                        'offer-management-action-btn',
+                        isOfferReceived
+                          ? 'offer-management-action-btn--revoke'
+                          : 'offer-management-action-btn--received',
+                      ]"
+                      :disabled="isOfferReceived ? !canRevokeReception : !canMarkAsReceived"
+                      :loading="isUpdatingOfferProposal"
+                      @click="handlePurchaseReceivedAction(closeDialog)"
                     >
-                      Oggetto ricevuto
+                      {{ isOfferReceived ? 'Revoca ricezione' : 'Oggetto ricevuto' }}
                     </v-btn>
                   </div>
                 </div>
+              </template>
+            </DialogsGeneric>
+
+            <DialogsGeneric ref="offerReceiveConfirmDialogRef" :disabled="isUpdatingOfferProposal">
+              <template #button>
+                <span class="offer-edit-hidden-trigger" aria-hidden="true" />
+              </template>
+
+              <template #title>Sicuro di voler concludere l'acquisto?</template>
+
+              <template #content>
+                <p class="offer-management-description">
+                  Una volta che anche il venditore indicherà di aver ceduto l'oggetto, la trattativa sarà conclusa e la chat verrà distrutta. Vuoi continuare?
+                </p>
+              </template>
+
+              <template #actions="{ closeDialog }">
+                <v-spacer />
+                <v-btn
+                  variant="flat"
+                  class="offer-finalization-dialog-cancel-btn"
+                  :disabled="isUpdatingOfferProposal"
+                  @click="closeDialog"
+                >
+                  Annulla
+                </v-btn>
+                <v-btn
+                  variant="flat"
+                  class="offer-management-action-btn offer-management-action-btn--received"
+                  :disabled="!canMarkAsReceived"
+                  :loading="isUpdatingOfferProposal"
+                  @click="handleConfirmOfferReception"
+                >
+                  Procedi
+                </v-btn>
               </template>
             </DialogsGeneric>
 
@@ -922,6 +1240,7 @@ if (import.meta.client) {
             </v-btn>
             <span class="chat-remaining-chars">{{ remainingCharacters }} / 150</span>
           </div>
+        </div>
         </div>
       </template>
     </MobileFloatMenu>
@@ -1207,6 +1526,65 @@ if (import.meta.client) {
   margin-top: 0.1rem;
 }
 
+.chat-toolbar-stack {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.chat-sale-status {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.45rem;
+}
+
+.chat-sale-status-card {
+  border-radius: 0.82rem;
+  border: 1px solid transparent;
+  padding: 0.42rem 0.52rem;
+  min-width: 0;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.14),
+    0 8px 18px rgba(0, 0, 0, 0.24);
+}
+
+.chat-sale-status-card--pending {
+  border-color: rgba(251, 146, 60, 0.46);
+  background: linear-gradient(145deg, rgba(251, 146, 60, 0.3), rgba(234, 88, 12, 0.2));
+  color: rgba(255, 237, 213, 0.98);
+}
+
+.chat-sale-status-card--completed {
+  border-color: rgba(34, 197, 94, 0.45);
+  background: linear-gradient(145deg, rgba(22, 163, 74, 0.34), rgba(20, 83, 45, 0.22));
+  color: rgba(220, 252, 231, 0.98);
+}
+
+.chat-sale-status-role {
+  display: block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  opacity: 0.95;
+}
+
+.chat-sale-status-line {
+  margin-top: 0.16rem;
+  display: flex;
+  align-items: center;
+  gap: 0.28rem;
+  font-size: 0.74rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.chat-sale-status-icon {
+  flex: 0 0 auto;
+}
+
 .chat-composer {
   display: grid;
   grid-template-columns: 1fr auto;
@@ -1335,11 +1713,6 @@ if (import.meta.client) {
   color: rgba(248, 250, 252, 0.98) !important;
 }
 
-.offer-management-action-btn--accept {
-  background: linear-gradient(145deg, rgba(22, 163, 74, 0.94), rgba(20, 83, 45, 0.98)) !important;
-  color: rgba(248, 250, 252, 0.98) !important;
-}
-
 .offer-management-action-btn--edit {
   background: linear-gradient(145deg, rgba(251, 146, 60, 0.96), rgba(234, 88, 12, 0.98)) !important;
   color: rgba(248, 250, 252, 0.98) !important;
@@ -1351,7 +1724,12 @@ if (import.meta.client) {
 }
 
 .offer-management-action-btn--deliver {
-  background: linear-gradient(145deg, rgba(251, 146, 60, 0.96), rgba(234, 88, 12, 0.98)) !important;
+  background: linear-gradient(145deg, rgba(22, 163, 74, 0.94), rgba(20, 83, 45, 0.98)) !important;
+  color: rgba(248, 250, 252, 0.98) !important;
+}
+
+.offer-management-action-btn--revoke {
+  background: linear-gradient(145deg, rgba(220, 38, 38, 0.94), rgba(127, 29, 29, 0.98)) !important;
   color: rgba(248, 250, 252, 0.98) !important;
 }
 
@@ -1370,6 +1748,15 @@ if (import.meta.client) {
 
 .offer-edit-dialog-cancel-btn {
   color: rgba(241, 245, 249, 0.9) !important;
+}
+
+.offer-finalization-dialog-cancel-btn {
+  border-radius: 0.75rem !important;
+  border: 1px solid rgba(96, 165, 250, 0.42) !important;
+  background: linear-gradient(155deg, rgba(30, 64, 175, 0.94), rgba(15, 23, 42, 0.96)) !important;
+  color: rgba(239, 246, 255, 0.95) !important;
+  font-weight: 700;
+  letter-spacing: 0.01em;
 }
 
 :deep(.chat-textarea .v-field) {

@@ -1,5 +1,5 @@
 <script setup>
-import { getOfferStatusMeta } from "@/utilities/enums/offerStatus";
+import { OfferStatus, getOfferStatusMeta } from "@/utilities/enums/offerStatus";
 import { useRouter } from "vue-router";
 
 const props = defineProps({
@@ -19,6 +19,7 @@ const statusMeta = computed(() => getOfferStatusMeta(props.offerListing?.status)
 const statusLabel = computed(() => statusMeta.value?.label ?? props.offerListing?.status ?? "N/D");
 const statusColor = computed(() => statusMeta.value?.color ?? "#607d8b");
 const statusIcon = computed(() => statusMeta.value?.icon ?? "mdi-help");
+const isAcceptedOffer = computed(() => props.offerListing?.status === OfferStatus.Accepted);
 
 const username = computed(() => {
   const value = props.offerListing?.offererUsername ?? props.offerListing?.offererProfile?.username;
@@ -67,7 +68,7 @@ const chatPath = computed(() => {
   return `${normalizedChatPathBase.value}/${parsedOfferListingId}/chat`;
 });
 
-const canOpenChat = computed(() => Boolean(chatPath.value));
+const canOpenChat = computed(() => Boolean(chatPath.value) && !isAcceptedOffer.value);
 
 function handleOpenChat() {
   if (!canOpenChat.value) return;

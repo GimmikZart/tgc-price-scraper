@@ -5,6 +5,7 @@ import {
   fetchActiveSellListingById,
   fetchOfferListingsBySellListingId,
 } from "@/api/sellListings";
+import { OfferStatus } from "@/utilities/enums/offerStatus";
 import { useRouter } from "vue-router";
 
 const router = useRouter();
@@ -22,18 +23,21 @@ const isLoadingOwnOfferUnread = ref(false);
 let unreadStateRequestToken = 0;
 
 const currentUserId = computed(() => userAuth?.userLogged?.id ?? null);
-const loggedUserOfferListing = computed(() => {
+const pendingOwnOfferListing = computed(() => {
   if (!currentUserId.value) return null;
 
   return offerListings.value.find((offerListing) => {
-    return String(offerListing?.offerer_id ?? "") === String(currentUserId.value);
+    const isOwnOffer = String(offerListing?.offerer_id ?? "") === String(currentUserId.value);
+    return isOwnOffer && offerListing?.status === OfferStatus.Pending;
   }) ?? null;
 });
 const visibleOfferListings = computed(() => {
   if (!currentUserId.value) return offerListings.value;
 
   return offerListings.value.filter((offerListing) => {
-    return String(offerListing?.offerer_id ?? "") !== String(currentUserId.value);
+    const isOwnOffer = String(offerListing?.offerer_id ?? "") === String(currentUserId.value);
+    if (!isOwnOffer) return true;
+    return offerListing?.status !== OfferStatus.Pending;
   });
 });
 
@@ -64,11 +68,11 @@ const isOfferEnabled = computed(() => {
 
 const canSubmitOffer = computed(() => {
   if (!isOfferEnabled.value) return false;
-  return !loggedUserOfferListing.value;
+  return !pendingOwnOfferListing.value;
 });
 
 const ownOfferChatPath = computed(() => {
-  const parsedOfferListingId = Number(loggedUserOfferListing.value?.id);
+  const parsedOfferListingId = Number(pendingOwnOfferListing.value?.id);
   if (!Number.isInteger(parsedOfferListingId) || parsedOfferListingId <= 0) return null;
   return `/community/offers/${parsedOfferListingId}/chat`;
 });
@@ -114,7 +118,7 @@ async function loadOfferListings(sellListingId) {
 async function loadOwnOfferUnreadState() {
   unreadStateRequestToken += 1;
   const currentRequestToken = unreadStateRequestToken;
-  const offerListingId = Number(loggedUserOfferListing.value?.id);
+  const offerListingId = Number(pendingOwnOfferListing.value?.id);
 
   if (!Number.isInteger(offerListingId) || offerListingId <= 0) {
     hasUnreadMessagesOnOwnOffer.value = false;
@@ -147,7 +151,7 @@ async function handleSubmitProposal() {
   if (isSubmittingProposal.value) return;
   if (!listing.value?.id) return;
   if (!canSubmitOffer.value) {
-    if (loggedUserOfferListing.value) {
+    if (pendingOwnOfferListing.value) {
       snackbar.addMessage("Hai gia inviato un'offerta per questa vendita", "warning");
     }
     return;
@@ -190,7 +194,7 @@ definePageMeta({
 });
 
 watch(
-  () => loggedUserOfferListing.value?.id,
+  () => pendingOwnOfferListing.value?.id,
   () => {
     loadOwnOfferUnreadState();
   },
@@ -210,8 +214,8 @@ watch(
 
     <MobileFloatMenu :cols="1">
       <template #buttons>
-        <div v-if="loggedUserOfferListing" class="own-offer-entry">
-          <CommunityOfferListingRow :offer-listing="loggedUserOfferListing" class="w-full">
+        <div v-if="pendingOwnOfferListing" class="own-offer-entry">
+          <CommunityOfferListingRow :offer-listing="pendingOwnOfferListing" class="w-full">
             <template #right>
               <div class="flex items-center gap-2">
                 <button

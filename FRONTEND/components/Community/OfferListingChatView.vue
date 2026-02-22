@@ -7,6 +7,7 @@ import {
   rejectOfferListingProposal,
   sendOfferListingChatMessage,
   subscribeToOfferListingChatMessages,
+  updateOwnOfferListingProposal,
   updateOfferListingStatus,
 } from "@/api/offerListingChat";
 import { OfferStatus } from "@/utilities/enums/offerStatus";
@@ -31,8 +32,13 @@ const isLoadingContext = ref(true);
 const isLoadingMessages = ref(false);
 const isSendingMessage = ref(false);
 const isUpdatingOfferStatus = ref(false);
+const isUpdatingOfferProposal = ref(false);
 const isMarkingSeen = ref(false);
 const offerManagementDialogRef = ref(null);
+const offerPurchaseManagementDialogRef = ref(null);
+const offerEditDialogRef = ref(null);
+const offerEditQuantity = ref(1);
+const offerEditValue = ref("");
 const messagesScrollRef = ref(null);
 const messagesBottomRef = ref(null);
 const realtimeSubscription = ref(null);
@@ -64,6 +70,26 @@ const normalizedDraftMessage = computed(() => draftMessage.value.trim());
 const remainingCharacters = computed(() => Math.max(150 - draftMessage.value.length, 0));
 const currentOfferStatus = computed(() => chatContext.value?.offerListing?.status ?? null);
 const isOfferRejected = computed(() => currentOfferStatus.value === OfferStatus.Rejected);
+const counterpartyIdentity = computed(() => {
+  if (!hasContext.value) return null;
+
+  const sellerProfile = chatContext.value?.sellListing?.sellerProfile ?? null;
+  const offererProfile = chatContext.value?.offerListing?.offererProfile ?? null;
+
+  if (props.viewerRole === "seller") {
+    return {
+      username: offererProfile?.username ?? chatContext.value?.offerListing?.offererUsername ?? null,
+      userTag: offererProfile?.user_tag ?? chatContext.value?.offerListing?.offererUserTag ?? null,
+      avatarUrl: offererProfile?.avatar_url ?? null,
+    };
+  }
+
+  return {
+    username: sellerProfile?.username ?? chatContext.value?.sellListing?.sellerUsername ?? null,
+    userTag: sellerProfile?.user_tag ?? chatContext.value?.sellListing?.sellerUserTag ?? null,
+    avatarUrl: sellerProfile?.avatar_url ?? chatContext.value?.sellListing?.sellerAvatarUrl ?? null,
+  };
+});
 const isChatDisabledByStatus = computed(() => isOfferRejected.value);
 const isSendEnabled = computed(() => {
   if (!viewerCanAccessChat.value) return false;
@@ -93,6 +119,14 @@ const canManageOfferStatus = computed(() => {
   const parsedOfferListingId = Number(chatContext.value?.offerListing?.id);
   return Number.isInteger(parsedOfferListingId) && parsedOfferListingId > 0;
 });
+const canManagePurchase = computed(() => {
+  if (props.viewerRole !== "offerer") return false;
+  if (!viewerCanAccessChat.value) return false;
+
+  const parsedOfferListingId = Number(chatContext.value?.offerListing?.id);
+  return Number.isInteger(parsedOfferListingId) && parsedOfferListingId > 0;
+});
+const hasChatActionButton = computed(() => canManageOfferStatus.value || canManagePurchase.value);
 
 const canAcceptOffer = computed(() => {
   if (!canManageOfferStatus.value) return false;
@@ -110,6 +144,33 @@ const canRevokeRejectedOffer = computed(() => {
   if (!canManageOfferStatus.value) return false;
   if (isUpdatingOfferStatus.value) return false;
   return isOfferRejected.value;
+});
+const maxOfferQuantity = computed(() => {
+  const parsedQuantity = Number(chatContext.value?.sellListing?.quantity);
+  if (!Number.isInteger(parsedQuantity) || parsedQuantity < 1) return 1;
+  return parsedQuantity;
+});
+const offerEditQuantityModel = computed({
+  get() {
+    const parsedQuantity = Number(offerEditQuantity.value);
+    if (!Number.isInteger(parsedQuantity) || parsedQuantity < 1) return 1;
+    return Math.min(parsedQuantity, maxOfferQuantity.value);
+  },
+  set(newValue) {
+    const parsedQuantity = Number(newValue);
+    const normalizedQuantity = !Number.isInteger(parsedQuantity) || parsedQuantity < 1 ? 1 : parsedQuantity;
+    offerEditQuantity.value = Math.min(normalizedQuantity, maxOfferQuantity.value);
+  },
+});
+const canSubmitOfferEdit = computed(() => {
+  if (!canManagePurchase.value) return false;
+  if (isUpdatingOfferProposal.value) return false;
+
+  const parsedOffer = Number(offerEditValue.value);
+  const parsedQuantity = Number(offerEditQuantityModel.value);
+
+  if (!Number.isFinite(parsedOffer) || parsedOffer <= 0) return false;
+  return Number.isInteger(parsedQuantity) && parsedQuantity > 0;
 });
 
 const firstUnseenIncomingMessageIndex = computed(() => {
@@ -245,6 +306,31 @@ function closeOfferManagementDialog() {
   offerManagementDialogRef.value?.closeDialog?.();
 }
 
+function closeOfferPurchaseManagementDialog() {
+  offerPurchaseManagementDialogRef.value?.closeDialog?.();
+}
+
+function closeOfferEditDialog() {
+  offerEditDialogRef.value?.closeDialog?.();
+}
+
+function resetOfferEditDraft() {
+  offerEditQuantity.value = 1;
+  offerEditValue.value = "";
+}
+
+function hydrateOfferEditDraftFromContext() {
+  const parsedQuantity = Number(chatContext.value?.offerListing?.quantity);
+  const parsedOffer = Number(chatContext.value?.offerListing?.offer);
+
+  offerEditQuantity.value = Number.isInteger(parsedQuantity) && parsedQuantity > 0
+    ? Math.min(parsedQuantity, maxOfferQuantity.value)
+    : 1;
+  offerEditValue.value = Number.isFinite(parsedOffer) && parsedOffer > 0
+    ? parsedOffer.toFixed(2)
+    : "";
+}
+
 async function handleUpdateOfferStatus(nextStatus) {
   if (!canManageOfferStatus.value) return;
 
@@ -287,6 +373,63 @@ async function handleRejectOffer() {
 
 function handleDeliverOffer() {
   snackbar.addMessage("Azione consegna da implementare", "info");
+}
+
+async function handleOpenOfferEditDialog(closeDialog) {
+  if (!canManagePurchase.value) return;
+
+  hydrateOfferEditDraftFromContext();
+  closeDialog?.();
+  await nextTick();
+  offerEditDialogRef.value?.openDialog?.();
+}
+
+function handleOfferPurchaseReceived(closeDialog) {
+  closeDialog?.();
+  snackbar.addMessage("Conferma ricezione da implementare", "info");
+}
+
+async function handleSubmitOfferEdit() {
+  if (!canManagePurchase.value) return;
+
+  const parsedOfferListingId = Number(chatContext.value?.offerListing?.id);
+  if (!Number.isInteger(parsedOfferListingId) || parsedOfferListingId <= 0) return;
+
+  const parsedQuantity = Number(offerEditQuantityModel.value);
+  if (!Number.isInteger(parsedQuantity) || parsedQuantity < 1) {
+    snackbar.addMessage("Inserisci una quantita valida", "error");
+    return;
+  }
+
+  if (parsedQuantity > maxOfferQuantity.value) {
+    snackbar.addMessage(`Quantita massima disponibile: ${maxOfferQuantity.value}`, "error");
+    return;
+  }
+
+  const parsedOffer = Number(offerEditValue.value);
+  if (!Number.isFinite(parsedOffer) || parsedOffer <= 0) {
+    snackbar.addMessage("Inserisci un importo valido per l'offerta", "error");
+    return;
+  }
+
+  isUpdatingOfferProposal.value = true;
+
+  try {
+    const updatedOfferListing = await updateOwnOfferListingProposal({
+      offerListingId: parsedOfferListingId,
+      quantity: parsedQuantity,
+      offer: parsedOffer,
+    });
+
+    applyUpdatedOfferListing(updatedOfferListing);
+    closeOfferEditDialog();
+    closeOfferPurchaseManagementDialog();
+    snackbar.addMessage("Offerta modificata con successo", "success");
+  } catch (error) {
+    snackbar.addMessage(error.message || "Errore durante la modifica dell'offerta", "error");
+  } finally {
+    isUpdatingOfferProposal.value = false;
+  }
 }
 
 async function handleRevokeRejectedOffer() {
@@ -442,6 +585,9 @@ async function bootstrapChat() {
   draftMessage.value = "";
   chatContext.value = null;
   closeOfferManagementDialog();
+  closeOfferPurchaseManagementDialog();
+  closeOfferEditDialog();
+  resetOfferEditDraft();
 
   await loadChatContext();
   if (runId !== bootstrapRunId.value) return;
@@ -486,9 +632,9 @@ if (import.meta.client) {
         <p v-if="isLoadingContext" class="chat-state-message text-start">Chat</p>
         <UserIdentityHeader 
           v-else
-          :username="chatContext.sellListing.sellerProfile.username" 
-          :user-tag="chatContext.sellListing.sellerProfile.user_tag"
-          :avatar-url="chatContext.sellListing.sellerProfile.avatar_url"
+          :username="counterpartyIdentity?.username"
+          :user-tag="counterpartyIdentity?.userTag"
+          :avatar-url="counterpartyIdentity?.avatarUrl"
           size="sm"
         />
       </template>
@@ -496,7 +642,7 @@ if (import.meta.client) {
         <p v-if="isLoadingContext" class="chat-state-message">Caricamento chat...</p>
         <p v-else-if="!hasContext" class="chat-state-message">Chat non trovata</p>
         <template v-else>
-          <div class="chat-context-row">
+          <div class="chat-context-row gap-2">
             <Card :card="chatContext.sellListing.card" class="chat-context-card" />
             <CommunityOfferListingRow :offer-listing="chatContext.offerListing" class="chat-context-offer-row" />
           </div>
@@ -512,6 +658,13 @@ if (import.meta.client) {
             >
               Revoca rifiuto
             </button>
+          </div>
+          <div v-else class="chat-info-box">
+            <h3 class="text-sm text-blue-500 font-bold">Chat rules:</h3>
+            <ul class="chat-info-message list-disc list-inside">
+              <li>Non fornire informazioni personali o sensibili.</li>
+              <li>Deckspedia non si assume responsabilità riguardante l'autenticità dei prodotti.</li>
+            </ul>
           </div>
         </template>
       </template>
@@ -547,7 +700,7 @@ if (import.meta.client) {
       <template #buttons>
         <div
           class="chat-composer chat-composer-mobile"
-          :class="canManageOfferStatus ? 'with-status-actions' : 'without-status-actions'"
+          :class="hasChatActionButton ? 'with-status-actions' : 'without-status-actions'"
         >
           <div v-if="canManageOfferStatus" class="proposal-response-wrap">
             <DialogsGeneric ref="offerManagementDialogRef" :disabled="isUpdatingOfferStatus">
@@ -638,6 +791,103 @@ if (import.meta.client) {
                     Consegna
                   </v-btn>
                 </div>
+              </template>
+            </DialogsGeneric>
+          </div>
+          <div v-else-if="canManagePurchase" class="proposal-response-wrap">
+            <DialogsGeneric ref="offerPurchaseManagementDialogRef" :disabled="isUpdatingOfferProposal">
+              <template #button>
+                <button
+                  type="button"
+                  class="purchase-management-toggle-btn"
+                  :disabled="isUpdatingOfferProposal"
+                  title="Gestione acquisto"
+                >
+                  <v-icon size="18">mdi-cart-check</v-icon>
+                </button>
+              </template>
+
+              <template #title>Gestione acquisto</template>
+
+              <template #content>
+                <p class="offer-management-description">Gestisci la tua proposta di acquisto.</p>
+              </template>
+
+              <template #actions="{ closeDialog }">
+                <div class="offer-management-actions">
+                  <div class="offer-management-main-actions">
+                    <v-btn
+                      block
+                      variant="flat"
+                      class="offer-management-action-btn offer-management-action-btn--edit"
+                      :disabled="isUpdatingOfferProposal"
+                      @click="handleOpenOfferEditDialog(closeDialog)"
+                    >
+                      Modifica
+                    </v-btn>
+
+                    <v-btn
+                      block
+                      variant="flat"
+                      class="offer-management-action-btn offer-management-action-btn--received"
+                      :disabled="isUpdatingOfferProposal"
+                      @click="handleOfferPurchaseReceived(closeDialog)"
+                    >
+                      Oggetto ricevuto
+                    </v-btn>
+                  </div>
+                </div>
+              </template>
+            </DialogsGeneric>
+
+            <DialogsGeneric ref="offerEditDialogRef" :disabled="isUpdatingOfferProposal">
+              <template #button>
+                <span class="offer-edit-hidden-trigger" aria-hidden="true" />
+              </template>
+
+              <template #title>Modifica offerta</template>
+
+              <template #content>
+                <div class="space-y-4">
+                  <div>
+                    <p class="offer-management-field-label mb-1">Quantita</p>
+                    <CardCounter
+                      v-model="offerEditQuantityModel"
+                      :min="1"
+                      :max="maxOfferQuantity"
+                      :outer-padding="false"
+                    />
+                  </div>
+
+                  <InputTextField
+                    v-model="offerEditValue"
+                    label="Offerta"
+                    type="number"
+                    min="0.01"
+                    step="0.01"
+                  />
+                </div>
+              </template>
+
+              <template #actions="{ closeDialog }">
+                <v-spacer />
+                <v-btn
+                  variant="text"
+                  class="offer-edit-dialog-cancel-btn"
+                  :disabled="isUpdatingOfferProposal"
+                  @click="closeDialog"
+                >
+                  Annulla
+                </v-btn>
+                <v-btn
+                  variant="flat"
+                  class="offer-management-action-btn offer-management-action-btn--edit"
+                  :disabled="!canSubmitOfferEdit"
+                  :loading="isUpdatingOfferProposal"
+                  @click="handleSubmitOfferEdit"
+                >
+                  Procedi
+                </v-btn>
               </template>
             </DialogsGeneric>
           </div>
@@ -810,8 +1060,24 @@ if (import.meta.client) {
   background: linear-gradient(145deg, rgba(127, 29, 29, 0.25), rgba(30, 41, 59, 0.35));
 }
 
+.chat-info-box {
+  margin-top: 0.45rem;
+  border: 1px solid rgba(33, 95, 165, 0.34);
+  border-radius: 0.75rem;
+  padding: 0.55rem 0.65rem;
+  background: linear-gradient(145deg, rgba(33, 95, 165, 0.25), rgba(30, 41, 59, 0.35));
+}
+
+
 .chat-warning-message {
   color: rgba(254, 226, 226, 0.94);
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.chat-info-message {
+  color: rgba(203, 213, 225, 0.86);
   font-size: 0.8rem;
   font-weight: 600;
   line-height: 1.3;
@@ -1014,6 +1280,31 @@ if (import.meta.client) {
   height: 1.2rem;
 }
 
+.purchase-management-toggle-btn {
+  display: grid;
+  place-content: center;
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 999px;
+  border: 1px solid rgba(34, 197, 94, 0.45);
+  background: linear-gradient(155deg, rgba(22, 163, 74, 0.95), rgba(20, 83, 45, 0.98));
+  color: rgba(240, 253, 244, 0.95);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.18),
+    0 10px 18px rgba(0, 0, 0, 0.32);
+  transition: transform 160ms ease, filter 160ms ease, opacity 160ms ease;
+}
+
+.purchase-management-toggle-btn:hover:not(:disabled) {
+  transform: translateY(-1px);
+  filter: brightness(1.08);
+}
+
+.purchase-management-toggle-btn:disabled {
+  opacity: 0.58;
+  cursor: not-allowed;
+}
+
 .offer-management-description {
   color: rgba(226, 232, 240, 0.9);
   font-size: 0.92rem;
@@ -1049,9 +1340,36 @@ if (import.meta.client) {
   color: rgba(248, 250, 252, 0.98) !important;
 }
 
+.offer-management-action-btn--edit {
+  background: linear-gradient(145deg, rgba(251, 146, 60, 0.96), rgba(234, 88, 12, 0.98)) !important;
+  color: rgba(248, 250, 252, 0.98) !important;
+}
+
+.offer-management-action-btn--received {
+  background: linear-gradient(145deg, rgba(22, 163, 74, 0.94), rgba(20, 83, 45, 0.98)) !important;
+  color: rgba(248, 250, 252, 0.98) !important;
+}
+
 .offer-management-action-btn--deliver {
   background: linear-gradient(145deg, rgba(251, 146, 60, 0.96), rgba(234, 88, 12, 0.98)) !important;
   color: rgba(248, 250, 252, 0.98) !important;
+}
+
+.offer-management-field-label {
+  color: rgba(248, 250, 252, 0.92);
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.offer-edit-hidden-trigger {
+  display: none;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.offer-edit-dialog-cancel-btn {
+  color: rgba(241, 245, 249, 0.9) !important;
 }
 
 :deep(.chat-textarea .v-field) {

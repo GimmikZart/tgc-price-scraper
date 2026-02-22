@@ -154,6 +154,19 @@ function parseOfferStatus(status) {
   return normalizedStatus;
 }
 
+function parseOfferQuantity(value) {
+  return parsePositiveInteger(value, "quantity");
+}
+
+function parseOfferValue(value) {
+  const parsedValue = Number(value);
+  if (!Number.isFinite(parsedValue) || parsedValue <= 0) {
+    throw new Error("offer must be greater than 0");
+  }
+
+  return parsedValue;
+}
+
 function createChannelName(offerListingId) {
   const randomSuffix = Math.random().toString(36).slice(2, 8);
   return `offer-listing-chat-${offerListingId}-${randomSuffix}`;
@@ -302,6 +315,84 @@ export async function fetchOfferListingHasUnreadMessages(offerListingId) {
   }
 
   return unreadMessages.length > 0;
+}
+
+export async function updateOwnOfferListingProposal(payload) {
+  const client = useSupabaseClient();
+  const userAuth = useUserAuth();
+  const viewerId = userAuth?.userLogged?.id ?? null;
+
+  if (!viewerId) {
+    throw new Error("User not authenticated");
+  }
+
+  const parsedOfferListingId = parseOfferListingId(payload?.offerListingId);
+  const quantity = parseOfferQuantity(payload?.quantity);
+  const offer = parseOfferValue(payload?.offer);
+
+  const { data: offerListing, error: offerListingError } = await client
+    .from("offer_listing")
+    .select("*")
+    .eq("id", parsedOfferListingId)
+    .maybeSingle();
+
+  if (offerListingError) {
+    throw new Error(offerListingError.message);
+  }
+
+  if (!offerListing) {
+    throw new Error("Offer listing not found");
+  }
+
+  if (String(offerListing.offerer_id ?? "") !== String(viewerId)) {
+    throw new Error("Non sei autorizzato a modificare questa proposta");
+  }
+
+  const parsedSellListingId = parsePositiveInteger(offerListing.sell_list_id, "sell_list_id");
+  const { data: sellListing, error: sellListingError } = await client
+    .from("sell_listings")
+    .select("id, quantity")
+    .eq("id", parsedSellListingId)
+    .maybeSingle();
+
+  if (sellListingError) {
+    throw new Error(sellListingError.message);
+  }
+
+  if (!sellListing) {
+    throw new Error("Sell listing not found");
+  }
+
+  const availableQuantity = Number(sellListing.quantity);
+  if (!Number.isInteger(availableQuantity) || availableQuantity < 1) {
+    throw new Error("La vendita non e disponibile");
+  }
+
+  if (quantity > availableQuantity) {
+    throw new Error(`Quantita massima disponibile: ${availableQuantity}`);
+  }
+
+  if (Number(offerListing.quantity) === quantity && Number(offerListing.offer) === offer) {
+    const profileById = await fetchProfilesByIds(client, [offerListing?.offerer_id]);
+    return mapOfferListingWithProfile(offerListing, profileById);
+  }
+
+  const { data: updatedOfferListing, error: updateError } = await client
+    .from("offer_listing")
+    .update({
+      quantity,
+      offer,
+    })
+    .eq("id", parsedOfferListingId)
+    .select("*")
+    .single();
+
+  if (updateError) {
+    throw new Error(updateError.message);
+  }
+
+  const profileById = await fetchProfilesByIds(client, [updatedOfferListing?.offerer_id]);
+  return mapOfferListingWithProfile(updatedOfferListing, profileById);
 }
 
 export async function updateOfferListingStatus(payload) {

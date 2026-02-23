@@ -7,6 +7,23 @@ const offerListings = ref([]);
 const isLoading = ref(true);
 
 const hasOfferListings = computed(() => offerListings.value.length > 0);
+const viewerCards = computed(() => {
+  const uniqueCards = [];
+  const seenCardIds = new Set();
+
+  offerListings.value.forEach((offerListing) => {
+    const card = offerListing?.sellListingCard ?? null;
+    if (!card) return;
+
+    const cardId = card?.id;
+    if (cardId != null && seenCardIds.has(cardId)) return;
+    if (cardId != null) seenCardIds.add(cardId);
+    uniqueCards.push(card);
+  });
+
+  return uniqueCards;
+});
+const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer(viewerCards);
 
 async function loadPurchaseHistory() {
   isLoading.value = true;
@@ -22,6 +39,10 @@ async function loadPurchaseHistory() {
 }
 
 onMounted(loadPurchaseHistory);
+
+function handleOpenCard(card) {
+  openViewer(card);
+}
 </script>
 
 <template>
@@ -43,12 +64,19 @@ onMounted(loadPurchaseHistory);
             <Card
               :card="offerListing.sellListingCard"
               class="offer-history-side-card"
-              disable-opening
+              @open="handleOpenCard"
             />
           </template>
         </CommunityOfferListingRow>
       </div>
     </div>
+
+    <FullscreenCardViewer
+      v-model:show="viewerOpen"
+      v-model:index="viewerIndex"
+      :cards="viewerCards"
+      @close="viewerOpen = false"
+    />
   </section>
 </template>
 

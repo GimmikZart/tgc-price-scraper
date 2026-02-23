@@ -117,7 +117,7 @@ onMounted(loadSellListings);
     <MobileFloatMenu :cols="2">
       <template #buttons>
         <ButtonMenu
-          icon="mdi:format-list-bulleted-square"
+          icon="mdi:clipboard-clock-outline"
           label="Storico"
           transition
           :delay="100"

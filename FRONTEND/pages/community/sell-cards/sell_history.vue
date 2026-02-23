@@ -7,6 +7,23 @@ const acceptedOfferListings = ref([]);
 const isLoading = ref(true);
 
 const hasOfferHistory = computed(() => acceptedOfferListings.value.length > 0);
+const viewerCards = computed(() => {
+  const uniqueCards = [];
+  const seenCardIds = new Set();
+
+  acceptedOfferListings.value.forEach((offerListing) => {
+    const card = offerListing?.sellListingCard ?? null;
+    if (!card) return;
+
+    const cardId = card?.id;
+    if (cardId != null && seenCardIds.has(cardId)) return;
+    if (cardId != null) seenCardIds.add(cardId);
+    uniqueCards.push(card);
+  });
+
+  return uniqueCards;
+});
+const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer(viewerCards);
 
 async function loadAcceptedOfferHistory() {
   isLoading.value = true;
@@ -26,6 +43,10 @@ definePageMeta({
 });
 
 onMounted(loadAcceptedOfferHistory);
+
+function handleOpenCard(card) {
+  openViewer(card);
+}
 </script>
 
 <template>
@@ -46,12 +67,19 @@ onMounted(loadAcceptedOfferHistory);
             <Card
               :card="offerListing.sellListingCard"
               class="offer-history-side-card"
-              disable-opening
+              @open="handleOpenCard"
             />
           </template>
         </CommunityOfferListingRow>
       </div>
     </div>
+
+    <FullscreenCardViewer
+      v-model:show="viewerOpen"
+      v-model:index="viewerIndex"
+      :cards="viewerCards"
+      @close="viewerOpen = false"
+    />
   </section>
 </template>
 

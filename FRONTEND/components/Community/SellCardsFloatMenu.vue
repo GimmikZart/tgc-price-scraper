@@ -4,6 +4,7 @@ const router = useRouter();
 
 const SELL_CARDS_BASE_PATH = "/community/sell-cards";
 const SELL_HISTORY_PATH = `${SELL_CARDS_BASE_PATH}/sell_history`;
+const NEW_SELL_PATH = `${SELL_CARDS_BASE_PATH}/new-sell`;
 const FILTER_QUERY_KEY = "open-filter";
 
 const isRouteActive = (path) => {
@@ -29,7 +30,7 @@ function handleOpenFilter() {
 </script>
 
 <template>
-  <MobileFloatMenu :cols="2">
+  <MobileFloatMenu :cols="3">
     <template #buttons>
       <ButtonMenu
         icon="mdi:format-list-bulleted"
@@ -41,10 +42,19 @@ function handleOpenFilter() {
       />
 
       <ButtonMenu
+        icon="mdi:cash-plus"
+        label="Nuova vendita"
+        transition
+        :delay="150"
+        icon-color="green"
+        @click="navigateToPath(NEW_SELL_PATH)"
+      />
+
+      <ButtonMenu
         icon="material-symbols:search-rounded"
         label="Filtra"
         transition
-        :delay="200"
+        :delay="250"
         @click="handleOpenFilter"
       />
     </template>

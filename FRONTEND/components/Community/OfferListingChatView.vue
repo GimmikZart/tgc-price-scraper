@@ -29,7 +29,6 @@ const router = useRouter();
 const snackbar = useSnackbar();
 const userAuth = useUserAuth();
 const { isMobile } = useMyBreakpoints();
-const NEW_SELL_PATH = "/community/sell-cards/new-sell";
 
 const chatContext = ref(null);
 const messages = ref([]);
@@ -77,6 +76,11 @@ const viewerCanAccessChat = computed(() => {
 const hasMessages = computed(() => messages.value.length > 0);
 const normalizedDraftMessage = computed(() => draftMessage.value.trim());
 const remainingCharacters = computed(() => Math.max(150 - draftMessage.value.length, 0));
+const viewerCards = computed(() => {
+  const card = chatContext.value?.sellListing?.card ?? null;
+  return card ? [card] : [];
+});
+const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer(viewerCards);
 const currentOfferStatus = computed(() => chatContext.value?.offerListing?.status ?? null);
 const isOfferRejected = computed(() => currentOfferStatus.value === OfferStatus.Rejected);
 const isOfferDelivered = computed(() => Boolean(chatContext.value?.offerListing?.delivered_at));
@@ -162,7 +166,6 @@ const canShowOffererActionButton = computed(() => {
 const hasChatActionButton = computed(() => {
   return canShowSellerActionButton.value || canShowOffererActionButton.value;
 });
-const canCreateNewSellListing = computed(() => props.viewerRole === "seller");
 
 const canRejectOffer = computed(() => {
   if (!canManageOfferStatus.value) return false;
@@ -391,10 +394,8 @@ async function redirectToTradeDetailsIfCompleted() {
   await router.push(targetPath);
 }
 
-function openNewSellListingPage() {
-  if (!canCreateNewSellListing.value) return;
-  if (route.path === NEW_SELL_PATH || route.path === `${NEW_SELL_PATH}/`) return;
-  void router.push(NEW_SELL_PATH);
+function handleOpenContextCard(card) {
+  openViewer(card);
 }
 
 function resetOfferEditDraft() {
@@ -872,7 +873,7 @@ if (import.meta.client) {
                 <Card
                   :card="chatContext.sellListing.card"
                   class="chat-context-card"
-                  disable-opening
+                  @open="handleOpenContextCard"
                 />
               </template>
             </CommunityOfferListingRow>
@@ -931,16 +932,6 @@ if (import.meta.client) {
     <MobileFloatMenu v-if="isMobile" :cols="1">
       <template #buttons>
         <div class="chat-toolbar-stack">
-          <ButtonMenu
-            v-if="canCreateNewSellListing"
-            icon="mdi:cash-plus"
-            label="Nuova vendita"
-            transition
-            :delay="100"
-            icon-color="green"
-            @click="openNewSellListingPage"
-          />
-
           <div v-if="showTradeStatusSection" class="chat-sale-status">
             <div
               class="chat-sale-status-card"
@@ -1269,6 +1260,13 @@ if (import.meta.client) {
         </div>
       </template>
     </MobileFloatMenu>
+
+    <FullscreenCardViewer
+      v-model:show="viewerOpen"
+      v-model:index="viewerIndex"
+      :cards="viewerCards"
+      @close="viewerOpen = false"
+    />
   </section>
 </template>
 

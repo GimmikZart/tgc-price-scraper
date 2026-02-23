@@ -1,3 +1,5 @@
+import { OfferStatus } from "@/utilities/enums/offerStatus";
+
 function toFiniteNumber(value, fieldName) {
   const parsedValue = Number(value);
 
@@ -160,25 +162,63 @@ function mapSellListingsWithCards(listings, allCards, profileById, offerCountByL
   return listings.map((listing) => mapSellListingWithCard(listing, cardById, profileById, offerCountByListingId));
 }
 
-function mapOfferListing(offerListing, profileById) {
+async function fetchSellListingCardsByIds(client, sellListingIds) {
+  const normalizedSellListingIds = [...new Set(
+    sellListingIds
+      .map((sellListingId) => Number(sellListingId))
+      .filter((sellListingId) => Number.isInteger(sellListingId) && sellListingId > 0),
+  )];
+
+  if (!normalizedSellListingIds.length) return new Map();
+
+  const { data: sellListings = [], error } = await client
+    .from("sell_listings")
+    .select("id, card_id")
+    .in("id", normalizedSellListingIds);
+
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  const { allCards } = await useOnePieceCards();
+  const cardById = new Map(allCards.map((card) => [card.id, card]));
+  const sellListingCardById = new Map();
+
+  sellListings.forEach((sellListing) => {
+    const parsedSellListingId = Number(sellListing?.id);
+    if (!Number.isInteger(parsedSellListingId) || parsedSellListingId <= 0) return;
+    sellListingCardById.set(parsedSellListingId, cardById.get(sellListing?.card_id) ?? null);
+  });
+
+  return sellListingCardById;
+}
+
+function mapOfferListing(offerListing, profileById, sellListingCardById = null) {
   const parsedOffer = Number(offerListing?.offer);
   const parsedQuantity = Number(offerListing?.quantity);
+  const parsedSellListingId = Number(offerListing?.sell_list_id);
   const hasValidOffer = Number.isFinite(parsedOffer);
   const hasValidQuantity = Number.isInteger(parsedQuantity) && parsedQuantity >= 0;
   const offererProfile = profileById.get(offerListing?.offerer_id) ?? null;
+  const sellListingCard = sellListingCardById instanceof Map &&
+    Number.isInteger(parsedSellListingId) &&
+    parsedSellListingId > 0
+    ? (sellListingCardById.get(parsedSellListingId) ?? null)
+    : null;
 
   return {
     ...offerListing,
     offererProfile,
     offererUsername: offererProfile?.username ?? null,
     offererUserTag: offererProfile?.user_tag ?? null,
+    sellListingCard,
     offer: hasValidOffer ? parsedOffer : null,
     quantity: hasValidQuantity ? parsedQuantity : 0,
   };
 }
 
-function mapOfferListings(offerListings, profileById) {
-  return offerListings.map((offerListing) => mapOfferListing(offerListing, profileById));
+function mapOfferListings(offerListings, profileById, sellListingCardById = null) {
+  return offerListings.map((offerListing) => mapOfferListing(offerListing, profileById, sellListingCardById));
 }
 
 export async function createSellListing(payload) {
@@ -375,6 +415,87 @@ export async function fetchOfferListingsBySellListingId(sellListingId) {
   );
 
   return mapOfferListings(offerListings, offererProfileById);
+}
+
+export async function fetchLoggedUserPurchaseHistoryOfferListings() {
+  const client = useSupabaseClient();
+  const userAuth = useUserAuth();
+
+  const offererId = userAuth?.userLogged?.id;
+  if (!offererId) {
+    throw new Error("User not authenticated");
+  }
+
+  const { data: offerListings = [], error } = await client
+    .from("offer_listing")
+    .select("*")
+    .eq("offerer_id", offererId)
+    .neq("status", OfferStatus.Pending)
+    .order("created_at", { ascending: false });
+
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  const offererProfileById = await fetchProfilesByIds(
+    client,
+    offerListings.map((offerListing) => offerListing?.offerer_id),
+  );
+  const sellListingCardById = await fetchSellListingCardsByIds(
+    client,
+    offerListings.map((offerListing) => offerListing?.sell_list_id),
+  );
+
+  return mapOfferListings(offerListings, offererProfileById, sellListingCardById);
+}
+
+export async function fetchAcceptedOfferListingsForLoggedUser() {
+  const client = useSupabaseClient();
+  const userAuth = useUserAuth();
+
+  const sellerUuid = userAuth?.userLogged?.id;
+  if (!sellerUuid) {
+    throw new Error("User not authenticated");
+  }
+
+  const { data: sellListings = [], error: sellListingsError } = await client
+    .from("sell_listings")
+    .select("id")
+    .eq("seller_uuid", sellerUuid);
+
+  if (sellListingsError) {
+    throw new Error(sellListingsError.message);
+  }
+
+  const sellListingIds = [...new Set(
+    sellListings
+      .map((sellListing) => Number(sellListing?.id))
+      .filter((sellListingId) => Number.isInteger(sellListingId) && sellListingId > 0),
+  )];
+
+  if (!sellListingIds.length) return [];
+
+  const { data: offerListings = [], error } = await client
+    .from("offer_listing")
+    .select("*")
+    .in("sell_list_id", sellListingIds)
+    .eq("status", OfferStatus.Accepted)
+    .order("created_at", { ascending: false });
+
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  const offererProfileById = await fetchProfilesByIds(
+    client,
+    offerListings.map((offerListing) => offerListing?.offerer_id),
+  );
+  const sellListingCardById = await fetchSellListingCardsByIds(
+    client,
+    offerListings.map((offerListing) => offerListing?.sell_list_id),
+  );
+
+  return mapOfferListings(offerListings, offererProfileById, sellListingCardById);
 }
 
 export async function createOfferListing(payload) {

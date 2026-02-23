@@ -1,12 +1,10 @@
 <script setup>
 const route = useRoute();
 const router = useRouter();
-const sellListingDraftStore = useSellListingDraftStore();
-const { hasSelectedCard } = storeToRefs(sellListingDraftStore);
 
 const SELL_CARDS_BASE_PATH = "/community/sell-cards";
-const NEW_SELL_PATH = `${SELL_CARDS_BASE_PATH}/new-sell`;
-const COLLECTION_SELL_MODE_PATH = "/me/collection?sell-mode";
+const SELL_HISTORY_PATH = `${SELL_CARDS_BASE_PATH}/sell_history`;
+const FILTER_QUERY_KEY = "open-filter";
 
 const isRouteActive = (path) => {
   return route.path === path || route.path === `${path}/`;
@@ -17,26 +15,37 @@ function navigateToPath(path) {
   router.push(path);
 }
 
-function handleNewSellClick() {
-  if (hasSelectedCard.value) {
-    navigateToPath(NEW_SELL_PATH);
-    return;
-  }
+function handleOpenFilter() {
+  if (!isRouteActive(SELL_CARDS_BASE_PATH)) return;
 
-  router.push(COLLECTION_SELL_MODE_PATH);
+  router.replace({
+    path: SELL_CARDS_BASE_PATH,
+    query: {
+      ...route.query,
+      [FILTER_QUERY_KEY]: String(Date.now()),
+    },
+  });
 }
 </script>
 
 <template>
-  <MobileFloatMenu :cols="1">
+  <MobileFloatMenu :cols="2">
     <template #buttons>
       <ButtonMenu
-        icon="mdi:cash-plus"
-        label="Nuova Vendita"
+        icon="mdi:format-list-bulleted"
+        label="Storico"
+        transition
+        :delay="100"
+        :icon-color="isRouteActive(SELL_HISTORY_PATH) ? 'orange' : null"
+        @click="navigateToPath(SELL_HISTORY_PATH)"
+      />
+
+      <ButtonMenu
+        icon="material-symbols:search-rounded"
+        label="Filtra"
         transition
         :delay="200"
-        :icon-color="isRouteActive(NEW_SELL_PATH) ? 'orange' : null"
-        @click="handleNewSellClick"
+        @click="handleOpenFilter"
       />
     </template>
   </MobileFloatMenu>

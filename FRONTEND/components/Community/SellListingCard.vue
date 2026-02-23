@@ -14,6 +14,11 @@ const props = defineProps({
     type: Boolean,
     default: false,
   },
+  showSellerIdentity:{
+    type: Boolean,
+    required: false,
+    default: true
+  }
 });
 const router = useRouter();
 
@@ -65,6 +70,7 @@ function goToListingDetails() {
     @keydown.space.prevent="goToListingDetails"
   >
     <UserIdentityHeader
+      v-if="showSellerIdentity"
       :username="sellerName"
       :user-tag="sellerTag"
       :avatar-url="sellerAvatarUrl"

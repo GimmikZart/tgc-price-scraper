@@ -29,6 +29,7 @@ const router = useRouter();
 const snackbar = useSnackbar();
 const userAuth = useUserAuth();
 const { isMobile } = useMyBreakpoints();
+const NEW_SELL_PATH = "/community/sell-cards/new-sell";
 
 const chatContext = ref(null);
 const messages = ref([]);
@@ -161,6 +162,7 @@ const canShowOffererActionButton = computed(() => {
 const hasChatActionButton = computed(() => {
   return canShowSellerActionButton.value || canShowOffererActionButton.value;
 });
+const canCreateNewSellListing = computed(() => props.viewerRole === "seller");
 
 const canRejectOffer = computed(() => {
   if (!canManageOfferStatus.value) return false;
@@ -387,6 +389,12 @@ async function redirectToTradeDetailsIfCompleted() {
 
   hasTradeCompletionRedirected.value = true;
   await router.push(targetPath);
+}
+
+function openNewSellListingPage() {
+  if (!canCreateNewSellListing.value) return;
+  if (route.path === NEW_SELL_PATH || route.path === `${NEW_SELL_PATH}/`) return;
+  void router.push(NEW_SELL_PATH);
 }
 
 function resetOfferEditDraft() {
@@ -858,9 +866,16 @@ if (import.meta.client) {
         <p v-if="isLoadingContext" class="chat-state-message">Caricamento chat...</p>
         <p v-else-if="!hasContext" class="chat-state-message">Chat non trovata</p>
         <template v-else>
-          <div class="chat-context-row gap-2">
-            <Card :card="chatContext.sellListing.card" class="chat-context-card" />
-            <CommunityOfferListingRow :offer-listing="chatContext.offerListing" class="chat-context-offer-row" />
+          <div class="chat-context-row">
+            <CommunityOfferListingRow :offer-listing="chatContext.offerListing" class="chat-context-offer-row">
+              <template v-if="chatContext.sellListing.card" #left>
+                <Card
+                  :card="chatContext.sellListing.card"
+                  class="chat-context-card"
+                  disable-opening
+                />
+              </template>
+            </CommunityOfferListingRow>
           </div>
 
           <div v-if="showRejectedChatWarning" class="chat-warning-box">
@@ -916,6 +931,16 @@ if (import.meta.client) {
     <MobileFloatMenu v-if="isMobile" :cols="1">
       <template #buttons>
         <div class="chat-toolbar-stack">
+          <ButtonMenu
+            v-if="canCreateNewSellListing"
+            icon="mdi:cash-plus"
+            label="Nuova vendita"
+            transition
+            :delay="100"
+            icon-color="green"
+            @click="openNewSellListingPage"
+          />
+
           <div v-if="showTradeStatusSection" class="chat-sale-status">
             <div
               class="chat-sale-status-card"

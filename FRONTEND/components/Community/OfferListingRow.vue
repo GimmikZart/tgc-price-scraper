@@ -86,60 +86,86 @@ function handleOpenChat() {
     @keydown.enter.prevent="handleOpenChat"
     @keydown.space.prevent="handleOpenChat"
   >
-    <div class="flex justify-between w-full items-center gap-[0.6rem]">
-      <div class="flex gap-2 items-center">
-        <div
-          class="grid h-[2.15rem] w-[2.15rem] place-content-center rounded-full border-2 border-[rgba(248,250,252,0.78)] text-[0.82rem] font-extrabold text-[rgba(241,245,249,0.95)]"
-        >
-          {{ usernameInitial }}
-        </div>
-
-        <div class="min-w-0">
-          <p class="text-[0.9rem] font-bold leading-[1.1] text-[rgba(248,250,252,0.95)]">{{ username }}</p>
-          <p class="text-[0.72rem] font-semibold leading-[1.1] text-[rgba(203,213,225,0.84)]">{{ userTag }}</p>
-        </div>
-      </div>
-
-      <div class="flex items-center gap-2">
+    <div class="offer-listing-row-shell">
+      <div v-if="$slots.left" class="offer-listing-row-left-slot">
         <slot
-          name="right"
+          name="left"
           :offer-listing="offerListing"
-          :status-label="statusLabel"
-          :status-color="statusColor"
-          :status-icon="statusIcon"
           :can-open-chat="canOpenChat"
           :open-chat="handleOpenChat"
-        >
-          <div
-            class="grid h-[1.7rem] w-[1.7rem] place-content-center rounded-full shadow-[0_0_0_2px_rgba(255,255,255,0.14),0_8px_12px_rgba(0,0,0,0.22)]"
-            :style="{ backgroundColor: statusColor }"
-            :title="statusLabel"
-          >
-            <v-icon size="14" color="white">{{ statusIcon }}</v-icon>
+        />
+      </div>
+
+      <div class="flex min-w-0 flex-1 flex-col justify-between gap-[0.6rem]">
+        <div class="flex justify-between w-full items-center gap-[0.6rem]">
+          <div class="flex gap-2 items-center">
+            <div
+              class="grid h-[2.15rem] w-[2.15rem] place-content-center rounded-full border-2 border-[rgba(248,250,252,0.78)] text-[0.82rem] font-extrabold text-[rgba(241,245,249,0.95)]"
+            >
+              {{ usernameInitial }}
+            </div>
+
+            <div class="min-w-0">
+              <p class="text-[0.9rem] font-bold leading-[1.1] text-[rgba(248,250,252,0.95)]">{{ username }}</p>
+              <p class="text-[0.72rem] font-semibold leading-[1.1] text-[rgba(203,213,225,0.84)]">{{ userTag }}</p>
+            </div>
           </div>
-        </slot>
+
+          <div class="flex items-center gap-2">
+            <slot
+              name="right"
+              :offer-listing="offerListing"
+              :status-label="statusLabel"
+              :status-color="statusColor"
+              :status-icon="statusIcon"
+              :can-open-chat="canOpenChat"
+              :open-chat="handleOpenChat"
+            >
+              <div
+                class="grid h-[1.7rem] w-[1.7rem] place-content-center rounded-full shadow-[0_0_0_2px_rgba(255,255,255,0.14),0_8px_12px_rgba(0,0,0,0.22)]"
+                :style="{ backgroundColor: statusColor }"
+                :title="statusLabel"
+              >
+                <v-icon size="14" color="white">{{ statusIcon }}</v-icon>
+              </div>
+            </slot>
+          </div>
+        </div>
+
+        <p class="flex items-center gap-2 leading-[1.1] text-[rgba(248,250,252,0.95)]">
+          Offro
+          <v-chip class="text-orange" density="compact" variant="tonal">
+            {{ offerValue }} &euro;
+          </v-chip>
+          per
+          <span class="text-orange">
+            {{ quantityValue }}{{ quantityValue === 1 ? " copia" : " copie" }}.
+          </span>
+        </p>
       </div>
     </div>
-    <p class="flex items-center gap-2 leading-[1.1] text-[rgba(248,250,252,0.95)]"> 
-      Offro 
-      <v-chip class="text-orange" density="compact" variant="tonal">
-        {{ offerValue }} € 
-      </v-chip>
-      per 
-      <span class="text-orange">
-        {{ quantityValue }}{{ quantityValue === 1 ? " copia" : " copie" }}.
-      </span>
-    </p>
-    
-    <!-- <div class="flex items-center gap-[0.4rem]">
-      <v-chip size="small" color="default" variant="flat" class="font-bold" label>
-        x {{ quantityValue }}
-      </v-chip>
-
-      <div class="min-w-[4.8rem] rounded-[0.55rem] border border-[rgba(255,255,255,0.2)] px-[0.35rem] py-[0.35rem] text-center text-[0.84rem] font-bold text-[rgba(255,244,234,0.95)]">
-        {{ offerValue }} EUR
-      </div>
-
-    </div> -->
   </article>
 </template>
+
+<style scoped>
+.offer-listing-row-shell {
+  display: flex;
+  width: 100%;
+  min-height: 0;
+  align-items: stretch;
+  gap: 0.6rem;
+}
+
+.offer-listing-row-left-slot {
+  display: flex;
+  flex: 0 0 auto;
+  width: auto;
+  min-height: 0;
+  align-self: stretch;
+}
+
+.offer-listing-row-left-slot :slotted(*) {
+  width: auto;
+  height: 100%;
+}
+</style>

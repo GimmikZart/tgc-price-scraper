@@ -33,7 +33,7 @@ function handleOpenFilter() {
   <MobileFloatMenu :cols="3">
     <template #buttons>
       <ButtonMenu
-        icon="mdi:format-list-bulleted"
+        icon="mdi:clipboard-clock-outline"
         label="Storico"
         transition
         :delay="100"

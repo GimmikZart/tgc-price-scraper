@@ -1,5 +1,10 @@
 <script setup>
-import { computed, onMounted, ref } from "vue";
+import { computed, ref } from "vue";
+import {
+  fetchFriendRelationStatus,
+  followProfile,
+  unfollowProfile,
+} from "@/api/friends";
 import { fetchProfileByTag } from "@/api/profiles";
 import { fetchPublicDecksByUserTag } from "@/api/decks";
 import { getPublicAlbumsByUserTag } from "@/api/album";
@@ -8,6 +13,7 @@ import { DeckLocation } from "~/enums/deckLocation";
 const route = useRoute();
 const router = useRouter();
 const snackbar = useSnackbar();
+const userAuth = useUserAuth();
 const activeTab = ref("decks");
 const profile = ref(null);
 const decks = ref([]);
@@ -15,16 +21,20 @@ const albums = ref([]);
 const loadingProfile = ref(false);
 const loadingDecks = ref(false);
 const loadingAlbums = ref(false);
+const relationActionLoading = ref(false);
 const profileError = ref(null);
 const deckError = ref(null);
 const albumError = ref(null);
 const loadRequestId = ref(0);
+const relationStatus = ref(createEmptyFriendRelationStatus());
 
 const profileTagSlug = computed(() => {
   const value = route.params?.tag;
   if (Array.isArray(value)) return String(value[0] ?? "");
   return typeof value === "string" ? value : "";
 });
+
+const currentUserId = computed(() => userAuth?.userLogged?.id ?? null);
 
 const username = computed(() => {
   return profile.value?.display_name ||
@@ -43,6 +53,52 @@ const userAvatarUrl = computed(() => {
 const publicAlbums = computed(() =>
   (albums.value ?? []).filter((album) => album.visibility === "public")
 );
+
+const isOwnProfile = computed(() => {
+  return Boolean(
+    profile.value?.id &&
+    currentUserId.value &&
+    profile.value.id === currentUserId.value,
+  );
+});
+
+const showAddFriendButton = computed(() => {
+  return Boolean(
+    profile.value &&
+    !isOwnProfile.value &&
+    !relationStatus.value.isBlocked &&
+    !relationStatus.value.currentUserFollows,
+  );
+});
+
+const showRemoveFriendButton = computed(() => {
+  return Boolean(
+    profile.value &&
+    !isOwnProfile.value &&
+    !relationStatus.value.isBlocked &&
+    relationStatus.value.currentUserFollows,
+  );
+});
+
+const showFriendAction = computed(() => {
+  return showAddFriendButton.value || showRemoveFriendButton.value;
+});
+
+const toolbarLabel = computed(() => {
+  if (profile.value) return "";
+  if (profileError.value) return "Profilo non disponibile";
+  return "Profilo";
+});
+
+function createEmptyFriendRelationStatus() {
+  return {
+    currentUserFollows: false,
+    followsCurrentUser: false,
+    blockedByCurrentUser: false,
+    blockedByOtherUser: false,
+    isBlocked: false,
+  };
+}
 
 async function loadDecks(requestId) {
   if (!profileTagSlug.value) {
@@ -88,9 +144,12 @@ async function loadProfileData() {
   const requestId = ++loadRequestId.value;
   loadingProfile.value = true;
   profileError.value = null;
+  deckError.value = null;
+  albumError.value = null;
   profile.value = null;
   decks.value = [];
   albums.value = [];
+  relationStatus.value = createEmptyFriendRelationStatus();
 
   try {
     const loadedProfile = await fetchProfileByTag(profileTagSlug.value);
@@ -98,8 +157,25 @@ async function loadProfileData() {
     if (requestId !== loadRequestId.value) return;
 
     if (!loadedProfile) {
-      profileError.value = "Profilo non trovato";
+      profileError.value = "Profilo non disponibile";
       return;
+    }
+
+    if (
+      loadedProfile.id &&
+      currentUserId.value &&
+      loadedProfile.id !== currentUserId.value
+    ) {
+      const nextRelationStatus = await fetchFriendRelationStatus(loadedProfile.id);
+
+      if (requestId !== loadRequestId.value) return;
+
+      relationStatus.value = nextRelationStatus;
+
+      if (nextRelationStatus.isBlocked) {
+        profileError.value = "Profilo non disponibile";
+        return;
+      }
     }
 
     profile.value = loadedProfile;
@@ -118,6 +194,47 @@ async function loadProfileData() {
   }
 }
 
+async function refreshRelationStatus() {
+  if (!profile.value?.id || isOwnProfile.value) {
+    relationStatus.value = createEmptyFriendRelationStatus();
+    return;
+  }
+
+  relationStatus.value = await fetchFriendRelationStatus(profile.value.id);
+
+  if (relationStatus.value.isBlocked) {
+    profile.value = null;
+    decks.value = [];
+    albums.value = [];
+    profileError.value = "Profilo non disponibile";
+  }
+}
+
+async function handleFriendAction() {
+  if (!profile.value?.id || relationActionLoading.value) return;
+
+  relationActionLoading.value = true;
+
+  try {
+    if (relationStatus.value.currentUserFollows) {
+      await unfollowProfile(profile.value.id);
+      snackbar.addMessage("Amico rimosso", "success");
+    } else {
+      await followProfile(profile.value.id);
+      snackbar.addMessage("Amico aggiunto", "success");
+    }
+
+    await refreshRelationStatus();
+  } catch (error) {
+    snackbar.addMessage(
+      error?.message || "Errore durante l'aggiornamento dell'amicizia",
+      "error",
+    );
+  } finally {
+    relationActionLoading.value = false;
+  }
+}
+
 function goToDeck(deck) {
   router.push(`/me/decks/${deck.slug}?location=${DeckLocation.CLOUD}`);
 }
@@ -127,20 +244,17 @@ definePageMeta({
   middleware: "auth",
 });
 
-watch(profileTagSlug, () => {
+watch([profileTagSlug, currentUserId], () => {
   loadProfileData();
-});
-
-onMounted(() => {
-  loadProfileData();
-});
+}, { immediate: true });
 </script>
 
 <template>
   <section class="relative h-full">
-    <Toolbar fixed back-button>
+    <Toolbar fixed back-button :label="toolbarLabel">
       <template #content>
         <UserIdentityHeader
+          v-if="profile"
           :username="username"
           :user-tag="userTag"
           :avatar-url="userAvatarUrl"
@@ -149,7 +263,7 @@ onMounted(() => {
       </template>
 
       <template #info>
-        <div class="flex items-center gap-6 border-b border-white/10 px-2 pt-1">
+        <div v-if="profile" class="flex items-center gap-6 border-b border-white/10 px-2 pt-1">
           <button
             type="button"
             class="text-sm font-semibold transition"
@@ -222,14 +336,16 @@ onMounted(() => {
       </template>
     </v-container>
 
-    <MobileFloatMenu :cols="1">
+    <MobileFloatMenu v-if="showFriendAction" :cols="1">
       <template #buttons>
         <ButtonMenu
-          icon="mdi:handshake"
-          label="Aggiungi Amico"
-          color="green"
+          :icon="showRemoveFriendButton ? 'mdi:account-remove-outline' : 'mdi:handshake'"
+          :label="showRemoveFriendButton ? 'Rimuovi Amico' : 'Aggiungi Amico'"
+          :color="showRemoveFriendButton ? 'red' : 'green'"
+          :disabled="relationActionLoading || loadingProfile"
           transition
           :delay="100"
+          @click="handleFriendAction"
         />
       </template>
     </MobileFloatMenu>

@@ -98,7 +98,7 @@ function extractProfileTags(rawProfile, normalizedUserTag) {
   return [...new Set(tags)];
 }
 
-function normalizeProfile(rawProfile) {
+export function normalizeProfile(rawProfile) {
   if (!rawProfile) return null;
 
   const username = normalizeString(rawProfile.username);
@@ -155,7 +155,7 @@ function parseProfileTagFilters(profileTagOrSlug) {
   };
 }
 
-function sortProfilesByName(profiles = []) {
+export function sortProfilesByName(profiles = []) {
   return [...profiles].sort((profileA, profileB) => {
     const nameA = profileA?.display_name ?? profileA?.username ?? "";
     const nameB = profileB?.display_name ?? profileB?.username ?? "";

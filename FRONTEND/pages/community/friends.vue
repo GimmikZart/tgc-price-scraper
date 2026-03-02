@@ -5,7 +5,6 @@ import {
 } from "@/api/profiles";
 
 const snackbar = useSnackbar();
-const router = useRouter();
 
 const USERS_PER_PAGE = 12;
 
@@ -89,15 +88,6 @@ async function loadAvailableTags() {
   }
 }
 
-function openProfile(profileTag) {
-  if (typeof profileTag !== "string") return;
-
-  const normalizedTagSlug = profileTag.trim().replace(/^@+/, "");
-  if (!normalizedTagSlug) return;
-
-  router.push(`/profile/${encodeURIComponent(normalizedTagSlug)}`);
-}
-
 watch(currentPage, () => {
   loadProfiles();
 });
@@ -148,17 +138,11 @@ onMounted(async () => {
           :key="profile.id"
           class="rounded-2xl border border-white/10 bg-white/[0.04] transition-colors hover:bg-white/[0.08]"
         >
-          <button
-            type="button"
-            class="w-full text-left"
-            @click="openProfile(profile.user_tag)"
-          >
-            <UserIdentityHeader
-              :username="profile.display_name ?? profile.username"
-              :user-tag="profile.user_tag"
-              :avatar-url="profile.avatar_url"
-            />
-          </button>
+          <UserIdentityHeader
+            :username="profile.display_name ?? profile.username"
+            :user-tag="profile.user_tag"
+            :avatar-url="profile.avatar_url"
+          />
         </article>
       </div>
     </div>

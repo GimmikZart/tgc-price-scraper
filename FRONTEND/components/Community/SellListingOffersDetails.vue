@@ -70,6 +70,12 @@ const sellerTag = computed(() => {
   return "@venditore";
 });
 
+const sellerProfileTag = computed(() => {
+  const value = listing.value?.sellerUserTag ?? listing.value?.sellerProfile?.user_tag;
+  if (typeof value === "string" && value.trim()) return value.trim();
+  return null;
+});
+
 const sellerAvatarUrl = computed(() => {
   const value = listing.value?.sellerAvatarUrl ?? listing.value?.sellerProfile?.avatar_url;
   if (typeof value === "string" && value.trim()) return value.trim();
@@ -110,7 +116,13 @@ watch(listingId, loadListing, { immediate: true });
 
         <template v-else>
           <div v-if="hasSellerIdentityHeader" class="seller-identity-wrap">
-            <UserIdentityHeader :username="sellerName" :user-tag="sellerTag" :avatar-url="sellerAvatarUrl" size="sm"/>
+            <UserIdentityHeader
+              :username="sellerName"
+              :user-tag="sellerTag"
+              :profile-tag="sellerProfileTag"
+              :avatar-url="sellerAvatarUrl"
+              size="sm"
+            />
           </div>
 
           <CommunitySellListingInfoCard :listing="listing" @open-card="openViewerFromSelected" />

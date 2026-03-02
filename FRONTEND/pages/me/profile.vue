@@ -103,14 +103,14 @@ definePageMeta({
           size="md"
         />
 
-        <div class="flex items-center gap-6 border-b border-white/10 px-2 pt-2">
+        <div class="flex items-center gap-6 border-b border-white/10 p-2 mt-3">
           <button
             type="button"
             class="text-sm font-semibold transition"
             :class="activeTab === 'decks' ? 'border-b-2 border-white text-white' : 'text-white/50'"
             @click="activeTab = 'decks'"
           >
-            Deck Attivi
+            Mazzi
           </button>
           <button
             type="button"
@@ -168,9 +168,8 @@ definePageMeta({
       </div>
     </v-container>
 
-    <MobileFloatMenu :cols="2">
+    <MobileFloatMenu :cols="1">
       <template #buttons>
-        <ButtonForLogs />
         <DialogsHandleLogout />
       </template>
     </MobileFloatMenu>

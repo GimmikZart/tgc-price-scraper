@@ -42,6 +42,11 @@ const sellerTag = computed(() => {
   if (typeof value === "string" && value.trim()) return value.trim();
   return "@venditore";
 });
+const sellerProfileTag = computed(() => {
+  const value = props.listing?.sellerUserTag ?? props.listing?.sellerProfile?.user_tag;
+  if (typeof value === "string" && value.trim()) return value.trim();
+  return null;
+});
 const sellerAvatarUrl = computed(() => {
   const value = props.listing?.sellerAvatarUrl ?? props.listing?.sellerProfile?.avatar_url;
   if (typeof value === "string" && value.trim()) return value.trim();
@@ -73,6 +78,7 @@ function goToListingDetails() {
       v-if="showSellerIdentity"
       :username="sellerName"
       :user-tag="sellerTag"
+      :profile-tag="sellerProfileTag"
       :avatar-url="sellerAvatarUrl"
       size="sm"
     >

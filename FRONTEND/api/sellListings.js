@@ -29,6 +29,15 @@ function normalizeString(value) {
   return trimmedValue || null;
 }
 
+function parseSellerUuid(value) {
+  const normalizedValue = normalizeString(value);
+  if (!normalizedValue) {
+    throw new Error("sellerUuid is required");
+  }
+
+  return normalizedValue;
+}
+
 function normalizeUserTag(userTag, fallbackValue = null) {
   const normalizedTag = normalizeString(userTag);
   if (normalizedTag) {
@@ -221,6 +230,33 @@ function mapOfferListings(offerListings, profileById, sellListingCardById = null
   return offerListings.map((offerListing) => mapOfferListing(offerListing, profileById, sellListingCardById));
 }
 
+async function fetchActiveSellListingsForSeller(client, sellerUuid) {
+  const { allCards } = await useOnePieceCards();
+  const parsedSellerUuid = parseSellerUuid(sellerUuid);
+
+  const { data: userListings = [], error } = await client
+    .from("sell_listings")
+    .select("*")
+    .eq("seller_uuid", parsedSellerUuid)
+    .eq("status", "active")
+    .order("created_at", { ascending: false });
+
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  const sellerProfileById = await fetchProfilesByIds(
+    client,
+    userListings.map((listing) => listing?.seller_uuid),
+  );
+  const offerCountByListingId = await fetchOfferCountsBySellListingIds(
+    client,
+    userListings.map((listing) => listing?.id),
+  );
+
+  return mapSellListingsWithCards(userListings, allCards, sellerProfileById, offerCountByListingId);
+}
+
 export async function createSellListing(payload) {
   const client = useSupabaseClient();
   const userAuth = useUserAuth();
@@ -312,34 +348,18 @@ export async function fetchActiveSellListings(options = {}) {
 export async function fetchLoggedUserSellListings() {
   const client = useSupabaseClient();
   const userAuth = useUserAuth();
-  const { allCards } = await useOnePieceCards();
 
   const sellerUuid = userAuth?.userLogged?.id;
   if (!sellerUuid) {
     throw new Error("User not authenticated");
   }
 
-  const { data: userListings = [], error } = await client
-    .from("sell_listings")
-    .select("*")
-    .eq("seller_uuid", sellerUuid)
-    .eq("status", "active")
-    .order("created_at", { ascending: false });
+  return fetchActiveSellListingsForSeller(client, sellerUuid);
+}
 
-  if (error) {
-    throw new Error(error.message);
-  }
-
-  const sellerProfileById = await fetchProfilesByIds(
-    client,
-    userListings.map((listing) => listing?.seller_uuid),
-  );
-  const offerCountByListingId = await fetchOfferCountsBySellListingIds(
-    client,
-    userListings.map((listing) => listing?.id),
-  );
-
-  return mapSellListingsWithCards(userListings, allCards, sellerProfileById, offerCountByListingId);
+export async function fetchActiveSellListingsBySellerId(sellerUuid) {
+  const client = useSupabaseClient();
+  return fetchActiveSellListingsForSeller(client, sellerUuid);
 }
 
 export async function fetchActiveSellListingById(listingId) {

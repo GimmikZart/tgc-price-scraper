@@ -2,6 +2,7 @@
 import { computed, onMounted, ref } from "vue";
 import { fetchUserDecks } from "@/api/decks";
 import { getAlbums } from "@/api/album";
+import { fetchLoggedUserSellListings } from "@/api/sellListings";
 import { DeckLocation } from "~/enums/deckLocation";
 
 const userAuth = useUserAuth();
@@ -9,10 +10,13 @@ const router = useRouter();
 const activeTab = ref("decks");
 const decks = ref([]);
 const albums = ref([]);
+const sellListings = ref([]);
 const loadingDecks = ref(false);
 const loadingAlbums = ref(false);
+const loadingSellListings = ref(false);
 const deckError = ref(null);
 const albumError = ref(null);
+const sellListingsError = ref(null);
 
 const username = computed(() => {
   const metadata = userAuth.userLogged?.user_metadata ?? {};
@@ -77,9 +81,22 @@ async function loadAlbums() {
   }
 }
 
+async function loadSellListings() {
+  loadingSellListings.value = true;
+  sellListingsError.value = null;
+  try {
+    sellListings.value = await fetchLoggedUserSellListings();
+  } catch (error) {
+    sellListingsError.value = error?.message || "Errore caricamento vendite";
+  } finally {
+    loadingSellListings.value = false;
+  }
+}
+
 onMounted(() => {
   loadDecks();
   loadAlbums();
+  loadSellListings();
 });
 
 function goToDeck(deck) {
@@ -121,6 +138,14 @@ definePageMeta({
             @click="activeTab = 'albums'"
           >
             Albums
+          </button>
+          <button
+            type="button"
+            class="text-sm font-semibold transition"
+            :class="activeTab === 'sellListings' ? 'border-b-2 border-white text-white' : 'text-white/50'"
+            @click="activeTab = 'sellListings'"
+          >
+            In vendita
           </button>
         </div>
       </template>
@@ -164,6 +189,27 @@ definePageMeta({
               :key="album.slug"
               :to="`/me/collection/albums/${album.slug}`"
               :label="album.name"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div v-if="activeTab === 'sellListings'" class="space-y-3">
+        <p v-if="loadingSellListings" class="text-center text-sm text-white/50">Caricamento vendite in corso...</p>
+        <p v-else-if="sellListingsError" class="rounded-2xl border border-red-500/40 bg-red-500/10 p-3 text-center text-sm text-red-200">
+          {{ sellListingsError }}
+        </p>
+        <div v-else>
+          <div v-if="sellListings.length === 0" class="rounded-2xl border border-dashed border-white/20 bg-white/5 p-4 text-center text-sm text-white/60">
+            Nessuna carta attualmente in vendita.
+          </div>
+          <div v-else class="flex flex-col gap-3">
+            <CommunitySellListingCard
+              v-for="listing in sellListings"
+              :key="listing.id"
+              :listing="listing"
+              details-path-base="/community/sell-cards/current-sells"
+              :show-seller-identity="false"
             />
           </div>
         </div>

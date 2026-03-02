@@ -8,6 +8,7 @@ import {
 import { fetchProfileByTag } from "@/api/profiles";
 import { fetchPublicDecksByUserTag } from "@/api/decks";
 import { getPublicAlbumsByUserTag } from "@/api/album";
+import { fetchActiveSellListingsBySellerId } from "@/api/sellListings";
 import { DeckLocation } from "~/enums/deckLocation";
 
 const route = useRoute();
@@ -18,13 +19,16 @@ const activeTab = ref("decks");
 const profile = ref(null);
 const decks = ref([]);
 const albums = ref([]);
+const sellListings = ref([]);
 const loadingProfile = ref(false);
 const loadingDecks = ref(false);
 const loadingAlbums = ref(false);
+const loadingSellListings = ref(false);
 const relationActionLoading = ref(false);
 const profileError = ref(null);
 const deckError = ref(null);
 const albumError = ref(null);
+const sellListingsError = ref(null);
 const loadRequestId = ref(0);
 const relationStatus = ref(createEmptyFriendRelationStatus());
 
@@ -52,6 +56,9 @@ const userAvatarUrl = computed(() => {
 
 const publicAlbums = computed(() =>
   (albums.value ?? []).filter((album) => album.visibility === "public")
+);
+const sellListingDetailsPathBase = computed(() =>
+  isOwnProfile.value ? "/community/sell-cards/current-sells" : "/community/offers"
 );
 
 const isOwnProfile = computed(() => {
@@ -140,15 +147,37 @@ async function loadAlbums(requestId) {
   }
 }
 
+async function loadSellListings(requestId, sellerUuid) {
+  if (!sellerUuid) {
+    sellListings.value = [];
+    return;
+  }
+
+  loadingSellListings.value = true;
+  sellListingsError.value = null;
+
+  try {
+    sellListings.value = await fetchActiveSellListingsBySellerId(sellerUuid);
+  } catch (error) {
+    if (requestId !== loadRequestId.value) return;
+    sellListingsError.value = error?.message || "Errore caricamento vendite";
+  } finally {
+    if (requestId !== loadRequestId.value) return;
+    loadingSellListings.value = false;
+  }
+}
+
 async function loadProfileData() {
   const requestId = ++loadRequestId.value;
   loadingProfile.value = true;
   profileError.value = null;
   deckError.value = null;
   albumError.value = null;
+  sellListingsError.value = null;
   profile.value = null;
   decks.value = [];
   albums.value = [];
+  sellListings.value = [];
   relationStatus.value = createEmptyFriendRelationStatus();
 
   try {
@@ -183,6 +212,7 @@ async function loadProfileData() {
     await Promise.all([
       loadDecks(requestId),
       loadAlbums(requestId),
+      loadSellListings(requestId, loadedProfile.id),
     ]);
   } catch (error) {
     if (requestId !== loadRequestId.value) return;
@@ -206,6 +236,7 @@ async function refreshRelationStatus() {
     profile.value = null;
     decks.value = [];
     albums.value = [];
+    sellListings.value = [];
     profileError.value = "Profilo non disponibile";
   }
 }
@@ -280,6 +311,14 @@ watch([profileTagSlug, currentUserId], () => {
           >
             Albums
           </button>
+          <button
+            type="button"
+            class="text-sm font-semibold transition"
+            :class="activeTab === 'sellListings' ? 'border-b-2 border-white text-white' : 'text-white/50'"
+            @click="activeTab = 'sellListings'"
+          >
+            In vendita
+          </button>
         </div>
       </template>
     </Toolbar>
@@ -329,6 +368,27 @@ watch([profileTagSlug, currentUserId], () => {
                 :key="album.slug"
                 :to="`/me/collection/albums/${album.slug}`"
                 :label="album.name"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div v-if="activeTab === 'sellListings'" class="space-y-3">
+          <p v-if="loadingSellListings" class="text-center text-sm text-white/50">Caricamento vendite in corso...</p>
+          <p v-else-if="sellListingsError" class="rounded-2xl border border-red-500/40 bg-red-500/10 p-3 text-center text-sm text-red-200">
+            {{ sellListingsError }}
+          </p>
+          <div v-else>
+            <div v-if="sellListings.length === 0" class="rounded-2xl border border-dashed border-white/20 bg-white/5 p-4 text-center text-sm text-white/60">
+              Nessuna carta attualmente in vendita.
+            </div>
+            <div v-else class="flex flex-col gap-3">
+              <CommunitySellListingCard
+                v-for="listing in sellListings"
+                :key="listing.id"
+                :listing="listing"
+                :details-path-base="sellListingDetailsPathBase"
+                :show-seller-identity="false"
               />
             </div>
           </div>

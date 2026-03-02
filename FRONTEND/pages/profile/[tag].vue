@@ -138,16 +138,18 @@ onMounted(() => {
 
 <template>
   <section class="relative h-full">
-    <Toolbar label="Profilo" fixed>
-      <template #info>
+    <Toolbar fixed back-button>
+      <template #content>
         <UserIdentityHeader
           :username="username"
           :user-tag="userTag"
           :avatar-url="userAvatarUrl"
-          size="md"
+          size="sm"
         />
+      </template>
 
-        <div class="flex items-center gap-6 border-b border-white/10 px-2 pt-2">
+      <template #info>
+        <div class="flex items-center gap-6 border-b border-white/10 px-2 pt-1">
           <button
             type="button"
             class="text-sm font-semibold transition"

@@ -120,7 +120,7 @@ provide("availabilityOpen", availabilityOpen);
 
 </script>
 <template>
-  <Toolbar backButton v-if="leaderChoosen" :label="`Mazzo ${currentDeck.name}`">
+  <Toolbar backButton fixed v-if="leaderChoosen" :label="`Mazzo ${currentDeck.name}`">
     <template #info>
       <DecksTopInfo :leader-choosen="leaderChoosen" :current-deck="currentDeck" />
       <DecksCost v-if="availabilityOpen" :cards="singleCardsInDeck" />

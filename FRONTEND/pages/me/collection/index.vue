@@ -183,30 +183,34 @@ onMounted(async () => {
 
 <template>
   <section class="relative h-full">
-    <Toolbar label="La tua collezione">
-      <template #actions>
-        
+    <Toolbar
+      v-if="handleAlbum || sellMode"
+      label="La tua collezione"
+      fixed
+    >
+      <template #info>
+        <div
+          v-if="handleAlbum"
+          class="flex items-center justify-between gap-3 rounded-xl border border-white/10 bg-black/40 px-3 py-2 text-sm text-white/70"
+        >
+          <h5 class="shrink-0">Aggiungi ad Album</h5>
+          <Icon icon="icomoon-free:arrow-right" class="shrink-0 text-xl" />
+          <span class="truncate text-right font-bold">{{ selectedAlbum?.name }}</span>
+        </div>
+
+        <div
+          v-else
+          class="flex items-center justify-between gap-3 rounded-xl border border-white/10 bg-black/40 px-3 py-2 text-sm text-white/70"
+        >
+          <h5 class="truncate">Seleziona carta da mettere sul mercato</h5>
+          <Icon icon="mdi-cash-plus" class="shrink-0 text-xl" />
+        </div>
       </template>
     </Toolbar>
 
+    <Toolbar v-else label="La tua collezione" fixed />
+
     <div>
-      <div
-        v-if="handleAlbum"
-        class="fixed bg-black/80 backdrop-blur-[3px] p-3 w-full flex justify-around top-[50px] left-0 z-[100] px-3 text-sm text-white/70"
-      >
-        <h5>Aggiungi ad Album</h5>
-        <Icon icon="icomoon-free:arrow-right" class="text-xl" />
-        <span class="font-bold">{{ selectedAlbum?.name }}</span>
-      </div>
-
-      <div
-        v-else-if="sellMode"
-        class="fixed bg-black/80 backdrop-blur-[3px] p-3 w-full flex justify-around top-[50px] left-0 z-[100] px-3 text-sm text-white/70"
-      >
-        <h5>Seleziona carta da mettere sul mercato</h5>
-        <Icon icon="mdi-cash-plus" class="text-xl" />
-      </div>
-
       <h4 v-if="visibleCards.length === 0" class="text-center text-gray-500 my-5">
         La ricerca non ha prodotto risultati
       </h4>
@@ -218,7 +222,6 @@ onMounted(async () => {
       :key="gridKey"
       :items="sortedCards"
       :grid-class="['grid','px-2','pt-2', gridSystem]"
-      :class="handleAlbum || sellMode ? 'pt-6' : 'pt-0'"
       @update:visible="visibleCards = $event"
     >
       <template #default="{ item }">

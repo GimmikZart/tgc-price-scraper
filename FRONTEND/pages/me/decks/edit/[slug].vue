@@ -7,6 +7,8 @@ import { DeckLocation } from "~/enums/deckLocation";
 
 const snackbar = useSnackbar();
 const pageLoader = usePageLoader();
+const MAX_DECK_CARDS = 50;
+const DECK_LIMIT_ERROR_MESSAGE = "Hai raggiunto il numero massimo di carte inseribili nel deck";
 
 
 
@@ -138,13 +140,31 @@ function getCopyInDeck(card) {
   return currentDeck.value.cards.filter((cId) => cId === card.id).length;
 }
 
+function showDeckLimitReachedError() {
+  snackbar.addMessage(DECK_LIMIT_ERROR_MESSAGE, "error");
+}
+
 function addCardInDeck(card) {
+  if (currentDeck.value.cards.length >= MAX_DECK_CARDS) {
+    showDeckLimitReachedError();
+    return;
+  }
+
   currentDeck.value.cards.push(card.id);
 }
 
 function removeCardFromDeck(cardToRemove) {
   const idx = currentDeck.value.cards.lastIndexOf(cardToRemove.id);
   if (idx !== -1) currentDeck.value.cards.splice(idx, 1);
+}
+
+function setDeckAction(nextAction) {
+  if (nextAction === "add" && currentDeck.value.cards.length >= MAX_DECK_CARDS) {
+    showDeckLimitReachedError();
+    return;
+  }
+
+  actionOnDeck.value = nextAction;
 }
 
 // persistenza locale del draft
@@ -182,7 +202,7 @@ async function saveLocalDeck() {
 
 function exportDeck() {
   snackbar.addMessage("Il deck deve contenere esattamente 50 carte per essere esportato", "error");
-  if(currentDeck.value.cards.length == 50){
+  if(currentDeck.value.cards.length == MAX_DECK_CARDS){
     copyDeckOnClipboard(leaderChoosen.value, singleCardsInDeck.value);
     snackbar.addMessage("Deck copiato negli appunti", "success");
   } else {
@@ -325,21 +345,21 @@ provide("actionOnDeck", actionOnDeck);
               label="Rimuovi"
               transition
               :delay="0"
-              @click="actionOnDeck = 'remove'"
+              @click="setDeckAction('remove')"
             />
             <ButtonMenu
               icon="streamline-ultimate:card-add-1-bold"
               label="Aggiungi"
               transition
               :delay="100"
-              @click="actionOnDeck = 'add'"
+              @click="setDeckAction('add')"
             />
             <ButtonMenu
               icon="lucide:info"
               label="Info"
               transition
               :delay="200"
-              @click="actionOnDeck = 'info'"
+              @click="setDeckAction('info')"
             />
           </template>
         </ButtonMenu>

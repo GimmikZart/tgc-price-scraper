@@ -222,7 +222,7 @@ provide("actionOnDeck", actionOnDeck);
 
 <template>
   <section class="relative">
-    <Toolbar fixed backButton :label="currentDeck.name" class="rounded-b-xl">
+    <Toolbar fixed backButton :label="`Modifica ${currentDeck.name}`" class="rounded-b-xl">
       <template #info>
         <DecksTopInfo
           :leader-choosen="leaderChoosen"

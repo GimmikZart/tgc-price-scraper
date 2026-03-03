@@ -11,7 +11,7 @@ const props = defineProps({
   },
 });
 
-const availabilityOpen = inject("availabilityOpen");
+const availabilityOpen = inject("availabilityOpen", ref(false));
 const shouldShow = computed(() => (props.show ?? availabilityOpen?.value) === true);
 
 const collectionAvailabilityClass = function(count) {

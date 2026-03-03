@@ -79,6 +79,21 @@ const costBuckets = computed(() => {
 const costCategories = { qty: { name: 'Costi', color: '#60a5fa' } }
 const costXAxisFormatter = (i) => `${costBuckets.value[i]?.cost ?? ''}`
 
+const triggerSegments = computed(() =>
+  expandedCards.value
+    .map((card, index) => ({
+      key: `${card.id}-${index}`,
+      trigger: card.trigger != null,
+    }))
+    .sort((a, b) => Number(b.trigger) - Number(a.trigger))
+)
+
+const emptyTriggerSlots = computed(() =>
+  Array.from({ length: Math.max(0, 50 - expandedCards.value.length) }, (_, index) => ({
+    key: `empty-${index}`,
+  }))
+)
+
 /* ---------------------- CategoryDistribution: distribuzione abilità ---------------------- */
 const abilityCountMap = computed(() => {
   const m = new Map()
@@ -123,15 +138,15 @@ const abilityCountMap = computed(() => {
         </h3>
         <div class="w-full flex gap-1 justify-start">
           <div 
-            v-for="card in [...expandedCards].sort((a, b) => (a.trigger ? -1 : 1))"
-            :key="card.id" 
+            v-for="segment in triggerSegments"
+            :key="segment.key" 
             class="h-[40px] bg-white/20" 
-            :class="{ 'bg-yellow': card.trigger != null }" 
+            :class="{ 'bg-yellow': segment.trigger }" 
             :style="`width: ${(1 / 50) * 100}%`">
           </div>
           <div 
-            v-for="cardUnset in 50 - expandedCards.length" 
-            :key="cardUnset" 
+            v-for="slot in emptyTriggerSlots" 
+            :key="slot.key" 
             class="h-[40px] bg-white/5" 
             :style="`width: ${(1 / 50) * 100}%`">
           </div>

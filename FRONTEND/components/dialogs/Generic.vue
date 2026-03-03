@@ -115,13 +115,27 @@ const bottomDistance = computed(() => {
             <slot name="content"></slot>
           </v-card-text>
 
-          <v-card-actions class="border-t border-white/10 bg-black/30 px-4 py-3 pb-10">
+          <div class="border-t border-white/10 bg-black/30 px-4 py-3 pb-10">
             <slot name="actions" :close-dialog="closeDialog" :handle-confirm="handleConfirm">
-              <v-spacer />
-              <v-btn class="generic-btn generic-btn--cancel" variant="text" @click.stop="closeDialog">Annulla</v-btn>
-              <v-btn class="generic-btn generic-btn--accept" :color="acceptColor" variant="flat" @click="handleConfirm">{{ acceptLabel }}</v-btn>
+              <div class="flex items-center justify-end gap-3">
+                <button
+                  type="button"
+                  class="generic-btn generic-btn--cancel"
+                  @click.stop="closeDialog"
+                >
+                  Annulla
+                </button>
+                <button
+                  type="button"
+                  class="generic-btn generic-btn--accept"
+                  :class="`generic-btn--${acceptColor}`"
+                  @click="handleConfirm"
+                >
+                  {{ acceptLabel }}
+                </button>
+              </div>
             </slot>
-          </v-card-actions>
+          </div>
         </v-card>
       </div>
     </div>
@@ -163,15 +177,42 @@ const bottomDistance = computed(() => {
 .generic-btn {
   min-width: 110px;
   border-radius: 0.75rem !important;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 0.72rem 1rem;
   font-weight: 700;
   letter-spacing: 0.02em;
+  transition: transform 0.18s ease, border-color 0.18s ease, background-color 0.18s ease;
 }
 
 .generic-btn--cancel {
   color: rgba(241, 245, 249, 0.9) !important;
+  background: rgba(255, 255, 255, 0.04);
 }
 
 .generic-btn--accept {
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+}
+
+.generic-btn:hover {
+  transform: translateY(-1px);
+}
+
+.generic-btn--red {
+  border-color: rgba(248, 113, 113, 0.36);
+  background: linear-gradient(135deg, rgba(239, 68, 68, 0.9), rgba(153, 27, 27, 0.95));
+  color: #fff4f4;
+}
+
+.generic-btn--success,
+.generic-btn--green {
+  border-color: rgba(74, 222, 128, 0.32);
+  background: linear-gradient(135deg, rgba(34, 197, 94, 0.88), rgba(21, 128, 61, 0.95));
+  color: #f3fff7;
+}
+
+.generic-btn--orange {
+  border-color: rgba(255, 183, 124, 0.4);
+  background: linear-gradient(135deg, rgba(255, 122, 24, 0.92), rgba(173, 72, 11, 0.95));
+  color: #fff7f0;
 }
 </style>

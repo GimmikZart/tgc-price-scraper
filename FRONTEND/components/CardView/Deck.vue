@@ -58,7 +58,7 @@ function handleCardCopy(card) {
       <div class="w-full h-auto grid grid-cols-4 gap-6 px-6">
         <div
           v-for="(card, idx) in category.cards"
-          :key="idx"
+          :key="`${category.label}-${card.id}-${idx}`"
           class="h-fit w-full"
           @click="handleCardCopy(card)"
         >
@@ -66,7 +66,7 @@ function handleCardCopy(card) {
           <div class="relative w-full">
             <Card
               v-for="(copy, ydx) in card.count"
-              :key="ydx"
+              :key="`${card.id}-${ydx}`"
               :card="card"
               class="w-full h-full top-0 left-0"
               :class="{

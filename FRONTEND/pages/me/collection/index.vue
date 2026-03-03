@@ -2,6 +2,7 @@
 import { ref, computed, watch, onMounted } from "vue";
 import Toolbar from "@/components/Toolbar.vue";
 import Card from "@/components/Card.vue";
+import ProfileSectionsTabs from "@/components/Tabs/ProfileSectionsTabs.vue";
 import { useMyBreakpoints } from "@/composables/useMyBreakpoints";
 import { fetchUserCollection } from "@/api/collection";
 import { getAlbums, insertCardToAlbum } from "@/api/album";
@@ -35,6 +36,19 @@ const openFilter = ref(false);
 const userAuth = useUserAuth();
 const sellListingDraftStore = useSellListingDraftStore();
 const sellMode = computed(() => Object.prototype.hasOwnProperty.call(route.query, "sell-mode"));
+const tabOptions = computed(() => [
+  {
+    label: "Carte",
+    value: "/me/collection",
+  },
+  {
+    label: "Album",
+    value: "/me/collection/albums",
+  },
+]);
+const activeSection = computed(() =>
+  route.path === "/me/collection/albums" ? "/me/collection/albums" : "/me/collection"
+);
 
 // Viewer: ora scegliamo di navigare sull’INTERO risultato filtrato
 const { show: viewerOpen, index: viewerIndex } = useCardViewer(filteredCards);
@@ -161,6 +175,11 @@ function navigateBack() {
   router.back();
 }
 
+function setActiveSection(path) {
+  if (path === activeSection.value) return;
+  router.push(path);
+}
+
 // Sincronizza album da query
 watch(selectedAlbum, (newAlbum) => {
   if (!newAlbum) router.push({ query: {} });
@@ -208,7 +227,15 @@ onMounted(async () => {
       </template>
     </Toolbar>
 
-    <Toolbar v-else label="La tua collezione" fixed />
+    <Toolbar v-else label="La tua collezione" fixed>
+      <template #info>
+        <ProfileSectionsTabs
+          :tabs="tabOptions"
+          :active="activeSection"
+          @change="setActiveSection"
+        />
+      </template>
+    </Toolbar>
 
     <div>
       <h4 v-if="visibleCards.length === 0" class="text-center text-gray-500 my-5">
@@ -250,7 +277,7 @@ onMounted(async () => {
       @close="openFilter = false"
     />
 
-    <MobileFloatMenu :cols="!sellMode && !handleAlbum ? 5 : 3">
+    <MobileFloatMenu :cols="!sellMode && !handleAlbum ? 4 : 3">
       <template #buttons>
         <ButtonMenu
           v-if="!sellMode && !handleAlbum"
@@ -272,15 +299,6 @@ onMounted(async () => {
             'opacity-40': !showPrice
           }"
           @click="showPrice = !showPrice"
-        />
-
-        <ButtonMenu
-          v-if="!sellMode && !handleAlbum"
-          icon="material-symbols-light:book-ribbon"
-          label="Album"
-          transition
-          :delay="100"
-          @click="router.push('/me/collection/albums')"
         />
 
         <ButtonMenu

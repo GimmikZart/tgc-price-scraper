@@ -1,4 +1,5 @@
 <script setup>
+import ProfileSectionsTabs from "@/components/Tabs/ProfileSectionsTabs.vue";
 import { updateDeckVisibility } from "~/api/decks";
 import { copyDeckOnClipboard } from "@/utilities/copyDeckOnClipboard";
 import { usePageLoader } from "@/stores/usePageLoader";
@@ -28,10 +29,25 @@ const availabilityOpen = ref(false);
 const router = useRouter();
 const { allCards } = await useOnePieceCards();
 const { getLocal, getCloud } = useDeckManager();
+const tabOptions = [
+  {
+    label: "Panoramica",
+    value: "overview",
+  },
+  {
+    label: "Stats",
+    value: "stats",
+  },
+];
+const activeTab = computed(() => (statsOpen.value ? "stats" : "overview"));
 
 
 function goToEditDeck() {
   router.push(`/me/decks/edit/${route.params.slug}?location=${deckLocation.value}`);
+}
+
+function setActiveTab(tab) {
+  statsOpen.value = tab === "stats";
 }
 
 const singleCardsInDeck = computed(() => {
@@ -125,35 +141,24 @@ provide("availabilityOpen", availabilityOpen);
       <DecksTopInfo :leader-choosen="leaderChoosen" :current-deck="currentDeck" />
       <DecksCost v-if="availabilityOpen" :cards="singleCardsInDeck" />
       <DecksValue v-else :cards="singleCardsInDeck" />
+      <ProfileSectionsTabs
+        :tabs="tabOptions"
+        :active="activeTab"
+        @change="setActiveTab"
+      />
     </template>
   </Toolbar>
   <CardViewDeck v-if="!statsOpen" :single-cards-in-deck="singleCardsInDeck" />
   <DecksStats v-else :current-deck="singleCardsInDeck" />
   
-  <MobileFloatMenu :cols="statsOpen ? 3 : 4">
+  <MobileFloatMenu :cols="statsOpen ? 2 : 3">
     <template #buttons>
-      <ButtonMenu
-        v-show="statsOpen"
-        @click="statsOpen = false"
-        icon="material-symbols:cards"
-        transition
-        :delay="200"
-        label="Panoramica"
-      />
       <ButtonMenu
         @click="exportDeck()"
         icon="material-symbols:export-notes-outline"
         transition
         :delay="200"
         label="Esporta"
-      />
-      <ButtonMenu
-        v-show="!statsOpen"
-        @click="statsOpen = true"
-        icon="ion:stats-chart"
-        transition
-        :delay="200"
-        label="Stats"
       />
       <!-- <DialogsHandleVisibility
         v-if="!currentDeck.isLocal"

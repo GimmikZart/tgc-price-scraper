@@ -1,5 +1,6 @@
 <script setup>
 import { Icon } from "@iconify/vue";
+import ProfileSectionsTabs from "@/components/Tabs/ProfileSectionsTabs.vue";
 import { copyDeckOnClipboard } from "@/utilities/copyDeckOnClipboard";
 import { usePageLoader } from "@/stores/usePageLoader";
 import { DeckLocation } from "~/enums/deckLocation";
@@ -35,6 +36,17 @@ const actionOnDeck = ref("info");
 const leaderChoosen = ref(null);
 const showPrice = ref(false)
 const sortedCards = computed(() => sort.applySort(filteredCards.value))
+const tabOptions = [
+  {
+    label: "Panoramica",
+    value: "overview",
+  },
+  {
+    label: "Catalogo Carte",
+    value: "catalog",
+  },
+];
+const activeTab = computed(() => (showDeck.value ? "overview" : "catalog"));
 
 const sort = useCardSort('name', 'asc')
 
@@ -111,6 +123,15 @@ function chooseLeader(cardOrId) {
 
   // reset lista filtrata sul nuovo insieme “builderCards”
   filteredCards.value = builderCards.value.slice();
+}
+
+function setActiveTab(tab) {
+  if (tab === "overview" && !leaderChoosen.value) {
+    snackbar.addMessage("Scegli prima un leader", "error");
+    return;
+  }
+
+  showDeck.value = tab === "overview";
 }
 
 function getCopyInDeck(card) {
@@ -208,6 +229,12 @@ provide("actionOnDeck", actionOnDeck);
           :current-deck="currentDeck"
           :toggle-cards="showDeck"
         />
+        <DecksValue :cards="singleCardsInDeck" />
+        <ProfileSectionsTabs
+          :tabs="tabOptions"
+          :active="activeTab"
+          @change="setActiveTab"
+        />
       </template>
     </Toolbar>
     <!-- Sezione Mazzo -->
@@ -256,7 +283,7 @@ provide("actionOnDeck", actionOnDeck);
       :is-leader-filter="leaderChoosen == null"
     />
 
-    <MobileFloatMenu v-if="showDeck && leaderChoosen" :cols="4">
+    <MobileFloatMenu v-if="showDeck && leaderChoosen" :cols="3">
       <template #buttons>
         <DialogsHandleDeleteDeck :slug="route.params.slug" />
         <ButtonMenu
@@ -317,31 +344,11 @@ provide("actionOnDeck", actionOnDeck);
           </template>
         </ButtonMenu>
 
-        <ButtonMenu
-          icon="streamline:cards"
-          label="Catalogo"
-          transition
-          :delay="200"
-          @click="() => { showDeck = false; mobileFloatMenu.close(); }"
-        />
-
       </template>
     </MobileFloatMenu>
 
-    <MobileFloatMenu v-else :cols="leaderChoosen != null ? 4 : 3">
+    <MobileFloatMenu v-else :cols="3">
       <template #buttons>
-        <ButtonMenu
-          v-if="leaderChoosen"
-          icon="material-symbols:cards"
-          label="Panoramica"
-          transition
-          :delay="100"
-          @click="
-            showDeck = true;
-            mobileFloatMenu.close();
-          "
-        />
-
         <ButtonMenu
           icon="solar:tag-price-outline"
           label="Prezzi"

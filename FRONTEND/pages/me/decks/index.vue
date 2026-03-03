@@ -76,14 +76,16 @@ onMounted(async () => {
 </script>
 <template>
   <section class="relative h-full">
-    <Toolbar label="Mazzi" fixed> </Toolbar>
-    <v-container class="flex flex-col justify-start grow relative gap-5 pt-0">
-      <DeckLocationTabs
-        :tabs="tabOptions"
-        :active="activeLocation"
-        @change="setActiveLocation"
-      />
-
+    <Toolbar label="Mazzi" fixed>
+      <template #info>
+        <DeckLocationTabs
+          :tabs="tabOptions"
+          :active="activeLocation"
+          @change="setActiveLocation"
+        />
+      </template>
+    </Toolbar>
+    <v-container class="relative flex grow flex-col justify-start gap-5 pt-3">
       <div class="grid grid-cols-1 gap-5">
         <div
           v-if="visibleDecks.length === 0"

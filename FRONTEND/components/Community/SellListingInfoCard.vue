@@ -69,7 +69,7 @@ function handleCardOpen(card) {
     </div>
 
     <div class="w-full flex-1 flex flex-col justify-between gap-1">
-      <div>
+      <div class="sell-card-summary">
         <p class="sell-card-name line-clamp-2">{{ cardName }}</p>
         <p v-if="showCopies" class="sell-card-copies mb-1 text-xs">{{ copiesInSale }} copie in vendita</p>
         <v-chip size="x-small" variant="flat" label :color="conditionColor" class="w-fit font-bold">

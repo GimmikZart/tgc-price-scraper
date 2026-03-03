@@ -387,6 +387,7 @@ watch([profileTagSlug, currentUserId], () => {
                 :key="listing.id"
                 :listing="listing"
                 :details-path-base="sellListingDetailsPathBase"
+                show-proposals-in-header-slot
                 :show-seller-identity="false"
               />
             </div>

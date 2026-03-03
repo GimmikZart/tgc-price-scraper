@@ -207,6 +207,7 @@ definePageMeta({
               :key="listing.id"
               :listing="listing"
               details-path-base="/community/sell-cards/current-sells"
+              show-proposals-in-header-slot
               :show-seller-identity="false"
             />
           </div>

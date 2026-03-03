@@ -1,5 +1,6 @@
 ﻿<script setup>
 import { computed, onMounted, ref } from "vue";
+import ProfileSectionsTabs from "@/components/Tabs/ProfileSectionsTabs.vue";
 import { fetchUserDecks } from "@/api/decks";
 import { getAlbums } from "@/api/album";
 import { fetchLoggedUserSellListings } from "@/api/sellListings";
@@ -55,6 +56,20 @@ const userAvatarUrl = computed(() => {
 const publicAlbums = computed(() =>
   (albums.value ?? []).filter((album) => album.visibility === "public")
 );
+const tabOptions = computed(() => [
+  {
+    label: "Mazzi",
+    value: "decks",
+  },
+  {
+    label: "Albums",
+    value: "albums",
+  },
+  {
+    label: "In vendita",
+    value: "sellListings",
+  },
+]);
 
 async function loadDecks() {
   loadingDecks.value = true;
@@ -103,6 +118,10 @@ function goToDeck(deck) {
   router.push(`/me/decks/${deck.slug}?location=${DeckLocation.CLOUD}`);
 }
 
+function setActiveTab(nextTab) {
+  activeTab.value = nextTab;
+}
+
 definePageMeta({
   ssr: false,
   middleware: "auth",
@@ -122,32 +141,11 @@ definePageMeta({
       </template>
 
       <template #info>
-        <div class="flex items-center gap-6 border-b border-white/10 px-2 pt-1">
-          <button
-            type="button"
-            class="text-sm font-semibold transition"
-            :class="activeTab === 'decks' ? 'border-b-2 border-white text-white' : 'text-white/50'"
-            @click="activeTab = 'decks'"
-          >
-            Mazzi
-          </button>
-          <button
-            type="button"
-            class="text-sm font-semibold transition"
-            :class="activeTab === 'albums' ? 'border-b-2 border-white text-white' : 'text-white/50'"
-            @click="activeTab = 'albums'"
-          >
-            Albums
-          </button>
-          <button
-            type="button"
-            class="text-sm font-semibold transition"
-            :class="activeTab === 'sellListings' ? 'border-b-2 border-white text-white' : 'text-white/50'"
-            @click="activeTab = 'sellListings'"
-          >
-            In vendita
-          </button>
-        </div>
+        <ProfileSectionsTabs
+          :tabs="tabOptions"
+          :active="activeTab"
+          @change="setActiveTab"
+        />
       </template>
     </Toolbar>
     <v-container class="flex flex-col gap-5 px-4 pb-24 pt-3">

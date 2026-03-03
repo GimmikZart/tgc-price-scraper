@@ -8,6 +8,15 @@ BEGIN
       AND c.relname = 'friends'
       AND pg_get_userbyid(c.relowner) = current_user
   ) THEN
+    ALTER TABLE public.friends ENABLE ROW LEVEL SECURITY;
+
+    DROP POLICY IF EXISTS "Friends delete if partecipant" ON public.friends;
+    DROP POLICY IF EXISTS "Friends update if partecipant" ON public.friends;
+    DROP POLICY IF EXISTS friends_authenticated_select ON public.friends;
+    DROP POLICY IF EXISTS friends_authenticated_insert_own ON public.friends;
+    DROP POLICY IF EXISTS friends_authenticated_update_own ON public.friends;
+    DROP POLICY IF EXISTS friends_authenticated_delete_own ON public.friends;
+
     IF EXISTS (
       SELECT 1
       FROM information_schema.columns
@@ -110,15 +119,6 @@ BEGIN
         REFERENCES public.profiles (id)
         ON DELETE CASCADE;
     END IF;
-
-    ALTER TABLE public.friends ENABLE ROW LEVEL SECURITY;
-
-    DROP POLICY IF EXISTS "Friends delete if partecipant" ON public.friends;
-    DROP POLICY IF EXISTS "Friends update if partecipant" ON public.friends;
-    DROP POLICY IF EXISTS friends_authenticated_select ON public.friends;
-    DROP POLICY IF EXISTS friends_authenticated_insert_own ON public.friends;
-    DROP POLICY IF EXISTS friends_authenticated_update_own ON public.friends;
-    DROP POLICY IF EXISTS friends_authenticated_delete_own ON public.friends;
 
     CREATE POLICY friends_authenticated_select
     ON public.friends

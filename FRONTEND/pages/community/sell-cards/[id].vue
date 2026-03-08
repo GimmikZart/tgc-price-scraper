@@ -59,6 +59,7 @@ async function handleCloseListing() {
     <CommunitySellListingOffersDetails
       :fetch-listing-by-id="fetchLoggedUserSellListingById"
       chat-path-base="/community/sell-cards/current-sells"
+      offer-amount-label="Offre"
       :proposals="offerListings"
       :is-loading-proposals="isLoadingOfferListings"
       @listing-updated="handleListingUpdated"

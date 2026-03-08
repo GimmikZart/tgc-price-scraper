@@ -1,14 +1,11 @@
 <script setup>
 import {
-  acceptOfferListingProposal,
   fetchOfferListingChatContext,
   fetchOfferListingChatMessages,
   markOfferListingAsDelivered,
   markOfferListingAsReceived,
   markOfferListingChatMessagesAsSeen,
   rejectOfferListingProposal,
-  revokeOfferListingDelivery,
-  revokeOfferListingReception,
   sendOfferListingChatMessage,
   subscribeToOfferListingChatMessages,
   updateOwnOfferListingProposal,
@@ -39,8 +36,6 @@ const isSendingMessage = ref(false);
 const isUpdatingOfferStatus = ref(false);
 const isUpdatingOfferProposal = ref(false);
 const isMarkingSeen = ref(false);
-const offerManagementDialogRef = ref(null);
-const offerPurchaseManagementDialogRef = ref(null);
 const offerEditDialogRef = ref(null);
 const offerDeliverConfirmDialogRef = ref(null);
 const offerReceiveConfirmDialogRef = ref(null);
@@ -86,6 +81,13 @@ const isOfferRejected = computed(() => currentOfferStatus.value === OfferStatus.
 const isOfferDelivered = computed(() => Boolean(chatContext.value?.offerListing?.delivered_at));
 const isOfferReceived = computed(() => Boolean(chatContext.value?.offerListing?.received_at));
 const isTradeCompleted = computed(() => isOfferDelivered.value && isOfferReceived.value);
+const ChatSaleStatusAction = Object.freeze({
+  None: "none",
+  SellerConfirmDelivery: "seller_confirm_delivery",
+  SellerRejectOffer: "seller_reject_offer",
+  OffererEditOffer: "offerer_edit_offer",
+  OffererConfirmReception: "offerer_confirm_reception",
+});
 const tradeCompletionRedirectPath = computed(() => {
   const parsedSellListingId = Number(chatContext.value?.sellListing?.id);
   if (!Number.isInteger(parsedSellListingId) || parsedSellListingId <= 0) return null;
@@ -97,7 +99,9 @@ const tradeCompletionRedirectPath = computed(() => {
   return `/community/offers/${parsedSellListingId}`;
 });
 const showTradeStatusSection = computed(() => {
-  return isOfferDelivered.value || isOfferReceived.value;
+  if (!hasContext.value) return false;
+  if (!viewerCanAccessChat.value) return false;
+  return !isOfferRejected.value;
 });
 const counterpartyIdentity = computed(() => {
   if (!hasContext.value) return null;
@@ -155,18 +159,6 @@ const canManagePurchase = computed(() => {
   const parsedOfferListingId = Number(chatContext.value?.offerListing?.id);
   return Number.isInteger(parsedOfferListingId) && parsedOfferListingId > 0;
 });
-const canShowSellerActionButton = computed(() => {
-  if (!canManageOfferStatus.value) return false;
-  return !isOfferRejected.value;
-});
-const canShowOffererActionButton = computed(() => {
-  if (!canManagePurchase.value) return false;
-  return !isOfferRejected.value;
-});
-const hasChatActionButton = computed(() => {
-  return canShowSellerActionButton.value || canShowOffererActionButton.value;
-});
-
 const canRejectOffer = computed(() => {
   if (!canManageOfferStatus.value) return false;
   if (isUpdatingOfferStatus.value) return false;
@@ -178,25 +170,130 @@ const canMarkAsDelivered = computed(() => {
   if (isUpdatingOfferStatus.value) return false;
   return !isOfferDelivered.value;
 });
-const canRevokeDelivery = computed(() => {
-  if (!canManageOfferStatus.value) return false;
-  if (isUpdatingOfferStatus.value) return false;
-  return isOfferDelivered.value;
-});
 const canMarkAsReceived = computed(() => {
   if (!canManagePurchase.value) return false;
   if (isUpdatingOfferProposal.value) return false;
   return !isOfferReceived.value;
 });
-const canRevokeReception = computed(() => {
-  if (!canManagePurchase.value) return false;
-  if (isUpdatingOfferProposal.value) return false;
-  return isOfferReceived.value;
-});
 const canEditOfferProposal = computed(() => {
   if (!canManagePurchase.value) return false;
   if (isUpdatingOfferProposal.value) return false;
   return !isOfferReceived.value;
+});
+const sellerDisplayName = computed(() => {
+  const username = chatContext.value?.sellListing?.sellerProfile?.username
+    ?? chatContext.value?.sellListing?.sellerUsername
+    ?? null;
+  if (typeof username === "string" && username.trim().length > 0) {
+    return username.trim();
+  }
+  return "Venditore";
+});
+const offererDisplayName = computed(() => {
+  const username = chatContext.value?.offerListing?.offererProfile?.username
+    ?? chatContext.value?.offerListing?.offererUsername
+    ?? null;
+  if (typeof username === "string" && username.trim().length > 0) {
+    return username.trim();
+  }
+  return "Offerente";
+});
+const leftStatusCard = computed(() => {
+  if (props.viewerRole === "seller") {
+    if (isOfferDelivered.value) {
+      return {
+        role: sellerDisplayName.value,
+        text: "Consegna confermata",
+        icon: "mdi-check-circle",
+        tone: "completed",
+        action: ChatSaleStatusAction.None,
+        disabled: true,
+      };
+    }
+
+    return {
+      role: sellerDisplayName.value,
+      text: "Conferma consegna",
+      icon: "mdi-timer-sand",
+      tone: "pending",
+      action: ChatSaleStatusAction.SellerConfirmDelivery,
+      disabled: !canMarkAsDelivered.value,
+    };
+  }
+
+  if (isOfferDelivered.value) {
+    return {
+      role: sellerDisplayName.value,
+      text: "Consegna confermata",
+      icon: "mdi-check-circle",
+      tone: "completed",
+      action: ChatSaleStatusAction.None,
+      disabled: true,
+    };
+  }
+
+  return {
+    role: sellerDisplayName.value,
+    text: "Consegna in attesa",
+    icon: "mdi-timer-sand",
+    tone: "pending",
+    action: ChatSaleStatusAction.None,
+    disabled: true,
+  };
+});
+const rightStatusCard = computed(() => {
+  if (props.viewerRole === "seller") {
+    if (isOfferDelivered.value) {
+      return {
+        role: offererDisplayName.value,
+        text: "In attesa di ricezione",
+        icon: "mdi-timer-sand",
+        tone: "pending",
+        action: ChatSaleStatusAction.None,
+        disabled: true,
+      };
+    }
+
+    return {
+      role: offererDisplayName.value,
+      text: "Rifiuta offerta",
+      icon: "mdi-close-circle-outline",
+      tone: "reject",
+      action: ChatSaleStatusAction.SellerRejectOffer,
+      disabled: !canRejectOffer.value,
+    };
+  }
+
+  if (isOfferReceived.value) {
+    return {
+      role: offererDisplayName.value,
+      text: "Ricezione confermata",
+      icon: "mdi-check-circle",
+      tone: "completed",
+      action: ChatSaleStatusAction.None,
+      disabled: true,
+    };
+  }
+
+  if (isOfferDelivered.value) {
+    return {
+      role: offererDisplayName.value,
+      text: "Conferma ricezione",
+      icon: "mdi-timer-sand",
+      tone: "pending",
+      action: ChatSaleStatusAction.OffererConfirmReception,
+      disabled: !canMarkAsReceived.value,
+    };
+  }
+
+  return {
+    role: offererDisplayName.value,
+    text: "Modifica offerta",
+    icon: "mdi-pencil",
+    tone: "pending",
+    action: ChatSaleStatusAction.OffererEditOffer,
+    disabled: !canEditOfferProposal.value,
+  };
 });
 
 const canRevokeRejectedOffer = computed(() => {
@@ -362,14 +459,6 @@ function applyUpdatedOfferListing(updatedOfferListing) {
   };
 }
 
-function closeOfferManagementDialog() {
-  offerManagementDialogRef.value?.closeDialog?.();
-}
-
-function closeOfferPurchaseManagementDialog() {
-  offerPurchaseManagementDialogRef.value?.closeDialog?.();
-}
-
 function closeOfferEditDialog() {
   offerEditDialogRef.value?.closeDialog?.();
 }
@@ -415,41 +504,23 @@ function hydrateOfferEditDraftFromContext() {
     : "";
 }
 
-async function handleUpdateOfferStatus(nextStatus) {
-  if (!canManageOfferStatus.value) return;
+async function handleRejectOffer() {
+  if (!canRejectOffer.value) return;
 
   const parsedOfferListingId = Number(chatContext.value?.offerListing?.id);
   if (!Number.isInteger(parsedOfferListingId) || parsedOfferListingId <= 0) return;
 
-  if (currentOfferStatus.value === nextStatus) {
-    closeOfferManagementDialog();
-    return;
-  }
-
   isUpdatingOfferStatus.value = true;
 
   try {
-    const updatedOfferListing = nextStatus === OfferStatus.Accepted
-      ? await acceptOfferListingProposal(parsedOfferListingId)
-      : await rejectOfferListingProposal(parsedOfferListingId);
-
+    const updatedOfferListing = await rejectOfferListingProposal(parsedOfferListingId);
     applyUpdatedOfferListing(updatedOfferListing);
-    closeOfferManagementDialog();
-
-    const successMessage = nextStatus === OfferStatus.Accepted
-      ? "Proposta accettata"
-      : "Proposta rifiutata";
-    snackbar.addMessage(successMessage, "success");
+    snackbar.addMessage("Proposta rifiutata", "success");
   } catch (error) {
-    snackbar.addMessage(error.message || "Errore durante l'aggiornamento della proposta", "error");
+    snackbar.addMessage(error.message || "Errore durante il rifiuto dell'offerta", "error");
   } finally {
     isUpdatingOfferStatus.value = false;
   }
-}
-
-async function handleRejectOffer() {
-  if (!canRejectOffer.value) return;
-  await handleUpdateOfferStatus(OfferStatus.Rejected);
 }
 
 async function handleOpenOfferDeliverDialog(closeDialog) {
@@ -490,35 +561,6 @@ async function handleConfirmOfferDelivery() {
   } finally {
     isUpdatingOfferStatus.value = false;
   }
-}
-
-async function handleRevokeOfferDelivery() {
-  if (!canRevokeDelivery.value) return;
-
-  const parsedOfferListingId = Number(chatContext.value?.offerListing?.id);
-  if (!Number.isInteger(parsedOfferListingId) || parsedOfferListingId <= 0) return;
-
-  isUpdatingOfferStatus.value = true;
-
-  try {
-    const updatedOfferListing = await revokeOfferListingDelivery(parsedOfferListingId);
-    applyUpdatedOfferListing(updatedOfferListing);
-    snackbar.addMessage("Consegna revocata", "success");
-  } catch (error) {
-    snackbar.addMessage(error.message || "Errore durante la revoca della consegna", "error");
-  } finally {
-    isUpdatingOfferStatus.value = false;
-  }
-}
-
-async function handleDeliverManagementAction(closeDialog) {
-  if (isOfferDelivered.value) {
-    closeDialog?.();
-    await handleRevokeOfferDelivery();
-    return;
-  }
-
-  await handleOpenOfferDeliverDialog(closeDialog);
 }
 
 async function handleOpenOfferEditDialog(closeDialog) {
@@ -562,7 +604,6 @@ async function handleConfirmOfferReception() {
     const updatedOfferListing = await markOfferListingAsReceived(parsedOfferListingId);
     applyUpdatedOfferListing(updatedOfferListing);
     closeOfferReceiveConfirmDialog();
-    closeOfferPurchaseManagementDialog();
     snackbar.addMessage("Ricezione confermata", "success");
   } catch (error) {
     snackbar.addMessage(error.message || "Errore durante la conferma della ricezione", "error");
@@ -571,33 +612,33 @@ async function handleConfirmOfferReception() {
   }
 }
 
-async function handleRevokeOfferReception() {
-  if (!canRevokeReception.value) return;
-
-  const parsedOfferListingId = Number(chatContext.value?.offerListing?.id);
-  if (!Number.isInteger(parsedOfferListingId) || parsedOfferListingId <= 0) return;
-
-  isUpdatingOfferProposal.value = true;
-
-  try {
-    const updatedOfferListing = await revokeOfferListingReception(parsedOfferListingId);
-    applyUpdatedOfferListing(updatedOfferListing);
-    snackbar.addMessage("Ricezione revocata", "success");
-  } catch (error) {
-    snackbar.addMessage(error.message || "Errore durante la revoca della ricezione", "error");
-  } finally {
-    isUpdatingOfferProposal.value = false;
-  }
+function resolveStatusCardToneClass(tone) {
+  if (tone === "completed") return "chat-sale-status-card--completed";
+  if (tone === "reject") return "chat-sale-status-card--reject";
+  return "chat-sale-status-card--pending";
 }
 
-async function handlePurchaseReceivedAction(closeDialog) {
-  if (isOfferReceived.value) {
-    closeDialog?.();
-    await handleRevokeOfferReception();
+async function handleStatusCardAction(action) {
+  if (action === ChatSaleStatusAction.None) return;
+
+  if (action === ChatSaleStatusAction.SellerConfirmDelivery) {
+    await handleOpenOfferDeliverDialog();
     return;
   }
 
-  await handleOpenOfferPurchaseReceivedDialog(closeDialog);
+  if (action === ChatSaleStatusAction.SellerRejectOffer) {
+    await handleRejectOffer();
+    return;
+  }
+
+  if (action === ChatSaleStatusAction.OffererEditOffer) {
+    await handleOpenOfferEditDialog();
+    return;
+  }
+
+  if (action === ChatSaleStatusAction.OffererConfirmReception) {
+    await handleOpenOfferPurchaseReceivedDialog();
+  }
 }
 
 async function handleSubmitOfferEdit() {
@@ -634,7 +675,6 @@ async function handleSubmitOfferEdit() {
 
     applyUpdatedOfferListing(updatedOfferListing);
     closeOfferEditDialog();
-    closeOfferPurchaseManagementDialog();
     snackbar.addMessage("Offerta modificata con successo", "success");
   } catch (error) {
     snackbar.addMessage(error.message || "Errore durante la modifica dell'offerta", "error");
@@ -796,8 +836,6 @@ async function bootstrapChat() {
   draftMessage.value = "";
   chatContext.value = null;
   hasTradeCompletionRedirected.value = false;
-  closeOfferManagementDialog();
-  closeOfferPurchaseManagementDialog();
   closeOfferEditDialog();
   closeOfferDeliverConfirmDialog();
   closeOfferReceiveConfirmDialog();
@@ -892,18 +930,26 @@ if (import.meta.client) {
             </button>
           </div>
           <div v-else class="chat-info-box">
-            <h3 class="text-sm text-blue-500 text-center font-bold">Regolamento</h3>
-            <ul class="chat-info-message list-disc list-inside">
-              <li class="text-xs">Non fornire informazioni personali o sensibili.</li>
-              <li class="text-xs">Prediligi scambio a mano. Diffida da spedizioni o pagamenti anticipati.</li>
-              <li class="text-xs">Deckspedia non si assume responsabilità riguardante l'autenticità dei prodotti.</li>
-            </ul>
+            <v-expansion-panels class="chat-rules-panel" variant="accordion">
+              <v-expansion-panel class="chat-rules-panel-item">
+                <v-expansion-panel-title class="chat-rules-panel-title">
+                  Regolamento chat
+                </v-expansion-panel-title>
+                <v-expansion-panel-text class="chat-rules-panel-text">
+                  <ul class="chat-info-message list-disc list-inside">
+                    <li class="text-xs">Non fornire informazioni personali o sensibili.</li>
+                    <li class="text-xs">Prediligi scambio a mano. Diffida da spedizioni o pagamenti anticipati.</li>
+                    <li class="text-xs">Deckspedia non si assume responsabilita riguardante l'autenticita dei prodotti.</li>
+                  </ul>
+                </v-expansion-panel-text>
+              </v-expansion-panel>
+            </v-expansion-panels>
           </div>
         </template>
       </template>
     </Toolbar>
 
-    <section class="chat-container flex flex-col justify-between gap-[0.6rem] rounded-[0.9rem] border border-[rgba(255,255,255,0.16)] bg-[linear-gradient(140deg,rgba(14,21,33,0.96),rgba(9,13,22,0.96))] px-[0.55rem] py-2 shadow-[inset_0_1px_0_rgba(255,255,255,0.08),0_12px_22px_rgba(0,0,0,0.34)]">
+    <section class="chat-container flex flex-col justify-end gap-[0.6rem] rounded-[0.9rem] border border-[rgba(255,255,255,0.16)] bg-[linear-gradient(140deg,rgba(14,21,33,0.96),rgba(9,13,22,0.96))] px-[0.55rem] py-2 shadow-[inset_0_1px_0_rgba(255,255,255,0.08),0_12px_22px_rgba(0,0,0,0.34)]">
       <template v-for="(message, index) in messages" :key="message.id">
         <div v-if="index === firstUnseenIncomingMessageIndex" class="new-messages-divider">
           <span class="new-messages-label">Nuovi messaggi</span>
@@ -933,330 +979,194 @@ if (import.meta.client) {
       <template #buttons>
         <div class="chat-toolbar-stack">
           <div v-if="showTradeStatusSection" class="chat-sale-status">
-            <div
-              class="chat-sale-status-card"
-              :class="isOfferDelivered ? 'chat-sale-status-card--completed' : 'chat-sale-status-card--pending'"
+            <button
+              type="button"
+              class="chat-sale-status-card chat-sale-status-action"
+              :class="[
+                resolveStatusCardToneClass(leftStatusCard.tone),
+                { 'chat-sale-status-action--interactive': !leftStatusCard.disabled && leftStatusCard.action !== ChatSaleStatusAction.None },
+              ]"
+              :disabled="leftStatusCard.disabled"
+              @click="handleStatusCardAction(leftStatusCard.action)"
             >
-              <span class="chat-sale-status-role">Venditore</span>
+              <span class="chat-sale-status-role">{{ leftStatusCard.role }}</span>
               <div class="chat-sale-status-line">
-                <v-icon size="15" class="chat-sale-status-icon">
-                  {{ isOfferDelivered ? "mdi-check-circle" : "mdi-timer-sand" }}
-                </v-icon>
-                <span>{{ isOfferDelivered ? "Consegna confermata" : "In attesa consegna" }}</span>
+                <v-icon size="15" class="chat-sale-status-icon">{{ leftStatusCard.icon }}</v-icon>
+                <span>{{ leftStatusCard.text }}</span>
               </div>
-            </div>
+            </button>
 
-            <div
-              class="chat-sale-status-card"
-              :class="isOfferReceived ? 'chat-sale-status-card--completed' : 'chat-sale-status-card--pending'"
+            <button
+              type="button"
+              class="chat-sale-status-card chat-sale-status-action"
+              :class="[
+                resolveStatusCardToneClass(rightStatusCard.tone),
+                { 'chat-sale-status-action--interactive': !rightStatusCard.disabled && rightStatusCard.action !== ChatSaleStatusAction.None },
+              ]"
+              :disabled="rightStatusCard.disabled"
+              @click="handleStatusCardAction(rightStatusCard.action)"
             >
-              <span class="chat-sale-status-role">Offerente</span>
+              <span class="chat-sale-status-role">{{ rightStatusCard.role }}</span>
               <div class="chat-sale-status-line">
-                <v-icon size="15" class="chat-sale-status-icon">
-                  {{ isOfferReceived ? "mdi-check-circle" : "mdi-timer-sand" }}
-                </v-icon>
-                <span>{{ isOfferReceived ? "Ricezione confermata" : "In attesa ricezione" }}</span>
+                <v-icon size="15" class="chat-sale-status-icon">{{ rightStatusCard.icon }}</v-icon>
+                <span>{{ rightStatusCard.text }}</span>
               </div>
+            </button>
+          </div>
+
+          <div class="chat-composer chat-composer-mobile">
+            <v-textarea
+              v-model="draftMessage"
+              variant="outlined"
+              density="comfortable"
+              rows="2"
+              auto-grow
+              hide-details
+              no-resize
+              maxlength="150"
+              counter
+              class="chat-textarea"
+              placeholder="Scrivi un messaggio..."
+              :disabled="!viewerCanAccessChat || isChatDisabledByStatus || isSendingMessage"
+              @keydown.ctrl.enter.prevent="handleSendMessage"
+            />
+
+            <div class="chat-send-wrap">
+              <v-btn
+                icon
+                color="orange"
+                size="medium"
+                class="chat-send-btn"
+                :disabled="!isSendEnabled"
+                :loading="isSendingMessage"
+                @click="handleSendMessage"
+              >
+                <v-icon icon="mdi-send" />
+              </v-btn>
+              <span class="chat-remaining-chars">{{ remainingCharacters }} / 150</span>
             </div>
           </div>
 
-          <div
-            class="chat-composer chat-composer-mobile"
-            :class="hasChatActionButton ? 'with-status-actions' : 'without-status-actions'"
-          >
-            <div v-if="canShowSellerActionButton" class="proposal-response-wrap">
-            <DialogsGeneric ref="offerManagementDialogRef" :disabled="isUpdatingOfferStatus || isOfferRejected">
-              <template #button>
-                <button
-                  type="button"
-                  class="proposal-response-toggle-btn"
-                  :disabled="isUpdatingOfferStatus || isOfferRejected"
-                  title="Rispondi alla proposta"
-                >
-                  <svg
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="proposal-response-icon"
-                    aria-hidden="true"
-                  >
-                    <path
-                      d="M5 5.5H19C20.1 5.5 21 6.4 21 7.5V15C21 16.1 20.1 17 19 17H11L7 20V17H5C3.9 17 3 16.1 3 15V7.5C3 6.4 3.9 5.5 5 5.5Z"
-                      stroke="currentColor"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                    <path
-                      d="M9 10H15"
-                      stroke="currentColor"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                    />
-                    <path
-                      d="M13.4 8.5L15 10L13.4 11.5"
-                      stroke="currentColor"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                    <path
-                      d="M10.6 13.5L9 12L10.6 10.5"
-                      stroke="currentColor"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                </button>
-              </template>
+          <DialogsGeneric ref="offerDeliverConfirmDialogRef" :disabled="isUpdatingOfferStatus">
+            <template #button>
+              <span class="offer-edit-hidden-trigger" aria-hidden="true" />
+            </template>
 
-              <template #title>Gestione vendita</template>
+            <template #title>Sicuro di voler concludere la vendita?</template>
 
-              <template #content>
-                <p class="offer-management-description">Imposta lo status della trattativa.</p>
-              </template>
+            <template #content>
+              <p class="offer-management-description">
+                Una volta che anche l'offerente indichera che ha ricevuto l'oggetto, la trattativa sara conclusa e la chat verra distrutta. Vuoi continuare?
+              </p>
+            </template>
 
-              <template #actions="{ closeDialog }">
-                <div class="offer-management-actions">
-                  <div class="offer-management-main-actions">
-                    <v-btn
-                      block
-                      variant="flat"
-                      class="offer-management-action-btn offer-management-action-btn--reject"
-                      :disabled="!canRejectOffer"
-                      :loading="isUpdatingOfferStatus"
-                      @click="handleRejectOffer"
-                    >
-                      Rifiuta
-                    </v-btn>
+            <template #actions="{ closeDialog }">
+              <v-spacer />
+              <v-btn
+                variant="flat"
+                class="offer-finalization-dialog-cancel-btn"
+                :disabled="isUpdatingOfferStatus"
+                @click="closeDialog"
+              >
+                Annulla
+              </v-btn>
+              <v-btn
+                variant="flat"
+                class="offer-management-action-btn offer-management-action-btn--deliver"
+                :disabled="!canMarkAsDelivered"
+                :loading="isUpdatingOfferStatus"
+                @click="handleConfirmOfferDelivery"
+              >
+                Procedi
+              </v-btn>
+            </template>
+          </DialogsGeneric>
 
-                    <v-btn
-                      block
-                      variant="flat"
-                      :class="[
-                        'offer-management-action-btn',
-                        isOfferDelivered
-                          ? 'offer-management-action-btn--revoke'
-                          : 'offer-management-action-btn--deliver',
-                      ]"
-                      :disabled="isOfferDelivered ? !canRevokeDelivery : !canMarkAsDelivered"
-                      :loading="isUpdatingOfferStatus"
-                      @click="handleDeliverManagementAction(closeDialog)"
-                    >
-                      {{ isOfferDelivered ? 'Revoca consegna' : 'Consegna' }}
-                    </v-btn>
-                  </div>
+          <DialogsGeneric ref="offerReceiveConfirmDialogRef" :disabled="isUpdatingOfferProposal">
+            <template #button>
+              <span class="offer-edit-hidden-trigger" aria-hidden="true" />
+            </template>
 
-                </div>
-              </template>
-            </DialogsGeneric>
+            <template #title>Sicuro di voler concludere l'acquisto?</template>
 
-            <DialogsGeneric ref="offerDeliverConfirmDialogRef" :disabled="isUpdatingOfferStatus">
-              <template #button>
-                <span class="offer-edit-hidden-trigger" aria-hidden="true" />
-              </template>
+            <template #content>
+              <p class="offer-management-description">
+                Una volta che anche il venditore indichera di aver ceduto l'oggetto, la trattativa sara conclusa e la chat verra distrutta. Vuoi continuare?
+              </p>
+            </template>
 
-              <template #title>Sicuro di voler concludere la vendita?</template>
+            <template #actions="{ closeDialog }">
+              <v-spacer />
+              <v-btn
+                variant="flat"
+                class="offer-finalization-dialog-cancel-btn"
+                :disabled="isUpdatingOfferProposal"
+                @click="closeDialog"
+              >
+                Annulla
+              </v-btn>
+              <v-btn
+                variant="flat"
+                class="offer-management-action-btn offer-management-action-btn--received"
+                :disabled="!canMarkAsReceived"
+                :loading="isUpdatingOfferProposal"
+                @click="handleConfirmOfferReception"
+              >
+                Procedi
+              </v-btn>
+            </template>
+          </DialogsGeneric>
 
-              <template #content>
-                <p class="offer-management-description">
-                  Una volta che anche l'offerente indicherà che ha ricevuto l'oggetto, la trattativa sarà conclusa e la chat verrà distrutta. Vuoi continuare?
-                </p>
-              </template>
+          <DialogsGeneric ref="offerEditDialogRef" :disabled="isUpdatingOfferProposal">
+            <template #button>
+              <span class="offer-edit-hidden-trigger" aria-hidden="true" />
+            </template>
 
-              <template #actions="{ closeDialog }">
-                <v-spacer />
-                <v-btn
-                  variant="flat"
-                  class="offer-finalization-dialog-cancel-btn"
-                  :disabled="isUpdatingOfferStatus"
-                  @click="closeDialog"
-                >
-                  Annulla
-                </v-btn>
-                <v-btn
-                  variant="flat"
-                  class="offer-management-action-btn offer-management-action-btn--deliver"
-                  :disabled="!canMarkAsDelivered"
-                  :loading="isUpdatingOfferStatus"
-                  @click="handleConfirmOfferDelivery"
-                >
-                  Procedi
-                </v-btn>
-              </template>
-            </DialogsGeneric>
-          </div>
-          <div v-else-if="canShowOffererActionButton" class="proposal-response-wrap">
-            <DialogsGeneric ref="offerPurchaseManagementDialogRef" :disabled="isUpdatingOfferProposal">
-              <template #button>
-                <button
-                  type="button"
-                  class="purchase-management-toggle-btn"
-                  :disabled="isUpdatingOfferProposal"
-                  title="Gestione acquisto"
-                >
-                  <v-icon size="18">mdi-cart-check</v-icon>
-                </button>
-              </template>
+            <template #title>Modifica offerta</template>
 
-              <template #title>Gestione acquisto</template>
-
-              <template #content>
-                <p class="offer-management-description">Gestisci la tua proposta di acquisto.</p>
-              </template>
-
-              <template #actions="{ closeDialog }">
-                <div class="offer-management-actions">
-                  <div class="offer-management-main-actions">
-                    <v-btn
-                      block
-                      variant="flat"
-                      class="offer-management-action-btn offer-management-action-btn--edit"
-                      :disabled="!canEditOfferProposal"
-                      @click="handleOpenOfferEditDialog(closeDialog)"
-                    >
-                      Modifica
-                    </v-btn>
-
-                    <v-btn
-                      block
-                      variant="flat"
-                      :class="[
-                        'offer-management-action-btn',
-                        isOfferReceived
-                          ? 'offer-management-action-btn--revoke'
-                          : 'offer-management-action-btn--received',
-                      ]"
-                      :disabled="isOfferReceived ? !canRevokeReception : !canMarkAsReceived"
-                      :loading="isUpdatingOfferProposal"
-                      @click="handlePurchaseReceivedAction(closeDialog)"
-                    >
-                      {{ isOfferReceived ? 'Revoca ricezione' : 'Oggetto ricevuto' }}
-                    </v-btn>
-                  </div>
-                </div>
-              </template>
-            </DialogsGeneric>
-
-            <DialogsGeneric ref="offerReceiveConfirmDialogRef" :disabled="isUpdatingOfferProposal">
-              <template #button>
-                <span class="offer-edit-hidden-trigger" aria-hidden="true" />
-              </template>
-
-              <template #title>Sicuro di voler concludere l'acquisto?</template>
-
-              <template #content>
-                <p class="offer-management-description">
-                  Una volta che anche il venditore indicherà di aver ceduto l'oggetto, la trattativa sarà conclusa e la chat verrà distrutta. Vuoi continuare?
-                </p>
-              </template>
-
-              <template #actions="{ closeDialog }">
-                <v-spacer />
-                <v-btn
-                  variant="flat"
-                  class="offer-finalization-dialog-cancel-btn"
-                  :disabled="isUpdatingOfferProposal"
-                  @click="closeDialog"
-                >
-                  Annulla
-                </v-btn>
-                <v-btn
-                  variant="flat"
-                  class="offer-management-action-btn offer-management-action-btn--received"
-                  :disabled="!canMarkAsReceived"
-                  :loading="isUpdatingOfferProposal"
-                  @click="handleConfirmOfferReception"
-                >
-                  Procedi
-                </v-btn>
-              </template>
-            </DialogsGeneric>
-
-            <DialogsGeneric ref="offerEditDialogRef" :disabled="isUpdatingOfferProposal">
-              <template #button>
-                <span class="offer-edit-hidden-trigger" aria-hidden="true" />
-              </template>
-
-              <template #title>Modifica offerta</template>
-
-              <template #content>
-                <div class="space-y-4">
-                  <div>
-                    <p class="offer-management-field-label mb-1">Quantita</p>
-                    <CardCounter
-                      v-model="offerEditQuantityModel"
-                      :min="1"
-                      :max="maxOfferQuantity"
-                      :outer-padding="false"
-                    />
-                  </div>
-
-                  <InputTextField
-                    v-model="offerEditValue"
-                    label="Offerta"
-                    type="number"
-                    min="0.01"
-                    step="0.01"
+            <template #content>
+              <div class="space-y-4">
+                <div>
+                  <p class="offer-management-field-label mb-1">Quantita</p>
+                  <CardCounter
+                    v-model="offerEditQuantityModel"
+                    :min="1"
+                    :max="maxOfferQuantity"
+                    :outer-padding="false"
                   />
                 </div>
-              </template>
 
-              <template #actions="{ closeDialog }">
-                <v-spacer />
-                <v-btn
-                  variant="text"
-                  class="offer-edit-dialog-cancel-btn"
-                  :disabled="isUpdatingOfferProposal"
-                  @click="closeDialog"
-                >
-                  Annulla
-                </v-btn>
-                <v-btn
-                  variant="flat"
-                  class="offer-management-action-btn offer-management-action-btn--edit"
-                  :disabled="!canSubmitOfferEdit"
-                  :loading="isUpdatingOfferProposal"
-                  @click="handleSubmitOfferEdit"
-                >
-                  Procedi
-                </v-btn>
-              </template>
-            </DialogsGeneric>
-          </div>
+                <InputTextField
+                  v-model="offerEditValue"
+                  label="Offerta"
+                  type="number"
+                  min="0.01"
+                  step="0.01"
+                />
+              </div>
+            </template>
 
-          <v-textarea
-            v-model="draftMessage"
-            variant="outlined"
-            density="comfortable"
-            rows="2"
-            auto-grow
-            hide-details
-            no-resize
-            maxlength="150"
-            counter
-            class="chat-textarea"
-            placeholder="Scrivi un messaggio..."
-            :disabled="!viewerCanAccessChat || isChatDisabledByStatus || isSendingMessage"
-            @keydown.ctrl.enter.prevent="handleSendMessage"
-          />
-
-          <div class="chat-send-wrap">
-            <v-btn
-              icon
-              color="orange"
-              size="medium"
-              class="chat-send-btn"
-              :disabled="!isSendEnabled"
-              :loading="isSendingMessage"
-              @click="handleSendMessage"
-            >
-              <v-icon icon="mdi-send" />
-            </v-btn>
-            <span class="chat-remaining-chars">{{ remainingCharacters }} / 150</span>
-          </div>
-        </div>
+            <template #actions="{ closeDialog }">
+              <v-spacer />
+              <v-btn
+                variant="text"
+                class="offer-edit-dialog-cancel-btn"
+                :disabled="isUpdatingOfferProposal"
+                @click="closeDialog"
+              >
+                Annulla
+              </v-btn>
+              <v-btn
+                variant="flat"
+                class="offer-management-action-btn offer-management-action-btn--edit"
+                :disabled="!canSubmitOfferEdit"
+                :loading="isUpdatingOfferProposal"
+                @click="handleSubmitOfferEdit"
+              >
+                Procedi
+              </v-btn>
+            </template>
+          </DialogsGeneric>
         </div>
       </template>
     </MobileFloatMenu>
@@ -1273,7 +1183,7 @@ if (import.meta.client) {
 <style scoped>
 
 .chat-container{
-  height: calc(100% - 320px);
+  height: 100vh;
   border-radius: 1rem;
   overflow: auto;
   padding: 1rem;
@@ -1406,8 +1316,38 @@ if (import.meta.client) {
   margin-top: 0.45rem;
   border: 1px solid rgba(33, 95, 165, 0.34);
   border-radius: 0.75rem;
-  padding: 0.55rem 0.65rem;
+  padding: 0;
+  overflow: hidden;
   background: linear-gradient(145deg, rgba(33, 95, 165, 0.25), rgba(30, 41, 59, 0.35));
+}
+
+.chat-rules-panel {
+  background: transparent;
+}
+
+:deep(.chat-rules-panel .v-expansion-panel) {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+:deep(.chat-rules-panel .v-expansion-panel-title) {
+  min-height: 0;
+  padding: 0.55rem 0.65rem;
+  color: rgba(147, 197, 253, 0.95);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+:deep(.chat-rules-panel .v-expansion-panel-title__icon) {
+  color: rgba(191, 219, 254, 0.95);
+}
+
+:deep(.chat-rules-panel .v-expansion-panel-text__wrapper) {
+  padding: 0 0.65rem 0.6rem 0.65rem;
+}
+
+:deep(.chat-rules-panel .v-expansion-panel-text) {
+  color: inherit;
 }
 
 
@@ -1585,13 +1525,51 @@ if (import.meta.client) {
   color: rgba(220, 252, 231, 0.98);
 }
 
+.chat-sale-status-card--reject {
+  border-color: rgba(248, 113, 113, 0.46);
+  background: linear-gradient(145deg, rgba(220, 38, 38, 0.34), rgba(127, 29, 29, 0.26));
+  color: rgba(254, 226, 226, 0.98);
+}
+
+.chat-sale-status-action {
+  width: 100%;
+  appearance: none;
+  text-align: left;
+  cursor: default;
+}
+
+.chat-sale-status-action:disabled {
+  opacity: 1;
+  filter: none;
+  cursor: default;
+}
+
+.chat-sale-status-action--interactive {
+  cursor: pointer;
+  transition: transform 160ms ease, filter 160ms ease;
+}
+
+.chat-sale-status-action--interactive:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.05);
+}
+
+.chat-sale-status-action--interactive .chat-sale-status-line span {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+}
+
 .chat-sale-status-role {
   display: block;
   font-size: 0.68rem;
   font-weight: 700;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
+  text-transform: none;
   opacity: 0.95;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .chat-sale-status-line {
@@ -1613,14 +1591,6 @@ if (import.meta.client) {
   grid-template-columns: 1fr auto;
   gap: 0.55rem;
   align-items: center;
-}
-
-.chat-composer-mobile.with-status-actions {
-  grid-template-columns: auto 1fr auto;
-}
-
-.chat-composer-mobile.without-status-actions {
-  grid-template-columns: 1fr auto;
 }
 
 .chat-send-wrap {

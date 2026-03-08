@@ -1,5 +1,5 @@
 <script setup>
-import { fetchLoggedUserPurchaseHistoryOfferListings } from "@/api/sellListings";
+import { fetchLoggedUserPendingPurchaseOfferListings } from "@/api/sellListings";
 
 const BUY_CARDS_BASE_PATH = "/community/buy-cards";
 const BUY_PENDING_PURCHASES_PATH = `${BUY_CARDS_BASE_PATH}/current_purchases`;
@@ -15,34 +15,8 @@ const snackbar = useSnackbar();
 
 const offerListings = ref([]);
 const isLoading = ref(true);
-const priceSortDirection = ref("desc");
 
-const isPriceSortAscending = computed(() => priceSortDirection.value === "asc");
-const priceSortButtonLabel = computed(() => (isPriceSortAscending.value ? "Prezzo ASC" : "Prezzo DESC"));
-const priceSortButtonIcon = computed(() => (
-  isPriceSortAscending.value
-    ? "mdi:sort-numeric-ascending"
-    : "mdi:sort-numeric-descending"
-));
-const sortedOfferListings = computed(() => {
-  const sortedListings = [...offerListings.value];
-
-  sortedListings.sort((offerListingA, offerListingB) => {
-    const parsedOfferA = Number(offerListingA?.offer);
-    const parsedOfferB = Number(offerListingB?.offer);
-    const offerA = Number.isFinite(parsedOfferA)
-      ? parsedOfferA
-      : (isPriceSortAscending.value ? Number.POSITIVE_INFINITY : Number.NEGATIVE_INFINITY);
-    const offerB = Number.isFinite(parsedOfferB)
-      ? parsedOfferB
-      : (isPriceSortAscending.value ? Number.POSITIVE_INFINITY : Number.NEGATIVE_INFINITY);
-
-    return isPriceSortAscending.value ? offerA - offerB : offerB - offerA;
-  });
-
-  return sortedListings;
-});
-const hasOfferListings = computed(() => sortedOfferListings.value.length > 0);
+const hasOfferListings = computed(() => offerListings.value.length > 0);
 const viewerCards = computed(() => {
   const uniqueCards = [];
   const seenCardIds = new Set();
@@ -61,47 +35,44 @@ const viewerCards = computed(() => {
 });
 const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer(viewerCards);
 
-async function loadPurchaseHistory() {
+async function loadPendingPurchaseOfferListings() {
   isLoading.value = true;
 
   try {
-    offerListings.value = await fetchLoggedUserPurchaseHistoryOfferListings();
+    offerListings.value = await fetchLoggedUserPendingPurchaseOfferListings();
   } catch (error) {
     offerListings.value = [];
-    snackbar.addMessage(error.message || "Errore durante il recupero dello storico acquisti", "error");
+    snackbar.addMessage(error.message || "Errore durante il recupero degli acquisti in corso", "error");
   } finally {
     isLoading.value = false;
   }
 }
 
-onMounted(loadPurchaseHistory);
+onMounted(loadPendingPurchaseOfferListings);
 
 function handleOpenCard(card) {
   openViewer(card);
-}
-
-function togglePriceSortDirection() {
-  priceSortDirection.value = isPriceSortAscending.value ? "desc" : "asc";
 }
 </script>
 
 <template>
   <section class="relative h-full">
-    <Toolbar label="Storico" fixed back-button />
+    <Toolbar label="Compra Carte" fixed />
 
     <div class="min-h-0 flex-1 overflow-y-auto px-3 pb-24 pt-1">
       <div class="space-y-4 pb-2">
         <TabsRouteTabs :tabs="sectionTabs" />
 
-        <p v-if="isLoading" class="purchase-state-message">Caricamento storico acquisti in corso...</p>
-        <p v-else-if="!hasOfferListings" class="purchase-state-message">Nessun acquisto disponibile</p>
+        <p v-if="isLoading" class="purchase-state-message">Caricamento acquisti in corso...</p>
+        <p v-else-if="!hasOfferListings" class="purchase-state-message">Nessuna offerta in corso</p>
 
         <div v-else class="space-y-2">
           <CommunityOfferListingRow
-            v-for="offerListing in sortedOfferListings"
+            v-for="offerListing in offerListings"
             :key="offerListing.id"
             :offer-listing="offerListing"
-            offer-amount-label="Offerto"
+            identity-role="seller"
+            offer-amount-label="Offro"
             chat-path-base="/community/offers"
           >
             <template v-if="offerListing.sellListingCard" #left>
@@ -115,19 +86,6 @@ function togglePriceSortDirection() {
         </div>
       </div>
     </div>
-
-    <MobileFloatMenu :cols="1">
-      <template #buttons>
-        <ButtonMenu
-          :icon="priceSortButtonIcon"
-          :label="priceSortButtonLabel"
-          transition
-          :delay="100"
-          icon-color="orange"
-          @click="togglePriceSortDirection"
-        />
-      </template>
-    </MobileFloatMenu>
 
     <FullscreenCardViewer
       v-model:show="viewerOpen"

@@ -6,11 +6,18 @@ const route = useRoute();
 const router = useRouter();
 
 const FILTER_QUERY_KEY = "open-filter";
+const PRICE_SORT_QUERY_KEY = "sort-price";
+const SELL_CARDS_BASE_PATH = "/community/sell-cards";
+const SELL_HISTORY_PATH = `${SELL_CARDS_BASE_PATH}/sell_history`;
 
 const sellListings = ref([]);
 const isLoading = ref(true);
 const openFilter = ref(false);
 const filteredCards = ref([]);
+const sectionTabs = Object.freeze([
+  { label: "Lista", path: SELL_CARDS_BASE_PATH },
+  { label: "Storico", path: SELL_HISTORY_PATH },
+]);
 
 const cardsAvailableForFilter = computed(() => {
   const cardsMap = new Map();
@@ -43,8 +50,33 @@ const visibleSellListings = computed(() => {
     return cardId && filteredCardIds.value.has(cardId);
   });
 });
+const activePriceSortDirection = computed(() => {
+  const queryValue = route.query[PRICE_SORT_QUERY_KEY];
+  const normalizedValue = Array.isArray(queryValue)
+    ? String(queryValue[0] ?? "")
+    : String(queryValue ?? "");
+  return normalizedValue === "asc" ? "asc" : "desc";
+});
+const sortedVisibleSellListings = computed(() => {
+  const sortedListings = [...visibleSellListings.value];
 
-const hasListings = computed(() => visibleSellListings.value.length > 0);
+  sortedListings.sort((listingA, listingB) => {
+    const parsedPriceA = Number(listingA?.price);
+    const parsedPriceB = Number(listingB?.price);
+    const priceA = Number.isFinite(parsedPriceA)
+      ? parsedPriceA
+      : (activePriceSortDirection.value === "asc" ? Number.POSITIVE_INFINITY : Number.NEGATIVE_INFINITY);
+    const priceB = Number.isFinite(parsedPriceB)
+      ? parsedPriceB
+      : (activePriceSortDirection.value === "asc" ? Number.POSITIVE_INFINITY : Number.NEGATIVE_INFINITY);
+
+    return activePriceSortDirection.value === "asc" ? priceA - priceB : priceB - priceA;
+  });
+
+  return sortedListings;
+});
+
+const hasListings = computed(() => sortedVisibleSellListings.value.length > 0);
 const hasAnyListings = computed(() => sellListings.value.length > 0);
 
 async function loadSellListings() {
@@ -103,18 +135,22 @@ onMounted(loadSellListings);
     <Toolbar label="Vendite in Corso" fixed />
 
     <div class="min-h-0 flex-1 px-3 pb-24 pt-1">
-      <p v-if="isLoading" class="sell-state-message">Caricamento vendite in corso...</p>
-      <p v-else-if="!hasAnyListings" class="sell-state-message">Nessuna carta attualmente in vendita</p>
-      <p v-else-if="!hasListings" class="sell-state-message">Nessuna carta trovata con i filtri selezionati</p>
+      <div class="space-y-4 pb-2">
+        <TabsRouteTabs :tabs="sectionTabs" />
 
-      <div v-else class="space-y-3 pb-2">
-        <CommunitySellListingCard
-          v-for="listing in visibleSellListings"
-          :key="listing.id"
-          :listing="listing"
-          show-proposals-in-header-slot
-          :show-seller-identity="false"
-        />
+        <p v-if="isLoading" class="sell-state-message">Caricamento vendite in corso...</p>
+        <p v-else-if="!hasAnyListings" class="sell-state-message">Nessuna carta attualmente in vendita</p>
+        <p v-else-if="!hasListings" class="sell-state-message">Nessuna carta trovata con i filtri selezionati</p>
+
+        <div v-else class="space-y-3">
+          <CommunitySellListingCard
+            v-for="listing in sortedVisibleSellListings"
+            :key="listing.id"
+            :listing="listing"
+            show-proposals-in-header-slot
+            :show-seller-identity="false"
+          />
+        </div>
       </div>
     </div>
 

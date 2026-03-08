@@ -40,6 +40,10 @@ const props = defineProps({
     type: Boolean,
     default: false,
   },
+  offerAmountLabel: {
+    type: String,
+    default: "Offro",
+  },
 });
 const emit = defineEmits(["listing-updated"]);
 
@@ -138,6 +142,7 @@ watch(listingId, loadListing, { immediate: true });
             v-for="offerListing in proposals"
             :key="offerListing.id"
             :offer-listing="offerListing"
+            :offer-amount-label="offerAmountLabel"
             :chat-path-base="chatPathBase"
           />
         </div>

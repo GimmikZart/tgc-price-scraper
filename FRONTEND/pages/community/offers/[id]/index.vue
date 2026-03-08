@@ -208,6 +208,7 @@ watch(
       :fetch-listing-by-id="fetchActiveSellListingById"
       :proposals="visibleOfferListings"
       :is-loading-proposals="isLoadingOfferListings"
+      offer-amount-label="Offro"
       show-seller-identity-header
       @listing-updated="handleListingUpdated"
     />
@@ -215,7 +216,11 @@ watch(
     <MobileFloatMenu :cols="1">
       <template #buttons>
         <div v-if="pendingOwnOfferListing" class="own-offer-entry">
-          <CommunityOfferListingRow :offer-listing="pendingOwnOfferListing" class="w-full">
+          <CommunityOfferListingRow
+            :offer-listing="pendingOwnOfferListing"
+            offer-amount-label="Offro"
+            class="w-full"
+          >
             <template #right>
               <div class="flex items-center gap-2">
                 <button

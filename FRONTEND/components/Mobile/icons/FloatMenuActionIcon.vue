@@ -33,6 +33,7 @@ const iconAliases = {
   "mdi:settings-off": "done",
   "solar:tag-price-outline": "price",
   "material-symbols:search-rounded": "filter",
+  "material-symbols:person-search-rounded": "user-search",
   "material-symbols-light:book-ribbon": "album",
   "fluent:book-add-28-filled": "add",
   "material-symbols:cards": "deck-overview",
@@ -104,7 +105,8 @@ const labelAliases = {
 
 const resolvedIconName = computed(() => {
   const iconKey = normalize(props.icon);
-  if (iconAliases[iconKey]) return iconAliases[iconKey];
+  const iconAlias = iconAliases[iconKey] || iconAliases[iconKey.replace(/:/g, "-")];
+  if (iconAlias) return iconAlias;
 
   const labelKey = normalize(props.label);
   return labelAliases[labelKey] ?? null;
@@ -190,6 +192,19 @@ const strokeWidth = computed(() => (props.active ? 1.5 : 1));
     aria-hidden="true"
   >
     <path d="M4.5 6.2H19.5L14 12.5V18.2L10 20V12.5L4.5 6.2Z" stroke="currentColor" :stroke-width="strokeWidth" stroke-linejoin="round" :fill="active ? 'currentColor' : 'none'" :fill-opacity="active ? 0.12 : 0" />
+  </svg>
+
+  <svg
+    v-else-if="resolvedIconName === 'user-search'"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    aria-hidden="true"
+  >
+    <circle cx="9" cy="8.2" r="2.5" stroke="currentColor" :stroke-width="strokeWidth" :fill="active ? 'currentColor' : 'none'" :fill-opacity="active ? 0.12 : 0" />
+    <path d="M4.9 16.9C5.6 14.9 7.2 13.7 9 13.7C10.8 13.7 12.4 14.9 13.1 16.9" stroke="currentColor" :stroke-width="strokeWidth" stroke-linecap="round" />
+    <circle cx="16.4" cy="15.2" r="3.1" stroke="currentColor" :stroke-width="strokeWidth" />
+    <path d="M18.5 17.3L20.3 19.1" stroke="currentColor" :stroke-width="strokeWidth" stroke-linecap="round" />
   </svg>
 
   <svg

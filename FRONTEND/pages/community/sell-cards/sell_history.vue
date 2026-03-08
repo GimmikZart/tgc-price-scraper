@@ -1,12 +1,47 @@
 <script setup>
 import { fetchAcceptedOfferListingsForLoggedUser } from "@/api/sellListings";
 
+const SELL_CARDS_BASE_PATH = "/community/sell-cards";
+const SELL_HISTORY_PATH = `${SELL_CARDS_BASE_PATH}/sell_history`;
+const PRICE_SORT_QUERY_KEY = "sort-price";
+
+const sectionTabs = Object.freeze([
+  { label: "Lista", path: SELL_CARDS_BASE_PATH },
+  { label: "Storico", path: SELL_HISTORY_PATH },
+]);
+
+const route = useRoute();
 const snackbar = useSnackbar();
 
 const acceptedOfferListings = ref([]);
 const isLoading = ref(true);
 
 const hasOfferHistory = computed(() => acceptedOfferListings.value.length > 0);
+const activePriceSortDirection = computed(() => {
+  const queryValue = route.query[PRICE_SORT_QUERY_KEY];
+  const normalizedValue = Array.isArray(queryValue)
+    ? String(queryValue[0] ?? "")
+    : String(queryValue ?? "");
+  return normalizedValue === "asc" ? "asc" : "desc";
+});
+const sortedAcceptedOfferListings = computed(() => {
+  const sortedListings = [...acceptedOfferListings.value];
+
+  sortedListings.sort((offerListingA, offerListingB) => {
+    const parsedOfferA = Number(offerListingA?.offer);
+    const parsedOfferB = Number(offerListingB?.offer);
+    const offerA = Number.isFinite(parsedOfferA)
+      ? parsedOfferA
+      : (activePriceSortDirection.value === "asc" ? Number.POSITIVE_INFINITY : Number.NEGATIVE_INFINITY);
+    const offerB = Number.isFinite(parsedOfferB)
+      ? parsedOfferB
+      : (activePriceSortDirection.value === "asc" ? Number.POSITIVE_INFINITY : Number.NEGATIVE_INFINITY);
+
+    return activePriceSortDirection.value === "asc" ? offerA - offerB : offerB - offerA;
+  });
+
+  return sortedListings;
+});
 const viewerCards = computed(() => {
   const uniqueCards = [];
   const seenCardIds = new Set();
@@ -53,24 +88,29 @@ function handleOpenCard(card) {
   <section class="relative h-full">
     <Toolbar label="Storico" fixed back-button />
 
-    <div class="min-h-0 flex-1 overflow-y-auto px-3 pb-4 pt-1">
-      <p v-if="isLoading" class="sell-state-message">Caricamento storico vendite...</p>
-      <p v-else-if="!hasOfferHistory" class="sell-state-message">Nessuna offerta accettata al momento</p>
+    <div class="min-h-0 flex-1 overflow-y-auto px-3 pb-24 pt-1">
+      <div class="space-y-4 pb-2">
+        <TabsRouteTabs :tabs="sectionTabs" />
 
-      <div v-else class="space-y-2 pb-2">
-        <CommunityOfferListingRow
-          v-for="offerListing in acceptedOfferListings"
-          :key="offerListing.id"
-          :offer-listing="offerListing"
-        >
-          <template v-if="offerListing.sellListingCard" #left>
-            <Card
-              :card="offerListing.sellListingCard"
-              class="offer-history-side-card"
-              @open="handleOpenCard"
-            />
-          </template>
-        </CommunityOfferListingRow>
+        <p v-if="isLoading" class="sell-state-message">Caricamento storico vendite...</p>
+        <p v-else-if="!hasOfferHistory" class="sell-state-message">Nessuna offerta accettata al momento</p>
+
+        <div v-else class="space-y-2">
+          <CommunityOfferListingRow
+            v-for="offerListing in sortedAcceptedOfferListings"
+            :key="offerListing.id"
+            :offer-listing="offerListing"
+            offer-amount-label="Ottenuto"
+          >
+            <template v-if="offerListing.sellListingCard" #left>
+              <Card
+                :card="offerListing.sellListingCard"
+                class="offer-history-side-card"
+                @open="handleOpenCard"
+              />
+            </template>
+          </CommunityOfferListingRow>
+        </div>
       </div>
     </div>
 

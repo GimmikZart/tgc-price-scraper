@@ -7,9 +7,18 @@ const props = defineProps({
     type: Object,
     required: true,
   },
+  identityRole: {
+    type: String,
+    default: "offerer",
+    validator: (value) => ["offerer", "seller"].includes(value),
+  },
   chatPathBase: {
     type: String,
     default: null,
+  },
+  offerAmountLabel: {
+    type: String,
+    default: "Offro",
   },
 });
 
@@ -21,20 +30,75 @@ const statusColor = computed(() => statusMeta.value?.color ?? "#607d8b");
 const statusIcon = computed(() => statusMeta.value?.icon ?? "mdi-help");
 const isAcceptedOffer = computed(() => props.offerListing?.status === OfferStatus.Accepted);
 
-const username = computed(() => {
-  const value = props.offerListing?.offererUsername ?? props.offerListing?.offererProfile?.username;
-  if (typeof value === "string" && value.trim()) return value.trim();
-  return "Utente";
+function normalizeText(value) {
+  if (typeof value !== "string") return null;
+  const normalizedValue = value.trim();
+  return normalizedValue || null;
+}
+
+function normalizeTag(value) {
+  const normalizedValue = normalizeText(value);
+  if (!normalizedValue) return null;
+  return normalizedValue.startsWith("@") ? normalizedValue : `@${normalizedValue}`;
+}
+
+const sellerIdentity = computed(() => ({
+  username:
+    normalizeText(props.offerListing?.sellerDisplayName) ??
+    normalizeText(props.offerListing?.sellerUsername) ??
+    normalizeText(props.offerListing?.sellerProfile?.display_name) ??
+    normalizeText(props.offerListing?.sellerProfile?.username),
+  userTag:
+    normalizeTag(props.offerListing?.sellerUserTag) ??
+    normalizeTag(props.offerListing?.sellerProfile?.user_tag),
+  avatarUrl:
+    normalizeText(props.offerListing?.sellerAvatarUrl) ??
+    normalizeText(props.offerListing?.sellerProfile?.avatar_url),
+}));
+
+const offererIdentity = computed(() => ({
+  username:
+    normalizeText(props.offerListing?.offererDisplayName) ??
+    normalizeText(props.offerListing?.offererUsername) ??
+    normalizeText(props.offerListing?.offererProfile?.display_name) ??
+    normalizeText(props.offerListing?.offererProfile?.username),
+  userTag:
+    normalizeTag(props.offerListing?.offererUserTag) ??
+    normalizeTag(props.offerListing?.offererProfile?.user_tag),
+  avatarUrl:
+    normalizeText(props.offerListing?.offererAvatarUrl) ??
+    normalizeText(props.offerListing?.offererProfile?.avatar_url),
+}));
+
+const identity = computed(() => {
+  const primaryIdentity = props.identityRole === "seller"
+    ? sellerIdentity.value
+    : offererIdentity.value;
+  const fallbackIdentity = props.identityRole === "seller"
+    ? offererIdentity.value
+    : sellerIdentity.value;
+
+  return {
+    username: primaryIdentity.username ?? fallbackIdentity.username ?? "Utente",
+    userTag: primaryIdentity.userTag ?? fallbackIdentity.userTag ?? "@user-tag",
+    avatarUrl: primaryIdentity.avatarUrl ?? fallbackIdentity.avatarUrl ?? null,
+  };
 });
 
-const userTag = computed(() => {
-  const value = props.offerListing?.offererUserTag ?? props.offerListing?.offererProfile?.user_tag;
-  if (typeof value === "string" && value.trim()) {
-    const normalizedTag = value.trim();
-    return normalizedTag.startsWith("@") ? normalizedTag : `@${normalizedTag}`;
-  }
-  return "@user-tag";
+const username = computed(() => identity.value.username);
+const userTag = computed(() => identity.value.userTag);
+const avatarUrl = computed(() => identity.value.avatarUrl);
+
+const hasAvatarError = ref(false);
+const shouldShowAvatarImage = computed(() => Boolean(avatarUrl.value) && !hasAvatarError.value);
+
+watch(avatarUrl, () => {
+  hasAvatarError.value = false;
 });
+
+function handleAvatarError() {
+  hasAvatarError.value = true;
+}
 
 const quantityValue = computed(() => {
   const parsedValue = Number(props.offerListing?.quantity);
@@ -46,6 +110,11 @@ const offerValue = computed(() => {
   const parsedValue = Number(props.offerListing?.offer);
   if (!Number.isFinite(parsedValue) || parsedValue < 0) return "0.00";
   return parsedValue.toFixed(2);
+});
+const resolvedOfferAmountLabel = computed(() => {
+  if (typeof props.offerAmountLabel !== "string") return "Offro";
+  const normalizedLabel = props.offerAmountLabel.trim();
+  return normalizedLabel || "Offro";
 });
 
 const usernameInitial = computed(() => {
@@ -100,9 +169,16 @@ function handleOpenChat() {
         <div class="flex justify-between w-full items-center gap-[0.6rem]">
           <div class="flex gap-2 items-center">
             <div
-              class="grid h-[2.15rem] w-[2.15rem] place-content-center rounded-full border-2 border-[rgba(248,250,252,0.78)] text-[0.82rem] font-extrabold text-[rgba(241,245,249,0.95)]"
+              class="offer-listing-avatar"
             >
-              {{ usernameInitial }}
+              <img
+                v-if="shouldShowAvatarImage"
+                :src="avatarUrl"
+                :alt="`Avatar di ${username}`"
+                class="offer-listing-avatar-image"
+                @error="handleAvatarError"
+              />
+              <span v-else class="offer-listing-avatar-fallback">{{ usernameInitial }}</span>
             </div>
 
             <div class="min-w-0">
@@ -133,7 +209,7 @@ function handleOpenChat() {
         </div>
 
         <p class="flex items-center gap-2 leading-[1.1] text-[rgba(248,250,252,0.95)]">
-          Offro
+          {{ resolvedOfferAmountLabel }}
           <v-chip class="text-orange" density="compact" variant="tonal">
             {{ offerValue }} &euro;
           </v-chip>
@@ -148,6 +224,30 @@ function handleOpenChat() {
 </template>
 
 <style scoped>
+.offer-listing-avatar {
+  width: 2.15rem;
+  height: 2.15rem;
+  border-radius: 9999px;
+  overflow: hidden;
+  border: 2px solid rgba(248, 250, 252, 0.78);
+  background: rgba(15, 23, 42, 0.8);
+  display: grid;
+  place-content: center;
+  flex: 0 0 auto;
+}
+
+.offer-listing-avatar-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.offer-listing-avatar-fallback {
+  font-size: 0.82rem;
+  font-weight: 800;
+  color: rgba(241, 245, 249, 0.95);
+}
+
 .offer-listing-row-shell {
   display: flex;
   width: 100%;

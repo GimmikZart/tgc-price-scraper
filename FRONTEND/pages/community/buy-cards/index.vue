@@ -2,12 +2,21 @@
 import { fetchActiveSellListings } from "@/api/sellListings";
 
 const snackbar = useSnackbar();
-const router = useRouter();
+
+const BUY_CARDS_BASE_PATH = "/community/buy-cards";
+const BUY_PENDING_PURCHASES_PATH = `${BUY_CARDS_BASE_PATH}/current_purchases`;
+const BUY_PURCHASE_HISTORY_PATH = `${BUY_CARDS_BASE_PATH}/purchase_history`;
 
 const sellListings = ref([]);
 const isLoading = ref(true);
 const openFilter = ref(false);
 const filteredCardIds = ref(null);
+const priceSortDirection = ref("desc");
+const sectionTabs = Object.freeze([
+  { label: "Lista", path: BUY_CARDS_BASE_PATH },
+  { label: "In corso", path: BUY_PENDING_PURCHASES_PATH },
+  { label: "Storico", path: BUY_PURCHASE_HISTORY_PATH },
+]);
 
 const listingCards = computed(() => {
   const cardsById = new Map();
@@ -31,9 +40,34 @@ const visibleSellListings = computed(() => {
     return cardId != null && filteredCardIds.value.has(cardId);
   });
 });
+const isPriceSortAscending = computed(() => priceSortDirection.value === "asc");
+const priceSortButtonLabel = computed(() => (isPriceSortAscending.value ? "Prezzo ASC" : "Prezzo DESC"));
+const priceSortButtonIcon = computed(() => (
+  isPriceSortAscending.value
+    ? "mdi:sort-numeric-ascending"
+    : "mdi:sort-numeric-descending"
+));
+const sortedVisibleSellListings = computed(() => {
+  const sortedListings = [...visibleSellListings.value];
+
+  sortedListings.sort((listingA, listingB) => {
+    const parsedPriceA = Number(listingA?.price);
+    const parsedPriceB = Number(listingB?.price);
+    const priceA = Number.isFinite(parsedPriceA)
+      ? parsedPriceA
+      : (isPriceSortAscending.value ? Number.POSITIVE_INFINITY : Number.NEGATIVE_INFINITY);
+    const priceB = Number.isFinite(parsedPriceB)
+      ? parsedPriceB
+      : (isPriceSortAscending.value ? Number.POSITIVE_INFINITY : Number.NEGATIVE_INFINITY);
+
+    return isPriceSortAscending.value ? priceA - priceB : priceB - priceA;
+  });
+
+  return sortedListings;
+});
 
 const hasListings = computed(() => sellListings.value.length > 0);
-const hasVisibleListings = computed(() => visibleSellListings.value.length > 0);
+const hasVisibleListings = computed(() => sortedVisibleSellListings.value.length > 0);
 
 const isFilterActive = computed(() => {
   if (!(filteredCardIds.value instanceof Set)) return false;
@@ -66,8 +100,8 @@ function handleFilteredCardsUpdate(filteredCards = []) {
   filteredCardIds.value = nextFilteredCardIds;
 }
 
-function navigateToPurchaseHistory() {
-  router.push("/community/buy-cards/purchase_history");
+function togglePriceSortDirection() {
+  priceSortDirection.value = isPriceSortAscending.value ? "desc" : "asc";
 }
 
 async function loadSellListings() {
@@ -92,18 +126,22 @@ onMounted(loadSellListings);
     <Toolbar label="Compra Carte" fixed />
 
     <div class="min-h-0 flex-1 overflow-y-auto px-3 pb-24 pt-1">
-      <p v-if="isLoading" class="sell-state-message">Caricamento vendite in corso...</p>
-      <p v-else-if="!hasListings" class="sell-state-message">Nessuna carta attualmente in vendita</p>
-      <p v-else-if="!hasVisibleListings" class="sell-state-message">La ricerca non ha prodotto risultati</p>
+      <div class="space-y-4 pb-2">
+        <TabsRouteTabs :tabs="sectionTabs" />
 
-      <div v-else class="space-y-3 pb-2">
-        <CommunitySellListingCard
-          v-for="listing in visibleSellListings"
-          :key="listing.id"
-          :listing="listing"
-          details-path-base="/community/offers"
-          show-proposals-in-header-slot
-        />
+        <p v-if="isLoading" class="sell-state-message">Caricamento vendite in corso...</p>
+        <p v-else-if="!hasListings" class="sell-state-message">Nessuna carta attualmente in vendita</p>
+        <p v-else-if="!hasVisibleListings" class="sell-state-message">La ricerca non ha prodotto risultati</p>
+
+        <div v-else class="space-y-3">
+          <CommunitySellListingCard
+            v-for="listing in sortedVisibleSellListings"
+            :key="listing.id"
+            :listing="listing"
+            details-path-base="/community/offers"
+            show-proposals-in-header-slot
+          />
+        </div>
       </div>
     </div>
 
@@ -117,11 +155,12 @@ onMounted(loadSellListings);
     <MobileFloatMenu :cols="2">
       <template #buttons>
         <ButtonMenu
-          icon="mdi:clipboard-clock-outline"
-          label="Storico"
+          :icon="priceSortButtonIcon"
+          :label="priceSortButtonLabel"
           transition
           :delay="100"
-          @click="navigateToPurchaseHistory"
+          icon-color="orange"
+          @click="togglePriceSortDirection"
         />
 
         <ButtonMenu

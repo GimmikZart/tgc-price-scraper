@@ -169,22 +169,21 @@ function onTouchEnd(e) {
 <style scoped>
 .viewer-overlay {
   background:
-    radial-gradient(110% 100% at 10% 95%, rgba(255, 122, 24, 0.2) 0%, rgba(255, 122, 24, 0.06) 30%, rgba(3, 5, 11, 0.88) 65%),
-    radial-gradient(90% 90% at 85% 12%, rgba(99, 123, 160, 0.18) 0%, rgba(14, 20, 35, 0.9) 45%, rgba(2, 3, 8, 0.95) 100%);
-  backdrop-filter: blur(8px);
+    radial-gradient(90% 78% at 50% 100%, rgba(29, 78, 216, 0.12) 0%, rgba(8, 13, 23, 0.04) 44%, transparent 76%),
+    linear-gradient(180deg, rgba(4, 8, 16, 0.82), rgba(1, 3, 8, 0.94));
+  backdrop-filter: blur(7px);
 }
 
 .viewer-shell {
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: 1.2rem;
   overflow: hidden;
   background:
-    radial-gradient(140% 90% at 50% -8%, rgba(255, 147, 68, 0.22) 0%, rgba(255, 147, 68, 0.05) 38%, transparent 62%),
-    linear-gradient(135deg, rgba(13, 19, 31, 0.95) 0%, rgba(7, 10, 18, 0.98) 55%, rgba(5, 7, 12, 0.98) 100%);
+    radial-gradient(120% 82% at 50% -10%, rgba(148, 163, 184, 0.14) 0%, rgba(148, 163, 184, 0.02) 40%, transparent 64%),
+    linear-gradient(135deg, rgba(11, 17, 30, 0.96) 0%, rgba(7, 11, 20, 0.98) 60%, rgba(5, 8, 14, 0.98) 100%);
   box-shadow:
-    0 30px 60px rgba(0, 0, 0, 0.65),
-    0 0 28px rgba(255, 122, 24, 0.17),
-    inset 0 1px 0 rgba(255, 255, 255, 0.14);
+    0 24px 54px rgba(0, 0, 0, 0.62),
+    inset 0 1px 0 rgba(255, 255, 255, 0.11);
 }
 
 .viewer-head {
@@ -198,9 +197,9 @@ function onTouchEnd(e) {
   font-weight: 600;
   letter-spacing: 0.05em;
   border-radius: 999px;
-  border: 1px solid rgba(255, 186, 133, 0.3);
-  color: rgba(255, 222, 194, 0.95);
-  background: rgba(255, 122, 24, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: rgba(226, 232, 240, 0.95);
+  background: linear-gradient(120deg, rgba(51, 65, 85, 0.72), rgba(30, 41, 59, 0.58));
   padding: 0.24rem 0.66rem;
 }
 
@@ -214,7 +213,7 @@ function onTouchEnd(e) {
 
 .viewer-meta {
   margin-top: 0.2rem;
-  color: rgba(224, 231, 243, 0.76);
+  color: rgba(203, 213, 225, 0.8);
   font-size: 0.78rem;
 }
 
@@ -228,11 +227,10 @@ function onTouchEnd(e) {
   max-height: 62vh;
   object-fit: contain;
   border-radius: 0.9rem;
-  border: 1px solid rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.12);
   box-shadow:
-    0 22px 34px rgba(0, 0, 0, 0.58),
-    0 0 20px rgba(255, 122, 24, 0.14),
-    inset 0 1px 0 rgba(255, 255, 255, 0.12);
+    0 18px 30px rgba(0, 0, 0, 0.56),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
 }
 
 .viewer-close {
@@ -242,21 +240,21 @@ function onTouchEnd(e) {
   height: 2.2rem;
   border-radius: 999px;
   color: #f2f6fc;
-  border: 1px solid rgba(255, 255, 255, 0.23);
-  background: rgba(6, 10, 18, 0.72);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(15, 23, 42, 0.75);
   backdrop-filter: blur(6px);
   transition: transform 0.18s ease, border-color 0.18s ease;
 }
 
 .viewer-close:hover {
   transform: scale(1.04);
-  border-color: rgba(255, 188, 138, 0.52);
+  border-color: rgba(255, 173, 111, 0.5);
 }
 
 .viewer-price-link {
   border-radius: 0.7rem;
-  border: 1px solid rgba(255, 182, 125, 0.5);
-  background: linear-gradient(120deg, rgba(255, 122, 24, 0.18), rgba(14, 20, 33, 0.88));
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: linear-gradient(120deg, rgba(30, 41, 59, 0.88), rgba(15, 23, 42, 0.9));
   color: #f3f6fb;
   padding: 0.36rem 0.8rem 0.42rem;
   text-align: center;
@@ -265,13 +263,13 @@ function onTouchEnd(e) {
 
 .viewer-price-link:hover {
   transform: translateY(-1px);
-  border-color: rgba(255, 205, 164, 0.65);
+  border-color: rgba(255, 173, 111, 0.48);
   filter: brightness(1.05);
 }
 
 .viewer-count {
   text-align: center;
-  color: #f0f5ff;
+  color: rgba(241, 245, 249, 0.95);
   font-size: clamp(1.9rem, 6vw, 2.8rem);
   font-weight: 700;
 }
@@ -290,15 +288,15 @@ function onTouchEnd(e) {
   height: 3rem;
   border-radius: 999px;
   color: #f6f8fd;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  background: linear-gradient(120deg, rgba(23, 31, 47, 0.85), rgba(9, 13, 23, 0.93));
-  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.36);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: linear-gradient(120deg, rgba(30, 41, 59, 0.78), rgba(12, 18, 30, 0.9));
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.34);
   transition: transform 0.18s ease, border-color 0.18s ease;
 }
 
 .viewer-nav-btn:hover {
   transform: translateY(-1px);
-  border-color: rgba(255, 183, 126, 0.5);
+  border-color: rgba(255, 173, 111, 0.5);
 }
 
 .viewer-index {

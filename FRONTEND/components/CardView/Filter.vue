@@ -467,44 +467,78 @@ onMounted(async () => {
 }
 
 .filter-item-shell {
-  border: 1px solid rgba(255, 255, 255, 0.11);
+  border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 0.9rem;
-  background: linear-gradient(130deg, rgba(17, 24, 39, 0.66), rgba(8, 12, 20, 0.9));
+  background: linear-gradient(140deg, rgba(15, 23, 42, 0.78), rgba(8, 12, 20, 0.92));
   box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.08),
-    0 10px 20px rgba(0, 0, 0, 0.22);
+    inset 0 1px 0 rgba(255, 255, 255, 0.07),
+    0 9px 18px rgba(0, 0, 0, 0.2);
   padding: 0.5rem;
 }
 
 .filter-pill-toggle {
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.13);
   border-radius: 0.75rem;
-  background: rgba(255, 255, 255, 0.03);
+  background: linear-gradient(140deg, rgba(30, 41, 59, 0.52), rgba(15, 23, 42, 0.62));
 }
 
 .filter-advanced-toggle {
-  border-color: rgba(255, 183, 124, 0.45) !important;
-  background: rgba(255, 122, 24, 0.1) !important;
-  color: #ffd9b7 !important;
+  border-color: rgba(255, 255, 255, 0.16) !important;
+  background: rgba(148, 163, 184, 0.11) !important;
+  color: rgba(241, 245, 249, 0.94) !important;
   justify-content: space-between !important;
   text-transform: none !important;
   letter-spacing: 0.01em !important;
+  font-weight: 600 !important;
 }
 
 .filter-range-slider {
-  border: 1px solid rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.13);
   border-radius: 0.78rem;
+  background: rgba(15, 23, 42, 0.58);
   padding: 0.85rem 1rem 0.4rem;
 }
 
 :deep(.filter-number-input .v-field),
 :deep(.filter-textarea .v-field) {
+  border: 1px solid rgba(255, 255, 255, 0.13);
   border-radius: 0.7rem !important;
-  background: rgba(255, 255, 255, 0.03) !important;
+  background: linear-gradient(130deg, rgba(20, 28, 43, 0.66), rgba(8, 12, 20, 0.9)) !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
 }
 
 :deep(.filter-number-input .v-field__outline),
 :deep(.filter-textarea .v-field__outline) {
-  --v-field-border-opacity: 0.22;
+  opacity: 0;
+}
+
+:deep(.filter-number-input .v-field__overlay),
+:deep(.filter-textarea .v-field__overlay) {
+  opacity: 0;
+}
+
+:deep(.filter-number-input .v-field--focused),
+:deep(.filter-textarea .v-field--focused) {
+  border-color: rgba(255, 157, 82, 0.6);
+  box-shadow:
+    0 0 0 1px rgba(255, 157, 82, 0.26),
+    0 10px 22px rgba(0, 0, 0, 0.24);
+}
+
+:deep(.filter-number-input .v-field-label),
+:deep(.filter-number-input input),
+:deep(.filter-textarea .v-field-label),
+:deep(.filter-textarea textarea) {
+  color: rgba(241, 245, 249, 0.94);
+}
+
+:deep(.filter-pill-toggle .v-label),
+:deep(.filter-range-slider .v-label),
+:deep(.filter-range-slider .v-slider-thumb__label) {
+  color: rgba(226, 232, 240, 0.95);
+}
+
+:deep(.filter-range-slider .v-input__details) {
+  padding-inline: 0.12rem;
 }
 </style>

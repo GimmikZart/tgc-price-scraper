@@ -95,18 +95,18 @@ function handleConfirm() {
 
 <style scoped>
 .filter-overlay__backdrop {
-  background: linear-gradient(180deg, rgba(1, 6, 15, 0.52), rgba(0, 0, 0, 0.82));
-  backdrop-filter: blur(3px);
+  background: linear-gradient(180deg, rgba(2, 7, 16, 0.46), rgba(0, 0, 0, 0.8));
+  backdrop-filter: blur(4px);
 }
 
 .filter-sheet {
   position: relative;
-  border: 1px solid rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.12);
   border-bottom: 0;
-  background: linear-gradient(155deg, rgba(10, 17, 30, 0.95), rgba(6, 9, 16, 0.97));
+  background: linear-gradient(155deg, rgba(11, 17, 30, 0.96), rgba(6, 10, 18, 0.98));
   box-shadow:
-    0 24px 60px rgba(0, 0, 0, 0.6),
-    inset 0 1px 0 rgba(255, 255, 255, 0.14);
+    0 20px 46px rgba(0, 0, 0, 0.58),
+    inset 0 1px 0 rgba(255, 255, 255, 0.12);
 }
 
 .filter-sheet::before {
@@ -116,8 +116,8 @@ function handleConfirm() {
   inset: 0;
   border-radius: 1.5rem 1.5rem 0 0;
   background:
-    radial-gradient(120% 90% at 50% -18%, rgba(255, 150, 71, 0.18), transparent 62%),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.05), transparent 26%);
+    radial-gradient(100% 80% at 50% -18%, rgba(148, 163, 184, 0.18), transparent 62%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.04), transparent 24%);
 }
 
 .filter-sheet__header {
@@ -140,10 +140,10 @@ function handleConfirm() {
 }
 
 .filter-count-chip {
-  border: 1px solid rgba(255, 180, 118, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 999px;
-  background: linear-gradient(140deg, rgba(255, 122, 24, 0.22), rgba(25, 30, 42, 0.84));
-  color: #ffd9b7;
+  background: linear-gradient(140deg, rgba(51, 65, 85, 0.66), rgba(15, 23, 42, 0.84));
+  color: rgba(226, 232, 240, 0.96);
   font-size: 11px;
   font-weight: 600;
   letter-spacing: 0.04em;
@@ -154,22 +154,29 @@ function handleConfirm() {
 .filter-sheet__footer {
   display: flex;
   gap: 0.75rem;
-  border: 1px solid rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.12);
   border-top: 1px solid rgba(255, 255, 255, 0.08);
   border-bottom: 0;
-  background: linear-gradient(160deg, rgba(10, 16, 28, 0.94), rgba(6, 10, 18, 0.97));
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.48);
+  background: linear-gradient(160deg, rgba(10, 16, 28, 0.95), rgba(7, 11, 20, 0.98));
+  box-shadow:
+    0 18px 38px rgba(0, 0, 0, 0.48),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
   padding: 0.75rem 1rem 0.9rem;
 }
 
 .filter-action-btn {
   text-transform: none !important;
   font-weight: 600;
+  letter-spacing: 0.01em !important;
+  border: 1px solid rgba(255, 255, 255, 0.14) !important;
+  background: rgba(148, 163, 184, 0.12) !important;
+  color: rgba(241, 245, 249, 0.95) !important;
 }
 
 .filter-action-btn--primary {
   border: 1px solid rgba(255, 187, 129, 0.44) !important;
-  background: linear-gradient(130deg, rgba(255, 122, 24, 0.92), rgba(167, 70, 13, 0.92)) !important;
+  background: linear-gradient(130deg, rgba(255, 122, 24, 0.84), rgba(194, 89, 30, 0.84)) !important;
   color: #fff7f0 !important;
+  box-shadow: 0 10px 22px rgba(111, 52, 16, 0.35) !important;
 }
 </style>

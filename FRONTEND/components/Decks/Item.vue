@@ -54,39 +54,18 @@ const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer
 
       <div class="flex min-w-0 flex-1 items-center justify-between gap-3 py-2">
         <div class="min-w-0 flex-1">
-          <p class="truncate text-[11px] font-semibold uppercase tracking-[0.2em] text-[#ffd8b1]/88">
+          <p class="truncate text-[10px] font-semibold uppercase tracking-[0.2em] text-[#ffd8b1]/88">
             {{ leaderChoosen?.name ?? "Leader Unset" }}
           </p>
-          <p class="mt-1 truncate text-[2.05rem] font-semibold text-slate-50 max-[430px]:text-[1.65rem]">
+          <p class="mt-1 truncate text-[1rem] font-semibold text-slate-50 max-[430px]:text-[1.3rem]">
             {{ currentDeck.name }}
           </p>
 
           <div class="mt-3 flex flex-wrap items-center gap-2">
-            <p class="text-[2rem] font-semibold leading-none text-slate-100/96 max-[430px]:text-[1.55rem]">
+            <p class="text-[1rem] font-semibold leading-none text-slate-100/96 max-[430px]:text-[1rem]">
               {{ currentDeck.cards.length }}
               <span class="text-slate-300/80">/ 50</span>
             </p>
-
-            <v-chip
-              v-if="currentDeck.isLocal"
-              size="small"
-              class="deck-item__chip deck-item__chip--draft"
-            >
-              Bozza
-              <Icon icon="mdi:offline" class="deck-item__chip-icon" />
-            </v-chip>
-
-            <v-chip
-              v-else
-              size="small"
-              class="deck-item__chip deck-item__chip--cloud"
-            >
-              {{ getVisibilityLabel(currentDeck.visibility) }}
-              <Icon
-                icon="material-symbols-light:cloud-done-rounded"
-                class="deck-item__chip-icon"
-              />
-            </v-chip>
           </div>
         </div>
 
@@ -220,7 +199,7 @@ const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer
 @media (max-width: 520px) {
   .deck-item {
     border-radius: 24px;
-    padding: 10px 11px;
+    padding: 5px 6px;
   }
 }
 </style>

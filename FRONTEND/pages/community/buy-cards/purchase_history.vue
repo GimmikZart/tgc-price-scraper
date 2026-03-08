@@ -87,7 +87,7 @@ function togglePriceSortDirection() {
 
 <template>
   <section class="relative h-full">
-    <Toolbar label="Storico" fixed back-button />
+    <Toolbar label="Storico acquisti" fixed />
 
     <div class="min-h-0 flex-1 overflow-y-auto px-3 pb-24 pt-1">
       <div class="space-y-4 pb-2">

@@ -57,7 +57,7 @@ function handleOpenCard(card) {
 
 <template>
   <section class="relative h-full">
-    <Toolbar label="Compra Carte" fixed />
+    <Toolbar label="Acquisti in corso" fixed />
 
     <div class="min-h-0 flex-1 overflow-y-auto px-3 pb-24 pt-1">
       <div class="space-y-4 pb-2">

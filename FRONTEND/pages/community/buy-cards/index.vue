@@ -128,7 +128,7 @@ onMounted(loadSellListings);
           icon="material-symbols:search-rounded"
           label="Filtra"
           transition
-          :delay="200"
+          :delay="100"
           :icon-color="isFilterActive ? 'orange' : null"
           @click="openFilter = true"
         />

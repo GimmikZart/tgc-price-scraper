@@ -179,7 +179,7 @@ provide("availabilityOpen", availabilityOpen);
         @click="goToEditDeck()"
         icon="iconoir:wrench"
         transition
-        :delay="100"
+        :delay="200"
         label="Modifica"
       />
     </template>

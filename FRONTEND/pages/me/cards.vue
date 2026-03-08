@@ -162,7 +162,7 @@ onMounted(async () => {
           :label="collectionIsHandling ? 'Termina' : 'Gestisci'"
           :color="collectionIsHandling ? 'green' : 'orange'"
           transition
-          :delay="100"
+          :delay="200"
           @click="onToggleHandlingCollections()"
         />
 

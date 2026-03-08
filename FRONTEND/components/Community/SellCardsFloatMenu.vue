@@ -36,7 +36,7 @@ function handleOpenFilter() {
         icon="mdi:clipboard-clock-outline"
         label="Storico"
         transition
-        :delay="100"
+        :delay="200"
         :icon-color="isRouteActive(SELL_HISTORY_PATH) ? 'orange' : null"
         @click="navigateToPath(SELL_HISTORY_PATH)"
       />
@@ -45,7 +45,7 @@ function handleOpenFilter() {
         icon="mdi:cash-plus"
         label="Nuova vendita"
         transition
-        :delay="150"
+        :delay="100"
         icon-color="green"
         @click="navigateToPath(NEW_SELL_PATH)"
       />
@@ -54,7 +54,7 @@ function handleOpenFilter() {
         icon="material-symbols:search-rounded"
         label="Filtra"
         transition
-        :delay="250"
+        :delay="200"
         @click="handleOpenFilter"
       />
     </template>

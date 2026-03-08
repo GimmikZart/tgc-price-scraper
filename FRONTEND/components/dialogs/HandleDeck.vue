@@ -58,7 +58,7 @@ async function onConfirm() {
       <ButtonMenu
         icon="fa-solid:plus"
         transition
-          :delay="200"
+        :delay="100"
         label="Crea Mazzo"
         icon-color="green"
       />

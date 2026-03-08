@@ -280,13 +280,29 @@ onMounted(async () => {
     <MobileFloatMenu :cols="!sellMode && !handleAlbum ? 4 : 3">
       <template #buttons>
         <ButtonMenu
+          v-if="sellMode || handleAlbum"
+          icon="lets-icons:refund-back"
+          label="Annulla"
+          color="red"
+          transition
+          :delay="300"
+          @click="navigateBack"
+        />
+
+        <ButtonMenu
           v-if="!sellMode && !handleAlbum"
           :icon="collectionIsHandling ? 'mdi-check' : 'fluent:collections-add-24-regular'"
           :label="collectionIsHandling ? 'Termina' : 'Gestisci'"
           :color="collectionIsHandling ? 'green' : 'orange'"
           transition
-            :delay="200"
+          :delay="200"
           @click="toggleHandlingCollections()"
+        />
+
+        <ButtonSortMenu
+          :model-key="sort.sortKey.value"
+          :model-dir="sort.sortDir.value"
+          @change="({ key, dir }) => sort.setSort(key, dir)"
         />
 
         <ButtonMenu
@@ -294,27 +310,10 @@ onMounted(async () => {
           icon="solar:tag-price-outline"
           label="Prezzi"
           transition
-          :delay="200"
           :class="{
             'opacity-40': !showPrice
           }"
           @click="showPrice = !showPrice"
-        />
-
-        <ButtonMenu
-          v-if="sellMode || handleAlbum"
-          icon="lets-icons:refund-back"
-          label="Annulla"
-          color="red"
-          transition
-          :delay="200"
-          @click="navigateBack"
-        />
-
-        <ButtonSortMenu
-          :model-key="sort.sortKey.value"
-          :model-dir="sort.sortDir.value"
-          @change="({ key, dir }) => sort.setSort(key, dir)"
         />
 
         <ButtonMenu

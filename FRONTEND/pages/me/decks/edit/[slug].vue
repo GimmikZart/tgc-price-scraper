@@ -337,7 +337,7 @@ provide("actionOnDeck", actionOnDeck);
           label="Al click"
           multi
           transition
-          :delay="100"
+          :delay="200"
         >
           <template #buttons>
             <ButtonMenu

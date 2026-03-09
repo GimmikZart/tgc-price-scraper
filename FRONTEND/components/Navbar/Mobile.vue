@@ -9,6 +9,8 @@ import TradesIcon from "@/components/Navbar/icons/TradesIcon.vue";
 import ActivityIcon from "@/components/Navbar/icons/ActivityIcon.vue";
 import TournamentsIcon from "@/components/Navbar/icons/TournamentsIcon.vue";
 import MatchesIcon from "@/components/Navbar/icons/MatchesIcon.vue";
+import StatsIcon from "@/components/Navbar/icons/StatsIcon.vue";
+import MetaIcon from "@/components/Navbar/icons/MetaIcon.vue";
 import SoonIcon from "@/components/Navbar/icons/SoonIcon.vue";
 import ClubsIcon from "@/components/Navbar/icons/ClubsIcon.vue";
 import FriendsIcon from "@/components/Navbar/icons/FriendsIcon.vue";
@@ -65,9 +67,9 @@ const navSections = [
     centerIcon: PlayModeIcon,
     items: [
       { key: "play-tournaments", label: "Tornei", icon: TournamentsIcon, disabled: true },
-      { key: "play-soon-a", label: "", icon: null, disabled: true },
-      { key: "play-soon-b", label: "", icon: null, disabled: true },
       { key: "play-matches", label: "Partite", icon: MatchesIcon, disabled: true },
+      { key: "play-stats", label: "Stats", icon: StatsIcon, disabled: true },
+      { key: "play-meta", label: "Meta", icon: MetaIcon, disabled: true },
     ],
   },
   {

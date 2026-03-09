@@ -10,6 +10,11 @@ export const visibilityOptions = Object.freeze([
   { label: "Privato", value: Visibility.PRIVATE },
 ]);
 
+export const publicPrivateVisibilityOptions = Object.freeze([
+  { label: "Pubblico", value: Visibility.PUBLIC },
+  { label: "Privato", value: Visibility.PRIVATE },
+]);
+
 export function getVisibilityLabel(value) {
   const opt = visibilityOptions.find((o) => o.value === value);
   return opt ? opt.label : null;

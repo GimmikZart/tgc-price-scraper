@@ -128,6 +128,33 @@ export async function fetchPublicDecksByUserTag(profileTagOrSlug) {
   return publicDecks;
 }
 
+export async function fetchPublicDeckByUserTagAndSlug(profileTagOrSlug, deckSlug) {
+  const normalizedDeckSlug = normalizeString(deckSlug);
+  if (!normalizedDeckSlug) {
+    throw new Error("slug deck non valido");
+  }
+
+  const client = useSupabaseClient();
+  const profileUserUuids = await fetchProfileUserUuidsByTag(client, profileTagOrSlug);
+
+  if (!profileUserUuids.length) return null;
+
+  const { data: publicDeck, error } = await client
+    .from("decks")
+    .select("name, slug, leader, visibility, cards")
+    .in("user_uuid", profileUserUuids)
+    .eq("slug", normalizedDeckSlug)
+    .eq("visibility", "public")
+    .limit(1)
+    .maybeSingle();
+
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  return publicDeck;
+}
+
 export async function fetchUserDeckCards(userUuid, slug) {
   const client = useSupabaseClient();
 

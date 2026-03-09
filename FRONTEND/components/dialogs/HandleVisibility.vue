@@ -3,6 +3,16 @@ import { ref, watch, inject } from "vue";
 import { visibilityOptions } from "~/enums/visibility";
 
 const emits = defineEmits(["updateVisibility"]);
+const props = defineProps({
+  options: {
+    type: Array,
+    default: () => visibilityOptions,
+  },
+  disabled: {
+    type: Boolean,
+    default: false,
+  },
+});
 
 const item = inject("item");
 const dialog = ref(false);
@@ -19,7 +29,7 @@ watch(
 );
 
 async function changeVisibility() {
-  item.value.visibility = visibilityChoosen.value;
+  if (!visibilityChoosen.value) return;
   emits("updateVisibility", visibilityChoosen.value);
   dialog.value = false;
 }
@@ -32,6 +42,7 @@ async function changeVisibility() {
     transition
     :delay="100"
     label="Visibilita"
+    :disabled="disabled"
   />
 
   <DialogsBaseDialog
@@ -46,7 +57,7 @@ async function changeVisibility() {
 
     <v-select
       v-model="visibilityChoosen"
-      :items="visibilityOptions"
+      :items="props.options"
       item-title="label"
       item-value="value"
       label="Visibilita"

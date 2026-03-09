@@ -10,7 +10,6 @@ import { fetchProfileByTag } from "@/api/profiles";
 import { fetchPublicDecksByUserTag } from "@/api/decks";
 import { getPublicAlbumsByUserTag } from "@/api/album";
 import { fetchActiveSellListingsBySellerId } from "@/api/sellListings";
-import { DeckLocation } from "~/enums/deckLocation";
 
 const route = useRoute();
 const router = useRouter();
@@ -38,6 +37,15 @@ const profileTagSlug = computed(() => {
   if (Array.isArray(value)) return String(value[0] ?? "");
   return typeof value === "string" ? value : "";
 });
+const nestedResourceSlug = computed(() => {
+  const value = route.params?.slug;
+  if (Array.isArray(value)) return String(value[0] ?? "");
+  return typeof value === "string" ? value : "";
+});
+const isNestedProfileResourceRoute = computed(() => Boolean(nestedResourceSlug.value));
+const encodedProfileTagSlug = computed(() =>
+  profileTagSlug.value ? encodeURIComponent(profileTagSlug.value) : ""
+);
 
 const currentUserId = computed(() => userAuth?.userLogged?.id ?? null);
 
@@ -282,7 +290,8 @@ async function handleFriendAction() {
 }
 
 function goToDeck(deck) {
-  router.push(`/me/decks/${deck.slug}?location=${DeckLocation.CLOUD}`);
+  if (!encodedProfileTagSlug.value) return;
+  router.push(`/profile/${encodedProfileTagSlug.value}/decks/${encodeURIComponent(deck.slug)}`);
 }
 
 function setActiveTab(nextTab) {
@@ -301,114 +310,117 @@ watch([profileTagSlug, currentUserId], () => {
 
 <template>
   <section class="relative h-full">
-    <Toolbar fixed back-button :label="toolbarLabel">
-      <template #content>
-        <UserIdentityHeader
-          v-if="profile"
-          :username="username"
-          :user-tag="userTag"
-          :avatar-url="userAvatarUrl"
-          size="sm"
-        />
-      </template>
+    <NuxtPage v-if="isNestedProfileResourceRoute" />
+    <template v-else>
+      <Toolbar fixed back-button :label="toolbarLabel">
+        <template #content>
+          <UserIdentityHeader
+            v-if="profile"
+            :username="username"
+            :user-tag="userTag"
+            :avatar-url="userAvatarUrl"
+            size="sm"
+          />
+        </template>
 
-      <template #info>
-        <ProfileSectionsTabs
-          v-if="profile"
-          :tabs="tabOptions"
-          :active="activeTab"
-          @change="setActiveTab"
-        />
-      </template>
-    </Toolbar>
+        <template #info>
+          <ProfileSectionsTabs
+            v-if="profile"
+            :tabs="tabOptions"
+            :active="activeTab"
+            @change="setActiveTab"
+          />
+        </template>
+      </Toolbar>
 
-    <v-container class="flex flex-col gap-5 px-4 pb-24 pt-3">
-      <p v-if="loadingProfile" class="profile-state-message">
-        Caricamento profilo in corso...
-      </p>
-      <p v-else-if="profileError" class="profile-state-message profile-state-message--error">
-        {{ profileError }}
-      </p>
+      <v-container class="flex flex-col gap-5 px-4 pb-24 pt-3">
+        <p v-if="loadingProfile" class="profile-state-message">
+          Caricamento profilo in corso...
+        </p>
+        <p v-else-if="profileError" class="profile-state-message profile-state-message--error">
+          {{ profileError }}
+        </p>
 
-      <template v-else>
-        <div v-if="activeTab === 'decks'" class="space-y-3">
-          <p v-if="loadingDecks" class="text-center text-sm text-white/50">Caricamento deck in corso...</p>
-          <p v-else-if="deckError" class="rounded-2xl border border-red-500/40 bg-red-500/10 p-3 text-center text-sm text-red-200">
-            {{ deckError }}
-          </p>
-          <div v-else>
-            <div v-if="decks.length === 0" class="rounded-2xl border border-dashed border-white/20 bg-white/5 p-4 text-center text-sm text-white/60">
-              Nessun deck attivo al momento.
-            </div>
-            <div v-else class="flex flex-col gap-3">
-              <DecksItem
-                v-for="deck in decks"
-                :key="deck.slug"
-                :leader-id="deck.leader"
-                :current-deck="deck"
-                @click="goToDeck(deck)"
-              />
-            </div>
-          </div>
-        </div>
-
-        <div v-if="activeTab === 'albums'" class="space-y-3">
-          <p v-if="loadingAlbums" class="text-center text-sm text-white/50">Caricamento album pubblici...</p>
-          <p v-else-if="albumError" class="rounded-2xl border border-red-500/40 bg-red-500/10 p-3 text-center text-sm text-red-200">
-            {{ albumError }}
-          </p>
-          <div v-else>
-            <div v-if="publicAlbums.length === 0" class="rounded-2xl border border-dashed border-white/20 bg-white/5 p-4 text-center text-sm text-white/60">
-              Nessun album pubblico al momento.
-            </div>
-            <div v-else class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-              <ButtonAlbum
-                v-for="album in publicAlbums"
-                :key="album.slug"
-                :to="`/me/collection/albums/${album.slug}`"
-                :label="album.name"
-              />
+        <template v-else>
+          <div v-if="activeTab === 'decks'" class="space-y-3">
+            <p v-if="loadingDecks" class="text-center text-sm text-white/50">Caricamento deck in corso...</p>
+            <p v-else-if="deckError" class="rounded-2xl border border-red-500/40 bg-red-500/10 p-3 text-center text-sm text-red-200">
+              {{ deckError }}
+            </p>
+            <div v-else>
+              <div v-if="decks.length === 0" class="rounded-2xl border border-dashed border-white/20 bg-white/5 p-4 text-center text-sm text-white/60">
+                Nessun deck attivo al momento.
+              </div>
+              <div v-else class="flex flex-col gap-3">
+                <DecksItem
+                  v-for="deck in decks"
+                  :key="deck.slug"
+                  :leader-id="deck.leader"
+                  :current-deck="deck"
+                  @click="goToDeck(deck)"
+                />
+              </div>
             </div>
           </div>
-        </div>
 
-        <div v-if="activeTab === 'sellListings'" class="space-y-3">
-          <p v-if="loadingSellListings" class="text-center text-sm text-white/50">Caricamento vendite in corso...</p>
-          <p v-else-if="sellListingsError" class="rounded-2xl border border-red-500/40 bg-red-500/10 p-3 text-center text-sm text-red-200">
-            {{ sellListingsError }}
-          </p>
-          <div v-else>
-            <div v-if="sellListings.length === 0" class="rounded-2xl border border-dashed border-white/20 bg-white/5 p-4 text-center text-sm text-white/60">
-              Nessuna carta attualmente in vendita.
-            </div>
-            <div v-else class="flex flex-col gap-3">
-              <CommunitySellListingCard
-                v-for="listing in sellListings"
-                :key="listing.id"
-                :listing="listing"
-                :details-path-base="sellListingDetailsPathBase"
-                show-proposals-in-header-slot
-                :show-seller-identity="false"
-              />
+          <div v-if="activeTab === 'albums'" class="space-y-3">
+            <p v-if="loadingAlbums" class="text-center text-sm text-white/50">Caricamento album pubblici...</p>
+            <p v-else-if="albumError" class="rounded-2xl border border-red-500/40 bg-red-500/10 p-3 text-center text-sm text-red-200">
+              {{ albumError }}
+            </p>
+            <div v-else>
+              <div v-if="publicAlbums.length === 0" class="rounded-2xl border border-dashed border-white/20 bg-white/5 p-4 text-center text-sm text-white/60">
+                Nessun album pubblico al momento.
+              </div>
+              <div v-else class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                <ButtonAlbum
+                  v-for="album in publicAlbums"
+                  :key="album.slug"
+                  :to="`/profile/${encodedProfileTagSlug}/albums/${encodeURIComponent(album.slug)}`"
+                  :label="album.name"
+                />
+              </div>
             </div>
           </div>
-        </div>
-      </template>
-    </v-container>
 
-    <MobileFloatMenu v-if="showFriendAction" :cols="1">
-      <template #buttons>
-        <ButtonMenu
-          :icon="showRemoveFriendButton ? 'mdi:account-remove-outline' : 'mdi:handshake'"
-          :label="showRemoveFriendButton ? 'Rimuovi Amico' : 'Aggiungi Amico'"
-          :color="showRemoveFriendButton ? 'red' : 'green'"
-          :disabled="relationActionLoading || loadingProfile"
-          transition
-          :delay="100"
-          @click="handleFriendAction"
-        />
-      </template>
-    </MobileFloatMenu>
+          <div v-if="activeTab === 'sellListings'" class="space-y-3">
+            <p v-if="loadingSellListings" class="text-center text-sm text-white/50">Caricamento vendite in corso...</p>
+            <p v-else-if="sellListingsError" class="rounded-2xl border border-red-500/40 bg-red-500/10 p-3 text-center text-sm text-red-200">
+              {{ sellListingsError }}
+            </p>
+            <div v-else>
+              <div v-if="sellListings.length === 0" class="rounded-2xl border border-dashed border-white/20 bg-white/5 p-4 text-center text-sm text-white/60">
+                Nessuna carta attualmente in vendita.
+              </div>
+              <div v-else class="flex flex-col gap-3">
+                <CommunitySellListingCard
+                  v-for="listing in sellListings"
+                  :key="listing.id"
+                  :listing="listing"
+                  :details-path-base="sellListingDetailsPathBase"
+                  show-proposals-in-header-slot
+                  :show-seller-identity="false"
+                />
+              </div>
+            </div>
+          </div>
+        </template>
+      </v-container>
+
+      <MobileFloatMenu v-if="showFriendAction" :cols="1">
+        <template #buttons>
+          <ButtonMenu
+            :icon="showRemoveFriendButton ? 'mdi:account-remove-outline' : 'mdi:handshake'"
+            :label="showRemoveFriendButton ? 'Rimuovi Amico' : 'Aggiungi Amico'"
+            :color="showRemoveFriendButton ? 'red' : 'green'"
+            :disabled="relationActionLoading || loadingProfile"
+            transition
+            :delay="100"
+            @click="handleFriendAction"
+          />
+        </template>
+      </MobileFloatMenu>
+    </template>
   </section>
 </template>
 

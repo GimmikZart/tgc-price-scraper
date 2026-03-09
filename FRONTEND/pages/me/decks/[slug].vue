@@ -4,6 +4,7 @@ import { updateDeckVisibility } from "~/api/decks";
 import { copyDeckOnClipboard } from "@/utilities/copyDeckOnClipboard";
 import { usePageLoader } from "@/stores/usePageLoader";
 import { DeckLocation } from "~/enums/deckLocation";
+import { publicPrivateVisibilityOptions } from "~/enums/visibility";
 import {
   fetchCardCountInCollection
 } from "@/api/collection";
@@ -13,7 +14,11 @@ const snackbar = useSnackbar();
 const route = useRoute();
 const pageLoader = usePageLoader();
 
-const deckLocation = ref(route.query.location);
+function normalizeDeckLocation(location) {
+  return location === DeckLocation.BOZZA ? DeckLocation.BOZZA : DeckLocation.CLOUD;
+}
+
+const deckLocation = ref(normalizeDeckLocation(route.query.location));
 
 const currentDeck = ref({
   name: "",
@@ -26,6 +31,7 @@ const currentDeck = ref({
 const leaderChoosen = ref(null);
 const statsOpen = ref(false);
 const availabilityOpen = ref(false);
+const isUpdatingVisibility = ref(false);
 const router = useRouter();
 const { allCards } = await useOnePieceCards();
 const { getLocal, getCloud } = useDeckManager();
@@ -40,6 +46,14 @@ const tabOptions = [
   },
 ];
 const activeTab = computed(() => (statsOpen.value ? "stats" : "overview"));
+const isCloudDeckView = computed(() => deckLocation.value === DeckLocation.CLOUD);
+const floatMenuCols = computed(() => {
+  if (isCloudDeckView.value) {
+    return statsOpen.value ? 3 : 4;
+  }
+
+  return statsOpen.value ? 2 : 3;
+});
 
 
 function goToEditDeck() {
@@ -103,9 +117,25 @@ async function setCardsInCollectionCounts(){
   });
 }
 
-/* const updateVisibility = async (newValue) => {
-  await updateDeckVisibility(currentDeck.value.slug, newValue);
-}; */
+async function updateVisibility(newValue) {
+  if (!isCloudDeckView.value || !currentDeck.value?.slug || isUpdatingVisibility.value) return;
+
+  const previousVisibility = currentDeck.value.visibility;
+  if (newValue === previousVisibility) return;
+
+  isUpdatingVisibility.value = true;
+
+  try {
+    const updatedDeck = await updateDeckVisibility(currentDeck.value.slug, newValue);
+    currentDeck.value.visibility = updatedDeck?.visibility ?? newValue;
+    snackbar.addMessage("Visibilita aggiornata", "success");
+  } catch (error) {
+    currentDeck.value.visibility = previousVisibility;
+    snackbar.addMessage(error?.message || "Errore aggiornamento visibilita", "error");
+  } finally {
+    isUpdatingVisibility.value = false;
+  }
+}
 
 function exportDeck() {
   copyDeckOnClipboard(leaderChoosen.value, singleCardsInDeck.value);
@@ -122,6 +152,13 @@ onMounted(async () => {
   }
   await setCardsInCollectionCounts();
 });
+
+watch(
+  () => route.query.location,
+  (newLocation) => {
+    deckLocation.value = normalizeDeckLocation(newLocation);
+  },
+);
 
 definePageMeta({
   middleware: 'auth',
@@ -151,7 +188,7 @@ provide("availabilityOpen", availabilityOpen);
   <CardViewDeck v-if="!statsOpen" :single-cards-in-deck="singleCardsInDeck" />
   <DecksStats v-else :current-deck="singleCardsInDeck" />
   
-  <MobileFloatMenu :cols="statsOpen ? 2 : 3">
+  <MobileFloatMenu :cols="floatMenuCols">
     <template #buttons>
       <ButtonMenu
         @click="exportDeck()"
@@ -160,10 +197,12 @@ provide("availabilityOpen", availabilityOpen);
         :delay="200"
         label="Esporta"
       />
-      <!-- <DialogsHandleVisibility
-        v-if="!currentDeck.isLocal"
-        @update-visibility="(newValue) => updateVisibility(newValue)"
-      /> -->
+      <DialogsHandleVisibility
+        v-if="isCloudDeckView"
+        :options="publicPrivateVisibilityOptions"
+        :disabled="isUpdatingVisibility"
+        @update-visibility="updateVisibility"
+      />
       <ButtonMenu
         v-show="!statsOpen"
         @click="availabilityOpen = !availabilityOpen"

@@ -71,6 +71,20 @@ async function fetchProfileUserUuidsByTag(client, profileTagOrSlug) {
   if (!profiles.length) return [];
   return extractProfileUserUuids(profiles[0]);
 }
+
+const ALBUM_WITH_CARDS_SELECT = `
+      *,
+      card_album (
+        id,
+        index,
+        card_id,
+        collection (
+          id,
+          card_id
+        )
+      )
+    `;
+
 export async function createAlbum(albumName, slots) {
   const client = useSupabaseClient();
   const userAuth = useUserAuth();
@@ -160,26 +174,40 @@ export async function getPublicAlbumsByUserTag(profileTagOrSlug) {
   return albums;
 }
 
+export async function getPublicAlbumByUserTagAndSlug(profileTagOrSlug, albumSlug) {
+  const normalizedAlbumSlug = normalizeString(albumSlug);
+  if (!normalizedAlbumSlug) {
+    throw new Error("slug album non valido");
+  }
+
+  const client = useSupabaseClient();
+  const profileUserUuids = await fetchProfileUserUuidsByTag(client, profileTagOrSlug);
+
+  if (!profileUserUuids.length) return null;
+
+  const { data, error } = await client
+    .from("albums")
+    .select(ALBUM_WITH_CARDS_SELECT)
+    .in("user_uuid", profileUserUuids)
+    .eq("slug", normalizedAlbumSlug)
+    .eq("visibility", "public")
+    .limit(1)
+    .maybeSingle();
+
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  return data;
+}
+
 export async function getAlbum(slug) {
   const client = useSupabaseClient();
   const userAuth = useUserAuth();
 
   const { data, error } = await client
     .from("albums")
-    .select(
-      `
-      *,
-      card_album (
-        id,
-        index,
-        card_id,
-        collection (
-          id,
-          card_id
-        )
-      )
-    `
-    )
+    .select(ALBUM_WITH_CARDS_SELECT)
     .eq("user_uuid", userAuth?.userLogged?.id)
     .eq("slug", slug)
     .single();

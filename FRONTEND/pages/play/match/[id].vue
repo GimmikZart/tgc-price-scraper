@@ -125,6 +125,7 @@ const canChooseDeck = computed(() => isInviteForCurrentUser.value);
 const canCancelMatch = computed(() => {
   if (!isParticipant.value) return false;
   if (isTerminalMatch.value) return false;
+  if (myRole.value === "opponent" && isInviteForCurrentUser.value) return false;
   return !isCancelingMatch.value;
 });
 
@@ -137,6 +138,22 @@ const canTerminateMatch = computed(() => {
 
 const canSaveWon = computed(() => canTerminateMatch.value && !isSavingResult.value);
 const canSaveLost = computed(() => canTerminateMatch.value && !isSavingResult.value);
+const visibleActionButtonsCount = computed(() => {
+  return [
+    canRejectMatch.value,
+    canChooseDeck.value,
+    canCancelMatch.value,
+    canTerminateMatch.value,
+  ].filter(Boolean).length;
+});
+
+const actionButtonsGridClass = computed(() => {
+  if (visibleActionButtonsCount.value > 1) {
+    return "grid grid-cols-2 gap-2";
+  }
+
+  return "grid grid-cols-1 gap-2";
+});
 
 const opponentRoomPresenceId = computed(() => {
   if (!matchRow.value || !myRole.value) return null;
@@ -529,7 +546,7 @@ definePageMeta({
             compact-deck
           />
 
-          <div class="grid grid-cols-1 gap-2">
+          <div :class="actionButtonsGridClass">
             <ButtonMenu
               v-if="canRejectMatch"
               icon="lets-icons:refund-back"

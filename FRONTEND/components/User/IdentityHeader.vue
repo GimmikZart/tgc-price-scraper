@@ -23,6 +23,10 @@ const props = defineProps({
     default: "md",
     validator: (value) => ["sm", "md"].includes(value),
   },
+  navigable: {
+    type: Boolean,
+    default: true,
+  },
 });
 
 const hasAvatarError = ref(false);
@@ -85,7 +89,9 @@ const profilePath = computed(() => {
   return `/profile/${encodeURIComponent(normalizedProfileTag)}`;
 });
 
-const isProfileNavigable = computed(() => Boolean(profilePath.value));
+const isProfileNavigable = computed(() => {
+  return Boolean(profilePath.value) && props.navigable;
+});
 
 function handleAvatarError() {
   hasAvatarError.value = true;

@@ -67,7 +67,7 @@ const navSections = [
     centerIcon: PlayModeIcon,
     items: [
       { key: "play-tournaments", label: "Tornei", icon: TournamentsIcon, disabled: true },
-      { key: "play-matches", label: "Partite", icon: MatchesIcon, disabled: true },
+      { key: "play-matches", to: "/play/matches", label: "Partite", icon: MatchesIcon },
       { key: "play-stats", label: "Stats", icon: StatsIcon, disabled: true },
       { key: "play-meta", label: "Meta", icon: MetaIcon, disabled: true },
     ],

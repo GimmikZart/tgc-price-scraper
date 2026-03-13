@@ -1,4 +1,6 @@
 <script setup>
+const router = useRouter();
+
 const props = defineProps({
   item: {
     type: Object,
@@ -6,209 +8,330 @@ const props = defineProps({
   },
 });
 
-function formatDate(value) {
-  if (!value) return "";
-  const parsedDate = new Date(value);
-  if (Number.isNaN(parsedDate.getTime())) return "";
+const challengerProfile = computed(() => props.item?.challenger_profile ?? props.item?.challengerProfile ?? null);
+const challengerDeck = computed(() => props.item?.challenger_deck ?? props.item?.challengerDeck ?? null);
+const opponentProfile = computed(() => props.item?.opponent_profile ?? props.item?.opponentProfile ?? null);
+const opponentDeck = computed(() => props.item?.opponent_deck ?? props.item?.opponentDeck ?? null);
 
-  return parsedDate.toLocaleString("it-IT", {
-    day: "2-digit",
-    month: "2-digit",
-    year: "numeric",
-    hour: "2-digit",
-    minute: "2-digit",
-  });
-}
+const challengerAvatarError = ref(false);
+const opponentAvatarError = ref(false);
 
-const resultLabel = computed(() => props.item?.resultLabel ?? "-"
+watch(
+  () => challengerProfile.value?.avatar_url,
+  () => {
+    challengerAvatarError.value = false;
+  },
 );
 
-const resultToneClass = computed(() => {
-  const tone = props.item?.resultTone;
-  if (tone === "win") return "play-history-result play-history-result--win";
-  if (tone === "loss") return "play-history-result play-history-result--loss";
-  return "play-history-result play-history-result--invalid";
+watch(
+  () => opponentProfile.value?.avatar_url,
+  () => {
+    opponentAvatarError.value = false;
+  },
+);
+
+function normalizeText(value) {
+  if (typeof value !== "string") return null;
+  const normalizedValue = value.trim();
+  return normalizedValue || null;
+}
+
+function normalizeTag(value) {
+  const normalizedValue = normalizeText(value);
+  if (!normalizedValue) return "@utente";
+  return normalizedValue.startsWith("@") ? normalizedValue : `@${normalizedValue}`;
+}
+
+function getInitial(value) {
+  const normalizedValue = normalizeText(value) ?? "";
+  if (!normalizedValue) return "?";
+  return normalizedValue[0].toUpperCase();
+}
+
+const challengerIdentity = computed(() => {
+  const username = normalizeText(challengerProfile.value?.display_name)
+    ?? normalizeText(challengerProfile.value?.username)
+    ?? "Sfidante";
+
+  return {
+    username,
+    userTag: normalizeTag(challengerProfile.value?.user_tag),
+    avatarUrl: normalizeText(challengerProfile.value?.avatar_url),
+    initial: getInitial(username),
+  };
 });
 
-const createdAtLabel = computed(() => formatDate(props.item?.created_at));
+const opponentIdentity = computed(() => {
+  const username = normalizeText(opponentProfile.value?.display_name)
+    ?? normalizeText(opponentProfile.value?.username)
+    ?? "Sfidato";
 
-function colorsLabel(deck) {
-  const colors = Array.isArray(deck?.leader_colors)
-    ? deck.leader_colors.filter((color) => typeof color === "string")
+  return {
+    username,
+    userTag: normalizeTag(opponentProfile.value?.user_tag),
+    avatarUrl: normalizeText(opponentProfile.value?.avatar_url),
+    initial: getInitial(username),
+  };
+});
+
+const rowToneClass = computed(() => {
+  const tone = props.item?.resultTone;
+  if (tone === "win") return "play-history-row play-history-row--win";
+  if (tone === "loss") return "play-history-row play-history-row--loss";
+  return "play-history-row play-history-row--invalid";
+});
+
+function getDeckLabel(deck) {
+
+  const leaderName = typeof deck?.leader_name === "string" && deck.leader_name.trim()
+    ? deck.leader_name.trim()
+    : "Leader non disponibile";
+
+  const leaderColors = Array.isArray(deck?.leader_colors)
+    ? deck.leader_colors
+      .filter((color) => typeof color === "string" && color.trim())
+      .map((color) => color.trim())
     : [];
 
-  return colors.length ? colors.join(" - ") : "Colori non disponibili";
+  const colorsLabel = leaderColors.length ? leaderColors.join(" / ") : "Colori non disponibili";
+  return `${leaderName} ( ${colorsLabel} )`;
+}
+
+function goToMatchRoom() {
+  if (!props.item?.id) return;
+  router.push(`/play/match/${props.item.id}`);
+}
+
+function handleChallengerAvatarError() {
+  challengerAvatarError.value = true;
+}
+
+function handleOpponentAvatarError() {
+  opponentAvatarError.value = true;
 }
 </script>
 
 <template>
-  <article class="play-history-card">
-    <div class="grid grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] gap-2 items-center">
-      <div class="play-history-side">
-        <div class="play-history-leader-wrap">
-          <NuxtImg
-            v-if="item?.meDeck?.leader_image"
-            :src="item.meDeck.leader_image"
-            :alt="`Leader ${item.meDeck.leader_name ?? ''}`"
-            class="play-history-leader-image"
-            loading="lazy"
-          />
-          <div v-else class="play-history-leader-fallback">
-            <v-icon icon="mdi-help-circle-outline" size="20" />
+  <button
+    type="button"
+    :class="rowToneClass"
+    @click="goToMatchRoom"
+  >
+    <div class="play-history-row__content">
+      <div class="play-history-row__side play-history-row__side--challenger">
+        <div class="play-history-row__identity">
+          <div class="play-history-row__avatar">
+            <img
+              v-if="challengerIdentity.avatarUrl && !challengerAvatarError"
+              :src="challengerIdentity.avatarUrl"
+              :alt="`Avatar di ${challengerIdentity.username}`"
+              class="play-history-row__avatar-image"
+              @error="handleChallengerAvatarError"
+            />
+            <span v-else class="play-history-row__avatar-fallback">{{ challengerIdentity.initial }}</span>
+          </div>
+
+          <div class="play-history-row__identity-copy">
+            <p class="play-history-row__name">{{ challengerIdentity.username }}</p>
+            <p class="play-history-row__tag">{{ challengerIdentity.userTag }}</p>
           </div>
         </div>
 
-        <div class="min-w-0 flex-1 space-y-1">
-          <UserIdentityHeader
-            :username="item?.meProfile?.display_name ?? item?.meProfile?.username"
-            :user-tag="item?.meProfile?.user_tag"
-            :profile-tag="item?.meProfile?.user_tag"
-            :avatar-url="item?.meProfile?.avatar_url"
-            size="sm"
-          />
-          <p class="play-history-subline">{{ item?.meDeck?.leader_name ?? "Leader non disponibile" }}</p>
-          <p class="play-history-subline play-history-subline--muted">{{ colorsLabel(item?.meDeck) }}</p>
-        </div>
+        <p class="play-history-row__deck">{{ getDeckLabel(challengerDeck) }}</p>
       </div>
 
-      <div :class="resultToneClass">
-        {{ resultLabel }}
-      </div>
+      <div class="play-history-row__side play-history-row__side--opponent">
+        <div class="play-history-row__identity play-history-row__identity--right">
+          <div class="play-history-row__identity-copy play-history-row__identity-copy--right">
+            <p class="play-history-row__name">{{ opponentIdentity.username }}</p>
+            <p class="play-history-row__tag">{{ opponentIdentity.userTag }}</p>
+          </div>
 
-      <div class="play-history-side play-history-side--right">
-        <div class="min-w-0 flex-1 space-y-1">
-          <UserIdentityHeader
-            :username="item?.opponentProfile?.display_name ?? item?.opponentProfile?.username"
-            :user-tag="item?.opponentProfile?.user_tag"
-            :profile-tag="item?.opponentProfile?.user_tag"
-            :avatar-url="item?.opponentProfile?.avatar_url"
-            size="sm"
-          />
-          <p class="play-history-subline text-right">{{ item?.opponentDeck?.leader_name ?? "Leader non disponibile" }}</p>
-          <p class="play-history-subline play-history-subline--muted text-right">{{ colorsLabel(item?.opponentDeck) }}</p>
-        </div>
-
-        <div class="play-history-leader-wrap">
-          <NuxtImg
-            v-if="item?.opponentDeck?.leader_image"
-            :src="item.opponentDeck.leader_image"
-            :alt="`Leader ${item.opponentDeck.leader_name ?? ''}`"
-            class="play-history-leader-image"
-            loading="lazy"
-          />
-          <div v-else class="play-history-leader-fallback">
-            <v-icon icon="mdi-help-circle-outline" size="20" />
+          <div class="play-history-row__avatar">
+            <img
+              v-if="opponentIdentity.avatarUrl && !opponentAvatarError"
+              :src="opponentIdentity.avatarUrl"
+              :alt="`Avatar di ${opponentIdentity.username}`"
+              class="play-history-row__avatar-image"
+              @error="handleOpponentAvatarError"
+            />
+            <span v-else class="play-history-row__avatar-fallback">{{ opponentIdentity.initial }}</span>
           </div>
         </div>
+
+        <p class="play-history-row__deck play-history-row__deck--right">{{ getDeckLabel(opponentDeck) }}</p>
       </div>
+
+      <div class="play-history-row__vs">VS</div>
     </div>
-
-    <p class="play-history-date">{{ createdAtLabel }}</p>
-  </article>
+  </button>
 </template>
 
 <style scoped>
-.play-history-card {
-  border: 1px solid rgba(255, 255, 255, 0.12);
+.play-history-row {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: 1.05rem;
-  background: linear-gradient(140deg, rgba(15, 23, 42, 0.8), rgba(2, 6, 23, 0.88));
-  box-shadow:
-    0 16px 30px rgba(0, 0, 0, 0.45),
-    inset 0 1px 0 rgba(255, 255, 255, 0.1);
-  padding: 0.62rem;
+  text-align: left;
+  padding: 0.52rem 0.6rem 0.28rem;
+  transition:
+    transform 160ms ease,
+    border-color 160ms ease,
+    filter 160ms ease;
 }
 
-.play-history-side {
+.play-history-row:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.03);
+}
+
+.play-history-row:focus-visible {
+  outline: none;
+  transform: translateY(-1px);
+  border-color: rgba(255, 255, 255, 0.42);
+  box-shadow:
+    0 0 0 2px rgba(255, 255, 255, 0.22),
+    0 10px 22px rgba(0, 0, 0, 0.28);
+}
+
+.play-history-row--win {
+  background: linear-gradient(135deg, rgba(22, 163, 74, 0.44), rgba(20, 83, 45, 0.56));
+}
+
+.play-history-row--loss {
+  background: linear-gradient(135deg, rgba(220, 38, 38, 0.43), rgba(127, 29, 29, 0.58));
+}
+
+.play-history-row--invalid {
+  background: linear-gradient(135deg, rgba(71, 85, 105, 0.5), rgba(30, 41, 59, 0.62));
+}
+
+.play-history-row__content {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.45rem;
+  align-items: stretch;
+}
+
+.play-history-row__side {
+  min-width: 0;
+  border-radius: 0.86rem;
+  padding: 0.38rem 0.45rem;
+}
+
+.play-history-row__side--challenger {
+  padding-right: 1.32rem;
+}
+
+.play-history-row__side--opponent {
+  padding-left: 1.32rem;
+}
+
+.play-history-row__identity {
   display: flex;
   align-items: center;
-  gap: 0.52rem;
+  gap: 0.4rem;
   min-width: 0;
 }
 
-.play-history-side--right {
+.play-history-row__identity--right {
   justify-content: flex-end;
 }
 
-.play-history-leader-wrap {
-  width: 3.35rem;
-  min-width: 3.35rem;
-  aspect-ratio: 2/3;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  border-radius: 0.62rem;
+.play-history-row__avatar {
+  width: 1.7rem;
+  height: 1.7rem;
+  border-radius: 9999px;
   overflow: hidden;
-  background: rgba(15, 23, 42, 0.78);
+  border: 2px solid rgba(248, 250, 252, 0.8);
+  background: rgba(15, 23, 42, 0.8);
+  display: grid;
+  place-content: center;
+  flex: 0 0 auto;
 }
 
-.play-history-leader-image {
+.play-history-row__avatar-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.play-history-leader-fallback {
-  width: 100%;
-  height: 100%;
-  display: grid;
-  place-content: center;
-  color: rgba(148, 163, 184, 0.95);
+.play-history-row__avatar-fallback {
+  font-size: 0.64rem;
+  font-weight: 800;
+  color: rgba(241, 245, 249, 0.95);
 }
 
-.play-history-subline {
+.play-history-row__identity-copy {
+  min-width: 0;
+}
+
+.play-history-row__identity-copy--right {
+  text-align: right;
+}
+
+.play-history-row__name {
   margin: 0;
-  color: rgba(248, 250, 252, 0.88);
-  font-size: 0.66rem;
+  color: rgba(248, 250, 252, 0.95);
+  font-size: 0.78rem;
   font-weight: 700;
-  line-height: 1.15;
+  line-height: 1.1;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-.play-history-subline--muted {
-  color: rgba(148, 163, 184, 0.95);
+.play-history-row__tag {
+  margin: 0;
+  color: rgba(203, 213, 225, 0.85);
+  font-size: 0.56rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  line-height: 1.1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-.play-history-result {
-  width: 4.5rem;
-  min-width: 4.5rem;
-  height: 4.5rem;
+.play-history-row__vs {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 2rem;
+  height: 2rem;
   border-radius: 9999px;
-  border: 1px solid rgba(255, 255, 255, 0.24);
+  border: 1px solid rgba(255, 255, 255, 0.26);
+  background: rgba(15, 23, 42, 0.72);
   display: grid;
-  place-content: center;
-  text-align: center;
-  font-size: 0.78rem;
+  place-items: center;
+  color: rgba(248, 250, 252, 0.96);
+  font-size: 0.52rem;
   font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
-  padding: 0.3rem;
+  letter-spacing: 0.03em;
+  box-shadow:
+    0 6px 12px rgba(0, 0, 0, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.14);
 }
 
-.play-history-result--win {
-  background: linear-gradient(145deg, rgba(22, 163, 74, 0.9), rgba(20, 83, 45, 0.95));
-  color: rgba(236, 253, 245, 0.98);
-  box-shadow: 0 0 20px rgba(34, 197, 94, 0.28);
-}
-
-.play-history-result--loss {
-  background: linear-gradient(145deg, rgba(220, 38, 38, 0.9), rgba(127, 29, 29, 0.95));
-  color: rgba(254, 242, 242, 0.98);
-  box-shadow: 0 0 20px rgba(248, 113, 113, 0.28);
-}
-
-.play-history-result--invalid {
-  background: linear-gradient(145deg, rgba(71, 85, 105, 0.92), rgba(30, 41, 59, 0.95));
-  color: rgba(226, 232, 240, 0.98);
-  box-shadow: 0 0 20px rgba(148, 163, 184, 0.2);
-}
-
-.play-history-date {
-  margin: 0.5rem 0 0;
-  color: rgba(148, 163, 184, 0.92);
-  text-align: center;
-  font-size: 0.68rem;
+.play-history-row__deck {
+  color: rgba(241, 245, 249, 0.94);
+  font-size: 0.58rem;
   font-weight: 700;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  line-height: 1.18;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: left;
+  margin-left: 2rem;
+  text-overflow: ellipsis;
+}
+
+.play-history-row__deck--right {
+  text-align: right;
+  margin-left: 0;
+  margin-right: 2rem;
 }
 </style>

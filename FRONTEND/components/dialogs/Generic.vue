@@ -1,6 +1,5 @@
 <script setup>
 import { onMounted, onBeforeUnmount, getCurrentInstance } from "vue";
-import { onClickOutside } from "@vueuse/core";
 
 const props = defineProps({
   fromBottom: { type: Number, default: null },
@@ -45,10 +44,6 @@ function handleGlobalOpen(e) {
     closeDialog();
   }
 }
-
-onClickOutside(rootEl, () => {
-  closeDialog();
-});
 
 // ESC per chiudere
 function handleKeydown(e) {

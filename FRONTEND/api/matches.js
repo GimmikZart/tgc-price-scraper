@@ -1,4 +1,5 @@
 import { normalizeProfile } from "@/api/profiles";
+import { syncTournamentMatchFromClassicMatch } from "@/api/tournaments";
 
 export const MatchStatus = Object.freeze({
   Pending: "pending",
@@ -12,6 +13,7 @@ export const MatchStatus = Object.freeze({
 export const MatchResult = Object.freeze({
   Won: "won",
   Lost: "lost",
+  Draw: "draw",
 });
 
 export const MatchCancelReason = Object.freeze({
@@ -85,6 +87,7 @@ function normalizeMatchRow(row) {
     ...row,
     id: normalizeUuid(row.id),
     game: normalizeString(row.game) ?? DEFAULT_MATCH_GAME,
+    tournament_id: normalizeUuid(row.tournament_id),
     status: normalizeMatchStatus(row.status),
     challenger_id: normalizeUuid(row.challenger_id),
     opponent_id: normalizeUuid(row.opponent_id),
@@ -268,6 +271,7 @@ export async function createMatchInvite(payload = {}) {
   const { data: existingMatch, error: existingMatchError } = await client
     .from("matches")
     .select("*")
+    .is("tournament_id", null)
     .eq("game", game)
     .in("status", [MatchStatus.Pending, MatchStatus.Active])
     .or(
@@ -366,6 +370,7 @@ export async function fetchIncomingMatchInvites(options = {}) {
   const { data: matches = [], error } = await client
     .from("matches")
     .select("*")
+    .is("tournament_id", null)
     .eq("game", game)
     .eq("status", MatchStatus.Pending)
     .eq("opponent_id", userId)
@@ -502,18 +507,27 @@ export async function submitMatchResult(payload = {}) {
 
   if (challengerResult && opponentResult) {
     const nowIso = new Date().toISOString();
-    const isCoherent = (
+    const isWinLossCoherent = (
       (challengerResult === MatchResult.Won && opponentResult === MatchResult.Lost)
       || (challengerResult === MatchResult.Lost && opponentResult === MatchResult.Won)
     );
+    const isDrawCoherent = (
+      challengerResult === MatchResult.Draw
+      && opponentResult === MatchResult.Draw
+    );
+    const isCoherent = isWinLossCoherent || isDrawCoherent;
 
     updatePayload.status = isCoherent ? MatchStatus.Completed : MatchStatus.Invalid;
     updatePayload.completed_at = nowIso;
 
     if (isCoherent) {
-      updatePayload.winner_id = challengerResult === MatchResult.Won
-        ? normalizedCurrentMatch.challenger_id
-        : normalizedCurrentMatch.opponent_id;
+      if (isDrawCoherent) {
+        updatePayload.winner_id = null;
+      } else {
+        updatePayload.winner_id = challengerResult === MatchResult.Won
+          ? normalizedCurrentMatch.challenger_id
+          : normalizedCurrentMatch.opponent_id;
+      }
     }
   }
 
@@ -533,7 +547,30 @@ export async function submitMatchResult(payload = {}) {
   }
 
   const hydratedMatches = await hydrateMatchProfiles(client, [updatedMatch]);
-  return hydratedMatches[0] ?? normalizeMatchRow(updatedMatch);
+  const normalizedUpdatedMatch = hydratedMatches[0] ?? normalizeMatchRow(updatedMatch);
+
+  let tournamentSyncResult = null;
+  let tournamentSyncErrorMessage = null;
+
+  if (
+    normalizedUpdatedMatch?.tournament_id
+    && normalizedUpdatedMatch?.status === MatchStatus.Completed
+  ) {
+    try {
+      tournamentSyncResult = await syncTournamentMatchFromClassicMatch({
+        tournamentId: normalizedUpdatedMatch.tournament_id,
+        matchId: normalizedUpdatedMatch.id,
+      });
+    } catch (error) {
+      tournamentSyncErrorMessage = error?.message || "Risultato match salvato, ma sincronizzazione torneo non riuscita";
+    }
+  }
+
+  return {
+    ...normalizedUpdatedMatch,
+    tournament_sync: tournamentSyncResult,
+    tournament_sync_error: tournamentSyncErrorMessage,
+  };
 }
 
 export async function deleteMatchWithReason(payload = {}) {

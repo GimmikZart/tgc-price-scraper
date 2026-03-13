@@ -138,6 +138,7 @@ const canTerminateMatch = computed(() => {
 
 const canSaveWon = computed(() => canTerminateMatch.value && !isSavingResult.value);
 const canSaveLost = computed(() => canTerminateMatch.value && !isSavingResult.value);
+const canSaveDraw = computed(() => canTerminateMatch.value && !isSavingResult.value);
 const visibleActionButtonsCount = computed(() => {
   return [
     canRejectMatch.value,
@@ -204,15 +205,27 @@ const statusMessage = computed(() => {
   return "Match attivo.";
 });
 
+const isCompletedMatch = computed(() => matchRow.value?.status === MatchStatus.Completed);
+
+const myOutcomeBannerLabel = computed(() => {
+  if (!isCompletedMatch.value) return null;
+  if (myDeclaredResult.value === MatchResult.Won) return "Hai vinto";
+  if (myDeclaredResult.value === MatchResult.Lost) return "Hai perso";
+  if (myDeclaredResult.value === MatchResult.Draw) return "Pareggio";
+  return null;
+});
+
 const myResultLabel = computed(() => {
   if (myDeclaredResult.value === MatchResult.Won) return "Hai dichiarato: Vinto";
   if (myDeclaredResult.value === MatchResult.Lost) return "Hai dichiarato: Perso";
+  if (myDeclaredResult.value === MatchResult.Draw) return "Hai dichiarato: Pareggio";
   return "Risultato non ancora inserito";
 });
 
 const opponentResultLabel = computed(() => {
   if (opponentDeclaredResult.value === MatchResult.Won) return "Avversario: Vinto";
   if (opponentDeclaredResult.value === MatchResult.Lost) return "Avversario: Perso";
+  if (opponentDeclaredResult.value === MatchResult.Draw) return "Avversario: Pareggio";
   return "Avversario: risultato non inserito";
 });
 
@@ -437,6 +450,10 @@ async function saveResult(result) {
     matchRow.value = updatedMatch;
     resultDialogRef.value?.closeDialog?.();
 
+    if (updatedMatch?.tournament_sync_error) {
+      snackbar.addMessage(updatedMatch.tournament_sync_error, "warning");
+    }
+
     if (updatedMatch?.status === MatchStatus.Invalid) {
       snackbar.addMessage("Risultati discordanti: match segnato come non valida", "warning");
       return;
@@ -521,7 +538,19 @@ definePageMeta({
           <p class="play-room-status-card__title">Stato match</p>
           <p class="play-room-status-card__text">{{ statusMessage }}</p>
 
-          <div class="mt-2 space-y-1">
+          <p
+            v-if="myOutcomeBannerLabel"
+            class="play-room-result-banner"
+            :class="{
+              'play-room-result-banner--win': myDeclaredResult === MatchResult.Won,
+              'play-room-result-banner--loss': myDeclaredResult === MatchResult.Lost,
+              'play-room-result-banner--draw': myDeclaredResult === MatchResult.Draw,
+            }"
+          >
+            {{ myOutcomeBannerLabel }}
+          </p>
+
+          <div v-else class="mt-2 space-y-1">
             <p class="play-room-status-card__meta">{{ myResultLabel }}</p>
             <p class="play-room-status-card__meta">{{ opponentResultLabel }}</p>
           </div>
@@ -653,7 +682,7 @@ definePageMeta({
           Per terminare il match indica il tuo risultato.
         </p>
         <p class="play-room-dialog-subtext">
-          Il tuo avversario dovra inserire il risultato opposto o il match non sara ritenuto valido.
+          L'avversario dovra confermare un risultato coerente: opposto in caso di vittoria/sconfitta, uguale in caso di pareggio.
         </p>
       </template>
 
@@ -670,6 +699,15 @@ definePageMeta({
           @click="saveResult(MatchResult.Lost)"
         >
           Ho perso
+        </v-btn>
+        <v-btn
+          variant="flat"
+          class="play-room-dialog-draw"
+          :loading="isSavingResult"
+          :disabled="!canSaveDraw"
+          @click="saveResult(MatchResult.Draw)"
+        >
+          Pareggio
         </v-btn>
         <v-btn
           variant="flat"
@@ -737,6 +775,35 @@ definePageMeta({
   font-weight: 700;
 }
 
+.play-room-result-banner {
+  margin: 0.65rem 0 0;
+  border-radius: 0.7rem;
+  border: 1px solid transparent;
+  padding: 0.5rem 0.72rem;
+  text-align: center;
+  font-size: 0.86rem;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+}
+
+.play-room-result-banner--win {
+  border-color: rgba(134, 239, 172, 0.32);
+  background: linear-gradient(135deg, rgba(34, 197, 94, 0.3), rgba(22, 101, 52, 0.55));
+  color: rgba(220, 252, 231, 0.97);
+}
+
+.play-room-result-banner--loss {
+  border-color: rgba(252, 165, 165, 0.32);
+  background: linear-gradient(135deg, rgba(239, 68, 68, 0.3), rgba(153, 27, 27, 0.55));
+  color: rgba(254, 226, 226, 0.96);
+}
+
+.play-room-result-banner--draw {
+  border-color: rgba(253, 186, 116, 0.34);
+  background: linear-gradient(135deg, rgba(249, 115, 22, 0.3), rgba(154, 52, 18, 0.55));
+  color: rgba(255, 237, 213, 0.98);
+}
+
 .play-room-dialog-text {
   margin: 0;
   color: rgba(241, 245, 249, 0.92);
@@ -766,6 +833,12 @@ definePageMeta({
   border: 1px solid rgba(74, 222, 128, 0.32);
   background: linear-gradient(135deg, rgba(34, 197, 94, 0.88), rgba(21, 128, 61, 0.95));
   color: #f3fff7;
+}
+
+.play-room-dialog-draw {
+  border: 1px solid rgba(253, 186, 116, 0.34);
+  background: linear-gradient(135deg, rgba(249, 115, 22, 0.9), rgba(194, 65, 12, 0.95));
+  color: #fff7ed;
 }
 
 .play-room-hidden-dialog-trigger {

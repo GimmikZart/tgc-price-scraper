@@ -100,6 +100,10 @@ function inferOutcome(match) {
     return { label: "Persa", tone: "loss" };
   }
 
+  if (myResult === MatchResult.Draw) {
+    return { label: "Pareggio", tone: "draw" };
+  }
+
   return { label: "Non valida", tone: "invalid" };
 }
 

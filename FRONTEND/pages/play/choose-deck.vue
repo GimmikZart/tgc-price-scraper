@@ -1,5 +1,6 @@
 <script setup>
 import { fetchMatchById, selectMatchDeck } from "@/api/matches";
+import { joinTournament } from "@/api/tournaments";
 
 const route = useRoute();
 const router = useRouter();
@@ -23,6 +24,18 @@ const matchId = computed(() => {
   if (Array.isArray(rawId)) return String(rawId[0] ?? "");
   return String(rawId ?? "");
 });
+const tournamentId = computed(() => {
+  const rawId = route.query.tournamentId;
+  if (Array.isArray(rawId)) return String(rawId[0] ?? "");
+  return String(rawId ?? "");
+});
+const isTournamentEnrollmentMode = computed(() => Boolean(tournamentId.value));
+
+const pageLabel = computed(() => (
+  isTournamentEnrollmentMode.value
+    ? "Scegli mazzo torneo"
+    : "Scegli mazzo"
+));
 
 const userRole = computed(() => {
   if (!matchRow.value || !currentUserId.value) return null;
@@ -39,6 +52,10 @@ const userRole = computed(() => {
 });
 
 const confirmButtonLabel = computed(() => {
+  if (isTournamentEnrollmentMode.value) {
+    return "Iscriviti al torneo";
+  }
+
   if (userRole.value === "opponent") {
     return "Conferma scelta";
   }
@@ -61,26 +78,33 @@ function closeDialog() {
 async function loadPageData() {
   isLoading.value = true;
   loadError.value = null;
+  matchRow.value = null;
 
   try {
+    if (!currentUserId.value) {
+      throw new Error("Utente non autenticato");
+    }
+
+    const fetchedCloudDecks = await getAllCloud();
+    cloudDecks.value = Array.isArray(fetchedCloudDecks) ? fetchedCloudDecks : [];
+
+    if (isTournamentEnrollmentMode.value) {
+      if (!tournamentId.value) {
+        throw new Error("Torneo non valido");
+      }
+      return;
+    }
+
     if (!matchId.value) {
       throw new Error("Match non valido");
     }
 
-    const [fetchedMatch, fetchedCloudDecks] = await Promise.all([
-      fetchMatchById(matchId.value),
-      getAllCloud(),
-    ]);
-
+    const fetchedMatch = await fetchMatchById(matchId.value);
     if (!fetchedMatch) {
       throw new Error("Match non trovato");
     }
 
     matchRow.value = fetchedMatch;
-
-    if (!currentUserId.value) {
-      throw new Error("Utente non autenticato");
-    }
 
     const isParticipant = [fetchedMatch.challenger_id, fetchedMatch.opponent_id]
       .map((id) => String(id))
@@ -89,8 +113,6 @@ async function loadPageData() {
     if (!isParticipant) {
       throw new Error("Non puoi scegliere il mazzo per questo match");
     }
-
-    cloudDecks.value = Array.isArray(fetchedCloudDecks) ? fetchedCloudDecks : [];
   } catch (error) {
     loadError.value = error?.message || "Errore durante il caricamento dei dati";
     snackbar.addMessage(loadError.value, "error");
@@ -100,11 +122,27 @@ async function loadPageData() {
 }
 
 async function confirmDeckSelection() {
-  if (!selectedDeck.value || !matchId.value || isSavingDeck.value) return;
+  if (!selectedDeck.value || isSavingDeck.value) return;
 
   isSavingDeck.value = true;
 
   try {
+    if (isTournamentEnrollmentMode.value) {
+      await joinTournament({
+        tournamentId: tournamentId.value,
+        deck: selectedDeck.value,
+      });
+
+      closeDialog();
+      snackbar.addMessage("Iscrizione torneo completata", "success");
+      router.push(`/play/tournaments/${tournamentId.value}`);
+      return;
+    }
+
+    if (!matchId.value) {
+      throw new Error("Match non valido");
+    }
+
     await selectMatchDeck({
       matchId: matchId.value,
       deck: selectedDeck.value,
@@ -131,9 +169,13 @@ definePageMeta({
 
 <template>
   <section class="relative h-full">
-    <Toolbar label="Scegli mazzo" fixed back-button />
+    <Toolbar :label="pageLabel" fixed back-button />
 
     <div class="min-h-0 flex-1 overflow-y-auto px-3 pb-28 pt-2">
+      <p v-if="!isLoading && !loadError && isTournamentEnrollmentMode" class="choose-deck-context-hint">
+        Il mazzo scelto verra usato di default in tutti i match del torneo.
+      </p>
+
       <p v-if="isLoading" class="choose-deck-state-message">
         Caricamento mazzi cloud...
       </p>
@@ -204,6 +246,15 @@ definePageMeta({
 </template>
 
 <style scoped>
+.choose-deck-context-hint {
+  margin: 0 0 0.7rem;
+  color: rgba(254, 215, 170, 0.95);
+  font-size: 0.76rem;
+  font-weight: 700;
+  line-height: 1.3;
+  text-align: center;
+}
+
 .choose-deck-state-message {
   margin-top: 1rem;
   text-align: center;

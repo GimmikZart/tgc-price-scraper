@@ -14,7 +14,7 @@ import {
   CLOUD_INACTIVE_TAB_CLASS,
 } from "@/components/Tabs/styles";
 
-const OPEN_TAB = "open";
+const ALL_TAB = "all";
 const ACTIVE_TAB = "active";
 const HISTORY_TAB = "history";
 
@@ -24,7 +24,7 @@ const snackbar = useSnackbar();
 
 const isLoading = ref(true);
 const loadError = ref(null);
-const openTournaments = ref([]);
+const allTournaments = ref([]);
 const activeTournaments = ref([]);
 const historyTournaments = ref([]);
 const activeTab = ref(normalizeTab(route.query.tab));
@@ -61,18 +61,17 @@ const tabs = computed(() => {
     });
   }
 
-  visibleTabs.push(
-    {
-      label: "Aperti",
-      value: OPEN_TAB,
-      count: openTournaments.value.length,
-    },
-    {
-      label: "Storico",
-      value: HISTORY_TAB,
-      count: historyTournaments.value.length,
-    },
-  );
+  visibleTabs.push({
+    label: "Tutti",
+    value: ALL_TAB,
+    count: allTournaments.value.length,
+  });
+
+  visibleTabs.push({
+    label: "Storico",
+    value: HISTORY_TAB,
+    count: historyTournaments.value.length,
+  });
 
   return visibleTabs;
 });
@@ -80,9 +79,9 @@ const tabs = computed(() => {
 const visibleTabValues = computed(() => tabs.value.map((tab) => tab.value));
 
 const visibleTournaments = computed(() => {
-  if (activeTab.value === OPEN_TAB) return openTournaments.value;
   if (activeTab.value === ACTIVE_TAB) return activeTournaments.value;
-  return historyTournaments.value;
+  if (activeTab.value === HISTORY_TAB) return historyTournaments.value;
+  return allTournaments.value;
 });
 
 function normalizeTab(rawTab) {
@@ -90,11 +89,15 @@ function normalizeTab(rawTab) {
     ? String(rawTab[0] ?? "")
     : String(rawTab ?? "");
 
-  if ([OPEN_TAB, ACTIVE_TAB, HISTORY_TAB].includes(normalizedTab)) {
+  if (normalizedTab === "open") {
+    return ALL_TAB;
+  }
+
+  if ([ALL_TAB, ACTIVE_TAB, HISTORY_TAB].includes(normalizedTab)) {
     return normalizedTab;
   }
 
-  return OPEN_TAB;
+  return ALL_TAB;
 }
 
 function setActiveTab(tab) {
@@ -114,13 +117,42 @@ function normalizeFormatLabel(format) {
   return "-";
 }
 
+function normalizeGameLabel(game) {
+  const normalizedGame = String(game ?? "").trim();
+  if (!normalizedGame) return "Game";
+  if (normalizedGame === "one_piece") return "One Piece";
+
+  return normalizedGame
+    .split(/[_-]+/)
+    .filter(Boolean)
+    .map((token) => token.charAt(0).toUpperCase() + token.slice(1))
+    .join(" ");
+}
+
 function normalizeStatusLabel(status) {
-  if (status === TournamentStatus.Draft) return "Draft";
-  if (status === TournamentStatus.Open) return "Open";
-  if (status === TournamentStatus.Started) return "Started";
-  if (status === TournamentStatus.Completed) return "Completed";
-  if (status === TournamentStatus.Cancelled) return "Cancelled";
+  if (status === TournamentStatus.Draft) return "Bozza";
+  if (status === TournamentStatus.Open) return "Aperto";
+  if (status === TournamentStatus.Started) return "In corso";
+  if (status === TournamentStatus.Completed) return "Completato";
+  if (status === TournamentStatus.Cancelled) return "Annullato";
   return "-";
+}
+
+function normalizeHashtagLabel(label) {
+  const normalizedLabel = String(label ?? "")
+    .trim()
+    .replace(/[^a-zA-Z0-9\s_-]/g, "")
+    .replace(/[\s_-]+/g, "");
+
+  return normalizedLabel ? `#${normalizedLabel}` : "#Torneo";
+}
+
+function tournamentStatusChipClass(status) {
+  if (status === TournamentStatus.Open) return "tournament-card__status-chip--open";
+  if (status === TournamentStatus.Started) return "tournament-card__status-chip--started";
+  if (status === TournamentStatus.Completed) return "tournament-card__status-chip--completed";
+  if (status === TournamentStatus.Cancelled) return "tournament-card__status-chip--cancelled";
+  return "tournament-card__status-chip--draft";
 }
 
 function goToTournament(tournamentId) {
@@ -170,21 +202,18 @@ async function loadTournaments() {
   loadError.value = null;
 
   try {
-    const [openRows, myRows, joinedRows] = await Promise.all([
+    const [allRows, myRows, joinedRows] = await Promise.all([
       fetchTournaments({
-        statuses: [TournamentStatus.Draft, TournamentStatus.Open],
-        limit: 120,
+        limit: 500,
       }),
-      fetchMyTournaments({ organizerOnly: true, limit: 120 }),
-      fetchJoinedTournaments({ limit: 120 }),
+      fetchMyTournaments({ organizerOnly: true, limit: 200 }),
+      fetchJoinedTournaments({ limit: 200 }),
     ]);
 
-    const openPool = mergeTournamentsById(openRows ?? []);
+    const allPool = mergeTournamentsById(allRows ?? [], myRows ?? [], joinedRows ?? []);
     const privatePool = mergeTournamentsById(myRows ?? [], joinedRows ?? []);
 
-    openTournaments.value = openPool.filter((tournament) => {
-      return [TournamentStatus.Draft, TournamentStatus.Open].includes(tournament.status);
-    });
+    allTournaments.value = allPool;
     activeTournaments.value = privatePool.filter((tournament) => {
       return tournament.status === TournamentStatus.Started;
     });
@@ -256,7 +285,7 @@ watch(
   [activeTab, visibleTabValues],
   ([currentTab, availableTabs]) => {
     if (availableTabs.includes(currentTab)) return;
-    setActiveTab(availableTabs[0] ?? OPEN_TAB);
+    setActiveTab(availableTabs[0] ?? ALL_TAB);
   },
   { immediate: true },
 );
@@ -273,16 +302,18 @@ definePageMeta({
 
 <template>
   <section class="relative h-full">
-    <Toolbar label="Tornei" fixed back-button />
-
-    <div class="min-h-0 flex-1 overflow-y-auto px-3 pb-32 pt-2">
-      <div class="space-y-3 pb-2">
+    <Toolbar label="Tornei" fixed back-button>
+      <template #info>
         <TabsPlayMatchTabs
           :tabs="tabs"
           :active="activeTab"
           @change="setActiveTab"
         />
+      </template>
+    </Toolbar>
 
+    <div class="min-h-0 flex-1 overflow-y-auto px-3 pb-32 pt-2">
+      <div class="space-y-3 pb-2">
         <p v-if="isLoading" class="tournaments-state-message">
           Caricamento tornei...
         </p>
@@ -293,7 +324,7 @@ definePageMeta({
 
         <template v-else>
           <div
-            v-if="activeTab === OPEN_TAB && openTournaments.length === 0"
+            v-if="activeTab === ALL_TAB && allTournaments.length === 0"
             class="tournaments-state-message"
           >
             Nessun torneo disponibile.
@@ -310,7 +341,7 @@ definePageMeta({
             v-if="activeTab === HISTORY_TAB && historyTournaments.length === 0"
             class="tournaments-state-message"
           >
-            Nessun torneo nello storico.
+            Nessun torneo concluso nello storico.
           </div>
 
           <div class="space-y-2">
@@ -321,22 +352,47 @@ definePageMeta({
               class="tournament-card"
               @click="goToTournament(tournament.id)"
             >
-              <div>
-                <p class="tournament-card__title">{{ tournament.name }}</p>
-                <p class="tournament-card__meta">
-                  {{ normalizeFormatLabel(tournament.format) }}
-                  -
-                  {{ tournament.game }}
-                </p>
-                <p class="tournament-card__meta">
-                  Stato: {{ normalizeStatusLabel(tournament.status) }}
-                  -
-                  Partecipanti: {{ tournament.participants_count }} / {{ tournament.max_participants }}
-                </p>
-                <p class="tournament-card__meta">
-                  Organizer:
-                  {{ tournament.organizer_profile?.display_name ?? tournament.organizer_profile?.username ?? "-" }}
-                </p>
+              <div class="tournament-card__body">
+                <div class="tournament-card__identity">
+                  <UserIdentityHeader
+                    :username="tournament.organizer_profile?.display_name ?? tournament.organizer_profile?.username ?? 'Organizer'"
+                    :user-tag="tournament.organizer_profile?.user_tag ?? tournament.organizer_profile?.username ?? tournament.organizer_profile?.display_name"
+                    :avatar-url="tournament.organizer_profile?.avatar_url"
+                    size="sm"
+                    :navigable="false"
+                  />
+                </div>
+
+                <div class="tournament-card__content">
+                  <p class="tournament-card__title">{{ tournament.name }}</p>
+
+                  <div class="tournament-card__hashtags">
+                    <span class="tournament-card__hashtag">
+                      {{ normalizeHashtagLabel(normalizeGameLabel(tournament.game)) }}
+                    </span>
+                    <span class="tournament-card__hashtag">
+                      {{ normalizeHashtagLabel(normalizeFormatLabel(tournament.format)) }}
+                    </span>
+                  </div>
+                </div>
+
+                <div class="tournament-card__footer">
+                  <div class="tournament-card__participants">
+                    <span class="tournament-card__participants-label">Partecipanti</span>
+                    <span class="tournament-card__participants-value">
+                      {{ tournament.participants_count }} / {{ tournament.max_participants }}
+                    </span>
+                  </div>
+
+                  <span
+                    :class="[
+                      'tournament-card__status-chip',
+                      tournamentStatusChipClass(tournament.status),
+                    ]"
+                  >
+                    {{ normalizeStatusLabel(tournament.status) }}
+                  </span>
+                </div>
               </div>
             </button>
           </div>
@@ -441,45 +497,162 @@ definePageMeta({
   width: 100%;
   text-align: left;
   border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 0.95rem;
-  background: linear-gradient(145deg, rgba(15, 23, 42, 0.7), rgba(2, 6, 23, 0.84));
+  border-radius: 1.15rem;
+  background: rgba(8, 12, 20, 0.96);
   box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.08),
-    0 16px 26px rgba(0, 0, 0, 0.33);
-  padding: 0.72rem;
+    inset 0 1px 0 rgba(255, 255, 255, 0.04),
+    0 12px 24px rgba(0, 0, 0, 0.24);
+  padding: 0.88rem;
   transition:
     transform 160ms ease,
     border-color 160ms ease,
+    box-shadow 160ms ease,
     filter 160ms ease;
 }
 
 .tournament-card:hover {
   transform: translateY(-1px);
-  border-color: rgba(255, 157, 82, 0.45);
-  filter: brightness(1.02);
+  border-color: rgba(255, 255, 255, 0.18);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.05),
+    0 14px 28px rgba(0, 0, 0, 0.28);
+  filter: brightness(1.01);
 }
 
 .tournament-card:focus-visible {
   outline: none;
-  border-color: rgba(255, 216, 177, 0.52);
+  border-color: rgba(255, 255, 255, 0.24);
   box-shadow:
-    0 0 0 2px rgba(255, 216, 177, 0.22),
-    0 16px 26px rgba(0, 0, 0, 0.33);
+    0 0 0 2px rgba(255, 255, 255, 0.12),
+    0 12px 24px rgba(0, 0, 0, 0.24);
+}
+
+.tournament-card__body {
+  display: grid;
+  gap: 0.82rem;
+}
+
+.tournament-card__identity :deep(.user-identity) {
+  border-color: rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.04);
+  box-shadow: none;
+}
+
+.tournament-card__identity :deep(.user-identity-name) {
+  font-size: 0.88rem;
+}
+
+.tournament-card__identity :deep(.user-identity-tag) {
+  font-size: 0.6rem;
+}
+
+.tournament-card__content {
+  display: grid;
+  gap: 0.6rem;
 }
 
 .tournament-card__title {
   margin: 0;
   color: rgba(255, 245, 235, 0.98);
-  font-size: 0.9rem;
-  font-weight: 800;
+  font-size: 1.05rem;
+  font-weight: 900;
+  line-height: 1.1;
 }
 
-.tournament-card__meta {
-  margin: 0.3rem 0 0;
-  color: rgba(203, 213, 225, 0.92);
+.tournament-card__hashtags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.tournament-card__hashtag {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.85rem;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.03);
+  color: rgba(226, 232, 240, 0.92);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  padding: 0.34rem 0.72rem;
+}
+
+.tournament-card__footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+}
+
+.tournament-card__participants {
+  display: grid;
+  gap: 0.16rem;
+}
+
+.tournament-card__participants-label {
+  color: rgba(148, 163, 184, 0.9);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.tournament-card__participants-value {
+  color: rgba(248, 250, 252, 0.98);
+  font-size: 0.92rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.tournament-card__status-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  min-height: 2.25rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 0.95rem;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    0 12px 20px rgba(0, 0, 0, 0.2);
   font-size: 0.76rem;
-  font-weight: 600;
-  line-height: 1.3;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  padding: 0.5rem 0.92rem;
+  text-transform: uppercase;
+}
+
+.tournament-card__status-chip--draft {
+  background: rgba(51, 65, 85, 0.92);
+  border-color: rgba(148, 163, 184, 0.42);
+  color: rgba(241, 245, 249, 0.96);
+}
+
+.tournament-card__status-chip--open {
+  background: rgba(8, 47, 73, 0.94);
+  border-color: rgba(125, 211, 252, 0.5);
+  color: rgba(224, 242, 254, 0.98);
+}
+
+.tournament-card__status-chip--started {
+  background: rgba(120, 53, 15, 0.94);
+  border-color: rgba(252, 211, 77, 0.52);
+  color: rgba(255, 247, 237, 0.98);
+}
+
+.tournament-card__status-chip--completed {
+  background: rgba(20, 83, 45, 0.94);
+  border-color: rgba(134, 239, 172, 0.5);
+  color: rgba(240, 253, 244, 0.98);
+}
+
+.tournament-card__status-chip--cancelled {
+  background: rgba(127, 29, 29, 0.94);
+  border-color: rgba(252, 165, 165, 0.48);
+  color: rgba(255, 241, 242, 0.98);
 }
 
 .tournament-dialog-confirm {

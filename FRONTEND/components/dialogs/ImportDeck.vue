@@ -3,6 +3,7 @@ import { ref } from "vue";
 import { useRouter } from "vue-router";
 import { Icon } from "@iconify/vue";
 import { importDeckFromClipboard } from "@/utilities/deckImport.js";
+import { DeckLocation } from "~/enums/deckLocation";
 
 const formRef = ref(null);
 const { allCards } = await useOnePieceCards();
@@ -28,10 +29,11 @@ async function onConfirm() {
     isLoading.value = true;
     const slug = deckName.value.toLowerCase().replace(/\s+/g, "-");
     const deck = await importDeckFromClipboard(deckName.value, allCards);
+    deck.location = DeckLocation.DEVICE;
     await saveLocal(deck);
 
     // redirect alla pagina di editing
-    router.push(`/me/decks/${slug}?location=bozza`);
+    router.push(`/me/decks/${slug}?location=${DeckLocation.DEVICE}`);
   } catch (error) {
     console.log(error);
     

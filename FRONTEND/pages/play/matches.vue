@@ -368,7 +368,7 @@ definePageMeta({
             class="play-room-list-item"
             @click="goToMatchRoom(inviteMatch.id)"
           >
-            <PlayRoomParticipantCard
+            <IdentityAndDeck
               :profile="inviteMatch.inviterProfile"
               :deck="inviteMatch.inviterDeck"
               waiting-label="Lo sfidante deve scegliere il mazzo"
@@ -391,7 +391,7 @@ definePageMeta({
             class="play-room-list-item"
             @click="goToMatchRoom(inProgressMatch.id)"
           >
-            <PlayRoomParticipantCard
+            <IdentityAndDeck
               :profile="inProgressMatch.opponentProfile"
               :deck="inProgressMatch.opponentDeck"
               waiting-label="L'avversario deve scegliere il mazzo"

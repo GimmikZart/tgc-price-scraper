@@ -1,5 +1,5 @@
 import { useNuxtApp } from "#app";
-import { DeckLocation } from "~/enums/deckLocation";
+import { DeckLocation, normalizeDeckLocation } from "~/enums/deckLocation";
 import { useSnackbar } from "@/stores/useSnackbar";
 
 import {
@@ -8,7 +8,6 @@ import {
   saveDeckOnCloud,
   deleteDeckFromCloud
 } from "~/api/decks";
-import { toRaw } from "vue";
 
 export function useDeckManager() {
   const nuxt = useNuxtApp();
@@ -18,7 +17,7 @@ export function useDeckManager() {
   const userUuid = userAuth.userLogged.id;
 
   //
-  // BOZZA (IndexedDB via db)
+  // DEVICE (IndexedDB via db)
   //
   const saveLocal = async (deck) => {
     const plainDeck = JSON.parse(JSON.stringify(deck));
@@ -52,7 +51,7 @@ export function useDeckManager() {
   const getAllCloud = () => fetchUserDecks();
   const getCloud = (slug) => {
     const deck = fetchUserDeckCards(userUuid, slug);
-    if(!deck){
+    if (!deck) {
       const snackbar = useSnackbar();
       snackbar.addMessage(
         "Deck non trovato sul cloud.",
@@ -61,7 +60,7 @@ export function useDeckManager() {
     }
 
     return deck;
-  }
+  };
   const saveCloud = (deck) => saveDeckOnCloud(deck);
   const deleteCloud = (slug) => deleteDeckFromCloud(userUuid, slug);
 
@@ -73,23 +72,25 @@ export function useDeckManager() {
     await removeLocal(deck.slug);
   };
 
-  const createDraftFromCloud = async (slug) => {
+  const createDeviceCopyFromCloud = async (slug) => {
     const deck = await getCloud(slug);
     await saveLocal(deck);
     return deck;
   };
 
   const deleteDeck = async (slug, deckLocation) => {
-    // Rimuovo sia localmente che sul cloud
-    
-    if (deckLocation === DeckLocation.CLOUD) {
+    const normalizedDeckLocation = normalizeDeckLocation(deckLocation);
+
+    if (normalizedDeckLocation === DeckLocation.CLOUD) {
       await deleteCloud(slug);
       return;
-    } else if (deckLocation === DeckLocation.BOZZA) {
+    }
+
+    if (normalizedDeckLocation === DeckLocation.DEVICE) {
       await removeLocal(slug);
       return;
     }
-  }
+  };
 
   return {
     getAllLocal,
@@ -99,7 +100,7 @@ export function useDeckManager() {
     saveLocal,
     saveCloud,
     publish,
-    createDraftFromCloud,
+    createDeviceCopyFromCloud,
     removeLocal,
     deleteDeck
   };

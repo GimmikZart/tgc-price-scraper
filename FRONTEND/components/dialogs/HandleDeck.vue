@@ -2,6 +2,7 @@
 import { ref } from "vue";
 import { useRouter } from "vue-router";
 import { Icon } from "@iconify/vue";
+import { DeckLocation } from "~/enums/deckLocation";
 
 const formRef = ref(null);
 const snackbar = useSnackbar();
@@ -35,12 +36,13 @@ async function onConfirm() {
       leader: null,
       cards: [],
       visibility: "private",
+      location: DeckLocation.DEVICE,
     };
 
     await saveLocal(newDeck);
 
     // redirect alla pagina di editing
-    router.push(`/me/decks/edit/${slug}`);
+    router.push(`/me/decks/edit/${slug}?location=${DeckLocation.DEVICE}`);
   } catch (error) {
     snackbar.addMessage("Errore durante la creazione del mazzo", "error", error);
   } finally {

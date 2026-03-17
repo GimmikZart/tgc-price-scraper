@@ -1,6 +1,5 @@
 <script setup>
-import { Icon } from "@iconify/vue";
-import { DeckLocation, getDeckLocationLabel } from "~/enums/deckLocation";
+import { DeckLocation, getDeckLocationLabel, normalizeDeckLocation } from "~/enums/deckLocation";
 
 const props = defineProps({
   slug: { type: String, required: true },
@@ -8,7 +7,7 @@ const props = defineProps({
 const emits = defineEmits(["refresh"]);
 
 const route = useRoute();
-const deckLocation = ref(route.query.location);
+const deckLocation = computed(() => normalizeDeckLocation(route.query.location));
 const deckManager = useDeckManager();
 const snackbar = useSnackbar();
 const router = useRouter();
@@ -40,20 +39,18 @@ async function deleteDeck() {
 
       <template #title>
         <div class="whitespace-break-spaces">
-          Sei sicuro di voler cancellare il mazzo
-          <span 
-            :class="deckLocation == DeckLocation.BOZZA ? 
-                    'text-orange' 
-                    : 'text-green'"
-          > 
-            {{ getDeckLocationLabel(deckLocation) }} 
+          Sei sicuro di voler cancellare questo deck dal
+          <span
+            :class="deckLocation === DeckLocation.DEVICE ? 'text-orange' : 'text-green'"
+          >
+            {{ getDeckLocationLabel(deckLocation) }}
           </span>
           ?
         </div>
       </template>
 
       <template #content>
-        <p class="text-white">Poi non piangere se non posso ridartelo ( il processo è irreversibile).</p>
+        <p class="text-white">L'operazione e irreversibile.</p>
       </template>
     </DialogsGeneric>
   </div>

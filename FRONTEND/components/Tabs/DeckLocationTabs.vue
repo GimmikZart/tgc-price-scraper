@@ -1,5 +1,13 @@
 <script setup>
-import { Icon } from "@iconify/vue";
+import BaseTabs from "@/components/Tabs/BaseTabs.vue";
+import {
+  CLOUD_ACTIVE_BADGE_CLASS,
+  CLOUD_ACTIVE_TAB_CLASS,
+  GHOST_INACTIVE_BADGE_CLASS,
+  GHOST_INACTIVE_TAB_CLASS,
+  ORANGE_ACTIVE_BADGE_CLASS,
+  ORANGE_ACTIVE_TAB_CLASS,
+} from "@/components/Tabs/styles";
 
 const props = defineProps({
   tabs: {
@@ -14,45 +22,25 @@ const props = defineProps({
 
 const emit = defineEmits(["change"]);
 
-const isActive = (value) => value === props.active;
-const isCloudTab = (value) => `${value}`.toLowerCase() === "cloud";
+const resolvedTabs = computed(() => {
+  return props.tabs.map((tab) => {
+    const isCloudTab = `${tab?.value ?? ""}`.toLowerCase() === "cloud";
 
-const handleClick = (value) => {
-  if (value === props.active) return;
-  emit("change", value);
-};
+    return {
+      ...tab,
+      activeClass: isCloudTab ? CLOUD_ACTIVE_TAB_CLASS : ORANGE_ACTIVE_TAB_CLASS,
+      badgeActiveClass: isCloudTab ? CLOUD_ACTIVE_BADGE_CLASS : ORANGE_ACTIVE_BADGE_CLASS,
+    };
+  });
+});
 </script>
 
 <template>
-  <div class="flex w-full items-center gap-2 rounded-2xl border border-white/10 bg-slate-950/60 p-1 shadow-[inset_0_1px_0_rgba(255,255,255,0.08)] backdrop-blur">
-    <button
-      v-for="tab in tabs"
-      :key="tab.value"
-      type="button"
-      class="flex min-w-0 flex-1 items-center justify-center gap-2 rounded-xl border px-3 py-2 text-sm font-semibold transition-all duration-200"
-      :class="[
-        isActive(tab.value) && isCloudTab(tab.value)
-          ? 'border-emerald-300/50 bg-[#14532d] text-emerald-100 shadow-[0_0_18px_rgba(16,185,129,0.22),inset_0_1px_0_rgba(255,255,255,0.16)]'
-          : isActive(tab.value)
-            ? 'border-[#ffb27d]/45 bg-[#ff7a18]/20 text-[#ffd7b3] shadow-[0_0_20px_rgba(255,122,24,0.2),inset_0_1px_0_rgba(255,255,255,0.18)]'
-            : 'border-transparent bg-transparent text-slate-300/80 hover:border-white/10 hover:bg-white/5 hover:text-slate-100',
-      ]"
-      @click="handleClick(tab.value)"
-    >
-      <Icon :icon="tab.icon" class="text-base shrink-0" />
-      <span class="truncate">{{ tab.label }}</span>
-      <span
-        class="rounded-full border px-2 py-0.5 text-[11px] leading-none"
-        :class="[
-          isActive(tab.value) && isCloudTab(tab.value)
-            ? 'border-emerald-200/50 bg-[#166534] text-emerald-100'
-            : isActive(tab.value)
-              ? 'border-[#ffd4aa]/50 bg-[#ff7a18]/25 text-[#ffe0c2]'
-              : 'border-white/15 bg-white/5 text-slate-300/80',
-        ]"
-      >
-        {{ tab.count }}
-      </span>
-    </button>
-  </div>
+  <BaseTabs
+    :tabs="resolvedTabs"
+    :active="active"
+    :inactive-class="GHOST_INACTIVE_TAB_CLASS"
+    :badge-inactive-class="GHOST_INACTIVE_BADGE_CLASS"
+    @change="emit('change', $event)"
+  />
 </template>

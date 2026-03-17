@@ -11,19 +11,15 @@ import TournamentsIcon from "@/components/Navbar/icons/TournamentsIcon.vue";
 import MatchesIcon from "@/components/Navbar/icons/MatchesIcon.vue";
 import StatsIcon from "@/components/Navbar/icons/StatsIcon.vue";
 import MetaIcon from "@/components/Navbar/icons/MetaIcon.vue";
-import SoonIcon from "@/components/Navbar/icons/SoonIcon.vue";
-import ClubsIcon from "@/components/Navbar/icons/ClubsIcon.vue";
 import FriendsIcon from "@/components/Navbar/icons/FriendsIcon.vue";
 import ProfileIcon from "@/components/Navbar/icons/ProfileIcon.vue";
-import PersonalModeIcon from "@/components/Navbar/icons/PersonalModeIcon.vue";
 import MarketModeIcon from "@/components/Navbar/icons/MarketModeIcon.vue";
 import PlayModeIcon from "@/components/Navbar/icons/PlayModeIcon.vue";
-import SocialModeIcon from "@/components/Navbar/icons/SocialModeIcon.vue";
 
 const SECTION_COLLECTION = "collection";
 const SECTION_MARKET = "market";
 const SECTION_PLAY = "play";
-const SECTION_SOCIAL = "social";
+const SECTION_PROFILE = "profile";
 const BUY_CARDS_PATH = "/community/buy-cards";
 const OFFERS_PATH = "/community/offers";
 const DOT_ARC_START_ANGLE = -76;
@@ -36,13 +32,14 @@ const route = useRoute();
 const router = useRouter();
 const globalSettings = useGlobalSettings();
 const { height } = useElementBounding(nav);
-const isModeSwitching = ref(false);
+const isSectionNavigating = ref(false);
+const isSectionMenuOpen = ref(false);
 
 const navSections = [
   {
     key: SECTION_COLLECTION,
-    centerLabel: "Io",
-    centerIcon: PersonalModeIcon,
+    centerLabel: "Collezione",
+    centerIcon: CollectionIcon,
     items: [
       { key: "collection-search", to: "/me/cards", label: "Cerca", icon: SearchCardsIcon },
       { key: "collection-main", to: "/me/collection", label: "Collezione", icon: CollectionIcon },
@@ -58,7 +55,7 @@ const navSections = [
       { key: "market-buy", to: "/community/buy-cards", label: "Compra", icon: SearchCardsIcon },
       { key: "market-sell", to: "/community/sell-cards", label: "Vendi", icon: SellCardsIcon },
       { key: "market-trades", label: "Scambi", icon: TradesIcon, disabled: true },
-      { key: "market-activity", label: "Attività", icon: ActivityIcon, disabled: true },
+      { key: "market-activity", label: "Attivita", icon: ActivityIcon, disabled: true },
     ],
   },
   {
@@ -73,14 +70,14 @@ const navSections = [
     ],
   },
   {
-    key: SECTION_SOCIAL,
-    centerLabel: "Social",
-    centerIcon: SocialModeIcon,
+    key: SECTION_PROFILE,
+    centerLabel: "Profilo",
+    centerIcon: ProfileIcon,
     items: [
-      { key: "social-activity", label: "Attivita", icon: ActivityIcon, disabled: true },
-      { key: "social-clubs", label: "Club", icon: ClubsIcon, disabled: true },
-      { key: "social-friends", to: "/community/friends", label: "Amici", icon: FriendsIcon },
-      { key: "social-profile", to: "/me/profile", label: "Profilo", icon: ProfileIcon },
+      { key: "profile-dashboard", label: "Dashboard", icon: StatsIcon, disabled: true },
+      { key: "profile-main", to: "/me/profile", label: "Profilo", icon: ProfileIcon },
+      { key: "profile-friends", to: "/community/friends", label: "Amici", icon: FriendsIcon },
+      { key: "profile-notifications", label: "Notifiche", icon: ActivityIcon, disabled: true },
     ],
   },
 ];
@@ -115,20 +112,34 @@ const getSectionFromPath = (path) => {
   return findSectionByPath(path)?.key ?? SECTION_COLLECTION;
 };
 
+const getItemByKey = (sectionKey, itemKey) => {
+  const items = navItemsBySection[sectionKey] ?? [];
+  return items.find((item) => item.key === itemKey) ?? null;
+};
+
 const getFirstEnabledItem = (sectionKey) => {
   const sectionItems = navItemsBySection[sectionKey] ?? [];
   return sectionItems.find((item) => !item.disabled && !!item.to) ?? null;
 };
 
-const currentSectionKey = useState("mobile-nav-section-v2", () => getSectionFromPath(route.path));
-const visualActiveItemKey = useState("mobile-nav-active-item-v2", () => {
+const getFallbackItem = (sectionKey) => {
+  return getFirstEnabledItem(sectionKey)
+    ?? (navItemsBySection[sectionKey] ?? [])[0]
+    ?? null;
+};
+
+const currentSectionKey = useState("mobile-nav-section-v3", () => getSectionFromPath(route.path));
+const visualActiveItemKey = useState("mobile-nav-active-item-v3", () => {
   const detectedSectionKey = getSectionFromPath(route.path);
   const currentMatch = findMatchBySection(detectedSectionKey, route.path);
-  const fallbackItem = getFirstEnabledItem(detectedSectionKey)
-    ?? (navItemsBySection[detectedSectionKey] ?? [])[0]
-    ?? null;
+  const fallbackItem = getFallbackItem(detectedSectionKey);
   return currentMatch?.key ?? fallbackItem?.key ?? null;
 });
+const lastVisitedItemKeyBySection = useState("mobile-nav-last-section-items-v2", () =>
+  Object.fromEntries(
+    navSections.map((section) => [section.key, getFallbackItem(section.key)?.key ?? null]),
+  ),
+);
 
 const currentSectionItems = computed(() => navItemsBySection[currentSectionKey.value] ?? navItemsBySection[SECTION_COLLECTION]);
 const sideSlots = computed(() => [
@@ -152,14 +163,13 @@ const normalizedCurrentSectionIndex = computed(() => {
   return currentSectionIndex.value >= 0 ? currentSectionIndex.value : 0;
 });
 
-const toggleTargetSection = computed(() => {
-  const sourceIndex = currentSectionIndex.value >= 0 ? currentSectionIndex.value : 0;
-  const targetIndex = (sourceIndex + 1) % navSections.length;
-  return navSections[targetIndex];
-});
-
 const toggleLabel = computed(() => currentSection.value.centerLabel);
 const toggleIcon = computed(() => currentSection.value.centerIcon);
+const centerButtonAriaLabel = computed(() => {
+  return isSectionMenuOpen.value ? "Chiudi menu sezioni" : "Apri menu sezioni";
+});
+const sectionMenuBackdropBottom = computed(() => Math.max(globalSettings.navbarHeight + 1, 0));
+const sectionMenuPanelBottom = computed(() => Math.max(globalSettings.navbarHeight + 20, 0));
 
 const centerLabelTextClass = computed(() => {
   const labelLength = toggleLabel.value?.length ?? 0;
@@ -172,6 +182,44 @@ const centerLabelTextClass = computed(() => {
   }
   return "text-[8.5px] tracking-[0.05em]";
 });
+
+const sectionMenuEntries = computed(() => {
+  return navSections.map((section) => ({
+    ...section,
+    isCurrent: section.key === currentSectionKey.value,
+    targetItem: getSectionTargetItem(section.key),
+  }));
+});
+
+function rememberSectionItem(sectionKey, itemKey) {
+  if (!sectionKey || !itemKey) return;
+  if (lastVisitedItemKeyBySection.value?.[sectionKey] === itemKey) return;
+
+  lastVisitedItemKeyBySection.value = {
+    ...lastVisitedItemKeyBySection.value,
+    [sectionKey]: itemKey,
+  };
+}
+
+function getSectionTargetItem(sectionKey) {
+  const rememberedItemKey = lastVisitedItemKeyBySection.value?.[sectionKey];
+  const rememberedItem = getItemByKey(sectionKey, rememberedItemKey);
+
+  if (rememberedItem && !rememberedItem.disabled && rememberedItem.to) {
+    return rememberedItem;
+  }
+
+  return getFallbackItem(sectionKey);
+}
+
+function closeSectionMenu() {
+  isSectionMenuOpen.value = false;
+}
+
+function toggleSectionMenu() {
+  if (isSectionNavigating.value) return;
+  isSectionMenuOpen.value = !isSectionMenuOpen.value;
+}
 
 function getSectionDotStyle(index, total) {
   const safeTotal = Math.max(total, 1);
@@ -216,26 +264,38 @@ const isCurrentRouteItem = (item) => {
 const selectItem = (item) => {
   if (!item || item.disabled || !item.to) return;
   visualActiveItemKey.value = item.key;
+  rememberSectionItem(currentSectionKey.value, item.key);
+  closeSectionMenu();
 };
 
-const toggleMode = async () => {
-  if (isModeSwitching.value) return;
+const selectSection = async (section) => {
+  if (!section || isSectionNavigating.value) return;
 
-  const nextSection = toggleTargetSection.value;
-  const nextSectionFirstItem = getFirstEnabledItem(nextSection.key) ?? nextSection.items[0];
+  const targetItem = getSectionTargetItem(section.key);
 
-  isModeSwitching.value = true;
-  currentSectionKey.value = nextSection.key;
-  visualActiveItemKey.value = nextSectionFirstItem?.key ?? null;
+  closeSectionMenu();
+
+  if (!targetItem?.to) return;
+
+  currentSectionKey.value = section.key;
+  visualActiveItemKey.value = targetItem.key;
+  rememberSectionItem(section.key, targetItem.key);
+
+  if (isRouteMatch(route.path, targetItem)) return;
+
+  isSectionNavigating.value = true;
 
   try {
-    if (nextSectionFirstItem?.to && !isRouteMatch(route.path, nextSectionFirstItem)) {
-      await router.push(nextSectionFirstItem.to);
-    }
+    await router.push(targetItem.to);
   } finally {
-    isModeSwitching.value = false;
+    isSectionNavigating.value = false;
   }
 };
+
+function handleWindowKeydown(event) {
+  if (event.key !== "Escape") return;
+  closeSectionMenu();
+}
 
 watch(
   height,
@@ -248,6 +308,8 @@ watch(
 watch(
   () => route.path,
   (path) => {
+    closeSectionMenu();
+
     const routeSection = findSectionByPath(path);
     if (!routeSection) return;
 
@@ -256,7 +318,13 @@ watch(
     const modeAwareMatch = findMatchBySection(routeSection.key, path);
     if (modeAwareMatch) {
       visualActiveItemKey.value = modeAwareMatch.key;
+      rememberSectionItem(routeSection.key, modeAwareMatch.key);
+      return;
     }
+
+    const fallbackItem = getFallbackItem(routeSection.key);
+    visualActiveItemKey.value = fallbackItem?.key ?? null;
+    rememberSectionItem(routeSection.key, fallbackItem?.key ?? null);
   },
   { immediate: true },
 );
@@ -266,119 +334,193 @@ watch(currentSectionKey, (sectionKey) => {
   const hasVisibleActiveItem = visibleItems.some((item) => item.key === visualActiveItemKey.value);
   if (hasVisibleActiveItem) return;
 
-  const fallbackItem = getFirstEnabledItem(sectionKey) ?? visibleItems[0] ?? null;
+  const fallbackItem = getSectionTargetItem(sectionKey) ?? visibleItems[0] ?? null;
   visualActiveItemKey.value = fallbackItem?.key ?? null;
+  rememberSectionItem(sectionKey, fallbackItem?.key ?? null);
+});
+
+onMounted(() => {
+  window.addEventListener("keydown", handleWindowKeydown);
+});
+
+onBeforeUnmount(() => {
+  window.removeEventListener("keydown", handleWindowKeydown);
 });
 </script>
 
 <template>
-  <nav
-    ref="nav"
-    class="fixed inset-x-0 bottom-0 z-[1000] flex justify-center pb-[max(env(safe-area-inset-bottom),0px)]"
-  >
-    <div
-      class="w-full max-w-[520px] border border-white/15 bg-slate-950/70 shadow-[0_22px_48px_rgba(0,0,0,0.6),inset_0_1px_0_rgba(255,255,255,0.16)] backdrop-blur-2xl"
-    >
-      <div class="relative grid h-[86px] grid-cols-5 items-end gap-0 px-2 pb-2 pt-1">
-        <div class="pointer-events-none absolute bottom-2 left-2 right-2">
-          <div
-            class="w-1/5 transition-transform duration-300 ease-out"
-            :style="{ transform: `translateX(${activeColumnIndex * 100}%)` }"
-          >
-            <div class="mx-auto h-[3px] w-8 rounded-full bg-[#ff7a18]" />
-          </div>
-        </div>
+  <div>
+    <Transition name="section-menu-backdrop">
+      <button
+        v-if="isSectionMenuOpen"
+        type="button"
+        class="fixed inset-x-0 top-0 z-[1005] bg-[rgba(3,6,13,0.52)] backdrop-blur-[12px]"
+        :style="{ bottom: `${sectionMenuBackdropBottom}px` }"
+        aria-label="Chiudi menu sezioni"
+        @click="closeSectionMenu"
+      ></button>
+    </Transition>
 
+    <div
+      class="pointer-events-none fixed inset-x-0 z-[1015] flex justify-center px-3"
+      :style="{ bottom: `${sectionMenuPanelBottom}px` }"
+    >
+      <Transition name="section-menu-panel">
         <div
-          v-for="slot in leftSlots"
-          :key="slot.id"
-          class="relative h-full overflow-hidden"
+          v-if="isSectionMenuOpen"
+          role="menu"
+          aria-label="Sezioni app"
+          class="pointer-events-auto w-full max-w-[340px] rounded-[30px] border border-white/12 bg-[rgba(9,15,28,0.92)] p-2 shadow-[0_28px_65px_rgba(0,0,0,0.62),inset_0_1px_0_rgba(255,255,255,0.14)] backdrop-blur-2xl"
+          @click.stop
         >
-          <Transition name="nav-item-slide">
+          <div class="grid gap-2">
             <button
-              v-if="slot.item.disabled"
-              :key="`${currentSectionKey}-${slot.item.key}`"
+              v-for="section in sectionMenuEntries"
+              :key="`section-menu-${section.key}`"
               type="button"
-              class="group absolute inset-0 flex flex-col items-center justify-center gap-1 rounded-2xl pb-2 text-slate-500/70 transition-all duration-200 ease-out"
-              disabled
-              aria-disabled="true"
+              role="menuitem"
+              class="group flex w-full items-center gap-3 rounded-2xl border px-4 py-3 text-left transition-all duration-200 ease-out disabled:cursor-not-allowed disabled:opacity-45"
+              :class="section.isCurrent
+                ? 'border-[#ff9d52]/45 bg-[linear-gradient(135deg,rgba(255,122,24,0.24),rgba(255,122,24,0.08))] text-[#fff1e4] shadow-[0_16px_30px_rgba(255,122,24,0.16)]'
+                : 'border-white/10 bg-white/[0.03] text-slate-200/85 hover:border-white/20 hover:bg-white/[0.05] hover:text-white'"
+              :disabled="isSectionNavigating || !section.targetItem?.to"
+              @click="selectSection(section)"
             >
               <span
-                class="relative flex h-9 w-9 items-center justify-center rounded-xl transition-all duration-200 ease-out"
+                class="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl border border-white/10 bg-slate-950/65 transition-all duration-200 ease-out"
+                :class="section.isCurrent
+                  ? 'text-[#ffb27d] shadow-[0_0_24px_rgba(255,122,24,0.24)]'
+                  : 'text-slate-300/85 group-hover:text-[#ffd1a9]'"
               >
                 <component
-                  :is="slot.item.icon"
-                  :active="false"
+                  :is="section.centerIcon"
+                  active
                   class="h-6 w-6"
                 />
               </span>
 
-              <span class="text-[10px] font-medium leading-none tracking-wide opacity-70">
-                {{ slot.item.label }}
+              <span class="min-w-0 flex-1">
+                <span class="block truncate text-[13px] font-semibold uppercase tracking-[0.14em]">
+                  {{ section.centerLabel }}
+                </span>
+              </span>
+
+              <span
+                class="inline-flex min-w-[62px] items-center justify-center rounded-full border px-2.5 py-1 text-[9px] font-semibold uppercase tracking-[0.16em] transition-colors duration-200"
+                :class="section.isCurrent
+                  ? 'border-[#ffb27d]/35 bg-[#ff7a18]/14 text-[#ffd7b6]'
+                  : 'border-white/10 bg-black/20 text-slate-400/80 group-hover:border-white/20 group-hover:text-slate-200/85'"
+              >
+                {{ section.isCurrent ? "Attuale" : "Apri" }}
               </span>
             </button>
-
-            <NuxtLink
-              v-else
-              :key="`${currentSectionKey}-${slot.item.key}`"
-              :to="slot.item.to"
-              class="group absolute inset-0 flex flex-col items-center justify-center gap-1 rounded-2xl pb-2 transition-all duration-200 ease-out"
-              :class="isVisualActiveItem(slot.item)
-                ? 'text-[#ff9d52]'
-                : 'text-slate-200/70 hover:text-slate-100/90'"
-              :aria-current="isCurrentRouteItem(slot.item) ? 'page' : undefined"
-              @click="selectItem(slot.item)"
-            >
-              <span
-                class="relative flex h-9 w-9 items-center justify-center rounded-xl transition-all duration-200 ease-out"
-                :class="isVisualActiveItem(slot.item)
-                  ? 'scale-105'
-                  : 'scale-100 bg-transparent group-hover:bg-white/5'"
-              >
-                <component
-                  :is="slot.item.icon"
-                  :active="isVisualActiveItem(slot.item)"
-                  class="h-6 w-6"
-                />
-              </span>
-
-              <span
-                class="text-[10px] font-medium leading-none tracking-wide transition-all duration-200 ease-out"
-                :class="isVisualActiveItem(slot.item) ? 'opacity-100 text-[#ffd1a9]' : 'opacity-70'"
-              >
-                {{ slot.item.label }}
-              </span>
-            </NuxtLink>
-          </Transition>
+          </div>
         </div>
+      </Transition>
+    </div>
 
-        <div class="relative flex h-full items-start justify-center">
-          <button
-            type="button"
-            class="mode-toggle-button group relative flex h-[66px] w-[66px] flex-col items-center justify-center rounded-full border border-[#ff7a18] bg-slate-900 text-[#ffd1a9] transition-all duration-200 ease-out hover:scale-[1.03] hover:border-[#ff7a18] disabled:cursor-wait disabled:opacity-95"
-            :disabled="isModeSwitching"
-            @click="toggleMode"
-          >
-            <span class="pointer-events-none absolute inset-0 rounded-full bg-gradient-to-b from-[#ff9d52]/28 to-[#ff7a18]/10" />
-            <div class="mode-dots" aria-hidden="true">
-              <span
-                v-for="(section, index) in navSections"
-                :key="`mode-dot-${section.key}`"
-                class="mode-dot"
-                :class="{ 'mode-dot--active': index === normalizedCurrentSectionIndex }"
-                :style="getSectionDotStyle(index, navSections.length)"
-              />
+    <nav
+      ref="nav"
+      class="fixed inset-x-0 bottom-0 z-[1010] flex justify-center pb-[max(env(safe-area-inset-bottom),0px)]"
+    >
+      <div
+        class="w-full max-w-[520px] border border-white/15 bg-slate-950/70 shadow-[0_22px_48px_rgba(0,0,0,0.6),inset_0_1px_0_rgba(255,255,255,0.16)] backdrop-blur-2xl"
+      >
+        <div class="relative grid h-[86px] grid-cols-5 items-end gap-0 px-2 pb-2 pt-1">
+          <div class="pointer-events-none absolute bottom-2 left-2 right-2">
+            <div
+              class="w-1/5 transition-transform duration-300 ease-out"
+              :style="{ transform: `translateX(${activeColumnIndex * 100}%)` }"
+            >
+              <div class="mx-auto h-[3px] w-8 rounded-full bg-[#ff7a18]" />
             </div>
-            <template v-if="isModeSwitching">
-              <span class="relative flex h-7 w-7 items-center justify-center">
-                <span class="h-6 w-6 animate-spin rounded-full border-2 border-[#ffd9b8]/30 border-t-[#ffd9b8]" />
-              </span>
-              <span class="relative mt-0.5 text-[10px] font-semibold uppercase tracking-[0.08em]">
-                Cambio
-              </span>
-            </template>
+          </div>
 
-            <template v-else>
+          <div
+            v-for="slot in leftSlots"
+            :key="slot.id"
+            class="relative h-full overflow-hidden"
+          >
+            <Transition name="nav-item-slide">
+              <button
+                v-if="slot.item.disabled"
+                :key="`${currentSectionKey}-${slot.item.key}`"
+                type="button"
+                class="group absolute inset-0 flex flex-col items-center justify-center gap-1 rounded-2xl pb-2 text-slate-500/70 transition-all duration-200 ease-out"
+                disabled
+                aria-disabled="true"
+              >
+                <span
+                  class="relative flex h-9 w-9 items-center justify-center rounded-xl transition-all duration-200 ease-out"
+                >
+                  <component
+                    :is="slot.item.icon"
+                    :active="false"
+                    class="h-6 w-6"
+                  />
+                </span>
+
+                <span class="text-[10px] font-medium leading-none tracking-wide opacity-70">
+                  {{ slot.item.label }}
+                </span>
+              </button>
+
+              <NuxtLink
+                v-else
+                :key="`${currentSectionKey}-${slot.item.key}`"
+                :to="slot.item.to"
+                class="group absolute inset-0 flex flex-col items-center justify-center gap-1 rounded-2xl pb-2 transition-all duration-200 ease-out"
+                :class="isVisualActiveItem(slot.item)
+                  ? 'text-[#ff9d52]'
+                  : 'text-slate-200/70 hover:text-slate-100/90'"
+                :aria-current="isCurrentRouteItem(slot.item) ? 'page' : undefined"
+                @click="selectItem(slot.item)"
+              >
+                <span
+                  class="relative flex h-9 w-9 items-center justify-center rounded-xl transition-all duration-200 ease-out"
+                  :class="isVisualActiveItem(slot.item)
+                    ? 'scale-105'
+                    : 'scale-100 bg-transparent group-hover:bg-white/5'"
+                >
+                  <component
+                    :is="slot.item.icon"
+                    :active="isVisualActiveItem(slot.item)"
+                    class="h-6 w-6"
+                  />
+                </span>
+
+                <span
+                  class="text-[10px] font-medium leading-none tracking-wide transition-all duration-200 ease-out"
+                  :class="isVisualActiveItem(slot.item) ? 'opacity-100 text-[#ffd1a9]' : 'opacity-70'"
+                >
+                  {{ slot.item.label }}
+                </span>
+              </NuxtLink>
+            </Transition>
+          </div>
+
+          <div class="relative flex h-full items-start justify-center">
+            <button
+              type="button"
+              class="mode-toggle-button group relative flex h-[66px] w-[66px] flex-col items-center justify-center rounded-full border border-[#ff7a18] bg-slate-900 text-[#ffd1a9] transition-all duration-200 ease-out hover:scale-[1.03] hover:border-[#ff7a18] disabled:cursor-wait disabled:opacity-95"
+              :class="{ 'mode-toggle-button--open': isSectionMenuOpen }"
+              :disabled="isSectionNavigating"
+              :aria-expanded="isSectionMenuOpen"
+              aria-haspopup="menu"
+              :aria-label="centerButtonAriaLabel"
+              @click="toggleSectionMenu"
+            >
+              <span class="pointer-events-none absolute inset-0 rounded-full bg-gradient-to-b from-[#ff9d52]/28 to-[#ff7a18]/10" />
+              <div class="mode-dots" aria-hidden="true">
+                <span
+                  v-for="(section, index) in navSections"
+                  :key="`mode-dot-${section.key}`"
+                  class="mode-dot"
+                  :class="{ 'mode-dot--active': index === normalizedCurrentSectionIndex }"
+                  :style="getSectionDotStyle(index, navSections.length)"
+                />
+              </div>
+
               <Transition name="center-swap" mode="out-in">
                 <component
                   :is="toggleIcon"
@@ -396,75 +538,75 @@ watch(currentSectionKey, (sectionKey) => {
                   {{ toggleLabel }}
                 </span>
               </Transition>
-            </template>
-          </button>
-        </div>
-
-        <div
-          v-for="slot in rightSlots"
-          :key="slot.id"
-          class="relative h-full overflow-hidden"
-        >
-          <Transition name="nav-item-slide">
-            <button
-              v-if="slot.item.disabled"
-              :key="`${currentSectionKey}-${slot.item.key}`"
-              type="button"
-              class="group absolute inset-0 flex flex-col items-center justify-center gap-1 rounded-2xl pb-2 text-slate-500/70 transition-all duration-200 ease-out"
-              disabled
-              aria-disabled="true"
-            >
-              <span
-                class="relative flex h-9 w-9 items-center justify-center rounded-xl transition-all duration-200 ease-out"
-              >
-                <component
-                  :is="slot.item.icon"
-                  :active="false"
-                  class="h-6 w-6"
-                />
-              </span>
-
-              <span class="text-[10px] font-medium leading-none tracking-wide opacity-70">
-                {{ slot.item.label }}
-              </span>
             </button>
+          </div>
 
-            <NuxtLink
-              v-else
-              :key="`${currentSectionKey}-${slot.item.key}`"
-              :to="slot.item.to"
-              class="group absolute inset-0 flex flex-col items-center justify-center gap-1 rounded-2xl pb-2 transition-all duration-200 ease-out"
-              :class="isVisualActiveItem(slot.item)
-                ? 'text-[#ff9d52]'
-                : 'text-slate-200/70 hover:text-slate-100/90'"
-              :aria-current="isCurrentRouteItem(slot.item) ? 'page' : undefined"
-              @click="selectItem(slot.item)"
-            >
-              <span
-                class="relative flex h-9 w-9 items-center justify-center rounded-xl transition-all duration-200 ease-out"
+          <div
+            v-for="slot in rightSlots"
+            :key="slot.id"
+            class="relative h-full overflow-hidden"
+          >
+            <Transition name="nav-item-slide">
+              <button
+                v-if="slot.item.disabled"
+                :key="`${currentSectionKey}-${slot.item.key}`"
+                type="button"
+                class="group absolute inset-0 flex flex-col items-center justify-center gap-1 rounded-2xl pb-2 text-slate-500/70 transition-all duration-200 ease-out"
+                disabled
+                aria-disabled="true"
+              >
+                <span
+                  class="relative flex h-9 w-9 items-center justify-center rounded-xl transition-all duration-200 ease-out"
+                >
+                  <component
+                    :is="slot.item.icon"
+                    :active="false"
+                    class="h-6 w-6"
+                  />
+                </span>
+
+                <span class="text-[10px] font-medium leading-none tracking-wide opacity-70">
+                  {{ slot.item.label }}
+                </span>
+              </button>
+
+              <NuxtLink
+                v-else
+                :key="`${currentSectionKey}-${slot.item.key}`"
+                :to="slot.item.to"
+                class="group absolute inset-0 flex flex-col items-center justify-center gap-1 rounded-2xl pb-2 transition-all duration-200 ease-out"
                 :class="isVisualActiveItem(slot.item)
-                  ? 'scale-105'
-                  : 'scale-100 bg-transparent group-hover:bg-white/5'"
+                  ? 'text-[#ff9d52]'
+                  : 'text-slate-200/70 hover:text-slate-100/90'"
+                :aria-current="isCurrentRouteItem(slot.item) ? 'page' : undefined"
+                @click="selectItem(slot.item)"
               >
-                <component
-                  :is="slot.item.icon"
-                  :active="isVisualActiveItem(slot.item)"
-                  class="h-6 w-6"
-                />
-              </span>
+                <span
+                  class="relative flex h-9 w-9 items-center justify-center rounded-xl transition-all duration-200 ease-out"
+                  :class="isVisualActiveItem(slot.item)
+                    ? 'scale-105'
+                    : 'scale-100 bg-transparent group-hover:bg-white/5'"
+                >
+                  <component
+                    :is="slot.item.icon"
+                    :active="isVisualActiveItem(slot.item)"
+                    class="h-6 w-6"
+                  />
+                </span>
 
-              <span
-                class="text-[10px] font-medium leading-none tracking-wide transition-all duration-200 ease-out"
-                :class="isVisualActiveItem(slot.item) ? 'opacity-100 text-[#ffd1a9]' : 'opacity-70'"
-              >
-                {{ slot.item.label }}
-              </span>
-            </NuxtLink>
-          </Transition>
+                <span
+                  class="text-[10px] font-medium leading-none tracking-wide transition-all duration-200 ease-out"
+                  :class="isVisualActiveItem(slot.item) ? 'opacity-100 text-[#ffd1a9]' : 'opacity-70'"
+                >
+                  {{ slot.item.label }}
+                </span>
+              </NuxtLink>
+            </Transition>
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </div>
 </template>
 
 <style scoped>
@@ -490,12 +632,38 @@ watch(currentSectionKey, (sectionKey) => {
   transform: scale(0.9);
 }
 
+.section-menu-backdrop-enter-active,
+.section-menu-backdrop-leave-active {
+  transition: opacity 220ms ease;
+}
+
+.section-menu-backdrop-enter-from,
+.section-menu-backdrop-leave-to {
+  opacity: 0;
+}
+
+.section-menu-panel-enter-active,
+.section-menu-panel-leave-active {
+  transition: opacity 240ms ease, transform 280ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.section-menu-panel-enter-from,
+.section-menu-panel-leave-to {
+  opacity: 0;
+  transform: translateY(20px) scale(0.96);
+}
+
 .mode-toggle-button {
   box-shadow: 0 0 0 0.2rem #ff7a18;
 }
 
 .mode-toggle-button:hover {
   box-shadow: 0 0 0 0.24rem #ff7a18;
+}
+
+.mode-toggle-button--open {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 0 0 0.24rem rgba(255, 157, 82, 0.95), 0 16px 34px rgba(255, 122, 24, 0.3);
 }
 
 .mode-dots {

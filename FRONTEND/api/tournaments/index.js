@@ -62,6 +62,7 @@ import {
   normalizeUuid,
   nowIso,
 } from "@/api/tournaments/utils";
+import { createSecretDeckSnapshot } from "@/utilities/deckPrivacy";
 
 export * from "@/api/tournaments/constants";
 
@@ -291,6 +292,15 @@ function resolveJoinDeckPayload(payload = {}) {
   }
 
   return candidateDeck;
+}
+
+function resolveAnonymousJoinChoice(payload = {}) {
+  return [
+    payload?.anonymousDeck,
+    payload?.anonymous_deck,
+    payload?.skipDeckSelection,
+    payload?.skip_deck_selection,
+  ].some((value) => value === true);
 }
 
 function applyDefaultDeckToMetadata(metadata, deckSnapshot) {
@@ -961,12 +971,15 @@ export async function joinTournament(payload = {}) {
   const tournamentId = assertTournamentId(payload?.tournamentId ?? payload?.tournament_id);
   const tournament = await fetchTournamentById(client, tournamentId);
   const joinDeckInput = resolveJoinDeckPayload(payload);
+  const wantsAnonymousDeck = resolveAnonymousJoinChoice(payload);
 
   assertTournamentJoinable(tournament);
 
   const defaultDeckSnapshot = joinDeckInput
     ? await buildTournamentDeckSnapshot(joinDeckInput, tournament?.game)
-    : null;
+    : wantsAnonymousDeck
+      ? createSecretDeckSnapshot(tournament?.game)
+      : null;
 
   const existingParticipant = await fetchTournamentParticipantByProfile(
     client,
@@ -1019,7 +1032,7 @@ export async function joinTournament(payload = {}) {
   }
 
   if (!defaultDeckSnapshot) {
-    throw new Error("Seleziona un mazzo per completare l'iscrizione");
+    throw new Error("Seleziona un mazzo oppure salta per iscriverti in anonimo");
   }
 
   const createdParticipant = await insertTournamentParticipant(client, {

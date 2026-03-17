@@ -1,6 +1,7 @@
 <script setup>
-import { fetchFriendCollections, searchDiscoverableProfiles } from "@/api/friends";
-import { createMatchInvite } from "@/api/matches";
+import { fetchFriendCollections } from "@/api/friends";
+import { createDeckShare } from "@/api/deckShares";
+import { usePageLoader } from "@/stores/usePageLoader";
 import RelationProfilesPicker from "@/components/Friends/RelationProfilesPicker.vue";
 
 const FRIEND_TAB = Object.freeze({
@@ -11,8 +12,11 @@ const FRIEND_TAB = Object.freeze({
 const route = useRoute();
 const router = useRouter();
 const snackbar = useSnackbar();
-const userAuth = useUserAuth();
+const pageLoader = usePageLoader();
 
+const { getCloud } = useDeckManager();
+
+const currentDeck = ref(null);
 const relationCollections = ref({
   following: [],
   followers: [],
@@ -24,17 +28,18 @@ const activeTab = ref(normalizeFriendTab(route.query.tab));
 
 const searchInput = ref(extractQuery(route.query.q));
 const submittedQuery = ref(extractQuery(route.query.q));
-const searchResults = ref([]);
 const hasSearched = ref(Boolean(submittedQuery.value));
-const isSearching = ref(false);
-const searchError = ref(null);
-const searchRequestId = ref(0);
 
-const selectedOpponent = ref(null);
-const challengeDialogRef = ref(null);
-const isCreatingMatch = ref(false);
+const selectedReceiver = ref(null);
+const confirmDialogRef = ref(null);
+const isSendingDeck = ref(false);
 
-const currentUserId = computed(() => userAuth?.userLogged?.id ?? null);
+const currentUserId = computed(() => useUserAuth()?.userLogged?.id ?? null);
+const deckSlug = computed(() => {
+  const rawSlug = route.params?.slug;
+  if (Array.isArray(rawSlug)) return String(rawSlug[0] ?? "");
+  return String(rawSlug ?? "");
+});
 
 function extractQuery(rawValue) {
   const normalizedValue = Array.isArray(rawValue)
@@ -57,22 +62,47 @@ function normalizeFriendTab(value) {
   }
 }
 
-const relationProfileIds = computed(() => {
+function normalizeSearchValue(value) {
+  return String(value ?? "").trim().toLowerCase();
+}
+
+function normalizeProfileSearchTokens(profile = {}) {
+  return [
+    profile?.display_name,
+    profile?.username,
+    profile?.user_tag,
+  ]
+    .map((value) => normalizeSearchValue(value))
+    .filter(Boolean);
+}
+
+function matchesProfileQuery(profile, query) {
+  const normalizedQuery = normalizeSearchValue(query);
+  if (!normalizedQuery) return true;
+
+  return normalizeProfileSearchTokens(profile).some((token) =>
+    token.includes(normalizedQuery),
+  );
+}
+
+const relationSearchResults = computed(() => {
+  if (!hasSearched.value) return [];
+
+  const normalizedQuery = normalizeSearchValue(submittedQuery.value);
+  if (!normalizedQuery) return [];
+
+  const uniqueProfiles = new Map();
   const allProfiles = [
     ...(relationCollections.value.following ?? []),
     ...(relationCollections.value.followers ?? []),
   ];
 
-  return new Set(allProfiles.map((profile) => String(profile?.id ?? "")));
-});
-
-const listableSearchResults = computed(() => {
-  if (!Array.isArray(searchResults.value)) return [];
-
-  return searchResults.value.filter((profile) => {
-    const profileId = String(profile?.id ?? "");
-    return !relationProfileIds.value.has(profileId);
+  allProfiles.forEach((profile) => {
+    if (!profile?.id || !matchesProfileQuery(profile, normalizedQuery)) return;
+    uniqueProfiles.set(profile.id, profile);
   });
+
+  return Array.from(uniqueProfiles.values());
 });
 
 function setActiveTab(nextTab) {
@@ -88,16 +118,25 @@ function setActiveTab(nextTab) {
   });
 }
 
-function selectOpponent(profile) {
+function selectReceiver(profile) {
   if (!profile?.id) return;
-  selectedOpponent.value = profile;
+  selectedReceiver.value = profile;
   nextTick(() => {
-    challengeDialogRef.value?.openDialog?.();
+    confirmDialogRef.value?.openDialog?.();
   });
 }
 
-function closeConfirmDialog() {
-  challengeDialogRef.value?.closeDialog?.();
+async function loadDeck() {
+  if (!deckSlug.value) {
+    throw new Error("Deck non valido");
+  }
+
+  const deck = await getCloud(deckSlug.value);
+  if (!deck) {
+    throw new Error("Deck cloud non trovato");
+  }
+
+  currentDeck.value = deck;
 }
 
 async function loadRelationCollections() {
@@ -137,10 +176,10 @@ async function loadRelationCollections() {
   }
 }
 
-async function runSearch() {
+function runSearch() {
   const normalizedQuery = searchInput.value.trim();
   submittedQuery.value = normalizedQuery;
-  searchError.value = null;
+  hasSearched.value = Boolean(normalizedQuery);
 
   router.replace({
     query: {
@@ -151,79 +190,43 @@ async function runSearch() {
       ...(normalizedQuery ? { q: normalizedQuery } : {}),
     },
   });
-
-  if (!normalizedQuery) {
-    searchResults.value = [];
-    hasSearched.value = false;
-    return;
-  }
-
-  hasSearched.value = true;
-  isSearching.value = true;
-  const requestId = ++searchRequestId.value;
-
-  try {
-    const profiles = await searchDiscoverableProfiles(normalizedQuery);
-    if (requestId !== searchRequestId.value) return;
-    searchResults.value = profiles ?? [];
-  } catch (error) {
-    if (requestId !== searchRequestId.value) return;
-
-    searchResults.value = [];
-    searchError.value = error?.message || "Errore durante la ricerca utenti";
-    snackbar.addMessage(searchError.value, "error");
-  } finally {
-    if (requestId !== searchRequestId.value) return;
-    isSearching.value = false;
-  }
 }
 
-async function confirmChallenge() {
-  if (!selectedOpponent.value?.id || isCreatingMatch.value) return;
+async function confirmSendDeck() {
+  if (!selectedReceiver.value?.id || !currentDeck.value || isSendingDeck.value) return;
 
-  isCreatingMatch.value = true;
+  isSendingDeck.value = true;
 
   try {
-    const createdMatch = await createMatchInvite({
-      opponentId: selectedOpponent.value.id,
+    await createDeckShare({
+      receiverUserUuid: selectedReceiver.value.id,
+      deck: currentDeck.value,
     });
 
-    closeConfirmDialog();
-
-    if (!createdMatch?.id) {
-      throw new Error("Impossibile creare il match");
-    }
-
-    router.push(`/play/choose-deck?matchId=${createdMatch.id}`);
+    confirmDialogRef.value?.closeDialog?.();
+    snackbar.addMessage("Deck inviato con successo", "success");
+    router.push(`/me/decks/${encodeURIComponent(deckSlug.value)}?location=cloud`);
   } catch (error) {
-    snackbar.addMessage(error?.message || "Errore durante la creazione del match", "error");
+    snackbar.addMessage(error?.message || "Errore durante l'invio del deck", "error");
   } finally {
-    isCreatingMatch.value = false;
+    isSendingDeck.value = false;
   }
 }
+
+watch(
+  () => route.query.tab,
+  (tabValue) => {
+    activeTab.value = normalizeFriendTab(tabValue);
+  },
+);
 
 watch(
   () => route.query.q,
   (queryValue) => {
     const normalizedQuery = extractQuery(queryValue);
     searchInput.value = normalizedQuery;
-
-    if (normalizedQuery === submittedQuery.value) return;
-
     submittedQuery.value = normalizedQuery;
-
-    if (!normalizedQuery) {
-      searchResults.value = [];
-      hasSearched.value = false;
-      searchError.value = null;
-    }
-  },
-);
-
-watch(
-  () => route.query.tab,
-  (tabValue) => {
-    activeTab.value = normalizeFriendTab(tabValue);
+    hasSearched.value = Boolean(normalizedQuery);
   },
 );
 
@@ -235,9 +238,17 @@ watch(
   { immediate: true },
 );
 
-onMounted(() => {
-  if (!submittedQuery.value) return;
-  runSearch();
+onMounted(async () => {
+  pageLoader.startLoading();
+
+  try {
+    await loadDeck();
+  } catch (error) {
+    snackbar.addMessage(error?.message || "Errore caricamento dati", "error");
+    router.push("/me/decks?location=cloud");
+  } finally {
+    pageLoader.stopLoading();
+  }
 });
 
 definePageMeta({
@@ -248,21 +259,32 @@ definePageMeta({
 
 <template>
   <section class="relative h-full">
-    <Toolbar label="Nuova partita" fixed back-button />
+    <Toolbar label="Invia deck" fixed back-button />
 
     <div class="min-h-0 flex-1 overflow-y-auto px-3 pb-32 pt-2">
+      <div v-if="currentDeck" class="send-deck-context-card">
+        <p class="send-deck-context-card__eyebrow">Deck selezionato</p>
+        <p class="send-deck-context-card__title">{{ currentDeck.name }}</p>
+        <p class="send-deck-context-card__text">
+          Scegli un utente tra i tuoi seguiti o follower per inviargli una copia di questo deck.
+        </p>
+      </div>
+
       <RelationProfilesPicker
         :relation-collections="relationCollections"
         :active-tab="activeTab"
         :is-loading-relations="isLoadingRelations"
         :relation-load-error="relationLoadError"
-        :search-results="listableSearchResults"
+        :search-results="relationSearchResults"
         :has-searched="hasSearched"
-        :is-searching="isSearching"
-        :search-error="searchError"
+        :is-searching="false"
+        :search-error="null"
         :submitted-query="submittedQuery"
+        search-title="Cerca tra amici"
+        search-idle-label="Usa la barra in basso per filtrare seguiti e follower."
+        search-empty-label="Nessun amico trovato con questa ricerca."
         @change-tab="setActiveTab"
-        @select="selectOpponent"
+        @select="selectReceiver"
       />
     </div>
 
@@ -273,15 +295,14 @@ definePageMeta({
             v-model="searchInput"
             type="text"
             inputmode="search"
-            placeholder="Username o user tag"
-            class="play-new-match-search-input"
+            placeholder="Nome o user tag"
+            class="send-deck-search-input"
             @keydown.enter.prevent="runSearch"
           />
 
           <button
             type="button"
-            class="play-new-match-search-button"
-            :disabled="isSearching"
+            class="send-deck-search-button"
             @click="runSearch"
           >
             Cerca
@@ -290,18 +311,19 @@ definePageMeta({
       </template>
     </MobileFloatMenu>
 
-    <DialogsGeneric ref="challengeDialogRef" :disabled="isCreatingMatch">
+    <DialogsGeneric ref="confirmDialogRef" :disabled="isSendingDeck">
       <template #button>
-        <span class="play-new-match-hidden-dialog-trigger" aria-hidden="true" />
+        <span class="send-deck-hidden-dialog-trigger" aria-hidden="true" />
       </template>
 
-      <template #title>Conferma sfida</template>
+      <template #title>Conferma invio</template>
 
       <template #content>
-        <p class="play-new-match-dialog-text">
-          Hai selezionato
-          <strong>{{ selectedOpponent?.display_name ?? selectedOpponent?.username ?? "utente" }}</strong>,
-          vuoi proporgli una sfida?
+        <p class="send-deck-dialog-text">
+          Vuoi inviare il deck
+          <strong>{{ currentDeck?.name ?? "" }}</strong>
+          a
+          <strong>{{ selectedReceiver?.display_name ?? selectedReceiver?.username ?? "utente" }}</strong>?
         </p>
       </template>
 
@@ -309,19 +331,19 @@ definePageMeta({
         <v-spacer />
         <v-btn
           variant="text"
-          :disabled="isCreatingMatch"
+          :disabled="isSendingDeck"
           @click="closeDialog"
         >
           Annulla
         </v-btn>
         <v-btn
           variant="flat"
-          class="play-new-match-dialog-accept"
-          :loading="isCreatingMatch"
-          :disabled="isCreatingMatch"
-          @click="confirmChallenge"
+          class="send-deck-dialog-accept"
+          :loading="isSendingDeck"
+          :disabled="isSendingDeck"
+          @click="confirmSendDeck"
         >
-          Sfida!
+          Invia
         </v-btn>
       </template>
     </DialogsGeneric>
@@ -329,7 +351,38 @@ definePageMeta({
 </template>
 
 <style scoped>
-.play-new-match-search-input {
+.send-deck-context-card {
+  margin-bottom: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 1rem;
+  background: rgba(15, 23, 42, 0.58);
+  padding: 1rem;
+}
+
+.send-deck-context-card__eyebrow {
+  margin: 0;
+  color: rgba(255, 216, 177, 0.92);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.send-deck-context-card__title {
+  margin: 0.35rem 0 0;
+  color: rgba(248, 250, 252, 0.96);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.send-deck-context-card__text {
+  margin: 0.45rem 0 0;
+  color: rgba(226, 232, 240, 0.82);
+  font-size: 0.9rem;
+  line-height: 1.35;
+}
+
+.send-deck-search-input {
   width: 100%;
   min-width: 0;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -346,17 +399,17 @@ definePageMeta({
     background 160ms ease;
 }
 
-.play-new-match-search-input::placeholder {
+.send-deck-search-input::placeholder {
   color: rgba(148, 163, 184, 0.82);
 }
 
-.play-new-match-search-input:focus {
+.send-deck-search-input:focus {
   border-color: rgba(255, 157, 82, 0.45);
   box-shadow: 0 0 0 2px rgba(255, 157, 82, 0.18);
   background: rgba(15, 23, 42, 0.92);
 }
 
-.play-new-match-search-button {
+.send-deck-search-button {
   border: 1px solid rgba(255, 178, 125, 0.45);
   border-radius: 1rem;
   background: rgba(255, 122, 24, 0.2);
@@ -368,34 +421,28 @@ definePageMeta({
   transition:
     transform 160ms ease,
     border-color 160ms ease,
-    background 160ms ease,
-    opacity 160ms ease;
+    background 160ms ease;
 }
 
-.play-new-match-search-button:hover:not(:disabled) {
+.send-deck-search-button:hover {
   transform: translateY(-1px);
   border-color: rgba(255, 178, 125, 0.65);
   background: rgba(255, 122, 24, 0.28);
 }
 
-.play-new-match-search-button:disabled {
-  cursor: not-allowed;
-  opacity: 0.55;
-}
-
-.play-new-match-dialog-text {
+.send-deck-dialog-text {
   margin: 0;
   color: rgba(241, 245, 249, 0.9);
   line-height: 1.4;
 }
 
-.play-new-match-dialog-accept {
+.send-deck-dialog-accept {
   border: 1px solid rgba(255, 183, 124, 0.4);
   background: linear-gradient(135deg, rgba(255, 122, 24, 0.92), rgba(173, 72, 11, 0.95));
   color: #fff7f0;
 }
 
-.play-new-match-hidden-dialog-trigger {
+.send-deck-hidden-dialog-trigger {
   display: none;
   width: 0;
   height: 0;

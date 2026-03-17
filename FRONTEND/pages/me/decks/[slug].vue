@@ -3,7 +3,7 @@ import ProfileSectionsTabs from "@/components/Tabs/ProfileSectionsTabs.vue";
 import { updateDeckVisibility } from "~/api/decks";
 import { copyDeckOnClipboard } from "@/utilities/copyDeckOnClipboard";
 import { usePageLoader } from "@/stores/usePageLoader";
-import { DeckLocation } from "~/enums/deckLocation";
+import { DeckLocation, normalizeDeckLocation } from "~/enums/deckLocation";
 import { publicPrivateVisibilityOptions } from "~/enums/visibility";
 import {
   fetchCardCountInCollection
@@ -14,10 +14,6 @@ const snackbar = useSnackbar();
 const route = useRoute();
 const pageLoader = usePageLoader();
 
-function normalizeDeckLocation(location) {
-  return location === DeckLocation.BOZZA ? DeckLocation.BOZZA : DeckLocation.CLOUD;
-}
-
 const deckLocation = ref(normalizeDeckLocation(route.query.location));
 
 const currentDeck = ref({
@@ -26,7 +22,7 @@ const currentDeck = ref({
   leader: null,
   cards: [],
   visibility: "private",
-  location: "bozza",
+  location: DeckLocation.DEVICE,
 });
 const leaderChoosen = ref(null);
 const statsOpen = ref(false);
@@ -60,6 +56,15 @@ function goToEditDeck() {
   router.push(`/me/decks/edit/${route.params.slug}?location=${deckLocation.value}`);
 }
 
+function goToSendDeck() {
+  if (!isCloudDeckView.value) {
+    snackbar.addMessage("Puoi inviare solo deck salvati nel cloud", "error");
+    return;
+  }
+
+  router.push(`/me/decks/send/${route.params.slug}`);
+}
+
 function setActiveTab(tab) {
   statsOpen.value = tab === "stats";
 }
@@ -71,6 +76,7 @@ const singleCardsInDeck = computed(() => {
   currentDeck.value.cards.forEach((card) => {
     
     const cardData = allCards.find((c) => c.id === card);
+    if (!cardData) return;
 
     if (uniqueCards.has(cardData)) {
       uniqueCards.get(cardData).count++;
@@ -96,10 +102,10 @@ function chooseLeader(cardId) {
 
 async function getDeckFromSlug(slug) {
   if (!slug) return;
-  // 1) Provo a prendere il draft locale
+  // 1) Provo a prendere il deck salvato sul dispositivo
   const local = await getLocal(slug);
   const cloudDeck = await getCloud(slug);
-  if (deckLocation.value === DeckLocation.BOZZA && local) {
+  if (deckLocation.value === DeckLocation.DEVICE && local) {
     currentDeck.value = local;
     chooseLeader(local.leader);
     return;
@@ -137,7 +143,7 @@ async function updateVisibility(newValue) {
   }
 }
 
-function exportDeck() {
+function exportDeckForSimulator() {
   copyDeckOnClipboard(leaderChoosen.value, singleCardsInDeck.value);
   snackbar.addMessage("Deck copiato negli appunti", "success");
 }
@@ -148,7 +154,7 @@ onMounted(async () => {
   pageLoader.stopLoading();
   if(leaderChoosen.value === null) {
     snackbar.addMessage("Mazzo non trovato", "error");
-    router.push(`/me/decks/edit/${currentDeck.value.slug}?location=${deckLocation.value}`);
+    router.push(`/me/decks/edit/${route.params.slug}?location=${deckLocation.value}`);
   }
   await setCardsInCollectionCounts();
 });
@@ -156,7 +162,17 @@ onMounted(async () => {
 watch(
   () => route.query.location,
   (newLocation) => {
-    deckLocation.value = normalizeDeckLocation(newLocation);
+    const normalizedLocation = normalizeDeckLocation(newLocation);
+    deckLocation.value = normalizedLocation;
+
+    if (typeof newLocation === "string" && newLocation !== normalizedLocation) {
+      router.replace({
+        query: {
+          ...route.query,
+          location: normalizedLocation,
+        },
+      });
+    }
   },
 );
 
@@ -191,12 +207,30 @@ provide("availabilityOpen", availabilityOpen);
   <MobileFloatMenu :cols="floatMenuCols">
     <template #buttons>
       <ButtonMenu
-        @click="exportDeck()"
         icon="material-symbols:export-notes-outline"
         transition
         :delay="200"
         label="Esporta"
-      />
+        multi
+      >
+        <template #buttons>
+          <ButtonMenu
+            icon="material-symbols:terminal-rounded"
+            transition
+            :delay="0"
+            label="Simulatore"
+            @click="exportDeckForSimulator()"
+          />
+          <ButtonMenu
+            v-if="isCloudDeckView"
+            icon="mdi:account-arrow-right-outline"
+            transition
+            :delay="100"
+            label="Invia ad amico"
+            @click="goToSendDeck()"
+          />
+        </template>
+      </ButtonMenu>
       <DialogsHandleVisibility
         v-if="isCloudDeckView"
         :options="publicPrivateVisibilityOptions"

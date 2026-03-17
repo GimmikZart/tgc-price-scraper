@@ -513,7 +513,7 @@ definePageMeta({
   <section class="relative h-full">
     <Toolbar label="Partita in corso" fixed back-button>
       <template #info>
-        <PlayRoomParticipantCard
+        <IdentityAndDeck
           :profile="opponentProfile"
           :deck="opponentDeck"
           waiting-label="L'avversario deve scegliere il mazzo"
@@ -524,7 +524,7 @@ definePageMeta({
       </template>
     </Toolbar>
 
-    <div class="min-h-0 flex-1 overflow-y-auto px-3 pb-40 pt-2">
+    <div class="min-h-0 flex-1 overflow-y-auto px-3 pb-10 pt-2">
       <p v-if="isLoading" class="play-room-state-message">
         Caricamento room...
       </p>
@@ -568,7 +568,7 @@ definePageMeta({
     <MobileFloatMenu :cols="1">
       <template #buttons>
         <div class="space-y-2">
-          <PlayRoomParticipantCard
+          <IdentityAndDeck
             :profile="myProfile"
             :deck="myDeck"
             waiting-label="Devi scegliere il mazzo"

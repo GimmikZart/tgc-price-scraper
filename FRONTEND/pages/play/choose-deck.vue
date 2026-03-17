@@ -17,6 +17,7 @@ const cloudDecks = ref([]);
 const selectedDeck = ref(null);
 const deckConfirmDialogRef = ref(null);
 const isSavingDeck = ref(false);
+const pendingTournamentEntryMode = ref("deck");
 
 const currentUserId = computed(() => userAuth?.userLogged?.id ?? null);
 const matchId = computed(() => {
@@ -30,6 +31,10 @@ const tournamentId = computed(() => {
   return String(rawId ?? "");
 });
 const isTournamentEnrollmentMode = computed(() => Boolean(tournamentId.value));
+const canSkipDeckSelection = computed(() => isTournamentEnrollmentMode.value);
+const isAnonymousTournamentEnrollmentSelection = computed(() => (
+  isTournamentEnrollmentMode.value && pendingTournamentEntryMode.value === "anonymous"
+));
 
 const pageLabel = computed(() => (
   isTournamentEnrollmentMode.value
@@ -53,7 +58,9 @@ const userRole = computed(() => {
 
 const confirmButtonLabel = computed(() => {
   if (isTournamentEnrollmentMode.value) {
-    return "Iscriviti al torneo";
+    return isAnonymousTournamentEnrollmentSelection.value
+      ? "Iscriviti anonimo"
+      : "Iscriviti al torneo";
   }
 
   if (userRole.value === "opponent") {
@@ -63,9 +70,36 @@ const confirmButtonLabel = computed(() => {
   return "Continua";
 });
 
+const confirmDialogTitle = computed(() => (
+  isAnonymousTournamentEnrollmentSelection.value
+    ? "Iscrizione anonima"
+    : "Conferma mazzo"
+));
+
+const confirmDialogText = computed(() => {
+  if (isAnonymousTournamentEnrollmentSelection.value) {
+    return "Vuoi iscriverti al torneo senza dichiarare il mazzo? Vedrai un placeholder segreto e questo torneo non alimentera statistiche deck affidabili.";
+  }
+
+  const selectedDeckName = String(selectedDeck.value?.name ?? "").trim() || "senza nome";
+  return `Hai scelto il mazzo ${selectedDeckName}, vuoi continuare?`;
+});
+
 function selectDeck(deck) {
   if (!deck) return;
+  pendingTournamentEntryMode.value = "deck";
   selectedDeck.value = deck;
+  nextTick(() => {
+    deckConfirmDialogRef.value?.openDialog?.();
+  });
+}
+
+function prepareAnonymousTournamentEnrollment() {
+  if (!canSkipDeckSelection.value || isSavingDeck.value) return;
+
+  pendingTournamentEntryMode.value = "anonymous";
+  selectedDeck.value = null;
+
   nextTick(() => {
     deckConfirmDialogRef.value?.openDialog?.();
   });
@@ -122,19 +156,32 @@ async function loadPageData() {
 }
 
 async function confirmDeckSelection() {
-  if (!selectedDeck.value || isSavingDeck.value) return;
+  if (isSavingDeck.value) return;
+  if (!selectedDeck.value && !isAnonymousTournamentEnrollmentSelection.value) return;
 
   isSavingDeck.value = true;
 
   try {
     if (isTournamentEnrollmentMode.value) {
-      await joinTournament({
-        tournamentId: tournamentId.value,
-        deck: selectedDeck.value,
-      });
+      const joinPayload = isAnonymousTournamentEnrollmentSelection.value
+        ? {
+            tournamentId: tournamentId.value,
+            anonymousDeck: true,
+          }
+        : {
+            tournamentId: tournamentId.value,
+            deck: selectedDeck.value,
+          };
+
+      await joinTournament(joinPayload);
 
       closeDialog();
-      snackbar.addMessage("Iscrizione torneo completata", "success");
+      snackbar.addMessage(
+        isAnonymousTournamentEnrollmentSelection.value
+          ? "Iscrizione anonima completata"
+          : "Iscrizione torneo completata",
+        "success",
+      );
       router.push(`/play/tournaments/${tournamentId.value}`);
       return;
     }
@@ -171,10 +218,31 @@ definePageMeta({
   <section class="relative h-full">
     <Toolbar :label="pageLabel" fixed back-button />
 
-    <div class="min-h-0 flex-1 overflow-y-auto px-3 pb-28 pt-2">
+    <div
+      class="min-h-0 flex-1 overflow-y-auto px-3 pt-2"
+      :class="canSkipDeckSelection ? 'pb-40' : 'pb-28'"
+    >
       <p v-if="!isLoading && !loadError && isTournamentEnrollmentMode" class="choose-deck-context-hint">
         Il mazzo scelto verra usato di default in tutti i match del torneo.
       </p>
+
+      <div
+        v-if="!isLoading && !loadError && canSkipDeckSelection"
+        class="choose-deck-anonymous-box"
+      >
+        <p class="choose-deck-anonymous-box__text">
+          Se preferisci mantenere privato il mazzo puoi saltare la selezione:
+          il torneo continuera regolarmente con un placeholder segreto, ma questo deck non entrera in uno storico affidabile.
+        </p>
+        <button
+          type="button"
+          class="choose-deck-anonymous-box__action"
+          :disabled="isSavingDeck"
+          @click="prepareAnonymousTournamentEnrollment"
+        >
+          Salta e iscriviti in anonimo
+        </button>
+      </div>
 
       <p v-if="isLoading" class="choose-deck-state-message">
         Caricamento mazzi cloud...
@@ -187,7 +255,11 @@ definePageMeta({
       <div v-else-if="cloudDecks.length === 0" class="choose-deck-empty-state">
         <p class="choose-deck-empty-state__label">Nessun mazzo cloud</p>
         <p class="choose-deck-empty-state__text">
-          Salva almeno un mazzo nel cloud prima di continuare.
+          {{
+            isTournamentEnrollmentMode
+              ? "Puoi comunque continuare con il tasto Salta e iscriverti con un mazzo anonimo."
+              : "Salva almeno un mazzo nel cloud prima di continuare."
+          }}
         </p>
       </div>
 
@@ -212,13 +284,11 @@ definePageMeta({
         <span class="choose-deck-hidden-dialog-trigger" aria-hidden="true" />
       </template>
 
-      <template #title>Conferma mazzo</template>
+      <template #title>{{ confirmDialogTitle }}</template>
 
       <template #content>
         <p class="choose-deck-dialog-text">
-          Hai scelto il mazzo
-          <strong>{{ selectedDeck?.name ?? "" }}</strong>,
-          vuoi continuare?
+          {{ confirmDialogText }}
         </p>
       </template>
 
@@ -242,6 +312,18 @@ definePageMeta({
         </v-btn>
       </template>
     </DialogsGeneric>
+
+    <MobileFloatMenu v-if="canSkipDeckSelection" :cols="1">
+      <template #buttons>
+        <ButtonMenu
+          icon="mdi:skip-next"
+          label="Salta"
+          color="yellow"
+          :disabled="isSavingDeck"
+          @click="prepareAnonymousTournamentEnrollment"
+        />
+      </template>
+    </MobileFloatMenu>
   </section>
 </template>
 
@@ -253,6 +335,46 @@ definePageMeta({
   font-weight: 700;
   line-height: 1.3;
   text-align: center;
+}
+
+.choose-deck-anonymous-box {
+  margin-bottom: 0.9rem;
+  border: 1px solid rgba(148, 163, 184, 0.28);
+  border-radius: 1rem;
+  background: linear-gradient(145deg, rgba(2, 6, 23, 0.9), rgba(15, 23, 42, 0.82));
+  padding: 0.85rem 0.9rem;
+}
+
+.choose-deck-anonymous-box__text {
+  margin: 0;
+  color: rgba(226, 232, 240, 0.88);
+  font-size: 0.84rem;
+  line-height: 1.4;
+}
+
+.choose-deck-anonymous-box__action {
+  margin-top: 0.75rem;
+  border: 1px solid rgba(255, 211, 108, 0.42);
+  border-radius: 9999px;
+  background: rgba(250, 204, 21, 0.12);
+  color: rgba(254, 240, 138, 0.96);
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  padding: 0.58rem 0.88rem;
+  text-transform: uppercase;
+  transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease;
+}
+
+.choose-deck-anonymous-box__action:hover:not(:disabled) {
+  transform: translateY(-1px);
+  border-color: rgba(250, 204, 21, 0.68);
+  background: rgba(250, 204, 21, 0.18);
+}
+
+.choose-deck-anonymous-box__action:disabled {
+  cursor: not-allowed;
+  opacity: 0.58;
 }
 
 .choose-deck-state-message {

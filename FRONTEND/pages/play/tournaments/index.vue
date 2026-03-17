@@ -7,6 +7,12 @@ import {
   TournamentFormat,
   TournamentStatus,
 } from "@/api/tournaments";
+import {
+  CLOUD_ACTIVE_BADGE_CLASS,
+  CLOUD_ACTIVE_TAB_CLASS,
+  CLOUD_INACTIVE_BADGE_CLASS,
+  CLOUD_INACTIVE_TAB_CLASS,
+} from "@/components/Tabs/styles";
 
 const OPEN_TAB = "open";
 const ACTIVE_TAB = "active";
@@ -41,24 +47,37 @@ const formatOptions = [
 ];
 
 const tabs = computed(() => {
-  return [
+  const visibleTabs = [];
+
+  if (activeTournaments.value.length > 0) {
+    visibleTabs.push({
+      label: "In corso",
+      value: ACTIVE_TAB,
+      count: activeTournaments.value.length,
+      activeClass: CLOUD_ACTIVE_TAB_CLASS,
+      inactiveClass: CLOUD_INACTIVE_TAB_CLASS,
+      badgeActiveClass: CLOUD_ACTIVE_BADGE_CLASS,
+      badgeInactiveClass: CLOUD_INACTIVE_BADGE_CLASS,
+    });
+  }
+
+  visibleTabs.push(
     {
       label: "Aperti",
       value: OPEN_TAB,
       count: openTournaments.value.length,
     },
     {
-      label: "In corso",
-      value: ACTIVE_TAB,
-      count: activeTournaments.value.length,
-    },
-    {
       label: "Storico",
       value: HISTORY_TAB,
       count: historyTournaments.value.length,
     },
-  ];
+  );
+
+  return visibleTabs;
 });
+
+const visibleTabValues = computed(() => tabs.value.map((tab) => tab.value));
 
 const visibleTournaments = computed(() => {
   if (activeTab.value === OPEN_TAB) return openTournaments.value;
@@ -231,6 +250,15 @@ watch(
   (nextTab) => {
     activeTab.value = normalizeTab(nextTab);
   },
+);
+
+watch(
+  [activeTab, visibleTabValues],
+  ([currentTab, availableTabs]) => {
+    if (availableTabs.includes(currentTab)) return;
+    setActiveTab(availableTabs[0] ?? OPEN_TAB);
+  },
+  { immediate: true },
 );
 
 onMounted(() => {

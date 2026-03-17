@@ -1,4 +1,6 @@
 <script setup>
+import { isSecretDeckSnapshot } from "@/utilities/deckPrivacy";
+
 const router = useRouter();
 
 const props = defineProps({
@@ -114,6 +116,13 @@ const rowClass = computed(() => [
 ]);
 
 function getDeckLabel(deck) {
+  if (!deck || typeof deck !== "object") {
+    return "Mazzo non dichiarato";
+  }
+
+  if (isSecretDeckSnapshot(deck)) {
+    return "Leader segreto ( Mazzo anonimo )";
+  }
 
   const leaderName = typeof deck?.leader_name === "string" && deck.leader_name.trim()
     ? deck.leader_name.trim()

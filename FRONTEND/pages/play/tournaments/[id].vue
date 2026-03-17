@@ -1334,6 +1334,7 @@ definePageMeta({
   font-size: 0.76rem;
   font-weight: 600;
   line-height: 1.34;
+  text-align: center;
 }
 
 .tournament-info-box {

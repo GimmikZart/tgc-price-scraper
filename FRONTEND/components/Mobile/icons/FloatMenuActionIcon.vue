@@ -46,7 +46,7 @@ const iconAliases = {
   "material-symbols:export-notes-outline": "export",
   "material-symbols:save-rounded": "save",
   "ic:baseline-cloud-done": "cloud-save",
-  "material-symbols:save-as-outline": "save-draft",
+  "material-symbols:save-as-outline": "save-device",
   "tabler:trash": "delete",
   "hugeicons:file-remove": "remove",
   "streamline-ultimate:card-add-1-bold": "add",
@@ -82,7 +82,8 @@ const labelAliases = {
   esporta: "export",
   salva: "save",
   "salva nel cloud": "cloud-save",
-  "salva bozza": "save-draft",
+  "salva dispositivo": "save-device",
+  "salva su dispositivo": "save-device",
   cancella: "delete",
   aggiungi: "add",
   "aggiungi pagina": "add",
@@ -438,7 +439,7 @@ const strokeWidth = computed(() => (props.active ? 1.5 : 1));
   </svg>
 
   <svg
-    v-else-if="resolvedIconName === 'save-draft'"
+    v-else-if="resolvedIconName === 'save-device'"
     viewBox="0 0 24 24"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"

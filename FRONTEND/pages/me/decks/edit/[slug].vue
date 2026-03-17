@@ -18,15 +18,13 @@ const route = useRoute();
 const router = useRouter();
 const { getLocal, saveLocal, getCloud, publish } = useDeckManager();
 
-const deckLocation = ref(route.query.location);
-
 const currentDeck = ref({
   name: "",
   slug: "",
   leader: null,
   cards: [],
   visibility: "private",
-  location: "local",
+  location: DeckLocation.DEVICE,
 });
 
 const filteredCards = ref([]);
@@ -167,7 +165,7 @@ function setDeckAction(nextAction) {
   actionOnDeck.value = nextAction;
 }
 
-// persistenza locale del draft
+// Persistenza locale del deck sul dispositivo
 watch(currentDeck, (current) => { saveLocal(current); }, { deep: true });
 
 async function getDeckFromSlug(slug) {
@@ -196,8 +194,8 @@ async function saveCloudDeck() {
 }
 async function saveLocalDeck() {
   await saveLocal(currentDeck.value);
-  snackbar.addMessage("Deck salvato in locale con successo", "success");
-  router.push(`/me/decks/${route.params.slug}?location=${DeckLocation.BOZZA}`);
+  snackbar.addMessage("Deck salvato sul dispositivo con successo", "success");
+  router.push(`/me/decks/${route.params.slug}?location=${DeckLocation.DEVICE}`);
 }
 
 function exportDeck() {
@@ -324,7 +322,7 @@ provide("actionOnDeck", actionOnDeck);
             />
             <ButtonMenu
               icon="material-symbols:save-as-outline"
-              label="Salva Bozza"
+              label="Salva su dispositivo"
               transition
               :delay="0"
               @click="saveLocalDeck()"

@@ -1,5 +1,13 @@
 <script setup>
-const props = defineProps({
+import BaseTabs from "@/components/Tabs/BaseTabs.vue";
+import {
+  GHOST_INACTIVE_BADGE_CLASS,
+  GHOST_INACTIVE_TAB_CLASS,
+  ORANGE_ACTIVE_BADGE_CLASS,
+  ORANGE_ACTIVE_TAB_CLASS,
+} from "@/components/Tabs/styles";
+
+defineProps({
   tabs: {
     type: Array,
     required: true,
@@ -11,39 +19,16 @@ const props = defineProps({
 });
 
 const emit = defineEmits(["change"]);
-
-function handleClick(tabValue) {
-  if (tabValue === props.active) return;
-  emit("change", tabValue);
-}
 </script>
 
 <template>
-  <div class="flex w-full items-center gap-2 rounded-2xl border border-white/10 bg-slate-950/60 p-1 shadow-[inset_0_1px_0_rgba(255,255,255,0.08)] backdrop-blur">
-    <button
-      v-for="tab in tabs"
-      :key="tab.value"
-      type="button"
-      class="flex min-w-0 flex-1 items-center justify-center gap-2 rounded-xl border px-3 py-2 text-sm font-semibold transition-all duration-200"
-      :class="[
-        tab.value === active
-          ? 'border-[#ffb27d]/45 bg-[#ff7a18]/20 text-[#ffd7b3] shadow-[0_0_20px_rgba(255,122,24,0.2),inset_0_1px_0_rgba(255,255,255,0.18)]'
-          : 'border-transparent bg-transparent text-slate-300/80 hover:border-white/10 hover:bg-white/5 hover:text-slate-100',
-      ]"
-      @click="handleClick(tab.value)"
-    >
-      <span class="truncate">{{ tab.label }}</span>
-      <span
-        v-if="typeof tab.count === 'number'"
-        class="rounded-full border px-2 py-0.5 text-[11px] leading-none"
-        :class="[
-          tab.value === active
-            ? 'border-[#ffd4aa]/50 bg-[#ff7a18]/25 text-[#ffe0c2]'
-            : 'border-white/15 bg-white/5 text-slate-300/80',
-        ]"
-      >
-        {{ tab.count }}
-      </span>
-    </button>
-  </div>
+  <BaseTabs
+    :tabs="tabs"
+    :active="active"
+    :active-class="ORANGE_ACTIVE_TAB_CLASS"
+    :inactive-class="GHOST_INACTIVE_TAB_CLASS"
+    :badge-active-class="ORANGE_ACTIVE_BADGE_CLASS"
+    :badge-inactive-class="GHOST_INACTIVE_BADGE_CLASS"
+    @change="emit('change', $event)"
+  />
 </template>

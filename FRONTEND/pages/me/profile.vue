@@ -130,7 +130,7 @@ definePageMeta({
 
 <template>
   <section class="relative h-full">
-    <Toolbar fixed back-button>
+    <Toolbar fixed>
       <template #content>
         <UserIdentityHeader
           :username="username"

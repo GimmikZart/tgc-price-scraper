@@ -144,8 +144,12 @@ function mapSellListingWithCard(listing, cardById, profileById, offerCountByList
   const parsedPrice = Number(listing?.price);
   const parsedQuantity = Number(listing?.quantity);
   const parsedListingId = Number(listing?.id);
+  const parsedLatitude = Number(listing?.latitude);
+  const parsedLongitude = Number(listing?.longitude);
   const hasValidPrice = Number.isFinite(parsedPrice);
   const hasValidQuantity = Number.isInteger(parsedQuantity) && parsedQuantity >= 0;
+  const hasValidLatitude = Number.isFinite(parsedLatitude);
+  const hasValidLongitude = Number.isFinite(parsedLongitude);
   const sellerProfile = profileById.get(listing?.seller_uuid) ?? null;
   const offersCount = Number.isInteger(parsedListingId) && parsedListingId > 0
     ? (offerCountByListingId.get(parsedListingId) ?? 0)
@@ -161,6 +165,8 @@ function mapSellListingWithCard(listing, cardById, profileById, offerCountByList
     sellerAvatarUrl: sellerProfile?.avatar_url ?? null,
     price: hasValidPrice ? parsedPrice : null,
     quantity: hasValidQuantity ? parsedQuantity : 0,
+    latitude: hasValidLatitude ? parsedLatitude : null,
+    longitude: hasValidLongitude ? parsedLongitude : null,
     offersCount,
     totalPrice: hasValidPrice && hasValidQuantity ? parsedPrice * parsedQuantity : null,
   };

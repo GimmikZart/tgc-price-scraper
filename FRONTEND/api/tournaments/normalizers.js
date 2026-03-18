@@ -11,6 +11,7 @@ import {
 import {
   normalizeJsonObject,
   normalizeNonNegativeInteger,
+  normalizeNumberInRange,
   normalizePositiveInteger,
   normalizeString,
   normalizeUuid,
@@ -83,6 +84,9 @@ export function normalizeTournamentRow(row) {
     organizer_id: normalizeUuid(row.organizer_id),
     status: normalizeTournamentStatus(row.status),
     settings: normalizeJsonObject(row.settings),
+    latitude: normalizeNumberInRange(row.latitude, -90, 90),
+    longitude: normalizeNumberInRange(row.longitude, -180, 180),
+    location_label: normalizeString(row.location_label),
     current_round: normalizeNonNegativeInteger(row.current_round, 0),
     total_rounds: row.total_rounds == null
       ? null

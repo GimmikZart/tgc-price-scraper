@@ -6,11 +6,9 @@ import DialogsGeneric from "@/components/dialogs/Generic.vue";
 const router = useRouter();
 const snackbar = useSnackbar();
 const sellListingDraftStore = useSellListingDraftStore();
-const { selectedCard, hasSelectedCard, quantity, unitPrice, condition } = storeToRefs(sellListingDraftStore);
+const { selectedCard, hasSelectedCard, quantity, unitPrice, condition, location, hasLocation } = storeToRefs(sellListingDraftStore);
 
 const SELL_CARDS_BASE_PATH = "/community/sell-cards";
-const PARMA_LATITUDE = 44.8015;
-const PARMA_LONGITUDE = 10.3279;
 
 const isSubmitting = ref(false);
 
@@ -80,13 +78,14 @@ const hasAllRequiredFields = computed(() => {
     && isQuantityValid.value
     && isUnitPriceValid.value
     && isConditionValid.value
+    && hasLocation.value
   );
 });
 
 const canPutOnSale = computed(() => !isSubmitting.value && hasAllRequiredFields.value);
 const saleDialogRef = ref(null);
 const saleDialogPrice = computed(() => {
-  return putOnSalePriceValue ?? "-valore di vendita -";
+  return putOnSalePriceValue.value ?? "-valore di vendita -";
 });
 
 const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer(viewerCards);
@@ -138,6 +137,11 @@ async function handlePutOnSale() {
     return;
   }
 
+  if (!hasLocation.value) {
+    snackbar.addMessage("Inserisci il luogo di vendita", "error");
+    return;
+  }
+
   isSubmitting.value = true;
 
   try {
@@ -145,8 +149,8 @@ async function handlePutOnSale() {
       cardId: selectedCard.value.id,
       quantity: parsedQuantity,
       price: parsedUnitPrice,
-      latitude: PARMA_LATITUDE,
-      longitude: PARMA_LONGITUDE,
+      latitude: location.value.latitude,
+      longitude: location.value.longitude,
       condition: condition.value,
     });
 
@@ -255,6 +259,8 @@ function handleSellClick() {
               </v-chip>
             </template>
           </v-select>
+
+          <CommunitySellLocationPicker v-model="location" />
         </div>
       </form>
 

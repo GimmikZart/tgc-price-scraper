@@ -9,6 +9,8 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare && puppeteer browsers install chrome",
+    "cards:download-images": "node scripts/download-card-images.js",
+    "cards:recompress-images": "node scripts/recompress-card-images.js",
     "scrape:price": "node scripts/run-scrape-cards-price.js",
     "scrape:price:local": "node scripts/run-scrape-cards-price.local.js"
   },
@@ -22,6 +24,7 @@
     "@vueuse/core": "^13.1.0",
     "dayjs": "^1.11.13",
     "idb": "^8.0.3",
+    "leaflet": "^1.9.4",
     "nuxt": "^3.16.2",
     "nuxt-charts": "^1.0.2",
     "pinia": "^3.0.2",
@@ -36,6 +39,7 @@
   },
   "devDependencies": {
     "@iconify/vue": "^5.0.0",
-    "dotenv": "^17.2.3"
+    "dotenv": "^17.2.3",
+    "sharp": "^0.34.5"
   }
 }

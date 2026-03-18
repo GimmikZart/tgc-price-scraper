@@ -2,11 +2,13 @@
 import { fetchLoggedUserPendingPurchaseOfferListings } from "@/api/sellListings";
 
 const BUY_CARDS_BASE_PATH = "/community/buy-cards";
+const BUY_CARDS_MAP_PATH = `${BUY_CARDS_BASE_PATH}/map`;
 const BUY_PENDING_PURCHASES_PATH = `${BUY_CARDS_BASE_PATH}/current_purchases`;
 const BUY_PURCHASE_HISTORY_PATH = `${BUY_CARDS_BASE_PATH}/purchase_history`;
 
 const sectionTabs = Object.freeze([
   { label: "Lista", path: BUY_CARDS_BASE_PATH },
+  { label: "Mappa", path: BUY_CARDS_MAP_PATH },
   { label: "In corso", path: BUY_PENDING_PURCHASES_PATH },
   { label: "Storico", path: BUY_PURCHASE_HISTORY_PATH },
 ]);

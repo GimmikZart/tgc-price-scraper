@@ -57,6 +57,7 @@ import { computeTournamentStandings } from "@/api/tournaments/standings";
 import {
   assertAuthenticatedUserId,
   normalizeJsonObject,
+  normalizeNumberInRange,
   normalizePositiveInteger,
   normalizeString,
   normalizeUuid,
@@ -88,6 +89,53 @@ function assertTournamentFormat(tournamentFormat) {
     throw new Error("Formato torneo non supportato");
   }
   return normalizedFormat;
+}
+
+function hasLocationValue(value) {
+  return !(value === null || value === undefined || value === "");
+}
+
+function resolveTournamentLocationPayload(payload = {}) {
+  const location = payload?.location && typeof payload.location === "object" && !Array.isArray(payload.location)
+    ? payload.location
+    : null;
+
+  const rawLatitude = location?.latitude
+    ?? location?.lat
+    ?? payload?.latitude
+    ?? payload?.lat;
+  const rawLongitude = location?.longitude
+    ?? location?.lng
+    ?? payload?.longitude
+    ?? payload?.lng;
+  const hasLatitude = hasLocationValue(rawLatitude);
+  const hasLongitude = hasLocationValue(rawLongitude);
+
+  if (!hasLatitude && !hasLongitude) {
+    return {
+      latitude: null,
+      longitude: null,
+      location_label: null,
+    };
+  }
+
+  const latitude = normalizeNumberInRange(rawLatitude, -90, 90);
+  const longitude = normalizeNumberInRange(rawLongitude, -180, 180);
+
+  if (latitude == null || longitude == null) {
+    throw new Error("Coordinate torneo non valide");
+  }
+
+  return {
+    latitude,
+    longitude,
+    location_label: normalizeString(
+      location?.label
+        ?? location?.locationLabel
+        ?? payload?.locationLabel
+        ?? payload?.location_label,
+    ),
+  };
 }
 
 function resolveInitialTournamentStatus(status) {
@@ -820,6 +868,7 @@ export async function createTournament(payload = {}) {
   const name = assertTournamentName(payload?.name);
   const format = assertTournamentFormat(payload?.format);
   const game = normalizeString(payload?.game) ?? DEFAULT_TOURNAMENT_GAME;
+  const locationPayload = resolveTournamentLocationPayload(payload);
   const maxParticipants = normalizePositiveInteger(
     payload?.maxParticipants ?? payload?.max_participants,
     8,
@@ -835,6 +884,7 @@ export async function createTournament(payload = {}) {
     organizer_id: organizerId,
     status,
     settings,
+    ...locationPayload,
     current_round: 0,
     total_rounds: null,
   });

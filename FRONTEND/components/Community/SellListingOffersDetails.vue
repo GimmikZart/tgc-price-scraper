@@ -1,4 +1,10 @@
 <script setup>
+import BaseTabs from "@/components/Tabs/BaseTabs.vue";
+import {
+  GHOST_INACTIVE_TAB_CLASS,
+  ORANGE_ACTIVE_TAB_CLASS,
+} from "@/components/Tabs/styles";
+
 const props = defineProps({
   fetchListingById: {
     type: Function,
@@ -52,11 +58,16 @@ const snackbar = useSnackbar();
 
 const listing = ref(null);
 const isLoading = ref(true);
+const activeView = ref("offers");
 
 const listingId = computed(() => String(route.params.id ?? ""));
 const hasListingCard = computed(() => Boolean(listing.value?.card));
 const hasProposals = computed(() => props.proposals.length > 0);
 const hasSellerIdentityHeader = computed(() => props.showSellerIdentityHeader && Boolean(listing.value));
+const detailTabs = computed(() => ([
+  { label: "Offerte", value: "offers" },
+  { label: "Mappa", value: "map" },
+]));
 
 const sellerName = computed(() => {
   const value = listing.value?.sellerDisplayName ??
@@ -130,24 +141,43 @@ watch(listingId, loadListing, { immediate: true });
           </div>
 
           <CommunitySellListingInfoCard :listing="listing" @open-card="openViewerFromSelected" />
+
+          <div class="listing-toolbar-tabs">
+            <BaseTabs
+              :tabs="detailTabs"
+              :active="activeView"
+              :active-class="ORANGE_ACTIVE_TAB_CLASS"
+              :inactive-class="GHOST_INACTIVE_TAB_CLASS"
+              @change="activeView = $event"
+            />
+          </div>
         </template>
       </template>
     </Toolbar>
 
     <div class="min-h-0 flex-1 overflow-y-auto px-3 pb-2">
-      <p v-if="isLoading || isLoadingProposals" class="sell-state-message">{{ loadingProposalsMessage }}</p>
-      <div v-else class="proposal-shell">
-        <div v-if="hasProposals" class="space-y-2">
-          <CommunityOfferListingRow
-            v-for="offerListing in proposals"
-            :key="offerListing.id"
-            :offer-listing="offerListing"
-            :offer-amount-label="offerAmountLabel"
-            :chat-path-base="chatPathBase"
-          />
+      <template v-if="activeView === 'offers'">
+        <p v-if="isLoading || isLoadingProposals" class="sell-state-message">{{ loadingProposalsMessage }}</p>
+        <div v-else class="proposal-shell">
+          <div v-if="hasProposals" class="space-y-2">
+            <CommunityOfferListingRow
+              v-for="offerListing in proposals"
+              :key="offerListing.id"
+              :offer-listing="offerListing"
+              :offer-amount-label="offerAmountLabel"
+              :chat-path-base="chatPathBase"
+            />
+          </div>
+          <p v-else class="sell-state-message">{{ emptyProposalsMessage }}</p>
         </div>
-        <p v-else class="sell-state-message">{{ emptyProposalsMessage }}</p>
-      </div>
+      </template>
+
+      <CommunitySellListingLocationPanel
+        v-else-if="listing"
+        :listing="listing"
+      />
+
+      <p v-else class="sell-state-message">{{ notFoundMessage }}</p>
     </div>
 
     <FullscreenCardViewer
@@ -177,5 +207,9 @@ watch(listingId, loadListing, { immediate: true });
 .seller-identity-wrap {
   margin-top: 0.35rem;
   margin-bottom: 0.45rem;
+}
+
+.listing-toolbar-tabs {
+  margin-top: 0.7rem;
 }
 </style>

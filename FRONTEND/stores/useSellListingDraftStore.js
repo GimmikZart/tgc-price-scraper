@@ -1,7 +1,35 @@
 import { Condition } from "@/utilities/enums/conditions";
+import { hasValidCoordinates, normalizeCoordinates } from "@/utilities/geo";
 
 const DEFAULT_QUANTITY = "1";
 const DEFAULT_CONDITION = Condition.PERFETTO;
+const DEFAULT_LOCATION = Object.freeze({
+  latitude: null,
+  longitude: null,
+  label: null,
+  source: null,
+});
+
+function createEmptyLocation() {
+  return { ...DEFAULT_LOCATION };
+}
+
+function normalizeLocationPayload(value) {
+  const coordinates = normalizeCoordinates(value);
+  const label = typeof value?.label === "string" ? value.label.trim() : "";
+  const source = typeof value?.source === "string" ? value.source.trim() : "";
+
+  if (!coordinates) {
+    return createEmptyLocation();
+  }
+
+  return {
+    latitude: coordinates.lat,
+    longitude: coordinates.lng,
+    label: label || null,
+    source: source || null,
+  };
+}
 
 export const useSellListingDraftStore = defineStore(
   "sellListingDraft",
@@ -10,8 +38,10 @@ export const useSellListingDraftStore = defineStore(
     const quantity = ref(DEFAULT_QUANTITY);
     const unitPrice = ref("");
     const condition = ref(DEFAULT_CONDITION);
+    const location = ref(createEmptyLocation());
 
     const hasSelectedCard = computed(() => Boolean(selectedCard.value?.id));
+    const hasLocation = computed(() => hasValidCoordinates(location.value));
 
     function setSelectedCard(card, copiesInCollection = 0) {
       if (!card?.id) return;
@@ -53,9 +83,18 @@ export const useSellListingDraftStore = defineStore(
       condition.value = DEFAULT_CONDITION;
     }
 
+    function setLocation(nextLocation) {
+      location.value = normalizeLocationPayload(nextLocation);
+    }
+
+    function clearLocation() {
+      location.value = createEmptyLocation();
+    }
+
     function resetDraft() {
       clearSelectedCard();
       clearDraftForm();
+      clearLocation();
     }
 
     return {
@@ -63,16 +102,20 @@ export const useSellListingDraftStore = defineStore(
       quantity,
       unitPrice,
       condition,
+      location,
       hasSelectedCard,
+      hasLocation,
       setSelectedCard,
+      setLocation,
       clearSelectedCard,
       clearDraftForm,
+      clearLocation,
       resetDraft,
     };
   },
   {
     persist: {
-      pick: ["selectedCard", "quantity", "unitPrice", "condition"],
+      pick: ["selectedCard", "quantity", "unitPrice", "condition", "location"],
     },
   }
 );

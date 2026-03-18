@@ -30,6 +30,23 @@ export function normalizeNonNegativeInteger(value, fallbackValue = 0) {
   return parsedValue;
 }
 
+export function normalizeNumberInRange(value, min, max) {
+  if (value === null || value === undefined || value === "") {
+    return null;
+  }
+
+  const parsedValue = Number(value);
+  if (!Number.isFinite(parsedValue)) {
+    return null;
+  }
+
+  if (parsedValue < min || parsedValue > max) {
+    return null;
+  }
+
+  return parsedValue;
+}
+
 export function dedupeStrings(values = []) {
   return [...new Set(
     (Array.isArray(values) ? values : [])

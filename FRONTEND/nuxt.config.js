@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: "2025-11-01",
   devtools: { enabled: true },
+  css: ["leaflet/dist/leaflet.css"],
   app: {
     head: {
       link: [
@@ -16,6 +17,12 @@ export default defineNuxtConfig({
     supabaseServiceRoleKey: process.env.SUPABASE_SERVICE_ROLE_KEY,
     pricesBucket: process.env.PRICES_BUCKET || 'prices',
     pricesObject: process.env.PRICES_OBJECT || 'one-piece.min.json',
+    geoapifyApiKey: process.env.GEOAPIFY_API_KEY,
+    public: {
+      geoapifyEnabled: Boolean(process.env.GEOAPIFY_API_KEY || process.env.NUXT_PUBLIC_GEOAPIFY_API_KEY),
+      geoapifyApiKey: process.env.NUXT_PUBLIC_GEOAPIFY_API_KEY || process.env.GEOAPIFY_API_KEY || "",
+      geoapifyMapStyle: process.env.NUXT_PUBLIC_GEOAPIFY_MAP_STYLE || "osm-carto",
+    },
   },
   modules: [
     "@nuxtjs/tailwindcss",

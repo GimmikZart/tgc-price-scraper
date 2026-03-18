@@ -12,6 +12,7 @@ import {
   TournamentStatus,
   withdrawTournament,
 } from "@/api/tournaments";
+import { formatTournamentLocationLabel } from "@/utilities/tournaments";
 
 const STANDINGS_TAB = "standings";
 const ROUNDS_TAB = "rounds";
@@ -51,6 +52,10 @@ const standings = computed(() => details.value?.standings ?? []);
 const toolbarLabel = computed(() => {
   const tournamentName = String(tournament.value?.name ?? "").trim();
   return tournamentName ? `Torneo: ${tournamentName}` : "Torneo";
+});
+
+const tournamentLocationLabel = computed(() => {
+  return formatTournamentLocationLabel(tournament.value);
 });
 
 const currentParticipant = computed(() => {
@@ -903,6 +908,7 @@ definePageMeta({
                     <li class="text-xs">Formato: {{ formatLabel(tournament?.format) }}</li>
                     <li class="text-xs">Gioco: {{ tournament?.game }}</li>
                     <li class="text-xs">Stato: {{ statusLabel(tournament?.status) }}</li>
+                    <li v-if="tournamentLocationLabel" class="text-xs">Luogo: {{ tournamentLocationLabel }}</li>
                     <li class="text-xs">
                       Round: {{ tournament?.current_round ?? "-" }} / {{ tournament?.total_rounds ?? "-" }}
                     </li>

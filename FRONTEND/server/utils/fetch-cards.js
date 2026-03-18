@@ -2,6 +2,7 @@
 import { writeFile, mkdir } from 'fs/promises'
 import { join } from 'path'
 
+// deprecated, replaced by fetch-cards-from-scraper.js which gets data from scraper instead of API
 async function fetchRawCards() {
   const API_KEY = process.env.API_TCG_KEY || '046f9a484e0e948988b5f5257a438f0a662f50b76b59114c8c1b6dad40ce5c68'
   const BASE_URL = 'https://apitcg.com/api/one-piece/cards'

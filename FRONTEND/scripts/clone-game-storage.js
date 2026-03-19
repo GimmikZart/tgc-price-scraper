@@ -11,10 +11,16 @@ import {
   downloadTextObject,
   ensureStorageBucket,
   listGameRawSetFileNamesFromStorage,
+  readGameCardsFromStorage,
   uploadJsonObject,
 } from "../utilities/gameStorageSync.js";
 import {
+  getCardImageObjectPath,
+  getLegacyCardImageObjectPath,
+} from "../utilities/cardImageStorage.js";
+import {
   getGameCatalogObjectPath,
+  getGameCardImageObjectPath,
   getGameMetaObjectPath,
   getGamePricesObjectPath,
   getGameRawSetObjectPath,
@@ -112,20 +118,35 @@ async function main() {
   }
 
   if (copyImages) {
-    const imageObjectPaths = await listStorageObjectsRecursive(
-      sourceClient,
-      source.imagesBucket,
-      config.imagePathPrefix,
-    );
+    const sourceStorageData = await readGameCardsFromStorage(gameSlug, {
+      client: sourceClient,
+      dataBucket: source.dataBucket,
+    });
+    const imageEntries = buildImageCloneEntries(gameSlug, sourceStorageData.cards);
 
-    for (const objectPath of imageObjectPaths) {
-      const buffer = await downloadBufferObject(sourceClient, source.imagesBucket, objectPath);
+    for (const entry of imageEntries) {
+      const { objectPath, sourceCandidates } = entry;
+      let buffer = null;
+      let matchedSourcePath = null;
+
+      for (const sourcePath of sourceCandidates) {
+        buffer = await downloadBufferObject(sourceClient, source.imagesBucket, sourcePath);
+        if (!buffer) continue;
+
+        matchedSourcePath = sourcePath;
+        break;
+      }
+
       if (!buffer) {
-        console.log(`[skip:image] ${objectPath} non trovato su source`);
+        console.log(`[skip:image] ${sourceCandidates.join(" | ")} non trovato su source`);
         continue;
       }
 
-      console.log(`[copy:image] ${objectPath}`);
+      if (matchedSourcePath !== objectPath) {
+        console.log(`[copy:image] ${matchedSourcePath} -> ${objectPath}`);
+      } else {
+        console.log(`[copy:image] ${objectPath}`);
+      }
       await uploadBufferObject(targetClient, target.imagesBucket, objectPath, buffer, {
         contentType: guessContentType(objectPath),
         cacheControl: 31536000,
@@ -194,59 +215,6 @@ function resolveClientConfig(role, envFileVars) {
   };
 }
 
-async function listStorageObjectsRecursive(client, bucketName, prefix) {
-  const normalizedPrefix = String(prefix || "").trim();
-  const pending = [normalizedPrefix];
-  const files = [];
-
-  while (pending.length) {
-    const currentPrefix = pending.pop();
-    const entries = await listStorageObjects(client, bucketName, currentPrefix);
-
-    for (const entry of entries) {
-      const name = String(entry?.name ?? "").trim();
-      if (!name) continue;
-
-      const objectPath = joinStoragePath(currentPrefix, name);
-      if (isFolderEntry(entry)) {
-        pending.push(objectPath);
-      } else {
-        files.push(objectPath);
-      }
-    }
-  }
-
-  return files.sort((left, right) => left.localeCompare(right, undefined, { numeric: true, sensitivity: "base" }));
-}
-
-async function listStorageObjects(client, bucketName, prefix) {
-  const entries = [];
-  let offset = 0;
-  const limit = 1000;
-
-  while (true) {
-    const { data, error } = await client.storage.from(bucketName).list(prefix, {
-      limit,
-      offset,
-      sortBy: { column: "name", order: "asc" },
-    });
-
-    if (error) throw error;
-
-    const batch = Array.isArray(data) ? data : [];
-    entries.push(...batch);
-
-    if (batch.length < limit) break;
-    offset += batch.length;
-  }
-
-  return entries;
-}
-
-function isFolderEntry(entry) {
-  return !entry?.id && !entry?.metadata;
-}
-
 async function downloadBufferObject(client, bucketName, objectPath) {
   const { data, error } = await client.storage.from(bucketName).download(objectPath);
   if (error || !data) return null;
@@ -270,6 +238,35 @@ function guessContentType(objectPath) {
   if (lowerPath.endsWith(".webp")) return "image/webp";
   if (lowerPath.endsWith(".json")) return "application/json; charset=utf-8";
   return "application/octet-stream";
+}
+
+function buildImageCloneEntries(gameSlug, cards) {
+  const groupedEntries = new Map();
+
+  for (const card of Array.isArray(cards) ? cards : []) {
+    const objectPath = getGameCardImageObjectPath(gameSlug, card);
+    if (!objectPath) continue;
+
+    const sourceCandidates = [
+      objectPath,
+      joinStoragePath(gameSlug, getLegacyCardImageObjectPath(card)),
+      joinStoragePath(gameSlug, getCardImageObjectPath(card)?.toLowerCase() || ""),
+      joinStoragePath(gameSlug, String(getLegacyCardImageObjectPath(card) || "").toLowerCase()),
+    ].filter(Boolean);
+
+    if (!groupedEntries.has(objectPath)) {
+      groupedEntries.set(objectPath, new Set());
+    }
+
+    for (const sourcePath of sourceCandidates) {
+      groupedEntries.get(objectPath).add(sourcePath);
+    }
+  }
+
+  return Array.from(groupedEntries.entries()).map(([objectPath, sourceCandidates]) => ({
+    objectPath,
+    sourceCandidates: [...sourceCandidates],
+  }));
 }
 
 function parseArgs(args) {

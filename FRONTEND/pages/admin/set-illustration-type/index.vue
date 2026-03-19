@@ -1,6 +1,8 @@
 <script setup>
 import { ref, computed, onMounted, onUnmounted } from 'vue'
+import { withStoredCardImage } from '@/utilities/cardImageStorage'
 const snackbar = useSnackbar()
+const runtimeConfig = useRuntimeConfig()
 
 const files = ref([])
 const selectedFile = ref(null)
@@ -37,10 +39,19 @@ async function loadFile(name) {
 }
 
 const total = computed(() => onlyPxCards.value.length)
-const currentCard = computed(() => onlyPxCards.value[currentIndex.value] || null)
+const currentRawCard = computed(() => onlyPxCards.value[currentIndex.value] || null)
+const currentCard = computed(() => {
+  if (!currentRawCard.value) return null
+
+  return withStoredCardImage(currentRawCard.value, {
+    supabaseUrl: runtimeConfig.public?.supabaseUrl || runtimeConfig.supabaseUrl || '',
+    bucketName: runtimeConfig.public?.tcgImagesBucket || runtimeConfig.tcgImagesBucket || 'tcg-images',
+    pathPrefix: 'one-piece',
+  })
+})
 
 function setIllustration(type) {
-  const card = currentCard.value
+  const card = currentRawCard.value
   if (!card) return
   card.illustration = type
   modifiedIds.value.add(card.id)

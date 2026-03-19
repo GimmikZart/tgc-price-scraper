@@ -2,6 +2,23 @@ import { broadcastEvent } from "../api/scrape-stream";
 import puppeteer from "puppeteer";
 import fs from "fs";
 import path from "path";
+import {
+  downloadAndStoreCardImages,
+  formatBytes,
+} from "@/utilities/cardImagesPipeline.js";
+import { buildOnePieceCardsFileName } from "@/utilities/onePieceCardSets.js";
+import {
+  DEFAULT_ONE_PIECE_GAME_SLUG,
+} from "@/utilities/tcgGameConfig.js";
+import { ensureCardTraderSlug } from "@/utilities/cardTraderSlug.js";
+import {
+  buildGameCatalogFromSetFiles,
+  mergeCardsById,
+  readGameCardsFromStorage,
+  readGameRawSetFromStorage,
+  syncGameStorage,
+  upsertSetFileEntry,
+} from "@/utilities/gameStorageSync.js";
 
 /**
  * Scrapes a list of cards from the target site following the specified flow:
@@ -441,16 +458,129 @@ export default async function scrapeCardsOfficial({ expansionName }) {
     );
 
     const result = await Promise.all(remappedPromises);
+    const cardsWithServices = result.map((card) =>
+      ensureCardTraderSlug(card, { preserveVerified: true })
+    );
 
     await broadcastEvent(
       "generic_success",
       `Rimappatura completata per ${expansionName}.`
     );
 
-    return await cardsInJson(expansionName, result);
-    //printCardsInJson(foundSetText, result);
+    const effectiveSetName = foundSetText || expansionName;
+    const fileName = buildOnePieceCardsFileName(effectiveSetName);
+    const existingSetCards = await readGameRawSetFromStorage(
+      DEFAULT_ONE_PIECE_GAME_SLUG,
+      fileName,
+    );
+    const mergedCardsList = mergeCardsById(existingSetCards || [], cardsWithServices);
+    const storageData = await readGameCardsFromStorage(DEFAULT_ONE_PIECE_GAME_SLUG);
+    const nextSetFiles = upsertSetFileEntry(storageData.setFiles, {
+      fileName,
+      cards: mergedCardsList,
+    });
+    const nextCards = buildGameCatalogFromSetFiles(nextSetFiles);
+    const workspaceImagesDir = path.resolve(process.cwd(), ".cache", "tcg-images");
+    const savedSet = {
+      fileName,
+      filePath: null,
+      jsonString: JSON.stringify(mergedCardsList, null, 2),
+      cardsList: mergedCardsList,
+    };
 
-    return result;
+    await broadcastEvent(
+      "generic_success",
+      `Set ${savedSet.fileName} pronto per il bucket.`
+    );
+
+    await broadcastEvent(
+      "generic_info",
+      `Avvio download e conversione immagini per ${effectiveSetName}.`
+    );
+
+    const images = await downloadAndStoreCardImages(savedSet.cardsList, {
+      outputDir: workspaceImagesDir,
+      onProgress: ({ status, processed, total, error }) => {
+        const shouldBroadcast =
+          processed <= 3 ||
+          processed === total ||
+          processed % 25 === 0 ||
+          status === "err";
+
+        if (!shouldBroadcast) return;
+
+        if (status === "err") {
+          broadcastEvent(
+            "generic_error",
+            `Errore elaborazione immagini ${processed}/${total}: ${
+              error?.message || "errore sconosciuto"
+            }`
+          );
+          return;
+        }
+
+        const statusLabel = status === "skip" ? "già presenti" : "processate";
+        broadcastEvent(
+          "generic_info",
+          `Immagini ${statusLabel}: ${processed}/${total}`
+        );
+      },
+    });
+
+    await broadcastEvent(
+      images.failed > 0 ? "generic_warning" : "generic_success",
+      `Immagini set ${effectiveSetName}: ${images.written} nuove, ${images.skipped} già presenti, ${images.failed} fallite, output ${formatBytes(
+        images.outputBytes
+      )}.`
+    );
+
+    await broadcastEvent(
+      "generic_info",
+      `Avvio sincronizzazione bucket per ${effectiveSetName}.`
+    );
+
+    const storageSync = await syncGameStorage(DEFAULT_ONE_PIECE_GAME_SLUG, {
+      setFiles: nextSetFiles,
+      setFileNames: [savedSet.fileName],
+      cards: nextCards,
+      cardsForImages: savedSet.cardsList,
+      syncCatalog: true,
+      syncRawSets: true,
+      syncPrices: false,
+      syncImages: true,
+      imagesDir: workspaceImagesDir,
+      logger: (message) => {
+        broadcastEvent("generic_info", String(message));
+      },
+    });
+
+    await broadcastEvent(
+      "generic_success",
+      `Bucket aggiornati: raw set ${storageSync.rawSetsUploaded}, immagini ${storageSync.imagesUploaded}, catalogo ${
+        storageSync.catalogUploaded ? "ok" : "skip"
+      }.`
+    );
+
+    return {
+      expansionName: effectiveSetName,
+      totalCards: savedSet.cardsList.length,
+      fileName: savedSet.fileName,
+      filePath: savedSet.filePath,
+      jsonString: savedSet.jsonString,
+      images: {
+        totalCards: images.totalCards,
+        totalTasks: images.totalTasks,
+        missingMetadata: images.missingMetadata,
+        written: images.written,
+        skipped: images.skipped,
+        failed: images.failed,
+        downloadBytes: images.downloadBytes,
+        outputBytes: images.outputBytes,
+        outputDir: images.outputDir,
+        failures: images.failures.slice(0, 10),
+      },
+      storageSync,
+    };
   } catch (error) {
     // In caso di errore, chiudo sempre il browser e segnalo l’errore
     if (!browser._isClosed) {
@@ -460,6 +590,7 @@ export default async function scrapeCardsOfficial({ expansionName }) {
       "generic_error",
       `Operazione fallita: ${error.message}`
     );
+    throw error;
   }
 }
 
@@ -625,48 +756,6 @@ async function remapCardsData(cardData) {
   }
 
   return cardData;
-}
-
-async function printCardsInJson(expansionName, cardsList) {
-  try {
-    const rawName = expansionName
-      .replace(/[-\[\]]/g, "")
-      .replace(/\s+/g, " ")
-      .trim();
-    const fileName = rawName.replace(/\s/g, "_").toLowerCase();
-
-    const dir = path.join(process.cwd(), "data", "cards", "one_piece_tgc");
-
-    if (!fs.existsSync(dir)) {
-      fs.mkdirSync(dir, { recursive: true });
-    }
-
-    const filePath = path.join(dir, `${fileName}.json`);
-    fs.writeFileSync(filePath, JSON.stringify(cardsList, null, 2), "utf-8");
-    await broadcastEvent("generic_success", `💾 File salvato in: ${filePath}`);
-  } catch (error) {
-    await broadcastEvent(
-      "generic_error",
-      `'Errore durante la stampa su json: ${error.message}"`
-    );
-  }
-}
-
-async function cardsInJson(expansionName, cardsList) {
-  // 1. Costruisci un nome file “pulito”
-  const rawName = expansionName
-    .replace(/[-\[\]]/g, "")
-    .replace(/\s+/g, " ")
-    .trim();
-  const fileName = rawName.replace(/\s/g, "_").toLowerCase() + ".json";
-
-  // 2. Serializza i dati
-  const jsonString = JSON.stringify(cardsList, null, 2);
-  console.log("fileName:", fileName);
-
-  console.log(`jsonString: ${jsonString}`);
-
-  return { jsonString, fileName };
 }
 
 async function wait(ms) {

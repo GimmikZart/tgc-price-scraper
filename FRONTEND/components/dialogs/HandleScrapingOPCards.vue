@@ -26,19 +26,31 @@ async function scrapaCarteOnePiece() {
 
   for (const entry of bulkSetList.value) {
     const expansionName = entry.setName.trim();
+    if (!expansionName) continue;
 
     try {
-      await downloadCardsFromOfficialWebSite({ expansionName });
-    } catch (e) {
+      const result = await downloadCardsFromOfficialWebSite({ expansionName });
+
       snackbar.addMessage(
-        `Errore nello scraping di "${expansionName}": ${e}`,
-        "error"
+        `Set pronto: ${result.expansionName}`,
+        "success",
+        `${result.fileName} | Carte: ${result.totalCards} | Immagini nuove: ${result.images.written} | già presenti: ${result.images.skipped} | errori: ${result.images.failed}`,
+        6000
+      );
+    } catch (e) {
+      const message =
+        e?.data?.statusMessage || e?.message || "Errore sconosciuto";
+      snackbar.addMessage(
+        `Errore nello scraping di "${expansionName}"`,
+        "error",
+        message
       );
     }
   }
 
   isLoading.value = false;
   bulkSetList.value = [];
+  dialog.value = false;
 }
 </script>
 

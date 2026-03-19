@@ -23,7 +23,7 @@ const props = defineProps({
 
 const emit = defineEmits(["click"]);
 
-const { leaderCards } = useOnePieceCards();
+const { leaderCards } = await useOnePieceCards();
 const leaderChoosen = computed(() => {
   const found = leaderCards?.find((card) => card.id === props.leaderId);
   return found;

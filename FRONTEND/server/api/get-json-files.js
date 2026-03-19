@@ -1,8 +1,6 @@
-import { promises as fs } from 'node:fs'
-import path from 'node:path'
+import { DEFAULT_ONE_PIECE_GAME_SLUG } from "@/utilities/tcgGameConfig.js";
+import { listGameRawSetFileNamesFromStorage } from "@/utilities/gameStorageSync.js";
 
 export default defineEventHandler(async () => {
-  const baseDir = path.resolve(process.cwd(), 'data/cards/one_piece_tgc')
-  const files = await fs.readdir(baseDir)
-  return files.filter(f => f.endsWith('.json')).sort()
+  return listGameRawSetFileNamesFromStorage(DEFAULT_ONE_PIECE_GAME_SLUG);
 })

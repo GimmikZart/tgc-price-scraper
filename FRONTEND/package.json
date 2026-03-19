@@ -9,8 +9,8 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare && puppeteer browsers install chrome",
-    "cards:download-images": "node scripts/download-card-images.js",
-    "cards:recompress-images": "node scripts/recompress-card-images.js",
+    "one-piece:scrape": "node scripts/scrape-one-piece-official.js",
+    "one-piece:sync-workspace": "node scripts/sync-game-storage.js --game=one-piece --prices --images --read-from-local",
     "scrape:price": "node scripts/run-scrape-cards-price.js",
     "scrape:price:local": "node scripts/run-scrape-cards-price.local.js"
   },

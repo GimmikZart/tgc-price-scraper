@@ -1,13 +1,32 @@
-import { promises as fs } from 'node:fs'
-import path from 'node:path'
+import {
+  DEFAULT_ONE_PIECE_GAME_SLUG,
+  DEFAULT_TCG_DATA_BUCKET,
+} from "@/utilities/tcgGameConfig.js";
+import {
+  createSupabaseServiceClientFromEnv,
+  downloadJsonObject,
+} from "@/utilities/gameStorageSync.js";
+import { getGameRawSetObjectPath } from "@/utilities/tcgStorage.js";
 
 export default defineEventHandler(async (event) => {
   const query = getQuery(event)
-  const name = String(query.name || '')
-  if (!name || name.includes('..') || !name.endsWith('.json')) {
-    throw createError({ statusCode: 400, statusMessage: 'Invalid file name' })
+  const name = String(query.name || "")
+
+  if (!name || name.includes("..") || !name.endsWith(".json")) {
+    throw createError({ statusCode: 400, statusMessage: "Invalid file name" })
   }
-  const filePath = path.resolve(process.cwd(), 'data/cards/one_piece_tgc', name)
-  const content = await fs.readFile(filePath, 'utf-8')
-  return JSON.parse(content)
+
+  const client = createSupabaseServiceClientFromEnv()
+  const bucketName = process.env.TCG_DATA_BUCKET || DEFAULT_TCG_DATA_BUCKET
+  const payload = await downloadJsonObject(
+    client,
+    bucketName,
+    getGameRawSetObjectPath(DEFAULT_ONE_PIECE_GAME_SLUG, name),
+  )
+
+  if (payload == null) {
+    throw createError({ statusCode: 404, statusMessage: "File not found" })
+  }
+
+  return payload
 })

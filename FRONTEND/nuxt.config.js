@@ -15,10 +15,12 @@ export default defineNuxtConfig({
   runtimeConfig: {
     supabaseUrl: process.env.SUPABASE_URL,
     supabaseServiceRoleKey: process.env.SUPABASE_SERVICE_ROLE_KEY,
-    pricesBucket: process.env.PRICES_BUCKET || 'prices',
-    pricesObject: process.env.PRICES_OBJECT || 'one-piece.min.json',
+    tcgDataBucket: process.env.TCG_DATA_BUCKET || 'tcg-data',
+    tcgImagesBucket: process.env.TCG_IMAGES_BUCKET || 'tcg-images',
     geoapifyApiKey: process.env.GEOAPIFY_API_KEY,
     public: {
+      supabaseUrl: process.env.SUPABASE_URL || "",
+      tcgImagesBucket: process.env.TCG_IMAGES_BUCKET || "tcg-images",
       geoapifyEnabled: Boolean(process.env.GEOAPIFY_API_KEY || process.env.NUXT_PUBLIC_GEOAPIFY_API_KEY),
       geoapifyApiKey: process.env.NUXT_PUBLIC_GEOAPIFY_API_KEY || process.env.GEOAPIFY_API_KEY || "",
       geoapifyMapStyle: process.env.NUXT_PUBLIC_GEOAPIFY_MAP_STYLE || "osm-carto",

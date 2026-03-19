@@ -1,5 +1,6 @@
 <script setup>
 import { ref, computed, onMounted, watch } from 'vue'
+import { buildCardTraderCardUrl, CARD_TRADER_SERVICE_NAME } from '@/utilities/cardTraderSlug'
 
 const snackbar = useSnackbar()
 const files = ref([])
@@ -104,17 +105,9 @@ async function loadFile(name) {
 function generateSlug(card, service) {
   if (!card.slugs) card.slugs = []
 
-  const nameSlug = slugify(card.name)
-  const setSlug = formatSetName(card.setName)
-  const illustrationSlug = getIllustrationSlug(card.illustration)
-  const raritySlug = getRaritySlug(card.rarity)
-
   let url = ''
-  if (service === 'Card Trader') {
-    url = `https://www.cardtrader.com/cards/${nameSlug}`
-    if( raritySlug) url += `-${raritySlug}`
-    if (illustrationSlug) url += `-${illustrationSlug}`
-    if (setSlug) url += `-${setSlug}`
+  if (service === CARD_TRADER_SERVICE_NAME) {
+    url = buildCardTraderCardUrl(card)
   }
 
   const existing = card.slugs.find(s => s.service === service)

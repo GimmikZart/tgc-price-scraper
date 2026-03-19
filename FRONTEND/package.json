@@ -11,6 +11,7 @@
     "postinstall": "nuxt prepare && puppeteer browsers install chrome",
     "one-piece:scrape": "node scripts/scrape-one-piece-official.js",
     "one-piece:sync-workspace": "node scripts/sync-game-storage.js --game=one-piece --prices --images --read-from-local",
+    "storage:clone-game": "node scripts/clone-game-storage.js",
     "scrape:price": "node scripts/run-scrape-cards-price.js",
     "scrape:price:local": "node scripts/run-scrape-cards-price.local.js"
   },

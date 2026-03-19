@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Guida Flusso Locale -> Prod One Piece</title>
+  <style>
+    :root {
+      --bg: #f6f1e8;
+      --panel: #fffdf8;
+      --ink: #1f2937;
+      --line: #d8cfc2;
+      --accent: #0f766e;
+      --accent-soft: #d9f2ee;
+      --warn: #92400e;
+      --warn-soft: #fff1dc;
+      --code: #f2efe8;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(180deg, #efe7d8 0%, var(--bg) 100%);
+      color: var(--ink);
+      line-height: 1.55;
+    }
+
+    .page {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 36px 40px 60px;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #fffdf8 0%, #f4efe6 100%);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 28px 30px;
+      margin-bottom: 22px;
+      box-shadow: 0 12px 30px rgba(31, 41, 55, 0.06);
+    }
+
+    h1, h2, h3 {
+      margin: 0 0 12px;
+      line-height: 1.2;
+    }
+
+    h1 {
+      font-size: 34px;
+      letter-spacing: -0.03em;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-top: 28px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid var(--line);
+    }
+
+    h3 {
+      font-size: 18px;
+      margin-top: 18px;
+    }
+
+    p, li {
+      font-size: 15px;
+    }
+
+    p {
+      margin: 0 0 12px;
+    }
+
+    ul, ol {
+      margin: 10px 0 14px 22px;
+    }
+
+    li + li {
+      margin-top: 6px;
+    }
+
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 22px 24px;
+      margin-top: 18px;
+      box-shadow: 0 10px 24px rgba(31, 41, 55, 0.04);
+    }
+
+    .callout,
+    .warning {
+      border-radius: 14px;
+      padding: 14px 16px;
+      margin: 16px 0;
+    }
+
+    .callout {
+      background: var(--accent-soft);
+      border: 1px solid #9fd7cf;
+    }
+
+    .warning {
+      background: var(--warn-soft);
+      border: 1px solid #f2cb88;
+      color: var(--warn);
+    }
+
+    code {
+      font-family: Consolas, "Courier New", monospace;
+      background: var(--code);
+      padding: 2px 6px;
+      border-radius: 6px;
+      font-size: 0.95em;
+    }
+
+    pre {
+      margin: 14px 0;
+      padding: 14px 16px;
+      background: #1f2937;
+      color: #f8fafc;
+      border-radius: 14px;
+      overflow-x: auto;
+      border: 1px solid #111827;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+
+    .step {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 8px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .mini {
+      background: #faf7f1;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 14px 16px;
+    }
+
+    .checklist li {
+      margin-top: 8px;
+    }
+
+    @page {
+      size: A4;
+      margin: 16mm;
+    }
+
+    @media print {
+      body { background: #ffffff; }
+      .page {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+      }
+      .hero,
+      .panel,
+      .mini {
+        box-shadow: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <p class="step">Procedura ufficiale attuale</p>
+      <h1>Guida step by step per gestire una nuova espansione One Piece con validazione locale e pubblicazione su prod</h1>
+      <p>Questa guida descrive il flusso che oggi e piu sicuro: il set viene prima lavorato in locale, poi pubblicato su prod solo dopo la verifica delle carte e degli slug Card Trader.</p>
+      <div class="callout">
+        <strong>Regola base:</strong> Supabase Storage resta la source of truth, ma la bozza del nuovo set viene prima testata in locale.
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>1. Obiettivo del flusso</h2>
+      <p>Quando esce una nuova espansione, il procedimento corretto e:</p>
+      <ol>
+        <li>riallineare prima il locale con lo stato attuale di prod;</li>
+        <li>scrapare il nuovo set nel Supabase locale;</li>
+        <li>verificare che le carte siano corrette;</li>
+        <li>far correggere e validare gli slug Card Trader sul bucket locale;</li>
+        <li>fare un ulteriore controllo dal pannello admin locale;</li>
+        <li>pubblicare il risultato da local a prod;</li>
+        <li>lanciare lo scraper prezzi su prod;</li>
+        <li>se serve, riallineare di nuovo il locale con prod per avere anche i prezzi aggiornati.</li>
+      </ol>
+    </section>
+
+    <section class="panel">
+      <h2>2. Regole da ricordare prima di iniziare</h2>
+      <div class="grid">
+        <div class="mini">
+          <h3>Regola 1</h3>
+          <p><code>npm run one-piece:scrape</code> e <code>npm run scrape:price</code> leggono l'ambiente attivo da <code>.env</code>.</p>
+        </div>
+        <div class="mini">
+          <h3>Regola 2</h3>
+          <p><code>.env.prod</code> e <code>.env.local</code> sono file di appoggio. Gli script principali non li leggono da soli.</p>
+        </div>
+        <div class="mini">
+          <h3>Regola 3</h3>
+          <p>Gli slug Card Trader non vengono auto-generati come URL. Ogni carta riceve solo l'entry del servizio con URL vuoto finche non viene verificato.</p>
+        </div>
+        <div class="mini">
+          <h3>Regola 4</h3>
+          <p>Lo scraper prezzi usa solo slug con <code>url</code> presente e <code>verified: true</code>.</p>
+        </div>
+      </div>
+
+      <div class="warning">
+        <strong>Importante:</strong> se vuoi pubblicare da local a prod senza fare danni, il locale deve partire da una copia aggiornata di prod. Altrimenti rischi di sovrascrivere prod con uno stato vecchio.
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>3. File env consigliati</h2>
+      <ul>
+        <li><code>.env.prod</code>: credenziali Supabase cloud prod</li>
+        <li><code>.env.local</code>: credenziali Supabase locale Docker</li>
+        <li><code>.env</code>: ambiente attivo per gli script principali</li>
+      </ul>
+
+      <h3>Switch pratico</h3>
+      <pre>Copy-Item .env.local .env
+
+# quando devi eseguire comandi verso prod
+Copy-Item .env.prod .env</pre>
+
+      <p>Se vuoi essere prudente, fai prima un backup del file attivo:</p>
+      <pre>Copy-Item .env .env.backup</pre>
+    </section>
+
+    <section class="panel">
+      <h2>4. Step 0: riallineare il locale con prod prima di iniziare</h2>
+      <p><strong>Obiettivo:</strong> partire sempre dall'ultimo stato disponibile in prod, cosi il push finale da local a prod non sovrascrive dati vecchi.</p>
+
+      <ol>
+        <li>Accendi il Supabase locale Docker.</li>
+        <li>Lancia il clone da prod a local.</li>
+      </ol>
+
+      <pre>npm run storage:clone-game -- --game=one-piece --source-env-file=.env.prod --target-env-file=.env.local</pre>
+
+      <p>Dopo questo comando il locale ha:</p>
+      <ul>
+        <li>raw set attuali;</li>
+        <li>catalogo attuale;</li>
+        <li>prezzi attuali;</li>
+        <li>immagini attuali.</li>
+      </ul>
+    </section>
+
+    <section class="panel">
+      <h2>5. Step 1: scrapare il nuovo set in locale</h2>
+      <p><strong>Obiettivo:</strong> costruire il nuovo set sul Supabase locale, non su prod.</p>
+
+      <ol>
+        <li>Assicurati che <code>.env</code> punti a locale.</li>
+        <li>Lancia lo scrape del set.</li>
+      </ol>
+
+      <pre>Copy-Item .env.local .env
+npm run one-piece:scrape -- --set="NOME SET"</pre>
+
+      <p>Questo step salva nel Supabase locale:</p>
+      <ul>
+        <li>raw set;</li>
+        <li><code>catalog.min.json</code> aggiornato;</li>
+        <li>immagini <code>webp</code>;</li>
+        <li>entry <code>Card Trader</code> vuota sulle carte.</li>
+      </ul>
+    </section>
+
+    <section class="panel">
+      <h2>6. Step 2: verificare che le carte funzionino correttamente in locale</h2>
+      <p><strong>Obiettivo:</strong> fare un controllo base prima di entrare nella parte prezzi.</p>
+
+      <ol>
+        <li>Lascia <code>.env</code> puntato a locale.</li>
+        <li>Avvia l'app locale.</li>
+      </ol>
+
+      <pre>npm run dev</pre>
+
+      <p>Controlli consigliati:</p>
+      <ul>
+        <li>il set compare nella lista;</li>
+        <li>le carte del set si vedono;</li>
+        <li>le immagini si caricano;</li>
+        <li>non ci sono campi principali palesemente rotti.</li>
+      </ul>
+    </section>
+
+    <section class="panel">
+      <h2>7. Step 3: chiedere a Codex di sistemare gli slug sul bucket locale</h2>
+      <p><strong>Obiettivo:</strong> correggere e validare gli slug Card Trader prima di toccare prod.</p>
+
+      <ol>
+        <li>Lascia sempre <code>.env</code> puntato a locale.</li>
+        <li>Apri Codex nel progetto.</li>
+        <li>Fai una richiesta esplicita dicendo che deve lavorare sul bucket locale.</li>
+      </ol>
+
+      <h3>Prompt consigliato</h3>
+      <pre>Sistema e valida gli slug Card Trader del set "NOME SET" direttamente sul bucket locale.
+Non autogenerare URL.
+Leggi i dati dal bucket locale, correggi gli slug uno per uno e salva le modifiche in locale.</pre>
+
+      <h3>Prompt per singolo file</h3>
+      <pre>Leggi il raw set "NOME_FILE.json" dal bucket locale e correggi gli slug Card Trader delle carte.
+Voglio solo URL reali e verificati.
+Salva tutto direttamente in locale.</pre>
+
+      <div class="callout">
+        <strong>Idea chiave:</strong> in questa fase prod non viene ancora toccato.
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>8. Step 4: controllo finale dal pannello admin locale</h2>
+      <p><strong>Obiettivo:</strong> dare un'ultima occhiata umana agli slug prima di pubblicare.</p>
+
+      <p>Con <code>.env</code> ancora su locale, usa la pagina:</p>
+      <pre>/admin/set-price-services</pre>
+
+      <p>Qui puoi:</p>
+      <ul>
+        <li>aprire il raw set locale;</li>
+        <li>controllare gli slug carta per carta;</li>
+        <li>correggere manualmente eventuali casi dubbi;</li>
+        <li>verificare che i flag <code>verified</code> siano coerenti.</li>
+      </ul>
+    </section>
+
+    <section class="panel">
+      <h2>9. Step 5: pubblicare il risultato da local a prod</h2>
+      <p><strong>Obiettivo:</strong> portare su prod il set gia controllato.</p>
+
+      <ol>
+        <li>Assicurati che il locale sia quello giusto e che il set sia stato verificato.</li>
+        <li>Lancia il clone da local a prod.</li>
+      </ol>
+
+      <pre>npm run storage:clone-game -- --game=one-piece --source-env-file=.env.local --target-env-file=.env.prod</pre>
+
+      <div class="warning">
+        <strong>Attenzione:</strong> questo comando copia lo stato del gioco da local a prod. Va usato solo dopo aver fatto prima il riallineamento iniziale prod -&gt; local e dopo aver verificato il nuovo set.
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>10. Step 6: lanciare lo scraper prezzi su prod</h2>
+      <p><strong>Obiettivo:</strong> una volta pubblicato il set con slug gia verificati, aggiornare i prezzi su prod.</p>
+
+      <ol>
+        <li>Punta <code>.env</code> a prod.</li>
+        <li>Lancia lo scraper prezzi.</li>
+      </ol>
+
+      <pre>Copy-Item .env.prod .env
+npm run scrape:price</pre>
+
+      <p>Questo step:</p>
+      <ul>
+        <li>legge le carte dal bucket prod;</li>
+        <li>usa solo slug Card Trader con URL presente e <code>verified: true</code>;</li>
+        <li>aggiorna i prezzi;</li>
+        <li>riscrive <code>prices.min.json</code> nel bucket prod.</li>
+      </ul>
+    </section>
+
+    <section class="panel">
+      <h2>11. Step 7: riallineare di nuovo il locale con prod</h2>
+      <p><strong>Obiettivo:</strong> riportare nel locale anche l'ultimo stato prezzi di prod.</p>
+
+      <ol>
+        <li>Accendi il Supabase locale Docker se non e gia acceso.</li>
+        <li>Lancia di nuovo il clone da prod a local.</li>
+      </ol>
+
+      <pre>npm run storage:clone-game -- --game=one-piece --source-env-file=.env.prod --target-env-file=.env.local</pre>
+
+      <p>Questo passaggio non e obbligatorio se ti basta sapere che prod e aggiornato, ma e consigliato se vuoi continuare a lavorare in locale con tutto allineato.</p>
+    </section>
+
+    <section class="panel">
+      <h2>12. Step 8: tornare al lavoro locale normale</h2>
+      <pre>Copy-Item .env.local .env
+npm run dev</pre>
+
+      <p>Controlli finali consigliati:</p>
+      <ul>
+        <li>lista carte;</li>
+        <li>immagini;</li>
+        <li>prezzi;</li>
+        <li>pagina admin slug;</li>
+        <li>endpoint tipo <code>/api/games/one-piece/meta</code>.</li>
+      </ul>
+    </section>
+
+    <section class="panel">
+      <h2>13. Checklist rapida</h2>
+      <ol class="checklist">
+        <li>Clone iniziale prod -&gt; local.</li>
+        <li><code>.env</code> su locale.</li>
+        <li>Scrape nuovo set in locale.</li>
+        <li>Controllo carte in locale.</li>
+        <li>Chiedi a Codex di sistemare gli slug sul bucket locale.</li>
+        <li>Controllo finale nel pannello admin locale.</li>
+        <li>Clone local -&gt; prod.</li>
+        <li><code>.env</code> su prod.</li>
+        <li>Scrape prezzi su prod.</li>
+        <li>Clone finale prod -&gt; local.</li>
+      </ol>
+    </section>
+
+    <section class="panel">
+      <h2>14. Cose da non fare</h2>
+      <ul>
+        <li>Non scrivere subito il nuovo set direttamente su prod se prima vuoi controllarlo con calma.</li>
+        <li>Non pubblicare local -&gt; prod senza aver prima riallineato il locale con prod.</li>
+        <li>Non lanciare lo scraper prezzi prima di aver sistemato gli slug.</li>
+        <li>Non considerare i vecchi JSON del repo come verita del dato.</li>
+        <li>Non usare il dashboard Storage per migrare a mano file e cartelle se puoi evitarlo.</li>
+      </ul>
+    </section>
+
+    <section class="panel">
+      <h2>15. Riassunto in una frase</h2>
+      <p><strong>Prod viene alimentato solo dopo che il nuovo set e stato scrappato, controllato e validato in locale.</strong></p>
+    </section>
+  </main>
+</body>
+</html>

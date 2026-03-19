@@ -10,7 +10,7 @@ import { buildOnePieceCardsFileName } from "@/utilities/onePieceCardSets.js";
 import {
   DEFAULT_ONE_PIECE_GAME_SLUG,
 } from "@/utilities/tcgGameConfig.js";
-import { ensureCardTraderSlug } from "@/utilities/cardTraderSlug.js";
+import { ensureCardTraderSlugEntry } from "@/utilities/cardTraderSlug.js";
 import {
   buildGameCatalogFromSetFiles,
   mergeCardsById,
@@ -458,9 +458,6 @@ export default async function scrapeCardsOfficial({ expansionName }) {
     );
 
     const result = await Promise.all(remappedPromises);
-    const cardsWithServices = result.map((card) =>
-      ensureCardTraderSlug(card, { preserveVerified: true })
-    );
 
     await broadcastEvent(
       "generic_success",
@@ -473,7 +470,8 @@ export default async function scrapeCardsOfficial({ expansionName }) {
       DEFAULT_ONE_PIECE_GAME_SLUG,
       fileName,
     );
-    const mergedCardsList = mergeCardsById(existingSetCards || [], cardsWithServices);
+    const mergedCardsList = mergeCardsById(existingSetCards || [], result)
+      .map((card) => ensureCardTraderSlugEntry(card));
     const storageData = await readGameCardsFromStorage(DEFAULT_ONE_PIECE_GAME_SLUG);
     const nextSetFiles = upsertSetFileEntry(storageData.setFiles, {
       fileName,

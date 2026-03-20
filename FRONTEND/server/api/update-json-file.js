@@ -18,7 +18,9 @@ export default defineEventHandler(async (event) => {
     throw createError({ statusCode: 400, statusMessage: "Invalid file name" })
   }
 
-  const cards = Array.isArray(body?.data) ? body.data : []
+  const cards = Array.isArray(body?.data)
+    ? body.data
+    : (Array.isArray(body?.data?.cards) ? body.data.cards : [])
   const client = createSupabaseServiceClientFromEnv()
   const dataBucket = process.env.TCG_DATA_BUCKET || DEFAULT_TCG_DATA_BUCKET
   const storageData = await readGameCardsFromStorage(DEFAULT_ONE_PIECE_GAME_SLUG, {

@@ -15,16 +15,12 @@ import {
   uploadJsonObject,
 } from "../utilities/gameStorageSync.js";
 import {
-  getCardImageObjectPath,
-  getLegacyCardImageObjectPath,
-} from "../utilities/cardImageStorage.js";
-import {
   getGameCatalogObjectPath,
   getGameCardImageObjectPath,
+  getGameCardImageObjectPathCandidates,
   getGameMetaObjectPath,
   getGamePricesObjectPath,
   getGameRawSetObjectPath,
-  joinStoragePath,
 } from "../utilities/tcgStorage.js";
 
 const argv = parseArgs(process.argv.slice(2));
@@ -47,7 +43,8 @@ main().catch((error) => {
 });
 
 async function main() {
-  const config = getSupportedGameConfig(gameSlug);
+  getSupportedGameConfig(gameSlug);
+
   const sourceEnvFile = loadOptionalEnvFile(argv["source-env-file"]);
   const targetEnvFile = loadOptionalEnvFile(argv["target-env-file"]);
   const source = resolveClientConfig("source", sourceEnvFile);
@@ -56,11 +53,11 @@ async function main() {
   const targetClient = createServiceClient(target.url, target.serviceRoleKey);
   const dataOnly = Boolean(argv["data-only"]);
   const imagesOnly = Boolean(argv["images-only"]);
-  const copyData = imagesOnly ? false : true;
-  const copyImages = dataOnly ? false : true;
+  const copyData = !imagesOnly;
+  const copyImages = !dataOnly;
 
   if (!copyData && !copyImages) {
-    throw new Error("Hai disattivato sia dati che immagini: non c'è nulla da clonare.");
+    throw new Error("Hai disattivato sia dati che immagini: non c'e nulla da clonare.");
   }
 
   console.log(`Clonazione gioco: ${gameSlug}`);
@@ -93,6 +90,7 @@ async function main() {
       getGameCatalogObjectPath(gameSlug),
       getGamePricesObjectPath(gameSlug),
     ];
+
     const rawSetFileNames = await listGameRawSetFileNamesFromStorage(gameSlug, {
       client: sourceClient,
       dataBucket: source.dataBucket,
@@ -147,6 +145,7 @@ async function main() {
       } else {
         console.log(`[copy:image] ${objectPath}`);
       }
+
       await uploadBufferObject(targetClient, target.imagesBucket, objectPath, buffer, {
         contentType: guessContentType(objectPath),
         cacheControl: 31536000,
@@ -183,7 +182,10 @@ function loadOptionalEnvFile(filePath) {
 
 function resolveClientConfig(role, envFileVars) {
   const upperRole = role.toUpperCase();
-  const url = process.env[`${upperRole}_SUPABASE_URL`] || envFileVars.SUPABASE_URL || (role === "target" ? process.env.SUPABASE_URL : "");
+  const url =
+    process.env[`${upperRole}_SUPABASE_URL`] ||
+    envFileVars.SUPABASE_URL ||
+    (role === "target" ? process.env.SUPABASE_URL : "");
   const serviceRoleKey =
     process.env[`${upperRole}_SUPABASE_SERVICE_ROLE_KEY`] ||
     envFileVars.SUPABASE_SERVICE_ROLE_KEY ||
@@ -247,12 +249,9 @@ function buildImageCloneEntries(gameSlug, cards) {
     const objectPath = getGameCardImageObjectPath(gameSlug, card);
     if (!objectPath) continue;
 
-    const sourceCandidates = [
-      objectPath,
-      joinStoragePath(gameSlug, getLegacyCardImageObjectPath(card)),
-      joinStoragePath(gameSlug, getCardImageObjectPath(card)?.toLowerCase() || ""),
-      joinStoragePath(gameSlug, String(getLegacyCardImageObjectPath(card) || "").toLowerCase()),
-    ].filter(Boolean);
+    const sourceCandidates = getGameCardImageObjectPathCandidates(gameSlug, card, {
+      includeLowercase: true,
+    });
 
     if (!groupedEntries.has(objectPath)) {
       groupedEntries.set(objectPath, new Set());

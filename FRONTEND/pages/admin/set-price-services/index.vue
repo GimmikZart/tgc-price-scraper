@@ -1,127 +1,139 @@
 <script setup>
-import { onMounted, ref, watch } from 'vue'
-import { CARD_TRADER_SERVICE_NAME, createCardTraderSlugEntry } from '@/utilities/cardTraderSlug'
+import { computed, onMounted, ref, watch } from "vue";
+import { withStoredCardImage } from "@/utilities/cardImageStorage";
+import { CARD_TRADER_SERVICE_NAME, createCardTraderSlugEntry } from "@/utilities/cardTraderSlug";
 
-const snackbar = useSnackbar()
-const files = ref([])
-const selectedFile = ref(null)
-const rawData = ref(null)
-const cards = ref([])
-const modified = ref(false)
-const savingIndex = ref(null)
+const snackbar = useSnackbar();
+const runtimeConfig = useRuntimeConfig();
 
-const services = [CARD_TRADER_SERVICE_NAME]
+const files = ref([]);
+const selectedFile = ref(null);
+const rawData = ref(null);
+const cards = ref([]);
+const modified = ref(false);
+const savingIndex = ref(null);
+
+const services = [CARD_TRADER_SERVICE_NAME];
+const imageOptions = computed(() => ({
+  supabaseUrl: runtimeConfig.public?.supabaseUrl || runtimeConfig.supabaseUrl || "",
+  bucketName: runtimeConfig.public?.tcgImagesBucket || runtimeConfig.tcgImagesBucket || "tcg-images",
+  pathPrefix: "one-piece",
+}));
 
 watch(selectedFile, (newFile) => {
   if (newFile) {
-    loadFile(newFile)
-    return
+    loadFile(newFile);
+    return;
   }
 
-  rawData.value = null
-  cards.value = []
-  modified.value = false
-})
+  rawData.value = null;
+  cards.value = [];
+  modified.value = false;
+});
 
 onMounted(async () => {
-  files.value = await $fetch('/api/get-json-files')
-})
+  files.value = await $fetch("/api/get-json-files");
+});
 
 async function loadFile(name) {
-  selectedFile.value = name
-  rawData.value = await $fetch('/api/get-single-json-file', { params: { name } })
+  selectedFile.value = name;
+  rawData.value = await $fetch("/api/get-single-json-file", { params: { name } });
   cards.value = Array.isArray(rawData.value)
     ? rawData.value
-    : (rawData.value.cards || [])
-  modified.value = false
+    : (rawData.value.cards || []);
+  modified.value = false;
+}
+
+function getPreviewCard(card) {
+  return withStoredCardImage(card, imageOptions.value);
 }
 
 function hasServiceEntry(card, service) {
   return Array.isArray(card?.slugs)
-    && card.slugs.some((slug) => slug?.service === service)
+    && card.slugs.some((slug) => slug?.service === service);
 }
 
 function hasServiceUrl(card, service) {
   return Array.isArray(card?.slugs)
-    && card.slugs.some((slug) => slug?.service === service && String(slug?.url || '').trim())
+    && card.slugs.some((slug) => slug?.service === service && String(slug?.url || "").trim());
 }
 
 function ensureServiceEntry(card, service) {
-  if (!card || service !== CARD_TRADER_SERVICE_NAME) return
-  if (!Array.isArray(card.slugs)) card.slugs = []
-  if (hasServiceEntry(card, service)) return
+  if (!card || service !== CARD_TRADER_SERVICE_NAME) return;
+  if (!Array.isArray(card.slugs)) card.slugs = [];
+  if (hasServiceEntry(card, service)) return;
 
-  card.slugs.push(createCardTraderSlugEntry())
-  modified.value = true
+  card.slugs.push(createCardTraderSlugEntry());
+  modified.value = true;
 }
 
 function ensureAllServiceEntries(service) {
-  if (!cards.value?.length) return
+  if (!cards.value?.length) return;
 
-  let changed = 0
+  let changed = 0;
   for (const card of cards.value) {
-    if (hasServiceEntry(card, service)) continue
-    ensureServiceEntry(card, service)
-    changed += 1
+    if (hasServiceEntry(card, service)) continue;
+    ensureServiceEntry(card, service);
+    changed += 1;
   }
 
   if (changed > 0) {
-    modified.value = true
-    alert(`Preparate ${changed} entry per ${service} ✅`)
-    return
+    modified.value = true;
+    snackbar.addMessage(`Preparate ${changed} entry per ${service}.`, "success");
+    return;
   }
 
-  alert(`Nessuna entry da aggiungere per ${service} — tutto già pronto ✅`)
+  snackbar.addMessage(`Nessuna entry da aggiungere per ${service}.`, "info");
 }
 
 async function saveAll() {
-  if (!selectedFile.value) return
+  if (!selectedFile.value) return;
 
   const output = Array.isArray(rawData.value)
     ? cards.value
-    : { ...rawData.value, cards: cards.value }
+    : { ...rawData.value, cards: cards.value };
 
-  await $fetch('/api/update-json-file', {
-    method: 'POST',
+  await $fetch("/api/update-json-file", {
+    method: "POST",
     body: { name: selectedFile.value, data: output },
-  })
+  });
 
-  modified.value = false
-  snackbar.addMessage('File salvato ✅', 'success')
+  modified.value = false;
+  snackbar.addMessage("File salvato.", "success");
 }
 
 async function saveThis(i) {
-  if (!selectedFile.value) return
+  if (!selectedFile.value) return;
 
   try {
-    savingIndex.value = i
+    savingIndex.value = i;
 
-    const fresh = await $fetch('/api/get-single-json-file', {
+    const fresh = await $fetch("/api/get-single-json-file", {
       params: { name: selectedFile.value },
-    })
+    });
 
-    let output
+    let output;
     if (Array.isArray(fresh)) {
-      const next = [...fresh]
-      next[i] = cards.value[i]
-      output = next
+      const next = [...fresh];
+      next[i] = cards.value[i];
+      output = next;
     } else {
-      const freshCards = Array.isArray(fresh.cards) ? [...fresh.cards] : []
-      freshCards[i] = cards.value[i]
-      output = { ...fresh, cards: freshCards }
+      const freshCards = Array.isArray(fresh.cards) ? [...fresh.cards] : [];
+      freshCards[i] = cards.value[i];
+      output = { ...fresh, cards: freshCards };
     }
 
-    await $fetch('/api/update-json-file', {
-      method: 'POST',
+    await $fetch("/api/update-json-file", {
+      method: "POST",
       body: { name: selectedFile.value, data: output },
-    })
+    });
 
-    snackbar.addMessage(`Carta #${i + 1} salvata ✅`, 'success')
+    snackbar.addMessage(`Carta #${i + 1} salvata.`, "success");
   } catch (err) {
-    console.error(err)
-    snackbar.addMessage('Errore nel salvataggio della carta', 'error')
+    console.error(err);
+    snackbar.addMessage("Errore nel salvataggio della carta.", "error");
   } finally {
-    savingIndex.value = null
+    savingIndex.value = null;
   }
 }
 </script>
@@ -152,7 +164,7 @@ async function saveThis(i) {
           color="black"
           @click="ensureAllServiceEntries(service)"
         >
-          Prepara tutti — {{ service }}
+          Prepara tutti - {{ service }}
         </v-btn>
       </template>
     </div>
@@ -160,10 +172,10 @@ async function saveThis(i) {
     <div v-if="cards.length" class="grid grid-cols-5 gap-5">
       <div
         v-for="(card, i) in cards"
-        :key="i"
+        :key="card.id || i"
         class="border rounded p-4 bg-gray-50 dark:bg-gray-800"
       >
-        <Card :card="card" class="w-full" />
+        <Card :card="getPreviewCard(card)" class="w-full" />
         <h3 class="text-lg font-bold mb-2">{{ card.name }}</h3>
         <p class="text-sm opacity-70 mb-3">{{ card.setName }}</p>
 

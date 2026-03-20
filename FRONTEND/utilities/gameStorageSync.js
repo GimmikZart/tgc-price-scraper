@@ -3,8 +3,7 @@ import path from "node:path";
 import crypto from "node:crypto";
 import { createClient } from "@supabase/supabase-js";
 import {
-  getCardImageObjectPath,
-  getLegacyCardImageObjectPath,
+  getCardImageObjectPathCandidates,
 } from "./cardImageStorage.js";
 import {
   DEFAULT_TCG_DATA_BUCKET,
@@ -438,14 +437,9 @@ function normalizeProvidedSetFiles(setFiles) {
 }
 
 async function resolveExistingImageSourcePath(card, imagesDir) {
-  const candidatePaths = [
-    getCardImageObjectPath(card),
-    getLegacyCardImageObjectPath(card),
-  ]
-    .filter(Boolean)
-    .map((objectPath, index, collection) => collection.indexOf(objectPath) === index ? objectPath : null)
-    .filter(Boolean)
-    .map((objectPath) => path.join(imagesDir, objectPath));
+  const candidatePaths = getCardImageObjectPathCandidates(card, {
+    includeLowercase: true,
+  }).map((objectPath) => path.join(imagesDir, objectPath));
 
   for (const candidatePath of candidatePaths) {
     try {

@@ -1,4 +1,7 @@
-import { getCardImageObjectPath } from "./cardImageStorage.js";
+import {
+  getCardImageObjectPath,
+  getPrefixedCardImageObjectPathCandidates,
+} from "./cardImageStorage.js";
 import { getSupportedGameConfig } from "./tcgGameConfig.js";
 
 export function joinStoragePath(...segments) {
@@ -36,4 +39,13 @@ export function getGameCardImageObjectPath(gameSlug, card) {
   if (!imageObjectPath) return null;
 
   return joinStoragePath(config.imagePathPrefix, imageObjectPath);
+}
+
+export function getGameCardImageObjectPathCandidates(gameSlug, card, options = {}) {
+  const config = getSupportedGameConfig(gameSlug);
+
+  return getPrefixedCardImageObjectPathCandidates(card, {
+    ...options,
+    pathPrefix: config.imagePathPrefix,
+  });
 }

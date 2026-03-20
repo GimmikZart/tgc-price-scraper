@@ -52,6 +52,31 @@ export function getCardImageObjectPath(card) {
   return `${folderName}/${fileName}.webp`;
 }
 
+export function getCardImageObjectPathCandidates(card, options = {}) {
+  const includeCanonical = options.includeCanonical !== false;
+  const includeLegacy = options.includeLegacy !== false;
+  const includeLowercase = Boolean(options.includeLowercase);
+  const candidates = [];
+
+  if (includeCanonical) {
+    candidates.push(getCardImageObjectPath(card));
+  }
+
+  if (includeLegacy) {
+    candidates.push(getLegacyCardImageObjectPath(card));
+  }
+
+  if (includeLowercase) {
+    const canonicalPath = getCardImageObjectPath(card);
+    const legacyPath = getLegacyCardImageObjectPath(card);
+
+    if (canonicalPath) candidates.push(canonicalPath.toLowerCase());
+    if (legacyPath) candidates.push(legacyPath.toLowerCase());
+  }
+
+  return [...new Set(candidates.filter(Boolean))];
+}
+
 export function getPrefixedCardImageObjectPath(card, options = {}) {
   const imageObjectPath = getCardImageObjectPath(card);
   const pathPrefix = String(options.pathPrefix ?? "").trim().replace(/^\/+|\/+$/g, "");
@@ -60,6 +85,14 @@ export function getPrefixedCardImageObjectPath(card, options = {}) {
   if (!pathPrefix) return imageObjectPath;
 
   return `${pathPrefix}/${imageObjectPath}`;
+}
+
+export function getPrefixedCardImageObjectPathCandidates(card, options = {}) {
+  const pathPrefix = String(options.pathPrefix ?? "").trim().replace(/^\/+|\/+$/g, "");
+
+  return getCardImageObjectPathCandidates(card, options).map((objectPath) =>
+    pathPrefix ? `${pathPrefix}/${objectPath}` : objectPath
+  );
 }
 
 export function buildSupabaseStoragePublicUrl(supabaseUrl, bucketName, objectPath) {

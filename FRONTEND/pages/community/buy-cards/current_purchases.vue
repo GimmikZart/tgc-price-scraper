@@ -2,18 +2,13 @@
 import { fetchLoggedUserPendingPurchaseOfferListings } from "@/api/sellListings";
 
 const BUY_CARDS_BASE_PATH = "/community/buy-cards";
-const BUY_CARDS_MAP_PATH = `${BUY_CARDS_BASE_PATH}/map`;
-const BUY_PENDING_PURCHASES_PATH = `${BUY_CARDS_BASE_PATH}/current_purchases`;
-const BUY_PURCHASE_HISTORY_PATH = `${BUY_CARDS_BASE_PATH}/purchase_history`;
-
-const sectionTabs = Object.freeze([
-  { label: "Lista", path: BUY_CARDS_BASE_PATH },
-  { label: "Mappa", path: BUY_CARDS_MAP_PATH },
-  { label: "In corso", path: BUY_PENDING_PURCHASES_PATH },
-  { label: "Storico", path: BUY_PURCHASE_HISTORY_PATH },
-]);
-
+const router = useRouter();
 const snackbar = useSnackbar();
+const {
+  sectionTabs,
+  refreshPendingPurchaseOffersCount,
+  setPendingPurchaseOffersCount,
+} = useBuyCardsTabs();
 
 const offerListings = ref([]);
 const isLoading = ref(true);
@@ -42,15 +37,24 @@ async function loadPendingPurchaseOfferListings() {
 
   try {
     offerListings.value = await fetchLoggedUserPendingPurchaseOfferListings();
+    setPendingPurchaseOffersCount(offerListings.value.length);
+
+    if (!offerListings.value.length) {
+      await router.replace(BUY_CARDS_BASE_PATH);
+    }
   } catch (error) {
     offerListings.value = [];
+    setPendingPurchaseOffersCount(0);
     snackbar.addMessage(error.message || "Errore durante il recupero degli acquisti in corso", "error");
   } finally {
     isLoading.value = false;
   }
 }
 
-onMounted(loadPendingPurchaseOfferListings);
+onMounted(() => {
+  void refreshPendingPurchaseOffersCount();
+  void loadPendingPurchaseOfferListings();
+});
 
 function handleOpenCard(card) {
   openViewer(card);
@@ -59,12 +63,14 @@ function handleOpenCard(card) {
 
 <template>
   <section class="relative h-full">
-    <Toolbar label="Acquisti in corso" fixed />
+    <Toolbar label="Acquisti in corso" fixed>
+      <template #info>
+        <TabsRouteTabs :tabs="sectionTabs" />
+      </template>
+    </Toolbar>
 
     <div class="min-h-0 flex-1 overflow-y-auto px-3 pb-24 pt-1">
       <div class="space-y-4 pb-2">
-        <TabsRouteTabs :tabs="sectionTabs" />
-
         <p v-if="isLoading" class="purchase-state-message">Caricamento acquisti in corso...</p>
         <p v-else-if="!hasOfferListings" class="purchase-state-message">Nessuna offerta in corso</p>
 

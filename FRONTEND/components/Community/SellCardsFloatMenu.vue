@@ -3,7 +3,6 @@ const route = useRoute();
 const router = useRouter();
 
 const SELL_CARDS_BASE_PATH = "/community/sell-cards";
-const SELL_HISTORY_PATH = `${SELL_CARDS_BASE_PATH}/sell_history`;
 const NEW_SELL_PATH = `${SELL_CARDS_BASE_PATH}/new-sell`;
 const FILTER_QUERY_KEY = "open-filter";
 const PRICE_SORT_QUERY_KEY = "sort-price";
@@ -20,7 +19,6 @@ function normalizePriceSortDirection(value) {
 }
 
 const isSellListRoute = computed(() => isRouteActive(SELL_CARDS_BASE_PATH));
-const isSellHistoryRoute = computed(() => isRouteActive(SELL_HISTORY_PATH));
 const activePriceSortDirection = computed(() => normalizePriceSortDirection(route.query[PRICE_SORT_QUERY_KEY]));
 const priceSortButtonLabel = computed(() => (activePriceSortDirection.value === "asc" ? "Prezzo ASC" : "Prezzo DESC"));
 const priceSortButtonIcon = computed(() => (
@@ -28,7 +26,6 @@ const priceSortButtonIcon = computed(() => (
     ? "mdi:sort-numeric-ascending"
     : "mdi:sort-numeric-descending"
 ));
-const floatMenuColumns = computed(() => (isSellHistoryRoute.value ? 1 : 3));
 
 function navigateToPath(path) {
   if (isRouteActive(path)) return;
@@ -61,7 +58,7 @@ function handleTogglePriceSort() {
 </script>
 
 <template>
-  <MobileFloatMenu :cols="floatMenuColumns">
+  <MobileFloatMenu :cols="3">
     <template #buttons>
       <ButtonMenu
         :icon="priceSortButtonIcon"

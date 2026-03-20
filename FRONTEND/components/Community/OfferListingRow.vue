@@ -20,6 +20,10 @@ const props = defineProps({
     type: String,
     default: "Offro",
   },
+  showCompletionDate: {
+    type: Boolean,
+    default: false,
+  },
 });
 
 const router = useRouter();
@@ -116,6 +120,21 @@ const resolvedOfferAmountLabel = computed(() => {
   const normalizedLabel = props.offerAmountLabel.trim();
   return normalizedLabel || "Offro";
 });
+const completionDateLabel = computed(() => {
+  if (!props.showCompletionDate) return null;
+
+  const rawValue = props.offerListing?.received_at ?? props.offerListing?.delivered_at ?? null;
+  if (typeof rawValue !== "string" || !rawValue.trim()) return null;
+
+  const parsedDate = new Date(rawValue);
+  if (Number.isNaN(parsedDate.getTime())) return null;
+
+  return parsedDate.toLocaleDateString("it-IT", {
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric",
+  });
+});
 
 const usernameInitial = computed(() => {
   const normalizedUsername = username.value.trim();
@@ -208,16 +227,22 @@ function handleOpenChat() {
           </div>
         </div>
 
-        <p class="flex items-center gap-2 leading-[1.1] text-[rgba(248,250,252,0.95)]">
-          {{ resolvedOfferAmountLabel }}
-          <v-chip class="text-orange" density="compact" variant="tonal">
-            {{ offerValue }} &euro;
-          </v-chip>
-          per
-          <span class="text-orange">
-            {{ quantityValue }}{{ quantityValue === 1 ? " copia" : " copie" }}.
-          </span>
-        </p>
+        <div class="offer-listing-footer">
+          <p class="offer-listing-footer__amount">
+            {{ resolvedOfferAmountLabel }}
+            <v-chip class="text-orange" density="compact" variant="tonal">
+              {{ offerValue }} &euro;
+            </v-chip>
+            per
+            <span class="text-orange">
+              {{ quantityValue }}{{ quantityValue === 1 ? " copia" : " copie" }}.
+            </span>
+          </p>
+
+          <p v-if="completionDateLabel" class="offer-listing-footer__completion-date">
+            Concluso il {{ completionDateLabel }}
+          </p>
+        </div>
       </div>
     </div>
   </article>
@@ -267,5 +292,32 @@ function handleOpenChat() {
 .offer-listing-row-left-slot :slotted(*) {
   width: auto;
   height: 100%;
+}
+
+.offer-listing-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 0.45rem 0.8rem;
+}
+
+.offer-listing-footer__amount {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+  margin: 0;
+  line-height: 1.1;
+  color: rgba(248, 250, 252, 0.95);
+}
+
+.offer-listing-footer__completion-date {
+  margin: 0 0 0 auto;
+  text-align: right;
+  color: rgba(203, 213, 225, 0.78);
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.1;
 }
 </style>

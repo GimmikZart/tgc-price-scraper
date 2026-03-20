@@ -18,6 +18,10 @@ const props = defineProps({
     type: Boolean,
     required: false,
     default: true
+  },
+  showLocationMapToggle: {
+    type: Boolean,
+    default: false,
   }
 });
 const router = useRouter();
@@ -101,6 +105,8 @@ function goToListingDetails() {
     
     <CommunitySellListingInfoCard
       :listing="listing"
+      :location-map-mode="showLocationMapToggle ? 'collapsible' : 'hidden'"
+      :location-map-min-height="210"
       @open-card="goToListingDetails"
     />
   </article>

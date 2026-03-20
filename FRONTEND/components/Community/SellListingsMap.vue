@@ -34,9 +34,33 @@ const props = defineProps({
     type: String,
     default: "Nessuna vendita disponibile nell'area selezionata",
   },
+  centerLabel: {
+    type: String,
+    default: DEFAULT_USER_LOCATION.label,
+  },
+  showCenterMarker: {
+    type: Boolean,
+    default: true,
+  },
+  allowCenterSelection: {
+    type: Boolean,
+    default: false,
+  },
+  selectionCoordinates: {
+    type: Object,
+    default: null,
+  },
+  selectionDraggable: {
+    type: Boolean,
+    default: false,
+  },
+  mapZoom: {
+    type: Number,
+    default: 13,
+  },
 });
 
-const emit = defineEmits(["listing-click"]);
+const emit = defineEmits(["listing-click", "update:selectionCoordinates"]);
 
 const nearbyListings = computed(() => {
   return (Array.isArray(props.listings) ? props.listings : [])
@@ -68,6 +92,15 @@ const markers = computed(() => {
   }));
 });
 
+const selectionModel = computed({
+  get() {
+    return props.selectionCoordinates;
+  },
+  set(value) {
+    emit("update:selectionCoordinates", value);
+  },
+});
+
 function handleMarkerClick(marker) {
   emit("listing-click", marker?.listing ?? null);
 }
@@ -79,38 +112,21 @@ defineExpose({
 
 <template>
   <div class="sell-listings-map">
-    <div class="sell-listings-map__header">
-      <div>
-        <p class="sell-listings-map__title">Mappa vendite</p>
-        <p class="sell-listings-map__subtitle">
-          Centro utente: {{ DEFAULT_USER_LOCATION.label }} | raggio {{ Math.round(radiusMeters / 1000) }} km
-        </p>
-      </div>
-
-      <v-chip size="small" color="orange" variant="flat" label>
-        {{ nearbyListings.length }} carte
-      </v-chip>
-    </div>
-
     <p v-if="loading" class="sell-listings-map__state">
       Caricamento mappa vendite...
     </p>
-
-    <div v-else-if="nearbyListings.length === 0" class="sell-listings-map__empty">
-      <p class="sell-listings-map__state">{{ emptyMessage }}</p>
-      <p class="sell-listings-map__empty-subtitle">
-        Centro corrente: {{ formatCoordinatesLabel(center) }}
-      </p>
-    </div>
-
     <div v-else class="sell-listings-map__map-shell">
       <MapLeafletMap
+        v-model="selectionModel"
         :center="center"
-        :zoom="13"
+        :zoom="mapZoom"
         :markers="markers"
-        :show-center-marker="true"
-        :center-label="DEFAULT_USER_LOCATION.label"
+        :show-center-marker="showCenterMarker"
+        :center-label="centerLabel"
         :center-radius-meters="radiusMeters"
+        :allow-set-marker="allowCenterSelection"
+        :selected-marker-draggable="selectionDraggable"
+        :show-selected-marker="allowCenterSelection && Boolean(selectionCoordinates)"
         :min-height="minHeight"
         @marker-click="handleMarkerClick"
       />
@@ -126,17 +142,11 @@ defineExpose({
   min-height: 0;
 }
 
-.sell-listings-map__header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.8rem;
-}
-
 .sell-listings-map__title,
 .sell-listings-map__subtitle,
 .sell-listings-map__state,
 .sell-listings-map__empty-subtitle {
+  text-align: center;
   margin: 0;
 }
 
@@ -164,9 +174,7 @@ defineExpose({
   place-content: center;
   gap: 0.35rem;
   border: 1px dashed rgba(255, 255, 255, 0.14);
-  border-radius: 1rem;
   background: rgba(255, 255, 255, 0.03);
-  padding: 1rem;
   text-align: center;
 }
 </style>

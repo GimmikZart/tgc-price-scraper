@@ -3,22 +3,12 @@ import { fetchActiveSellListings } from "@/api/sellListings";
 
 const snackbar = useSnackbar();
 
-const BUY_CARDS_BASE_PATH = "/community/buy-cards";
-const BUY_CARDS_MAP_PATH = `${BUY_CARDS_BASE_PATH}/map`;
-const BUY_PENDING_PURCHASES_PATH = `${BUY_CARDS_BASE_PATH}/current_purchases`;
-const BUY_PURCHASE_HISTORY_PATH = `${BUY_CARDS_BASE_PATH}/purchase_history`;
-
 const sellListings = ref([]);
 const isLoading = ref(true);
 const openFilter = ref(false);
 const filteredCardIds = ref(null);
 const priceSortDirection = ref("desc");
-const sectionTabs = Object.freeze([
-  { label: "Lista", path: BUY_CARDS_BASE_PATH },
-  { label: "Mappa", path: BUY_CARDS_MAP_PATH },
-  { label: "In corso", path: BUY_PENDING_PURCHASES_PATH },
-  { label: "Storico", path: BUY_PURCHASE_HISTORY_PATH },
-]);
+const { sectionTabs, refreshPendingPurchaseOffersCount } = useBuyCardsTabs();
 
 const listingCards = computed(() => {
   const cardsById = new Map();
@@ -120,17 +110,22 @@ async function loadSellListings() {
   }
 }
 
-onMounted(loadSellListings);
+onMounted(() => {
+  void refreshPendingPurchaseOffersCount();
+  void loadSellListings();
+});
 </script>
 
 <template>
   <section class="relative h-full">
-    <Toolbar label="Compra Carte" fixed />
+    <Toolbar label="Compra Carte" fixed>
+      <template #info>
+        <TabsRouteTabs :tabs="sectionTabs" />
+      </template>
+    </Toolbar>
 
     <div class="min-h-0 flex-1 overflow-y-auto px-3 pb-24 pt-1">
       <div class="space-y-4 pb-2">
-        <TabsRouteTabs :tabs="sectionTabs" />
-
         <p v-if="isLoading" class="sell-state-message">Caricamento vendite in corso...</p>
         <p v-else-if="!hasListings" class="sell-state-message">Nessuna carta attualmente in vendita</p>
         <p v-else-if="!hasVisibleListings" class="sell-state-message">La ricerca non ha prodotto risultati</p>
@@ -142,6 +137,7 @@ onMounted(loadSellListings);
             :listing="listing"
             details-path-base="/community/offers"
             show-proposals-in-header-slot
+            show-location-map-toggle
           />
         </div>
       </div>

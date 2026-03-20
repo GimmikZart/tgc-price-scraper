@@ -55,7 +55,7 @@ const navSections = [
       { key: "market-buy", to: "/community/buy-cards", label: "Compra", icon: SearchCardsIcon },
       { key: "market-sell", to: "/community/sell-cards", label: "Vendi", icon: SellCardsIcon },
       { key: "market-trades", label: "Scambi", icon: TradesIcon, disabled: true },
-      { key: "market-activity", label: "Attivita", icon: ActivityIcon, disabled: true },
+      { key: "market-activity", to: "/community/activity", label: "Attivita", icon: ActivityIcon },
     ],
   },
   {

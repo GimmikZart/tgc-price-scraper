@@ -7,17 +7,11 @@ const router = useRouter();
 
 const FILTER_QUERY_KEY = "open-filter";
 const PRICE_SORT_QUERY_KEY = "sort-price";
-const SELL_CARDS_BASE_PATH = "/community/sell-cards";
-const SELL_HISTORY_PATH = `${SELL_CARDS_BASE_PATH}/sell_history`;
 
 const sellListings = ref([]);
 const isLoading = ref(true);
 const openFilter = ref(false);
 const filteredCards = ref([]);
-const sectionTabs = Object.freeze([
-  { label: "Lista", path: SELL_CARDS_BASE_PATH },
-  { label: "Storico", path: SELL_HISTORY_PATH },
-]);
 
 const cardsAvailableForFilter = computed(() => {
   const cardsMap = new Map();
@@ -136,8 +130,6 @@ onMounted(loadSellListings);
 
     <div class="min-h-0 flex-1 px-3 pb-24 pt-1">
       <div class="space-y-4 pb-2">
-        <TabsRouteTabs :tabs="sectionTabs" />
-
         <p v-if="isLoading" class="sell-state-message">Caricamento vendite in corso...</p>
         <p v-else-if="!hasAnyListings" class="sell-state-message">Nessuna carta attualmente in vendita</p>
         <p v-else-if="!hasListings" class="sell-state-message">Nessuna carta trovata con i filtri selezionati</p>

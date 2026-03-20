@@ -67,6 +67,9 @@ let markersLayer = null;
 let selectedMarker = null;
 let centerMarker = null;
 let centerCircle = null;
+let resizeObserver = null;
+let invalidateFrame = 0;
+let invalidateTimeout = 0;
 
 const shellStyle = computed(() => {
   const parsedValue = Number(props.minHeight);
@@ -102,6 +105,73 @@ function getMapZoom() {
 function setMapView(targetCoordinates, zoom = null) {
   if (!map || !targetCoordinates) return;
   map.setView([targetCoordinates.lat, targetCoordinates.lng], zoom ?? getMapZoom());
+}
+
+function clearPendingInvalidation() {
+  if (invalidateFrame) {
+    window.cancelAnimationFrame(invalidateFrame);
+    invalidateFrame = 0;
+  }
+
+  if (invalidateTimeout) {
+    window.clearTimeout(invalidateTimeout);
+    invalidateTimeout = 0;
+  }
+}
+
+function invalidateMapSize({ immediate = false } = {}) {
+  if (!map) return;
+
+  const run = () => {
+    if (!map) return;
+    map.invalidateSize({ pan: false, debounceMoveend: true });
+  };
+
+  if (immediate) {
+    run();
+    return;
+  }
+
+  if (invalidateFrame) {
+    window.cancelAnimationFrame(invalidateFrame);
+  }
+
+  invalidateFrame = window.requestAnimationFrame(() => {
+    invalidateFrame = 0;
+    run();
+  });
+}
+
+function scheduleMapSizeRefresh() {
+  invalidateMapSize();
+
+  if (invalidateTimeout) {
+    window.clearTimeout(invalidateTimeout);
+  }
+
+  invalidateTimeout = window.setTimeout(() => {
+    invalidateTimeout = 0;
+    invalidateMapSize({ immediate: true });
+  }, 180);
+}
+
+function setupResizeObserver() {
+  if (!mapRootRef.value || typeof window === "undefined" || typeof window.ResizeObserver !== "function") {
+    return;
+  }
+
+  resizeObserver?.disconnect();
+  resizeObserver = new window.ResizeObserver((entries) => {
+    const [entry] = entries;
+    const width = entry?.contentRect?.width ?? mapRootRef.value?.clientWidth ?? 0;
+    const height = entry?.contentRect?.height ?? mapRootRef.value?.clientHeight ?? 0;
+
+    if (width > 0 && height > 0) {
+      scheduleMapSizeRefresh();
+    }
+  });
+
+  resizeObserver.observe(mapRootRef.value);
 }
 
 function createDivIcon({ html, className, iconSize, iconAnchor }) {
@@ -152,6 +222,10 @@ function syncTileLayer() {
 
   tileLayer.on("loading", () => {
     tileErrorMessage.value = "";
+  });
+
+  tileLayer.on("load", () => {
+    scheduleMapSizeRefresh();
   });
 
   tileLayer.on("tileerror", () => {
@@ -314,6 +388,7 @@ async function initializeMap() {
 
   markersLayer = leaflet.layerGroup().addTo(map);
   map.on("click", handleMapClick);
+  setupResizeObserver();
 
   syncTileLayer();
   syncExternalMarkers();
@@ -325,11 +400,17 @@ async function initializeMap() {
     setMapView(initialCoordinates, props.zoom);
   }
 
+  await nextTick();
+  scheduleMapSizeRefresh();
+
   isMapReady.value = true;
   emit("map-ready", map);
 }
 
 function destroyMap() {
+  resizeObserver?.disconnect();
+  resizeObserver = null;
+  clearPendingInvalidation();
   removeSelectedMarker();
   removeCenterArtifacts();
 
@@ -391,6 +472,7 @@ watch(
 
     if (!selectedCoordinates.value && nextCoordinates) {
       setMapView(nextCoordinates, props.zoom);
+      scheduleMapSizeRefresh();
     }
   },
   { deep: true },
@@ -404,6 +486,7 @@ watch(
 );
 
 onMounted(async () => {
+  await nextTick();
   await initializeMap();
 });
 
@@ -413,12 +496,15 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <div class="leaflet-map-shell" :style="shellStyle">
+  <div
+    class="leaflet-map-shell"
+    :class="{ 'leaflet-map-shell--loading': geoapify.isConfigured && !isMapReady }"
+    :style="shellStyle"
+  >
     <div
       v-if="geoapify.isConfigured"
       ref="mapRootRef"
-      class="leaflet-map-root"
-      :class="{ 'leaflet-map-root--loading': !isMapReady }"
+      class="leaflet-map-root leaflet-container"
     />
 
     <div
@@ -428,7 +514,7 @@ onBeforeUnmount(() => {
       {{ tileErrorMessage }}
     </div>
 
-    <div v-else class="leaflet-map-warning">
+    <div v-else-if="!geoapify.isConfigured" class="leaflet-map-warning">
       <p class="leaflet-map-warning__title">Geoapify non configurato</p>
       <p class="leaflet-map-warning__text">
         Inserisci la chiave API per attivare mappa, autocomplete e reverse geocoding.
@@ -461,7 +547,7 @@ onBeforeUnmount(() => {
     0 18px 34px rgba(0, 0, 0, 0.24);
 }
 
-.leaflet-map-root--loading {
+.leaflet-map-shell--loading .leaflet-map-root {
   opacity: 0.85;
 }
 

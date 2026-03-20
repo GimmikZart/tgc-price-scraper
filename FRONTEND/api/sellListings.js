@@ -243,6 +243,29 @@ async function fetchSellerProfilesBySellListingIds(client, sellListingIds) {
   return sellerProfileBySellListingId;
 }
 
+async function attachSellerProfilesToOfferListings(client, offerListings) {
+  const sellerProfileBySellListingId = await fetchSellerProfilesBySellListingIds(
+    client,
+    offerListings.map((offerListing) => offerListing?.sell_list_id),
+  );
+
+  return offerListings.map((offerListing) => {
+    const parsedSellListingId = Number(offerListing?.sell_list_id);
+    const sellerProfile = Number.isInteger(parsedSellListingId) && parsedSellListingId > 0
+      ? (sellerProfileBySellListingId.get(parsedSellListingId) ?? null)
+      : null;
+
+    return {
+      ...offerListing,
+      sellerProfile,
+      sellerUsername: sellerProfile?.username ?? null,
+      sellerUserTag: sellerProfile?.user_tag ?? null,
+      sellerDisplayName: sellerProfile?.display_name ?? sellerProfile?.username ?? null,
+      sellerAvatarUrl: sellerProfile?.avatar_url ?? null,
+    };
+  });
+}
+
 function mapOfferListing(offerListing, profileById, sellListingCardById = null) {
   const parsedOffer = Number(offerListing?.offer);
   const parsedQuantity = Number(offerListing?.quantity);
@@ -510,6 +533,28 @@ export async function fetchLoggedUserPurchaseHistoryOfferListings() {
   return mapOfferListings(offerListings, offererProfileById, sellListingCardById);
 }
 
+export async function fetchLoggedUserPendingPurchaseOfferListingsCount() {
+  const client = useSupabaseClient();
+  const userAuth = useUserAuth();
+
+  const offererId = userAuth?.userLogged?.id;
+  if (!offererId) {
+    throw new Error("User not authenticated");
+  }
+
+  const { count, error } = await client
+    .from("offer_listing")
+    .select("id", { count: "exact", head: true })
+    .eq("offerer_id", offererId)
+    .eq("status", OfferStatus.Pending);
+
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  return Number.isInteger(count) && count > 0 ? count : 0;
+}
+
 export async function fetchLoggedUserPendingPurchaseOfferListings() {
   const client = useSupabaseClient();
   const userAuth = useUserAuth();
@@ -561,6 +606,40 @@ export async function fetchLoggedUserPendingPurchaseOfferListings() {
   });
 }
 
+export async function fetchLoggedUserCompletedPurchaseOfferListings() {
+  const client = useSupabaseClient();
+  const userAuth = useUserAuth();
+
+  const offererId = userAuth?.userLogged?.id;
+  if (!offererId) {
+    throw new Error("User not authenticated");
+  }
+
+  const { data: offerListings = [], error } = await client
+    .from("offer_listing")
+    .select("*")
+    .eq("offerer_id", offererId)
+    .eq("status", OfferStatus.Accepted)
+    .not("received_at", "is", null)
+    .order("received_at", { ascending: false });
+
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  const offererProfileById = await fetchProfilesByIds(
+    client,
+    offerListings.map((offerListing) => offerListing?.offerer_id),
+  );
+  const sellListingCardById = await fetchSellListingCardsByIds(
+    client,
+    offerListings.map((offerListing) => offerListing?.sell_list_id),
+  );
+  const mappedOfferListings = mapOfferListings(offerListings, offererProfileById, sellListingCardById);
+
+  return attachSellerProfilesToOfferListings(client, mappedOfferListings);
+}
+
 export async function fetchAcceptedOfferListingsForLoggedUser() {
   const client = useSupabaseClient();
   const userAuth = useUserAuth();
@@ -593,6 +672,56 @@ export async function fetchAcceptedOfferListingsForLoggedUser() {
     .in("sell_list_id", sellListingIds)
     .eq("status", OfferStatus.Accepted)
     .order("created_at", { ascending: false });
+
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  const offererProfileById = await fetchProfilesByIds(
+    client,
+    offerListings.map((offerListing) => offerListing?.offerer_id),
+  );
+  const sellListingCardById = await fetchSellListingCardsByIds(
+    client,
+    offerListings.map((offerListing) => offerListing?.sell_list_id),
+  );
+
+  return mapOfferListings(offerListings, offererProfileById, sellListingCardById);
+}
+
+export async function fetchCompletedSaleOfferListingsForLoggedUser() {
+  const client = useSupabaseClient();
+  const userAuth = useUserAuth();
+
+  const sellerUuid = userAuth?.userLogged?.id;
+  if (!sellerUuid) {
+    throw new Error("User not authenticated");
+  }
+
+  const { data: sellListings = [], error: sellListingsError } = await client
+    .from("sell_listings")
+    .select("id")
+    .eq("seller_uuid", sellerUuid);
+
+  if (sellListingsError) {
+    throw new Error(sellListingsError.message);
+  }
+
+  const sellListingIds = [...new Set(
+    sellListings
+      .map((sellListing) => Number(sellListing?.id))
+      .filter((sellListingId) => Number.isInteger(sellListingId) && sellListingId > 0),
+  )];
+
+  if (!sellListingIds.length) return [];
+
+  const { data: offerListings = [], error } = await client
+    .from("offer_listing")
+    .select("*")
+    .in("sell_list_id", sellListingIds)
+    .eq("status", OfferStatus.Accepted)
+    .not("received_at", "is", null)
+    .order("received_at", { ascending: false });
 
   if (error) {
     throw new Error(error.message);

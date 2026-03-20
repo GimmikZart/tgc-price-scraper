@@ -64,6 +64,12 @@ const iconAliases = {
   "mdi-sort-numeric-descending": "sort-desc",
   "mdi-sort": "sort",
   "lets-icons:refund-back": "cancel",
+  "mdi:map-marker-outline": "location-pin",
+  "material-symbols:location-on-outline-rounded": "location-pin",
+  "mdi:crosshairs-gps": "locate",
+  "app:radius-5km": "radius-5km",
+  "app:radius-10km": "radius-10km",
+  "app:radius-25km": "radius-25km",
 };
 
 const labelAliases = {
@@ -171,6 +177,72 @@ const strokeWidth = computed(() => (props.active ? 1.5 : 1));
   >
     <circle cx="12" cy="12" r="8.2" stroke="currentColor" :stroke-width="strokeWidth" :fill="active ? 'currentColor' : 'none'" :fill-opacity="active ? 0.14 : 0" />
     <path d="M8.4 12.2L10.8 14.6L15.8 9.6" stroke="currentColor" :stroke-width="strokeWidth" stroke-linecap="round" stroke-linejoin="round" />
+  </svg>
+
+  <svg
+    v-else-if="resolvedIconName === 'location-pin'"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    aria-hidden="true"
+  >
+    <path
+      d="M12 19.1C12 19.1 7.3 14.9 7.3 10.3C7.3 7.5 9.4 5.3 12 5.3C14.6 5.3 16.7 7.5 16.7 10.3C16.7 14.9 12 19.1 12 19.1Z"
+      stroke="currentColor"
+      :stroke-width="strokeWidth"
+      stroke-linejoin="round"
+      :fill="active ? 'currentColor' : 'none'"
+      :fill-opacity="active ? 0.1 : 0"
+    />
+    <circle cx="12" cy="10.3" r="2" stroke="currentColor" :stroke-width="strokeWidth" />
+  </svg>
+
+  <svg
+    v-else-if="resolvedIconName === 'locate'"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    aria-hidden="true"
+  >
+    <circle cx="12" cy="12" r="7.4" stroke="currentColor" :stroke-width="strokeWidth" :fill="active ? 'currentColor' : 'none'" :fill-opacity="active ? 0.1 : 0" />
+    <circle cx="12" cy="12" r="2.4" stroke="currentColor" :stroke-width="strokeWidth" />
+    <path d="M12 4.3V6.5M12 17.5V19.7M19.7 12H17.5M6.5 12H4.3" stroke="currentColor" :stroke-width="strokeWidth" stroke-linecap="round" />
+  </svg>
+
+  <svg
+    v-else-if="resolvedIconName === 'radius-5km'"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    aria-hidden="true"
+  >
+    <circle cx="12" cy="12" r="8.2" stroke="currentColor" :stroke-width="strokeWidth" :fill="active ? 'currentColor' : 'none'" :fill-opacity="active ? 0.08 : 0" />
+    <circle cx="12" cy="12" r="4.2" stroke="currentColor" :stroke-width="strokeWidth" stroke-dasharray="1.8 1.8" />
+    <text x="12" y="14.1" text-anchor="middle" fill="currentColor" font-size="6.4" font-weight="800" font-family="ui-sans-serif, system-ui, sans-serif">5</text>
+  </svg>
+
+  <svg
+    v-else-if="resolvedIconName === 'radius-10km'"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    aria-hidden="true"
+  >
+    <circle cx="12" cy="12" r="8.2" stroke="currentColor" :stroke-width="strokeWidth" :fill="active ? 'currentColor' : 'none'" :fill-opacity="active ? 0.08 : 0" />
+    <circle cx="12" cy="12" r="4.9" stroke="currentColor" :stroke-width="strokeWidth" stroke-dasharray="1.8 1.8" />
+    <text x="12" y="14.1" text-anchor="middle" fill="currentColor" font-size="5.2" font-weight="800" font-family="ui-sans-serif, system-ui, sans-serif">10</text>
+  </svg>
+
+  <svg
+    v-else-if="resolvedIconName === 'radius-25km'"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    aria-hidden="true"
+  >
+    <circle cx="12" cy="12" r="8.2" stroke="currentColor" :stroke-width="strokeWidth" :fill="active ? 'currentColor' : 'none'" :fill-opacity="active ? 0.08 : 0" />
+    <circle cx="12" cy="12" r="5.6" stroke="currentColor" :stroke-width="strokeWidth" stroke-dasharray="1.8 1.8" />
+    <text x="12" y="14" text-anchor="middle" fill="currentColor" font-size="4.9" font-weight="800" font-family="ui-sans-serif, system-ui, sans-serif">25</text>
   </svg>
 
   <svg

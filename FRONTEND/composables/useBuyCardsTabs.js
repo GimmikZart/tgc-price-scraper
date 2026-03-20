@@ -2,6 +2,7 @@ import { fetchLoggedUserPendingPurchaseOfferListingsCount } from "@/api/sellList
 
 const BUY_CARDS_BASE_PATH = "/community/buy-cards";
 const BUY_CARDS_MAP_PATH = `${BUY_CARDS_BASE_PATH}/map`;
+const BUY_CARDS_LIST_PATH = `${BUY_CARDS_BASE_PATH}/list`;
 const BUY_PENDING_PURCHASES_PATH = `${BUY_CARDS_BASE_PATH}/current_purchases`;
 
 export function useBuyCardsTabs() {
@@ -20,8 +21,8 @@ export function useBuyCardsTabs() {
     }
 
     tabs.push(
-      { label: "Lista", path: BUY_CARDS_BASE_PATH },
       { label: "Mappa", path: BUY_CARDS_MAP_PATH },
+      { label: "Lista", path: BUY_CARDS_LIST_PATH },
     );
 
     return tabs;

@@ -2,6 +2,7 @@
 import { fetchLoggedUserPendingPurchaseOfferListings } from "@/api/sellListings";
 
 const BUY_CARDS_BASE_PATH = "/community/buy-cards";
+const BUY_CARDS_MAP_PATH = `${BUY_CARDS_BASE_PATH}/map`;
 const router = useRouter();
 const snackbar = useSnackbar();
 const {
@@ -40,7 +41,7 @@ async function loadPendingPurchaseOfferListings() {
     setPendingPurchaseOffersCount(offerListings.value.length);
 
     if (!offerListings.value.length) {
-      await router.replace(BUY_CARDS_BASE_PATH);
+      await router.replace(BUY_CARDS_MAP_PATH);
     }
   } catch (error) {
     offerListings.value = [];

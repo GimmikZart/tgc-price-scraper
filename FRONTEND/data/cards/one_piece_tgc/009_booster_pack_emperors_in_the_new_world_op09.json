@@ -1,5 +1,333 @@
 [
   {
+    "name": "Blackbeard",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/315226/don-blackbeard-op-09-emperors-in-the-new-world.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "OP09",
+    "imageId": "don-blackbeard-op-09-emperors-in-the-new-world",
+    "id": "don-blackbeard-op-09-emperors-in-the-new-world_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-blackbeard-op-09-emperors-in-the-new-world",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Buggy",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/315227/don-buggy-op-09-emperors-in-the-new-world.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "OP09",
+    "imageId": "don-buggy-op-09-emperors-in-the-new-world",
+    "id": "don-buggy-op-09-emperors-in-the-new-world_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-buggy-op-09-emperors-in-the-new-world",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Shanks",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/322512/don-shanks-op-09-emperors-in-the-new-world.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "OP09",
+    "imageId": "don-shanks-op-09-emperors-in-the-new-world",
+    "id": "don-shanks-op-09-emperors-in-the-new-world_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-shanks-op-09-emperors-in-the-new-world",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Donquixote Rosinante",
+    "code": "OP04-119",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 8000,
+    "counter": null,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Navy",
+      "Donquixote Pirates"
+    ],
+    "effect": "[Opponent's Turn] If this Character is rested, your active Characters with a base cost of 5 cannot be K.O.'d by effects.[On Play] You may rest this Character: Play up to 1 green Character card with a cost of 5 from your hand.",
+    "trigger": null,
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-119_p2.png",
+    "cost": 8,
+    "abilityKeywords": [
+      "[Opponent's Turn]",
+      "[On Play]"
+    ],
+    "expansionCode": "OP04",
+    "imageId": "OP04-119_p2",
+    "id": "OP04-119_p2_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "illustration": "Special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/donquixote-rosinante-special-rare-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Zoro-Juurou",
+    "code": "OP05-067",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 4000,
+    "counter": 1000,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[When Attacking] If you have 3 or less Life cards, add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "trigger": null,
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-067_p4.png",
+    "cost": 3,
+    "abilityKeywords": [
+      "[When Attacking]"
+    ],
+    "expansionCode": "OP05",
+    "imageId": "OP05-067_p4",
+    "id": "OP05-067_p4_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "illustration": "Special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/zoro-juurou-special-rare-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Rob Lucci",
+    "code": "OP05-093",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 6000,
+    "counter": null,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "CP0"
+    ],
+    "effect": "[On Play] You may place 3 cards from your trash at the bottom of your deck in any order: K.O. up to 1 of your opponent's Characters with a cost of 2 or less and up to 1 of your opponent's Characters with a cost of 1 or less.",
+    "trigger": null,
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-093_p2.png",
+    "cost": 4,
+    "expansionCode": "OP05",
+    "imageId": "OP05-093_p2",
+    "id": "OP05-093_p2_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ],
+    "illustration": "Special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/rob-lucci-special-rare-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Monkey.D.Luffy",
+    "code": "OP05-119",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 12000,
+    "counter": null,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "The Four Emperors",
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] DON!! −10: Place all of your Characters except this Character at the bottom of your deck in any order. Then, take an extra turn after this one.[Activate: Main] [Once Per Turn] You may rest 1 of your DON!! cards: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "trigger": null,
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-119_p6.png",
+    "cost": 10,
+    "abilityKeywords": [
+      "[Activate: Main]",
+      "[Once Per Turn]",
+      "[On Play]"
+    ],
+    "expansionCode": "OP05",
+    "imageId": "OP05-119_p6",
+    "id": "OP05-119_p6_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "illustration": "Wanted",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-wanted-alternate-art-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Monkey.D.Dragon",
+    "code": "OP07-015",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 9000,
+    "counter": null,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Revolutionary Army"
+    ],
+    "effect": "[Rush] (This card can attack on the turn in which it is played.)[On Play] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
+    "trigger": null,
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-015_p2.png",
+    "cost": 8,
+    "abilityKeywords": [
+      "[Rush]",
+      "[On Play]"
+    ],
+    "expansionCode": "OP07",
+    "imageId": "OP07-015_p2",
+    "id": "OP07-015_p2_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "illustration": "Special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-dragon-special-rare-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Boa Hancock",
+    "code": "OP07-051",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 8000,
+    "counter": null,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "The Seven Warlords of the Sea",
+      "Kuja Pirates"
+    ],
+    "effect": "[On Play] Up to 1 of your opponent's Characters other than [Monkey.D.Luffy] cannot attack until the end of your opponent's next turn. Then, place up to 1 Character with a cost of 1 or less at the bottom of the owner's deck.",
+    "trigger": null,
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-051_p3.png",
+    "cost": 6,
+    "expansionCode": "OP07",
+    "imageId": "OP07-051_p3",
+    "id": "OP07-051_p3_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ],
+    "illustration": "Special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/boa-hancock-special-rare-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Nami",
+    "code": "OP08-106",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Yellow"
+    ],
+    "family": [
+      "Egghead",
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] You may trash 1 card with a [Trigger] from your hand: K.O. up to 1 of your opponent's Characters with a cost of 5 or less. Then, if you have 3 or less cards in your hand, draw 1 card.",
+    "trigger": "Trigger[Trigger] Activate this card's [On Play] effect.",
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-106_p2.png",
+    "cost": 5,
+    "abilityKeywords": [
+      "[Trigger]",
+      "[On Play]"
+    ],
+    "expansionCode": "OP08",
+    "imageId": "OP08-106_p2",
+    "id": "OP08-106_p2_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "illustration": "Special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nami-special-rare-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Shanks",
     "code": "OP09-001",
     "rarity": "L",
@@ -268,6 +596,41 @@
       {
         "service": "Card Trader",
         "url": "https://www.cardtrader.com/cards/shanks-manga-panel-alternate-art-secret-rare-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Shanks",
+    "code": "OP09-004",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 12000,
+    "counter": null,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "The Four Emperors",
+      "Red-Haired Pirates"
+    ],
+    "effect": "Give all of your opponent's Characters −1000 power.[Rush] (This card can attack on the turn in which it is played.)",
+    "trigger": null,
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-004_p3.png",
+    "cost": 10,
+    "abilityKeywords": [
+      "[Rush]"
+    ],
+    "expansionCode": "OP09",
+    "imageId": "OP09-004_p3",
+    "id": "OP09-004_p3_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "illustration": "Wanted",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shanks-wanted-alternate-art-op-09-emperors-in-the-new-world",
         "verified": true
       }
     ]
@@ -2240,6 +2603,41 @@
     ]
   },
   {
+    "name": "Buggy",
+    "code": "OP09-051",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 12000,
+    "counter": null,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "The Four Emperors",
+      "Cross Guild"
+    ],
+    "effect": "[On Play] Place up to 1 of your opponent's Characters at the bottom of the owner's deck. Then, if you do not have 5 Characters with a cost of 5 or more, place this Character at the bottom of the owner's deck.",
+    "trigger": null,
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-051_p3.png",
+    "cost": 10,
+    "expansionCode": "OP09",
+    "imageId": "OP09-051_p3",
+    "id": "OP09-051_p3_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "abilityKeywords": [
+      "[On Play]"
+    ],
+    "illustration": "Wanted",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/buggy-wanted-alternate-art-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Marco",
     "code": "OP09-052",
     "rarity": "C",
@@ -3933,6 +4331,43 @@
     ]
   },
   {
+    "name": "Marshall.D.Teach",
+    "code": "OP09-093",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 12000,
+    "counter": null,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "The Four Emperors",
+      "Blackbeard Pirates"
+    ],
+    "effect": "[Blocker][Activate: Main] [Once Per Turn] If your Leader has the {Blackbeard Pirates} type and this Character was played on this turn, negate the effect of up to 1 of your opponent's Leader during this turn. Then, negate the effect of up to 1 of your opponent's Characters and that Character cannot attack until the end of your opponent's next turn.",
+    "trigger": null,
+    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-093_p3.png",
+    "cost": 10,
+    "abilityKeywords": [
+      "[Blocker]",
+      "[Activate: Main]",
+      "[Once Per Turn]"
+    ],
+    "expansionCode": "OP09",
+    "imageId": "OP09-093_p3",
+    "id": "OP09-093_p3_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
+    "illustration": "Wanted",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/marshall-d-teach-wanted-alternate-art-op-09-emperors-in-the-new-world",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Peachbeard",
     "code": "OP09-094",
     "rarity": "C",
@@ -5032,360 +5467,6 @@
       {
         "service": "Card Trader",
         "url": "https://www.cardtrader.com/cards/zoro-juurou-op-09-emperors-in-the-new-world",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Donquixote Rosinante",
-    "code": "OP04-119",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Special",
-    "power": 8000,
-    "counter": null,
-    "color": [
-      "Green"
-    ],
-    "family": [
-      "Navy",
-      "Donquixote Pirates"
-    ],
-    "effect": "[Opponent's Turn] If this Character is rested, your active Characters with a base cost of 5 cannot be K.O.'d by effects.[On Play] You may rest this Character: Play up to 1 green Character card with a cost of 5 from your hand.",
-    "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-119_p2.png",
-    "cost": 8,
-    "abilityKeywords": [
-      "[Opponent's Turn]",
-      "[On Play]"
-    ],
-    "expansionCode": "OP04",
-    "imageId": "OP04-119_p2",
-    "id": "OP04-119_p2_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
-    "illustration": "Special",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/donquixote-rosinante-special-rare-op-09-emperors-in-the-new-world",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Zoro-Juurou",
-    "code": "OP05-067",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Slash",
-    "power": 4000,
-    "counter": 1000,
-    "color": [
-      "Purple"
-    ],
-    "family": [
-      "Straw Hat Crew"
-    ],
-    "effect": "[When Attacking] If you have 3 or less Life cards, add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-067_p4.png",
-    "cost": 3,
-    "abilityKeywords": [
-      "[When Attacking]"
-    ],
-    "expansionCode": "OP05",
-    "imageId": "OP05-067_p4",
-    "id": "OP05-067_p4_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
-    "illustration": "Special",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/zoro-juurou-special-rare-op-09-emperors-in-the-new-world",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Rob Lucci",
-    "code": "OP05-093",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Strike",
-    "power": 6000,
-    "counter": null,
-    "color": [
-      "Black"
-    ],
-    "family": [
-      "CP0"
-    ],
-    "effect": "[On Play] You may place 3 cards from your trash at the bottom of your deck in any order: K.O. up to 1 of your opponent's Characters with a cost of 2 or less and up to 1 of your opponent's Characters with a cost of 1 or less.",
-    "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-093_p2.png",
-    "cost": 4,
-    "expansionCode": "OP05",
-    "imageId": "OP05-093_p2",
-    "id": "OP05-093_p2_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
-    "abilityKeywords": [
-      "[On Play]"
-    ],
-    "illustration": "Special",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/rob-lucci-special-rare-op-09-emperors-in-the-new-world",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Monkey.D.Luffy",
-    "code": "OP05-119",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Strike",
-    "power": 12000,
-    "counter": null,
-    "color": [
-      "Purple"
-    ],
-    "family": [
-      "The Four Emperors",
-      "Straw Hat Crew"
-    ],
-    "effect": "[On Play] DON!! −10: Place all of your Characters except this Character at the bottom of your deck in any order. Then, take an extra turn after this one.[Activate: Main] [Once Per Turn] You may rest 1 of your DON!! cards: Add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-119_p6.png",
-    "cost": 10,
-    "abilityKeywords": [
-      "[Activate: Main]",
-      "[Once Per Turn]",
-      "[On Play]"
-    ],
-    "expansionCode": "OP05",
-    "imageId": "OP05-119_p6",
-    "id": "OP05-119_p6_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
-    "illustration": "Wanted",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-wanted-alternate-art-op-09-emperors-in-the-new-world",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Monkey.D.Dragon",
-    "code": "OP07-015",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Special",
-    "power": 9000,
-    "counter": null,
-    "color": [
-      "Red"
-    ],
-    "family": [
-      "Revolutionary Army"
-    ],
-    "effect": "[Rush] (This card can attack on the turn in which it is played.)[On Play] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
-    "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-015_p2.png",
-    "cost": 8,
-    "abilityKeywords": [
-      "[Rush]",
-      "[On Play]"
-    ],
-    "expansionCode": "OP07",
-    "imageId": "OP07-015_p2",
-    "id": "OP07-015_p2_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
-    "illustration": "Special",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/monkey-d-dragon-special-rare-op-09-emperors-in-the-new-world",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Boa Hancock",
-    "code": "OP07-051",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Special",
-    "power": 8000,
-    "counter": null,
-    "color": [
-      "Blue"
-    ],
-    "family": [
-      "The Seven Warlords of the Sea",
-      "Kuja Pirates"
-    ],
-    "effect": "[On Play] Up to 1 of your opponent's Characters other than [Monkey.D.Luffy] cannot attack until the end of your opponent's next turn. Then, place up to 1 Character with a cost of 1 or less at the bottom of the owner's deck.",
-    "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-051_p3.png",
-    "cost": 6,
-    "expansionCode": "OP07",
-    "imageId": "OP07-051_p3",
-    "id": "OP07-051_p3_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
-    "abilityKeywords": [
-      "[On Play]"
-    ],
-    "illustration": "Special",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/boa-hancock-special-rare-op-09-emperors-in-the-new-world",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Nami",
-    "code": "OP08-106",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Special",
-    "power": 5000,
-    "counter": 1000,
-    "color": [
-      "Yellow"
-    ],
-    "family": [
-      "Egghead",
-      "Straw Hat Crew"
-    ],
-    "effect": "[On Play] You may trash 1 card with a [Trigger] from your hand: K.O. up to 1 of your opponent's Characters with a cost of 5 or less. Then, if you have 3 or less cards in your hand, draw 1 card.",
-    "trigger": "Trigger[Trigger] Activate this card's [On Play] effect.",
-    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-106_p2.png",
-    "cost": 5,
-    "abilityKeywords": [
-      "[Trigger]",
-      "[On Play]"
-    ],
-    "expansionCode": "OP08",
-    "imageId": "OP08-106_p2",
-    "id": "OP08-106_p2_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
-    "illustration": "Special",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/nami-special-rare-op-09-emperors-in-the-new-world",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Shanks",
-    "code": "OP09-004",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Slash",
-    "power": 12000,
-    "counter": null,
-    "color": [
-      "Red"
-    ],
-    "family": [
-      "The Four Emperors",
-      "Red-Haired Pirates"
-    ],
-    "effect": "Give all of your opponent's Characters −1000 power.[Rush] (This card can attack on the turn in which it is played.)",
-    "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-004_p3.png",
-    "cost": 10,
-    "abilityKeywords": [
-      "[Rush]"
-    ],
-    "expansionCode": "OP09",
-    "imageId": "OP09-004_p3",
-    "id": "OP09-004_p3_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
-    "illustration": "Wanted",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/shanks-wanted-alternate-art-op-09-emperors-in-the-new-world",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Buggy",
-    "code": "OP09-051",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Slash",
-    "power": 12000,
-    "counter": null,
-    "color": [
-      "Blue"
-    ],
-    "family": [
-      "The Four Emperors",
-      "Cross Guild"
-    ],
-    "effect": "[On Play] Place up to 1 of your opponent's Characters at the bottom of the owner's deck. Then, if you do not have 5 Characters with a cost of 5 or more, place this Character at the bottom of the owner's deck.",
-    "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-051_p3.png",
-    "cost": 10,
-    "expansionCode": "OP09",
-    "imageId": "OP09-051_p3",
-    "id": "OP09-051_p3_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
-    "abilityKeywords": [
-      "[On Play]"
-    ],
-    "illustration": "Wanted",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/buggy-wanted-alternate-art-op-09-emperors-in-the-new-world",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Marshall.D.Teach",
-    "code": "OP09-093",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Special",
-    "power": 12000,
-    "counter": null,
-    "color": [
-      "Black"
-    ],
-    "family": [
-      "The Four Emperors",
-      "Blackbeard Pirates"
-    ],
-    "effect": "[Blocker][Activate: Main] [Once Per Turn] If your Leader has the {Blackbeard Pirates} type and this Character was played on this turn, negate the effect of up to 1 of your opponent's Leader during this turn. Then, negate the effect of up to 1 of your opponent's Characters and that Character cannot attack until the end of your opponent's next turn.",
-    "trigger": null,
-    "setName": "EMPERORS IN THE NEW WORLD [OP-09]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-093_p3.png",
-    "cost": 10,
-    "abilityKeywords": [
-      "[Blocker]",
-      "[Activate: Main]",
-      "[Once Per Turn]"
-    ],
-    "expansionCode": "OP09",
-    "imageId": "OP09-093_p3",
-    "id": "OP09-093_p3_EMPERORS_IN_THE_NEW_WORLD_[OP-09]",
-    "illustration": "Wanted",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/marshall-d-teach-wanted-alternate-art-op-09-emperors-in-the-new-world",
         "verified": true
       }
     ]

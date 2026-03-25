@@ -1,5 +1,280 @@
 [
   {
+    "name": "Boa Hancock",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE HEROINES EDITION [EB-03]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/358987/don-boa-hancock-eb-03-heroines-edition.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "EB03",
+    "imageId": "don-boa-hancock-eb-03-heroines-edition",
+    "id": "don-boa-hancock-eb-03-heroines-edition_ONE_PIECE_HEROINES_EDITION_[EB-03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-boa-hancock-eb-03-heroines-edition",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Boa Hancock",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE HEROINES EDITION [EB-03]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/358986/don-boa-hancock-gold-foil-eb-03-heroines-edition.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "EB03",
+    "imageId": "don-boa-hancock-gold-foil-eb-03-heroines-edition",
+    "id": "don-boa-hancock-gold-foil-eb-03-heroines-edition_ONE_PIECE_HEROINES_EDITION_[EB-03]",
+    "illustration": "Gold Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-boa-hancock-gold-foil-eb-03-heroines-edition",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "DON!!",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE HEROINES EDITION [EB-03]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/358981/don-eb-03-heroines-edition.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "EB03",
+    "imageId": "don-eb-03-heroines-edition",
+    "id": "don-eb-03-heroines-edition_ONE_PIECE_HEROINES_EDITION_[EB-03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-eb-03-heroines-edition",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Gold Foil",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE HEROINES EDITION [EB-03]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/358980/don-gold-foil-eb-03-heroines-edition.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "EB03",
+    "imageId": "don-gold-foil-eb-03-heroines-edition",
+    "id": "don-gold-foil-eb-03-heroines-edition_ONE_PIECE_HEROINES_EDITION_[EB-03]",
+    "illustration": "Gold Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-gold-foil-eb-03-heroines-edition",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Nami",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE HEROINES EDITION [EB-03]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/358983/don-nami-eb-03-heroines-edition(2).jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "EB03",
+    "imageId": "don-nami-eb-03-heroines-edition",
+    "id": "don-nami-eb-03-heroines-edition_ONE_PIECE_HEROINES_EDITION_[EB-03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-nami-eb-03-heroines-edition",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Nami",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE HEROINES EDITION [EB-03]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/358982/don-nami-gold-foil-eb-03-heroines-edition(2).jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "EB03",
+    "imageId": "don-nami-gold-foil-eb-03-heroines-edition",
+    "id": "don-nami-gold-foil-eb-03-heroines-edition_ONE_PIECE_HEROINES_EDITION_[EB-03]",
+    "illustration": "Gold Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-nami-gold-foil-eb-03-heroines-edition",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Robin",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE HEROINES EDITION [EB-03]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/358985/don-robin-eb-03-heroines-edition.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "EB03",
+    "imageId": "don-robin-eb-03-heroines-edition",
+    "id": "don-robin-eb-03-heroines-edition_ONE_PIECE_HEROINES_EDITION_[EB-03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-robin-eb-03-heroines-edition",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Robin",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE HEROINES EDITION [EB-03]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/358984/don-robin-gold-foil-eb-03-heroines-edition.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "EB03",
+    "imageId": "don-robin-gold-foil-eb-03-heroines-edition",
+    "id": "don-robin-gold-foil-eb-03-heroines-edition_ONE_PIECE_HEROINES_EDITION_[EB-03]",
+    "illustration": "Gold Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-robin-gold-foil-eb-03-heroines-edition",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Uta",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE HEROINES EDITION [EB-03]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/358989/don-uta-eb-03-heroines-edition.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "EB03",
+    "imageId": "don-uta-eb-03-heroines-edition",
+    "id": "don-uta-eb-03-heroines-edition_ONE_PIECE_HEROINES_EDITION_[EB-03]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-uta-eb-03-heroines-edition",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Uta",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE HEROINES EDITION [EB-03]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/358988/don-uta-gold-foil-eb-03-heroines-edition.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "EB03",
+    "imageId": "don-uta-gold-foil-eb-03-heroines-edition",
+    "id": "don-uta-gold-foil-eb-03-heroines-edition_ONE_PIECE_HEROINES_EDITION_[EB-03]",
+    "illustration": "Gold Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-uta-gold-foil-eb-03-heroines-edition",
+        "verified": false
+      }
+    ]
+  },
+  {
     "name": "Nefeltari Vivi",
     "code": "EB03-001",
     "rarity": "L",
@@ -139,6 +414,33 @@
     "imageId": "EB03-003_p1",
     "id": "EB03-003_p1_ONE_PIECE_HEROINES_EDITION_[EB-03]",
     "illustration": "Alternate Art"
+  },
+  {
+    "name": "Uta",
+    "code": "EB03-003",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 7000,
+    "counter": null,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "FILM"
+    ],
+    "effect": "[On Play] If your Leader is [Uta], draw 2 cards. Then, play up to 1 Character card with 6000 power or less and no base effect from your hand.",
+    "trigger": null,
+    "setName": "ONE PIECE HEROINES EDITION [EB-03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB03-003_p2.png",
+    "cost": 5,
+    "abilityKeywords": [
+      "[On Play]"
+    ],
+    "expansionCode": "EB03",
+    "imageId": "EB03-003_p2",
+    "id": "EB03-003_p2_ONE_PIECE_HEROINES_EDITION_[EB-03]",
+    "illustration": "Special"
   },
   {
     "name": "Carina",
@@ -655,6 +957,35 @@
     "illustration": "Alternate Art"
   },
   {
+    "name": "Tashigi",
+    "code": "EB03-018",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 6000,
+    "counter": null,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": "[Opponent's Turn] This Character cannot be K.O.'d by your opponent's effects and gains [Blocker].[End of Your Turn] You may rest 1 of your DON!! cards and trash 1 card from your hand: Set this Character as active.",
+    "trigger": null,
+    "setName": "ONE PIECE HEROINES EDITION [EB-03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB03-018_p2.png",
+    "cost": 4,
+    "abilityKeywords": [
+      "[Blocker]",
+      "[End of Your Turn]",
+      "[Opponent's Turn]"
+    ],
+    "expansionCode": "EB03",
+    "imageId": "EB03-018_p2",
+    "id": "EB03-018_p2_ONE_PIECE_HEROINES_EDITION_[EB-03]",
+    "illustration": "Special"
+  },
+  {
     "name": "Wanda",
     "code": "EB03-019",
     "rarity": "C",
@@ -847,6 +1178,34 @@
     "illustration": "Alternate Art"
   },
   {
+    "name": "Nefeltari Vivi",
+    "code": "EB03-024",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": 4000,
+    "counter": 1000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "Alabasta"
+    ],
+    "effect": "[Blocker][On Play] Play up to 1 {Alabasta} or {Straw Hat Crew} type Character card with a cost of 5 or less from your hand. Then, you cannot play any Character cards on your field during this turn.",
+    "trigger": null,
+    "setName": "ONE PIECE HEROINES EDITION [EB-03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB03-024_p2.png",
+    "cost": 5,
+    "abilityKeywords": [
+      "[On Play]",
+      "[Blocker]"
+    ],
+    "expansionCode": "EB03",
+    "imageId": "EB03-024_p2",
+    "id": "EB03-024_p2_ONE_PIECE_HEROINES_EDITION_[EB-03]",
+    "illustration": "Special"
+  },
+  {
     "name": "Hina",
     "code": "EB03-025",
     "rarity": "R",
@@ -959,6 +1318,36 @@
     "imageId": "EB03-026_p1",
     "id": "EB03-026_p1_ONE_PIECE_HEROINES_EDITION_[EB-03]",
     "illustration": "Alternate Art"
+  },
+  {
+    "name": "Boa Hancock",
+    "code": "EB03-026",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 8000,
+    "counter": null,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "The Seven Warlords of the Sea",
+      "Kuja Pirates"
+    ],
+    "effect": "[On Play] If your opponent has 5 or more cards in their hand, your opponent places 1 card from their hand at the bottom of their deck.[Activate: Main] [Once Per Turn] You may place 1 of your Characters at the bottom of the owner's deck: Give your Leader and 1 Character up to 1 rested DON!! card each.",
+    "trigger": null,
+    "setName": "ONE PIECE HEROINES EDITION [EB-03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB03-026_p2.png",
+    "cost": 6,
+    "abilityKeywords": [
+      "[On Play]",
+      "[Activate: Main]",
+      "[Once Per Turn]"
+    ],
+    "expansionCode": "EB03",
+    "imageId": "EB03-026_p2",
+    "id": "EB03-026_p2_ONE_PIECE_HEROINES_EDITION_[EB-03]",
+    "illustration": "Special"
   },
   {
     "name": "Marguerite",
@@ -1127,6 +1516,36 @@
     "imageId": "EB03-031_p1",
     "id": "EB03-031_p1_ONE_PIECE_HEROINES_EDITION_[EB-03]",
     "illustration": "Alternate Art"
+  },
+  {
+    "name": "Vinsmoke Reiju",
+    "code": "EB03-031",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "The Vinsmoke Family",
+      "GERMA 66"
+    ],
+    "effect": "[Your Turn] [On Play] DON!! −1: If your Leader is [Sanji], activate the [Main] effect of up to 1 Event card with a cost of 7 or less in your trash.",
+    "trigger": null,
+    "setName": "ONE PIECE HEROINES EDITION [EB-03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB03-031_p2.png",
+    "cost": 5,
+    "abilityKeywords": [
+      "[On Play]",
+      "[Main]",
+      "[Your Turn]"
+    ],
+    "expansionCode": "EB03",
+    "imageId": "EB03-031_p2",
+    "id": "EB03-031_p2_ONE_PIECE_HEROINES_EDITION_[EB-03]",
+    "illustration": "Special"
   },
   {
     "name": "Charlotte Flampe",
@@ -1519,6 +1938,35 @@
     "illustration": "Alternate Art"
   },
   {
+    "name": "Koala",
+    "code": "EB03-042",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Dressrosa",
+      "Revolutionary Army"
+    ],
+    "effect": "If your Leader has the {Revolutionary Army} type, this Character gains +4 cost.[Opponent's Turn] [On K.O.] Play up to 1 {Revolutionary Army} type Character card with a cost of 6 or less other than [Koala] or up to 1 [Nico Robin] with a cost of 6 or less from your hand or trash.",
+    "trigger": null,
+    "setName": "ONE PIECE HEROINES EDITION [EB-03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB03-042_p2.png",
+    "cost": 4,
+    "abilityKeywords": [
+      "[On K.O.]",
+      "[Opponent's Turn]"
+    ],
+    "expansionCode": "EB03",
+    "imageId": "EB03-042_p2",
+    "id": "EB03-042_p2_ONE_PIECE_HEROINES_EDITION_[EB-03]",
+    "illustration": "Special"
+  },
+  {
     "name": "Stussy",
     "code": "EB03-043",
     "rarity": "R",
@@ -1631,6 +2079,35 @@
     "imageId": "EB03-045_p1",
     "id": "EB03-045_p1_ONE_PIECE_HEROINES_EDITION_[EB-03]",
     "illustration": "Alternate Art"
+  },
+  {
+    "name": "Perona",
+    "code": "EB03-045",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": null,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Muggy Kingdom",
+      "Thriller Bark Pirates"
+    ],
+    "effect": "[Blocker][On Play] Give up to 1 rested DON!! card to your Leader or 1 of your Characters. Then, if you have 10 or more cards in your trash, play up to 1 {Thriller Bark Pirates} type Character card with a cost of 2 or less from your trash rested.",
+    "trigger": null,
+    "setName": "ONE PIECE HEROINES EDITION [EB-03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB03-045_p2.png",
+    "cost": 4,
+    "abilityKeywords": [
+      "[On Play]",
+      "[Blocker]"
+    ],
+    "expansionCode": "EB03",
+    "imageId": "EB03-045_p2",
+    "id": "EB03-045_p2_ONE_PIECE_HEROINES_EDITION_[EB-03]",
+    "illustration": "Special"
   },
   {
     "name": "Miss Doublefinger(Zala)",
@@ -1884,6 +2361,34 @@
     "illustration": "Alternate Art"
   },
   {
+    "name": "Nami",
+    "code": "EB03-053",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": 1000,
+    "color": [
+      "Yellow"
+    ],
+    "family": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] Give up to 1 rested DON!! card to your Leader. Then, if your opponent has 3 or more Life cards, add up to 1 card from the top of your opponent's Life cards to the owner's hand.[On K.O.] You may turn 1 card from the top of your Life cards face-up: Play up to 1 Character card with 6000 power or less from your hand.",
+    "trigger": null,
+    "setName": "ONE PIECE HEROINES EDITION [EB-03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB03-053_p2.png",
+    "cost": 5,
+    "abilityKeywords": [
+      "[On Play]",
+      "[On K.O.]"
+    ],
+    "expansionCode": "EB03",
+    "imageId": "EB03-053_p2",
+    "id": "EB03-053_p2_ONE_PIECE_HEROINES_EDITION_[EB-03]",
+    "illustration": "Special"
+  },
+  {
     "name": "Nico Robin",
     "code": "EB03-054",
     "rarity": "C",
@@ -1967,6 +2472,35 @@
     "imageId": "EB03-055_p1",
     "id": "EB03-055_p1_ONE_PIECE_HEROINES_EDITION_[EB-03]",
     "illustration": "Alternate Art"
+  },
+  {
+    "name": "Nico Robin",
+    "code": "EB03-055",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 8000,
+    "counter": null,
+    "color": [
+      "Yellow"
+    ],
+    "family": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] You may trash 1 card from the top of your Life cards: If your Leader has the {Straw Hat Crew} type, add up to 2 cards from the top of your deck to the top of your Life cards.[Opponent's Turn] [On K.O.] You may deal 1 damage to your opponent.",
+    "trigger": null,
+    "setName": "ONE PIECE HEROINES EDITION [EB-03]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB03-055_p2.png",
+    "cost": 7,
+    "abilityKeywords": [
+      "[On Play]",
+      "[On K.O.]",
+      "[Opponent's Turn]"
+    ],
+    "expansionCode": "EB03",
+    "imageId": "EB03-055_p2",
+    "id": "EB03-055_p2_ONE_PIECE_HEROINES_EDITION_[EB-03]",
+    "illustration": "Special"
   },
   {
     "name": "Belo Betty",
@@ -2278,264 +2812,5 @@
     "imageId": "EB03-062_p1",
     "id": "EB03-062_p1_ONE_PIECE_HEROINES_EDITION_[EB-03]",
     "illustration": "Alternate Art"
-  },
-  {
-    "name": "Uta",
-    "code": "EB03-003",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Special",
-    "power": 7000,
-    "counter": null,
-    "color": [
-      "Red"
-    ],
-    "family": [
-      "FILM"
-    ],
-    "effect": "[On Play] If your Leader is [Uta], draw 2 cards. Then, play up to 1 Character card with 6000 power or less and no base effect from your hand.",
-    "trigger": null,
-    "setName": "ONE PIECE HEROINES EDITION [EB-03]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB03-003_p2.png",
-    "cost": 5,
-    "abilityKeywords": [
-      "[On Play]"
-    ],
-    "expansionCode": "EB03",
-    "imageId": "EB03-003_p2",
-    "id": "EB03-003_p2_ONE_PIECE_HEROINES_EDITION_[EB-03]",
-    "illustration": "Special"
-  },
-  {
-    "name": "Tashigi",
-    "code": "EB03-018",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Slash",
-    "power": 6000,
-    "counter": null,
-    "color": [
-      "Green"
-    ],
-    "family": [
-      "Navy"
-    ],
-    "effect": "[Opponent's Turn] This Character cannot be K.O.'d by your opponent's effects and gains [Blocker].[End of Your Turn] You may rest 1 of your DON!! cards and trash 1 card from your hand: Set this Character as active.",
-    "trigger": null,
-    "setName": "ONE PIECE HEROINES EDITION [EB-03]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB03-018_p2.png",
-    "cost": 4,
-    "abilityKeywords": [
-      "[Blocker]",
-      "[End of Your Turn]",
-      "[Opponent's Turn]"
-    ],
-    "expansionCode": "EB03",
-    "imageId": "EB03-018_p2",
-    "id": "EB03-018_p2_ONE_PIECE_HEROINES_EDITION_[EB-03]",
-    "illustration": "Special"
-  },
-  {
-    "name": "Nefeltari Vivi",
-    "code": "EB03-024",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Wisdom",
-    "power": 4000,
-    "counter": 1000,
-    "color": [
-      "Blue"
-    ],
-    "family": [
-      "Alabasta"
-    ],
-    "effect": "[Blocker][On Play] Play up to 1 {Alabasta} or {Straw Hat Crew} type Character card with a cost of 5 or less from your hand. Then, you cannot play any Character cards on your field during this turn.",
-    "trigger": null,
-    "setName": "ONE PIECE HEROINES EDITION [EB-03]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB03-024_p2.png",
-    "cost": 5,
-    "abilityKeywords": [
-      "[On Play]",
-      "[Blocker]"
-    ],
-    "expansionCode": "EB03",
-    "imageId": "EB03-024_p2",
-    "id": "EB03-024_p2_ONE_PIECE_HEROINES_EDITION_[EB-03]",
-    "illustration": "Special"
-  },
-  {
-    "name": "Boa Hancock",
-    "code": "EB03-026",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Special",
-    "power": 8000,
-    "counter": null,
-    "color": [
-      "Blue"
-    ],
-    "family": [
-      "The Seven Warlords of the Sea",
-      "Kuja Pirates"
-    ],
-    "effect": "[On Play] If your opponent has 5 or more cards in their hand, your opponent places 1 card from their hand at the bottom of their deck.[Activate: Main] [Once Per Turn] You may place 1 of your Characters at the bottom of the owner's deck: Give your Leader and 1 Character up to 1 rested DON!! card each.",
-    "trigger": null,
-    "setName": "ONE PIECE HEROINES EDITION [EB-03]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB03-026_p2.png",
-    "cost": 6,
-    "abilityKeywords": [
-      "[On Play]",
-      "[Activate: Main]",
-      "[Once Per Turn]"
-    ],
-    "expansionCode": "EB03",
-    "imageId": "EB03-026_p2",
-    "id": "EB03-026_p2_ONE_PIECE_HEROINES_EDITION_[EB-03]",
-    "illustration": "Special"
-  },
-  {
-    "name": "Vinsmoke Reiju",
-    "code": "EB03-031",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Special",
-    "power": 5000,
-    "counter": 1000,
-    "color": [
-      "Purple"
-    ],
-    "family": [
-      "The Vinsmoke Family",
-      "GERMA 66"
-    ],
-    "effect": "[Your Turn] [On Play] DON!! −1: If your Leader is [Sanji], activate the [Main] effect of up to 1 Event card with a cost of 7 or less in your trash.",
-    "trigger": null,
-    "setName": "ONE PIECE HEROINES EDITION [EB-03]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB03-031_p2.png",
-    "cost": 5,
-    "abilityKeywords": [
-      "[On Play]",
-      "[Main]",
-      "[Your Turn]"
-    ],
-    "expansionCode": "EB03",
-    "imageId": "EB03-031_p2",
-    "id": "EB03-031_p2_ONE_PIECE_HEROINES_EDITION_[EB-03]",
-    "illustration": "Special"
-  },
-  {
-    "name": "Koala",
-    "code": "EB03-042",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Strike",
-    "power": 5000,
-    "counter": 1000,
-    "color": [
-      "Black"
-    ],
-    "family": [
-      "Dressrosa",
-      "Revolutionary Army"
-    ],
-    "effect": "If your Leader has the {Revolutionary Army} type, this Character gains +4 cost.[Opponent's Turn] [On K.O.] Play up to 1 {Revolutionary Army} type Character card with a cost of 6 or less other than [Koala] or up to 1 [Nico Robin] with a cost of 6 or less from your hand or trash.",
-    "trigger": null,
-    "setName": "ONE PIECE HEROINES EDITION [EB-03]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB03-042_p2.png",
-    "cost": 4,
-    "abilityKeywords": [
-      "[On K.O.]",
-      "[Opponent's Turn]"
-    ],
-    "expansionCode": "EB03",
-    "imageId": "EB03-042_p2",
-    "id": "EB03-042_p2_ONE_PIECE_HEROINES_EDITION_[EB-03]",
-    "illustration": "Special"
-  },
-  {
-    "name": "Perona",
-    "code": "EB03-045",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Special",
-    "power": 6000,
-    "counter": null,
-    "color": [
-      "Black"
-    ],
-    "family": [
-      "Muggy Kingdom",
-      "Thriller Bark Pirates"
-    ],
-    "effect": "[Blocker][On Play] Give up to 1 rested DON!! card to your Leader or 1 of your Characters. Then, if you have 10 or more cards in your trash, play up to 1 {Thriller Bark Pirates} type Character card with a cost of 2 or less from your trash rested.",
-    "trigger": null,
-    "setName": "ONE PIECE HEROINES EDITION [EB-03]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB03-045_p2.png",
-    "cost": 4,
-    "abilityKeywords": [
-      "[On Play]",
-      "[Blocker]"
-    ],
-    "expansionCode": "EB03",
-    "imageId": "EB03-045_p2",
-    "id": "EB03-045_p2_ONE_PIECE_HEROINES_EDITION_[EB-03]",
-    "illustration": "Special"
-  },
-  {
-    "name": "Nami",
-    "code": "EB03-053",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Special",
-    "power": 6000,
-    "counter": 1000,
-    "color": [
-      "Yellow"
-    ],
-    "family": [
-      "Straw Hat Crew"
-    ],
-    "effect": "[On Play] Give up to 1 rested DON!! card to your Leader. Then, if your opponent has 3 or more Life cards, add up to 1 card from the top of your opponent's Life cards to the owner's hand.[On K.O.] You may turn 1 card from the top of your Life cards face-up: Play up to 1 Character card with 6000 power or less from your hand.",
-    "trigger": null,
-    "setName": "ONE PIECE HEROINES EDITION [EB-03]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB03-053_p2.png",
-    "cost": 5,
-    "abilityKeywords": [
-      "[On Play]",
-      "[On K.O.]"
-    ],
-    "expansionCode": "EB03",
-    "imageId": "EB03-053_p2",
-    "id": "EB03-053_p2_ONE_PIECE_HEROINES_EDITION_[EB-03]",
-    "illustration": "Special"
-  },
-  {
-    "name": "Nico Robin",
-    "code": "EB03-055",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Strike",
-    "power": 8000,
-    "counter": null,
-    "color": [
-      "Yellow"
-    ],
-    "family": [
-      "Straw Hat Crew"
-    ],
-    "effect": "[On Play] You may trash 1 card from the top of your Life cards: If your Leader has the {Straw Hat Crew} type, add up to 2 cards from the top of your deck to the top of your Life cards.[Opponent's Turn] [On K.O.] You may deal 1 damage to your opponent.",
-    "trigger": null,
-    "setName": "ONE PIECE HEROINES EDITION [EB-03]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB03-055_p2.png",
-    "cost": 7,
-    "abilityKeywords": [
-      "[On Play]",
-      "[On K.O.]",
-      "[Opponent's Turn]"
-    ],
-    "expansionCode": "EB03",
-    "imageId": "EB03-055_p2",
-    "id": "EB03-055_p2_ONE_PIECE_HEROINES_EDITION_[EB-03]",
-    "illustration": "Special"
   }
 ]

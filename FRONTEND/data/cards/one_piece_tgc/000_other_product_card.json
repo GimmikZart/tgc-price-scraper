@@ -1,5 +1,546 @@
 [
   {
+    "name": "2nd Anniversary Set",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "Card Set(s)English Version 2nd Anniversary Set",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/339290/don-2nd-anniversary-set-premium-bandai-products.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "BANDAI",
+    "imageId": "don-2nd-anniversary-set-premium-bandai-products",
+    "id": "don-2nd-anniversary-set-premium-bandai-products_Card_SetsEnglish_Version_2nd_Anniversary_Set",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-2nd-anniversary-set-premium-bandai-products",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "3rd Anniversary Set",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "Card Set(s)English Version 3rd Anniversary Set",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/374929/don-3rd-anniversary-set-english-version-premium-bandai-products.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "BANDAI",
+    "imageId": "don-3rd-anniversary-set-english-version-premium-bandai-products",
+    "id": "don-3rd-anniversary-set-english-version-premium-bandai-products_Card_SetsEnglish_Version_3rd_Anniversary_Set",
+    "illustration": "English Version",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-3rd-anniversary-set-english-version-premium-bandai-products",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Ace",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "Card Set(s)Devil Fruits Collection Vol.2",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/311873/don-ace-devil-fruits-collection-vol-2-premium-bandai-products.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "BANDAI",
+    "imageId": "don-ace-devil-fruits-collection-vol-2-premium-bandai-products",
+    "id": "don-ace-devil-fruits-collection-vol-2-premium-bandai-products_Card_SetsDevil_Fruits_Collection_Vol.2",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-ace-devil-fruits-collection-vol-2-premium-bandai-products",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Ace",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "Card Set(s)Special DON!! Set Vol.2",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/325387/don-ace-special-don-set-vol-2-one-piece-products.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "OPPR",
+    "imageId": "don-ace-special-don-set-vol-2-one-piece-products",
+    "id": "don-ace-special-don-set-vol-2-one-piece-products_Card_SetsSpecial_DON_Set_Vol.2",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-ace-special-don-set-vol-2-one-piece-products",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Corazon and Law",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "Card Set(s)Devil Fruits Collection Vol.3",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/366511/don-corazon-and-law-one-piece-products.png",
+    "cost": null,
+    "life": null,
+    "expansionCode": "DF03",
+    "imageId": "don-corazon-and-law-one-piece-products",
+    "id": "don-corazon-and-law-one-piece-products_Card_SetsDevil_Fruits_Collection_Vol.3",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-corazon-and-law-one-piece-products",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Double Pack Set Vol.2",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "Card Set(s)Double Pack Set Vol.2",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/270747/don-double-pack-set-vol-2-one-piece-products.webp",
+    "cost": null,
+    "life": null,
+    "expansionCode": "DP02",
+    "imageId": "don-double-pack-set-vol-2-one-piece-products",
+    "id": "don-double-pack-set-vol-2-one-piece-products_Card_SetsDouble_Pack_Set_Vol.2",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-double-pack-set-vol-2-one-piece-products",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Gol.D.Roger",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "Card Set(s)Tin Pack Set Vol.1",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/325391/don-gol-d-roger-tin-pack-set-vol-1-one-piece-products.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "OPPR",
+    "imageId": "don-gol-d-roger-tin-pack-set-vol-1-one-piece-products",
+    "id": "don-gol-d-roger-tin-pack-set-vol-1-one-piece-products_Card_SetsTin_Pack_Set_Vol.1",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-gol-d-roger-tin-pack-set-vol-1-one-piece-products",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Luffy",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "Card Set(s)Special DON!! Set Vol.1",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/325386/don-luffy-special-don-set-vol-1-one-piece-products.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "OPPR",
+    "imageId": "don-luffy-special-don-set-vol-1-one-piece-products",
+    "id": "don-luffy-special-don-set-vol-1-one-piece-products_Card_SetsSpecial_DON_Set_Vol.1",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-luffy-special-don-set-vol-1-one-piece-products",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Luffy vs. Crocodile",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "Card Set(s)Devil Fruits Collection Vol.1",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/266545/don-awakening-of-the-new-era-266545.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "OPPR",
+    "imageId": "don-luffy-vs-crocodile-devil-fruits-collection-vol-1-one-piece-products",
+    "id": "don-luffy-vs-crocodile-devil-fruits-collection-vol-1-one-piece-products_Card_SetsDevil_Fruits_Collection_Vol.1",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-luffy-vs-crocodile-devil-fruits-collection-vol-1-one-piece-products",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Monkey.D.Luffy",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "Card Set(s)Tin Pack Set Vol.1",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/325392/don-monkey-d-luffy-tin-pack-set-vol-1-one-piece-products.png",
+    "cost": null,
+    "life": null,
+    "expansionCode": "TS01",
+    "imageId": "don-monkey-d-luffy-tin-pack-set-vol-1-one-piece-products",
+    "id": "don-monkey-d-luffy-tin-pack-set-vol-1-one-piece-products_Card_SetsTin_Pack_Set_Vol.1",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-monkey-d-luffy-tin-pack-set-vol-1-one-piece-products",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "One Piece Day 2024",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "Card Set(s)Premium Card Collection  One Piece Day 2024-",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/341702/don-one-piece-day-2024-premium-card-collection.png",
+    "cost": null,
+    "life": null,
+    "expansionCode": "OPPCC",
+    "imageId": "don-one-piece-day-2024-premium-card-collection",
+    "id": "don-one-piece-day-2024-premium-card-collection_Card_SetsPremium_Card_Collection_One_Piece_Day_2024-",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-one-piece-day-2024-premium-card-collection",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "One Piece Day Dallas 2025",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "Card Set(s)ONE PIECE DAY Dallas 2025",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/326628/don-ado-uta-one-piece-products.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "OPPR",
+    "imageId": "don-one-piece-day-dallas-2025-one-piece-products",
+    "id": "don-one-piece-day-dallas-2025-one-piece-products_Card_SetsONE_PIECE_DAY_Dallas_2025",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-one-piece-day-dallas-2025-one-piece-products",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Op-Op Fruit",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "Card Set(s)Devil Fruits Collection Vol.3",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/366510/don-op-op-fruit-one-piece-products.png",
+    "cost": null,
+    "life": null,
+    "expansionCode": "DF03",
+    "imageId": "don-op-op-fruit-one-piece-products",
+    "id": "don-op-op-fruit-one-piece-products_Card_SetsDevil_Fruits_Collection_Vol.3",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-op-op-fruit-one-piece-products",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Sabo",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "Card Set(s)Devil Fruits Collection Vol.2",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/311872/don-sabo-devil-fruits-collection-vol-2-premium-bandai-products.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "BANDAI",
+    "imageId": "don-sabo-devil-fruits-collection-vol-2-premium-bandai-products",
+    "id": "don-sabo-devil-fruits-collection-vol-2-premium-bandai-products_Card_SetsDevil_Fruits_Collection_Vol.2",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-sabo-devil-fruits-collection-vol-2-premium-bandai-products",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Sabo",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "Card Set(s)Special DON!! Set Vol.3",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/325388/don-sabo-special-don-set-vol-3-one-piece-products.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "OPPR",
+    "imageId": "don-sabo-special-don-set-vol-3-one-piece-products",
+    "id": "don-sabo-special-don-set-vol-3-one-piece-products_Card_SetsSpecial_DON_Set_Vol.3",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-sabo-special-don-set-vol-3-one-piece-products",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Silhouette",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "Card Set(s)Double Pack Set Vol.2",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/270748/don-silhouette-double-pack-set-vol-2-one-piece-products.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "DP02",
+    "imageId": "don-silhouette-double-pack-set-vol-2-one-piece-products",
+    "id": "don-silhouette-double-pack-set-vol-2-one-piece-products_Card_SetsDouble_Pack_Set_Vol.2",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-silhouette-double-pack-set-vol-2-one-piece-products",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Special DON!! Card Pack",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "Card Set(s)Special DON!! Card Pack",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/263075/don-special-don-card-pack-one-piece-products.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "DP01",
+    "imageId": "don-special-don-card-pack-one-piece-products",
+    "id": "don-special-don-card-pack-one-piece-products_Card_SetsSpecial_DON_Card_Pack",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-special-don-card-pack-one-piece-products",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Special DON!! Card Pack",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "Card Set(s)Special DON!! Card Pack",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/263077/don-special-don-card-pack-one-piece-products-263077.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "OPPR",
+    "imageId": "don-special-don-card-pack-one-piece-products-263077",
+    "id": "don-special-don-card-pack-one-piece-products-263077_Card_SetsSpecial_DON_Card_Pack",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-special-don-card-pack-one-piece-products-263077",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Super Pre-Release Stamp",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "Card Set(s)Super Pre Release",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/263120/don-super-pre-release-stamp-one-piece-products.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "OPPR",
+    "imageId": "don-super-pre-release-stamp-one-piece-products",
+    "id": "don-super-pre-release-stamp-one-piece-products_Card_SetsSuper_Pre_Release",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-super-pre-release-stamp-one-piece-products",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Young Luffy",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "Card Set(s)Devil Fruits Collection Vol.1",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/266529/don-awakening-of-the-new-era.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "OPPR",
+    "imageId": "don-young-luffy-devil-fruits-collection-vol-1-one-piece-products",
+    "id": "don-young-luffy-devil-fruits-collection-vol-1-one-piece-products_Card_SetsDevil_Fruits_Collection_Vol.1",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-young-luffy-devil-fruits-collection-vol-1-one-piece-products",
+        "verified": false
+      }
+    ]
+  },
+  {
     "name": "Roronoa Zoro",
     "code": "OP01-001",
     "rarity": "L",

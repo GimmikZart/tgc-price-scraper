@@ -1,5 +1,205 @@
 [
   {
+    "name": "Luffy vs Kaido",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "AWAKENING OF THE NEW ERA [OP-05]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/270746/don-op-05-awakening-of-the-new-era.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "OP05",
+    "imageId": "don-luffy-vs-kaido-op-05-awakening-of-the-new-era",
+    "id": "don-luffy-vs-kaido-op-05-awakening-of-the-new-era_AWAKENING_OF_THE_NEW_ERA_[OP-05]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-luffy-vs-kaido-op-05-awakening-of-the-new-era",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Nami",
+    "code": "OP01-016",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 2000,
+    "counter": 1000,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": null,
+    "setName": "AWAKENING OF THE NEW ERA [OP-05]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-016_p4.png",
+    "cost": 1,
+    "expansionCode": "OP01",
+    "imageId": "OP01-016_p4",
+    "id": "OP01-016_p4_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ],
+    "illustration": "Special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/nami-special-rare-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Yamato",
+    "code": "OP01-121",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Land of Wano"
+    ],
+    "effect": "Also treat this card's name as [Kouzuki Oden] according to the rules.[Double Attack] (This card deals 2 damage.)[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.)",
+    "trigger": null,
+    "setName": "AWAKENING OF THE NEW ERA [OP-05]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-121_p2.png",
+    "cost": 5,
+    "abilityKeywords": [
+      "[Double Attack]",
+      "[Banish]"
+    ],
+    "expansionCode": "OP01",
+    "imageId": "OP01-121_p2",
+    "id": "OP01-121_p2_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "illustration": "Special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/yamato-special-rare-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Uta",
+    "code": "OP02-120",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 8000,
+    "counter": null,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "FILM"
+    ],
+    "effect": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your Leader and all of your Characters gain +1000 power until the start of your next turn.",
+    "trigger": null,
+    "setName": "AWAKENING OF THE NEW ERA [OP-05]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-120_p2.png",
+    "cost": 8,
+    "expansionCode": "OP02",
+    "imageId": "OP02-120_p2",
+    "id": "OP02-120_p2_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ],
+    "illustration": "Special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/uta-special-rare-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Rob Lucci",
+    "code": "OP03-092",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 7000,
+    "counter": null,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "CP9"
+    ],
+    "effect": "[On Play] You may place 2 cards with a type including \"CP\" from your trash at the bottom of your deck in any order: This Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+    "trigger": null,
+    "setName": "AWAKENING OF THE NEW ERA [OP-05]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-092_p2.png",
+    "cost": 6,
+    "abilityKeywords": [
+      "[Rush]",
+      "[On Play]"
+    ],
+    "expansionCode": "OP03",
+    "imageId": "OP03-092_p2",
+    "id": "OP03-092_p2_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "illustration": "Special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/rob-lucci-special-rare-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Kaido",
+    "code": "OP04-044",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 12000,
+    "counter": null,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "The Four Emperors",
+      "Animal Kingdom Pirates"
+    ],
+    "effect": "[On Play] Return up to 1 Character with a cost of 8 or less and up to 1 Character with a cost of 3 or less to the owner's hand.",
+    "trigger": null,
+    "setName": "AWAKENING OF THE NEW ERA [OP-05]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-044_p2.png",
+    "cost": 10,
+    "expansionCode": "OP04",
+    "imageId": "OP04-044_p2",
+    "id": "OP04-044_p2_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "abilityKeywords": [
+      "[On Play]"
+    ],
+    "illustration": "Special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kaido-special-rare-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Sabo",
     "code": "OP05-001",
     "rarity": "L",
@@ -4160,6 +4360,41 @@
     ]
   },
   {
+    "name": "Enel",
+    "code": "OP05-100",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 7000,
+    "counter": null,
+    "color": [
+      "Yellow"
+    ],
+    "family": [
+      "Sky Island"
+    ],
+    "effect": "[Rush][Once Per Turn] If this Character would leave the field, you may trash 1 card from the top of your Life cards instead. If there is a [Monkey.D.Luffy] Character, this effect is negated.",
+    "trigger": null,
+    "setName": "AWAKENING OF THE NEW ERA [OP-05]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-100_p2.png",
+    "cost": 7,
+    "abilityKeywords": [
+      "[Rush]",
+      "[Once Per Turn]"
+    ],
+    "expansionCode": "OP05",
+    "imageId": "OP05-100_p2",
+    "id": "OP05-100_p2_AWAKENING_OF_THE_NEW_ERA_[OP05]",
+    "illustration": "Special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/enel-special-rare-op-05-awakening-of-the-new-era",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Ohm",
     "code": "OP05-101",
     "rarity": "R",
@@ -5006,214 +5241,6 @@
       {
         "service": "Card Trader",
         "url": "https://www.cardtrader.com/cards/monkey-d-luffy-gold-signed-op-05-awakening-of-the-new-era",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Nami",
-    "code": "OP01-016",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Special",
-    "power": 2000,
-    "counter": 1000,
-    "color": [
-      "Red"
-    ],
-    "family": [
-      "Straw Hat Crew"
-    ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": null,
-    "setName": "AWAKENING OF THE NEW ERA [OP-05]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-016_p4.png",
-    "cost": 1,
-    "expansionCode": "OP01",
-    "imageId": "OP01-016_p4",
-    "id": "OP01-016_p4_AWAKENING_OF_THE_NEW_ERA_[OP05]",
-    "abilityKeywords": [
-      "[On Play]"
-    ],
-    "illustration": "Special",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/nami-special-rare-op-05-awakening-of-the-new-era",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Yamato",
-    "code": "OP01-121",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Strike",
-    "power": 5000,
-    "counter": 1000,
-    "color": [
-      "Green"
-    ],
-    "family": [
-      "Land of Wano"
-    ],
-    "effect": "Also treat this card's name as [Kouzuki Oden] according to the rules.[Double Attack] (This card deals 2 damage.)[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.)",
-    "trigger": null,
-    "setName": "AWAKENING OF THE NEW ERA [OP-05]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-121_p2.png",
-    "cost": 5,
-    "abilityKeywords": [
-      "[Double Attack]",
-      "[Banish]"
-    ],
-    "expansionCode": "OP01",
-    "imageId": "OP01-121_p2",
-    "id": "OP01-121_p2_AWAKENING_OF_THE_NEW_ERA_[OP05]",
-    "illustration": "Special",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/yamato-special-rare-op-05-awakening-of-the-new-era",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Uta",
-    "code": "OP02-120",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Special",
-    "power": 8000,
-    "counter": null,
-    "color": [
-      "Purple"
-    ],
-    "family": [
-      "FILM"
-    ],
-    "effect": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your Leader and all of your Characters gain +1000 power until the start of your next turn.",
-    "trigger": null,
-    "setName": "AWAKENING OF THE NEW ERA [OP-05]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-120_p2.png",
-    "cost": 8,
-    "expansionCode": "OP02",
-    "imageId": "OP02-120_p2",
-    "id": "OP02-120_p2_AWAKENING_OF_THE_NEW_ERA_[OP05]",
-    "abilityKeywords": [
-      "[On Play]"
-    ],
-    "illustration": "Special",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/uta-special-rare-op-05-awakening-of-the-new-era",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Rob Lucci",
-    "code": "OP03-092",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Strike",
-    "power": 7000,
-    "counter": null,
-    "color": [
-      "Black"
-    ],
-    "family": [
-      "CP9"
-    ],
-    "effect": "[On Play] You may place 2 cards with a type including \"CP\" from your trash at the bottom of your deck in any order: This Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
-    "trigger": null,
-    "setName": "AWAKENING OF THE NEW ERA [OP-05]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-092_p2.png",
-    "cost": 6,
-    "abilityKeywords": [
-      "[Rush]",
-      "[On Play]"
-    ],
-    "expansionCode": "OP03",
-    "imageId": "OP03-092_p2",
-    "id": "OP03-092_p2_AWAKENING_OF_THE_NEW_ERA_[OP05]",
-    "illustration": "Special",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/rob-lucci-special-rare-op-05-awakening-of-the-new-era",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Kaido",
-    "code": "OP04-044",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Strike",
-    "power": 12000,
-    "counter": null,
-    "color": [
-      "Blue"
-    ],
-    "family": [
-      "The Four Emperors",
-      "Animal Kingdom Pirates"
-    ],
-    "effect": "[On Play] Return up to 1 Character with a cost of 8 or less and up to 1 Character with a cost of 3 or less to the owner's hand.",
-    "trigger": null,
-    "setName": "AWAKENING OF THE NEW ERA [OP-05]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-044_p2.png",
-    "cost": 10,
-    "expansionCode": "OP04",
-    "imageId": "OP04-044_p2",
-    "id": "OP04-044_p2_AWAKENING_OF_THE_NEW_ERA_[OP05]",
-    "abilityKeywords": [
-      "[On Play]"
-    ],
-    "illustration": "Special",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/kaido-special-rare-op-05-awakening-of-the-new-era",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Enel",
-    "code": "OP05-100",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Special",
-    "power": 7000,
-    "counter": null,
-    "color": [
-      "Yellow"
-    ],
-    "family": [
-      "Sky Island"
-    ],
-    "effect": "[Rush][Once Per Turn] If this Character would leave the field, you may trash 1 card from the top of your Life cards instead. If there is a [Monkey.D.Luffy] Character, this effect is negated.",
-    "trigger": null,
-    "setName": "AWAKENING OF THE NEW ERA [OP-05]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-100_p2.png",
-    "cost": 7,
-    "abilityKeywords": [
-      "[Rush]",
-      "[Once Per Turn]"
-    ],
-    "expansionCode": "OP05",
-    "imageId": "OP05-100_p2",
-    "id": "OP05-100_p2_AWAKENING_OF_THE_NEW_ERA_[OP05]",
-    "illustration": "Special",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/enel-special-rare-op-05-awakening-of-the-new-era",
         "verified": true
       }
     ]

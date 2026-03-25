@@ -1,5 +1,307 @@
 [
   {
+    "name": "Double Pack Set Vol. 4",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "500 YEARS INTO THE FUTURE [OP-07]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/291940/don-double-pack-set-vol-4-op-07-500-years-into-the-future.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "OP07",
+    "imageId": "don-double-pack-set-vol-4-op-07-500-years-into-the-future",
+    "id": "don-double-pack-set-vol-4-op-07-500-years-into-the-future_500_YEARS_INTO_THE_FUTURE_[OP-07]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-double-pack-set-vol-4-op-07-500-years-into-the-future",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Double Pack Set Vol. 4",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "500 YEARS INTO THE FUTURE [OP-07]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/291943/don-double-pack-set-vol-4-op-07-500-years-into-the-future-291943.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "OP07",
+    "imageId": "don-double-pack-set-vol-4-op-07-500-years-into-the-future-291943",
+    "id": "don-double-pack-set-vol-4-op-07-500-years-into-the-future-291943_500_YEARS_INTO_THE_FUTURE_[OP-07]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-double-pack-set-vol-4-op-07-500-years-into-the-future-291943",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Seven Warlords of the Sea",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "500 YEARS INTO THE FUTURE [OP-07]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/291937/don-alternate-art-op-07-500-years-into-the-future.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "OP07",
+    "imageId": "don-seven-warlords-of-the-sea-op-07-500-years-into-the-future",
+    "id": "don-seven-warlords-of-the-sea-op-07-500-years-into-the-future_500_YEARS_INTO_THE_FUTURE_[OP-07]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-seven-warlords-of-the-sea-op-07-500-years-into-the-future",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Okiku",
+    "code": "OP01-035",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Land of Wano",
+      "The Akazaya Nine"
+    ],
+    "effect": "[DON!! x1] [When Attacking] [Once Per Turn] Rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "trigger": null,
+    "setName": "500 YEARS INTO THE FUTURE [OP-07]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-035_p2.png",
+    "cost": 3,
+    "abilityKeywords": [
+      "[When Attacking]",
+      "[Once Per Turn]",
+      "[DON!! x1]"
+    ],
+    "expansionCode": "OP01",
+    "imageId": "OP01-035_p2",
+    "id": "OP01-035_p2_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/okiku-special-rare-op-07-500-years-into-the-future",
+        "verified": true,
+        "current_price": 25.84
+      }
+    ]
+  },
+  {
+    "name": "Donquixote Doflamingo",
+    "code": "OP01-073",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 4000,
+    "counter": 1000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "The Seven Warlords of the Sea",
+      "Donquixote Pirates"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Look at 5 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
+    "trigger": null,
+    "setName": "500 YEARS INTO THE FUTURE [OP-07]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-073_p2.png",
+    "cost": 3,
+    "abilityKeywords": [
+      "[Blocker]",
+      "[On Play]"
+    ],
+    "expansionCode": "OP01",
+    "imageId": "OP01-073_p2",
+    "id": "OP01-073_p2_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/donquixote-doflamingo-special-rare-op-07-500-years-into-the-future",
+        "verified": true,
+        "current_price": 29.88
+      }
+    ]
+  },
+  {
+    "name": "Izo",
+    "code": "OP03-003",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Ranged",
+    "power": 2000,
+    "counter": 1000,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Land of Wano",
+      "Whitebeard Pirates"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 card with a type including \"Whitebeard Pirates\" other than [Izo] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": null,
+    "setName": "500 YEARS INTO THE FUTURE [OP-07]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-003_p1.png",
+    "cost": 1,
+    "expansionCode": "OP03",
+    "imageId": "OP03-003_p1",
+    "id": "OP03-003_p1_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "abilityKeywords": [
+      "[On Play]"
+    ],
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/izo-special-rare-op-07-500-years-into-the-future",
+        "verified": true,
+        "current_price": 26.73
+      }
+    ]
+  },
+  {
+    "name": "Issho",
+    "code": "OP03-078",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 9000,
+    "counter": null,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": "[DON!! x1] [Your Turn] Give all of your opponent's Characters −3 cost.[On Play] If your opponent has 6 or more cards in their hand, trash 2 cards from your opponent's hand.",
+    "trigger": null,
+    "setName": "500 YEARS INTO THE FUTURE [OP-07]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-078_p2.png",
+    "cost": 8,
+    "abilityKeywords": [
+      "[Your Turn]",
+      "[DON!! x1]",
+      "[On Play]"
+    ],
+    "expansionCode": "OP03",
+    "imageId": "OP03-078_p2",
+    "id": "OP03-078_p2_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/issho-special-rare-op-07-500-years-into-the-future",
+        "verified": true,
+        "current_price": 23.13
+      }
+    ]
+  },
+  {
+    "name": "Eustass\"Captain\"Kid",
+    "code": "OP05-074",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": 1000,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Kid Pirates"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "trigger": null,
+    "setName": "500 YEARS INTO THE FUTURE [OP-07]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-074_p3.png",
+    "cost": 5,
+    "abilityKeywords": [
+      "[Blocker]",
+      "[Your Turn]",
+      "[Once Per Turn]"
+    ],
+    "expansionCode": "OP05",
+    "imageId": "OP05-074_p3",
+    "id": "OP05-074_p3_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/eustass-captain-kid-special-rare-op-07-500-years-into-the-future",
+        "verified": true,
+        "current_price": 33.42
+      }
+    ]
+  },
+  {
+    "name": "O-Nami",
+    "code": "OP06-101",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 3000,
+    "counter": 1000,
+    "color": [
+      "Yellow"
+    ],
+    "family": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] Up to 1 of your Leader or Character cards gains [Banish] during this turn.(When this card deals damage, the target card is trashed without activating its Trigger.)",
+    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "setName": "500 YEARS INTO THE FUTURE [OP-07]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-101_p2.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[Banish]",
+      "[On Play]"
+    ],
+    "expansionCode": "OP06",
+    "imageId": "OP06-101_p2",
+    "id": "OP06-101_p2_500_YEARS_IN_THE_FUTURE_[OP-07]",
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/o-nami-special-rare-op-07-500-years-into-the-future",
+        "verified": true,
+        "current_price": 213.43
+      }
+    ]
+  },
+  {
     "name": "Monkey.D.Dragon",
     "code": "OP07-001",
     "rarity": "L",
@@ -5032,227 +5334,6 @@
         "url": "https://www.cardtrader.com/cards/trafalgar-law-op-07-500-years-into-the-future-291420",
         "verified": true,
         "current_price": 32.5
-      }
-    ]
-  },
-  {
-    "name": "Okiku",
-    "code": "OP01-035",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Slash",
-    "power": 5000,
-    "counter": null,
-    "color": [
-      "Green"
-    ],
-    "family": [
-      "Land of Wano",
-      "The Akazaya Nine"
-    ],
-    "effect": "[DON!! x1] [When Attacking] [Once Per Turn] Rest up to 1 of your opponent's Characters with a cost of 5 or less.",
-    "trigger": null,
-    "setName": "500 YEARS INTO THE FUTURE [OP-07]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-035_p2.png",
-    "cost": 3,
-    "abilityKeywords": [
-      "[When Attacking]",
-      "[Once Per Turn]",
-      "[DON!! x1]"
-    ],
-    "expansionCode": "OP01",
-    "imageId": "OP01-035_p2",
-    "id": "OP01-035_p2_500_YEARS_IN_THE_FUTURE_[OP-07]",
-    "illustration": "Alternate Art",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/okiku-special-rare-op-07-500-years-into-the-future",
-        "verified": true,
-        "current_price": 25.84
-      }
-    ]
-  },
-  {
-    "name": "Donquixote Doflamingo",
-    "code": "OP01-073",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Special",
-    "power": 4000,
-    "counter": 1000,
-    "color": [
-      "Blue"
-    ],
-    "family": [
-      "The Seven Warlords of the Sea",
-      "Donquixote Pirates"
-    ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Look at 5 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
-    "trigger": null,
-    "setName": "500 YEARS INTO THE FUTURE [OP-07]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-073_p2.png",
-    "cost": 3,
-    "abilityKeywords": [
-      "[Blocker]",
-      "[On Play]"
-    ],
-    "expansionCode": "OP01",
-    "imageId": "OP01-073_p2",
-    "id": "OP01-073_p2_500_YEARS_IN_THE_FUTURE_[OP-07]",
-    "illustration": "Alternate Art",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/donquixote-doflamingo-special-rare-op-07-500-years-into-the-future",
-        "verified": true,
-        "current_price": 29.88
-      }
-    ]
-  },
-  {
-    "name": "Izo",
-    "code": "OP03-003",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Ranged",
-    "power": 2000,
-    "counter": 1000,
-    "color": [
-      "Red"
-    ],
-    "family": [
-      "Land of Wano",
-      "Whitebeard Pirates"
-    ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 card with a type including \"Whitebeard Pirates\" other than [Izo] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": null,
-    "setName": "500 YEARS INTO THE FUTURE [OP-07]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-003_p1.png",
-    "cost": 1,
-    "expansionCode": "OP03",
-    "imageId": "OP03-003_p1",
-    "id": "OP03-003_p1_500_YEARS_IN_THE_FUTURE_[OP-07]",
-    "abilityKeywords": [
-      "[On Play]"
-    ],
-    "illustration": "Alternate Art",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/izo-special-rare-op-07-500-years-into-the-future",
-        "verified": true,
-        "current_price": 26.73
-      }
-    ]
-  },
-  {
-    "name": "Issho",
-    "code": "OP03-078",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Slash",
-    "power": 9000,
-    "counter": null,
-    "color": [
-      "Black"
-    ],
-    "family": [
-      "Navy"
-    ],
-    "effect": "[DON!! x1] [Your Turn] Give all of your opponent's Characters −3 cost.[On Play] If your opponent has 6 or more cards in their hand, trash 2 cards from your opponent's hand.",
-    "trigger": null,
-    "setName": "500 YEARS INTO THE FUTURE [OP-07]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-078_p2.png",
-    "cost": 8,
-    "abilityKeywords": [
-      "[Your Turn]",
-      "[DON!! x1]",
-      "[On Play]"
-    ],
-    "expansionCode": "OP03",
-    "imageId": "OP03-078_p2",
-    "id": "OP03-078_p2_500_YEARS_IN_THE_FUTURE_[OP-07]",
-    "illustration": "Alternate Art",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/issho-special-rare-op-07-500-years-into-the-future",
-        "verified": true,
-        "current_price": 23.13
-      }
-    ]
-  },
-  {
-    "name": "Eustass\"Captain\"Kid",
-    "code": "OP05-074",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Special",
-    "power": 6000,
-    "counter": 1000,
-    "color": [
-      "Purple"
-    ],
-    "family": [
-      "Kid Pirates"
-    ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "trigger": null,
-    "setName": "500 YEARS INTO THE FUTURE [OP-07]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-074_p3.png",
-    "cost": 5,
-    "abilityKeywords": [
-      "[Blocker]",
-      "[Your Turn]",
-      "[Once Per Turn]"
-    ],
-    "expansionCode": "OP05",
-    "imageId": "OP05-074_p3",
-    "id": "OP05-074_p3_500_YEARS_IN_THE_FUTURE_[OP-07]",
-    "illustration": "Alternate Art",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/eustass-captain-kid-special-rare-op-07-500-years-into-the-future",
-        "verified": true,
-        "current_price": 33.42
-      }
-    ]
-  },
-  {
-    "name": "O-Nami",
-    "code": "OP06-101",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Special",
-    "power": 3000,
-    "counter": 1000,
-    "color": [
-      "Yellow"
-    ],
-    "family": [
-      "Straw Hat Crew"
-    ],
-    "effect": "[On Play] Up to 1 of your Leader or Character cards gains [Banish] during this turn.(When this card deals damage, the target card is trashed without activating its Trigger.)",
-    "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
-    "setName": "500 YEARS INTO THE FUTURE [OP-07]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-101_p2.png",
-    "cost": 2,
-    "abilityKeywords": [
-      "[Banish]",
-      "[On Play]"
-    ],
-    "expansionCode": "OP06",
-    "imageId": "OP06-101_p2",
-    "id": "OP06-101_p2_500_YEARS_IN_THE_FUTURE_[OP-07]",
-    "illustration": "Alternate Art",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/o-nami-special-rare-op-07-500-years-into-the-future",
-        "verified": true,
-        "current_price": 213.43
       }
     ]
   }

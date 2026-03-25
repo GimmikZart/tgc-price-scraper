@@ -1,5 +1,375 @@
 [
   {
+    "name": "Gol.D.Roger",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "CARRYING ON HIS WILL [OP-13]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/356700/don-gol-d-roger-gold-op-13-carrying-on-his-will.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "OP13",
+    "imageId": "don-gol-d-roger-gold-foil-op-13-carrying-on-his-will",
+    "id": "don-gol-d-roger-gold-foil-op-13-carrying-on-his-will_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "Gold Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-gol-d-roger-gold-foil-op-13-carrying-on-his-will",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Gol.D.Roger",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "CARRYING ON HIS WILL [OP-13]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/356699/don-gol-d-roger-op-13-carrying-on-his-will.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "OP13",
+    "imageId": "don-gol-d-roger-op-13-carrying-on-his-will",
+    "id": "don-gol-d-roger-op-13-carrying-on-his-will_CARRYING_ON_HIS_WILL_[OP-13]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-gol-d-roger-op-13-carrying-on-his-will",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Portgas.D.Ace",
+    "code": "EB02-028",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "Alabasta",
+      "Whitebeard Pirates"
+    ],
+    "effect": "[On Play] If your Leader's type includes \"Whitebeard Pirates\", look at 5 cards from the top of your deck; reveal up to 1 Character card with a cost of 2 and add it to your hand. Then, place the rest at the bottom of your deck in any order and play up to 1 Character card with a cost of 2 from your hand rested.",
+    "trigger": null,
+    "setName": "CARRYING ON HIS WILL [OP-13]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB02-028_p1.png",
+    "cost": 5,
+    "expansionCode": "EB02",
+    "imageId": "EB02-028_p1",
+    "id": "EB02-028_p1_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ],
+    "illustration": "Special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/portgas-d-ace-special-rare-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Lilith",
+    "code": "OP07-111",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Yellow"
+    ],
+    "family": [
+      "Scientist",
+      "Egghead"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Egghead} type card other than [Lilith] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": "Trigger[Trigger] If your Leader is [Vegapunk], play this card.",
+    "setName": "CARRYING ON HIS WILL [OP-13]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-111_p2.png",
+    "cost": 3,
+    "expansionCode": "OP07",
+    "imageId": "OP07-111_p2",
+    "id": "OP07-111_p2_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ],
+    "illustration": "Special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/lilith-special-rare-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Sabo",
+    "code": "OP07-118",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 9000,
+    "counter": null,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Revolutionary Army"
+    ],
+    "effect": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 5 or less and up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "trigger": null,
+    "setName": "CARRYING ON HIS WILL [OP-13]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-118_p2.png",
+    "cost": 8,
+    "expansionCode": "OP07",
+    "imageId": "OP07-118_p2",
+    "id": "OP07-118_p2_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ],
+    "illustration": "Special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sabo-special-rare-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Shanks",
+    "code": "OP09-004",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 12000,
+    "counter": null,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "The Four Emperors",
+      "Red-Haired Pirates"
+    ],
+    "effect": "Give all of your opponent's Characters −1000 power.[Rush] (This card can attack on the turn in which it is played.)",
+    "trigger": null,
+    "setName": "CARRYING ON HIS WILL [OP-13]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-004_p5.png",
+    "cost": 10,
+    "abilityKeywords": [
+      "[Rush]"
+    ],
+    "expansionCode": "OP09",
+    "imageId": "OP09-004_p5",
+    "id": "OP09-004_p5_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "Special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shanks-special-rare-gold-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Shanks",
+    "code": "OP09-004",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 12000,
+    "counter": null,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "The Four Emperors",
+      "Red-Haired Pirates"
+    ],
+    "effect": "Give all of your opponent's Characters −1000 power.[Rush] (This card can attack on the turn in which it is played.)",
+    "trigger": null,
+    "setName": "CARRYING ON HIS WILL [OP-13]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-004_p6.png",
+    "cost": 10,
+    "abilityKeywords": [
+      "[Rush]"
+    ],
+    "expansionCode": "OP09",
+    "imageId": "OP09-004_p6",
+    "id": "OP09-004_p6_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "Special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/shanks-special-rare-silver-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Benn.Beckman",
+    "code": "OP09-009",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Ranged",
+    "power": 7000,
+    "counter": 1000,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "[On Play] Trash up to 1 of your opponent's Characters with 6000 power or less.",
+    "trigger": null,
+    "setName": "CARRYING ON HIS WILL [OP-13]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-009_p3.png",
+    "cost": 7,
+    "expansionCode": "OP09",
+    "imageId": "OP09-009_p3",
+    "id": "OP09-009_p3_CARRYING_ON_HIS_WILL_[OP-13]",
+    "abilityKeywords": [
+      "[On Play]"
+    ],
+    "illustration": "Special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/benn-beckman-special-rare-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Gol.D.Roger",
+    "code": "OP09-118",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 13000,
+    "counter": null,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "King of the Pirates",
+      "Roger Pirates"
+    ],
+    "effect": "[Rush] (This card can attack on the turn in which it is played.)When your opponent activates [Blocker], if either you or your opponent has 0 Life cards, you win the game.",
+    "trigger": null,
+    "setName": "CARRYING ON HIS WILL [OP-13]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-118_p3.png",
+    "cost": 10,
+    "abilityKeywords": [
+      "[Rush]",
+      "[Blocker]"
+    ],
+    "expansionCode": "OP09",
+    "imageId": "OP09-118_p3",
+    "id": "OP09-118_p3_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "Wanted",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/gol-d-roger-wanted-alternate-art-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Monkey.D.Luffy",
+    "code": "OP09-119",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 10000,
+    "counter": null,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] You may return 1 or more DON!! cards from your field to your DON!! deck: Draw 1 card and this Character gains [Rush] during this turn.",
+    "trigger": null,
+    "setName": "CARRYING ON HIS WILL [OP-13]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-119_p3.png",
+    "cost": 9,
+    "abilityKeywords": [
+      "[Rush]",
+      "[On Play]"
+    ],
+    "expansionCode": "OP09",
+    "imageId": "OP09-119_p3",
+    "id": "OP09-119_p3_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "Special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-special-rare-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Smoker",
+    "code": "OP10-030",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 7000,
+    "counter": null,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Punk Hazard",
+      "Navy"
+    ],
+    "effect": "[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.)[Activate: Main] Set up to 1 of your DON!! cards as active. Then, you cannot set DON!! cards as active using Character effects during this turn.",
+    "trigger": null,
+    "setName": "CARRYING ON HIS WILL [OP-13]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-030_p2.png",
+    "cost": 5,
+    "abilityKeywords": [
+      "[Banish]",
+      "[Activate: Main]"
+    ],
+    "expansionCode": "OP10",
+    "imageId": "OP10-030_p2",
+    "id": "OP10-030_p2_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "Special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/smoker-special-rare-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Monkey.D.Luffy",
     "code": "OP11-058",
     "rarity": "TR",
@@ -5271,6 +5641,43 @@
     ]
   },
   {
+    "name": "Monkey.D.Luffy",
+    "code": "OP13-118",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 7000,
+    "counter": null,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Fish-Man Island",
+      "Supernovas",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Double Attack][On Play] If your Leader is multicolored, set up to 4 of your DON!! cards as active. Then, you cannot play Character cards with a base cost of 5 or more during this turn.",
+    "trigger": null,
+    "setName": "CARRYING ON HIS WILL [OP-13]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-118_p4.png",
+    "cost": 6,
+    "abilityKeywords": [
+      "[Double Attack]",
+      "[On Play]"
+    ],
+    "expansionCode": "OP13",
+    "imageId": "OP13-118_p4",
+    "id": "OP13-118_p4_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "Wanted",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-wanted-alternate-art-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Portgas.D.Ace",
     "code": "OP13-119",
     "rarity": "SEC",
@@ -5405,6 +5812,41 @@
       {
         "service": "Card Trader",
         "url": "https://www.cardtrader.com/cards/portgas-d-ace-red-manga-panel-alternate-art-secret-rare-op-13-carrying-on-his-will",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Portgas.D.Ace",
+    "code": "OP13-119",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 7000,
+    "counter": null,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "If you have 3 or less Life cards, this Character gains [Rush].[On Play] Give up to 1 rested DON!! card to your Leader. Then, you may return up to 1 of your opponent's Characters with a cost of 5 or less to the owner's hand. If you do, your opponent plays up to 1 Character card with a cost of 4 or less from their hand.",
+    "trigger": null,
+    "setName": "CARRYING ON HIS WILL [OP-13]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-119_p4.png",
+    "cost": 6,
+    "abilityKeywords": [
+      "[Rush]",
+      "[On Play]"
+    ],
+    "expansionCode": "OP13",
+    "imageId": "OP13-119_p4",
+    "id": "OP13-119_p4_CARRYING_ON_HIS_WILL_[OP-13]",
+    "illustration": "Wanted",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/portgas-d-ace-wanted-alternate-art-op-13-carrying-on-his-will",
         "verified": true
       }
     ]
@@ -5552,393 +5994,6 @@
       {
         "service": "Card Trader",
         "url": "https://www.cardtrader.com/cards/sabo-red-manga-panel-alternate-art-secret-rare-op-13-carrying-on-his-will",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Portgas.D.Ace",
-    "code": "EB02-028",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Special",
-    "power": 5000,
-    "counter": 1000,
-    "color": [
-      "Blue"
-    ],
-    "family": [
-      "Alabasta",
-      "Whitebeard Pirates"
-    ],
-    "effect": "[On Play] If your Leader's type includes \"Whitebeard Pirates\", look at 5 cards from the top of your deck; reveal up to 1 Character card with a cost of 2 and add it to your hand. Then, place the rest at the bottom of your deck in any order and play up to 1 Character card with a cost of 2 from your hand rested.",
-    "trigger": null,
-    "setName": "CARRYING ON HIS WILL [OP-13]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB02-028_p1.png",
-    "cost": 5,
-    "expansionCode": "EB02",
-    "imageId": "EB02-028_p1",
-    "id": "EB02-028_p1_CARRYING_ON_HIS_WILL_[OP-13]",
-    "abilityKeywords": [
-      "[On Play]"
-    ],
-    "illustration": "Special",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/portgas-d-ace-special-rare-op-13-carrying-on-his-will",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Lilith",
-    "code": "OP07-111",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Wisdom",
-    "power": 5000,
-    "counter": null,
-    "color": [
-      "Yellow"
-    ],
-    "family": [
-      "Scientist",
-      "Egghead"
-    ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Egghead} type card other than [Lilith] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Trigger[Trigger] If your Leader is [Vegapunk], play this card.",
-    "setName": "CARRYING ON HIS WILL [OP-13]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-111_p2.png",
-    "cost": 3,
-    "expansionCode": "OP07",
-    "imageId": "OP07-111_p2",
-    "id": "OP07-111_p2_CARRYING_ON_HIS_WILL_[OP-13]",
-    "abilityKeywords": [
-      "[On Play]"
-    ],
-    "illustration": "Special",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/lilith-special-rare-op-13-carrying-on-his-will",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Sabo",
-    "code": "OP07-118",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Special",
-    "power": 9000,
-    "counter": null,
-    "color": [
-      "Black"
-    ],
-    "family": [
-      "Revolutionary Army"
-    ],
-    "effect": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 5 or less and up to 1 of your opponent's Characters with a cost of 3 or less.",
-    "trigger": null,
-    "setName": "CARRYING ON HIS WILL [OP-13]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-118_p2.png",
-    "cost": 8,
-    "expansionCode": "OP07",
-    "imageId": "OP07-118_p2",
-    "id": "OP07-118_p2_CARRYING_ON_HIS_WILL_[OP-13]",
-    "abilityKeywords": [
-      "[On Play]"
-    ],
-    "illustration": "Special",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/sabo-special-rare-op-13-carrying-on-his-will",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Shanks",
-    "code": "OP09-004",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Slash",
-    "power": 12000,
-    "counter": null,
-    "color": [
-      "Red"
-    ],
-    "family": [
-      "The Four Emperors",
-      "Red-Haired Pirates"
-    ],
-    "effect": "Give all of your opponent's Characters −1000 power.[Rush] (This card can attack on the turn in which it is played.)",
-    "trigger": null,
-    "setName": "CARRYING ON HIS WILL [OP-13]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-004_p5.png",
-    "cost": 10,
-    "abilityKeywords": [
-      "[Rush]"
-    ],
-    "expansionCode": "OP09",
-    "imageId": "OP09-004_p5",
-    "id": "OP09-004_p5_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "Special",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/shanks-special-rare-gold-op-13-carrying-on-his-will",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Shanks",
-    "code": "OP09-004",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Slash",
-    "power": 12000,
-    "counter": null,
-    "color": [
-      "Red"
-    ],
-    "family": [
-      "The Four Emperors",
-      "Red-Haired Pirates"
-    ],
-    "effect": "Give all of your opponent's Characters −1000 power.[Rush] (This card can attack on the turn in which it is played.)",
-    "trigger": null,
-    "setName": "CARRYING ON HIS WILL [OP-13]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-004_p6.png",
-    "cost": 10,
-    "abilityKeywords": [
-      "[Rush]"
-    ],
-    "expansionCode": "OP09",
-    "imageId": "OP09-004_p6",
-    "id": "OP09-004_p6_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "Special",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/shanks-special-rare-silver-op-13-carrying-on-his-will",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Benn.Beckman",
-    "code": "OP09-009",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Ranged",
-    "power": 7000,
-    "counter": 1000,
-    "color": [
-      "Red"
-    ],
-    "family": [
-      "Red-Haired Pirates"
-    ],
-    "effect": "[On Play] Trash up to 1 of your opponent's Characters with 6000 power or less.",
-    "trigger": null,
-    "setName": "CARRYING ON HIS WILL [OP-13]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-009_p3.png",
-    "cost": 7,
-    "expansionCode": "OP09",
-    "imageId": "OP09-009_p3",
-    "id": "OP09-009_p3_CARRYING_ON_HIS_WILL_[OP-13]",
-    "abilityKeywords": [
-      "[On Play]"
-    ],
-    "illustration": "Special",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/benn-beckman-special-rare-op-13-carrying-on-his-will",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Gol.D.Roger",
-    "code": "OP09-118",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Slash",
-    "power": 13000,
-    "counter": null,
-    "color": [
-      "Red"
-    ],
-    "family": [
-      "King of the Pirates",
-      "Roger Pirates"
-    ],
-    "effect": "[Rush] (This card can attack on the turn in which it is played.)When your opponent activates [Blocker], if either you or your opponent has 0 Life cards, you win the game.",
-    "trigger": null,
-    "setName": "CARRYING ON HIS WILL [OP-13]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-118_p3.png",
-    "cost": 10,
-    "abilityKeywords": [
-      "[Rush]",
-      "[Blocker]"
-    ],
-    "expansionCode": "OP09",
-    "imageId": "OP09-118_p3",
-    "id": "OP09-118_p3_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "Wanted",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/gol-d-roger-wanted-alternate-art-op-13-carrying-on-his-will",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Monkey.D.Luffy",
-    "code": "OP09-119",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Strike",
-    "power": 10000,
-    "counter": null,
-    "color": [
-      "Purple"
-    ],
-    "family": [
-      "Straw Hat Crew"
-    ],
-    "effect": "[On Play] You may return 1 or more DON!! cards from your field to your DON!! deck: Draw 1 card and this Character gains [Rush] during this turn.",
-    "trigger": null,
-    "setName": "CARRYING ON HIS WILL [OP-13]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-119_p3.png",
-    "cost": 9,
-    "abilityKeywords": [
-      "[Rush]",
-      "[On Play]"
-    ],
-    "expansionCode": "OP09",
-    "imageId": "OP09-119_p3",
-    "id": "OP09-119_p3_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "Special",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-special-rare-op-13-carrying-on-his-will",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Smoker",
-    "code": "OP10-030",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Slash",
-    "power": 7000,
-    "counter": null,
-    "color": [
-      "Green"
-    ],
-    "family": [
-      "Punk Hazard",
-      "Navy"
-    ],
-    "effect": "[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.)[Activate: Main] Set up to 1 of your DON!! cards as active. Then, you cannot set DON!! cards as active using Character effects during this turn.",
-    "trigger": null,
-    "setName": "CARRYING ON HIS WILL [OP-13]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-030_p2.png",
-    "cost": 5,
-    "abilityKeywords": [
-      "[Banish]",
-      "[Activate: Main]"
-    ],
-    "expansionCode": "OP10",
-    "imageId": "OP10-030_p2",
-    "id": "OP10-030_p2_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "Special",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/smoker-special-rare-op-13-carrying-on-his-will",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Monkey.D.Luffy",
-    "code": "OP13-118",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Strike",
-    "power": 7000,
-    "counter": null,
-    "color": [
-      "Green"
-    ],
-    "family": [
-      "Fish-Man Island",
-      "Supernovas",
-      "Straw Hat Crew"
-    ],
-    "effect": "[Double Attack][On Play] If your Leader is multicolored, set up to 4 of your DON!! cards as active. Then, you cannot play Character cards with a base cost of 5 or more during this turn.",
-    "trigger": null,
-    "setName": "CARRYING ON HIS WILL [OP-13]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-118_p4.png",
-    "cost": 6,
-    "abilityKeywords": [
-      "[Double Attack]",
-      "[On Play]"
-    ],
-    "expansionCode": "OP13",
-    "imageId": "OP13-118_p4",
-    "id": "OP13-118_p4_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "Wanted",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-wanted-alternate-art-op-13-carrying-on-his-will",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Portgas.D.Ace",
-    "code": "OP13-119",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Special",
-    "power": 7000,
-    "counter": null,
-    "color": [
-      "Blue"
-    ],
-    "family": [
-      "Whitebeard Pirates"
-    ],
-    "effect": "If you have 3 or less Life cards, this Character gains [Rush].[On Play] Give up to 1 rested DON!! card to your Leader. Then, you may return up to 1 of your opponent's Characters with a cost of 5 or less to the owner's hand. If you do, your opponent plays up to 1 Character card with a cost of 4 or less from their hand.",
-    "trigger": null,
-    "setName": "CARRYING ON HIS WILL [OP-13]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-119_p4.png",
-    "cost": 6,
-    "abilityKeywords": [
-      "[Rush]",
-      "[On Play]"
-    ],
-    "expansionCode": "OP13",
-    "imageId": "OP13-119_p4",
-    "id": "OP13-119_p4_CARRYING_ON_HIS_WILL_[OP-13]",
-    "illustration": "Wanted",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/portgas-d-ace-wanted-alternate-art-op-13-carrying-on-his-will",
         "verified": true
       }
     ]

@@ -1,5 +1,1655 @@
 [
   {
+    "name": "Bello Betty",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352569/don-bello-betty-gold-foil-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-bello-betty-gold-foil-prb-02-the-best-2-premium-booster",
+    "id": "don-bello-betty-gold-foil-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "illustration": "Gold Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-bello-betty-gold-foil-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Bello Betty",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352568/don-bello-betty-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-bello-betty-prb-02-the-best-2-premium-booster",
+    "id": "don-bello-betty-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-bello-betty-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Blackbeard",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352571/don-blackbeard-gold-foil-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-blackbeard-gold-foil-prb-02-the-best-2-premium-booster",
+    "id": "don-blackbeard-gold-foil-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "illustration": "Gold Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-blackbeard-gold-foil-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Blackbeard",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352570/don-blackbeard-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-blackbeard-prb-02-the-best-2-premium-booster",
+    "id": "don-blackbeard-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-blackbeard-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Boa Hancock",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352565/don-boa-hancock-gold-foil-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-boa-hancock-gold-foil-prb-02-the-best-2-premium-booster",
+    "id": "don-boa-hancock-gold-foil-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "illustration": "Gold Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-boa-hancock-gold-foil-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Boa Hancock",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352564/don-boa-hancock-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-boa-hancock-prb-02-the-best-2-premium-booster",
+    "id": "don-boa-hancock-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-boa-hancock-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Buggy",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352567/don-buggy-gold-foil-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-buggy-gold-foil-prb-02-the-best-2-premium-booster",
+    "id": "don-buggy-gold-foil-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "illustration": "Gold Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-buggy-gold-foil-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Buggy",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352566/don-buggy-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-buggy-prb-02-the-best-2-premium-booster",
+    "id": "don-buggy-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-buggy-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Caesar Clown",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352573/don-caesar-clown-gold-foil-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-caesar-clown-gold-foil-prb-02-the-best-2-premium-booster",
+    "id": "don-caesar-clown-gold-foil-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "illustration": "Gold Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-caesar-clown-gold-foil-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Caesar Clown",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352572/don-caesar-clown-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-caesar-clown-prb-02-the-best-2-premium-booster",
+    "id": "don-caesar-clown-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-caesar-clown-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Carrot",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352575/don-carrot-gold-foil-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-carrot-gold-foil-prb-02-the-best-2-premium-booster",
+    "id": "don-carrot-gold-foil-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "illustration": "Gold Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-carrot-gold-foil-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Carrot",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352574/don-carrot-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-carrot-prb-02-the-best-2-premium-booster",
+    "id": "don-carrot-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-carrot-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Chopper",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352577/don-chopper-gold-foil-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-chopper-gold-foil-prb-02-the-best-2-premium-booster",
+    "id": "don-chopper-gold-foil-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "illustration": "Gold Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-chopper-gold-foil-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Chopper",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352576/don-chopper-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-chopper-prb-02-the-best-2-premium-booster",
+    "id": "don-chopper-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-chopper-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Foxy",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352579/don-foxy-gold-foil-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-foxy-gold-foil-prb-02-the-best-2-premium-booster",
+    "id": "don-foxy-gold-foil-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "illustration": "Gold Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-foxy-gold-foil-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Foxy",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352578/don-foxy-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-foxy-prb-02-the-best-2-premium-booster",
+    "id": "don-foxy-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-foxy-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Gear 4 Luffy Nika",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352603/don-gear-4-luffy-nika-gold-foil-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-gear-4-luffy-nika-gold-foil-prb-02-the-best-2-premium-booster",
+    "id": "don-gear-4-luffy-nika-gold-foil-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "illustration": "Gold Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-gear-4-luffy-nika-gold-foil-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Gear 4 Luffy Snakeman",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352615/don-gear-4-luffy-snakeman-gold-foil-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-gear-4-luffy-snakeman-gold-foil-prb-02-the-best-2-premium-booster",
+    "id": "don-gear-4-luffy-snakeman-gold-foil-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "illustration": "Gold Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-gear-4-luffy-snakeman-gold-foil-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Gear 4 Luffy Snakeman",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352614/don-gear-4-luffy-snakeman-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-gear-4-luffy-snakeman-prb-02-the-best-2-premium-booster",
+    "id": "don-gear-4-luffy-snakeman-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-gear-4-luffy-snakeman-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Gear 5 Luffy Nika",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352602/don-gear-5-luffy-nika-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-gear-5-luffy-nika-prb-02-the-best-2-premium-booster",
+    "id": "don-gear-5-luffy-nika-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-gear-5-luffy-nika-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Hannyabal",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352581/don-hannyabal-gold-foil-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-hannyabal-gold-foil-prb-02-the-best-2-premium-booster",
+    "id": "don-hannyabal-gold-foil-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "illustration": "Gold Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-hannyabal-gold-foil-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Hannyabal",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352580/don-hannyabal-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-hannyabal-prb-02-the-best-2-premium-booster",
+    "id": "don-hannyabal-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-hannyabal-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Jewelry Bonney",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352583/don-jewelry-bonney-gold-foil-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-jewelry-bonney-gold-foil-prb-02-the-best-2-premium-booster",
+    "id": "don-jewelry-bonney-gold-foil-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "illustration": "Gold Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-jewelry-bonney-gold-foil-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Jewelry Bonney",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352582/don-jewelry-bonney-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-jewelry-bonney-prb-02-the-best-2-premium-booster",
+    "id": "don-jewelry-bonney-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-jewelry-bonney-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Jinbe",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352585/don-jinbe-gold-foil-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-jinbe-gold-foil-prb-02-the-best-2-premium-booster",
+    "id": "don-jinbe-gold-foil-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "illustration": "Gold Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-jinbe-gold-foil-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Jinbe",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352584/don-jinbe-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-jinbe-prb-02-the-best-2-premium-booster",
+    "id": "don-jinbe-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-jinbe-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Kalgara",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352587/don-kalgara-gold-foil-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-kalgara-gold-foil-prb-02-the-best-2-premium-booster",
+    "id": "don-kalgara-gold-foil-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "illustration": "Gold Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-kalgara-gold-foil-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Kalgara",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352586/don-kalgara-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-kalgara-prb-02-the-best-2-premium-booster",
+    "id": "don-kalgara-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-kalgara-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Koby",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352589/don-koby-gold-foil-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-koby-gold-foil-prb-02-the-best-2-premium-booster",
+    "id": "don-koby-gold-foil-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "illustration": "Gold Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-koby-gold-foil-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Koby",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352588/don-koby-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-koby-prb-02-the-best-2-premium-booster",
+    "id": "don-koby-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-koby-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Kyros",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352591/don-kyros-gold-foil-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-kyros-gold-foil-prb-02-the-best-2-premium-booster",
+    "id": "don-kyros-gold-foil-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "illustration": "Gold Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-kyros-gold-foil-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Kyros",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352590/don-kyros-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-kyros-prb-02-the-best-2-premium-booster",
+    "id": "don-kyros-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-kyros-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Lim",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352593/don-lim-gold-foil-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-lim-gold-foil-prb-02-the-best-2-premium-booster",
+    "id": "don-lim-gold-foil-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "illustration": "Gold Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-lim-gold-foil-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Lim",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352592/don-lim-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-lim-prb-02-the-best-2-premium-booster",
+    "id": "don-lim-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-lim-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Marco",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352597/don-marco-gold-foil-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-marco-gold-foil-prb-02-the-best-2-premium-booster",
+    "id": "don-marco-gold-foil-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "illustration": "Gold Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-marco-gold-foil-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Marco",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352596/don-marco-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-marco-prb-02-the-best-2-premium-booster",
+    "id": "don-marco-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-marco-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Nami",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352599/don-nami-gold-foil-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-nami-gold-foil-prb-02-the-best-2-premium-booster",
+    "id": "don-nami-gold-foil-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "illustration": "Gold Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-nami-gold-foil-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Nami",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352598/don-nami-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-nami-prb-02-the-best-2-premium-booster",
+    "id": "don-nami-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-nami-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Nico Robin",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352601/don-nico-robin-gold-foil-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-nico-robin-gold-foil-prb-02-the-best-2-premium-booster",
+    "id": "don-nico-robin-gold-foil-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "illustration": "Gold Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-nico-robin-gold-foil-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Nico Robin",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352600/don-nico-robin-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-nico-robin-prb-02-the-best-2-premium-booster",
+    "id": "don-nico-robin-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-nico-robin-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Pudding",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352605/don-pudding-gold-foil-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-pudding-gold-foil-prb-02-the-best-2-premium-booster",
+    "id": "don-pudding-gold-foil-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "illustration": "Gold Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-pudding-gold-foil-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Pudding",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352604/don-pudding-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-pudding-prb-02-the-best-2-premium-booster",
+    "id": "don-pudding-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-pudding-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Rob Lucci",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352595/don-rob-lucci-gold-foil-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-rob-lucci-gold-foil-prb-02-the-best-2-premium-booster",
+    "id": "don-rob-lucci-gold-foil-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "illustration": "Gold Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-rob-lucci-gold-foil-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Rob Lucci",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352594/don-rob-lucci-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-rob-lucci-prb-02-the-best-2-premium-booster",
+    "id": "don-rob-lucci-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-rob-lucci-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Sanji",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352607/don-sanji-gold-foil-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-sanji-gold-foil-prb-02-the-best-2-premium-booster",
+    "id": "don-sanji-gold-foil-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "illustration": "Gold Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-sanji-gold-foil-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Sanji",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352606/don-sanji-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-sanji-prb-02-the-best-2-premium-booster",
+    "id": "don-sanji-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-sanji-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Shanks",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352609/don-shanks-gold-foil-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-shanks-gold-foil-prb-02-the-best-2-premium-booster",
+    "id": "don-shanks-gold-foil-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "illustration": "Gold Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-shanks-gold-foil-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Shanks",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352608/don-shanks-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-shanks-prb-02-the-best-2-premium-booster",
+    "id": "don-shanks-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-shanks-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Shirahoshi",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352611/don-shirahoshi-gold-foil-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-shirahoshi-gold-foil-prb-02-the-best-2-premium-booster",
+    "id": "don-shirahoshi-gold-foil-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "illustration": "Gold Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-shirahoshi-gold-foil-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Shirahoshi",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352610/don-shirahoshi-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-shirahoshi-prb-02-the-best-2-premium-booster",
+    "id": "don-shirahoshi-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-shirahoshi-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Smoker",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352613/don-smoker-gold-foil-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-smoker-gold-foil-prb-02-the-best-2-premium-booster",
+    "id": "don-smoker-gold-foil-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "illustration": "Gold Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-smoker-gold-foil-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Smoker",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352612/don-smoker-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-smoker-prb-02-the-best-2-premium-booster",
+    "id": "don-smoker-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-smoker-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Sugar",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352617/don-sugar-gold-foil-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-sugar-gold-foil-prb-02-the-best-2-premium-booster",
+    "id": "don-sugar-gold-foil-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "illustration": "Gold Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-sugar-gold-foil-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Sugar",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352616/don-sugar-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-sugar-prb-02-the-best-2-premium-booster",
+    "id": "don-sugar-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-sugar-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Usopp",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352619/don-usopp-gold-foil-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-usopp-gold-foil-prb-02-the-best-2-premium-booster",
+    "id": "don-usopp-gold-foil-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "illustration": "Gold Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-usopp-gold-foil-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Usopp",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352618/don-usopp-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-usopp-prb-02-the-best-2-premium-booster",
+    "id": "don-usopp-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-usopp-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Vegapunk",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352621/don-vegapunk-gold-foil-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-vegapunk-gold-foil-prb-02-the-best-2-premium-booster",
+    "id": "don-vegapunk-gold-foil-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "illustration": "Gold Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-vegapunk-gold-foil-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Vegapunk",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352620/don-vegapunk-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-vegapunk-prb-02-the-best-2-premium-booster",
+    "id": "don-vegapunk-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-vegapunk-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Yamato",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352623/don-yamato-gold-foil-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-yamato-gold-foil-prb-02-the-best-2-premium-booster",
+    "id": "don-yamato-gold-foil-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "illustration": "Gold Foil",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-yamato-gold-foil-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Yamato",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/352622/don-yamato-prb-02-the-best-2-premium-booster.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "PRB02",
+    "imageId": "don-yamato-prb-02-the-best-2-premium-booster",
+    "id": "don-yamato-prb-02-the-best-2-premium-booster_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-yamato-prb-02-the-best-2-premium-booster",
+        "verified": false
+      }
+    ]
+  },
+  {
     "name": "Just Shut Up and Come with Us!!!!",
     "code": "EB01-009",
     "rarity": "C",
@@ -577,6 +2227,43 @@
       {
         "service": "Card Trader",
         "url": "https://www.cardtrader.com/cards/mr-2-bon-kurei-bentham-secret-rare-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Monkey.D.Luffy",
+    "code": "EB02-061",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 7000,
+    "counter": null,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Water Seven",
+      "Straw Hat Crew"
+    ],
+    "effect": "If your Leader is multicolored and your opponent has 5 or more DON!! cards on their field, this Character gains [Rush].[When Attacking] [Once Per Turn] You may return 2 of your active DON!! cards to your DON!! deck: Set this Character as active. Then, add 1 card from the top of your Life cards to your hand.",
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB02-061_p3.png",
+    "cost": 6,
+    "abilityKeywords": [
+      "[Rush]",
+      "[When Attacking]",
+      "[Once Per Turn]"
+    ],
+    "expansionCode": "EB02",
+    "imageId": "EB02-061_p3",
+    "id": "EB02-061_p3_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "illustration": "Special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/monkey-d-luffy-special-rare-prb-02-the-best-2-premium-booster",
         "verified": true
       }
     ]
@@ -1863,6 +3550,41 @@
   {
     "name": "Rebecca",
     "code": "OP05-091",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": null,
+    "counter": 1000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Dressrosa"
+    ],
+    "effect": "[Blocker][On Play] Add up to 1 black Character card with a cost of 3 to 7 other than [Rebecca] from your trash to your hand. Then, play up to 1 black Character card with a cost of 3 or less from your hand rested.",
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-091_p4.png",
+    "cost": 4,
+    "abilityKeywords": [
+      "[Blocker]",
+      "[On Play]"
+    ],
+    "expansionCode": "OP05",
+    "imageId": "OP05-091_p4",
+    "id": "OP05-091_p4_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "illustration": "Special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/rebecca-special-rare-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Rebecca",
+    "code": "OP05-091",
     "rarity": "SR",
     "type": "CHARACTER",
     "attribute": "Wisdom",
@@ -2035,6 +3757,42 @@
   {
     "name": "Shanks",
     "code": "OP06-007",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 12000,
+    "counter": null,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "FILM",
+      "The Four Emperors",
+      "Red-Haired Pirates"
+    ],
+    "effect": "[On Play] K.O. up to 1 of your opponent's Characters with 10000 power or less.",
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-007_p2.png",
+    "cost": 10,
+    "expansionCode": "OP06",
+    "imageId": "OP06-007_p2",
+    "id": "OP06-007_p2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ],
+    "illustration": "Special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/shanks-special-rare-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Shanks",
+    "code": "OP06-007",
     "rarity": "SR",
     "type": "CHARACTER",
     "attribute": "Slash",
@@ -2134,6 +3892,40 @@
       {
         "service": "Card Trader",
         "url": "https://www.cardtrader.com/en/cards/gion-non-foil-reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Charlotte Pudding",
+    "code": "OP06-047",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": 4000,
+    "counter": 1000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[On Play] Your opponent returns all cards in their hand to their deck and shuffles their deck. Then, your opponent draws 5 cards.",
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-047_p2.png",
+    "cost": 4,
+    "expansionCode": "OP06",
+    "imageId": "OP06-047_p2",
+    "id": "OP06-047_p2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ],
+    "illustration": "Special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/charlotte-pudding-special-rare-prb-02-the-best-2-premium-booster",
         "verified": true
       }
     ]
@@ -3809,6 +5601,41 @@
   {
     "name": "Carrot",
     "code": "OP08-023",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": 1000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Minks"
+    ],
+    "effect": "[On Play]/[When Attacking] Up to 1 of your opponent's rested Characters with a cost of 7 or less will not become active in your opponent's next Refresh Phase.",
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-023_p2.png",
+    "cost": 5,
+    "abilityKeywords": [
+      "[When Attacking]",
+      "[On Play]"
+    ],
+    "expansionCode": "OP08",
+    "imageId": "OP08-023_p2",
+    "id": "OP08-023_p2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "illustration": "Special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/carrot-special-rare-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Carrot",
+    "code": "OP08-023",
     "rarity": "SR",
     "type": "CHARACTER",
     "attribute": "Special",
@@ -4401,6 +6228,41 @@
   {
     "name": "Come On!! We'll Fight You!!",
     "code": "OP09-020",
+    "rarity": "SP CARD",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "The Four Emperors",
+      "Red-Haired Pirates"
+    ],
+    "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Red-Haired Pirates} type card other than [Come On!! We'll Fight You!!] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": "Trigger[Trigger] Draw 1 card.",
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-020_p2.png",
+    "cost": 1,
+    "abilityKeywords": [
+      "[Main]"
+    ],
+    "expansionCode": "OP09",
+    "imageId": "OP09-020_p2",
+    "id": "OP09-020_p2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/come-on-we-ll-fight-you-alternate-art-secret-rare-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Come On!! We'll Fight You!!",
+    "code": "OP09-020",
     "rarity": "R",
     "type": "EVENT",
     "attribute": "",
@@ -4718,6 +6580,40 @@
   {
     "name": "Cross Guild",
     "code": "OP09-057",
+    "rarity": "SP CARD",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "Cross Guild"
+    ],
+    "effect": "[Main] Look at 4 cards from the top of your deck; reveal up to 1 {Cross Guild} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-057_p2.png",
+    "cost": 1,
+    "abilityKeywords": [
+      "[Main]"
+    ],
+    "expansionCode": "OP09",
+    "imageId": "OP09-057_p2",
+    "id": "OP09-057_p2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/cross-guild-alternate-art-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Cross Guild",
+    "code": "OP09-057",
     "rarity": "R",
     "type": "EVENT",
     "attribute": "",
@@ -4987,6 +6883,41 @@
       {
         "service": "Card Trader",
         "url": "https://www.cardtrader.com/en/cards/gum-gum-lightning-non-foil-reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Gum-Gum Giant",
+    "code": "OP09-078",
+    "rarity": "SP CARD",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "The Four Emperors",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Counter] DON!! −2, You may trash 1 card from your hand: If your Leader has the {Straw Hat Crew} type, up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, draw 2 cards.",
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-078_p2.png",
+    "cost": 1,
+    "abilityKeywords": [
+      "[Counter]"
+    ],
+    "expansionCode": "OP09",
+    "imageId": "OP09-078_p2",
+    "id": "OP09-078_p2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/gum-gum-giant-alternate-art-prb-02-the-best-2-premium-booster",
         "verified": true
       }
     ]
@@ -5267,6 +7198,40 @@
       {
         "service": "Card Trader",
         "url": "https://www.cardtrader.com/cards/marshall-d-teach-Reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "My Era...Begins!!",
+    "code": "OP09-096",
+    "rarity": "SP CARD",
+    "type": "EVENT",
+    "attribute": "",
+    "power": null,
+    "counter": null,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "[Main] Look at 3 cards from the top of your deck; reveal up to 1 {Blackbeard Pirates} type card other than [My Era...Begins!!] and add it to your hand. Then, trash the rest.",
+    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-096_p1.png",
+    "cost": 1,
+    "abilityKeywords": [
+      "[Main]"
+    ],
+    "expansionCode": "OP09",
+    "imageId": "OP09-096_p1",
+    "id": "OP09-096_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "illustration": "Alternate Art",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/my-era-begins-manga-panel-alternate-art-secret-rare-prb-02-the-best-2-premium-booster",
         "verified": true
       }
     ]
@@ -6137,6 +8102,42 @@
       {
         "service": "Card Trader",
         "url": "https://www.cardtrader.com/en/cards/x-drake-non-foil-reprint-prb-02-the-best-2-premium-booster",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Trafalgar Law",
+    "code": "OP10-119",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 9000,
+    "counter": null,
+    "color": [
+      "Yellow"
+    ],
+    "family": [
+      "Dressrosa",
+      "Supernovas",
+      "Heart Pirates"
+    ],
+    "effect": "[On Play] Reveal up to 1 {Supernovas} type Character card from your hand and add it to the top of your Life cards face-down. Then, give up to 1 rested DON!! card to 1 of your {Supernovas} type Leader.",
+    "trigger": null,
+    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-119_p3.png",
+    "cost": 7,
+    "expansionCode": "OP10",
+    "imageId": "OP10-119_p3",
+    "id": "OP10-119_p3_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ],
+    "illustration": "Special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/trafalgar-law-special-rare-prb-02-the-best-2-premium-booster",
         "verified": true
       }
     ]
@@ -10574,357 +12575,6 @@
       {
         "service": "Card Trader",
         "url": "https://www.cardtrader.com/en/cards/sanji-non-foil-reprint-prb-02-the-best-2-premium-booster",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Monkey.D.Luffy",
-    "code": "EB02-061",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Strike",
-    "power": 7000,
-    "counter": null,
-    "color": [
-      "Purple"
-    ],
-    "family": [
-      "Water Seven",
-      "Straw Hat Crew"
-    ],
-    "effect": "If your Leader is multicolored and your opponent has 5 or more DON!! cards on their field, this Character gains [Rush].[When Attacking] [Once Per Turn] You may return 2 of your active DON!! cards to your DON!! deck: Set this Character as active. Then, add 1 card from the top of your Life cards to your hand.",
-    "trigger": null,
-    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB02-061_p3.png",
-    "cost": 6,
-    "abilityKeywords": [
-      "[Rush]",
-      "[When Attacking]",
-      "[Once Per Turn]"
-    ],
-    "expansionCode": "EB02",
-    "imageId": "EB02-061_p3",
-    "id": "EB02-061_p3_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Special",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/en/cards/monkey-d-luffy-special-rare-prb-02-the-best-2-premium-booster",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Rebecca",
-    "code": "OP05-091",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Wisdom",
-    "power": null,
-    "counter": 1000,
-    "color": [
-      "Black"
-    ],
-    "family": [
-      "Dressrosa"
-    ],
-    "effect": "[Blocker][On Play] Add up to 1 black Character card with a cost of 3 to 7 other than [Rebecca] from your trash to your hand. Then, play up to 1 black Character card with a cost of 3 or less from your hand rested.",
-    "trigger": null,
-    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-091_p4.png",
-    "cost": 4,
-    "abilityKeywords": [
-      "[Blocker]",
-      "[On Play]"
-    ],
-    "expansionCode": "OP05",
-    "imageId": "OP05-091_p4",
-    "id": "OP05-091_p4_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Special",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/en/cards/rebecca-special-rare-prb-02-the-best-2-premium-booster",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Shanks",
-    "code": "OP06-007",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Slash",
-    "power": 12000,
-    "counter": null,
-    "color": [
-      "Red"
-    ],
-    "family": [
-      "FILM",
-      "The Four Emperors",
-      "Red-Haired Pirates"
-    ],
-    "effect": "[On Play] K.O. up to 1 of your opponent's Characters with 10000 power or less.",
-    "trigger": null,
-    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-007_p2.png",
-    "cost": 10,
-    "expansionCode": "OP06",
-    "imageId": "OP06-007_p2",
-    "id": "OP06-007_p2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "abilityKeywords": [
-      "[On Play]"
-    ],
-    "illustration": "Special",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/en/cards/shanks-special-rare-prb-02-the-best-2-premium-booster",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Charlotte Pudding",
-    "code": "OP06-047",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Wisdom",
-    "power": 4000,
-    "counter": 1000,
-    "color": [
-      "Blue"
-    ],
-    "family": [
-      "Big Mom Pirates"
-    ],
-    "effect": "[On Play] Your opponent returns all cards in their hand to their deck and shuffles their deck. Then, your opponent draws 5 cards.",
-    "trigger": null,
-    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-047_p2.png",
-    "cost": 4,
-    "expansionCode": "OP06",
-    "imageId": "OP06-047_p2",
-    "id": "OP06-047_p2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "abilityKeywords": [
-      "[On Play]"
-    ],
-    "illustration": "Special",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/en/cards/charlotte-pudding-special-rare-prb-02-the-best-2-premium-booster",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Carrot",
-    "code": "OP08-023",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Special",
-    "power": 6000,
-    "counter": 1000,
-    "color": [
-      "Green"
-    ],
-    "family": [
-      "Minks"
-    ],
-    "effect": "[On Play]/[When Attacking] Up to 1 of your opponent's rested Characters with a cost of 7 or less will not become active in your opponent's next Refresh Phase.",
-    "trigger": null,
-    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-023_p2.png",
-    "cost": 5,
-    "abilityKeywords": [
-      "[When Attacking]",
-      "[On Play]"
-    ],
-    "expansionCode": "OP08",
-    "imageId": "OP08-023_p2",
-    "id": "OP08-023_p2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Special",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/en/cards/carrot-special-rare-prb-02-the-best-2-premium-booster",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Come On!! We'll Fight You!!",
-    "code": "OP09-020",
-    "rarity": "SP CARD",
-    "type": "EVENT",
-    "attribute": "",
-    "power": null,
-    "counter": null,
-    "color": [
-      "Red"
-    ],
-    "family": [
-      "The Four Emperors",
-      "Red-Haired Pirates"
-    ],
-    "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Red-Haired Pirates} type card other than [Come On!! We'll Fight You!!] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Trigger[Trigger] Draw 1 card.",
-    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-020_p2.png",
-    "cost": 1,
-    "abilityKeywords": [
-      "[Main]"
-    ],
-    "expansionCode": "OP09",
-    "imageId": "OP09-020_p2",
-    "id": "OP09-020_p2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Alternate Art",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/en/cards/come-on-we-ll-fight-you-alternate-art-secret-rare-prb-02-the-best-2-premium-booster",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Cross Guild",
-    "code": "OP09-057",
-    "rarity": "SP CARD",
-    "type": "EVENT",
-    "attribute": "",
-    "power": null,
-    "counter": null,
-    "color": [
-      "Blue"
-    ],
-    "family": [
-      "Cross Guild"
-    ],
-    "effect": "[Main] Look at 4 cards from the top of your deck; reveal up to 1 {Cross Guild} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
-    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-057_p2.png",
-    "cost": 1,
-    "abilityKeywords": [
-      "[Main]"
-    ],
-    "expansionCode": "OP09",
-    "imageId": "OP09-057_p2",
-    "id": "OP09-057_p2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Alternate Art",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/en/cards/cross-guild-alternate-art-prb-02-the-best-2-premium-booster",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Gum-Gum Giant",
-    "code": "OP09-078",
-    "rarity": "SP CARD",
-    "type": "EVENT",
-    "attribute": "",
-    "power": null,
-    "counter": null,
-    "color": [
-      "Purple"
-    ],
-    "family": [
-      "The Four Emperors",
-      "Straw Hat Crew"
-    ],
-    "effect": "[Counter] DON!! −2, You may trash 1 card from your hand: If your Leader has the {Straw Hat Crew} type, up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, draw 2 cards.",
-    "trigger": null,
-    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-078_p2.png",
-    "cost": 1,
-    "abilityKeywords": [
-      "[Counter]"
-    ],
-    "expansionCode": "OP09",
-    "imageId": "OP09-078_p2",
-    "id": "OP09-078_p2_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Alternate Art",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/en/cards/gum-gum-giant-alternate-art-prb-02-the-best-2-premium-booster",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "My Era...Begins!!",
-    "code": "OP09-096",
-    "rarity": "SP CARD",
-    "type": "EVENT",
-    "attribute": "",
-    "power": null,
-    "counter": null,
-    "color": [
-      "Black"
-    ],
-    "family": [
-      "Blackbeard Pirates"
-    ],
-    "effect": "[Main] Look at 3 cards from the top of your deck; reveal up to 1 {Blackbeard Pirates} type card other than [My Era...Begins!!] and add it to your hand. Then, trash the rest.",
-    "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
-    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-096_p1.png",
-    "cost": 1,
-    "abilityKeywords": [
-      "[Main]"
-    ],
-    "expansionCode": "OP09",
-    "imageId": "OP09-096_p1",
-    "id": "OP09-096_p1_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "illustration": "Alternate Art",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/en/cards/my-era-begins-manga-panel-alternate-art-secret-rare-prb-02-the-best-2-premium-booster",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Trafalgar Law",
-    "code": "OP10-119",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Slash",
-    "power": 9000,
-    "counter": null,
-    "color": [
-      "Yellow"
-    ],
-    "family": [
-      "Dressrosa",
-      "Supernovas",
-      "Heart Pirates"
-    ],
-    "effect": "[On Play] Reveal up to 1 {Supernovas} type Character card from your hand and add it to the top of your Life cards face-down. Then, give up to 1 rested DON!! card to 1 of your {Supernovas} type Leader.",
-    "trigger": null,
-    "setName": "ONE PIECE CARD THE BEST vol.2 [PRB-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-119_p3.png",
-    "cost": 7,
-    "expansionCode": "OP10",
-    "imageId": "OP10-119_p3",
-    "id": "OP10-119_p3_ONE_PIECE_CARD_THE_BEST_vol.2_[PRB-02]",
-    "abilityKeywords": [
-      "[On Play]"
-    ],
-    "illustration": "Special",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/en/cards/trafalgar-law-special-rare-prb-02-the-best-2-premium-booster",
         "verified": true
       }
     ]

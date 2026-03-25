@@ -1,35 +1,28 @@
 [
   {
-    "name": "Edward.Newgate",
-    "code": "OP02-001",
-    "rarity": "L",
-    "type": "LEADER",
-    "attribute": "Special",
-    "power": 6000,
+    "name": null,
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
     "counter": null,
-    "color": [
-      "Red"
-    ],
-    "family": [
-      "The Four Emperors",
-      "Whitebeard Pirates"
-    ],
-    "effect": "[End of Your Turn] Add 1 card from the top of your Life cards to your hand.",
+    "color": null,
+    "family": null,
+    "effect": null,
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-001.png",
-    "life": 6,
-    "abilityKeywords": [
-      "[End of Your Turn]"
-    ],
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/244699/don-op-02-exclusive-errata-cards.jpg",
+    "cost": null,
+    "life": null,
     "expansionCode": "OP02",
-    "imageId": "OP02-001",
-    "id": "OP02-001_PARAMOUNT_WAR_[OP02]",
+    "imageId": "don-op-02-exclusive-op-02-paramount-war",
+    "id": "don-op-02-exclusive-op-02-paramount-war_PARAMOUNT_WAR_[OP-02]",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/edward-newgate-op-02-paramount-war",
-        "verified": true
+        "url": "https://www.cardtrader.com/en/cards/don-op-02-exclusive-op-02-paramount-war",
+        "verified": false
       }
     ]
   },
@@ -69,35 +62,35 @@
     ]
   },
   {
-    "name": "Monkey.D.Garp",
-    "code": "OP02-002",
+    "name": "Edward.Newgate",
+    "code": "OP02-001",
     "rarity": "L",
     "type": "LEADER",
-    "attribute": "Strike",
-    "power": 5000,
+    "attribute": "Special",
+    "power": 6000,
     "counter": null,
     "color": [
-      "Red",
-      "Black"
+      "Red"
     ],
     "family": [
-      "Navy"
+      "The Four Emperors",
+      "Whitebeard Pirates"
     ],
-    "effect": "[Your Turn] When this Leader or any of your Characters is given a DON!! card, give up to 1 of your opponent's Characters with a cost of 7 or less −1 cost during this turn.",
+    "effect": "[End of Your Turn] Add 1 card from the top of your Life cards to your hand.",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-002.png",
-    "life": 4,
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-001.png",
+    "life": 6,
     "abilityKeywords": [
-      "[Your Turn]"
+      "[End of Your Turn]"
     ],
     "expansionCode": "OP02",
-    "imageId": "OP02-002",
-    "id": "OP02-002_PARAMOUNT_WAR_[OP02]",
+    "imageId": "OP02-001",
+    "id": "OP02-001_PARAMOUNT_WAR_[OP02]",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/monkey-d-garp-op-02-paramount-war",
+        "url": "https://www.cardtrader.com/cards/edward-newgate-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -133,6 +126,40 @@
       {
         "service": "Card Trader",
         "url": "https://www.cardtrader.com/cards/monkey-d-garp-alternate-art-op-02-paramount-war",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Monkey.D.Garp",
+    "code": "OP02-002",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Red",
+      "Black"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": "[Your Turn] When this Leader or any of your Characters is given a DON!! card, give up to 1 of your opponent's Characters with a cost of 7 or less −1 cost during this turn.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP-02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-002.png",
+    "life": 4,
+    "abilityKeywords": [
+      "[Your Turn]"
+    ],
+    "expansionCode": "OP02",
+    "imageId": "OP02-002",
+    "id": "OP02-002_PARAMOUNT_WAR_[OP02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-garp-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -185,7 +212,7 @@
     "effect": "[On Play] Up to 1 of your Leader gains +2000 power until the start of your next turn. Then, you cannot add Life cards to your hand using your own effects during this turn.[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 3000 power or less.",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-004.png",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-004_p1.png",
     "cost": 9,
     "abilityKeywords": [
       "[When Attacking]",
@@ -193,12 +220,13 @@
       "[On Play]"
     ],
     "expansionCode": "OP02",
-    "imageId": "OP02-004",
-    "id": "OP02-004_PARAMOUNT_WAR_[OP02]",
+    "imageId": "OP02-004_p1",
+    "id": "OP02-004_p1_PARAMOUNT_WAR_[OP02]",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/edward-newgate-op-02-paramount-war-244705",
+        "url": "https://www.cardtrader.com/cards/edward-newgate-alternate-art-op-02-paramount-war-244706",
         "verified": true
       }
     ]
@@ -221,7 +249,7 @@
     "effect": "[On Play] Up to 1 of your Leader gains +2000 power until the start of your next turn. Then, you cannot add Life cards to your hand using your own effects during this turn.[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 3000 power or less.",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-004_p1.png",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-004.png",
     "cost": 9,
     "abilityKeywords": [
       "[When Attacking]",
@@ -229,13 +257,12 @@
       "[On Play]"
     ],
     "expansionCode": "OP02",
-    "imageId": "OP02-004_p1",
-    "id": "OP02-004_p1_PARAMOUNT_WAR_[OP02]",
-    "illustration": "Alternate Art",
+    "imageId": "OP02-004",
+    "id": "OP02-004_PARAMOUNT_WAR_[OP02]",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/edward-newgate-alternate-art-op-02-paramount-war-244706",
+        "url": "https://www.cardtrader.com/cards/edward-newgate-op-02-paramount-war-244705",
         "verified": true
       }
     ]
@@ -384,18 +411,19 @@
     "effect": "[On Play] If your Leader's type includes \"Whitebeard Pirates\", give up to 1 of your opponent's Characters −4000 power during this turn and add 1 card from the top of your Life cards to your hand.",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-009.png",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-009_p1.png",
     "cost": 3,
     "expansionCode": "OP02",
-    "imageId": "OP02-009",
-    "id": "OP02-009_PARAMOUNT_WAR_[OP02]",
+    "imageId": "OP02-009_p1",
+    "id": "OP02-009_p1_PARAMOUNT_WAR_[OP02]",
     "abilityKeywords": [
       "[On Play]"
     ],
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/squard-op-02-paramount-war",
+        "url": "https://www.cardtrader.com/cards/squard-box-topper-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -417,19 +445,18 @@
     "effect": "[On Play] If your Leader's type includes \"Whitebeard Pirates\", give up to 1 of your opponent's Characters −4000 power during this turn and add 1 card from the top of your Life cards to your hand.",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-009_p1.png",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-009.png",
     "cost": 3,
     "expansionCode": "OP02",
-    "imageId": "OP02-009_p1",
-    "id": "OP02-009_p1_PARAMOUNT_WAR_[OP02]",
+    "imageId": "OP02-009",
+    "id": "OP02-009_PARAMOUNT_WAR_[OP02]",
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/squard-box-topper-op-02-paramount-war",
+        "url": "https://www.cardtrader.com/cards/squard-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -550,40 +577,6 @@
     "effect": "[On Play] Give up to 2 of your opponent's Characters −3000 power during this turn. Then, if your Leader's type includes \"Whitebeard Pirates\", this Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-013.png",
-    "cost": 7,
-    "abilityKeywords": [
-      "[Rush]",
-      "[On Play]"
-    ],
-    "expansionCode": "OP02",
-    "imageId": "OP02-013",
-    "id": "OP02-013_PARAMOUNT_WAR_[OP02]",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/portgas-d-ace-op-02-paramount-war",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Portgas.D.Ace",
-    "code": "OP02-013",
-    "rarity": "SR",
-    "type": "CHARACTER",
-    "attribute": "Special",
-    "power": 7000,
-    "counter": null,
-    "color": [
-      "Red"
-    ],
-    "family": [
-      "Whitebeard Pirates"
-    ],
-    "effect": "[On Play] Give up to 2 of your opponent's Characters −3000 power during this turn. Then, if your Leader's type includes \"Whitebeard Pirates\", this Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
-    "trigger": null,
-    "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-013_p1.png",
     "cost": 7,
     "abilityKeywords": [
@@ -633,6 +626,40 @@
       {
         "service": "Card Trader",
         "url": "https://www.cardtrader.com/cards/portgas-d-ace-manga-panel-alternate-art-secret-rare-op-02-paramount-war",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Portgas.D.Ace",
+    "code": "OP02-013",
+    "rarity": "SR",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 7000,
+    "counter": null,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[On Play] Give up to 2 of your opponent's Characters −3000 power during this turn. Then, if your Leader's type includes \"Whitebeard Pirates\", this Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP-02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-013.png",
+    "cost": 7,
+    "abilityKeywords": [
+      "[Rush]",
+      "[On Play]"
+    ],
+    "expansionCode": "OP02",
+    "imageId": "OP02-013",
+    "id": "OP02-013_PARAMOUNT_WAR_[OP02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/portgas-d-ace-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -753,19 +780,20 @@
     "effect": "[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 2000 power or less.",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-017.png",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-017_p1.png",
     "cost": 2,
     "abilityKeywords": [
       "[When Attacking]",
       "[DON!! x2]"
     ],
     "expansionCode": "OP02",
-    "imageId": "OP02-017",
-    "id": "OP02-017_PARAMOUNT_WAR_[OP02]",
+    "imageId": "OP02-017_p1",
+    "id": "OP02-017_p1_PARAMOUNT_WAR_[OP02]",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/masked-deuce-op-02-paramount-war",
+        "url": "https://www.cardtrader.com/cards/masked-deuce-alternate-art-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -787,54 +815,19 @@
     "effect": "[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 2000 power or less.",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-017_p1.png",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-017.png",
     "cost": 2,
     "abilityKeywords": [
       "[When Attacking]",
       "[DON!! x2]"
     ],
     "expansionCode": "OP02",
-    "imageId": "OP02-017_p1",
-    "id": "OP02-017_p1_PARAMOUNT_WAR_[OP02]",
-    "illustration": "Alternate Art",
+    "imageId": "OP02-017",
+    "id": "OP02-017_PARAMOUNT_WAR_[OP02]",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/masked-deuce-alternate-art-op-02-paramount-war",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Marco",
-    "code": "OP02-018",
-    "rarity": "R",
-    "type": "CHARACTER",
-    "attribute": "Special",
-    "power": 5000,
-    "counter": 1000,
-    "color": [
-      "Red"
-    ],
-    "family": [
-      "Whitebeard Pirates"
-    ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] You may trash 1 card with a type including \"Whitebeard Pirates\" from your hand: If you have 2 or less Life cards, play this Character card from your trash rested.",
-    "trigger": null,
-    "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-018.png",
-    "cost": 4,
-    "abilityKeywords": [
-      "[Blocker]",
-      "[On K.O.]"
-    ],
-    "expansionCode": "OP02",
-    "imageId": "OP02-018",
-    "id": "OP02-018_PARAMOUNT_WAR_[OP02]",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/marco-op-02-paramount-war",
+        "url": "https://www.cardtrader.com/cards/masked-deuce-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -870,6 +863,40 @@
       {
         "service": "Card Trader",
         "url": "https://www.cardtrader.com/cards/marco-alternate-art-op-02-paramount-war",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Marco",
+    "code": "OP02-018",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] You may trash 1 card with a type including \"Whitebeard Pirates\" from your hand: If you have 2 or less Life cards, play this Character card from your trash rested.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP-02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-018.png",
+    "cost": 4,
+    "abilityKeywords": [
+      "[Blocker]",
+      "[On K.O.]"
+    ],
+    "expansionCode": "OP02",
+    "imageId": "OP02-018",
+    "id": "OP02-018_PARAMOUNT_WAR_[OP02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/marco-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -1091,19 +1118,20 @@
     "effect": "[Activate: Main] [Once Per Turn] If you have 1 or less Characters, the next time you play a {Land of Wano} type Character card with a cost of 3 or more from your hand during this turn, the cost will be reduced by 1.",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-025.png",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-025_p1.png",
     "life": 5,
     "abilityKeywords": [
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
     "expansionCode": "OP02",
-    "imageId": "OP02-025",
-    "id": "OP02-025_PARAMOUNT_WAR_[OP02]",
+    "imageId": "OP02-025_p1",
+    "id": "OP02-025_p1_PARAMOUNT_WAR_[OP02]",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/kin-emon-op-02-paramount-war",
+        "url": "https://www.cardtrader.com/cards/kin-emon-alternate-art-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -1126,54 +1154,19 @@
     "effect": "[Activate: Main] [Once Per Turn] If you have 1 or less Characters, the next time you play a {Land of Wano} type Character card with a cost of 3 or more from your hand during this turn, the cost will be reduced by 1.",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-025_p1.png",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-025.png",
     "life": 5,
     "abilityKeywords": [
       "[Activate: Main]",
       "[Once Per Turn]"
     ],
     "expansionCode": "OP02",
-    "imageId": "OP02-025_p1",
-    "id": "OP02-025_p1_PARAMOUNT_WAR_[OP02]",
-    "illustration": "Alternate Art",
+    "imageId": "OP02-025",
+    "id": "OP02-025_PARAMOUNT_WAR_[OP02]",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/kin-emon-alternate-art-op-02-paramount-war",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Sanji",
-    "code": "OP02-026",
-    "rarity": "L",
-    "type": "LEADER",
-    "attribute": "Strike",
-    "power": 5000,
-    "counter": null,
-    "color": [
-      "Green",
-      "Blue"
-    ],
-    "family": [
-      "Straw Hat Crew"
-    ],
-    "effect": "[Once Per Turn] When you play a Character with no base effect from your hand, if you have 3 or less Characters, set up to 2 of your DON!! cards as active.",
-    "trigger": null,
-    "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-026.png",
-    "life": 4,
-    "abilityKeywords": [
-      "[Once Per Turn]"
-    ],
-    "expansionCode": "OP02",
-    "imageId": "OP02-026",
-    "id": "OP02-026_PARAMOUNT_WAR_[OP02]",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/sanji-op-02-paramount-war",
+        "url": "https://www.cardtrader.com/cards/kin-emon-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -1209,6 +1202,40 @@
       {
         "service": "Card Trader",
         "url": "https://www.cardtrader.com/cards/sanji-alternate-art-op-02-paramount-war",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Sanji",
+    "code": "OP02-026",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Green",
+      "Blue"
+    ],
+    "family": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Once Per Turn] When you play a Character with no base effect from your hand, if you have 3 or less Characters, set up to 2 of your DON!! cards as active.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP-02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-026.png",
+    "life": 4,
+    "abilityKeywords": [
+      "[Once Per Turn]"
+    ],
+    "expansionCode": "OP02",
+    "imageId": "OP02-026",
+    "id": "OP02-026_PARAMOUNT_WAR_[OP02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/sanji-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -1327,7 +1354,7 @@
     "effect": "[Activate: Main] [Once Per Turn] ③ (You may rest the specified number of DON!! cards in your cost area.): Set this Character as active.[On K.O.] Play up to 1 green {Land of Wano} type Character card with a cost of 3 from your deck. Then, shuffle your deck.",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-030.png",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-030_p1.png",
     "cost": 8,
     "abilityKeywords": [
       "[On K.O.]",
@@ -1335,12 +1362,13 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP02",
-    "imageId": "OP02-030",
-    "id": "OP02-030_PARAMOUNT_WAR_[OP02]",
+    "imageId": "OP02-030_p1",
+    "id": "OP02-030_p1_PARAMOUNT_WAR_[OP02]",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/kouzuki-oden-op-02-paramount-war",
+        "url": "https://www.cardtrader.com/cards/kouzuki-oden-alternate-art-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -1363,7 +1391,7 @@
     "effect": "[Activate: Main] [Once Per Turn] ③ (You may rest the specified number of DON!! cards in your cost area.): Set this Character as active.[On K.O.] Play up to 1 green {Land of Wano} type Character card with a cost of 3 from your deck. Then, shuffle your deck.",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-030_p1.png",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-030.png",
     "cost": 8,
     "abilityKeywords": [
       "[On K.O.]",
@@ -1371,47 +1399,12 @@
       "[Once Per Turn]"
     ],
     "expansionCode": "OP02",
-    "imageId": "OP02-030_p1",
-    "id": "OP02-030_p1_PARAMOUNT_WAR_[OP02]",
-    "illustration": "Alternate Art",
+    "imageId": "OP02-030",
+    "id": "OP02-030_PARAMOUNT_WAR_[OP02]",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/kouzuki-oden-alternate-art-op-02-paramount-war",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Kouzuki Toki",
-    "code": "OP02-031",
-    "rarity": "UC",
-    "type": "CHARACTER",
-    "attribute": "Wisdom",
-    "power": null,
-    "counter": 1000,
-    "color": [
-      "Green"
-    ],
-    "family": [
-      "Land of Wano",
-      "Kouzuki Clan"
-    ],
-    "effect": "If you have a [Kouzuki Oden] Character, this Character gains [Blocker].(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
-    "trigger": null,
-    "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-031.png",
-    "cost": 1,
-    "abilityKeywords": [
-      "[Blocker]"
-    ],
-    "expansionCode": "OP02",
-    "imageId": "OP02-031",
-    "id": "OP02-031_PARAMOUNT_WAR_[OP02]",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/kouzuki-toki-op-02-paramount-war",
+        "url": "https://www.cardtrader.com/cards/kouzuki-oden-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -1447,6 +1440,40 @@
       {
         "service": "Card Trader",
         "url": "https://www.cardtrader.com/cards/kouzuki-toki-box-topper-op-02-paramount-war",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Kouzuki Toki",
+    "code": "OP02-031",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": null,
+    "counter": 1000,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "Land of Wano",
+      "Kouzuki Clan"
+    ],
+    "effect": "If you have a [Kouzuki Oden] Character, this Character gains [Blocker].(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP-02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-031.png",
+    "cost": 1,
+    "abilityKeywords": [
+      "[Blocker]"
+    ],
+    "expansionCode": "OP02",
+    "imageId": "OP02-031",
+    "id": "OP02-031_PARAMOUNT_WAR_[OP02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kouzuki-toki-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -1605,19 +1632,20 @@
     "effect": "[On Play]/[When Attacking] ➀ (You may rest the specified number of DON!! cards in your cost area.): Look at 3 cards from the top of your deck; reveal up to 1 {FILM} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-036.png",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-036_p1.png",
     "cost": 3,
     "abilityKeywords": [
       "[When Attacking]",
       "[On Play]"
     ],
     "expansionCode": "OP02",
-    "imageId": "OP02-036",
-    "id": "OP02-036_PARAMOUNT_WAR_[OP02]",
+    "imageId": "OP02-036_p1",
+    "id": "OP02-036_p1_PARAMOUNT_WAR_[OP02]",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/nami-op-02-paramount-war",
+        "url": "https://www.cardtrader.com/cards/nami-alternate-art-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -1640,20 +1668,19 @@
     "effect": "[On Play]/[When Attacking] ➀ (You may rest the specified number of DON!! cards in your cost area.): Look at 3 cards from the top of your deck; reveal up to 1 {FILM} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-036_p1.png",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-036.png",
     "cost": 3,
     "abilityKeywords": [
       "[When Attacking]",
       "[On Play]"
     ],
     "expansionCode": "OP02",
-    "imageId": "OP02-036_p1",
-    "id": "OP02-036_p1_PARAMOUNT_WAR_[OP02]",
-    "illustration": "Alternate Art",
+    "imageId": "OP02-036",
+    "id": "OP02-036_PARAMOUNT_WAR_[OP02]",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/nami-alternate-art-op-02-paramount-war",
+        "url": "https://www.cardtrader.com/cards/nami-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -1811,19 +1838,20 @@
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Play up to 1 {FILM} or {Straw Hat Crew} type Character card with a cost of 4 or less from your hand.",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-041.png",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-041_p1.png",
     "cost": 7,
     "abilityKeywords": [
       "[Blocker]",
       "[On Play]"
     ],
     "expansionCode": "OP02",
-    "imageId": "OP02-041",
-    "id": "OP02-041_PARAMOUNT_WAR_[OP02]",
+    "imageId": "OP02-041_p1",
+    "id": "OP02-041_p1_PARAMOUNT_WAR_[OP02]",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-foil-rare-op-02-paramount-war",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-alternate-art-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -1847,20 +1875,19 @@
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Play up to 1 {FILM} or {Straw Hat Crew} type Character card with a cost of 4 or less from your hand.",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-041_p1.png",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-041.png",
     "cost": 7,
     "abilityKeywords": [
       "[Blocker]",
       "[On Play]"
     ],
     "expansionCode": "OP02",
-    "imageId": "OP02-041_p1",
-    "id": "OP02-041_p1_PARAMOUNT_WAR_[OP02]",
-    "illustration": "Alternate Art",
+    "imageId": "OP02-041",
+    "id": "OP02-041_PARAMOUNT_WAR_[OP02]",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-alternate-art-op-02-paramount-war",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-foil-rare-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -2117,18 +2144,19 @@
     "effect": "[End of Your Turn] If you have 0 cards in your hand, draw 2 cards.",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-049.png",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-049_p1.png",
     "life": 5,
     "abilityKeywords": [
       "[End of Your Turn]"
     ],
     "expansionCode": "OP02",
-    "imageId": "OP02-049",
-    "id": "OP02-049_PARAMOUNT_WAR_[OP02]",
+    "imageId": "OP02-049_p1",
+    "id": "OP02-049_p1_PARAMOUNT_WAR_[OP02]",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/emporio-ivankov-op-02-paramount-war",
+        "url": "https://www.cardtrader.com/cards/emporio-ivankov-alternate-art-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -2151,19 +2179,18 @@
     "effect": "[End of Your Turn] If you have 0 cards in your hand, draw 2 cards.",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-049_p1.png",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-049.png",
     "life": 5,
     "abilityKeywords": [
       "[End of Your Turn]"
     ],
     "expansionCode": "OP02",
-    "imageId": "OP02-049_p1",
-    "id": "OP02-049_p1_PARAMOUNT_WAR_[OP02]",
-    "illustration": "Alternate Art",
+    "imageId": "OP02-049",
+    "id": "OP02-049_PARAMOUNT_WAR_[OP02]",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/emporio-ivankov-alternate-art-op-02-paramount-war",
+        "url": "https://www.cardtrader.com/cards/emporio-ivankov-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -2220,18 +2247,19 @@
     "effect": "[On Play] Draw card(s) so that you have 3 cards in your hand and then play up to 1 blue {Impel Down} type Character card with a cost of 6 or less from your hand.",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-051.png",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-051_p1.png",
     "cost": 7,
     "expansionCode": "OP02",
-    "imageId": "OP02-051",
-    "id": "OP02-051_PARAMOUNT_WAR_[OP02]",
+    "imageId": "OP02-051_p1",
+    "id": "OP02-051_p1_PARAMOUNT_WAR_[OP02]",
     "abilityKeywords": [
       "[On Play]"
     ],
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/emporio-ivankov-op-02-paramount-war-245102",
+        "url": "https://www.cardtrader.com/cards/emporio-ivankov-alternate-art-op-02-paramount-war-245103",
         "verified": true
       }
     ]
@@ -2254,19 +2282,18 @@
     "effect": "[On Play] Draw card(s) so that you have 3 cards in your hand and then play up to 1 blue {Impel Down} type Character card with a cost of 6 or less from your hand.",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-051_p1.png",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-051.png",
     "cost": 7,
     "expansionCode": "OP02",
-    "imageId": "OP02-051_p1",
-    "id": "OP02-051_p1_PARAMOUNT_WAR_[OP02]",
+    "imageId": "OP02-051",
+    "id": "OP02-051_PARAMOUNT_WAR_[OP02]",
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/emporio-ivankov-alternate-art-op-02-paramount-war-245103",
+        "url": "https://www.cardtrader.com/cards/emporio-ivankov-op-02-paramount-war-245102",
         "verified": true
       }
     ]
@@ -2484,18 +2511,19 @@
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 blue {Impel Down} type card other than [Buggy] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-058.png",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-058_p1.png",
     "cost": 1,
     "expansionCode": "OP02",
-    "imageId": "OP02-058",
-    "id": "OP02-058_PARAMOUNT_WAR_[OP02]",
+    "imageId": "OP02-058_p1",
+    "id": "OP02-058_p1_PARAMOUNT_WAR_[OP02]",
     "abilityKeywords": [
       "[On Play]"
     ],
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/buggy-op-02-paramount-war",
+        "url": "https://www.cardtrader.com/cards/buggy-alternate-art-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -2518,54 +2546,18 @@
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 blue {Impel Down} type card other than [Buggy] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-058_p1.png",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-058.png",
     "cost": 1,
     "expansionCode": "OP02",
-    "imageId": "OP02-058_p1",
-    "id": "OP02-058_p1_PARAMOUNT_WAR_[OP02]",
+    "imageId": "OP02-058",
+    "id": "OP02-058_PARAMOUNT_WAR_[OP02]",
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/buggy-alternate-art-op-02-paramount-war",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Boa Hancock",
-    "code": "OP02-059",
-    "rarity": "UC",
-    "type": "CHARACTER",
-    "attribute": "Special",
-    "power": 5000,
-    "counter": 1000,
-    "color": [
-      "Blue"
-    ],
-    "family": [
-      "Impel Down",
-      "The Seven Warlords of the Sea",
-      "Kuja Pirates"
-    ],
-    "effect": "[When Attacking] Draw 1 card and trash 1 card from your hand. Then, trash up to 3 cards from your hand.",
-    "trigger": null,
-    "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-059.png",
-    "cost": 4,
-    "abilityKeywords": [
-      "[When Attacking]"
-    ],
-    "expansionCode": "OP02",
-    "imageId": "OP02-059",
-    "id": "OP02-059_PARAMOUNT_WAR_[OP02]",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/boa-hancock-op-02-paramount-war",
+        "url": "https://www.cardtrader.com/cards/buggy-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -2602,6 +2594,41 @@
       {
         "service": "Card Trader",
         "url": "https://www.cardtrader.com/cards/boa-hancock-box-topper-op-02-paramount-war",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Boa Hancock",
+    "code": "OP02-059",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "Impel Down",
+      "The Seven Warlords of the Sea",
+      "Kuja Pirates"
+    ],
+    "effect": "[When Attacking] Draw 1 card and trash 1 card from your hand. Then, trash up to 3 cards from your hand.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP-02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-059.png",
+    "cost": 4,
+    "abilityKeywords": [
+      "[When Attacking]"
+    ],
+    "expansionCode": "OP02",
+    "imageId": "OP02-059",
+    "id": "OP02-059_PARAMOUNT_WAR_[OP02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/boa-hancock-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -2689,7 +2716,7 @@
     "effect": "[On Play]/[When Attacking] You may trash 2 cards from your hand: Return up to 1 Character with a cost of 4 or less to the owner's hand. Then, this Character gains [Double Attack] during this turn.(This card deals 2 damage.)",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-062.png",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-062_p1.png",
     "cost": 6,
     "abilityKeywords": [
       "[Double Attack]",
@@ -2697,12 +2724,13 @@
       "[On Play]"
     ],
     "expansionCode": "OP02",
-    "imageId": "OP02-062",
-    "id": "OP02-062_PARAMOUNT_WAR_[OP02]",
+    "imageId": "OP02-062_p1",
+    "id": "OP02-062_p1_PARAMOUNT_WAR_[OP02]",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-op-02-paramount-war",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-alternate-art-op-02-paramount-war-245117",
         "verified": true
       }
     ]
@@ -2725,7 +2753,7 @@
     "effect": "[On Play]/[When Attacking] You may trash 2 cards from your hand: Return up to 1 Character with a cost of 4 or less to the owner's hand. Then, this Character gains [Double Attack] during this turn.(This card deals 2 damage.)",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-062_p1.png",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-062.png",
     "cost": 6,
     "abilityKeywords": [
       "[Double Attack]",
@@ -2733,13 +2761,12 @@
       "[On Play]"
     ],
     "expansionCode": "OP02",
-    "imageId": "OP02-062_p1",
-    "id": "OP02-062_p1_PARAMOUNT_WAR_[OP02]",
-    "illustration": "Alternate Art",
+    "imageId": "OP02-062",
+    "id": "OP02-062_PARAMOUNT_WAR_[OP02]",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-alternate-art-op-02-paramount-war-245117",
+        "url": "https://www.cardtrader.com/cards/monkey-d-luffy-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -3033,19 +3060,20 @@
     "effect": "[Your Turn] [Once Per Turn] When a DON!! card on the field is returned to your DON!! deck, this Leader gains +1000 power during this turn.",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-071.png",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-071_p1.png",
     "life": 5,
     "abilityKeywords": [
       "[Your Turn]",
       "[Once Per Turn]"
     ],
     "expansionCode": "OP02",
-    "imageId": "OP02-071",
-    "id": "OP02-071_PARAMOUNT_WAR_[OP02]",
+    "imageId": "OP02-071_p1",
+    "id": "OP02-071_p1_PARAMOUNT_WAR_[OP02]",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/magellan-op-02-paramount-war",
+        "url": "https://www.cardtrader.com/cards/magellan-alternate-art-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -3067,55 +3095,19 @@
     "effect": "[Your Turn] [Once Per Turn] When a DON!! card on the field is returned to your DON!! deck, this Leader gains +1000 power during this turn.",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-071_p1.png",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-071.png",
     "life": 5,
     "abilityKeywords": [
       "[Your Turn]",
       "[Once Per Turn]"
     ],
     "expansionCode": "OP02",
-    "imageId": "OP02-071_p1",
-    "id": "OP02-071_p1_PARAMOUNT_WAR_[OP02]",
-    "illustration": "Alternate Art",
+    "imageId": "OP02-071",
+    "id": "OP02-071_PARAMOUNT_WAR_[OP02]",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/magellan-alternate-art-op-02-paramount-war",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Zephyr",
-    "code": "OP02-072",
-    "rarity": "L",
-    "type": "LEADER",
-    "attribute": "Strike",
-    "power": 5000,
-    "counter": null,
-    "color": [
-      "Purple",
-      "Black"
-    ],
-    "family": [
-      "FILM",
-      "Neo Navy"
-    ],
-    "effect": "[When Attacking] DON!! −4 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 3 or less. Then, this Leader gains +1000 power during this turn.",
-    "trigger": null,
-    "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-072.png",
-    "life": 4,
-    "abilityKeywords": [
-      "[When Attacking]"
-    ],
-    "expansionCode": "OP02",
-    "imageId": "OP02-072",
-    "id": "OP02-072_PARAMOUNT_WAR_[OP02]",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/zephyr-op-02-paramount-war",
+        "url": "https://www.cardtrader.com/cards/magellan-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -3157,34 +3149,36 @@
     ]
   },
   {
-    "name": "Little Sadi",
-    "code": "OP02-073",
-    "rarity": "R",
-    "type": "CHARACTER",
-    "attribute": "Wisdom",
-    "power": 3000,
-    "counter": 2000,
+    "name": "Zephyr",
+    "code": "OP02-072",
+    "rarity": "L",
+    "type": "LEADER",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": null,
     "color": [
-      "Purple"
+      "Purple",
+      "Black"
     ],
     "family": [
-      "Impel Down"
+      "FILM",
+      "Neo Navy"
     ],
-    "effect": "[On Play] Play up to 1 {Jailer Beast} type Character card from your hand.",
+    "effect": "[When Attacking] DON!! −4 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 3 or less. Then, this Leader gains +1000 power during this turn.",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-073.png",
-    "cost": 3,
-    "expansionCode": "OP02",
-    "imageId": "OP02-073",
-    "id": "OP02-073_PARAMOUNT_WAR_[OP02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-072.png",
+    "life": 4,
     "abilityKeywords": [
-      "[On Play]"
+      "[When Attacking]"
     ],
+    "expansionCode": "OP02",
+    "imageId": "OP02-072",
+    "id": "OP02-072_PARAMOUNT_WAR_[OP02]",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/little-sadi-op-02-paramount-war",
+        "url": "https://www.cardtrader.com/cards/zephyr-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -3219,6 +3213,39 @@
       {
         "service": "Card Trader",
         "url": "https://www.cardtrader.com/cards/little-sadi-alternate-art-op-02-paramount-war",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Little Sadi",
+    "code": "OP02-073",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": 3000,
+    "counter": 2000,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Impel Down"
+    ],
+    "effect": "[On Play] Play up to 1 {Jailer Beast} type Character card from your hand.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP-02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-073.png",
+    "cost": 3,
+    "expansionCode": "OP02",
+    "imageId": "OP02-073",
+    "id": "OP02-073_PARAMOUNT_WAR_[OP02]",
+    "abilityKeywords": [
+      "[On Play]"
+    ],
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/little-sadi-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -3597,19 +3624,20 @@
     "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your opponent returns 1 DON!! card from their field to their DON!! deck.[Opponent's Turn] When this Character is K.O.'d, your opponent returns 2 DON!! cards from their field to their DON!! deck.",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-085.png",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-085_p1.png",
     "cost": 5,
     "abilityKeywords": [
       "[Opponent's Turn]",
       "[On Play]"
     ],
     "expansionCode": "OP02",
-    "imageId": "OP02-085",
-    "id": "OP02-085_PARAMOUNT_WAR_[OP02]",
+    "imageId": "OP02-085_p1",
+    "id": "OP02-085_p1_PARAMOUNT_WAR_[OP02]",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/magellan-op-02-paramount-war-245143",
+        "url": "https://www.cardtrader.com/cards/magellan-alternate-art-op-02-paramount-war-245144",
         "verified": true
       }
     ]
@@ -3631,55 +3659,19 @@
     "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your opponent returns 1 DON!! card from their field to their DON!! deck.[Opponent's Turn] When this Character is K.O.'d, your opponent returns 2 DON!! cards from their field to their DON!! deck.",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-085_p1.png",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-085.png",
     "cost": 5,
     "abilityKeywords": [
       "[Opponent's Turn]",
       "[On Play]"
     ],
     "expansionCode": "OP02",
-    "imageId": "OP02-085_p1",
-    "id": "OP02-085_p1_PARAMOUNT_WAR_[OP02]",
-    "illustration": "Alternate Art",
+    "imageId": "OP02-085",
+    "id": "OP02-085_PARAMOUNT_WAR_[OP02]",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/magellan-alternate-art-op-02-paramount-war-245144",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Minokoala",
-    "code": "OP02-086",
-    "rarity": "UC",
-    "type": "CHARACTER",
-    "attribute": "Strike",
-    "power": 5000,
-    "counter": 1000,
-    "color": [
-      "Purple"
-    ],
-    "family": [
-      "Impel Down",
-      "Jailer Beast"
-    ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] If your Leader has the {Impel Down} type, add up to 1 DON!! card from your DON!! deck and rest it.",
-    "trigger": null,
-    "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-086.png",
-    "cost": 4,
-    "abilityKeywords": [
-      "[Blocker]",
-      "[On K.O.]"
-    ],
-    "expansionCode": "OP02",
-    "imageId": "OP02-086",
-    "id": "OP02-086_PARAMOUNT_WAR_[OP02]",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/minokoala-op-02-paramount-war",
+        "url": "https://www.cardtrader.com/cards/magellan-op-02-paramount-war-245143",
         "verified": true
       }
     ]
@@ -3716,6 +3708,41 @@
       {
         "service": "Card Trader",
         "url": "https://www.cardtrader.com/cards/minokoala-box-topper-op-02-paramount-war",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Minokoala",
+    "code": "OP02-086",
+    "rarity": "UC",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 1000,
+    "color": [
+      "Purple"
+    ],
+    "family": [
+      "Impel Down",
+      "Jailer Beast"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] If your Leader has the {Impel Down} type, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP-02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-086.png",
+    "cost": 4,
+    "abilityKeywords": [
+      "[Blocker]",
+      "[On K.O.]"
+    ],
+    "expansionCode": "OP02",
+    "imageId": "OP02-086",
+    "id": "OP02-086_PARAMOUNT_WAR_[OP02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/minokoala-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -3935,7 +3962,7 @@
     "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] Give up to 1 of your opponent's Characters −1 cost during this turn. Then, if there is a Character with a cost of 0, this Leader gains +1000 power during this turn.",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-093.png",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-093_p1.png",
     "life": 5,
     "abilityKeywords": [
       "[Activate: Main]",
@@ -3943,12 +3970,13 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP02",
-    "imageId": "OP02-093",
-    "id": "OP02-093_PARAMOUNT_WAR_[OP02]",
+    "imageId": "OP02-093_p1",
+    "id": "OP02-093_p1_PARAMOUNT_WAR_[OP02]",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/smoker-op-02-paramount-war",
+        "url": "https://www.cardtrader.com/cards/smoker-alternate-art-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -3970,7 +3998,7 @@
     "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] Give up to 1 of your opponent's Characters −1 cost during this turn. Then, if there is a Character with a cost of 0, this Leader gains +1000 power during this turn.",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-093_p1.png",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-093.png",
     "life": 5,
     "abilityKeywords": [
       "[Activate: Main]",
@@ -3978,13 +4006,12 @@
       "[DON!! x1]"
     ],
     "expansionCode": "OP02",
-    "imageId": "OP02-093_p1",
-    "id": "OP02-093_p1_PARAMOUNT_WAR_[OP02]",
-    "illustration": "Alternate Art",
+    "imageId": "OP02-093",
+    "id": "OP02-093_PARAMOUNT_WAR_[OP02]",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/smoker-alternate-art-op-02-paramount-war",
+        "url": "https://www.cardtrader.com/cards/smoker-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -4073,19 +4100,20 @@
     "effect": "[On Play] Draw 1 card.[When Attacking] Give up to 1 of your opponent's Characters −4 cost during this turn.",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-096.png",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-096_p1.png",
     "cost": 4,
     "abilityKeywords": [
       "[When Attacking]",
       "[On Play]"
     ],
     "expansionCode": "OP02",
-    "imageId": "OP02-096",
-    "id": "OP02-096_PARAMOUNT_WAR_[OP02]",
+    "imageId": "OP02-096_p1",
+    "id": "OP02-096_p1_PARAMOUNT_WAR_[OP02]",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/kuzan-op-02-paramount-war",
+        "url": "https://www.cardtrader.com/cards/kuzan-alternate-art-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -4107,20 +4135,19 @@
     "effect": "[On Play] Draw 1 card.[When Attacking] Give up to 1 of your opponent's Characters −4 cost during this turn.",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-096_p1.png",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-096.png",
     "cost": 4,
     "abilityKeywords": [
       "[When Attacking]",
       "[On Play]"
     ],
     "expansionCode": "OP02",
-    "imageId": "OP02-096_p1",
-    "id": "OP02-096_p1_PARAMOUNT_WAR_[OP02]",
-    "illustration": "Alternate Art",
+    "imageId": "OP02-096",
+    "id": "OP02-096_PARAMOUNT_WAR_[OP02]",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/kuzan-alternate-art-op-02-paramount-war",
+        "url": "https://www.cardtrader.com/cards/kuzan-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -4205,18 +4232,19 @@
     "effect": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-099.png",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-099_p1.png",
     "cost": 6,
     "expansionCode": "OP02",
-    "imageId": "OP02-099",
-    "id": "OP02-099_PARAMOUNT_WAR_[OP02]",
+    "imageId": "OP02-099_p1",
+    "id": "OP02-099_p1_PARAMOUNT_WAR_[OP02]",
     "abilityKeywords": [
       "[On Play]"
     ],
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/sakazuki-op-02-paramount-war",
+        "url": "https://www.cardtrader.com/cards/sakazuki-alternate-art-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -4238,19 +4266,18 @@
     "effect": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-099_p1.png",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-099.png",
     "cost": 6,
     "expansionCode": "OP02",
-    "imageId": "OP02-099_p1",
-    "id": "OP02-099_p1_PARAMOUNT_WAR_[OP02]",
+    "imageId": "OP02-099",
+    "id": "OP02-099_PARAMOUNT_WAR_[OP02]",
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/sakazuki-alternate-art-op-02-paramount-war",
+        "url": "https://www.cardtrader.com/cards/sakazuki-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -4433,19 +4460,20 @@
     "effect": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −3 cost during this turn.",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-105.png",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-105_p1.png",
     "cost": 3,
     "abilityKeywords": [
       "[When Attacking]",
       "[DON!! x1]"
     ],
     "expansionCode": "OP02",
-    "imageId": "OP02-105",
-    "id": "OP02-105_PARAMOUNT_WAR_[OP02]",
+    "imageId": "OP02-105_p1",
+    "id": "OP02-105_p1_PARAMOUNT_WAR_[OP02]",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/tashigi-op-02-paramount-war",
+        "url": "https://www.cardtrader.com/cards/tashigi-box-topper-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -4467,20 +4495,19 @@
     "effect": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −3 cost during this turn.",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-105_p1.png",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-105.png",
     "cost": 3,
     "abilityKeywords": [
       "[When Attacking]",
       "[DON!! x1]"
     ],
     "expansionCode": "OP02",
-    "imageId": "OP02-105_p1",
-    "id": "OP02-105_p1_PARAMOUNT_WAR_[OP02]",
-    "illustration": "Alternate Art",
+    "imageId": "OP02-105",
+    "id": "OP02-105_PARAMOUNT_WAR_[OP02]",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/tashigi-box-topper-op-02-paramount-war",
+        "url": "https://www.cardtrader.com/cards/tashigi-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -4566,18 +4593,19 @@
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-108.png",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-108_p1.png",
     "cost": 2,
     "abilityKeywords": [
       "[Blocker]"
     ],
     "expansionCode": "OP02",
-    "imageId": "OP02-108",
-    "id": "OP02-108_PARAMOUNT_WAR_[OP02]",
+    "imageId": "OP02-108_p1",
+    "id": "OP02-108_p1_PARAMOUNT_WAR_[OP02]",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/donquixote-rosinante-op-02-paramount-war",
+        "url": "https://www.cardtrader.com/cards/donquixote-rosinante-box-topper-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -4600,19 +4628,18 @@
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-108_p1.png",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-108.png",
     "cost": 2,
     "abilityKeywords": [
       "[Blocker]"
     ],
     "expansionCode": "OP02",
-    "imageId": "OP02-108_p1",
-    "id": "OP02-108_p1_PARAMOUNT_WAR_[OP02]",
-    "illustration": "Alternate Art",
+    "imageId": "OP02-108",
+    "id": "OP02-108_PARAMOUNT_WAR_[OP02]",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/donquixote-rosinante-box-topper-op-02-paramount-war",
+        "url": "https://www.cardtrader.com/cards/donquixote-rosinante-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -4798,19 +4825,20 @@
     "effect": "[Opponent's Turn] This Character gains +1000 power and cannot be K.O.'d by effects.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-114.png",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-114_p1.png",
     "cost": 4,
     "abilityKeywords": [
       "[Blocker]",
       "[Opponent's Turn]"
     ],
     "expansionCode": "OP02",
-    "imageId": "OP02-114",
-    "id": "OP02-114_PARAMOUNT_WAR_[OP02]",
+    "imageId": "OP02-114_p1",
+    "id": "OP02-114_p1_PARAMOUNT_WAR_[OP02]",
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/borsalino-op-02-paramount-war",
+        "url": "https://www.cardtrader.com/cards/borsalino-alternate-art-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -4832,54 +4860,19 @@
     "effect": "[Opponent's Turn] This Character gains +1000 power and cannot be K.O.'d by effects.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-114_p1.png",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-114.png",
     "cost": 4,
     "abilityKeywords": [
       "[Blocker]",
       "[Opponent's Turn]"
     ],
     "expansionCode": "OP02",
-    "imageId": "OP02-114_p1",
-    "id": "OP02-114_p1_PARAMOUNT_WAR_[OP02]",
-    "illustration": "Alternate Art",
+    "imageId": "OP02-114",
+    "id": "OP02-114_PARAMOUNT_WAR_[OP02]",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/borsalino-alternate-art-op-02-paramount-war",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Monkey.D.Garp",
-    "code": "OP02-115",
-    "rarity": "R",
-    "type": "CHARACTER",
-    "attribute": "Strike",
-    "power": 3000,
-    "counter": 2000,
-    "color": [
-      "Black"
-    ],
-    "family": [
-      "Navy"
-    ],
-    "effect": "[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with a cost of 0.",
-    "trigger": null,
-    "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-115.png",
-    "cost": 2,
-    "abilityKeywords": [
-      "[When Attacking]",
-      "[DON!! x2]"
-    ],
-    "expansionCode": "OP02",
-    "imageId": "OP02-115",
-    "id": "OP02-115_PARAMOUNT_WAR_[OP02]",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/monkey-d-garp-op-02-paramount-war-245209",
+        "url": "https://www.cardtrader.com/cards/borsalino-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -4915,6 +4908,40 @@
       {
         "service": "Card Trader",
         "url": "https://www.cardtrader.com/cards/monkey-d-garp-alternate-art-op-02-paramount-war-245210",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Monkey.D.Garp",
+    "code": "OP02-115",
+    "rarity": "R",
+    "type": "CHARACTER",
+    "attribute": "Strike",
+    "power": 3000,
+    "counter": 2000,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": "[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with a cost of 0.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP-02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-115.png",
+    "cost": 2,
+    "abilityKeywords": [
+      "[When Attacking]",
+      "[DON!! x2]"
+    ],
+    "expansionCode": "OP02",
+    "imageId": "OP02-115",
+    "id": "OP02-115_PARAMOUNT_WAR_[OP02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/monkey-d-garp-op-02-paramount-war-245209",
         "verified": true
       }
     ]
@@ -5065,18 +5092,19 @@
     "effect": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your Leader and all of your Characters gain +1000 power until the start of your next turn.",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-120.png",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-120_p1.png",
     "cost": 8,
     "expansionCode": "OP02",
-    "imageId": "OP02-120",
-    "id": "OP02-120_PARAMOUNT_WAR_[OP02]",
+    "imageId": "OP02-120_p1",
+    "id": "OP02-120_p1_PARAMOUNT_WAR_[OP02]",
     "abilityKeywords": [
       "[On Play]"
     ],
+    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/uta-secret-rare-op-02-paramount-war",
+        "url": "https://www.cardtrader.com/cards/uta-alternate-art-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -5098,53 +5126,18 @@
     "effect": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your Leader and all of your Characters gain +1000 power until the start of your next turn.",
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-120_p1.png",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-120.png",
     "cost": 8,
     "expansionCode": "OP02",
-    "imageId": "OP02-120_p1",
-    "id": "OP02-120_p1_PARAMOUNT_WAR_[OP02]",
+    "imageId": "OP02-120",
+    "id": "OP02-120_PARAMOUNT_WAR_[OP02]",
     "abilityKeywords": [
       "[On Play]"
     ],
-    "illustration": "Alternate Art",
     "slugs": [
       {
         "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/uta-alternate-art-op-02-paramount-war",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Kuzan",
-    "code": "OP02-121",
-    "rarity": "SEC",
-    "type": "CHARACTER",
-    "attribute": "Special",
-    "power": 10000,
-    "counter": null,
-    "color": [
-      "Black"
-    ],
-    "family": [
-      "Former Navy"
-    ],
-    "effect": "[Your Turn] Give all of your opponent's Characters −5 cost.[On Play] K.O. up to 1 of your opponent's Characters with a cost of 0.",
-    "trigger": null,
-    "setName": "PARAMOUNT WAR [OP-02]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-121.png",
-    "cost": 10,
-    "abilityKeywords": [
-      "[Your Turn]",
-      "[On Play]"
-    ],
-    "expansionCode": "OP02",
-    "imageId": "OP02-121",
-    "id": "OP02-121_PARAMOUNT_WAR_[OP02]",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/kuzan-secret-rare-op-02-paramount-war",
+        "url": "https://www.cardtrader.com/cards/uta-secret-rare-op-02-paramount-war",
         "verified": true
       }
     ]
@@ -5180,6 +5173,40 @@
       {
         "service": "Card Trader",
         "url": "https://www.cardtrader.com/cards/kuzan-alternate-art-op-02-paramount-war-245222",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Kuzan",
+    "code": "OP02-121",
+    "rarity": "SEC",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 10000,
+    "counter": null,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Former Navy"
+    ],
+    "effect": "[Your Turn] Give all of your opponent's Characters −5 cost.[On Play] K.O. up to 1 of your opponent's Characters with a cost of 0.",
+    "trigger": null,
+    "setName": "PARAMOUNT WAR [OP-02]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-121.png",
+    "cost": 10,
+    "abilityKeywords": [
+      "[Your Turn]",
+      "[On Play]"
+    ],
+    "expansionCode": "OP02",
+    "imageId": "OP02-121",
+    "id": "OP02-121_PARAMOUNT_WAR_[OP02]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kuzan-secret-rare-op-02-paramount-war",
         "verified": true
       }
     ]

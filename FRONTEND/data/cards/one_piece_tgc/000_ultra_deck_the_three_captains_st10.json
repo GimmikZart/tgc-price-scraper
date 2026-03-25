@@ -1,5 +1,32 @@
 [
   {
+    "name": "Foil",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "The Three Captains [ST-10]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/268480/don-foil-st-10-ultra-deck-the-three-captains.webp",
+    "cost": null,
+    "life": null,
+    "expansionCode": "ST10",
+    "imageId": "don-foil-st-10-ultra-deck-the-three-captains",
+    "id": "don-foil-st-10-ultra-deck-the-three-captains_The_Three_Captains_[ST-10]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-foil-st-10-ultra-deck-the-three-captains",
+        "verified": false
+      }
+    ]
+  },
+  {
     "name": "Nami",
     "code": "OP01-016",
     "rarity": "R",

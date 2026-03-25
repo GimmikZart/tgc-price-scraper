@@ -1,5 +1,211 @@
 [
   {
+    "name": "DON!!",
+    "code": null,
+    "rarity": null,
+    "type": "Don!!",
+    "attribute": null,
+    "power": null,
+    "counter": null,
+    "color": null,
+    "family": null,
+    "effect": null,
+    "trigger": null,
+    "setName": "LEGACY OF THE MASTER [OP-12]",
+    "image": "https://www.cardtrader.com/uploads/blueprints/image/344978/don-op-12-legacy-of-the-master.jpg",
+    "cost": null,
+    "life": null,
+    "expansionCode": "OP12",
+    "imageId": "don-op-12-legacy-of-the-master",
+    "id": "don-op-12-legacy-of-the-master_LEGACY_OF_THE_MASTER_[OP-12]",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/en/cards/don-op-12-legacy-of-the-master",
+        "verified": false
+      }
+    ]
+  },
+  {
+    "name": "Tashigi",
+    "code": "OP06-050",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Slash",
+    "power": 2000,
+    "counter": 1000,
+    "color": [
+      "Blue"
+    ],
+    "family": [
+      "Navy"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Navy} type card other than [Tashigi] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": null,
+    "setName": "LEGACY OF THE MASTER [OP-12]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-050_p2.png",
+    "cost": 1,
+    "expansionCode": "OP06",
+    "imageId": "OP06-050_p2",
+    "id": "OP06-050_p2_LEGACY_OF_THE_MASTER_[OP-12]",
+    "abilityKeywords": [
+      "[On Play]"
+    ],
+    "illustration": "Special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/tashigi-special-rare-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Yasopp",
+    "code": "OP09-013",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Ranged",
+    "power": 6000,
+    "counter": 1000,
+    "color": [
+      "Red"
+    ],
+    "family": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "[On Play] Up to 1 of your Leader gains +1000 power until the end of your opponent's next turn.[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −1000 power during this turn.",
+    "trigger": null,
+    "setName": "LEGACY OF THE MASTER [OP-12]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-013_p2.png",
+    "cost": 5,
+    "abilityKeywords": [
+      "[When Attacking]",
+      "[DON!! x1]",
+      "[On Play]"
+    ],
+    "expansionCode": "OP09",
+    "imageId": "OP09-013_p2",
+    "id": "OP09-013_p2_LEGACY_OF_THE_MASTER_[OP-12]",
+    "illustration": "Special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/yasopp-special-rare-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Lim",
+    "code": "OP09-037",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Wisdom",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Green"
+    ],
+    "family": [
+      "ODYSSEY"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {ODYSSEY} type card other than [Lim] and add it to your hand. Then, place the rest at the bottom of your deck in any order.[End of Your Turn] If you have 3 or more rested Characters, set this Character as active.",
+    "trigger": null,
+    "setName": "LEGACY OF THE MASTER [OP-12]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-037_p2.png",
+    "cost": 3,
+    "abilityKeywords": [
+      "[End of Your Turn]",
+      "[On Play]"
+    ],
+    "expansionCode": "OP09",
+    "imageId": "OP09-037_p2",
+    "id": "OP09-037_p2_LEGACY_OF_THE_MASTER_[OP-12]",
+    "illustration": "Special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/lim-special-rare-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Marshall.D.Teach",
+    "code": "OP09-093",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 12000,
+    "counter": null,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "The Four Emperors",
+      "Blackbeard Pirates"
+    ],
+    "effect": "[Blocker][Activate: Main] [Once Per Turn] If your Leader has the {Blackbeard Pirates} type and this Character was played on this turn, negate the effect of up to 1 of your opponent's Leader during this turn. Then, negate the effect of up to 1 of your opponent's Characters and that Character cannot attack until the end of your opponent's next turn.",
+    "trigger": null,
+    "setName": "LEGACY OF THE MASTER [OP-12]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-093_p4.png",
+    "cost": 10,
+    "abilityKeywords": [
+      "[Blocker]",
+      "[Activate: Main]",
+      "[Once Per Turn]"
+    ],
+    "expansionCode": "OP09",
+    "imageId": "OP09-093_p4",
+    "id": "OP09-093_p4_LEGACY_OF_THE_MASTER_[OP-12]",
+    "illustration": "Special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/marshall-d-teach-special-rare-gold-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Marshall.D.Teach",
+    "code": "OP09-093",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 12000,
+    "counter": null,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "The Four Emperors",
+      "Blackbeard Pirates"
+    ],
+    "effect": "[Blocker][Activate: Main] [Once Per Turn] If your Leader has the {Blackbeard Pirates} type and this Character was played on this turn, negate the effect of up to 1 of your opponent's Leader during this turn. Then, negate the effect of up to 1 of your opponent's Characters and that Character cannot attack until the end of your opponent's next turn.",
+    "trigger": null,
+    "setName": "LEGACY OF THE MASTER [OP-12]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-093_p5.png",
+    "cost": 10,
+    "abilityKeywords": [
+      "[Blocker]",
+      "[Activate: Main]",
+      "[Once Per Turn]"
+    ],
+    "expansionCode": "OP09",
+    "imageId": "OP09-093_p5",
+    "id": "OP09-093_p5_LEGACY_OF_THE_MASTER_[OP-12]",
+    "illustration": "Special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/marshall-d-teach-special-rare-silver-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
+  },
+  {
     "name": "Vinsmoke Sanji",
     "code": "OP10-063",
     "rarity": "TR",
@@ -30,6 +236,41 @@
       {
         "service": "Card Trader",
         "url": "https://www.cardtrader.com/cards/vinsmoke-sanji-treasure-rare-op-12-legacy-of-the-master",
+        "verified": true
+      }
+    ]
+  },
+  {
+    "name": "Kuzan",
+    "code": "OP10-082",
+    "rarity": "SP CARD",
+    "type": "CHARACTER",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": null,
+    "color": [
+      "Black"
+    ],
+    "family": [
+      "Former Navy",
+      "Blackbeard Pirates"
+    ],
+    "effect": "This Character cannot be removed from the field by your opponent's effects.[Activate: Main] You may trash this Character: Draw 1 card. Then, play up to 1 {Blackbeard Pirates} type Character card with a cost of 5 or less other than [Kuzan] from your trash.",
+    "trigger": null,
+    "setName": "LEGACY OF THE MASTER [OP-12]",
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-082_p2.png",
+    "cost": 5,
+    "abilityKeywords": [
+      "[Activate: Main]"
+    ],
+    "expansionCode": "OP10",
+    "imageId": "OP10-082_p2",
+    "id": "OP10-082_p2_LEGACY_OF_THE_MASTER_[OP-12]",
+    "illustration": "Special",
+    "slugs": [
+      {
+        "service": "Card Trader",
+        "url": "https://www.cardtrader.com/cards/kuzan-special-rare-op-12-legacy-of-the-master",
         "verified": true
       }
     ]
@@ -4942,220 +5183,6 @@
       {
         "service": "Card Trader",
         "url": "https://www.cardtrader.com/cards/bartholomew-kuma-alternate-art-op-12-legacy-of-the-master",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Tashigi",
-    "code": "OP06-050",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Slash",
-    "power": 2000,
-    "counter": 1000,
-    "color": [
-      "Blue"
-    ],
-    "family": [
-      "Navy"
-    ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Navy} type card other than [Tashigi] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": null,
-    "setName": "LEGACY OF THE MASTER [OP-12]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-050_p2.png",
-    "cost": 1,
-    "expansionCode": "OP06",
-    "imageId": "OP06-050_p2",
-    "id": "OP06-050_p2_LEGACY_OF_THE_MASTER_[OP-12]",
-    "abilityKeywords": [
-      "[On Play]"
-    ],
-    "illustration": "Special",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/tashigi-special-rare-op-12-legacy-of-the-master",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Yasopp",
-    "code": "OP09-013",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Ranged",
-    "power": 6000,
-    "counter": 1000,
-    "color": [
-      "Red"
-    ],
-    "family": [
-      "Red-Haired Pirates"
-    ],
-    "effect": "[On Play] Up to 1 of your Leader gains +1000 power until the end of your opponent's next turn.[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −1000 power during this turn.",
-    "trigger": null,
-    "setName": "LEGACY OF THE MASTER [OP-12]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-013_p2.png",
-    "cost": 5,
-    "abilityKeywords": [
-      "[When Attacking]",
-      "[DON!! x1]",
-      "[On Play]"
-    ],
-    "expansionCode": "OP09",
-    "imageId": "OP09-013_p2",
-    "id": "OP09-013_p2_LEGACY_OF_THE_MASTER_[OP-12]",
-    "illustration": "Special",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/yasopp-special-rare-op-12-legacy-of-the-master",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Lim",
-    "code": "OP09-037",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Wisdom",
-    "power": 5000,
-    "counter": null,
-    "color": [
-      "Green"
-    ],
-    "family": [
-      "ODYSSEY"
-    ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {ODYSSEY} type card other than [Lim] and add it to your hand. Then, place the rest at the bottom of your deck in any order.[End of Your Turn] If you have 3 or more rested Characters, set this Character as active.",
-    "trigger": null,
-    "setName": "LEGACY OF THE MASTER [OP-12]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-037_p2.png",
-    "cost": 3,
-    "abilityKeywords": [
-      "[End of Your Turn]",
-      "[On Play]"
-    ],
-    "expansionCode": "OP09",
-    "imageId": "OP09-037_p2",
-    "id": "OP09-037_p2_LEGACY_OF_THE_MASTER_[OP-12]",
-    "illustration": "Special",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/lim-special-rare-op-12-legacy-of-the-master",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Marshall.D.Teach",
-    "code": "OP09-093",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Special",
-    "power": 12000,
-    "counter": null,
-    "color": [
-      "Black"
-    ],
-    "family": [
-      "The Four Emperors",
-      "Blackbeard Pirates"
-    ],
-    "effect": "[Blocker][Activate: Main] [Once Per Turn] If your Leader has the {Blackbeard Pirates} type and this Character was played on this turn, negate the effect of up to 1 of your opponent's Leader during this turn. Then, negate the effect of up to 1 of your opponent's Characters and that Character cannot attack until the end of your opponent's next turn.",
-    "trigger": null,
-    "setName": "LEGACY OF THE MASTER [OP-12]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-093_p4.png",
-    "cost": 10,
-    "abilityKeywords": [
-      "[Blocker]",
-      "[Activate: Main]",
-      "[Once Per Turn]"
-    ],
-    "expansionCode": "OP09",
-    "imageId": "OP09-093_p4",
-    "id": "OP09-093_p4_LEGACY_OF_THE_MASTER_[OP-12]",
-    "illustration": "Special",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/marshall-d-teach-special-rare-gold-op-12-legacy-of-the-master",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Marshall.D.Teach",
-    "code": "OP09-093",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Special",
-    "power": 12000,
-    "counter": null,
-    "color": [
-      "Black"
-    ],
-    "family": [
-      "The Four Emperors",
-      "Blackbeard Pirates"
-    ],
-    "effect": "[Blocker][Activate: Main] [Once Per Turn] If your Leader has the {Blackbeard Pirates} type and this Character was played on this turn, negate the effect of up to 1 of your opponent's Leader during this turn. Then, negate the effect of up to 1 of your opponent's Characters and that Character cannot attack until the end of your opponent's next turn.",
-    "trigger": null,
-    "setName": "LEGACY OF THE MASTER [OP-12]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-093_p5.png",
-    "cost": 10,
-    "abilityKeywords": [
-      "[Blocker]",
-      "[Activate: Main]",
-      "[Once Per Turn]"
-    ],
-    "expansionCode": "OP09",
-    "imageId": "OP09-093_p5",
-    "id": "OP09-093_p5_LEGACY_OF_THE_MASTER_[OP-12]",
-    "illustration": "Special",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/marshall-d-teach-special-rare-silver-op-12-legacy-of-the-master",
-        "verified": true
-      }
-    ]
-  },
-  {
-    "name": "Kuzan",
-    "code": "OP10-082",
-    "rarity": "SP CARD",
-    "type": "CHARACTER",
-    "attribute": "Special",
-    "power": 5000,
-    "counter": null,
-    "color": [
-      "Black"
-    ],
-    "family": [
-      "Former Navy",
-      "Blackbeard Pirates"
-    ],
-    "effect": "This Character cannot be removed from the field by your opponent's effects.[Activate: Main] You may trash this Character: Draw 1 card. Then, play up to 1 {Blackbeard Pirates} type Character card with a cost of 5 or less other than [Kuzan] from your trash.",
-    "trigger": null,
-    "setName": "LEGACY OF THE MASTER [OP-12]",
-    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-082_p2.png",
-    "cost": 5,
-    "abilityKeywords": [
-      "[Activate: Main]"
-    ],
-    "expansionCode": "OP10",
-    "imageId": "OP10-082_p2",
-    "id": "OP10-082_p2_LEGACY_OF_THE_MASTER_[OP-12]",
-    "illustration": "Special",
-    "slugs": [
-      {
-        "service": "Card Trader",
-        "url": "https://www.cardtrader.com/cards/kuzan-special-rare-op-12-legacy-of-the-master",
         "verified": true
       }
     ]

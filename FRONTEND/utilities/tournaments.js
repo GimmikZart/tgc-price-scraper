@@ -1,4 +1,8 @@
-import { TournamentFormat, TournamentStatus } from "@/api/tournaments/constants";
+import {
+  TournamentFormat,
+  TournamentStatus,
+  TournamentVisibility,
+} from "@/api/tournaments/constants";
 import { formatCoordinatesLabel, normalizeCoordinates } from "@/utilities/geo";
 
 export const TOURNAMENT_FORMAT_OPTIONS = Object.freeze([
@@ -37,6 +41,39 @@ export const TOURNAMENT_FORMAT_OPTIONS = Object.freeze([
   },
 ]);
 
+export const TOURNAMENT_VISIBILITY_OPTIONS = Object.freeze([
+  {
+    value: TournamentVisibility.Public,
+    label: "Pubblico",
+    summary: "Il torneo compare a tutti nella lista tornei.",
+    rules: [
+      "Chiunque puo trovarlo e aprirne la scheda.",
+      "Le iscrizioni restano aperte a tutti finche ci sono posti.",
+      "Ideale per eventi aperti e facili da scoprire.",
+    ],
+  },
+  {
+    value: TournamentVisibility.Friends,
+    label: "Solo amici",
+    summary: "Lo vedono solo gli utenti che ti seguono.",
+    rules: [
+      "Appare soltanto ai tuoi follower.",
+      "Un follower puo trovarlo e iscriversi in autonomia se il torneo e aperto.",
+      "Perfetto per eventi di community o gruppi fidelizzati.",
+    ],
+  },
+  {
+    value: TournamentVisibility.Private,
+    label: "Privato",
+    summary: "Visibile solo a te e agli utenti gia iscritti.",
+    rules: [
+      "Non compare nella lista tornei agli altri utenti.",
+      "Gli accessi avvengono tramite iscrizione manuale del creatore.",
+      "Pensato per eventi chiusi, test o gruppi selezionati.",
+    ],
+  },
+]);
+
 export function getTournamentFormatMeta(format) {
   return TOURNAMENT_FORMAT_OPTIONS.find((option) => option.value === format) ?? null;
 }
@@ -47,6 +84,14 @@ export function formatTournamentFormatLabel(format) {
 
 export function formatTournamentFormatSelectorLabel(format) {
   return getTournamentFormatMeta(format)?.label ?? formatTournamentFormatLabel(format);
+}
+
+export function getTournamentVisibilityMeta(visibility) {
+  return TOURNAMENT_VISIBILITY_OPTIONS.find((option) => option.value === visibility) ?? null;
+}
+
+export function formatTournamentVisibilityLabel(visibility) {
+  return getTournamentVisibilityMeta(visibility)?.label ?? "Pubblico";
 }
 
 export function formatTournamentGameLabel(game) {

@@ -5,6 +5,7 @@ import {
   formatTournamentHashtagLabel,
   formatTournamentLocationLabel,
   formatTournamentStatusLabel,
+  formatTournamentVisibilityLabel,
   resolveTournamentStatusChipClass,
 } from "@/utilities/tournaments";
 
@@ -88,6 +89,9 @@ function handleClick() {
           </span>
           <span class="tournament-card__hashtag">
             {{ formatTournamentHashtagLabel(formatTournamentFormatLabel(tournament.format)) }}
+          </span>
+          <span class="tournament-card__visibility-chip">
+            {{ formatTournamentVisibilityLabel(tournament.visibility) }}
           </span>
         </div>
 
@@ -207,6 +211,20 @@ function handleClick() {
   color: rgba(226, 232, 240, 0.92);
   font-size: 0.72rem;
   font-weight: 800;
+  letter-spacing: 0.03em;
+  padding: 0.34rem 0.72rem;
+}
+
+.tournament-card__visibility-chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.85rem;
+  border: 1px solid rgba(255, 183, 124, 0.22);
+  border-radius: 999px;
+  background: rgba(255, 122, 24, 0.08);
+  color: rgba(255, 226, 204, 0.94);
+  font-size: 0.72rem;
+  font-weight: 900;
   letter-spacing: 0.03em;
   padding: 0.34rem 0.72rem;
 }

@@ -4,6 +4,12 @@ export const TournamentFormat = Object.freeze({
   RoundRobin: "round_robin",
 });
 
+export const TournamentVisibility = Object.freeze({
+  Public: "public",
+  Friends: "friends",
+  Private: "private",
+});
+
 export const TournamentStatus = Object.freeze({
   Draft: "draft",
   Open: "open",
@@ -53,4 +59,8 @@ export const DEFAULT_ROUND_ROBIN_POINTS = Object.freeze({
 
 export const SUPPORTED_TOURNAMENT_FORMATS = Object.freeze(
   Object.values(TournamentFormat),
+);
+
+export const SUPPORTED_TOURNAMENT_VISIBILITIES = Object.freeze(
+  Object.values(TournamentVisibility),
 );

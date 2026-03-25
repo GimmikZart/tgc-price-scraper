@@ -1,4 +1,5 @@
 <script setup>
+import BaseTabs from "@/components/Tabs/BaseTabs.vue";
 import {
   cancelTournament,
   computeStandings,
@@ -12,8 +13,22 @@ import {
   TournamentStatus,
   withdrawTournament,
 } from "@/api/tournaments";
-import { formatTournamentLocationLabel } from "@/utilities/tournaments";
+import {
+  GHOST_INACTIVE_TAB_CLASS,
+  ORANGE_ACTIVE_TAB_CLASS,
+} from "@/components/Tabs/styles";
+import { formatCoordinatesLabel, normalizeCoordinates } from "@/utilities/geo";
+import {
+  formatTournamentFormatLabel,
+  formatTournamentGameLabel,
+  formatTournamentLocationLabel,
+  formatTournamentStatusLabel,
+  formatTournamentVisibilityLabel,
+} from "@/utilities/tournaments";
 
+const DETAILS_VIEW_TAB = "details";
+const TOURNAMENT_VIEW_TAB = "tournament";
+const AVAILABLE_VIEW_TABS = Object.freeze([DETAILS_VIEW_TAB, TOURNAMENT_VIEW_TAB]);
 const STANDINGS_TAB = "standings";
 const ROUNDS_TAB = "rounds";
 const AVAILABLE_TABS = Object.freeze([STANDINGS_TAB, ROUNDS_TAB]);
@@ -37,6 +52,7 @@ const expelDialogRef = ref(null);
 const cancelDialogRef = ref(null);
 const organizerResultDialogRef = ref(null);
 const selectedExpelParticipantIds = ref([]);
+const activeViewTab = ref(normalizeViewTab(route.query.view));
 const activeTab = ref(normalizeDetailTab(route.query.tab));
 const selectedRoundNumber = ref(null);
 const selectedMatchForResultDialog = ref(null);
@@ -56,6 +72,120 @@ const toolbarLabel = computed(() => {
 
 const tournamentLocationLabel = computed(() => {
   return formatTournamentLocationLabel(tournament.value);
+});
+
+const tournamentCoordinates = computed(() => {
+  return normalizeCoordinates(tournament.value);
+});
+
+const tournamentCoordinatesLabel = computed(() => {
+  if (!tournamentCoordinates.value) return null;
+  return formatCoordinatesLabel(tournamentCoordinates.value, 5);
+});
+
+const tournamentAddressLabel = computed(() => {
+  return tournamentLocationLabel.value ?? tournamentCoordinatesLabel.value ?? null;
+});
+
+const tournamentFormatLabel = computed(() => {
+  return formatTournamentFormatLabel(tournament.value?.format);
+});
+
+const tournamentGameLabel = computed(() => {
+  return formatTournamentGameLabel(tournament.value?.game);
+});
+
+const tournamentStatusText = computed(() => {
+  return formatTournamentStatusLabel(tournament.value?.status);
+});
+
+const tournamentVisibilityLabel = computed(() => {
+  return formatTournamentVisibilityLabel(tournament.value?.visibility);
+});
+
+const tournamentOrganizerLabel = computed(() => {
+  const profile = tournament.value?.organizer_profile;
+
+  return profile?.display_name
+    ?? profile?.username
+    ?? tournament.value?.organizer_id
+    ?? "Organizzatore";
+});
+
+const joinedParticipantsCount = computed(() => {
+  return participants.value.filter((participant) => {
+    return participant?.status !== TournamentParticipantStatus.Withdrawn;
+  }).length;
+});
+
+const participantSlotsLeft = computed(() => {
+  const maxParticipants = Number(tournament.value?.max_participants ?? 0);
+  if (!Number.isFinite(maxParticipants) || maxParticipants <= 0) return null;
+
+  return Math.max(maxParticipants - joinedParticipantsCount.value, 0);
+});
+
+const tournamentParticipantsSummary = computed(() => {
+  return `${joinedParticipantsCount.value} / ${tournament.value?.max_participants ?? "-"}`;
+});
+
+const tournamentRoundProgressLabel = computed(() => {
+  const currentRound = Number(tournament.value?.current_round ?? 0);
+  const totalRounds = Number(tournament.value?.total_rounds ?? 0);
+
+  if (!Number.isFinite(totalRounds) || totalRounds <= 0) {
+    return "Da definire";
+  }
+
+  if (!Number.isFinite(currentRound) || currentRound <= 0) {
+    return `0 / ${totalRounds}`;
+  }
+
+  return `${Math.min(currentRound, totalRounds)} / ${totalRounds}`;
+});
+
+const mapsProviderLabel = computed(() => {
+  return prefersAppleMaps() ? "Apple Maps" : "Google Maps";
+});
+
+const tournamentMapsHref = computed(() => {
+  const coordinates = tournamentCoordinates.value;
+  const addressLabel = tournamentAddressLabel.value;
+
+  if (!coordinates && !addressLabel) return null;
+
+  if (prefersAppleMaps()) {
+    const params = new URLSearchParams();
+
+    if (addressLabel) {
+      params.set("q", addressLabel);
+    }
+
+    if (coordinates) {
+      params.set("ll", `${coordinates.lat},${coordinates.lng}`);
+    }
+
+    return `http://maps.apple.com/?${params.toString()}`;
+  }
+
+  const googleQuery = coordinates
+    ? `${coordinates.lat},${coordinates.lng}${addressLabel ? ` (${addressLabel})` : ""}`
+    : addressLabel;
+
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(googleQuery)}`;
+});
+
+const viewTabs = computed(() => {
+  return [
+    {
+      label: "Dettagli",
+      value: DETAILS_VIEW_TAB,
+    },
+    {
+      label: "Torneo",
+      value: TOURNAMENT_VIEW_TAB,
+    },
+  ];
 });
 
 const currentParticipant = computed(() => {
@@ -104,6 +234,16 @@ const canStartTournament = computed(() => {
   return participants.value.length >= 2;
 });
 
+const canAddParticipants = computed(() => {
+  if (!tournament.value) return false;
+  if (!isOrganizer.value) return false;
+  if (![TournamentStatus.Draft, TournamentStatus.Open].includes(tournament.value.status)) {
+    return false;
+  }
+
+  return joinedParticipantsCount.value < Number(tournament.value.max_participants ?? 0);
+});
+
 const expellableParticipants = computed(() => {
   if (!isOrganizer.value || !tournament.value) return [];
 
@@ -134,6 +274,7 @@ const hasTournamentActions = computed(() => {
     canJoinTournament.value,
     canWithdrawTournament.value,
     canStartTournament.value,
+    canAddParticipants.value,
     canOpenExpelDialog.value,
     canCancelTournament.value,
   ].some(Boolean);
@@ -205,6 +346,68 @@ const standingsColumns = computed(() => {
       label: column.label,
     })),
   ];
+});
+
+const tournamentDetailCards = computed(() => {
+  return [
+    {
+      label: "Formato",
+      value: tournamentFormatLabel.value,
+      hint: roundsHint.value,
+    },
+    {
+      label: "Gioco",
+      value: tournamentGameLabel.value,
+      hint: "Titolo giocato in questo evento.",
+    },
+    {
+      label: "Stato",
+      value: tournamentStatusText.value,
+      hint: "Aggiornato in base alla fase corrente del torneo.",
+    },
+    {
+      label: "Visibilita",
+      value: tournamentVisibilityLabel.value,
+      hint: "Definisce chi puo trovare il torneo prima dell'iscrizione.",
+    },
+    {
+      label: "Partecipanti",
+      value: tournamentParticipantsSummary.value,
+      hint: participantSlotsLeft.value == null
+        ? "Capienza non disponibile."
+        : participantSlotsLeft.value === 0
+          ? "Posti esauriti."
+          : `${participantSlotsLeft.value} posti ancora disponibili.`,
+    },
+    {
+      label: "Round",
+      value: tournamentRoundProgressLabel.value,
+      hint: expectedRoundsCount.value > 0
+        ? `${expectedRoundsCount.value} round previsti in totale.`
+        : "Il numero di round verra definito all'avvio.",
+    },
+    {
+      label: "Organizzatore",
+      value: tournamentOrganizerLabel.value,
+      hint: "Responsabile della gestione del torneo.",
+    },
+  ];
+});
+
+const contentShellClass = computed(() => {
+  if (activeViewTab.value === DETAILS_VIEW_TAB) {
+    return "px-3 pt-3";
+  }
+
+  return activeTab.value === STANDINGS_TAB ? "px-0 pt-0" : "px-3 pt-2";
+});
+
+const contentInnerClass = computed(() => {
+  if (activeViewTab.value === DETAILS_VIEW_TAB) {
+    return "space-y-3 pb-2";
+  }
+
+  return activeTab.value === STANDINGS_TAB ? "pb-2" : "space-y-3 pb-2";
 });
 
 const detailTabs = computed(() => {
@@ -381,6 +584,33 @@ function normalizeDetailTab(rawTab) {
   }
 
   return STANDINGS_TAB;
+}
+
+function normalizeViewTab(rawView) {
+  const normalizedView = Array.isArray(rawView)
+    ? String(rawView[0] ?? "")
+    : String(rawView ?? "");
+
+  if (AVAILABLE_VIEW_TABS.includes(normalizedView)) {
+    return normalizedView;
+  }
+
+  return TOURNAMENT_VIEW_TAB;
+}
+
+function setActiveViewTab(nextView) {
+  const normalizedView = normalizeViewTab(nextView);
+  if (normalizedView === activeViewTab.value && String(route.query.view ?? "") === normalizedView) {
+    return;
+  }
+
+  activeViewTab.value = normalizedView;
+  router.replace({
+    query: {
+      ...route.query,
+      view: normalizedView,
+    },
+  });
 }
 
 function setActiveTab(nextTab) {
@@ -578,24 +808,38 @@ function isRoundMatchClickable(match) {
   return isCurrentUserPlayerInMatch(match);
 }
 
-function formatLabel(format) {
-  if (format === TournamentFormat.SingleElimination) return "Single Elimination";
-  if (format === TournamentFormat.Swiss) return "Swiss";
-  if (format === TournamentFormat.RoundRobin) return "Round Robin";
-  return "-";
-}
-
-function statusLabel(status) {
-  if (status === TournamentStatus.Draft) return "Draft";
-  if (status === TournamentStatus.Open) return "Open";
-  if (status === TournamentStatus.Started) return "Started";
-  if (status === TournamentStatus.Completed) return "Completed";
-  if (status === TournamentStatus.Cancelled) return "Cancelled";
-  return "-";
-}
-
 function canMatchDraw() {
   return tournament.value?.format !== TournamentFormat.SingleElimination;
+}
+
+function prefersAppleMaps() {
+  if (typeof navigator === "undefined") return false;
+
+  const userAgentDataPlatform = String(navigator.userAgentData?.platform ?? "").toLowerCase();
+  const platform = String(navigator.platform ?? "").toLowerCase();
+  const userAgent = String(navigator.userAgent ?? "").toLowerCase();
+
+  if (
+    userAgentDataPlatform.includes("windows")
+    || userAgentDataPlatform.includes("android")
+    || platform.startsWith("win")
+    || platform.startsWith("linux")
+    || userAgent.includes("windows")
+    || userAgent.includes("android")
+  ) {
+    return false;
+  }
+
+  if (/(iphone|ipad|ipod)/i.test(userAgent)) {
+    return true;
+  }
+
+  return [
+    "macintosh",
+    "macintel",
+    "macppc",
+    "mac68k",
+  ].includes(platform) || /macintosh|mac os x/i.test(userAgent);
 }
 
 function resolveDefaultRoundNumber() {
@@ -716,6 +960,11 @@ async function handleJoin() {
   } finally {
     isJoining.value = false;
   }
+}
+
+function goToAddParticipants() {
+  if (!canAddParticipants.value || !tournamentId.value) return;
+  router.push(`/play/tournaments/${tournamentId.value}/add-users`);
 }
 
 async function handleWithdraw() {
@@ -856,6 +1105,13 @@ watch(
 );
 
 watch(
+  () => route.query.view,
+  (nextView) => {
+    activeViewTab.value = normalizeViewTab(nextView);
+  },
+);
+
+watch(
   () => route.query.tab,
   (nextTab) => {
     activeTab.value = normalizeDetailTab(nextTab);
@@ -893,42 +1149,19 @@ definePageMeta({
 </script>
 
 <template>
-  <section class="relative h-full">
-    <Toolbar :label="toolbarLabel" fixed back-button>
+  <section class="relative h-full tournament-detail-page">
+    <Toolbar class="tournament-detail-page__toolbar" :label="toolbarLabel" fixed back-button>
       <template #info>
         <div class="space-y-2">
-          <div v-if="tournament" class="tournament-info-box">
-            <v-expansion-panels class="tournament-info-panel" variant="accordion">
-              <v-expansion-panel class="tournament-info-panel-item">
-                <v-expansion-panel-title class="tournament-info-panel-title">
-                  Dettagli torneo
-                </v-expansion-panel-title>
-                <v-expansion-panel-text class="tournament-info-panel-text">
-                  <ul class="tournament-info-list list-disc list-inside">
-                    <li class="text-xs">Formato: {{ formatLabel(tournament?.format) }}</li>
-                    <li class="text-xs">Gioco: {{ tournament?.game }}</li>
-                    <li class="text-xs">Stato: {{ statusLabel(tournament?.status) }}</li>
-                    <li v-if="tournamentLocationLabel" class="text-xs">Luogo: {{ tournamentLocationLabel }}</li>
-                    <li class="text-xs">
-                      Round: {{ tournament?.current_round ?? "-" }} / {{ tournament?.total_rounds ?? "-" }}
-                    </li>
-                    <li class="text-xs">
-                      Partecipanti: {{ participants.length }} / {{ tournament?.max_participants ?? "-" }}
-                    </li>
-                    <li class="text-xs">{{ roundsHint }}</li>
-                    <li v-if="tournamentAdditionalRules.length > 0" class="text-xs">
-                      Regole: {{ tournamentAdditionalRules.join(" | ") }}
-                    </li>
-                    <li v-else class="text-xs">
-                      Regole aggiuntive: nessuna specificata.
-                    </li>
-                  </ul>
-                </v-expansion-panel-text>
-              </v-expansion-panel>
-            </v-expansion-panels>
-          </div>
+          <BaseTabs
+            :tabs="viewTabs"
+            :active="activeViewTab"
+            :active-class="ORANGE_ACTIVE_TAB_CLASS"
+            :inactive-class="GHOST_INACTIVE_TAB_CLASS"
+            @change="setActiveViewTab"
+          />
 
-          <p v-else-if="isLoading" class="tournament-toolbar-state-message">
+          <p v-if="isLoading" class="tournament-toolbar-state-message">
             Caricamento dati torneo...
           </p>
 
@@ -936,54 +1169,56 @@ definePageMeta({
             {{ loadError }}
           </p>
 
-          <TabsPlayMatchTabs
-            :tabs="detailTabs"
-            :active="activeTab"
-            @change="setActiveTab"
-          />
+          <template v-else-if="activeViewTab === TOURNAMENT_VIEW_TAB">
+            <TabsPlayMatchTabs
+              :tabs="detailTabs"
+              :active="activeTab"
+              @change="setActiveTab"
+            />
 
-          <div v-if="activeTab === ROUNDS_TAB" class="tournament-toolbar-rounds-shell">
-            <p v-if="roundSubTabs.length === 0" class="tournament-toolbar-rounds-empty">
-              Nessun round pianificato.
-            </p>
+            <div v-if="activeTab === ROUNDS_TAB" class="tournament-toolbar-rounds-shell">
+              <p v-if="roundSubTabs.length === 0" class="tournament-toolbar-rounds-empty">
+                Nessun round pianificato.
+              </p>
 
-            <div
-              v-else
-              class="tournament-round-subtabs"
-              role="tablist"
-              aria-label="Round previsti torneo"
-            >
-              <button
-                v-for="roundTab in roundSubTabs"
-                :key="roundTab.value"
-                type="button"
-                class="tournament-round-subtab"
-                :class="[
-                  roundTab.value === selectedRoundNumber ? 'tournament-round-subtab--selected' : '',
-                  roundTab.status === 'completed'
-                    ? 'tournament-round-subtab--completed'
-                    : roundTab.status === 'active'
-                      ? 'tournament-round-subtab--active'
-                      : 'tournament-round-subtab--pending',
-                ]"
-                :disabled="roundTab.disabled"
-                :aria-selected="roundTab.value === selectedRoundNumber"
-                @click="setActiveRound(roundTab.value)"
+              <div
+                v-else
+                class="tournament-round-subtabs"
+                role="tablist"
+                aria-label="Round previsti torneo"
               >
-                <span class="tournament-round-subtab__label">{{ roundTab.label }}</span>
-                <span v-if="roundTab.stageLabel" class="tournament-round-subtab__stage">
-                  {{ roundTab.stageLabel }}
-                </span>
-              </button>
+                <button
+                  v-for="roundTab in roundSubTabs"
+                  :key="roundTab.value"
+                  type="button"
+                  class="tournament-round-subtab"
+                  :class="[
+                    roundTab.value === selectedRoundNumber ? 'tournament-round-subtab--selected' : '',
+                    roundTab.status === 'completed'
+                      ? 'tournament-round-subtab--completed'
+                      : roundTab.status === 'active'
+                        ? 'tournament-round-subtab--active'
+                        : 'tournament-round-subtab--pending',
+                  ]"
+                  :disabled="roundTab.disabled"
+                  :aria-selected="roundTab.value === selectedRoundNumber"
+                  @click="setActiveRound(roundTab.value)"
+                >
+                  <span class="tournament-round-subtab__label">{{ roundTab.label }}</span>
+                  <span v-if="roundTab.stageLabel" class="tournament-round-subtab__stage">
+                    {{ roundTab.stageLabel }}
+                  </span>
+                </button>
+              </div>
             </div>
-          </div>
+          </template>
         </div>
       </template>
     </Toolbar>
 
     <div
       class="min-h-0 flex-1 overflow-y-auto pb-36"
-      :class="activeTab === STANDINGS_TAB ? 'px-0 pt-0' : 'px-3 pt-2'"
+      :class="contentShellClass"
     >
       <p v-if="isLoading" class="tournament-detail-state-message">
         Caricamento torneo...
@@ -993,111 +1228,215 @@ definePageMeta({
         {{ loadError }}
       </p>
 
-      <div v-else :class="activeTab === STANDINGS_TAB ? 'pb-2' : 'space-y-3 pb-2'">
-        <article v-if="activeTab === STANDINGS_TAB" class="tournament-section-card tournament-section-card--standings">
-          <p v-if="standingsTableRows.length === 0" class="tournament-section-card__state">
-            Nessuna classifica disponibile.
-          </p>
+      <div v-else :class="contentInnerClass">
+        <template v-if="activeViewTab === DETAILS_VIEW_TAB">
+          <div class="tournament-details-shell">
+            <article class="tournament-details-map-card">
+              <div v-if="tournamentCoordinates" class="tournament-details-map-shell">
+                <MapLeafletMap
+                  :center="tournamentCoordinates"
+                  :zoom="15"
+                  :interactive="false"
+                  :zoom-control="false"
+                  :show-center-marker="true"
+                  :min-height="220"
+                />
+              </div>
 
-          <div v-else class="tournament-standings-table-wrapper">
-            <table class="tournament-standings-table tournament-standings-table--body">
-              <thead>
-                <tr>
-                  <th
-                    v-for="column in standingsColumns"
-                    :key="`header-${column.key}`"
-                    class="tournament-standings-table__head"
-                    :class="{
-                      'tournament-standings-table__head--player': column.key === 'player',
-                      'tournament-standings-table__head--metric': column.key !== 'player',
-                    }"
+              <div v-else class="tournament-details-map-placeholder">
+                <v-icon size="26" icon="mdi:map-marker-off-outline" />
+                <p class="tournament-details-map-placeholder__title">Posizione non disponibile</p>
+                <p class="tournament-details-map-placeholder__text">
+                  Questo torneo non ha ancora coordinate valide da mostrare in mappa.
+                </p>
+              </div>
+
+              <a
+                v-if="tournamentMapsHref && tournamentAddressLabel"
+                :href="tournamentMapsHref"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="tournament-details-address"
+              >
+                <span class="tournament-details-address__icon">
+                  <v-icon size="18" icon="mdi:map-marker-radius-outline" />
+                </span>
+
+                <span class="tournament-details-address__content">
+                  <span class="tournament-details-address__label">Indirizzo torneo</span>
+                  <span class="tournament-details-address__value">{{ tournamentAddressLabel }}</span>
+                  <span
+                    v-if="tournamentCoordinatesLabel && tournamentLocationLabel"
+                    class="tournament-details-address__meta"
                   >
-                    {{ column.label }}
-                  </th>
-                </tr>
-              </thead>
+                    {{ tournamentCoordinatesLabel }}
+                  </span>
+                </span>
 
-              <tbody>
-                <tr
-                  v-for="row in standingsTableRows"
-                  :key="row.participant_id"
-                  class="tournament-standings-table__row"
+                <span class="tournament-details-address__action">
+                  Apri in {{ mapsProviderLabel }}
+                  <v-icon size="16" icon="mdi:open-in-new" />
+                </span>
+              </a>
+
+              <div v-else class="tournament-details-address tournament-details-address--static">
+                <span class="tournament-details-address__icon">
+                  <v-icon size="18" icon="mdi:map-marker-alert-outline" />
+                </span>
+
+                <span class="tournament-details-address__content">
+                  <span class="tournament-details-address__label">Indirizzo torneo</span>
+                  <span class="tournament-details-address__value">Nessun indirizzo disponibile</span>
+                </span>
+              </div>
+            </article>
+
+            <section class="tournament-details-grid" aria-label="Informazioni torneo">
+              <article
+                v-for="detailCard in tournamentDetailCards"
+                :key="detailCard.label"
+                class="tournament-details-card"
+              >
+                <p class="tournament-details-card__label">{{ detailCard.label }}</p>
+                <p class="tournament-details-card__value">{{ detailCard.value }}</p>
+                <p class="tournament-details-card__hint">{{ detailCard.hint }}</p>
+              </article>
+            </section>
+
+            <article class="tournament-details-section">
+              <p class="tournament-details-section__eyebrow">Come funziona</p>
+              <h3 class="tournament-details-section__title">{{ tournamentFormatLabel }}</h3>
+              <p class="tournament-details-section__text">{{ roundsHint }}</p>
+            </article>
+
+            <article class="tournament-details-section">
+              <p class="tournament-details-section__eyebrow">Regole aggiuntive</p>
+              <p
+                v-if="tournamentAdditionalRules.length === 0"
+                class="tournament-details-section__text"
+              >
+                Nessuna regola aggiuntiva specificata per questo torneo.
+              </p>
+
+              <ul v-else class="tournament-details-rules">
+                <li
+                  v-for="(rule, index) in tournamentAdditionalRules"
+                  :key="`${index}-${rule}`"
+                  class="tournament-details-rules__item"
                 >
-                  <td
-                    v-for="column in standingsColumns"
-                    :key="`${row.participant_id}-${column.key}`"
-                    class="tournament-standings-table__cell"
-                    :class="{
-                      'tournament-standings-table__cell--player': column.key === 'player',
-                      'tournament-standings-table__cell--metric': column.key !== 'player',
-                    }"
-                  >
-                    <template v-if="column.key === 'player'">
-                      <div class="tournament-standings-table__player-content">
-                        <span
-                          class="tournament-player-status-dot"
-                          :class="participantStatusDotClass(row.status)"
-                          :title="participantStatusLabel(row.status)"
-                          aria-hidden="true"
-                        />
-
-                        <NuxtLink
-                          v-if="standingProfilePath(row)"
-                          :to="standingProfilePath(row)"
-                          class="tournament-player-link"
-                        >
-                          {{ standingPlayerName(row) }}
-                        </NuxtLink>
-
-                        <span v-else class="tournament-player-link tournament-player-link--disabled">
-                          {{ standingPlayerName(row) }}
-                        </span>
-                      </div>
-                    </template>
-
-                    <template v-else>
-                      {{ standingsCellValue(row, column.key) }}
-                    </template>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+                  {{ rule }}
+                </li>
+              </ul>
+            </article>
           </div>
-        </article>
+        </template>
 
         <template v-else>
-          <div class="space-y-2">
-            <div v-if="roundSubTabs.length === 0" class="tournament-round-card__empty">
-              Nessun round pianificato.
-            </div>
+          <article v-if="activeTab === STANDINGS_TAB" class="tournament-section-card tournament-section-card--standings">
+            <p v-if="standingsTableRows.length === 0" class="tournament-section-card__state">
+              Nessuna classifica disponibile.
+            </p>
 
-            <template v-else>
-              <div v-if="!selectedRoundCard" class="tournament-round-card__empty">
-                Round non ancora iniziato.
+            <div v-else class="tournament-standings-table-wrapper">
+              <table class="tournament-standings-table tournament-standings-table--body">
+                <thead>
+                  <tr>
+                    <th
+                      v-for="column in standingsColumns"
+                      :key="`header-${column.key}`"
+                      class="tournament-standings-table__head"
+                      :class="{
+                        'tournament-standings-table__head--player': column.key === 'player',
+                        'tournament-standings-table__head--metric': column.key !== 'player',
+                      }"
+                    >
+                      {{ column.label }}
+                    </th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <tr
+                    v-for="row in standingsTableRows"
+                    :key="row.participant_id"
+                    class="tournament-standings-table__row"
+                  >
+                    <td
+                      v-for="column in standingsColumns"
+                      :key="`${row.participant_id}-${column.key}`"
+                      class="tournament-standings-table__cell"
+                      :class="{
+                        'tournament-standings-table__cell--player': column.key === 'player',
+                        'tournament-standings-table__cell--metric': column.key !== 'player',
+                      }"
+                    >
+                      <template v-if="column.key === 'player'">
+                        <div class="tournament-standings-table__player-content">
+                          <span
+                            class="tournament-player-status-dot"
+                            :class="participantStatusDotClass(row.status)"
+                            :title="participantStatusLabel(row.status)"
+                            aria-hidden="true"
+                          />
+
+                          <NuxtLink
+                            v-if="standingProfilePath(row)"
+                            :to="standingProfilePath(row)"
+                            class="tournament-player-link"
+                          >
+                            {{ standingPlayerName(row) }}
+                          </NuxtLink>
+
+                          <span v-else class="tournament-player-link tournament-player-link--disabled">
+                            {{ standingPlayerName(row) }}
+                          </span>
+                        </div>
+                      </template>
+
+                      <template v-else>
+                        {{ standingsCellValue(row, column.key) }}
+                      </template>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </article>
+
+          <template v-else>
+            <div class="space-y-2">
+              <div v-if="roundSubTabs.length === 0" class="tournament-round-card__empty">
+                Nessun round pianificato.
               </div>
 
               <template v-else>
-                <div v-if="roundMatchRows.length === 0" class="tournament-round-card__empty">
-                  Nessuna partita pianificata per questo round.
+                <div v-if="!selectedRoundCard" class="tournament-round-card__empty">
+                  Round non ancora iniziato.
                 </div>
 
-                <div v-else class="space-y-2">
-                  <div
-                    v-for="roundMatchRow in roundMatchRows"
-                    :key="roundMatchRow.tournamentMatch.id"
-                    class="tournament-round-match-item"
-                  >
-                    <PlayMatchHistoryItem
-                      :item="roundMatchRow"
-                      :disable-navigation="true"
-                      :clickable="roundMatchRow.clickable"
-                      @select="handleRoundMatchSelect(roundMatchRow.tournamentMatch)"
-                    />
+                <template v-else>
+                  <div v-if="roundMatchRows.length === 0" class="tournament-round-card__empty">
+                    Nessuna partita pianificata per questo round.
                   </div>
-                </div>
+
+                  <div v-else class="space-y-2">
+                    <div
+                      v-for="roundMatchRow in roundMatchRows"
+                      :key="roundMatchRow.tournamentMatch.id"
+                      class="tournament-round-match-item"
+                    >
+                      <PlayMatchHistoryItem
+                        :item="roundMatchRow"
+                        :disable-navigation="true"
+                        :clickable="roundMatchRow.clickable"
+                        @select="handleRoundMatchSelect(roundMatchRow.tournamentMatch)"
+                      />
+                    </div>
+                  </div>
+                </template>
               </template>
-            </template>
-          </div>
+            </div>
+          </template>
         </template>
       </div>
     </div>
@@ -1136,6 +1475,16 @@ definePageMeta({
             transition
             :delay="180"
             @click="handleStartTournament"
+          />
+
+          <ButtonMenu
+            v-if="canAddParticipants"
+            icon="mdi:account-plus-outline"
+            label="Aggiungi utenti"
+            color="green"
+            transition
+            :delay="210"
+            @click="goToAddParticipants"
           />
 
           <ButtonMenu
@@ -1310,6 +1659,10 @@ definePageMeta({
   </section>
 </template>
 <style scoped>
+:deep(.tournament-detail-page__toolbar > div:first-child) {
+  z-index: 1100;
+}
+
 .tournament-detail-state-message {
   margin-top: 1rem;
   text-align: center;
@@ -1343,49 +1696,225 @@ definePageMeta({
   text-align: center;
 }
 
-.tournament-info-box {
-  border: 1px solid rgba(33, 95, 165, 0.34);
-  border-radius: 0.75rem;
-  padding: 0;
+.tournament-details-shell {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.tournament-details-map-card,
+.tournament-details-section,
+.tournament-details-card {
+  border-radius: 1.1rem;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  background:
+    radial-gradient(circle at top, rgba(255, 122, 24, 0.11), transparent 45%),
+    linear-gradient(145deg, rgba(9, 14, 24, 0.96), rgba(3, 7, 18, 0.98));
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.05),
+    0 18px 30px rgba(2, 6, 23, 0.24);
+}
+
+.tournament-details-map-card {
   overflow: hidden;
-  background: linear-gradient(145deg, rgba(33, 95, 165, 0.25), rgba(30, 41, 59, 0.35));
+  padding: 0.8rem;
 }
 
-.tournament-info-panel {
-  background: transparent;
+.tournament-details-map-shell {
+  height: clamp(220px, 32vh, 280px);
+  position: relative;
+  z-index: 0;
+  isolation: isolate;
 }
 
-:deep(.tournament-info-panel .v-expansion-panel) {
-  background: transparent !important;
-  box-shadow: none !important;
+.tournament-details-map-placeholder {
+  display: grid;
+  place-items: center;
+  gap: 0.35rem;
+  min-height: 220px;
+  border-radius: 1rem;
+  border: 1px dashed rgba(255, 255, 255, 0.14);
+  background:
+    radial-gradient(circle at top, rgba(255, 122, 24, 0.12), transparent 48%),
+    rgba(15, 23, 42, 0.72);
+  color: rgba(226, 232, 240, 0.88);
+  padding: 1.2rem;
+  text-align: center;
 }
 
-:deep(.tournament-info-panel .v-expansion-panel-title) {
-  min-height: 0;
-  padding: 0.55rem 0.65rem;
-  color: rgba(147, 197, 253, 0.95);
-  font-size: 0.8rem;
+.tournament-details-map-placeholder__title,
+.tournament-details-map-placeholder__text {
+  margin: 0;
+}
+
+.tournament-details-map-placeholder__title {
+  color: rgba(255, 245, 235, 0.98);
+  font-size: 0.95rem;
+  font-weight: 800;
+}
+
+.tournament-details-map-placeholder__text {
+  color: rgba(203, 213, 225, 0.82);
+  font-size: 0.82rem;
+  line-height: 1.45;
+}
+
+.tournament-details-address {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 0.8rem;
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 178, 125, 0.18);
+  background: rgba(255, 255, 255, 0.03);
+  color: inherit;
+  padding: 0.85rem 0.95rem;
+  text-decoration: none;
+  transition:
+    border-color 180ms ease,
+    background-color 180ms ease,
+    transform 180ms ease;
+}
+
+.tournament-details-address:hover {
+  border-color: rgba(255, 178, 125, 0.34);
+  background: rgba(255, 122, 24, 0.08);
+  transform: translateY(-1px);
+}
+
+.tournament-details-address--static:hover {
+  transform: none;
+}
+
+.tournament-details-address__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 0.8rem;
+  background: rgba(255, 122, 24, 0.12);
+  color: rgba(255, 190, 146, 0.96);
+}
+
+.tournament-details-address__content {
+  display: grid;
+  gap: 0.14rem;
+  min-width: 0;
+}
+
+.tournament-details-address__label,
+.tournament-details-address__meta,
+.tournament-details-address__action {
+  font-size: 0.76rem;
   font-weight: 700;
 }
 
-:deep(.tournament-info-panel .v-expansion-panel-title__icon) {
-  color: rgba(191, 219, 254, 0.95);
+.tournament-details-address__label {
+  color: rgba(255, 178, 125, 0.9);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
 }
 
-:deep(.tournament-info-panel .v-expansion-panel-text__wrapper) {
-  padding: 0 0.65rem 0.6rem 0.65rem;
+.tournament-details-address__value {
+  color: rgba(248, 250, 252, 0.98);
+  font-size: 0.94rem;
+  font-weight: 800;
+  line-height: 1.35;
 }
 
-:deep(.tournament-info-panel .v-expansion-panel-text) {
-  color: inherit;
+.tournament-details-address__meta {
+  color: rgba(148, 163, 184, 0.86);
 }
 
-.tournament-info-list {
+.tournament-details-address__action {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: rgba(255, 225, 198, 0.94);
+  white-space: nowrap;
+}
+
+.tournament-details-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.8rem;
+}
+
+.tournament-details-card,
+.tournament-details-section {
+  padding: 0.95rem 1rem;
+}
+
+.tournament-details-card__label,
+.tournament-details-card__value,
+.tournament-details-card__hint,
+.tournament-details-section__eyebrow,
+.tournament-details-section__title,
+.tournament-details-section__text {
   margin: 0;
-  color: rgba(203, 213, 225, 0.9);
+}
+
+.tournament-details-card__label,
+.tournament-details-section__eyebrow {
+  color: rgba(255, 178, 125, 0.9);
+  font-size: 0.74rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.tournament-details-card__value {
+  margin-top: 0.3rem;
+  color: rgba(248, 250, 252, 0.98);
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.tournament-details-card__hint,
+.tournament-details-section__text {
+  margin-top: 0.4rem;
+  color: rgba(203, 213, 225, 0.82);
   font-size: 0.8rem;
   font-weight: 600;
-  line-height: 1.34;
+  line-height: 1.45;
+}
+
+.tournament-details-section__title {
+  margin-top: 0.32rem;
+  color: rgba(255, 245, 235, 0.98);
+  font-size: 1.04rem;
+  font-weight: 800;
+}
+
+.tournament-details-rules {
+  display: grid;
+  gap: 0.5rem;
+  margin: 0.55rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tournament-details-rules__item {
+  position: relative;
+  color: rgba(226, 232, 240, 0.9);
+  font-size: 0.82rem;
+  font-weight: 600;
+  line-height: 1.45;
+  padding-left: 1rem;
+}
+
+.tournament-details-rules__item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.42rem;
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 999px;
+  background: rgba(255, 157, 82, 0.96);
+  box-shadow: 0 0 10px rgba(255, 122, 24, 0.35);
 }
 
 .tournament-toolbar-rounds-shell {
@@ -1770,6 +2299,22 @@ definePageMeta({
   display: none;
   width: 0;
   height: 0;
+}
+
+@media (max-width: 520px) {
+  .tournament-details-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .tournament-details-address {
+    grid-template-columns: auto minmax(0, 1fr);
+  }
+
+  .tournament-details-address__action {
+    grid-column: 1 / -1;
+    justify-self: start;
+    padding-left: 3rem;
+  }
 }
 
 @media (max-width: 640px) {

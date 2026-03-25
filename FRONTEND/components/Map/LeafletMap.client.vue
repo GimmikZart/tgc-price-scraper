@@ -15,6 +15,14 @@ const props = defineProps({
     type: Number,
     default: 13,
   },
+  zoomControl: {
+    type: Boolean,
+    default: true,
+  },
+  zoomControlPosition: {
+    type: String,
+    default: "topleft",
+  },
   minHeight: {
     type: [Number, String],
     default: 320,
@@ -38,6 +46,10 @@ const props = defineProps({
   showSelectedMarker: {
     type: Boolean,
     default: true,
+  },
+  selectedMarkerViewportAnchorY: {
+    type: Number,
+    default: 0.5,
   },
   showCenterMarker: {
     type: Boolean,
@@ -67,6 +79,7 @@ let markersLayer = null;
 let selectedMarker = null;
 let centerMarker = null;
 let centerCircle = null;
+let zoomControlInstance = null;
 let resizeObserver = null;
 let invalidateFrame = 0;
 let invalidateTimeout = 0;
@@ -102,9 +115,42 @@ function getMapZoom() {
   return map.getZoom();
 }
 
-function setMapView(targetCoordinates, zoom = null) {
+function getSelectedMarkerViewportOffset() {
+  if (!map) {
+    return { offsetX: 0, offsetY: 0 };
+  }
+
+  const size = map.getSize?.();
+  const height = Number(size?.y ?? 0);
+  if (height <= 0) {
+    return { offsetX: 0, offsetY: 0 };
+  }
+
+  const anchorY = Math.max(0, Math.min(1, Number(props.selectedMarkerViewportAnchorY ?? 0.5)));
+
+  return {
+    offsetX: 0,
+    offsetY: (anchorY - 0.5) * height,
+  };
+}
+
+function setMapView(targetCoordinates, zoom = null, options = {}) {
   if (!map || !targetCoordinates) return;
-  map.setView([targetCoordinates.lat, targetCoordinates.lng], zoom ?? getMapZoom());
+
+  const targetZoom = zoom ?? getMapZoom();
+  const offsetX = Number(options?.offsetX ?? 0);
+  const offsetY = Number(options?.offsetY ?? 0);
+
+  if (!offsetX && !offsetY) {
+    map.setView([targetCoordinates.lat, targetCoordinates.lng], targetZoom);
+    return;
+  }
+
+  const targetPoint = map.project([targetCoordinates.lat, targetCoordinates.lng], targetZoom);
+  const adjustedPoint = targetPoint.subtract([offsetX, offsetY]);
+  const adjustedLatLng = map.unproject(adjustedPoint, targetZoom);
+
+  map.setView(adjustedLatLng, targetZoom);
 }
 
 function clearPendingInvalidation() {
@@ -125,6 +171,10 @@ function invalidateMapSize({ immediate = false } = {}) {
   const run = () => {
     if (!map) return;
     map.invalidateSize({ pan: false, debounceMoveend: true });
+
+    if (selectedCoordinates.value && props.showSelectedMarker) {
+      syncSelectedMarker({ recenter: true });
+    }
   };
 
   if (immediate) {
@@ -290,7 +340,12 @@ function syncSelectedMarker({ recenter = false } = {}) {
   }
 
   if (recenter) {
-    setMapView(coordinates, Math.max(getMapZoom(), props.zoom));
+    const { offsetX, offsetY } = getSelectedMarkerViewportOffset();
+    setMapView(
+      coordinates,
+      Math.max(getMapZoom(), props.zoom),
+      { offsetX, offsetY },
+    );
   }
 }
 
@@ -376,7 +431,7 @@ async function initializeMap() {
   leaflet = leafletModule.default ?? leafletModule;
 
   map = leaflet.map(mapRootRef.value, {
-    zoomControl: true,
+    zoomControl: false,
     attributionControl: true,
     dragging: props.interactive,
     scrollWheelZoom: props.interactive,
@@ -385,6 +440,12 @@ async function initializeMap() {
     keyboard: props.interactive,
     tap: props.interactive,
   });
+
+  if (props.zoomControl) {
+    zoomControlInstance = leaflet.control.zoom({
+      position: props.zoomControlPosition,
+    }).addTo(map);
+  }
 
   markersLayer = leaflet.layerGroup().addTo(map);
   map.on("click", handleMapClick);
@@ -395,9 +456,8 @@ async function initializeMap() {
   syncSelectedMarker({ recenter: true });
   syncCenterArtifacts();
 
-  const initialCoordinates = selectedCoordinates.value ?? centerCoordinates.value;
-  if (initialCoordinates) {
-    setMapView(initialCoordinates, props.zoom);
+  if (!selectedCoordinates.value && centerCoordinates.value) {
+    setMapView(centerCoordinates.value, props.zoom);
   }
 
   await nextTick();
@@ -426,6 +486,7 @@ function destroyMap() {
 
   tileLayer = null;
   markersLayer = null;
+  zoomControlInstance = null;
   leaflet = null;
   isMapReady.value = false;
   tileErrorMessage.value = "";
@@ -482,6 +543,14 @@ watch(
   () => props.selectedMarkerDraggable,
   () => {
     syncSelectedMarker();
+  },
+);
+
+watch(
+  () => props.selectedMarkerViewportAnchorY,
+  () => {
+    if (!selectedCoordinates.value) return;
+    syncSelectedMarker({ recenter: true });
   },
 );
 

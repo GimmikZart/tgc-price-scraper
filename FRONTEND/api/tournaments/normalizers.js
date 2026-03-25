@@ -1,12 +1,14 @@
 import {
   DEFAULT_TOURNAMENT_GAME,
   SUPPORTED_TOURNAMENT_FORMATS,
+  SUPPORTED_TOURNAMENT_VISIBILITIES,
   TournamentFormat,
   TournamentMatchResult,
   TournamentMatchStatus,
   TournamentParticipantStatus,
   TournamentRoundStatus,
   TournamentStatus,
+  TournamentVisibility,
 } from "@/api/tournaments/constants";
 import {
   normalizeJsonObject,
@@ -33,6 +35,15 @@ export function normalizeTournamentStatus(value) {
   return Object.values(TournamentStatus).includes(normalizedValue)
     ? normalizedValue
     : TournamentStatus.Draft;
+}
+
+export function normalizeTournamentVisibility(value) {
+  const normalizedValue = normalizeString(value);
+  if (!normalizedValue) return TournamentVisibility.Public;
+
+  return SUPPORTED_TOURNAMENT_VISIBILITIES.includes(normalizedValue)
+    ? normalizedValue
+    : TournamentVisibility.Public;
 }
 
 export function normalizeTournamentParticipantStatus(value) {
@@ -82,6 +93,7 @@ export function normalizeTournamentRow(row) {
     game: normalizeString(row.game) ?? DEFAULT_TOURNAMENT_GAME,
     max_participants: normalizePositiveInteger(row.max_participants, 2),
     organizer_id: normalizeUuid(row.organizer_id),
+    visibility: normalizeTournamentVisibility(row.visibility),
     status: normalizeTournamentStatus(row.status),
     settings: normalizeJsonObject(row.settings),
     latitude: normalizeNumberInRange(row.latitude, -90, 90),

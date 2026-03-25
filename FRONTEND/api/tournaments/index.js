@@ -6,6 +6,7 @@ import {
   TournamentParticipantStatus,
   TournamentRoundStatus,
   TournamentStatus,
+  TournamentVisibility,
 } from "@/api/tournaments/constants";
 import {
   areAllMatchesCompleted,
@@ -27,6 +28,7 @@ import {
   normalizeTournamentParticipantStatus,
   normalizeTournamentRow,
   normalizeTournamentStatus,
+  normalizeTournamentVisibility,
 } from "@/api/tournaments/normalizers";
 import {
   deleteTournamentById,
@@ -89,6 +91,10 @@ function assertTournamentFormat(tournamentFormat) {
     throw new Error("Formato torneo non supportato");
   }
   return normalizedFormat;
+}
+
+function resolveTournamentVisibility(visibility) {
+  return normalizeTournamentVisibility(visibility ?? TournamentVisibility.Public);
 }
 
 function hasLocationValue(value) {
@@ -868,6 +874,7 @@ export async function createTournament(payload = {}) {
   const name = assertTournamentName(payload?.name);
   const format = assertTournamentFormat(payload?.format);
   const game = normalizeString(payload?.game) ?? DEFAULT_TOURNAMENT_GAME;
+  const visibility = resolveTournamentVisibility(payload?.visibility);
   const locationPayload = resolveTournamentLocationPayload(payload);
   const maxParticipants = normalizePositiveInteger(
     payload?.maxParticipants ?? payload?.max_participants,
@@ -882,6 +889,7 @@ export async function createTournament(payload = {}) {
     game,
     max_participants: maxParticipants,
     organizer_id: organizerId,
+    visibility,
     status,
     settings,
     ...locationPayload,
@@ -1090,6 +1098,72 @@ export async function joinTournament(payload = {}) {
     profile_id: userId,
     status: TournamentParticipantStatus.Registered,
     metadata: applyDefaultDeckToMetadata({}, defaultDeckSnapshot),
+  });
+
+  const hydratedParticipants = await hydrateParticipants(client, [createdParticipant]);
+  return hydratedParticipants[0] ?? createdParticipant;
+}
+
+export async function addTournamentParticipantByOrganizer(payload = {}) {
+  const client = useSupabaseClient();
+  const userId = assertAuthenticatedUserId();
+  const tournamentId = assertTournamentId(payload?.tournamentId ?? payload?.tournament_id);
+  const profileId = normalizeUuid(payload?.profileId ?? payload?.profile_id);
+
+  if (!profileId) {
+    throw new Error("Utente non valido");
+  }
+
+  const tournament = await fetchTournamentById(client, tournamentId);
+  if (!tournament) {
+    throw new Error("Torneo non trovato");
+  }
+
+  assertOrganizer(tournament, userId);
+
+  if (![TournamentStatus.Draft, TournamentStatus.Open].includes(tournament.status)) {
+    throw new Error("Puoi aggiungere utenti solo prima dell'avvio del torneo");
+  }
+
+  if (String(profileId) === String(tournament.organizer_id)) {
+    throw new Error("L'organizzatore non puo essere aggiunto come partecipante");
+  }
+
+  const existingParticipant = await fetchTournamentParticipantByProfile(client, tournamentId, profileId);
+  if (existingParticipant && existingParticipant.status !== TournamentParticipantStatus.Withdrawn) {
+    const hydratedExistingParticipants = await hydrateParticipants(client, [existingParticipant]);
+    return hydratedExistingParticipants[0] ?? existingParticipant;
+  }
+
+  const participants = await fetchTournamentParticipants(client, tournamentId);
+  if (countJoinedParticipants(participants) >= Number(tournament.max_participants ?? 0)) {
+    throw new Error("Numero massimo partecipanti raggiunto");
+  }
+
+  const organizerAddedMetadata = {
+    ...normalizeJsonObject(existingParticipant?.metadata),
+    added_by_organizer: true,
+    added_by_profile_id: userId,
+    added_at: nowIso(),
+  };
+
+  if (existingParticipant?.status === TournamentParticipantStatus.Withdrawn) {
+    const reactivatedParticipant = await updateTournamentParticipantById(client, existingParticipant.id, {
+      status: TournamentParticipantStatus.Registered,
+      withdrawn_at: null,
+      dropped_round: null,
+      metadata: organizerAddedMetadata,
+    });
+
+    const hydratedReactivatedParticipants = await hydrateParticipants(client, [reactivatedParticipant]);
+    return hydratedReactivatedParticipants[0] ?? reactivatedParticipant;
+  }
+
+  const createdParticipant = await insertTournamentParticipant(client, {
+    tournament_id: tournamentId,
+    profile_id: profileId,
+    status: TournamentParticipantStatus.Registered,
+    metadata: organizerAddedMetadata,
   });
 
   const hydratedParticipants = await hydrateParticipants(client, [createdParticipant]);

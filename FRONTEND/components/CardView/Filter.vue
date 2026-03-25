@@ -292,24 +292,30 @@ onMounted(async () => {
       </div>
 
       <div v-if="!props.hideColorFilter" class="filter-item-shell">
-        <div class="flex items-center gap-2">
+        <div class="color-filter-row">
           <InputSelect
             v-model="colorFilter"
             :items="colorList"
             multiple
             label="Filtra per colore"
-            class="grow"
+            class="min-w-0 grow"
           />
-          <div class="filter-pill-toggle px-2 py-1">
-            <v-checkbox
-              v-model="isMulticolored"
-              label="Multi"
-              hide-details
-              density="compact"
-              color="#ff9d52"
-              class="m-0"
-            />
-          </div>
+          <button
+            type="button"
+            class="color-mode-toggle"
+            :class="{ 'color-mode-toggle--active': isMulticolored }"
+            :aria-pressed="isMulticolored"
+            :aria-label="
+              isMulticolored
+                ? 'Filtro colori in modalita multi'
+                : 'Filtro colori in modalita mono'
+            "
+            @click="isMulticolored = !isMulticolored"
+          >
+            <span class="color-mode-toggle__text">
+              {{ isMulticolored ? "Multi" : "Mono" }}
+            </span>
+          </button>
         </div>
       </div>
 
@@ -509,6 +515,67 @@ onMounted(async () => {
   border: 1px solid rgba(255, 255, 255, 0.13);
   border-radius: 0.75rem;
   background: linear-gradient(140deg, rgba(30, 41, 59, 0.52), rgba(15, 23, 42, 0.62));
+}
+
+.color-filter-row {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.color-mode-toggle {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 4.9rem;
+  min-height: 2.6rem;
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  border-radius: 0.82rem;
+  background: linear-gradient(140deg, rgba(30, 41, 59, 0.52), rgba(15, 23, 42, 0.62));
+  overflow: hidden;
+  transition:
+    border-color 160ms ease,
+    box-shadow 160ms ease,
+    background 160ms ease;
+}
+
+.color-mode-toggle::before {
+  content: "";
+  position: absolute;
+  inset: 0.2rem;
+  border-radius: 0.62rem;
+  background: rgba(148, 163, 184, 0.1);
+  transition:
+    background 160ms ease,
+    box-shadow 160ms ease;
+}
+
+.color-mode-toggle--active {
+  border-color: rgba(255, 186, 133, 0.34);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18);
+}
+
+.color-mode-toggle--active::before {
+  background: linear-gradient(130deg, rgba(255, 122, 24, 0.86), rgba(194, 89, 30, 0.82));
+  box-shadow:
+    inset 0 1px 0 rgba(255, 232, 214, 0.22),
+    0 8px 16px rgba(111, 52, 16, 0.28);
+}
+
+.color-mode-toggle__text {
+  position: relative;
+  z-index: 1;
+  color: rgba(226, 232, 240, 0.9);
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  transition: color 160ms ease;
+}
+
+.color-mode-toggle--active .color-mode-toggle__text {
+  color: #fff7f0;
 }
 
 .filter-advanced-toggle {

@@ -870,7 +870,7 @@ async function buildAndCreateNextRound(client, tournamentId, currentUserId) {
 
 export async function createTournament(payload = {}) {
   const client = useSupabaseClient();
-  const organizerId = assertAuthenticatedUserId();
+  const organizerId = await assertAuthenticatedUserId(client);
   const name = assertTournamentName(payload?.name);
   const format = assertTournamentFormat(payload?.format);
   const game = normalizeString(payload?.game) ?? DEFAULT_TOURNAMENT_GAME;
@@ -943,7 +943,7 @@ export async function fetchTournaments(options = {}) {
 
 export async function fetchMyTournaments(options = {}) {
   const client = useSupabaseClient();
-  const userId = assertAuthenticatedUserId();
+  const userId = await assertAuthenticatedUserId(client);
   return fetchUserTournaments(client, userId, {
     organizerOnly: options?.organizerOnly ?? true,
     limit: options?.limit,
@@ -952,7 +952,7 @@ export async function fetchMyTournaments(options = {}) {
 
 export async function fetchJoinedTournaments(options = {}) {
   const client = useSupabaseClient();
-  const userId = assertAuthenticatedUserId();
+  const userId = await assertAuthenticatedUserId(client);
   const limit = normalizePositiveInteger(options?.limit, 50);
 
   const { data: participantRows = [], error } = await client
@@ -1025,7 +1025,7 @@ export async function fetchTournamentDetails(tournamentId) {
 
 export async function joinTournament(payload = {}) {
   const client = useSupabaseClient();
-  const userId = assertAuthenticatedUserId();
+  const userId = await assertAuthenticatedUserId(client);
   const tournamentId = assertTournamentId(payload?.tournamentId ?? payload?.tournament_id);
   const tournament = await fetchTournamentById(client, tournamentId);
   const joinDeckInput = resolveJoinDeckPayload(payload);
@@ -1106,7 +1106,7 @@ export async function joinTournament(payload = {}) {
 
 export async function addTournamentParticipantByOrganizer(payload = {}) {
   const client = useSupabaseClient();
-  const userId = assertAuthenticatedUserId();
+  const userId = await assertAuthenticatedUserId(client);
   const tournamentId = assertTournamentId(payload?.tournamentId ?? payload?.tournament_id);
   const profileId = normalizeUuid(payload?.profileId ?? payload?.profile_id);
 
@@ -1172,7 +1172,7 @@ export async function addTournamentParticipantByOrganizer(payload = {}) {
 
 export async function withdrawTournament(payload = {}) {
   const client = useSupabaseClient();
-  const userId = assertAuthenticatedUserId();
+  const userId = await assertAuthenticatedUserId(client);
   const tournamentId = assertTournamentId(payload?.tournamentId ?? payload?.tournament_id);
   const tournament = await fetchTournamentById(client, tournamentId);
 
@@ -1259,7 +1259,7 @@ export async function withdrawTournament(payload = {}) {
 
 export async function expelTournamentParticipants(payload = {}) {
   const client = useSupabaseClient();
-  const userId = assertAuthenticatedUserId();
+  const userId = await assertAuthenticatedUserId(client);
   const tournamentId = assertTournamentId(payload?.tournamentId ?? payload?.tournament_id);
   const tournament = await fetchTournamentById(client, tournamentId);
 
@@ -1334,7 +1334,7 @@ export async function expelTournamentParticipants(payload = {}) {
 
 export async function cancelTournament(payload = {}) {
   const client = useSupabaseClient();
-  const userId = assertAuthenticatedUserId();
+  const userId = await assertAuthenticatedUserId(client);
   const tournamentId = assertTournamentId(payload?.tournamentId ?? payload?.tournament_id);
   const tournament = await fetchTournamentById(client, tournamentId);
 
@@ -1354,7 +1354,7 @@ export async function cancelTournament(payload = {}) {
 
 export async function startTournament(payload = {}) {
   const client = useSupabaseClient();
-  const userId = assertAuthenticatedUserId();
+  const userId = await assertAuthenticatedUserId(client);
   const tournamentId = assertTournamentId(payload?.tournamentId ?? payload?.tournament_id);
   const tournament = await fetchTournamentById(client, tournamentId);
 
@@ -1429,14 +1429,14 @@ export async function startTournament(payload = {}) {
 
 export async function generateNextRound(payload = {}) {
   const client = useSupabaseClient();
-  const userId = assertAuthenticatedUserId();
+  const userId = await assertAuthenticatedUserId(client);
   const tournamentId = assertTournamentId(payload?.tournamentId ?? payload?.tournament_id);
   return buildAndCreateNextRound(client, tournamentId, userId);
 }
 
 export async function submitMatchResult(payload = {}) {
   const client = useSupabaseClient();
-  const userId = assertAuthenticatedUserId();
+  const userId = await assertAuthenticatedUserId(client);
   const tournamentId = assertTournamentId(payload?.tournamentId ?? payload?.tournament_id);
   const tournament = await fetchTournamentById(client, tournamentId);
 
@@ -1576,7 +1576,7 @@ export async function submitMatchResult(payload = {}) {
 
 export async function syncTournamentMatchFromClassicMatch(payload = {}) {
   const client = useSupabaseClient();
-  const userId = assertAuthenticatedUserId();
+  const userId = await assertAuthenticatedUserId(client);
   const classicMatchId = normalizeUuid(payload?.matchId ?? payload?.match_id);
 
   if (!classicMatchId) {

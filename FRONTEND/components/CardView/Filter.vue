@@ -88,52 +88,68 @@ const activeFiltersCount = computed(() => {
 });
 
 const filtered = computed(() => {
+  const normalizedNameFilter = toNormalizedArray(nameFilter.value);
+  const normalizedColorFilter = toNormalizedArray(colorFilter.value);
+  const normalizedTypeFilter = toNormalizedArray(typesFilter.value);
+  const normalizedSetFilter = toNormalizedArray(setNamesFilter.value);
+  const normalizedFamiliesFilter = toNormalizedArray(familiesFilter.value);
+  const normalizedRarityFilter = toNormalizedArray(rarityFilter.value);
+  const normalizedAbilityKeywordFilter = toNormalizedArray(abilityKwFilter.value);
+  const normalizedAttributeFilter = toNormalizedArray(attributeFilter.value);
+  const normalizedIllustrationFilter = toNormalizedArray(illustrationFilter.value);
+  const normalizedAbilityFilter = normalizeString(abilityFilter.value);
+  const hasPriceFilter =
+    priceFilter.value.min !== 0 || priceFilter.value.max !== null;
+  const priceMin = priceFilter.value.min ?? 0;
+  const priceMax = priceFilter.value.max ?? Number.MAX_SAFE_INTEGER;
+
   return props.cardsList.filter((card) => {
-    const cardColors = Array.isArray(card.color) ? card.color : [];
-    const cardFamily = Array.isArray(card.family) ? card.family : [];
+    const cardColors = toNormalizedArray(card.color);
+    const cardFamily = toNormalizedArray(card.family);
     const cardAbilityKeywords = Array.isArray(card.abilityKeywords)
-      ? card.abilityKeywords
+      ? card.abilityKeywords.map(normalizeString).filter(Boolean)
       : [];
     const cardPower = toFiniteNumber(card.power);
     const cardCost = toFiniteNumber(card.cost);
     const cardCounter = toFiniteNumber(card.counter);
+    const cardName = normalizeString(card.name);
+    const cardType = normalizeString(card.type);
+    const cardSetName = normalizeString(card.setName);
+    const cardRarity = normalizeString(card.rarity);
+    const cardAttribute = normalizeString(card.attribute);
+    const cardIllustration = normalizeString(card.illustration);
 
     const nameMatch =
-      !nameFilter.value ||
-      (Array.isArray(nameFilter.value)
-        ? nameFilter.value.includes(card.name)
-        : nameFilter.value === card.name);
+      !normalizedNameFilter.length ||
+      normalizedNameFilter.includes(cardName);
 
     const colorMatch =
-      !colorFilter.value.length ||
+      !normalizedColorFilter.length ||
       (isMulticolored.value
-        ? colorFilter.value.every((c) => cardColors.includes(c))
-        : cardColors.some((c) => colorFilter.value.includes(c)));
+        ? normalizedColorFilter.every((color) => cardColors.includes(color))
+        : cardColors.some((color) => normalizedColorFilter.includes(color)));
 
     const typeMatch =
-      !typesFilter.value.length || typesFilter.value.includes(card.type);
+      !normalizedTypeFilter.length || normalizedTypeFilter.includes(cardType);
 
     const setMatch =
-      !setNamesFilter.value ||
-      (Array.isArray(setNamesFilter.value)
-        ? setNamesFilter.value.includes(card.setName)
-        : setNamesFilter.value === card.setName);
+      !normalizedSetFilter.length || normalizedSetFilter.includes(cardSetName);
 
     const familyMatch =
-      !familiesFilter.value.length ||
-      cardFamily.some((c) => familiesFilter.value.includes(c));
+      !normalizedFamiliesFilter.length ||
+      cardFamily.some((family) => normalizedFamiliesFilter.includes(family));
 
     const abilityMatch =
-      !abilityFilter.value ||
+      !normalizedAbilityFilter ||
       (card.effect &&
-        card.effect.toLowerCase().includes(abilityFilter.value.toLowerCase()));
+        normalizeString(card.effect).includes(normalizedAbilityFilter));
 
     const abilityKwMatch =
-      !abilityKwFilter.value.length ||
+      !normalizedAbilityKeywordFilter.length ||
       (cardAbilityKeywords.length &&
-        abilityKwFilter.value.every((kw) =>
-          cardAbilityKeywords.some((a) =>
-            a.toLowerCase().includes(kw.toLowerCase())
+        normalizedAbilityKeywordFilter.every((keyword) =>
+          cardAbilityKeywords.some((abilityKeyword) =>
+            abilityKeyword.includes(keyword)
           )
         ));
 
@@ -151,7 +167,8 @@ const filtered = computed(() => {
         cardCost <= costFilter.value[1]);
 
     const rarityMatch =
-      !rarityFilter.value.length || rarityFilter.value.includes(card.rarity);
+      !normalizedRarityFilter.length ||
+      normalizedRarityFilter.includes(cardRarity);
 
     const hasTriggerMatch = hasTriggerFilter.value ? card.trigger : true;
 
@@ -161,19 +178,17 @@ const filtered = computed(() => {
         counterFilter.value.some((value) => toFiniteNumber(value) === cardCounter));
 
     const attributeMatch =
-      !attributeFilter.value.length ||
-      attributeFilter.value.includes(card.attribute);
+      !normalizedAttributeFilter.length ||
+      normalizedAttributeFilter.includes(cardAttribute);
 
     const illustrationMatch =
-      !illustrationFilter.value.length ||
-      illustrationFilter.value.includes(card.illustration);
+      !normalizedIllustrationFilter.length ||
+      normalizedIllustrationFilter.includes(cardIllustration);
 
-    const priceMin = priceFilter.value.min || 0;
-    const priceMax = priceFilter.value.max || Number.MAX_SAFE_INTEGER;
-    const cardPrice = card.slugs
-      ? parseFloat(card.price) || 0
-      : null;
-    const priceMatch = cardPrice >= priceMin && cardPrice <= priceMax;
+    const cardPrice = toFiniteNumber(card.price);
+    const priceMatch =
+      !hasPriceFilter ||
+      (cardPrice !== null && cardPrice >= priceMin && cardPrice <= priceMax);
 
     return (
       nameMatch &&
@@ -201,9 +216,23 @@ function toFiniteNumber(value) {
   return Number.isFinite(parsed) ? parsed : null;
 }
 
+function normalizeString(value) {
+  return String(value ?? "").trim().toLowerCase();
+}
+
+function toNormalizedArray(value) {
+  if (Array.isArray(value)) {
+    return value.map(normalizeString).filter(Boolean);
+  }
+
+  const normalizedValue = normalizeString(value);
+  return normalizedValue ? [normalizedValue] : [];
+}
+
 function resetFilters() {
   nameFilter.value = null;
   colorFilter.value = [];
+  isMulticolored.value = false;
   typesFilter.value = [];
   setNamesFilter.value = null;
   familiesFilter.value = [];
@@ -228,9 +257,9 @@ function closeOverlay() {
 }
 
 onMounted(async () => {
+  resetFilters();
   await nextTick();
   emit("update:filtered", filtered.value);
-  resetFilters();
 });
 </script>
 

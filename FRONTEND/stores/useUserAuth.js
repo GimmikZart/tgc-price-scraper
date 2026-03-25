@@ -13,6 +13,6 @@ export const useUserAuth = defineStore(
   {
     persist: true,
     maxAge: 7 * 24 * 60 * 60,
-    paths: ["role", "email", "userLogged"],
+    paths: ["role", "email"],
   }
 );

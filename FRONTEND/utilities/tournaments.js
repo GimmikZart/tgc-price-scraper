@@ -9,7 +9,7 @@ export const TOURNAMENT_FORMAT_OPTIONS = Object.freeze([
   {
     value: TournamentFormat.SingleElimination,
     label: "Eliminazione diretta",
-    cardLabel: "Single Elimination",
+    cardLabel: "Eliminazione diretta",
     summary: "Bracket rapido: perdi un match e sei fuori.",
     rules: [
       "Tabellone a eliminazione singola con bye automatici quando servono.",
@@ -19,8 +19,8 @@ export const TOURNAMENT_FORMAT_OPTIONS = Object.freeze([
   },
   {
     value: TournamentFormat.Swiss,
-    label: "Swiss",
-    cardLabel: "Swiss",
+    label: "Svizzera",
+    cardLabel: "Svizzera",
     summary: "Piu round garantiti, classifica a punti fino alla fine.",
     rules: [
       "Tutti giocano piu round, anche dopo una sconfitta.",

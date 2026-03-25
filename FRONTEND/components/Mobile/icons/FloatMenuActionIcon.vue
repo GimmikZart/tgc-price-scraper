@@ -58,6 +58,7 @@ const iconAliases = {
   "mdi:pencil": "edit",
   "tabler:circle": "alerts",
   "mdi:show": "visibility",
+  "mdi:account-plus-outline": "user-add",
   "mdi-sort-alphabetical-ascending": "sort-asc",
   "mdi-sort-alphabetical-descending": "sort-desc",
   "mdi-sort-numeric-ascending": "sort-asc",
@@ -278,6 +279,45 @@ const strokeWidth = computed(() => (props.active ? 1.5 : 1));
     <path d="M4.9 16.9C5.6 14.9 7.2 13.7 9 13.7C10.8 13.7 12.4 14.9 13.1 16.9" stroke="currentColor" :stroke-width="strokeWidth" stroke-linecap="round" />
     <circle cx="16.4" cy="15.2" r="3.1" stroke="currentColor" :stroke-width="strokeWidth" />
     <path d="M18.5 17.3L20.3 19.1" stroke="currentColor" :stroke-width="strokeWidth" stroke-linecap="round" />
+  </svg>
+
+  <svg
+    v-else-if="resolvedIconName === 'user-add'"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    aria-hidden="true"
+  >
+    <circle
+      cx="9.2"
+      cy="8.3"
+      r="2.6"
+      stroke="currentColor"
+      :stroke-width="strokeWidth"
+      :fill="active ? 'currentColor' : 'none'"
+      :fill-opacity="active ? 0.1 : 0"
+    />
+    <path
+      d="M4.9 17C5.6 14.9 7.3 13.7 9.2 13.7C11.1 13.7 12.8 14.9 13.5 17"
+      stroke="currentColor"
+      :stroke-width="strokeWidth"
+      stroke-linecap="round"
+    />
+    <circle
+      cx="16.8"
+      cy="14.9"
+      r="3.4"
+      stroke="currentColor"
+      :stroke-width="strokeWidth"
+      :fill="active ? 'currentColor' : 'none'"
+      :fill-opacity="active ? 0.12 : 0"
+    />
+    <path
+      d="M16.8 13.3V16.5M15.2 14.9H18.4"
+      stroke="currentColor"
+      :stroke-width="strokeWidth"
+      stroke-linecap="round"
+    />
   </svg>
 
   <svg

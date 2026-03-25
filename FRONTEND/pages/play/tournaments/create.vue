@@ -70,6 +70,7 @@ const addressInput = ref("");
 const addressSuggestions = ref([]);
 const isLoadingSuggestions = ref(false);
 const isResolvingAddress = ref(false);
+const isUsingCurrentPosition = ref(false);
 const locationHelperMessage = ref("");
 const locationHelperTone = ref("neutral");
 
@@ -531,6 +532,49 @@ async function handleManualAddressSubmit() {
   }
 }
 
+async function handleUseCurrentPosition() {
+  if (isUsingCurrentPosition.value) return;
+
+  if (typeof navigator === "undefined" || !navigator?.geolocation) {
+    locationHelperMessage.value = "Geolocalizzazione non disponibile su questo dispositivo.";
+    locationHelperTone.value = "error";
+    return;
+  }
+
+  touchStep("location");
+  clearAutocompleteTimer();
+  addressSuggestions.value = [];
+  locationHelperMessage.value = "";
+  locationHelperTone.value = "neutral";
+  isUsingCurrentPosition.value = true;
+
+  navigator.geolocation.getCurrentPosition(
+    async (position) => {
+      try {
+        await commitCoordinates({
+          lat: position.coords.latitude,
+          lng: position.coords.longitude,
+        });
+      } catch (error) {
+        locationHelperMessage.value = error?.message || "Impossibile usare la posizione attuale.";
+        locationHelperTone.value = "error";
+      } finally {
+        isUsingCurrentPosition.value = false;
+      }
+    },
+    (error) => {
+      isUsingCurrentPosition.value = false;
+      locationHelperMessage.value = error?.message || "Impossibile recuperare la posizione attuale.";
+      locationHelperTone.value = "error";
+    },
+    {
+      enableHighAccuracy: true,
+      timeout: 12000,
+      maximumAge: 0,
+    },
+  );
+}
+
 async function handleCreateTournament() {
   if (isCreatingTournament.value) return;
 
@@ -567,7 +611,15 @@ async function handleCreateTournament() {
     snackbar.addMessage("Torneo creato correttamente", "success");
     await router.push(createdTournament?.id ? `/play/tournaments/${createdTournament.id}` : "/play/tournaments");
   } catch (error) {
-    snackbar.addMessage(error?.message || "Errore durante la creazione del torneo", "error");
+    const errorMessage = error?.message || "Errore durante la creazione del torneo";
+    snackbar.addMessage(errorMessage, "error");
+
+    if (errorMessage.includes("Sessione non valida o scaduta")) {
+      await router.push({
+        path: "/login",
+        query: { needLogin: "true" },
+      });
+    }
   } finally {
     isCreatingTournament.value = false;
   }
@@ -850,12 +902,23 @@ definePageMeta({
                 <p class="text-[0.64rem] font-black uppercase tracking-[0.16em] text-[#ffb77c]">Step 5</p>
                 <p class="mt-1 text-[0.96rem] font-black leading-tight text-slate-50">Dove si gioca</p>
                 <p class="mt-1 text-[0.72rem] leading-4 text-slate-200/82">Tocca, trascina o cerca un indirizzo.</p>
+                <div class="mt-2">
+                  <button
+                    type="button"
+                    class="inline-flex min-h-[2rem] items-center gap-1.5 rounded-full border border-white/12 bg-white/5 px-2.5 py-1 text-[0.72rem] font-extrabold text-slate-100 transition-colors duration-200 hover:border-[#ffb27d]/35 hover:bg-[#ff7a18]/10 hover:text-[#ffebd8]"
+                    :disabled="isUsingCurrentPosition"
+                    @click="handleUseCurrentPosition"
+                  >
+                    <v-icon size="15">{{ isUsingCurrentPosition ? "mdi-loading mdi-spin" : "mdi-crosshairs-gps" }}</v-icon>
+                    <span>{{ isUsingCurrentPosition ? "Posizione..." : "Mia posizione" }}</span>
+                  </button>
+                </div>
                 <div class="mt-2 rounded-[15px] border border-white/12 bg-[linear-gradient(160deg,rgba(8,12,20,0.95),rgba(2,5,10,0.98))] p-1.5 shadow-[inset_0_1px_0_rgba(255,255,255,0.08),0_12px_18px_rgba(0,0,0,0.24)]">
                   <form class="flex items-center gap-1.5" @submit.prevent="handleManualAddressSubmit">
                     <input
                       :value="addressInput"
                       type="text"
-                      placeholder="Cerca indirizzo o attivita"
+                      placeholder="Cerca indirizzo"
                       class="tournament-create-address-field !min-h-[2.7rem] !rounded-[0.95rem] !px-3 !text-[0.84rem]"
                       @input="handleAddressInput"
                     >

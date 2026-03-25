@@ -1,5 +1,5 @@
 <script setup>
-defineProps({
+const props = defineProps({
   steps: {
     type: Array,
     default: () => [],
@@ -9,14 +9,72 @@ defineProps({
     default: 0,
   },
 });
+
+const stepperRef = ref(null);
+const stepItemRefs = ref([]);
+
+function setStepItemRef(index, element) {
+  stepItemRefs.value[index] = element ?? null;
+}
+
+function scrollActiveStepIntoView() {
+  const container = stepperRef.value;
+  const activeItem = stepItemRefs.value[props.activeStep] ?? null;
+
+  if (!container || !activeItem) return;
+
+  const horizontalPadding = 12;
+  const containerLeft = container.scrollLeft;
+  const containerRight = containerLeft + container.clientWidth;
+  const itemLeft = activeItem.offsetLeft;
+  const itemRight = itemLeft + activeItem.offsetWidth;
+
+  let nextScrollLeft = null;
+
+  if (itemLeft - horizontalPadding < containerLeft) {
+    nextScrollLeft = Math.max(itemLeft - horizontalPadding, 0);
+  } else if (itemRight + horizontalPadding > containerRight) {
+    nextScrollLeft = Math.max(
+      itemRight - container.clientWidth + horizontalPadding,
+      0,
+    );
+  }
+
+  if (nextScrollLeft === null || Math.abs(nextScrollLeft - container.scrollLeft) < 1) {
+    return;
+  }
+
+  container.scrollTo({
+    left: nextScrollLeft,
+    behavior: "smooth",
+  });
+}
+
+watch(
+  () => props.activeStep,
+  async () => {
+    await nextTick();
+
+    if (typeof window !== "undefined" && typeof window.requestAnimationFrame === "function") {
+      window.requestAnimationFrame(() => {
+        scrollActiveStepIntoView();
+      });
+      return;
+    }
+
+    scrollActiveStepIntoView();
+  },
+  { immediate: true, flush: "post" },
+);
 </script>
 
 <template>
-  <div class="tournament-create-stepper" aria-label="Avanzamento creazione torneo">
+  <div ref="stepperRef" class="tournament-create-stepper" aria-label="Avanzamento creazione torneo">
     <div class="tournament-create-stepper__track">
       <div
         v-for="(step, index) in steps"
         :key="step.key ?? index"
+        :ref="(element) => setStepItemRef(index, element)"
         class="tournament-create-stepper__item"
         :class="{
           'tournament-create-stepper__item--active': index === activeStep,

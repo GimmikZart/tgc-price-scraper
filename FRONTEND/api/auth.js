@@ -25,7 +25,7 @@ export async function signInApi(email, password) {
   const client = useSupabaseClient()
   const userAuth = useUserAuth()
   try {
-    const { error: loginError } = await client.auth.signInWithPassword({
+    const { data: loginData, error: loginError } = await client.auth.signInWithPassword({
       email: email,
       password: password
     })
@@ -38,7 +38,13 @@ export async function signInApi(email, password) {
       }
     }
 
-    const {data: profileData, error: profileError }= await client.from('profiles').select('*').eq('id', userAuth.userLogged.id).single()
+    const authenticatedUserId = loginData?.user?.id ?? null
+
+    if (!authenticatedUserId) {
+      return { error: 'Sessione non valida, effettua di nuovo il login' }
+    }
+
+    const {data: profileData, error: profileError }= await client.from('profiles').select('*').eq('id', authenticatedUserId).single()
 
     if (profileError) {
       return { error: 'Qualcosa è andato storto' }

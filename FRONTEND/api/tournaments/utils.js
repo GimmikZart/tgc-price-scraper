@@ -95,14 +95,38 @@ export function nextPowerOfTwo(value) {
   return 2 ** Math.ceil(Math.log2(normalizedValue));
 }
 
-export function getAuthenticatedUserId() {
-  return normalizeUuid(useUserAuth()?.userLogged?.id ?? null);
+async function clearInvalidSupabaseSession(client) {
+  if (!client?.auth?.signOut) return;
+
+  try {
+    await client.auth.signOut();
+  } catch {
+    // Ignoriamo errori secondari durante la pulizia della sessione locale.
+  }
 }
 
-export function assertAuthenticatedUserId() {
-  const userId = getAuthenticatedUserId();
+export async function getAuthenticatedUserId(client = null) {
+  const supabaseClient = client ?? useSupabaseClient();
+
+  try {
+    const { data, error } = await supabaseClient.auth.getUser();
+
+    if (error) {
+      await clearInvalidSupabaseSession(supabaseClient);
+      return null;
+    }
+
+    return normalizeUuid(data?.user?.id ?? null);
+  } catch {
+    await clearInvalidSupabaseSession(supabaseClient);
+    return null;
+  }
+}
+
+export async function assertAuthenticatedUserId(client = null) {
+  const userId = await getAuthenticatedUserId(client);
   if (!userId) {
-    throw new Error("Utente non autenticato");
+    throw new Error("Sessione non valida o scaduta. Effettua di nuovo il login.");
   }
   return userId;
 }

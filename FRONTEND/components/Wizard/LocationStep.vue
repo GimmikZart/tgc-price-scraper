@@ -667,7 +667,7 @@ onBeforeUnmount(() => {
   flex-direction: column;
   align-items: center;
   gap: 0.55rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .location-wizard-step__position-button {

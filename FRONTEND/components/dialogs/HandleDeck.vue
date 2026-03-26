@@ -61,13 +61,19 @@ async function onConfirm() {
     <template #title>Crea nuovo Mazzo</template>
 
     <template #content>
-      <v-form ref="formRef">
+      <v-form ref="formRef" autocomplete="off" autocorrect="off" autocapitalize="none">
         <v-text-field
-          label="Nome"
+          label="Nome mazzo"
           v-model="deckName"
           :rules="[rules.required, rules.alphanumeric]"
           density="compact"
           variant="outlined"
+          name="deck-name"
+          autocomplete="off"
+          autocorrect="off"
+          autocapitalize="none"
+          spellcheck="false"
+          inputmode="text"
           hint="Il nome del mazzo non può contenere caratteri speciali."
           persistent-hint
         />

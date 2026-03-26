@@ -16,6 +16,10 @@ const props = defineProps({
     type: Boolean,
     default: false,
   },
+  typeItems: {
+    type: Array,
+    default: null,
+  },
 });
 
 const {
@@ -86,6 +90,10 @@ const activeFiltersCount = computed(() => {
 
   return count;
 });
+
+const availableTypeItems = computed(() => (
+  Array.isArray(props.typeItems) ? props.typeItems : typeList
+));
 
 const filtered = computed(() => {
   const normalizedNameFilter = toNormalizedArray(nameFilter.value);
@@ -229,6 +237,25 @@ function toNormalizedArray(value) {
   return normalizedValue ? [normalizedValue] : [];
 }
 
+function normalizeSelectItem(item) {
+  if (item && typeof item === "object" && !Array.isArray(item)) {
+    const title =
+      item.title ?? item.label ?? item.name ?? item.text ?? item.value ?? item.id ?? "";
+    const value = item.value ?? item.id ?? title;
+
+    return {
+      ...item,
+      title: String(title),
+      value,
+    };
+  }
+
+  return {
+    title: String(item ?? ""),
+    value: item,
+  };
+}
+
 function resetFilters() {
   nameFilter.value = null;
   colorFilter.value = [];
@@ -247,6 +274,35 @@ function resetFilters() {
   illustrationFilter.value = [];
   priceFilter.value = createDefaultPriceFilter();
 }
+
+watch(
+  () => props.hideColorFilter,
+  (hideColorFilter) => {
+    if (!hideColorFilter) return;
+
+    colorFilter.value = [];
+    isMulticolored.value = false;
+  },
+  { immediate: true },
+);
+
+watch(
+  availableTypeItems,
+  (items) => {
+    const allowedTypes = new Set(
+      (Array.isArray(items) ? items : [])
+        .map((item) => normalizeSelectItem(item).value)
+        .map(normalizeString),
+    );
+
+    if (!typesFilter.value.length) return;
+
+    typesFilter.value = typesFilter.value.filter((type) =>
+      allowedTypes.has(normalizeString(type)),
+    );
+  },
+  { immediate: true },
+);
 
 watch(filtered, (newVal) => {
   emit("update:filtered", newVal);
@@ -322,7 +378,7 @@ onMounted(async () => {
       <div v-if="!props.isLeaderFilter" class="filter-item-shell">
         <InputSelect
           v-model="typesFilter"
-          :items="typeList"
+          :items="availableTypeItems"
           multiple
           label="Filtra per tipo"
         />

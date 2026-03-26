@@ -1,6 +1,10 @@
-import { useNuxtApp } from "#app";
 import { DeckLocation, normalizeDeckLocation } from "~/enums/deckLocation";
 import { useSnackbar } from "@/stores/useSnackbar";
+import {
+  getDeckLocalDb,
+  isDeckLocalDbClosingError,
+  resetDeckLocalDb
+} from "@/utilities/deckLocalDb";
 
 import {
   fetchUserDecks,
@@ -10,22 +14,36 @@ import {
 } from "~/api/decks";
 
 export function useDeckManager() {
-  const nuxt = useNuxtApp();
-  const db = nuxt.$deckLocalDb; // viene iniettato dal plugin client-only
-
   const userAuth = useUserAuth();
   const userUuid = userAuth.userLogged.id;
+
+  const withLocalDb = async (operation) => {
+    try {
+      const db = await getDeckLocalDb();
+      return await operation(db);
+    } catch (error) {
+      if (!isDeckLocalDbClosingError(error)) {
+        throw error;
+      }
+
+      console.warn("[deckLocalDb] connection was closing, retrying operation once");
+      resetDeckLocalDb();
+
+      const reopenedDb = await getDeckLocalDb();
+      return operation(reopenedDb);
+    }
+  };
 
   //
   // DEVICE (IndexedDB via db)
   //
   const saveLocal = async (deck) => {
     const plainDeck = JSON.parse(JSON.stringify(deck));
-    return db.put("decks", plainDeck);
+    return withLocalDb((db) => db.put("decks", plainDeck));
   };
 
   const getAllLocal = async () => {
-    const decks = await db.getAll("decks");
+    const decks = await withLocalDb((db) => db.getAll("decks"));
     decks.forEach((deck) => {
       deck.isLocal = true; // Aggiungo un flag per identificare i mazzi locali
     });
@@ -33,16 +51,16 @@ export function useDeckManager() {
   };
 
   const getLocal = async (slug) => {
-    const deck = await db.get("decks", slug);
+    const deck = await withLocalDb((db) => db.get("decks", slug));
     if (!deck) return;
     deck.isLocal = true; // Aggiungo un flag per identificare i mazzi locali
     return deck;
   };
 
   const removeLocal = async (slug) => {
-    const deck = await db.get("decks", slug);
+    const deck = await withLocalDb((db) => db.get("decks", slug));
     if (!deck) return;
-    return db.delete("decks", slug);
+    return withLocalDb((db) => db.delete("decks", slug));
   };
 
   //

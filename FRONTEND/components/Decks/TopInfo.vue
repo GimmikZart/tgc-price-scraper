@@ -73,7 +73,7 @@ const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer
       </div>
       <div class="w-1/5 h-full grow flex gap-1 flex-col">
         <div
-          v-for="(color, idx) in leaderChoosen.color"
+          v-for="(color, idx) in Array.isArray(leaderChoosen?.color) ? leaderChoosen.color : []"
           :key="idx"
           :class="`bg-${color.toLowerCase()}`"
           class="text-xs px-2 h-full rounded flex items-center justify-center border-[1px] border-white/20"

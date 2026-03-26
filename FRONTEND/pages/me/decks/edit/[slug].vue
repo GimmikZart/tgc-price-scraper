@@ -3,20 +3,32 @@ import { Icon } from "@iconify/vue";
 import ProfileSectionsTabs from "@/components/Tabs/ProfileSectionsTabs.vue";
 import { copyDeckOnClipboard } from "@/utilities/copyDeckOnClipboard";
 import { usePageLoader } from "@/stores/usePageLoader";
-import { DeckLocation } from "~/enums/deckLocation";
+import { DeckLocation, normalizeDeckLocation } from "~/enums/deckLocation";
 
 const snackbar = useSnackbar();
 const pageLoader = usePageLoader();
 const MAX_DECK_CARDS = 50;
 const DECK_LIMIT_ERROR_MESSAGE = "Hai raggiunto il numero massimo di carte inseribili nel deck";
+const DECK_BUILDER_ALLOWED_TYPE_VALUES = ["character", "event", "stage"];
+const DECK_BUILDER_ALLOWED_TYPE_SET = new Set(DECK_BUILDER_ALLOWED_TYPE_VALUES);
 
 
 
-const { allCards } = await useOnePieceCards();
+const { allCards, typeList } = await useOnePieceCards();
 const mobileFloatMenu = useMobileFloatMenu();
 const route = useRoute();
 const router = useRouter();
 const { getLocal, saveLocal, getCloud, publish } = useDeckManager();
+const deckLocation = computed(() => normalizeDeckLocation(route.query.location));
+const draftDeckName = computed(() => {
+  const rawDraftName = route.query.draftName;
+
+  if (Array.isArray(rawDraftName)) {
+    return String(rawDraftName[0] ?? "").trim();
+  }
+
+  return typeof rawDraftName === "string" ? rawDraftName.trim() : "";
+});
 
 const currentDeck = ref({
   name: "",
@@ -63,25 +75,51 @@ useScrollAnchor({
   triggerVariable: visibleCards,
 })
 
+function normalizeCardType(value) {
+  return String(value ?? "").trim().toLowerCase();
+}
+
+function normalizeCardColors(value) {
+  if (Array.isArray(value)) {
+    return value
+      .map((color) => String(color ?? "").trim().toLowerCase())
+      .filter(Boolean);
+  }
+
+  const normalizedColor = String(value ?? "").trim().toLowerCase();
+  return normalizedColor ? [normalizedColor] : [];
+}
+
 const leaderCards = computed(() => {
-  return allCards.filter((card) => card.type === "LEADER");
+  return allCards.filter((card) => normalizeCardType(card.type) === "leader");
+});
+
+const builderTypeFilterOptions = computed(() => {
+  return DECK_BUILDER_ALLOWED_TYPE_VALUES
+    .map((allowedType) => typeList.find((type) => normalizeCardType(type) === allowedType))
+    .filter(Boolean);
 });
 
 
 
 const builderCards = computed(() => {
-  if (leaderChoosen.value != null) {
-    return allCards.filter((card) => {
-      const cardHasLeaderColor = leaderChoosen.value?.color?.some((item) =>
-        card.color.includes(item)
-      );
-      const cardIsNotTypeLeader = card.type !== "LEADER";
-      return cardIsNotTypeLeader && cardHasLeaderColor;
-    });
-  } else {
-    // prima schermata: scegli un LEADER
+  if (leaderChoosen.value == null) {
     return leaderCards.value;
   }
+
+  const leaderColors = normalizeCardColors(leaderChoosen.value?.color);
+  if (!leaderColors.length) return [];
+
+  return allCards.filter((card) => {
+    const normalizedType = normalizeCardType(card.type);
+    if (!DECK_BUILDER_ALLOWED_TYPE_SET.has(normalizedType)) {
+      return false;
+    }
+
+    const cardColors = normalizeCardColors(card.color);
+    return cardColors.length > 0
+      && cardColors.every((color) => leaderColors.includes(color));
+  });
 });
 
 const singleCardsInDeck = computed(() => {
@@ -120,6 +158,7 @@ function chooseLeader(cardOrId) {
   currentDeck.value.leader = cardId;
   const leaderCard = leaderCards.value.find((c) => c.id === cardId);
   leaderChoosen.value = leaderCard || null;
+  showDeck.value = false;
 
   // reset lista filtrata sul nuovo insieme “builderCards”
   filteredCards.value = builderCards.value.slice();
@@ -166,25 +205,61 @@ function setDeckAction(nextAction) {
 }
 
 // Persistenza locale del deck sul dispositivo
-watch(currentDeck, (current) => { saveLocal(current); }, { deep: true });
+watch(currentDeck, async (current) => {
+  if (deckLocation.value !== DeckLocation.DEVICE || !current?.leader) return;
+
+  try {
+    await saveLocal(current);
+  } catch (error) {
+    snackbar.addMessage(error?.message || "Errore durante il salvataggio locale del deck", "error");
+  }
+}, { deep: true });
+
+function initializeDraftDeck(slug) {
+  currentDeck.value = {
+    name: draftDeckName.value || slug,
+    slug,
+    leader: null,
+    cards: [],
+    visibility: "private",
+    location: DeckLocation.DEVICE,
+  };
+  leaderChoosen.value = null;
+  showDeck.value = false;
+}
 
 async function getDeckFromSlug(slug) {
   if (!slug) return;
-  // 1) prova locale
-  const local = await getLocal(slug);
-  if (local) {
-    currentDeck.value = local;
-    currentDeck.value.isPublished = false;
-    chooseLeader(local.leader);
+
+  if (deckLocation.value === DeckLocation.DEVICE) {
+    const localDeck = await getLocal(slug);
+    if (localDeck) {
+      currentDeck.value = localDeck;
+      currentDeck.value.isPublished = false;
+      chooseLeader(localDeck.leader);
+      return;
+    }
+
+    if (draftDeckName.value) {
+      initializeDraftDeck(slug);
+      return;
+    }
+
+    snackbar.addMessage("Mazzo non trovato", "error");
+    await router.push(`/me/decks?location=${DeckLocation.DEVICE}`);
     return;
   }
-  // 2) fallback cloud
+
   const cloudDeck = await getCloud(slug);
   if (cloudDeck) {
     currentDeck.value = cloudDeck;
     currentDeck.value.isPublished = true;
     chooseLeader(cloudDeck.leader);
+    return;
   }
+
+  snackbar.addMessage("Mazzo non trovato", "error");
+  await router.push(`/me/decks?location=${DeckLocation.CLOUD}`);
 }
 
 async function saveCloudDeck() {
@@ -298,7 +373,9 @@ provide("actionOnDeck", actionOnDeck);
       @update:filtered="handleFilteredUpdate"
       @close="openFilter = false"
       :multicolor="false"
+      :hide-color-filter="leaderChoosen != null"
       :is-leader-filter="leaderChoosen == null"
+      :type-items="leaderChoosen ? builderTypeFilterOptions : null"
     />
 
     <MobileFloatMenu v-if="showDeck && leaderChoosen" :cols="3">

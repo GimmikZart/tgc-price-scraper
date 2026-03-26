@@ -9,7 +9,6 @@ const snackbar = useSnackbar();
 const isLoading = ref(false);
 const deckName = ref("");
 const router = useRouter();
-const { saveLocal } = useDeckManager();
 
 const rules = {
   required: (v) => !!v || "Il nome del mazzo è obbligatorio.",
@@ -29,20 +28,13 @@ async function onConfirm() {
     // genera slug
     const slug = deckName.value.toLowerCase().replace(/\s+/g, "-");
 
-    // costruisci il nuovo deck
-    const newDeck = {
-      name: deckName.value,
-      slug,
-      leader: null,
-      cards: [],
-      visibility: "private",
-      location: DeckLocation.DEVICE,
-    };
-
-    await saveLocal(newDeck);
-
-    // redirect alla pagina di editing
-    router.push(`/me/decks/edit/${slug}?location=${DeckLocation.DEVICE}`);
+    router.push({
+      path: `/me/decks/edit/${slug}`,
+      query: {
+        location: DeckLocation.DEVICE,
+        draftName: deckName.value,
+      },
+    });
   } catch (error) {
     snackbar.addMessage("Errore durante la creazione del mazzo", "error", error);
   } finally {

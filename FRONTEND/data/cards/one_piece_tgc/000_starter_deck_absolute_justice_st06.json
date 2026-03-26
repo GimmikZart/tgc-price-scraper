@@ -13,7 +13,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] ③ (You may rest the specified number of DON!! cards in your cost area.) You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 0.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] ③ (You may rest the specified number of DON!! cards in your cost area.) You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 0.",
+      "it": "[Activate: Main] [Once Per Turn] ③ (Puoi lasciare il numero specificato di carte DON!! nella tua area di costo.) Puoi mandare nel Trash 1 carta dalla tua mano: K. O. fino a 1 dei Personaggi del tuo avversario con un costo pari a 0."
+    },
     "trigger": null,
     "setName": "Absolute Justice [ST-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-001.png",
@@ -47,7 +50,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 0.",
+    "effect": {
+      "en": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 0.",
+      "it": "[On Play] Puoi mandare nel Trash 1 carta dalla tua mano: K. O. fino a 1 personaggio del tuo avversario con un costo pari a 0."
+    },
     "trigger": null,
     "setName": "Absolute Justice [ST-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-002.png",
@@ -110,7 +116,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "This Character cannot be K.O.'d by effects.[DON!! x1] If there is a Character with a cost of 0, this Character gains [Double Attack].(This card deals 2 damage.)",
+    "effect": {
+      "en": "This Character cannot be K.O.'d by effects.[DON!! x1] If there is a Character with a cost of 0, this Character gains [Double Attack].(This card deals 2 damage.)",
+      "it": "Questo personaggio non può essere K. O. dagli effetti. [DON!! x1] Se c'è un personaggio con un costo pari a 0, questo personaggio ottiene [Double Attack]. (Questa carta infligge 2 danni.)"
+    },
     "trigger": null,
     "setName": "Absolute Justice [ST-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-004.png",
@@ -144,7 +153,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[When Attacking] Give up to 1 of your opponent's Characters −4 cost during this turn.",
+    "effect": {
+      "en": "[When Attacking] Give up to 1 of your opponent's Characters −4 cost during this turn.",
+      "it": "[When Attacking] Dai −4 costo a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "Absolute Justice [ST-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-005.png",
@@ -177,7 +189,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −2 cost during this turn.",
+    "effect": {
+      "en": "[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −2 cost during this turn.",
+      "it": "[Activate: Main] Puoi mettere in stato spossato questo Personaggio: Dai −2 costo a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "Absolute Justice [ST-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-006.png",
@@ -210,7 +225,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "Absolute Justice [ST-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-007.png",
@@ -243,7 +261,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] Give up to 1 of your opponent's Characters −4 cost during this turn.",
+    "effect": {
+      "en": "[On Play] Give up to 1 of your opponent's Characters −4 cost during this turn.",
+      "it": "[On Play] Dai −4 costo a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "Absolute Justice [ST-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-008.png",
@@ -306,7 +327,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] Give up to 1 of your opponent's Characters −3 cost during this turn.",
+    "effect": {
+      "en": "[On Play] Give up to 1 of your opponent's Characters −3 cost during this turn.",
+      "it": "[On Play] Dai −3 costo a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "Absolute Justice [ST-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-010.png",
@@ -369,7 +393,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Activate: Main] You may trash 1 card from your hand and rest this Character: K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "effect": {
+      "en": "[Activate: Main] You may trash 1 card from your hand and rest this Character: K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+      "it": "[Activate: Main] Puoi mandare nel Trash 1 carta dalla tua mano e mettere in stato spossato questo Personaggio: K. O. fino a 1 dei Personaggi del tuo avversario con un costo pari o inferiore a 4."
+    },
     "trigger": null,
     "setName": "Absolute Justice [ST-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-012.png",
@@ -432,7 +459,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, K.O. up to 1 of your opponent's active Characters with a cost of 3 or less.",
+    "effect": {
+      "en": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, K.O. up to 1 of your opponent's active Characters with a cost of 3 or less.",
+      "it": "[Counter] Fino a 1 delle tue carte Leader o Personaggio ottiene +4000 power durante questa battaglia. Poi, K. O. fino a 1 dei personaggi attivi del tuo avversario con un costo pari o inferiore a 3."
+    },
     "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
     "setName": "Absolute Justice [ST-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-014.png",
@@ -465,7 +495,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Main] Draw 1 card. Then, give up to 1 of your opponent's Characters −2 cost during this turn.",
+    "effect": {
+      "en": "[Main] Draw 1 card. Then, give up to 1 of your opponent's Characters −2 cost during this turn.",
+      "it": "[Main] Pesca 1 carta. Poi, rinuncia a 1 personaggio del tuo avversario al -2 costo durante questo turno."
+    },
     "trigger": "Trigger[Trigger] Your opponent chooses 1 card from their hand and trashes it.",
     "setName": "Absolute Justice [ST-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-015.png",
@@ -498,7 +531,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle.",
+    "effect": {
+      "en": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle.",
+      "it": "[Counter] Fino a 1 delle tue carte Leader o Personaggio ottiene +2000 power durante questa battaglia."
+    },
     "trigger": "Trigger[Trigger] Draw 1 card and none of your Characters can be K.O.'d during this turn.",
     "setName": "Absolute Justice [ST-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-016.png",
@@ -531,7 +567,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] Give up to 1 of your opponent's Characters −1 cost during this turn.[Activate: Main] You may rest this Stage: If your Leader has the {Navy} type, give up to 1 of your opponent's Characters −1 cost during this turn.",
+    "effect": {
+      "en": "[On Play] Give up to 1 of your opponent's Characters −1 cost during this turn.[Activate: Main] You may rest this Stage: If your Leader has the {Navy} type, give up to 1 of your opponent's Characters −1 cost during this turn.",
+      "it": "[On Play] Dai −1 costo a un massimo di 1 Personaggio del tuo avversario durante questo turno. [Activate: Main] Puoi mettere in stato spossato in questa fase: se il tuo Leader ha il tipo {Navy}, Dai −1 costo a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "Absolute Justice [ST-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-017.png",

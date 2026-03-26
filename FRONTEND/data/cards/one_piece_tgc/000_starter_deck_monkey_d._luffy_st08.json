@@ -13,7 +13,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Your Turn] When a Character is K.O.'d, give up to 1 rested DON!! card to this Leader.",
+    "effect": {
+      "en": "[Your Turn] When a Character is K.O.'d, give up to 1 rested DON!! card to this Leader.",
+      "it": "[Your Turn] Quando un personaggio è K. O. , Assegna fino a 1 carta DON!! in stato spossato a questo Leader."
+    },
     "trigger": null,
     "setName": "Monkey D. Luffy [ST-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST08-001.png",
@@ -46,7 +49,10 @@
     "family": [
       "FILM"
     ],
-    "effect": "This Character cannot be K.O.'d in battle by Leaders.[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −2 cost during this turn.",
+    "effect": {
+      "en": "This Character cannot be K.O.'d in battle by Leaders.[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −2 cost during this turn.",
+      "it": "Questo Personaggio non può essere K. O. in battaglia dai Leader. [Activate: Main] Puoi mettere in stato spossato questo Personaggio: Dai −2 costo a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "Monkey D. Luffy [ST-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST08-002.png",
@@ -109,7 +115,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Activate: Main] You may rest this Character: K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
+    "effect": {
+      "en": "[Activate: Main] You may rest this Character: K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
+      "it": "[Activate: Main] Puoi mettere in stato spossato questo Personaggio: K. O. up to 1 of your opponent's Personaggi with a cost of 2 or less."
+    },
     "trigger": null,
     "setName": "Monkey D. Luffy [ST-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST08-004.png",
@@ -142,7 +151,10 @@
     "family": [
       "Red-Haired Pirates"
     ],
-    "effect": "[On Play] You may trash 1 card from your hand: K.O. all Characters with a cost of 1 or less.",
+    "effect": {
+      "en": "[On Play] You may trash 1 card from your hand: K.O. all Characters with a cost of 1 or less.",
+      "it": "[On Play] Puoi mandare nel Trash 1 carta dalla tua mano: K. O. tutti i Personaggi con un costo pari o inferiore a 1."
+    },
     "trigger": null,
     "setName": "Monkey D. Luffy [ST-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST08-005.png",
@@ -175,7 +187,10 @@
     "family": [
       "Merfolk"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Give up to 1 of your opponent's Characters −4 cost during this turn.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Give up to 1 of your opponent's Characters −4 cost during this turn.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, Puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On Play] Dai −4 costo a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "Monkey D. Luffy [ST-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST08-006.png",
@@ -209,7 +224,10 @@
     "family": [
       "Alabasta"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": "Trigger[Trigger] Play this card.",
     "setName": "Monkey D. Luffy [ST-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST08-007.png",
@@ -242,7 +260,10 @@
     "family": [
       "Mountain Bandits"
     ],
-    "effect": "[On Play] Give up to 1 of your opponent's Characters −2 cost during this turn.",
+    "effect": {
+      "en": "[On Play] Give up to 1 of your opponent's Characters −2 cost during this turn.",
+      "it": "[On Play] Dai −2 costo a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "Monkey D. Luffy [ST-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST08-008.png",
@@ -275,7 +296,10 @@
     "family": [
       "Windmill Village"
     ],
-    "effect": "[On Play] If there is a Character with a cost of 0, draw 1 card.",
+    "effect": {
+      "en": "[On Play] If there is a Character with a cost of 0, draw 1 card.",
+      "it": "[On Play] Se c'è un Personaggio con costo pari a 0, pesca 1 carta."
+    },
     "trigger": null,
     "setName": "Monkey D. Luffy [ST-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST08-009.png",
@@ -398,7 +422,10 @@
     "family": [
       "Former Baroque Works"
     ],
-    "effect": "[DON!! x1] At the end of a battle in which this Character battles your opponent's Character, you may K.O. the opponent’s Character you battled with. If you do, K.O. this Character.",
+    "effect": {
+      "en": "[DON!! x1] At the end of a battle in which this Character battles your opponent's Character, you may K.O. the opponent’s Character you battled with. If you do, K.O. this Character.",
+      "it": "[DON!! x1] Alla fine di una battaglia in cui questo personaggio affronta il personaggio del tuo avversario, puoi K. O. il personaggio dell'avversario con cui hai combattuto. Se lo fai, K. O. questo personaggio."
+    },
     "trigger": null,
     "setName": "Monkey D. Luffy [ST-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST08-013.png",
@@ -431,7 +458,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Main] You may add 1 card from the top of your Life cards to your hand: Give up to 1 of your opponent's Characters −7 cost during this turn.",
+    "effect": {
+      "en": "[Main] You may add 1 card from the top of your Life cards to your hand: Give up to 1 of your opponent's Characters −7 cost during this turn.",
+      "it": "[Main] Puoi aggiungere 1 carta dalla cima del tuo carte Life alla tua mano: Dai −7 costo a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": "Trigger[Trigger] Add up to 1 black Character card with a cost of 2 or less from your trash to your hand.",
     "setName": "Monkey D. Luffy [ST-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST08-014.png",
@@ -464,7 +494,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Main] K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
+    "effect": {
+      "en": "[Main] K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
+      "it": "[Main] K. O. fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 2."
+    },
     "trigger": "Trigger[Trigger] Draw 1 card.",
     "setName": "Monkey D. Luffy [ST-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST08-015.png",

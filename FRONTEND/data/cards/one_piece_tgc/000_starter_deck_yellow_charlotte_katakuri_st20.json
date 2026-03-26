@@ -13,7 +13,10 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[DON!! x1] [When Attacking] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards. Then, this Leader gains +1000 power during this battle.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards. Then, this Leader gains +1000 power during this battle.",
+      "it": "[DON!! x1] [When Attacking] Guarda fino a 1 carta dalla cima delle tue carte Life o del tuo avversario e posizionala in cima o in fondo al carte Life. Quindi, Questo Leader guadagna +1000 power durante questa battaglia."
+    },
     "trigger": null,
     "setName": "Yellow Charlotte Katakuri [ST-20]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-099_p2.png",
@@ -77,7 +80,10 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "Yellow Charlotte Katakuri [ST-20]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-107_r1.png",
@@ -110,7 +116,10 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: This Character gains +2000 power during this battle.",
+    "effect": {
+      "en": "[When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: This Character gains +2000 power during this battle.",
+      "it": "[When Attacking] Puoi aggiungere 1 carta dalla cima o dal fondo delle tue carte Life alla tua mano: Questo Personaggio guadagna +2000 power durante questa battaglia."
+    },
     "trigger": "Trigger[Trigger] You may trash 1 card from your hand: Play this card.",
     "setName": "Yellow Charlotte Katakuri [ST-20]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-110_r1.png",
@@ -143,7 +152,10 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 [Sanji] or {Big Mom Pirates} type card other than [Charlotte Pudding] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 [Sanji] or {Big Mom Pirates} type card other than [Charlotte Pudding] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 4 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo [Sanji] o {Big Mom Pirates} diversa da [Charlotte Pudding] e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "Yellow Charlotte Katakuri [ST-20]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-112_r1.png",
@@ -176,7 +188,10 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[On Play] You may trash 1 card with a [Trigger] from your hand: K.O. up to 1 of your opponent's Characters with a cost of 1 or less.",
+    "effect": {
+      "en": "[On Play] You may trash 1 card with a [Trigger] from your hand: K.O. up to 1 of your opponent's Characters with a cost of 1 or less.",
+      "it": "[On Play] Puoi mandare nel Trash 1 carta with a [Trigger] dalla tua mano: K. O. up to 1 of your opponent's Personaggi with a cost of 1 or less."
+    },
     "trigger": null,
     "setName": "Yellow Charlotte Katakuri [ST-20]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-115_r1.png",
@@ -211,7 +226,10 @@
       "The Four Emperors",
       "Big Mom Pirates"
     ],
-    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +5000 power during this battle.",
+    "effect": {
+      "en": "[Counter] Up to 1 of your Leader or Character cards gains +5000 power during this battle.",
+      "it": "[Counter] Fino a 1 delle tue carte Leader o Personaggio guadagna +5000 power durante questa battaglia."
+    },
     "trigger": "Trigger[Trigger] You may trash 2 cards from your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
     "setName": "Yellow Charlotte Katakuri [ST-20]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-118_r1.png",
@@ -245,7 +263,10 @@
       "The Four Emperors",
       "Big Mom Pirates"
     ],
-    "effect": "[Main] You may trash 1 card from the top of your Life cards: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "effect": {
+      "en": "[Main] You may trash 1 card from the top of your Life cards: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+      "it": "[Main] Puoi mandare nel Trash 1 carta dalla cima delle tue carte Life: K. O. fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 5."
+    },
     "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
     "setName": "Yellow Charlotte Katakuri [ST-20]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-121_r1.png",
@@ -278,7 +299,10 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[DON!! x1] [When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
+      "it": "[DON!! x1] [When Attacking] Puoi aggiungere 1 carta dalla cima o dal fondo delle tue carte Life alla tua mano: Aggiungi fino a 1 carta dalla cima del tuo mazzo alla cima delle tue carte Life."
+    },
     "trigger": null,
     "setName": "Yellow Charlotte Katakuri [ST-20]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-005_r1.png",
@@ -343,7 +367,10 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Activate: Main] [Once Per Turn] You may turn 1 card from the top of your Life cards face-up: Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Activate: Main] [Once Per Turn] You may turn 1 card from the top of your Life cards face-up: Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[Activate: Main] [Once Per Turn] Puoi girare 1 carta dalla cima delle tue carte Life scoperta: Dai fino a 1 in stato spossato carta DON!! al tuo Leader o 1 dei tuoi Personaggi."
+    },
     "trigger": null,
     "setName": "Yellow Charlotte Katakuri [ST-20]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST20-001.png",
@@ -378,7 +405,10 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[Once Per Turn] If this Character would be K.O.'d by an effect, you may trash 1 card from the top of your Life cards instead.",
+    "effect": {
+      "en": "[Once Per Turn] If this Character would be K.O.'d by an effect, you may trash 1 card from the top of your Life cards instead.",
+      "it": "[Once Per Turn] Se questo Personaggio dovesse essere K. O. a causa di un effetto, puoi invece Manda nel Trash 1 carta dalla cima delle tue carte Life."
+    },
     "trigger": "Trigger[Trigger] You may trash 1 card from your hand: Play this card.",
     "setName": "Yellow Charlotte Katakuri [ST-20]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST20-002.png",
@@ -441,7 +471,10 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[On Play] You may add 1 card from the top of your Life cards to your hand: Set up to 1 of your {Big Mom Pirates} type Characters with a cost of 3 or less as active.",
+    "effect": {
+      "en": "[On Play] You may add 1 card from the top of your Life cards to your hand: Set up to 1 of your {Big Mom Pirates} type Characters with a cost of 3 or less as active.",
+      "it": "[On Play] Puoi aggiungere 1 carta dalla cima delle tue carte Life alla tua mano: Posiziona fino a 1 dei tuoi personaggi di tipo {Big Mom Pirates} con un costo pari o inferiore a 3 come attivo."
+    },
     "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 3 or less.",
     "setName": "Yellow Charlotte Katakuri [ST-20]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST20-004.png",
@@ -475,7 +508,10 @@
       "The Four Emperors",
       "Big Mom Pirates"
     ],
-    "effect": "[On Play] You may trash 1 card from your hand: Your opponent chooses one:• Your opponent trashes 2 cards from their hand.• Trash 1 card from the top of your opponent's Life cards.",
+    "effect": {
+      "en": "[On Play] You may trash 1 card from your hand: Your opponent chooses one:• Your opponent trashes 2 cards from their hand.• Trash 1 card from the top of your opponent's Life cards.",
+      "it": "[On Play] Puoi mandare nel Trash 1 carta dalla tua mano: Il tuo avversario ne sceglie una: • Il tuo avversario elimina 2 carte dalla sua mano.• Manda nel Trash 1 carta dalla cima della carte Life del tuo avversario."
+    },
     "trigger": null,
     "setName": "Yellow Charlotte Katakuri [ST-20]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST20-005.png",

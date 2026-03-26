@@ -14,7 +14,10 @@
       "The Seven Warlords of the Sea",
       "Donquixote Pirates"
     ],
-    "effect": "[DON!! x2] [When Attacking] ➀ (You may rest the specified number of DON!! cards in your cost area.): Reveal 1 card from the top of your deck. If that card is a {The Seven Warlords of the Sea} type Character card with a cost of 4 or less, you may play that card rested.",
+    "effect": {
+      "en": "[DON!! x2] [When Attacking] ➀ (You may rest the specified number of DON!! cards in your cost area.): Reveal 1 card from the top of your deck. If that card is a {The Seven Warlords of the Sea} type Character card with a cost of 4 or less, you may play that card rested.",
+      "it": "[DON!! x2] [When Attacking] ➀ (Puoi mettere in stato spossato il numero specificato di carte DON!! nella tua area di costo.): Rivela 1 carta dalla cima del tuo mazzo. Se quella carta è una carta Personaggio di tipo {The Seven Warlords of the Sea} con un costo pari o inferiore a 4, puoi giocare quella carta in stato spossato."
+    },
     "trigger": null,
     "setName": "Blue Donquixote Doflamingo [ST-17]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-060_p2.png",
@@ -50,7 +53,10 @@
       "The Seven Warlords of the Sea",
       "Donquixote Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Look at 5 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Look at 5 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On Play] Guarda 5 carte dalla cima del tuo mazzo e posizionale in cima o in fondo al mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "Blue Donquixote Doflamingo [ST-17]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-073_r1.png",
@@ -86,7 +92,10 @@
       "The Seven Warlords of the Sea",
       "Donquixote Pirates"
     ],
-    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, return up to 1 active Character with a cost of 3 or less to the owner's hand.",
+    "effect": {
+      "en": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, return up to 1 active Character with a cost of 3 or less to the owner's hand.",
+      "it": "[Counter] Fino a 1 delle tue carte Leader o Personaggio ottiene +4000 power durante questa battaglia. Poi, fai ritornare fino a 1 Personaggio attivo con un costo pari o inferiore a 3 in mano al proprietario."
+    },
     "trigger": "Trigger[Trigger] Return up to 1 Character with a cost of 4 or less to the owner's hand.",
     "setName": "Blue Donquixote Doflamingo [ST-17]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-086_r1.png",
@@ -153,7 +162,10 @@
       "The Seven Warlords of the Sea",
       "Revolutionary Army"
     ],
-    "effect": "[On Play] Look at 2 cards from the top of your deck; reveal up to 1 {The Seven Warlords of the Sea} type card and add it to your hand. Then, place the rest at the top or bottom of the deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 2 cards from the top of your deck; reveal up to 1 {The Seven Warlords of the Sea} type card and add it to your hand. Then, place the rest at the top or bottom of the deck in any order.",
+      "it": "[On Play] Guarda 2 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {The Seven Warlords of the Sea} e aggiungila alla tua mano. Quindi, posiziona il resto in cima o in fondo al mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "Blue Donquixote Doflamingo [ST-17]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-057_r1.png",
@@ -189,7 +201,10 @@
       "The Seven Warlords of the Sea",
       "The Sun Pirates"
     ],
-    "effect": "[On K.O.] Place up to 1 Character with a cost of 3 or less at the bottom of the owner's deck.",
+    "effect": {
+      "en": "[On K.O.] Place up to 1 Character with a cost of 3 or less at the bottom of the owner's deck.",
+      "it": "[On K.O.] Metti fino a 1 personaggio con un costo pari o inferiore a 3 in fondo al mazzo del proprietario."
+    },
     "trigger": null,
     "setName": "Blue Donquixote Doflamingo [ST-17]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-030_r1.png",
@@ -253,7 +268,10 @@
       "The Seven Warlords of the Sea",
       "Thriller Bark Pirates"
     ],
-    "effect": "[On Play] Add up to 1 {The Seven Warlords of the Sea} or {Thriller Bark Pirates} type Character with a cost of 4 or less other than [Gecko Moria] from your trash to your hand.",
+    "effect": {
+      "en": "[On Play] Add up to 1 {The Seven Warlords of the Sea} or {Thriller Bark Pirates} type Character with a cost of 4 or less other than [Gecko Moria] from your trash to your hand.",
+      "it": "[On Play] Aggiungi fino a 1 Personaggio di tipo {The Seven Warlords of the Sea} o {Thriller Bark Pirates} con un costo pari o inferiore a 4 diverso da [Gecko Moria] dal tuo Trash alla tua mano."
+    },
     "trigger": null,
     "setName": "Blue Donquixote Doflamingo [ST-17]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-004_r1.png",
@@ -286,7 +304,10 @@
     "family": [
       "The Seven Warlords of the Sea"
     ],
-    "effect": "[DON!! x1] [When Attacking] Draw 2 cards and trash 2 cards from your hand.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] Draw 2 cards and trash 2 cards from your hand.",
+      "it": "[DON!! x1] [When Attacking] Pesca 2 carte e Manda nel Trash 2 carte dalla tua mano."
+    },
     "trigger": null,
     "setName": "Blue Donquixote Doflamingo [ST-17]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-005_r1.png",
@@ -321,7 +342,10 @@
       "The Seven Warlords of the Sea",
       "Heart Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "Blue Donquixote Doflamingo [ST-17]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-008_r1.png",
@@ -355,7 +379,10 @@
       "The Seven Warlords of the Sea",
       "Baroque Works"
     ],
-    "effect": "[On Play] Reveal 1 card from the top of your deck. If that card is a {The Seven Warlords of the Sea} type card, draw 2 cards and place 1 card from your hand at the top of your deck.",
+    "effect": {
+      "en": "[On Play] Reveal 1 card from the top of your deck. If that card is a {The Seven Warlords of the Sea} type card, draw 2 cards and place 1 card from your hand at the top of your deck.",
+      "it": "[On Play] Rivela 1 carta dalla cima del tuo mazzo. Se quella carta è del tipo {The Seven Warlords of the Sea}, pesca 2 carte e metti 1 carta dalla tua mano in cima al tuo mazzo."
+    },
     "trigger": null,
     "setName": "Blue Donquixote Doflamingo [ST-17]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST17-001.png",
@@ -389,7 +416,10 @@
       "The Seven Warlords of the Sea",
       "Heart Pirates"
     ],
-    "effect": "[On Play] You may return 1 of your Characters to the owner's hand: If your Leader has the {The Seven Warlords of the Sea} type, return up to 1 Character with a cost of 4 or less to the owner's hand.",
+    "effect": {
+      "en": "[On Play] You may return 1 of your Characters to the owner's hand: If your Leader has the {The Seven Warlords of the Sea} type, return up to 1 Character with a cost of 4 or less to the owner's hand.",
+      "it": "[On Play] Puoi far ritornare 1 dei tuoi Personaggi in mano al proprietario: Se il tuo Leader ha il tipo {The Seven Warlords of the Sea}, restituisci fino a 1 Personaggio con un costo pari o inferiore a 4 in mano al proprietario."
+    },
     "trigger": null,
     "setName": "Blue Donquixote Doflamingo [ST-17]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST17-002.png",
@@ -423,7 +453,10 @@
       "The Seven Warlords of the Sea",
       "Buggy's Delivery"
     ],
-    "effect": "[On Play] Look at 3 cards from the top of your deck and place them at the top of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 3 cards from the top of your deck and place them at the top of your deck in any order.",
+      "it": "[On Play] Guarda 3 carte dalla cima del tuo mazzo e posizionale in cima al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "Blue Donquixote Doflamingo [ST-17]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST17-003.png",
@@ -457,7 +490,10 @@
       "The Seven Warlords of the Sea",
       "Kuja Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Look at 3 cards from the top of your deck and place them at the top or bottom of your deck in any order. Then, give up to 1 rested DON!! card to 1 of your {The Seven Warlords of the Sea} type Leader or Character cards.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Look at 3 cards from the top of your deck and place them at the top or bottom of your deck in any order. Then, give up to 1 rested DON!! card to 1 of your {The Seven Warlords of the Sea} type Leader or Character cards.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, Puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On Play] Guarda 3 carte dalla cima del tuo mazzo e posizionale in cima o in fondo al tuo mazzo in qualsiasi ordine. Poi, Assegna fino a 1 carta DON!! in stato spossato a 1 delle tue carte Leader o Personaggio di tipo {The Seven Warlords of the Sea}."
+    },
     "trigger": null,
     "setName": "Blue Donquixote Doflamingo [ST-17]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST17-004.png",
@@ -492,7 +528,10 @@
       "The Seven Warlords of the Sea",
       "Blackbeard Pirates"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] You may place 1 card from your hand at the top of your deck: Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] You may place 1 card from your hand at the top of your deck: Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
+      "it": "[Activate: Main] [Once Per Turn] Puoi mettere 1 carta dalla tua mano in cima al tuo mazzo: Assegna fino a 2 carte DON!! in stato spossato al tuo Leader o a 1 dei tuoi Personaggi."
+    },
     "trigger": null,
     "setName": "Blue Donquixote Doflamingo [ST-17]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST17-005.png",

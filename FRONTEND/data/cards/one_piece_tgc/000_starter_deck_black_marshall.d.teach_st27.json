@@ -14,7 +14,10 @@
       "The Four Emperors",
       "Blackbeard Pirates"
     ],
-    "effect": "Your [On Play] effects are negated.[Activate: Main] You may trash 1 card from your hand: Your opponent's [On Play] effects are negated until the end of your opponent's next turn.",
+    "effect": {
+      "en": "Your [On Play] effects are negated.[Activate: Main] You may trash 1 card from your hand: Your opponent's [On Play] effects are negated until the end of your opponent's next turn.",
+      "it": "I tuoi effetti [On Play] sono annullati. [Activate: Main] Puoi mandare nel Trash 1 carta dalla tua mano: gli effetti [On Play] del tuo avversario sono annullati fino alla fine del turno successivo del tuo avversario."
+    },
     "trigger": null,
     "setName": "BLACK Marshall.D.Teach [ST-27]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-081_p2.png",
@@ -49,7 +52,10 @@
     "family": [
       "Blackbeard Pirates"
     ],
-    "effect": "[Activate: Main] You may rest this Character: If your Leader has the {Blackbeard Pirates} type, give up to 1 of your opponent's Characters −3 cost during this turn.[On K.O.] Draw 1 card.",
+    "effect": {
+      "en": "[Activate: Main] You may rest this Character: If your Leader has the {Blackbeard Pirates} type, give up to 1 of your opponent's Characters −3 cost during this turn.[On K.O.] Draw 1 card.",
+      "it": "[Activate: Main] Puoi mettere in stato spossato questo Personaggio: Se il tuo Leader ha il tipo {Blackbeard Pirates}, Dai −3 costo a un massimo di 1 Personaggio del tuo avversario durante questo turno. [On K.O.] Pesca 1 carta."
+    },
     "trigger": null,
     "setName": "BLACK Marshall.D.Teach [ST-27]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-083_r1.png",
@@ -84,7 +90,10 @@
     "family": [
       "Blackbeard Pirates"
     ],
-    "effect": "This Character cannot be K.O.'d by your opponent's effects.If your Leader has the {Blackbeard Pirates} type, this Character gains +1000 power for every 4 cards in your trash.",
+    "effect": {
+      "en": "This Character cannot be K.O.'d by your opponent's effects.If your Leader has the {Blackbeard Pirates} type, this Character gains +1000 power for every 4 cards in your trash.",
+      "it": "Questo personaggio non può essere K. O. dagli effetti del tuo avversario. Se il tuo Leader ha il tipo {Blackbeard Pirates}, questo Personaggio guadagna +1000 power per ogni 4 carte nel tuo Trash."
+    },
     "trigger": null,
     "setName": "BLACK Marshall.D.Teach [ST-27]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-086_r1.png",
@@ -115,7 +124,10 @@
     "family": [
       "Blackbeard Pirates"
     ],
-    "effect": "[DON!! x1] [When Attacking] You may trash 2 cards from your hand: Draw 2 cards.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] You may trash 2 cards from your hand: Draw 2 cards.",
+      "it": "[DON!! x1] [When Attacking] Puoi mandare nel Trash 2 carte dalla tua mano: Pesca 2 carte."
+    },
     "trigger": null,
     "setName": "BLACK Marshall.D.Teach [ST-27]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-088_r1.png",
@@ -151,7 +163,10 @@
       "Animal",
       "Blackbeard Pirates"
     ],
-    "effect": "[Activate: Main] You may trash 1 card from your hand and trash this Character: If your Leader has the {Blackbeard Pirates} type, draw 1 card. Then, give up to 1 of your opponent's Characters −2 cost during this turn.",
+    "effect": {
+      "en": "[Activate: Main] You may trash 1 card from your hand and trash this Character: If your Leader has the {Blackbeard Pirates} type, draw 1 card. Then, give up to 1 of your opponent's Characters −2 cost during this turn.",
+      "it": "[Activate: Main] Puoi mandare nel Trash 1 carta dalla tua mano e Manda nel Trash questo Personaggio: se il tuo Leader ha il tipo {Blackbeard Pirates}, pesca 1 carta. Poi, rinuncia a 1 personaggio del tuo avversario al -2 costo durante questo turno."
+    },
     "trigger": null,
     "setName": "BLACK Marshall.D.Teach [ST-27]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-089_r1.png",
@@ -185,7 +200,10 @@
     "family": [
       "Blackbeard Pirates"
     ],
-    "effect": "[Activate: Main] You may rest this Character: If your Leader has the {Blackbeard Pirates} type, K.O. up to 1 of your opponent's Characters with a cost of 1 or less.[On K.O.] Draw 1 card.",
+    "effect": {
+      "en": "[Activate: Main] You may rest this Character: If your Leader has the {Blackbeard Pirates} type, K.O. up to 1 of your opponent's Characters with a cost of 1 or less.[On K.O.] Draw 1 card.",
+      "it": "[Activate: Main] Puoi mettere in stato spossato questo Personaggio: Se il tuo Leader ha il tipo {Blackbeard Pirates}, K. O. fino a 1 dei Personaggi del tuo avversario con un costo pari o inferiore a 1. [On K.O.] Pesca 1 carta."
+    },
     "trigger": null,
     "setName": "BLACK Marshall.D.Teach [ST-27]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-090_r1.png",
@@ -220,7 +238,10 @@
     "family": [
       "Blackbeard Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "BLACK Marshall.D.Teach [ST-27]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-091_r1.png",
@@ -254,7 +275,10 @@
     "family": [
       "Blackbeard Pirates"
     ],
-    "effect": "[Activate: Main] You may rest 1 of your DON!! cards and this Character: Look at 5 cards from the top of your deck; reveal up to 1 {Blackbeard Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[Activate: Main] You may rest 1 of your DON!! cards and this Character: Look at 5 cards from the top of your deck; reveal up to 1 {Blackbeard Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[Activate: Main] Puoi rest 1 of your carte DON!! and this Personaggio: Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 {Blackbeard Pirates} tipo card and aggiungila alla tua mano. Poi, metti il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "BLACK Marshall.D.Teach [ST-27]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-095_r1.png",
@@ -288,7 +312,10 @@
     "family": [
       "Blackbeard Pirates"
     ],
-    "effect": "[Activate: Main] You may trash 1 card from your hand and rest this Stage: Look at 3 cards from the top of your deck; reveal up to 1 {Blackbeard Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[Activate: Main] You may trash 1 card from your hand and rest this Stage: Look at 3 cards from the top of your deck; reveal up to 1 {Blackbeard Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[Activate: Main] Puoi mandare nel Trash 1 carta dalla tua mano e mettere in stato spossato in questa fase: guarda 3 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Blackbeard Pirates} e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "BLACK Marshall.D.Teach [ST-27]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-099_r1.png",
@@ -354,7 +381,10 @@
     "family": [
       "Blackbeard Pirates"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] You may rest 1 of your [Fullalead] cards: If your Leader has the {Blackbeard Pirates} type, this Character gains +4000 power during this turn.[On K.O.] Draw 1 card.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] You may rest 1 of your [Fullalead] cards: If your Leader has the {Blackbeard Pirates} type, this Character gains +4000 power during this turn.[On K.O.] Draw 1 card.",
+      "it": "[Activate: Main] [Once Per Turn] Puoi mettere in stato spossato 1 delle tue carte [Fullalead]: Se il tuo Leader ha il tipo {Blackbeard Pirates}, Questo Personaggio guadagna +4000 power durante questo turno. [On K.O.] Pesca 1 carta."
+    },
     "trigger": null,
     "setName": "BLACK Marshall.D.Teach [ST-27]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST27-001.png",
@@ -389,7 +419,10 @@
     "family": [
       "Blackbeard Pirates"
     ],
-    "effect": "[Activate: Main] You may trash this Character: If your Leader has the {Blackbeard Pirates} type, give up to 1 of your opponent's Characters −1 cost during this turn.[On K.O.] Draw 1 card.",
+    "effect": {
+      "en": "[Activate: Main] You may trash this Character: If your Leader has the {Blackbeard Pirates} type, give up to 1 of your opponent's Characters −1 cost during this turn.[On K.O.] Draw 1 card.",
+      "it": "[Activate: Main] Puoi mandare nel Trash questo Personaggio: Se il tuo Leader ha il tipo {Blackbeard Pirates}, rinunciare a 1 dei Personaggi del tuo avversario a costo -1 durante questo turno. [On K.O.] Pesca 1 carta."
+    },
     "trigger": null,
     "setName": "BLACK Marshall.D.Teach [ST-27]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST27-002.png",
@@ -424,7 +457,10 @@
       "Blackbeard Pirates",
       "Former Navy"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] Play up to 1 {Blackbeard Pirates} type Character card with a cost of 5 or less from your trash rested.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] Play up to 1 {Blackbeard Pirates} type Character card with a cost of 5 or less from your trash rested.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On K.O.] Gioca fino a 1 carta Personaggio di tipo {Blackbeard Pirates} con un costo pari o inferiore a 5 dal tuo Trash in stato spossato."
+    },
     "trigger": null,
     "setName": "BLACK Marshall.D.Teach [ST-27]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST27-003.png",
@@ -459,7 +495,10 @@
       "Giant",
       "Blackbeard Pirates"
     ],
-    "effect": "If your Leader has the {Blackbeard Pirates} type, this Character gains [Blocker] and +1 cost for every 4 cards in your trash.(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Trash 1 card from your hand.",
+    "effect": {
+      "en": "If your Leader has the {Blackbeard Pirates} type, this Character gains [Blocker] and +1 cost for every 4 cards in your trash.(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Trash 1 card from your hand.",
+      "it": "Se il tuo Leader ha il tipo {Blackbeard Pirates}, questo Personaggio guadagna [Blocker] e +1 costo per ogni 4 carte nel tuo Trash. (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On Play] Manda nel Trash 1 carta dalla tua mano."
+    },
     "trigger": null,
     "setName": "BLACK Marshall.D.Teach [ST-27]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST27-004.png",
@@ -494,7 +533,10 @@
       "The Four Emperors",
       "Blackbeard Pirates"
     ],
-    "effect": "[Activate: Main] You may rest this Character: K.O. up to 1 Character with a cost of 3 or less.[On K.O.] Add up to 1 black card from your trash to your hand.",
+    "effect": {
+      "en": "[Activate: Main] You may rest this Character: K.O. up to 1 Character with a cost of 3 or less.[On K.O.] Add up to 1 black card from your trash to your hand.",
+      "it": "[Activate: Main] Puoi mettere in stato spossato questo Personaggio: K. O. up to 1 Personaggio with a cost of 3 or less. [On K.O.] Add up to 1 black card dal tuo Trash alla tua mano."
+    },
     "trigger": null,
     "setName": "BLACK Marshall.D.Teach [ST-27]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST27-005.png",

@@ -1,5 +1,6 @@
 <script setup>
 import { ref, computed, watch, onMounted, nextTick } from "vue";
+import { cardEffectContains } from "@/utilities/cardEffect";
 
 const emit = defineEmits(["update:filtered", "close"]);
 
@@ -149,8 +150,7 @@ const filtered = computed(() => {
 
     const abilityMatch =
       !normalizedAbilityFilter ||
-      (card.effect &&
-        normalizeString(card.effect).includes(normalizedAbilityFilter));
+      cardEffectContains(card.effect, normalizedAbilityFilter);
 
     const abilityKwMatch =
       !normalizedAbilityKeywordFilter.length ||

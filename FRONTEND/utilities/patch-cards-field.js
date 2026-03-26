@@ -3,6 +3,7 @@
 // Uso: node patch-cards-field.js ./data
 import fs from "fs/promises";
 import path from "path";
+import { getCardEffectText } from "./cardEffect.js";
 
 const TARGET_KEYWORD = "[On Play]";
 
@@ -26,7 +27,7 @@ async function isFile(p) {
 function patchCard(card) {
   // Se non c'è effect, non facciamo nulla
   if (!card || typeof card !== "object") return card;
-  const effect = card.effect ?? card.text ?? null;
+  const effect = getCardEffectText(card.effect ?? card.text, "en");
   if (typeof effect !== "string") return card;
 
   if (effect.includes(TARGET_KEYWORD)) {

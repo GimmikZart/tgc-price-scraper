@@ -15,7 +15,10 @@
       "Dressrosa",
       "Revolutionary Army"
     ],
-    "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] You may add 1 of your Characters with a cost of 3 or more and 7000 power or more to the top of your Life cards face-up: Up to 1 of your Characters gains +2000 power until the start of your next turn.",
+    "effect": {
+      "en": "[DON!! x1] [Activate: Main] [Once Per Turn] You may add 1 of your Characters with a cost of 3 or more and 7000 power or more to the top of your Life cards face-up: Up to 1 of your Characters gains +2000 power until the start of your next turn.",
+      "it": "[DON!! x1] [Activate: Main] [Once Per Turn] Puoi aggiungere 1 dei tuoi personaggi con un costo pari o superiore a 3 e 7000 power o più in cima alle tue carte Life scoperta: fino a 1 dei tuoi personaggi guadagna +2000 power fino all'inizio del tuo prossimo turno."
+    },
     "trigger": null,
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-001.png",
@@ -52,7 +55,10 @@
       "Dressrosa",
       "Revolutionary Army"
     ],
-    "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] You may add 1 of your Characters with a cost of 3 or more and 7000 power or more to the top of your Life cards face-up: Up to 1 of your Characters gains +2000 power until the start of your next turn.",
+    "effect": {
+      "en": "[DON!! x1] [Activate: Main] [Once Per Turn] You may add 1 of your Characters with a cost of 3 or more and 7000 power or more to the top of your Life cards face-up: Up to 1 of your Characters gains +2000 power until the start of your next turn.",
+      "it": "[DON!! x1] [Activate: Main] [Once Per Turn] Puoi aggiungere 1 dei tuoi personaggi con un costo pari o superiore a 3 e 7000 power o più in cima alle tue carte Life scoperta: fino a 1 dei tuoi personaggi guadagna +2000 power fino all'inizio del tuo prossimo turno."
+    },
     "trigger": null,
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-001_p1.png",
@@ -89,7 +95,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[DON!! x2] [Activate: Main] [Once Per Turn] Look at 5 cards from the top of your deck and add up to 1 Character card with a cost of 5 to the top of your Life cards face-up. Then, place the rest at the bottom of your deck in any order.[End of Your Turn] Trash all your face-up Life cards.",
+    "effect": {
+      "en": "[DON!! x2] [Activate: Main] [Once Per Turn] Look at 5 cards from the top of your deck and add up to 1 Character card with a cost of 5 to the top of your Life cards face-up. Then, place the rest at the bottom of your deck in any order.[End of Your Turn] Trash all your face-up Life cards.",
+      "it": "[DON!! x2] [Activate: Main] [Once Per Turn] Guarda 5 carte dalla cima del tuo mazzo e aggiungi fino a 1 carta Personaggio con un costo pari a 5 in cima alle tue carte Life scoperta. Quindi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine. [End of Your Turn] Trash tutto il tuo scoperta carte Life."
+    },
     "trigger": null,
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-002.png",
@@ -126,7 +135,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[DON!! x2] [Activate: Main] [Once Per Turn] Look at 5 cards from the top of your deck and add up to 1 Character card with a cost of 5 to the top of your Life cards face-up. Then, place the rest at the bottom of your deck in any order.[End of Your Turn] Trash all your face-up Life cards.",
+    "effect": {
+      "en": "[DON!! x2] [Activate: Main] [Once Per Turn] Look at 5 cards from the top of your deck and add up to 1 Character card with a cost of 5 to the top of your Life cards face-up. Then, place the rest at the bottom of your deck in any order.[End of Your Turn] Trash all your face-up Life cards.",
+      "it": "[DON!! x2] [Activate: Main] [Once Per Turn] Guarda 5 carte dalla cima del tuo mazzo e aggiungi fino a 1 carta Personaggio con un costo pari a 5 in cima alle tue carte Life scoperta. Quindi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine. [End of Your Turn] Trash tutto il tuo scoperta carte Life."
+    },
     "trigger": null,
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-002_p1.png",
@@ -165,7 +177,10 @@
       "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "Your face-up Life cards are placed at the bottom of your deck instead of being added to your hand, according to the rules.[DON!! x2] [Activate: Main] [Once Per Turn] You may trash 1 card from your hand: If you have 0 Life cards, add up to 2 Character cards with a cost of 5 from your hand or trash to the top of your Life cards face-up.",
+    "effect": {
+      "en": "Your face-up Life cards are placed at the bottom of your deck instead of being added to your hand, according to the rules.[DON!! x2] [Activate: Main] [Once Per Turn] You may trash 1 card from your hand: If you have 0 Life cards, add up to 2 Character cards with a cost of 5 from your hand or trash to the top of your Life cards face-up.",
+      "it": "I tuoi scoperta carte Life vengono posizionati in fondo al tuo mazzo invece di essere aggiunti alla tua mano, secondo le regole. [DON!! x2] [Activate: Main] [Once Per Turn] Puoi mandare nel Trash 1 carta dalla tua mano: se hai 0 carte Life, aggiungi fino a 2 carte Personaggio con un costo di 5 dalla tua mano o Trash in cima alle tue carte Life scoperta."
+    },
     "trigger": null,
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-003.png",
@@ -202,7 +217,10 @@
       "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "Your face-up Life cards are placed at the bottom of your deck instead of being added to your hand, according to the rules.[DON!! x2] [Activate: Main] [Once Per Turn] You may trash 1 card from your hand: If you have 0 Life cards, add up to 2 Character cards with a cost of 5 from your hand or trash to the top of your Life cards face-up.",
+    "effect": {
+      "en": "Your face-up Life cards are placed at the bottom of your deck instead of being added to your hand, according to the rules.[DON!! x2] [Activate: Main] [Once Per Turn] You may trash 1 card from your hand: If you have 0 Life cards, add up to 2 Character cards with a cost of 5 from your hand or trash to the top of your Life cards face-up.",
+      "it": "I tuoi scoperta carte Life vengono posizionati in fondo al tuo mazzo invece di essere aggiunti alla tua mano, secondo le regole. [DON!! x2] [Activate: Main] [Once Per Turn] Puoi mandare nel Trash 1 carta dalla tua mano: se hai 0 carte Life, aggiungi fino a 2 carte Personaggio con un costo di 5 dalla tua mano o Trash in cima alle tue carte Life scoperta."
+    },
     "trigger": null,
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-003_p1.png",
@@ -239,7 +257,10 @@
       "The Four Emperors",
       "Whitebeard Pirates"
     ],
-    "effect": "[On Play] Add 1 card from the top of your deck to the top of your Life cards. Then, look at all your Life cards; place 1 card at the top of your deck and place the rest back in your Life area in any order.",
+    "effect": {
+      "en": "[On Play] Add 1 card from the top of your deck to the top of your Life cards. Then, look at all your Life cards; place 1 card at the top of your deck and place the rest back in your Life area in any order.",
+      "it": "[On Play] Aggiungi 1 carta dalla cima del tuo mazzo alla cima delle tue carte Life. Quindi, guarda tutti i tuoi carte Life; metti 1 carta in cima al tuo mazzo e rimetti il ​​resto nelle tue area Life in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-004.png",
@@ -273,7 +294,10 @@
       "The Four Emperors",
       "Whitebeard Pirates"
     ],
-    "effect": "[On Play] Add 1 card from the top of your deck to the top of your Life cards. Then, look at all your Life cards; place 1 card at the top of your deck and place the rest back in your Life area in any order.",
+    "effect": {
+      "en": "[On Play] Add 1 card from the top of your deck to the top of your Life cards. Then, look at all your Life cards; place 1 card at the top of your deck and place the rest back in your Life area in any order.",
+      "it": "[On Play] Aggiungi 1 carta dalla cima del tuo mazzo alla cima delle tue carte Life. Quindi, guarda tutti i tuoi carte Life; metti 1 carta in cima al tuo mazzo e rimetti il ​​resto nelle tue area Life in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-004_p1.png",
@@ -307,7 +331,10 @@
     "family": [
       "Revolutionary Army"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] You may trash 1 card from the top or bottom of your Life cards: Reveal up to 1 Character card with a cost of 5 from your hand and add it to the top of your Life cards face-down.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] You may trash 1 card from the top or bottom of your Life cards: Reveal up to 1 Character card with a cost of 5 from your hand and add it to the top of your Life cards face-down.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi appoggiare questa carta per renderla il nuovo bersaglio dell'attacco.)[On Play] Puoi mandare nel Trash 1 carta dalla cima o dal fondo delle tue carte Life: Rivelare fino a 1 carta Personaggio con un costo pari a 5 dalla tua mano e aggiungerla in cima alle tue carte Life coperta."
+    },
     "trigger": null,
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-005.png",
@@ -341,7 +368,10 @@
     "family": [
       "Revolutionary Army"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] You may trash 1 card from the top or bottom of your Life cards: Reveal up to 1 Character card with a cost of 5 from your hand and add it to the top of your Life cards face-down.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] You may trash 1 card from the top or bottom of your Life cards: Reveal up to 1 Character card with a cost of 5 from your hand and add it to the top of your Life cards face-down.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi appoggiare questa carta per renderla il nuovo bersaglio dell'attacco.)[On Play] Puoi mandare nel Trash 1 carta dalla cima o dal fondo delle tue carte Life: Rivelare fino a 1 carta Personaggio con un costo pari a 5 dalla tua mano e aggiungerla in cima alle tue carte Life coperta."
+    },
     "trigger": null,
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-005_p1.png",
@@ -376,7 +406,10 @@
     "family": [
       "Mountain Bandits"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Play up to 1 each of [Sabo], [Portgas.D.Ace], and [Monkey.D.Luffy] with a cost of 2 from your hand.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Play up to 1 each of [Sabo], [Portgas.D.Ace], and [Monkey.D.Luffy] with a cost of 2 from your hand.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On Play] Gioca fino a 1 ciascuno di [Sabo], [Portgas.D.Ace] e [Monkey.D.Luffy] con un costo di 2 dalla tua mano."
+    },
     "trigger": null,
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-006.png",
@@ -410,7 +443,10 @@
     "family": [
       "Mountain Bandits"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Play up to 1 each of [Sabo], [Portgas.D.Ace], and [Monkey.D.Luffy] with a cost of 2 from your hand.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Play up to 1 each of [Sabo], [Portgas.D.Ace], and [Monkey.D.Luffy] with a cost of 2 from your hand.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On Play] Gioca fino a 1 ciascuno di [Sabo], [Portgas.D.Ace] e [Monkey.D.Luffy] con un costo di 2 dalla tua mano."
+    },
     "trigger": null,
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-006_p1.png",
@@ -445,7 +481,10 @@
     "family": [
       "Goa Kingdom"
     ],
-    "effect": "[Activate: Main] You may trash this Character: Reveal 1 card from the top of your Life cards. If that card is a [Sabo] with a cost of 5, you may play that card. If you do, up to 1 of your Leader gains +2000 power until the end of your opponent's next turn.",
+    "effect": {
+      "en": "[Activate: Main] You may trash this Character: Reveal 1 card from the top of your Life cards. If that card is a [Sabo] with a cost of 5, you may play that card. If you do, up to 1 of your Leader gains +2000 power until the end of your opponent's next turn.",
+      "it": "[Activate: Main] Puoi mandare nel Trash questo Personaggio: Rivelare 1 carta dalla cima delle tue carte Life. Se quella carta è un [Sabo] con un costo pari a 5, puoi giocarla. Se lo fai, fino a 1 dei tuoi Leader guadagna +2000 power fino alla fine del turno successivo del tuo avversario."
+    },
     "trigger": null,
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-007.png",
@@ -478,7 +517,10 @@
     "family": [
       "Goa Kingdom"
     ],
-    "effect": "[Activate: Main] You may trash this Character: Reveal 1 card from the top of your Life cards. If that card is a [Sabo] with a cost of 5, you may play that card. If you do, up to 1 of your Leader gains +2000 power until the end of your opponent's next turn.",
+    "effect": {
+      "en": "[Activate: Main] You may trash this Character: Reveal 1 card from the top of your Life cards. If that card is a [Sabo] with a cost of 5, you may play that card. If you do, up to 1 of your Leader gains +2000 power until the end of your opponent's next turn.",
+      "it": "[Activate: Main] Puoi mandare nel Trash questo Personaggio: Rivelare 1 carta dalla cima delle tue carte Life. Se quella carta è un [Sabo] con un costo pari a 5, puoi giocarla. Se lo fai, fino a 1 dei tuoi Leader guadagna +2000 power fino alla fine del turno successivo del tuo avversario."
+    },
     "trigger": null,
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-007_p1.png",
@@ -513,7 +555,10 @@
       "Dressrosa",
       "Revolutionary Army"
     ],
-    "effect": "[On Play] You may trash 1 card from the top or bottom of your Life cards: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "effect": {
+      "en": "[On Play] You may trash 1 card from the top or bottom of your Life cards: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+      "it": "[On Play] Puoi mandare nel Trash 1 carta dalla cima o dal fondo delle tue carte Life: K. O. fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 5."
+    },
     "trigger": null,
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-008.png",
@@ -547,7 +592,10 @@
       "Dressrosa",
       "Revolutionary Army"
     ],
-    "effect": "[On Play] You may trash 1 card from the top or bottom of your Life cards: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "effect": {
+      "en": "[On Play] You may trash 1 card from the top or bottom of your Life cards: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+      "it": "[On Play] Puoi mandare nel Trash 1 carta dalla cima o dal fondo delle tue carte Life: K. O. fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 5."
+    },
     "trigger": null,
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-008_p1.png",
@@ -582,7 +630,10 @@
       "The Four Emperors",
       "Red-Haired Pirates"
     ],
-    "effect": "[On Play] You may turn 1 of your face-up Life cards face-down: If your opponent has 7 or more cards in their hand, trash up to 1 card from the top of your opponent's Life cards.",
+    "effect": {
+      "en": "[On Play] You may turn 1 of your face-up Life cards face-down: If your opponent has 7 or more cards in their hand, trash up to 1 card from the top of your opponent's Life cards.",
+      "it": "[On Play] Puoi girare 1 delle tue scoperta carte Life coperta: Se il tuo avversario ha 7 o più carte in mano, Manda nel Trash fino a 1 carta dalla cima delle carte Life del tuo avversario."
+    },
     "trigger": null,
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-009.png",
@@ -616,7 +667,10 @@
       "The Four Emperors",
       "Red-Haired Pirates"
     ],
-    "effect": "[On Play] You may turn 1 of your face-up Life cards face-down: If your opponent has 7 or more cards in their hand, trash up to 1 card from the top of your opponent's Life cards.",
+    "effect": {
+      "en": "[On Play] You may turn 1 of your face-up Life cards face-down: If your opponent has 7 or more cards in their hand, trash up to 1 card from the top of your opponent's Life cards.",
+      "it": "[On Play] Puoi girare 1 delle tue scoperta carte Life coperta: Se il tuo avversario ha 7 o più carte in mano, Manda nel Trash fino a 1 carta dalla cima delle carte Life del tuo avversario."
+    },
     "trigger": null,
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-009_p1.png",
@@ -650,7 +704,10 @@
     "family": [
       "Goa Kingdom"
     ],
-    "effect": "[Activate: Main] You may trash this Character: Reveal 1 card from the top of your Life cards. If that card is a [Portgas.D.Ace] with a cost of 5, you may play that card. If you do, up to 1 of your Leader gains +2000 power until the end of your opponent's next turn.",
+    "effect": {
+      "en": "[Activate: Main] You may trash this Character: Reveal 1 card from the top of your Life cards. If that card is a [Portgas.D.Ace] with a cost of 5, you may play that card. If you do, up to 1 of your Leader gains +2000 power until the end of your opponent's next turn.",
+      "it": "[Activate: Main] Puoi mandare nel Trash questo Personaggio: Rivelare 1 carta dalla cima delle tue carte Life. Se quella carta è un [Portgas.D.Ace] con un costo pari a 5, puoi giocarla. Se lo fai, fino a 1 dei tuoi Leader guadagna +2000 power fino alla fine del turno successivo del tuo avversario."
+    },
     "trigger": null,
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-010.png",
@@ -683,7 +740,10 @@
     "family": [
       "Goa Kingdom"
     ],
-    "effect": "[Activate: Main] You may trash this Character: Reveal 1 card from the top of your Life cards. If that card is a [Portgas.D.Ace] with a cost of 5, you may play that card. If you do, up to 1 of your Leader gains +2000 power until the end of your opponent's next turn.",
+    "effect": {
+      "en": "[Activate: Main] You may trash this Character: Reveal 1 card from the top of your Life cards. If that card is a [Portgas.D.Ace] with a cost of 5, you may play that card. If you do, up to 1 of your Leader gains +2000 power until the end of your opponent's next turn.",
+      "it": "[Activate: Main] Puoi mandare nel Trash questo Personaggio: Rivelare 1 carta dalla cima delle tue carte Life. Se quella carta è un [Portgas.D.Ace] con un costo pari a 5, puoi giocarla. Se lo fai, fino a 1 dei tuoi Leader guadagna +2000 power fino alla fine del turno successivo del tuo avversario."
+    },
     "trigger": null,
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-010_p1.png",
@@ -717,7 +777,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[On Play] If you have 2 or less Life cards, this Character gains [Rush].(This card can attack on the turn in which it is played.)",
+    "effect": {
+      "en": "[On Play] If you have 2 or less Life cards, this Character gains [Rush].(This card can attack on the turn in which it is played.)",
+      "it": "[On Play] Se hai 2 o meno carte Life, questo personaggio guadagna [Rush]. (Questa carta può attaccare nel turno in cui viene giocata.)"
+    },
     "trigger": null,
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-011.png",
@@ -751,7 +814,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[On Play] If you have 2 or less Life cards, this Character gains [Rush].(This card can attack on the turn in which it is played.)",
+    "effect": {
+      "en": "[On Play] If you have 2 or less Life cards, this Character gains [Rush].(This card can attack on the turn in which it is played.)",
+      "it": "[On Play] Se hai 2 o meno carte Life, questo personaggio guadagna [Rush]. (Questa carta può attaccare nel turno in cui viene giocata.)"
+    },
     "trigger": null,
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-011_p1.png",
@@ -786,7 +852,10 @@
     "family": [
       "Windmill Village"
     ],
-    "effect": "[On Play] You may add 1 card from the top or bottom of your Life cards to your hand: Look at all of your Life cards and place them back in your Life area in any order.",
+    "effect": {
+      "en": "[On Play] You may add 1 card from the top or bottom of your Life cards to your hand: Look at all of your Life cards and place them back in your Life area in any order.",
+      "it": "[On Play] Puoi aggiungere 1 carta dalla cima o dal fondo delle tue carte Life alla tua mano: guarda tutti i tuoi carte Life e rimettili nel tuo area Life in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-012.png",
@@ -819,7 +888,10 @@
     "family": [
       "Windmill Village"
     ],
-    "effect": "[On Play] You may add 1 card from the top or bottom of your Life cards to your hand: Look at all of your Life cards and place them back in your Life area in any order.",
+    "effect": {
+      "en": "[On Play] You may add 1 card from the top or bottom of your Life cards to your hand: Look at all of your Life cards and place them back in your Life area in any order.",
+      "it": "[On Play] Puoi aggiungere 1 carta dalla cima o dal fondo delle tue carte Life alla tua mano: guarda tutti i tuoi carte Life e rimettili nel tuo area Life in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-012_p1.png",
@@ -853,7 +925,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Sabo], [Portgas.D.Ace], or [Monkey.D.Luffy] with a cost of 5 or less and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Sabo], [Portgas.D.Ace], or [Monkey.D.Luffy] with a cost of 5 or less and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 [Sabo], [Portgas.D.Ace] o [Monkey.D.Luffy] con un costo pari o inferiore a 5 e aggiungilo alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-013.png",
@@ -886,7 +961,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Sabo], [Portgas.D.Ace], or [Monkey.D.Luffy] with a cost of 5 or less and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Sabo], [Portgas.D.Ace], or [Monkey.D.Luffy] with a cost of 5 or less and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 [Sabo], [Portgas.D.Ace] o [Monkey.D.Luffy] con un costo pari o inferiore a 5 e aggiungilo alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-013_p1.png",
@@ -920,7 +998,10 @@
     "family": [
       "Goa Kingdom"
     ],
-    "effect": "[Activate: Main] You may trash this Character: Reveal 1 card from the top of your Life cards. If that card is a [Monkey.D.Luffy] with a cost of 5, you may play that card. If you do, up to 1 of your Leader gains +2000 power until the end of your opponent's next turn.",
+    "effect": {
+      "en": "[Activate: Main] You may trash this Character: Reveal 1 card from the top of your Life cards. If that card is a [Monkey.D.Luffy] with a cost of 5, you may play that card. If you do, up to 1 of your Leader gains +2000 power until the end of your opponent's next turn.",
+      "it": "[Activate: Main] Puoi mandare nel Trash questo Personaggio: Rivelare 1 carta dalla cima delle tue carte Life. Se quella carta è un [Monkey.D.Luffy] con un costo pari a 5, puoi giocarla. Se lo fai, fino a 1 dei tuoi Leader guadagna +2000 power fino alla fine del turno successivo del tuo avversario."
+    },
     "trigger": null,
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-014.png",
@@ -953,7 +1034,10 @@
     "family": [
       "Goa Kingdom"
     ],
-    "effect": "[Activate: Main] You may trash this Character: Reveal 1 card from the top of your Life cards. If that card is a [Monkey.D.Luffy] with a cost of 5, you may play that card. If you do, up to 1 of your Leader gains +2000 power until the end of your opponent's next turn.",
+    "effect": {
+      "en": "[Activate: Main] You may trash this Character: Reveal 1 card from the top of your Life cards. If that card is a [Monkey.D.Luffy] with a cost of 5, you may play that card. If you do, up to 1 of your Leader gains +2000 power until the end of your opponent's next turn.",
+      "it": "[Activate: Main] Puoi mandare nel Trash questo Personaggio: Rivelare 1 carta dalla cima delle tue carte Life. Se quella carta è un [Monkey.D.Luffy] con un costo pari a 5, puoi giocarla. Se lo fai, fino a 1 dei tuoi Leader guadagna +2000 power fino alla fine del turno successivo del tuo avversario."
+    },
     "trigger": null,
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-014_p1.png",
@@ -988,7 +1072,10 @@
       "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] This Character gains +2000 power until the start of your next turn. Then, if you have 1 or more Life cards, draw 1 card and trash 1 card from the top of your Life cards.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] This Character gains +2000 power until the start of your next turn. Then, if you have 1 or more Life cards, draw 1 card and trash 1 card from the top of your Life cards.",
+      "it": "[Activate: Main] [Once Per Turn] Questo Personaggio guadagna +2000 power fino all'inizio del tuo prossimo turno. Then, if you have 1 or more carte Life, Pesca 1 carta and Manda nel Trash 1 carta from the top of your carte Life."
+    },
     "trigger": null,
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-015.png",
@@ -1023,7 +1110,10 @@
       "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] This Character gains +2000 power until the start of your next turn. Then, if you have 1 or more Life cards, draw 1 card and trash 1 card from the top of your Life cards.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] This Character gains +2000 power until the start of your next turn. Then, if you have 1 or more Life cards, draw 1 card and trash 1 card from the top of your Life cards.",
+      "it": "[Activate: Main] [Once Per Turn] Questo Personaggio guadagna +2000 power fino all'inizio del tuo prossimo turno. Then, if you have 1 or more carte Life, Pesca 1 carta and Manda nel Trash 1 carta from the top of your carte Life."
+    },
     "trigger": null,
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-015_p1.png",
@@ -1058,7 +1148,10 @@
     "family": [
       "Land of Wano"
     ],
-    "effect": "[Rush] (This card can attack on the turn in which it is played.)[On Play] Look at all your Life cards; place 1 at the top of your deck and place the rest back in your Life area in any order.",
+    "effect": {
+      "en": "[Rush] (This card can attack on the turn in which it is played.)[On Play] Look at all your Life cards; place 1 at the top of your deck and place the rest back in your Life area in any order.",
+      "it": "[Rush] (Questa carta può attaccare nel turno in cui viene giocata.)[On Play] Guarda tutti i tuoi carte Life; posizionane 1 in cima al tuo mazzo e rimetti il ​​resto nel tuo area Life in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-016.png",
@@ -1092,7 +1185,10 @@
     "family": [
       "Land of Wano"
     ],
-    "effect": "[Rush] (This card can attack on the turn in which it is played.)[On Play] Look at all your Life cards; place 1 at the top of your deck and place the rest back in your Life area in any order.",
+    "effect": {
+      "en": "[Rush] (This card can attack on the turn in which it is played.)[On Play] Look at all your Life cards; place 1 at the top of your deck and place the rest back in your Life area in any order.",
+      "it": "[Rush] (Questa carta può attaccare nel turno in cui viene giocata.)[On Play] Guarda tutti i tuoi carte Life; posizionane 1 in cima al tuo mazzo e rimetti il ​​resto nel tuo area Life in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-016_p1.png",
@@ -1128,7 +1224,10 @@
       "Dressrosa",
       "Revolutionary Army"
     ],
-    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, look at all your Life cards and place them back in your Life area in any order.",
+    "effect": {
+      "en": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, look at all your Life cards and place them back in your Life area in any order.",
+      "it": "[Counter] Fino a 1 delle tue carte Leader o Personaggio ottiene +4000 power durante questa battaglia. Quindi, guarda tutti i tuoi carte Life e rimettili nel tuo area Life in qualsiasi ordine."
+    },
     "trigger": "Trigger[Trigger] You may add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 card from your hand to the top of your Life cards.",
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-017.png",
@@ -1162,7 +1261,10 @@
       "Punk Hazard",
       "Straw Hat Crew"
     ],
-    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 0 Life cards, draw 1 card.",
+    "effect": {
+      "en": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 0 Life cards, draw 1 card.",
+      "it": "[Counter] Fino a 1 delle tue carte Leader o Personaggio ottiene +2000 power durante questa battaglia. Poi, se hai 0 carte Life, pesca 1 carta."
+    },
     "trigger": "Trigger[Trigger] You may add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 card from your hand to the top of your Life cards.",
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-018.png",
@@ -1195,7 +1297,10 @@
     "family": [
       "Goa Kingdom"
     ],
-    "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 [Sabo], [Portgas.D.Ace], or [Monkey.D.Luffy] with a cost of 5 or less and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 [Sabo], [Portgas.D.Ace], or [Monkey.D.Luffy] with a cost of 5 or less and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[Main] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 [Sabo], [Portgas.D.Ace] o [Monkey.D.Luffy] con un costo pari o inferiore a 5 e aggiungilo alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "The Three Brothers [ST13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-019.png",

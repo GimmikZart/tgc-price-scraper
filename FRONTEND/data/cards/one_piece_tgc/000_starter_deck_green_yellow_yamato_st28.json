@@ -14,7 +14,10 @@
     "family": [
       "Land of Wano"
     ],
-    "effect": "[Double Attack] (This card deals 2 damage.)[Activate: Main] [Once Per Turn] If your opponent has 3 or less Life cards, give up to 2 rested DON!! cards to 1 of your Characters.",
+    "effect": {
+      "en": "[Double Attack] (This card deals 2 damage.)[Activate: Main] [Once Per Turn] If your opponent has 3 or less Life cards, give up to 2 rested DON!! cards to 1 of your Characters.",
+      "it": "[Double Attack] (Questa carta infligge 2 danni.)[Activate: Main] [Once Per Turn] Se il tuo avversario ha 3 o meno carte Life, dai fino a 2 in stato spossato carte DON!! a 1 dei tuoi personaggi."
+    },
     "trigger": null,
     "setName": "GREEN/YELLOW Yamato [ST-28]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-022_p3.png",
@@ -51,7 +54,10 @@
       "Land of Wano",
       "The Akazaya Nine"
     ],
-    "effect": "[DON!! x2] [When Attacking] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards.",
+    "effect": {
+      "en": "[DON!! x2] [When Attacking] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards.",
+      "it": "[DON!! x2] [When Attacking] Puoi mandare nel Trash 1 carta dalla tua mano: K. O. fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore al numero delle carte Life del tuo avversario."
+    },
     "trigger": "Trigger[Trigger] If your opponent has 3 or less Life cards, play this card.",
     "setName": "GREEN/YELLOW Yamato [ST-28]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-100_r2.png",
@@ -87,7 +93,10 @@
       "Land of Wano",
       "The Akazaya Nine"
     ],
-    "effect": "[When Attacking] You may trash 2 cards from your hand: Add up to 1 of your Characters with 0 power to the top or bottom of the owner's Life cards face-up.",
+    "effect": {
+      "en": "[When Attacking] You may trash 2 cards from your hand: Add up to 1 of your Characters with 0 power to the top or bottom of the owner's Life cards face-up.",
+      "it": "[When Attacking] Puoi mandare nel Trash 2 carte dalla tua mano: aggiungere fino a 1 dei tuoi personaggi con 0 power in cima o in fondo al carte Life scoperta del proprietario."
+    },
     "trigger": "Trigger[Trigger] If your opponent has 3 or less Life cards, play this card.",
     "setName": "GREEN/YELLOW Yamato [ST-28]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-103_r1.png",
@@ -121,7 +130,10 @@
       "Land of Wano",
       "The Akazaya Nine"
     ],
-    "effect": "[On K.O.] If your opponent has 3 or less Life cards, add up to 1 card from the top of your deck to the top of your Life cards.",
+    "effect": {
+      "en": "[On K.O.] If your opponent has 3 or less Life cards, add up to 1 card from the top of your deck to the top of your Life cards.",
+      "it": "[On K.O.] Se il tuo avversario ha 3 o meno carte Life, aggiungi fino a 1 carta dalla cima del tuo mazzo alla cima delle tue carte Life."
+    },
     "trigger": "Trigger[Trigger] If your opponent has 3 or less Life cards, play this card.",
     "setName": "GREEN/YELLOW Yamato [ST-28]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-104_r1.png",
@@ -155,7 +167,10 @@
       "Land of Wano",
       "The Akazaya Nine"
     ],
-    "effect": "[DON!! x2] If your opponent has 3 or less Life cards, this Character cannot be K.O.'d by effects.",
+    "effect": {
+      "en": "[DON!! x2] If your opponent has 3 or less Life cards, this Character cannot be K.O.'d by effects.",
+      "it": "[DON!! x2] Se il tuo avversario ha 3 o meno carte Life, questo personaggio non può essere K. O. dagli effetti."
+    },
     "trigger": "Trigger[Trigger] If your opponent has 3 or less Life cards, play this card.",
     "setName": "GREEN/YELLOW Yamato [ST-28]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-109_r1.png",
@@ -190,7 +205,10 @@
       "Land of Wano",
       "The Akazaya Nine"
     ],
-    "effect": "[DON!! x2] This Character can also attack your opponent's active Characters.",
+    "effect": {
+      "en": "[DON!! x2] This Character can also attack your opponent's active Characters.",
+      "it": "[DON!! x2] Questo personaggio può anche attaccare i personaggi attivi del tuo avversario."
+    },
     "trigger": "Trigger[Trigger] If your opponent has 3 or less Life cards, play this card.",
     "setName": "GREEN/YELLOW Yamato [ST-28]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-110_r2.png",
@@ -224,7 +242,10 @@
       "Land of Wano",
       "The Akazaya Nine"
     ],
-    "effect": "[When Attacking] You may trash 1 card from your hand: Rest up to 1 of your opponent's DON!! cards.",
+    "effect": {
+      "en": "[When Attacking] You may trash 1 card from your hand: Rest up to 1 of your opponent's DON!! cards.",
+      "it": "[When Attacking] Puoi mandare nel Trash 1 carta dalla tua mano: mettere in stato spossato fino a 1 carte DON!! del tuo avversario."
+    },
     "trigger": "Trigger[Trigger] If your opponent has 3 or less Life cards, play this card.",
     "setName": "GREEN/YELLOW Yamato [ST-28]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-112_r1.png",
@@ -258,7 +279,10 @@
       "Land of Wano",
       "The Akazaya Nine"
     ],
-    "effect": "[Main]/[Counter] Up to 1 of your Leader or Character cards gains +1000 power during this turn. Then, if your opponent has 2 or less Life cards, rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "effect": {
+      "en": "[Main]/[Counter] Up to 1 of your Leader or Character cards gains +1000 power during this turn. Then, if your opponent has 2 or less Life cards, rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+      "it": "[Main]/[Counter] Fino a 1 delle tue carte Leader o Personaggio ottiene +1000 power durante questo turno. Poi, se il tuo avversario ha 2 o meno carte Life, metti in stato spossato fino a 1 dei Personaggi del tuo avversario con un costo pari o inferiore a 4."
+    },
     "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "setName": "GREEN/YELLOW Yamato [ST-28]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-116_p1.png",
@@ -293,7 +317,10 @@
       "ODYSSEY",
       "Whitebeard Pirates"
     ],
-    "effect": "[On Play] If you have 2 or more rested Characters, rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "effect": {
+      "en": "[On Play] If you have 2 or more rested Characters, rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+      "it": "[On Play] Se hai 2 o più Personaggi in stato spossato, metti in stato spossato fino a 1 dei Personaggi del tuo avversario con un costo pari o inferiore a 5."
+    },
     "trigger": null,
     "setName": "GREEN/YELLOW Yamato [ST-28]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-035_r1.png",
@@ -326,7 +353,10 @@
     "family": [
       "Land of Wano"
     ],
-    "effect": "[Rush] (This card can attack on the turn in which it is played.)[On Play] Look at all your Life cards; place 1 at the top of your deck and place the rest back in your Life area in any order.",
+    "effect": {
+      "en": "[Rush] (This card can attack on the turn in which it is played.)[On Play] Look at all your Life cards; place 1 at the top of your deck and place the rest back in your Life area in any order.",
+      "it": "[Rush] (Questa carta può attaccare nel turno in cui viene giocata.)[On Play] Guarda tutti i tuoi carte Life; posizionane 1 in cima al tuo mazzo e rimetti il ​​resto nel tuo area Life in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "GREEN/YELLOW Yamato [ST-28]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-016_r1.png",
@@ -361,7 +391,10 @@
       "Land of Wano",
       "The Akazaya Nine"
     ],
-    "effect": "[On Play] If your Leader has the {Land of Wano} type and your opponent has 3 or more Life cards, K.O. up to 1 of your opponent's Characters with a base cost of 5 or less.",
+    "effect": {
+      "en": "[On Play] If your Leader has the {Land of Wano} type and your opponent has 3 or more Life cards, K.O. up to 1 of your opponent's Characters with a base cost of 5 or less.",
+      "it": "[On Play] Se il tuo Leader ha il tipo {Land of Wano} e il tuo avversario ha 3 o più carte Life, K. O. fino a 1 dei personaggi del tuo avversario con un costo base pari o inferiore a 5."
+    },
     "trigger": null,
     "setName": "GREEN/YELLOW Yamato [ST-28]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST28-001.png",
@@ -395,7 +428,10 @@
       "Land of Wano",
       "Former Whitebeard Pirates"
     ],
-    "effect": "[DON!! x2] This Character gains [Blocker].[On Play] Your {Land of Wano} type Leader gains [Banish] during this turn.",
+    "effect": {
+      "en": "[DON!! x2] This Character gains [Blocker].[On Play] Your {Land of Wano} type Leader gains [Banish] during this turn.",
+      "it": "[DON!! x2] Questo personaggio guadagna [Blocker]. [On Play] Il tuo leader di tipo {Land of Wano} guadagna [Banish] durante questo turno."
+    },
     "trigger": null,
     "setName": "GREEN/YELLOW Yamato [ST-28]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST28-002.png",
@@ -463,7 +499,10 @@
       "Land of Wano",
       "Kouzuki Clan"
     ],
-    "effect": "[Your Turn] If you have 2 or less Life cards, your Leader gains +1000 power.[Activate: Main] [Once Per Turn] You may return 2 total of your currently given DON!! cards to your cost area rested: This Character gains [Rush] and +1000 power during this turn.(This card can attack on the turn in which it is played.)",
+    "effect": {
+      "en": "[Your Turn] If you have 2 or less Life cards, your Leader gains +1000 power.[Activate: Main] [Once Per Turn] You may return 2 total of your currently given DON!! cards to your cost area rested: This Character gains [Rush] and +1000 power during this turn.(This card can attack on the turn in which it is played.)",
+      "it": "[Your Turn] Se hai 2 o meno carte Life, il tuo Leader guadagna +1000 power. [Activate: Main] [Once Per Turn] Puoi restituire 2 in totale delle tue carte DON!! attualmente assegnate nella tua area di costo in stato spossato: Questo personaggio guadagna [Rush] e +1000 power durante questo turno. (Questa carta può attaccare nel turno in cui viene giocata.)"
+    },
     "trigger": null,
     "setName": "GREEN/YELLOW Yamato [ST-28]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST28-004.png",
@@ -499,7 +538,10 @@
     "family": [
       "Land of Wano"
     ],
-    "effect": "[DON!! x2] [Your Turn] This Character gains +3000 power.[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Land of Wano} type card with a cost of 2 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[DON!! x2] [Your Turn] This Character gains +3000 power.[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Land of Wano} type card with a cost of 2 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[DON!! x2] [Your Turn] Questo Personaggio guadagna +3000 power. [On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Land of Wano} con costo pari o superiore a 2 e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "GREEN/YELLOW Yamato [ST-28]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST28-005.png",

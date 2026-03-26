@@ -13,7 +13,10 @@
     "family": [
       "Land of Wano"
     ],
-    "effect": "[DON!! x1] [Opponent's Turn] If you have 2 or less Life cards, this Leader gains +1000 power.",
+    "effect": {
+      "en": "[DON!! x1] [Opponent's Turn] If you have 2 or less Life cards, this Leader gains +1000 power.",
+      "it": "[DON!! x1] [Opponent's Turn] Se hai 2 o meno carte Life, Questo Leader guadagna +1000 power."
+    },
     "trigger": null,
     "setName": "Yamato [ST-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-001.png",
@@ -108,7 +111,10 @@
       "The Four Emperors",
       "Animal Kingdom Pirates"
     ],
-    "effect": "[DON!! x1] If you have 2 or less Life cards, this Character cannot be K.O.'d in battle.",
+    "effect": {
+      "en": "[DON!! x1] If you have 2 or less Life cards, this Character cannot be K.O.'d in battle.",
+      "it": "[DON!! x1] Se hai 2 o meno carte Life, questo personaggio non può essere K. O. in battaglia."
+    },
     "trigger": null,
     "setName": "Yamato [ST-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-004.png",
@@ -142,7 +148,10 @@
       "Land of Wano",
       "Kouzuki Clan"
     ],
-    "effect": "[DON!! x1] This Character gains [Double Attack].(This card deals 2 damage.)[On K.O.] You may trash 2 cards from your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
+    "effect": {
+      "en": "[DON!! x1] This Character gains [Double Attack].(This card deals 2 damage.)[On K.O.] You may trash 2 cards from your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
+      "it": "[DON!! x1] Questo personaggio guadagna [Double Attack]. (Questa carta infligge 2 danni.)[On K.O.] Puoi mandare nel Trash 2 carte dalla tua mano: aggiungi fino a 1 carta dalla cima del tuo mazzo alla cima delle tue carte Life."
+    },
     "trigger": null,
     "setName": "Yamato [ST-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-005.png",
@@ -208,7 +217,10 @@
     "family": [
       "Land of Wano"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Block] You may add 1 card from the top or bottom of your Life cards to your hand: This Character gains +4000 power during this battle.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Block] You may add 1 card from the top or bottom of your Life cards to your hand: This Character gains +4000 power during this battle.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On Block] Puoi aggiungere 1 carta dalla cima o dal fondo delle tue carte Life alla tua mano: Questo Personaggio guadagna +4000 power durante questa battaglia."
+    },
     "trigger": null,
     "setName": "Yamato [ST-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-007.png",
@@ -242,7 +254,10 @@
     "family": [
       "Land of Wano"
     ],
-    "effect": "[DON!! x1] [When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: Play up to 1 yellow {Land of Wano} type Character card with a cost of 4 or less from your hand.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: Play up to 1 yellow {Land of Wano} type Character card with a cost of 4 or less from your hand.",
+      "it": "[DON!! x1] [When Attacking] Puoi aggiungere 1 carta dalla cima o dal fondo delle tue carte Life alla tua mano: Gioca fino a 1 carta Personaggio gialla di tipo {Land of Wano} con un costo pari o inferiore a 4 dalla tua mano."
+    },
     "trigger": null,
     "setName": "Yamato [ST-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-008.png",
@@ -307,7 +322,10 @@
       "Land of Wano",
       "Whitebeard Pirates"
     ],
-    "effect": "[Once Per Turn] If this Character would be K.O.'d, you may trash 1 card from the top or bottom of your Life cards instead.",
+    "effect": {
+      "en": "[Once Per Turn] If this Character would be K.O.'d, you may trash 1 card from the top or bottom of your Life cards instead.",
+      "it": "[Once Per Turn] Se questo Personaggio fosse K. O. , puoi invece Manda nel Trash 1 carta dalla cima o dal fondo delle tue carte Life."
+    },
     "trigger": null,
     "setName": "Yamato [ST-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-010.png",
@@ -371,7 +389,10 @@
     "family": [
       "Land of Wano"
     ],
-    "effect": "[When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: This Character gains +2000 power until the start of your next turn.",
+    "effect": {
+      "en": "[When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: This Character gains +2000 power until the start of your next turn.",
+      "it": "[When Attacking] Puoi aggiungere 1 carta dalla cima o dal fondo delle tue carte Life alla tua mano: Questo Personaggio guadagna +2000 power fino all'inizio del tuo prossimo turno."
+    },
     "trigger": null,
     "setName": "Yamato [ST-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-012.png",
@@ -434,7 +455,10 @@
     "family": [
       "Land of Wano"
     ],
-    "effect": "[Counter] If you have 2 or less Life cards, give up to 1 of your opponent's Leader or Character cards −3000 power during this turn.",
+    "effect": {
+      "en": "[Counter] If you have 2 or less Life cards, give up to 1 of your opponent's Leader or Character cards −3000 power during this turn.",
+      "it": "[Counter] Se hai 2 o meno carte Life, Dai −3000 power a un massimo di 1 carta Leader o Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": "Trigger[Trigger] You may trash 2 cards from your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
     "setName": "Yamato [ST-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-014.png",
@@ -467,7 +491,10 @@
     "family": [
       "Land of Wano"
     ],
-    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, if you have 2 or less Life cards, add up to 1 of your opponent's Characters with a cost of 3 or less to the top or bottom of the owner's Life cards face-up.",
+    "effect": {
+      "en": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, if you have 2 or less Life cards, add up to 1 of your opponent's Characters with a cost of 3 or less to the top or bottom of the owner's Life cards face-up.",
+      "it": "[Counter] Fino a 1 delle tue carte Leader o Personaggio ottiene +4000 power durante questa battaglia. Poi, se hai 2 o meno carte Life, aggiungi fino a 1 dei Personaggi del tuo avversario con un costo pari o inferiore a 3 in cima o in fondo ai carte Life scoperta del proprietario."
+    },
     "trigger": "Trigger[Trigger] Draw 1 card.",
     "setName": "Yamato [ST-09]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-015.png",

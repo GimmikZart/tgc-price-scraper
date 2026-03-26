@@ -41,7 +41,10 @@
       "The Four Emperors",
       "Whitebeard Pirates"
     ],
-    "effect": "[End of Your Turn] Add 1 card from the top of your Life cards to your hand.",
+    "effect": {
+      "en": "[End of Your Turn] Add 1 card from the top of your Life cards to your hand.",
+      "it": "[End of Your Turn] Aggiungi 1 carta dalla cima delle tue carte Life alla tua mano."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-001_p1.png",
@@ -76,7 +79,10 @@
       "The Four Emperors",
       "Whitebeard Pirates"
     ],
-    "effect": "[End of Your Turn] Add 1 card from the top of your Life cards to your hand.",
+    "effect": {
+      "en": "[End of Your Turn] Add 1 card from the top of your Life cards to your hand.",
+      "it": "[End of Your Turn] Aggiungi 1 carta dalla cima delle tue carte Life alla tua mano."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-001.png",
@@ -110,7 +116,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Your Turn] When this Leader or any of your Characters is given a DON!! card, give up to 1 of your opponent's Characters with a cost of 7 or less −1 cost during this turn.",
+    "effect": {
+      "en": "[Your Turn] When this Leader or any of your Characters is given a DON!! card, give up to 1 of your opponent's Characters with a cost of 7 or less −1 cost during this turn.",
+      "it": "[Your Turn] Quando questo Leader o uno qualsiasi dei tuoi Personaggi riceve un carta DON!! , cede fino a 1 dei Personaggi del tuo avversario con un costo pari o inferiore a 7 -1 durante questo turno."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-002_p1.png",
@@ -145,7 +154,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Your Turn] When this Leader or any of your Characters is given a DON!! card, give up to 1 of your opponent's Characters with a cost of 7 or less −1 cost during this turn.",
+    "effect": {
+      "en": "[Your Turn] When this Leader or any of your Characters is given a DON!! card, give up to 1 of your opponent's Characters with a cost of 7 or less −1 cost during this turn.",
+      "it": "[Your Turn] Quando questo Leader o uno qualsiasi dei tuoi Personaggi riceve un carta DON!! , cede fino a 1 dei Personaggi del tuo avversario con un costo pari o inferiore a 7 -1 durante questo turno."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-002.png",
@@ -209,7 +221,10 @@
       "The Four Emperors",
       "Whitebeard Pirates"
     ],
-    "effect": "[On Play] Up to 1 of your Leader gains +2000 power until the start of your next turn. Then, you cannot add Life cards to your hand using your own effects during this turn.[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 3000 power or less.",
+    "effect": {
+      "en": "[On Play] Up to 1 of your Leader gains +2000 power until the start of your next turn. Then, you cannot add Life cards to your hand using your own effects during this turn.[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 3000 power or less.",
+      "it": "[On Play] Fino a 1 dei tuoi Leader guadagna +2000 power fino all'inizio del tuo turno successivo. Poi, non puoi aggiungere carte Life alla tua mano usando i tuoi effetti durante questo turno. [DON!! x2] [When Attacking] K. O. fino a 1 dei personaggi del tuo avversario con 3000 power o meno."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-004_p1.png",
@@ -246,7 +261,10 @@
       "The Four Emperors",
       "Whitebeard Pirates"
     ],
-    "effect": "[On Play] Up to 1 of your Leader gains +2000 power until the start of your next turn. Then, you cannot add Life cards to your hand using your own effects during this turn.[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 3000 power or less.",
+    "effect": {
+      "en": "[On Play] Up to 1 of your Leader gains +2000 power until the start of your next turn. Then, you cannot add Life cards to your hand using your own effects during this turn.[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 3000 power or less.",
+      "it": "[On Play] Fino a 1 dei tuoi Leader guadagna +2000 power fino all'inizio del tuo turno successivo. Poi, non puoi aggiungere carte Life alla tua mano usando i tuoi effetti durante questo turno. [DON!! x2] [When Attacking] K. O. fino a 1 dei personaggi del tuo avversario con 3000 power o meno."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-004.png",
@@ -281,7 +299,10 @@
     "family": [
       "Mountain Bandits"
     ],
-    "effect": "[On Play] Look at up to 5 cards from the top of your deck; reveal up to 1 red Character with a cost of 1 and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at up to 5 cards from the top of your deck; reveal up to 1 red Character with a cost of 1 and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda fino a 5 carte dalla cima del tuo mazzo; rivela fino a 1 Personaggio rosso con costo pari a 1 e aggiungilo alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-005.png",
@@ -374,7 +395,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[DON!! x1] If you have 2 or less Life cards and your Leader's type includes \"Whitebeard Pirates\", this Character gains [Rush].(This card can attack on the turn in which it is played.)",
+    "effect": {
+      "en": "[DON!! x1] If you have 2 or less Life cards and your Leader's type includes \"Whitebeard Pirates\", this Character gains [Rush].(This card can attack on the turn in which it is played.)",
+      "it": "[DON!! x1] Se hai 2 o meno carte Life e il tipo del tuo Leader include \"Pirati di Barbabianca\", questo personaggio guadagna [Rush]. (Questa carta può attaccare nel turno in cui viene giocata.)"
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-008.png",
@@ -408,7 +432,10 @@
     "family": [
       "Whitebeard Pirates Allies"
     ],
-    "effect": "[On Play] If your Leader's type includes \"Whitebeard Pirates\", give up to 1 of your opponent's Characters −4000 power during this turn and add 1 card from the top of your Life cards to your hand.",
+    "effect": {
+      "en": "[On Play] If your Leader's type includes \"Whitebeard Pirates\", give up to 1 of your opponent's Characters −4000 power during this turn and add 1 card from the top of your Life cards to your hand.",
+      "it": "[On Play] Se il tipo del tuo Leader include \"Pirati di Barbabianca\", Dai −4000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno e aggiungi 1 carta dalla cima delle tue carte Life alla tua mano."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-009_p1.png",
@@ -442,7 +469,10 @@
     "family": [
       "Whitebeard Pirates Allies"
     ],
-    "effect": "[On Play] If your Leader's type includes \"Whitebeard Pirates\", give up to 1 of your opponent's Characters −4000 power during this turn and add 1 card from the top of your Life cards to your hand.",
+    "effect": {
+      "en": "[On Play] If your Leader's type includes \"Whitebeard Pirates\", give up to 1 of your opponent's Characters −4000 power during this turn and add 1 card from the top of your Life cards to your hand.",
+      "it": "[On Play] Se il tipo del tuo Leader include \"Pirati di Barbabianca\", Dai −4000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno e aggiungi 1 carta dalla cima delle tue carte Life alla tua mano."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-009.png",
@@ -475,7 +505,10 @@
     "family": [
       "Mountain Bandits"
     ],
-    "effect": "[Activate: Main] You may rest this Character: Play up to 1 red Character other than [Dogura] with a cost of 1 from your hand.",
+    "effect": {
+      "en": "[Activate: Main] You may rest this Character: Play up to 1 red Character other than [Dogura] with a cost of 1 from your hand.",
+      "it": "[Activate: Main] Puoi mettere in stato spossato questo Personaggio: Gioca fino a 1 red Personaggio other than [Dogura] with a cost of 1 dalla tua mano."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-010.png",
@@ -508,7 +541,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[On Play] K.O. up to 1 of your opponent's Characters with 3000 power or less.",
+    "effect": {
+      "en": "[On Play] K.O. up to 1 of your opponent's Characters with 3000 power or less.",
+      "it": "[On Play] K. O. fino a 1 dei personaggi del tuo avversario con 3000 power o meno."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-011.png",
@@ -541,7 +577,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-012.png",
@@ -574,7 +613,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[On Play] Give up to 2 of your opponent's Characters −3000 power during this turn. Then, if your Leader's type includes \"Whitebeard Pirates\", this Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+    "effect": {
+      "en": "[On Play] Give up to 2 of your opponent's Characters −3000 power during this turn. Then, if your Leader's type includes \"Whitebeard Pirates\", this Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+      "it": "[On Play] Dai −3000 power a un massimo di 2 Personaggi del tuo avversario durante questo turno. Poi, se il tipo del tuo Leader include \"Pirati di Barbabianca\", questo Personaggio guadagna [Rush] durante questo turno. (Questa carta può attaccare nel turno in cui viene giocata.)"
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-013_p1.png",
@@ -609,7 +651,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[On Play] Give up to 2 of your opponent's Characters −3000 power during this turn. Then, if your Leader's type includes \"Whitebeard Pirates\", this Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+    "effect": {
+      "en": "[On Play] Give up to 2 of your opponent's Characters −3000 power during this turn. Then, if your Leader's type includes \"Whitebeard Pirates\", this Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+      "it": "[On Play] Dai −3000 power a un massimo di 2 Personaggi del tuo avversario durante questo turno. Poi, se il tipo del tuo Leader include \"Pirati di Barbabianca\", questo Personaggio guadagna [Rush] durante questo turno. (Questa carta può attaccare nel turno in cui viene giocata.)"
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-013_p2.png",
@@ -644,7 +689,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[On Play] Give up to 2 of your opponent's Characters −3000 power during this turn. Then, if your Leader's type includes \"Whitebeard Pirates\", this Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+    "effect": {
+      "en": "[On Play] Give up to 2 of your opponent's Characters −3000 power during this turn. Then, if your Leader's type includes \"Whitebeard Pirates\", this Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+      "it": "[On Play] Dai −3000 power a un massimo di 2 Personaggi del tuo avversario durante questo turno. Poi, se il tipo del tuo Leader include \"Pirati di Barbabianca\", questo Personaggio guadagna [Rush] durante questo turno. (Questa carta può attaccare nel turno in cui viene giocata.)"
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-013.png",
@@ -678,7 +726,10 @@
     "family": [
       "Whitebeard Pirates Allies"
     ],
-    "effect": "[DON!! x1] This Character can also attack your opponent's active Characters.",
+    "effect": {
+      "en": "[DON!! x1] This Character can also attack your opponent's active Characters.",
+      "it": "[DON!! x1] Questo personaggio può anche attaccare i personaggi attivi del tuo avversario."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-014.png",
@@ -711,7 +762,10 @@
     "family": [
       "Windmill Village"
     ],
-    "effect": "[Activate: Main] You may rest this Character: Up to 1 of your red Characters with a cost of 1 gains +3000 power during this turn.",
+    "effect": {
+      "en": "[Activate: Main] You may rest this Character: Up to 1 of your red Characters with a cost of 1 gains +3000 power during this turn.",
+      "it": "[Activate: Main] Puoi mettere in stato spossato questo Personaggio: Fino a 1 dei tuoi rosse Personaggi with a cost of 1 guadagna +3000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-015.png",
@@ -744,7 +798,10 @@
     "family": [
       "Mountain Bandits"
     ],
-    "effect": "[On Play] Up to 1 of your red Characters with a cost of 1 gains +3000 power during this turn.",
+    "effect": {
+      "en": "[On Play] Up to 1 of your red Characters with a cost of 1 gains +3000 power during this turn.",
+      "it": "[On Play] Fino a 1 dei tuoi personaggi rossi con costo pari a 1 guadagna +3000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-016.png",
@@ -777,7 +834,10 @@
     "family": [
       "Spade Pirates"
     ],
-    "effect": "[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 2000 power or less.",
+    "effect": {
+      "en": "[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 2000 power or less.",
+      "it": "[DON!! x2] [When Attacking] K. O. fino a 1 dei personaggi del tuo avversario con 2000 power o meno."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-017_p1.png",
@@ -812,7 +872,10 @@
     "family": [
       "Spade Pirates"
     ],
-    "effect": "[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 2000 power or less.",
+    "effect": {
+      "en": "[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 2000 power or less.",
+      "it": "[DON!! x2] [When Attacking] K. O. fino a 1 dei personaggi del tuo avversario con 2000 power o meno."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-017.png",
@@ -846,7 +909,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] You may trash 1 card with a type including \"Whitebeard Pirates\" from your hand: If you have 2 or less Life cards, play this Character card from your trash rested.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] You may trash 1 card with a type including \"Whitebeard Pirates\" from your hand: If you have 2 or less Life cards, play this Character card from your trash rested.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On K.O.] Puoi mandare nel Trash 1 carta con un tipo che include \"Pirati di Barbabianca\" dalla tua mano: Se hai 2 o meno carte Life, gioca questa carta Personaggio dal tuo Trash in stato spossato."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-018_p1.png",
@@ -881,7 +947,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] You may trash 1 card with a type including \"Whitebeard Pirates\" from your hand: If you have 2 or less Life cards, play this Character card from your trash rested.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] You may trash 1 card with a type including \"Whitebeard Pirates\" from your hand: If you have 2 or less Life cards, play this Character card from your trash rested.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On K.O.] Puoi mandare nel Trash 1 carta con un tipo che include \"Pirati di Barbabianca\" dalla tua mano: Se hai 2 o meno carte Life, gioca questa carta Personaggio dal tuo Trash in stato spossato."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-018.png",
@@ -915,7 +984,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[DON!! x1] [Your Turn] All of your Characters with a type including \"Whitebeard Pirates\" gain +1000 power.",
+    "effect": {
+      "en": "[DON!! x1] [Your Turn] All of your Characters with a type including \"Whitebeard Pirates\" gain +1000 power.",
+      "it": "[DON!! x1] [Your Turn] Tutti i tuoi personaggi con un tipo che include \"Pirati di Barbabianca\" ottengono +1000 power."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-019.png",
@@ -981,7 +1053,10 @@
       "The Four Emperors",
       "Whitebeard Pirates"
     ],
-    "effect": "[Main] If your Leader's type includes \"Whitebeard Pirates\", K.O. up to 1 of your opponent's Characters with 3000 power or less.",
+    "effect": {
+      "en": "[Main] If your Leader's type includes \"Whitebeard Pirates\", K.O. up to 1 of your opponent's Characters with 3000 power or less.",
+      "it": "[Main] Se il tipo del tuo Leader include \"Pirati di Barbabianca\", K. O. fino a 1 dei personaggi del tuo avversario con 3000 power o meno."
+    },
     "trigger": "Trigger[Trigger] Give up to 1 of your opponent's Leader or Character cards −3000 power during this turn.",
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-021.png",
@@ -1014,7 +1089,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 Character card with a type including \"Whitebeard Pirates\" and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 Character card with a type including \"Whitebeard Pirates\" and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[Main] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta Personaggio con un tipo che include \"Pirati di Barbabianca\" e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-022.png",
@@ -1048,7 +1126,10 @@
       "The Four Emperors",
       "Whitebeard Pirates"
     ],
-    "effect": "[Main] If you have 3 or less Life cards, you cannot add Life cards to your hand using your own effects during this turn.",
+    "effect": {
+      "en": "[Main] If you have 3 or less Life cards, you cannot add Life cards to your hand using your own effects during this turn.",
+      "it": "[Main] Se hai 3 o meno carte Life, non puoi aggiungere carte Life alla tua mano usando i tuoi effetti durante questo turno."
+    },
     "trigger": "Trigger[Trigger] Up to 1 of your Leader gains +1000 power during this turn.",
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-023.png",
@@ -1081,7 +1162,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[Your Turn] If you have 1 or less Life cards, your [Edward.Newgate] and all your Characters with a type including \"Whitebeard Pirates\" gain +2000 power.",
+    "effect": {
+      "en": "[Your Turn] If you have 1 or less Life cards, your [Edward.Newgate] and all your Characters with a type including \"Whitebeard Pirates\" gain +2000 power.",
+      "it": "[Your Turn] Se hai 1 o meno carte Life, il tuo [Edward.Newgate] e tutti i tuoi personaggi con un tipo che include \"Pirati di Barbabianca\" guadagnano +2000 power."
+    },
     "trigger": "Trigger[Trigger] Play this card.",
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-024.png",
@@ -1115,7 +1199,10 @@
       "Land of Wano",
       "The Akazaya Nine"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] If you have 1 or less Characters, the next time you play a {Land of Wano} type Character card with a cost of 3 or more from your hand during this turn, the cost will be reduced by 1.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] If you have 1 or less Characters, the next time you play a {Land of Wano} type Character card with a cost of 3 or more from your hand during this turn, the cost will be reduced by 1.",
+      "it": "[Activate: Main] [Once Per Turn] Se hai 1 o meno Personaggi, la prossima volta che giochi una carta Personaggio di tipo {Land of Wano} con un costo pari o superiore a 3 dalla tua mano durante questo turno, il costo sarà ridotto di 1."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-025_p1.png",
@@ -1151,7 +1238,10 @@
       "Land of Wano",
       "The Akazaya Nine"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] If you have 1 or less Characters, the next time you play a {Land of Wano} type Character card with a cost of 3 or more from your hand during this turn, the cost will be reduced by 1.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] If you have 1 or less Characters, the next time you play a {Land of Wano} type Character card with a cost of 3 or more from your hand during this turn, the cost will be reduced by 1.",
+      "it": "[Activate: Main] [Once Per Turn] Se hai 1 o meno Personaggi, la prossima volta che giochi una carta Personaggio di tipo {Land of Wano} con un costo pari o superiore a 3 dalla tua mano durante questo turno, il costo sarà ridotto di 1."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-025.png",
@@ -1186,7 +1276,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Once Per Turn] When you play a Character with no base effect from your hand, if you have 3 or less Characters, set up to 2 of your DON!! cards as active.",
+    "effect": {
+      "en": "[Once Per Turn] When you play a Character with no base effect from your hand, if you have 3 or less Characters, set up to 2 of your DON!! cards as active.",
+      "it": "[Once Per Turn] Quando giochi un personaggio senza effetti base dalla tua mano, se hai 3 o meno personaggi, imposta fino a 2 delle tue carte DON!! come attivi."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-026_p1.png",
@@ -1221,7 +1314,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Once Per Turn] When you play a Character with no base effect from your hand, if you have 3 or less Characters, set up to 2 of your DON!! cards as active.",
+    "effect": {
+      "en": "[Once Per Turn] When you play a Character with no base effect from your hand, if you have 3 or less Characters, set up to 2 of your DON!! cards as active.",
+      "it": "[Once Per Turn] Quando giochi un personaggio senza effetti base dalla tua mano, se hai 3 o meno personaggi, imposta fino a 2 delle tue carte DON!! come attivi."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-026.png",
@@ -1256,7 +1352,10 @@
       "Land of Wano",
       "The Akazaya Nine"
     ],
-    "effect": "If all of your DON!! cards are rested, this Character cannot be removed from the field by your opponent's effects.",
+    "effect": {
+      "en": "If all of your DON!! cards are rested, this Character cannot be removed from the field by your opponent's effects.",
+      "it": "Se tutti i tuoi carte DON!! sono in stato spossato, questo Personaggio non può essere rimosso dal campo dagli effetti del tuo avversario."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-027.png",
@@ -1317,7 +1416,10 @@
     "family": [
       "Minks"
     ],
-    "effect": "[End of Your Turn] Set up to 1 of your DON!! cards as active.",
+    "effect": {
+      "en": "[End of Your Turn] Set up to 1 of your DON!! cards as active.",
+      "it": "[End of Your Turn] Imposta fino a 1 delle tue carte DON!! come attivi."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-029.png",
@@ -1351,7 +1453,10 @@
       "Land of Wano",
       "Kouzuki Clan"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] ③ (You may rest the specified number of DON!! cards in your cost area.): Set this Character as active.[On K.O.] Play up to 1 green {Land of Wano} type Character card with a cost of 3 from your deck. Then, shuffle your deck.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] ③ (You may rest the specified number of DON!! cards in your cost area.): Set this Character as active.[On K.O.] Play up to 1 green {Land of Wano} type Character card with a cost of 3 from your deck. Then, shuffle your deck.",
+      "it": "[Activate: Main] [Once Per Turn] ③ (Puoi lasciare il numero specificato di carte DON!! nella tua area di costo.): imposta questo personaggio come attivo. [On K.O.] Gioca fino a 1 carta personaggio verde di tipo {Land of Wano} con un costo pari a 3 dal tuo mazzo. Poi, mescola il tuo mazzo."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-030_p1.png",
@@ -1388,7 +1493,10 @@
       "Land of Wano",
       "Kouzuki Clan"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] ③ (You may rest the specified number of DON!! cards in your cost area.): Set this Character as active.[On K.O.] Play up to 1 green {Land of Wano} type Character card with a cost of 3 from your deck. Then, shuffle your deck.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] ③ (You may rest the specified number of DON!! cards in your cost area.): Set this Character as active.[On K.O.] Play up to 1 green {Land of Wano} type Character card with a cost of 3 from your deck. Then, shuffle your deck.",
+      "it": "[Activate: Main] [Once Per Turn] ③ (Puoi lasciare il numero specificato di carte DON!! nella tua area di costo.): imposta questo personaggio come attivo. [On K.O.] Gioca fino a 1 carta personaggio verde di tipo {Land of Wano} con un costo pari a 3 dal tuo mazzo. Poi, mescola il tuo mazzo."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-030.png",
@@ -1424,7 +1532,10 @@
       "Land of Wano",
       "Kouzuki Clan"
     ],
-    "effect": "If you have a [Kouzuki Oden] Character, this Character gains [Blocker].(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "If you have a [Kouzuki Oden] Character, this Character gains [Blocker].(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "Se hai un Personaggio [Kouzuki Oden], questo Personaggio guadagna [Blocker]. (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-031_p1.png",
@@ -1459,7 +1570,10 @@
       "Land of Wano",
       "Kouzuki Clan"
     ],
-    "effect": "If you have a [Kouzuki Oden] Character, this Character gains [Blocker].(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "If you have a [Kouzuki Oden] Character, this Character gains [Blocker].(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "Se hai un Personaggio [Kouzuki Oden], questo Personaggio guadagna [Blocker]. (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-031.png",
@@ -1492,7 +1606,10 @@
     "family": [
       "Minks"
     ],
-    "effect": "[On Play] ② (You may rest the specified number of DON!! cards in your cost area.): Set up to 1 of your {Minks} type Characters with a cost of 5 or less as active.",
+    "effect": {
+      "en": "[On Play] ② (You may rest the specified number of DON!! cards in your cost area.): Set up to 1 of your {Minks} type Characters with a cost of 5 or less as active.",
+      "it": "[On Play] ② (Puoi lasciare il numero specificato di carte DON!! nella tua area di costo.): imposta come attivo fino a 1 dei tuoi personaggi di tipo {Minks} con un costo pari o inferiore a 5."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-032.png",
@@ -1559,7 +1676,10 @@
       "Animal",
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x1] [When Attacking] Rest up to 1 of your opponent's Characters with a cost of 2 or less.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] Rest up to 1 of your opponent's Characters with a cost of 2 or less.",
+      "it": "[DON!! x1] [When Attacking] Metti in stato spossato fino a 1 personaggio del tuo avversario con un costo pari o inferiore a 2."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-034.png",
@@ -1595,7 +1715,10 @@
       "Supernovas",
       "Heart Pirates"
     ],
-    "effect": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may return this Character to the owner's hand: Play up to 1 Character with a cost of 3 from your hand.",
+    "effect": {
+      "en": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may return this Character to the owner's hand: Play up to 1 Character with a cost of 3 from your hand.",
+      "it": "[Activate: Main] ➀ (Puoi lasciare il numero specificato di carte DON!! nella tua area di costo.) Puoi far ritornare questo Personaggio in mano al proprietario: Gioca fino a 1 Personaggio con un costo pari a 3 dalla tua mano."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-035.png",
@@ -1629,7 +1752,10 @@
       "FILM",
       "Straw Hat Crew"
     ],
-    "effect": "[On Play]/[When Attacking] ➀ (You may rest the specified number of DON!! cards in your cost area.): Look at 3 cards from the top of your deck; reveal up to 1 {FILM} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play]/[When Attacking] ➀ (You may rest the specified number of DON!! cards in your cost area.): Look at 3 cards from the top of your deck; reveal up to 1 {FILM} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play]/[When Attacking] ➀ (Puoi mettere in stato spossato il numero specificato di carte DON!! nella tua area di costo.): Guarda 3 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {FILM} diversa da [Nami] e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-036_p1.png",
@@ -1665,7 +1791,10 @@
       "FILM",
       "Straw Hat Crew"
     ],
-    "effect": "[On Play]/[When Attacking] ➀ (You may rest the specified number of DON!! cards in your cost area.): Look at 3 cards from the top of your deck; reveal up to 1 {FILM} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play]/[When Attacking] ➀ (You may rest the specified number of DON!! cards in your cost area.): Look at 3 cards from the top of your deck; reveal up to 1 {FILM} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play]/[When Attacking] ➀ (Puoi mettere in stato spossato il numero specificato di carte DON!! nella tua area di costo.): Guarda 3 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {FILM} diversa da [Nami] e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-036.png",
@@ -1700,7 +1829,10 @@
       "FILM",
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] Play up to 1 {FILM} or {Straw Hat Crew} type Character card with a cost of 2 or less from your hand.",
+    "effect": {
+      "en": "[On Play] Play up to 1 {FILM} or {Straw Hat Crew} type Character card with a cost of 2 or less from your hand.",
+      "it": "[On Play] Gioca fino a 1 carta Personaggio di tipo {FILM} o {Straw Hat Crew} con costo pari o inferiore a 2 dalla tua mano."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-037.png",
@@ -1735,7 +1867,10 @@
       "Land of Wano",
       "The Akazaya Nine"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-038.png",
@@ -1800,7 +1935,10 @@
       "FILM",
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] Play up to 1 {FILM} or {Straw Hat Crew} type Character card with a cost of 3 or less from your hand.",
+    "effect": {
+      "en": "[On Play] Play up to 1 {FILM} or {Straw Hat Crew} type Character card with a cost of 3 or less from your hand.",
+      "it": "[On Play] Gioca fino a 1 carta Personaggio di tipo {FILM} o {Straw Hat Crew} con un costo pari o inferiore a 3 dalla tua mano."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-040.png",
@@ -1835,7 +1973,10 @@
       "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Play up to 1 {FILM} or {Straw Hat Crew} type Character card with a cost of 4 or less from your hand.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Play up to 1 {FILM} or {Straw Hat Crew} type Character card with a cost of 4 or less from your hand.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On Play] Gioca fino a 1 carta Personaggio di tipo {FILM} o {Straw Hat Crew} con un costo pari o inferiore a 4 dalla tua mano."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-041_p1.png",
@@ -1872,7 +2013,10 @@
       "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Play up to 1 {FILM} or {Straw Hat Crew} type Character card with a cost of 4 or less from your hand.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Play up to 1 {FILM} or {Straw Hat Crew} type Character card with a cost of 4 or less from your hand.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On Play] Gioca fino a 1 carta Personaggio di tipo {FILM} o {Straw Hat Crew} con un costo pari o inferiore a 4 dalla tua mano."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-041.png",
@@ -1906,7 +2050,10 @@
     "family": [
       "Land of Wano"
     ],
-    "effect": "Also treat this card's name as [Kouzuki Oden] according to the rules.[On Play] Rest up to 1 of your opponent's Characters with a cost of 6 or less.",
+    "effect": {
+      "en": "Also treat this card's name as [Kouzuki Oden] according to the rules.[On Play] Rest up to 1 of your opponent's Characters with a cost of 6 or less.",
+      "it": "Inoltre, considera il nome di questa carta come [Kouzuki Oden] secondo le regole. [On Play] Metti in stato spossato fino a 1 personaggio del tuo avversario con un costo pari o inferiore a 6."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-042.png",
@@ -1971,7 +2118,10 @@
     "family": [
       "Minks"
     ],
-    "effect": "[On Play] Play up to 1 {Minks} type Character card other than [Wanda] with a cost of 3 or less from your hand.",
+    "effect": {
+      "en": "[On Play] Play up to 1 {Minks} type Character card other than [Wanda] with a cost of 3 or less from your hand.",
+      "it": "[On Play] Gioca fino a 1 carta Personaggio di tipo {Minks} diversa da [Wanda] con un costo pari o inferiore a 3 dalla tua mano."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-044.png",
@@ -2006,7 +2156,10 @@
       "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +6000 power during this battle. Then, play up to 1 Character card with a cost of 3 or less and no base effect from your hand.",
+    "effect": {
+      "en": "[Counter] Up to 1 of your Leader or Character cards gains +6000 power during this battle. Then, play up to 1 Character card with a cost of 3 or less and no base effect from your hand.",
+      "it": "[Counter] Fino a 1 delle tue carte Leader o Personaggio ottiene +6000 power durante questa battaglia. Poi, gioca fino a 1 carta Personaggio con costo pari o inferiore a 3 e senza effetto base dalla tua mano."
+    },
     "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Leader or Character cards with a cost of 5 or less.",
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-045.png",
@@ -2040,7 +2193,10 @@
       "FILM",
       "Straw Hat Crew"
     ],
-    "effect": "[Main] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
+    "effect": {
+      "en": "[Main] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
+      "it": "[Main] K. O. fino a 1 dei personaggi in stato spossato del tuo avversario con un costo pari o inferiore a 4."
+    },
     "trigger": "Trigger[Trigger] Play up to 1 Character card with a cost of 4 or less and no base effect from your hand.",
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-046.png",
@@ -2074,7 +2230,10 @@
       "Land of Wano",
       "Kouzuki Clan"
     ],
-    "effect": "[Main] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "effect": {
+      "en": "[Main] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+      "it": "[Main] Metti in stato spossato fino a 1 personaggio del tuo avversario con un costo pari o inferiore a 4."
+    },
     "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-047.png",
@@ -2107,7 +2266,10 @@
     "family": [
       "Land of Wano"
     ],
-    "effect": "[Activate: Main] You may trash 1 {Land of Wano} type card from your hand and rest this Stage: Set up to 1 of your DON!! cards as active.",
+    "effect": {
+      "en": "[Activate: Main] You may trash 1 {Land of Wano} type card from your hand and rest this Stage: Set up to 1 of your DON!! cards as active.",
+      "it": "[Activate: Main] Puoi mandare nel Trash 1 carta tipo {Land of Wano} dalla tua mano e mettere in stato spossato questa fase: imposta 1 delle tue carte DON!! come attiva."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-048.png",
@@ -2141,7 +2303,10 @@
       "Impel Down",
       "Revolutionary Army"
     ],
-    "effect": "[End of Your Turn] If you have 0 cards in your hand, draw 2 cards.",
+    "effect": {
+      "en": "[End of Your Turn] If you have 0 cards in your hand, draw 2 cards.",
+      "it": "[End of Your Turn] Se hai 0 carte in mano, pesca 2 carte."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-049_p1.png",
@@ -2176,7 +2341,10 @@
       "Impel Down",
       "Revolutionary Army"
     ],
-    "effect": "[End of Your Turn] If you have 0 cards in your hand, draw 2 cards.",
+    "effect": {
+      "en": "[End of Your Turn] If you have 0 cards in your hand, draw 2 cards.",
+      "it": "[End of Your Turn] Se hai 0 carte in mano, pesca 2 carte."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-049.png",
@@ -2210,7 +2378,10 @@
       "Impel Down",
       "Revolutionary Army"
     ],
-    "effect": "If you have 1 or less cards in your hand, this Character gains +2000 power.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "If you have 1 or less cards in your hand, this Character gains +2000 power.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "Se hai 1 o meno carte in mano, Questo Personaggio guadagna +2000 power. [Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-050.png",
@@ -2244,7 +2415,10 @@
       "Impel Down",
       "Revolutionary Army"
     ],
-    "effect": "[On Play] Draw card(s) so that you have 3 cards in your hand and then play up to 1 blue {Impel Down} type Character card with a cost of 6 or less from your hand.",
+    "effect": {
+      "en": "[On Play] Draw card(s) so that you have 3 cards in your hand and then play up to 1 blue {Impel Down} type Character card with a cost of 6 or less from your hand.",
+      "it": "[On Play] Pesca una o più carte in modo da avere 3 carte in mano e poi gioca fino a 1 carta Personaggio blu di tipo {Impel Down} con un costo pari o inferiore a 6 dalla tua mano."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-051_p1.png",
@@ -2279,7 +2453,10 @@
       "Impel Down",
       "Revolutionary Army"
     ],
-    "effect": "[On Play] Draw card(s) so that you have 3 cards in your hand and then play up to 1 blue {Impel Down} type Character card with a cost of 6 or less from your hand.",
+    "effect": {
+      "en": "[On Play] Draw card(s) so that you have 3 cards in your hand and then play up to 1 blue {Impel Down} type Character card with a cost of 6 or less from your hand.",
+      "it": "[On Play] Pesca una o più carte in modo da avere 3 carte in mano e poi gioca fino a 1 carta Personaggio blu di tipo {Impel Down} con un costo pari o inferiore a 6 dalla tua mano."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-051.png",
@@ -2312,7 +2489,10 @@
     "family": [
       "Buggy Pirates"
     ],
-    "effect": "[On Play] If you have [Mohji], draw 2 cards and trash 1 card from your hand.",
+    "effect": {
+      "en": "[On Play] If you have [Mohji], draw 2 cards and trash 1 card from your hand.",
+      "it": "[On Play] Se hai [Mohji], pesca 2 carte e Manda nel Trash 1 carta dalla tua mano."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-052.png",
@@ -2438,7 +2618,10 @@
       "The Seven Warlords of the Sea",
       "Donquixote Pirates"
     ],
-    "effect": "[On Play] Look at 3 cards from the top of your deck and place them at the top or bottom of the deck in any order.[DON!! x1] [When Attacking] You may trash 1 card from your hand: Place up to 1 of your opponent's Characters with a cost of 1 or less at the bottom of the owner's deck.",
+    "effect": {
+      "en": "[On Play] Look at 3 cards from the top of your deck and place them at the top or bottom of the deck in any order.[DON!! x1] [When Attacking] You may trash 1 card from your hand: Place up to 1 of your opponent's Characters with a cost of 1 or less at the bottom of the owner's deck.",
+      "it": "[On Play] Guarda 3 carte dalla cima del tuo mazzo e posizionale in cima o in fondo al mazzo in qualsiasi ordine. [DON!! x1] [When Attacking] Puoi mandare nel Trash 1 carta dalla tua mano: Metti fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 1 in fondo al mazzo del proprietario."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-056.png",
@@ -2474,7 +2657,10 @@
       "The Seven Warlords of the Sea",
       "Revolutionary Army"
     ],
-    "effect": "[On Play] Look at 2 cards from the top of your deck; reveal up to 1 {The Seven Warlords of the Sea} type card and add it to your hand. Then, place the rest at the top or bottom of the deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 2 cards from the top of your deck; reveal up to 1 {The Seven Warlords of the Sea} type card and add it to your hand. Then, place the rest at the top or bottom of the deck in any order.",
+      "it": "[On Play] Guarda 2 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {The Seven Warlords of the Sea} e aggiungila alla tua mano. Quindi, posiziona il resto in cima o in fondo al mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-057.png",
@@ -2508,7 +2694,10 @@
       "Impel Down",
       "Buggy Pirates"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 blue {Impel Down} type card other than [Buggy] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 blue {Impel Down} type card other than [Buggy] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta blu di tipo {Impel Down} diversa da [Buggy] e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-058_p1.png",
@@ -2543,7 +2732,10 @@
       "Impel Down",
       "Buggy Pirates"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 blue {Impel Down} type card other than [Buggy] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 blue {Impel Down} type card other than [Buggy] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta blu di tipo {Impel Down} diversa da [Buggy] e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-058.png",
@@ -2578,7 +2770,10 @@
       "The Seven Warlords of the Sea",
       "Kuja Pirates"
     ],
-    "effect": "[When Attacking] Draw 1 card and trash 1 card from your hand. Then, trash up to 3 cards from your hand.",
+    "effect": {
+      "en": "[When Attacking] Draw 1 card and trash 1 card from your hand. Then, trash up to 3 cards from your hand.",
+      "it": "[When Attacking] Pesca 1 carta e Manda nel Trash 1 carta dalla tua mano. Poi, Manda nel Trash fino a 3 carte dalla tua mano."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-059_p1.png",
@@ -2614,7 +2809,10 @@
       "The Seven Warlords of the Sea",
       "Kuja Pirates"
     ],
-    "effect": "[When Attacking] Draw 1 card and trash 1 card from your hand. Then, trash up to 3 cards from your hand.",
+    "effect": {
+      "en": "[When Attacking] Draw 1 card and trash 1 card from your hand. Then, trash up to 3 cards from your hand.",
+      "it": "[When Attacking] Pesca 1 carta e Manda nel Trash 1 carta dalla tua mano. Poi, Manda nel Trash fino a 3 carte dalla tua mano."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-059.png",
@@ -2678,7 +2876,10 @@
       "Giant",
       "Revolutionary Army"
     ],
-    "effect": "[When Attacking] If you have 1 or less cards in your hand, your opponent cannot activate the [Blocker] of any Character with a cost of 5 or less during this battle.",
+    "effect": {
+      "en": "[When Attacking] If you have 1 or less cards in your hand, your opponent cannot activate the [Blocker] of any Character with a cost of 5 or less during this battle.",
+      "it": "[When Attacking] Se hai 1 o meno carte in mano, il tuo avversario non può attivare [Blocker] di qualsiasi Personaggio con costo pari o inferiore a 5 durante questa battaglia."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-061.png",
@@ -2713,7 +2914,10 @@
       "Impel Down",
       "Straw Hat Crew"
     ],
-    "effect": "[On Play]/[When Attacking] You may trash 2 cards from your hand: Return up to 1 Character with a cost of 4 or less to the owner's hand. Then, this Character gains [Double Attack] during this turn.(This card deals 2 damage.)",
+    "effect": {
+      "en": "[On Play]/[When Attacking] You may trash 2 cards from your hand: Return up to 1 Character with a cost of 4 or less to the owner's hand. Then, this Character gains [Double Attack] during this turn.(This card deals 2 damage.)",
+      "it": "[On Play]/[When Attacking] Puoi mandare nel Trash 2 carte dalla tua mano: Riportare fino a 1 Personaggio con un costo pari o inferiore a 4 nella mano del proprietario. Poi, questo personaggio guadagna [Double Attack] durante questo turno. (Questa carta infligge 2 danni.)"
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-062_p1.png",
@@ -2750,7 +2954,10 @@
       "Impel Down",
       "Straw Hat Crew"
     ],
-    "effect": "[On Play]/[When Attacking] You may trash 2 cards from your hand: Return up to 1 Character with a cost of 4 or less to the owner's hand. Then, this Character gains [Double Attack] during this turn.(This card deals 2 damage.)",
+    "effect": {
+      "en": "[On Play]/[When Attacking] You may trash 2 cards from your hand: Return up to 1 Character with a cost of 4 or less to the owner's hand. Then, this Character gains [Double Attack] during this turn.(This card deals 2 damage.)",
+      "it": "[On Play]/[When Attacking] Puoi mandare nel Trash 2 carte dalla tua mano: Riportare fino a 1 Personaggio con un costo pari o inferiore a 4 nella mano del proprietario. Poi, questo personaggio guadagna [Double Attack] durante questo turno. (Questa carta infligge 2 danni.)"
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-062.png",
@@ -2786,7 +2993,10 @@
       "Impel Down",
       "Former Baroque Works"
     ],
-    "effect": "[On Play] Add up to 1 blue Event card with a cost of 1 from your trash to your hand.",
+    "effect": {
+      "en": "[On Play] Add up to 1 blue Event card with a cost of 1 from your trash to your hand.",
+      "it": "[On Play] Aggiungi fino a 1 carta Evento blu con costo pari a 1 dal tuo Trash alla tua mano."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-063.png",
@@ -2820,7 +3030,10 @@
       "Impel Down",
       "Former Baroque Works"
     ],
-    "effect": "[DON!! x1] [When Attacking] You may trash 1 card from your hand: Place up to 1 Character with a cost of 2 or less at the bottom of the owner's deck. Then, at the end of this battle, place this Character at the bottom of the owner's deck.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] You may trash 1 card from your hand: Place up to 1 Character with a cost of 2 or less at the bottom of the owner's deck. Then, at the end of this battle, place this Character at the bottom of the owner's deck.",
+      "it": "[DON!! x1] [When Attacking] Puoi mandare nel Trash 1 carta dalla tua mano: posizionare fino a 1 personaggio con un costo pari o inferiore a 2 in fondo al mazzo del proprietario. Poi, alla fine di questa battaglia, posiziona questo Personaggio in fondo al mazzo del proprietario."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-064.png",
@@ -2855,7 +3068,10 @@
       "Impel Down",
       "Former Baroque Works"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[End of Your Turn] You may trash 1 card from your hand: Set this Character as active.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[End of Your Turn] You may trash 1 card from your hand: Set this Character as active.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[End of Your Turn] Puoi mandare nel Trash 1 carta dalla tua mano: Imposta questo Personaggio come attivo."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-065.png",
@@ -2889,7 +3105,10 @@
     "family": [
       "Impel Down"
     ],
-    "effect": "[Main] You may trash 2 cards from your hand: If your Leader has the {Impel Down} type, draw up to 2 cards.",
+    "effect": {
+      "en": "[Main] You may trash 2 cards from your hand: If your Leader has the {Impel Down} type, draw up to 2 cards.",
+      "it": "[Main] Puoi mandare nel Trash 2 carte dalla tua mano: se il tuo Leader ha il tipo {Impel Down}, pesca fino a 2 carte."
+    },
     "trigger": "Trigger[Trigger] Draw 2 cards.",
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-066.png",
@@ -2923,7 +3142,10 @@
       "Fish-Man",
       "Impel Down"
     ],
-    "effect": "[Main] Return up to 1 Character with a cost of 4 or less to the owner's hand.",
+    "effect": {
+      "en": "[Main] Return up to 1 Character with a cost of 4 or less to the owner's hand.",
+      "it": "[Main] Rimetti in mano al proprietario fino a 1 personaggio con un costo pari o inferiore a 4."
+    },
     "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-067.png",
@@ -2957,7 +3179,10 @@
       "Impel Down",
       "Straw Hat Crew"
     ],
-    "effect": "[Counter] You may trash 1 card from your hand: Up to 1 of your Leader or Character cards gains +3000 power during this battle.",
+    "effect": {
+      "en": "[Counter] You may trash 1 card from your hand: Up to 1 of your Leader or Character cards gains +3000 power during this battle.",
+      "it": "[Counter] Puoi mandare nel Trash 1 carta dalla tua mano: fino a 1 delle tue carte Leader o Personaggio guadagna +3000 power durante questa battaglia."
+    },
     "trigger": "Trigger[Trigger] Return up to 1 Character with a cost of 2 or less to the owner's hand.",
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-068.png",
@@ -2991,7 +3216,10 @@
       "Impel Down",
       "Revolutionary Army"
     ],
-    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +6000 power during this battle. Then, draw cards so that you have 2 cards in your hand.",
+    "effect": {
+      "en": "[Counter] Up to 1 of your Leader or Character cards gains +6000 power during this battle. Then, draw cards so that you have 2 cards in your hand.",
+      "it": "[Counter] Fino a 1 delle tue carte Leader o Personaggio ottiene +6000 power durante questa battaglia. Poi pesca le carte in modo da avere 2 carte in mano."
+    },
     "trigger": "Trigger[Trigger] Return up to 1 Character with a cost of 7 or less to the owner's hand.",
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-069.png",
@@ -3024,7 +3252,10 @@
     "family": [
       "Impel Down"
     ],
-    "effect": "[Activate: Main] You may rest this Stage: If your Leader is [Emporio.Ivankov], draw 1 card and trash 1 card from your hand. Then, trash up to 3 cards from your hand.",
+    "effect": {
+      "en": "[Activate: Main] You may rest this Stage: If your Leader is [Emporio.Ivankov], draw 1 card and trash 1 card from your hand. Then, trash up to 3 cards from your hand.",
+      "it": "[Activate: Main] Puoi mettere in stato spossato questa Stage: Se il tuo Leader è [Emporio.Ivankov], Pesca 1 carta and Manda nel Trash 1 carta dalla tua mano. Poi, Manda nel Trash fino a 3 carte dalla tua mano."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-070.png",
@@ -3057,7 +3288,10 @@
     "family": [
       "Impel Down"
     ],
-    "effect": "[Your Turn] [Once Per Turn] When a DON!! card on the field is returned to your DON!! deck, this Leader gains +1000 power during this turn.",
+    "effect": {
+      "en": "[Your Turn] [Once Per Turn] When a DON!! card on the field is returned to your DON!! deck, this Leader gains +1000 power during this turn.",
+      "it": "[Your Turn] [Once Per Turn] Quando un carta DON!! sul campo viene restituito al tuo mazzo DON!! , Questo Leader guadagna +1000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-071_p1.png",
@@ -3092,7 +3326,10 @@
     "family": [
       "Impel Down"
     ],
-    "effect": "[Your Turn] [Once Per Turn] When a DON!! card on the field is returned to your DON!! deck, this Leader gains +1000 power during this turn.",
+    "effect": {
+      "en": "[Your Turn] [Once Per Turn] When a DON!! card on the field is returned to your DON!! deck, this Leader gains +1000 power during this turn.",
+      "it": "[Your Turn] [Once Per Turn] Quando un carta DON!! sul campo viene restituito al tuo mazzo DON!! , Questo Leader guadagna +1000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-071.png",
@@ -3128,7 +3365,10 @@
       "FILM",
       "Neo Navy"
     ],
-    "effect": "[When Attacking] DON!! −4 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 3 or less. Then, this Leader gains +1000 power during this turn.",
+    "effect": {
+      "en": "[When Attacking] DON!! −4 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 3 or less. Then, this Leader gains +1000 power during this turn.",
+      "it": "[When Attacking] DON!! −4 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): K. O. fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 3. Poi, Questo Leader guadagna +1000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-072_p1.png",
@@ -3164,7 +3404,10 @@
       "FILM",
       "Neo Navy"
     ],
-    "effect": "[When Attacking] DON!! −4 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 3 or less. Then, this Leader gains +1000 power during this turn.",
+    "effect": {
+      "en": "[When Attacking] DON!! −4 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 3 or less. Then, this Leader gains +1000 power during this turn.",
+      "it": "[When Attacking] DON!! −4 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): K. O. fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 3. Poi, Questo Leader guadagna +1000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-072.png",
@@ -3197,7 +3440,10 @@
     "family": [
       "Impel Down"
     ],
-    "effect": "[On Play] Play up to 1 {Jailer Beast} type Character card from your hand.",
+    "effect": {
+      "en": "[On Play] Play up to 1 {Jailer Beast} type Character card from your hand.",
+      "it": "[On Play] Gioca fino a 1 carta Personaggio di tipo {Jailer Beast} dalla tua mano."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-073_p1.png",
@@ -3231,7 +3477,10 @@
     "family": [
       "Impel Down"
     ],
-    "effect": "[On Play] Play up to 1 {Jailer Beast} type Character card from your hand.",
+    "effect": {
+      "en": "[On Play] Play up to 1 {Jailer Beast} type Character card from your hand.",
+      "it": "[On Play] Gioca fino a 1 carta Personaggio di tipo {Jailer Beast} dalla tua mano."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-073.png",
@@ -3264,7 +3513,10 @@
     "family": [
       "Impel Down"
     ],
-    "effect": "Your [Blugori] gains [Blocker].(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "Your [Blugori] gains [Blocker].(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "Il tuo [Blugori] guadagna [Blocker]. (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-074.png",
@@ -3328,7 +3580,10 @@
     "family": [
       "Impel Down"
     ],
-    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 1 or less.",
+    "effect": {
+      "en": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 1 or less.",
+      "it": "[On Play] DON!! −1 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): K. O. fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 1."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-076.png",
@@ -3393,7 +3648,10 @@
       "Animal Kingdom Pirates",
       "SMILE"
     ],
-    "effect": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 {SMILE} type Character card other than [Daifugo] with a cost of 3 or less from your hand.",
+    "effect": {
+      "en": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 {SMILE} type Character card other than [Daifugo] with a cost of 3 or less from your hand.",
+      "it": "[On Play] DON!! −2 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): Gioca fino a 1 carta Personaggio di tipo {SMILE} diversa da [Daifugo] con un costo pari o inferiore a 3 dalla tua mano."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-078.png",
@@ -3427,7 +3685,10 @@
       "FILM",
       "The Pirates Fest"
     ],
-    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "effect": {
+      "en": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+      "it": "[On Play] DON!! −1 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): metti in stato spossato fino a 1 dei Personaggi del tuo avversario con un costo pari o inferiore a 4."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-079.png",
@@ -3491,7 +3752,10 @@
     "family": [
       "Impel Down"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-081.png",
@@ -3524,7 +3788,10 @@
     "family": [
       "World Pirates"
     ],
-    "effect": "[Activate: Main] DON!! −8 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains +792000 power during this turn.",
+    "effect": {
+      "en": "[Activate: Main] DON!! −8 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains +792000 power during this turn.",
+      "it": "[Activate: Main] DON!! −8 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): Questo Personaggio guadagna +792000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-082.png",
@@ -3557,7 +3824,10 @@
     "family": [
       "Impel Down"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 purple {Impel Down} type card other than [Hannyabal] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 purple {Impel Down} type card other than [Hannyabal] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta viola di tipo {Impel Down} diversa da [Hannyabal] e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-083.png",
@@ -3621,7 +3891,10 @@
     "family": [
       "Impel Down"
     ],
-    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your opponent returns 1 DON!! card from their field to their DON!! deck.[Opponent's Turn] When this Character is K.O.'d, your opponent returns 2 DON!! cards from their field to their DON!! deck.",
+    "effect": {
+      "en": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your opponent returns 1 DON!! card from their field to their DON!! deck.[Opponent's Turn] When this Character is K.O.'d, your opponent returns 2 DON!! cards from their field to their DON!! deck.",
+      "it": "[On Play] DON!! −1 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): Il tuo avversario restituisce 1 carta DON!! dal suo campo al suo mazzo DON!! . [Opponent's Turn] Quando questo personaggio è K. O. , il tuo avversario restituisce 2 carte DON!! dal suo campo al suo mazzo DON!! ."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-085_p1.png",
@@ -3656,7 +3929,10 @@
     "family": [
       "Impel Down"
     ],
-    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your opponent returns 1 DON!! card from their field to their DON!! deck.[Opponent's Turn] When this Character is K.O.'d, your opponent returns 2 DON!! cards from their field to their DON!! deck.",
+    "effect": {
+      "en": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your opponent returns 1 DON!! card from their field to their DON!! deck.[Opponent's Turn] When this Character is K.O.'d, your opponent returns 2 DON!! cards from their field to their DON!! deck.",
+      "it": "[On Play] DON!! −1 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): Il tuo avversario restituisce 1 carta DON!! dal suo campo al suo mazzo DON!! . [Opponent's Turn] Quando questo personaggio è K. O. , il tuo avversario restituisce 2 carte DON!! dal suo campo al suo mazzo DON!! ."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-085.png",
@@ -3691,7 +3967,10 @@
       "Impel Down",
       "Jailer Beast"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] If your Leader has the {Impel Down} type, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] If your Leader has the {Impel Down} type, add up to 1 DON!! card from your DON!! deck and rest it.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On K.O.] Se il tuo Leader ha il tipo {Impel Down}, aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e riposalo."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-086_p1.png",
@@ -3727,7 +4006,10 @@
       "Impel Down",
       "Jailer Beast"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] If your Leader has the {Impel Down} type, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] If your Leader has the {Impel Down} type, add up to 1 DON!! card from your DON!! deck and rest it.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On K.O.] Se il tuo Leader ha il tipo {Impel Down}, aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e riposalo."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-086.png",
@@ -3762,7 +4044,10 @@
       "Impel Down",
       "Jailer Beast"
     ],
-    "effect": "[Double Attack] (This card deals 2 damage.)[On K.O.] If your Leader has the {Impel Down} type, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "effect": {
+      "en": "[Double Attack] (This card deals 2 damage.)[On K.O.] If your Leader has the {Impel Down} type, add up to 1 DON!! card from your DON!! deck and rest it.",
+      "it": "[Double Attack] (Questa carta infligge 2 danni.)[On K.O.] Se il tuo Leader ha il tipo {Impel Down}, aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e lascialo mettere in stato spossato."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-087.png",
@@ -3827,7 +4112,10 @@
     "family": [
       "Impel Down"
     ],
-    "effect": "[Counter] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Give up to a total of 2 of your opponent's Leader or Character cards −3000 power during this turn.",
+    "effect": {
+      "en": "[Counter] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Give up to a total of 2 of your opponent's Leader or Character cards −3000 power during this turn.",
+      "it": "[Counter] DON!! −1 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): Dai −3000 power a un massimo di 2 carte Leader o Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": "Trigger[Trigger] If your opponent has 6 or more DON!! cards on their field, your opponent returns 1 DON!! card from their field to their DON!! deck.",
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-089.png",
@@ -3860,7 +4148,10 @@
     "family": [
       "Impel Down"
     ],
-    "effect": "[Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Give up to 1 of your opponent's Characters −3000 power during this turn.",
+    "effect": {
+      "en": "[Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Give up to 1 of your opponent's Characters −3000 power during this turn.",
+      "it": "[Main] DON!! −1 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): Dai −3000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": "Trigger[Trigger] If your opponent has 6 or more DON!! cards on their field, your opponent returns 1 DON!! card from their field to their DON!! deck.",
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-090.png",
@@ -3893,7 +4184,10 @@
     "family": [
       "Impel Down"
     ],
-    "effect": "[Main] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": {
+      "en": "[Main] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+      "it": "[Main] Aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e impostalo come attivo."
+    },
     "trigger": "Trigger[Trigger] If your opponent has 6 or more DON!! cards on their field, your opponent returns 1 DON!! card from their field to their DON!! deck.",
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-091.png",
@@ -3926,7 +4220,10 @@
     "family": [
       "Impel Down"
     ],
-    "effect": "[Activate: Main] You may trash 1 card from your hand and rest this Stage: Look at 3 cards from the top of your deck; reveal up to 1 {Impel Down} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[Activate: Main] You may trash 1 card from your hand and rest this Stage: Look at 3 cards from the top of your deck; reveal up to 1 {Impel Down} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[Activate: Main] Puoi mandare nel Trash 1 carta dalla tua mano e mettere in stato spossato in questa fase: guarda 3 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Impel Down} e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-092.png",
@@ -3959,7 +4256,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] Give up to 1 of your opponent's Characters −1 cost during this turn. Then, if there is a Character with a cost of 0, this Leader gains +1000 power during this turn.",
+    "effect": {
+      "en": "[DON!! x1] [Activate: Main] [Once Per Turn] Give up to 1 of your opponent's Characters −1 cost during this turn. Then, if there is a Character with a cost of 0, this Leader gains +1000 power during this turn.",
+      "it": "[DON!! x1] [Activate: Main] [Once Per Turn] Dai −1 costo a un massimo di 1 Personaggio del tuo avversario durante questo turno. Poi, se c'è un Personaggio con costo pari a 0, Questo Leader guadagna +1000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-093_p1.png",
@@ -3995,7 +4295,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] Give up to 1 of your opponent's Characters −1 cost during this turn. Then, if there is a Character with a cost of 0, this Leader gains +1000 power during this turn.",
+    "effect": {
+      "en": "[DON!! x1] [Activate: Main] [Once Per Turn] Give up to 1 of your opponent's Characters −1 cost during this turn. Then, if there is a Character with a cost of 0, this Leader gains +1000 power during this turn.",
+      "it": "[DON!! x1] [Activate: Main] [Once Per Turn] Dai −1 costo a un massimo di 1 Personaggio del tuo avversario durante questo turno. Poi, se c'è un Personaggio con costo pari a 0, Questo Leader guadagna +1000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-093.png",
@@ -4030,7 +4333,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[DON!! x1] [Once Per Turn] When this Character battles and K.O.'s your opponent's Character, set this Character as active.",
+    "effect": {
+      "en": "[DON!! x1] [Once Per Turn] When this Character battles and K.O.'s your opponent's Character, set this Character as active.",
+      "it": "[DON!! x1] [Once Per Turn] Quando questo personaggio combatte e K. O. è il personaggio del tuo avversario, imposta questo personaggio come attivo."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-094.png",
@@ -4064,7 +4370,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "If there is a Character with a cost of 0, this Character gains [Banish].(When this card deals damage, the target card is trashed without activating its Trigger.)",
+    "effect": {
+      "en": "If there is a Character with a cost of 0, this Character gains [Banish].(When this card deals damage, the target card is trashed without activating its Trigger.)",
+      "it": "Se c'è un Personaggio con un costo pari a 0, questo Personaggio guadagna [Banish]. (Quando questa carta infligge danni, la carta bersaglio viene eliminata senza attivare il suo Trigger.)"
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-095.png",
@@ -4097,7 +4406,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] Draw 1 card.[When Attacking] Give up to 1 of your opponent's Characters −4 cost during this turn.",
+    "effect": {
+      "en": "[On Play] Draw 1 card.[When Attacking] Give up to 1 of your opponent's Characters −4 cost during this turn.",
+      "it": "[On Play] Pesca 1 carta. [When Attacking] Cedi fino a 1 personaggio del tuo avversario a un -4 costo durante questo turno."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-096_p1.png",
@@ -4132,7 +4444,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] Draw 1 card.[When Attacking] Give up to 1 of your opponent's Characters −4 cost during this turn.",
+    "effect": {
+      "en": "[On Play] Draw 1 card.[When Attacking] Give up to 1 of your opponent's Characters −4 cost during this turn.",
+      "it": "[On Play] Pesca 1 carta. [When Attacking] Cedi fino a 1 personaggio del tuo avversario a un -4 costo durante questo turno."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-096.png",
@@ -4196,7 +4511,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "effect": {
+      "en": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+      "it": "[On Play] Puoi mandare nel Trash 1 carta dalla tua mano: K. O. fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 3."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-098.png",
@@ -4229,7 +4547,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "effect": {
+      "en": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+      "it": "[On Play] Puoi mandare nel Trash 1 carta dalla tua mano: K. O. fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 5."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-099_p1.png",
@@ -4263,7 +4584,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "effect": {
+      "en": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+      "it": "[On Play] Puoi mandare nel Trash 1 carta dalla tua mano: K. O. fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 5."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-099.png",
@@ -4296,7 +4620,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "If you have [Fullbody], this Character cannot be K.O.'d in battle.",
+    "effect": {
+      "en": "If you have [Fullbody], this Character cannot be K.O.'d in battle.",
+      "it": "Se hai [Fullbody], questo personaggio non può essere K. O. in battaglia."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-100.png",
@@ -4326,7 +4653,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[When Attacking] If there is a Character with a cost of 0, your opponent cannot activate the [Blocker] of any Character with a cost of 5 or less during this battle.",
+    "effect": {
+      "en": "[When Attacking] If there is a Character with a cost of 0, your opponent cannot activate the [Blocker] of any Character with a cost of 5 or less during this battle.",
+      "it": "[When Attacking] Se è presente un personaggio con costo pari a 0, il tuo avversario non può attivare [Blocker] di qualsiasi personaggio con costo pari o inferiore a 5 durante questa battaglia."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-101.png",
@@ -4360,7 +4690,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "This Character cannot be K.O.'d by effects.[When Attacking] If there is a Character with a cost of 0, this Character gains +2000 power during this battle.",
+    "effect": {
+      "en": "This Character cannot be K.O.'d by effects.[When Attacking] If there is a Character with a cost of 0, this Character gains +2000 power during this battle.",
+      "it": "Questo personaggio non può essere K. O. dagli effetti. [When Attacking] Se c'è un personaggio con un costo pari a 0, Questo Personaggio guadagna +2000 power durante questa battaglia."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-102.png",
@@ -4393,7 +4726,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −2 cost during this turn.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −2 cost during this turn.",
+      "it": "[DON!! x1] [When Attacking] Dai −2 costo a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-103.png",
@@ -4457,7 +4793,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −3 cost during this turn.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −3 cost during this turn.",
+      "it": "[DON!! x1] [When Attacking] Dai −3 costo a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-105_p1.png",
@@ -4492,7 +4831,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −3 cost during this turn.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −3 cost during this turn.",
+      "it": "[DON!! x1] [When Attacking] Dai −3 costo a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-105.png",
@@ -4526,7 +4868,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] Give up to 1 of your opponent's Characters −2 cost during this turn.",
+    "effect": {
+      "en": "[On Play] Give up to 1 of your opponent's Characters −2 cost during this turn.",
+      "it": "[On Play] Dai −2 costo a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-106.png",
@@ -4590,7 +4935,10 @@
       "Navy",
       "Donquixote Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-108_p1.png",
@@ -4625,7 +4973,10 @@
       "Navy",
       "Donquixote Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-108.png",
@@ -4689,7 +5040,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Block] Select up to 1 of your opponent's Characters with a cost of 6 or less. The selected Character cannot attack during this turn.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Block] Select up to 1 of your opponent's Characters with a cost of 6 or less. The selected Character cannot attack during this turn.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On Block] Seleziona fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 6. Il Personaggio selezionato non può attaccare durante questo turno."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-110.png",
@@ -4723,7 +5077,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[When Attacking] If you have [Jango], this card gains +3000 power during this battle.",
+    "effect": {
+      "en": "[When Attacking] If you have [Jango], this card gains +3000 power during this battle.",
+      "it": "[When Attacking] Se hai [Jango], questa carta guadagna +3000 power durante questa battaglia."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-111.png",
@@ -4756,7 +5113,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −1 cost during this turn. Then, up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "effect": {
+      "en": "[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −1 cost during this turn. Then, up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+      "it": "[Activate: Main] Puoi mettere in stato spossato questo Personaggio: Dai −1 costo a un massimo di 1 Personaggio del tuo avversario durante questo turno. Then, Fino a 1 delle tue carte Leader o Personaggio guadagna +1000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-112.png",
@@ -4789,7 +5149,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[When Attacking] Give up to 1 of your opponent's Characters −2 cost during this turn. Then, if there is a Character with a cost of 0, this Character gains +2000 power during this battle.",
+    "effect": {
+      "en": "[When Attacking] Give up to 1 of your opponent's Characters −2 cost during this turn. Then, if there is a Character with a cost of 0, this Character gains +2000 power during this battle.",
+      "it": "[When Attacking] Dai −2 costo a un massimo di 1 Personaggio del tuo avversario durante questo turno. Poi, se c'è un Personaggio con un costo pari a 0, Questo Personaggio guadagna +2000 power durante questa battaglia."
+    },
     "trigger": "Trigger[Trigger] Play this card.",
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-113.png",
@@ -4822,7 +5185,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Opponent's Turn] This Character gains +1000 power and cannot be K.O.'d by effects.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "[Opponent's Turn] This Character gains +1000 power and cannot be K.O.'d by effects.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "[Opponent's Turn] Questo personaggio guadagna +1000 power e non può essere K. O. dagli effetti. [Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-114_p1.png",
@@ -4857,7 +5223,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Opponent's Turn] This Character gains +1000 power and cannot be K.O.'d by effects.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "[Opponent's Turn] This Character gains +1000 power and cannot be K.O.'d by effects.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "[Opponent's Turn] Questo personaggio guadagna +1000 power e non può essere K. O. dagli effetti. [Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-114.png",
@@ -4891,7 +5260,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with a cost of 0.",
+    "effect": {
+      "en": "[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with a cost of 0.",
+      "it": "[DON!! x2] [When Attacking] K. O. fino a 1 personaggio del tuo avversario con un costo pari a 0."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-115_p1.png",
@@ -4926,7 +5298,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with a cost of 0.",
+    "effect": {
+      "en": "[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with a cost of 0.",
+      "it": "[DON!! x2] [When Attacking] K. O. fino a 1 personaggio del tuo avversario con un costo pari a 0."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-115.png",
@@ -4990,7 +5365,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Main] Give up to 1 of your opponent's Characters −5 cost during this turn.",
+    "effect": {
+      "en": "[Main] Give up to 1 of your opponent's Characters −5 cost during this turn.",
+      "it": "[Main] Dai −5 costo a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-117.png",
@@ -5023,7 +5401,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Counter] You may trash 1 card from your hand: Select up to 1 of your Characters. The selected Character cannot be K.O.'d during this battle.",
+    "effect": {
+      "en": "[Counter] You may trash 1 card from your hand: Select up to 1 of your Characters. The selected Character cannot be K.O.'d during this battle.",
+      "it": "[Counter] Puoi mandare nel Trash 1 carta dalla tua mano: seleziona fino a 1 dei tuoi personaggi. Il personaggio selezionato non può essere K. O. durante questa battaglia."
+    },
     "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Stages with a cost of 3 or less.",
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-118.png",
@@ -5056,7 +5437,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Main] K.O. up to 1 of your opponent's Characters with a cost of 1 or less.",
+    "effect": {
+      "en": "[Main] K.O. up to 1 of your opponent's Characters with a cost of 1 or less.",
+      "it": "[Main] K. O. fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 1."
+    },
     "trigger": "Trigger[Trigger] Draw 2 cards and trash 1 card from your hand.",
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-119.png",
@@ -5089,7 +5473,10 @@
     "family": [
       "FILM"
     ],
-    "effect": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your Leader and all of your Characters gain +1000 power until the start of your next turn.",
+    "effect": {
+      "en": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your Leader and all of your Characters gain +1000 power until the start of your next turn.",
+      "it": "[On Play] DON!! −2 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): Il tuo Leader e tutti i tuoi personaggi guadagnano +1000 power fino all'inizio del tuo turno successivo."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-120_p1.png",
@@ -5123,7 +5510,10 @@
     "family": [
       "FILM"
     ],
-    "effect": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your Leader and all of your Characters gain +1000 power until the start of your next turn.",
+    "effect": {
+      "en": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your Leader and all of your Characters gain +1000 power until the start of your next turn.",
+      "it": "[On Play] DON!! −2 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): Il tuo Leader e tutti i tuoi personaggi guadagnano +1000 power fino all'inizio del tuo turno successivo."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-120.png",
@@ -5156,7 +5546,10 @@
     "family": [
       "Former Navy"
     ],
-    "effect": "[Your Turn] Give all of your opponent's Characters −5 cost.[On Play] K.O. up to 1 of your opponent's Characters with a cost of 0.",
+    "effect": {
+      "en": "[Your Turn] Give all of your opponent's Characters −5 cost.[On Play] K.O. up to 1 of your opponent's Characters with a cost of 0.",
+      "it": "[Your Turn] Dai a tutti i personaggi del tuo avversario un -5 costo. [On Play] K. O. fino a 1 personaggio del tuo avversario con un costo di 0."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-121_p1.png",
@@ -5191,7 +5584,10 @@
     "family": [
       "Former Navy"
     ],
-    "effect": "[Your Turn] Give all of your opponent's Characters −5 cost.[On Play] K.O. up to 1 of your opponent's Characters with a cost of 0.",
+    "effect": {
+      "en": "[Your Turn] Give all of your opponent's Characters −5 cost.[On Play] K.O. up to 1 of your opponent's Characters with a cost of 0.",
+      "it": "[Your Turn] Dai a tutti i personaggi del tuo avversario un -5 costo. [On Play] K. O. fino a 1 personaggio del tuo avversario con un costo di 0."
+    },
     "trigger": null,
     "setName": "PARAMOUNT WAR [OP-02]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-121.png",

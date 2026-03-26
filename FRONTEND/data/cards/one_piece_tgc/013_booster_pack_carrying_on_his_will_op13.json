@@ -69,7 +69,10 @@
       "Alabasta",
       "Whitebeard Pirates"
     ],
-    "effect": "[On Play] If your Leader's type includes \"Whitebeard Pirates\", look at 5 cards from the top of your deck; reveal up to 1 Character card with a cost of 2 and add it to your hand. Then, place the rest at the bottom of your deck in any order and play up to 1 Character card with a cost of 2 from your hand rested.",
+    "effect": {
+      "en": "[On Play] If your Leader's type includes \"Whitebeard Pirates\", look at 5 cards from the top of your deck; reveal up to 1 Character card with a cost of 2 and add it to your hand. Then, place the rest at the bottom of your deck in any order and play up to 1 Character card with a cost of 2 from your hand rested.",
+      "it": "[On Play] Se il tipo del tuo Leader include \"Pirati di Barbabianca\", guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta Personaggio con costo pari a 2 e aggiungila alla tua mano. Poi, metti il ​​resto in fondo al tuo mazzo in qualsiasi ordine e gioca fino a 1 carta Personaggio con costo pari a 2 dalla tua mano in stato spossato."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB02-028_p1.png",
@@ -104,7 +107,10 @@
       "Scientist",
       "Egghead"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Egghead} type card other than [Lilith] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Egghead} type card other than [Lilith] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Egghead} diversa da [Lilith] e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": "Trigger[Trigger] If your Leader is [Vegapunk], play this card.",
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-111_p2.png",
@@ -138,7 +144,10 @@
     "family": [
       "Revolutionary Army"
     ],
-    "effect": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 5 or less and up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "effect": {
+      "en": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 5 or less and up to 1 of your opponent's Characters with a cost of 3 or less.",
+      "it": "[On Play] Puoi mandare nel Trash 1 carta dalla tua mano: K. O. fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 5 e fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 3."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-118_p2.png",
@@ -173,7 +182,10 @@
       "The Four Emperors",
       "Red-Haired Pirates"
     ],
-    "effect": "Give all of your opponent's Characters −1000 power.[Rush] (This card can attack on the turn in which it is played.)",
+    "effect": {
+      "en": "Give all of your opponent's Characters −1000 power.[Rush] (This card can attack on the turn in which it is played.)",
+      "it": "Dai a tutti i personaggi del tuo avversario −1000 power. [Rush] (Questa carta può attaccare nel turno in cui viene giocata.)"
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-004_p5.png",
@@ -208,7 +220,10 @@
       "The Four Emperors",
       "Red-Haired Pirates"
     ],
-    "effect": "Give all of your opponent's Characters −1000 power.[Rush] (This card can attack on the turn in which it is played.)",
+    "effect": {
+      "en": "Give all of your opponent's Characters −1000 power.[Rush] (This card can attack on the turn in which it is played.)",
+      "it": "Dai a tutti i personaggi del tuo avversario −1000 power. [Rush] (Questa carta può attaccare nel turno in cui viene giocata.)"
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-004_p6.png",
@@ -242,7 +257,10 @@
     "family": [
       "Red-Haired Pirates"
     ],
-    "effect": "[On Play] Trash up to 1 of your opponent's Characters with 6000 power or less.",
+    "effect": {
+      "en": "[On Play] Trash up to 1 of your opponent's Characters with 6000 power or less.",
+      "it": "[On Play] Manda nel Trash fino a 1 personaggio del tuo avversario con 6000 power o meno."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-009_p3.png",
@@ -277,7 +295,10 @@
       "King of the Pirates",
       "Roger Pirates"
     ],
-    "effect": "[Rush] (This card can attack on the turn in which it is played.)When your opponent activates [Blocker], if either you or your opponent has 0 Life cards, you win the game.",
+    "effect": {
+      "en": "[Rush] (This card can attack on the turn in which it is played.)When your opponent activates [Blocker], if either you or your opponent has 0 Life cards, you win the game.",
+      "it": "[Rush] (Questa carta può attaccare nel turno in cui viene giocata.)Quando il tuo avversario attiva [Blocker], se tu o il tuo avversario avete 0 carte Life, vinci la partita."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-118_p3.png",
@@ -312,7 +333,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] You may return 1 or more DON!! cards from your field to your DON!! deck: Draw 1 card and this Character gains [Rush] during this turn.",
+    "effect": {
+      "en": "[On Play] You may return 1 or more DON!! cards from your field to your DON!! deck: Draw 1 card and this Character gains [Rush] during this turn.",
+      "it": "[On Play] Puoi restituire 1 o più carte DON!! dal tuo campo al tuo mazzo DON!! : pesca 1 carta e questo personaggio guadagna [Rush] durante questo turno."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-119_p3.png",
@@ -348,7 +372,10 @@
       "Punk Hazard",
       "Navy"
     ],
-    "effect": "[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.)[Activate: Main] Set up to 1 of your DON!! cards as active. Then, you cannot set DON!! cards as active using Character effects during this turn.",
+    "effect": {
+      "en": "[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.)[Activate: Main] Set up to 1 of your DON!! cards as active. Then, you cannot set DON!! cards as active using Character effects during this turn.",
+      "it": "[Banish] (Quando questa carta infligge danno, la carta bersaglio viene eliminata senza attivare il suo Trigger.)[Activate: Main] Imposta fino a 1 delle tue carte DON!! come attivo. Quindi, non puoi impostare carte DON!! come attivo usando gli effetti dei personaggi durante questo turno."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-030_p2.png",
@@ -383,7 +410,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "If you have 5 or more cards in your hand, this Character cannot attack.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "If you have 5 or more cards in your hand, this Character cannot attack.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "Se hai 5 o più carte in mano, questo Personaggio non può attaccare. [Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP11-058_p1.png",
@@ -419,7 +449,10 @@
       "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x1] [On Your Opponent's Attack] If you have 5 or less active DON!! cards, you may rest any number of your DON!! cards. For every DON!! card rested this way, this Leader or up to 1 of your {Straw Hat Crew} type Characters gains +2000 power during this battle.",
+    "effect": {
+      "en": "[DON!! x1] [On Your Opponent's Attack] If you have 5 or less active DON!! cards, you may rest any number of your DON!! cards. For every DON!! card rested this way, this Leader or up to 1 of your {Straw Hat Crew} type Characters gains +2000 power during this battle.",
+      "it": "[DON!! x1] [On Your Opponent's Attack] Se hai 5 o meno attivi carte DON!! , puoi mettere in stato spossato un numero qualsiasi delle tue carte DON!! . Per ogni carta DON!! in stato spossato in questo modo, questo Leader o fino a 1 dei tuoi personaggi di tipo {Straw Hat Crew} guadagna +2000 power durante questa battaglia."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-001.png",
@@ -455,7 +488,10 @@
       "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x1] [On Your Opponent's Attack] If you have 5 or less active DON!! cards, you may rest any number of your DON!! cards. For every DON!! card rested this way, this Leader or up to 1 of your {Straw Hat Crew} type Characters gains +2000 power during this battle.",
+    "effect": {
+      "en": "[DON!! x1] [On Your Opponent's Attack] If you have 5 or less active DON!! cards, you may rest any number of your DON!! cards. For every DON!! card rested this way, this Leader or up to 1 of your {Straw Hat Crew} type Characters gains +2000 power during this battle.",
+      "it": "[DON!! x1] [On Your Opponent's Attack] Se hai 5 o meno attivi carte DON!! , puoi mettere in stato spossato un numero qualsiasi delle tue carte DON!! . Per ogni carta DON!! in stato spossato in questo modo, questo Leader o fino a 1 dei tuoi personaggi di tipo {Straw Hat Crew} guadagna +2000 power durante questa battaglia."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-001_p1.png",
@@ -491,7 +527,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[On Your Opponent's Attack] [Once Per Turn] You may trash 1 card from your hand: Give up to 1 of your opponent's Leader or Character cards −2000 power during this battle.[DON!! x1] [Once Per Turn] When you take damage or your Character with 6000 base power or more is K.O.'d, draw 1 card.",
+    "effect": {
+      "en": "[On Your Opponent's Attack] [Once Per Turn] You may trash 1 card from your hand: Give up to 1 of your opponent's Leader or Character cards −2000 power during this battle.[DON!! x1] [Once Per Turn] When you take damage or your Character with 6000 base power or more is K.O.'d, draw 1 card.",
+      "it": "[On Your Opponent's Attack] [Once Per Turn] Puoi mandare nel Trash 1 carta dalla tua mano: Dai −2000 power a un massimo di 1 carta Leader o Personaggio del tuo avversario durante questa battaglia. [DON!! x1] [Once Per Turn] Quando subisci danni o il tuo Personaggio con 6000 power base o più è K. O. 'd, pesca 1 carta."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-002.png",
@@ -527,7 +566,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[On Your Opponent's Attack] [Once Per Turn] You may trash 1 card from your hand: Give up to 1 of your opponent's Leader or Character cards −2000 power during this battle.[DON!! x1] [Once Per Turn] When you take damage or your Character with 6000 base power or more is K.O.'d, draw 1 card.",
+    "effect": {
+      "en": "[On Your Opponent's Attack] [Once Per Turn] You may trash 1 card from your hand: Give up to 1 of your opponent's Leader or Character cards −2000 power during this battle.[DON!! x1] [Once Per Turn] When you take damage or your Character with 6000 base power or more is K.O.'d, draw 1 card.",
+      "it": "[On Your Opponent's Attack] [Once Per Turn] Puoi mandare nel Trash 1 carta dalla tua mano: Dai −2000 power a un massimo di 1 carta Leader o Personaggio del tuo avversario durante questa battaglia. [DON!! x1] [Once Per Turn] Quando subisci danni o il tuo Personaggio con 6000 power base o più è K. O. 'd, pesca 1 carta."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-002_p1.png",
@@ -565,7 +607,10 @@
       "King of the Pirates",
       "Roger Pirates"
     ],
-    "effect": "If you have any DON!! cards on your field, 1 DON!! card placed during your DON!! Phase is given to your Leader.If you have 9 or less DON!! cards on your field, give this Leader −2000 power.",
+    "effect": {
+      "en": "If you have any DON!! cards on your field, 1 DON!! card placed during your DON!! Phase is given to your Leader.If you have 9 or less DON!! cards on your field, give this Leader −2000 power.",
+      "it": "Se hai carte DON!! sul tuo campo, 1 carta DON!! piazzato durante la tua fase DON!! viene assegnato al tuo Leader. Se hai 9 o meno carte DON!! sul tuo campo, dai a questo Leader −2000 power."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-003.png",
@@ -597,7 +642,10 @@
       "King of the Pirates",
       "Roger Pirates"
     ],
-    "effect": "If you have any DON!! cards on your field, 1 DON!! card placed during your DON!! Phase is given to your Leader.If you have 9 or less DON!! cards on your field, give this Leader −2000 power.",
+    "effect": {
+      "en": "If you have any DON!! cards on your field, 1 DON!! card placed during your DON!! Phase is given to your Leader.If you have 9 or less DON!! cards on your field, give this Leader −2000 power.",
+      "it": "Se hai carte DON!! sul tuo campo, 1 carta DON!! piazzato durante la tua fase DON!! viene assegnato al tuo Leader. Se hai 9 o meno carte DON!! sul tuo campo, dai a questo Leader −2000 power."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-003_p1.png",
@@ -630,7 +678,10 @@
       "Dressrosa",
       "Revolutionary Army"
     ],
-    "effect": "If you have 4 or more Life cards, give this Leader −1000 power.[DON!! x1] If you have a Character with a cost of 8 or more, your Leader and all of your Characters gain +1000 power.",
+    "effect": {
+      "en": "If you have 4 or more Life cards, give this Leader −1000 power.[DON!! x1] If you have a Character with a cost of 8 or more, your Leader and all of your Characters gain +1000 power.",
+      "it": "Se hai 4 o più carte Life, dai a questo Leader −1000 power. [DON!! x1] Se hai un Personaggio con un costo pari o superiore a 8, il tuo Leader e tutti i tuoi Personaggi guadagnano +1000 power."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-004.png",
@@ -665,7 +716,10 @@
       "Dressrosa",
       "Revolutionary Army"
     ],
-    "effect": "If you have 4 or more Life cards, give this Leader −1000 power.[DON!! x1] If you have a Character with a cost of 8 or more, your Leader and all of your Characters gain +1000 power.",
+    "effect": {
+      "en": "If you have 4 or more Life cards, give this Leader −1000 power.[DON!! x1] If you have a Character with a cost of 8 or more, your Leader and all of your Characters gain +1000 power.",
+      "it": "Se hai 4 o più carte Life, dai a questo Leader −1000 power. [DON!! x1] Se hai un Personaggio con un costo pari o superiore a 8, il tuo Leader e tutti i tuoi Personaggi guadagnano +1000 power."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-004_p1.png",
@@ -699,7 +753,10 @@
     "family": [
       "Revolutionary Army"
     ],
-    "effect": "[On Play] Give up to 1 rested DON!! card to your Leader.",
+    "effect": {
+      "en": "[On Play] Give up to 1 rested DON!! card to your Leader.",
+      "it": "[On Play] Assegna fino a 1 carta DON!! in stato spossato al tuo Leader."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-005.png",
@@ -732,7 +789,10 @@
     "family": [
       "Windmill Village"
     ],
-    "effect": "[On Play] Give up to 2 rested DON!! cards to 1 of your [Monkey.D.Luffy] cards.",
+    "effect": {
+      "en": "[On Play] Give up to 2 rested DON!! cards to 1 of your [Monkey.D.Luffy] cards.",
+      "it": "[On Play] Assegna fino a 2 carte DON!! in stato spossato a 1 delle tue carte[Monkey.D.Luffy]."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-006.png",
@@ -765,7 +825,10 @@
     "family": [
       "Goa Kingdom"
     ],
-    "effect": "[Activate: Main] You may give 1 of your active DON!! cards to 1 of your Leader or Character cards and trash this Character: Give up to 1 of your opponent's Characters −3000 power during this turn.",
+    "effect": {
+      "en": "[Activate: Main] You may give 1 of your active DON!! cards to 1 of your Leader or Character cards and trash this Character: Give up to 1 of your opponent's Characters −3000 power during this turn.",
+      "it": "[Activate: Main] Puoi dare 1 delle tue carte DON!! attivi a 1 delle tue carte Leader o Personaggio e Trash a questo Personaggio: Dai −3000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-007.png",
@@ -798,7 +861,10 @@
     "family": [
       "Goa Kingdom"
     ],
-    "effect": "[Activate: Main] You may give 1 of your active DON!! cards to 1 of your Leader or Character cards and trash this Character: Give up to 1 of your opponent's Characters −3000 power during this turn.",
+    "effect": {
+      "en": "[Activate: Main] You may give 1 of your active DON!! cards to 1 of your Leader or Character cards and trash this Character: Give up to 1 of your opponent's Characters −3000 power during this turn.",
+      "it": "[Activate: Main] Puoi dare 1 delle tue carte DON!! attivi a 1 delle tue carte Leader o Personaggio e Trash a questo Personaggio: Dai −3000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-007_p1.png",
@@ -832,7 +898,10 @@
     "family": [
       "Revolutionary Army"
     ],
-    "effect": "If your {Revolutionary Army} type Character would be K.O.'d by your opponent's effect, you may trash this Character instead.",
+    "effect": {
+      "en": "If your {Revolutionary Army} type Character would be K.O.'d by your opponent's effect, you may trash this Character instead.",
+      "it": "Se il tuo personaggio di tipo {Revolutionary Army} dovesse essere K. O. a causa dell'effetto del tuo avversario, puoi invece Manda nel Trash questo personaggio."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-008.png",
@@ -862,7 +931,10 @@
     "family": [
       "Mountain Bandits"
     ],
-    "effect": "If you have a {Mountain Bandits} type Character other than this card, this Character gains [Double Attack].",
+    "effect": {
+      "en": "If you have a {Mountain Bandits} type Character other than this card, this Character gains [Double Attack].",
+      "it": "Se hai un Personaggio di tipo {Mountain Bandits} diverso da questa carta, questo Personaggio ottiene [Double Attack]."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-009.png",
@@ -956,7 +1028,10 @@
     "family": [
       "Alabasta"
     ],
-    "effect": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 {Alabasta} or {Straw Hat Crew} type card with a cost of 2 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 {Alabasta} or {Straw Hat Crew} type card with a cost of 2 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 4 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Alabasta} o {Straw Hat Crew} con un costo pari o superiore a 2 e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-012.png",
@@ -989,7 +1064,10 @@
     "family": [
       "Mountain Bandits"
     ],
-    "effect": "[On Play] K.O. up to 1 of your opponent's Characters with 0 power or less.",
+    "effect": {
+      "en": "[On Play] K.O. up to 1 of your opponent's Characters with 0 power or less.",
+      "it": "[On Play] K. O. fino a 1 dei personaggi del tuo avversario con 0 power o meno."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-013.png",
@@ -1052,7 +1130,10 @@
     "family": [
       "Windmill Village"
     ],
-    "effect": "[Activate: Main] You may rest this Character: Up to 1 of your [Monkey.D.Luffy] cards gains +2000 power during this turn.",
+    "effect": {
+      "en": "[Activate: Main] You may rest this Character: Up to 1 of your [Monkey.D.Luffy] cards gains +2000 power during this turn.",
+      "it": "[Activate: Main] Puoi mettere in stato spossato questo Personaggio: Up to 1 of your [Monkey.D.Luffy] cards gains +2000 power during this turn."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-015.png",
@@ -1085,7 +1166,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] If your Leader is [Sabo], [Portgas.D.Ace] or [Monkey.D.Luffy], look at 4 cards from the top of your deck; reveal up to 1 card with a cost of 3 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] If your Leader is [Sabo], [Portgas.D.Ace] or [Monkey.D.Luffy], look at 4 cards from the top of your deck; reveal up to 1 card with a cost of 3 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Se il tuo Leader è [Sabo], [Portgas.D.Ace] o [Monkey.D.Luffy], guarda 4 carte dalla cima del tuo mazzo; rivela fino a 1 carta con costo pari o superiore a 3 e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-016.png",
@@ -1118,7 +1202,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] If your Leader is [Sabo], [Portgas.D.Ace] or [Monkey.D.Luffy], look at 4 cards from the top of your deck; reveal up to 1 card with a cost of 3 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] If your Leader is [Sabo], [Portgas.D.Ace] or [Monkey.D.Luffy], look at 4 cards from the top of your deck; reveal up to 1 card with a cost of 3 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Se il tuo Leader è [Sabo], [Portgas.D.Ace] o [Monkey.D.Luffy], guarda 4 carte dalla cima del tuo mazzo; rivela fino a 1 carta con costo pari o superiore a 3 e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-016_p1.png",
@@ -1152,7 +1239,10 @@
     "family": [
       "Revolutionary Army"
     ],
-    "effect": "[Once Per Turn] If your {Revolutionary Army} type Character would be removed from the field by your opponent's effect, you may give this Character −2000 power during this turn instead.",
+    "effect": {
+      "en": "[Once Per Turn] If your {Revolutionary Army} type Character would be removed from the field by your opponent's effect, you may give this Character −2000 power during this turn instead.",
+      "it": "[Once Per Turn] Se il tuo Personaggio di tipo {Revolutionary Army} dovesse essere rimosso dal campo a causa dell'effetto del tuo avversario, puoi invece dare a questo Personaggio −2000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-017.png",
@@ -1216,7 +1306,10 @@
       "Dressrosa",
       "Revolutionary Army"
     ],
-    "effect": "[Main] You may rest 4 of your DON!! cards: Give up to 1 of your opponent's Characters −3000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 3000 power or less.[Counter] Your Leader gains +3000 power during this battle.",
+    "effect": {
+      "en": "[Main] You may rest 4 of your DON!! cards: Give up to 1 of your opponent's Characters −3000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 3000 power or less.[Counter] Your Leader gains +3000 power during this battle.",
+      "it": "[Main] Puoi rest 4 of your carte DON!! : Dai −3000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno. Then, K. O. up to 1 of your opponent's Personaggi with 3000 power or less. [Counter] Your Leader gains +3000 power during this battle."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-019.png",
@@ -1250,7 +1343,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Main] Give up to 1 of your opponent's Characters −5000 power during this turn.",
+    "effect": {
+      "en": "[Main] Give up to 1 of your opponent's Characters −5000 power during this turn.",
+      "it": "[Main] Dai −5000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-020.png",
@@ -1283,7 +1379,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Main] Give up to 1 rested DON!! card to 1 of your [Monkey.D.Luffy] cards. Then, give up to 1 of your opponent's Characters −2000 power during this turn.",
+    "effect": {
+      "en": "[Main] Give up to 1 rested DON!! card to 1 of your [Monkey.D.Luffy] cards. Then, give up to 1 of your opponent's Characters −2000 power during this turn.",
+      "it": "[Main] Assegna fino a 1 carta DON!! in stato spossato a 1 delle tue carte[Monkey.D.Luffy]. Poi, Dai −2000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": "Trigger[Trigger] Give up to 1 of your opponent's Characters −2000 power during this turn.",
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-021.png",
@@ -1316,7 +1415,10 @@
     "family": [
       "Windmill Village"
     ],
-    "effect": "[Activate: Main] You may rest this Stage: Up to 1 of your Characters with 2000 base power or less gains +1000 power during this turn.",
+    "effect": {
+      "en": "[Activate: Main] You may rest this Stage: Up to 1 of your Characters with 2000 base power or less gains +1000 power during this turn.",
+      "it": "[Activate: Main] Puoi mettere in stato spossato in questa fase: fino a 1 dei tuoi personaggi con power base pari o inferiore a 2000 guadagna +1000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-022.png",
@@ -1349,7 +1451,10 @@
     "family": [
       "FILM"
     ],
-    "effect": "[On Play] Set up to 2 of your DON!! cards as active. Then, you cannot play Character cards with a base cost of 5 or more during this turn.[On K.O.] Play up to 1 Character card with a cost of 5 or less from your hand rested.",
+    "effect": {
+      "en": "[On Play] Set up to 2 of your DON!! cards as active. Then, you cannot play Character cards with a base cost of 5 or more during this turn.[On K.O.] Play up to 1 Character card with a cost of 5 or less from your hand rested.",
+      "it": "[On Play] Imposta fino a 2 delle tue carte DON!! come attivi. Quindi, non puoi giocare carte Personaggio con un costo base pari o superiore a 5 durante questo turno. [On K.O.] Gioca fino a 1 carta Personaggio con un costo pari o inferiore a 5 dalla tua mano in stato spossato."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-023.png",
@@ -1383,7 +1488,10 @@
     "family": [
       "FILM"
     ],
-    "effect": "[On Play] Set up to 2 of your DON!! cards as active. Then, you cannot play Character cards with a base cost of 5 or more during this turn.[On K.O.] Play up to 1 Character card with a cost of 5 or less from your hand rested.",
+    "effect": {
+      "en": "[On Play] Set up to 2 of your DON!! cards as active. Then, you cannot play Character cards with a base cost of 5 or more during this turn.[On K.O.] Play up to 1 Character card with a cost of 5 or less from your hand rested.",
+      "it": "[On Play] Imposta fino a 2 delle tue carte DON!! come attivi. Quindi, non puoi giocare carte Personaggio con un costo base pari o superiore a 5 durante questo turno. [On K.O.] Gioca fino a 1 carta Personaggio con un costo pari o inferiore a 5 dalla tua mano in stato spossato."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-023_p1.png",
@@ -1418,7 +1526,10 @@
     "family": [
       "FILM"
     ],
-    "effect": "[On Play] You may reveal 1 {Music} or {FILM} type card from your hand: Set up to 2 of your DON!! cards as active at the end of this turn.",
+    "effect": {
+      "en": "[On Play] You may reveal 1 {Music} or {FILM} type card from your hand: Set up to 2 of your DON!! cards as active at the end of this turn.",
+      "it": "[On Play] Puoi rivelare 1 carta di tipo {Music} o {FILM} dalla tua mano: imposta fino a 2 delle tue carte DON!! come attive alla fine di questo turno."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-024.png",
@@ -1452,7 +1563,10 @@
       "FILM",
       "Navy"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] If your Leader has the {FILM} type or the <Strike> attribute, set up to 1 of your DON!! cards as active.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] If your Leader has the {FILM} type or the <Strike> attribute, set up to 1 of your DON!! cards as active.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On Play] Se il tuo Leader ha il tipo {FILM} o l'attributo <Colpo>, imposta fino a 1 delle tue carte DON!! come attivo."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-025.png",
@@ -1487,7 +1601,10 @@
       "FILM",
       "Straw Hat Crew"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] You may rest 1 of your DON!! cards: This Character gains +2000 power until the end of your opponent's next turn.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] You may rest 1 of your DON!! cards: This Character gains +2000 power until the end of your opponent's next turn.",
+      "it": "[Activate: Main] [Once Per Turn] Puoi rest 1 of your carte DON!! : Questo Personaggio guadagna +2000 power fino alla fine del prossimo turno del tuo avversario."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-026.png",
@@ -1522,7 +1639,10 @@
       "FILM",
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] Set up to 2 of your DON!! cards as active.[End of Your Turn] If your Leader has the {FILM} or {Straw Hat Crew} type, set up to 1 of your DON!! cards as active.",
+    "effect": {
+      "en": "[On Play] Set up to 2 of your DON!! cards as active.[End of Your Turn] If your Leader has the {FILM} or {Straw Hat Crew} type, set up to 1 of your DON!! cards as active.",
+      "it": "[On Play] Imposta fino a 2 delle tue carte DON!! come attivi. [End of Your Turn] Se il tuo Leader ha il tipo {FILM} o {Straw Hat Crew}, imposta fino a 1 delle tue carte DON!! come attivi."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-027.png",
@@ -1557,7 +1677,10 @@
       "FILM",
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] Set up to 2 of your DON!! cards as active.[End of Your Turn] If your Leader has the {FILM} or {Straw Hat Crew} type, set up to 1 of your DON!! cards as active.",
+    "effect": {
+      "en": "[On Play] Set up to 2 of your DON!! cards as active.[End of Your Turn] If your Leader has the {FILM} or {Straw Hat Crew} type, set up to 1 of your DON!! cards as active.",
+      "it": "[On Play] Imposta fino a 2 delle tue carte DON!! come attivi. [End of Your Turn] Se il tuo Leader ha il tipo {FILM} o {Straw Hat Crew}, imposta fino a 1 delle tue carte DON!! come attivi."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-027_p1.png",
@@ -1594,7 +1717,10 @@
       "The Four Emperors",
       "Red-Haired Pirates"
     ],
-    "effect": "[On Play] Set all of your DON!! cards as active. Then, you cannot play cards from your hand during this turn.",
+    "effect": {
+      "en": "[On Play] Set all of your DON!! cards as active. Then, you cannot play cards from your hand during this turn.",
+      "it": "[On Play] Imposta tutti i tuoi carte DON!! come attivi. Quindi, non puoi giocare carte dalla tua mano durante questo turno."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-028.png",
@@ -1629,7 +1755,10 @@
       "The Four Emperors",
       "Red-Haired Pirates"
     ],
-    "effect": "[On Play] Set all of your DON!! cards as active. Then, you cannot play cards from your hand during this turn.",
+    "effect": {
+      "en": "[On Play] Set all of your DON!! cards as active. Then, you cannot play cards from your hand during this turn.",
+      "it": "[On Play] Imposta tutti i tuoi carte DON!! come attivi. Quindi, non puoi giocare carte dalla tua mano durante questo turno."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-028_p1.png",
@@ -1697,7 +1826,10 @@
       "FILM",
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] Set up to 2 of your DON!! cards as active.",
+    "effect": {
+      "en": "[On Play] Set up to 2 of your DON!! cards as active.",
+      "it": "[On Play] Imposta fino a 2 delle tue carte DON!! come attivi."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-030.png",
@@ -1732,7 +1864,10 @@
       "Supernovas",
       "Heart Pirates"
     ],
-    "effect": "If you have 1 or less Life cards, this Character gains [Blocker].[On Play] You may return 1 of your Characters to the owner's hand: Play up to 1 Character card with a cost of 5 or less from your hand rested.",
+    "effect": {
+      "en": "If you have 1 or less Life cards, this Character gains [Blocker].[On Play] You may return 1 of your Characters to the owner's hand: Play up to 1 Character card with a cost of 5 or less from your hand rested.",
+      "it": "Se hai 1 o meno carte Life, questo Personaggio guadagna [Blocker]. [On Play] Puoi far ritornare 1 dei tuoi Personaggi in mano al proprietario: Gioca fino a 1 carta Personaggio con un costo pari o inferiore a 5 dalla tua mano in stato spossato."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-031.png",
@@ -1767,7 +1902,10 @@
       "FILM",
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] Up to 1 of your opponent's Characters with a cost of 8 or less cannot be rested until the end of your opponent's next End Phase.",
+    "effect": {
+      "en": "[On Play] Up to 1 of your opponent's Characters with a cost of 8 or less cannot be rested until the end of your opponent's next End Phase.",
+      "it": "[On Play] Fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 8 non può essere in stato spossato fino alla fine della prossima End Phase del tuo avversario."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-032.png",
@@ -1801,7 +1939,10 @@
       "FILM",
       "Straw Hat Crew"
     ],
-    "effect": "[On K.O.] Rest up to 2 of your opponent's cards.",
+    "effect": {
+      "en": "[On K.O.] Rest up to 2 of your opponent's cards.",
+      "it": "[On K.O.] metti in stato spossato fino a 2 carte del tuo avversario."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-033.png",
@@ -1835,7 +1976,10 @@
       "FILM",
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] If your Leader has the {FILM} or {Straw Hat Crew} type, set up to 1 of your DON!! cards as active.",
+    "effect": {
+      "en": "[On Play] If your Leader has the {FILM} or {Straw Hat Crew} type, set up to 1 of your DON!! cards as active.",
+      "it": "[On Play] Se il tuo Leader ha il tipo {FILM} o {Straw Hat Crew}, imposta 1 delle tue carte DON!! come attivo."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-034.png",
@@ -1870,7 +2014,10 @@
       "FILM",
       "Heart Pirates"
     ],
-    "effect": "[End of Your Turn] Set this Character or up to 1 of your DON!! cards as active.",
+    "effect": {
+      "en": "[End of Your Turn] Set this Character or up to 1 of your DON!! cards as active.",
+      "it": "[End of Your Turn] Imposta questo personaggio o fino a 1 delle tue carte DON!! come attivi."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-035.png",
@@ -1936,7 +2083,10 @@
       "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] If your Leader has the {FILM} or {Straw Hat Crew} type, set up to 2 of your DON!! cards as active.[End of Your Turn] Set this Character as active.",
+    "effect": {
+      "en": "[On Play] If your Leader has the {FILM} or {Straw Hat Crew} type, set up to 2 of your DON!! cards as active.[End of Your Turn] Set this Character as active.",
+      "it": "[On Play] Se il tuo Leader ha il tipo {FILM} o {Straw Hat Crew}, imposta fino a 2 delle tue carte DON!! come attivi. [End of Your Turn] Imposta questo personaggio come attivo."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-037.png",
@@ -1971,7 +2121,10 @@
       "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "[Main] Rest up to 1 of your opponent's Characters with a cost of 5 or less. Then, set up to 2 of your DON!! cards as active at the end of this turn.",
+    "effect": {
+      "en": "[Main] Rest up to 1 of your opponent's Characters with a cost of 5 or less. Then, set up to 2 of your DON!! cards as active at the end of this turn.",
+      "it": "[Main] Metti in stato spossato fino a 1 personaggio del tuo avversario con un costo pari o inferiore a 5. Poi, imposta fino a 2 delle tue carte DON!! come attivi alla fine di questo turno."
+    },
     "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 5 or less.",
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-038.png",
@@ -2006,7 +2159,10 @@
       "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "[Counter] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
+    "effect": {
+      "en": "[Counter] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
+      "it": "[Counter] K. O. fino a 1 dei personaggi in stato spossato del tuo avversario con un costo pari o inferiore a 4."
+    },
     "trigger": "Trigger[Trigger] Activate this card's [Counter] effect.",
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-039.png",
@@ -2040,7 +2196,10 @@
       "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "[Main] You may rest 2 of your DON!! cards: Up to 2 of your opponent's rested Characters with a cost of 7 or less will not become active in your opponent's next Refresh Phase.[Counter] Your Leader gains +3000 power during this battle.",
+    "effect": {
+      "en": "[Main] You may rest 2 of your DON!! cards: Up to 2 of your opponent's rested Characters with a cost of 7 or less will not become active in your opponent's next Refresh Phase.[Counter] Your Leader gains +3000 power during this battle.",
+      "it": "[Main] Puoi mettere in stato spossato 2 delle tue carte DON!! : fino a 2 personaggi in stato spossato del tuo avversario con un costo pari o inferiore a 7 non diventeranno attivi nella successiva fase di aggiornamento del tuo avversario. [Counter] Il tuo Leader guadagna +3000 power durante questa battaglia."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-040.png",
@@ -2075,7 +2234,10 @@
       "Land of Wano",
       "Whitebeard Pirates"
     ],
-    "effect": "[On Play] Draw 2 cards.",
+    "effect": {
+      "en": "[On Play] Draw 2 cards.",
+      "it": "[On Play] Pesca 2 carte."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-041.png",
@@ -2109,7 +2271,10 @@
       "The Four Emperors",
       "Whitebeard Pirates"
     ],
-    "effect": "[Blocker][On Play] Draw 2 cards and trash 1 card from your hand. Then, give your Leader and 1 Character up to 2 rested DON!! cards each.",
+    "effect": {
+      "en": "[Blocker][On Play] Draw 2 cards and trash 1 card from your hand. Then, give your Leader and 1 Character up to 2 rested DON!! cards each.",
+      "it": "[Blocker][On Play] Pesca 2 carte e Manda nel Trash 1 carta dalla tua mano. Quindi, dai al tuo Leader e 1 Personaggio fino a 2 in stato spossato carte DON!! ciascuno."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-042.png",
@@ -2144,7 +2309,10 @@
       "The Four Emperors",
       "Whitebeard Pirates"
     ],
-    "effect": "[Blocker][On Play] Draw 2 cards and trash 1 card from your hand. Then, give your Leader and 1 Character up to 2 rested DON!! cards each.",
+    "effect": {
+      "en": "[Blocker][On Play] Draw 2 cards and trash 1 card from your hand. Then, give your Leader and 1 Character up to 2 rested DON!! cards each.",
+      "it": "[Blocker][On Play] Pesca 2 carte e Manda nel Trash 1 carta dalla tua mano. Quindi, dai al tuo Leader e 1 Personaggio fino a 2 in stato spossato carte DON!! ciascuno."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-042_p1.png",
@@ -2179,7 +2347,10 @@
     "family": [
       "Land of Wano"
     ],
-    "effect": "[On Play] If you have 3 or less Life cards, draw 2 cards and trash 1 card from your hand.",
+    "effect": {
+      "en": "[On Play] If you have 3 or less Life cards, draw 2 cards and trash 1 card from your hand.",
+      "it": "[On Play] Se hai 3 o meno carte Life, pesca 2 carte e Manda nel Trash 1 carta dalla tua mano."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-043.png",
@@ -2212,7 +2383,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[When Attacking] Give up to 1 rested DON!! card to your Leader with a type including \"Whitebeard Pirates\" or 1 Character with a type including \"Whitebeard Pirates\".[On K.O.] Draw 1 card.",
+    "effect": {
+      "en": "[When Attacking] Give up to 1 rested DON!! card to your Leader with a type including \"Whitebeard Pirates\" or 1 Character with a type including \"Whitebeard Pirates\".[On K.O.] Draw 1 card.",
+      "it": "[When Attacking] Dai fino a 1 personaggio in stato spossato carta DON!! al tuo Leader con un tipo che include \"Pirati di Barbabianca\" o 1 personaggio con un tipo che include \"Pirati di Barbabianca\". [On K.O.] Pesca 1 carta."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-044.png",
@@ -2246,7 +2420,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[When Attacking] If you have 4 or less cards in your hand, draw 1 card.",
+    "effect": {
+      "en": "[When Attacking] If you have 4 or less cards in your hand, draw 1 card.",
+      "it": "[When Attacking] Se hai 4 o meno carte in mano, pesca 1 carta."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-045.png",
@@ -2279,7 +2456,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[Double Attack][Once Per Turn] If this Character would be K.O.'d or would be removed from the field by your opponent's effect, you may trash 1 card with a type including \"Whitebeard Pirates\" from your hand instead.",
+    "effect": {
+      "en": "[Double Attack][Once Per Turn] If this Character would be K.O.'d or would be removed from the field by your opponent's effect, you may trash 1 card with a type including \"Whitebeard Pirates\" from your hand instead.",
+      "it": "[Double Attack][Once Per Turn] Se questo Personaggio dovesse essere K. O. o rimosso dal campo per effetto del tuo avversario, puoi invece Manda nel Trash 1 carta con un tipo che include \"Pirati di Barbabianca\" dalla tua mano."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-046.png",
@@ -2313,7 +2493,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "If your Character with a type including \"Whitebeard Pirates\" would be K.O.'d by your opponent's effect, you may trash this Character instead.",
+    "effect": {
+      "en": "If your Character with a type including \"Whitebeard Pirates\" would be K.O.'d by your opponent's effect, you may trash this Character instead.",
+      "it": "Se il tuo Personaggio con un tipo che include \"Pirati di Barbabianca\" sarebbe K. O. a causa dell'effetto del tuo avversario, puoi invece Manda nel Trash questo Personaggio."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-047.png",
@@ -2403,7 +2586,10 @@
     "family": [
       "Kuja Pirates"
     ],
-    "effect": "[On Play] If your Leader is [Boa Hancock], play up to 1 [Boa Hancock] with a cost of 3 or less from your hand.",
+    "effect": {
+      "en": "[On Play] If your Leader is [Boa Hancock], play up to 1 [Boa Hancock] with a cost of 3 or less from your hand.",
+      "it": "[On Play] Se il tuo Leader è [Boa Hancock], gioca fino a 1 [Boa Hancock] con un costo pari o inferiore a 3 dalla tua mano."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-050.png",
@@ -2437,7 +2623,10 @@
       "The Seven Warlords of the Sea",
       "Kuja Pirates"
     ],
-    "effect": "[On K.O.] If your Leader is [Boa Hancock] or multicolored, draw 2 cards.",
+    "effect": {
+      "en": "[On K.O.] If your Leader is [Boa Hancock] or multicolored, draw 2 cards.",
+      "it": "[On K.O.] Se il tuo Leader è [Boa Hancock] o multicolore, pesca 2 carte."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-051.png",
@@ -2471,7 +2660,10 @@
       "The Seven Warlords of the Sea",
       "Kuja Pirates"
     ],
-    "effect": "[On K.O.] If your Leader is [Boa Hancock] or multicolored, draw 2 cards.",
+    "effect": {
+      "en": "[On K.O.] If your Leader is [Boa Hancock] or multicolored, draw 2 cards.",
+      "it": "[On K.O.] Se il tuo Leader è [Boa Hancock] o multicolore, pesca 2 carte."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-051_p1.png",
@@ -2505,7 +2697,10 @@
     "family": [
       "Kuja Pirates"
     ],
-    "effect": "[Blocker][On Play] If your Leader is [Boa Hancock], play up to 1 [Boa Hancock] with a cost of 6 or less from your hand.",
+    "effect": {
+      "en": "[Blocker][On Play] If your Leader is [Boa Hancock], play up to 1 [Boa Hancock] with a cost of 6 or less from your hand.",
+      "it": "[Blocker][On Play] Se il tuo Leader è [Boa Hancock], gioca fino a 1 [Boa Hancock] con un costo pari o inferiore a 6 dalla tua mano."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-052.png",
@@ -2539,7 +2734,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[When Attacking] You may trash 1 of your Characters with a type including \"Whitebeard Pirates\": Draw 1 card and this Character gains [Banish] during this turn.",
+    "effect": {
+      "en": "[When Attacking] You may trash 1 of your Characters with a type including \"Whitebeard Pirates\": Draw 1 card and this Character gains [Banish] during this turn.",
+      "it": "[When Attacking] Puoi mandare nel Trash 1 dei tuoi personaggi con un tipo che include \"Pirati di Barbabianca\": pesca 1 carta e questo personaggio guadagna [Banish] durante questo turno."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-053.png",
@@ -2573,7 +2771,10 @@
     "family": [
       "Land of Wano"
     ],
-    "effect": "[On Play] If you have 3 or less Life cards, draw 2 cards. Then, give up to 1 rested DON!! card to your Leader.",
+    "effect": {
+      "en": "[On Play] If you have 3 or less Life cards, draw 2 cards. Then, give up to 1 rested DON!! card to your Leader.",
+      "it": "[On Play] Se hai 3 o meno carte Life, pesca 2 carte. Quindi, Assegna fino a 1 carta DON!! in stato spossato al tuo Leader."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-054.png",
@@ -2606,7 +2807,10 @@
     "family": [
       "Land of Wano"
     ],
-    "effect": "[On Play] If you have 3 or less Life cards, draw 2 cards. Then, give up to 1 rested DON!! card to your Leader.",
+    "effect": {
+      "en": "[On Play] If you have 3 or less Life cards, draw 2 cards. Then, give up to 1 rested DON!! card to your Leader.",
+      "it": "[On Play] Se hai 3 o meno carte Life, pesca 2 carte. Quindi, Assegna fino a 1 carta DON!! in stato spossato al tuo Leader."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-054_p1.png",
@@ -2640,7 +2844,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[When Attacking] If you have 4 or less cards in your hand, all of your Characters with a type including \"Whitebeard Pirates\" gain +1000 power during this turn.",
+    "effect": {
+      "en": "[When Attacking] If you have 4 or less cards in your hand, all of your Characters with a type including \"Whitebeard Pirates\" gain +1000 power during this turn.",
+      "it": "[When Attacking] Se hai 4 o meno carte in mano, tutti i tuoi personaggi con un tipo che include \"Pirati di Barbabianca\" guadagnano +1000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-055.png",
@@ -2674,7 +2881,10 @@
       "Giant",
       "Whitebeard Pirates Allies"
     ],
-    "effect": "[When Attacking] If your Leader's type includes \"Whitebeard Pirates\", draw 1 card.",
+    "effect": {
+      "en": "[When Attacking] If your Leader's type includes \"Whitebeard Pirates\", draw 1 card.",
+      "it": "[When Attacking] Se il tipo del tuo Leader include \"Pirati di Barbabianca\", pesca 1 carta."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-056.png",
@@ -2707,7 +2917,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[Main] You may rest 1 of your DON!! cards: If you have 1 or less Life cards, your opponent cannot activate [Blocker] whenever your Leader attacks during this turn.[Counter] Your Leader gains +3000 power during this battle.",
+    "effect": {
+      "en": "[Main] You may rest 1 of your DON!! cards: If you have 1 or less Life cards, your opponent cannot activate [Blocker] whenever your Leader attacks during this turn.[Counter] Your Leader gains +3000 power during this battle.",
+      "it": "[Main] Puoi mettere in stato spossato 1 delle tue carte DON!! : Se hai 1 o meno carte Life, il tuo avversario non può attivare [Blocker] ogni volta che il tuo Leader attacca durante questo turno. [Counter] Il tuo Leader guadagna +3000 power durante questa battaglia."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-057.png",
@@ -2742,7 +2955,10 @@
     "family": [
       "Former Whitebeard Pirates"
     ],
-    "effect": "[Main] You may rest 1 of your DON!! cards: Place up to 1 of your opponent's Characters with 3000 power or less at the bottom of the owner's deck.[Counter] Your Leader gains +3000 power during this battle.",
+    "effect": {
+      "en": "[Main] You may rest 1 of your DON!! cards: Place up to 1 of your opponent's Characters with 3000 power or less at the bottom of the owner's deck.[Counter] Your Leader gains +3000 power during this battle.",
+      "it": "[Main] Puoi mettere in stato spossato 1 delle tue carte DON!! : posiziona fino a 1 dei personaggi del tuo avversario con 3000 power o meno in fondo al mazzo del proprietario. [Counter] Il tuo Leader guadagna +3000 power durante questa battaglia."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-058.png",
@@ -2776,7 +2992,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[Main] You may return 1 of your Characters to the owner's hand: Return up to 1 Character with a cost of 6 or less to the owner's hand.",
+    "effect": {
+      "en": "[Main] You may return 1 of your Characters to the owner's hand: Return up to 1 Character with a cost of 6 or less to the owner's hand.",
+      "it": "[Main] Puoi far ritornare 1 dei tuoi Personaggi in mano al proprietario: Fai ritornare fino a 1 Personaggio con un costo pari o inferiore a 6 in mano al proprietario."
+    },
     "trigger": "Trigger[Trigger] Draw 1 card.",
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-059.png",
@@ -2810,7 +3029,10 @@
       "Land of Wano",
       "Roger Pirates"
     ],
-    "effect": "If your Character with a type including \"Roger Pirates\" would be K.O.'d by your opponent's effect, you may trash this Character instead.",
+    "effect": {
+      "en": "If your Character with a type including \"Roger Pirates\" would be K.O.'d by your opponent's effect, you may trash this Character instead.",
+      "it": "Se il tuo Personaggio con un tipo che include \"Pirati Roger\" sarebbe K. O. a causa dell'effetto del tuo avversario, puoi invece Manda nel Trash questo Personaggio."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-060.png",
@@ -2841,7 +3063,10 @@
       "Minks",
       "Roger Pirates"
     ],
-    "effect": "[On Play] If you have any DON!! cards given, add up to 1 DON!! card from your DON!! deck and rest it. Then, K.O. up to 1 of your opponent's Characters with a cost of 1 or less.",
+    "effect": {
+      "en": "[On Play] If you have any DON!! cards given, add up to 1 DON!! card from your DON!! deck and rest it. Then, K.O. up to 1 of your opponent's Characters with a cost of 1 or less.",
+      "it": "[On Play] Se ti sono stati dati carte DON!! , aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e lascialo mettere in stato spossato. Poi, K. O. fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 1."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-061.png",
@@ -2874,7 +3099,10 @@
     "family": [
       "Roger Pirates"
     ],
-    "effect": "[On Play] If you have any DON!! cards given, add up to 1 DON!! card from your DON!! deck and set it as active.[When Attacking] Return up to 1 of your opponent's Characters with a base power of 3000 or less to the owner's hand.",
+    "effect": {
+      "en": "[On Play] If you have any DON!! cards given, add up to 1 DON!! card from your DON!! deck and set it as active.[When Attacking] Return up to 1 of your opponent's Characters with a base power of 3000 or less to the owner's hand.",
+      "it": "[On Play] Se ti viene assegnato un carte DON!! , aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e impostalo come attivo. [When Attacking] Rimetti in mano al proprietario fino a 1 dei personaggi del tuo avversario con un power base pari o inferiore a 3000."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-062.png",
@@ -2910,7 +3138,10 @@
       "Kouzuki Clan",
       "Roger Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] If you have any DON!! cards given, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] If you have any DON!! cards given, add up to 1 DON!! card from your DON!! deck and rest it.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On Play] Se hai qualche carte DON!! dato, aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e riposalo."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-063.png",
@@ -2945,7 +3176,10 @@
       "King of the Pirates",
       "Roger Pirates"
     ],
-    "effect": "Your Leader and all of your Characters that do not have a type including \"Roger Pirates\" have their effects negated.[On Play] DON!! −3: Your Leader gains +2000 power until the end of your opponent's next End Phase. Then, give all of your opponent's Characters −2000 power until the end of your opponent's next End Phase.",
+    "effect": {
+      "en": "Your Leader and all of your Characters that do not have a type including \"Roger Pirates\" have their effects negated.[On Play] DON!! −3: Your Leader gains +2000 power until the end of your opponent's next End Phase. Then, give all of your opponent's Characters −2000 power until the end of your opponent's next End Phase.",
+      "it": "Il tuo Leader e tutti i tuoi Personaggi che non hanno un tipo che includa \"Pirati Roger\" avranno i loro effetti annullati. [On Play] DON!! −3: Il tuo Leader guadagna +2000 power fino alla fine della prossima End Phase del tuo avversario. Poi, dai a tutti i personaggi del tuo avversario −2000 power fino alla fine della prossima End Phase del tuo avversario."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-064.png",
@@ -2979,7 +3213,10 @@
       "King of the Pirates",
       "Roger Pirates"
     ],
-    "effect": "Your Leader and all of your Characters that do not have a type including \"Roger Pirates\" have their effects negated.[On Play] DON!! −3: Your Leader gains +2000 power until the end of your opponent's next End Phase. Then, give all of your opponent's Characters −2000 power until the end of your opponent's next End Phase.",
+    "effect": {
+      "en": "Your Leader and all of your Characters that do not have a type including \"Roger Pirates\" have their effects negated.[On Play] DON!! −3: Your Leader gains +2000 power until the end of your opponent's next End Phase. Then, give all of your opponent's Characters −2000 power until the end of your opponent's next End Phase.",
+      "it": "Il tuo Leader e tutti i tuoi Personaggi che non hanno un tipo che includa \"Pirati Roger\" avranno i loro effetti annullati. [On Play] DON!! −3: Il tuo Leader guadagna +2000 power fino alla fine della prossima End Phase del tuo avversario. Poi, dai a tutti i personaggi del tuo avversario −2000 power fino alla fine della prossima End Phase del tuo avversario."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-064_p1.png",
@@ -3013,7 +3250,10 @@
     "family": [
       "Roger Pirates"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 card with a type including \"Roger Pirates\" other than [Shanks] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 card with a type including \"Roger Pirates\" other than [Shanks] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta con un tipo che include \"Roger Pirates\" diverso da [Shanks] e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-065.png",
@@ -3046,7 +3286,10 @@
     "family": [
       "Roger Pirates"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 card with a type including \"Roger Pirates\" other than [Shanks] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 card with a type including \"Roger Pirates\" other than [Shanks] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta con un tipo che include \"Roger Pirates\" diverso da [Shanks] e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-065_p1.png",
@@ -3080,7 +3323,10 @@
     "family": [
       "Roger Pirates"
     ],
-    "effect": "[Rush][On Play] If you have any DON!! cards given, rest up to 1 of your opponent's Characters with a cost of 5 or less. Then, add up to 1 DON!! card from your DON!! deck and set it as active at the end of this turn.",
+    "effect": {
+      "en": "[Rush][On Play] If you have any DON!! cards given, rest up to 1 of your opponent's Characters with a cost of 5 or less. Then, add up to 1 DON!! card from your DON!! deck and set it as active at the end of this turn.",
+      "it": "[Rush][On Play] Se ti vengono forniti carte DON!! , metti in stato spossato fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 5. Poi, aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e impostalo come attivo alla fine di questo turno."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-066.png",
@@ -3114,7 +3360,10 @@
     "family": [
       "Roger Pirates"
     ],
-    "effect": "[Rush][On Play] If you have any DON!! cards given, rest up to 1 of your opponent's Characters with a cost of 5 or less. Then, add up to 1 DON!! card from your DON!! deck and set it as active at the end of this turn.",
+    "effect": {
+      "en": "[Rush][On Play] If you have any DON!! cards given, rest up to 1 of your opponent's Characters with a cost of 5 or less. Then, add up to 1 DON!! card from your DON!! deck and set it as active at the end of this turn.",
+      "it": "[Rush][On Play] Se ti vengono forniti carte DON!! , metti in stato spossato fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 5. Poi, aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e impostalo come attivo alla fine di questo turno."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-066_p1.png",
@@ -3149,7 +3398,10 @@
     "family": [
       "Roger Pirates"
     ],
-    "effect": "[On Play] If your Leader's type includes \"Roger Pirates\", draw 2 cards and trash 1 card from your hand. Then, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "effect": {
+      "en": "[On Play] If your Leader's type includes \"Roger Pirates\", draw 2 cards and trash 1 card from your hand. Then, add up to 1 DON!! card from your DON!! deck and rest it.",
+      "it": "[On Play] Se il tipo del tuo Leader include \"Pirati Roger\", pesca 2 carte e Manda nel Trash 1 carta dalla tua mano. Quindi, aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e lascialo mettere in stato spossato."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-067.png",
@@ -3183,7 +3435,10 @@
       "FILM",
       "Former Roger Pirates"
     ],
-    "effect": "If you have 8 or more DON!! cards on your field, this Character gains +2000 power.[On Play] If your Leader's type includes \"Roger Pirates\", add up to 1 DON!! card from your DON!! deck and rest it.",
+    "effect": {
+      "en": "If you have 8 or more DON!! cards on your field, this Character gains +2000 power.[On Play] If your Leader's type includes \"Roger Pirates\", add up to 1 DON!! card from your DON!! deck and rest it.",
+      "it": "Se hai 8 o più carte DON!! sul tuo campo, Questo Personaggio guadagna +2000 power. [On Play] Se il tipo del tuo Leader include \"Roger Pirates\", somma fino a 1 carta DON!! dal tuo mazzo DON!! e lascialo mettere in stato spossato."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-068.png",
@@ -3217,7 +3472,10 @@
       "Fish-Man",
       "Water Seven"
     ],
-    "effect": "[On Play] DON!! −1: Add up to 1 Stage card with a cost of 3 or less from your trash to your hand.",
+    "effect": {
+      "en": "[On Play] DON!! −1: Add up to 1 Stage card with a cost of 3 or less from your trash to your hand.",
+      "it": "[On Play] DON!! −1: aggiungi fino a 1 carta Fase con un costo pari o inferiore a 3 dal tuo Trash alla tua mano."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-069.png",
@@ -3282,7 +3540,10 @@
       "Minks",
       "Roger Pirates"
     ],
-    "effect": "[On Play] If you have 8 or more DON!! cards on your field, K.O. up to 1 of your opponent's Characters with 3000 base power or less.",
+    "effect": {
+      "en": "[On Play] If you have 8 or more DON!! cards on your field, K.O. up to 1 of your opponent's Characters with 3000 base power or less.",
+      "it": "[On Play] Se hai 8 o più carte DON!! sul tuo campo, K. O. fino a 1 dei personaggi del tuo avversario con power base pari o inferiore a 3000."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-071.png",
@@ -3315,7 +3576,10 @@
     "family": [
       "Roger Pirates"
     ],
-    "effect": "[On Play] If your Leader's type includes \"Roger Pirates\" and you have any DON!! cards given, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "effect": {
+      "en": "[On Play] If your Leader's type includes \"Roger Pirates\" and you have any DON!! cards given, add up to 1 DON!! card from your DON!! deck and rest it.",
+      "it": "[On Play] Se il tipo del tuo Leader include \"Roger Pirates\" e hai qualche carte DON!! assegnato, aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e metti in stato spossato."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-072.png",
@@ -3380,7 +3644,10 @@
       "Homies",
       "Big Mom Pirates"
     ],
-    "effect": "[On Play] Play up to 1 {Homies} type Character card with 3000 power or less from your hand.",
+    "effect": {
+      "en": "[On Play] Play up to 1 {Homies} type Character card with 3000 power or less from your hand.",
+      "it": "[On Play] Gioca fino a 1 carta Personaggio di tipo {Homies} con 3000 power o meno dalla tua mano."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-074.png",
@@ -3414,7 +3681,10 @@
       "King of the Pirates",
       "Roger Pirates"
     ],
-    "effect": "[Main] You may rest 1 of your DON!! cards: If your Leader is [Gol.D.Roger] and you have any DON!! cards given, add up to 1 DON!! card from your DON!! deck and rest it.[Counter] Your Leader gains +3000 power during this battle.",
+    "effect": {
+      "en": "[Main] You may rest 1 of your DON!! cards: If your Leader is [Gol.D.Roger] and you have any DON!! cards given, add up to 1 DON!! card from your DON!! deck and rest it.[Counter] Your Leader gains +3000 power during this battle.",
+      "it": "[Main] Puoi mettere in stato spossato 1 delle tue carte DON!! : Se il tuo Leader è [Gol.D.Roger] e hai delle carte DON!! assegnate, aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e riposalo. [Counter] Il tuo Leader guadagna +3000 power durante questa battaglia."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-075.png",
@@ -3449,7 +3719,10 @@
       "King of the Pirates",
       "Roger Pirates"
     ],
-    "effect": "[Main] You may rest 5 of your DON!! cards: If you have any DON!! cards given, give up to 1 of your opponent's Characters −8000 power during this turn.[Counter] You may trash 1 card from your hand: Up to 1 of your Leader or Character cards gains +3000 power during this battle.",
+    "effect": {
+      "en": "[Main] You may rest 5 of your DON!! cards: If you have any DON!! cards given, give up to 1 of your opponent's Characters −8000 power during this turn.[Counter] You may trash 1 card from your hand: Up to 1 of your Leader or Character cards gains +3000 power during this battle.",
+      "it": "[Main] Puoi mettere in stato spossato 5 delle tue carte DON!! : Se hai delle carte DON!! assegnate, Dai −8000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno. [Counter] Puoi mandare nel Trash 1 carta dalla tua mano: fino a 1 delle tue carte Leader o Personaggio guadagna +3000 power durante questa battaglia."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-076.png",
@@ -3484,7 +3757,10 @@
       "King of the Pirates",
       "Roger Pirates"
     ],
-    "effect": "[Main] You may rest 5 of your DON!! cards: If you have any DON!! cards given, give up to 1 of your opponent's Characters −8000 power during this turn.[Counter] You may trash 1 card from your hand: Up to 1 of your Leader or Character cards gains +3000 power during this battle.",
+    "effect": {
+      "en": "[Main] You may rest 5 of your DON!! cards: If you have any DON!! cards given, give up to 1 of your opponent's Characters −8000 power during this turn.[Counter] You may trash 1 card from your hand: Up to 1 of your Leader or Character cards gains +3000 power during this battle.",
+      "it": "[Main] Puoi mettere in stato spossato 5 delle tue carte DON!! : Se hai delle carte DON!! assegnate, Dai −8000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno. [Counter] Puoi mandare nel Trash 1 carta dalla tua mano: fino a 1 delle tue carte Leader o Personaggio guadagna +3000 power durante questa battaglia."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-076_p1.png",
@@ -3519,7 +3795,10 @@
     "family": [
       "Former Roger Pirates"
     ],
-    "effect": "[Main] You may rest 3 of your DON!! cards: If you have any DON!! cards given, K.O. up to 1 of your opponent's Characters with 4000 base power or less and up to 1 of your opponent's Characters with 3000 base power or less.[Counter] Your Leader gains +3000 power during this battle.",
+    "effect": {
+      "en": "[Main] You may rest 3 of your DON!! cards: If you have any DON!! cards given, K.O. up to 1 of your opponent's Characters with 4000 base power or less and up to 1 of your opponent's Characters with 3000 base power or less.[Counter] Your Leader gains +3000 power during this battle.",
+      "it": "[Main] Puoi mettere in stato spossato 3 delle tue carte DON!! : Se hai carte DON!! assegnati, K. O. fino a 1 dei personaggi del tuo avversario con power base pari o inferiore a 4000 e fino a 1 dei personaggi del tuo avversario con power base pari o inferiore a 3000. [Counter] Il tuo Leader guadagna +3000 power durante questa battaglia."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-077.png",
@@ -3553,7 +3832,10 @@
     "family": [
       "Roger Pirates"
     ],
-    "effect": "[Once Per Turn] When your Character with a type including \"Roger Pirates\" is removed from the field by your opponent's effect, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "effect": {
+      "en": "[Once Per Turn] When your Character with a type including \"Roger Pirates\" is removed from the field by your opponent's effect, add up to 1 DON!! card from your DON!! deck and rest it.",
+      "it": "[Once Per Turn] Quando il tuo Personaggio con un tipo che include \"Roger Pirates\" viene rimosso dal campo per effetto del tuo avversario, aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e lascialo mettere in stato spossato."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-078.png",
@@ -3586,7 +3868,10 @@
     "family": [
       "?"
     ],
-    "effect": "Under the rules of this game, you cannot include Events with a cost of 2 or more in your deck and at the start of the game, play up to 1 {Mary Geoise} type Stage card from your deck.[Activate: Main] [Once Per Turn] You may trash 1 of your {Celestial Dragons} type Characters or 1 card from your hand: Draw 1 card.",
+    "effect": {
+      "en": "Under the rules of this game, you cannot include Events with a cost of 2 or more in your deck and at the start of the game, play up to 1 {Mary Geoise} type Stage card from your deck.[Activate: Main] [Once Per Turn] You may trash 1 of your {Celestial Dragons} type Characters or 1 card from your hand: Draw 1 card.",
+      "it": "Secondo le regole di questo gioco, non puoi includere Eventi con un costo pari o superiore a 2 nel tuo mazzo e all'inizio del gioco, puoi giocare fino a 1 carta Fase di tipo {Mary Geoise} dal tuo mazzo. [Activate: Main] [Once Per Turn] Puoi mandare nel Trash 1 dei tuoi Personaggi di tipo {Celestial Dragons} o 1 carta dalla tua mano: Pesca 1 carta."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-079.png",
@@ -3620,7 +3905,10 @@
     "family": [
       "?"
     ],
-    "effect": "Under the rules of this game, you cannot include Events with a cost of 2 or more in your deck and at the start of the game, play up to 1 {Mary Geoise} type Stage card from your deck.[Activate: Main] [Once Per Turn] You may trash 1 of your {Celestial Dragons} type Characters or 1 card from your hand: Draw 1 card.",
+    "effect": {
+      "en": "Under the rules of this game, you cannot include Events with a cost of 2 or more in your deck and at the start of the game, play up to 1 {Mary Geoise} type Stage card from your deck.[Activate: Main] [Once Per Turn] You may trash 1 of your {Celestial Dragons} type Characters or 1 card from your hand: Draw 1 card.",
+      "it": "Secondo le regole di questo gioco, non puoi includere Eventi con un costo pari o superiore a 2 nel tuo mazzo e all'inizio del gioco, puoi giocare fino a 1 carta Fase di tipo {Mary Geoise} dal tuo mazzo. [Activate: Main] [Once Per Turn] Puoi mandare nel Trash 1 dei tuoi Personaggi di tipo {Celestial Dragons} o 1 carta dalla tua mano: Pesca 1 carta."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-079_p1.png",
@@ -3656,7 +3944,10 @@
       "Celestial Dragons",
       "Five Elders"
     ],
-    "effect": "If you have 7 or more cards in your trash, this Character cannot be removed from the field by your opponent's effects and gains [Rush].[When Attacking] If you have 10 or more cards in your trash, give up to 1 of your opponent's Characters −2000 power during this turn.",
+    "effect": {
+      "en": "If you have 7 or more cards in your trash, this Character cannot be removed from the field by your opponent's effects and gains [Rush].[When Attacking] If you have 10 or more cards in your trash, give up to 1 of your opponent's Characters −2000 power during this turn.",
+      "it": "Se hai 7 o più carte nel tuo Trash, questo Personaggio non può essere rimosso dal campo dagli effetti del tuo avversario e guadagna [Rush]. [When Attacking] Se hai 10 o più carte nel tuo Trash, Dai −2000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-080.png",
@@ -3691,7 +3982,10 @@
       "Celestial Dragons",
       "Five Elders"
     ],
-    "effect": "If you have 7 or more cards in your trash, this Character cannot be removed from the field by your opponent's effects and gains [Rush].[When Attacking] If you have 10 or more cards in your trash, give up to 1 of your opponent's Characters −2000 power during this turn.",
+    "effect": {
+      "en": "If you have 7 or more cards in your trash, this Character cannot be removed from the field by your opponent's effects and gains [Rush].[When Attacking] If you have 10 or more cards in your trash, give up to 1 of your opponent's Characters −2000 power during this turn.",
+      "it": "Se hai 7 o più carte nel tuo Trash, questo Personaggio non può essere rimosso dal campo dagli effetti del tuo avversario e guadagna [Rush]. [When Attacking] Se hai 10 o più carte nel tuo Trash, Dai −2000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-080_p1.png",
@@ -3727,7 +4021,10 @@
       "Celestial Dragons",
       "Five Elders"
     ],
-    "effect": "If you have 7 or more cards in your trash, this Character cannot be removed from the field by your opponent's effects and gains [Rush].[When Attacking] If you have 10 or more cards in your trash, give up to 1 of your opponent's Characters −2000 power during this turn.",
+    "effect": {
+      "en": "If you have 7 or more cards in your trash, this Character cannot be removed from the field by your opponent's effects and gains [Rush].[When Attacking] If you have 10 or more cards in your trash, give up to 1 of your opponent's Characters −2000 power during this turn.",
+      "it": "Se hai 7 o più carte nel tuo Trash, questo Personaggio non può essere rimosso dal campo dagli effetti del tuo avversario e guadagna [Rush]. [When Attacking] Se hai 10 o più carte nel tuo Trash, Dai −2000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-080_p2.png",
@@ -3763,7 +4060,10 @@
       "Dressrosa",
       "Revolutionary Army"
     ],
-    "effect": "If your Leader has the {Revolutionary Army} type, this Character gains +3 cost.[Activate: Main] [Once Per Turn] You may place 1 card from your trash at the bottom of your deck: Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+    "effect": {
+      "en": "If your Leader has the {Revolutionary Army} type, this Character gains +3 cost.[Activate: Main] [Once Per Turn] You may place 1 card from your trash at the bottom of your deck: Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+      "it": "Se il tuo Leader ha il tipo {Revolutionary Army}, questo Personaggio guadagna +3 di costo. [Activate: Main] [Once Per Turn] Puoi posizionare 1 carta dal tuo Trash in fondo al tuo mazzo: Assegna fino a 1 carta DON!! in stato spossato al tuo Leader o 1 dei tuoi Personaggi."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-081.png",
@@ -3798,7 +4098,10 @@
       "Celestial Dragons",
       "Five Elders"
     ],
-    "effect": "[Activate: Main] If your Leader is [Imu], you may rest 1 of your DON!! cards and trash 1 card from your hand: Trash all of your Characters and play up to 5 {Five Elders} type Character cards with 5000 power and different card names from your trash.",
+    "effect": {
+      "en": "[Activate: Main] If your Leader is [Imu], you may rest 1 of your DON!! cards and trash 1 card from your hand: Trash all of your Characters and play up to 5 {Five Elders} type Character cards with 5000 power and different card names from your trash.",
+      "it": "[Activate: Main] Se il tuo Leader è [Imu], puoi mettere in stato spossato 1 delle tue carte DON!! e Manda nel Trash 1 carta dalla tua mano: Manda nel Trash tutti i tuoi Personaggi e giocare fino a 5 carte Personaggio di tipo {Five Elders} con 5000 power e nomi di carte diversi dal tuo Trash."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-082.png",
@@ -3832,7 +4135,10 @@
       "Celestial Dragons",
       "Five Elders"
     ],
-    "effect": "[Activate: Main] If your Leader is [Imu], you may rest 1 of your DON!! cards and trash 1 card from your hand: Trash all of your Characters and play up to 5 {Five Elders} type Character cards with 5000 power and different card names from your trash.",
+    "effect": {
+      "en": "[Activate: Main] If your Leader is [Imu], you may rest 1 of your DON!! cards and trash 1 card from your hand: Trash all of your Characters and play up to 5 {Five Elders} type Character cards with 5000 power and different card names from your trash.",
+      "it": "[Activate: Main] Se il tuo Leader è [Imu], puoi mettere in stato spossato 1 delle tue carte DON!! e Manda nel Trash 1 carta dalla tua mano: Manda nel Trash tutti i tuoi Personaggi e giocare fino a 5 carte Personaggio di tipo {Five Elders} con 5000 power e nomi di carte diversi dal tuo Trash."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-082_p1.png",
@@ -3867,7 +4173,10 @@
       "Celestial Dragons",
       "Five Elders"
     ],
-    "effect": "If you have 7 or more cards in your trash, this Character cannot be removed from the field by your opponent's effects.[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Five Elders} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "If you have 7 or more cards in your trash, this Character cannot be removed from the field by your opponent's effects.[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Five Elders} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "Se hai 7 o più carte nel tuo Trash, questo Personaggio non può essere rimosso dal campo dagli effetti del tuo avversario. [On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Five Elders} e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-083.png",
@@ -3901,7 +4210,10 @@
       "Celestial Dragons",
       "Five Elders"
     ],
-    "effect": "If you have 7 or more cards in your trash, this Character cannot be removed from the field by your opponent's effects.[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Five Elders} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "If you have 7 or more cards in your trash, this Character cannot be removed from the field by your opponent's effects.[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Five Elders} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "Se hai 7 o più carte nel tuo Trash, questo Personaggio non può essere rimosso dal campo dagli effetti del tuo avversario. [On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Five Elders} e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-083_p1.png",
@@ -3936,7 +4248,10 @@
       "Celestial Dragons",
       "Five Elders"
     ],
-    "effect": "If you have 7 or more cards in your trash, this Character cannot be removed from the field by your opponent's effects.[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Five Elders} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "If you have 7 or more cards in your trash, this Character cannot be removed from the field by your opponent's effects.[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Five Elders} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "Se hai 7 o più carte nel tuo Trash, questo Personaggio non può essere rimosso dal campo dagli effetti del tuo avversario. [On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Five Elders} e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-083_p2.png",
@@ -3971,7 +4286,10 @@
       "Celestial Dragons",
       "Five Elders"
     ],
-    "effect": "If you have 7 or more cards in your trash, this Character cannot be removed from the field by your opponent's effects.[Your Turn] If you have 10 or more cards in your trash, set the base power of all of your {Five Elders} type Characters to 7000.",
+    "effect": {
+      "en": "If you have 7 or more cards in your trash, this Character cannot be removed from the field by your opponent's effects.[Your Turn] If you have 10 or more cards in your trash, set the base power of all of your {Five Elders} type Characters to 7000.",
+      "it": "Se hai 7 o più carte nel tuo Trash, questo Personaggio non può essere rimosso dal campo dagli effetti del tuo avversario. [Your Turn] Se hai 10 o più carte nel tuo Trash, imposta il power base di tutti i tuoi Personaggi di tipo {Five Elders} su 7000."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-084.png",
@@ -4005,7 +4323,10 @@
       "Celestial Dragons",
       "Five Elders"
     ],
-    "effect": "If you have 7 or more cards in your trash, this Character cannot be removed from the field by your opponent's effects.[Your Turn] If you have 10 or more cards in your trash, set the base power of all of your {Five Elders} type Characters to 7000.",
+    "effect": {
+      "en": "If you have 7 or more cards in your trash, this Character cannot be removed from the field by your opponent's effects.[Your Turn] If you have 10 or more cards in your trash, set the base power of all of your {Five Elders} type Characters to 7000.",
+      "it": "Se hai 7 o più carte nel tuo Trash, questo Personaggio non può essere rimosso dal campo dagli effetti del tuo avversario. [Your Turn] Se hai 10 o più carte nel tuo Trash, imposta il power base di tutti i tuoi Personaggi di tipo {Five Elders} su 7000."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-084_p1.png",
@@ -4040,7 +4361,10 @@
       "Celestial Dragons",
       "Five Elders"
     ],
-    "effect": "If you have 7 or more cards in your trash, this Character cannot be removed from the field by your opponent's effects.[Your Turn] If you have 10 or more cards in your trash, set the base power of all of your {Five Elders} type Characters to 7000.",
+    "effect": {
+      "en": "If you have 7 or more cards in your trash, this Character cannot be removed from the field by your opponent's effects.[Your Turn] If you have 10 or more cards in your trash, set the base power of all of your {Five Elders} type Characters to 7000.",
+      "it": "Se hai 7 o più carte nel tuo Trash, questo Personaggio non può essere rimosso dal campo dagli effetti del tuo avversario. [Your Turn] Se hai 10 o più carte nel tuo Trash, imposta il power base di tutti i tuoi Personaggi di tipo {Five Elders} su 7000."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-084_p2.png",
@@ -4104,7 +4428,10 @@
     "family": [
       "Celestial Dragons"
     ],
-    "effect": "[On Play] Look at 3 cards from the top of your deck; reveal up to 1 {Celestial Dragons} type card other than [Saint Shalria] and add it to your hand. Then, trash the rest and trash 1 card from your hand.",
+    "effect": {
+      "en": "[On Play] Look at 3 cards from the top of your deck; reveal up to 1 {Celestial Dragons} type card other than [Saint Shalria] and add it to your hand. Then, trash the rest and trash 1 card from your hand.",
+      "it": "[On Play] Guarda 3 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Celestial Dragons} diversa da [Saint Shalria] e aggiungila alla tua mano. Poi, Trash il resto e Manda nel Trash 1 carta dalla tua mano."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-086.png",
@@ -4137,7 +4464,10 @@
     "family": [
       "Celestial Dragons"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Trash 1 card from the top of your deck.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Trash 1 card from the top of your deck.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On Play] Manda nel Trash 1 carta dalla cima del tuo mazzo."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-087.png",
@@ -4202,7 +4532,10 @@
       "Celestial Dragons",
       "Five Elders"
     ],
-    "effect": "If you have 7 or more cards in your trash, this Character cannot be removed from the field by your opponent's effects and gains [Blocker].[On K.O.] Draw 1 card.",
+    "effect": {
+      "en": "If you have 7 or more cards in your trash, this Character cannot be removed from the field by your opponent's effects and gains [Blocker].[On K.O.] Draw 1 card.",
+      "it": "Se hai 7 o più carte nel tuo Trash, questo Personaggio non può essere rimosso dal campo dagli effetti del tuo avversario e guadagna [Blocker]. [On K.O.] Pesca 1 carta."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-089.png",
@@ -4237,7 +4570,10 @@
       "Celestial Dragons",
       "Five Elders"
     ],
-    "effect": "If you have 7 or more cards in your trash, this Character cannot be removed from the field by your opponent's effects and gains [Blocker].[On K.O.] Draw 1 card.",
+    "effect": {
+      "en": "If you have 7 or more cards in your trash, this Character cannot be removed from the field by your opponent's effects and gains [Blocker].[On K.O.] Draw 1 card.",
+      "it": "Se hai 7 o più carte nel tuo Trash, questo Personaggio non può essere rimosso dal campo dagli effetti del tuo avversario e guadagna [Blocker]. [On K.O.] Pesca 1 carta."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-089_p1.png",
@@ -4273,7 +4609,10 @@
       "Celestial Dragons",
       "Five Elders"
     ],
-    "effect": "If you have 7 or more cards in your trash, this Character cannot be removed from the field by your opponent's effects and gains [Blocker].[On K.O.] Draw 1 card.",
+    "effect": {
+      "en": "If you have 7 or more cards in your trash, this Character cannot be removed from the field by your opponent's effects and gains [Blocker].[On K.O.] Draw 1 card.",
+      "it": "Se hai 7 o più carte nel tuo Trash, questo Personaggio non può essere rimosso dal campo dagli effetti del tuo avversario e guadagna [Blocker]. [On K.O.] Pesca 1 carta."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-089_p2.png",
@@ -4341,7 +4680,10 @@
       "Celestial Dragons",
       "Five Elders"
     ],
-    "effect": "If you have 7 or more cards in your trash, this Character cannot be removed from the field by your opponent's effects and gains [Blocker].[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a base cost of 5 or less.",
+    "effect": {
+      "en": "If you have 7 or more cards in your trash, this Character cannot be removed from the field by your opponent's effects and gains [Blocker].[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a base cost of 5 or less.",
+      "it": "Se hai 7 o più carte nel tuo Trash, questo Personaggio non può essere rimosso dal campo dagli effetti del tuo avversario e guadagna [Blocker]. [On Play] Puoi mandare nel Trash 1 carta dalla tua mano: K. O. fino a 1 dei Personaggi del tuo avversario con un costo base pari o inferiore a 5."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-091.png",
@@ -4376,7 +4718,10 @@
       "Celestial Dragons",
       "Five Elders"
     ],
-    "effect": "If you have 7 or more cards in your trash, this Character cannot be removed from the field by your opponent's effects and gains [Blocker].[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a base cost of 5 or less.",
+    "effect": {
+      "en": "If you have 7 or more cards in your trash, this Character cannot be removed from the field by your opponent's effects and gains [Blocker].[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a base cost of 5 or less.",
+      "it": "Se hai 7 o più carte nel tuo Trash, questo Personaggio non può essere rimosso dal campo dagli effetti del tuo avversario e guadagna [Blocker]. [On Play] Puoi mandare nel Trash 1 carta dalla tua mano: K. O. fino a 1 dei Personaggi del tuo avversario con un costo base pari o inferiore a 5."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-091_p1.png",
@@ -4412,7 +4757,10 @@
       "Celestial Dragons",
       "Five Elders"
     ],
-    "effect": "If you have 7 or more cards in your trash, this Character cannot be removed from the field by your opponent's effects and gains [Blocker].[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a base cost of 5 or less.",
+    "effect": {
+      "en": "If you have 7 or more cards in your trash, this Character cannot be removed from the field by your opponent's effects and gains [Blocker].[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a base cost of 5 or less.",
+      "it": "Se hai 7 o più carte nel tuo Trash, questo Personaggio non può essere rimosso dal campo dagli effetti del tuo avversario e guadagna [Blocker]. [On Play] Puoi mandare nel Trash 1 carta dalla tua mano: K. O. fino a 1 dei Personaggi del tuo avversario con un costo base pari o inferiore a 5."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-091_p2.png",
@@ -4447,7 +4795,10 @@
     "family": [
       "Celestial Dragons"
     ],
-    "effect": "[On Play] If you have 3 or less Life cards, play up to 1 {Mary Geoise} type Stage card with a cost of 1 from your trash.",
+    "effect": {
+      "en": "[On Play] If you have 3 or less Life cards, play up to 1 {Mary Geoise} type Stage card with a cost of 1 from your trash.",
+      "it": "[On Play] Se hai 3 o meno carte Life, gioca fino a 1 carta Stage di tipo {Mary Geoise} con un costo pari a 1 dal tuo Trash."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-092.png",
@@ -4480,7 +4831,10 @@
     "family": [
       "Journalist"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Draw 2 cards and trash 2 cards from your hand.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Draw 2 cards and trash 2 cards from your hand.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On Play] Pesca 2 carte e Manda nel Trash 2 carte dalla tua mano."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-093.png",
@@ -4515,7 +4869,10 @@
       "Egghead",
       "Scientist"
     ],
-    "effect": "[On Play] Up to 1 of your {Celestial Dragons} type Characters gains +2000 power during this turn.",
+    "effect": {
+      "en": "[On Play] Up to 1 of your {Celestial Dragons} type Characters gains +2000 power during this turn.",
+      "it": "[On Play] Fino a 1 dei tuoi personaggi di tipo {Celestial Dragons} guadagna +2000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-094.png",
@@ -4548,7 +4905,10 @@
     "family": [
       "Celestial Dragons"
     ],
-    "effect": "[On Play] You may trash 1 card from your hand: If you only have {Celestial Dragons} type Characters, K.O. up to 2 of your opponent's Characters with a base cost of 3 or less.",
+    "effect": {
+      "en": "[On Play] You may trash 1 card from your hand: If you only have {Celestial Dragons} type Characters, K.O. up to 2 of your opponent's Characters with a base cost of 3 or less.",
+      "it": "[On Play] Puoi mandare nel Trash 1 carta dalla tua mano: se hai solo Personaggi di tipo {Celestial Dragons}, K. O. fino a 2 Personaggi del tuo avversario con un costo base pari o inferiore a 3."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-095.png",
@@ -4582,7 +4942,10 @@
       "Celestial Dragons",
       "Five Elders"
     ],
-    "effect": "[Main] Look at 3 cards from the top of your deck; reveal up to 1 {Celestial Dragons} type card other than [The Five Elders Are at Your Service!!!] and add it to your hand. Then, trash the rest.",
+    "effect": {
+      "en": "[Main] Look at 3 cards from the top of your deck; reveal up to 1 {Celestial Dragons} type card other than [The Five Elders Are at Your Service!!!] and add it to your hand. Then, trash the rest.",
+      "it": "[Main] Guarda 3 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Celestial Dragons} diversa da [The Five Elders Are at Your Service!!!] e aggiungila alla tua mano. Poi Trash il resto."
+    },
     "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-096.png",
@@ -4616,7 +4979,10 @@
       "Celestial Dragons",
       "Five Elders"
     ],
-    "effect": "[Main] You may rest 5 of your DON!! cards: If the only Characters on your field are {Celestial Dragons} type Characters, K.O. up to 1 of your opponent's Characters with a base cost of 6 or less.[Counter] Your Leader gains +3000 power during this battle.",
+    "effect": {
+      "en": "[Main] You may rest 5 of your DON!! cards: If the only Characters on your field are {Celestial Dragons} type Characters, K.O. up to 1 of your opponent's Characters with a base cost of 6 or less.[Counter] Your Leader gains +3000 power during this battle.",
+      "it": "[Main] Puoi mettere in stato spossato 5 delle tue carte DON!! : Se gli unici Personaggi sul tuo campo sono Personaggi di tipo {Celestial Dragons}, K. O. fino a 1 dei Personaggi del tuo avversario con un costo base pari a 6 o meno. [Counter] Il tuo Leader guadagna +3000 power durante questa battaglia."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-097.png",
@@ -4651,7 +5017,10 @@
       "Celestial Dragons",
       "Five Elders"
     ],
-    "effect": "[Main] You may rest 1 of your DON!! cards: If your Leader is [Imu], K.O. up to 1 of your opponent's Stages with a cost of 7.[Counter] If your Leader is [Imu], up to 1 of your Leader or Character cards gains +4000 power during this battle.",
+    "effect": {
+      "en": "[Main] You may rest 1 of your DON!! cards: If your Leader is [Imu], K.O. up to 1 of your opponent's Stages with a cost of 7.[Counter] If your Leader is [Imu], up to 1 of your Leader or Character cards gains +4000 power during this battle.",
+      "it": "[Main] Puoi mettere in stato spossato 1 delle tue carte DON!! : Se il tuo Leader è [Imu], K. O. fino a 1 delle carte Stage del tuo avversario con un costo di 7. [Counter] Se il tuo Leader è [Imu], fino a 1 delle tue carte Leader o Personaggio guadagna +4000 power durante questa battaglia."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-098.png",
@@ -4685,7 +5054,10 @@
     "family": [
       "Mary Geoise"
     ],
-    "effect": "[Your Turn] If you have 19 or more cards in your trash, your Leader gains +1000 power.[Activate: Main] You may rest this card and 3 of your DON!! cards: Play up to 1 black {Five Elders} type Character card with a cost equal to or less than the number of DON!! cards on your field from your hand.",
+    "effect": {
+      "en": "[Your Turn] If you have 19 or more cards in your trash, your Leader gains +1000 power.[Activate: Main] You may rest this card and 3 of your DON!! cards: Play up to 1 black {Five Elders} type Character card with a cost equal to or less than the number of DON!! cards on your field from your hand.",
+      "it": "[Your Turn] Se hai 19 o più carte nel tuo Trash, il tuo Leader guadagna +1000 power. [Activate: Main] Puoi mettere in stato spossato questa carta e 3 delle tue carte DON!! : Gioca fino a 1 carta Personaggio nera di tipo {Five Elders} con un costo pari o inferiore al numero di carte DON!! sul tuo campo dalla tua mano."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-099.png",
@@ -4720,7 +5092,10 @@
       "Egghead",
       "Bonney Pirates"
     ],
-    "effect": "[Your Turn] [Once Per Turn] This effect can be activated when you play a Character with a [Trigger]. Give up to 2 rested DON!! cards to 1 of your Leader or Character cards.",
+    "effect": {
+      "en": "[Your Turn] [Once Per Turn] This effect can be activated when you play a Character with a [Trigger]. Give up to 2 rested DON!! cards to 1 of your Leader or Character cards.",
+      "it": "[Your Turn] [Once Per Turn] Questo effetto può essere attivato quando giochi un Personaggio con [Trigger]. Assegna fino a 2 carte DON!! in stato spossato a 1 delle tue carte Leader o Personaggio."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-100.png",
@@ -4756,7 +5131,10 @@
       "Egghead",
       "Bonney Pirates"
     ],
-    "effect": "[Your Turn] [Once Per Turn] This effect can be activated when you play a Character with a [Trigger]. Give up to 2 rested DON!! cards to 1 of your Leader or Character cards.",
+    "effect": {
+      "en": "[Your Turn] [Once Per Turn] This effect can be activated when you play a Character with a [Trigger]. Give up to 2 rested DON!! cards to 1 of your Leader or Character cards.",
+      "it": "[Your Turn] [Once Per Turn] Questo effetto può essere attivato quando giochi un Personaggio con [Trigger]. Assegna fino a 2 carte DON!! in stato spossato a 1 delle tue carte Leader o Personaggio."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-100_p1.png",
@@ -4824,7 +5202,10 @@
       "Egghead",
       "Scientist"
     ],
-    "effect": "[Activate: Main] You may trash this Character: If the number of your Life cards is equal to or less than the number of your opponent's Life cards, draw 1 card. Then, rest up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "effect": {
+      "en": "[Activate: Main] You may trash this Character: If the number of your Life cards is equal to or less than the number of your opponent's Life cards, draw 1 card. Then, rest up to 1 of your opponent's Characters with a cost of 3 or less.",
+      "it": "[Activate: Main] Puoi mandare nel Trash questo Personaggio: Se il numero delle tue carte Life è uguale o inferiore al numero delle carte Life del tuo avversario, pesca 1 carta. Poi, metti in stato spossato fino a 1 dei Personaggi del tuo avversario con un costo pari o inferiore a 3."
+    },
     "trigger": "Trigger[Trigger] Draw 1 card and rest up to 1 of your opponent's Characters with a cost of 3 or less.",
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-102.png",
@@ -4888,7 +5269,10 @@
       "Land of Wano",
       "Kouzuki Clan"
     ],
-    "effect": "[Blocker][On K.O.] You may trash 1 card from your hand: If your Leader is multicolored, add up to 1 card from the top of your deck to the top of your Life cards.",
+    "effect": {
+      "en": "[Blocker][On K.O.] You may trash 1 card from your hand: If your Leader is multicolored, add up to 1 card from the top of your deck to the top of your Life cards.",
+      "it": "[Blocker][On K.O.] Puoi mandare nel Trash 1 carta dalla tua mano: se il tuo Leader è multicolore, aggiungi fino a 1 carta dalla cima del tuo mazzo alla cima delle tue carte Life."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-104.png",
@@ -4923,7 +5307,10 @@
       "Land of Wano",
       "Kouzuki Clan"
     ],
-    "effect": "[On Play] Look at all of your Life cards and place them back in your Life area in any order.",
+    "effect": {
+      "en": "[On Play] Look at all of your Life cards and place them back in your Life area in any order.",
+      "it": "[On Play] Guarda tutti i tuoi carte Life e rimettili nel tuo area Life in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-105.png",
@@ -4956,7 +5343,10 @@
     "family": [
       "Bonney Pirates"
     ],
-    "effect": "[Opponent's Turn] When a [Trigger] activates, this Character gains [Blocker] during this turn.",
+    "effect": {
+      "en": "[Opponent's Turn] When a [Trigger] activates, this Character gains [Blocker] during this turn.",
+      "it": "[Opponent's Turn] Quando si attiva un [Trigger], questo personaggio guadagna [Blocker] durante questo turno."
+    },
     "trigger": "Trigger[Trigger] Play this card.",
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-106.png",
@@ -5023,7 +5413,10 @@
       "Egghead",
       "Bonney Pirates"
     ],
-    "effect": "[On Play] If your Leader has the {Egghead} type, this Character gains [Rush] during this turn. Then, your opponent adds 1 card from the top of their Life cards to their hand.",
+    "effect": {
+      "en": "[On Play] If your Leader has the {Egghead} type, this Character gains [Rush] during this turn. Then, your opponent adds 1 card from the top of their Life cards to their hand.",
+      "it": "[On Play] Se il tuo Leader ha il tipo {Egghead}, questo Personaggio guadagna [Rush] durante questo turno. Poi, il tuo avversario aggiunge 1 carta dalla cima dei suoi carte Life alla sua mano."
+    },
     "trigger": "Trigger[Trigger] If you have 1 or less Life cards, rest up to 1 of your opponent's Characters with a cost of 7 or less.",
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-108.png",
@@ -5058,7 +5451,10 @@
       "Egghead",
       "Bonney Pirates"
     ],
-    "effect": "[On Play] If your Leader has the {Egghead} type, this Character gains [Rush] during this turn. Then, your opponent adds 1 card from the top of their Life cards to their hand.",
+    "effect": {
+      "en": "[On Play] If your Leader has the {Egghead} type, this Character gains [Rush] during this turn. Then, your opponent adds 1 card from the top of their Life cards to their hand.",
+      "it": "[On Play] Se il tuo Leader ha il tipo {Egghead}, questo Personaggio guadagna [Rush] durante questo turno. Poi, il tuo avversario aggiunge 1 carta dalla cima dei suoi carte Life alla sua mano."
+    },
     "trigger": "Trigger[Trigger] If you have 1 or less Life cards, rest up to 1 of your opponent's Characters with a cost of 7 or less.",
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-108_p1.png",
@@ -5094,7 +5490,10 @@
       "Supernovas",
       "Bonney Pirates"
     ],
-    "effect": "If this Character would be removed from the field by your opponent's effect, you may turn 1 card from the top of your Life cards face-up instead.",
+    "effect": {
+      "en": "If this Character would be removed from the field by your opponent's effect, you may turn 1 card from the top of your Life cards face-up instead.",
+      "it": "Se questo Personaggio sta per essere rimosso dal campo a causa dell'effetto del tuo avversario, puoi invece girare 1 carta dalla cima delle tue carte Life scoperta."
+    },
     "trigger": "Trigger[Trigger] Draw 2 cards and trash 1 card from your hand.",
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-109.png",
@@ -5125,7 +5524,10 @@
       "Egghead",
       "CP0"
     ],
-    "effect": "[Blocker][On Play] If your Leader has the {Egghead} type, play up to 1 Character card with a cost of 5 or less and a [Trigger] from your hand.",
+    "effect": {
+      "en": "[Blocker][On Play] If your Leader has the {Egghead} type, play up to 1 Character card with a cost of 5 or less and a [Trigger] from your hand.",
+      "it": "[Blocker][On Play] Se il tuo Leader è di tipo {Egghead}, gioca fino a 1 carta Personaggio con costo pari o inferiore a 5 e un [Trigger] dalla tua mano."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-110.png",
@@ -5161,7 +5563,10 @@
       "Egghead",
       "CP0"
     ],
-    "effect": "[Blocker][On Play] If your Leader has the {Egghead} type, play up to 1 Character card with a cost of 5 or less and a [Trigger] from your hand.",
+    "effect": {
+      "en": "[Blocker][On Play] If your Leader has the {Egghead} type, play up to 1 Character card with a cost of 5 or less and a [Trigger] from your hand.",
+      "it": "[Blocker][On Play] Se il tuo Leader è di tipo {Egghead}, gioca fino a 1 carta Personaggio con costo pari o inferiore a 5 e un [Trigger] dalla tua mano."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-110_p1.png",
@@ -5229,7 +5634,10 @@
       "Egghead",
       "Scientist"
     ],
-    "effect": "If you have a total of 2 or more given DON!! cards, this Character gains [Blocker].(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "If you have a total of 2 or more given DON!! cards, this Character gains [Blocker].(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "Se hai un totale di 2 o più dati carte DON!! , questo personaggio ottiene [Blocker]. (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-112.png",
@@ -5263,7 +5671,10 @@
       "Egghead",
       "Scientist"
     ],
-    "effect": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 card with a [Trigger] other than [Lilith] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 card with a [Trigger] other than [Lilith] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 4 carte dalla cima del tuo mazzo; rivela fino a 1 carta con un [Trigger] diverso da [Lilith] e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": "Trigger[Trigger] Activate this card's [On Play] effect.",
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-113.png",
@@ -5298,7 +5709,10 @@
       "Egghead",
       "Scientist"
     ],
-    "effect": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 card with a [Trigger] other than [Lilith] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 card with a [Trigger] other than [Lilith] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 4 carte dalla cima del tuo mazzo; rivela fino a 1 carta con un [Trigger] diverso da [Lilith] e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": "Trigger[Trigger] Activate this card's [On Play] effect.",
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-113_p1.png",
@@ -5334,7 +5748,10 @@
       "Seraphim",
       "Egghead"
     ],
-    "effect": "[On Play]/[When Attacking] You may turn 1 card from the top of your Life cards face-up: Give up to 1 of your opponent's Characters −2000 power during this turn.",
+    "effect": {
+      "en": "[On Play]/[When Attacking] You may turn 1 card from the top of your Life cards face-up: Give up to 1 of your opponent's Characters −2000 power during this turn.",
+      "it": "[On Play]/[When Attacking] Puoi girare 1 carta dalla cima delle tue carte Life scoperta: Dai −2000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": "Trigger[Trigger] You may trash 1 card from your hand: Play this card.",
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-114.png",
@@ -5369,7 +5786,10 @@
       "Seraphim",
       "Egghead"
     ],
-    "effect": "[On Play]/[When Attacking] You may turn 1 card from the top of your Life cards face-up: Give up to 1 of your opponent's Characters −2000 power during this turn.",
+    "effect": {
+      "en": "[On Play]/[When Attacking] You may turn 1 card from the top of your Life cards face-up: Give up to 1 of your opponent's Characters −2000 power during this turn.",
+      "it": "[On Play]/[When Attacking] Puoi girare 1 carta dalla cima delle tue carte Life scoperta: Dai −2000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": "Trigger[Trigger] You may trash 1 card from your hand: Play this card.",
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-114_p1.png",
@@ -5405,7 +5825,10 @@
       "Egghead",
       "CP0"
     ],
-    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle. Then, if your opponent has 2 or less Life cards, up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "effect": {
+      "en": "[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle. Then, if your opponent has 2 or less Life cards, up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+      "it": "[Counter] Fino a 1 delle tue carte Leader o Personaggio ottiene +3000 power durante questa battaglia. Poi, se il tuo avversario ha 2 o meno carte Life, fino a 1 delle tue carte Leader o Personaggio guadagna +1000 power durante questo turno."
+    },
     "trigger": "Trigger[Trigger] Draw 1 card.",
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-115.png",
@@ -5439,7 +5862,10 @@
       "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type Character card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type Character card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[Main] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta Personaggio di tipo {Supernovas} e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-116.png",
@@ -5474,7 +5900,10 @@
       "The Four Emperors",
       "Straw Hat Crew"
     ],
-    "effect": "[Main] You may turn 1 card from the top of your Life cards face-up: K.O. up to 1 of your opponent's Characters with a base cost of 6 or less.",
+    "effect": {
+      "en": "[Main] You may turn 1 card from the top of your Life cards face-up: K.O. up to 1 of your opponent's Characters with a base cost of 6 or less.",
+      "it": "[Main] Puoi girare 1 carta dalla cima delle tue carte Life scoperta: K. O. fino a 1 dei Personaggi del tuo avversario con un costo base pari a 6 o inferiore."
+    },
     "trigger": "Trigger[Trigger] Draw 1 card.",
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-117.png",
@@ -5509,7 +5938,10 @@
       "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "[Double Attack][On Play] If your Leader is multicolored, set up to 4 of your DON!! cards as active. Then, you cannot play Character cards with a base cost of 5 or more during this turn.",
+    "effect": {
+      "en": "[Double Attack][On Play] If your Leader is multicolored, set up to 4 of your DON!! cards as active. Then, you cannot play Character cards with a base cost of 5 or more during this turn.",
+      "it": "[Double Attack][On Play] Se il tuo Leader è multicolore, imposta fino a 4 delle tue carte DON!! come attivi. Quindi, non puoi giocare carte Personaggio con un costo base pari a 5 o più durante questo turno."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-118.png",
@@ -5545,7 +5977,10 @@
       "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "[Double Attack][On Play] If your Leader is multicolored, set up to 4 of your DON!! cards as active. Then, you cannot play Character cards with a base cost of 5 or more during this turn.",
+    "effect": {
+      "en": "[Double Attack][On Play] If your Leader is multicolored, set up to 4 of your DON!! cards as active. Then, you cannot play Character cards with a base cost of 5 or more during this turn.",
+      "it": "[Double Attack][On Play] Se il tuo Leader è multicolore, imposta fino a 4 delle tue carte DON!! come attivi. Quindi, non puoi giocare carte Personaggio con un costo base pari a 5 o più durante questo turno."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-118_p1.png",
@@ -5582,7 +6017,10 @@
       "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "[Double Attack][On Play] If your Leader is multicolored, set up to 4 of your DON!! cards as active. Then, you cannot play Character cards with a base cost of 5 or more during this turn.",
+    "effect": {
+      "en": "[Double Attack][On Play] If your Leader is multicolored, set up to 4 of your DON!! cards as active. Then, you cannot play Character cards with a base cost of 5 or more during this turn.",
+      "it": "[Double Attack][On Play] Se il tuo Leader è multicolore, imposta fino a 4 delle tue carte DON!! come attivi. Quindi, non puoi giocare carte Personaggio con un costo base pari a 5 o più durante questo turno."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-118_p2.png",
@@ -5619,7 +6057,10 @@
       "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "[Double Attack][On Play] If your Leader is multicolored, set up to 4 of your DON!! cards as active. Then, you cannot play Character cards with a base cost of 5 or more during this turn.",
+    "effect": {
+      "en": "[Double Attack][On Play] If your Leader is multicolored, set up to 4 of your DON!! cards as active. Then, you cannot play Character cards with a base cost of 5 or more during this turn.",
+      "it": "[Double Attack][On Play] Se il tuo Leader è multicolore, imposta fino a 4 delle tue carte DON!! come attivi. Quindi, non puoi giocare carte Personaggio con un costo base pari a 5 o più durante questo turno."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-118_p3.png",
@@ -5656,7 +6097,10 @@
       "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "[Double Attack][On Play] If your Leader is multicolored, set up to 4 of your DON!! cards as active. Then, you cannot play Character cards with a base cost of 5 or more during this turn.",
+    "effect": {
+      "en": "[Double Attack][On Play] If your Leader is multicolored, set up to 4 of your DON!! cards as active. Then, you cannot play Character cards with a base cost of 5 or more during this turn.",
+      "it": "[Double Attack][On Play] Se il tuo Leader è multicolore, imposta fino a 4 delle tue carte DON!! come attivi. Quindi, non puoi giocare carte Personaggio con un costo base pari a 5 o più durante questo turno."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-118_p4.png",
@@ -5691,7 +6135,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "If you have 3 or less Life cards, this Character gains [Rush].[On Play] Give up to 1 rested DON!! card to your Leader. Then, you may return up to 1 of your opponent's Characters with a cost of 5 or less to the owner's hand. If you do, your opponent plays up to 1 Character card with a cost of 4 or less from their hand.",
+    "effect": {
+      "en": "If you have 3 or less Life cards, this Character gains [Rush].[On Play] Give up to 1 rested DON!! card to your Leader. Then, you may return up to 1 of your opponent's Characters with a cost of 5 or less to the owner's hand. If you do, your opponent plays up to 1 Character card with a cost of 4 or less from their hand.",
+      "it": "Se hai 3 o meno carte Life, questo Personaggio guadagna [Rush]. [On Play] Cedi fino a 1 in stato spossato carta DON!! al tuo Leader. Poi, puoi far ritornare in mano al proprietario fino a 1 dei Personaggi del tuo avversario con un costo pari o inferiore a 5. Se lo fai, il tuo avversario gioca fino a 1 carta Personaggio con costo pari o inferiore a 4 dalla sua mano."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-119.png",
@@ -5725,7 +6172,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "If you have 3 or less Life cards, this Character gains [Rush].[On Play] Give up to 1 rested DON!! card to your Leader. Then, you may return up to 1 of your opponent's Characters with a cost of 5 or less to the owner's hand. If you do, your opponent plays up to 1 Character card with a cost of 4 or less from their hand.",
+    "effect": {
+      "en": "If you have 3 or less Life cards, this Character gains [Rush].[On Play] Give up to 1 rested DON!! card to your Leader. Then, you may return up to 1 of your opponent's Characters with a cost of 5 or less to the owner's hand. If you do, your opponent plays up to 1 Character card with a cost of 4 or less from their hand.",
+      "it": "Se hai 3 o meno carte Life, questo Personaggio guadagna [Rush]. [On Play] Cedi fino a 1 in stato spossato carta DON!! al tuo Leader. Poi, puoi far ritornare in mano al proprietario fino a 1 dei Personaggi del tuo avversario con un costo pari o inferiore a 5. Se lo fai, il tuo avversario gioca fino a 1 carta Personaggio con costo pari o inferiore a 4 dalla sua mano."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-119_p1.png",
@@ -5760,7 +6210,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "If you have 3 or less Life cards, this Character gains [Rush].[On Play] Give up to 1 rested DON!! card to your Leader. Then, you may return up to 1 of your opponent's Characters with a cost of 5 or less to the owner's hand. If you do, your opponent plays up to 1 Character card with a cost of 4 or less from their hand.",
+    "effect": {
+      "en": "If you have 3 or less Life cards, this Character gains [Rush].[On Play] Give up to 1 rested DON!! card to your Leader. Then, you may return up to 1 of your opponent's Characters with a cost of 5 or less to the owner's hand. If you do, your opponent plays up to 1 Character card with a cost of 4 or less from their hand.",
+      "it": "Se hai 3 o meno carte Life, questo Personaggio guadagna [Rush]. [On Play] Cedi fino a 1 in stato spossato carta DON!! al tuo Leader. Poi, puoi far ritornare in mano al proprietario fino a 1 dei Personaggi del tuo avversario con un costo pari o inferiore a 5. Se lo fai, il tuo avversario gioca fino a 1 carta Personaggio con costo pari o inferiore a 4 dalla sua mano."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-119_p2.png",
@@ -5795,7 +6248,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "If you have 3 or less Life cards, this Character gains [Rush].[On Play] Give up to 1 rested DON!! card to your Leader. Then, you may return up to 1 of your opponent's Characters with a cost of 5 or less to the owner's hand. If you do, your opponent plays up to 1 Character card with a cost of 4 or less from their hand.",
+    "effect": {
+      "en": "If you have 3 or less Life cards, this Character gains [Rush].[On Play] Give up to 1 rested DON!! card to your Leader. Then, you may return up to 1 of your opponent's Characters with a cost of 5 or less to the owner's hand. If you do, your opponent plays up to 1 Character card with a cost of 4 or less from their hand.",
+      "it": "Se hai 3 o meno carte Life, questo Personaggio guadagna [Rush]. [On Play] Cedi fino a 1 in stato spossato carta DON!! al tuo Leader. Poi, puoi far ritornare in mano al proprietario fino a 1 dei Personaggi del tuo avversario con un costo pari o inferiore a 5. Se lo fai, il tuo avversario gioca fino a 1 carta Personaggio con costo pari o inferiore a 4 dalla sua mano."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-119_p3.png",
@@ -5830,7 +6286,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "If you have 3 or less Life cards, this Character gains [Rush].[On Play] Give up to 1 rested DON!! card to your Leader. Then, you may return up to 1 of your opponent's Characters with a cost of 5 or less to the owner's hand. If you do, your opponent plays up to 1 Character card with a cost of 4 or less from their hand.",
+    "effect": {
+      "en": "If you have 3 or less Life cards, this Character gains [Rush].[On Play] Give up to 1 rested DON!! card to your Leader. Then, you may return up to 1 of your opponent's Characters with a cost of 5 or less to the owner's hand. If you do, your opponent plays up to 1 Character card with a cost of 4 or less from their hand.",
+      "it": "Se hai 3 o meno carte Life, questo Personaggio guadagna [Rush]. [On Play] Cedi fino a 1 in stato spossato carta DON!! al tuo Leader. Poi, puoi far ritornare in mano al proprietario fino a 1 dei Personaggi del tuo avversario con un costo pari o inferiore a 5. Se lo fai, il tuo avversario gioca fino a 1 carta Personaggio con costo pari o inferiore a 4 dalla sua mano."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-119_p4.png",
@@ -5866,7 +6325,10 @@
       "Dressrosa",
       "Revolutionary Army"
     ],
-    "effect": "[Blocker][Activate: Main] [Once Per Turn] Up to 1 of your Characters gains +2 cost until the end of your opponent's next turn. Then, give up to 1 rested DON!! card to your Leader.",
+    "effect": {
+      "en": "[Blocker][Activate: Main] [Once Per Turn] Up to 1 of your Characters gains +2 cost until the end of your opponent's next turn. Then, give up to 1 rested DON!! card to your Leader.",
+      "it": "[Blocker][Activate: Main] [Once Per Turn] Fino a 1 dei tuoi personaggi ottiene +2 al costo fino alla fine del turno successivo del tuo avversario. Quindi, Assegna fino a 1 carta DON!! in stato spossato al tuo Leader."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-120.png",
@@ -5902,7 +6364,10 @@
       "Dressrosa",
       "Revolutionary Army"
     ],
-    "effect": "[Blocker][Activate: Main] [Once Per Turn] Up to 1 of your Characters gains +2 cost until the end of your opponent's next turn. Then, give up to 1 rested DON!! card to your Leader.",
+    "effect": {
+      "en": "[Blocker][Activate: Main] [Once Per Turn] Up to 1 of your Characters gains +2 cost until the end of your opponent's next turn. Then, give up to 1 rested DON!! card to your Leader.",
+      "it": "[Blocker][Activate: Main] [Once Per Turn] Fino a 1 dei tuoi personaggi ottiene +2 al costo fino alla fine del turno successivo del tuo avversario. Quindi, Assegna fino a 1 carta DON!! in stato spossato al tuo Leader."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-120_p1.png",
@@ -5939,7 +6404,10 @@
       "Dressrosa",
       "Revolutionary Army"
     ],
-    "effect": "[Blocker][Activate: Main] [Once Per Turn] Up to 1 of your Characters gains +2 cost until the end of your opponent's next turn. Then, give up to 1 rested DON!! card to your Leader.",
+    "effect": {
+      "en": "[Blocker][Activate: Main] [Once Per Turn] Up to 1 of your Characters gains +2 cost until the end of your opponent's next turn. Then, give up to 1 rested DON!! card to your Leader.",
+      "it": "[Blocker][Activate: Main] [Once Per Turn] Fino a 1 dei tuoi personaggi ottiene +2 al costo fino alla fine del turno successivo del tuo avversario. Quindi, Assegna fino a 1 carta DON!! in stato spossato al tuo Leader."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-120_p2.png",
@@ -5976,7 +6444,10 @@
       "Dressrosa",
       "Revolutionary Army"
     ],
-    "effect": "[Blocker][Activate: Main] [Once Per Turn] Up to 1 of your Characters gains +2 cost until the end of your opponent's next turn. Then, give up to 1 rested DON!! card to your Leader.",
+    "effect": {
+      "en": "[Blocker][Activate: Main] [Once Per Turn] Up to 1 of your Characters gains +2 cost until the end of your opponent's next turn. Then, give up to 1 rested DON!! card to your Leader.",
+      "it": "[Blocker][Activate: Main] [Once Per Turn] Fino a 1 dei tuoi personaggi ottiene +2 al costo fino alla fine del turno successivo del tuo avversario. Quindi, Assegna fino a 1 carta DON!! in stato spossato al tuo Leader."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-120_p3.png",
@@ -6013,7 +6484,10 @@
       "Dressrosa",
       "Revolutionary Army"
     ],
-    "effect": "[Blocker][Activate: Main] [Once Per Turn] Up to 1 of your Characters gains +2 cost until the end of your opponent's next turn. Then, give up to 1 rested DON!! card to your Leader.",
+    "effect": {
+      "en": "[Blocker][Activate: Main] [Once Per Turn] Up to 1 of your Characters gains +2 cost until the end of your opponent's next turn. Then, give up to 1 rested DON!! card to your Leader.",
+      "it": "[Blocker][Activate: Main] [Once Per Turn] Fino a 1 dei tuoi personaggi ottiene +2 al costo fino alla fine del turno successivo del tuo avversario. Quindi, Assegna fino a 1 carta DON!! in stato spossato al tuo Leader."
+    },
     "trigger": null,
     "setName": "CARRYING ON HIS WILL [OP-13]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP13-120_p4.png",

@@ -40,7 +40,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Straw Hat Crew} diversa da [Nami] e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "The Three Captains [ST-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-016_p3.png",
@@ -75,7 +78,10 @@
       "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "[Rush] (This card can attack on the turn in which it is played.)",
+    "effect": {
+      "en": "[Rush] (This card can attack on the turn in which it is played.)",
+      "it": "[Rush] (Questa carta può attaccare nel turno in cui viene giocata.)"
+    },
     "trigger": null,
     "setName": "The Three Captains [ST-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-025_p2.png",
@@ -110,7 +116,10 @@
     "family": [
       "Heart Pirates"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] DON!! −3 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Place up to 1 of your opponent's Characters with 3000 power or less at the bottom of the owner's deck, and play up to 1 Character card with a cost of 4 or less from your hand.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] DON!! −3 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Place up to 1 of your opponent's Characters with 3000 power or less at the bottom of the owner's deck, and play up to 1 Character card with a cost of 4 or less from your hand.",
+      "it": "[Activate: Main] [Once Per Turn] DON!! −3 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): Metti fino a 1 dei Personaggi del tuo avversario con 3000 power o meno in fondo al mazzo del proprietario e gioca fino a 1 carta Personaggio con un costo pari o inferiore a 4 dalla tua mano."
+    },
     "trigger": null,
     "setName": "The Three Captains [ST-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-001.png",
@@ -145,7 +154,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] If you have 0 DON!! cards on your field or 8 or more DON!! cards on your field, add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] If you have 0 DON!! cards on your field or 8 or more DON!! cards on your field, add up to 1 DON!! card from your DON!! deck and set it as active.",
+      "it": "[Activate: Main] [Once Per Turn] Se hai 0 carte DON!! sul tuo campo o 8 o più carte DON!! sul tuo campo, aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e impostalo come attivo."
+    },
     "trigger": null,
     "setName": "The Three Captains [ST-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-002.png",
@@ -180,7 +192,10 @@
     "family": [
       "Kid Pirates"
     ],
-    "effect": "[Your Turn] If you have 4 or more Life cards, give this Leader −1000 power.[When Attacking] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Leader gains +2000 power during this turn.",
+    "effect": {
+      "en": "[Your Turn] If you have 4 or more Life cards, give this Leader −1000 power.[When Attacking] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Leader gains +2000 power during this turn.",
+      "it": "[Your Turn] Se hai 4 o più carte Life, dai a questo Leader −1000 power. [When Attacking] DON!! −1 (puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): Questo Leader guadagna +2000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "The Three Captains [ST-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-003.png",
@@ -214,7 +229,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] If your opponent has a Character with 5000 or more power, this Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+    "effect": {
+      "en": "[On Play] If your opponent has a Character with 5000 or more power, this Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+      "it": "[On Play] Se il tuo avversario ha un Personaggio con 5000 o più power, questo Personaggio guadagna [Rush] durante questo turno. (Questa carta può attaccare nel turno in cui viene giocata.)"
+    },
     "trigger": null,
     "setName": "The Three Captains [ST-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-004.png",
@@ -249,7 +267,10 @@
       "Fish-Man",
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −2000 power during this turn.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −2000 power during this turn.",
+      "it": "[DON!! x1] [When Attacking] Dai −2000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "The Three Captains [ST-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-005.png",
@@ -283,7 +304,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Rush] (This card can attack on the turn in which it is played.)[Once Per Turn] When your opponent activates a [Blocker], K.O. up to 1 of your opponent's Characters with 8000 power or less.",
+    "effect": {
+      "en": "[Rush] (This card can attack on the turn in which it is played.)[Once Per Turn] When your opponent activates a [Blocker], K.O. up to 1 of your opponent's Characters with 8000 power or less.",
+      "it": "[Rush] (Questa carta può attaccare nel turno in cui viene giocata.)[Once Per Turn] Quando il tuo avversario attiva [Blocker], K. O. fino a 1 dei personaggi del tuo avversario con 8000 power o meno."
+    },
     "trigger": null,
     "setName": "The Three Captains [ST-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-006.png",
@@ -318,7 +342,10 @@
     "family": [
       "Kid Pirates"
     ],
-    "effect": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
+    "effect": {
+      "en": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
+      "it": "[Your Turn] [Once Per Turn] Quando un carta DON!! sul tuo campo viene restituito al tuo mazzo DON!! , K. O. fino a 1 dei personaggi in stato spossato del tuo avversario con un costo pari o inferiore a 3."
+    },
     "trigger": null,
     "setName": "The Three Captains [ST-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-007.png",
@@ -352,7 +379,10 @@
     "family": [
       "Heart Pirates"
     ],
-    "effect": "[On Play] If you have 3 or less DON!! cards on your field, add up to 2 DON!! cards from your DON!! deck and rest them.",
+    "effect": {
+      "en": "[On Play] If you have 3 or less DON!! cards on your field, add up to 2 DON!! cards from your DON!! deck and rest them.",
+      "it": "[On Play] Se hai 3 o meno carte DON!! sul tuo campo, aggiungi fino a 2 carte DON!! dal tuo mazzo DON!! e riposali."
+    },
     "trigger": null,
     "setName": "The Three Captains [ST-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-008.png",
@@ -385,7 +415,10 @@
     "family": [
       "Heart Pirates"
     ],
-    "effect": "[On Play] ➀ (You may rest the specified number of DON!! cards in your cost area.): Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": {
+      "en": "[On Play] ➀ (You may rest the specified number of DON!! cards in your cost area.): Add up to 1 DON!! card from your DON!! deck and set it as active.",
+      "it": "[On Play] ➀ (Puoi lasciare il numero specificato di carte DON!! nella tua area di costo.): Aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e impostalo come attivo."
+    },
     "trigger": null,
     "setName": "The Three Captains [ST-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-009.png",
@@ -418,7 +451,10 @@
     "family": [
       "Heart Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your opponent has 7 or more cards in their hand, trash 2 cards from your opponent's hand.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your opponent has 7 or more cards in their hand, trash 2 cards from your opponent's hand.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On Play] DON!! −1 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): Se il tuo avversario ha 7 o più carte nella sua mano, Manda nel Trash 2 carte dalla mano del tuo avversario."
+    },
     "trigger": null,
     "setName": "The Three Captains [ST-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-010.png",
@@ -452,7 +488,10 @@
     "family": [
       "Kid Pirates"
     ],
-    "effect": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, this Character gains +2000 power until the start of your next turn.",
+    "effect": {
+      "en": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, this Character gains +2000 power until the start of your next turn.",
+      "it": "[Your Turn] [Once Per Turn] Quando un carta DON!! sul tuo campo viene restituito al tuo mazzo DON!! , Questo Personaggio guadagna +2000 power fino all'inizio del tuo turno successivo."
+    },
     "trigger": null,
     "setName": "The Three Captains [ST-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-011.png",
@@ -487,7 +526,10 @@
       "Minks",
       "Heart Pirates"
     ],
-    "effect": "[On Play]/[When Attacking] If your opponent has more DON!! cards on their field than you, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "effect": {
+      "en": "[On Play]/[When Attacking] If your opponent has more DON!! cards on their field than you, add up to 1 DON!! card from your DON!! deck and rest it.",
+      "it": "[On Play]/[When Attacking] Se il tuo avversario ha più carte DON!! di te sul suo campo, somma fino a 1 carta DON!! dal tuo mazzo DON!! e metti in stato spossato."
+    },
     "trigger": null,
     "setName": "The Three Captains [ST-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-012.png",
@@ -521,7 +563,10 @@
     "family": [
       "Kid Pirates"
     ],
-    "effect": "[On Play]/[When Attacking] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your Leader gains +1000 power until the start of your next turn.",
+    "effect": {
+      "en": "[On Play]/[When Attacking] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your Leader gains +1000 power until the start of your next turn.",
+      "it": "[On Play]/[When Attacking] DON!! −1 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): Fino a 1 dei tuoi Leader guadagna +1000 power fino all'inizio del tuo turno successivo."
+    },
     "trigger": null,
     "setName": "The Three Captains [ST-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-013.png",
@@ -555,7 +600,10 @@
     "family": [
       "Kid Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, draw 1 card and trash 1 card from your hand.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, draw 1 card and trash 1 card from your hand.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[Once Per Turn] Quando un carta DON!! sul tuo campo viene fatto ritornare nel tuo mazzo DON!! , pesca 1 carta e Manda nel Trash 1 carta dalla tua mano."
+    },
     "trigger": null,
     "setName": "The Three Captains [ST-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-014.png",
@@ -589,7 +637,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle, and K.O. up to 1 of your opponent's Characters with 2000 power or less.",
+    "effect": {
+      "en": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle, and K.O. up to 1 of your opponent's Characters with 2000 power or less.",
+      "it": "[Counter] Fino a 1 delle tue carte Leader o Personaggio guadagna +2000 power durante questa battaglia e K. O. fino a 1 dei Personaggi del tuo avversario guadagna +2000 power o meno."
+    },
     "trigger": null,
     "setName": "The Three Captains [ST-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-015.png",
@@ -622,7 +673,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Main] K.O. up to 1 of your opponent's Characters with 7000 power or less.",
+    "effect": {
+      "en": "[Main] K.O. up to 1 of your opponent's Characters with 7000 power or less.",
+      "it": "[Main] K. O. fino a 1 dei personaggi del tuo avversario con 7000 power o meno."
+    },
     "trigger": "Trigger[Trigger] Up to 1 of your Leader gains +1000 power until the end of your next turn.",
     "setName": "The Three Captains [ST-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-016.png",
@@ -655,7 +709,10 @@
     "family": [
       "Kid Pirates"
     ],
-    "effect": "[Main] Rest up to 1 of your opponent's Characters with a cost of 2 or less, and add up to 1 DON!! card from your DON!! deck and rest it.",
+    "effect": {
+      "en": "[Main] Rest up to 1 of your opponent's Characters with a cost of 2 or less, and add up to 1 DON!! card from your DON!! deck and rest it.",
+      "it": "[Main] Metti in stato spossato fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 2, aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e metti in stato spossato."
+    },
     "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "setName": "The Three Captains [ST-10]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-017.png",

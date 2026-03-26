@@ -13,7 +13,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x1] All of your Characters gain +1 cost. If you have a Character with a cost of 8 or more, this Leader gains +1000 power.",
+    "effect": {
+      "en": "[DON!! x1] All of your Characters gain +1 cost. If you have a Character with a cost of 8 or more, this Leader gains +1000 power.",
+      "it": "[DON!! x1] Tutti i tuoi personaggi ottengono +1 al costo. Se hai un Personaggio con un costo pari o superiore a 8, Questo Leader guadagna +1000 power."
+    },
     "trigger": null,
     "setName": "3D2Y [ST-14]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-001.png",
@@ -46,7 +49,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x1] [When Attacking] If you have a Character with a cost of 8 or more, K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] If you have a Character with a cost of 8 or more, K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+      "it": "[DON!! x1] [When Attacking] Se hai un Personaggio con costo pari o superiore a 8, K. O. fino a 1 Personaggio del tuo avversario con costo pari o inferiore a 4."
+    },
     "trigger": null,
     "setName": "3D2Y [ST-14]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-002.png",
@@ -80,7 +86,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] If you have a Character with a cost of 6 or more, K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "effect": {
+      "en": "[On Play] If you have a Character with a cost of 6 or more, K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+      "it": "[On Play] Se hai un Personaggio con costo pari o superiore a 6, K. O. fino a 1 Personaggio del tuo avversario con costo pari o inferiore a 5."
+    },
     "trigger": null,
     "setName": "3D2Y [ST-14]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-003.png",
@@ -114,7 +123,10 @@
       "Fish-Man",
       "The Sun Pirates"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] Up to 1 of your black {Straw Hat Crew} type Characters gains +2 cost until the end of your opponent's next turn.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] Up to 1 of your black {Straw Hat Crew} type Characters gains +2 cost until the end of your opponent's next turn.",
+      "it": "[Activate: Main] [Once Per Turn] Fino a 1 dei tuoi nere {Straw Hat Crew} di tipo Personaggi guadagna +2 costo fino alla fine del prossimo turno del tuo avversario."
+    },
     "trigger": null,
     "setName": "3D2Y [ST-14]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-004.png",
@@ -179,7 +191,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] If you have 6 or less cards in your hand and a Character with a cost of 8 or more, draw 1 card.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] If you have 6 or less cards in your hand and a Character with a cost of 8 or more, draw 1 card.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On Play] Se hai 6 carte o meno in mano e un Personaggio con un costo pari o superiore a 8, pesca 1 carta."
+    },
     "trigger": null,
     "setName": "3D2Y [ST-14]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-006.png",
@@ -213,7 +228,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[On Play]/[When Attacking] If you have a Character with a cost of 8 or more, give up to 1 of your opponent's Characters −5 cost during this turn.",
+    "effect": {
+      "en": "[On Play]/[When Attacking] If you have a Character with a cost of 8 or more, give up to 1 of your opponent's Characters −5 cost during this turn.",
+      "it": "[On Play]/[When Attacking] Se hai un Personaggio con un costo pari o superiore a 8, rinuncia a 1 dei personaggi del tuo avversario con costo pari a -5 durante questo turno."
+    },
     "trigger": null,
     "setName": "3D2Y [ST-14]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-007.png",
@@ -247,7 +265,10 @@
     "family": [
       "Sky Island"
     ],
-    "effect": "[Activate: Main] You may rest this Character: Up to 1 of your black {Straw Hat Crew} type Characters gains +2 cost until the end of your opponent's next turn. Then, if you have a Character with a cost of 8 or more, draw 1 card and trash 1 card from your hand.",
+    "effect": {
+      "en": "[Activate: Main] You may rest this Character: Up to 1 of your black {Straw Hat Crew} type Characters gains +2 cost until the end of your opponent's next turn. Then, if you have a Character with a cost of 8 or more, draw 1 card and trash 1 card from your hand.",
+      "it": "[Activate: Main] Puoi mettere in stato spossato questo Personaggio: Fino a 1 dei tuoi nere {Straw Hat Crew} di tipo Personaggi guadagna +2 costo fino alla fine del prossimo turno del tuo avversario. Then, if you have a Personaggio with a cost of 8 or more, Pesca 1 carta and Manda nel Trash 1 carta dalla tua mano."
+    },
     "trigger": null,
     "setName": "3D2Y [ST-14]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-008.png",
@@ -280,7 +301,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x1] [Opponent's Turn] If you have a Character with a cost of 6 or more, this Character cannot be K.O.'d by your opponent's effects and gains +2000 power.",
+    "effect": {
+      "en": "[DON!! x1] [Opponent's Turn] If you have a Character with a cost of 6 or more, this Character cannot be K.O.'d by your opponent's effects and gains +2000 power.",
+      "it": "[DON!! x1] [Opponent's Turn] Se hai un personaggio con un costo pari o superiore a 6, questo personaggio non può essere K. O. dagli effetti del tuo avversario e guadagna +2000 power."
+    },
     "trigger": null,
     "setName": "3D2Y [ST-14]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-009.png",
@@ -344,7 +368,10 @@
     "family": [
       "Bowin Island"
     ],
-    "effect": "[Activate: Main] You may rest this Character: Up to 1 of your black {Straw Hat Crew} type Characters gains +2 cost until the end of your opponent's next turn.",
+    "effect": {
+      "en": "[Activate: Main] You may rest this Character: Up to 1 of your black {Straw Hat Crew} type Characters gains +2 cost until the end of your opponent's next turn.",
+      "it": "[Activate: Main] Puoi mettere in stato spossato questo Personaggio: Fino a 1 dei tuoi nere {Straw Hat Crew} di tipo Personaggi guadagna +2 costo fino alla fine del prossimo turno del tuo avversario."
+    },
     "trigger": null,
     "setName": "3D2Y [ST-14]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-011.png",
@@ -377,7 +404,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "If you have a Character with a cost of 10 or more, this Character gains [Rush].(This card can attack on the turn in which it is played.)",
+    "effect": {
+      "en": "If you have a Character with a cost of 10 or more, this Character gains [Rush].(This card can attack on the turn in which it is played.)",
+      "it": "Se hai un Personaggio con un costo pari o superiore a 10, questo Personaggio ottiene [Rush]. (Questa carta può attaccare nel turno in cui viene giocata.)"
+    },
     "trigger": null,
     "setName": "3D2Y [ST-14]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-012.png",
@@ -440,7 +470,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Counter] If you have a Character with a cost of 8 or more, up to 1 of your Leader or Character cards gains +3000 power during this battle.",
+    "effect": {
+      "en": "[Counter] If you have a Character with a cost of 8 or more, up to 1 of your Leader or Character cards gains +3000 power during this battle.",
+      "it": "[Counter] Se hai un Personaggio con un costo pari o superiore a 8, fino a 1 delle tue carte Leader o Personaggio guadagna +3000 power durante questa battaglia."
+    },
     "trigger": "Trigger[Trigger] Add up to 1 of your Character cards with a cost of 2 or less from your trash to your hand.",
     "setName": "3D2Y [ST-14]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-014.png",
@@ -473,7 +506,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Main] Up to 1 of your Leader or Character cards gains +3000 power during this turn. Then, if you have a Character with a cost of 8 or more, K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
+    "effect": {
+      "en": "[Main] Up to 1 of your Leader or Character cards gains +3000 power during this turn. Then, if you have a Character with a cost of 8 or more, K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
+      "it": "[Main] Fino a 1 delle tue carte Leader o Personaggio guadagna +3000 power durante questo turno. Poi, se hai un Personaggio con un costo pari o superiore a 8, K. O. fino a 1 dei Personaggi del tuo avversario con un costo pari o inferiore a 2."
+    },
     "trigger": "Trigger[Trigger] If you have a Character with a cost of 8 or more, K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
     "setName": "3D2Y [ST-14]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-015.png",
@@ -506,7 +542,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Main] Draw 1 card. Then, up to 1 of your Characters gains +3 cost until the end of your opponent's next turn.",
+    "effect": {
+      "en": "[Main] Draw 1 card. Then, up to 1 of your Characters gains +3 cost until the end of your opponent's next turn.",
+      "it": "[Main] Pesca 1 carta. Poi, fino a 1 dei tuoi personaggi guadagna +3 di costo fino alla fine del turno successivo del tuo avversario."
+    },
     "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
     "setName": "3D2Y [ST-14]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-016.png",
@@ -539,7 +578,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "All of your black {Straw Hat Crew} type Characters gain +1 cost.[On Play] If your Leader has the {Straw Hat Crew} type, draw 1 card.",
+    "effect": {
+      "en": "All of your black {Straw Hat Crew} type Characters gain +1 cost.[On Play] If your Leader has the {Straw Hat Crew} type, draw 1 card.",
+      "it": "Tutti i tuoi personaggi neri di tipo {Straw Hat Crew} ottengono +1 costo. [On Play] Se il tuo Leader ha il tipo {Straw Hat Crew}, pesca 1 carta."
+    },
     "trigger": null,
     "setName": "3D2Y [ST-14]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST14-017.png",

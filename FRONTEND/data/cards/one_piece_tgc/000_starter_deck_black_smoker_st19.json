@@ -13,7 +13,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] Give up to 1 of your opponent's Characters −1 cost during this turn. Then, if there is a Character with a cost of 0, this Leader gains +1000 power during this turn.",
+    "effect": {
+      "en": "[DON!! x1] [Activate: Main] [Once Per Turn] Give up to 1 of your opponent's Characters −1 cost during this turn. Then, if there is a Character with a cost of 0, this Leader gains +1000 power during this turn.",
+      "it": "[DON!! x1] [Activate: Main] [Once Per Turn] Dai −1 costo a un massimo di 1 Personaggio del tuo avversario durante questo turno. Poi, se c'è un Personaggio con costo pari a 0, Questo Leader guadagna +1000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "Black Smoker [ST-19]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-093_p2.png",
@@ -49,7 +52,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "effect": {
+      "en": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+      "it": "[On Play] Puoi mandare nel Trash 1 carta dalla tua mano: K. O. fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 3."
+    },
     "trigger": null,
     "setName": "Black Smoker [ST-19]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-098_r1.png",
@@ -83,7 +89,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] Give up to 1 of your opponent's Characters −2 cost during this turn.",
+    "effect": {
+      "en": "[On Play] Give up to 1 of your opponent's Characters −2 cost during this turn.",
+      "it": "[On Play] Dai −2 costo a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "Black Smoker [ST-19]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-106_r1.png",
@@ -118,7 +127,10 @@
       "Navy",
       "Donquixote Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "Black Smoker [ST-19]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-108_r1.png",
@@ -184,7 +196,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[When Attacking] Give up to 1 of your opponent's Characters −2 cost during this turn. Then, if there is a Character with a cost of 0, this Character gains +2000 power during this battle.",
+    "effect": {
+      "en": "[When Attacking] Give up to 1 of your opponent's Characters −2 cost during this turn. Then, if there is a Character with a cost of 0, this Character gains +2000 power during this battle.",
+      "it": "[When Attacking] Dai −2 costo a un massimo di 1 Personaggio del tuo avversario durante questo turno. Poi, se c'è un Personaggio con un costo pari a 0, Questo Personaggio guadagna +2000 power durante questa battaglia."
+    },
     "trigger": "Trigger[Trigger] Play this card.",
     "setName": "Black Smoker [ST-19]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-113_r1.png",
@@ -249,7 +264,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Main] Give up to 1 of your opponent's Characters −5 cost during this turn.",
+    "effect": {
+      "en": "[Main] Give up to 1 of your opponent's Characters −5 cost during this turn.",
+      "it": "[Main] Dai −5 costo a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
     "setName": "Black Smoker [ST-19]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-117_r1.png",
@@ -284,7 +302,10 @@
       "Navy",
       "Donquixote Pirates"
     ],
-    "effect": "[DON!! x1] This Character cannot be K.O.'d in battle.",
+    "effect": {
+      "en": "[DON!! x1] This Character cannot be K.O.'d in battle.",
+      "it": "[DON!! x1] Questo personaggio non può essere K. O. in battaglia."
+    },
     "trigger": null,
     "setName": "Black Smoker [ST-19]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-079_r1.png",
@@ -318,7 +339,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] Look at 3 cards from the top of your deck; reveal up to 1 {Navy} type card other than [Brannew] and add it to your hand. Then, trash the rest.",
+    "effect": {
+      "en": "[On Play] Look at 3 cards from the top of your deck; reveal up to 1 {Navy} type card other than [Brannew] and add it to your hand. Then, trash the rest.",
+      "it": "[On Play] Guarda 3 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Navy} diversa da [Brannew] e aggiungila alla tua mano. Poi Trash il resto."
+    },
     "trigger": null,
     "setName": "Black Smoker [ST-19]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-089_r1.png",
@@ -352,7 +376,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] You may trash 1 black {Navy} type card from your hand: Up to 2 of your opponent's Characters with a cost of 4 or less cannot attack until the end of your opponent's next turn.",
+    "effect": {
+      "en": "[On Play] You may trash 1 black {Navy} type card from your hand: Up to 2 of your opponent's Characters with a cost of 4 or less cannot attack until the end of your opponent's next turn.",
+      "it": "[On Play] Puoi mandare nel Trash 1 carta nera di tipo {Navy} dalla tua mano: fino a 2 personaggi del tuo avversario con un costo pari o inferiore a 4 non possono attaccare fino alla fine del turno successivo del tuo avversario."
+    },
     "trigger": null,
     "setName": "Black Smoker [ST-19]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST19-001.png",
@@ -385,7 +412,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] You may trash 2 black {Navy} type cards from your hand: If your Leader has the {Navy} type, draw 3 cards.",
+    "effect": {
+      "en": "[On Play] You may trash 2 black {Navy} type cards from your hand: If your Leader has the {Navy} type, draw 3 cards.",
+      "it": "[On Play] Puoi mandare nel Trash 2 carte nere di tipo {Navy} dalla tua mano: se il tuo Leader ha il tipo {Navy}, pesca 3 carte."
+    },
     "trigger": null,
     "setName": "Black Smoker [ST-19]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST19-002.png",
@@ -418,7 +448,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] If your Leader is [Smoker], give up to 1 of your opponent's Characters −4 cost during this turn.[Activate: Main] [Once Per Turn] If this Character was played on this turn, trash up to 1 of your opponent's Characters with a cost of 0.",
+    "effect": {
+      "en": "[On Play] If your Leader is [Smoker], give up to 1 of your opponent's Characters −4 cost during this turn.[Activate: Main] [Once Per Turn] If this Character was played on this turn, trash up to 1 of your opponent's Characters with a cost of 0.",
+      "it": "[On Play] Se il tuo Leader è [Smoker], rinuncia a 1 dei personaggi del tuo avversario con un costo pari a -4 durante questo turno. [Activate: Main] [Once Per Turn] Se questo personaggio è stato giocato in questo turno, Manda nel Trash fino a 1 dei personaggi del tuo avversario con un costo pari a 0."
+    },
     "trigger": null,
     "setName": "Black Smoker [ST-19]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST19-003.png",
@@ -453,7 +486,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[DON!! x1] [Opponent's Turn] This Character gains +4 cost.[Activate: Main] [Once Per Turn] You may place 1 card from your trash at the bottom of your deck: Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+    "effect": {
+      "en": "[DON!! x1] [Opponent's Turn] This Character gains +4 cost.[Activate: Main] [Once Per Turn] You may place 1 card from your trash at the bottom of your deck: Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+      "it": "[DON!! x1] [Opponent's Turn] Questo Personaggio ottiene +4 costo. [Activate: Main] [Once Per Turn] Puoi posizionare 1 carta dal tuo Trash in fondo al tuo mazzo: Assegna fino a 1 carta DON!! in stato spossato al tuo Leader o 1 dei tuoi Personaggi."
+    },
     "trigger": null,
     "setName": "Black Smoker [ST-19]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST19-004.png",
@@ -489,7 +525,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Activate: Main] [Once Per Turn] You may place 1 card from your trash at the bottom of your deck: Give up to 1 of your opponent's Characters −1 cost during this turn.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Activate: Main] [Once Per Turn] You may place 1 card from your trash at the bottom of your deck: Give up to 1 of your opponent's Characters −1 cost during this turn.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, Puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[Activate: Main] [Once Per Turn] Puoi mettere 1 carta dal tuo Trash in fondo al tuo mazzo: Dai −1 costo a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "Black Smoker [ST-19]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST19-005.png",

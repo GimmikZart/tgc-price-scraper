@@ -14,7 +14,10 @@
       "The Seven Warlords of the Sea",
       "Baroque Works"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] DON!! −4 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Return up to 1 Character with a cost of 5 or less to the owner's hand.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] DON!! −4 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Return up to 1 Character with a cost of 5 or less to the owner's hand.",
+      "it": "[Activate: Main] [Once Per Turn] DON!! −4 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): Rimetti in mano al proprietario fino a 1 Personaggio con un costo pari o inferiore a 5."
+    },
     "trigger": null,
     "setName": "The Seven Warlords of the Sea [ST-03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-001.png",
@@ -79,7 +82,10 @@
       "The Seven Warlords of the Sea",
       "Baroque Works"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x1] [On Block] Place up to 1 Character with a cost of 2 or less at the bottom of the owner's deck.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x1] [On Block] Place up to 1 Character with a cost of 2 or less at the bottom of the owner's deck.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[DON!! x1] [On Block] Metti fino a 1 personaggio con un costo pari o inferiore a 2 in fondo al mazzo del proprietario."
+    },
     "trigger": null,
     "setName": "The Seven Warlords of the Sea [ST-03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-003.png",
@@ -115,7 +121,10 @@
       "The Seven Warlords of the Sea",
       "Thriller Bark Pirates"
     ],
-    "effect": "[On Play] Add up to 1 {The Seven Warlords of the Sea} or {Thriller Bark Pirates} type Character with a cost of 4 or less other than [Gecko Moria] from your trash to your hand.",
+    "effect": {
+      "en": "[On Play] Add up to 1 {The Seven Warlords of the Sea} or {Thriller Bark Pirates} type Character with a cost of 4 or less other than [Gecko Moria] from your trash to your hand.",
+      "it": "[On Play] Aggiungi fino a 1 Personaggio di tipo {The Seven Warlords of the Sea} o {Thriller Bark Pirates} con un costo pari o inferiore a 4 diverso da [Gecko Moria] dal tuo Trash alla tua mano."
+    },
     "trigger": null,
     "setName": "The Seven Warlords of the Sea [ST-03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-004.png",
@@ -148,7 +157,10 @@
     "family": [
       "The Seven Warlords of the Sea"
     ],
-    "effect": "[DON!! x1] [When Attacking] Draw 2 cards and trash 2 cards from your hand.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] Draw 2 cards and trash 2 cards from your hand.",
+      "it": "[DON!! x1] [When Attacking] Pesca 2 carte e Manda nel Trash 2 carte dalla tua mano."
+    },
     "trigger": null,
     "setName": "The Seven Warlords of the Sea [ST-03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-005.png",
@@ -214,7 +226,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] ➁ (You may rest the specified number of DON!! cards in your cost area.): Play up to 1 [Pacifista] with a cost of 4 or less from your deck, then shuffle your deck.",
+    "effect": {
+      "en": "[DON!! x1] [Activate: Main] [Once Per Turn] ➁ (You may rest the specified number of DON!! cards in your cost area.): Play up to 1 [Pacifista] with a cost of 4 or less from your deck, then shuffle your deck.",
+      "it": "[DON!! x1] [Activate: Main] [Once Per Turn] ➁ (Puoi lasciare il numero specificato di carte DON!! nella tua area di costo.): Gioca fino a 1 [Pacifista] con un costo pari o inferiore a 4 dal tuo mazzo, quindi mischia il tuo mazzo."
+    },
     "trigger": null,
     "setName": "The Seven Warlords of the Sea [ST-03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-007.png",
@@ -250,7 +265,10 @@
       "The Seven Warlords of the Sea",
       "Heart Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "The Seven Warlords of the Sea [ST-03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-008.png",
@@ -284,7 +302,10 @@
       "The Seven Warlords of the Sea",
       "Donquixote Pirates"
     ],
-    "effect": "[On Play] Return up to 1 Character with a cost of 7 or less to the owner's hand.",
+    "effect": {
+      "en": "[On Play] Return up to 1 Character with a cost of 7 or less to the owner's hand.",
+      "it": "[On Play] Riporta in mano al proprietario fino a 1 personaggio con un costo pari o inferiore a 7."
+    },
     "trigger": null,
     "setName": "The Seven Warlords of the Sea [ST-03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-009.png",
@@ -318,7 +339,10 @@
       "The Seven Warlords of the Sea",
       "Revolutionary Army"
     ],
-    "effect": "[On Play] Look at 3 cards from the top of your deck and return them to the top or bottom of the deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 3 cards from the top of your deck and return them to the top or bottom of the deck in any order.",
+      "it": "[On Play] Guarda 3 carte dalla cima del tuo mazzo e rimettile in cima o in fondo al mazzo in qualsiasi ordine."
+    },
     "trigger": "Trigger[Trigger] Play this card.",
     "setName": "The Seven Warlords of the Sea [ST-03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-010.png",
@@ -414,7 +438,10 @@
       "The Seven Warlords of the Sea",
       "Kuja Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": "Trigger[Trigger] Play this card.",
     "setName": "The Seven Warlords of the Sea [ST-03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-013.png",
@@ -448,7 +475,10 @@
       "The Seven Warlords of the Sea",
       "Blackbeard Pirates"
     ],
-    "effect": "[On Play] Return up to 1 Character with a cost of 3 or less to the owner's hand.",
+    "effect": {
+      "en": "[On Play] Return up to 1 Character with a cost of 3 or less to the owner's hand.",
+      "it": "[On Play] Riporta in mano al proprietario fino a 1 personaggio con un costo pari o inferiore a 3."
+    },
     "trigger": null,
     "setName": "The Seven Warlords of the Sea [ST-03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-014.png",
@@ -482,7 +512,10 @@
       "The Seven Warlords of the Sea",
       "Baroque Works"
     ],
-    "effect": "[Main] Return up to 1 Character with a cost of 7 or less to the owner's hand.",
+    "effect": {
+      "en": "[Main] Return up to 1 Character with a cost of 7 or less to the owner's hand.",
+      "it": "[Main] Riporta in mano al proprietario fino a 1 personaggio con un costo pari o inferiore a 7."
+    },
     "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "The Seven Warlords of the Sea [ST-03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-015.png",
@@ -516,7 +549,10 @@
       "The Seven Warlords of the Sea",
       "Revolutionary Army"
     ],
-    "effect": "[Counter] Return up to 1 Character with a cost of 3 or less to the owner's hand.",
+    "effect": {
+      "en": "[Counter] Return up to 1 Character with a cost of 3 or less to the owner's hand.",
+      "it": "[Counter] Riporta in mano al proprietario fino a 1 personaggio con un costo pari o inferiore a 3."
+    },
     "trigger": "Trigger[Trigger] Activate this card's [Counter] effect.",
     "setName": "The Seven Warlords of the Sea [ST-03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-016.png",
@@ -550,7 +586,10 @@
       "The Seven Warlords of the Sea",
       "Kuja Pirates"
     ],
-    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, draw 1 card if you have 3 or less cards in your hand.",
+    "effect": {
+      "en": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, draw 1 card if you have 3 or less cards in your hand.",
+      "it": "[Counter] Fino a 1 delle tue carte Leader o Personaggio ottiene +4000 power durante questa battaglia. Poi, pesca 1 carta se hai 3 o meno carte in mano."
+    },
     "trigger": null,
     "setName": "The Seven Warlords of the Sea [ST-03]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-017.png",

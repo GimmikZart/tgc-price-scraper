@@ -2,6 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import crypto from "node:crypto";
 import { createClient } from "@supabase/supabase-js";
+import { mergeCardEffects } from "./cardEffect.js";
 import {
   getCardImageObjectPathCandidates,
 } from "./cardImageStorage.js";
@@ -72,10 +73,16 @@ export function mergeCardsById(existingCards, nextCards) {
     const existingCard = existingById.get(card?.id);
     if (!existingCard) return card;
 
-    return {
+    const mergedCard = {
       ...existingCard,
       ...card,
     };
+
+    if (Object.prototype.hasOwnProperty.call(card ?? {}, "effect")) {
+      mergedCard.effect = mergeCardEffects(existingCard?.effect, card?.effect);
+    }
+
+    return mergedCard;
   });
 }
 

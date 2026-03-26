@@ -555,7 +555,10 @@
       "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x1] [Your Turn] All of your Characters gain +1000 power.",
+    "effect": {
+      "en": "[DON!! x1] [Your Turn] All of your Characters gain +1000 power.",
+      "it": "[DON!! x1] [Your Turn] Tutti i tuoi personaggi ottengono +1000 power."
+    },
     "trigger": null,
     "setName": "Card Set(s)Premium Card Collection  25th Edition-",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-001_p2.png",
@@ -590,7 +593,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x1] [Your Turn] [Once Per Turn] Draw 1 card when your opponent activates an Event.",
+    "effect": {
+      "en": "[DON!! x1] [Your Turn] [Once Per Turn] Draw 1 card when your opponent activates an Event.",
+      "it": "[DON!! x1] [Your Turn] [Once Per Turn] Pesca 1 carta quando il tuo avversario attiva un Evento."
+    },
     "trigger": null,
     "setName": "Card Set(s)English Version 1st Anniversary Set",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-004_p1.png",
@@ -626,7 +632,10 @@
     "family": [
       "FILM"
     ],
-    "effect": "[On Play] Add up to 1 red Character card other than [Uta] with a cost of 3 or less from your trash to your hand.",
+    "effect": {
+      "en": "[On Play] Add up to 1 red Character card other than [Uta] with a cost of 3 or less from your trash to your hand.",
+      "it": "[On Play] Aggiungi fino a 1 carta Personaggio rossa diversa da [Uta] con un costo pari o inferiore a 3 dal tuo Trash alla tua mano."
+    },
     "trigger": null,
     "setName": "Card Set(s)Premium Card Collection  FILM RED Edition-",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-005_p1.png",
@@ -660,7 +669,10 @@
     "family": [
       "FILM"
     ],
-    "effect": "[On Play] Add up to 1 red Character card other than [Uta] with a cost of 3 or less from your trash to your hand.",
+    "effect": {
+      "en": "[On Play] Add up to 1 red Character card other than [Uta] with a cost of 3 or less from your trash to your hand.",
+      "it": "[On Play] Aggiungi fino a 1 carta Personaggio rossa diversa da [Uta] con un costo pari o inferiore a 3 dal tuo Trash alla tua mano."
+    },
     "trigger": null,
     "setName": "Card Set(s)GIFT COLLECTION 2023 [GC 01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-005_p2.png",
@@ -694,7 +706,10 @@
     "family": [
       "Land of Wano"
     ],
-    "effect": "[On Play] Give up to 1 of your opponent's Characters −2000 power during this turn.",
+    "effect": {
+      "en": "[On Play] Give up to 1 of your opponent's Characters −2000 power during this turn.",
+      "it": "[On Play] Dai −2000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "Card Set(s)Japanese 1st Anniversary Set",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-006_p1.png",
@@ -728,7 +743,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] You may add 1 card from the top of your Life cards to your hand: This Character gains +2000 power during this turn. Then, give this Character up to 2 rested DON!! cards.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] You may add 1 card from the top of your Life cards to your hand: This Character gains +2000 power during this turn. Then, give this Character up to 2 rested DON!! cards.",
+      "it": "[Activate: Main] [Once Per Turn] Puoi add 1 card from the top of your carte Life alla tua mano: Questo Personaggio guadagna +2000 power durante questo turno. Quindi, Assegna fino a 2 carte DON!! in stato spossato a questo Personaggio."
+    },
     "trigger": null,
     "setName": "Card Set(s)Premium Card Collection  25th Edition-",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-013_p2.png",
@@ -763,7 +781,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] You may add 1 card from the top of your Life cards to your hand: This Character gains +2000 power during this turn. Then, give this Character up to 2 rested DON!! cards.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] You may add 1 card from the top of your Life cards to your hand: This Character gains +2000 power during this turn. Then, give this Character up to 2 rested DON!! cards.",
+      "it": "[Activate: Main] [Once Per Turn] Puoi add 1 card from the top of your carte Life alla tua mano: Questo Personaggio guadagna +2000 power durante questo turno. Quindi, Assegna fino a 2 carte DON!! in stato spossato a questo Personaggio."
+    },
     "trigger": null,
     "setName": "Card Set(s)GIFT COLLECTION 2023 [GC 01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-013_p3.png",
@@ -798,7 +819,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] You may add 1 card from your Life area to your hand: This Character gains +2000 power during this turn. Then, give this Character up to 2 rested DON!! cards.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] You may add 1 card from your Life area to your hand: This Character gains +2000 power during this turn. Then, give this Character up to 2 rested DON!! cards.",
+      "it": "[Activate: Main] [Once Per Turn] Puoi aggiungere 1 carta dal tuo area Life alla tua mano: Questo Personaggio guadagna +2000 power durante questo turno. Quindi, dai a questo personaggio fino a 2 in stato spossato carte DON!! ."
+    },
     "trigger": null,
     "setName": "Card Set(s)English Version 1st Anniversary Set",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-013_p4.png",
@@ -834,7 +858,10 @@
       "Fish-Man",
       "Straw Hat Crew"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x1] [On Block] Play up to 1 red Character card with a cost of 2 or less from your hand.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x1] [On Block] Play up to 1 red Character card with a cost of 2 or less from your hand.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[DON!! x1] [On Block] Gioca fino a 1 carta Personaggio rossa con un costo pari o inferiore a 2 dalla tua mano."
+    },
     "trigger": null,
     "setName": "Card Set(s)Premium Card Collection  FILM RED Edition-",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-014_p1.png",
@@ -870,7 +897,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Straw Hat Crew} diversa da [Nami] e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "Card Set(s)Premium Card Collection  25th Edition-",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-016_p2.png",
@@ -904,7 +934,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Straw Hat Crew} diversa da [Nami] e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "Card Set(s)GIFT COLLECTION 2023 [GC 01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-016_p5.png",
@@ -938,7 +971,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Straw Hat Crew} diversa da [Nami] e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "Card Set(s)English Version 1st Anniversary Set",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-016_p7.png",
@@ -972,7 +1008,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x1] [When Attacking] K.O. up to 1 of your opponent's Characters with 3000 power or less.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] K.O. up to 1 of your opponent's Characters with 3000 power or less.",
+      "it": "[DON!! x1] [When Attacking] K. O. fino a 1 dei personaggi del tuo avversario con 3000 power o meno."
+    },
     "trigger": null,
     "setName": "Card Set(s)Premium Card Collection  FILM RED Edition-",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-017_p1.png",
@@ -1007,7 +1046,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x1] [When Attacking] K.O. up to 1 of your opponent's Characters with 3000 power or less.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] K.O. up to 1 of your opponent's Characters with 3000 power or less.",
+      "it": "[DON!! x1] [When Attacking] K. O. fino a 1 dei personaggi del tuo avversario con 3000 power o meno."
+    },
     "trigger": null,
     "setName": "Card Set(s)English Version 1st Anniversary Set",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-017_p2.png",
@@ -1042,7 +1084,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x1] This Character can also attack your opponent's active Characters.",
+    "effect": {
+      "en": "[DON!! x1] This Character can also attack your opponent's active Characters.",
+      "it": "[DON!! x1] Questo personaggio può anche attaccare i personaggi attivi del tuo avversario."
+    },
     "trigger": null,
     "setName": "Card Set(s)Premium Card Collection  FILM RED Edition-",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-021_p1.png",
@@ -1076,7 +1121,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x1] This Character can also attack your opponent's active Characters.",
+    "effect": {
+      "en": "[DON!! x1] This Character can also attack your opponent's active Characters.",
+      "it": "[DON!! x1] Questo personaggio può anche attaccare i personaggi attivi del tuo avversario."
+    },
     "trigger": null,
     "setName": "Card Set(s)GIFT COLLECTION 2023 [GC 01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-021_p3.png",
@@ -1110,7 +1158,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x1] [When Attacking] Give up to 2 of your opponent's Characters －2000 power during this turn.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] Give up to 2 of your opponent's Characters －2000 power during this turn.",
+      "it": "[DON!! x1] [When Attacking] Consegna fino a 2 personaggi del tuo avversario －2000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "Card Set(s)Premium Card Collection  25th Edition-",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-022_p1.png",
@@ -1146,7 +1197,10 @@
       "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "[Rush] (This card can attack on the turn in which it is played.)",
+    "effect": {
+      "en": "[Rush] (This card can attack on the turn in which it is played.)",
+      "it": "[Rush] (Questa carta può attaccare nel turno in cui viene giocata.)"
+    },
     "trigger": null,
     "setName": "Card Set(s)English Version 1st Anniversary Set",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-025_p3.png",
@@ -1180,7 +1234,10 @@
     "family": [
       "Windmill Village"
     ],
-    "effect": "[Activate: Main] You may rest this Character: Up to 1 of your red Characters with a cost of 1 gains +3000 power during this turn.",
+    "effect": {
+      "en": "[Activate: Main] You may rest this Character: Up to 1 of your red Characters with a cost of 1 gains +3000 power during this turn.",
+      "it": "[Activate: Main] Puoi mettere in stato spossato questo Personaggio: Fino a 1 dei tuoi rosse Personaggi with a cost of 1 guadagna +3000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "Card Set(s)Japanese 1st Anniversary Set",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-015_p1.png",
@@ -1216,7 +1273,10 @@
       "The Seven Warlords of the Sea",
       "Kuja Pirates"
     ],
-    "effect": "[When Attacking] Draw 1 card and trash 1 card from your hand. Then, trash up to 3 cards from your hand.",
+    "effect": {
+      "en": "[When Attacking] Draw 1 card and trash 1 card from your hand. Then, trash up to 3 cards from your hand.",
+      "it": "[When Attacking] Pesca 1 carta e Manda nel Trash 1 carta dalla tua mano. Poi, Manda nel Trash fino a 3 carte dalla tua mano."
+    },
     "trigger": null,
     "setName": "Card Set(s)GIFT COLLECTION 2023 [GC 01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-059_p2.png",
@@ -1250,7 +1310,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "When this Leader attacks or is attacked, you may trash any number of Event or Stage cards from your hand. This Leader gains +1000 power during this battle for every card trashed.",
+    "effect": {
+      "en": "When this Leader attacks or is attacked, you may trash any number of Event or Stage cards from your hand. This Leader gains +1000 power during this battle for every card trashed.",
+      "it": "Quando questo Leader attacca o viene attaccato, Puoi mandare nel Trash un qualsiasi numero di carte Evento o Fase dalla tua mano. Questo Leader guadagna +1000 power durante questa battaglia per ogni carta eliminata."
+    },
     "trigger": null,
     "setName": "Card Set(s)Special Goods Set  Ace/Sabo/Luffy-",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-001_p2.png",
@@ -1281,7 +1344,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[Your Turn] [On Play] K.O. up to 1 of your opponent's Characters with 3000 power or less.[On K.O.] You may trash 1 Event from your hand: You may play this Character card from your trash rested.",
+    "effect": {
+      "en": "[Your Turn] [On Play] K.O. up to 1 of your opponent's Characters with 3000 power or less.[On K.O.] You may trash 1 Event from your hand: You may play this Character card from your trash rested.",
+      "it": "[Your Turn] [On Play] K. O. fino a 1 dei personaggi del tuo avversario con 3000 power o meno. [On K.O.] Puoi mandare nel Trash 1 Evento dalla tua mano: puoi giocare questa carta Personaggio dal tuo Trash in stato spossato."
+    },
     "trigger": null,
     "setName": "Card Set(s)Japanese 1st Anniversary Set",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-013_p2.png",
@@ -1317,7 +1383,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[When Attacking] Trash up to 1 of your opponent's Characters with a cost of 2 or less. Then, place any number of Character cards with a cost of 4 or more from your trash at the bottom of your deck in any order. This Character gains +1000 power during this turn for every 3 cards placed at the bottom of your deck.",
+    "effect": {
+      "en": "[When Attacking] Trash up to 1 of your opponent's Characters with a cost of 2 or less. Then, place any number of Character cards with a cost of 4 or more from your trash at the bottom of your deck in any order. This Character gains +1000 power during this turn for every 3 cards placed at the bottom of your deck.",
+      "it": "[When Attacking] Manda nel Trash fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 2. Quindi, posiziona un qualsiasi numero di carte Personaggio con un costo pari o superiore a 4 dal tuo Trash in fondo al tuo mazzo in qualsiasi ordine. Questo Personaggio guadagna +1000 power durante questo turno per ogni 3 carte messe in fondo al tuo mazzo."
+    },
     "trigger": null,
     "setName": "Card Set(s)Offline Regional Finalist Card Set 2024 Vol. 3",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-091_p1.png",
@@ -1352,7 +1421,10 @@
       "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x2] This Character gains [Rush].(This card can attack on the turn in which it is played.)",
+    "effect": {
+      "en": "[DON!! x2] This Character gains [Rush].(This card can attack on the turn in which it is played.)",
+      "it": "[DON!! x2] Questo personaggio guadagna [Rush]. (Questa carta può attaccare nel turno in cui viene giocata.)"
+    },
     "trigger": null,
     "setName": "Card Set(s)Premium Card Collection  25th Edition-",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-001_p3.png",
@@ -1388,7 +1460,10 @@
       "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x2] This Character gains [Rush].(This card can attack on the turn in which it is played.)",
+    "effect": {
+      "en": "[DON!! x2] This Character gains [Rush].(This card can attack on the turn in which it is played.)",
+      "it": "[DON!! x2] Questo personaggio guadagna [Rush]. (Questa carta può attaccare nel turno in cui viene giocata.)"
+    },
     "trigger": null,
     "setName": "Card Set(s)GIFT COLLECTION 2023 [GC 01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-001_p4.png",
@@ -1489,7 +1564,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[Double Attack] (This card deals 2 damage.)",
+    "effect": {
+      "en": "[Double Attack] (This card deals 2 damage.)",
+      "it": "[Double Attack] (Questa carta infligge 2 danni.)"
+    },
     "trigger": null,
     "setName": "Card Set(s)GIFT COLLECTION 2023 [GC 01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/P-028_p1.png",
@@ -1523,7 +1601,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x2] [When Attacking] Your opponent cannot activate a [Blocker] Character that has 5000 or more power during this battle.",
+    "effect": {
+      "en": "[DON!! x2] [When Attacking] Your opponent cannot activate a [Blocker] Character that has 5000 or more power during this battle.",
+      "it": "[DON!! x2] [When Attacking] Il tuo avversario non può attivare un personaggio [Blocker] che abbia 5000 o più power durante questa battaglia."
+    },
     "trigger": "Trigger[Trigger] Play this card.",
     "setName": "Card Set(s)Premium Card Collection  FILM RED Edition-",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-002_p1.png",
@@ -1559,7 +1640,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x2] [When Attacking] Your opponent cannot activate a [Blocker] Character that has 5000 or more power during this battle.",
+    "effect": {
+      "en": "[DON!! x2] [When Attacking] Your opponent cannot activate a [Blocker] Character that has 5000 or more power during this battle.",
+      "it": "[DON!! x2] [When Attacking] Il tuo avversario non può attivare un personaggio [Blocker] che abbia 5000 o più power durante questa battaglia."
+    },
     "trigger": "Trigger[Trigger] Play this card.",
     "setName": "Card Set(s)Premium Card Collection  25th Edition-",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-002_p2.png",
@@ -1595,7 +1679,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x2] This Character gains [Rush].(This card can attack on the turn in which it is played.)",
+    "effect": {
+      "en": "[DON!! x2] This Character gains [Rush].(This card can attack on the turn in which it is played.)",
+      "it": "[DON!! x2] Questo personaggio guadagna [Rush]. (Questa carta può attaccare nel turno in cui viene giocata.)"
+    },
     "trigger": null,
     "setName": "Card Set(s)Premium Card Collection  FILM RED Edition-",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-004_p2.png",
@@ -1631,7 +1718,10 @@
       "Fish-Man",
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x1] [When Attacking] Up to 1 of your Leader or Character cards other than this card gains +1000 power during this turn.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] Up to 1 of your Leader or Character cards other than this card gains +1000 power during this turn.",
+      "it": "[DON!! x1] [When Attacking] Fino a 1 delle tue carte Leader o Personaggio diversa da questa carta guadagna +1000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "Card Set(s)Premium Card Collection  25th Edition-",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-005_p1.png",
@@ -1667,7 +1757,10 @@
       "Fish-Man",
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x1] [When Attacking] Up to 1 of your Leader or Character cards other than this card gains +1000 power during this turn.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] Up to 1 of your Leader or Character cards other than this card gains +1000 power during this turn.",
+      "it": "[DON!! x1] [When Attacking] Fino a 1 delle tue carte Leader o Personaggio diversa da questa carta guadagna +1000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "Card Set(s)GIFT COLLECTION 2023 [GC 01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-005_p2.png",
@@ -1703,7 +1796,10 @@
       "Animal",
       "Straw Hat Crew"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "Card Set(s)Premium Card Collection  FILM RED Edition-",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-006_p1.png",
@@ -1738,7 +1834,10 @@
       "Animal",
       "Straw Hat Crew"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "Card Set(s)Premium Card Collection  25th Edition-",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-006_p2.png",
@@ -1773,7 +1872,10 @@
       "Animal",
       "Straw Hat Crew"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "Card Set(s)GIFT COLLECTION 2023 [GC 01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-006_p3.png",
@@ -1808,7 +1910,10 @@
       "Animal",
       "Straw Hat Crew"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "Card Set(s)English Version 1st Anniversary Set",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-006_p4.png",
@@ -1842,7 +1947,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+      "it": "[Activate: Main] [Once Per Turn] Assegna fino a 1 carta DON!! in stato spossato al tuo Leader o a 1 dei tuoi Personaggi."
+    },
     "trigger": null,
     "setName": "Card Set(s)Premium Card Collection  FILM RED Edition-",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-007_p1.png",
@@ -2001,7 +2109,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
+    "effect": {
+      "en": "[On Play] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
+      "it": "[On Play] Assegna fino a 2 carte DON!! in stato spossato al tuo Leader o a 1 dei tuoi Personaggi."
+    },
     "trigger": null,
     "setName": "Card Set(s)Premium Card Collection  FILM RED Edition-",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-011_p1.png",
@@ -2035,7 +2146,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
+    "effect": {
+      "en": "[On Play] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
+      "it": "[On Play] Assegna fino a 2 carte DON!! in stato spossato al tuo Leader o a 1 dei tuoi Personaggi."
+    },
     "trigger": null,
     "setName": "Card Set(s)English Version 1st Anniversary Set",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-011_p3.png",
@@ -2070,7 +2184,10 @@
       "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x1] This Character gains +1000 power.",
+    "effect": {
+      "en": "[DON!! x1] This Character gains +1000 power.",
+      "it": "[DON!! x1] Questo Personaggio guadagna +1000 power."
+    },
     "trigger": null,
     "setName": "Card Set(s)Premium Card Collection  FILM RED Edition-",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-013_p1.png",
@@ -2105,7 +2222,10 @@
       "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x1] This Character gains +1000 power.",
+    "effect": {
+      "en": "[DON!! x1] This Character gains +1000 power.",
+      "it": "[DON!! x1] Questo Personaggio guadagna +1000 power."
+    },
     "trigger": null,
     "setName": "Card Set(s)GIFT COLLECTION 2023 [GC 01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-013_p2.png",
@@ -2140,7 +2260,10 @@
       "The Seven Warlords of the Sea",
       "Heart Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "Card Set(s)GIFT COLLECTION 2023 [GC 01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-008_p1.png",
@@ -2174,7 +2297,10 @@
     "family": [
       "Land of Wano"
     ],
-    "effect": "[When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: This Character gains +2000 power until the start of your next turn.",
+    "effect": {
+      "en": "[When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: This Character gains +2000 power until the start of your next turn.",
+      "it": "[When Attacking] Puoi aggiungere 1 carta dalla cima o dal fondo delle tue carte Life alla tua mano: Questo Personaggio guadagna +2000 power fino all'inizio del tuo prossimo turno."
+    },
     "trigger": null,
     "setName": "Card Set(s)GIFT COLLECTION 2023 [GC 01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST09-012_p1.png",
@@ -2209,7 +2335,10 @@
       "Fish-Man",
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −2000 power during this turn.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −2000 power during this turn.",
+      "it": "[DON!! x1] [When Attacking] Dai −2000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "Card Set(s)English Version 1st Anniversary Set",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-005_p1.png",
@@ -2244,7 +2373,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Rush] (This card can attack on the turn in which it is played.)[Once Per Turn] When your opponent activates a [Blocker], K.O. up to 1 of your opponent's Characters with 8000 power or less.",
+    "effect": {
+      "en": "[Rush] (This card can attack on the turn in which it is played.)[Once Per Turn] When your opponent activates a [Blocker], K.O. up to 1 of your opponent's Characters with 8000 power or less.",
+      "it": "[Rush] (Questa carta può attaccare nel turno in cui viene giocata.)[Once Per Turn] Quando il tuo avversario attiva [Blocker], K. O. fino a 1 dei personaggi del tuo avversario con 8000 power o meno."
+    },
     "trigger": null,
     "setName": "Card Set(s)English Version 1st Anniversary Set",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST10-006_p2.png",

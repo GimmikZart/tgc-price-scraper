@@ -95,7 +95,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[On Play] Give up to 2 of your opponent's Characters −3000 power during this turn. Then, if your Leader's type includes \"Whitebeard Pirates\", this Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+    "effect": {
+      "en": "[On Play] Give up to 2 of your opponent's Characters −3000 power during this turn. Then, if your Leader's type includes \"Whitebeard Pirates\", this Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+      "it": "[On Play] Dai −3000 power a un massimo di 2 Personaggi del tuo avversario durante questo turno. Poi, se il tipo del tuo Leader include \"Pirati di Barbabianca\", questo Personaggio guadagna [Rush] durante questo turno. (Questa carta può attaccare nel turno in cui viene giocata.)"
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-013_p3.png",
@@ -130,7 +133,10 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 [Sanji] or {Big Mom Pirates} type card other than [Charlotte Pudding] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 [Sanji] or {Big Mom Pirates} type card other than [Charlotte Pudding] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 4 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo [Sanji] o {Big Mom Pirates} diversa da [Charlotte Pudding] e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-112_p4.png",
@@ -166,7 +172,10 @@
       "Egghead",
       "Straw Hat Crew"
     ],
-    "effect": "[Activate: Main] You may trash this Character: If you have 2 or less Life cards, K.O. up to 1 of your opponent's Characters with a cost of 4 or less. Then, draw 1 card.",
+    "effect": {
+      "en": "[Activate: Main] You may trash this Character: If you have 2 or less Life cards, K.O. up to 1 of your opponent's Characters with a cost of 4 or less. Then, draw 1 card.",
+      "it": "[Activate: Main] Puoi mandare nel Trash questo Personaggio: Se hai 2 o meno carte Life, K. O. fino a 1 dei Personaggi del tuo avversario con un costo pari o inferiore a 4. Poi pesca 1 carta."
+    },
     "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-109_p2.png",
@@ -203,7 +212,10 @@
       "Drum Kingdom",
       "Straw Hat Crew"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] Give up to 3 of your {Animal} or {Drum Kingdom} type Characters up to 1 rested DON!! card each.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] Give up to 3 of your {Animal} or {Drum Kingdom} type Characters up to 1 rested DON!! card each.",
+      "it": "[Activate: Main] [Once Per Turn] Dai fino a 3 caratteri del tuo tipo {Animal} o {Drum Kingdom} fino a 1 in stato spossato carta DON!! ciascuno."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-001_p1.png",
@@ -241,7 +253,10 @@
       "Drum Kingdom",
       "Straw Hat Crew"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] Give up to 3 of your {Animal} or {Drum Kingdom} type Characters up to 1 rested DON!! card each.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] Give up to 3 of your {Animal} or {Drum Kingdom} type Characters up to 1 rested DON!! card each.",
+      "it": "[Activate: Main] [Once Per Turn] Dai fino a 3 caratteri del tuo tipo {Animal} o {Drum Kingdom} fino a 1 in stato spossato carta DON!! ciascuno."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-001.png",
@@ -276,7 +291,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] Draw 1 card and place 1 card from your hand at the top or bottom of your deck. Then, give up to 1 of your opponent's Characters −2000 power during this turn.",
+    "effect": {
+      "en": "[DON!! x1] [Activate: Main] [Once Per Turn] Draw 1 card and place 1 card from your hand at the top or bottom of your deck. Then, give up to 1 of your opponent's Characters −2000 power during this turn.",
+      "it": "[DON!! x1] [Activate: Main] [Once Per Turn] Pesca 1 carta e metti 1 carta dalla tua mano in cima o in fondo al tuo mazzo. Poi, Dai −2000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-002_p1.png",
@@ -313,7 +331,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] Draw 1 card and place 1 card from your hand at the top or bottom of your deck. Then, give up to 1 of your opponent's Characters −2000 power during this turn.",
+    "effect": {
+      "en": "[DON!! x1] [Activate: Main] [Once Per Turn] Draw 1 card and place 1 card from your hand at the top or bottom of your deck. Then, give up to 1 of your opponent's Characters −2000 power during this turn.",
+      "it": "[DON!! x1] [Activate: Main] [Once Per Turn] Pesca 1 carta e metti 1 carta dalla tua mano in cima o in fondo al tuo mazzo. Poi, Dai −2000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-002.png",
@@ -348,7 +369,10 @@
     "family": [
       "Drum Kingdom"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-003.png",
@@ -381,7 +405,10 @@
     "family": [
       "Drum Kingdom"
     ],
-    "effect": "[On Play] If you have [Chess], K.O. up to 1 of your opponent's Characters with 3000 power or less.",
+    "effect": {
+      "en": "[On Play] If you have [Chess], K.O. up to 1 of your opponent's Characters with 3000 power or less.",
+      "it": "[On Play] Se hai [Chess], K. O. fino a 1 dei personaggi del tuo avversario con 3000 power o meno."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-004.png",
@@ -414,7 +441,10 @@
     "family": [
       "Drum Kingdom"
     ],
-    "effect": "[On Play] Give up to 1 of your opponent's Characters −2000 power during this turn. Then, if you don't have [Kuromarimo], play up to 1 [Kuromarimo] from your hand.",
+    "effect": {
+      "en": "[On Play] Give up to 1 of your opponent's Characters −2000 power during this turn. Then, if you don't have [Kuromarimo], play up to 1 [Kuromarimo] from your hand.",
+      "it": "[On Play] Dai −2000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno. Poi, se non hai [Kuromarimo], gioca fino a 1 [Kuromarimo] dalla tua mano."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-005.png",
@@ -447,7 +477,10 @@
     "family": [
       "Drum Kingdom"
     ],
-    "effect": "[Your Turn] If you have [Kuromarimo] and [Chess] in your trash, this Character gains +2000 power.",
+    "effect": {
+      "en": "[Your Turn] If you have [Kuromarimo] and [Chess] in your trash, this Character gains +2000 power.",
+      "it": "[Your Turn] Se hai [Kuromarimo] e [Chess] nel tuo Trash, Questo Personaggio guadagna +2000 power."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-006.png",
@@ -482,7 +515,10 @@
       "Drum Kingdom",
       "Straw Hat Crew"
     ],
-    "effect": "[Your Turn] [On Play]/[When Attacking] Look at 5 cards from the top of your deck and play up to 1 {Animal} type Character card with 4000 power or less rested. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[Your Turn] [On Play]/[When Attacking] Look at 5 cards from the top of your deck and play up to 1 {Animal} type Character card with 4000 power or less rested. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[Your Turn] [On Play]/[When Attacking] Guarda 5 carte dalla cima del tuo mazzo e gioca fino a 1 carta Personaggio di tipo {Animal} con 4000 power o meno in stato spossato. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-007_p1.png",
@@ -520,7 +556,10 @@
       "Drum Kingdom",
       "Straw Hat Crew"
     ],
-    "effect": "[Your Turn] [On Play]/[When Attacking] Look at 5 cards from the top of your deck and play up to 1 {Animal} type Character card with 4000 power or less rested. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[Your Turn] [On Play]/[When Attacking] Look at 5 cards from the top of your deck and play up to 1 {Animal} type Character card with 4000 power or less rested. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[Your Turn] [On Play]/[When Attacking] Guarda 5 carte dalla cima del tuo mazzo e gioca fino a 1 carta Personaggio di tipo {Animal} con 4000 power o meno in stato spossato. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-007.png",
@@ -555,7 +594,10 @@
     "family": [
       "Drum Kingdom"
     ],
-    "effect": "[On Play] Give up to 1 of your opponent's Characters −1000 power during this turn.[DON!! x1] [Activate: Main] [Once Per Turn] You may add 1 card from the top of your Life cards to your hand: This Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+    "effect": {
+      "en": "[On Play] Give up to 1 of your opponent's Characters −1000 power during this turn.[DON!! x1] [Activate: Main] [Once Per Turn] You may add 1 card from the top of your Life cards to your hand: This Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+      "it": "[On Play] Dai −1000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno. [DON!! x1] [Activate: Main] [Once Per Turn] Puoi aggiungere 1 carta dalla cima delle tue carte Life alla tua mano: questo personaggio guadagna [Rush] durante questo turno. (Questa carta può attaccare nel turno in cui viene giocata.)"
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-008.png",
@@ -623,7 +665,10 @@
       "Animal",
       "Drum Kingdom"
     ],
-    "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] Up to 1 of your {Animal} type Characters other than this Character gains +1000 power during this turn.",
+    "effect": {
+      "en": "[DON!! x1] [Activate: Main] [Once Per Turn] Up to 1 of your {Animal} type Characters other than this Character gains +1000 power during this turn.",
+      "it": "[DON!! x1] [Activate: Main] [Once Per Turn] Fino a 1 dei tuoi personaggi di tipo {Animal} diverso da Questo Personaggio guadagna +1000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-010.png",
@@ -690,7 +735,10 @@
       "Animal",
       "Drum Kingdom"
     ],
-    "effect": "[DON!! x2] [When Attacking] If your Leader has the {Drum Kingdom} type, K.O. up to 1 of your opponent's Characters with 4000 power or less.",
+    "effect": {
+      "en": "[DON!! x2] [When Attacking] If your Leader has the {Drum Kingdom} type, K.O. up to 1 of your opponent's Characters with 4000 power or less.",
+      "it": "[DON!! x2] [When Attacking] Se il tuo Leader è del tipo {Drum Kingdom}, K. O. fino a 1 dei personaggi del tuo avversario con 4000 power o meno."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-012.png",
@@ -725,7 +773,10 @@
       "Animal",
       "Drum Kingdom"
     ],
-    "effect": "[DON!! x2] This Character gains [Rush].(This card can attack on the turn in which it is played.)",
+    "effect": {
+      "en": "[DON!! x2] This Character gains [Rush].(This card can attack on the turn in which it is played.)",
+      "it": "[DON!! x2] Questo personaggio guadagna [Rush]. (Questa carta può attaccare nel turno in cui viene giocata.)"
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-013.png",
@@ -759,7 +810,10 @@
     "family": [
       "Drum Kingdom"
     ],
-    "effect": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −2000 power during this turn. Then, this Character gains +2000 power until the end of your opponent's next turn.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −2000 power during this turn. Then, this Character gains +2000 power until the end of your opponent's next turn.",
+      "it": "[DON!! x1] [When Attacking] Dai −2000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno. Poi, Questo Personaggio guadagna +2000 power fino alla fine del turno successivo del tuo avversario."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-014.png",
@@ -793,7 +847,10 @@
     "family": [
       "Drum Kingdom"
     ],
-    "effect": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 [Tony Tony.Chopper] or {Drum Kingdom} type card other than [Dr.Kureha] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 [Tony Tony.Chopper] or {Drum Kingdom} type card other than [Dr.Kureha] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 4 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo [Tony Tony.Chopper] o {Drum Kingdom} diversa da [Dr.Kureha] e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-015_p1.png",
@@ -827,7 +884,10 @@
     "family": [
       "Drum Kingdom"
     ],
-    "effect": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 [Tony Tony.Chopper] or {Drum Kingdom} type card other than [Dr.Kureha] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 [Tony Tony.Chopper] or {Drum Kingdom} type card other than [Dr.Kureha] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 4 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo [Tony Tony.Chopper] o {Drum Kingdom} diversa da [Dr.Kureha] e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-015.png",
@@ -860,7 +920,10 @@
     "family": [
       "Drum Kingdom"
     ],
-    "effect": "[Activate: Main] You may rest this Character: If your Leader is [Tony Tony.Chopper], all of your [Tony Tony.Chopper] Characters gain +2000 power during this turn.",
+    "effect": {
+      "en": "[Activate: Main] You may rest this Character: If your Leader is [Tony Tony.Chopper], all of your [Tony Tony.Chopper] Characters gain +2000 power during this turn.",
+      "it": "[Activate: Main] Puoi mettere in stato spossato questo Personaggio: Se il tuo Leader è [Tony Tony.Chopper], all of your [Tony Tony.Chopper] Personaggi gain +2000 power during this turn."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-016.png",
@@ -893,7 +956,10 @@
     "family": [
       "Drum Kingdom"
     ],
-    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, give up to 1 of your opponent's Leader or Character cards −1000 power during this turn.",
+    "effect": {
+      "en": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, give up to 1 of your opponent's Leader or Character cards −1000 power during this turn.",
+      "it": "[Counter] Fino a 1 delle tue carte Leader o Personaggio ottiene +4000 power durante questa battaglia. Poi, Dai −1000 power a un massimo di 1 carta Leader o Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": "Trigger[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-017.png",
@@ -928,7 +994,10 @@
       "Drum Kingdom",
       "Straw Hat Crew"
     ],
-    "effect": "[Main] Up to 3 of your Characters gain +1000 power during this turn. Then, give up to 1 of your opponent's Characters −2000 power during this turn.",
+    "effect": {
+      "en": "[Main] Up to 3 of your Characters gain +1000 power during this turn. Then, give up to 1 of your opponent's Characters −2000 power during this turn.",
+      "it": "[Main] Fino a 3 dei tuoi personaggi ottengono +1000 power durante questo turno. Poi, Dai −2000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": "Trigger[Trigger] Give up to 1 of your opponent's Leader or Character cards −3000 power during this turn.",
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-018.png",
@@ -961,7 +1030,10 @@
     "family": [
       "Drum Kingdom"
     ],
-    "effect": "[Main]/[Counter] Give up to 1 of your opponent's Characters −3000 power during this turn. Then, up to 1 of your Characters gains +3000 power during this turn.",
+    "effect": {
+      "en": "[Main]/[Counter] Give up to 1 of your opponent's Characters −3000 power during this turn. Then, up to 1 of your Characters gains +3000 power during this turn.",
+      "it": "[Main]/[Counter] Dai −3000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno. Quindi, fino a 1 dei tuoi personaggi guadagna +3000 power durante questo turno."
+    },
     "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with 5000 power or less.",
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-019.png",
@@ -995,7 +1067,10 @@
     "family": [
       "Drum Kingdom"
     ],
-    "effect": "[Opponent's Turn] All of your {Drum Kingdom} type Characters gain +1000 power.",
+    "effect": {
+      "en": "[Opponent's Turn] All of your {Drum Kingdom} type Characters gain +1000 power.",
+      "it": "[Opponent's Turn] Tutti i tuoi personaggi di tipo {Drum Kingdom} ottengono +1000 power."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-020.png",
@@ -1028,7 +1103,10 @@
     "family": [
       "Minks"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] If you have a {Minks} type Character, rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] If you have a {Minks} type Character, rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+      "it": "[Activate: Main] [Once Per Turn] Se hai a {Minks} tipo Personaggio, metti in stato spossato fino a 1 of your opponent's Personaggi with a cost of 5 or less."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-021_p1.png",
@@ -1063,7 +1141,10 @@
     "family": [
       "Minks"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] If you have a {Minks} type Character, rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] If you have a {Minks} type Character, rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+      "it": "[Activate: Main] [Once Per Turn] Se hai a {Minks} tipo Personaggio, metti in stato spossato fino a 1 of your opponent's Personaggi with a cost of 5 or less."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-021.png",
@@ -1098,7 +1179,10 @@
       "Minks",
       "The Akazaya Nine"
     ],
-    "effect": "[On Play] If your Leader has the {Minks} type, up to 2 of your opponent's rested Characters with a cost of 5 or less will not become active in your opponent's next Refresh Phase.",
+    "effect": {
+      "en": "[On Play] If your Leader has the {Minks} type, up to 2 of your opponent's rested Characters with a cost of 5 or less will not become active in your opponent's next Refresh Phase.",
+      "it": "[On Play] Se il tuo Leader ha il tipo {Minks}, fino a 2 personaggi in stato spossato del tuo avversario con un costo pari o inferiore a 5 non diventeranno attivi nella successiva Fase di Aggiornamento del tuo avversario."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-022.png",
@@ -1131,7 +1215,10 @@
     "family": [
       "Minks"
     ],
-    "effect": "[On Play]/[When Attacking] Up to 1 of your opponent's rested Characters with a cost of 7 or less will not become active in your opponent's next Refresh Phase.",
+    "effect": {
+      "en": "[On Play]/[When Attacking] Up to 1 of your opponent's rested Characters with a cost of 7 or less will not become active in your opponent's next Refresh Phase.",
+      "it": "[On Play]/[When Attacking] Fino a 1 dei personaggi in stato spossato del tuo avversario con un costo pari o inferiore a 7 non diventerà attivo nella successiva fase di aggiornamento del tuo avversario."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-023_p1.png",
@@ -1166,7 +1253,10 @@
     "family": [
       "Minks"
     ],
-    "effect": "[On Play]/[When Attacking] Up to 1 of your opponent's rested Characters with a cost of 7 or less will not become active in your opponent's next Refresh Phase.",
+    "effect": {
+      "en": "[On Play]/[When Attacking] Up to 1 of your opponent's rested Characters with a cost of 7 or less will not become active in your opponent's next Refresh Phase.",
+      "it": "[On Play]/[When Attacking] Fino a 1 dei personaggi in stato spossato del tuo avversario con un costo pari o inferiore a 7 non diventerà attivo nella successiva fase di aggiornamento del tuo avversario."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-023.png",
@@ -1200,7 +1290,10 @@
     "family": [
       "Minks"
     ],
-    "effect": "[When Attacking] Up to 1 of your opponent's rested Characters with a cost of 4 or less will not become active in your opponent's next Refresh Phase.",
+    "effect": {
+      "en": "[When Attacking] Up to 1 of your opponent's rested Characters with a cost of 4 or less will not become active in your opponent's next Refresh Phase.",
+      "it": "[When Attacking] Fino a 1 dei personaggi in stato spossato del tuo avversario con un costo pari o inferiore a 4 non diventerà attivo nella successiva fase di aggiornamento del tuo avversario."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-024.png",
@@ -1233,7 +1326,10 @@
     "family": [
       "Minks"
     ],
-    "effect": "[On Play] Up to 1 of your opponent's rested Characters with a cost of 3 or less will not become active in your opponent's next Refresh Phase.",
+    "effect": {
+      "en": "[On Play] Up to 1 of your opponent's rested Characters with a cost of 3 or less will not become active in your opponent's next Refresh Phase.",
+      "it": "[On Play] Fino a 1 dei personaggi in stato spossato del tuo avversario con un costo pari o inferiore a 3 non diventerà attivo nella successiva fase di aggiornamento del tuo avversario."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-025.png",
@@ -1266,7 +1362,10 @@
     "family": [
       "Minks"
     ],
-    "effect": "[DON!! x1] [When Attacking] Up to 1 of your opponent's rested Characters with a cost of 1 or less will not become active in your opponent's next Refresh Phase.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] Up to 1 of your opponent's rested Characters with a cost of 1 or less will not become active in your opponent's next Refresh Phase.",
+      "it": "[DON!! x1] [When Attacking] Fino a 1 dei personaggi in stato spossato del tuo avversario con un costo pari o inferiore a 1 non diventerà attivo nella successiva fase di aggiornamento del tuo avversario."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-026.png",
@@ -1331,7 +1430,10 @@
       "Minks",
       "The Akazaya Nine"
     ],
-    "effect": "[On Play] If your opponent has 7 or more rested cards, this Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+    "effect": {
+      "en": "[On Play] If your opponent has 7 or more rested cards, this Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+      "it": "[On Play] Se il tuo avversario ha 7 o più carte in stato spossato, questo personaggio guadagna [Rush] durante questo turno. (Questa carta può attaccare nel turno in cui viene giocata.)"
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-028.png",
@@ -1366,7 +1468,10 @@
       "Minks",
       "Big Mom Pirates"
     ],
-    "effect": "If this Character is active, your {Minks} type Characters with a cost of 3 or less other than [Pekoms] cannot be K.O.'d by effects.",
+    "effect": {
+      "en": "If this Character is active, your {Minks} type Characters with a cost of 3 or less other than [Pekoms] cannot be K.O.'d by effects.",
+      "it": "Se questo personaggio è attivo, i tuoi personaggi di tipo {Minks} con un costo pari o inferiore a 3 diversi da [Pekoms] non possono essere colpiti da effetti K. O. ."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-029.png",
@@ -1396,7 +1501,10 @@
     "family": [
       "Minks"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] Choose one:• Rest up to 1 of your opponent's DON!! cards.• K.O. up to 1 of your opponent's rested Characters with a cost of 6 or less.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] Choose one:• Rest up to 1 of your opponent's DON!! cards.• K.O. up to 1 of your opponent's rested Characters with a cost of 6 or less.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On K.O.] Scegli uno: • metti in stato spossato fino a 1 delle carte DON!! del tuo avversario.• K. O. fino a 1 dei personaggi in stato spossato del tuo avversario con un costo pari o inferiore a 6."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-030_p1.png",
@@ -1431,7 +1539,10 @@
     "family": [
       "Minks"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] Choose one:• Rest up to 1 of your opponent's DON!! cards.• K.O. up to 1 of your opponent's rested Characters with a cost of 6 or less.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] Choose one:• Rest up to 1 of your opponent's DON!! cards.• K.O. up to 1 of your opponent's rested Characters with a cost of 6 or less.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On K.O.] Scegli uno: • metti in stato spossato fino a 1 delle carte DON!! del tuo avversario.• K. O. fino a 1 dei personaggi in stato spossato del tuo avversario con un costo pari o inferiore a 6."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-030.png",
@@ -1465,7 +1576,10 @@
     "family": [
       "Minks"
     ],
-    "effect": "[On Play] Set up to 1 of your {Minks} type Characters with a cost of 2 or less as active.",
+    "effect": {
+      "en": "[On Play] Set up to 1 of your {Minks} type Characters with a cost of 2 or less as active.",
+      "it": "[On Play] Imposta fino a 1 dei tuoi personaggi di tipo {Minks} con un costo pari o inferiore a 2 come attivo."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-031.png",
@@ -1498,7 +1612,10 @@
     "family": [
       "Minks"
     ],
-    "effect": "[Activate: Main] You may rest this Character: If your Leader has the {Minks} type, set up to 1 of your DON!! cards as active.",
+    "effect": {
+      "en": "[Activate: Main] You may rest this Character: If your Leader has the {Minks} type, set up to 1 of your DON!! cards as active.",
+      "it": "[Activate: Main] Puoi mettere in stato spossato questo Personaggio: Se il tuo Leader ha il {Minks} tipo, rendi attive fino a 1 delle tue carte DON!! ."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-032.png",
@@ -1531,7 +1648,10 @@
     "family": [
       "Minks"
     ],
-    "effect": "[On Play] If your Leader has the {Minks} type and your opponent has 7 or more rested cards, K.O. up to 1 of your opponent's rested Characters with a cost of 2 or less.",
+    "effect": {
+      "en": "[On Play] If your Leader has the {Minks} type and your opponent has 7 or more rested cards, K.O. up to 1 of your opponent's rested Characters with a cost of 2 or less.",
+      "it": "[On Play] Se il tuo Leader ha il tipo {Minks} e il tuo avversario ha 7 o più carte in stato spossato, K. O. fino a 1 dei Personaggi in stato spossato del tuo avversario con un costo pari o inferiore a 2."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-033.png",
@@ -1564,7 +1684,10 @@
     "family": [
       "Minks"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Minks} type card other than [Wanda] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Minks} type card other than [Wanda] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Minks} diversa da [Wanda] e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-034.png",
@@ -1627,7 +1750,10 @@
     "family": [
       "Minks"
     ],
-    "effect": "[Main] All of your opponent's rested Characters with a cost of 7 or less will not become active in your opponent's next Refresh Phase.",
+    "effect": {
+      "en": "[Main] All of your opponent's rested Characters with a cost of 7 or less will not become active in your opponent's next Refresh Phase.",
+      "it": "[Main] Tutti i personaggi in stato spossato del tuo avversario con un costo pari o inferiore a 7 non diventeranno attivi nella successiva fase di aggiornamento del tuo avversario."
+    },
     "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters.",
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-036.png",
@@ -1660,7 +1786,10 @@
     "family": [
       "Minks"
     ],
-    "effect": "[Main] You may rest 1 of your {Minks} type Characters: Rest up to 1 of your opponent's Characters.",
+    "effect": {
+      "en": "[Main] You may rest 1 of your {Minks} type Characters: Rest up to 1 of your opponent's Characters.",
+      "it": "[Main] Puoi mettere in stato spossato 1 dei tuoi personaggi di tipo {Minks}: metti in stato spossato fino a 1 dei personaggi del tuo avversario."
+    },
     "trigger": "Trigger[Trigger] Draw 1 card.",
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-037.png",
@@ -1694,7 +1823,10 @@
       "Minks",
       "The Akazaya Nine"
     ],
-    "effect": "[Main] You may rest 2 of your Characters: None of your Characters can be K.O.'d by your opponent's effects until the end of your opponent's next turn.",
+    "effect": {
+      "en": "[Main] You may rest 2 of your Characters: None of your Characters can be K.O.'d by your opponent's effects until the end of your opponent's next turn.",
+      "it": "[Main] Puoi mettere in stato spossato 2 dei tuoi Personaggi: Nessuno dei tuoi Personaggi può essere K. O. dagli effetti del tuo avversario fino alla fine del turno successivo del tuo avversario."
+    },
     "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 3 or less.",
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-038.png",
@@ -1727,7 +1859,10 @@
     "family": [
       "Animal"
     ],
-    "effect": "[Activate: Main] You may rest this Stage: If your Leader has the {Minks} type, set up to 1 of your DON!! cards as active.[End of Your Turn] Set up to 1 of your {Minks} type Characters as active.",
+    "effect": {
+      "en": "[Activate: Main] You may rest this Stage: If your Leader has the {Minks} type, set up to 1 of your DON!! cards as active.[End of Your Turn] Set up to 1 of your {Minks} type Characters as active.",
+      "it": "[Activate: Main] Puoi mettere in stato spossato questa Stage: Se il tuo Leader ha il {Minks} tipo, rendi attive fino a 1 delle tue carte DON!! . [End of Your Turn] rendi attive fino a 1 delle tue {Minks} tipo Personaggi."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-039.png",
@@ -1761,7 +1896,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[On Play] You may reveal 2 cards with a type including \"Whitebeard Pirates\" from your hand: If your Leader's type includes \"Whitebeard Pirates\", return up to 1 of your opponent's Characters with a cost of 4 or less to the owner's hand.",
+    "effect": {
+      "en": "[On Play] You may reveal 2 cards with a type including \"Whitebeard Pirates\" from your hand: If your Leader's type includes \"Whitebeard Pirates\", return up to 1 of your opponent's Characters with a cost of 4 or less to the owner's hand.",
+      "it": "[On Play] Puoi rivelare 2 carte con un tipo che include \"Pirati di Barbabianca\" dalla tua mano: Se il tipo del tuo Leader include \"Pirati di Barbabianca\", fai ritornare fino a 1 dei Personaggi del tuo avversario con un costo pari o inferiore a 4 nella mano del proprietario."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-040.png",
@@ -1794,7 +1932,10 @@
     "family": [
       "Amazon Lily"
     ],
-    "effect": "[Activate: Main] You may return this Character to the owner's hand: If your Leader has the {Kuja Pirates} type, place up to 1 of your opponent's Characters with a cost of 1 or less at the bottom of the owner's deck.",
+    "effect": {
+      "en": "[Activate: Main] You may return this Character to the owner's hand: If your Leader has the {Kuja Pirates} type, place up to 1 of your opponent's Characters with a cost of 1 or less at the bottom of the owner's deck.",
+      "it": "[Activate: Main] Puoi far ritornare questo Personaggio in mano al proprietario: Se il tuo Leader ha il tipo {Kuja Pirates}, posiziona fino a 1 dei Personaggi del tuo avversario con un costo pari o inferiore a 1 in fondo al mazzo del proprietario."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-041.png",
@@ -1827,7 +1968,10 @@
     "family": [
       "The Seven Warlords of the Sea"
     ],
-    "effect": "[DON!! x1] [When Attacking] Return up to 1 Character with a cost of 3 or less to the owner's hand.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] Return up to 1 Character with a cost of 3 or less to the owner's hand.",
+      "it": "[DON!! x1] [When Attacking] Riporta in mano al proprietario fino a 1 personaggio con un costo pari o inferiore a 3."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-042.png",
@@ -1862,7 +2006,10 @@
       "The Four Emperors",
       "Whitebeard Pirates"
     ],
-    "effect": "[On Play] If your Leader's type includes \"Whitebeard Pirates\" and you have 2 or less Life cards, select all of your opponent's Characters on their field. Until the end of your opponent's next turn, none of the selected Characters can attack unless your opponent trashes 2 cards from their hand whenever they attack.",
+    "effect": {
+      "en": "[On Play] If your Leader's type includes \"Whitebeard Pirates\" and you have 2 or less Life cards, select all of your opponent's Characters on their field. Until the end of your opponent's next turn, none of the selected Characters can attack unless your opponent trashes 2 cards from their hand whenever they attack.",
+      "it": "[On Play] Se il tipo del tuo Leader include \"Pirati di Barbabianca\" e hai 2 o meno carte Life, seleziona tutti i personaggi del tuo avversario sul suo campo. Fino alla fine del prossimo turno del tuo avversario, nessuno dei Personaggi selezionati può attaccare a meno che il tuo avversario non celiti 2 carte dalla sua mano ogni volta che attacca."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-043_p1.png",
@@ -1897,7 +2044,10 @@
       "The Four Emperors",
       "Whitebeard Pirates"
     ],
-    "effect": "[On Play] If your Leader's type includes \"Whitebeard Pirates\" and you have 2 or less Life cards, select all of your opponent's Characters on their field. Until the end of your opponent's next turn, none of the selected Characters can attack unless your opponent trashes 2 cards from their hand whenever they attack.",
+    "effect": {
+      "en": "[On Play] If your Leader's type includes \"Whitebeard Pirates\" and you have 2 or less Life cards, select all of your opponent's Characters on their field. Until the end of your opponent's next turn, none of the selected Characters can attack unless your opponent trashes 2 cards from their hand whenever they attack.",
+      "it": "[On Play] Se il tipo del tuo Leader include \"Pirati di Barbabianca\" e hai 2 o meno carte Life, seleziona tutti i personaggi del tuo avversario sul suo campo. Fino alla fine del prossimo turno del tuo avversario, nessuno dei Personaggi selezionati può attaccare a meno che il tuo avversario non celiti 2 carte dalla sua mano ogni volta che attacca."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-043.png",
@@ -1930,7 +2080,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] You may reveal 2 cards with a type including \"Whitebeard Pirates\" from your hand: This Character gains +2000 power during this turn.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] You may reveal 2 cards with a type including \"Whitebeard Pirates\" from your hand: This Character gains +2000 power during this turn.",
+      "it": "[Activate: Main] [Once Per Turn] Puoi rivelare 2 carte con un tipo che include \"Pirati di Barbabianca\" dalla tua mano: Questo Personaggio guadagna +2000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-044.png",
@@ -1964,7 +2117,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "If this Character would be removed from the field by your opponent's effect or K.O.'d, trash this Character and draw 1 card instead.",
+    "effect": {
+      "en": "If this Character would be removed from the field by your opponent's effect or K.O.'d, trash this Character and draw 1 card instead.",
+      "it": "Se questo Personaggio sta per essere rimosso dal campo per effetto del tuo avversario o K. O. 'd, Manda nel Trash questo Personaggio e pesca invece 1 carta."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-045.png",
@@ -1994,7 +2150,10 @@
     "family": [
       "Amazon Lily"
     ],
-    "effect": "[Your Turn] [Once Per Turn] When a Character is removed from the field by your effect, if your opponent has 5 or more cards in their hand, your opponent places 1 card from their hand at the bottom of their deck. Then, rest this Character.",
+    "effect": {
+      "en": "[Your Turn] [Once Per Turn] When a Character is removed from the field by your effect, if your opponent has 5 or more cards in their hand, your opponent places 1 card from their hand at the bottom of their deck. Then, rest this Character.",
+      "it": "[Your Turn] [Once Per Turn] Quando un Personaggio viene rimosso dal campo a causa di un tuo effetto, se il tuo avversario ha 5 o più carte in mano, il tuo avversario mette 1 carta dalla sua mano in fondo al suo mazzo. Quindi, metti in stato spossato questo personaggio."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-046.png",
@@ -2028,7 +2187,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[On Play] You may return 1 of your Characters other than this Character to the owner's hand: Return up to 1 Character with a cost of 6 or less to the owner's hand.",
+    "effect": {
+      "en": "[On Play] You may return 1 of your Characters other than this Character to the owner's hand: Return up to 1 Character with a cost of 6 or less to the owner's hand.",
+      "it": "[On Play] Puoi restituire 1 dei tuoi Personaggi diversi da questo personaggio in mano al proprietario: fai ritornare fino a 1 personaggio con un costo pari o inferiore a 6 in mano al proprietario."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-047.png",
@@ -2091,7 +2253,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[On Play] Reveal 1 card from the top of your deck and place it at the top or bottom of your deck. If the revealed card's type includes \"Whitebeard Pirates\", this Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+    "effect": {
+      "en": "[On Play] Reveal 1 card from the top of your deck and place it at the top or bottom of your deck. If the revealed card's type includes \"Whitebeard Pirates\", this Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+      "it": "[On Play] Rivela 1 carta dalla cima del tuo mazzo e mettila in cima o in fondo al tuo mazzo. Se il tipo della carta rivelata include \"Pirati di Barbabianca\", questo personaggio guadagna [Rush] durante questo turno. (Questa carta può attaccare nel turno in cui viene giocata.)"
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-049.png",
@@ -2126,7 +2291,10 @@
       "Fish-Man",
       "Whitebeard Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Draw 2 cards and place 2 cards from your hand at the top or bottom of your deck in any order.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Draw 2 cards and place 2 cards from your hand at the top or bottom of your deck in any order.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On Play] Pesca 2 carte e metti 2 carte dalla tua mano in cima o in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-050.png",
@@ -2160,7 +2328,10 @@
     "family": [
       "Former Rocks Pirates"
     ],
-    "effect": "[Your Turn] [On Play] Up to 1 of your [Edward Weevil] cards gains +2000 power during this turn.",
+    "effect": {
+      "en": "[Your Turn] [On Play] Up to 1 of your [Edward Weevil] cards gains +2000 power during this turn.",
+      "it": "[Your Turn] [On Play] Fino a 1 delle tue carte [Edward Weevil] guadagna +2000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-051.png",
@@ -2194,7 +2365,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[On Play] Reveal 1 card from the top of your deck and play up to 1 Character card with a type including \"Whitebeard Pirates\" and a cost of 4 or less. Then, place the rest at the top or bottom of your deck.",
+    "effect": {
+      "en": "[On Play] Reveal 1 card from the top of your deck and play up to 1 Character card with a type including \"Whitebeard Pirates\" and a cost of 4 or less. Then, place the rest at the top or bottom of your deck.",
+      "it": "[On Play] Rivela 1 carta dalla cima del tuo mazzo e gioca fino a 1 carta Personaggio con un tipo che include \"Pirati di Barbabianca\" e un costo pari o inferiore a 4. Quindi, posiziona il resto in cima o in fondo al tuo mazzo."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-052_p1.png",
@@ -2228,7 +2402,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[On Play] Reveal 1 card from the top of your deck and play up to 1 Character card with a type including \"Whitebeard Pirates\" and a cost of 4 or less. Then, place the rest at the top or bottom of your deck.",
+    "effect": {
+      "en": "[On Play] Reveal 1 card from the top of your deck and play up to 1 Character card with a type including \"Whitebeard Pirates\" and a cost of 4 or less. Then, place the rest at the top or bottom of your deck.",
+      "it": "[On Play] Rivela 1 carta dalla cima del tuo mazzo e gioca fino a 1 carta Personaggio con un tipo che include \"Pirati di Barbabianca\" e un costo pari o inferiore a 4. Quindi, posiziona il resto in cima o in fondo al tuo mazzo."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-052.png",
@@ -2261,7 +2438,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[Main] If your Leader's type includes \"Whitebeard Pirates\", look at 3 cards from the top of your deck; reveal up to 1 card with a type including \"Whitebeard Pirates\" or [Monkey.D.Luffy] and add it to your hand. Then, place the rest at the top or bottom of your deck in any order.",
+    "effect": {
+      "en": "[Main] If your Leader's type includes \"Whitebeard Pirates\", look at 3 cards from the top of your deck; reveal up to 1 card with a type including \"Whitebeard Pirates\" or [Monkey.D.Luffy] and add it to your hand. Then, place the rest at the top or bottom of your deck in any order.",
+      "it": "[Main] Se il tipo del tuo Leader include \"Pirati di Barbabianca\", guarda 3 carte dalla cima del tuo mazzo; rivela fino a 1 carta con un tipo che include \"Pirati di Barbabianca\" o [Monkey.D.Luffy] e aggiungila alla tua mano. Poi, posiziona il resto in cima o in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": "Trigger[Trigger] Draw 1 card.",
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-053.png",
@@ -2294,7 +2474,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle. Then, reveal 1 card from the top of your deck and play up to 1 Character card with a type including \"Whitebeard Pirates\" and a cost of 3 or less. Then, place the rest at the top or bottom of your deck.",
+    "effect": {
+      "en": "[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle. Then, reveal 1 card from the top of your deck and play up to 1 Character card with a type including \"Whitebeard Pirates\" and a cost of 3 or less. Then, place the rest at the top or bottom of your deck.",
+      "it": "[Counter] Fino a 1 delle tue carte Leader o Personaggio ottiene +3000 power durante questa battaglia. Poi, rivela 1 carta dalla cima del tuo mazzo e gioca fino a 1 carta Personaggio con un tipo che include \"Pirati di Barbabianca\" e un costo pari o inferiore a 3. Quindi, posiziona il resto in cima o in fondo al tuo mazzo."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-054.png",
@@ -2327,7 +2510,10 @@
     "family": [
       "Former Whitebeard Pirates"
     ],
-    "effect": "[Main] You may reveal 2 cards with a type including \"Whitebeard Pirates\" from your hand: Place up to 1 Character with a cost of 6 or less at the bottom of the owner's deck.",
+    "effect": {
+      "en": "[Main] You may reveal 2 cards with a type including \"Whitebeard Pirates\" from your hand: Place up to 1 Character with a cost of 6 or less at the bottom of the owner's deck.",
+      "it": "[Main] Puoi rivelare 2 carte con un tipo che include \"Pirati di Barbabianca\" dalla tua mano: Metti fino a 1 Personaggio con un costo pari o inferiore a 6 in fondo al mazzo del proprietario."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-055.png",
@@ -2360,7 +2546,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[Your Turn] [Once Per Turn] When your Character with a type including \"Whitebeard Pirates\" is removed from the field by an effect, draw 1 card. Then, place 1 card from your hand at the top or bottom of your deck.",
+    "effect": {
+      "en": "[Your Turn] [Once Per Turn] When your Character with a type including \"Whitebeard Pirates\" is removed from the field by an effect, draw 1 card. Then, place 1 card from your hand at the top or bottom of your deck.",
+      "it": "[Your Turn] [Once Per Turn] Quando il tuo Personaggio con un tipo che include \"Pirati di Barbabianca\" viene rimosso dal campo da un effetto, pesca 1 carta. Poi, metti 1 carta dalla tua mano in cima o in fondo al tuo mazzo."
+    },
     "trigger": "Trigger[Trigger] Play this card.",
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-056.png",
@@ -2395,7 +2584,10 @@
     "family": [
       "Animal Kingdom Pirates"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Choose one:• If you have 5 or less cards in your hand, draw 1 card.• Give up to 1 of your opponent's Characters −2 cost during this turn.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Choose one:• If you have 5 or less cards in your hand, draw 1 card.• Give up to 1 of your opponent's Characters −2 cost during this turn.",
+      "it": "[Activate: Main] [Once Per Turn] DON!! −2 (Puoi far ritornare il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): Scegli una delle opzioni: • Se hai 5 o meno carte in mano, pesca 1 carta.• Rinuncia fino a 1 dei Personaggi del tuo avversario a costo −2 durante questo turno."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-057_p1.png",
@@ -2431,7 +2623,10 @@
     "family": [
       "Animal Kingdom Pirates"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Choose one:• If you have 5 or less cards in your hand, draw 1 card.• Give up to 1 of your opponent's Characters −2 cost during this turn.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Choose one:• If you have 5 or less cards in your hand, draw 1 card.• Give up to 1 of your opponent's Characters −2 cost during this turn.",
+      "it": "[Activate: Main] [Once Per Turn] DON!! −2 (Puoi far ritornare il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): Scegli una delle opzioni: • Se hai 5 o meno carte in mano, pesca 1 carta.• Rinuncia fino a 1 dei Personaggi del tuo avversario a costo −2 durante questo turno."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-057.png",
@@ -2466,7 +2661,10 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[When Attacking] You may turn 2 cards from the top of your Life cards face-up: Add up to 1 DON!! card from your DON!! deck and rest it.",
+    "effect": {
+      "en": "[When Attacking] You may turn 2 cards from the top of your Life cards face-up: Add up to 1 DON!! card from your DON!! deck and rest it.",
+      "it": "[When Attacking] Puoi girare 2 carte dalla cima delle tue carte Life scoperta: aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e metti in stato spossato."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-058_p1.png",
@@ -2501,7 +2699,10 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[When Attacking] You may turn 2 cards from the top of your Life cards face-up: Add up to 1 DON!! card from your DON!! deck and rest it.",
+    "effect": {
+      "en": "[When Attacking] You may turn 2 cards from the top of your Life cards face-up: Add up to 1 DON!! card from your DON!! deck and rest it.",
+      "it": "[When Attacking] Puoi girare 2 carte dalla cima delle tue carte Life scoperta: aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e metti in stato spossato."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-058.png",
@@ -2535,7 +2736,10 @@
       "Lunarian",
       "Animal Kingdom Pirates"
     ],
-    "effect": "[Activate: Main] You may trash this Character: If your Leader has the {Animal Kingdom Pirates} type and you have 10 DON!! cards on your field, play up to 1 [King] with a cost of 7 or less from your hand.",
+    "effect": {
+      "en": "[Activate: Main] You may trash this Character: If your Leader has the {Animal Kingdom Pirates} type and you have 10 DON!! cards on your field, play up to 1 [King] with a cost of 7 or less from your hand.",
+      "it": "[Activate: Main] Puoi mandare nel Trash questo Personaggio: se il tuo Leader ha il tipo {Animal Kingdom Pirates} e hai 10 carte DON!! sul tuo campo, gioca fino a 1 [King] con un costo pari o inferiore a 7 dalla tua mano."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-059.png",
@@ -2568,7 +2772,10 @@
     "family": [
       "Animal Kingdom Pirates"
     ],
-    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your opponent has 5 or more DON!! cards on their field, this Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+    "effect": {
+      "en": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your opponent has 5 or more DON!! cards on their field, this Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+      "it": "[On Play] DON!! −1 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): Se il tuo avversario ha 5 o più carte DON!! sul suo campo, questo Personaggio guadagna [Rush] durante questo turno. (Questa carta può attaccare nel turno in cui viene giocata.)"
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-060.png",
@@ -2602,7 +2809,10 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[When Attacking] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "effect": {
+      "en": "[When Attacking] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+      "it": "[When Attacking] DON!! −1 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): K. O. fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 3."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-061.png",
@@ -2635,7 +2845,10 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[Activate: Main] You may trash this Character: If your Leader has the {Big Mom Pirates} type, play up to 1 [Charlotte Katakuri] from your hand with a cost of 3 or more that is equal to or less than the number of DON!! cards on your opponent's field.",
+    "effect": {
+      "en": "[Activate: Main] You may trash this Character: If your Leader has the {Big Mom Pirates} type, play up to 1 [Charlotte Katakuri] from your hand with a cost of 3 or more that is equal to or less than the number of DON!! cards on your opponent's field.",
+      "it": "[Activate: Main] Puoi mandare nel Trash questo Personaggio: se il tuo Leader ha il tipo {Big Mom Pirates}, gioca fino a 1 [Charlotte Katakuri] dalla tua mano con un costo pari o superiore a 3 pari o inferiore al numero di carte DON!! sul campo del tuo avversario."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-062.png",
@@ -2668,7 +2881,10 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[On Play] You may turn 1 card from the top of your Life cards face-down: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": {
+      "en": "[On Play] You may turn 1 card from the top of your Life cards face-down: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+      "it": "[On Play] Puoi girare 1 carta dalla cima delle tue carte Life coperta: aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e impostala come attiva."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-063.png",
@@ -2701,7 +2917,10 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 [Biscuit Warrior] from your hand.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 [Biscuit Warrior] from your hand.",
+      "it": "[Activate: Main] [Once Per Turn] DON!! −1 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): Gioca fino a 1 [Biscuit Warrior] dalla tua mano."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-064.png",
@@ -2765,7 +2984,10 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] Add up to 1 DON!! card from your DON!! deck and rest it.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] Add up to 1 DON!! card from your DON!! deck and rest it.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On K.O.] Aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e riposala."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-066.png",
@@ -2799,7 +3021,10 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "effect": {
+      "en": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, add up to 1 DON!! card from your DON!! deck and rest it.",
+      "it": "[Your Turn] [Once Per Turn] Quando un carta DON!! sul tuo campo viene restituito al tuo mazzo DON!! , aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e metti in stato spossato."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-067_p1.png",
@@ -2834,7 +3059,10 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "effect": {
+      "en": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, add up to 1 DON!! card from your DON!! deck and rest it.",
+      "it": "[Your Turn] [Once Per Turn] Quando un carta DON!! sul tuo campo viene restituito al tuo mazzo DON!! , aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e metti in stato spossato."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-067.png",
@@ -2868,7 +3096,10 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[On K.O.] Add up to 1 DON!! card from your DON!! deck and rest it.",
+    "effect": {
+      "en": "[On K.O.] Add up to 1 DON!! card from your DON!! deck and rest it.",
+      "it": "[On K.O.] Aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e lascialo mettere in stato spossato."
+    },
     "trigger": "Trigger[Trigger] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play this card.",
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-068.png",
@@ -2902,7 +3133,10 @@
       "Former Rocks Pirates",
       "Big Mom Pirates"
     ],
-    "effect": "[On Play] DON!! −1, You may trash 1 card from your hand: Add up to 1 card from the top of your deck to the top of your Life cards. Then, add up to 1 of your opponent's Characters with a cost of 6 or less to the top or bottom of your opponent's Life cards face-up.",
+    "effect": {
+      "en": "[On Play] DON!! −1, You may trash 1 card from your hand: Add up to 1 card from the top of your deck to the top of your Life cards. Then, add up to 1 of your opponent's Characters with a cost of 6 or less to the top or bottom of your opponent's Life cards face-up.",
+      "it": "[On Play] DON!! −1, Puoi mandare nel Trash 1 carta dalla tua mano: aggiungi fino a 1 carta dalla cima del tuo mazzo alla cima delle tue carte Life. Poi, aggiungi fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 6 in cima o in fondo ai carte Life scoperta del tuo avversario."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-069_p1.png",
@@ -2937,7 +3171,10 @@
       "Former Rocks Pirates",
       "Big Mom Pirates"
     ],
-    "effect": "[On Play] DON!! −1, You may trash 1 card from your hand: Add up to 1 card from the top of your deck to the top of your Life cards. Then, add up to 1 of your opponent's Characters with a cost of 6 or less to the top or bottom of your opponent's Life cards face-up.",
+    "effect": {
+      "en": "[On Play] DON!! −1, You may trash 1 card from your hand: Add up to 1 card from the top of your deck to the top of your Life cards. Then, add up to 1 of your opponent's Characters with a cost of 6 or less to the top or bottom of your opponent's Life cards face-up.",
+      "it": "[On Play] DON!! −1, Puoi mandare nel Trash 1 carta dalla tua mano: aggiungi fino a 1 carta dalla cima del tuo mazzo alla cima delle tue carte Life. Poi, aggiungi fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 6 in cima o in fondo ai carte Life scoperta del tuo avversario."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-069.png",
@@ -2970,7 +3207,10 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 [Viscount Hiyoko] with a cost of 5 or less from your hand.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 [Viscount Hiyoko] with a cost of 5 or less from your hand.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On K.O.] DON!! −1 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): Gioca fino a 1 [Viscount Hiyoko] con un costo pari o inferiore a 5 dalla tua mano."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-070.png",
@@ -3004,7 +3244,10 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[Opponent's Turn] [On K.O.] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 [Baron Tamago] with a cost of 4 or less from your deck. Then, shuffle your deck.",
+    "effect": {
+      "en": "[Opponent's Turn] [On K.O.] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 [Baron Tamago] with a cost of 4 or less from your deck. Then, shuffle your deck.",
+      "it": "[Opponent's Turn] [On K.O.] DON!! −1 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): Gioca fino a 1 [Baron Tamago] con un costo pari o inferiore a 4 dal tuo mazzo. Poi, mescola il tuo mazzo."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-071.png",
@@ -3038,7 +3281,10 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "Under the rules of this game, you may have any number of this card in your deck.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "Under the rules of this game, you may have any number of this card in your deck.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "Secondo le regole di questo gioco, puoi avere un numero qualsiasi di questa carta nel tuo mazzo. [Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-072.png",
@@ -3071,7 +3317,10 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[Opponent's Turn] [On K.O.] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 [Count Niwatori] with a cost of 6 or less from your deck. Then, shuffle your deck.",
+    "effect": {
+      "en": "[Opponent's Turn] [On K.O.] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 [Count Niwatori] with a cost of 6 or less from your deck. Then, shuffle your deck.",
+      "it": "[Opponent's Turn] [On K.O.] DON!! −1 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): Gioca fino a 1 [Count Niwatori] con un costo pari o inferiore a 6 dal tuo mazzo. Poi, mescola il tuo mazzo."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-073.png",
@@ -3105,7 +3354,10 @@
     "family": [
       "Animal Kingdom Pirates"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] If you have no other [Black Maria] Characters, add up to 5 DON!! cards from your DON!! deck and rest them. Then, at the end of this turn, return DON!! cards from your field to your DON!! deck until you have the same number of DON!! cards on your field as your opponent.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] If you have no other [Black Maria] Characters, add up to 5 DON!! cards from your DON!! deck and rest them. Then, at the end of this turn, return DON!! cards from your field to your DON!! deck until you have the same number of DON!! cards on your field as your opponent.",
+      "it": "[Activate: Main] [Once Per Turn] Se non hai altri personaggi [Black Maria], aggiungi fino a 5 carte DON!! dal tuo mazzo DON!! e lasciali mettere in stato spossato. Poi, alla fine di questo turno, rimetti carte DON!! dal tuo campo nel tuo mazzo DON!! finché non avrai sul tuo campo lo stesso numero di carte DON!! del tuo avversario."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-074_p1.png",
@@ -3140,7 +3392,10 @@
     "family": [
       "Animal Kingdom Pirates"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] If you have no other [Black Maria] Characters, add up to 5 DON!! cards from your DON!! deck and rest them. Then, at the end of this turn, return DON!! cards from your field to your DON!! deck until you have the same number of DON!! cards on your field as your opponent.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] If you have no other [Black Maria] Characters, add up to 5 DON!! cards from your DON!! deck and rest them. Then, at the end of this turn, return DON!! cards from your field to your DON!! deck until you have the same number of DON!! cards on your field as your opponent.",
+      "it": "[Activate: Main] [Once Per Turn] Se non hai altri personaggi [Black Maria], aggiungi fino a 5 carte DON!! dal tuo mazzo DON!! e lasciali mettere in stato spossato. Poi, alla fine di questo turno, rimetti carte DON!! dal tuo campo nel tuo mazzo DON!! finché non avrai sul tuo campo lo stesso numero di carte DON!! del tuo avversario."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-074.png",
@@ -3174,7 +3429,10 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 1 of your opponent's Characters with a cost of 2 or less. Then, turn all of your Life cards face-down.",
+    "effect": {
+      "en": "[Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 1 of your opponent's Characters with a cost of 2 or less. Then, turn all of your Life cards face-down.",
+      "it": "[Main] DON!! −1 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): metti in stato spossato fino a 1 dei Personaggi del tuo avversario con un costo pari o inferiore a 2. Quindi, gira tutti i tuoi carte Life coperta."
+    },
     "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-075.png",
@@ -3208,7 +3466,10 @@
       "The Four Emperors",
       "Big Mom Pirates"
     ],
-    "effect": "[Main] Add up to 1 DON!! card from your DON!! deck and set it as active. Then, if your opponent has a Character with 6000 power or more, add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": {
+      "en": "[Main] Add up to 1 DON!! card from your DON!! deck and set it as active. Then, if your opponent has a Character with 6000 power or more, add up to 1 DON!! card from your DON!! deck and set it as active.",
+      "it": "[Main] Aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e impostalo come attivo. Quindi, se il tuo avversario ha un personaggio con 6000 power o più, aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e impostalo come attivo."
+    },
     "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-076.png",
@@ -3243,7 +3504,10 @@
       "Animal Kingdom Pirates",
       "Big Mom Pirates"
     ],
-    "effect": "[Main] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Animal Kingdom Pirates} or {Big Mom Pirates} type, K.O. up to 2 of your opponent's Characters with a cost of 6 or less.",
+    "effect": {
+      "en": "[Main] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Animal Kingdom Pirates} or {Big Mom Pirates} type, K.O. up to 2 of your opponent's Characters with a cost of 6 or less.",
+      "it": "[Main] DON!! −2 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): Se il tuo Leader ha il tipo {Animal Kingdom Pirates} o {Big Mom Pirates}, K. O. fino a 2 personaggi del tuo avversario con un costo pari o inferiore a 6."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-077.png",
@@ -3307,7 +3571,10 @@
       "Former Rocks Pirates",
       "Animal Kingdom Pirates"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] You may trash 1 card from your hand: If this Character was played on this turn, trash up to 1 of your opponent's Characters with a cost of 7 or less. Then, your opponent trashes 1 card from their hand.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] You may trash 1 card from your hand: If this Character was played on this turn, trash up to 1 of your opponent's Characters with a cost of 7 or less. Then, your opponent trashes 1 card from their hand.",
+      "it": "[Activate: Main] [Once Per Turn] Puoi mandare nel Trash 1 carta dalla tua mano: se questo Personaggio è stato giocato in questo turno, Manda nel Trash fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 7. Then, your opponent trashes 1 card from their hand."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-079_p1.png",
@@ -3343,7 +3610,10 @@
       "Former Rocks Pirates",
       "Animal Kingdom Pirates"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] You may trash 1 card from your hand: If this Character was played on this turn, trash up to 1 of your opponent's Characters with a cost of 7 or less. Then, your opponent trashes 1 card from their hand.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] You may trash 1 card from your hand: If this Character was played on this turn, trash up to 1 of your opponent's Characters with a cost of 7 or less. Then, your opponent trashes 1 card from their hand.",
+      "it": "[Activate: Main] [Once Per Turn] Puoi mandare nel Trash 1 carta dalla tua mano: se questo Personaggio è stato giocato in questo turno, Manda nel Trash fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 7. Then, your opponent trashes 1 card from their hand."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-079.png",
@@ -3377,7 +3647,10 @@
     "family": [
       "Animal Kingdom Pirates"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Animal Kingdom Pirates} type card other than [Queen] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Animal Kingdom Pirates} type card other than [Queen] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Animal Kingdom Pirates} diversa da [Queen] e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-080_p1.png",
@@ -3411,7 +3684,10 @@
     "family": [
       "Animal Kingdom Pirates"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Animal Kingdom Pirates} type card other than [Queen] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Animal Kingdom Pirates} type card other than [Queen] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Animal Kingdom Pirates} diversa da [Queen] e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-080.png",
@@ -3444,7 +3720,10 @@
     "family": [
       "CP0"
     ],
-    "effect": "[When Attacking] You may place 3 cards with a type including \"CP\" from your trash at the bottom of your deck in any order: K.O. up to 1 of your opponent's Characters with a cost of 0.",
+    "effect": {
+      "en": "[When Attacking] You may place 3 cards with a type including \"CP\" from your trash at the bottom of your deck in any order: K.O. up to 1 of your opponent's Characters with a cost of 0.",
+      "it": "[When Attacking] Puoi posizionare 3 carte con un tipo che include \"CP\" dal tuo Trash in fondo al tuo mazzo in qualsiasi ordine: K. O. fino a 1 dei personaggi del tuo avversario con un costo pari a 0."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-081.png",
@@ -3477,7 +3756,10 @@
     "family": [
       "Animal Kingdom Pirates"
     ],
-    "effect": "[Activate: Main] Rest 1 of your DON!! cards and you may rest this Character: Give up to 1 of your opponent's Characters −2 cost during this turn.",
+    "effect": {
+      "en": "[Activate: Main] Rest 1 of your DON!! cards and you may rest this Character: Give up to 1 of your opponent's Characters −2 cost during this turn.",
+      "it": "[Activate: Main] metti in stato spossato 1 delle tue carte DON!! e Puoi mettere in stato spossato questo Personaggio: Dai −2 costo a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-082.png",
@@ -3511,7 +3793,10 @@
       "Animal Kingdom Pirates",
       "SMILE"
     ],
-    "effect": "[DON!! x1] [Your Turn] Give all of your opponent's Characters −1 cost.",
+    "effect": {
+      "en": "[DON!! x1] [Your Turn] Give all of your opponent's Characters −1 cost.",
+      "it": "[DON!! x1] [Your Turn] Dai a tutti i personaggi del tuo avversario un -1 costo."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-083.png",
@@ -3545,7 +3830,10 @@
     "family": [
       "Animal Kingdom Pirates"
     ],
-    "effect": "This Character gains +4 cost.[Activate: Main] You may rest this Character: Draw 1 card and trash 1 card from your hand. Then, K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "effect": {
+      "en": "This Character gains +4 cost.[Activate: Main] You may rest this Character: Draw 1 card and trash 1 card from your hand. Then, K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+      "it": "Questo personaggio guadagna +4 al costo. [Activate: Main] Puoi mettere in stato spossato questo personaggio: pesca 1 carta e Manda nel Trash 1 carta dalla tua mano. Poi, K. O. fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 3."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-084_p1.png",
@@ -3579,7 +3867,10 @@
     "family": [
       "Animal Kingdom Pirates"
     ],
-    "effect": "This Character gains +4 cost.[Activate: Main] You may rest this Character: Draw 1 card and trash 1 card from your hand. Then, K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "effect": {
+      "en": "This Character gains +4 cost.[Activate: Main] You may rest this Character: Draw 1 card and trash 1 card from your hand. Then, K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+      "it": "Questo personaggio guadagna +4 al costo. [Activate: Main] Puoi mettere in stato spossato questo personaggio: pesca 1 carta e Manda nel Trash 1 carta dalla tua mano. Poi, K. O. fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 3."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-084.png",
@@ -3613,7 +3904,10 @@
       "Fish-Man",
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x1] [When Attacking] If you have a Character with a cost of 8 or more, K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] If you have a Character with a cost of 8 or more, K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+      "it": "[DON!! x1] [When Attacking] Se hai un Personaggio con costo pari o superiore a 8, K. O. fino a 1 Personaggio del tuo avversario con costo pari o inferiore a 4."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-085.png",
@@ -3648,7 +3942,10 @@
       "Animal Kingdom Pirates",
       "SMILE"
     ],
-    "effect": "[On Play] If your opponent has a Character with a cost of 0, draw 2 cards and trash 2 cards from your hand.",
+    "effect": {
+      "en": "[On Play] If your opponent has a Character with a cost of 0, draw 2 cards and trash 2 cards from your hand.",
+      "it": "[On Play] Se il tuo avversario ha un Personaggio con costo pari a 0, pesca 2 carte e Manda nel Trash 2 carte dalla tua mano."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-086.png",
@@ -3682,7 +3979,10 @@
       "Animal Kingdom Pirates",
       "On-Air Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Activate: Main] [Once Per Turn] Give up to 1 of your opponent's Characters −1 cost during this turn.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Activate: Main] [Once Per Turn] Give up to 1 of your opponent's Characters −1 cost during this turn.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, Puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[Activate: Main] [Once Per Turn] Dai −1 costo a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-087.png",
@@ -3717,7 +4017,10 @@
     "family": [
       "The Flying Fish Riders"
     ],
-    "effect": "[On Play] Up to 1 of your Characters gains +1 cost until the end of your opponent's next turn.",
+    "effect": {
+      "en": "[On Play] Up to 1 of your Characters gains +1 cost until the end of your opponent's next turn.",
+      "it": "[On Play] Fino a 1 dei tuoi personaggi ottiene +1 costo fino alla fine del turno successivo del tuo avversario."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-088.png",
@@ -3782,7 +4085,10 @@
       "Animal Kingdom Pirates",
       "SMILE"
     ],
-    "effect": "[On Play] Play up to 1 {SMILE} type Character card with a cost of 2 or less from your trash.",
+    "effect": {
+      "en": "[On Play] Play up to 1 {SMILE} type Character card with a cost of 2 or less from your trash.",
+      "it": "[On Play] Gioca fino a 1 carta Personaggio di tipo {SMILE} con un costo pari o inferiore a 2 dal tuo Trash."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-090.png",
@@ -3816,7 +4122,10 @@
       "Animal Kingdom Pirates",
       "Former CP9"
     ],
-    "effect": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "effect": {
+      "en": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+      "it": "[On Play] Puoi mandare nel Trash 1 carta dalla tua mano: K. O. fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 3."
+    },
     "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-091.png",
@@ -3849,7 +4158,10 @@
     "family": [
       "Animal Kingdom Pirates"
     ],
-    "effect": "[On Play] Play up to 1 [Ulti] with a cost of 4 or less from your trash.",
+    "effect": {
+      "en": "[On Play] Play up to 1 [Ulti] with a cost of 4 or less from your trash.",
+      "it": "[On Play] Gioca fino a 1 [Ulti] con un costo pari o inferiore a 4 dal tuo Trash."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-092.png",
@@ -3884,7 +4196,10 @@
       "Drake Pirates",
       "Animal Kingdom Pirates"
     ],
-    "effect": "[DON!! x1] This Character gains +2 cost.",
+    "effect": {
+      "en": "[DON!! x1] This Character gains +2 cost.",
+      "it": "[DON!! x1] Questo personaggio guadagna +2 al costo."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-093.png",
@@ -3917,7 +4232,10 @@
     "family": [
       "Animal Kingdom Pirates"
     ],
-    "effect": "[Main]/[Counter] You may place 3 cards from your trash at the bottom of your deck in any order: K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
+    "effect": {
+      "en": "[Main]/[Counter] You may place 3 cards from your trash at the bottom of your deck in any order: K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
+      "it": "[Main]/[Counter] Puoi posizionare 3 carte dal tuo Trash in fondo al tuo mazzo in qualsiasi ordine: K. O. fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 2."
+    },
     "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-094.png",
@@ -3952,7 +4270,10 @@
       "Animal Kingdom Pirates",
       "Former CP9"
     ],
-    "effect": "[Main] If you have 10 or more cards in your trash, up to 1 of your Characters gains +2000 power until the end of your opponent's next turn.",
+    "effect": {
+      "en": "[Main] If you have 10 or more cards in your trash, up to 1 of your Characters gains +2000 power until the end of your opponent's next turn.",
+      "it": "[Main] Se hai 10 o più carte nel tuo Trash, fino a 1 dei tuoi Personaggi guadagna +2000 power fino alla fine del turno successivo del tuo avversario."
+    },
     "trigger": "Trigger[Trigger] Up to 1 of your Leader or Character cards gains +2000 power during this turn.",
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-095.png",
@@ -3985,7 +4306,10 @@
     "family": [
       "Blackbeard Pirates"
     ],
-    "effect": "[Counter] Trash 1 card from the top of your deck. If the trashed card has a cost of 6 or more, up to 1 of your Leader or Character cards gains +5000 power during this battle.",
+    "effect": {
+      "en": "[Counter] Trash 1 card from the top of your deck. If the trashed card has a cost of 6 or more, up to 1 of your Leader or Character cards gains +5000 power during this battle.",
+      "it": "[Counter] Manda nel Trash 1 carta dalla cima del tuo mazzo. Se la carta eliminata ha un costo pari o superiore a 6, fino a 1 delle tue carte Leader o Personaggio guadagna +5000 power durante questa battaglia."
+    },
     "trigger": "Trigger[Trigger] Play up to 1 black Character card with a cost of 3 or less from your trash.",
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-096.png",
@@ -4018,7 +4342,10 @@
     "family": [
       "Animal Kingdom Pirates"
     ],
-    "effect": "[Main] If your Leader has the {Animal Kingdom Pirates} type, give up to 1 of your opponent's Characters −2 cost during this turn. Then, K.O. up to 1 of your opponent's Characters with a cost of 0.",
+    "effect": {
+      "en": "[Main] If your Leader has the {Animal Kingdom Pirates} type, give up to 1 of your opponent's Characters −2 cost during this turn. Then, K.O. up to 1 of your opponent's Characters with a cost of 0.",
+      "it": "[Main] Se il tuo Leader ha il tipo {Animal Kingdom Pirates}, rinuncia a 1 personaggio del tuo avversario al -2 costo durante questo turno. Poi, K. O. fino a 1 dei personaggi del tuo avversario con un costo pari a 0."
+    },
     "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-097.png",
@@ -4053,7 +4380,10 @@
       "Sky Island",
       "Shandian Warrior"
     ],
-    "effect": "[DON!! x1] [When Attacking] Play up to 1 {Shandian Warrior} type Character card from your hand with a cost equal to or less than the number of DON!! cards on your field. If you do, add 1 card from the top of your Life cards to your hand.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] Play up to 1 {Shandian Warrior} type Character card from your hand with a cost equal to or less than the number of DON!! cards on your field. If you do, add 1 card from the top of your Life cards to your hand.",
+      "it": "[DON!! x1] [When Attacking] Gioca fino a 1 carta Personaggio di tipo {Shandian Warrior} dalla tua mano con un costo pari o inferiore al numero di carte DON!! sul tuo campo. Se lo fai, aggiungi 1 carta dalla cima delle tue carte Life alla tua mano."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-098_p1.png",
@@ -4090,7 +4420,10 @@
       "Sky Island",
       "Shandian Warrior"
     ],
-    "effect": "[DON!! x1] [When Attacking] Play up to 1 {Shandian Warrior} type Character card from your hand with a cost equal to or less than the number of DON!! cards on your field. If you do, add 1 card from the top of your Life cards to your hand.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] Play up to 1 {Shandian Warrior} type Character card from your hand with a cost equal to or less than the number of DON!! cards on your field. If you do, add 1 card from the top of your Life cards to your hand.",
+      "it": "[DON!! x1] [When Attacking] Gioca fino a 1 carta Personaggio di tipo {Shandian Warrior} dalla tua mano con un costo pari o inferiore al numero di carte DON!! sul tuo campo. Se lo fai, aggiungi 1 carta dalla cima delle tue carte Life alla tua mano."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-098.png",
@@ -4158,7 +4491,10 @@
       "Jaya",
       "Sky Island"
     ],
-    "effect": "[On Play] Look at 7 cards from the top of your deck and play up to 1 [Upper Yard]. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 7 cards from the top of your deck and play up to 1 [Upper Yard]. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 7 carte dalla cima del tuo mazzo e gioca fino a 1 [Upper Yard]. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-100.png",
@@ -4191,7 +4527,10 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] You may trash 1 card from the top of your Life cards: If your Leader has the {Big Mom Pirates} type, add 1 card from the top of your deck to the top of your Life cards at the end of this turn.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] You may trash 1 card from the top of your Life cards: If your Leader has the {Big Mom Pirates} type, add 1 card from the top of your deck to the top of your Life cards at the end of this turn.",
+      "it": "[Activate: Main] [Once Per Turn] Puoi mandare nel Trash 1 carta dalla cima delle tue carte Life: Se il tuo Leader ha il tipo {Big Mom Pirates}, aggiungi 1 carta dalla cima del tuo mazzo alla cima delle tue carte Life alla fine di questo turno."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-101.png",
@@ -4225,7 +4564,10 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost equal to or less than your number of Life cards.",
+    "effect": {
+      "en": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost equal to or less than your number of Life cards.",
+      "it": "[On Play] Puoi mandare nel Trash 1 carta dalla tua mano: K. O. fino a 1 dei Personaggi del tuo avversario con un costo pari o inferiore al tuo numero di carte Life."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-102.png",
@@ -4258,7 +4600,10 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] You may add 1 card from the top of your Life cards to your hand: Up to 1 of your Characters gains +1000 power until the end of your opponent's next turn.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] You may add 1 card from the top of your Life cards to your hand: Up to 1 of your Characters gains +1000 power until the end of your opponent's next turn.",
+      "it": "[Activate: Main] [Once Per Turn] Puoi aggiungere 1 carta dalla cima delle tue carte Life alla tua mano: fino a 1 dei tuoi personaggi guadagna +1000 power fino alla fine del prossimo turno del tuo avversario."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-103.png",
@@ -4323,7 +4668,10 @@
       "Egghead",
       "Bonney Pirates"
     ],
-    "effect": "[DON!! x1] [Your Turn] [Once Per Turn] When a card is removed from your opponent's Life cards, draw 2 cards and trash 1 card from your hand.",
+    "effect": {
+      "en": "[DON!! x1] [Your Turn] [Once Per Turn] When a card is removed from your opponent's Life cards, draw 2 cards and trash 1 card from your hand.",
+      "it": "[DON!! x1] [Your Turn] [Once Per Turn] Quando una carta viene rimossa dal carte Life del tuo avversario, pesca 2 carte e Manda nel Trash 1 carta dalla tua mano."
+    },
     "trigger": "Trigger[Trigger] Draw 2 cards and trash 1 card from your hand.",
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-105_p1.png",
@@ -4360,7 +4708,10 @@
       "Egghead",
       "Bonney Pirates"
     ],
-    "effect": "[DON!! x1] [Your Turn] [Once Per Turn] When a card is removed from your opponent's Life cards, draw 2 cards and trash 1 card from your hand.",
+    "effect": {
+      "en": "[DON!! x1] [Your Turn] [Once Per Turn] When a card is removed from your opponent's Life cards, draw 2 cards and trash 1 card from your hand.",
+      "it": "[DON!! x1] [Your Turn] [Once Per Turn] Quando una carta viene rimossa dal carte Life del tuo avversario, pesca 2 carte e Manda nel Trash 1 carta dalla tua mano."
+    },
     "trigger": "Trigger[Trigger] Draw 2 cards and trash 1 card from your hand.",
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-105.png",
@@ -4396,7 +4747,10 @@
       "Egghead",
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] You may trash 1 card with a [Trigger] from your hand: K.O. up to 1 of your opponent's Characters with a cost of 5 or less. Then, if you have 3 or less cards in your hand, draw 1 card.",
+    "effect": {
+      "en": "[On Play] You may trash 1 card with a [Trigger] from your hand: K.O. up to 1 of your opponent's Characters with a cost of 5 or less. Then, if you have 3 or less cards in your hand, draw 1 card.",
+      "it": "[On Play] Puoi mandare nel Trash 1 carta with a [Trigger] dalla tua mano: K. O. up to 1 of your opponent's Personaggi with a cost of 5 or less. Then, if you have 3 or less cards in your hand, Pesca 1 carta."
+    },
     "trigger": "Trigger[Trigger] Activate this card's [On Play] effect.",
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-106_p1.png",
@@ -4432,7 +4786,10 @@
       "Egghead",
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] You may trash 1 card with a [Trigger] from your hand: K.O. up to 1 of your opponent's Characters with a cost of 5 or less. Then, if you have 3 or less cards in your hand, draw 1 card.",
+    "effect": {
+      "en": "[On Play] You may trash 1 card with a [Trigger] from your hand: K.O. up to 1 of your opponent's Characters with a cost of 5 or less. Then, if you have 3 or less cards in your hand, draw 1 card.",
+      "it": "[On Play] Puoi mandare nel Trash 1 carta with a [Trigger] dalla tua mano: K. O. up to 1 of your opponent's Personaggi with a cost of 5 or less. Then, if you have 3 or less cards in your hand, Pesca 1 carta."
+    },
     "trigger": "Trigger[Trigger] Activate this card's [On Play] effect.",
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-106.png",
@@ -4467,7 +4824,10 @@
       "Big Mom Pirates",
       "Homies"
     ],
-    "effect": "[Activate: Main] You may rest this Character: Up to 1 of your [Charlotte Pudding] cards gains +2000 power during this turn.",
+    "effect": {
+      "en": "[Activate: Main] You may rest this Character: Up to 1 of your [Charlotte Pudding] cards gains +2000 power during this turn.",
+      "it": "[Activate: Main] Puoi mettere in stato spossato questo Personaggio: Up to 1 of your [Charlotte Pudding] cards gains +2000 power during this turn."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-107.png",
@@ -4532,7 +4892,10 @@
       "Jaya",
       "Botanist"
     ],
-    "effect": "[On Play] If your Leader has the {Shandian Warrior} type and you have a [Kalgara] Character, add up to 1 card from the top of your deck to the top of your Life cards.",
+    "effect": {
+      "en": "[On Play] If your Leader has the {Shandian Warrior} type and you have a [Kalgara] Character, add up to 1 card from the top of your deck to the top of your Life cards.",
+      "it": "[On Play] Se il tuo Leader ha il tipo {Shandian Warrior} e tu hai un Personaggio [Kalgara], aggiungi fino a 1 carta dalla cima del tuo mazzo alla cima delle tue carte Life."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-109.png",
@@ -4566,7 +4929,10 @@
       "Sky Island",
       "Shandian Warrior"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Upper Yard] and add it to your hand. Then, place the rest at the bottom of your deck in any order and play up to 1 [Upper Yard] from your hand.",
+    "effect": {
+      "en": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Upper Yard] and add it to your hand. Then, place the rest at the bottom of your deck in any order and play up to 1 [Upper Yard] from your hand.",
+      "it": "[On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 [Upper Yard] e aggiungilo alla tua mano. Quindi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine e gioca fino a 1 [Upper Yard] dalla tua mano."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-110_p1.png",
@@ -4601,7 +4967,10 @@
       "Sky Island",
       "Shandian Warrior"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Upper Yard] and add it to your hand. Then, place the rest at the bottom of your deck in any order and play up to 1 [Upper Yard] from your hand.",
+    "effect": {
+      "en": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Upper Yard] and add it to your hand. Then, place the rest at the bottom of your deck in any order and play up to 1 [Upper Yard] from your hand.",
+      "it": "[On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 [Upper Yard] e aggiungilo alla tua mano. Quindi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine e gioca fino a 1 [Upper Yard] dalla tua mano."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-110.png",
@@ -4635,7 +5004,10 @@
       "Egghead",
       "Seraphim"
     ],
-    "effect": "[DON!! x1] [When Attacking] Your opponent cannot activate [Blocker] during this battle.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] Your opponent cannot activate [Blocker] during this battle.",
+      "it": "[DON!! x1] [When Attacking] Il tuo avversario non può attivare [Blocker] durante questa battaglia."
+    },
     "trigger": "Trigger[Trigger] You may trash 1 card from your hand: If you have 2 or less Life cards, play this card.",
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-111.png",
@@ -4671,7 +5043,10 @@
       "Egghead",
       "Seraphim"
     ],
-    "effect": "[On Play] Up to 1 of your opponent's Characters with a cost of 6 or less other than [Monkey.D.Luffy] cannot attack until the end of your opponent's next turn.",
+    "effect": {
+      "en": "[On Play] Up to 1 of your opponent's Characters with a cost of 6 or less other than [Monkey.D.Luffy] cannot attack until the end of your opponent's next turn.",
+      "it": "[On Play] Fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 6 diverso da [Monkey.D.Luffy] non può attaccare fino alla fine del turno successivo del tuo avversario."
+    },
     "trigger": "Trigger[Trigger] Activate this card's [On Play] effect.",
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-112_p1.png",
@@ -4706,7 +5081,10 @@
       "Egghead",
       "Seraphim"
     ],
-    "effect": "[On Play] Up to 1 of your opponent's Characters with a cost of 6 or less other than [Monkey.D.Luffy] cannot attack until the end of your opponent's next turn.",
+    "effect": {
+      "en": "[On Play] Up to 1 of your opponent's Characters with a cost of 6 or less other than [Monkey.D.Luffy] cannot attack until the end of your opponent's next turn.",
+      "it": "[On Play] Fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 6 diverso da [Monkey.D.Luffy] non può attaccare fino alla fine del turno successivo del tuo avversario."
+    },
     "trigger": "Trigger[Trigger] Activate this card's [On Play] effect.",
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-112.png",
@@ -4771,7 +5149,10 @@
       "Egghead",
       "Seraphim"
     ],
-    "effect": "[DON!! x1] If you have less Life cards than your opponent, this Character cannot be K.O.'d in battle by <Slash> attribute cards and gains +2000 power.",
+    "effect": {
+      "en": "[DON!! x1] If you have less Life cards than your opponent, this Character cannot be K.O.'d in battle by <Slash> attribute cards and gains +2000 power.",
+      "it": "[DON!! x1] Se hai meno carte Life del tuo avversario, questo personaggio non può essere K. O. in battaglia con le carte attributo <Slash> e guadagna +2000 power."
+    },
     "trigger": "Trigger[Trigger] You may trash 1 card from your hand: If you have 2 or less Life cards, play this card.",
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-114.png",
@@ -4805,7 +5186,10 @@
       "Sky Island",
       "Shandian Warrior"
     ],
-    "effect": "[Counter] If your Leader has the {Shandian Warrior} type, up to 1 of your Leader or Character cards gains +3000 power during this battle. Then, play up to 1 [Upper Yard] from your hand.",
+    "effect": {
+      "en": "[Counter] If your Leader has the {Shandian Warrior} type, up to 1 of your Leader or Character cards gains +3000 power during this battle. Then, play up to 1 [Upper Yard] from your hand.",
+      "it": "[Counter] Se il tuo Leader è del tipo {Shandian Warrior}, fino a 1 delle tue carte Leader o Personaggio guadagna +3000 power durante questa battaglia. Poi gioca fino a 1 [Upper Yard] dalla tua mano."
+    },
     "trigger": "Trigger[Trigger] Draw 2 cards and trash 1 card from your hand.",
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-115.png",
@@ -4839,7 +5223,10 @@
       "Sky Island",
       "Shandian Warrior"
     ],
-    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, you may add 1 card from the top or bottom of your Life cards to your hand. If you do, add up to 1 {Shandian Warrior} type card from your hand to the top of your Life cards face-up.",
+    "effect": {
+      "en": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, you may add 1 card from the top or bottom of your Life cards to your hand. If you do, add up to 1 {Shandian Warrior} type card from your hand to the top of your Life cards face-up.",
+      "it": "[Counter] Fino a 1 delle tue carte Leader o Personaggio ottiene +4000 power durante questa battaglia. Poi puoi aggiungere 1 carta dalla cima o dal fondo delle tue carte Life alla tua mano. Se lo fai, aggiungi fino a 1 carta di tipo {Shandian Warrior} dalla tua mano in cima alle tue carte Life scoperta."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-116.png",
@@ -4873,7 +5260,10 @@
       "Sky Island",
       "Shandian Warrior"
     ],
-    "effect": "[Main] You may trash 1 card from the top of your Life cards: K.O. up to 1 of your opponent's Characters with a cost of 7 or less.",
+    "effect": {
+      "en": "[Main] You may trash 1 card from the top of your Life cards: K.O. up to 1 of your opponent's Characters with a cost of 7 or less.",
+      "it": "[Main] Puoi mandare nel Trash 1 carta dalla cima delle tue carte Life: K. O. fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 7."
+    },
     "trigger": "Trigger[Trigger] You may add 1 card from the top of your Life cards to your hand: Add up to 1 card from your hand to the top of your Life cards.",
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-117.png",
@@ -4906,7 +5296,10 @@
     "family": [
       "Former Roger Pirates"
     ],
-    "effect": "[On Play] Select up to 2 of your opponent's Characters, and give 1 Character −3000 power and the other −2000 power until the end of your opponent's next turn. Then, K.O. up to 1 of your opponent's Characters with 3000 power or less.",
+    "effect": {
+      "en": "[On Play] Select up to 2 of your opponent's Characters, and give 1 Character −3000 power and the other −2000 power until the end of your opponent's next turn. Then, K.O. up to 1 of your opponent's Characters with 3000 power or less.",
+      "it": "[On Play] Seleziona fino a 2 personaggi del tuo avversario e dai a 1 personaggio −3000 power e l'altro −2000 power fino alla fine del turno successivo del tuo avversario. Poi, K. O. fino a 1 dei personaggi del tuo avversario con 3000 power o meno."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-118_p1.png",
@@ -4940,7 +5333,10 @@
     "family": [
       "Former Roger Pirates"
     ],
-    "effect": "[On Play] Select up to 2 of your opponent's Characters, and give 1 Character −3000 power and the other −2000 power until the end of your opponent's next turn. Then, K.O. up to 1 of your opponent's Characters with 3000 power or less.",
+    "effect": {
+      "en": "[On Play] Select up to 2 of your opponent's Characters, and give 1 Character −3000 power and the other −2000 power until the end of your opponent's next turn. Then, K.O. up to 1 of your opponent's Characters with 3000 power or less.",
+      "it": "[On Play] Seleziona fino a 2 personaggi del tuo avversario e dai a 1 personaggio −3000 power e l'altro −2000 power fino alla fine del turno successivo del tuo avversario. Poi, K. O. fino a 1 dei personaggi del tuo avversario con 3000 power o meno."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-118_p2.png",
@@ -4974,7 +5370,10 @@
     "family": [
       "Former Roger Pirates"
     ],
-    "effect": "[On Play] Select up to 2 of your opponent's Characters, and give 1 Character −3000 power and the other −2000 power until the end of your opponent's next turn. Then, K.O. up to 1 of your opponent's Characters with 3000 power or less.",
+    "effect": {
+      "en": "[On Play] Select up to 2 of your opponent's Characters, and give 1 Character −3000 power and the other −2000 power until the end of your opponent's next turn. Then, K.O. up to 1 of your opponent's Characters with 3000 power or less.",
+      "it": "[On Play] Seleziona fino a 2 personaggi del tuo avversario e dai a 1 personaggio −3000 power e l'altro −2000 power fino alla fine del turno successivo del tuo avversario. Poi, K. O. fino a 1 dei personaggi del tuo avversario con 3000 power o meno."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-118.png",
@@ -5009,7 +5408,10 @@
       "Animal Kingdom Pirates",
       "Big Mom Pirates"
     ],
-    "effect": "[When Attacking] DON!! −10: K.O. all Characters other than this Character. Then, add up to 1 card from the top of your deck to the top of your Life cards and trash up to 1 card from the top of your opponent's Life cards.",
+    "effect": {
+      "en": "[When Attacking] DON!! −10: K.O. all Characters other than this Character. Then, add up to 1 card from the top of your deck to the top of your Life cards and trash up to 1 card from the top of your opponent's Life cards.",
+      "it": "[When Attacking] DON!! −10: K. O. tutti i personaggi diversi da questo personaggio. Poi, aggiungi fino a 1 carta dalla cima del tuo mazzo in cima al tuo carte Life e Manda nel Trash fino a 1 carta dalla cima del tuo carte Life del tuo avversario."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-119_p1.png",
@@ -5045,7 +5447,10 @@
       "Animal Kingdom Pirates",
       "Big Mom Pirates"
     ],
-    "effect": "[When Attacking] DON!! −10: K.O. all Characters other than this Character. Then, add up to 1 card from the top of your deck to the top of your Life cards and trash up to 1 card from the top of your opponent's Life cards.",
+    "effect": {
+      "en": "[When Attacking] DON!! −10: K.O. all Characters other than this Character. Then, add up to 1 card from the top of your deck to the top of your Life cards and trash up to 1 card from the top of your opponent's Life cards.",
+      "it": "[When Attacking] DON!! −10: K. O. tutti i personaggi diversi da questo personaggio. Poi, aggiungi fino a 1 carta dalla cima del tuo mazzo in cima al tuo carte Life e Manda nel Trash fino a 1 carta dalla cima del tuo carte Life del tuo avversario."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP08-119.png",
@@ -5079,7 +5484,10 @@
       "Supernovas",
       "Bonney Pirates"
     ],
-    "effect": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may rest this Character: Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may rest this Character: Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[Activate: Main] ➀ (Puoi mettere in stato spossato il numero specificato di carte DON!! nella tua area di costo.) Puoi mettere in stato spossato questo Personaggio: guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 {Supernovas} tipo card and aggiungila alla tua mano. Poi, metti il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST02-007_p2.png",
@@ -5114,7 +5522,10 @@
       "The Seven Warlords of the Sea",
       "Thriller Bark Pirates"
     ],
-    "effect": "[On Play] Add up to 1 {The Seven Warlords of the Sea} or {Thriller Bark Pirates} type Character with a cost of 4 or less other than [Gecko Moria] from your trash to your hand.",
+    "effect": {
+      "en": "[On Play] Add up to 1 {The Seven Warlords of the Sea} or {Thriller Bark Pirates} type Character with a cost of 4 or less other than [Gecko Moria] from your trash to your hand.",
+      "it": "[On Play] Aggiungi fino a 1 Personaggio di tipo {The Seven Warlords of the Sea} o {Thriller Bark Pirates} con un costo pari o inferiore a 4 diverso da [Gecko Moria] dal tuo Trash alla tua mano."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST03-004_p1.png",
@@ -5148,7 +5559,10 @@
     "family": [
       "Animal Kingdom Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Draw 2 cards and trash 1 card from your hand.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Draw 2 cards and trash 1 card from your hand.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On Play] DON!! −1 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): Pesca 2 carte e Manda nel Trash 1 carta dalla tua mano."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST04-005_p1.png",
@@ -5183,7 +5597,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −2 cost during this turn.",
+    "effect": {
+      "en": "[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −2 cost during this turn.",
+      "it": "[Activate: Main] Puoi mettere in stato spossato questo Personaggio: Dai −2 costo a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "TWO LEGENDS [OP-08]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST06-006_p2.png",

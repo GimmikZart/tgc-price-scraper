@@ -44,7 +44,10 @@
       "Fish-Man",
       "Straw Hat Crew"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Opponent's Turn] If you have 10 DON!! cards on your field, this Character gains +1000 power.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Opponent's Turn] If you have 10 DON!! cards on your field, this Character gains +1000 power.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[Opponent's Turn] Se hai 10 carte DON!! sul tuo campo, Questo Personaggio guadagna +1000 power."
+    },
     "trigger": null,
     "setName": "PURPLE/BLACK Monkey.D.Luffy [ST-26]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-066_r2.png",
@@ -78,7 +81,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x1] If you have 8 or more DON!! cards on your field, this Character gains [Rush].(This card can attack on the turn in which it is played.)",
+    "effect": {
+      "en": "[DON!! x1] If you have 8 or more DON!! cards on your field, this Character gains [Rush].(This card can attack on the turn in which it is played.)",
+      "it": "[DON!! x1] Se hai 8 o più carte DON!! sul tuo campo, questo personaggio guadagna [Rush]. (Questa carta può attaccare nel turno in cui viene giocata.)"
+    },
     "trigger": null,
     "setName": "PURPLE/BLACK Monkey.D.Luffy [ST-26]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-070_r2.png",
@@ -114,7 +120,10 @@
       "The Four Emperors",
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x1] All of your Characters gain +1 cost.[Your Turn] [Once Per Turn] When 2 or more DON!! cards on your field are returned to your DON!! deck, add up to 1 DON!! card from your DON!! deck and set it as active, and add up to 1 additional DON!! card and rest it.",
+    "effect": {
+      "en": "[DON!! x1] All of your Characters gain +1 cost.[Your Turn] [Once Per Turn] When 2 or more DON!! cards on your field are returned to your DON!! deck, add up to 1 DON!! card from your DON!! deck and set it as active, and add up to 1 additional DON!! card and rest it.",
+      "it": "[DON!! x1] Tutti i tuoi personaggi guadagnano +1 costo. [Your Turn] [Once Per Turn] Quando 2 o più carte DON!! sul tuo campo vengono restituiti al tuo mazzo DON!! , aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e impostalo come attivo, quindi aggiungi fino a 1 carta DON!! aggiuntivo e lascialo mettere in stato spossato."
+    },
     "trigger": null,
     "setName": "PURPLE/BLACK Monkey.D.Luffy [ST-26]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-061_p2.png",
@@ -179,7 +188,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] You may return 1 or more DON!! cards from your field to your DON!! deck: Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
+    "effect": {
+      "en": "[On Play] You may return 1 or more DON!! cards from your field to your DON!! deck: Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
+      "it": "[On Play] Puoi restituire 1 o più carte DON!! dal tuo campo al tuo mazzo DON!! : dona fino a 2 in stato spossato carte DON!! al tuo Leader o 1 dei tuoi Personaggi."
+    },
     "trigger": null,
     "setName": "PURPLE/BLACK Monkey.D.Luffy [ST-26]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-070_r1.png",
@@ -212,7 +224,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] You may return 1 or more DON!! cards from your field to your DON!! deck: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": {
+      "en": "[On Play] You may return 1 or more DON!! cards from your field to your DON!! deck: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+      "it": "[On Play] Puoi restituire 1 o più carte DON!! dal tuo campo al tuo mazzo DON!! : aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e impostalo come attivo."
+    },
     "trigger": null,
     "setName": "PURPLE/BLACK Monkey.D.Luffy [ST-26]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-076_r1.png",
@@ -246,7 +261,10 @@
       "The Four Emperors",
       "Straw Hat Crew"
     ],
-    "effect": "[Main] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with 6000 power or less.",
+    "effect": {
+      "en": "[Main] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with 6000 power or less.",
+      "it": "[Main] DON!! −2 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): K. O. fino a 1 dei personaggi del tuo avversario con 6000 power o meno."
+    },
     "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "setName": "PURPLE/BLACK Monkey.D.Luffy [ST-26]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-077_r1.png",
@@ -280,7 +298,10 @@
       "The Four Emperors",
       "Straw Hat Crew"
     ],
-    "effect": "[Counter] DON!! −2, You may trash 1 card from your hand: If your Leader has the {Straw Hat Crew} type, up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, draw 2 cards.",
+    "effect": {
+      "en": "[Counter] DON!! −2, You may trash 1 card from your hand: If your Leader has the {Straw Hat Crew} type, up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, draw 2 cards.",
+      "it": "[Counter] DON!! −2, Puoi mandare nel Trash 1 carta dalla tua mano: se il tuo Leader ha il tipo {Straw Hat Crew}, fino a 1 delle tue carte Leader o Personaggio guadagna +4000 power durante questa battaglia. Poi pesca 2 carte."
+    },
     "trigger": null,
     "setName": "PURPLE/BLACK Monkey.D.Luffy [ST-26]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-078_p1.png",
@@ -343,7 +364,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "If you have a [San-Gorou] or [Sanji] Character with 7000 base power or more, give this card in your hand −5 cost.[On Play] Return all of your [San-Gorou] and [Sanji] Characters to the owner's hand.",
+    "effect": {
+      "en": "If you have a [San-Gorou] or [Sanji] Character with 7000 base power or more, give this card in your hand −5 cost.[On Play] Return all of your [San-Gorou] and [Sanji] Characters to the owner's hand.",
+      "it": "Se hai un personaggio [San-Gorou] o [Sanji] con 7000 power base o più, dai questa carta alla tua mano al -5 costo. [On Play] Riprendi tutti i tuoi personaggi [San-Gorou] e [Sanji] in mano al proprietario."
+    },
     "trigger": null,
     "setName": "PURPLE/BLACK Monkey.D.Luffy [ST-26]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST26-001.png",
@@ -377,7 +401,10 @@
       "Animal",
       "Straw Hat Crew"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 1 of your opponent's DON!! cards or Characters with a cost of 1 or less.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 1 of your opponent's DON!! cards or Characters with a cost of 1 or less.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On Play] DON!! −2 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): metti in stato spossato fino a 1 delle carte DON!! o Personaggi del tuo avversario con un costo pari o inferiore a 1."
+    },
     "trigger": null,
     "setName": "PURPLE/BLACK Monkey.D.Luffy [ST-26]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST26-002.png",
@@ -411,7 +438,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": {
+      "en": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Add up to 1 DON!! card from your DON!! deck and set it as active.",
+      "it": "[On Play] DON!! −2 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e impostalo come attivo."
+    },
     "trigger": null,
     "setName": "PURPLE/BLACK Monkey.D.Luffy [ST-26]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST26-003.png",
@@ -444,7 +474,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Give up to 2 of your opponent's Characters −2000 power during this turn.",
+    "effect": {
+      "en": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Give up to 2 of your opponent's Characters −2000 power during this turn.",
+      "it": "[On Play] DON!! −2 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): Dai −2000 power a un massimo di 2 Personaggi del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "PURPLE/BLACK Monkey.D.Luffy [ST-26]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST26-004.png",
@@ -477,7 +510,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[On Play]/[When Attacking] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader is multicolored and your opponent has 5 or more DON!! cards on their field, your {Straw Hat Crew} type Leader's base power becomes 7000 until the end of your opponent's next End Phase.",
+    "effect": {
+      "en": "[On Play]/[When Attacking] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader is multicolored and your opponent has 5 or more DON!! cards on their field, your {Straw Hat Crew} type Leader's base power becomes 7000 until the end of your opponent's next End Phase.",
+      "it": "[On Play]/[When Attacking] DON!! −2 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): Se il tuo Leader è multicolore e il tuo avversario ha 5 o più carte DON!! sul suo campo, i power base del tuo Leader di tipo {Straw Hat Crew} diventano 7000 fino alla fine della successiva End Phase del tuo avversario."
+    },
     "trigger": null,
     "setName": "PURPLE/BLACK Monkey.D.Luffy [ST-26]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST26-005.png",

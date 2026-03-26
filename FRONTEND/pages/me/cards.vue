@@ -32,8 +32,9 @@ const showPrice = ref(false)
 const gridRef = ref(null)
 const gridKey = ref(0);
 const scroller = ref(null)
+const sortedCards = computed(() => sort.applySort(filteredCards.value))
 
-const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer(visibleCards);
+const { show: viewerOpen, index: viewerIndex, open: openViewer } = useCardViewer(sortedCards);
 
 useScrollAnchor({
   scroller,            
@@ -65,6 +66,41 @@ async function loadCountsForChunk(chunk) {
     }
     card._countLoaded = true
   }))
+}
+
+async function loadCollectionCountForCard(card) {
+  const existingCount = Number(card?.count);
+  if (card?._countLoaded && Number.isInteger(existingCount) && existingCount >= 0) {
+    return {
+      collectionCount: existingCount,
+    };
+  }
+
+  const userId = userAuth.userLogged?.id;
+  if (!userId || !card?.id) {
+    return {
+      collectionCount: Number.isInteger(existingCount) && existingCount >= 0 ? existingCount : 0,
+    };
+  }
+
+  try {
+    const count = await fetchCardCountInCollection(userId, card.id);
+    card.count = count;
+    card._countLoaded = true;
+
+    return {
+      collectionCount: count,
+      collectionInfo: "Aggiorna le copie direttamente dal viewer senza uscire dalla carta.",
+    };
+  } catch {
+    const fallbackCount = Number.isInteger(existingCount) && existingCount >= 0 ? existingCount : 0;
+    card.count = fallbackCount;
+
+    return {
+      collectionCount: fallbackCount,
+      collectionInfo: "Aggiorna le copie direttamente dal viewer senza uscire dalla carta.",
+    };
+  }
 }
 
 async function addCardInCollection(card) {
@@ -114,7 +150,16 @@ const gridSystem = computed(() => {
   return cls;
 });
 
-const sortedCards = computed(() => sort.applySort(filteredCards.value))
+const viewerContext = computed(() => ({
+  showPrice: true,
+  showCollectionSection: true,
+  showCollectionActions: true,
+  collectionTitle: "Gestisci la tua collezione",
+  collectionInfo: "Aggiorna le copie direttamente dal viewer senza uscire dalla carta.",
+  loadState: loadCollectionCountForCard,
+  onAddCollection: addCardInCollection,
+  onRemoveCollection: removeCardInCollection,
+}));
 
 watch(openFilter, (newValue) => {
   if (newValue) {
@@ -225,6 +270,7 @@ onMounted(async () => {
       v-model:show="viewerOpen"
       v-model:index="viewerIndex"
       :cards="sortedCards"
+      :context="viewerContext"
       @close="viewerOpen = false"
     />
   </section>

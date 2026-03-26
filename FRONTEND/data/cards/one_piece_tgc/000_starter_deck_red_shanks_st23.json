@@ -14,7 +14,10 @@
       "The Four Emperors",
       "Red-Haired Pirates"
     ],
-    "effect": "[Once Per Turn] This effect can be activated when your opponent attacks. Give up to 1 of your opponent's Leader or Character cards −1000 power during this turn.",
+    "effect": {
+      "en": "[Once Per Turn] This effect can be activated when your opponent attacks. Give up to 1 of your opponent's Leader or Character cards −1000 power during this turn.",
+      "it": "[Once Per Turn] Questo effetto può essere attivato quando il tuo avversario attacca. Dai −1000 power a un massimo di 1 carta Leader o Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "RED Shanks [ST-23]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-001_p2.png",
@@ -77,7 +80,10 @@
     "family": [
       "Red-Haired Pirates"
     ],
-    "effect": "[On Play] Play up to 1 [Monster] from your hand.[DON!! x1] [When Attacking] This Character gains +2000 power during this turn.",
+    "effect": {
+      "en": "[On Play] Play up to 1 [Monster] from your hand.[DON!! x1] [When Attacking] This Character gains +2000 power during this turn.",
+      "it": "[On Play] Gioca fino a 1 [Monster] dalla tua mano. [DON!! x1] [When Attacking] Questo Personaggio guadagna +2000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "RED Shanks [ST-23]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-010_r1.png",
@@ -112,7 +118,10 @@
     "family": [
       "Red-Haired Pirates"
     ],
-    "effect": "[Activate: Main] You may rest this Character: If your Leader has the {Red-Haired Pirates} type, give up to 1 of your opponent's Characters −2000 power during this turn.",
+    "effect": {
+      "en": "[Activate: Main] You may rest this Character: If your Leader has the {Red-Haired Pirates} type, give up to 1 of your opponent's Characters −2000 power during this turn.",
+      "it": "[Activate: Main] Puoi mettere in stato spossato questo Personaggio: Se il tuo Leader ha il {Red-Haired Pirates} tipo, Dai −2000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "RED Shanks [ST-23]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-011_r1.png",
@@ -146,7 +155,10 @@
       "Animal",
       "Red-Haired Pirates"
     ],
-    "effect": "If your Character [Bonk Punch] would be K.O.'d by an effect, you may trash this Character instead.",
+    "effect": {
+      "en": "If your Character [Bonk Punch] would be K.O.'d by an effect, you may trash this Character instead.",
+      "it": "Se il tuo personaggio [Bonk Punch] dovesse essere K. O. colpito da un effetto, puoi invece Manda nel Trash questo personaggio."
+    },
     "trigger": null,
     "setName": "RED Shanks [ST-23]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-012_r1.png",
@@ -176,7 +188,10 @@
     "family": [
       "Red-Haired Pirates"
     ],
-    "effect": "[On Play] Up to 1 of your Leader gains +1000 power until the end of your opponent's next turn.[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −1000 power during this turn.",
+    "effect": {
+      "en": "[On Play] Up to 1 of your Leader gains +1000 power until the end of your opponent's next turn.[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −1000 power during this turn.",
+      "it": "[On Play] Fino a 1 dei tuoi Leader guadagna +1000 power fino alla fine del turno successivo del tuo avversario. [DON!! x1] [When Attacking] Dai −1000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "RED Shanks [ST-23]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-013_r1.png",
@@ -211,7 +226,10 @@
     "family": [
       "Red-Haired Pirates"
     ],
-    "effect": "[On Play] Your opponent cannot activate up to 1 [Blocker] Character that has 4000 power or less during this turn.",
+    "effect": {
+      "en": "[On Play] Your opponent cannot activate up to 1 [Blocker] Character that has 4000 power or less during this turn.",
+      "it": "[On Play] Il tuo avversario non può attivare fino a 1 personaggio [Blocker] con 4000 power o meno durante questo turno."
+    },
     "trigger": null,
     "setName": "RED Shanks [ST-23]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-014_r1.png",
@@ -245,7 +263,10 @@
     "family": [
       "Red-Haired Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] If your Leader has the {Red-Haired Pirates} type, K.O. up to 1 of your opponent's Characters with a base power of 6000 or less.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] If your Leader has the {Red-Haired Pirates} type, K.O. up to 1 of your opponent's Characters with a base power of 6000 or less.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi appoggiare questa carta per renderla il nuovo bersaglio dell'attacco.)[On K.O.] Se il tuo Leader ha il tipo {Red-Haired Pirates}, K. O. fino a 1 dei personaggi del tuo avversario con un power base di 6000 o inferiore."
+    },
     "trigger": null,
     "setName": "RED Shanks [ST-23]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-015_r1.png",
@@ -310,7 +331,10 @@
       "The Four Emperors",
       "Red-Haired Pirates"
     ],
-    "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Red-Haired Pirates} type card other than [Come On!! We'll Fight You!!] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Red-Haired Pirates} type card other than [Come On!! We'll Fight You!!] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[Main] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Red-Haired Pirates} diversa da [Come On!! We'll Fight You!!] e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": "Trigger[Trigger] Draw 1 card.",
     "setName": "RED Shanks [ST-23]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-020_r1.png",
@@ -343,7 +367,10 @@
     "family": [
       "FILM"
     ],
-    "effect": "If you have a Character with 10000 power or more, give this card in your hand −4 cost.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "If you have a Character with 10000 power or more, give this card in your hand −4 cost.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "Se hai un personaggio con 10000 power o più, dai a questa carta nella tua mano un -4 costo. [Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "RED Shanks [ST-23]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST23-001.png",
@@ -377,7 +404,10 @@
       "The Four Emperors",
       "Red-Haired Pirates"
     ],
-    "effect": "If your opponent has a Character with 8000 base power or more, give this card in your hand −3 cost.[On Play] If your Leader has the {Red-Haired Pirates} type or is [Uta], your Leader gains +2000 power until the end of your opponent's next End Phase.",
+    "effect": {
+      "en": "If your opponent has a Character with 8000 base power or more, give this card in your hand −3 cost.[On Play] If your Leader has the {Red-Haired Pirates} type or is [Uta], your Leader gains +2000 power until the end of your opponent's next End Phase.",
+      "it": "Se il tuo avversario ha un Personaggio con 8000 power base o più, dai questa carta alla tua mano al -3 costo. [On Play] Se il tuo Leader ha il tipo {Red-Haired Pirates} o è [Uta], il tuo Leader guadagna +2000 power fino alla fine della prossima End Phase del tuo avversario."
+    },
     "trigger": null,
     "setName": "RED Shanks [ST-23]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST23-002.png",
@@ -410,7 +440,10 @@
     "family": [
       "Red-Haired Pirates"
     ],
-    "effect": "[On Play] You may trash 1 card from your hand: If your Leader has the {Red-Haired Pirates} type, K.O. up to 1 of your opponent's Characters with 4000 base power or less.",
+    "effect": {
+      "en": "[On Play] You may trash 1 card from your hand: If your Leader has the {Red-Haired Pirates} type, K.O. up to 1 of your opponent's Characters with 4000 base power or less.",
+      "it": "[On Play] Puoi mandare nel Trash 1 carta dalla tua mano: se il tuo Leader ha il tipo {Red-Haired Pirates}, K. O. fino a 1 dei personaggi del tuo avversario con power base pari o inferiore a 4000."
+    },
     "trigger": null,
     "setName": "RED Shanks [ST-23]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST23-003.png",
@@ -445,7 +478,10 @@
       "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "[Activate: Main] You may rest 1 of your DON!! cards and this Character: Give up to 1 of your opponent's Characters −1000 power during this turn.",
+    "effect": {
+      "en": "[Activate: Main] You may rest 1 of your DON!! cards and this Character: Give up to 1 of your opponent's Characters −1000 power during this turn.",
+      "it": "[Activate: Main] Puoi rest 1 of your carte DON!! and this Personaggio: Dai −1000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "RED Shanks [ST-23]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST23-004.png",
@@ -478,7 +514,10 @@
     "family": [
       "Red-Haired Pirates"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+      "it": "[Activate: Main] [Once Per Turn] Assegna fino a 1 carta DON!! in stato spossato al tuo Leader o a 1 dei tuoi Personaggi."
+    },
     "trigger": null,
     "setName": "RED Shanks [ST-23]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST23-005.png",

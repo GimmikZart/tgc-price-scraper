@@ -637,7 +637,10 @@ async function remapCardsData(cardData) {
       }
 
       const sanitizedEffect = cardData.effect.trim().replace("Effect", "");
-      cardData.effect = sanitizedEffect === "-" ? null : sanitizedEffect;
+      cardData.effect = sanitizedEffect === "-" ? null : {
+        en: sanitizedEffect,
+        it: null,
+      };
     } catch (error) {
       await broadcastEvent(
         "generic_error",

@@ -15,7 +15,10 @@
       "Land of Wano",
       "Kouzuki Clan"
     ],
-    "effect": "All of your {Land of Wano} type Character cards without a Counter have a +1000 Counter, according to the rules.[DON!! x1] [When Attacking] If you have a {Land of Wano} type Character with a cost of 5 or more, this Leader gains +1000 power until the start of your next turn.",
+    "effect": {
+      "en": "All of your {Land of Wano} type Character cards without a Counter have a +1000 Counter, according to the rules.[DON!! x1] [When Attacking] If you have a {Land of Wano} type Character with a cost of 5 or more, this Leader gains +1000 power until the start of your next turn.",
+      "it": "Tutte le tue carte Personaggio di tipo {Land of Wano} senza Counter hanno un +1000 Counter, secondo le regole. [DON!! x1] [When Attacking] Se hai un Personaggio di tipo {Land of Wano} con un costo pari o superiore a 5, Questo Leader guadagna +1000 power fino all'inizio del tuo prossimo turno."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-001.png",
@@ -51,7 +54,10 @@
       "Land of Wano",
       "Kouzuki Clan"
     ],
-    "effect": "All of your {Land of Wano} type Character cards without a Counter have a +1000 Counter, according to the rules.[DON!! x1] [When Attacking] If you have a {Land of Wano} type Character with a cost of 5 or more, this Leader gains +1000 power until the start of your next turn.",
+    "effect": {
+      "en": "All of your {Land of Wano} type Character cards without a Counter have a +1000 Counter, according to the rules.[DON!! x1] [When Attacking] If you have a {Land of Wano} type Character with a cost of 5 or more, this Leader gains +1000 power until the start of your next turn.",
+      "it": "Tutte le tue carte Personaggio di tipo {Land of Wano} senza Counter hanno un +1000 Counter, secondo le regole. [DON!! x1] [When Attacking] Se hai un Personaggio di tipo {Land of Wano} con un costo pari o superiore a 5, Questo Leader guadagna +1000 power fino all'inizio del tuo prossimo turno."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-001_p1.png",
@@ -87,7 +93,10 @@
       "Land of Wano",
       "Whitebeard Pirates"
     ],
-    "effect": "[On Play] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.[On Your Opponent's Attack] [Once Per Turn] You may trash 1 card from your hand: If your Leader has the {Land of Wano} or {Whitebeard Pirates} type, give up to 1 of your opponent's Leader or Character cards −2000 power during this turn.",
+    "effect": {
+      "en": "[On Play] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.[On Your Opponent's Attack] [Once Per Turn] You may trash 1 card from your hand: If your Leader has the {Land of Wano} or {Whitebeard Pirates} type, give up to 1 of your opponent's Leader or Character cards −2000 power during this turn.",
+      "it": "[On Play] Assegna fino a 1 carta DON!! in stato spossato al tuo Leader o 1 dei tuoi Personaggi. [On Your Opponent's Attack] [Once Per Turn] Puoi mandare nel Trash 1 carta dalla tua mano: Se il tuo Leader ha il tipo {Land of Wano} o {Whitebeard Pirates}, Dai −2000 power a un massimo di 1 carta Leader o Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-002.png",
@@ -123,7 +132,10 @@
       "Supernovas",
       "Kid Pirates"
     ],
-    "effect": "[Rush] (This card can attack on the turn in which it is played.)[When Attacking] If your opponent has 2 or less Life cards, this Character gains +2000 power during this turn.",
+    "effect": {
+      "en": "[Rush] (This card can attack on the turn in which it is played.)[When Attacking] If your opponent has 2 or less Life cards, this Character gains +2000 power during this turn.",
+      "it": "[Rush] (Questa carta può attaccare nel turno in cui viene giocata.)[When Attacking] Se il tuo avversario ha 2 o meno carte Life, Questo Personaggio guadagna +2000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-003.png",
@@ -158,7 +170,10 @@
       "Supernovas",
       "Kid Pirates"
     ],
-    "effect": "[Rush] (This card can attack on the turn in which it is played.)[When Attacking] If your opponent has 2 or less Life cards, this Character gains +2000 power during this turn.",
+    "effect": {
+      "en": "[Rush] (This card can attack on the turn in which it is played.)[When Attacking] If your opponent has 2 or less Life cards, this Character gains +2000 power during this turn.",
+      "it": "[Rush] (Questa carta può attaccare nel turno in cui viene giocata.)[When Attacking] Se il tuo avversario ha 2 o meno carte Life, Questo Personaggio guadagna +2000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-003_p1.png",
@@ -193,7 +208,10 @@
     "family": [
       "Alabasta"
     ],
-    "effect": "[When Attacking] You may give your 1 active Leader −5000 power during this turn: Give up to 1 of your opponent's Characters −3000 power during this turn.",
+    "effect": {
+      "en": "[When Attacking] You may give your 1 active Leader −5000 power during this turn: Give up to 1 of your opponent's Characters −3000 power during this turn.",
+      "it": "[When Attacking] Puoi dare al tuo 1 Leader attivo −5000 power durante questo turno: Dai −3000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-004.png",
@@ -257,7 +275,10 @@
       "Animal",
       "Straw Hat Crew"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x2] [When Attacking] Give up to 1 of your opponent's Characters −3000 power during this turn.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x2] [When Attacking] Give up to 1 of your opponent's Characters −3000 power during this turn.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[DON!! x2] [When Attacking] Dai −3000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-006.png",
@@ -293,7 +314,10 @@
       "Animal",
       "Straw Hat Crew"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x2] [When Attacking] Give up to 1 of your opponent's Characters −3000 power during this turn.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x2] [When Attacking] Give up to 1 of your opponent's Characters −3000 power during this turn.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[DON!! x2] [When Attacking] Dai −3000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-006_p1.png",
@@ -330,7 +354,10 @@
       "Animal",
       "Straw Hat Crew"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x2] [When Attacking] Give up to 1 of your opponent's Characters −3000 power during this turn.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x2] [When Attacking] Give up to 1 of your opponent's Characters −3000 power during this turn.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[DON!! x2] [When Attacking] Dai −3000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-006_p2.png",
@@ -366,7 +393,10 @@
     "family": [
       "Land of Wano"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+      "it": "[Activate: Main] [Once Per Turn] Assegna fino a 1 carta DON!! in stato spossato al tuo Leader o a 1 dei tuoi Personaggi."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-007.png",
@@ -401,7 +431,10 @@
       "Giant",
       "Whitebeard Pirates Allies"
     ],
-    "effect": "[Once Per Turn] If this Character would be K.O.'d by an effect, you may trash 1 Event or Stage card from your hand instead.",
+    "effect": {
+      "en": "[Once Per Turn] If this Character would be K.O.'d by an effect, you may trash 1 Event or Stage card from your hand instead.",
+      "it": "[Once Per Turn] Se questo Personaggio dovesse essere K. O. colpito da un effetto, puoi invece Manda nel Trash 1 carta Evento o Fase dalla tua mano."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-008.png",
@@ -435,7 +468,10 @@
       "Drum Kingdom",
       "Straw Hat Crew"
     ],
-    "effect": "[Counter] Look at 5 cards from the top of your deck and play up to 1 {Animal} type Character card with a cost of 3 or less. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[Counter] Look at 5 cards from the top of your deck and play up to 1 {Animal} type Character card with a cost of 3 or less. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[Counter] Guarda 5 carte dalla cima del tuo mazzo e gioca fino a 1 carta Personaggio di tipo {Animal} con un costo pari o inferiore a 3. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-009.png",
@@ -469,7 +505,10 @@
       "Water Seven",
       "Straw Hat Crew"
     ],
-    "effect": "[Counter] K.O. up to 1 of your opponent's Characters with 6000 base power or less.",
+    "effect": {
+      "en": "[Counter] K.O. up to 1 of your opponent's Characters with 6000 base power or less.",
+      "it": "[Counter] K. O. fino a 1 personaggio del tuo avversario con power base pari o inferiore a 6000."
+    },
     "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with 5000 base power or less.",
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-010.png",
@@ -502,7 +541,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Activate: Main] You may rest this card and place 1 of your Characters with 1000 base power at the bottom of your deck: Draw 1 card.",
+    "effect": {
+      "en": "[Activate: Main] You may rest this card and place 1 of your Characters with 1000 base power at the bottom of your deck: Draw 1 card.",
+      "it": "[Activate: Main] Puoi mettere in stato spossato questa carta e posizionare 1 dei tuoi Personaggi con 1000 power base in fondo al tuo mazzo: Pesca 1 carta."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-011.png",
@@ -536,7 +578,10 @@
       "Supernovas",
       "Beautiful Pirates"
     ],
-    "effect": "[On Play]/[When Attacking] If your Leader has the {Supernovas} type and you have no other [Cavendish] Characters, set up to 2 of your DON!! cards as active.",
+    "effect": {
+      "en": "[On Play]/[When Attacking] If your Leader has the {Supernovas} type and you have no other [Cavendish] Characters, set up to 2 of your DON!! cards as active.",
+      "it": "[On Play]/[When Attacking] Se il tuo Leader ha il tipo {Supernovas} e non hai altri personaggi [Cavendish], imposta fino a 2 delle tue carte DON!! come attivi."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-012.png",
@@ -571,7 +616,10 @@
       "Supernovas",
       "Beautiful Pirates"
     ],
-    "effect": "[On Play]/[When Attacking] If your Leader has the {Supernovas} type and you have no other [Cavendish] Characters, set up to 2 of your DON!! cards as active.",
+    "effect": {
+      "en": "[On Play]/[When Attacking] If your Leader has the {Supernovas} type and you have no other [Cavendish] Characters, set up to 2 of your DON!! cards as active.",
+      "it": "[On Play]/[When Attacking] Se il tuo Leader ha il tipo {Supernovas} e non hai altri personaggi [Cavendish], imposta fino a 2 delle tue carte DON!! come attivi."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-012_p1.png",
@@ -607,7 +655,10 @@
       "Land of Wano",
       "Kouzuki Clan"
     ],
-    "effect": "[Activate: Main] You may trash this Character: Play up to 1 {Land of Wano} type Character card with a cost of 5 or less other than [Kouzuki Hiyori] from your hand. Then, draw 1 card.",
+    "effect": {
+      "en": "[Activate: Main] You may trash this Character: Play up to 1 {Land of Wano} type Character card with a cost of 5 or less other than [Kouzuki Hiyori] from your hand. Then, draw 1 card.",
+      "it": "[Activate: Main] Puoi mandare nel Trash questo Personaggio: Giocare fino a 1 carta Personaggio di tipo {Land of Wano} con un costo pari o inferiore a 5 diversa da [Kouzuki Hiyori] dalla tua mano. Poi pesca 1 carta."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-013.png",
@@ -641,7 +692,10 @@
       "Land of Wano",
       "Kouzuki Clan"
     ],
-    "effect": "[Activate: Main] You may trash this Character: Play up to 1 {Land of Wano} type Character card with a cost of 5 or less other than [Kouzuki Hiyori] from your hand. Then, draw 1 card.",
+    "effect": {
+      "en": "[Activate: Main] You may trash this Character: Play up to 1 {Land of Wano} type Character card with a cost of 5 or less other than [Kouzuki Hiyori] from your hand. Then, draw 1 card.",
+      "it": "[Activate: Main] Puoi mandare nel Trash questo Personaggio: Giocare fino a 1 carta Personaggio di tipo {Land of Wano} con un costo pari o inferiore a 5 diversa da [Kouzuki Hiyori] dalla tua mano. Poi pesca 1 carta."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-013_p1.png",
@@ -676,7 +730,10 @@
       "FILM",
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x1] [Your Turn] This Character gains +1000 power for every 3 of your rested DON!! cards.",
+    "effect": {
+      "en": "[DON!! x1] [Your Turn] This Character gains +1000 power for every 3 of your rested DON!! cards.",
+      "it": "[DON!! x1] [Your Turn] Questo personaggio guadagna +1000 power per ogni 3 delle tue carte DON!! in stato spossato."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-014.png",
@@ -711,7 +768,10 @@
       "Supernovas",
       "On-Air Pirates"
     ],
-    "effect": "[On Play] Rest up to 1 of your opponent's Characters with a cost of 2 or less.",
+    "effect": {
+      "en": "[On Play] Rest up to 1 of your opponent's Characters with a cost of 2 or less.",
+      "it": "[On Play] Metti in stato spossato fino a 1 personaggio del tuo avversario con un costo pari o inferiore a 2."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-015.png",
@@ -744,7 +804,10 @@
     "family": [
       "Land of Wano"
     ],
-    "effect": "[Activate: Main] You may rest this Character: K.O. up to 1 of your opponent's rested Characters with a cost of 1 or less.",
+    "effect": {
+      "en": "[Activate: Main] You may rest this Character: K.O. up to 1 of your opponent's rested Characters with a cost of 1 or less.",
+      "it": "[Activate: Main] Puoi mettere in stato spossato questo Personaggio: K. O. up to 1 of your opponent's in stato spossato Personaggi with a cost of 1 or less."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-016.png",
@@ -778,7 +841,10 @@
       "FILM",
       "CP0"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-017.png",
@@ -843,7 +909,10 @@
       "The Seven Warlords of the Sea",
       "Donquixote Pirates"
     ],
-    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, look at 3 cards from the top of your deck; reveal up to 1 {Donquixote Pirates} type Character card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, look at 3 cards from the top of your deck; reveal up to 1 {Donquixote Pirates} type Character card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[Counter] Fino a 1 delle tue carte Leader o Personaggio ottiene +4000 power durante questa battaglia. Poi, guarda 3 carte dalla cima del tuo mazzo; rivela fino a 1 carta Personaggio di tipo {Donquixote Pirates} e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-019.png",
@@ -877,7 +946,10 @@
       "Supernovas",
       "Heart Pirates"
     ],
-    "effect": "[Main] If your Leader has the {Supernovas} type, return 1 of your Characters to the owner's hand, and play up to 1 Character card with a cost of 2 or less from your hand that is a different color than the returned Character.",
+    "effect": {
+      "en": "[Main] If your Leader has the {Supernovas} type, return 1 of your Characters to the owner's hand, and play up to 1 Character card with a cost of 2 or less from your hand that is a different color than the returned Character.",
+      "it": "[Main] Se il tuo Leader ha il tipo {Supernovas}, restituisci 1 dei tuoi Personaggi in mano al proprietario e gioca fino a 1 carta Personaggio con un costo pari o inferiore a 2 dalla tua mano che sia di un colore diverso da quello del Personaggio restituito."
+    },
     "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-020.png",
@@ -911,7 +983,10 @@
     "family": [
       "Impel Down"
     ],
-    "effect": "[End of Your Turn] You may return 1 of your {Impel Down} type Characters with a cost of 2 or more to the owner's hand: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": {
+      "en": "[End of Your Turn] You may return 1 of your {Impel Down} type Characters with a cost of 2 or more to the owner's hand: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+      "it": "[End of Your Turn] Puoi restituire 1 dei tuoi personaggi di tipo {Impel Down} con un costo pari o superiore a 2 in mano al proprietario: aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e impostalo come attivo."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-021.png",
@@ -945,7 +1020,10 @@
     "family": [
       "Impel Down"
     ],
-    "effect": "[End of Your Turn] You may return 1 of your {Impel Down} type Characters with a cost of 2 or more to the owner's hand: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": {
+      "en": "[End of Your Turn] You may return 1 of your {Impel Down} type Characters with a cost of 2 or more to the owner's hand: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+      "it": "[End of Your Turn] Puoi restituire 1 dei tuoi personaggi di tipo {Impel Down} con un costo pari o superiore a 2 in mano al proprietario: aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e impostalo come attivo."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-021_p1.png",
@@ -980,7 +1058,10 @@
       "Impel Down",
       "Revolutionary Army"
     ],
-    "effect": "[End of Your Turn] If you have 2 or less cards in your hand, draw 2 cards.",
+    "effect": {
+      "en": "[End of Your Turn] If you have 2 or less cards in your hand, draw 2 cards.",
+      "it": "[End of Your Turn] Se hai 2 o meno carte in mano, pesca 2 carte."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-022.png",
@@ -1014,7 +1095,10 @@
       "Impel Down",
       "Revolutionary Army"
     ],
-    "effect": "[End of Your Turn] If you have 2 or less cards in your hand, draw 2 cards.",
+    "effect": {
+      "en": "[End of Your Turn] If you have 2 or less cards in your hand, draw 2 cards.",
+      "it": "[End of Your Turn] Se hai 2 o meno carte in mano, pesca 2 carte."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-022_p1.png",
@@ -1048,7 +1132,10 @@
     "family": [
       "The Seven Warlords of the Sea"
     ],
-    "effect": "[On Play] Draw 1 card.",
+    "effect": {
+      "en": "[On Play] Draw 1 card.",
+      "it": "[On Play] Pesca 1 carta."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-023.png",
@@ -1082,7 +1169,10 @@
       "Animal Kingdom Pirates",
       "SMILE"
     ],
-    "effect": "If you have 4 or less cards in your hand, all of your {SMILE} type Characters gain +1000 power.",
+    "effect": {
+      "en": "If you have 4 or less cards in your hand, all of your {SMILE} type Characters gain +1000 power.",
+      "it": "Se hai 4 o meno carte in mano, tutti i tuoi personaggi di tipo {SMILE} guadagnano +1000 power."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-024.png",
@@ -1143,7 +1233,10 @@
     "family": [
       "Impel Down"
     ],
-    "effect": "[DON!! x1] [When Attacking] If you have 1 or less cards in your hand, return up to 1 Character with a cost of 3 or less to the owner's hand.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] If you have 1 or less cards in your hand, return up to 1 Character with a cost of 3 or less to the owner's hand.",
+      "it": "[DON!! x1] [When Attacking] Se hai 1 o meno carte in mano, fai ritornare fino a 1 Personaggio con un costo pari o inferiore a 3 nella mano del proprietario."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-026.png",
@@ -1177,7 +1270,10 @@
     "family": [
       "Baroque Works"
     ],
-    "effect": "If your Leader's type includes \"Baroque Works\", this Character gains +1000 power for every 2 Events in your trash.[On Play] Draw 2 cards and trash 1 card from your hand.",
+    "effect": {
+      "en": "If your Leader's type includes \"Baroque Works\", this Character gains +1000 power for every 2 Events in your trash.[On Play] Draw 2 cards and trash 1 card from your hand.",
+      "it": "Se il tipo del tuo Leader include \"Opere Barocche\", questo Personaggio guadagna +1000 power per ogni 2 Eventi nei tuoi Trash. [On Play] Pesca 2 carte e Manda nel Trash 1 carta dalla tua mano."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-027.png",
@@ -1210,7 +1306,10 @@
     "family": [
       "Baroque Works"
     ],
-    "effect": "If your Leader's type includes \"Baroque Works\", this Character gains +1000 power for every 2 Events in your trash.[On Play] Draw 2 cards and trash 1 card from your hand.",
+    "effect": {
+      "en": "If your Leader's type includes \"Baroque Works\", this Character gains +1000 power for every 2 Events in your trash.[On Play] Draw 2 cards and trash 1 card from your hand.",
+      "it": "Se il tipo del tuo Leader include \"Opere Barocche\", questo Personaggio guadagna +1000 power per ogni 2 Eventi nei tuoi Trash. [On Play] Pesca 2 carte e Manda nel Trash 1 carta dalla tua mano."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-027_p1.png",
@@ -1245,7 +1344,10 @@
       "Impel Down",
       "Straw Hat Crew"
     ],
-    "effect": "[Counter] If your Leader has the {Impel Down} type, up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, your opponent returns 1 of their active Characters to the owner's hand.",
+    "effect": {
+      "en": "[Counter] If your Leader has the {Impel Down} type, up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, your opponent returns 1 of their active Characters to the owner's hand.",
+      "it": "[Counter] Se il tuo Leader è del tipo {Impel Down}, fino a 1 delle tue carte Leader o Personaggio guadagna +2000 power durante questa battaglia. Poi, il tuo avversario fa ritornare 1 dei suoi personaggi attivi in ​​mano al proprietario."
+    },
     "trigger": "Trigger[Trigger] Return up to 1 Character with a cost of 3 or less to the bottom of the owner's deck.",
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-028.png",
@@ -1279,7 +1381,10 @@
       "East Blue",
       "Straw Hat Crew"
     ],
-    "effect": "[Counter] Reveal 1 card from the top of your deck. If the revealed card has a cost of 4 or more, return up to 1 of your Characters to the owner's hand. Then, place the revealed card at the bottom of your deck.",
+    "effect": {
+      "en": "[Counter] Reveal 1 card from the top of your deck. If the revealed card has a cost of 4 or more, return up to 1 of your Characters to the owner's hand. Then, place the revealed card at the bottom of your deck.",
+      "it": "[Counter] Rivela 1 carta dalla cima del tuo mazzo. Se la carta rivelata ha un costo pari o superiore a 4, fai ritornare fino a 1 dei tuoi Personaggi in mano al proprietario. Quindi, posiziona la carta rivelata in fondo al tuo mazzo."
+    },
     "trigger": "Trigger[Trigger] Return up to 1 Character with a cost of 8 or less to the owner's hand.",
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-029.png",
@@ -1312,7 +1417,10 @@
     "family": [
       "East Blue"
     ],
-    "effect": "[Activate: Main] You may place this card and 1 card from your hand at the bottom of your deck in any order: Draw 2 cards.",
+    "effect": {
+      "en": "[Activate: Main] You may place this card and 1 card from your hand at the bottom of your deck in any order: Draw 2 cards.",
+      "it": "[Activate: Main] Puoi mettere questa carta e 1 carta dalla tua mano in fondo al tuo mazzo in qualsiasi ordine: Pesca 2 carte."
+    },
     "trigger": "Trigger[Trigger] Play this card.",
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-030.png",
@@ -1346,7 +1454,10 @@
       "Water Seven",
       "Galley-La Company"
     ],
-    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Water Seven} type, add up to 2 Character cards with a cost of 4 or less from your trash to your hand.",
+    "effect": {
+      "en": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Water Seven} type, add up to 2 Character cards with a cost of 4 or less from your trash to your hand.",
+      "it": "[On Play] DON!! −1 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): Se il tuo Leader ha il tipo {Water Seven}, aggiungi fino a 2 carte Personaggio con un costo pari o inferiore a 4 dal tuo Trash alla tua mano."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-031.png",
@@ -1380,7 +1491,10 @@
       "Water Seven",
       "Galley-La Company"
     ],
-    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Water Seven} type, add up to 2 Character cards with a cost of 4 or less from your trash to your hand.",
+    "effect": {
+      "en": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Water Seven} type, add up to 2 Character cards with a cost of 4 or less from your trash to your hand.",
+      "it": "[On Play] DON!! −1 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): Se il tuo Leader ha il tipo {Water Seven}, aggiungi fino a 2 carte Personaggio con un costo pari o inferiore a 4 dal tuo Trash alla tua mano."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-031_p1.png",
@@ -1445,7 +1559,10 @@
     "family": [
       "Water Seven"
     ],
-    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Water Seven} type, play up to 1 {Water Seven} type Character card with a cost of 5 other than [Blueno] from your hand or trash.",
+    "effect": {
+      "en": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Water Seven} type, play up to 1 {Water Seven} type Character card with a cost of 5 other than [Blueno] from your hand or trash.",
+      "it": "[On Play] DON!! −1 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): Se il tuo Leader ha il tipo {Water Seven}, gioca fino a 1 carta Personaggio di tipo {Water Seven} con un costo di 5 diverso da [Blueno] dalla tua mano o Trash."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-033.png",
@@ -1478,7 +1595,10 @@
     "family": [
       "Baroque Works"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Your Opponent's Attack] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader's type includes \"Baroque Works\", add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Your Opponent's Attack] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader's type includes \"Baroque Works\", add up to 1 DON!! card from your DON!! deck and set it as active.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On Your Opponent's Attack] [Once Per Turn] DON!! −1 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): Se il tipo del tuo Leader include \"Opere Barocche\", aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e impostalo come attivo."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-034.png",
@@ -1513,7 +1633,10 @@
     "family": [
       "Baroque Works"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Your Opponent's Attack] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader's type includes \"Baroque Works\", add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Your Opponent's Attack] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader's type includes \"Baroque Works\", add up to 1 DON!! card from your DON!! deck and set it as active.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On Your Opponent's Attack] [Once Per Turn] DON!! −1 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): Se il tipo del tuo Leader include \"Opere Barocche\", aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e impostalo come attivo."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-034_p1.png",
@@ -1549,7 +1672,10 @@
     "family": [
       "Baroque Works"
     ],
-    "effect": "[On Play] If your Leader's type includes \"Baroque Works\", up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "effect": {
+      "en": "[On Play] If your Leader's type includes \"Baroque Works\", up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+      "it": "[On Play] Se il tipo del tuo Leader include \"Opere Barocche\", fino a 1 delle tue carte Leader o Personaggio guadagna +1000 power durante questo turno."
+    },
     "trigger": "Trigger[Trigger] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play this card.",
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-035.png",
@@ -1583,7 +1709,10 @@
       "Impel Down",
       "Jailer Beast"
     ],
-    "effect": "[Rush] (This card can attack on the turn in which it is played.)[On K.O.] If your Leader has the {Impel Down} type, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "effect": {
+      "en": "[Rush] (This card can attack on the turn in which it is played.)[On K.O.] If your Leader has the {Impel Down} type, add up to 1 DON!! card from your DON!! deck and rest it.",
+      "it": "[Rush] (Questa carta può attaccare nel turno in cui viene giocata.)[On K.O.] Se il tuo Leader ha il tipo {Impel Down}, somma fino a 1 carta DON!! dal tuo mazzo DON!! e lascialo mettere in stato spossato."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-036.png",
@@ -1617,7 +1746,10 @@
     "family": [
       "Baroque Works"
     ],
-    "effect": "[On Your Opponent's Attack] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
+    "effect": {
+      "en": "[On Your Opponent's Attack] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
+      "it": "[On Your Opponent's Attack] [Once Per Turn] DON!! −1 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): K. O. fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 2."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-037.png",
@@ -1651,7 +1783,10 @@
     "family": [
       "Baroque Works"
     ],
-    "effect": "[Counter] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader's type includes \"Baroque Works\", select 1 of your Characters. Change the attack target to the selected Character.",
+    "effect": {
+      "en": "[Counter] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader's type includes \"Baroque Works\", select 1 of your Characters. Change the attack target to the selected Character.",
+      "it": "[Counter] DON!! −1 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): Se il tipo del tuo Leader include \"Opere barocche\", seleziona 1 dei tuoi personaggi. Cambia il bersaglio dell'attacco nel personaggio selezionato."
+    },
     "trigger": "Trigger[Trigger] DON!! −1: Draw 2 cards.",
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-038.png",
@@ -1685,7 +1820,10 @@
       "The Four Emperors",
       "Animal Kingdom Pirates"
     ],
-    "effect": "[Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 8 or less.",
+    "effect": {
+      "en": "[Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 8 or less.",
+      "it": "[Main] DON!! −1 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): K. O. fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 8."
+    },
     "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-039.png",
@@ -1719,7 +1857,10 @@
     "family": [
       "Dressrosa"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] You may turn 1 card from the top of your Life cards face-up: K.O. up to 1 of your opponent's Characters with a cost of 0.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] You may turn 1 card from the top of your Life cards face-up: K.O. up to 1 of your opponent's Characters with a cost of 0.",
+      "it": "[Activate: Main] [Once Per Turn] Puoi turn 1 card from the top of your carte Life scoperta: K. O. up to 1 of your opponent's Personaggi with a cost of 0."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-040.png",
@@ -1754,7 +1895,10 @@
     "family": [
       "Dressrosa"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] You may turn 1 card from the top of your Life cards face-up: K.O. up to 1 of your opponent's Characters with a cost of 0.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] You may turn 1 card from the top of your Life cards face-up: K.O. up to 1 of your opponent's Characters with a cost of 0.",
+      "it": "[Activate: Main] [Once Per Turn] Puoi turn 1 card from the top of your carte Life scoperta: K. O. up to 1 of your opponent's Personaggi with a cost of 0."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-040_p1.png",
@@ -1819,7 +1963,10 @@
     "family": [
       "Dressrosa"
     ],
-    "effect": "[Activate: Main] You may trash this Character: Play up to 1 {Dressrosa} type Character card with a cost of 3 or less other than [Scarlet] from your hand rested. Then, give up to 1 of your opponent's Characters −2 cost during this turn.",
+    "effect": {
+      "en": "[Activate: Main] You may trash this Character: Play up to 1 {Dressrosa} type Character card with a cost of 3 or less other than [Scarlet] from your hand rested. Then, give up to 1 of your opponent's Characters −2 cost during this turn.",
+      "it": "[Activate: Main] Puoi mandare nel Trash questo Personaggio: Giocare fino a 1 carta Personaggio di tipo {Dressrosa} con un costo pari o inferiore a 3 diversa da [Scarlet] dalla tua mano riposata. Poi, rinuncia a 1 personaggio del tuo avversario al -2 costo durante questo turno."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-042.png",
@@ -1852,7 +1999,10 @@
     "family": [
       "CP9"
     ],
-    "effect": "[On Play] You may place 3 cards with a type including \"CP\" from your trash at the bottom of your deck in any order: Play up to 1 Character card with a type including \"CP\" and a cost of 4 or less other than [Spandine] from your trash rested.",
+    "effect": {
+      "en": "[On Play] You may place 3 cards with a type including \"CP\" from your trash at the bottom of your deck in any order: Play up to 1 Character card with a type including \"CP\" and a cost of 4 or less other than [Spandine] from your trash rested.",
+      "it": "[On Play] Puoi posizionare 3 carte con un tipo che include \"CP\" dal tuo Trash in fondo al tuo mazzo in qualsiasi ordine: Gioca fino a 1 carta Personaggio con un tipo che include \"CP\" e un costo pari o inferiore a 4 diverso da [Spandine] dal tuo Trash in stato spossato."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-043.png",
@@ -1885,7 +2035,10 @@
     "family": [
       "CP9"
     ],
-    "effect": "[Activate: Main] You may rest this Character: Up to 1 of your [Spandam] Characters gains +3000 power during this turn.",
+    "effect": {
+      "en": "[Activate: Main] You may rest this Character: Up to 1 of your [Spandam] Characters gains +3000 power during this turn.",
+      "it": "[Activate: Main] Puoi mettere in stato spossato questo Personaggio: Up to 1 of your [Spandam] Personaggi gains +3000 power during this turn."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-044.png",
@@ -1918,7 +2071,10 @@
     "family": [
       "Rumbar Pirates"
     ],
-    "effect": "[On Play] If your opponent has a Character with a cost of 0, this Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+    "effect": {
+      "en": "[On Play] If your opponent has a Character with a cost of 0, this Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+      "it": "[On Play] Se il tuo avversario ha un Personaggio con costo pari a 0, questo Personaggio guadagna [Rush] durante questo turno. (Questa carta può attaccare nel turno in cui viene giocata.)"
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-045.png",
@@ -1952,7 +2108,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[On Play]/[When Attacking] Give up to 1 of your opponent's Characters −1 cost during this turn. Then, K.O. up to 1 of your opponent's Characters with a cost of 0.",
+    "effect": {
+      "en": "[On Play]/[When Attacking] Give up to 1 of your opponent's Characters −1 cost during this turn. Then, K.O. up to 1 of your opponent's Characters with a cost of 0.",
+      "it": "[On Play]/[When Attacking] Dai −1 costo a un massimo di 1 Personaggio del tuo avversario durante questo turno. Poi, K. O. fino a 1 dei personaggi del tuo avversario con un costo pari a 0."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-046.png",
@@ -1986,7 +2145,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[On Play]/[When Attacking] Give up to 1 of your opponent's Characters −1 cost during this turn. Then, K.O. up to 1 of your opponent's Characters with a cost of 0.",
+    "effect": {
+      "en": "[On Play]/[When Attacking] Give up to 1 of your opponent's Characters −1 cost during this turn. Then, K.O. up to 1 of your opponent's Characters with a cost of 0.",
+      "it": "[On Play]/[When Attacking] Dai −1 costo a un massimo di 1 Personaggio del tuo avversario durante questo turno. Poi, K. O. fino a 1 dei personaggi del tuo avversario con un costo pari a 0."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-046_p1.png",
@@ -2021,7 +2183,10 @@
     "family": [
       "Animal"
     ],
-    "effect": "[Once Per Turn] When a Character is K.O.'d, draw 1 card and trash 1 card from your hand.",
+    "effect": {
+      "en": "[Once Per Turn] When a Character is K.O.'d, draw 1 card and trash 1 card from your hand.",
+      "it": "[Once Per Turn] Quando un Personaggio è K. O. 'd, pesca 1 carta e Manda nel Trash 1 carta dalla tua mano."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-047.png",
@@ -2054,7 +2219,10 @@
     "family": [
       "Animal"
     ],
-    "effect": "[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −4 cost during this turn.",
+    "effect": {
+      "en": "[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −4 cost during this turn.",
+      "it": "[Activate: Main] Puoi mettere in stato spossato questo Personaggio: Dai −4 costo a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-048.png",
@@ -2087,7 +2255,10 @@
     "family": [
       "Animal"
     ],
-    "effect": "[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −4 cost during this turn.",
+    "effect": {
+      "en": "[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −4 cost during this turn.",
+      "it": "[Activate: Main] Puoi mettere in stato spossato questo Personaggio: Dai −4 costo a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-048_p1.png",
@@ -2122,7 +2293,10 @@
       "Water Seven",
       "Navy"
     ],
-    "effect": "[On Play] K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
+    "effect": {
+      "en": "[On Play] K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
+      "it": "[On Play] K. O. fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 2."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-049.png",
@@ -2156,7 +2330,10 @@
       "Water Seven",
       "Navy"
     ],
-    "effect": "[On Play] K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
+    "effect": {
+      "en": "[On Play] K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
+      "it": "[On Play] K. O. fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 2."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-049_p1.png",
@@ -2190,7 +2367,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Counter] If you have 30 or more cards in your trash, add up to 1 card from the top of your deck to the top of your Life cards.",
+    "effect": {
+      "en": "[Counter] If you have 30 or more cards in your trash, add up to 1 card from the top of your deck to the top of your Life cards.",
+      "it": "[Counter] Se hai 30 o più carte nel tuo Trash, aggiungi fino a 1 carta dalla cima del tuo mazzo alla cima delle tue carte Life."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-050.png",
@@ -2223,7 +2403,10 @@
     "family": [
       "CP9"
     ],
-    "effect": "[Main] You may trash 2 cards from the top of your deck: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "effect": {
+      "en": "[Main] You may trash 2 cards from the top of your deck: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+      "it": "[Main] Puoi mandare nel Trash 2 carte dalla cima del tuo mazzo: K. O. fino a 1 personaggio del tuo avversario con un costo pari o inferiore a 5."
+    },
     "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-051.png",
@@ -2256,7 +2439,10 @@
     "family": [
       "Dressrosa"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Choose one:• Look at all of your opponent's Life cards and place them back in their Life area in any order.• Turn all of your Life cards face-down.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Choose one:• Look at all of your opponent's Life cards and place them back in their Life area in any order.• Turn all of your Life cards face-down.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi appoggiare questa carta per renderla il nuovo bersaglio dell'attacco.)[On Play] Scegline uno: • Guarda tutti i carte Life del tuo avversario e rimettili nei suoi area Life in qualsiasi ordine.• Gira tutti i tuoi carte Life coperta."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-052.png",
@@ -2290,7 +2476,10 @@
     "family": [
       "Dressrosa"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Choose one:• Look at all of your opponent's Life cards and place them back in their Life area in any order.• Turn all of your Life cards face-down.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Choose one:• Look at all of your opponent's Life cards and place them back in their Life area in any order.• Turn all of your Life cards face-down.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi appoggiare questa carta per renderla il nuovo bersaglio dell'attacco.)[On Play] Scegline uno: • Guarda tutti i carte Life del tuo avversario e rimettili nei suoi area Life in qualsiasi ordine.• Gira tutti i tuoi carte Life coperta."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-052_p1.png",
@@ -2325,7 +2514,10 @@
     "family": [
       "Scientist"
     ],
-    "effect": "[On Play] Place up to 1 of your opponent's Characters with a cost of 3 or less at the top or bottom of your opponent's Life cards face-up.",
+    "effect": {
+      "en": "[On Play] Place up to 1 of your opponent's Characters with a cost of 3 or less at the top or bottom of your opponent's Life cards face-up.",
+      "it": "[On Play] Posiziona fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 3 in cima o in fondo al carte Life scoperta del tuo avversario."
+    },
     "trigger": "Trigger[Trigger] Give up to a total of 2 of your opponent's Leader or Character cards −3000 power during this turn.",
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-053.png",
@@ -2358,7 +2550,10 @@
     "family": [
       "Sky Island"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] If your opponent has 1 or less Life cards, K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] If your opponent has 1 or less Life cards, K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On Play] Se il tuo avversario ha 1 o meno carte Life, K. O. fino a 1 dei Personaggi del tuo avversario con un costo pari o inferiore a 3."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-054.png",
@@ -2422,7 +2617,10 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[On Play] You may add 1 card from the top or bottom of your Life cards to your hand: Draw 1 card.",
+    "effect": {
+      "en": "[On Play] You may add 1 card from the top or bottom of your Life cards to your hand: Draw 1 card.",
+      "it": "[On Play] Puoi aggiungere 1 carta dalla cima o dal fondo delle tue carte Life alla tua mano: Pesca 1 carta."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-056.png",
@@ -2455,7 +2653,10 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[On Play] You may add 1 card from the top or bottom of your Life cards to your hand: Draw 1 card.",
+    "effect": {
+      "en": "[On Play] You may add 1 card from the top or bottom of your Life cards to your hand: Draw 1 card.",
+      "it": "[On Play] Puoi aggiungere 1 carta dalla cima o dal fondo delle tue carte Life alla tua mano: Pesca 1 carta."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-056_p1.png",
@@ -2489,7 +2690,10 @@
     "family": [
       "Merfolk"
     ],
-    "effect": "When this Character is K.O.'d by your opponent's effect, add up to 1 card from the top of your deck to the top of your Life cards.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "When this Character is K.O.'d by your opponent's effect, add up to 1 card from the top of your deck to the top of your Life cards.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "Quando questo personaggio viene K. O. dall'effetto del tuo avversario, aggiungi fino a 1 carta dalla cima del tuo mazzo alla cima delle tue carte Life. [Blocker] (dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-057.png",
@@ -2522,7 +2726,10 @@
     "family": [
       "Merfolk"
     ],
-    "effect": "When this Character is K.O.'d by your opponent's effect, add up to 1 card from the top of your deck to the top of your Life cards.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "When this Character is K.O.'d by your opponent's effect, add up to 1 card from the top of your deck to the top of your Life cards.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "Quando questo personaggio viene K. O. dall'effetto del tuo avversario, aggiungi fino a 1 carta dalla cima del tuo mazzo alla cima delle tue carte Life. [Blocker] (dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-057_p1.png",
@@ -2556,7 +2763,10 @@
     "family": [
       "Monkey Mountain Alliance"
     ],
-    "effect": "[DON!! x1] [Your Turn] If you have 2 or less Life cards, this Character gains +2000 power.",
+    "effect": {
+      "en": "[DON!! x1] [Your Turn] If you have 2 or less Life cards, this Character gains +2000 power.",
+      "it": "[DON!! x1] [Your Turn] Se hai 2 o meno carte Life, Questo Personaggio guadagna +2000 power."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-058.png",
@@ -2590,7 +2800,10 @@
     "family": [
       "Sky Island"
     ],
-    "effect": "[Main] K.O. up to 1 of your opponent's Characters. Then, trash cards from the top of your Life cards until you have 1 Life card.",
+    "effect": {
+      "en": "[Main] K.O. up to 1 of your opponent's Characters. Then, trash cards from the top of your Life cards until you have 1 Life card.",
+      "it": "[Main] K. O. fino a 1 personaggio del tuo avversario. Poi, Trash carte dalla cima della tua carte Life finché non avrai 1 carta Vita."
+    },
     "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost equal to or less than the total of your and your opponent's Life cards.",
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-059.png",
@@ -2623,7 +2836,10 @@
     "family": [
       "Sky Island"
     ],
-    "effect": "[Main] Play up to 1 [Enel] with a cost of 7 or less from your hand or trash. Then, trash cards from the top of your Life cards until you have 1 Life card.",
+    "effect": {
+      "en": "[Main] Play up to 1 [Enel] with a cost of 7 or less from your hand or trash. Then, trash cards from the top of your Life cards until you have 1 Life card.",
+      "it": "[Main] Gioca fino a 1 [Enel] con un costo pari o inferiore a 7 dalla tua mano o Trash. Poi, Trash carte dalla cima delle tue carte Life finché non avrai 1 carta Vita."
+    },
     "trigger": "Trigger[Trigger] Draw 2 cards and trash 1 card from your hand.",
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-060.png",
@@ -2656,7 +2872,10 @@
     "family": [
       "Former Baroque Works"
     ],
-    "effect": "[On Play] Add up to 1 DON!! card from your DON!! deck and set it as active.[When Attacking] Select up to 1 of your opponent's Characters. This Character's base power becomes the same as the selected Character's power during this turn.",
+    "effect": {
+      "en": "[On Play] Add up to 1 DON!! card from your DON!! deck and set it as active.[When Attacking] Select up to 1 of your opponent's Characters. This Character's base power becomes the same as the selected Character's power during this turn.",
+      "it": "[On Play] Aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e impostalo come attivo. [When Attacking] Seleziona fino a 1 dei personaggi del tuo avversario. power base di questo Personaggio diventa uguale a power del Personaggio selezionato durante questo turno."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-061.png",
@@ -2690,7 +2909,10 @@
     "family": [
       "Former Baroque Works"
     ],
-    "effect": "[On Play] Add up to 1 DON!! card from your DON!! deck and set it as active.[When Attacking] Select up to 1 of your opponent's Characters. This Character's base power becomes the same as the selected Character's power during this turn.",
+    "effect": {
+      "en": "[On Play] Add up to 1 DON!! card from your DON!! deck and set it as active.[When Attacking] Select up to 1 of your opponent's Characters. This Character's base power becomes the same as the selected Character's power during this turn.",
+      "it": "[On Play] Aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e impostalo come attivo. [When Attacking] Seleziona fino a 1 dei personaggi del tuo avversario. power base di questo Personaggio diventa uguale a power del Personaggio selezionato durante questo turno."
+    },
     "trigger": null,
     "setName": "Memorial Collection [EB-01]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-061_p1.png",

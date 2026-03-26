@@ -14,7 +14,10 @@
       "The Four Emperors",
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] Give up to 2 rested DON!! cards to 1 of your Characters.",
+    "effect": {
+      "en": "[DON!! x1] [Activate: Main] [Once Per Turn] Give up to 2 rested DON!! cards to 1 of your Characters.",
+      "it": "[DON!! x1] [Activate: Main] [Once Per Turn] Assegna fino a 2 carte DON!! in stato spossato a 1 dei tuoi Personaggi."
+    },
     "trigger": null,
     "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-001.png",
@@ -50,7 +53,10 @@
       "The Four Emperors",
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] Give up to 2 rested DON!! cards to 1 of your Characters.",
+    "effect": {
+      "en": "[DON!! x1] [Activate: Main] [Once Per Turn] Give up to 2 rested DON!! cards to 1 of your Characters.",
+      "it": "[DON!! x1] [Activate: Main] [Once Per Turn] Assegna fino a 2 carte DON!! in stato spossato a 1 dei tuoi Personaggi."
+    },
     "trigger": null,
     "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-001_p1.png",
@@ -85,7 +91,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x2] [Opponent's Turn] This Character gains +2000 power.",
+    "effect": {
+      "en": "[DON!! x2] [Opponent's Turn] This Character gains +2000 power.",
+      "it": "[DON!! x2] [Opponent's Turn] Questo Personaggio guadagna +2000 power."
+    },
     "trigger": null,
     "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-002.png",
@@ -119,7 +128,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x2] [Opponent's Turn] This Character gains +2000 power.",
+    "effect": {
+      "en": "[DON!! x2] [Opponent's Turn] This Character gains +2000 power.",
+      "it": "[DON!! x2] [Opponent's Turn] Questo Personaggio guadagna +2000 power."
+    },
     "trigger": null,
     "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-002_p1.png",
@@ -153,7 +165,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] Select up to 1 of your {Straw Hat Crew} type Characters with 6000 power or more. If the selected Character attacks during this turn, your opponent cannot activate [Blocker].",
+    "effect": {
+      "en": "[On Play] Select up to 1 of your {Straw Hat Crew} type Characters with 6000 power or more. If the selected Character attacks during this turn, your opponent cannot activate [Blocker].",
+      "it": "[On Play] Seleziona fino a 1 dei tuoi Personaggi di tipo {Straw Hat Crew} con 6000 power o più. Se il Personaggio selezionato attacca durante questo turno, il tuo avversario non potrà attivare [Blocker]."
+    },
     "trigger": null,
     "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-003.png",
@@ -187,7 +202,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] Select up to 1 of your {Straw Hat Crew} type Characters with 6000 power or more. If the selected Character attacks during this turn, your opponent cannot activate [Blocker].",
+    "effect": {
+      "en": "[On Play] Select up to 1 of your {Straw Hat Crew} type Characters with 6000 power or more. If the selected Character attacks during this turn, your opponent cannot activate [Blocker].",
+      "it": "[On Play] Seleziona fino a 1 dei tuoi Personaggi di tipo {Straw Hat Crew} con 6000 power o più. Se il Personaggio selezionato attacca durante questo turno, il tuo avversario non potrà attivare [Blocker]."
+    },
     "trigger": null,
     "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-003_p1.png",
@@ -222,7 +240,10 @@
       "Egghead",
       "Bonney Pirates"
     ],
-    "effect": "[DON!! x2] [On K.O.] Draw 1 card.",
+    "effect": {
+      "en": "[DON!! x2] [On K.O.] Draw 1 card.",
+      "it": "[DON!! x2] [On K.O.] Pesca 1 carta."
+    },
     "trigger": null,
     "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-004.png",
@@ -257,7 +278,10 @@
       "Egghead",
       "Bonney Pirates"
     ],
-    "effect": "[DON!! x2] [On K.O.] Draw 1 card.",
+    "effect": {
+      "en": "[DON!! x2] [On K.O.] Draw 1 card.",
+      "it": "[DON!! x2] [On K.O.] Pesca 1 carta."
+    },
     "trigger": null,
     "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-004_p1.png",
@@ -414,7 +438,10 @@
       "Egghead",
       "Navy"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-007.png",
@@ -448,7 +475,10 @@
       "Egghead",
       "Navy"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-007_p1.png",
@@ -543,7 +573,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] Give up to 2 rested DON!! cards to 1 of your {Straw Hat Crew} type Leader or Character cards.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] Give up to 2 rested DON!! cards to 1 of your {Straw Hat Crew} type Leader or Character cards.",
+      "it": "[Activate: Main] [Once Per Turn] Assegna fino a 2 carte DON!! in stato spossato a 1 delle tue carte {Straw Hat Crew} di tipo Leader o Personaggio."
+    },
     "trigger": null,
     "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-009.png",
@@ -577,7 +610,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] Give up to 2 rested DON!! cards to 1 of your {Straw Hat Crew} type Leader or Character cards.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] Give up to 2 rested DON!! cards to 1 of your {Straw Hat Crew} type Leader or Character cards.",
+      "it": "[Activate: Main] [Once Per Turn] Assegna fino a 2 carte DON!! in stato spossato a 1 delle tue carte {Straw Hat Crew} di tipo Leader o Personaggio."
+    },
     "trigger": null,
     "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-009_p1.png",
@@ -611,7 +647,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 4000 power or less.",
+    "effect": {
+      "en": "[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 4000 power or less.",
+      "it": "[DON!! x2] [When Attacking] K. O. fino a 1 dei personaggi del tuo avversario con 4000 power o meno."
+    },
     "trigger": null,
     "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-010.png",
@@ -645,7 +684,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 4000 power or less.",
+    "effect": {
+      "en": "[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 4000 power or less.",
+      "it": "[DON!! x2] [When Attacking] K. O. fino a 1 dei personaggi del tuo avversario con 4000 power o meno."
+    },
     "trigger": null,
     "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-010_p1.png",
@@ -679,7 +721,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x2] [Opponent's Turn] All of your {Straw Hat Crew} type Characters with 4000 base power or less gain +1000 power.",
+    "effect": {
+      "en": "[DON!! x2] [Opponent's Turn] All of your {Straw Hat Crew} type Characters with 4000 base power or less gain +1000 power.",
+      "it": "[DON!! x2] [Opponent's Turn] Tutti i tuoi Personaggi di tipo {Straw Hat Crew} con power base pari o inferiore a 4000 ottengono +1000 power."
+    },
     "trigger": null,
     "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-011.png",
@@ -713,7 +758,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x2] [Opponent's Turn] All of your {Straw Hat Crew} type Characters with 4000 base power or less gain +1000 power.",
+    "effect": {
+      "en": "[DON!! x2] [Opponent's Turn] All of your {Straw Hat Crew} type Characters with 4000 base power or less gain +1000 power.",
+      "it": "[DON!! x2] [Opponent's Turn] Tutti i tuoi Personaggi di tipo {Straw Hat Crew} con power base pari o inferiore a 4000 ottengono +1000 power."
+    },
     "trigger": null,
     "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-011_p1.png",
@@ -747,7 +795,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[When Attacking] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
+    "effect": {
+      "en": "[When Attacking] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
+      "it": "[When Attacking] Assegna fino a 2 carte DON!! in stato spossato al tuo Leader o a 1 dei tuoi Personaggi."
+    },
     "trigger": null,
     "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-012.png",
@@ -780,7 +831,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[When Attacking] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
+    "effect": {
+      "en": "[When Attacking] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
+      "it": "[When Attacking] Assegna fino a 2 carte DON!! in stato spossato al tuo Leader o a 1 dei tuoi Personaggi."
+    },
     "trigger": null,
     "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-012_p1.png",
@@ -876,7 +930,10 @@
       "The Four Emperors",
       "Straw Hat Crew"
     ],
-    "effect": "[Rush] (This card can attack on the turn in which it is played.)[When Attacking] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+    "effect": {
+      "en": "[Rush] (This card can attack on the turn in which it is played.)[When Attacking] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+      "it": "[Rush] (Questa carta può attaccare nel turno in cui viene giocata.)[When Attacking] Dai fino a 1 in stato spossato carta DON!! al tuo Leader o 1 dei tuoi Personaggi."
+    },
     "trigger": null,
     "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-014.png",
@@ -911,7 +968,10 @@
       "The Four Emperors",
       "Straw Hat Crew"
     ],
-    "effect": "[Rush] (This card can attack on the turn in which it is played.)[When Attacking] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+    "effect": {
+      "en": "[Rush] (This card can attack on the turn in which it is played.)[When Attacking] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+      "it": "[Rush] (Questa carta può attaccare nel turno in cui viene giocata.)[When Attacking] Dai fino a 1 in stato spossato carta DON!! al tuo Leader o 1 dei tuoi Personaggi."
+    },
     "trigger": null,
     "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-014_p1.png",
@@ -945,7 +1005,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x2] This Character gains [Rush].[On K.O.] Play up to 1 red Character card with 6000 power or less other than [Roronoa Zoro] from your hand.",
+    "effect": {
+      "en": "[DON!! x2] This Character gains [Rush].[On K.O.] Play up to 1 red Character card with 6000 power or less other than [Roronoa Zoro] from your hand.",
+      "it": "[DON!! x2] Questo Personaggio guadagna [Rush]. [On K.O.] Gioca fino a 1 carta Personaggio rossa con 6000 power o meno diversa da [Roronoa Zoro] dalla tua mano."
+    },
     "trigger": null,
     "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-015.png",
@@ -980,7 +1043,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x2] This Character gains [Rush].[On K.O.] Play up to 1 red Character card with 6000 power or less other than [Roronoa Zoro] from your hand.",
+    "effect": {
+      "en": "[DON!! x2] This Character gains [Rush].[On K.O.] Play up to 1 red Character card with 6000 power or less other than [Roronoa Zoro] from your hand.",
+      "it": "[DON!! x2] Questo Personaggio guadagna [Rush]. [On K.O.] Gioca fino a 1 carta Personaggio rossa con 6000 power o meno diversa da [Roronoa Zoro] dalla tua mano."
+    },
     "trigger": null,
     "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-015_p1.png",
@@ -1016,7 +1082,10 @@
       "The Four Emperors",
       "Straw Hat Crew"
     ],
-    "effect": "[Main] Up to 1 of your Leader or Character cards gains +1000 power during this turn. Then, up to 1 of your opponent's Characters with 4000 power or less cannot activate [Blocker] during this turn.",
+    "effect": {
+      "en": "[Main] Up to 1 of your Leader or Character cards gains +1000 power during this turn. Then, up to 1 of your opponent's Characters with 4000 power or less cannot activate [Blocker] during this turn.",
+      "it": "[Main] Fino a 1 delle tue carte Leader o Personaggio guadagna +1000 power durante questo turno. Poi, fino a 1 dei Personaggi del tuo avversario con 4000 power o meno non potrà attivare [Blocker] durante questo turno."
+    },
     "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with 4000 power or less.",
     "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-016.png",
@@ -1051,7 +1120,10 @@
       "The Four Emperors",
       "Straw Hat Crew"
     ],
-    "effect": "[Main] Give up to 1 of your opponent's Characters −5000 power during this turn. Then, if you have a Character with 6000 power or more, K.O. up to 1 of your opponent's Characters with 2000 power or less.",
+    "effect": {
+      "en": "[Main] Give up to 1 of your opponent's Characters −5000 power during this turn. Then, if you have a Character with 6000 power or more, K.O. up to 1 of your opponent's Characters with 2000 power or less.",
+      "it": "[Main] Dai −5000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno. Quindi, se hai un personaggio con 6000 power o più, K. O. fino a 1 personaggio del tuo avversario con 2000 power o meno."
+    },
     "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "GEAR5 [ST-21]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST21-017.png",

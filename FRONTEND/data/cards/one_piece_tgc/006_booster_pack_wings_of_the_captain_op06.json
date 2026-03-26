@@ -94,7 +94,10 @@
     "family": [
       "Buggy Pirates"
     ],
-    "effect": "This Character cannot be K.O.'d in battle by <Slash> attribute cards.[On Play] Look at 5 cards from the top of your deck; reveal up to 1 red Event and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "This Character cannot be K.O.'d in battle by <Slash> attribute cards.[On Play] Look at 5 cards from the top of your deck; reveal up to 1 red Event and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "Questo personaggio non può essere K. O. in battaglia con le carte attributo <Slash>. [On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 Evento rosso e aggiungilo alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-008_p1.png",
@@ -129,7 +132,10 @@
       "The Four Emperors",
       "Big Mom Pirates"
     ],
-    "effect": "[On Play] If your Leader has the {Big Mom Pirates} type, add up to 1 card from the top of your deck to the top of your Life cards. Then, trash up to 1 card from the top of your opponent's Life cards.",
+    "effect": {
+      "en": "[On Play] If your Leader has the {Big Mom Pirates} type, add up to 1 card from the top of your deck to the top of your Life cards. Then, trash up to 1 card from the top of your opponent's Life cards.",
+      "it": "[On Play] Se il tuo Leader ha il tipo {Big Mom Pirates}, aggiungi fino a 1 carta dalla cima del tuo mazzo alla cima delle tue carte Life. Poi, Manda nel Trash fino a 1 carta dalla cima della carte Life del tuo avversario."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-114_p2.png",
@@ -163,7 +169,10 @@
     "family": [
       "Donquixote Pirates"
     ],
-    "effect": "[Opponent's Turn] [Once Per Turn] When your opponent plays a Character, if your Leader has the {Donquixote Pirates} type, rest up to 1 of your opponent's Characters. Then, rest this Character.[On Play] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "effect": {
+      "en": "[Opponent's Turn] [Once Per Turn] When your opponent plays a Character, if your Leader has the {Donquixote Pirates} type, rest up to 1 of your opponent's Characters. Then, rest this Character.[On Play] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+      "it": "[Opponent's Turn] [Once Per Turn] Quando il tuo avversario gioca un Personaggio, se il tuo Leader ha il tipo {Donquixote Pirates}, metti in stato spossato fino a 1 Personaggio del tuo avversario. Poi, metti in stato spossato questo Personaggio. [On Play] Metti in stato spossato fino a 1 dei Personaggi del tuo avversario con un costo pari o inferiore a 4."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-024_p2.png",
@@ -199,7 +208,10 @@
     "family": [
       "Baroque Works"
     ],
-    "effect": "[On Play] Add up to 1 DON!! card from your DON!! deck and rest it. Then, if you have 6 or more DON!! cards on your field, draw 1 card.",
+    "effect": {
+      "en": "[On Play] Add up to 1 DON!! card from your DON!! deck and rest it. Then, if you have 6 or more DON!! cards on your field, draw 1 card.",
+      "it": "[On Play] Aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e lascialo mettere in stato spossato. Poi, se hai 6 o più carte DON!! sul tuo campo, pesca 1 carta."
+    },
     "trigger": "Trigger[Trigger] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play this card.",
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-064_p2.png",
@@ -233,7 +245,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] Place up to 1 Character with a cost of 4 or less at the bottom of the owner's deck.",
+    "effect": {
+      "en": "[On Play] Place up to 1 Character with a cost of 4 or less at the bottom of the owner's deck.",
+      "it": "[On Play] Metti fino a 1 personaggio con un costo pari o inferiore a 4 in fondo al mazzo del proprietario."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-051_p2.png",
@@ -267,7 +282,10 @@
     "family": [
       "Dressrosa"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Add up to 1 black Character card with a cost of 3 to 7 other than [Rebecca] from your trash to your hand. Then, play up to 1 black Character card with a cost of 3 or less from your hand rested.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Add up to 1 black Character card with a cost of 3 to 7 other than [Rebecca] from your trash to your hand. Then, play up to 1 black Character card with a cost of 3 or less from your hand rested.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On Play] Aggiungi fino a 1 carta Personaggio nera con un costo da 3 a 7 diversa da [Rebecca] dal tuo Trash alla tua mano. Poi, gioca fino a 1 carta Personaggio nera con costo pari o inferiore a 3 dalla tua mano in stato spossato."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-091_p2.png",
@@ -303,7 +321,10 @@
     "family": [
       "FILM"
     ],
-    "effect": "[When Attacking] You may trash 1 {FILM} type card from your hand: Give up to 1 of your opponent's Characters −2000 power during this turn. Then, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "effect": {
+      "en": "[When Attacking] You may trash 1 {FILM} type card from your hand: Give up to 1 of your opponent's Characters −2000 power during this turn. Then, add up to 1 DON!! card from your DON!! deck and rest it.",
+      "it": "[When Attacking] Puoi mandare nel Trash 1 carta di tipo {FILM} dalla tua mano: Dai −2000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno. Quindi, aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e lascialo mettere in stato spossato."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-001_p1.png",
@@ -338,7 +359,10 @@
     "family": [
       "FILM"
     ],
-    "effect": "[When Attacking] You may trash 1 {FILM} type card from your hand: Give up to 1 of your opponent's Characters −2000 power during this turn. Then, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "effect": {
+      "en": "[When Attacking] You may trash 1 {FILM} type card from your hand: Give up to 1 of your opponent's Characters −2000 power during this turn. Then, add up to 1 DON!! card from your DON!! deck and rest it.",
+      "it": "[When Attacking] Puoi mandare nel Trash 1 carta di tipo {FILM} dalla tua mano: Dai −2000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno. Quindi, aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e lascialo mettere in stato spossato."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-001.png",
@@ -371,7 +395,10 @@
     "family": [
       "Revolutionary Army"
     ],
-    "effect": "If this Character has 7000 power or more, this Character gains [Banish].(When this card deals damage, the target card is trashed without activating its Trigger.)",
+    "effect": {
+      "en": "If this Character has 7000 power or more, this Character gains [Banish].(When this card deals damage, the target card is trashed without activating its Trigger.)",
+      "it": "Se questo personaggio ha 7000 power o più, questo personaggio guadagna [Banish]. (Quando questa carta infligge danni, la carta bersaglio viene eliminata senza attivare i suoi Trigger.)"
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-002.png",
@@ -404,7 +431,10 @@
     "family": [
       "Revolutionary Army"
     ],
-    "effect": "[On Play] Look at 3 cards from the top of your deck and play up to 1 {Revolutionary Army} type Character card with 5000 power or less. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 3 cards from the top of your deck and play up to 1 {Revolutionary Army} type Character card with 5000 power or less. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 3 carte dalla cima del tuo mazzo e gioca fino a 1 carta Personaggio di tipo {Revolutionary Army} con 5000 power o meno. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-003.png",
@@ -438,7 +468,10 @@
       "FILM",
       "Omatsuri Island"
     ],
-    "effect": "[On Play] Play up to 1 [Lily Carnation] from your hand.",
+    "effect": {
+      "en": "[On Play] Play up to 1 [Lily Carnation] from your hand.",
+      "it": "[On Play] Gioca fino a 1 [Lily Carnation] dalla tua mano."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-004.png",
@@ -504,7 +537,10 @@
       "FILM",
       "Asuka Island"
     ],
-    "effect": "[DON!! x1] [When Attacking] This Character gains +1000 power until the start of your next turn. Then, trash 1 of your {FILM} type Characters at the end of this turn.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] This Character gains +1000 power until the start of your next turn. Then, trash 1 of your {FILM} type Characters at the end of this turn.",
+      "it": "[DON!! x1] [When Attacking] Questo Personaggio guadagna +1000 power fino all'inizio del tuo prossimo turno. Poi, Manda nel Trash 1 dei tuoi personaggi di tipo {FILM} alla fine di questo turno."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-006.png",
@@ -540,7 +576,10 @@
       "The Four Emperors",
       "Red-Haired Pirates"
     ],
-    "effect": "[On Play] K.O. up to 1 of your opponent's Characters with 10000 power or less.",
+    "effect": {
+      "en": "[On Play] K.O. up to 1 of your opponent's Characters with 10000 power or less.",
+      "it": "[On Play] K. O. fino a 1 personaggio del tuo avversario con 10000 power o meno."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-007_p1.png",
@@ -576,7 +615,10 @@
       "The Four Emperors",
       "Red-Haired Pirates"
     ],
-    "effect": "[On Play] K.O. up to 1 of your opponent's Characters with 10000 power or less.",
+    "effect": {
+      "en": "[On Play] K.O. up to 1 of your opponent's Characters with 10000 power or less.",
+      "it": "[On Play] K. O. fino a 1 personaggio del tuo avversario con 10000 power o meno."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-007.png",
@@ -641,7 +683,10 @@
       "FILM",
       "Shipbuilding Town"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[When Attacking]/[On Block] [Once Per Turn] This Character's base power becomes the same as your opponent's Leader until the start of your next turn.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[When Attacking]/[On Block] [Once Per Turn] This Character's base power becomes the same as your opponent's Leader until the start of your next turn.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, Puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[When Attacking]/[On Block] [Once Per Turn] Il power base di questo personaggio diventa lo stesso del Leader del tuo avversario fino all'inizio del tuo prossimo turno."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-009_p1.png",
@@ -679,7 +724,10 @@
       "FILM",
       "Shipbuilding Town"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[When Attacking]/[On Block] [Once Per Turn] This Character's base power becomes the same as your opponent's Leader until the start of your next turn.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[When Attacking]/[On Block] [Once Per Turn] This Character's base power becomes the same as your opponent's Leader until the start of your next turn.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, Puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[When Attacking]/[On Block] [Once Per Turn] Il power base di questo personaggio diventa lo stesso del Leader del tuo avversario fino all'inizio del tuo prossimo turno."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-009.png",
@@ -716,7 +764,10 @@
       "FILM",
       "The Pirates Fest"
     ],
-    "effect": "If your Leader has the {FILM} type, this Character gains [Blocker].(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "If your Leader has the {FILM} type, this Character gains [Blocker].(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "Se il tuo Leader ha il tipo {FILM}, questo Personaggio guadagna [Blocker]. (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-010.png",
@@ -749,7 +800,10 @@
     "family": [
       "FILM"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] You may rest 1 of your [Uta] cards: This Character gains +5000 power during this turn.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] You may rest 1 of your [Uta] cards: This Character gains +5000 power during this turn.",
+      "it": "[Activate: Main] [Once Per Turn] Puoi rest 1 of your [Uta] cards: Questo Personaggio guadagna +5000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-011.png",
@@ -784,7 +838,10 @@
       "FILM",
       "Trump Pirates"
     ],
-    "effect": "If your opponent has a Leader or Character with a base power of 6000 or more, this Character cannot be K.O.'d in battle.",
+    "effect": {
+      "en": "If your opponent has a Leader or Character with a base power of 6000 or more, this Character cannot be K.O.'d in battle.",
+      "it": "Se il tuo avversario ha un Leader o un Personaggio con un power base pari o superiore a 6000, questo Personaggio non può essere K. O. 'd in battaglia."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-012.png",
@@ -815,7 +872,10 @@
       "FILM",
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] Look at 3 cards from the top of your deck; reveal up to 1 {FILM} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 3 cards from the top of your deck; reveal up to 1 {FILM} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 3 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {FILM} e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": "Trigger[Trigger] Activate this card's [On Play] effect.",
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-013_p1.png",
@@ -850,7 +910,10 @@
       "FILM",
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] Look at 3 cards from the top of your deck; reveal up to 1 {FILM} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 3 cards from the top of your deck; reveal up to 1 {FILM} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 3 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {FILM} e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": "Trigger[Trigger] Activate this card's [On Play] effect.",
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-013.png",
@@ -884,7 +947,10 @@
       "FILM",
       "Mecha Island"
     ],
-    "effect": "[On Your Opponent's Attack] You may trash any number of {FILM} type cards from your hand. Your Leader or 1 of your Characters gains +1000 power during this battle for every card trashed.",
+    "effect": {
+      "en": "[On Your Opponent's Attack] You may trash any number of {FILM} type cards from your hand. Your Leader or 1 of your Characters gains +1000 power during this battle for every card trashed.",
+      "it": "[On Your Opponent's Attack] Puoi mandare nel Trash un qualsiasi numero di carte di tipo {FILM} dalla tua mano. Il tuo Leader o 1 dei tuoi Personaggi guadagna +1000 power durante questa battaglia per ogni carta eliminata."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-014.png",
@@ -918,7 +984,10 @@
       "FILM",
       "Omatsuri Island"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] You may trash 1 of your Characters with 6000 power or more: Play up to 1 {FILM} type Character card with 2000 to 5000 power from your trash rested.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] You may trash 1 of your Characters with 6000 power or more: Play up to 1 {FILM} type Character card with 2000 to 5000 power from your trash rested.",
+      "it": "[Activate: Main] [Once Per Turn] Puoi mandare nel Trash 1 dei tuoi Personaggi con 6. 000 power o più: Giocare fino a 1 carta Personaggio di tipo {FILM} con 2. 000-5. 000 power dal tuo Trash in stato spossato."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-015.png",
@@ -953,7 +1022,10 @@
       "FILM",
       "Revolutionary Army"
     ],
-    "effect": "[Activate: Main] You may place this Character at the bottom of the owner's deck: Give up to 1 of your opponent's Characters −3000 power during this turn.",
+    "effect": {
+      "en": "[Activate: Main] You may place this Character at the bottom of the owner's deck: Give up to 1 of your opponent's Characters −3000 power during this turn.",
+      "it": "[Activate: Main] Puoi mettere questo Personaggio in fondo al mazzo del proprietario: Dai −3000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-016.png",
@@ -987,7 +1059,10 @@
       "FILM",
       "Straw Hat Crew"
     ],
-    "effect": "[Main]/[Counter] You may add 1 card from the top of your Life cards to your hand: Up to 1 of your Leader or Character cards gains +3000 power during this turn.",
+    "effect": {
+      "en": "[Main]/[Counter] You may add 1 card from the top of your Life cards to your hand: Up to 1 of your Leader or Character cards gains +3000 power during this turn.",
+      "it": "[Main]/[Counter] Puoi aggiungere 1 carta dalla cima delle tue carte Life alla tua mano: fino a 1 delle tue carte Leader o Personaggio guadagna +3000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-017.png",
@@ -1022,7 +1097,10 @@
       "FILM",
       "Straw Hat Crew"
     ],
-    "effect": "[Main] Up to 1 of your Leader or Character cards gains +3000 power during this turn. Then, if your opponent has a Character with 7000 power or more, up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "effect": {
+      "en": "[Main] Up to 1 of your Leader or Character cards gains +3000 power during this turn. Then, if your opponent has a Character with 7000 power or more, up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+      "it": "[Main] Fino a 1 delle tue carte Leader o Personaggio guadagna +3000 power durante questo turno. Poi, se il tuo avversario ha un Personaggio con 7000 power o più, fino a 1 delle tue carte Leader o Personaggio guadagna +1000 power durante questo turno."
+    },
     "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with 5000 power or less.",
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-018.png",
@@ -1056,7 +1134,10 @@
       "FILM",
       "Straw Hat Crew"
     ],
-    "effect": "[Main] K.O. up to 1 of your opponent's Characters with 5000 power or less.",
+    "effect": {
+      "en": "[Main] K.O. up to 1 of your opponent's Characters with 5000 power or less.",
+      "it": "[Main] K. O. fino a 1 dei personaggi del tuo avversario con 5000 power o meno."
+    },
     "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with 4000 power or less.",
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-019.png",
@@ -1090,7 +1171,10 @@
       "Fish-Man",
       "New Fish-Man Pirates"
     ],
-    "effect": "[Activate: Main] You may rest this Leader: Rest up to 1 of your opponent's DON!! cards or Characters with a cost of 3 or less. Then, you cannot add Life cards to your hand using your own effects during this turn.",
+    "effect": {
+      "en": "[Activate: Main] You may rest this Leader: Rest up to 1 of your opponent's DON!! cards or Characters with a cost of 3 or less. Then, you cannot add Life cards to your hand using your own effects during this turn.",
+      "it": "[Activate: Main] Puoi mettere in stato spossato questo Leader: Metti in stato spossato fino a 1 of your opponent's carte DON!! or Personaggi with a cost of 3 or less. Then, you cannot add carte Life alla tua mano using your own effects during this turn."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-020_p1.png",
@@ -1125,7 +1209,10 @@
       "Fish-Man",
       "New Fish-Man Pirates"
     ],
-    "effect": "[Activate: Main] You may rest this Leader: Rest up to 1 of your opponent's DON!! cards or Characters with a cost of 3 or less. Then, you cannot add Life cards to your hand using your own effects during this turn.",
+    "effect": {
+      "en": "[Activate: Main] You may rest this Leader: Rest up to 1 of your opponent's DON!! cards or Characters with a cost of 3 or less. Then, you cannot add Life cards to your hand using your own effects during this turn.",
+      "it": "[Activate: Main] Puoi mettere in stato spossato questo Leader: Metti in stato spossato fino a 1 of your opponent's carte DON!! or Personaggi with a cost of 3 or less. Then, you cannot add carte Life alla tua mano using your own effects during this turn."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-020.png",
@@ -1159,7 +1246,10 @@
     "family": [
       "Thriller Bark Pirates"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] Choose one:• Rest up to 1 of your opponent's Characters with a cost of 4 or less.• Give up to 1 of your opponent's Characters −1 cost during this turn.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] Choose one:• Rest up to 1 of your opponent's Characters with a cost of 4 or less.• Give up to 1 of your opponent's Characters −1 cost during this turn.",
+      "it": "[Activate: Main] [Once Per Turn] Scegli una delle opzioni: • metti in stato spossato fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 4. • Dai −1 costo a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-021_p1.png",
@@ -1195,7 +1285,10 @@
     "family": [
       "Thriller Bark Pirates"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] Choose one:• Rest up to 1 of your opponent's Characters with a cost of 4 or less.• Give up to 1 of your opponent's Characters −1 cost during this turn.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] Choose one:• Rest up to 1 of your opponent's Characters with a cost of 4 or less.• Give up to 1 of your opponent's Characters −1 cost during this turn.",
+      "it": "[Activate: Main] [Once Per Turn] Scegli una delle opzioni: • metti in stato spossato fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 4. • Dai −1 costo a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-021.png",
@@ -1230,7 +1323,10 @@
     "family": [
       "Land of Wano"
     ],
-    "effect": "[Double Attack] (This card deals 2 damage.)[Activate: Main] [Once Per Turn] If your opponent has 3 or less Life cards, give up to 2 rested DON!! cards to 1 of your Characters.",
+    "effect": {
+      "en": "[Double Attack] (This card deals 2 damage.)[Activate: Main] [Once Per Turn] If your opponent has 3 or less Life cards, give up to 2 rested DON!! cards to 1 of your Characters.",
+      "it": "[Double Attack] (Questa carta infligge 2 danni.)[Activate: Main] [Once Per Turn] Se il tuo avversario ha 3 o meno carte Life, dai fino a 2 in stato spossato carte DON!! a 1 dei tuoi personaggi."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-022_p1.png",
@@ -1267,7 +1363,10 @@
     "family": [
       "Land of Wano"
     ],
-    "effect": "[Double Attack] (This card deals 2 damage.)[Activate: Main] [Once Per Turn] If your opponent has 3 or less Life cards, give up to 2 rested DON!! cards to 1 of your Characters.",
+    "effect": {
+      "en": "[Double Attack] (This card deals 2 damage.)[Activate: Main] [Once Per Turn] If your opponent has 3 or less Life cards, give up to 2 rested DON!! cards to 1 of your Characters.",
+      "it": "[Double Attack] (Questa carta infligge 2 danni.)[Activate: Main] [Once Per Turn] Se il tuo avversario ha 3 o meno carte Life, dai fino a 2 in stato spossato carte DON!! a 1 dei tuoi personaggi."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-022.png",
@@ -1304,7 +1403,10 @@
       "East Blue",
       "Arlong Pirates"
     ],
-    "effect": "[On Play] You may trash 1 card from your hand: Up to 1 of your opponent's rested Leader cannot attack until the end of your opponent's next turn.",
+    "effect": {
+      "en": "[On Play] You may trash 1 card from your hand: Up to 1 of your opponent's rested Leader cannot attack until the end of your opponent's next turn.",
+      "it": "[On Play] Puoi mandare nel Trash 1 carta dalla tua mano: Up to 1 of your opponent's in stato spossato Leader cannot attack until the end of your opponent's next turn."
+    },
     "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-023.png",
@@ -1338,7 +1440,10 @@
       "Fish-Man",
       "New Fish-Man Pirates"
     ],
-    "effect": "[On Play] If your Leader has the {New Fish-Man Pirates} type, play up to 1 {Fish-Man} type Character card with a cost of 4 or less from your hand. Then, add 1 card from the top of your Life cards to your hand.",
+    "effect": {
+      "en": "[On Play] If your Leader has the {New Fish-Man Pirates} type, play up to 1 {Fish-Man} type Character card with a cost of 4 or less from your hand. Then, add 1 card from the top of your Life cards to your hand.",
+      "it": "[On Play] Se il tuo Leader è di tipo {New Fish-Man Pirates}, gioca fino a 1 carta Personaggio di tipo {Fish-Man} con costo pari o inferiore a 4 dalla tua mano. Poi aggiungi 1 carta dalla cima delle tue carte Life alla tua mano."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-024.png",
@@ -1371,7 +1476,10 @@
     "family": [
       "Merfolk"
     ],
-    "effect": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 {Fish-Man} or {Merfolk} type card other than [Camie] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 {Fish-Man} or {Merfolk} type card other than [Camie] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 4 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Fish-Man} o {Merfolk} diversa da [Camie] e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-025_p1.png",
@@ -1405,7 +1513,10 @@
     "family": [
       "Merfolk"
     ],
-    "effect": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 {Fish-Man} or {Merfolk} type card other than [Camie] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 {Fish-Man} or {Merfolk} type card other than [Camie] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 4 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Fish-Man} o {Merfolk} diversa da [Camie] e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-025.png",
@@ -1438,7 +1549,10 @@
     "family": [
       "Frost Moon Village"
     ],
-    "effect": "[On Play] Set up to 1 of your  attribute Characters with a cost of 4 or less as active. Then, you cannot attack a Leader during this turn.",
+    "effect": {
+      "en": "[On Play] Set up to 1 of your  attribute Characters with a cost of 4 or less as active. Then, you cannot attack a Leader during this turn.",
+      "it": "[On Play] Imposta fino a 1 dei tuoi personaggi attributo con un costo pari o inferiore a 4 come attivo. Quindi, non puoi attaccare un Leader durante questo turno."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-026.png",
@@ -1471,7 +1585,10 @@
     "family": [
       "Gyro Pirates"
     ],
-    "effect": "[On K.O.] Rest up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "effect": {
+      "en": "[On K.O.] Rest up to 1 of your opponent's Characters with a cost of 3 or less.",
+      "it": "[On K.O.] Metti in stato spossato fino a 1 personaggio del tuo avversario con un costo pari o inferiore a 3."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-027.png",
@@ -1505,7 +1622,10 @@
       "Fish-Man",
       "New Fish-Man Pirates"
     ],
-    "effect": "[DON!! x1] [When Attacking] If your Leader has the {New Fish-Man Pirates} type, set up to 1 of your DON!! cards as active and this Character gains +1000 power during this turn. Then, add 1 card from the top of your Life cards to your hand.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] If your Leader has the {New Fish-Man Pirates} type, set up to 1 of your DON!! cards as active and this Character gains +1000 power during this turn. Then, add 1 card from the top of your Life cards to your hand.",
+      "it": "[DON!! x1] [When Attacking] Se il tuo Leader è di tipo {New Fish-Man Pirates}, imposta 1 delle tue carte DON!! come attivo e Questo Personaggio guadagna +1000 power durante questo turno. Poi aggiungi 1 carta dalla cima delle tue carte Life alla tua mano."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-028.png",
@@ -1540,7 +1660,10 @@
       "Fish-Man",
       "New Fish-Man Pirates"
     ],
-    "effect": "[DON!! x1] [When Attacking] [Once Per Turn] If your Leader has the {New Fish-Man Pirates} type, set this Character as active and this Character gains +1000 power during this turn. Then, add 1 card from the top of your Life cards to your hand.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] [Once Per Turn] If your Leader has the {New Fish-Man Pirates} type, set this Character as active and this Character gains +1000 power during this turn. Then, add 1 card from the top of your Life cards to your hand.",
+      "it": "[DON!! x1] [When Attacking] [Once Per Turn] Se il tuo Leader ha il tipo {New Fish-Man Pirates}, imposta questo personaggio come attivo e questo personaggio guadagnerà +1000 power durante questo turno. Poi aggiungi 1 carta dalla cima delle tue carte Life alla tua mano."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-029.png",
@@ -1576,7 +1699,10 @@
       "Fish-Man",
       "New Fish-Man Pirates"
     ],
-    "effect": "[When Attacking] If your Leader has the {New Fish-Man Pirates} type, this Character cannot be K.O.'d in battle and gains +2000 power until the start of your next turn. Then, add 1 card from the top of your Life cards to your hand.",
+    "effect": {
+      "en": "[When Attacking] If your Leader has the {New Fish-Man Pirates} type, this Character cannot be K.O.'d in battle and gains +2000 power until the start of your next turn. Then, add 1 card from the top of your Life cards to your hand.",
+      "it": "[When Attacking] Se il tuo Leader è di tipo {New Fish-Man Pirates}, questo Personaggio non può essere K. O. in battaglia e guadagna +2000 power fino all'inizio del tuo turno successivo. Poi aggiungi 1 carta dalla cima delle tue carte Life alla tua mano."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-030.png",
@@ -1641,7 +1767,10 @@
       "Fish-Man",
       "New Fish-Man Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-032.png",
@@ -1675,7 +1804,10 @@
       "Fish-Man",
       "Flying Pirates"
     ],
-    "effect": "[On Play] You may trash 1 {Fish-Man} type card from your hand or 1 [The Ark Noah] from your hand or field: K.O. up to 1 of your opponent's rested Characters.",
+    "effect": {
+      "en": "[On Play] You may trash 1 {Fish-Man} type card from your hand or 1 [The Ark Noah] from your hand or field: K.O. up to 1 of your opponent's rested Characters.",
+      "it": "[On Play] Puoi mandare nel Trash 1 carta tipo {Fish-Man} dalla tua mano o 1 [The Ark Noah] dalla tua mano o campo: K. O. fino a 1 dei personaggi in stato spossato del tuo avversario."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-033.png",
@@ -1708,7 +1840,10 @@
     "family": [
       "Fish-Man"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] Rest up to 1 of your opponent's Characters with a cost of 4 or less and this Character gains +1000 power during this turn. Then, add 1 card from the top of your Life cards to your hand.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] Rest up to 1 of your opponent's Characters with a cost of 4 or less and this Character gains +1000 power during this turn. Then, add 1 card from the top of your Life cards to your hand.",
+      "it": "[Activate: Main] [Once Per Turn] Rest Fino a 1 dei tuoi opponent's Personaggi with a cost of 4 or less and this Personaggio guadagna +1000 power durante questo turno. Poi, aggiungi 1 card from the top of your carte Life alla tua mano."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-034.png",
@@ -1743,7 +1878,10 @@
       "Fish-Man",
       "New Fish-Man Pirates"
     ],
-    "effect": "[Rush] (This card can attack on the turn in which it is played.)[On Play] Rest up to a total of 2 of your opponent's Characters or DON!! cards. Then, add 1 card from the top of your Life cards to your hand.",
+    "effect": {
+      "en": "[Rush] (This card can attack on the turn in which it is played.)[On Play] Rest up to a total of 2 of your opponent's Characters or DON!! cards. Then, add 1 card from the top of your Life cards to your hand.",
+      "it": "[Rush] (Questa carta può attaccare nel turno in cui viene giocata.)[On Play] metti in stato spossato fino a un totale di 2 personaggi del tuo avversario o carte DON!! . Poi aggiungi 1 carta dalla cima delle tue carte Life alla tua mano."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-035_p1.png",
@@ -1779,7 +1917,10 @@
       "Fish-Man",
       "New Fish-Man Pirates"
     ],
-    "effect": "[Rush] (This card can attack on the turn in which it is played.)[On Play] Rest up to a total of 2 of your opponent's Characters or DON!! cards. Then, add 1 card from the top of your Life cards to your hand.",
+    "effect": {
+      "en": "[Rush] (This card can attack on the turn in which it is played.)[On Play] Rest up to a total of 2 of your opponent's Characters or DON!! cards. Then, add 1 card from the top of your Life cards to your hand.",
+      "it": "[Rush] (Questa carta può attaccare nel turno in cui viene giocata.)[On Play] metti in stato spossato fino a un totale di 2 personaggi del tuo avversario o carte DON!! . Poi aggiungi 1 carta dalla cima delle tue carte Life alla tua mano."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-035.png",
@@ -1814,7 +1955,10 @@
       "Land of Wano",
       "Thriller Bark Pirates"
     ],
-    "effect": "[On Play]/[On K.O.] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
+    "effect": {
+      "en": "[On Play]/[On K.O.] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
+      "it": "[On Play]/[On K.O.] K. O. fino a 1 dei personaggi in stato spossato del tuo avversario con un costo pari o inferiore a 4."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-036.png",
@@ -1880,7 +2024,10 @@
       "Dressrosa",
       "Straw Hat Crew"
     ],
-    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 8 or more rested cards, that card gains an additional +2000 power during this battle.",
+    "effect": {
+      "en": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 8 or more rested cards, that card gains an additional +2000 power during this battle.",
+      "it": "[Counter] Fino a 1 delle tue carte Leader o Personaggio ottiene +2000 power durante questa battaglia. Poi, se hai 8 o più carte in stato spossato, quella carta guadagna +2000 power aggiuntivi durante questa battaglia."
+    },
     "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-038.png",
@@ -1913,7 +2060,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Main] Choose one:• Rest up to 1 of your opponent's Characters with a cost of 6 or less.• K.O. up to 1 of your opponent's rested Characters with a cost of 6 or less.",
+    "effect": {
+      "en": "[Main] Choose one:• Rest up to 1 of your opponent's Characters with a cost of 6 or less.• K.O. up to 1 of your opponent's rested Characters with a cost of 6 or less.",
+      "it": "[Main] Scegline uno: • metti in stato spossato fino a 1 personaggio del tuo avversario con un costo pari o inferiore a 6.• K. O. fino a 1 personaggio del tuo avversario in stato spossato con un costo pari o inferiore a 6."
+    },
     "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-039.png",
@@ -1947,7 +2097,10 @@
       "Fish-Man",
       "New Fish-Man Pirates"
     ],
-    "effect": "[Main] K.O. up to 2 of your opponent's rested Characters with a cost of 3 or less.",
+    "effect": {
+      "en": "[Main] K.O. up to 2 of your opponent's rested Characters with a cost of 3 or less.",
+      "it": "[Main] K. O. fino a 2 personaggi in stato spossato del tuo avversario con un costo pari o inferiore a 3."
+    },
     "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-040.png",
@@ -1980,7 +2133,10 @@
     "family": [
       "Fish-Man Island"
     ],
-    "effect": "[On Play] Rest all of your opponent's Characters.",
+    "effect": {
+      "en": "[On Play] Rest all of your opponent's Characters.",
+      "it": "[On Play] Metti in stato spossato tutti i personaggi del tuo avversario."
+    },
     "trigger": "Trigger[Trigger] Play this card.",
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-041.png",
@@ -2015,7 +2171,10 @@
       "The Vinsmoke Family",
       "GERMA 66"
     ],
-    "effect": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, draw 1 card.",
+    "effect": {
+      "en": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, draw 1 card.",
+      "it": "[Your Turn] [Once Per Turn] Quando un carta DON!! sul tuo campo viene restituito al tuo mazzo DON!! , pesca 1 carta."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-042_p1.png",
@@ -2052,7 +2211,10 @@
       "The Vinsmoke Family",
       "GERMA 66"
     ],
-    "effect": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, draw 1 card.",
+    "effect": {
+      "en": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, draw 1 card.",
+      "it": "[Your Turn] [Once Per Turn] Quando un carta DON!! sul tuo campo viene restituito al tuo mazzo DON!! , pesca 1 carta."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-042.png",
@@ -2086,7 +2248,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Activate: Main] [Once Per Turn] You may trash 1 card from your hand and place 1 Character with a cost of 2 or less at the bottom of the owner's deck: This Character gains +3000 power during this turn.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Activate: Main] [Once Per Turn] You may trash 1 card from your hand and place 1 Character with a cost of 2 or less at the bottom of the owner's deck: This Character gains +3000 power during this turn.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[Activate: Main] [Once Per Turn] Puoi mandare nel Trash 1 carta dalla tua mano e posizionare 1 Personaggio con costo pari o inferiore a 2 in fondo al mazzo del proprietario: Questo Personaggio guadagna +3000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-043_p1.png",
@@ -2122,7 +2287,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Activate: Main] [Once Per Turn] You may trash 1 card from your hand and place 1 Character with a cost of 2 or less at the bottom of the owner's deck: This Character gains +3000 power during this turn.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Activate: Main] [Once Per Turn] You may trash 1 card from your hand and place 1 Character with a cost of 2 or less at the bottom of the owner's deck: This Character gains +3000 power during this turn.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[Activate: Main] [Once Per Turn] Puoi mandare nel Trash 1 carta dalla tua mano e posizionare 1 Personaggio con costo pari o inferiore a 2 in fondo al mazzo del proprietario: Questo Personaggio guadagna +3000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-043.png",
@@ -2157,7 +2325,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Your Turn] [Once Per Turn] When your opponent activates an Event, your opponent must place 1 card from their hand at the bottom of their deck.",
+    "effect": {
+      "en": "[Your Turn] [Once Per Turn] When your opponent activates an Event, your opponent must place 1 card from their hand at the bottom of their deck.",
+      "it": "[Your Turn] [Once Per Turn] Quando il tuo avversario attiva un Evento, il tuo avversario deve mettere 1 carta dalla sua mano in fondo al suo mazzo."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-044.png",
@@ -2191,7 +2362,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] Draw 2 cards and place 2 cards from your hand at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Draw 2 cards and place 2 cards from your hand at the bottom of your deck in any order.",
+      "it": "[On Play] Pesca 2 carte e metti 2 carte dalla tua mano in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-045.png",
@@ -2224,7 +2398,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] Place up to 1 Character with a cost of 2 or less at the bottom of the owner's deck.",
+    "effect": {
+      "en": "[On Play] Place up to 1 Character with a cost of 2 or less at the bottom of the owner's deck.",
+      "it": "[On Play] Posiziona fino a 1 Personaggio con costo pari o inferiore a 2 in fondo al mazzo del proprietario."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-046.png",
@@ -2257,7 +2434,10 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[On Play] Your opponent returns all cards in their hand to their deck and shuffles their deck. Then, your opponent draws 5 cards.",
+    "effect": {
+      "en": "[On Play] Your opponent returns all cards in their hand to their deck and shuffles their deck. Then, your opponent draws 5 cards.",
+      "it": "[On Play] Il tuo avversario rimette tutte le carte che ha in mano nel suo mazzo e mescola il suo mazzo. Poi il tuo avversario pesca 5 carte."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-047.png",
@@ -2290,7 +2470,10 @@
     "family": [
       "East Blue"
     ],
-    "effect": "[Your Turn] When your opponent activates [Blocker] or an Event, if your Leader has the {East Blue} type, you may trash 4 cards from the top of your deck.",
+    "effect": {
+      "en": "[Your Turn] When your opponent activates [Blocker] or an Event, if your Leader has the {East Blue} type, you may trash 4 cards from the top of your deck.",
+      "it": "[Your Turn] Quando il tuo avversario attiva [Blocker] o un Evento, se il tuo Leader ha il tipo {East Blue}, Puoi mandare nel Trash 4 carte dalla cima del tuo mazzo."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-048.png",
@@ -2354,7 +2537,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Navy} type card other than [Tashigi] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Navy} type card other than [Tashigi] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Navy} diversa da [Tashigi] e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-050_p1.png",
@@ -2388,7 +2574,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Navy} type card other than [Tashigi] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Navy} type card other than [Tashigi] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Navy} diversa da [Tashigi] e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-050.png",
@@ -2421,7 +2610,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] You may trash 2 cards from your hand: Your opponent returns 1 of their Characters to the owner's hand.",
+    "effect": {
+      "en": "[On Play] You may trash 2 cards from your hand: Your opponent returns 1 of their Characters to the owner's hand.",
+      "it": "[On Play] Puoi mandare nel Trash 2 carte dalla tua mano: il tuo avversario fa ritornare 1 dei suoi personaggi in mano al proprietario."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-051.png",
@@ -2454,7 +2646,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[DON!! x1] If you have 4 or less cards in your hand, this Character cannot be K.O.'d in battle.",
+    "effect": {
+      "en": "[DON!! x1] If you have 4 or less cards in your hand, this Character cannot be K.O.'d in battle.",
+      "it": "[DON!! x1] Se hai 4 o meno carte in mano, questo Personaggio non può essere K. O. in battaglia."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-052.png",
@@ -2488,7 +2683,10 @@
       "Giant",
       "Navy"
     ],
-    "effect": "[On K.O.] Place up to 1 Character with a cost of 2 or less at the bottom of the owner's deck.",
+    "effect": {
+      "en": "[On K.O.] Place up to 1 Character with a cost of 2 or less at the bottom of the owner's deck.",
+      "it": "[On K.O.] Posiziona fino a 1 Personaggio con costo pari o inferiore a 2 in fondo al mazzo del proprietario."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-053.png",
@@ -2521,7 +2719,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "If you have 5 or less cards in your hand, this Character gains [Blocker].(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "If you have 5 or less cards in your hand, this Character gains [Blocker].(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "Se hai 5 o meno carte in mano, questo Personaggio guadagna [Blocker]. (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-054.png",
@@ -2554,7 +2755,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[DON!! x2] [When Attacking] If you have 4 or less cards in your hand, your opponent cannot activate [Blocker] during this battle.",
+    "effect": {
+      "en": "[DON!! x2] [When Attacking] If you have 4 or less cards in your hand, your opponent cannot activate [Blocker] during this battle.",
+      "it": "[DON!! x2] [When Attacking] Se hai 4 o meno carte in mano, il tuo avversario non potrà attivare [Blocker] durante questa battaglia."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-055.png",
@@ -2589,7 +2793,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Main] Place up to 1 of your opponent's Characters with a cost of 2 or less and up to 1 of your opponent's Characters with a cost of 1 or less at the bottom of the owner's deck in any order.",
+    "effect": {
+      "en": "[Main] Place up to 1 of your opponent's Characters with a cost of 2 or less and up to 1 of your opponent's Characters with a cost of 1 or less at the bottom of the owner's deck in any order.",
+      "it": "[Main] Metti fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 2 e fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 1 in fondo al mazzo del proprietario in qualsiasi ordine."
+    },
     "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-056.png",
@@ -2623,7 +2830,10 @@
       "Dressrosa",
       "Straw Hat Crew"
     ],
-    "effect": "[Main] Up to 1 of your Leader or Character cards gains +1000 power during this turn. Then, reveal 1 card from the top of your deck, play up to 1 Character card with a cost of 2, and place the rest at the top or bottom of your deck.",
+    "effect": {
+      "en": "[Main] Up to 1 of your Leader or Character cards gains +1000 power during this turn. Then, reveal 1 card from the top of your deck, play up to 1 Character card with a cost of 2, and place the rest at the top or bottom of your deck.",
+      "it": "[Main] Fino a 1 delle tue carte Leader o Personaggio guadagna +1000 power durante questo turno. Poi, rivela 1 carta dalla cima del tuo mazzo, gioca fino a 1 carta Personaggio con costo pari a 2 e posiziona il resto in cima o in fondo al tuo mazzo."
+    },
     "trigger": "Trigger[Trigger] Play up to 1 Character card with a cost of 2 from your hand.",
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-057.png",
@@ -2656,7 +2866,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Main] Place up to 2 Characters with a cost of 6 or less at the bottom of the owner's deck in any order.",
+    "effect": {
+      "en": "[Main] Place up to 2 Characters with a cost of 6 or less at the bottom of the owner's deck in any order.",
+      "it": "[Main] Posiziona fino a 2 personaggi con un costo pari o inferiore a 6 in fondo al mazzo del proprietario in qualsiasi ordine."
+    },
     "trigger": "Trigger[Trigger] Place up to 1 Character with a cost of 5 or less at the bottom of the owner's deck.",
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-058.png",
@@ -2689,7 +2902,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +1000 power during this turn, and draw 1 card.",
+    "effect": {
+      "en": "[Counter] Up to 1 of your Leader or Character cards gains +1000 power during this turn, and draw 1 card.",
+      "it": "[Counter] Fino a 1 delle tue carte Leader o Personaggio guadagna +1000 power durante questo turno e pesca 1 carta."
+    },
     "trigger": "Trigger[Trigger] Look at 5 cards from the top of your deck and place them at the top or bottom of your deck in any order.",
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-059.png",
@@ -2723,7 +2939,10 @@
       "The Vinsmoke Family",
       "GERMA 66"
     ],
-    "effect": "[Activate: Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may trash this Character: If your Leader has the {GERMA 66} type, play up to 1 [Vinsmoke Ichiji] with a cost of 7 from your hand or trash.",
+    "effect": {
+      "en": "[Activate: Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may trash this Character: If your Leader has the {GERMA 66} type, play up to 1 [Vinsmoke Ichiji] with a cost of 7 from your hand or trash.",
+      "it": "[Activate: Main] DON!! −1 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .) Puoi mandare nel Trash questo personaggio: se il tuo Leader ha il tipo {GERMA 66}, gioca fino a 1 [Vinsmoke Ichiji] con un costo di 7 dalla tua mano o Trash."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-060.png",
@@ -2757,7 +2976,10 @@
       "The Vinsmoke Family",
       "GERMA 66"
     ],
-    "effect": "[On Play] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, give up to 1 of your opponent's Characters −2000 power during this turn and this Character gains [Rush].(This card can attack on the turn in which it is played.)",
+    "effect": {
+      "en": "[On Play] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, give up to 1 of your opponent's Characters −2000 power during this turn and this Character gains [Rush].(This card can attack on the turn in which it is played.)",
+      "it": "[On Play] Se il numero di carte DON!! sul tuo campo è uguale o inferiore al numero sul campo del tuo avversario, cede fino a 1 dei Personaggi del tuo avversario −2000 power durante questo turno e questo Personaggio guadagna [Rush]. (Questa carta può attaccare nel turno in cui viene giocata.)"
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-061_p1.png",
@@ -2793,7 +3015,10 @@
       "The Vinsmoke Family",
       "GERMA 66"
     ],
-    "effect": "[On Play] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, give up to 1 of your opponent's Characters −2000 power during this turn and this Character gains [Rush].(This card can attack on the turn in which it is played.)",
+    "effect": {
+      "en": "[On Play] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, give up to 1 of your opponent's Characters −2000 power during this turn and this Character gains [Rush].(This card can attack on the turn in which it is played.)",
+      "it": "[On Play] Se il numero di carte DON!! sul tuo campo è uguale o inferiore al numero sul campo del tuo avversario, cede fino a 1 dei Personaggi del tuo avversario −2000 power durante questo turno e questo Personaggio guadagna [Rush]. (Questa carta può attaccare nel turno in cui viene giocata.)"
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-061.png",
@@ -2828,7 +3053,10 @@
       "The Vinsmoke Family",
       "GERMA 66"
     ],
-    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may trash 2 cards from your hand: Play up to 4 {GERMA 66} type Character cards with different card names and 4000 power or less from your trash.[Activate: Main] [Once Per Turn] DON!! −1: Rest up to 1 of your opponent's DON!! cards.",
+    "effect": {
+      "en": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may trash 2 cards from your hand: Play up to 4 {GERMA 66} type Character cards with different card names and 4000 power or less from your trash.[Activate: Main] [Once Per Turn] DON!! −1: Rest up to 1 of your opponent's DON!! cards.",
+      "it": "[On Play] DON!! −1 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .) Puoi mandare nel Trash 2 carte dalla tua mano: Giocare fino a 4 carte Personaggio di tipo {GERMA 66} con nomi diversi e 4000 power o meno dal tuo Trash. [Activate: Main] [Once Per Turn] DON!! −1: metti in stato spossato fino a 1 delle tue carte DON!! dell'avversario."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-062_p1.png",
@@ -2865,7 +3093,10 @@
       "The Vinsmoke Family",
       "GERMA 66"
     ],
-    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may trash 2 cards from your hand: Play up to 4 {GERMA 66} type Character cards with different card names and 4000 power or less from your trash.[Activate: Main] [Once Per Turn] DON!! −1: Rest up to 1 of your opponent's DON!! cards.",
+    "effect": {
+      "en": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may trash 2 cards from your hand: Play up to 4 {GERMA 66} type Character cards with different card names and 4000 power or less from your trash.[Activate: Main] [Once Per Turn] DON!! −1: Rest up to 1 of your opponent's DON!! cards.",
+      "it": "[On Play] DON!! −1 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .) Puoi mandare nel Trash 2 carte dalla tua mano: Giocare fino a 4 carte Personaggio di tipo {GERMA 66} con nomi diversi e 4000 power o meno dal tuo Trash. [Activate: Main] [Once Per Turn] DON!! −1: metti in stato spossato fino a 1 delle tue carte DON!! dell'avversario."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-062.png",
@@ -2901,7 +3132,10 @@
       "The Vinsmoke Family",
       "Kingdom of GERMA"
     ],
-    "effect": "[On Play] You may trash 1 card from your hand: If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, add up to 1 {The Vinsmoke Family} type Character card with 4000 power or less from your trash to your hand.",
+    "effect": {
+      "en": "[On Play] You may trash 1 card from your hand: If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, add up to 1 {The Vinsmoke Family} type Character card with 4000 power or less from your trash to your hand.",
+      "it": "[On Play] Puoi mandare nel Trash 1 carta dalla tua mano: se il numero di carte DON!! sul tuo campo è uguale o inferiore al numero sul campo del tuo avversario, aggiungi fino a 1 carta Personaggio di tipo {The Vinsmoke Family} con 4000 power o meno dal tuo Trash alla tua mano."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-063.png",
@@ -2935,7 +3169,10 @@
       "The Vinsmoke Family",
       "GERMA 66"
     ],
-    "effect": "[Activate: Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may trash this Character: If your Leader has the {GERMA 66} type, play up to 1 [Vinsmoke Niji] with a cost of 5 from your hand or trash.",
+    "effect": {
+      "en": "[Activate: Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may trash this Character: If your Leader has the {GERMA 66} type, play up to 1 [Vinsmoke Niji] with a cost of 5 from your hand or trash.",
+      "it": "[Activate: Main] DON!! −1 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .) Puoi mandare nel Trash questo personaggio: se il tuo Leader ha il tipo {GERMA 66}, gioca fino a 1 [Vinsmoke Niji] con un costo di 5 dalla tua mano o Trash."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-064.png",
@@ -2969,7 +3206,10 @@
       "The Vinsmoke Family",
       "GERMA 66"
     ],
-    "effect": "[On Play] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, choose one:• K.O. up to 1 of your opponent's Characters with a cost of 2 or less.• Return up to 1 of your opponent's Characters with a cost of 4 or less to the owner's hand.",
+    "effect": {
+      "en": "[On Play] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, choose one:• K.O. up to 1 of your opponent's Characters with a cost of 2 or less.• Return up to 1 of your opponent's Characters with a cost of 4 or less to the owner's hand.",
+      "it": "[On Play] Se il numero di carte DON!! sul tuo campo è uguale o inferiore al numero sul campo del tuo avversario, scegli uno: • K. O. fino a 1 dei Personaggi del tuo avversario con un costo pari o inferiore a 2. • Fai ritornare fino a 1 dei Personaggi del tuo avversario con un costo pari o inferiore a 4 nella mano del proprietario."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-065.png",
@@ -3003,7 +3243,10 @@
       "The Vinsmoke Family",
       "GERMA 66"
     ],
-    "effect": "[Activate: Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may trash this Character: If your Leader has the {GERMA 66} type, play up to 1 [Vinsmoke Yonji] with a cost of 4 from your hand or trash.",
+    "effect": {
+      "en": "[Activate: Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may trash this Character: If your Leader has the {GERMA 66} type, play up to 1 [Vinsmoke Yonji] with a cost of 4 from your hand or trash.",
+      "it": "[Activate: Main] DON!! −1 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .) Puoi mandare nel Trash questo personaggio: se il tuo Leader ha il tipo {GERMA 66}, gioca fino a 1 [Vinsmoke Yonji] con un costo di 4 dalla tua mano o Trash."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-066.png",
@@ -3037,7 +3280,10 @@
       "The Vinsmoke Family",
       "GERMA 66"
     ],
-    "effect": "If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, this Character gains +1000 power.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, this Character gains +1000 power.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "Se il numero di carte DON!! sul tuo campo è uguale o inferiore al numero sul campo del tuo avversario, Questo Personaggio guadagna +1000 power. [Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-067.png",
@@ -3071,7 +3317,10 @@
       "The Vinsmoke Family",
       "GERMA 66"
     ],
-    "effect": "[Activate: Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may trash this Character: If your Leader has the {GERMA 66} type, play up to 1 [Vinsmoke Reiju] with a cost of 4 from your hand or trash.",
+    "effect": {
+      "en": "[Activate: Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may trash this Character: If your Leader has the {GERMA 66} type, play up to 1 [Vinsmoke Reiju] with a cost of 4 from your hand or trash.",
+      "it": "[Activate: Main] DON!! −1 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .) Puoi mandare nel Trash questo personaggio: se il tuo Leader ha il tipo {GERMA 66}, gioca fino a 1 [Vinsmoke Reiju] con un costo di 4 dalla tua mano o Trash."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-068.png",
@@ -3105,7 +3354,10 @@
       "The Vinsmoke Family",
       "GERMA 66"
     ],
-    "effect": "[On Play] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field and you have 5 or less cards in your hand, draw 2 cards.",
+    "effect": {
+      "en": "[On Play] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field and you have 5 or less cards in your hand, draw 2 cards.",
+      "it": "[On Play] Se il numero di carte DON!! sul tuo campo è uguale o inferiore al numero sul campo del tuo avversario e hai 5 o meno carte in mano, pesca 2 carte."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-069_p1.png",
@@ -3140,7 +3392,10 @@
       "The Vinsmoke Family",
       "GERMA 66"
     ],
-    "effect": "[On Play] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field and you have 5 or less cards in your hand, draw 2 cards.",
+    "effect": {
+      "en": "[On Play] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field and you have 5 or less cards in your hand, draw 2 cards.",
+      "it": "[On Play] Se il numero di carte DON!! sul tuo campo è uguale o inferiore al numero sul campo del tuo avversario e hai 5 o meno carte in mano, pesca 2 carte."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-069.png",
@@ -3205,7 +3460,10 @@
       "FILM",
       "Grantesoro"
     ],
-    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {FILM} type, add up to 2 {FILM} type Character cards with a cost of 4 or less from your trash to your hand.",
+    "effect": {
+      "en": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {FILM} type, add up to 2 {FILM} type Character cards with a cost of 4 or less from your trash to your hand.",
+      "it": "[On Play] DON!! −1 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): Se il tuo Leader ha il tipo {FILM}, aggiungi fino a 2 carte Personaggio di tipo {FILM} con un costo pari o inferiore a 4 dal tuo Trash alla tua mano."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-071.png",
@@ -3238,7 +3496,10 @@
     "family": [
       "Kingdom of GERMA"
     ],
-    "effect": "If your Leader has the {GERMA 66} type and the number of DON!! cards on your field is at least 2 less than the number on your opponent's field, this Character gains [Blocker].(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "If your Leader has the {GERMA 66} type and the number of DON!! cards on your field is at least 2 less than the number on your opponent's field, this Character gains [Blocker].(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "Se il tuo Leader ha il tipo {GERMA 66} e il numero di carte DON!! sul tuo campo è almeno 2 in meno del numero sul campo del tuo avversario, questo personaggio guadagna [Blocker]. (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-072.png",
@@ -3272,7 +3533,10 @@
       "FILM",
       "Golden Lion Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] If you have 8 or more DON!! cards on your field, draw 1 card and trash 1 card from your hand.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] If you have 8 or more DON!! cards on your field, draw 1 card and trash 1 card from your hand.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On Play] Se hai 8 o più carte DON!! sul tuo campo, pesca 1 carta e Manda nel Trash 1 carta dalla tua mano."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-073.png",
@@ -3307,7 +3571,10 @@
       "FILM",
       "Navy"
     ],
-    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Negate the effect of up to 1 of your opponent's Characters during this turn. Then, if that Character has 5000 power or less, K.O. it.",
+    "effect": {
+      "en": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Negate the effect of up to 1 of your opponent's Characters during this turn. Then, if that Character has 5000 power or less, K.O. it.",
+      "it": "[On Play] DON!! −1 (Puoi riportare il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): annulla l'effetto di un massimo di 1 personaggio del tuo avversario durante questo turno. Quindi, se quel personaggio ha 5000 power o meno, K. O. ."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-074.png",
@@ -3341,7 +3608,10 @@
       "FILM",
       "Crown Island"
     ],
-    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 2 of your opponent's Characters with a cost of 2 or less.",
+    "effect": {
+      "en": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 2 of your opponent's Characters with a cost of 2 or less.",
+      "it": "[On Play] DON!! −1 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): metti in stato spossato fino a 2 personaggi del tuo avversario con un costo pari o inferiore a 2."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-075.png",
@@ -3376,7 +3646,10 @@
       "Kid Pirates",
       "SMILE"
     ],
-    "effect": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
+    "effect": {
+      "en": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
+      "it": "[Your Turn] [Once Per Turn] Quando un carta DON!! sul tuo campo viene restituito al tuo mazzo DON!! , K. O. fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 2."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-076.png",
@@ -3411,7 +3684,10 @@
       "The Vinsmoke Family",
       "GERMA 66"
     ],
-    "effect": "[Main] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field,  place up to 1 of your opponent's Characters with a cost of 5 or less at the bottom of the owner's deck.",
+    "effect": {
+      "en": "[Main] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field,  place up to 1 of your opponent's Characters with a cost of 5 or less at the bottom of the owner's deck.",
+      "it": "[Main] Se il numero di carte DON!! sul tuo campo è uguale o inferiore al numero sul campo del tuo avversario, posiziona fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 5 in fondo al mazzo del proprietario."
+    },
     "trigger": "Trigger[Trigger] Place up to 1 of your opponent's Characters with a cost of 4 or less at the bottom of the owner's deck.",
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-077.png",
@@ -3445,7 +3721,10 @@
       "The Vinsmoke Family",
       "GERMA 66"
     ],
-    "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 card with a type including \"GERMA\" other than [GERMA 66] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 card with a type including \"GERMA\" other than [GERMA 66] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[Main] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta con un tipo che include \"GERMA\" diverso da [GERMA 66] e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": "Trigger[Trigger] Draw 1 card.",
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-078.png",
@@ -3478,7 +3757,10 @@
     "family": [
       "Kingdom of GERMA"
     ],
-    "effect": "[Activate: Main] You may trash 1 card from your hand and rest this Stage: Look at 3 cards from the top of your deck; reveal up to 1 card with a type including \"GERMA\" and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[Activate: Main] You may trash 1 card from your hand and rest this Stage: Look at 3 cards from the top of your deck; reveal up to 1 card with a type including \"GERMA\" and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[Activate: Main] Puoi mandare nel Trash 1 carta dalla tua mano e mettere in stato spossato in questa fase: guarda 3 carte dalla cima del tuo mazzo; rivela fino a 1 carta con un tipo che include \"GERMA\" e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-079.png",
@@ -3512,7 +3794,10 @@
       "The Seven Warlords of the Sea",
       "Thriller Bark Pirates"
     ],
-    "effect": "[DON!! x1] [When Attacking] ➁ (You may rest the specified number of DON!! cards in your cost area.) You may trash 1 card from your hand: Trash 2 cards from the top of your deck and play up to 1 {Thriller Bark Pirates} type Character card with a cost of 4 or less from your trash.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] ➁ (You may rest the specified number of DON!! cards in your cost area.) You may trash 1 card from your hand: Trash 2 cards from the top of your deck and play up to 1 {Thriller Bark Pirates} type Character card with a cost of 4 or less from your trash.",
+      "it": "[DON!! x1] [When Attacking] ➁ (Puoi lasciare il numero specificato di carte DON!! nella tua area di costo.) Puoi mandare nel Trash 1 carta dalla tua mano: Manda nel Trash 2 carte dalla cima del tuo mazzo e giocare fino a 1 carta Personaggio di tipo {Thriller Bark Pirates} con un costo pari o inferiore a 4 dal tuo Trash."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-080_p1.png",
@@ -3548,7 +3833,10 @@
       "The Seven Warlords of the Sea",
       "Thriller Bark Pirates"
     ],
-    "effect": "[DON!! x1] [When Attacking] ➁ (You may rest the specified number of DON!! cards in your cost area.) You may trash 1 card from your hand: Trash 2 cards from the top of your deck and play up to 1 {Thriller Bark Pirates} type Character card with a cost of 4 or less from your trash.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] ➁ (You may rest the specified number of DON!! cards in your cost area.) You may trash 1 card from your hand: Trash 2 cards from the top of your deck and play up to 1 {Thriller Bark Pirates} type Character card with a cost of 4 or less from your trash.",
+      "it": "[DON!! x1] [When Attacking] ➁ (Puoi lasciare il numero specificato di carte DON!! nella tua area di costo.) Puoi mandare nel Trash 1 carta dalla tua mano: Manda nel Trash 2 carte dalla cima del tuo mazzo e giocare fino a 1 carta Personaggio di tipo {Thriller Bark Pirates} con un costo pari o inferiore a 4 dal tuo Trash."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-080.png",
@@ -3582,7 +3870,10 @@
     "family": [
       "Thriller Bark Pirates"
     ],
-    "effect": "[On Play] You may return 2 cards from your trash to the bottom of your deck in any order: K.O. up to 1 Character with a cost of 2 or less.",
+    "effect": {
+      "en": "[On Play] You may return 2 cards from your trash to the bottom of your deck in any order: K.O. up to 1 Character with a cost of 2 or less.",
+      "it": "[On Play] Puoi rimettere 2 carte dal tuo Trash in fondo al tuo mazzo in qualsiasi ordine: K. O. fino a 1 Personaggio con un costo pari o inferiore a 2."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-081_p1.png",
@@ -3616,7 +3907,10 @@
     "family": [
       "Thriller Bark Pirates"
     ],
-    "effect": "[On Play] You may return 2 cards from your trash to the bottom of your deck in any order: K.O. up to 1 Character with a cost of 2 or less.",
+    "effect": {
+      "en": "[On Play] You may return 2 cards from your trash to the bottom of your deck in any order: K.O. up to 1 Character with a cost of 2 or less.",
+      "it": "[On Play] Puoi rimettere 2 carte dal tuo Trash in fondo al tuo mazzo in qualsiasi ordine: K. O. fino a 1 Personaggio con un costo pari o inferiore a 2."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-081.png",
@@ -3649,7 +3943,10 @@
     "family": [
       "Thriller Bark Pirates"
     ],
-    "effect": "[On Play]/[On K.O.] If your Leader has the {Thriller Bark Pirates} type, draw 2 cards and trash 2 cards from your hand.",
+    "effect": {
+      "en": "[On Play]/[On K.O.] If your Leader has the {Thriller Bark Pirates} type, draw 2 cards and trash 2 cards from your hand.",
+      "it": "[On Play]/[On K.O.] Se il tuo Leader ha il tipo {Thriller Bark Pirates}, pesca 2 carte e Manda nel Trash 2 carte dalla tua mano."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-082.png",
@@ -3684,7 +3981,10 @@
       "Giant",
       "Thriller Bark Pirates"
     ],
-    "effect": "This Character cannot attack.[Activate: Main] You may K.O. 1 of your {Thriller Bark Pirates} type Characters: This Character's effect is negated during this turn.",
+    "effect": {
+      "en": "This Character cannot attack.[Activate: Main] You may K.O. 1 of your {Thriller Bark Pirates} type Characters: This Character's effect is negated during this turn.",
+      "it": "Questo personaggio non può attaccare. [Activate: Main] Puoi K. O. 1 dei tuoi personaggi di tipo {Thriller Bark Pirates}: l'effetto di questo personaggio viene annullato durante questo turno."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-083.png",
@@ -3717,7 +4017,10 @@
     "family": [
       "Thriller Bark Pirates"
     ],
-    "effect": "[On K.O.] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "effect": {
+      "en": "[On K.O.] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+      "it": "[On K.O.] Fino a 1 delle tue carte Leader o Personaggio guadagna +1000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-084.png",
@@ -3750,7 +4053,10 @@
     "family": [
       "Thriller Bark Pirates"
     ],
-    "effect": "[DON!! x2] [Your Turn] This Character gains +1000 power for every 5 cards in your trash.",
+    "effect": {
+      "en": "[DON!! x2] [Your Turn] This Character gains +1000 power for every 5 cards in your trash.",
+      "it": "[DON!! x2] [Your Turn] Questo personaggio guadagna +1000 power per ogni 5 carte nel tuo Trash."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-085.png",
@@ -3785,7 +4091,10 @@
       "The Seven Warlords of the Sea",
       "Thriller Bark Pirates"
     ],
-    "effect": "[On Play] Choose up to 1 Character card with a cost of 4 or less and up to 1 Character card with a cost of 2 or less from your trash. Play 1 card and play the other card rested.",
+    "effect": {
+      "en": "[On Play] Choose up to 1 Character card with a cost of 4 or less and up to 1 Character card with a cost of 2 or less from your trash. Play 1 card and play the other card rested.",
+      "it": "[On Play] Scegli fino a 1 carta Personaggio con un costo pari o inferiore a 4 e fino a 1 carta Personaggio con un costo pari o inferiore a 2 dal tuo Trash. Gioca 1 carta e gioca l'altra carta in stato spossato."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-086_p1.png",
@@ -3820,7 +4129,10 @@
       "The Seven Warlords of the Sea",
       "Thriller Bark Pirates"
     ],
-    "effect": "[On Play] Choose up to 1 Character card with a cost of 4 or less and up to 1 Character card with a cost of 2 or less from your trash. Play 1 card and play the other card rested.",
+    "effect": {
+      "en": "[On Play] Choose up to 1 Character card with a cost of 4 or less and up to 1 Character card with a cost of 2 or less from your trash. Play 1 card and play the other card rested.",
+      "it": "[On Play] Scegli fino a 1 carta Personaggio con un costo pari o inferiore a 4 e fino a 1 carta Personaggio con un costo pari o inferiore a 2 dal tuo Trash. Gioca 1 carta e gioca l'altra carta in stato spossato."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-086.png",
@@ -3853,7 +4165,10 @@
     "family": [
       "Thriller Bark Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-087.png",
@@ -3887,7 +4202,10 @@
       "Dressrosa",
       "Happosui Army"
     ],
-    "effect": "If your Leader has the {Dressrosa} type and is active, this Character gains +2000 power.",
+    "effect": {
+      "en": "If your Leader has the {Dressrosa} type and is active, this Character gains +2000 power.",
+      "it": "Se il tuo Leader ha il tipo {Dressrosa} ed è attivo, Questo Personaggio guadagna +2000 power."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-088.png",
@@ -3917,7 +4235,10 @@
     "family": [
       "Thriller Bark Pirates"
     ],
-    "effect": "[On Play]/[On K.O.] Trash 3 cards from the top of your deck.",
+    "effect": {
+      "en": "[On Play]/[On K.O.] Trash 3 cards from the top of your deck.",
+      "it": "[On Play]/[On K.O.] Manda nel Trash 3 carte dalla cima del tuo mazzo."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-089.png",
@@ -3951,7 +4272,10 @@
     "family": [
       "Thriller Bark Pirates"
     ],
-    "effect": "[On Play] You may return 2 cards from your trash to the bottom of your deck in any order: Add up to 1 {Thriller Bark Pirates} type card other than [Dr. Hogback] from your trash to your hand.",
+    "effect": {
+      "en": "[On Play] You may return 2 cards from your trash to the bottom of your deck in any order: Add up to 1 {Thriller Bark Pirates} type card other than [Dr. Hogback] from your trash to your hand.",
+      "it": "[On Play] Puoi rimettere 2 carte dal tuo Trash in fondo al tuo mazzo in qualsiasi ordine: aggiungi fino a 1 carta di tipo {Thriller Bark Pirates} diversa da [Dr. Hogback] dal tuo Trash alla tua mano."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-090.png",
@@ -3984,7 +4308,10 @@
     "family": [
       "Thriller Bark Pirates"
     ],
-    "effect": "[On Play] If your Leader has the {Thriller Bark Pirates} type, trash 5 cards from the top of your deck.",
+    "effect": {
+      "en": "[On Play] If your Leader has the {Thriller Bark Pirates} type, trash 5 cards from the top of your deck.",
+      "it": "[On Play] Se il tuo Leader ha il tipo {Thriller Bark Pirates}, Manda nel Trash 5 carte dalla cima del tuo mazzo."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-091.png",
@@ -4017,7 +4344,10 @@
     "family": [
       "Former Rumbar Pirates"
     ],
-    "effect": "[On Play] Choose one:• Trash up to 1 of your opponent's Characters with a cost of 4 or less.• Your opponent places 3 cards from their trash at the bottom of their deck in any order.",
+    "effect": {
+      "en": "[On Play] Choose one:• Trash up to 1 of your opponent's Characters with a cost of 4 or less.• Your opponent places 3 cards from their trash at the bottom of their deck in any order.",
+      "it": "[On Play] Scegli uno: • Manda nel Trash fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 4.• Il tuo avversario piazza 3 carte dai suoi Trash in fondo al suo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-092.png",
@@ -4050,7 +4380,10 @@
     "family": [
       "Thriller Bark Pirates"
     ],
-    "effect": "[On Play] If your opponent has 5 or more cards in their hand, choose one:• Your opponent trashes 1 card from their hand.• Give up to 1 of your opponent's Characters −3 cost during this turn.",
+    "effect": {
+      "en": "[On Play] If your opponent has 5 or more cards in their hand, choose one:• Your opponent trashes 1 card from their hand.• Give up to 1 of your opponent's Characters −3 cost during this turn.",
+      "it": "[On Play] Se il tuo avversario ha 5 o più carte in mano, scegli una: • Il tuo avversario cestina 1 carta dalla sua mano.• Cedi fino a 1 dei personaggi del tuo avversario a un -3 costo durante questo turno."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-093_p1.png",
@@ -4084,7 +4417,10 @@
     "family": [
       "Thriller Bark Pirates"
     ],
-    "effect": "[On Play] If your opponent has 5 or more cards in their hand, choose one:• Your opponent trashes 1 card from their hand.• Give up to 1 of your opponent's Characters −3 cost during this turn.",
+    "effect": {
+      "en": "[On Play] If your opponent has 5 or more cards in their hand, choose one:• Your opponent trashes 1 card from their hand.• Give up to 1 of your opponent's Characters −3 cost during this turn.",
+      "it": "[On Play] Se il tuo avversario ha 5 o più carte in mano, scegli una: • Il tuo avversario cestina 1 carta dalla sua mano.• Cedi fino a 1 dei personaggi del tuo avversario a un -3 costo durante questo turno."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-093.png",
@@ -4148,7 +4484,10 @@
       "The Seven Warlords of the Sea",
       "Thriller Bark Pirates"
     ],
-    "effect": "[Main]/[Counter] Your Leader gains +1000 power during this turn. Then, you may K.O. any number of your {Thriller Bark Pirates} type Characters with a cost of 2 or less. Your Leader gains an additional +1000 power during this turn for every Character K.O.'d.",
+    "effect": {
+      "en": "[Main]/[Counter] Your Leader gains +1000 power during this turn. Then, you may K.O. any number of your {Thriller Bark Pirates} type Characters with a cost of 2 or less. Your Leader gains an additional +1000 power during this turn for every Character K.O.'d.",
+      "it": "[Main]/[Counter] Il tuo Leader guadagna +1000 power durante questo turno. Quindi, puoi K. O. qualsiasi numero dei tuoi personaggi di tipo {Thriller Bark Pirates} con un costo pari o inferiore a 2. Il tuo Leader guadagna +1000 power aggiuntivi durante questo turno per ogni Personaggio K. O. 'd."
+    },
     "trigger": "Trigger[Trigger] Draw 2 cards and trash 1 card from your hand.",
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-095.png",
@@ -4182,7 +4521,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Counter] You may add 1 card from the top of your Life cards to your hand: Your Characters with a cost of 7 or less cannot be K.O.'d in battle during this turn.",
+    "effect": {
+      "en": "[Counter] You may add 1 card from the top of your Life cards to your hand: Your Characters with a cost of 7 or less cannot be K.O.'d in battle during this turn.",
+      "it": "[Counter] Puoi aggiungere 1 carta dalla cima delle tue carte Life alla tua mano: i tuoi Personaggi con costo pari o inferiore a 7 non possono essere K. O. in battaglia durante questo turno."
+    },
     "trigger": "Trigger[Trigger] Activate this card's [Counter] effect.",
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-096.png",
@@ -4215,7 +4557,10 @@
     "family": [
       "Thriller Bark Pirates"
     ],
-    "effect": "[Main] Trash 1 card from your opponent's hand.",
+    "effect": {
+      "en": "[Main] Trash 1 card from your opponent's hand.",
+      "it": "[Main] Manda nel Trash 1 carta dalla mano del tuo avversario."
+    },
     "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-097.png",
@@ -4248,7 +4593,10 @@
     "family": [
       "Thriller Bark Pirates"
     ],
-    "effect": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may rest this Stage: If your Leader has the {Thriller Bark Pirates} type, play up to 1 {Thriller Bark Pirates} type Character card with a cost of 2 or less from your trash rested.",
+    "effect": {
+      "en": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may rest this Stage: If your Leader has the {Thriller Bark Pirates} type, play up to 1 {Thriller Bark Pirates} type Character card with a cost of 2 or less from your trash rested.",
+      "it": "[Activate: Main] ➀ (Puoi mettere in stato spossato il numero specificato di carte DON!! nella tua area di costo.) Puoi mettere in stato spossato in questa fase: se il tuo Leader ha il tipo {Thriller Bark Pirates}, gioca fino a 1 carta Personaggio di tipo {Thriller Bark Pirates} con un costo pari o inferiore a 2 dal tuo Trash in stato spossato."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-098.png",
@@ -4281,7 +4629,10 @@
     "family": [
       "Sky Island"
     ],
-    "effect": "[On Play] Look at up to 1 card from the top of your or your opponent's Life cards and place it at the top or bottom of the Life cards.",
+    "effect": {
+      "en": "[On Play] Look at up to 1 card from the top of your or your opponent's Life cards and place it at the top or bottom of the Life cards.",
+      "it": "[On Play] Guarda fino a 1 carta dalla cima delle tue carte Life o del tuo avversario e posizionala in cima o in fondo al carte Life."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-099.png",
@@ -4316,7 +4667,10 @@
       "Land of Wano",
       "The Akazaya Nine"
     ],
-    "effect": "[DON!! x2] [When Attacking] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards.",
+    "effect": {
+      "en": "[DON!! x2] [When Attacking] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards.",
+      "it": "[DON!! x2] [When Attacking] Puoi mandare nel Trash 1 carta dalla tua mano: K. O. fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore al numero delle carte Life del tuo avversario."
+    },
     "trigger": "Trigger[Trigger] If your opponent has 3 or less Life cards, play this card.",
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-100.png",
@@ -4350,7 +4704,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] Up to 1 of your Leader or Character cards gains [Banish] during this turn.(When this card deals damage, the target card is trashed without activating its Trigger.)",
+    "effect": {
+      "en": "[On Play] Up to 1 of your Leader or Character cards gains [Banish] during this turn.(When this card deals damage, the target card is trashed without activating its Trigger.)",
+      "it": "[On Play] Fino a 1 delle tue carte Leader o Personaggio ottiene [Banish] durante questo turno. (Quando questa carta infligge danni, la carta bersaglio viene eliminata senza attivare i suoi Trigger.)"
+    },
     "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-101_p1.png",
@@ -4385,7 +4742,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] Up to 1 of your Leader or Character cards gains [Banish] during this turn.(When this card deals damage, the target card is trashed without activating its Trigger.)",
+    "effect": {
+      "en": "[On Play] Up to 1 of your Leader or Character cards gains [Banish] during this turn.(When this card deals damage, the target card is trashed without activating its Trigger.)",
+      "it": "[On Play] Fino a 1 delle tue carte Leader o Personaggio ottiene [Banish] durante questo turno. (Quando questa carta infligge danni, la carta bersaglio viene eliminata senza attivare i suoi Trigger.)"
+    },
     "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-101.png",
@@ -4420,7 +4780,10 @@
       "Sky Island",
       "Shandian Warrior"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] You may place 1 Stage with a cost of 1 at the bottom of the owner's deck: K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] You may place 1 Stage with a cost of 1 at the bottom of the owner's deck: K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
+      "it": "[Activate: Main] [Once Per Turn] Puoi posizionare 1 Fase con un costo pari a 1 in fondo al mazzo del proprietario: K. O. fino a 1 dei Personaggi del tuo avversario con un costo pari o inferiore a 2."
+    },
     "trigger": "Trigger[Trigger] If you have 2 or less Life cards, play this card.",
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-102.png",
@@ -4456,7 +4819,10 @@
       "Land of Wano",
       "The Akazaya Nine"
     ],
-    "effect": "[When Attacking] You may trash 2 cards from your hand: Add up to 1 of your Characters with 0 power to the top or bottom of the owner's Life cards face-up.",
+    "effect": {
+      "en": "[When Attacking] You may trash 2 cards from your hand: Add up to 1 of your Characters with 0 power to the top or bottom of the owner's Life cards face-up.",
+      "it": "[When Attacking] Puoi mandare nel Trash 2 carte dalla tua mano: aggiungere fino a 1 dei tuoi personaggi con 0 power in cima o in fondo al carte Life scoperta del proprietario."
+    },
     "trigger": "Trigger[Trigger] If your opponent has 3 or less Life cards, play this card.",
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-103.png",
@@ -4490,7 +4856,10 @@
       "Land of Wano",
       "The Akazaya Nine"
     ],
-    "effect": "[On K.O.] If your opponent has 3 or less Life cards, add up to 1 card from the top of your deck to the top of your Life cards.",
+    "effect": {
+      "en": "[On K.O.] If your opponent has 3 or less Life cards, add up to 1 card from the top of your deck to the top of your Life cards.",
+      "it": "[On K.O.] Se il tuo avversario ha 3 o meno carte Life, aggiungi fino a 1 carta dalla cima del tuo mazzo alla cima delle tue carte Life."
+    },
     "trigger": "Trigger[Trigger] If your opponent has 3 or less Life cards, play this card.",
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-104.png",
@@ -4555,7 +4924,10 @@
       "Land of Wano",
       "Kouzuki Clan"
     ],
-    "effect": "[On Play] You may add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 card from your hand to the top of your Life cards.",
+    "effect": {
+      "en": "[On Play] You may add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 card from your hand to the top of your Life cards.",
+      "it": "[On Play] Puoi aggiungere 1 carta dalla cima o dal fondo delle tue carte Life alla tua mano: Aggiungi fino a 1 carta dalla tua mano alla cima delle tue carte Life."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-106_p1.png",
@@ -4590,7 +4962,10 @@
       "Land of Wano",
       "Kouzuki Clan"
     ],
-    "effect": "[On Play] You may add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 card from your hand to the top of your Life cards.",
+    "effect": {
+      "en": "[On Play] You may add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 card from your hand to the top of your Life cards.",
+      "it": "[On Play] Puoi aggiungere 1 carta dalla cima o dal fondo delle tue carte Life alla tua mano: Aggiungi fino a 1 carta dalla tua mano alla cima delle tue carte Life."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-106.png",
@@ -4624,7 +4999,10 @@
       "Land of Wano",
       "Kouzuki Clan"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Add up to 1 of your {Land of Wano} type Characters other than [Kouzuki Momonosuke] to the top or bottom of the owner's Life cards face-up.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Add up to 1 of your {Land of Wano} type Characters other than [Kouzuki Momonosuke] to the top or bottom of the owner's Life cards face-up.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi appoggiare questa carta per renderla il nuovo bersaglio dell'attacco.)[On Play] Aggiungi fino a 1 dei tuoi personaggi di tipo {Land of Wano} diversi da [Kouzuki Momonosuke] in cima o in fondo al carte Life scoperta del proprietario."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-107_p1.png",
@@ -4660,7 +5038,10 @@
       "Land of Wano",
       "Kouzuki Clan"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Add up to 1 of your {Land of Wano} type Characters other than [Kouzuki Momonosuke] to the top or bottom of the owner's Life cards face-up.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Add up to 1 of your {Land of Wano} type Characters other than [Kouzuki Momonosuke] to the top or bottom of the owner's Life cards face-up.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi appoggiare questa carta per renderla il nuovo bersaglio dell'attacco.)[On Play] Aggiungi fino a 1 dei tuoi personaggi di tipo {Land of Wano} diversi da [Kouzuki Momonosuke] in cima o in fondo al carte Life scoperta del proprietario."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-107.png",
@@ -4726,7 +5107,10 @@
       "Land of Wano",
       "The Akazaya Nine"
     ],
-    "effect": "[DON!! x2] If your opponent has 3 or less Life cards, this Character cannot be K.O.'d by effects.",
+    "effect": {
+      "en": "[DON!! x2] If your opponent has 3 or less Life cards, this Character cannot be K.O.'d by effects.",
+      "it": "[DON!! x2] Se il tuo avversario ha 3 o meno carte Life, questo personaggio non può essere K. O. dagli effetti."
+    },
     "trigger": "Trigger[Trigger] If your opponent has 3 or less Life cards, play this card.",
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-109.png",
@@ -4761,7 +5145,10 @@
       "Land of Wano",
       "The Akazaya Nine"
     ],
-    "effect": "[DON!! x2] This Character can also attack your opponent's active Characters.",
+    "effect": {
+      "en": "[DON!! x2] This Character can also attack your opponent's active Characters.",
+      "it": "[DON!! x2] Questo personaggio può anche attaccare i personaggi attivi del tuo avversario."
+    },
     "trigger": "Trigger[Trigger] If your opponent has 3 or less Life cards, play this card.",
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-110.png",
@@ -4795,7 +5182,10 @@
       "Sky Island",
       "Shandian Warrior"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] You may place 1 Stage with a cost of 1 at the bottom of the owner's deck: Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] You may place 1 Stage with a cost of 1 at the bottom of the owner's deck: Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+      "it": "[Activate: Main] [Once Per Turn] Puoi posizionare 1 Fase con un costo pari a 1 in fondo al mazzo del proprietario: metti in stato spossato fino a 1 Personaggio del tuo avversario con un costo pari o inferiore a 4."
+    },
     "trigger": "Trigger[Trigger] If you have 2 or less Life cards, play this card.",
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-111.png",
@@ -4830,7 +5220,10 @@
       "Land of Wano",
       "The Akazaya Nine"
     ],
-    "effect": "[When Attacking] You may trash 1 card from your hand: Rest up to 1 of your opponent's DON!! cards.",
+    "effect": {
+      "en": "[When Attacking] You may trash 1 card from your hand: Rest up to 1 of your opponent's DON!! cards.",
+      "it": "[When Attacking] Puoi mandare nel Trash 1 carta dalla tua mano: mettere in stato spossato fino a 1 carte DON!! del tuo avversario."
+    },
     "trigger": "Trigger[Trigger] If your opponent has 3 or less Life cards, play this card.",
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-112.png",
@@ -4864,7 +5257,10 @@
       "Sky Island",
       "Shandian Warrior"
     ],
-    "effect": "If you have a {Shandian Warrior} type Character other than [Raki], this Character gains [Blocker].(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "If you have a {Shandian Warrior} type Character other than [Raki], this Character gains [Blocker].(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "Se hai un personaggio di tipo {Shandian Warrior} diverso da [Raki], questo personaggio guadagna [Blocker]. (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-113.png",
@@ -4898,7 +5294,10 @@
       "Sky Island",
       "Shandian Warrior"
     ],
-    "effect": "[On Play] You may place 1 Stage with a cost of 1 at the bottom of the owner's deck: Look at 5 cards from the top of your deck; reveal up to 1 [Upper Yard] or {Shandian Warrior} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] You may place 1 Stage with a cost of 1 at the bottom of the owner's deck: Look at 5 cards from the top of your deck; reveal up to 1 [Upper Yard] or {Shandian Warrior} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Puoi posizionare 1 Fase con un costo pari a 1 in fondo al mazzo del proprietario: guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo [Upper Yard] o {Shandian Warrior} e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-114.png",
@@ -4931,7 +5330,10 @@
     "family": [
       "Sky Island"
     ],
-    "effect": "[Counter] You may trash 1 card from your hand: Up to 1 of your Leader or Character cards gains +3000 power during this battle.",
+    "effect": {
+      "en": "[Counter] You may trash 1 card from your hand: Up to 1 of your Leader or Character cards gains +3000 power during this battle.",
+      "it": "[Counter] Puoi mandare nel Trash 1 carta dalla tua mano: fino a 1 delle tue carte Leader o Personaggio guadagna +3000 power durante questa battaglia."
+    },
     "trigger": "Trigger[Trigger] If you have 0 Life cards, you may add up to 1 card from the top of your deck to the top of your Life cards. Then, trash 1 card from your hand.",
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-115.png",
@@ -4965,7 +5367,10 @@
       "Sky Island",
       "Shandian Warrior"
     ],
-    "effect": "[Main] Choose one:• K.O. up to 1 of your opponent's Characters with a cost of 5 or less.• If your opponent has 1 Life card, deal 1 damage to your opponent. Then, add 1 card from the top of your Life cards to your hand.",
+    "effect": {
+      "en": "[Main] Choose one:• K.O. up to 1 of your opponent's Characters with a cost of 5 or less.• If your opponent has 1 Life card, deal 1 damage to your opponent. Then, add 1 card from the top of your Life cards to your hand.",
+      "it": "[Main] Scegli uno: • K. O. fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 5.• Se il tuo avversario ha 1 carta Vita, infliggi 1 danno al tuo avversario. Poi aggiungi 1 carta dalla cima delle tue carte Life alla tua mano."
+    },
     "trigger": "Trigger[Trigger] Draw 1 card.",
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-116.png",
@@ -4998,7 +5403,10 @@
     "family": [
       "Sky Island"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] You may rest this card and 1 of your [Enel] cards: K.O. all of your opponent's Characters with a cost of 2 or less.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] You may rest this card and 1 of your [Enel] cards: K.O. all of your opponent's Characters with a cost of 2 or less.",
+      "it": "[Activate: Main] [Once Per Turn] Puoi mettere in stato spossato questa carta and 1 of your [Enel] cards: K. O. all of your opponent's Personaggi with a cost of 2 or less."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-117.png",
@@ -5032,7 +5440,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[When Attacking] [Once Per Turn] ➀ (You may rest the specified number of DON!! cards in your cost area.): Set this Character as active.[Activate: Main] [Once Per Turn] ➁ (You may rest the specified number of DON!! cards in your cost area.): Set this Character as active.",
+    "effect": {
+      "en": "[When Attacking] [Once Per Turn] ➀ (You may rest the specified number of DON!! cards in your cost area.): Set this Character as active.[Activate: Main] [Once Per Turn] ➁ (You may rest the specified number of DON!! cards in your cost area.): Set this Character as active.",
+      "it": "[When Attacking] [Once Per Turn] ➀ (Puoi mettere in stato spossato il numero specificato di carte DON!! nella tua area di costo.): Imposta questo personaggio come attivo. [Activate: Main] [Once Per Turn] ➁ (Puoi mettere in stato spossato il numero specificato di carte DON!! nella tua area di costo.): Imposta questo personaggio come attivo."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-118_p1.png",
@@ -5068,7 +5479,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[When Attacking] [Once Per Turn] ➀ (You may rest the specified number of DON!! cards in your cost area.): Set this Character as active.[Activate: Main] [Once Per Turn] ➁ (You may rest the specified number of DON!! cards in your cost area.): Set this Character as active.",
+    "effect": {
+      "en": "[When Attacking] [Once Per Turn] ➀ (You may rest the specified number of DON!! cards in your cost area.): Set this Character as active.[Activate: Main] [Once Per Turn] ➁ (You may rest the specified number of DON!! cards in your cost area.): Set this Character as active.",
+      "it": "[When Attacking] [Once Per Turn] ➀ (Puoi mettere in stato spossato il numero specificato di carte DON!! nella tua area di costo.): Imposta questo personaggio come attivo. [Activate: Main] [Once Per Turn] ➁ (Puoi mettere in stato spossato il numero specificato di carte DON!! nella tua area di costo.): Imposta questo personaggio come attivo."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-118_p2.png",
@@ -5104,7 +5518,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[When Attacking] [Once Per Turn] ➀ (You may rest the specified number of DON!! cards in your cost area.): Set this Character as active.[Activate: Main] [Once Per Turn] ➁ (You may rest the specified number of DON!! cards in your cost area.): Set this Character as active.",
+    "effect": {
+      "en": "[When Attacking] [Once Per Turn] ➀ (You may rest the specified number of DON!! cards in your cost area.): Set this Character as active.[Activate: Main] [Once Per Turn] ➁ (You may rest the specified number of DON!! cards in your cost area.): Set this Character as active.",
+      "it": "[When Attacking] [Once Per Turn] ➀ (Puoi mettere in stato spossato il numero specificato di carte DON!! nella tua area di costo.): Imposta questo personaggio come attivo. [Activate: Main] [Once Per Turn] ➁ (Puoi mettere in stato spossato il numero specificato di carte DON!! nella tua area di costo.): Imposta questo personaggio come attivo."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-118.png",
@@ -5139,7 +5556,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] Reveal 1 card from the top of your deck and play up to 1 Character with a cost of 9 or less other than [Sanji]. Then, place the rest at the bottom of your deck.",
+    "effect": {
+      "en": "[On Play] Reveal 1 card from the top of your deck and play up to 1 Character with a cost of 9 or less other than [Sanji]. Then, place the rest at the bottom of your deck.",
+      "it": "[On Play] Rivela 1 carta dalla cima del tuo mazzo e gioca fino a 1 Personaggio con costo pari o inferiore a 9 diverso da [Sanji]. Quindi, posiziona il resto in fondo al tuo mazzo."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-119_p1.png",
@@ -5173,7 +5593,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] Reveal 1 card from the top of your deck and play up to 1 Character with a cost of 9 or less other than [Sanji]. Then, place the rest at the bottom of your deck.",
+    "effect": {
+      "en": "[On Play] Reveal 1 card from the top of your deck and play up to 1 Character with a cost of 9 or less other than [Sanji]. Then, place the rest at the bottom of your deck.",
+      "it": "[On Play] Rivela 1 carta dalla cima del tuo mazzo e gioca fino a 1 Personaggio con costo pari o inferiore a 9 diverso da [Sanji]. Quindi, posiziona il resto in fondo al tuo mazzo."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-119.png",
@@ -5206,7 +5629,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+      "it": "[Activate: Main] [Once Per Turn] Assegna fino a 1 carta DON!! in stato spossato al tuo Leader o a 1 dei tuoi Personaggi."
+    },
     "trigger": null,
     "setName": "WINGS OF THE CAPTAIN [OP-06]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-007_p3.png",

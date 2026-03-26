@@ -40,7 +40,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Straw Hat Crew} diversa da [Nami] e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-016_p4.png",
@@ -74,7 +77,10 @@
     "family": [
       "Land of Wano"
     ],
-    "effect": "Also treat this card's name as [Kouzuki Oden] according to the rules.[Double Attack] (This card deals 2 damage.)[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.)",
+    "effect": {
+      "en": "Also treat this card's name as [Kouzuki Oden] according to the rules.[Double Attack] (This card deals 2 damage.)[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.)",
+      "it": "Considera anche il nome di questa carta come [Kouzuki Oden] secondo le regole. [Double Attack] (Questa carta infligge 2 danni.)[Banish] (Quando questa carta infligge danno, la carta bersaglio viene eliminata senza attivare il suo Trigger.)"
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-121_p2.png",
@@ -109,7 +115,10 @@
     "family": [
       "FILM"
     ],
-    "effect": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your Leader and all of your Characters gain +1000 power until the start of your next turn.",
+    "effect": {
+      "en": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your Leader and all of your Characters gain +1000 power until the start of your next turn.",
+      "it": "[On Play] DON!! −2 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): Il tuo Leader e tutti i tuoi personaggi guadagnano +1000 power fino all'inizio del tuo turno successivo."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-120_p2.png",
@@ -143,7 +152,10 @@
     "family": [
       "CP9"
     ],
-    "effect": "[On Play] You may place 2 cards with a type including \"CP\" from your trash at the bottom of your deck in any order: This Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+    "effect": {
+      "en": "[On Play] You may place 2 cards with a type including \"CP\" from your trash at the bottom of your deck in any order: This Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+      "it": "[On Play] Puoi mettere 2 carte con un tipo che include \"CP\" dal tuo Trash in fondo al tuo mazzo in qualsiasi ordine: Questo personaggio guadagna [Rush] durante questo turno. (Questa carta può attaccare nel turno in cui viene giocata.)"
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP03-092_p2.png",
@@ -179,7 +191,10 @@
       "The Four Emperors",
       "Animal Kingdom Pirates"
     ],
-    "effect": "[On Play] Return up to 1 Character with a cost of 8 or less and up to 1 Character with a cost of 3 or less to the owner's hand.",
+    "effect": {
+      "en": "[On Play] Return up to 1 Character with a cost of 8 or less and up to 1 Character with a cost of 3 or less to the owner's hand.",
+      "it": "[On Play] Fai tornare in mano al proprietario fino a 1 personaggio con costo pari o inferiore a 8 e fino a 1 personaggio con costo pari o inferiore a 3."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP04-044_p2.png",
@@ -214,7 +229,10 @@
     "family": [
       "Revolutionary Army"
     ],
-    "effect": "[DON!! x1] [Opponent's Turn] [Once Per Turn] If your Character with 5000 power or more would be K.O.'d, you may give that Character −1000 power during this turn instead of that Character being K.O.'d.",
+    "effect": {
+      "en": "[DON!! x1] [Opponent's Turn] [Once Per Turn] If your Character with 5000 power or more would be K.O.'d, you may give that Character −1000 power during this turn instead of that Character being K.O.'d.",
+      "it": "[DON!! x1] [Opponent's Turn] [Once Per Turn] Se il tuo Personaggio con 5000 power o più sarebbe K. O. 'd, puoi dare a quel Personaggio −1000 power durante questo turno invece che quel Personaggio venga K. O. 'd."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-001.png",
@@ -250,7 +268,10 @@
     "family": [
       "Revolutionary Army"
     ],
-    "effect": "[DON!! x1] [Opponent's Turn] [Once Per Turn] If your Character with 5000 power or more would be K.O.'d, you may give that Character −1000 power during this turn instead of that Character being K.O.'d.",
+    "effect": {
+      "en": "[DON!! x1] [Opponent's Turn] [Once Per Turn] If your Character with 5000 power or more would be K.O.'d, you may give that Character −1000 power during this turn instead of that Character being K.O.'d.",
+      "it": "[DON!! x1] [Opponent's Turn] [Once Per Turn] Se il tuo Personaggio con 5000 power o più sarebbe K. O. 'd, puoi dare a quel Personaggio −1000 power durante questo turno invece che quel Personaggio venga K. O. 'd."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-001_p1.png",
@@ -287,7 +308,10 @@
     "family": [
       "Revolutionary Army"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] You may trash 1 {Revolutionary Army} type card from your hand: Up to 3 of your {Revolutionary Army} type Characters or Characters with a [Trigger] gain +3000 power during this turn.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] You may trash 1 {Revolutionary Army} type card from your hand: Up to 3 of your {Revolutionary Army} type Characters or Characters with a [Trigger] gain +3000 power during this turn.",
+      "it": "[Activate: Main] [Once Per Turn] Puoi mandare nel Trash 1 carta di tipo {Revolutionary Army} dalla tua mano: fino a 3 dei tuoi personaggi di tipo {Revolutionary Army} o personaggi con [Trigger] ottengono +3000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-002.png",
@@ -323,7 +347,10 @@
     "family": [
       "Revolutionary Army"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] You may trash 1 {Revolutionary Army} type card from your hand: Up to 3 of your {Revolutionary Army} type Characters or Characters with a [Trigger] gain +3000 power during this turn.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] You may trash 1 {Revolutionary Army} type card from your hand: Up to 3 of your {Revolutionary Army} type Characters or Characters with a [Trigger] gain +3000 power during this turn.",
+      "it": "[Activate: Main] [Once Per Turn] Puoi mandare nel Trash 1 carta di tipo {Revolutionary Army} dalla tua mano: fino a 3 dei tuoi personaggi di tipo {Revolutionary Army} o personaggi con [Trigger] ottengono +3000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-002_p1.png",
@@ -359,7 +386,10 @@
     "family": [
       "Revolutionary Army"
     ],
-    "effect": "If you have a Character with 7000 power or more other than this Character, this Character gains [Rush].(This card can attack on the turn in which it is played.)",
+    "effect": {
+      "en": "If you have a Character with 7000 power or more other than this Character, this Character gains [Rush].(This card can attack on the turn in which it is played.)",
+      "it": "Se hai un personaggio con 7000 power o più diverso da questo personaggio, questo personaggio guadagna [Rush]. (Questa carta può attaccare nel turno in cui viene giocata.)"
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-003.png",
@@ -392,7 +422,10 @@
     "family": [
       "Revolutionary Army"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] If this Character has 7000 power or more, play up to 1 {Revolutionary Army} type Character card with 5000 power or less other than [Emporio.Ivankov] from your hand.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] If this Character has 7000 power or more, play up to 1 {Revolutionary Army} type Character card with 5000 power or less other than [Emporio.Ivankov] from your hand.",
+      "it": "[Activate: Main] [Once Per Turn] Se questo Personaggio ha 7000 power o più, gioca fino a 1 carta Personaggio di tipo {Revolutionary Army} con 5000 power o meno diversa da [Emporio.Ivankov] dalla tua mano."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-004.png",
@@ -426,7 +459,10 @@
     "family": [
       "Revolutionary Army"
     ],
-    "effect": "[On Play] If your Leader has the {Revolutionary Army} type, give up to 1 of your opponent's Leader or Character cards −1000 power during this turn.[When Attacking] If this Character has 7000 power or more, give up to 1 of your opponent's Leader or Character cards −1000 power during this turn.",
+    "effect": {
+      "en": "[On Play] If your Leader has the {Revolutionary Army} type, give up to 1 of your opponent's Leader or Character cards −1000 power during this turn.[When Attacking] If this Character has 7000 power or more, give up to 1 of your opponent's Leader or Character cards −1000 power during this turn.",
+      "it": "[On Play] Se il tuo Leader ha il tipo {Revolutionary Army}, Dai −1000 power a un massimo di 1 carta Leader o Personaggio del tuo avversario durante questo turno. [When Attacking] Se questo Personaggio ha 7000 power o più, Dai −1000 power a un massimo di 1 carta Leader o Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-005.png",
@@ -460,7 +496,10 @@
     "family": [
       "Revolutionary Army"
     ],
-    "effect": "[On Play] If your Leader has the {Revolutionary Army} type, give up to 1 of your opponent's Characters −3000 power during this turn.",
+    "effect": {
+      "en": "[On Play] If your Leader has the {Revolutionary Army} type, give up to 1 of your opponent's Characters −3000 power during this turn.",
+      "it": "[On Play] Se il tuo Leader è di tipo {Revolutionary Army}, Dai −3000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-006.png",
@@ -493,7 +532,10 @@
     "family": [
       "Revolutionary Army"
     ],
-    "effect": "[On Play] If your Leader has the {Revolutionary Army} type, give up to 1 of your opponent's Characters −3000 power during this turn.",
+    "effect": {
+      "en": "[On Play] If your Leader has the {Revolutionary Army} type, give up to 1 of your opponent's Characters −3000 power during this turn.",
+      "it": "[On Play] Se il tuo Leader è di tipo {Revolutionary Army}, Dai −3000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-006_p1.png",
@@ -527,7 +569,10 @@
     "family": [
       "Revolutionary Army"
     ],
-    "effect": "[On Play] K.O. up to 2 of your opponent's Characters with a total power of 4000 or less.",
+    "effect": {
+      "en": "[On Play] K.O. up to 2 of your opponent's Characters with a total power of 4000 or less.",
+      "it": "[On Play] K. O. fino a 2 personaggi del tuo avversario per un totale power di 4000 o meno."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-007.png",
@@ -560,7 +605,10 @@
     "family": [
       "Revolutionary Army"
     ],
-    "effect": "[On Play] K.O. up to 2 of your opponent's Characters with a total power of 4000 or less.",
+    "effect": {
+      "en": "[On Play] K.O. up to 2 of your opponent's Characters with a total power of 4000 or less.",
+      "it": "[On Play] K. O. fino a 2 personaggi del tuo avversario per un totale power di 4000 o meno."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-007_p1.png",
@@ -594,7 +642,10 @@
     "family": [
       "Alabasta"
     ],
-    "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
+    "effect": {
+      "en": "[DON!! x1] [Activate: Main] [Once Per Turn] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
+      "it": "[DON!! x1] [Activate: Main] [Once Per Turn] Assegna fino a 2 carte DON!! in stato spossato al tuo Leader o a 1 dei tuoi Personaggi."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-008.png",
@@ -629,7 +680,10 @@
     "family": [
       "Alabasta"
     ],
-    "effect": "[On Play] Draw 1 card if your Leader has 0 power or less.",
+    "effect": {
+      "en": "[On Play] Draw 1 card if your Leader has 0 power or less.",
+      "it": "[On Play] Pesca 1 carta se il tuo Leader ha 0 power o meno."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-009.png",
@@ -662,7 +716,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] K.O. up to 1 of your opponent's Characters with 1000 power or less.",
+    "effect": {
+      "en": "[On Play] K.O. up to 1 of your opponent's Characters with 1000 power or less.",
+      "it": "[On Play] K. O. fino a 1 personaggio del tuo avversario con 1000 power o meno."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-010.png",
@@ -696,7 +753,10 @@
       "The Seven Warlords of the Sea",
       "Revolutionary Army"
     ],
-    "effect": "[On Play] K.O. up to 1 of your opponent's Characters with 2000 power or less.",
+    "effect": {
+      "en": "[On Play] K.O. up to 1 of your opponent's Characters with 2000 power or less.",
+      "it": "[On Play] K. O. fino a 1 dei personaggi del tuo avversario con 2000 power o meno."
+    },
     "trigger": "Trigger[Trigger] If your Leader is multicolored, play this card.",
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-011.png",
@@ -760,7 +820,10 @@
     "family": [
       "Revolutionary Army"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-013.png",
@@ -793,7 +856,10 @@
     "family": [
       "Alabasta"
     ],
-    "effect": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −2000 power during this turn.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −2000 power during this turn.",
+      "it": "[DON!! x1] [When Attacking] Dai −2000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-014.png",
@@ -827,7 +893,10 @@
     "family": [
       "Revolutionary Army"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Revolutionary Army} type card other than [Belo Betty] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Revolutionary Army} type card other than [Belo Betty] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Revolutionary Army} diversa da [Belo Betty] e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-015.png",
@@ -860,7 +929,10 @@
     "family": [
       "Revolutionary Army"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Revolutionary Army} type card other than [Belo Betty] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Revolutionary Army} type card other than [Belo Betty] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Revolutionary Army} diversa da [Belo Betty] e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-015_p1.png",
@@ -895,7 +967,10 @@
       "Giant",
       "Revolutionary Army"
     ],
-    "effect": "[When Attacking] If this Character has 7000 power or more, your opponent cannot activate [Blocker] during this battle.",
+    "effect": {
+      "en": "[When Attacking] If this Character has 7000 power or more, your opponent cannot activate [Blocker] during this battle.",
+      "it": "[When Attacking] Se questo personaggio ha 7000 power o più, il tuo avversario non potrà attivare [Blocker] durante questa battaglia."
+    },
     "trigger": "Trigger[Trigger] You may trash 1 card from your hand: If your Leader is multicolored, play this card.",
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-016.png",
@@ -930,7 +1005,10 @@
       "Minks",
       "Revolutionary Army"
     ],
-    "effect": "[When Attacking] If this Character has 7000 power or more, K.O. up to 1 of your opponent's Characters with 3000 power or less.",
+    "effect": {
+      "en": "[When Attacking] If this Character has 7000 power or more, K.O. up to 1 of your opponent's Characters with 3000 power or less.",
+      "it": "[When Attacking] Se questo personaggio ha 7000 power o più, K. O. fino a 1 dei personaggi del tuo avversario con 3000 power o meno."
+    },
     "trigger": "Trigger[Trigger] You may trash 1 card from your hand: If your Leader is multicolored, play this card.",
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-017.png",
@@ -963,7 +1041,10 @@
     "family": [
       "Revolutionary Army"
     ],
-    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle. Then, play up to 1 {Revolutionary Army} type Character card with 5000 power or less from your hand.",
+    "effect": {
+      "en": "[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle. Then, play up to 1 {Revolutionary Army} type Character card with 5000 power or less from your hand.",
+      "it": "[Counter] Fino a 1 delle tue carte Leader o Personaggio ottiene +3000 power durante questa battaglia. Poi, gioca fino a 1 carta Personaggio di tipo {Revolutionary Army} con 5000 power o meno dalla tua mano."
+    },
     "trigger": "Trigger[Trigger] Play up to 1 {Revolutionary Army} type Character card with 5000 power or less from your hand.",
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-018.png",
@@ -996,7 +1077,10 @@
     "family": [
       "Revolutionary Army"
     ],
-    "effect": "[Main] Give up to 1 of your opponent's Characters −4000 power during this turn. Then, if you have 2 or less Life cards, K.O. up to 1 of your opponent's Characters with 0 power or less.",
+    "effect": {
+      "en": "[Main] Give up to 1 of your opponent's Characters −4000 power during this turn. Then, if you have 2 or less Life cards, K.O. up to 1 of your opponent's Characters with 0 power or less.",
+      "it": "[Main] Dai −4000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno. Quindi, se hai 2 o meno carte Life, K. O. fino a 1 dei personaggi del tuo avversario con 0 power o meno."
+    },
     "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-019.png",
@@ -1030,7 +1114,10 @@
       "Fish-Man",
       "Revolutionary Army"
     ],
-    "effect": "[Main] Up to 1 of your Leader or Character cards gains +2000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 2000 power or less.",
+    "effect": {
+      "en": "[Main] Up to 1 of your Leader or Character cards gains +2000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 2000 power or less.",
+      "it": "[Main] Fino a 1 delle tue carte Leader o Personaggio guadagna +2000 power durante questo turno. Poi, K. O. fino a 1 dei personaggi del tuo avversario con 2000 power o meno."
+    },
     "trigger": "Trigger[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-020.png",
@@ -1063,7 +1150,10 @@
     "family": [
       "Revolutionary Army"
     ],
-    "effect": "[Activate: Main] You may trash 1 card from your hand and rest this Stage: Look at 3 cards from the top of your deck; reveal up to 1 {Revolutionary Army} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[Activate: Main] You may trash 1 card from your hand and rest this Stage: Look at 3 cards from the top of your deck; reveal up to 1 {Revolutionary Army} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[Activate: Main] Puoi mandare nel Trash 1 carta dalla tua mano e mettere in stato spossato in questa fase: guarda 3 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Revolutionary Army} e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-021.png",
@@ -1098,7 +1188,10 @@
       "Navy",
       "Donquixote Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[End of Your Turn] If you have 6 or less cards in your hand, set this Leader as active.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[End of Your Turn] If you have 6 or less cards in your hand, set this Leader as active.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[End of Your Turn] Se hai 6 o meno carte in mano, imposta questo Leader come attivo."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-022.png",
@@ -1134,7 +1227,10 @@
       "Navy",
       "Donquixote Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[End of Your Turn] If you have 6 or less cards in your hand, set this Leader as active.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[End of Your Turn] If you have 6 or less cards in your hand, set this Leader as active.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[End of Your Turn] Se hai 6 o meno carte in mano, imposta questo Leader come attivo."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-022_p1.png",
@@ -1170,7 +1266,10 @@
       "Navy",
       "Donquixote Pirates"
     ],
-    "effect": "[DON!! x1] [When Attacking] K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
+      "it": "[DON!! x1] [When Attacking] K. O. fino a 1 dei personaggi in stato spossato del tuo avversario con un costo pari o inferiore a 3."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-023.png",
@@ -1204,7 +1303,10 @@
     "family": [
       "Donquixote Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-024.png",
@@ -1237,7 +1339,10 @@
     "family": [
       "Donquixote Pirates"
     ],
-    "effect": "[Activate: Main] You may rest this Character: Rest up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "effect": {
+      "en": "[Activate: Main] You may rest this Character: Rest up to 1 of your opponent's Characters with a cost of 3 or less.",
+      "it": "[Activate: Main] Puoi mettere in stato spossato questo Personaggio: Metti in stato spossato fino a 1 of your opponent's Personaggi with a cost of 3 or less."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-025.png",
@@ -1270,7 +1375,10 @@
     "family": [
       "Bellamy Pirates"
     ],
-    "effect": "[DON!! x1] [When Attacking] [Once Per Turn] You may rest 1 of your Characters with a cost of 3 or more: Set this Character as active.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] [Once Per Turn] You may rest 1 of your Characters with a cost of 3 or more: Set this Character as active.",
+      "it": "[DON!! x1] [When Attacking] [Once Per Turn] Puoi mettere in stato spossato 1 dei tuoi personaggi con un costo pari o superiore a 3: imposta questo personaggio come attivo."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-026.png",
@@ -1305,7 +1413,10 @@
     "family": [
       "Donquixote Pirates"
     ],
-    "effect": "[Activate: Main] You may trash this Character: Rest up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "effect": {
+      "en": "[Activate: Main] You may trash this Character: Rest up to 1 of your opponent's Characters with a cost of 3 or less.",
+      "it": "[Activate: Main] Puoi mandare nel Trash questo Personaggio: mettere in stato spossato fino a 1 dei Personaggi del tuo avversario con un costo pari o inferiore a 3."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-027.png",
@@ -1338,7 +1449,10 @@
     "family": [
       "Donquixote Pirates"
     ],
-    "effect": "[Activate: Main] You may trash this Character: K.O. up to 1 of your opponent's rested Characters with a cost of 2 or less.",
+    "effect": {
+      "en": "[Activate: Main] You may trash this Character: K.O. up to 1 of your opponent's rested Characters with a cost of 2 or less.",
+      "it": "[Activate: Main] Puoi mandare nel Trash questo Personaggio: K. O. fino a 1 dei Personaggi in stato spossato del tuo avversario con un costo pari o inferiore a 2."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-028.png",
@@ -1371,7 +1485,10 @@
     "family": [
       "Donquixote Pirates"
     ],
-    "effect": "[On Your Opponent's Attack] [Once Per Turn] ➀ (You may rest the specified number of DON!! cards in your cost area.): Rest up to 1 of your opponent's Characters with a cost of 6 or less.",
+    "effect": {
+      "en": "[On Your Opponent's Attack] [Once Per Turn] ➀ (You may rest the specified number of DON!! cards in your cost area.): Rest up to 1 of your opponent's Characters with a cost of 6 or less.",
+      "it": "[On Your Opponent's Attack] [Once Per Turn] ➀ (Puoi mettere in stato spossato il numero specificato di carte DON!! nella tua area di costo.): metti in stato spossato fino a 1 dei Personaggi del tuo avversario con un costo pari o inferiore a 6."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-029.png",
@@ -1406,7 +1523,10 @@
       "Navy",
       "Donquixote Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Opponent's Turn] If your rested Character would be K.O.'d, you may trash this Character instead.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Opponent's Turn] If your rested Character would be K.O.'d, you may trash this Character instead.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[Opponent's Turn] Se il tuo Personaggio in stato spossato fosse K. O. , puoi invece Manda nel Trash questo Personaggio."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-030.png",
@@ -1440,7 +1560,10 @@
     "family": [
       "Donquixote Pirates"
     ],
-    "effect": "[When Attacking] [Once Per Turn] If you have 2 or more rested Characters, set up to 1 of your rested Characters with a cost of 1 as active.",
+    "effect": {
+      "en": "[When Attacking] [Once Per Turn] If you have 2 or more rested Characters, set up to 1 of your rested Characters with a cost of 1 as active.",
+      "it": "[When Attacking] [Once Per Turn] Se hai 2 or more in stato spossato Personaggi, rendi attive fino a 1 delle tue in stato spossato Personaggi with a cost of 1."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-031.png",
@@ -1474,7 +1597,10 @@
     "family": [
       "Donquixote Pirates"
     ],
-    "effect": "[End of Your Turn] ①: Set this Character as active.[Once Per Turn] If this Character would be K.O.'d, you may rest up to 1 of your Characters with a cost of 3 or more other than [Pica] instead.",
+    "effect": {
+      "en": "[End of Your Turn] ①: Set this Character as active.[Once Per Turn] If this Character would be K.O.'d, you may rest up to 1 of your Characters with a cost of 3 or more other than [Pica] instead.",
+      "it": "[End of Your Turn] ①: imposta questo personaggio come attivo. [Once Per Turn] Se questo personaggio fosse K. O. , puoi invece mettere in stato spossato fino a 1 dei tuoi personaggi con un costo di 3 o più diverso da [Pica]."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-032.png",
@@ -1508,7 +1634,10 @@
     "family": [
       "Donquixote Pirates"
     ],
-    "effect": "[End of Your Turn] ①: Set this Character as active.[Once Per Turn] If this Character would be K.O.'d, you may rest up to 1 of your Characters with a cost of 3 or more other than [Pica] instead.",
+    "effect": {
+      "en": "[End of Your Turn] ①: Set this Character as active.[Once Per Turn] If this Character would be K.O.'d, you may rest up to 1 of your Characters with a cost of 3 or more other than [Pica] instead.",
+      "it": "[End of Your Turn] ①: imposta questo personaggio come attivo. [Once Per Turn] Se questo personaggio fosse K. O. , puoi invece mettere in stato spossato fino a 1 dei tuoi personaggi con un costo di 3 o più diverso da [Pica]."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-032_p1.png",
@@ -1543,7 +1672,10 @@
     "family": [
       "Donquixote Pirates"
     ],
-    "effect": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may rest this Character: Play up to 1 {Donquixote Pirates} type Character card with a cost of 2 or less from your hand.",
+    "effect": {
+      "en": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may rest this Character: Play up to 1 {Donquixote Pirates} type Character card with a cost of 2 or less from your hand.",
+      "it": "[Activate: Main] ➀ (Puoi mettere in stato spossato il numero specificato di carte DON!! nella tua area di costo.) Puoi mettere in stato spossato questo Personaggio: Gioca fino a 1 carta Personaggio di tipo {Donquixote Pirates} con un costo pari o inferiore a 2 dalla tua mano."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-033.png",
@@ -1576,7 +1708,10 @@
     "family": [
       "Donquixote Pirates"
     ],
-    "effect": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may rest this Character: Look at 5 cards from the top of your deck; reveal up to 1 {Donquixote Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may rest this Character: Look at 5 cards from the top of your deck; reveal up to 1 {Donquixote Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[Activate: Main] ➀ (Puoi mettere in stato spossato il numero specificato di carte DON!! nella tua area di costo.) Puoi mettere in stato spossato questo Personaggio: guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 {Donquixote Pirates} tipo card and aggiungila alla tua mano. Poi, metti il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-034.png",
@@ -1609,7 +1744,10 @@
     "family": [
       "Donquixote Pirates"
     ],
-    "effect": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may rest this Character: Look at 5 cards from the top of your deck; reveal up to 1 {Donquixote Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may rest this Character: Look at 5 cards from the top of your deck; reveal up to 1 {Donquixote Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[Activate: Main] ➀ (Puoi mettere in stato spossato il numero specificato di carte DON!! nella tua area di costo.) Puoi mettere in stato spossato questo Personaggio: guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 {Donquixote Pirates} tipo card and aggiungila alla tua mano. Poi, metti il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-034_p1.png",
@@ -1673,7 +1811,10 @@
     "family": [
       "Donquixote Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Block] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Block] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On Block] Metti in stato spossato fino a 1 personaggio del tuo avversario con un costo pari o inferiore a 4."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-036.png",
@@ -1707,7 +1848,10 @@
     "family": [
       "Donquixote Pirates"
     ],
-    "effect": "[Counter] You may trash 1 card from your hand: Up to 1 of your Leader or Character cards gains +3000 power during this battle.",
+    "effect": {
+      "en": "[Counter] You may trash 1 card from your hand: Up to 1 of your Leader or Character cards gains +3000 power during this battle.",
+      "it": "[Counter] Puoi mandare nel Trash 1 carta dalla tua mano: fino a 1 delle tue carte Leader o Personaggio guadagna +3000 power durante questa battaglia."
+    },
     "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-037.png",
@@ -1740,7 +1884,10 @@
     "family": [
       "Donquixote Pirates"
     ],
-    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, you may trash 1 card from your hand. If you do, set up to 3 of your DON!! cards as active.",
+    "effect": {
+      "en": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, you may trash 1 card from your hand. If you do, set up to 3 of your DON!! cards as active.",
+      "it": "[Counter] Fino a 1 delle tue carte Leader o Personaggio ottiene +4000 power durante questa battaglia. Poi Puoi mandare nel Trash 1 carta dalla tua mano. In tal caso, imposta fino a 3 delle tue carte DON!! come attivi."
+    },
     "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Leader or Character cards with a cost of 3 or less.",
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-038.png",
@@ -1773,7 +1920,10 @@
     "family": [
       "Donquixote Pirates"
     ],
-    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
+    "effect": {
+      "en": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
+      "it": "[Counter] Fino a 1 delle tue carte Leader o Personaggio ottiene +4000 power durante questa battaglia. Poi, K. O. fino a 1 dei personaggi del tuo avversario in stato spossato con un costo pari o inferiore a 3."
+    },
     "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's rested Characters with a cost of 5 or less.",
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-039.png",
@@ -1806,7 +1956,10 @@
     "family": [
       "Donquixote Pirates"
     ],
-    "effect": "If your Leader is [Donquixote Doflamingo], all Characters with a cost of 5 or less do not become active in your and your opponent's Refresh Phases.[End of Your Turn] If you have 10 DON!! cards on your field, K.O. all rested Characters with a cost of 5 or less. Then, trash this Stage.",
+    "effect": {
+      "en": "If your Leader is [Donquixote Doflamingo], all Characters with a cost of 5 or less do not become active in your and your opponent's Refresh Phases.[End of Your Turn] If you have 10 DON!! cards on your field, K.O. all rested Characters with a cost of 5 or less. Then, trash this Stage.",
+      "it": "Se il tuo Leader è [Donquixote Doflamingo], tutti i Personaggi con un costo pari o inferiore a 5 non diventano attivi nella tua Fase di Aggiornamento e in quella del tuo avversario. [End of Your Turn] Se hai 10 carte DON!! sul tuo campo, K. O. tutti i Personaggi con un costo pari o inferiore a 5 riposano. Quindi, Manda nel Trash questa fase."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-040.png",
@@ -1840,7 +1993,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] You may trash 1 card from your hand: Draw 1 card.[When Attacking] Give up to 1 of your opponent's Characters −1 cost during this turn.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] You may trash 1 card from your hand: Draw 1 card.[When Attacking] Give up to 1 of your opponent's Characters −1 cost during this turn.",
+      "it": "[Activate: Main] [Once Per Turn] Puoi mandare nel Trash 1 carta dalla tua mano: Pesca 1 carta. [When Attacking] Dai −1 costo a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-041.png",
@@ -1876,7 +2032,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] You may trash 1 card from your hand: Draw 1 card.[When Attacking] Give up to 1 of your opponent's Characters −1 cost during this turn.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] You may trash 1 card from your hand: Draw 1 card.[When Attacking] Give up to 1 of your opponent's Characters −1 cost during this turn.",
+      "it": "[Activate: Main] [Once Per Turn] Puoi mandare nel Trash 1 carta dalla tua mano: Pesca 1 carta. [When Attacking] Dai −1 costo a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-041_p1.png",
@@ -1912,7 +2071,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] Up to 1 of your opponent's Characters with a cost of 7 or less cannot attack until the start of your next turn.",
+    "effect": {
+      "en": "[On Play] Up to 1 of your opponent's Characters with a cost of 7 or less cannot attack until the start of your next turn.",
+      "it": "[On Play] Fino a 1 personaggio del tuo avversario con costo pari o inferiore a 7 non può attaccare fino all'inizio del tuo prossimo turno."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-042.png",
@@ -1945,7 +2107,10 @@
     "family": [
       "Animal Kingdom Pirates"
     ],
-    "effect": "[On Play] If your Leader is multicolored, look at 3 cards from the top of your deck and add up to 1 card to your hand. Then, place the rest at the top or bottom of the deck in any order.",
+    "effect": {
+      "en": "[On Play] If your Leader is multicolored, look at 3 cards from the top of your deck and add up to 1 card to your hand. Then, place the rest at the top or bottom of the deck in any order.",
+      "it": "[On Play] Se il tuo Leader è multicolore, guarda 3 carte dalla cima del tuo mazzo e aggiungi fino a 1 carta alla tua mano. Quindi, posiziona il resto in cima o in fondo al mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-043.png",
@@ -1978,7 +2143,10 @@
     "family": [
       "Animal Kingdom Pirates"
     ],
-    "effect": "[On Play] If your Leader is multicolored, look at 3 cards from the top of your deck and add up to 1 card to your hand. Then, place the rest at the top or bottom of the deck in any order.",
+    "effect": {
+      "en": "[On Play] If your Leader is multicolored, look at 3 cards from the top of your deck and add up to 1 card to your hand. Then, place the rest at the top or bottom of the deck in any order.",
+      "it": "[On Play] Se il tuo Leader è multicolore, guarda 3 carte dalla cima del tuo mazzo e aggiungi fino a 1 carta alla tua mano. Quindi, posiziona il resto in cima o in fondo al mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-043_p1.png",
@@ -2043,7 +2211,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Activate: Main] You may trash 1 card from your hand and rest this Character: Place up to 1 Character with a cost of 2 or less at the bottom of the owner's deck.",
+    "effect": {
+      "en": "[Activate: Main] You may trash 1 card from your hand and rest this Character: Place up to 1 Character with a cost of 2 or less at the bottom of the owner's deck.",
+      "it": "[Activate: Main] Puoi mandare nel Trash 1 carta dalla tua mano e mettere in stato spossato questo Personaggio: posiziona fino a 1 Personaggio con un costo pari o inferiore a 2 in fondo al mazzo del proprietario."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-045.png",
@@ -2076,7 +2247,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On K.O.] Draw 1 card and place 1 card from your hand at the bottom of your deck.",
+    "effect": {
+      "en": "[On K.O.] Draw 1 card and place 1 card from your hand at the bottom of your deck.",
+      "it": "[On K.O.] Pesca 1 carta e metti 1 carta dalla tua mano in fondo al tuo mazzo."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-046.png",
@@ -2110,7 +2284,10 @@
       "Animal Kingdom Pirates",
       "Hawkins Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Block] Draw 1 card if you have 3 or less cards in your hand. Then, this Character gains +1000 power during this battle.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Block] Draw 1 card if you have 3 or less cards in your hand. Then, this Character gains +1000 power during this battle.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On Block] Pesca 1 carta se hai 3 o meno carte in mano. Quindi, Questo Personaggio guadagna +1000 power durante questa battaglia."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-047.png",
@@ -2144,7 +2321,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[DON!! x1] [When Attacking] Place up to 1 Character with a cost of 2 or less at the bottom of the owner's deck.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] Place up to 1 Character with a cost of 2 or less at the bottom of the owner's deck.",
+      "it": "[DON!! x1] [When Attacking] Posiziona fino a 1 personaggio con un costo pari o inferiore a 2 in fondo al mazzo del proprietario."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-048.png",
@@ -2179,7 +2359,10 @@
       "Giant",
       "Animal Kingdom Pirates"
     ],
-    "effect": "[DON!! x1] [When Attacking] Return up to 1 Character with a cost of 3 or less to the owner's hand.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] Return up to 1 Character with a cost of 3 or less to the owner's hand.",
+      "it": "[DON!! x1] [When Attacking] Riporta in mano al proprietario fino a 1 personaggio con un costo pari o inferiore a 3."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-049.png",
@@ -2213,7 +2396,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] Draw 1 card if you have 5 or less cards in your hand.",
+    "effect": {
+      "en": "[On Play] Draw 1 card if you have 5 or less cards in your hand.",
+      "it": "[On Play] Pesca 1 carta se hai 5 o meno carte in mano."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-050.png",
@@ -2246,7 +2432,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] Place up to 1 Character with a cost of 4 or less at the bottom of the owner's deck.",
+    "effect": {
+      "en": "[On Play] Place up to 1 Character with a cost of 4 or less at the bottom of the owner's deck.",
+      "it": "[On Play] Metti fino a 1 personaggio con un costo pari o inferiore a 4 in fondo al mazzo del proprietario."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-051.png",
@@ -2279,7 +2468,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] Place up to 1 Character with a cost of 4 or less at the bottom of the owner's deck.",
+    "effect": {
+      "en": "[On Play] Place up to 1 Character with a cost of 4 or less at the bottom of the owner's deck.",
+      "it": "[On Play] Metti fino a 1 personaggio con un costo pari o inferiore a 4 in fondo al mazzo del proprietario."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-051_p1.png",
@@ -2313,7 +2505,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-052.png",
@@ -2346,7 +2541,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Your Turn] [Once Per Turn] When you draw a card outside of your Draw Phase, this Character gains +2000 power during this turn.",
+    "effect": {
+      "en": "[Your Turn] [Once Per Turn] When you draw a card outside of your Draw Phase, this Character gains +2000 power during this turn.",
+      "it": "[Your Turn] [Once Per Turn] Quando peschi una carta al di fuori della tua Draw Phase, Questo Personaggio guadagna +2000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-053.png",
@@ -2380,7 +2578,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] Draw 2 cards and place 2 cards from your hand at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Draw 2 cards and place 2 cards from your hand at the bottom of your deck in any order.",
+      "it": "[On Play] Pesca 2 carte e metti 2 carte dalla tua mano in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-054.png",
@@ -2415,7 +2616,10 @@
       "Drake Pirates",
       "Animal Kingdom Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Look at 5 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Look at 5 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On Play] Guarda 5 carte dalla cima del tuo mazzo e posizionale in cima o in fondo al mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-055.png",
@@ -2451,7 +2655,10 @@
       "Drake Pirates",
       "Animal Kingdom Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Look at 5 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Look at 5 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On Play] Guarda 5 carte dalla cima del tuo mazzo e posizionale in cima o in fondo al mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-055_p1.png",
@@ -2486,7 +2693,10 @@
     "family": [
       "Former Navy"
     ],
-    "effect": "[On Play] You may place 1 of your Characters other than this Character at the bottom of your deck: Draw 1 card.",
+    "effect": {
+      "en": "[On Play] You may place 1 of your Characters other than this Character at the bottom of your deck: Draw 1 card.",
+      "it": "[On Play] Puoi mettere 1 dei tuoi Personaggi diversi da questo Personaggio in fondo al tuo mazzo: Pesca 1 carta."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-056.png",
@@ -2519,7 +2729,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Main] Up to 1 of your Leader or Character cards gains +3000 power during this turn. Then, place up to 1 Character with a cost of 2 or less at the bottom of the owner's deck.",
+    "effect": {
+      "en": "[Main] Up to 1 of your Leader or Character cards gains +3000 power during this turn. Then, place up to 1 Character with a cost of 2 or less at the bottom of the owner's deck.",
+      "it": "[Main] Fino a 1 delle tue carte Leader o Personaggio guadagna +3000 power durante questo turno. Poi, piazza fino a 1 Personaggio con costo pari o inferiore a 2 in fondo al mazzo del proprietario."
+    },
     "trigger": "Trigger[Trigger] Return up to 1 Character with a cost of 3 or less to the owner's hand.",
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-057.png",
@@ -2552,7 +2765,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Main] Place all Characters with a cost of 3 or less at the bottom of the owner's deck. Then, you and your opponent trash cards from your hands until you each have 5 cards in your hands.",
+    "effect": {
+      "en": "[Main] Place all Characters with a cost of 3 or less at the bottom of the owner's deck. Then, you and your opponent trash cards from your hands until you each have 5 cards in your hands.",
+      "it": "[Main] Metti tutti i personaggi con un costo pari o inferiore a 3 in fondo al mazzo del proprietario. Poi, tu e il tuo avversario Trash carte dalle vostre mani finché non avrete 5 carte ciascuno in mano."
+    },
     "trigger": "Trigger[Trigger] Place all Characters with a cost of 2 or less at the bottom of the owner's deck.",
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-058.png",
@@ -2586,7 +2802,10 @@
       "The Four Emperors",
       "Animal Kingdom Pirates"
     ],
-    "effect": "[Main] If your Leader is multicolored, draw 1 card. Then, return up to 1 Character with a cost of 5 or less to the owner's hand.",
+    "effect": {
+      "en": "[Main] If your Leader is multicolored, draw 1 card. Then, return up to 1 Character with a cost of 5 or less to the owner's hand.",
+      "it": "[Main] Se il tuo Leader è multicolore, pesca 1 carta. Poi, fai tornare in mano al proprietario fino a 1 Personaggio con costo pari o inferiore a 5."
+    },
     "trigger": "Trigger[Trigger] If your Leader is multicolored, draw 2 cards.",
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-059.png",
@@ -2619,7 +2838,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] You may add 1 card from the top of your Life cards to your hand: If you have 0 or 3 or more DON!! cards on your field, add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] You may add 1 card from the top of your Life cards to your hand: If you have 0 or 3 or more DON!! cards on your field, add up to 1 DON!! card from your DON!! deck and set it as active.",
+      "it": "[Activate: Main] [Once Per Turn] Puoi aggiungere 1 carta dalla cima delle tue carte Life alla tua mano: se hai 0 o 3 o più carte DON!! sul tuo campo, aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e impostalo come attivo."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-060.png",
@@ -2653,7 +2875,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] You may add 1 card from the top of your Life cards to your hand: If you have 0 or 3 or more DON!! cards on your field, add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] You may add 1 card from the top of your Life cards to your hand: If you have 0 or 3 or more DON!! cards on your field, add up to 1 DON!! card from your DON!! deck and set it as active.",
+      "it": "[Activate: Main] [Once Per Turn] Puoi aggiungere 1 carta dalla cima delle tue carte Life alla tua mano: se hai 0 o 3 o più carte DON!! sul tuo campo, aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e impostalo come attivo."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-060_p1.png",
@@ -2688,7 +2913,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x1] [When Attacking] If you have 8 or more DON!! cards on your field, rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] If you have 8 or more DON!! cards on your field, rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+      "it": "[DON!! x1] [When Attacking] Se hai 8 o più carte DON!! sul tuo campo, metti in stato spossato fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 4."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-061.png",
@@ -2722,7 +2950,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "If you have 10 DON!! cards on your field, this Character gains [Blocker].(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "If you have 10 DON!! cards on your field, this Character gains [Blocker].(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "Se hai 10 carte DON!! sul tuo campo, questo Personaggio guadagna [Blocker]. (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-062.png",
@@ -2755,7 +2986,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] If you have 8 or more DON!! cards on your field, K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "effect": {
+      "en": "[On Play] If you have 8 or more DON!! cards on your field, K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+      "it": "[On Play] Se hai 8 o più carte DON!! sul tuo campo, K. O. fino a 1 dei Personaggi del tuo avversario con un costo pari o inferiore a 3."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-063.png",
@@ -2788,7 +3022,10 @@
     "family": [
       "Kid Pirates"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Kid Pirates} type card other than [Killer] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Kid Pirates} type card other than [Killer] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Kid Pirates} diversa da [Killer] e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-064.png",
@@ -2852,7 +3089,10 @@
       "Fish-Man",
       "Straw Hat Crew"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Opponent's Turn] If you have 10 DON!! cards on your field, this Character gains +1000 power.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Opponent's Turn] If you have 10 DON!! cards on your field, this Character gains +1000 power.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[Opponent's Turn] Se hai 10 carte DON!! sul tuo campo, Questo Personaggio guadagna +1000 power."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-066.png",
@@ -2886,7 +3126,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[When Attacking] If you have 3 or less Life cards, add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": {
+      "en": "[When Attacking] If you have 3 or less Life cards, add up to 1 DON!! card from your DON!! deck and set it as active.",
+      "it": "[When Attacking] Se hai 3 o meno carte Life, aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e impostalo come attivo."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-067.png",
@@ -2919,7 +3162,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[When Attacking] If you have 3 or less Life cards, add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": {
+      "en": "[When Attacking] If you have 3 or less Life cards, add up to 1 DON!! card from your DON!! deck and set it as active.",
+      "it": "[When Attacking] Se hai 3 o meno carte Life, aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e impostalo come attivo."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-067_p1.png",
@@ -2954,7 +3200,10 @@
       "Animal",
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] If you have 8 or more DON!! cards on your field, set up to 1 of your purple {Straw Hat Crew} type Characters with 6000 power or less as active.",
+    "effect": {
+      "en": "[On Play] If you have 8 or more DON!! cards on your field, set up to 1 of your purple {Straw Hat Crew} type Characters with 6000 power or less as active.",
+      "it": "[On Play] Se hai 8 o più carte DON!! sul tuo campo, imposta fino a 1 dei tuoi personaggi viola di tipo {Straw Hat Crew} con 6000 power o meno come attivo."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-068.png",
@@ -2987,7 +3236,10 @@
     "family": [
       "Heart Pirates"
     ],
-    "effect": "[When Attacking] If your opponent has more DON!! cards on their field than you, look at 5 cards from the top of your deck; reveal up to 1 {Heart Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[When Attacking] If your opponent has more DON!! cards on their field than you, look at 5 cards from the top of your deck; reveal up to 1 {Heart Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[When Attacking] Se il tuo avversario ha più carte DON!! di te sul suo campo, guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Heart Pirates} e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-069.png",
@@ -3020,7 +3272,10 @@
     "family": [
       "Heart Pirates"
     ],
-    "effect": "[When Attacking] If your opponent has more DON!! cards on their field than you, look at 5 cards from the top of your deck; reveal up to 1 {Heart Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[When Attacking] If your opponent has more DON!! cards on their field than you, look at 5 cards from the top of your deck; reveal up to 1 {Heart Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[When Attacking] Se il tuo avversario ha più carte DON!! di te sul suo campo, guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Heart Pirates} e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-069_p1.png",
@@ -3054,7 +3309,10 @@
     "family": [
       "Heart Pirates"
     ],
-    "effect": "[When Attacking] If your opponent has more DON!! cards on their field than you, look at 5 cards from the top of your deck; reveal up to 1 {Heart Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[When Attacking] If your opponent has more DON!! cards on their field than you, look at 5 cards from the top of your deck; reveal up to 1 {Heart Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[When Attacking] Se il tuo avversario ha più carte DON!! di te sul suo campo, guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Heart Pirates} e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-069_p2.png",
@@ -3088,7 +3346,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x1] If you have 8 or more DON!! cards on your field, this Character gains [Rush].(This card can attack on the turn in which it is played.)",
+    "effect": {
+      "en": "[DON!! x1] If you have 8 or more DON!! cards on your field, this Character gains [Rush].(This card can attack on the turn in which it is played.)",
+      "it": "[DON!! x1] Se hai 8 o più carte DON!! sul tuo campo, questo personaggio guadagna [Rush]. (Questa carta può attaccare nel turno in cui viene giocata.)"
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-070.png",
@@ -3123,7 +3384,10 @@
       "Minks",
       "Heart Pirates"
     ],
-    "effect": "[When Attacking] If your opponent has more DON!! cards on their field than you, give up to 1 of your opponent's Characters −2000 power during this turn.",
+    "effect": {
+      "en": "[When Attacking] If your opponent has more DON!! cards on their field than you, give up to 1 of your opponent's Characters −2000 power during this turn.",
+      "it": "[When Attacking] Se il tuo avversario ha più carte DON!! di te sul suo campo, Dai −2000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-071.png",
@@ -3156,7 +3420,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] If you have 8 or more DON!! cards on your field, give up to 2 of your opponent's Characters −2000 power during this turn.",
+    "effect": {
+      "en": "[On Play] If you have 8 or more DON!! cards on your field, give up to 2 of your opponent's Characters −2000 power during this turn.",
+      "it": "[On Play] Se hai 8 o più carte DON!! sul tuo campo, Dai −2000 power a un massimo di 2 Personaggi del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-072.png",
@@ -3189,7 +3456,10 @@
     "family": [
       "Baroque Works"
     ],
-    "effect": "[On Play] You may trash 1 card from your hand: Add up to 1 DON!! card from your DON!! deck and rest it.",
+    "effect": {
+      "en": "[On Play] You may trash 1 card from your hand: Add up to 1 DON!! card from your DON!! deck and rest it.",
+      "it": "[On Play] Puoi mandare nel Trash 1 carta dalla tua mano: aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e lasciala mettere in stato spossato."
+    },
     "trigger": "Trigger[Trigger] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play this card.",
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-073.png",
@@ -3222,7 +3492,10 @@
     "family": [
       "Kid Pirates"
     ],
-    "effect": "[Blocker][Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": {
+      "en": "[Blocker][Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, add up to 1 DON!! card from your DON!! deck and set it as active.",
+      "it": "[Blocker][Your Turn] [Once Per Turn] Quando un carta DON!! sul tuo campo viene restituito al tuo mazzo DON!! , aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e impostalo come attivo."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-074.png",
@@ -3257,7 +3530,10 @@
     "family": [
       "Kid Pirates"
     ],
-    "effect": "[Blocker][Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": {
+      "en": "[Blocker][Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, add up to 1 DON!! card from your DON!! deck and set it as active.",
+      "it": "[Blocker][Your Turn] [Once Per Turn] Quando un carta DON!! sul tuo campo viene restituito al tuo mazzo DON!! , aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e impostalo come attivo."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-074_p1.png",
@@ -3293,7 +3569,10 @@
     "family": [
       "Kid Pirates"
     ],
-    "effect": "[Blocker][Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": {
+      "en": "[Blocker][Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, add up to 1 DON!! card from your DON!! deck and set it as active.",
+      "it": "[Blocker][Your Turn] [Once Per Turn] Quando un carta DON!! sul tuo campo viene restituito al tuo mazzo DON!! , aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e impostalo come attivo."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-074_p2.png",
@@ -3329,7 +3608,10 @@
     "family": [
       "Baroque Works"
     ],
-    "effect": "[On Your Opponent's Attack] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 {Baroque Works} type Character card with a cost of 3 or less from your hand.",
+    "effect": {
+      "en": "[On Your Opponent's Attack] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 {Baroque Works} type Character card with a cost of 3 or less from your hand.",
+      "it": "[On Your Opponent's Attack] [Once Per Turn] DON!! −1 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): Gioca fino a 1 carta Personaggio di tipo {Baroque Works} con un costo pari o inferiore a 3 dalla tua mano."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-075.png",
@@ -3363,7 +3645,10 @@
     "family": [
       "Land of Wano"
     ],
-    "effect": "[Main] Look at 3 cards from the top of your deck; reveal up to 1 {Straw Hat Crew}, {Kid Pirates}, or {Heart Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[Main] Look at 3 cards from the top of your deck; reveal up to 1 {Straw Hat Crew}, {Kid Pirates}, or {Heart Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[Main] Guarda 3 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Straw Hat Crew}, {Kid Pirates} o {Heart Pirates} e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-076.png",
@@ -3396,7 +3681,10 @@
     "family": [
       "Heart Pirates"
     ],
-    "effect": "[Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Give up to 1 of your opponent's Characters −5000 power during this turn.",
+    "effect": {
+      "en": "[Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Give up to 1 of your opponent's Characters −5000 power during this turn.",
+      "it": "[Main] DON!! −1 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): Dai −5000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-077.png",
@@ -3429,7 +3717,10 @@
     "family": [
       "Kid Pirates"
     ],
-    "effect": "[Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your {Kid Pirates} type Leader or Character cards gains +5000 power during this turn.",
+    "effect": {
+      "en": "[Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your {Kid Pirates} type Leader or Character cards gains +5000 power during this turn.",
+      "it": "[Main] DON!! −1 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): Fino a 1 delle tue carte Leader o Personaggio di tipo {Kid Pirates} guadagna +5000 power durante questo turno."
+    },
     "trigger": "Trigger[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-078.png",
@@ -3462,7 +3753,10 @@
     "family": [
       "Dressrosa"
     ],
-    "effect": "[On Play] Your opponent places 3 cards from their trash at the bottom of their deck in any order.",
+    "effect": {
+      "en": "[On Play] Your opponent places 3 cards from their trash at the bottom of their deck in any order.",
+      "it": "[On Play] Il tuo avversario mette 3 carte dal suo Trash in fondo al suo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-079.png",
@@ -3496,7 +3790,10 @@
       "Kingdom of Prodence",
       "Dressrosa"
     ],
-    "effect": "[When Attacking] [Once Per Turn] You may return 20 cards from your trash to your deck and shuffle it: This Character gains [Double Attack] and +10000 power during this battle.(This card deals 2 damage.)",
+    "effect": {
+      "en": "[When Attacking] [Once Per Turn] You may return 20 cards from your trash to your deck and shuffle it: This Character gains [Double Attack] and +10000 power during this battle.(This card deals 2 damage.)",
+      "it": "[When Attacking] [Once Per Turn] Puoi rimettere 20 carte dal tuo Trash nel tuo mazzo e mescolarle: questo personaggio ottiene [Double Attack] e +10000 power durante questa battaglia. (Questa carta infligge 2 danni.)"
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-080.png",
@@ -3531,7 +3828,10 @@
     "family": [
       "Dressrosa"
     ],
-    "effect": "[Activate: Main] You may trash this Character: Give up to 1 of your opponent's Characters −3 cost during this turn.",
+    "effect": {
+      "en": "[Activate: Main] You may trash this Character: Give up to 1 of your opponent's Characters −3 cost during this turn.",
+      "it": "[Activate: Main] Puoi mandare nel Trash questo Personaggio: Dai −3 costo a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-081.png",
@@ -3564,7 +3864,10 @@
     "family": [
       "Merfolk"
     ],
-    "effect": "[Activate: Main] You may rest this Character and place 2 cards from your trash at the bottom of your deck in any order: If your opponent has 6 or more cards in their hand, your opponent trashes 1 card from their hand.",
+    "effect": {
+      "en": "[Activate: Main] You may rest this Character and place 2 cards from your trash at the bottom of your deck in any order: If your opponent has 6 or more cards in their hand, your opponent trashes 1 card from their hand.",
+      "it": "[Activate: Main] Puoi mettere in stato spossato questo Personaggio e posizionare 2 carte dal tuo Trash in fondo al tuo mazzo in qualsiasi ordine: Se il tuo avversario ha 6 o più carte in mano, il tuo avversario elimina 1 carta dalla sua mano."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-082.png",
@@ -3627,7 +3930,10 @@
     "family": [
       "Celestial Dragons"
     ],
-    "effect": "[Your Turn] If the only Characters on your field are {Celestial Dragons} type Characters, give all of your opponent's Characters −4 cost.",
+    "effect": {
+      "en": "[Your Turn] If the only Characters on your field are {Celestial Dragons} type Characters, give all of your opponent's Characters −4 cost.",
+      "it": "[Your Turn] Se gli unici Personaggi sul tuo campo sono Personaggi di tipo {Celestial Dragons}, dai a tutti i Personaggi del tuo avversario un -4 costo."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-084.png",
@@ -3660,7 +3966,10 @@
     "family": [
       "Alabasta"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Trash 1 card from the top of your deck.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Trash 1 card from the top of your deck.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On Play] Manda nel Trash 1 carta dalla cima del tuo mazzo."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-085.png",
@@ -3694,7 +4003,10 @@
     "family": [
       "Alabasta"
     ],
-    "effect": "If you have 10 or more cards in your trash, this Character gains [Blocker].(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "If you have 10 or more cards in your trash, this Character gains [Blocker].(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "Se hai 10 o più carte nel tuo Trash, questo Personaggio ottiene [Blocker]. (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-086.png",
@@ -3728,7 +4040,10 @@
       "Dressrosa",
       "Beautiful Pirates"
     ],
-    "effect": "[DON!! x1] [When Attacking] You may K.O. 1 of your Characters other than this Character: Give up to 1 of your opponent's Characters −5 cost during this turn.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] You may K.O. 1 of your Characters other than this Character: Give up to 1 of your opponent's Characters −5 cost during this turn.",
+      "it": "[DON!! x1] [When Attacking] Puoi K. O. 1 dei tuoi Personaggi diversi da questo personaggio: Dai −5 costo a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-087.png",
@@ -3763,7 +4078,10 @@
       "The Tontattas",
       "Dressrosa"
     ],
-    "effect": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may rest this Character and place 2 cards from your trash at the bottom of your deck in any order: Add up to 1 black Character card with a cost of 3 to 5 from your trash to your hand.",
+    "effect": {
+      "en": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may rest this Character and place 2 cards from your trash at the bottom of your deck in any order: Add up to 1 black Character card with a cost of 3 to 5 from your trash to your hand.",
+      "it": "[Activate: Main] ➀ (Puoi mettere in stato spossato il numero specificato di carte DON!! nella tua area di costo.) Puoi mettere in stato spossato questo Personaggio e posizionare 2 carte dal tuo Trash in fondo al tuo mazzo in qualsiasi ordine: Aggiungi fino a 1 carta Personaggio nera con un costo da 3 a 5 dal tuo Trash alla tua mano."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-088.png",
@@ -3797,7 +4115,10 @@
       "The Tontattas",
       "Dressrosa"
     ],
-    "effect": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may rest this Character and place 2 cards from your trash at the bottom of your deck in any order: Add up to 1 black Character card with a cost of 3 to 5 from your trash to your hand.",
+    "effect": {
+      "en": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may rest this Character and place 2 cards from your trash at the bottom of your deck in any order: Add up to 1 black Character card with a cost of 3 to 5 from your trash to your hand.",
+      "it": "[Activate: Main] ➀ (Puoi mettere in stato spossato il numero specificato di carte DON!! nella tua area di costo.) Puoi mettere in stato spossato questo Personaggio e posizionare 2 carte dal tuo Trash in fondo al tuo mazzo in qualsiasi ordine: Aggiungi fino a 1 carta Personaggio nera con un costo da 3 a 5 dal tuo Trash alla tua mano."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-088_p1.png",
@@ -3831,7 +4152,10 @@
     "family": [
       "Celestial Dragons"
     ],
-    "effect": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may rest this Character and 1 of your Characters: Add up to 1 black Character card with a cost of 1 from your trash to your hand.",
+    "effect": {
+      "en": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may rest this Character and 1 of your Characters: Add up to 1 black Character card with a cost of 1 from your trash to your hand.",
+      "it": "[Activate: Main] ➀ (Puoi mettere in stato spossato il numero specificato di carte DON!! nella tua area di costo.) Puoi mettere in stato spossato questo Personaggio e 1 dei tuoi Personaggi: aggiungi fino a 1 carta Personaggio nera con un costo pari a 1 dal tuo Trash alla tua mano."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-089.png",
@@ -3864,7 +4188,10 @@
     "family": [
       "Dressrosa"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play]/[On K.O.] Up to 1 of your {Dressrosa} type Characters gains +2000 power during this turn.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play]/[On K.O.] Up to 1 of your {Dressrosa} type Characters gains +2000 power during this turn.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On Play]/[On K.O.] Fino a 1 dei tuoi personaggi di tipo {Dressrosa} guadagna +2000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-090.png",
@@ -3899,7 +4226,10 @@
     "family": [
       "Dressrosa"
     ],
-    "effect": "[Blocker][On Play] Add up to 1 black Character card with a cost of 3 to 7 other than [Rebecca] from your trash to your hand. Then, play up to 1 black Character card with a cost of 3 or less from your hand rested.",
+    "effect": {
+      "en": "[Blocker][On Play] Add up to 1 black Character card with a cost of 3 to 7 other than [Rebecca] from your trash to your hand. Then, play up to 1 black Character card with a cost of 3 or less from your hand rested.",
+      "it": "[Blocker][On Play] Aggiungi fino a 1 carta Personaggio nera con un costo da 3 a 7 diversa da [Rebecca] dal tuo Trash alla tua mano. Poi, gioca fino a 1 carta Personaggio nera con costo pari o inferiore a 3 dalla tua mano in stato spossato."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-091.png",
@@ -3933,7 +4263,10 @@
     "family": [
       "Dressrosa"
     ],
-    "effect": "[Blocker][On Play] Add up to 1 black Character card with a cost of 3 to 7 other than [Rebecca] from your trash to your hand. Then, play up to 1 black Character card with a cost of 3 or less from your hand rested.",
+    "effect": {
+      "en": "[Blocker][On Play] Add up to 1 black Character card with a cost of 3 to 7 other than [Rebecca] from your trash to your hand. Then, play up to 1 black Character card with a cost of 3 or less from your hand rested.",
+      "it": "[Blocker][On Play] Aggiungi fino a 1 carta Personaggio nera con un costo da 3 a 7 diversa da [Rebecca] dal tuo Trash alla tua mano. Poi, gioca fino a 1 carta Personaggio nera con costo pari o inferiore a 3 dalla tua mano in stato spossato."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-091_p1.png",
@@ -3968,7 +4301,10 @@
     "family": [
       "Celestial Dragons"
     ],
-    "effect": "[Your Turn] If the only Characters on your field are {Celestial Dragons} type Characters, give all of your opponent's Characters −6 cost.",
+    "effect": {
+      "en": "[Your Turn] If the only Characters on your field are {Celestial Dragons} type Characters, give all of your opponent's Characters −6 cost.",
+      "it": "[Your Turn] Se gli unici Personaggi sul tuo campo sono Personaggi di tipo {Celestial Dragons}, dai a tutti i Personaggi del tuo avversario un -6 costo."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-092.png",
@@ -4001,7 +4337,10 @@
     "family": [
       "CP0"
     ],
-    "effect": "[On Play] You may place 3 cards from your trash at the bottom of your deck in any order: K.O. up to 1 of your opponent's Characters with a cost of 2 or less and up to 1 of your opponent's Characters with a cost of 1 or less.",
+    "effect": {
+      "en": "[On Play] You may place 3 cards from your trash at the bottom of your deck in any order: K.O. up to 1 of your opponent's Characters with a cost of 2 or less and up to 1 of your opponent's Characters with a cost of 1 or less.",
+      "it": "[On Play] Puoi posizionare 3 carte dal tuo Trash in fondo al tuo mazzo in qualsiasi ordine: K. O. fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 2 e fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 1."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-093.png",
@@ -4034,7 +4373,10 @@
     "family": [
       "CP0"
     ],
-    "effect": "[On Play] You may place 3 cards from your trash at the bottom of your deck in any order: K.O. up to 1 of your opponent's Characters with a cost of 2 or less and up to 1 of your opponent's Characters with a cost of 1 or less.",
+    "effect": {
+      "en": "[On Play] You may place 3 cards from your trash at the bottom of your deck in any order: K.O. up to 1 of your opponent's Characters with a cost of 2 or less and up to 1 of your opponent's Characters with a cost of 1 or less.",
+      "it": "[On Play] Puoi posizionare 3 carte dal tuo Trash in fondo al tuo mazzo in qualsiasi ordine: K. O. fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 2 e fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 1."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-093_p1.png",
@@ -4069,7 +4411,10 @@
       "The Tontattas",
       "Dressrosa"
     ],
-    "effect": "[Main] Give up to 1 of your opponent's Characters −3 cost during this turn. Then, up to 1 of your opponent's Characters with a cost of 0 will not become active in the next Refresh Phase.",
+    "effect": {
+      "en": "[Main] Give up to 1 of your opponent's Characters −3 cost during this turn. Then, up to 1 of your opponent's Characters with a cost of 0 will not become active in the next Refresh Phase.",
+      "it": "[Main] Dai −3 costo a un massimo di 1 Personaggio del tuo avversario durante questo turno. Quindi, fino a 1 dei personaggi del tuo avversario con un costo pari a 0 non diventerà attivo nella successiva Fase di Aggiornamento."
+    },
     "trigger": "Trigger[Trigger] Draw 2 cards and trash 1 card from your hand.",
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-094.png",
@@ -4103,7 +4448,10 @@
       "Dressrosa",
       "Revolutionary Army"
     ],
-    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, if you have 15 or more cards in your trash, K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "effect": {
+      "en": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, if you have 15 or more cards in your trash, K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+      "it": "[Counter] Fino a 1 delle tue carte Leader o Personaggio ottiene +4000 power durante questa battaglia. Poi, se hai 15 o più carte nel tuo Trash, K. O. fino a 1 dei Personaggi del tuo avversario con un costo pari o inferiore a 4."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-095.png",
@@ -4136,7 +4484,10 @@
     "family": [
       "Celestial Dragons"
     ],
-    "effect": "[Main] Choose one:• K.O. up to 1 of your opponent's Characters with a cost of 1 or less.• Return up to 1 of your opponent's Characters with a cost of 1 or less to the owner's hand.• Place up to 1 of your opponent's Characters with a cost of 1 or less at the top or bottom of their Life cards face-up.Then, if you have a {Celestial Dragons} type Character, draw 1 card.",
+    "effect": {
+      "en": "[Main] Choose one:• K.O. up to 1 of your opponent's Characters with a cost of 1 or less.• Return up to 1 of your opponent's Characters with a cost of 1 or less to the owner's hand.• Place up to 1 of your opponent's Characters with a cost of 1 or less at the top or bottom of their Life cards face-up.Then, if you have a {Celestial Dragons} type Character, draw 1 card.",
+      "it": "[Main] Scegli uno: • K. O. fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 1. • Fai ritornare fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 1 nella mano del proprietario. • Metti fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 1 in cima o in fondo alle sue carte Life scoperta. Poi, se hai un personaggio di tipo {Celestial Dragons}, pesca 1 carta."
+    },
     "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 6 or less, or return it to the owner's hand.",
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-096.png",
@@ -4169,7 +4520,10 @@
     "family": [
       "Mary Geoise"
     ],
-    "effect": "[Your Turn] The cost of playing {Celestial Dragons} type Character cards with a cost of 2 or more from your hand will be reduced by 1.",
+    "effect": {
+      "en": "[Your Turn] The cost of playing {Celestial Dragons} type Character cards with a cost of 2 or more from your hand will be reduced by 1.",
+      "it": "[Your Turn] Il costo per giocare carte Personaggio di tipo {Celestial Dragons} con un costo pari o superiore a 2 dalla tua mano sarà ridotto di 1."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-097.png",
@@ -4202,7 +4556,10 @@
     "family": [
       "Sky Island"
     ],
-    "effect": "[Opponent's Turn] [Once Per Turn] When your number of Life cards becomes 0, add 1 card from the top of your deck to the top of your Life cards. Then, trash 1 card from your hand.",
+    "effect": {
+      "en": "[Opponent's Turn] [Once Per Turn] When your number of Life cards becomes 0, add 1 card from the top of your deck to the top of your Life cards. Then, trash 1 card from your hand.",
+      "it": "[Opponent's Turn] [Once Per Turn] Quando il tuo numero di carte Life diventa 0, aggiungi 1 carta dalla cima del tuo mazzo alla cima delle tue carte Life. Poi, Manda nel Trash 1 carta dalla tua mano."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-098.png",
@@ -4236,7 +4593,10 @@
     "family": [
       "Sky Island"
     ],
-    "effect": "[Opponent's Turn] [Once Per Turn] When your number of Life cards becomes 0, add 1 card from the top of your deck to the top of your Life cards. Then, trash 1 card from your hand.",
+    "effect": {
+      "en": "[Opponent's Turn] [Once Per Turn] When your number of Life cards becomes 0, add 1 card from the top of your deck to the top of your Life cards. Then, trash 1 card from your hand.",
+      "it": "[Opponent's Turn] [Once Per Turn] Quando il tuo numero di carte Life diventa 0, aggiungi 1 carta dalla cima del tuo mazzo alla cima delle tue carte Life. Poi, Manda nel Trash 1 carta dalla tua mano."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-098_p1.png",
@@ -4271,7 +4631,10 @@
     "family": [
       "Sky Island"
     ],
-    "effect": "[On Your Opponent's Attack] You may rest this Character: Your opponent may trash 1 card from the top of their Life cards. If they do not, give up to 1 of your opponent's Leader or Character cards −2000 power during this turn.",
+    "effect": {
+      "en": "[On Your Opponent's Attack] You may rest this Character: Your opponent may trash 1 card from the top of their Life cards. If they do not, give up to 1 of your opponent's Leader or Character cards −2000 power during this turn.",
+      "it": "[On Your Opponent's Attack] Puoi mettere in stato spossato questo Personaggio: il tuo avversario può Manda nel Trash 1 carta dalla cima della sua carte Life. In caso contrario, Dai −2000 power a un massimo di 1 carta Leader o Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-099.png",
@@ -4304,7 +4667,10 @@
     "family": [
       "Sky Island"
     ],
-    "effect": "[Rush][Once Per Turn] If this Character would leave the field, you may trash 1 card from the top of your Life cards instead. If there is a [Monkey.D.Luffy] Character, this effect is negated.",
+    "effect": {
+      "en": "[Rush][Once Per Turn] If this Character would leave the field, you may trash 1 card from the top of your Life cards instead. If there is a [Monkey.D.Luffy] Character, this effect is negated.",
+      "it": "[Rush][Once Per Turn] Se questo Personaggio dovesse lasciare il campo, puoi invece Manda nel Trash 1 carta dalla cima delle tue carte Life. Se è presente un personaggio [Monkey.D.Luffy], questo effetto è annullato."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-100.png",
@@ -4338,7 +4704,10 @@
     "family": [
       "Sky Island"
     ],
-    "effect": "[Rush][Once Per Turn] If this Character would leave the field, you may trash 1 card from the top of your Life cards instead. If there is a [Monkey.D.Luffy] Character, this effect is negated.",
+    "effect": {
+      "en": "[Rush][Once Per Turn] If this Character would leave the field, you may trash 1 card from the top of your Life cards instead. If there is a [Monkey.D.Luffy] Character, this effect is negated.",
+      "it": "[Rush][Once Per Turn] Se questo Personaggio dovesse lasciare il campo, puoi invece Manda nel Trash 1 carta dalla cima delle tue carte Life. Se è presente un personaggio [Monkey.D.Luffy], questo effetto è annullato."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-100_p1.png",
@@ -4373,7 +4742,10 @@
     "family": [
       "Sky Island"
     ],
-    "effect": "[Rush][Once Per Turn] If this Character would leave the field, you may trash 1 card from the top of your Life cards instead. If there is a [Monkey.D.Luffy] Character, this effect is negated.",
+    "effect": {
+      "en": "[Rush][Once Per Turn] If this Character would leave the field, you may trash 1 card from the top of your Life cards instead. If there is a [Monkey.D.Luffy] Character, this effect is negated.",
+      "it": "[Rush][Once Per Turn] Se questo Personaggio dovesse lasciare il campo, puoi invece Manda nel Trash 1 carta dalla cima delle tue carte Life. Se è presente un personaggio [Monkey.D.Luffy], questo effetto è annullato."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-100_p2.png",
@@ -4409,7 +4781,10 @@
       "Sky Island",
       "Vassals"
     ],
-    "effect": "If you have 2 or less Life cards, this Character gains +1000 power.[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Holly] and add it to your hand. Then, place the rest at the bottom of your deck in any order and play up to 1 [Holly] from your hand.",
+    "effect": {
+      "en": "If you have 2 or less Life cards, this Character gains +1000 power.[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Holly] and add it to your hand. Then, place the rest at the bottom of your deck in any order and play up to 1 [Holly] from your hand.",
+      "it": "Se hai 2 o meno carte Life, Questo Personaggio guadagna +1000 power. [On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 [Holly] e aggiungilo alla tua mano. Quindi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine e gioca fino a 1 [Holly] dalla tua mano."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-101.png",
@@ -4443,7 +4818,10 @@
       "Sky Island",
       "Vassals"
     ],
-    "effect": "[On Play] K.O. up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards.",
+    "effect": {
+      "en": "[On Play] K.O. up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards.",
+      "it": "[On Play] K. O. fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore al numero di carte Life del tuo avversario."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-102.png",
@@ -4477,7 +4855,10 @@
       "Sky Island",
       "Vassals"
     ],
-    "effect": "[On Play] K.O. up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards.",
+    "effect": {
+      "en": "[On Play] K.O. up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards.",
+      "it": "[On Play] K. O. fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore al numero di carte Life del tuo avversario."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-102_p1.png",
@@ -4511,7 +4892,10 @@
     "family": [
       "Sky Island"
     ],
-    "effect": "[On Play] If you have [Hotori], K.O. up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards.",
+    "effect": {
+      "en": "[On Play] If you have [Hotori], K.O. up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards.",
+      "it": "[On Play] Se hai [Hotori], K. O. fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore al numero delle carte Life del tuo avversario."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-103.png",
@@ -4544,7 +4928,10 @@
     "family": [
       "Sky Island"
     ],
-    "effect": "[On Play] You may place 1 of your Stages at the bottom of your deck: Draw 1 card and trash 1 card from your hand.",
+    "effect": {
+      "en": "[On Play] You may place 1 of your Stages at the bottom of your deck: Draw 1 card and trash 1 card from your hand.",
+      "it": "[On Play] Puoi posizionare 1 delle tue Fasi in fondo al tuo mazzo: pesca 1 carta e Manda nel Trash 1 carta dalla tua mano."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-104.png",
@@ -4609,7 +4996,10 @@
       "Sky Island",
       "Vassals"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Sky Island} type card other than [Shura] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Sky Island} type card other than [Shura] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Sky Island} diversa da [Shura] e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": "Trigger[Trigger] Play this card.",
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-106.png",
@@ -4642,7 +5032,10 @@
     "family": [
       "The Moon"
     ],
-    "effect": "[Your Turn] [Once Per Turn] When a card is added to your hand from your Life, this Character gains +2000 power during this turn.",
+    "effect": {
+      "en": "[Your Turn] [Once Per Turn] When a card is added to your hand from your Life, this Character gains +2000 power during this turn.",
+      "it": "[Your Turn] [Once Per Turn] Quando una carta viene aggiunta alla tua mano dalla tua Vita, Questo Personaggio guadagna +2000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-107.png",
@@ -4707,7 +5100,10 @@
     "family": [
       "Sky Island"
     ],
-    "effect": "[Once Per Turn] When a [Trigger] activates, draw 2 cards and trash 2 cards from your hand.",
+    "effect": {
+      "en": "[Once Per Turn] When a [Trigger] activates, draw 2 cards and trash 2 cards from your hand.",
+      "it": "[Once Per Turn] Quando si attiva un [Trigger], pesca 2 carte e Manda nel Trash 2 carte dalla tua mano."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-109.png",
@@ -4772,7 +5168,10 @@
     "family": [
       "Sky Island"
     ],
-    "effect": "[On Play] You may play 1 [Kotori] from your hand: Add up to 1 of your opponent's Characters with a cost of 3 or less to the top or bottom of your opponent's Life cards face-up.",
+    "effect": {
+      "en": "[On Play] You may play 1 [Kotori] from your hand: Add up to 1 of your opponent's Characters with a cost of 3 or less to the top or bottom of your opponent's Life cards face-up.",
+      "it": "[On Play] Puoi giocare 1 [Kotori] dalla tua mano: aggiungi fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 3 in cima o in fondo ai carte Life scoperta del tuo avversario."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-111.png",
@@ -4805,7 +5204,10 @@
     "family": [
       "Sky Island"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] Play up to 1 {Sky Island} type Character card with a cost of 1 from your hand.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On K.O.] Play up to 1 {Sky Island} type Character card with a cost of 1 from your hand.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On K.O.] Gioca fino a 1 carta Personaggio di tipo {Sky Island} con un costo pari a 1 dalla tua mano."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-112.png",
@@ -4839,7 +5241,10 @@
     "family": [
       "Sky Island"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-113.png",
@@ -4872,7 +5277,10 @@
     "family": [
       "Sky Island"
     ],
-    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if your opponent has 2 or less Life cards, that card gains an additional +2000 power during this battle.",
+    "effect": {
+      "en": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if your opponent has 2 or less Life cards, that card gains an additional +2000 power during this battle.",
+      "it": "[Counter] Fino a 1 delle tue carte Leader o Personaggio ottiene +2000 power durante questa battaglia. Poi, se il tuo avversario ha 2 o meno carte Life, quella carta guadagna +2000 aggiuntivi power durante questa battaglia."
+    },
     "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards.",
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-114.png",
@@ -4905,7 +5313,10 @@
     "family": [
       "Sky Island"
     ],
-    "effect": "[Main] Up to 1 of your Leader or Character cards gains +3000 power during this turn. Then, if you have 1 or less Life cards, rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "effect": {
+      "en": "[Main] Up to 1 of your Leader or Character cards gains +3000 power during this turn. Then, if you have 1 or less Life cards, rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+      "it": "[Main] Fino a 1 delle tue carte Leader o Personaggio guadagna +3000 power durante questo turno. Poi, se hai 1 o meno carte Life, metti in stato spossato fino a 1 dei Personaggi del tuo avversario con un costo pari o inferiore a 4."
+    },
     "trigger": "Trigger[Trigger] You may trash 2 cards from your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-115.png",
@@ -4938,7 +5349,10 @@
     "family": [
       "Sky Island"
     ],
-    "effect": "[Main] K.O. up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards.",
+    "effect": {
+      "en": "[Main] K.O. up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards.",
+      "it": "[Main] K. O. fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore al numero di carte Life del tuo avversario."
+    },
     "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-116.png",
@@ -4971,7 +5385,10 @@
     "family": [
       "Sky Island"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Sky Island} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Sky Island} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Sky Island} e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-117.png",
@@ -5005,7 +5422,10 @@
       "The Four Emperors",
       "Animal Kingdom Pirates"
     ],
-    "effect": "[On Play] Draw 4 cards if your opponent has 3 or less Life cards.",
+    "effect": {
+      "en": "[On Play] Draw 4 cards if your opponent has 3 or less Life cards.",
+      "it": "[On Play] Pesca 4 carte se il tuo avversario ne ha 3 o meno carte Life."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-118.png",
@@ -5039,7 +5459,10 @@
       "The Four Emperors",
       "Animal Kingdom Pirates"
     ],
-    "effect": "[On Play] Draw 4 cards if your opponent has 3 or less Life cards.",
+    "effect": {
+      "en": "[On Play] Draw 4 cards if your opponent has 3 or less Life cards.",
+      "it": "[On Play] Pesca 4 carte se il tuo avversario ne ha 3 o meno carte Life."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-118_p1.png",
@@ -5074,7 +5497,10 @@
       "The Four Emperors",
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] DON!! −10: Place all of your Characters except this Character at the bottom of your deck in any order. Then, take an extra turn after this one.[Activate: Main] [Once Per Turn] ➀: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": {
+      "en": "[On Play] DON!! −10: Place all of your Characters except this Character at the bottom of your deck in any order. Then, take an extra turn after this one.[Activate: Main] [Once Per Turn] ➀: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+      "it": "[On Play] DON!! −10: posiziona tutti i tuoi personaggi tranne questo in fondo al tuo mazzo in qualsiasi ordine. Poi, fai un turno extra dopo questo. [Activate: Main] [Once Per Turn] ➀: aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e impostalo come attivo."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-119.png",
@@ -5110,7 +5536,10 @@
       "The Four Emperors",
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] DON!! −10: Place all of your Characters except this Character at the bottom of your deck in any order. Then, take an extra turn after this one.[Activate: Main] [Once Per Turn] ➀: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": {
+      "en": "[On Play] DON!! −10: Place all of your Characters except this Character at the bottom of your deck in any order. Then, take an extra turn after this one.[Activate: Main] [Once Per Turn] ➀: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+      "it": "[On Play] DON!! −10: posiziona tutti i tuoi personaggi tranne questo in fondo al tuo mazzo in qualsiasi ordine. Poi, fai un turno extra dopo questo. [Activate: Main] [Once Per Turn] ➀: aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e impostalo come attivo."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-119_p1.png",
@@ -5147,7 +5576,10 @@
       "The Four Emperors",
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] DON!! −10: Place all of your Characters except this Character at the bottom of your deck in any order. Then, take an extra turn after this one.[Activate: Main] [Once Per Turn] ➀: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": {
+      "en": "[On Play] DON!! −10: Place all of your Characters except this Character at the bottom of your deck in any order. Then, take an extra turn after this one.[Activate: Main] [Once Per Turn] ➀: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+      "it": "[On Play] DON!! −10: posiziona tutti i tuoi personaggi tranne questo in fondo al tuo mazzo in qualsiasi ordine. Poi, fai un turno extra dopo questo. [Activate: Main] [Once Per Turn] ➀: aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e impostalo come attivo."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-119_p2.png",
@@ -5184,7 +5616,10 @@
       "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "[Rush] (This card can attack on the turn in which it is played.)[DON!! x2] [When Attacking] Your opponent cannot activate [Blocker] during this battle.",
+    "effect": {
+      "en": "[Rush] (This card can attack on the turn in which it is played.)[DON!! x2] [When Attacking] Your opponent cannot activate [Blocker] during this battle.",
+      "it": "[Rush] (Questa carta può attaccare nel turno in cui viene giocata.)[DON!! x2] [When Attacking] Il tuo avversario non può attivare [Blocker] durante questa battaglia."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-012_p2.png",
@@ -5222,7 +5657,10 @@
       "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "[Rush] (This card can attack on the turn in which it is played.)[DON!! x2] [When Attacking] Your opponent cannot activate [Blocker] during this battle.",
+    "effect": {
+      "en": "[Rush] (This card can attack on the turn in which it is played.)[DON!! x2] [When Attacking] Your opponent cannot activate [Blocker] during this battle.",
+      "it": "[Rush] (Questa carta può attaccare nel turno in cui viene giocata.)[DON!! x2] [When Attacking] Il tuo avversario non può attivare [Blocker] durante questa battaglia."
+    },
     "trigger": null,
     "setName": "AWAKENING OF THE NEW ERA [OP-05]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST01-012_p3.png",

@@ -1,5 +1,6 @@
 <script setup>
 import { ref, computed, toRefs } from "vue";
+import { Icon } from "@iconify/vue";
 import { getShortSetName } from "@/utilities/cardsFieldsParser";
 
 const props = defineProps({
@@ -90,9 +91,10 @@ function openCard() {
       v-if="chooseCard && isLoaded"
       class="card-choose-btn mt-1"
       block
-      variant="outlined"
+      variant="flat"
       @click="$emit('choose-card', card)"
     >
+      <Icon icon="mdi:check-bold" class="card-choose-btn__icon" />
       SCEGLI
     </v-btn>
   </div>
@@ -151,8 +153,32 @@ function openCard() {
 }
 
 .card-choose-btn {
-  border-color: rgba(255, 183, 124, 0.4) !important;
-  color: white !important;
-  background: linear-gradient(120deg, rgba(255, 122, 24, 0.18), rgba(16, 24, 38, 0.84)) !important;
+  min-height: 3.1rem !important;
+  border: 1px solid rgba(255, 232, 214, 0.14) !important;
+  border-radius: 1.1rem !important;
+  color: #fff7f0 !important;
+  background: linear-gradient(145deg, rgba(255, 122, 24, 0.96), rgba(173, 72, 11, 0.96)) !important;
+  box-shadow:
+    0 16px 28px rgba(0, 0, 0, 0.28),
+    inset 0 1px 0 rgba(255, 255, 255, 0.14) !important;
+  font-size: 0.94rem !important;
+  font-weight: 900 !important;
+  letter-spacing: 0.04em !important;
+  text-transform: uppercase !important;
+  transition: transform 0.18s ease, filter 0.18s ease !important;
+}
+
+.card-choose-btn:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.04);
+}
+
+:deep(.card-choose-btn .v-btn__content) {
+  gap: 0.42rem;
+}
+
+.card-choose-btn__icon {
+  width: 1.05rem;
+  height: 1.05rem;
 }
 </style>

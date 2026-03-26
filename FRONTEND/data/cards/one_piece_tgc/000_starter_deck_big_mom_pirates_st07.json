@@ -14,7 +14,10 @@
       "The Four Emperors",
       "Big Mom Pirates"
     ],
-    "effect": "[DON!! x2] [When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: If you have 2 or less Life cards, add up to 1 card from your hand to the top of your Life cards.",
+    "effect": {
+      "en": "[DON!! x2] [When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: If you have 2 or less Life cards, add up to 1 card from your hand to the top of your Life cards.",
+      "it": "[DON!! x2] [When Attacking] Puoi aggiungere 1 carta dalla cima o dal fondo delle tue carte Life alla tua mano: se hai 2 o meno carte Life, aggiungi fino a 1 carta dalla tua mano alla cima delle tue carte Life."
+    },
     "trigger": null,
     "setName": "Card Set(s)Big Mom Pirates [ST 07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-001.png",
@@ -78,7 +81,10 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[On Play] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards. Then, if you have less Life cards than your opponent, this Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+    "effect": {
+      "en": "[On Play] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards. Then, if you have less Life cards than your opponent, this Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+      "it": "[On Play] Guarda fino a 1 carta dalla cima delle tue carte Life o del tuo avversario e posizionala in cima o in fondo al carte Life. Poi, se hai meno carte Life del tuo avversario, questo personaggio guadagna [Rush] durante questo turno. (Questa carta può attaccare nel turno in cui viene giocata.)"
+    },
     "trigger": null,
     "setName": "Card Set(s)Big Mom Pirates [ST 07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-003.png",
@@ -112,7 +118,10 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[DON!! x1] [When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: This Character gains [Banish] and +1000 power during this battle.(When this card deals damage, the target card is trashed without activating its Trigger.)",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: This Character gains [Banish] and +1000 power during this battle.(When this card deals damage, the target card is trashed without activating its Trigger.)",
+      "it": "[DON!! x1] [When Attacking] Puoi aggiungere 1 carta dalla cima o dal fondo delle tue carte Life alla tua mano: questo personaggio guadagna [Banish] e +1000 power durante questa battaglia. (Quando questa carta infligge danno, la carta bersaglio viene eliminata senza attivare il suo Trigger.)"
+    },
     "trigger": null,
     "setName": "Card Set(s)Big Mom Pirates [ST 07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-004.png",
@@ -147,7 +156,10 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[DON!! x1] [When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
+      "it": "[DON!! x1] [When Attacking] Puoi aggiungere 1 carta dalla cima o dal fondo delle tue carte Life alla tua mano: Aggiungi fino a 1 carta dalla cima del tuo mazzo alla cima delle tue carte Life."
+    },
     "trigger": null,
     "setName": "Card Set(s)Big Mom Pirates [ST 07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-005.png",
@@ -211,7 +223,10 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": "Trigger[Trigger] Play this card.",
     "setName": "Card Set(s)Big Mom Pirates [ST 07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-007.png",
@@ -244,7 +259,10 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[On Play] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards.",
+    "effect": {
+      "en": "[On Play] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards.",
+      "it": "[On Play] Guarda fino a 1 carta dalla cima del carte Life tuo o del tuo avversario e posizionala in cima o in fondo al carte Life."
+    },
     "trigger": null,
     "setName": "Card Set(s)Big Mom Pirates [ST 07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-008.png",
@@ -277,7 +295,10 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[Activate: Main] You may rest this Character and add 1 card from the top or bottom of your Life cards to your hand: K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "effect": {
+      "en": "[Activate: Main] You may rest this Character and add 1 card from the top or bottom of your Life cards to your hand: K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+      "it": "[Activate: Main] Puoi mettere in stato spossato questo Personaggio e aggiungere 1 carta dalla cima o dal fondo delle tue carte Life alla tua mano: K. O. fino a 1 dei Personaggi del tuo avversario con un costo pari o inferiore a 3."
+    },
     "trigger": "Trigger[Trigger] You may trash 1 card from your hand: Play this card.",
     "setName": "Card Set(s)Big Mom Pirates [ST 07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-009.png",
@@ -311,7 +332,10 @@
       "The Four Emperors",
       "Big Mom Pirates"
     ],
-    "effect": "[On Play] Your opponent chooses one:- Trash 1 card from the top of your opponent's Life cards.- Add 1 card from the top of your deck to the top of your Life cards.",
+    "effect": {
+      "en": "[On Play] Your opponent chooses one:- Trash 1 card from the top of your opponent's Life cards.- Add 1 card from the top of your deck to the top of your Life cards.",
+      "it": "[On Play] Il tuo avversario ne sceglie uno: - Manda nel Trash 1 carta dalla cima del carte Life del tuo avversario. - Aggiungi 1 carta dalla cima del tuo mazzo alla cima delle tue carte Life."
+    },
     "trigger": null,
     "setName": "Card Set(s)Big Mom Pirates [ST 07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-010.png",
@@ -345,7 +369,10 @@
       "Big Mom Pirates",
       "Homies"
     ],
-    "effect": "[Activate: Main] You may rest this Character: Up to 1 of your [Charlotte Linlin] cards gains [Banish] during this turn.(When this card deals damage, the target card is trashed without activating its Trigger.)",
+    "effect": {
+      "en": "[Activate: Main] You may rest this Character: Up to 1 of your [Charlotte Linlin] cards gains [Banish] during this turn.(When this card deals damage, the target card is trashed without activating its Trigger.)",
+      "it": "[Activate: Main] Puoi mettere in stato spossato questo Personaggio: Fino a 1 delle tue carte [Charlotte Linlin] ottiene [Banish] durante questo turno. (Quando questa carta infligge danni, la carta bersaglio viene eliminata senza attivare i suoi Trigger.)"
+    },
     "trigger": "Trigger[Trigger] Play this card.",
     "setName": "Card Set(s)Big Mom Pirates [ST 07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-011.png",
@@ -410,7 +437,10 @@
       "Big Mom Pirates",
       "Homies"
     ],
-    "effect": "[Activate: Main] You may rest this Character: Up to 1 of your [Charlotte Linlin] cards gains [Double Attack] during this turn.(This card deals 2 damage.)",
+    "effect": {
+      "en": "[Activate: Main] You may rest this Character: Up to 1 of your [Charlotte Linlin] cards gains [Double Attack] during this turn.(This card deals 2 damage.)",
+      "it": "[Activate: Main] Puoi mettere in stato spossato questo Personaggio: Up to 1 of your [Charlotte Linlin] cards gains [Double Attack] during this turn. (This card deals 2 damage.)"
+    },
     "trigger": "Trigger[Trigger] Play this card.",
     "setName": "Card Set(s)Big Mom Pirates [ST 07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-013.png",
@@ -476,7 +506,10 @@
       "The Four Emperors",
       "Big Mom Pirates"
     ],
-    "effect": "[Main] Your opponent chooses one:- Trash 1 card from the top of your opponent's Life cards.- Add 1 card from the top of your deck to the top of your Life cards.",
+    "effect": {
+      "en": "[Main] Your opponent chooses one:- Trash 1 card from the top of your opponent's Life cards.- Add 1 card from the top of your deck to the top of your Life cards.",
+      "it": "[Main] Il tuo avversario ne sceglie uno: - Manda nel Trash 1 carta dalla cima del carte Life del tuo avversario. - Aggiungi 1 carta dalla cima del tuo mazzo alla cima delle tue carte Life."
+    },
     "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "Card Set(s)Big Mom Pirates [ST 07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-015.png",
@@ -509,7 +542,10 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[Counter] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards. Then, up to 1 of your Leader or Character cards gains +2000 power during this battle.",
+    "effect": {
+      "en": "[Counter] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards. Then, up to 1 of your Leader or Character cards gains +2000 power during this battle.",
+      "it": "[Counter] Guarda fino a 1 carta dalla cima del carte Life tuo o del tuo avversario e posizionala in cima o in fondo al carte Life. Poi, fino a 1 delle tue carte Leader o Personaggio guadagna +2000 power durante questa battaglia."
+    },
     "trigger": "Trigger[Trigger] Draw 1 card, look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards.",
     "setName": "Card Set(s)Big Mom Pirates [ST 07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-016.png",
@@ -543,7 +579,10 @@
       "Big Mom Pirates",
       "Homies"
     ],
-    "effect": "[Activate: Main] You may rest this Stage and add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 of your Characters with a cost of 3 to the top of the owner's Life cards face-up.",
+    "effect": {
+      "en": "[Activate: Main] You may rest this Stage and add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 of your Characters with a cost of 3 to the top of the owner's Life cards face-up.",
+      "it": "[Activate: Main] Puoi mettere in stato spossato questa Fase e aggiungere 1 carta dalla cima o dal fondo delle tue carte Life alla tua mano: aggiungi fino a 1 dei tuoi Personaggi con un costo pari a 3 in cima al carte Life scoperta del proprietario."
+    },
     "trigger": null,
     "setName": "Card Set(s)Big Mom Pirates [ST 07]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST07-017.png",

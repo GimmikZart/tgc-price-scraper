@@ -1,10 +1,16 @@
 <script setup>
 import { Icon } from "@iconify/vue";
 import ProfileSectionsTabs from "@/components/Tabs/ProfileSectionsTabs.vue";
+import {
+  fetchCardCountInCollection,
+  addCardToUserCollection,
+  removeCardToUserCollection,
+} from "@/api/collection";
 import { copyDeckOnClipboard } from "@/utilities/copyDeckOnClipboard";
 import { usePageLoader } from "@/stores/usePageLoader";
 import { DeckLocation, normalizeDeckLocation } from "~/enums/deckLocation";
 
+const userAuth = useUserAuth();
 const snackbar = useSnackbar();
 const pageLoader = usePageLoader();
 const MAX_DECK_CARDS = 50;
@@ -47,7 +53,6 @@ const filterKey = ref(0);
 const actionOnDeck = ref("info");
 const leaderChoosen = ref(null);
 const showPrice = ref(false)
-const sortedCards = computed(() => sort.applySort(filteredCards.value))
 const tabOptions = [
   {
     label: "Panoramica",
@@ -61,6 +66,7 @@ const tabOptions = [
 const activeTab = computed(() => (showDeck.value ? "overview" : "catalog"));
 
 const sort = useCardSort('publish_date', 'desc')
+const sortedCards = computed(() => sort.applySort(filteredCards.value))
 
 const gridRef = ref(null)
 const gridKey = ref(0);
@@ -181,6 +187,70 @@ function showDeckLimitReachedError() {
   snackbar.addMessage(DECK_LIMIT_ERROR_MESSAGE, "error");
 }
 
+async function loadCollectionCountForCard(card) {
+  const existingCount = Number(card?.count);
+  if (card?._countLoaded && Number.isInteger(existingCount) && existingCount >= 0) {
+    return existingCount;
+  }
+
+  const userId = userAuth.userLogged?.id;
+  if (!userId || !card?.id) {
+    return Number.isInteger(existingCount) && existingCount >= 0 ? existingCount : 0;
+  }
+
+  try {
+    const count = await fetchCardCountInCollection(userId, card.id);
+    card.count = count;
+    card._countLoaded = true;
+    return count;
+  } catch {
+    const fallbackCount = Number.isInteger(existingCount) && existingCount >= 0 ? existingCount : 0;
+    card.count = fallbackCount;
+    return fallbackCount;
+  }
+}
+
+async function addCardInCollection(card) {
+  const previousCount = Number(card?.count) || 0;
+  card.count = previousCount + 1;
+  card._countLoaded = true;
+
+  try {
+    await addCardToUserCollection(userAuth.userLogged.id, card.id);
+  } catch (error) {
+    card.count = previousCount;
+    snackbar.addMessage(
+      "Errore durante l'aggiunta alla collezione",
+      "error",
+      error?.message,
+    );
+  }
+}
+
+async function removeCardFromCollection(card) {
+  const previousCount = Number(card?.count) || 0;
+
+  if (previousCount <= 0) {
+    card.count = 0;
+    card._countLoaded = true;
+    return;
+  }
+
+  card.count = previousCount - 1;
+  card._countLoaded = true;
+
+  try {
+    await removeCardToUserCollection(userAuth.userLogged.id, card.id);
+  } catch (error) {
+    card.count = previousCount;
+    snackbar.addMessage(
+      "Errore durante la rimozione dalla collezione",
+      "error",
+      error?.message,
+    );
+  }
+}
+
 function addCardInDeck(card) {
   if (currentDeck.value.cards.length >= MAX_DECK_CARDS) {
     showDeckLimitReachedError();
@@ -194,6 +264,63 @@ function removeCardFromDeck(cardToRemove) {
   const idx = currentDeck.value.cards.lastIndexOf(cardToRemove.id);
   if (idx !== -1) currentDeck.value.cards.splice(idx, 1);
 }
+
+async function loadDeckViewerState(card) {
+  const collectionCount = await loadCollectionCountForCard(card);
+
+  if (!leaderChoosen.value) {
+    return {
+      collectionCount,
+      collectionInfo: collectionCount > 0
+        ? `Hai ${collectionCount} copie in collezione di questa carta.`
+        : "Al momento non hai copie in collezione di questa carta.",
+    };
+  }
+
+  const deckCount = getCopyInDeck(card);
+
+  return {
+    collectionCount,
+    collectionInfo: collectionCount > 0
+      ? `Hai ${collectionCount} copie in collezione di questa carta.`
+      : "Al momento non hai copie in collezione di questa carta.",
+    deckCount,
+    deckTitle: "Gestisci il deck aperto",
+    deckInfo: deckCount >= 4
+      ? "Hai gia raggiunto il limite di 4 copie per questa carta nel deck."
+      : "Aggiungi o rimuovi copie di questa carta direttamente dal viewer.",
+  };
+}
+
+const viewerContext = computed(() => {
+  if (!leaderChoosen.value) {
+    return {
+      showPrice: true,
+      showCollectionSection: true,
+      showCollectionActions: true,
+      collectionTitle: "Disponibilita in collezione",
+      loadState: loadDeckViewerState,
+      onAddCollection: addCardInCollection,
+      onRemoveCollection: removeCardFromCollection,
+      primaryActionLabel: "SCEGLI",
+      primaryActionIcon: "mdi:check-bold",
+      primaryActionHelper: "Conferma questa carta come leader del deck.",
+      onPrimaryAction: chooseLeader,
+      closeOnPrimaryAction: true,
+    };
+  }
+
+  return {
+    showPrice: true,
+    showCollectionSection: true,
+    showDeckSection: true,
+    collectionTitle: "Disponibilita in collezione",
+    loadState: loadDeckViewerState,
+    onAddDeck: addCardInDeck,
+    onRemoveDeck: removeCardFromDeck,
+    showDeckActions: true,
+  };
+});
 
 function setDeckAction(nextAction) {
   if (nextAction === "add" && currentDeck.value.cards.length >= MAX_DECK_CARDS) {
@@ -479,6 +606,7 @@ provide("actionOnDeck", actionOnDeck);
       v-model:show="viewerOpen"
       v-model:index="viewerIndex"
       :cards="sortedCards"
+      :context="viewerContext"
       @close="viewerOpen = false"
     />
   </section>

@@ -1,5 +1,6 @@
 <script setup>
 import { ref, computed, watch } from "vue";
+import { cardEffectContains } from "@/utilities/cardEffect";
 
 const emit = defineEmits(["update:modelValue", "close"]);
 
@@ -53,8 +54,7 @@ const filtered = computed(() => {
 
     const abilityMatch =
       !abilityFilter.value ||
-      (card.effect &&
-        card.effect.toLowerCase().includes(abilityFilter.value.toLowerCase()));
+      cardEffectContains(card.effect, abilityFilter.value);
 
     const abilityKwMatch =
       !abilityKwFilter.value.length ||

@@ -92,6 +92,67 @@ function handleFilteredUpdate(newFiltered) {
 
 const sortedCards = computed(() => sort.applySort(filteredCards.value))
 
+async function loadCollectionCountForCard(card) {
+  const existingCount = Number(card?.count);
+  if (card?._countLoaded && Number.isInteger(existingCount) && existingCount >= 0) {
+    return {
+      collectionCount: existingCount,
+    };
+  }
+
+  const userId = userAuth.userLogged?.id;
+  if (!userId || !card?.id) {
+    return {
+      collectionCount: Number.isInteger(existingCount) && existingCount >= 0 ? existingCount : 0,
+    };
+  }
+
+  try {
+    const count = await fetchCardCountInCollection(userId, card.id);
+    card.count = count;
+    card._countLoaded = true;
+
+    return {
+      collectionCount: count,
+    };
+  } catch {
+    const fallbackCount = Number.isInteger(existingCount) && existingCount >= 0 ? existingCount : 0;
+    card.count = fallbackCount;
+
+    return {
+      collectionCount: fallbackCount,
+    };
+  }
+}
+
+const viewerContext = computed(() => {
+  if (handleAlbum.value) return {};
+
+  const baseContext = {
+    showPrice: true,
+    showCollectionSection: true,
+    showCollectionActions: true,
+    collectionTitle: "Gestisci la tua collezione",
+    collectionInfo: "Puoi aggiornare le copie direttamente dalla carta aperta.",
+    loadState: loadCollectionCountForCard,
+    onAddCollection: addCardInCollection,
+    onRemoveCollection: removeCardFromCollection,
+  };
+
+  if (sellMode.value) {
+    return {
+      ...baseContext,
+      primaryActionLabel: "SCEGLI",
+      primaryActionIcon: "mdi:check-bold",
+      closeOnPrimaryAction: true,
+      onPrimaryAction: sellThisCard,
+      primaryActionHelper: "Conferma subito questa carta per la vendita.",
+    };
+  }
+
+  return baseContext;
+});
+
 function removeCardFromLocalLists(cardId) {
   const keepCard = (item) => item.id !== cardId;
 
@@ -375,6 +436,7 @@ onMounted(async () => {
       v-model:show="viewerOpen"
       v-model:index="viewerIndex"
       :cards="sortedCards"
+      :context="viewerContext"
       @close="viewerOpen = false"
     />
   </section>

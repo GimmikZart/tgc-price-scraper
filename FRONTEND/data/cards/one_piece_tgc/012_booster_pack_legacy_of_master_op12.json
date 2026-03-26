@@ -40,7 +40,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Navy} type card other than [Tashigi] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Navy} type card other than [Tashigi] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Navy} diversa da [Tashigi] e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP06-050_p2.png",
@@ -74,7 +77,10 @@
     "family": [
       "Red-Haired Pirates"
     ],
-    "effect": "[On Play] Up to 1 of your Leader gains +1000 power until the end of your opponent's next turn.[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −1000 power during this turn.",
+    "effect": {
+      "en": "[On Play] Up to 1 of your Leader gains +1000 power until the end of your opponent's next turn.[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −1000 power during this turn.",
+      "it": "[On Play] Fino a 1 dei tuoi Leader guadagna +1000 power fino alla fine del turno successivo del tuo avversario. [DON!! x1] [When Attacking] Dai −1000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-013_p2.png",
@@ -110,7 +116,10 @@
     "family": [
       "ODYSSEY"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {ODYSSEY} type card other than [Lim] and add it to your hand. Then, place the rest at the bottom of your deck in any order.[End of Your Turn] If you have 3 or more rested Characters, set this Character as active.",
+    "effect": {
+      "en": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {ODYSSEY} type card other than [Lim] and add it to your hand. Then, place the rest at the bottom of your deck in any order.[End of Your Turn] If you have 3 or more rested Characters, set this Character as active.",
+      "it": "[On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {ODYSSEY} diversa da [Lim] e aggiungila alla tua mano. Quindi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine. [End of Your Turn] Se hai 3 o più personaggi in stato spossato, imposta questo personaggio come attivo."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-037_p2.png",
@@ -146,7 +155,10 @@
       "The Four Emperors",
       "Blackbeard Pirates"
     ],
-    "effect": "[Blocker][Activate: Main] [Once Per Turn] If your Leader has the {Blackbeard Pirates} type and this Character was played on this turn, negate the effect of up to 1 of your opponent's Leader during this turn. Then, negate the effect of up to 1 of your opponent's Characters and that Character cannot attack until the end of your opponent's next turn.",
+    "effect": {
+      "en": "[Blocker][Activate: Main] [Once Per Turn] If your Leader has the {Blackbeard Pirates} type and this Character was played on this turn, negate the effect of up to 1 of your opponent's Leader during this turn. Then, negate the effect of up to 1 of your opponent's Characters and that Character cannot attack until the end of your opponent's next turn.",
+      "it": "[Blocker][Activate: Main] [Once Per Turn] Se il tuo Leader ha il tipo {Blackbeard Pirates} e questo Personaggio è stato giocato in questo turno, annulla l'effetto di massimo 1 Leader del tuo avversario durante questo turno. Poi, annulla l'effetto di un massimo di 1 Personaggio del tuo avversario e quel Personaggio non potrà attaccare fino alla fine del turno successivo del tuo avversario."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-093_p4.png",
@@ -183,7 +195,10 @@
       "The Four Emperors",
       "Blackbeard Pirates"
     ],
-    "effect": "[Blocker][Activate: Main] [Once Per Turn] If your Leader has the {Blackbeard Pirates} type and this Character was played on this turn, negate the effect of up to 1 of your opponent's Leader during this turn. Then, negate the effect of up to 1 of your opponent's Characters and that Character cannot attack until the end of your opponent's next turn.",
+    "effect": {
+      "en": "[Blocker][Activate: Main] [Once Per Turn] If your Leader has the {Blackbeard Pirates} type and this Character was played on this turn, negate the effect of up to 1 of your opponent's Leader during this turn. Then, negate the effect of up to 1 of your opponent's Characters and that Character cannot attack until the end of your opponent's next turn.",
+      "it": "[Blocker][Activate: Main] [Once Per Turn] Se il tuo Leader ha il tipo {Blackbeard Pirates} e questo Personaggio è stato giocato in questo turno, annulla l'effetto di massimo 1 Leader del tuo avversario durante questo turno. Poi, annulla l'effetto di un massimo di 1 Personaggio del tuo avversario e quel Personaggio non potrà attaccare fino alla fine del turno successivo del tuo avversario."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP09-093_p5.png",
@@ -220,7 +235,10 @@
       "Kingdom of GERMA",
       "The Vinsmoke Family"
     ],
-    "effect": "[On Play] If your Leader's type includes \"GERMA\", look at 5 cards from the top of your deck; reveal up to 1 card with a type including \"GERMA\" and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] If your Leader's type includes \"GERMA\", look at 5 cards from the top of your deck; reveal up to 1 card with a type including \"GERMA\" and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Se il tipo del tuo Leader include \"GERMA\", guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta con un tipo che include \"GERMA\" e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-063_p1.png",
@@ -255,7 +273,10 @@
       "Former Navy",
       "Blackbeard Pirates"
     ],
-    "effect": "This Character cannot be removed from the field by your opponent's effects.[Activate: Main] You may trash this Character: Draw 1 card. Then, play up to 1 {Blackbeard Pirates} type Character card with a cost of 5 or less other than [Kuzan] from your trash.",
+    "effect": {
+      "en": "This Character cannot be removed from the field by your opponent's effects.[Activate: Main] You may trash this Character: Draw 1 card. Then, play up to 1 {Blackbeard Pirates} type Character card with a cost of 5 or less other than [Kuzan] from your trash.",
+      "it": "Questo Personaggio non può essere rimosso dal campo dagli effetti del tuo avversario. [Activate: Main] Puoi mandare nel Trash questo Personaggio: Pescare 1 carta. Poi, gioca fino a 1 carta Personaggio di tipo {Blackbeard Pirates} con un costo pari o inferiore a 5 diversa da [Kuzan] dal tuo Trash."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP10-082_p2.png",
@@ -289,7 +310,10 @@
     "family": [
       "Former Roger Pirates"
     ],
-    "effect": "Under the rules of this game, you cannot include cards with a cost of 5 or more in your deck.[Activate: Main] [Once Per Turn] You may reveal 2 Events from your hand: Up to 1 of your Characters with 4000 base power or less gains +2000 power during this turn.",
+    "effect": {
+      "en": "Under the rules of this game, you cannot include cards with a cost of 5 or more in your deck.[Activate: Main] [Once Per Turn] You may reveal 2 Events from your hand: Up to 1 of your Characters with 4000 base power or less gains +2000 power during this turn.",
+      "it": "Secondo le regole di questo gioco, non puoi includere carte con un costo pari o superiore a 5 nel tuo mazzo. [Activate: Main] [Once Per Turn] Puoi rivelare 2 Eventi dalla tua mano: Fino a 1 dei tuoi Personaggi con power base pari o inferiore a 4000 guadagna +2000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-001.png",
@@ -323,7 +347,10 @@
     "family": [
       "Former Roger Pirates"
     ],
-    "effect": "Under the rules of this game, you cannot include cards with a cost of 5 or more in your deck.[Activate: Main] [Once Per Turn] You may reveal 2 Events from your hand: Up to 1 of your Characters with 4000 base power or less gains +2000 power during this turn.",
+    "effect": {
+      "en": "Under the rules of this game, you cannot include cards with a cost of 5 or more in your deck.[Activate: Main] [Once Per Turn] You may reveal 2 Events from your hand: Up to 1 of your Characters with 4000 base power or less gains +2000 power during this turn.",
+      "it": "Secondo le regole di questo gioco, non puoi includere carte con un costo pari o superiore a 5 nel tuo mazzo. [Activate: Main] [Once Per Turn] Puoi rivelare 2 Eventi dalla tua mano: Fino a 1 dei tuoi Personaggi con power base pari o inferiore a 4000 guadagna +2000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-001_p1.png",
@@ -388,7 +415,10 @@
     "family": [
       "Former Roger Pirates"
     ],
-    "effect": "[On K.O.] You may reveal 2 Events from your hand: Play up to 1 red Character card with 3000 power or less from your hand.",
+    "effect": {
+      "en": "[On K.O.] You may reveal 2 Events from your hand: Play up to 1 red Character card with 3000 power or less from your hand.",
+      "it": "[On K.O.] Puoi rivelare 2 Eventi dalla tua mano: Gioca fino a 1 carta Personaggio rossa con 3000 power o meno dalla tua mano."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-003.png",
@@ -423,7 +453,10 @@
       "Kouzuki Clan",
       "Roger Pirates"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] You may reveal 2 Events from your hand: This Character gains +2000 power during this turn.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] You may reveal 2 Events from your hand: This Character gains +2000 power during this turn.",
+      "it": "[Activate: Main] [Once Per Turn] Puoi rivelare 2 Eventi dalla tua mano: Questo Personaggio guadagna +2000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-004.png",
@@ -488,7 +521,10 @@
     "family": [
       "Amazon Lily"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Monkey.D.Luffy] or 1 red Event and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Monkey.D.Luffy] or 1 red Event and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 [Monkey.D.Luffy] o 1 Evento rosso e aggiungilo alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-006.png",
@@ -521,7 +557,10 @@
     "family": [
       "Roger Pirates"
     ],
-    "effect": "[On Play] Up to 1 of your Characters with a type including \"Roger Pirates\" other than [Shanks] gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+    "effect": {
+      "en": "[On Play] Up to 1 of your Characters with a type including \"Roger Pirates\" other than [Shanks] gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+      "it": "[On Play] Fino a 1 dei tuoi personaggi con un tipo che include \"Pirati Roger\" diverso da [Shanks] guadagna [Rush] durante questo turno. (Questa carta può attaccare nel turno in cui viene giocata.)"
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-007.png",
@@ -556,7 +595,10 @@
       "The Four Emperors",
       "Red-Haired Pirates"
     ],
-    "effect": "[Blocker][On Your Opponent's Attack] [Once Per Turn] You may trash 1 card from your hand: Give up to 1 of your opponent's Leader or Character cards −2000 power during this turn.",
+    "effect": {
+      "en": "[Blocker][On Your Opponent's Attack] [Once Per Turn] You may trash 1 card from your hand: Give up to 1 of your opponent's Leader or Character cards −2000 power during this turn.",
+      "it": "[Blocker][On Your Opponent's Attack] [Once Per Turn] Puoi mandare nel Trash 1 carta dalla tua mano: dare fino a 1 carta Leader o Personaggio del tuo avversario −2000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-008.png",
@@ -592,7 +634,10 @@
       "The Four Emperors",
       "Red-Haired Pirates"
     ],
-    "effect": "[Blocker][On Your Opponent's Attack] [Once Per Turn] You may trash 1 card from your hand: Give up to 1 of your opponent's Leader or Character cards −2000 power during this turn.",
+    "effect": {
+      "en": "[Blocker][On Your Opponent's Attack] [Once Per Turn] You may trash 1 card from your hand: Give up to 1 of your opponent's Leader or Character cards −2000 power during this turn.",
+      "it": "[Blocker][On Your Opponent's Attack] [Once Per Turn] Puoi mandare nel Trash 1 carta dalla tua mano: dare fino a 1 carta Leader o Personaggio del tuo avversario −2000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-008_p1.png",
@@ -629,7 +674,10 @@
       "Fish-Man",
       "The Sun Pirates"
     ],
-    "effect": "[On Play] You may reveal 2 Events from your hand: This Character gains [Rush] during this turn. Then, this Character gains +1000 power until the end of your opponent's next End Phase.",
+    "effect": {
+      "en": "[On Play] You may reveal 2 Events from your hand: This Character gains [Rush] during this turn. Then, this Character gains +1000 power until the end of your opponent's next End Phase.",
+      "it": "[On Play] Puoi rivelare 2 Eventi dalla tua mano: Questo Personaggio guadagna [Rush] durante questo turno. Poi, Questo Personaggio guadagna +1000 power fino alla fine della prossima End Phase del tuo avversario."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-009.png",
@@ -725,7 +773,10 @@
     "family": [
       "Roger Pirates"
     ],
-    "effect": "[On Play] Up to 1 of your Characters with a type including \"Roger Pirates\" other than [Buggy] gains [Blocker] until the end of your opponent's next End Phase.",
+    "effect": {
+      "en": "[On Play] Up to 1 of your Characters with a type including \"Roger Pirates\" other than [Buggy] gains [Blocker] until the end of your opponent's next End Phase.",
+      "it": "[On Play] Fino a 1 dei tuoi personaggi con un tipo che include \"Roger Pirates\" diverso da [Buggy] guadagna [Blocker] fino alla fine della prossima End Phase del tuo avversario."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-012.png",
@@ -760,7 +811,10 @@
       "Fish-Man",
       "Former Arlong Pirates"
     ],
-    "effect": "[Activate: Main] You may rest this Character and reveal 2 Events from your hand: Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
+    "effect": {
+      "en": "[Activate: Main] You may rest this Character and reveal 2 Events from your hand: Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
+      "it": "[Activate: Main] Puoi mettere in stato spossato questo Personaggio e rivelare 2 Eventi dalla tua mano: Dai fino a 2 in stato spossato carte DON!! al tuo Leader o a 1 dei tuoi Personaggi."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-013.png",
@@ -794,7 +848,10 @@
       "The Seven Warlords of the Sea",
       "Kuja Pirates"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Monkey.D.Luffy] or red Event and add it to your hand. Then, place the rest at the bottom of your deck in any order.[Activate: Main] You may trash this Character: Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
+    "effect": {
+      "en": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Monkey.D.Luffy] or red Event and add it to your hand. Then, place the rest at the bottom of your deck in any order.[Activate: Main] You may trash this Character: Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
+      "it": "[On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 [Monkey.D.Luffy] o Evento rosso e aggiungilo alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine. [Activate: Main] Puoi mandare nel Trash questo Personaggio: dare fino a 2 in stato spossato carte DON!! al tuo Leader o 1 dei tuoi Personaggi."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-014.png",
@@ -829,7 +886,10 @@
       "The Seven Warlords of the Sea",
       "Kuja Pirates"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Monkey.D.Luffy] or red Event and add it to your hand. Then, place the rest at the bottom of your deck in any order.[Activate: Main] You may trash this Character: Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
+    "effect": {
+      "en": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Monkey.D.Luffy] or red Event and add it to your hand. Then, place the rest at the bottom of your deck in any order.[Activate: Main] You may trash this Character: Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
+      "it": "[On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 [Monkey.D.Luffy] o Evento rosso e aggiungilo alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine. [Activate: Main] Puoi mandare nel Trash questo Personaggio: dare fino a 2 in stato spossato carte DON!! al tuo Leader o 1 dei tuoi Personaggi."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-014_p1.png",
@@ -865,7 +925,10 @@
       "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "If you have a total of 2 or more given DON!! cards, this Character gains +2000 power.[On Play] You may reveal 2 Events from your hand: Play up to 1 red Character card with 3000 power or less from your hand. Then, give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+    "effect": {
+      "en": "If you have a total of 2 or more given DON!! cards, this Character gains +2000 power.[On Play] You may reveal 2 Events from your hand: Play up to 1 red Character card with 3000 power or less from your hand. Then, give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+      "it": "Se hai un totale di 2 o più dati carte DON!! , Questo Personaggio guadagna +2000 power. [On Play] Puoi rivelare 2 Eventi dalla tua mano: Gioca fino a 1 carta Personaggio rossa con 3000 power o meno dalla tua mano. Poi, Assegna fino a 1 carta DON!! in stato spossato al tuo Leader o a 1 dei tuoi Personaggi."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-015.png",
@@ -899,7 +962,10 @@
       "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "If you have a total of 2 or more given DON!! cards, this Character gains +2000 power.[On Play] You may reveal 2 Events from your hand: Play up to 1 red Character card with 3000 power or less from your hand. Then, give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+    "effect": {
+      "en": "If you have a total of 2 or more given DON!! cards, this Character gains +2000 power.[On Play] You may reveal 2 Events from your hand: Play up to 1 red Character card with 3000 power or less from your hand. Then, give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+      "it": "Se hai un totale di 2 o più dati carte DON!! , Questo Personaggio guadagna +2000 power. [On Play] Puoi rivelare 2 Eventi dalla tua mano: Gioca fino a 1 carta Personaggio rossa con 3000 power o meno dalla tua mano. Poi, Assegna fino a 1 carta DON!! in stato spossato al tuo Leader o a 1 dei tuoi Personaggi."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-015_p1.png",
@@ -933,7 +999,10 @@
     "family": [
       "Former Roger Pirates"
     ],
-    "effect": "[Main] You may give 2 active DON!! cards to 1 of your [Silvers Rayleigh]: Your opponent cannot activate [Blocker] when the card given these DON!! cards attacks during this turn.[Counter] Up to 1 of your Characters or [Silvers Rayleigh] gains +2000 power during this battle.",
+    "effect": {
+      "en": "[Main] You may give 2 active DON!! cards to 1 of your [Silvers Rayleigh]: Your opponent cannot activate [Blocker] when the card given these DON!! cards attacks during this turn.[Counter] Up to 1 of your Characters or [Silvers Rayleigh] gains +2000 power during this battle.",
+      "it": "[Main] Puoi dare 2 carte DON!! attivi a 1 dei tuoi [Silvers Rayleigh]: Il tuo avversario non può attivare [Blocker] quando la carta assegnata a questi carte DON!! attacca durante questo turno. [Counter] Fino a 1 dei tuoi personaggi o [Silvers Rayleigh] guadagna +2000 power durante questa battaglia."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-016.png",
@@ -968,7 +1037,10 @@
     "family": [
       "Former Roger Pirates"
     ],
-    "effect": "[Main] You may give 1 active DON!! card to 1 of your [Silvers Rayleigh]: Look at 4 cards from the top of your deck; reveal up to 1 red Event or up to 1 Character card with a cost of 3 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[Main] You may give 1 active DON!! card to 1 of your [Silvers Rayleigh]: Look at 4 cards from the top of your deck; reveal up to 1 red Event or up to 1 Character card with a cost of 3 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[Main] Puoi dare 1 carta DON!! attivo a 1 dei tuoi [Silvers Rayleigh]: guarda 4 carte dalla cima del tuo mazzo; rivela fino a 1 Evento rosso o fino a 1 carta Personaggio con un costo pari o superiore a 3 e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-017.png",
@@ -1001,7 +1073,10 @@
     "family": [
       "Former Roger Pirates"
     ],
-    "effect": "[Counter] Up to 1 of your Characters or [Silvers Rayleigh] gains +2000 power during this battle. Then, you may rest 1 of your DON!! cards. If you do, give your opponent's Leader and all of their Characters −1000 power during this turn.",
+    "effect": {
+      "en": "[Counter] Up to 1 of your Characters or [Silvers Rayleigh] gains +2000 power during this battle. Then, you may rest 1 of your DON!! cards. If you do, give your opponent's Leader and all of their Characters −1000 power during this turn.",
+      "it": "[Counter] Fino a 1 dei tuoi personaggi o [Silvers Rayleigh] guadagna +2000 power durante questa battaglia. Quindi, puoi mettere in stato spossato 1 delle tue carte DON!! . Se lo fai, dai al Leader del tuo avversario e a tutti i suoi Personaggi −1000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-018.png",
@@ -1034,7 +1109,10 @@
     "family": [
       "Former Roger Pirates"
     ],
-    "effect": "[Main] You may give 1 active DON!! card to 1 of your [Silvers Rayleigh]: Up to 1 of your Leader or Character cards gains +1000 power during this turn.[Counter] Up to 1 of your Characters or [Silvers Rayleigh] gains +2000 power during this battle.",
+    "effect": {
+      "en": "[Main] You may give 1 active DON!! card to 1 of your [Silvers Rayleigh]: Up to 1 of your Leader or Character cards gains +1000 power during this turn.[Counter] Up to 1 of your Characters or [Silvers Rayleigh] gains +2000 power during this battle.",
+      "it": "[Main] Puoi dare 1 carta DON!! attivo a 1 dei tuoi [Silvers Rayleigh]: Fino a 1 delle tue carte Leader o Personaggio guadagna +1000 power durante questo turno. [Counter] Fino a 1 dei tuoi Personaggi o [Silvers Rayleigh] guadagna +2000 power durante questa battaglia."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-019.png",
@@ -1069,7 +1147,10 @@
       "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x3] [Activate: Main] [Once Per Turn] If this Leader battles your opponent's Character during this turn, set this Leader as active. Then, this Leader cannot attack your opponent's Characters with a base cost of 7 or less during this turn.",
+    "effect": {
+      "en": "[DON!! x3] [Activate: Main] [Once Per Turn] If this Leader battles your opponent's Character during this turn, set this Leader as active. Then, this Leader cannot attack your opponent's Characters with a base cost of 7 or less during this turn.",
+      "it": "[DON!! x3] [Activate: Main] [Once Per Turn] Se questo Leader combatte contro il Personaggio del tuo avversario durante questo turno, imposta questo Leader come attivo. Quindi, questo Leader non può attaccare i Personaggi del tuo avversario con un costo base di 7 o meno durante questo turno."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-020.png",
@@ -1104,7 +1185,10 @@
       "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x3] [Activate: Main] [Once Per Turn] If this Leader battles your opponent's Character during this turn, set this Leader as active. Then, this Leader cannot attack your opponent's Characters with a base cost of 7 or less during this turn.",
+    "effect": {
+      "en": "[DON!! x3] [Activate: Main] [Once Per Turn] If this Leader battles your opponent's Character during this turn, set this Leader as active. Then, this Leader cannot attack your opponent's Characters with a base cost of 7 or less during this turn.",
+      "it": "[DON!! x3] [Activate: Main] [Once Per Turn] Se questo Leader combatte contro il Personaggio del tuo avversario durante questo turno, imposta questo Leader come attivo. Quindi, questo Leader non può attaccare i Personaggi del tuo avversario con un costo base di 7 o meno durante questo turno."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-020_p1.png",
@@ -1139,7 +1223,10 @@
     "family": [
       "East Blue"
     ],
-    "effect": "If your Leader has the <Slash> attribute and you have 6 or more rested DON!! cards, this Character cannot be rested by your opponent's effects.[Blocker]",
+    "effect": {
+      "en": "If your Leader has the <Slash> attribute and you have 6 or more rested DON!! cards, this Character cannot be rested by your opponent's effects.[Blocker]",
+      "it": "Se il tuo Leader ha l'attributo <Slash> e hai 6 o più in stato spossato carte DON!! , questo Personaggio non può essere in stato spossato dagli effetti del tuo avversario. [Blocker]"
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-021.png",
@@ -1174,7 +1261,10 @@
       "Land of Wano",
       "The Akazaya Nine"
     ],
-    "effect": "[Activate: Main] You may rest this Character: Up to 1 of your opponent's rested Characters with a cost of 5 or less will not become active in your opponent's next Refresh Phase.",
+    "effect": {
+      "en": "[Activate: Main] You may rest this Character: Up to 1 of your opponent's rested Characters with a cost of 5 or less will not become active in your opponent's next Refresh Phase.",
+      "it": "[Activate: Main] Puoi mettere in stato spossato questo Personaggio: fino a 1 dei personaggi in stato spossato del tuo avversario con un costo pari o inferiore a 5 non diventerà attivo nella successiva Fase di Aggiornamento del tuo avversario."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-022.png",
@@ -1240,7 +1330,10 @@
       "Animal",
       "Land of Wano"
     ],
-    "effect": "If this Character is active, this Character cannot be K.O.'d by your opponent's effects.[When Attacking] If you have a total of 3 or more given DON!! cards, rest up to 1 of your opponent's Characters with a base cost of 6 or less.",
+    "effect": {
+      "en": "If this Character is active, this Character cannot be K.O.'d by your opponent's effects.[When Attacking] If you have a total of 3 or more given DON!! cards, rest up to 1 of your opponent's Characters with a base cost of 6 or less.",
+      "it": "Se questo personaggio è attivo, questo personaggio non può essere K. O. dagli effetti del tuo avversario. [When Attacking] Se hai un totale di 3 o più assegnati a carte DON!! , metti in stato spossato fino a 1 dei personaggi del tuo avversario con un costo base pari a 6 o meno."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-024.png",
@@ -1305,7 +1398,10 @@
       "East Blue",
       "Frost Moon Village"
     ],
-    "effect": "[Activate: Main] You may rest this Character: Rest up to 1 of your opponent's Characters with a base cost of 4 or less. Then, give up to 3 rested DON!! cards to your [Roronoa Zoro] Leader.",
+    "effect": {
+      "en": "[Activate: Main] You may rest this Character: Rest up to 1 of your opponent's Characters with a base cost of 4 or less. Then, give up to 3 rested DON!! cards to your [Roronoa Zoro] Leader.",
+      "it": "[Activate: Main] Puoi mettere in stato spossato questo Personaggio: Metti in stato spossato fino a 1 of your opponent's Personaggi with a costo base di 4 or less. Then, Assegna fino a 3 carte DON!! in stato spossato a tuo[Roronoa Zoro] Leader."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-026.png",
@@ -1339,7 +1435,10 @@
       "East Blue",
       "Frost Moon Village"
     ],
-    "effect": "If your <Slash> attribute Character with a cost of 5 or less other than this Character would be K.O.'d by your opponent's effect, you may rest this Character instead.[Blocker]",
+    "effect": {
+      "en": "If your <Slash> attribute Character with a cost of 5 or less other than this Character would be K.O.'d by your opponent's effect, you may rest this Character instead.[Blocker]",
+      "it": "Se il tuo Personaggio con attributo <Slash> con un costo pari o inferiore a 5 diverso da questo Personaggio venisse K. O. a causa dell'effetto del tuo avversario, puoi invece mettere in stato spossato questo Personaggio. [Blocker]"
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-027.png",
@@ -1373,7 +1472,10 @@
       "Land of Wano",
       "Kouzuki Clan"
     ],
-    "effect": "[Activate: Main] You may rest 1 of your DON!! cards and this Character: If your Leader is [Roronoa Zoro], look at 5 cards from the top of your deck; reveal up to 1 <Slash> attribute card or green Event and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[Activate: Main] You may rest 1 of your DON!! cards and this Character: If your Leader is [Roronoa Zoro], look at 5 cards from the top of your deck; reveal up to 1 <Slash> attribute card or green Event and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[Activate: Main] Puoi rest 1 of your carte DON!! and this Personaggio: Se il tuo Leader è [Roronoa Zoro], Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 <Slash> attribute card or green Evento and aggiungila alla tua mano. Poi, metti il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-028.png",
@@ -1408,7 +1510,10 @@
       "Frost Moon Village",
       "Land of Wano"
     ],
-    "effect": "[On Play] Rest up to 1 of your opponent's Characters with a cost of 2 or less. Then, K.O. up to 1 of your opponent's rested Characters with a base cost of 1 or less.",
+    "effect": {
+      "en": "[On Play] Rest up to 1 of your opponent's Characters with a cost of 2 or less. Then, K.O. up to 1 of your opponent's rested Characters with a base cost of 1 or less.",
+      "it": "[On Play] Metti in stato spossato fino a 1 personaggio del tuo avversario con un costo pari o inferiore a 2. Poi, K. O. fino a 1 dei personaggi del tuo avversario in stato spossato con un costo base pari o inferiore a 1."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-029.png",
@@ -1442,7 +1547,10 @@
       "Muggy Kingdom",
       "The Seven Warlords of the Sea"
     ],
-    "effect": "[Blocker][On Play] Set up to 4 of your DON!! cards as active. Then, you cannot play Character cards with a base cost of 7 or more during this turn.",
+    "effect": {
+      "en": "[Blocker][On Play] Set up to 4 of your DON!! cards as active. Then, you cannot play Character cards with a base cost of 7 or more during this turn.",
+      "it": "[Blocker][On Play] Imposta fino a 4 delle tue carte DON!! come attivi. Quindi, non puoi giocare carte Personaggio con un costo base pari a 7 o più durante questo turno."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-030.png",
@@ -1477,7 +1585,10 @@
       "Muggy Kingdom",
       "The Seven Warlords of the Sea"
     ],
-    "effect": "[Blocker][On Play] Set up to 4 of your DON!! cards as active. Then, you cannot play Character cards with a base cost of 7 or more during this turn.",
+    "effect": {
+      "en": "[Blocker][On Play] Set up to 4 of your DON!! cards as active. Then, you cannot play Character cards with a base cost of 7 or more during this turn.",
+      "it": "[Blocker][On Play] Imposta fino a 4 delle tue carte DON!! come attivi. Quindi, non puoi giocare carte Personaggio con un costo base pari a 7 o più durante questo turno."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-030_p1.png",
@@ -1513,7 +1624,10 @@
       "East Blue",
       "Navy"
     ],
-    "effect": "[On Play] Rest up to 1 of your opponent's Characters with a base cost of 6 or less. Then, give up to 3 rested DON!! cards to your [Roronoa Zoro] Leader.",
+    "effect": {
+      "en": "[On Play] Rest up to 1 of your opponent's Characters with a base cost of 6 or less. Then, give up to 3 rested DON!! cards to your [Roronoa Zoro] Leader.",
+      "it": "[On Play] Metti in stato spossato fino a 1 personaggio del tuo avversario con un costo base pari o inferiore a 6. Quindi, Assegna fino a 3 carte DON!! in stato spossato a tuo[Roronoa Zoro] Leader."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-031.png",
@@ -1547,7 +1661,10 @@
       "East Blue",
       "Navy"
     ],
-    "effect": "[On Play] Rest up to 1 of your opponent's Characters with a base cost of 6 or less. Then, give up to 3 rested DON!! cards to your [Roronoa Zoro] Leader.",
+    "effect": {
+      "en": "[On Play] Rest up to 1 of your opponent's Characters with a base cost of 6 or less. Then, give up to 3 rested DON!! cards to your [Roronoa Zoro] Leader.",
+      "it": "[On Play] Metti in stato spossato fino a 1 personaggio del tuo avversario con un costo base pari o inferiore a 6. Quindi, Assegna fino a 3 carte DON!! in stato spossato a tuo[Roronoa Zoro] Leader."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-031_p1.png",
@@ -1614,7 +1731,10 @@
       "East Blue",
       "Navy"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Block] Rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Block] Rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On Block] Metti in stato spossato fino a 1 personaggio del tuo avversario con un costo pari o inferiore a 5."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-033.png",
@@ -1649,7 +1769,10 @@
       "Muggy Kingdom",
       "Thriller Bark Pirates"
     ],
-    "effect": "[On Play] If your Leader has the <Slash> attribute, look at 5 cards from the top of your deck; reveal up to 1 <Slash> attribute card or green Event and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] If your Leader has the <Slash> attribute, look at 5 cards from the top of your deck; reveal up to 1 <Slash> attribute card or green Event and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Se il tuo Leader ha l'attributo <Slash>, guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta attributo <Slash> o evento verde e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-034.png",
@@ -1683,7 +1806,10 @@
       "Muggy Kingdom",
       "Thriller Bark Pirates"
     ],
-    "effect": "[On Play] If your Leader has the <Slash> attribute, look at 5 cards from the top of your deck; reveal up to 1 <Slash> attribute card or green Event and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] If your Leader has the <Slash> attribute, look at 5 cards from the top of your deck; reveal up to 1 <Slash> attribute card or green Event and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Se il tuo Leader ha l'attributo <Slash>, guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta attributo <Slash> o evento verde e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-034_p1.png",
@@ -1749,7 +1875,10 @@
       "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "This card in your hand cannot be played by effects.If your Leader has the <Slash> attribute, this Character cannot be K.O.'d in battle by <Slash> attribute cards and gains +1000 power.",
+    "effect": {
+      "en": "This card in your hand cannot be played by effects.If your Leader has the <Slash> attribute, this Character cannot be K.O.'d in battle by <Slash> attribute cards and gains +1000 power.",
+      "it": "Questa carta nella tua mano non può essere giocata dagli effetti. Se il tuo Leader ha l'attributo <Slash>, questo personaggio non può essere K. O. 'd in battaglia dalle carte attributo <Slash> e guadagna +1000 power."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-036.png",
@@ -1779,7 +1908,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Main] You may rest 3 of your DON!! cards: Rest up to a total of 2 of your opponent's Characters or DON!! cards.[Counter] Your Leader gains +3000 power during this battle.",
+    "effect": {
+      "en": "[Main] You may rest 3 of your DON!! cards: Rest up to a total of 2 of your opponent's Characters or DON!! cards.[Counter] Your Leader gains +3000 power during this battle.",
+      "it": "[Main] Puoi mettere in stato spossato 3 delle tue carte DON!! : metti in stato spossato fino a un totale di 2 personaggi del tuo avversario o carte DON!! . [Counter] Il tuo Leader guadagna +3000 power durante questa battaglia."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-037.png",
@@ -1813,7 +1945,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Main] You may rest 3 of your DON!! cards: Rest up to a total of 2 of your opponent's Characters or DON!! cards.[Counter] Your Leader gains +3000 power during this battle.",
+    "effect": {
+      "en": "[Main] You may rest 3 of your DON!! cards: Rest up to a total of 2 of your opponent's Characters or DON!! cards.[Counter] Your Leader gains +3000 power during this battle.",
+      "it": "[Main] Puoi mettere in stato spossato 3 delle tue carte DON!! : metti in stato spossato fino a un totale di 2 personaggi del tuo avversario o carte DON!! . [Counter] Il tuo Leader guadagna +3000 power durante questa battaglia."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-037_p1.png",
@@ -1848,7 +1983,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Main] You may rest 2 of your DON!! cards: K.O. up to 2 of your opponent's rested Characters with a base cost of 4 or less.[Counter] Your Leader gains +3000 power during this battle.",
+    "effect": {
+      "en": "[Main] You may rest 2 of your DON!! cards: K.O. up to 2 of your opponent's rested Characters with a base cost of 4 or less.[Counter] Your Leader gains +3000 power during this battle.",
+      "it": "[Main] Puoi mettere in stato spossato 2 delle tue carte DON!! : K. O. fino a 2 personaggi in stato spossato del tuo avversario con un costo base pari o inferiore a 4. [Counter] Il tuo Leader guadagna +3000 power durante questa battaglia."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-038.png",
@@ -1882,7 +2020,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Main] Set your [Roronoa Zoro] Leader as active.",
+    "effect": {
+      "en": "[Main] Set your [Roronoa Zoro] Leader as active.",
+      "it": "[Main] Imposta il tuo [Roronoa Zoro] Leader come attivo."
+    },
     "trigger": "Trigger[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-039.png",
@@ -1915,7 +2056,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "When a card is trashed from your hand by your {Navy} type card's effect, draw cards equal to the number of cards trashed.",
+    "effect": {
+      "en": "When a card is trashed from your hand by your {Navy} type card's effect, draw cards equal to the number of cards trashed.",
+      "it": "Quando una carta viene eliminata dalla tua mano a causa dell'effetto della tua carta di tipo {Navy}, pesca carte pari al numero di carte eliminate."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-040.png",
@@ -1945,7 +2089,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "When a card is trashed from your hand by your {Navy} type card's effect, draw cards equal to the number of cards trashed.",
+    "effect": {
+      "en": "When a card is trashed from your hand by your {Navy} type card's effect, draw cards equal to the number of cards trashed.",
+      "it": "Quando una carta viene eliminata dalla tua mano a causa dell'effetto della tua carta di tipo {Navy}, pesca carte pari al numero di carte eliminate."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-040_p1.png",
@@ -1978,7 +2125,10 @@
       "The Vinsmoke Family",
       "Straw Hat Crew"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] DON!! −1: Activate up to 1 {Straw Hat Crew} type Event with a base cost of 3 or less from your hand.[When Attacking] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] DON!! −1: Activate up to 1 {Straw Hat Crew} type Event with a base cost of 3 or less from your hand.[When Attacking] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, add up to 1 DON!! card from your DON!! deck and rest it.",
+      "it": "[Activate: Main] [Once Per Turn] DON!! −1: attiva fino a 1 evento di tipo {Straw Hat Crew} con un costo base di 3 o meno dalla tua mano. [When Attacking] Se il numero di carte DON!! sul tuo campo è uguale o inferiore al numero sul campo del tuo avversario, somma fino a 1 carta DON!! dal tuo mazzo DON!! e metti in stato spossato."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-041.png",
@@ -2015,7 +2165,10 @@
       "The Vinsmoke Family",
       "Straw Hat Crew"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] DON!! −1: Activate up to 1 {Straw Hat Crew} type Event with a base cost of 3 or less from your hand.[When Attacking] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] DON!! −1: Activate up to 1 {Straw Hat Crew} type Event with a base cost of 3 or less from your hand.[When Attacking] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, add up to 1 DON!! card from your DON!! deck and rest it.",
+      "it": "[Activate: Main] [Once Per Turn] DON!! −1: attiva fino a 1 evento di tipo {Straw Hat Crew} con un costo base di 3 o meno dalla tua mano. [When Attacking] Se il numero di carte DON!! sul tuo campo è uguale o inferiore al numero sul campo del tuo avversario, somma fino a 1 carta DON!! dal tuo mazzo DON!! e metti in stato spossato."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-041_p1.png",
@@ -2051,7 +2204,10 @@
     "family": [
       "Cross Guild"
     ],
-    "effect": "If you have 2 or more Characters with a base cost of 5 or more, this Character gains +1 cost.[On Play] Place up to 1 of your opponent's Characters with a base cost of 1 or less at the bottom of the owner's deck.",
+    "effect": {
+      "en": "If you have 2 or more Characters with a base cost of 5 or more, this Character gains +1 cost.[On Play] Place up to 1 of your opponent's Characters with a base cost of 1 or less at the bottom of the owner's deck.",
+      "it": "Se hai 2 o più personaggi con un costo base pari a 5 o più, questo personaggio guadagna +1 al costo. [On Play] Metti fino a 1 dei personaggi del tuo avversario con un costo base pari o inferiore a 1 in fondo al mazzo del proprietario."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-042.png",
@@ -2084,7 +2240,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "If you have 5 or more cards in your hand, this Character gains +1 cost.[On Play] You may trash 1 card from your hand: Up to 1 of your opponent's Characters cannot attack until the end of your opponent's next End Phase.",
+    "effect": {
+      "en": "If you have 5 or more cards in your hand, this Character gains +1 cost.[On Play] You may trash 1 card from your hand: Up to 1 of your opponent's Characters cannot attack until the end of your opponent's next End Phase.",
+      "it": "Se hai 5 o più carte in mano, questo Personaggio guadagna +1 costo. [On Play] Puoi mandare nel Trash 1 carta dalla tua mano: fino a 1 personaggio del tuo avversario non può attaccare fino alla fine della prossima End Phase del tuo avversario."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-043.png",
@@ -2117,7 +2276,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "If you have 5 or more cards in your hand, this Character gains +1 cost.[On Play] You may trash 1 card from your hand: Up to 1 of your opponent's Characters cannot attack until the end of your opponent's next End Phase.",
+    "effect": {
+      "en": "If you have 5 or more cards in your hand, this Character gains +1 cost.[On Play] You may trash 1 card from your hand: Up to 1 of your opponent's Characters cannot attack until the end of your opponent's next End Phase.",
+      "it": "Se hai 5 o più carte in mano, questo Personaggio guadagna +1 costo. [On Play] Puoi mandare nel Trash 1 carta dalla tua mano: fino a 1 personaggio del tuo avversario non può attaccare fino alla fine della prossima End Phase del tuo avversario."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-043_p1.png",
@@ -2151,7 +2313,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] If your Leader has the {Navy} type, draw 2 cards.[Activate: Main] [Once Per Turn] You may trash 1 card from your hand: Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+    "effect": {
+      "en": "[On Play] If your Leader has the {Navy} type, draw 2 cards.[Activate: Main] [Once Per Turn] You may trash 1 card from your hand: Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+      "it": "[On Play] Se il tuo Leader ha il tipo {Navy}, pesca 2 carte. [Activate: Main] [Once Per Turn] Puoi mandare nel Trash 1 carta dalla tua mano: Dai fino a 1 in stato spossato carta DON!! al tuo Leader o 1 dei tuoi Personaggi."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-044.png",
@@ -2217,7 +2382,10 @@
       "FILM",
       "Navy"
     ],
-    "effect": "[On Play] Trash 2 cards from your hand.[Activate: Main] You may trash this Character: Return up to 1 Character with a cost of 5 or less to the owner's hand.",
+    "effect": {
+      "en": "[On Play] Trash 2 cards from your hand.[Activate: Main] You may trash this Character: Return up to 1 Character with a cost of 5 or less to the owner's hand.",
+      "it": "[On Play] Manda nel Trash 2 carte dalla tua mano. [Activate: Main] Puoi mandare nel Trash questo Personaggio: Riportare fino a 1 Personaggio con un costo pari o inferiore a 5 nella mano del proprietario."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-046.png",
@@ -2251,7 +2419,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] You may trash 1 card from your hand: Look at 5 cards from the top of your deck; reveal up to 2 {Navy} type cards other than [Sengoku] and add them to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] You may trash 1 card from your hand: Look at 5 cards from the top of your deck; reveal up to 2 {Navy} type cards other than [Sengoku] and add them to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Puoi mandare nel Trash 1 carta dalla tua mano: Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 2 {Navy} tipo cards other than [Sengoku] and aggiungile alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-047.png",
@@ -2284,7 +2455,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Opponent's Turn] If your blue {Navy} type Character would be removed from the field by your opponent's effect, you may rest this Character and trash 1 card from your hand instead.",
+    "effect": {
+      "en": "[Opponent's Turn] If your blue {Navy} type Character would be removed from the field by your opponent's effect, you may rest this Character and trash 1 card from your hand instead.",
+      "it": "[Opponent's Turn] Se il tuo Personaggio blu di tipo {Navy} dovesse essere rimosso dal campo per effetto del tuo avversario, puoi invece mettere in stato spossato questo Personaggio e Manda nel Trash 1 carta dalla tua mano."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-048.png",
@@ -2350,7 +2524,10 @@
       "Ohara",
       "Navy"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-050.png",
@@ -2383,7 +2560,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Activate: Main] You may rest this Character and trash 1 card from your hand: Up to 1 of your opponent's Characters with a base cost of 4 or less cannot activate [Blocker] during this turn.",
+    "effect": {
+      "en": "[Activate: Main] You may rest this Character and trash 1 card from your hand: Up to 1 of your opponent's Characters with a base cost of 4 or less cannot activate [Blocker] during this turn.",
+      "it": "[Activate: Main] Puoi mettere in stato spossato questo Personaggio e Manda nel Trash 1 carta dalla tua mano: Fino a 1 dei Personaggi del tuo avversario con un costo base pari o inferiore a 4 non può attivare [Blocker] durante questo turno."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-051.png",
@@ -2447,7 +2627,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Once Per Turn] If this Character would be removed from the field by your opponent's effect, you may trash 1 card from your hand instead.[Opponent's Turn] If your Leader has the {Navy} type, this Character gains [Blocker] and +1000 power.",
+    "effect": {
+      "en": "[Once Per Turn] If this Character would be removed from the field by your opponent's effect, you may trash 1 card from your hand instead.[Opponent's Turn] If your Leader has the {Navy} type, this Character gains [Blocker] and +1000 power.",
+      "it": "[Once Per Turn] Se questo Personaggio sta per essere rimosso dal campo per effetto del tuo avversario, puoi invece Manda nel Trash 1 carta dalla tua mano. [Opponent's Turn] Se il tuo Leader ha il tipo {Navy}, questo Personaggio guadagna [Blocker] e +1000 power."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-053.png",
@@ -2483,7 +2666,10 @@
       "The Seven Warlords of the Sea",
       "Blackbeard Pirates"
     ],
-    "effect": "[On Play] If your Leader has the {The Seven Warlords of the Sea} type, return up to 1 Character with a cost of 1 or less other than this Character to the owner's hand.",
+    "effect": {
+      "en": "[On Play] If your Leader has the {The Seven Warlords of the Sea} type, return up to 1 Character with a cost of 1 or less other than this Character to the owner's hand.",
+      "it": "[On Play] Se il tuo Leader è di tipo {The Seven Warlords of the Sea}, fai ritornare in mano al proprietario fino a 1 Personaggio con costo pari o inferiore a 1 diverso da questo Personaggio."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-054.png",
@@ -2546,7 +2732,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] You may trash 1 card from your hand: Play up to 1 blue {Navy} type Character card with 8000 power or less other than [Monkey.D.Garp] from your hand.",
+    "effect": {
+      "en": "[On Play] You may trash 1 card from your hand: Play up to 1 blue {Navy} type Character card with 8000 power or less other than [Monkey.D.Garp] from your hand.",
+      "it": "[On Play] Puoi mandare nel Trash 1 carta dalla tua mano: Gioca fino a 1 blue {Navy} tipo Personaggio card with 8000 power or less other than [Monkey.D.Garp] dalla tua mano."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-056.png",
@@ -2579,7 +2768,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[On Play] You may trash 1 card from your hand: Play up to 1 blue {Navy} type Character card with 8000 power or less other than [Monkey.D.Garp] from your hand.",
+    "effect": {
+      "en": "[On Play] You may trash 1 card from your hand: Play up to 1 blue {Navy} type Character card with 8000 power or less other than [Monkey.D.Garp] from your hand.",
+      "it": "[On Play] Puoi mandare nel Trash 1 carta dalla tua mano: Gioca fino a 1 blue {Navy} tipo Personaggio card with 8000 power or less other than [Monkey.D.Garp] dalla tua mano."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-056_p1.png",
@@ -2613,7 +2805,10 @@
     "family": [
       "Navy"
     ],
-    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, trash 1 card from your hand.",
+    "effect": {
+      "en": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, trash 1 card from your hand.",
+      "it": "[Counter] Fino a 1 delle tue carte Leader o Personaggio ottiene +4000 power durante questa battaglia. Poi, Manda nel Trash 1 carta dalla tua mano."
+    },
     "trigger": "Trigger[Trigger] You may trash 1 card from your hand: Draw 1 card.",
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-057.png",
@@ -2646,7 +2841,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[Main] If your Leader's type includes \"Whitebeard Pirates\", reveal 1 card from the top of your deck. If that card is a Character card with a type including \"Whitebeard Pirates\" and a cost of 9 or less, you may play that card. If you do, that Character gains [Rush] during this turn.",
+    "effect": {
+      "en": "[Main] If your Leader's type includes \"Whitebeard Pirates\", reveal 1 card from the top of your deck. If that card is a Character card with a type including \"Whitebeard Pirates\" and a cost of 9 or less, you may play that card. If you do, that Character gains [Rush] during this turn.",
+      "it": "[Main] Se il tipo del tuo Leader include \"Pirati di Barbabianca\", rivela 1 carta dalla cima del tuo mazzo. Se quella carta è una carta Personaggio con un tipo che include \"Pirati di Barbabianca\" e un costo pari o inferiore a 9, puoi giocare quella carta. Se lo fai, quel Personaggio guadagna [Rush] durante questo turno."
+    },
     "trigger": "Trigger[Trigger] Draw 1 card.",
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-058.png",
@@ -2681,7 +2879,10 @@
       "Sky Island",
       "Straw Hat Crew"
     ],
-    "effect": "[Main] If your Leader is [Sanji], draw 1 card.[Counter] If you have 4 or more Events in your trash, up to 1 of your Leader gains +4000 power during this battle.",
+    "effect": {
+      "en": "[Main] If your Leader is [Sanji], draw 1 card.[Counter] If you have 4 or more Events in your trash, up to 1 of your Leader gains +4000 power during this battle.",
+      "it": "[Main] Se il tuo Leader è [Sanji], pesca 1 carta. [Counter] Se hai 4 o più Eventi nel tuo Trash, fino a 1 dei tuoi Leader guadagna +4000 power durante questa battaglia."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-059.png",
@@ -2715,7 +2916,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Main] If your Leader is multicolored, choose one:• Return up to 1 of your opponent's Characters with a cost of 4 or less to the owner's hand.• If you have 6 or less cards in your hand, draw 2 cards.",
+    "effect": {
+      "en": "[Main] If your Leader is multicolored, choose one:• Return up to 1 of your opponent's Characters with a cost of 4 or less to the owner's hand.• If you have 6 or less cards in your hand, draw 2 cards.",
+      "it": "[Main] Se il tuo Leader è multicolore, scegli una cosa: • Fai ritornare fino a 1 dei Personaggi del tuo avversario con un costo pari o inferiore a 4 nella mano del proprietario. • Se hai 6 carte o meno in mano, pesca 2 carte."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-060.png",
@@ -2748,7 +2952,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Main] If your Leader is multicolored, choose one:• Return up to 1 of your opponent's Characters with a cost of 4 or less to the owner's hand.• If you have 6 or less cards in your hand, draw 2 cards.",
+    "effect": {
+      "en": "[Main] If your Leader is multicolored, choose one:• Return up to 1 of your opponent's Characters with a cost of 4 or less to the owner's hand.• If you have 6 or less cards in your hand, draw 2 cards.",
+      "it": "[Main] Se il tuo Leader è multicolore, scegli una cosa: • Fai ritornare fino a 1 dei Personaggi del tuo avversario con un costo pari o inferiore a 4 nella mano del proprietario. • Se hai 6 carte o meno in mano, pesca 2 carte."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-060_p1.png",
@@ -2784,7 +2991,10 @@
       "Navy",
       "Donquixote Pirates"
     ],
-    "effect": "[Once Per Turn] If your [Trafalgar Law] would be K.O.'d, you may add 1 card from the top of your Life cards to your hand instead.[Activate: Main] [Once Per Turn] DON!! −1: The next time you play [Trafalgar Law] with a cost of 4 or more from your hand during this turn, the cost will be reduced by 2.",
+    "effect": {
+      "en": "[Once Per Turn] If your [Trafalgar Law] would be K.O.'d, you may add 1 card from the top of your Life cards to your hand instead.[Activate: Main] [Once Per Turn] DON!! −1: The next time you play [Trafalgar Law] with a cost of 4 or more from your hand during this turn, the cost will be reduced by 2.",
+      "it": "[Once Per Turn] Se il tuo [Trafalgar Law] fosse K. O. 'd, puoi invece aggiungere 1 carta dalla cima delle tue carte Life alla tua mano. [Activate: Main] [Once Per Turn] DON!! −1: La prossima volta che giochi [Trafalgar Law] con un costo pari o superiore a 4 dalla tua mano durante questo turno, il costo sarà ridotto di 2."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-061.png",
@@ -2820,7 +3030,10 @@
       "Navy",
       "Donquixote Pirates"
     ],
-    "effect": "[Once Per Turn] If your [Trafalgar Law] would be K.O.'d, you may add 1 card from the top of your Life cards to your hand instead.[Activate: Main] [Once Per Turn] DON!! −1: The next time you play [Trafalgar Law] with a cost of 4 or more from your hand during this turn, the cost will be reduced by 2.",
+    "effect": {
+      "en": "[Once Per Turn] If your [Trafalgar Law] would be K.O.'d, you may add 1 card from the top of your Life cards to your hand instead.[Activate: Main] [Once Per Turn] DON!! −1: The next time you play [Trafalgar Law] with a cost of 4 or more from your hand during this turn, the cost will be reduced by 2.",
+      "it": "[Once Per Turn] Se il tuo [Trafalgar Law] fosse K. O. 'd, puoi invece aggiungere 1 carta dalla cima delle tue carte Life alla tua mano. [Activate: Main] [Once Per Turn] DON!! −1: La prossima volta che giochi [Trafalgar Law] con un costo pari o superiore a 4 dalla tua mano durante questo turno, il costo sarà ridotto di 2."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-061_p1.png",
@@ -2856,7 +3069,10 @@
       "Kingdom of GERMA",
       "The Vinsmoke Family"
     ],
-    "effect": "[On Play] If your Leader is [Sanji] and the number of DON!! cards on your field is equal to or less than the number on your opponent's field, add up to 1 DON!! card from your DON!! deck and rest it. Then, draw 1 card.",
+    "effect": {
+      "en": "[On Play] If your Leader is [Sanji] and the number of DON!! cards on your field is equal to or less than the number on your opponent's field, add up to 1 DON!! card from your DON!! deck and rest it. Then, draw 1 card.",
+      "it": "[On Play] Se il tuo Leader è [Sanji] e il numero di carte DON!! sul tuo campo è uguale o inferiore al numero sul campo del tuo avversario, somma fino a 1 carta DON!! dal tuo mazzo DON!! e metti in stato spossato. Poi pesca 1 carta."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-062.png",
@@ -2890,7 +3106,10 @@
       "The Vinsmoke Family",
       "GERMA 66"
     ],
-    "effect": "If you have 4 or more Events in your trash, this Character gains +2000 power and +5 cost.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "If you have 4 or more Events in your trash, this Character gains +2000 power and +5 cost.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "Se hai 4 o più eventi nel tuo Trash, questo personaggio guadagna +2000 power e +5 costo. [Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-063.png",
@@ -2924,7 +3143,10 @@
       "The Vinsmoke Family",
       "GERMA 66"
     ],
-    "effect": "If you have 4 or more Events in your trash, this Character gains +2000 power and +5 cost.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "If you have 4 or more Events in your trash, this Character gains +2000 power and +5 cost.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "Se hai 4 o più eventi nel tuo Trash, questo personaggio guadagna +2000 power e +5 costo. [Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-063_p1.png",
@@ -2991,7 +3213,10 @@
       "Impel Down",
       "Revolutionary Army"
     ],
-    "effect": "If you have 4 or more Events in your trash, this Character gains [Blocker].[On K.O.] Add up to 1 Event from your trash to your hand.",
+    "effect": {
+      "en": "If you have 4 or more Events in your trash, this Character gains [Blocker].[On K.O.] Add up to 1 Event from your trash to your hand.",
+      "it": "Se hai 4 o più Eventi nel tuo Trash, questo Personaggio guadagna [Blocker]. [On K.O.] Aggiungi fino a 1 Evento dal tuo Trash alla tua mano."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-065.png",
@@ -3025,7 +3250,10 @@
     "family": [
       "East Blue"
     ],
-    "effect": "If you have 4 or more Events in your trash, this Character gains [Blocker].(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "If you have 4 or more Events in your trash, this Character gains [Blocker].(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "Se hai 4 o più Eventi nel tuo Trash, questo Personaggio ottiene [Blocker]. (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-066.png",
@@ -3120,7 +3348,10 @@
       "The Seven Warlords of the Sea",
       "Baroque Works"
     ],
-    "effect": "[On Your Opponent's Attack] [Once Per Turn] DON!! −1: If your Leader's type includes \"Baroque Works\", up to 1 of your Leader or Character cards gains +2000 power during this battle.",
+    "effect": {
+      "en": "[On Your Opponent's Attack] [Once Per Turn] DON!! −1: If your Leader's type includes \"Baroque Works\", up to 1 of your Leader or Character cards gains +2000 power during this battle.",
+      "it": "[On Your Opponent's Attack] [Once Per Turn] DON!! −1: Se il tipo del tuo Leader include \"Opere Barocche\", fino a 1 delle tue carte Leader o Personaggio guadagna +2000 power durante questa battaglia."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-069.png",
@@ -3155,7 +3386,10 @@
       "Alabasta",
       "Straw Hat Crew"
     ],
-    "effect": "This Character gains +1000 power for every 5 Events in your trash.If this Character would be removed from the field by your opponent's effect, you may return 1 DON!! card from your field to your DON!! deck instead.",
+    "effect": {
+      "en": "This Character gains +1000 power for every 5 Events in your trash.If this Character would be removed from the field by your opponent's effect, you may return 1 DON!! card from your field to your DON!! deck instead.",
+      "it": "Questo Personaggio guadagna +1000 power per ogni 5 Eventi nel tuo Trash. Se questo Personaggio dovesse essere rimosso dal campo a causa dell'effetto del tuo avversario, puoi invece restituire 1 carta DON!! dal tuo campo al tuo mazzo DON!! ."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-070.png",
@@ -3186,7 +3420,10 @@
       "Alabasta",
       "Straw Hat Crew"
     ],
-    "effect": "This Character gains +1000 power for every 5 Events in your trash.If this Character would be removed from the field by your opponent's effect, you may return 1 DON!! card from your field to your DON!! deck instead.",
+    "effect": {
+      "en": "This Character gains +1000 power for every 5 Events in your trash.If this Character would be removed from the field by your opponent's effect, you may return 1 DON!! card from your field to your DON!! deck instead.",
+      "it": "Questo Personaggio guadagna +1000 power per ogni 5 Eventi nel tuo Trash. Se questo Personaggio dovesse essere rimosso dal campo a causa dell'effetto del tuo avversario, puoi invece restituire 1 carta DON!! dal tuo campo al tuo mazzo DON!! ."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-070_p1.png",
@@ -3217,7 +3454,10 @@
     "family": [
       "Big Mom Pirates"
     ],
-    "effect": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 [Sanji] or Event card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 [Sanji] or Event card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 4 carte dalla cima del tuo mazzo; rivela fino a 1 [Sanji] o carta Evento e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-071.png",
@@ -3250,7 +3490,10 @@
     "family": [
       "East Blue"
     ],
-    "effect": "When a DON!! card on your field is returned to your DON!! deck, if your Leader is [Sanji], this Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+    "effect": {
+      "en": "When a DON!! card on your field is returned to your DON!! deck, if your Leader is [Sanji], this Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",
+      "it": "Quando un carta DON!! sul tuo campo viene restituito al tuo mazzo DON!! , se il tuo Leader è [Sanji], questo Personaggio guadagna [Rush] durante questo turno. (Questa carta può attaccare nel turno in cui viene giocata.)"
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-072.png",
@@ -3285,7 +3528,10 @@
       "Supernovas",
       "Heart Pirates"
     ],
-    "effect": "[On Play] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, add up to 1 DON!! card from your DON!! deck and set it as active. Then, all of your [Donquixote Rosinante] and {Heart Pirates} type Characters gain +1000 power until the end of your opponent's next End Phase.",
+    "effect": {
+      "en": "[On Play] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, add up to 1 DON!! card from your DON!! deck and set it as active. Then, all of your [Donquixote Rosinante] and {Heart Pirates} type Characters gain +1000 power until the end of your opponent's next End Phase.",
+      "it": "[On Play] Se il numero di carte DON!! sul tuo campo è uguale o inferiore al numero sul campo del tuo avversario, somma fino a 1 carta DON!! dal tuo mazzo DON!! e impostalo come attivo. Quindi, tutti i tuoi personaggi di tipo [Donquixote Rosinante] e {Heart Pirates} guadagnano +1000 power fino alla fine della prossima End Phase del tuo avversario."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-073.png",
@@ -3320,7 +3566,10 @@
       "Supernovas",
       "Heart Pirates"
     ],
-    "effect": "[On Play] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, add up to 1 DON!! card from your DON!! deck and set it as active. Then, all of your [Donquixote Rosinante] and {Heart Pirates} type Characters gain +1000 power until the end of your opponent's next End Phase.",
+    "effect": {
+      "en": "[On Play] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, add up to 1 DON!! card from your DON!! deck and set it as active. Then, all of your [Donquixote Rosinante] and {Heart Pirates} type Characters gain +1000 power until the end of your opponent's next End Phase.",
+      "it": "[On Play] Se il numero di carte DON!! sul tuo campo è uguale o inferiore al numero sul campo del tuo avversario, somma fino a 1 carta DON!! dal tuo mazzo DON!! e impostalo come attivo. Quindi, tutti i tuoi personaggi di tipo [Donquixote Rosinante] e {Heart Pirates} guadagnano +1000 power fino alla fine della prossima End Phase del tuo avversario."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-073_p1.png",
@@ -3354,7 +3603,10 @@
     "family": [
       "East Blue"
     ],
-    "effect": "[On Play] You may trash 1 Event from your hand: If your Leader is [Sanji], add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": {
+      "en": "[On Play] You may trash 1 Event from your hand: If your Leader is [Sanji], add up to 1 DON!! card from your DON!! deck and set it as active.",
+      "it": "[On Play] Puoi mandare nel Trash 1 Evento dalla tua mano: se il tuo Leader è [Sanji], aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e impostalo come attivo."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-074.png",
@@ -3387,7 +3639,10 @@
     "family": [
       "Baroque Works"
     ],
-    "effect": "[On Play] K.O. up to 1 of your opponent's Characters with a cost of 3 or less. Then, your opponent may add 1 DON!! card from their DON!! deck and set it as active.",
+    "effect": {
+      "en": "[On Play] K.O. up to 1 of your opponent's Characters with a cost of 3 or less. Then, your opponent may add 1 DON!! card from their DON!! deck and set it as active.",
+      "it": "[On Play] K. O. fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 3. Quindi, il tuo avversario può aggiungere 1 carta DON!! dal suo mazzo DON!! e impostarlo come attivo."
+    },
     "trigger": "Trigger[Trigger] DON!! −1: Play this card.",
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-075.png",
@@ -3451,7 +3706,10 @@
     "family": [
       "Heart Pirates"
     ],
-    "effect": "[Main] Select up to 1 of your [Trafalgar Law] cards and that card gains +2000 power during this turn. Then, if the selected card attacks during this turn, your opponent cannot activate [Blocker].",
+    "effect": {
+      "en": "[Main] Select up to 1 of your [Trafalgar Law] cards and that card gains +2000 power during this turn. Then, if the selected card attacks during this turn, your opponent cannot activate [Blocker].",
+      "it": "[Main] Seleziona fino a 1 delle tue carte [Trafalgar Law] e quella carta guadagna +2000 power durante questo turno. Poi, se la carta scelta attacca durante questo turno, il tuo avversario non potrà attivare [Blocker]."
+    },
     "trigger": "Trigger[Trigger] Draw 1 card.",
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-077.png",
@@ -3485,7 +3743,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Main] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, draw 1 card. Then, give up to 1 of your opponent's Characters −3000 power during this turn.",
+    "effect": {
+      "en": "[Main] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, draw 1 card. Then, give up to 1 of your opponent's Characters −3000 power during this turn.",
+      "it": "[Main] Se il numero di carte DON!! sul tuo campo è uguale o inferiore al numero sul campo del tuo avversario, pesca 1 carta. Poi, Dai −3000 power a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-078.png",
@@ -3518,7 +3779,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Main] If your Leader is [Sanji], look at 3 cards from the top of your deck and add up to 1 card to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[Main] If your Leader is [Sanji], look at 3 cards from the top of your deck and add up to 1 card to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[Main] Se il tuo Leader è [Sanji], guarda 3 carte dalla cima del tuo mazzo e aggiungi fino a 1 carta alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-079.png",
@@ -3551,7 +3815,10 @@
     "family": [
       "East Blue"
     ],
-    "effect": "[Activate: Main] You may place this Stage at the bottom of the owner's deck: If your Leader is [Sanji], look at 3 cards from the top of your deck; reveal up to 1 Event and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[Activate: Main] You may place this Stage at the bottom of the owner's deck: If your Leader is [Sanji], look at 3 cards from the top of your deck; reveal up to 1 Event and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[Activate: Main] Puoi mettere questa Stage in fondo al mazzo del proprietario: Se il tuo Leader è [Sanji], Guarda 3 carte dalla cima del tuo mazzo; rivela fino a 1 Evento e aggiungilo alla tua mano. Poi, metti il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": "Trigger[Trigger] Play this card.",
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-080.png",
@@ -3586,7 +3853,10 @@
       "Dressrosa",
       "Revolutionary Army"
     ],
-    "effect": "When this Leader attacks your opponent's Leader, if you have 2 or more Characters with a cost of 8 or more, draw 1 card.[Once Per Turn] This effect can be activated when your opponent plays a Character with a base cost of 8 or more, or when your opponent plays a Character using a Character's effect. Your opponent adds 1 card from the top of their Life cards to their hand.",
+    "effect": {
+      "en": "When this Leader attacks your opponent's Leader, if you have 2 or more Characters with a cost of 8 or more, draw 1 card.[Once Per Turn] This effect can be activated when your opponent plays a Character with a base cost of 8 or more, or when your opponent plays a Character using a Character's effect. Your opponent adds 1 card from the top of their Life cards to their hand.",
+      "it": "Quando questo Leader attacca il Leader del tuo avversario, se hai 2 o più Personaggi con un costo pari o superiore a 8, pesca 1 carta. [Once Per Turn] Questo effetto può essere attivato quando il tuo avversario gioca un Personaggio con un costo base pari o superiore a 8, o quando il tuo avversario gioca un Personaggio usando l'effetto di un Personaggio. Il tuo avversario aggiunge 1 carta dalla cima delle sue carte Life alla sua mano."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-081.png",
@@ -3621,7 +3891,10 @@
       "Dressrosa",
       "Revolutionary Army"
     ],
-    "effect": "When this Leader attacks your opponent's Leader, if you have 2 or more Characters with a cost of 8 or more, draw 1 card.[Once Per Turn] This effect can be activated when your opponent plays a Character with a base cost of 8 or more, or when your opponent plays a Character using a Character's effect. Your opponent adds 1 card from the top of their Life cards to their hand.",
+    "effect": {
+      "en": "When this Leader attacks your opponent's Leader, if you have 2 or more Characters with a cost of 8 or more, draw 1 card.[Once Per Turn] This effect can be activated when your opponent plays a Character with a base cost of 8 or more, or when your opponent plays a Character using a Character's effect. Your opponent adds 1 card from the top of their Life cards to their hand.",
+      "it": "Quando questo Leader attacca il Leader del tuo avversario, se hai 2 o più Personaggi con un costo pari o superiore a 8, pesca 1 carta. [Once Per Turn] Questo effetto può essere attivato quando il tuo avversario gioca un Personaggio con un costo base pari o superiore a 8, o quando il tuo avversario gioca un Personaggio usando l'effetto di un Personaggio. Il tuo avversario aggiunge 1 carta dalla cima delle sue carte Life alla sua mano."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-081_p1.png",
@@ -3716,7 +3989,10 @@
     "family": [
       "Revolutionary Army"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] If your Leader has the {Revolutionary Army} type, trash 3 cards from the top of your deck.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] If your Leader has the {Revolutionary Army} type, trash 3 cards from the top of your deck.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On Play] Se il tuo Leader ha il tipo {Revolutionary Army}, Manda nel Trash 3 carte dalla cima del tuo mazzo."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-084.png",
@@ -3750,7 +4026,10 @@
     "family": [
       "Revolutionary Army"
     ],
-    "effect": "If your Leader has the {Revolutionary Army} type, this Character gains +3 cost.[When Attacking] If your Leader has the {Revolutionary Army} type and your opponent has 5 or more cards in their hand, your opponent trashes 1 card from their hand.",
+    "effect": {
+      "en": "If your Leader has the {Revolutionary Army} type, this Character gains +3 cost.[When Attacking] If your Leader has the {Revolutionary Army} type and your opponent has 5 or more cards in their hand, your opponent trashes 1 card from their hand.",
+      "it": "Se il tuo Leader ha il tipo {Revolutionary Army}, questo Personaggio guadagna +3 di costo. [When Attacking] Se il tuo Leader ha il tipo {Revolutionary Army} e il tuo avversario ha 5 o più carte in mano, il tuo avversario elimina 1 carta dalla sua mano."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-085.png",
@@ -3784,7 +4063,10 @@
       "Dressrosa",
       "Revolutionary Army"
     ],
-    "effect": "[On Play] If your Leader has the {Revolutionary Army} type, look at 3 cards from the top of your deck; reveal up to 1 {Revolutionary Army} type card other than [Koala] or up to 1 [Nico Robin] and add it to your hand. Then, trash the rest.",
+    "effect": {
+      "en": "[On Play] If your Leader has the {Revolutionary Army} type, look at 3 cards from the top of your deck; reveal up to 1 {Revolutionary Army} type card other than [Koala] or up to 1 [Nico Robin] and add it to your hand. Then, trash the rest.",
+      "it": "[On Play] Se il tuo Leader è del tipo {Revolutionary Army}, guarda 3 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Revolutionary Army} diversa da [Koala] o fino a 1 [Nico Robin] e aggiungila alla tua mano. Poi Trash il resto."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-086.png",
@@ -3818,7 +4100,10 @@
       "Dressrosa",
       "Revolutionary Army"
     ],
-    "effect": "[On Play] If your Leader has the {Revolutionary Army} type, look at 3 cards from the top of your deck; reveal up to 1 {Revolutionary Army} type card other than [Koala] or up to 1 [Nico Robin] and add it to your hand. Then, trash the rest.",
+    "effect": {
+      "en": "[On Play] If your Leader has the {Revolutionary Army} type, look at 3 cards from the top of your deck; reveal up to 1 {Revolutionary Army} type card other than [Koala] or up to 1 [Nico Robin] and add it to your hand. Then, trash the rest.",
+      "it": "[On Play] Se il tuo Leader è del tipo {Revolutionary Army}, guarda 3 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Revolutionary Army} diversa da [Koala] o fino a 1 [Nico Robin] e aggiungila alla tua mano. Poi Trash il resto."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-086_p1.png",
@@ -3852,7 +4137,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "If your Leader is [Koala] or [Monkey.D.Luffy], this Character gains [Blocker] and +3 cost.[On Play] You may trash 1 card from your hand: If your opponent has 5 or more cards in their hand, your opponent trashes 2 cards from their hand.",
+    "effect": {
+      "en": "If your Leader is [Koala] or [Monkey.D.Luffy], this Character gains [Blocker] and +3 cost.[On Play] You may trash 1 card from your hand: If your opponent has 5 or more cards in their hand, your opponent trashes 2 cards from their hand.",
+      "it": "Se il tuo Leader è [Koala] o [Monkey.D.Luffy], questo Personaggio guadagna [Blocker] e +3 al costo. [On Play] Puoi mandare nel Trash 1 carta dalla tua mano: Se il tuo avversario ha 5 o più carte in mano, il tuo avversario elimina 2 carte dalla sua mano."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-087.png",
@@ -3886,7 +4174,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "If your Leader is [Koala] or [Monkey.D.Luffy], this Character gains [Blocker] and +3 cost.[On Play] You may trash 1 card from your hand: If your opponent has 5 or more cards in their hand, your opponent trashes 2 cards from their hand.",
+    "effect": {
+      "en": "If your Leader is [Koala] or [Monkey.D.Luffy], this Character gains [Blocker] and +3 cost.[On Play] You may trash 1 card from your hand: If your opponent has 5 or more cards in their hand, your opponent trashes 2 cards from their hand.",
+      "it": "Se il tuo Leader è [Koala] o [Monkey.D.Luffy], questo Personaggio guadagna [Blocker] e +3 al costo. [On Play] Puoi mandare nel Trash 1 carta dalla tua mano: Se il tuo avversario ha 5 o più carte in mano, il tuo avversario elimina 2 carte dalla sua mano."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-087_p1.png",
@@ -3954,7 +4245,10 @@
       "Dressrosa",
       "Revolutionary Army"
     ],
-    "effect": "If your Leader has the {Revolutionary Army} type, this Character gains [Blocker] and +4 cost.[On K.O.] If your Leader has the {Revolutionary Army} type, K.O. up to 1 of your opponent's Characters with a base cost of 4 or less.",
+    "effect": {
+      "en": "If your Leader has the {Revolutionary Army} type, this Character gains [Blocker] and +4 cost.[On K.O.] If your Leader has the {Revolutionary Army} type, K.O. up to 1 of your opponent's Characters with a base cost of 4 or less.",
+      "it": "Se il tuo Leader ha il tipo {Revolutionary Army}, questo Personaggio ottiene [Blocker] e +4 di costo. [On K.O.] Se il tuo Leader ha il tipo {Revolutionary Army}, K. O. fino a 1 dei personaggi del tuo avversario con un costo base pari o inferiore a 4."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-089.png",
@@ -3988,7 +4282,10 @@
     "family": [
       "Revolutionary Army"
     ],
-    "effect": "[When Attacking] You may trash 2 cards from the top of your deck: Give up to 1 of your opponent's Characters −2 cost during this turn.",
+    "effect": {
+      "en": "[When Attacking] You may trash 2 cards from the top of your deck: Give up to 1 of your opponent's Characters −2 cost during this turn.",
+      "it": "[When Attacking] Puoi mandare nel Trash 2 carte dalla cima del tuo mazzo: Dai −2 costo a un massimo di 1 Personaggio del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-090.png",
@@ -4022,7 +4319,10 @@
       "Animal Kingdom Pirates",
       "SMILE"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] You may place 3 cards from your trash at the bottom of your deck in any order: Up to 2 of your {SMILE} type Characters gain +2000 power during this turn.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] You may place 3 cards from your trash at the bottom of your deck in any order: Up to 2 of your {SMILE} type Characters gain +2000 power during this turn.",
+      "it": "[Activate: Main] [Once Per Turn] Puoi posizionare 3 carte dal tuo Trash in fondo al tuo mazzo in qualsiasi ordine: Fino a 2 dei tuoi personaggi di tipo {SMILE} guadagnano +2000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-091.png",
@@ -4088,7 +4388,10 @@
       "Giant",
       "Revolutionary Army"
     ],
-    "effect": "If your Leader has the {Revolutionary Army} type, this Character gains +4 cost.",
+    "effect": {
+      "en": "If your Leader has the {Revolutionary Army} type, this Character gains +4 cost.",
+      "it": "Se il tuo Leader ha il tipo {Revolutionary Army}, questo Personaggio guadagna +4 al costo."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-093.png",
@@ -4118,7 +4421,10 @@
     "family": [
       "Revolutionary Army"
     ],
-    "effect": "[On Play] You may place 3 {Revolutionary Army} type cards from your trash at the bottom of your deck in any order: If your Leader has the {Revolutionary Army} type, play up to 1 Character card with a cost of 6 or less from your trash.",
+    "effect": {
+      "en": "[On Play] You may place 3 {Revolutionary Army} type cards from your trash at the bottom of your deck in any order: If your Leader has the {Revolutionary Army} type, play up to 1 Character card with a cost of 6 or less from your trash.",
+      "it": "[On Play] Puoi posizionare 3 carte di tipo {Revolutionary Army} dal tuo Trash in fondo al tuo mazzo in qualsiasi ordine: Se il tuo Leader ha il tipo {Revolutionary Army}, gioca fino a 1 carta Personaggio con un costo pari o inferiore a 6 dal tuo Trash."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-094.png",
@@ -4151,7 +4457,10 @@
     "family": [
       "Revolutionary Army"
     ],
-    "effect": "[On Play] You may place 3 {Revolutionary Army} type cards from your trash at the bottom of your deck in any order: If your Leader has the {Revolutionary Army} type, play up to 1 Character card with a cost of 6 or less from your trash.",
+    "effect": {
+      "en": "[On Play] You may place 3 {Revolutionary Army} type cards from your trash at the bottom of your deck in any order: If your Leader has the {Revolutionary Army} type, play up to 1 Character card with a cost of 6 or less from your trash.",
+      "it": "[On Play] Puoi posizionare 3 carte di tipo {Revolutionary Army} dal tuo Trash in fondo al tuo mazzo in qualsiasi ordine: Se il tuo Leader ha il tipo {Revolutionary Army}, gioca fino a 1 carta Personaggio con un costo pari o inferiore a 6 dal tuo Trash."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-094_p1.png",
@@ -4186,7 +4495,10 @@
       "Minks",
       "Revolutionary Army"
     ],
-    "effect": "If your Leader has the {Revolutionary Army} type, this Character gains +4 cost.[On Play] Draw 1 card and trash 1 card from your hand.",
+    "effect": {
+      "en": "If your Leader has the {Revolutionary Army} type, this Character gains +4 cost.[On Play] Draw 1 card and trash 1 card from your hand.",
+      "it": "Se il tuo Leader ha il tipo {Revolutionary Army}, questo Personaggio guadagna +4 di costo. [On Play] Pesca 1 carta e Manda nel Trash 1 carta dalla tua mano."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-095.png",
@@ -4220,7 +4532,10 @@
       "The Seven Warlords of the Sea",
       "Revolutionary Army"
     ],
-    "effect": "[Main] K.O. up to 1 of your opponent's Characters with a cost of 4 or less. If you have a Character with a cost of 8 or more, you may select your opponent's Character with a cost of 6 or less instead.",
+    "effect": {
+      "en": "[Main] K.O. up to 1 of your opponent's Characters with a cost of 4 or less. If you have a Character with a cost of 8 or more, you may select your opponent's Character with a cost of 6 or less instead.",
+      "it": "[Main] K. O. fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 4. Se hai un Personaggio con un costo pari o superiore a 8, puoi invece selezionare il Personaggio del tuo avversario con un costo pari o inferiore a 6."
+    },
     "trigger": "Trigger[Trigger] Draw 1 card and trash 1 card from the top of your deck.",
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-096.png",
@@ -4253,7 +4568,10 @@
     "family": [
       "Revolutionary Army"
     ],
-    "effect": "[Main] Look at 3 cards from the top of your deck; reveal up to 1 {Revolutionary Army} type card other than [Captains Assembled] and add it to your hand. Then, trash the rest.",
+    "effect": {
+      "en": "[Main] Look at 3 cards from the top of your deck; reveal up to 1 {Revolutionary Army} type card other than [Captains Assembled] and add it to your hand. Then, trash the rest.",
+      "it": "[Main] Guarda 3 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Revolutionary Army} diversa da [Captains Assembled] e aggiungila alla tua mano. Poi Trash il resto."
+    },
     "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-097.png",
@@ -4287,7 +4605,10 @@
       "Impel Down",
       "Revolutionary Army"
     ],
-    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have a {Revolutionary Army} type Character with a cost of 8 or more, that card gains an additional +2000 power during this battle.",
+    "effect": {
+      "en": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have a {Revolutionary Army} type Character with a cost of 8 or more, that card gains an additional +2000 power during this battle.",
+      "it": "[Counter] Fino a 1 delle tue carte Leader o Personaggio ottiene +2000 power durante questa battaglia. Quindi, se hai un Personaggio di tipo {Revolutionary Army} con un costo pari o superiore a 8, quella carta ottiene +2000 power aggiuntivi durante questa battaglia."
+    },
     "trigger": "Trigger[Trigger] Draw 1 card and trash 1 card from the top of your deck.",
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-098.png",
@@ -4322,7 +4643,10 @@
       "Sky Island",
       "Shandian Warrior"
     ],
-    "effect": "[Your Turn] When a card is removed from your or your opponent's Life cards, draw 1 card. Then, you cannot draw cards using your own effects during this turn.",
+    "effect": {
+      "en": "[Your Turn] When a card is removed from your or your opponent's Life cards, draw 1 card. Then, you cannot draw cards using your own effects during this turn.",
+      "it": "[Your Turn] Quando una carta viene rimossa dalle tue carte Life o da quello del tuo avversario, pesca 1 carta. Quindi, non puoi pescare carte usando i tuoi stessi effetti durante questo turno."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-099.png",
@@ -4356,7 +4680,10 @@
       "Dressrosa",
       "Revolutionary Army"
     ],
-    "effect": "If you have 3 or less Life cards, this Character gains [Blocker] and +3 cost.[On Play] You may add 1 card from the top of your Life cards to your hand: Draw 2 cards and trash 1 card from your hand.",
+    "effect": {
+      "en": "If you have 3 or less Life cards, this Character gains [Blocker] and +3 cost.[On Play] You may add 1 card from the top of your Life cards to your hand: Draw 2 cards and trash 1 card from your hand.",
+      "it": "Se hai 3 o meno carte Life, questo Personaggio ottiene [Blocker] e +3 di costo. [On Play] Puoi aggiungere 1 carta dalla cima delle tue carte Life alla tua mano: Pesca 2 carte e Manda nel Trash 1 carta dalla tua mano."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-100.png",
@@ -4391,7 +4718,10 @@
       "Supernovas",
       "Bonney Pirates"
     ],
-    "effect": "[Activate: Main] You may rest this Character: Your {Supernovas} type Leader gains +1000 power until the end of your opponent's next turn.",
+    "effect": {
+      "en": "[Activate: Main] You may rest this Character: Your {Supernovas} type Leader gains +1000 power until the end of your opponent's next turn.",
+      "it": "[Activate: Main] Puoi mettere in stato spossato questo Personaggio: Your {Supernovas} tipo Leader gains +1000 power until the end of your opponent's next turn."
+    },
     "trigger": "Trigger[Trigger] If your Leader has the {Supernovas} type, play this card.",
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-101.png",
@@ -4425,7 +4755,10 @@
       "Merfolk",
       "Fish-Man Island"
     ],
-    "effect": "If your Character with a base cost of 6 or less would be removed from the field by your opponent's effect, you may turn 1 card from the top of your Life cards face-up instead.[Opponent's Turn] If you have no other [Shirahoshi] with a base cost of 2, all of your {Neptunian} type Characters gain +2000 power.",
+    "effect": {
+      "en": "If your Character with a base cost of 6 or less would be removed from the field by your opponent's effect, you may turn 1 card from the top of your Life cards face-up instead.[Opponent's Turn] If you have no other [Shirahoshi] with a base cost of 2, all of your {Neptunian} type Characters gain +2000 power.",
+      "it": "Se il tuo Personaggio con costo base pari a 6 o inferiore viene rimosso dal campo per effetto del tuo avversario, puoi invece girare 1 carta dalla cima delle tue carte Life scoperta. [Opponent's Turn] Se non hai altri [Shirahoshi] con costo base pari a 2, tutti i tuoi personaggi di tipo {Neptunian} guadagnano +2000 power."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-102.png",
@@ -4459,7 +4792,10 @@
       "Merfolk",
       "Fish-Man Island"
     ],
-    "effect": "If your Character with a base cost of 6 or less would be removed from the field by your opponent's effect, you may turn 1 card from the top of your Life cards face-up instead.[Opponent's Turn] If you have no other [Shirahoshi] with a base cost of 2, all of your {Neptunian} type Characters gain +2000 power.",
+    "effect": {
+      "en": "If your Character with a base cost of 6 or less would be removed from the field by your opponent's effect, you may turn 1 card from the top of your Life cards face-up instead.[Opponent's Turn] If you have no other [Shirahoshi] with a base cost of 2, all of your {Neptunian} type Characters gain +2000 power.",
+      "it": "Se il tuo Personaggio con costo base pari a 6 o inferiore viene rimosso dal campo per effetto del tuo avversario, puoi invece girare 1 carta dalla cima delle tue carte Life scoperta. [Opponent's Turn] Se non hai altri [Shirahoshi] con costo base pari a 2, tutti i tuoi personaggi di tipo {Neptunian} guadagnano +2000 power."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-102_p1.png",
@@ -4556,7 +4892,10 @@
     "family": [
       "Flevance"
     ],
-    "effect": "[Your Turn] [On Play] Up to 1 of your [Trafalgar Law] cards gains +2000 power during this turn.",
+    "effect": {
+      "en": "[Your Turn] [On Play] Up to 1 of your [Trafalgar Law] cards gains +2000 power during this turn.",
+      "it": "[Your Turn] [On Play] Fino a 1 delle tue carte [Trafalgar Law] guadagna +2000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-105.png",
@@ -4592,7 +4931,10 @@
       "Supernovas",
       "Heart Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-106.png",
@@ -4626,7 +4968,10 @@
       "The Seven Warlords of the Sea",
       "Donquixote Pirates"
     ],
-    "effect": "If you have 2 or less Life cards, this Character gains [Rush].(This card can attack on the turn in which it is played.)[Opponent's Turn] [On K.O.] Add up to 1 card from the top of your deck to the top of your Life cards.",
+    "effect": {
+      "en": "If you have 2 or less Life cards, this Character gains [Rush].(This card can attack on the turn in which it is played.)[Opponent's Turn] [On K.O.] Add up to 1 card from the top of your deck to the top of your Life cards.",
+      "it": "Se hai 2 o meno carte Life, questo Personaggio guadagna [Rush]. (Questa carta può attaccare nel turno in cui viene giocata.)[Opponent's Turn] [On K.O.] Aggiungi fino a 1 carta dalla cima del tuo mazzo alla cima delle tue carte Life."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-107.png",
@@ -4662,7 +5007,10 @@
       "Navy",
       "Donquixote Pirates"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Trafalgar Law] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Trafalgar Law] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 [Trafalgar Law] e aggiungilo alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-108.png",
@@ -4696,7 +5044,10 @@
       "Navy",
       "Donquixote Pirates"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Trafalgar Law] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Trafalgar Law] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 [Trafalgar Law] e aggiungilo alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-108_p1.png",
@@ -4853,7 +5204,10 @@
       "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "[On K.O.] If your Leader has the {Supernovas} type, play up to 1 {Supernovas} type Character card with a cost of 4 or less from your hand rested.",
+    "effect": {
+      "en": "[On K.O.] If your Leader has the {Supernovas} type, play up to 1 {Supernovas} type Character card with a cost of 4 or less from your hand rested.",
+      "it": "[On K.O.] Se il tuo Leader ha il tipo {Supernovas}, gioca fino a 1 carta Personaggio di tipo {Supernovas} con un costo pari o inferiore a 4 dalla tua mano in stato spossato."
+    },
     "trigger": "Trigger[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 1 or less and add this card to your hand.",
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-113.png",
@@ -4918,7 +5272,10 @@
       "Navy",
       "Donquixote Pirates"
     ],
-    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 2 or less Life cards, add up to 1 [Trafalgar Law] from your trash to your hand.",
+    "effect": {
+      "en": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 2 or less Life cards, add up to 1 [Trafalgar Law] from your trash to your hand.",
+      "it": "[Counter] Fino a 1 delle tue carte Leader o Personaggio ottiene +2000 power durante questa battaglia. Poi, se hai 2 o meno carte Life, aggiungi fino a 1 [Trafalgar Law] dal tuo Trash alla tua mano."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-115.png",
@@ -4953,7 +5310,10 @@
       "Sky Island",
       "Shandian Warrior"
     ],
-    "effect": "[Main] Look at 5 cards from the top of your deck; reveal a total of up to 2 {Shandian Warrior} type Character cards or [Mont Blanc Noland] and add them to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[Main] Look at 5 cards from the top of your deck; reveal a total of up to 2 {Shandian Warrior} type Character cards or [Mont Blanc Noland] and add them to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[Main] Guarda 5 carte dalla cima del tuo mazzo; rivela un totale di massimo 2 carte Personaggio di tipo {Shandian Warrior} o [Mont Blanc Noland] e aggiungile alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": "Trigger[Trigger] Draw 1 card.",
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-116.png",
@@ -4987,7 +5347,10 @@
       "Supernovas",
       "Kid Pirates"
     ],
-    "effect": "[Main] You may rest 5 of your DON!! cards: If your Leader has the {Supernovas} type, add up to 1 Character with a cost of 9 or less to the top or bottom of the owner's Life cards face-down.[Counter] Your Leader gains +3000 power during this battle.",
+    "effect": {
+      "en": "[Main] You may rest 5 of your DON!! cards: If your Leader has the {Supernovas} type, add up to 1 Character with a cost of 9 or less to the top or bottom of the owner's Life cards face-down.[Counter] Your Leader gains +3000 power during this battle.",
+      "it": "[Main] Puoi mettere in stato spossato 5 delle tue carte DON!! : Se il tuo Leader è di tipo {Supernovas}, aggiungi fino a 1 Personaggio con un costo pari o inferiore a 9 in cima o in fondo al carte Life coperta. [Counter] Il tuo Leader guadagna +3000 power durante questa battaglia."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-117.png",
@@ -5022,7 +5385,10 @@
       "Supernovas",
       "Bonney Pirates"
     ],
-    "effect": "[Blocker][On Play] If you have 8 or more rested cards, draw 2 cards and trash 1 card from your hand. Then, set up to 1 of your DON!! cards as active.",
+    "effect": {
+      "en": "[Blocker][On Play] If you have 8 or more rested cards, draw 2 cards and trash 1 card from your hand. Then, set up to 1 of your DON!! cards as active.",
+      "it": "[Blocker][On Play] Se hai 8 o più carte in stato spossato, pesca 2 carte e Manda nel Trash 1 carta dalla tua mano. Quindi, imposta fino a 1 delle tue carte DON!! come attivi."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-118.png",
@@ -5057,7 +5423,10 @@
       "Supernovas",
       "Bonney Pirates"
     ],
-    "effect": "[Blocker][On Play] If you have 8 or more rested cards, draw 2 cards and trash 1 card from your hand. Then, set up to 1 of your DON!! cards as active.",
+    "effect": {
+      "en": "[Blocker][On Play] If you have 8 or more rested cards, draw 2 cards and trash 1 card from your hand. Then, set up to 1 of your DON!! cards as active.",
+      "it": "[Blocker][On Play] Se hai 8 o più carte in stato spossato, pesca 2 carte e Manda nel Trash 1 carta dalla tua mano. Quindi, imposta fino a 1 delle tue carte DON!! come attivi."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-118_p1.png",
@@ -5093,7 +5462,10 @@
       "Supernovas",
       "Bonney Pirates"
     ],
-    "effect": "[Blocker][On Play] If you have 8 or more rested cards, draw 2 cards and trash 1 card from your hand. Then, set up to 1 of your DON!! cards as active.",
+    "effect": {
+      "en": "[Blocker][On Play] If you have 8 or more rested cards, draw 2 cards and trash 1 card from your hand. Then, set up to 1 of your DON!! cards as active.",
+      "it": "[Blocker][On Play] Se hai 8 o più carte in stato spossato, pesca 2 carte e Manda nel Trash 1 carta dalla tua mano. Quindi, imposta fino a 1 delle tue carte DON!! come attivi."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-118_p2.png",
@@ -5129,7 +5501,10 @@
       "The Seven Warlords of the Sea",
       "Revolutionary Army"
     ],
-    "effect": "[On Play] You may trash 1 card from your hand: Add up to 1 card from the top of your deck to the top of your Life cards. Then, this Character gains +2 cost until the end of your opponent's next End Phase.[Opponent's Turn] [On K.O.] Add up to 1 card from the top of your deck to the top of your Life cards.",
+    "effect": {
+      "en": "[On Play] You may trash 1 card from your hand: Add up to 1 card from the top of your deck to the top of your Life cards. Then, this Character gains +2 cost until the end of your opponent's next End Phase.[Opponent's Turn] [On K.O.] Add up to 1 card from the top of your deck to the top of your Life cards.",
+      "it": "[On Play] Puoi mandare nel Trash 1 carta dalla tua mano: aggiungi fino a 1 carta dalla cima del tuo mazzo alla cima delle tue carte Life. Poi, questo Personaggio guadagna +2 di costo fino alla fine della prossima End Phase del tuo avversario. [Opponent's Turn] [On K.O.] Aggiungi fino a 1 carta dalla cima del tuo mazzo alla cima delle tue carte Life."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-119.png",
@@ -5165,7 +5540,10 @@
       "The Seven Warlords of the Sea",
       "Revolutionary Army"
     ],
-    "effect": "[On Play] You may trash 1 card from your hand: Add up to 1 card from the top of your deck to the top of your Life cards. Then, this Character gains +2 cost until the end of your opponent's next End Phase.[Opponent's Turn] [On K.O.] Add up to 1 card from the top of your deck to the top of your Life cards.",
+    "effect": {
+      "en": "[On Play] You may trash 1 card from your hand: Add up to 1 card from the top of your deck to the top of your Life cards. Then, this Character gains +2 cost until the end of your opponent's next End Phase.[Opponent's Turn] [On K.O.] Add up to 1 card from the top of your deck to the top of your Life cards.",
+      "it": "[On Play] Puoi mandare nel Trash 1 carta dalla tua mano: aggiungi fino a 1 carta dalla cima del tuo mazzo alla cima delle tue carte Life. Poi, questo Personaggio guadagna +2 di costo fino alla fine della prossima End Phase del tuo avversario. [Opponent's Turn] [On K.O.] Aggiungi fino a 1 carta dalla cima del tuo mazzo alla cima delle tue carte Life."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP12-119_p1.png",
@@ -5201,7 +5579,10 @@
     "family": [
       "Whitebeard Pirates"
     ],
-    "effect": "[On Play] If you have 2 or less Life cards, this Character gains [Rush].(This card can attack on the turn in which it is played.)",
+    "effect": {
+      "en": "[On Play] If you have 2 or less Life cards, this Character gains [Rush].(This card can attack on the turn in which it is played.)",
+      "it": "[On Play] Se hai 2 o meno carte Life, questo personaggio guadagna [Rush]. (Questa carta può attaccare nel turno in cui viene giocata.)"
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST13-011_p2.png",
@@ -5236,7 +5617,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 purple {Straw Hat Crew} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 purple {Straw Hat Crew} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta viola di tipo {Straw Hat Crew} e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "LEGACY OF THE MASTER [OP-12]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST18-004_p2.png",

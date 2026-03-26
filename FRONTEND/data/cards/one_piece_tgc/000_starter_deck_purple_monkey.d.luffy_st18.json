@@ -13,7 +13,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] You may add 1 card from the top of your Life cards to your hand: If you have 0 or 3 or more DON!! cards on your field, add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": {
+      "en": "[Activate: Main] [Once Per Turn] You may add 1 card from the top of your Life cards to your hand: If you have 0 or 3 or more DON!! cards on your field, add up to 1 DON!! card from your DON!! deck and set it as active.",
+      "it": "[Activate: Main] [Once Per Turn] Puoi aggiungere 1 carta dalla cima delle tue carte Life alla tua mano: se hai 0 o 3 o più carte DON!! sul tuo campo, aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e impostalo come attivo."
+    },
     "trigger": null,
     "setName": "Purple Monkey.D.Luffy [ST-18]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-060_p3.png",
@@ -47,7 +50,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x1] [When Attacking] If you have 8 or more DON!! cards on your field, rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "effect": {
+      "en": "[DON!! x1] [When Attacking] If you have 8 or more DON!! cards on your field, rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+      "it": "[DON!! x1] [When Attacking] Se hai 8 o più carte DON!! sul tuo campo, metti in stato spossato fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 4."
+    },
     "trigger": null,
     "setName": "Purple Monkey.D.Luffy [ST-18]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-061_r1.png",
@@ -81,7 +87,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] If you have 8 or more DON!! cards on your field, K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "effect": {
+      "en": "[On Play] If you have 8 or more DON!! cards on your field, K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+      "it": "[On Play] Se hai 8 o più carte DON!! sul tuo campo, K. O. fino a 1 dei Personaggi del tuo avversario con un costo pari o inferiore a 3."
+    },
     "trigger": null,
     "setName": "Purple Monkey.D.Luffy [ST-18]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-063_r1.png",
@@ -115,7 +124,10 @@
       "Fish-Man",
       "Straw Hat Crew"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Opponent's Turn] If you have 10 DON!! cards on your field, this Character gains +1000 power.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Opponent's Turn] If you have 10 DON!! cards on your field, this Character gains +1000 power.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[Opponent's Turn] Se hai 10 carte DON!! sul tuo campo, Questo Personaggio guadagna +1000 power."
+    },
     "trigger": null,
     "setName": "Purple Monkey.D.Luffy [ST-18]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-066_r1.png",
@@ -149,7 +161,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[When Attacking] If you have 3 or less Life cards, add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": {
+      "en": "[When Attacking] If you have 3 or less Life cards, add up to 1 DON!! card from your DON!! deck and set it as active.",
+      "it": "[When Attacking] Se hai 3 o meno carte Life, aggiungi fino a 1 carta DON!! dal tuo mazzo DON!! e impostalo come attivo."
+    },
     "trigger": null,
     "setName": "Purple Monkey.D.Luffy [ST-18]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-067_r1.png",
@@ -183,7 +198,10 @@
       "Animal",
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] If you have 8 or more DON!! cards on your field, set up to 1 of your purple {Straw Hat Crew} type Characters with 6000 power or less as active.",
+    "effect": {
+      "en": "[On Play] If you have 8 or more DON!! cards on your field, set up to 1 of your purple {Straw Hat Crew} type Characters with 6000 power or less as active.",
+      "it": "[On Play] Se hai 8 o più carte DON!! sul tuo campo, imposta fino a 1 dei tuoi personaggi viola di tipo {Straw Hat Crew} con 6000 power o meno come attivo."
+    },
     "trigger": null,
     "setName": "Purple Monkey.D.Luffy [ST-18]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-068_r1.png",
@@ -216,7 +234,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x1] If you have 8 or more DON!! cards on your field, this Character gains [Rush].(This card can attack on the turn in which it is played.)",
+    "effect": {
+      "en": "[DON!! x1] If you have 8 or more DON!! cards on your field, this Character gains [Rush].(This card can attack on the turn in which it is played.)",
+      "it": "[DON!! x1] Se hai 8 o più carte DON!! sul tuo campo, questo personaggio guadagna [Rush]. (Questa carta può attaccare nel turno in cui viene giocata.)"
+    },
     "trigger": null,
     "setName": "Purple Monkey.D.Luffy [ST-18]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-070_r1.png",
@@ -250,7 +271,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] If you have 8 or more DON!! cards on your field, give up to 2 of your opponent's Characters −2000 power during this turn.",
+    "effect": {
+      "en": "[On Play] If you have 8 or more DON!! cards on your field, give up to 2 of your opponent's Characters −2000 power during this turn.",
+      "it": "[On Play] Se hai 8 o più carte DON!! sul tuo campo, Dai −2000 power a un massimo di 2 Personaggi del tuo avversario durante questo turno."
+    },
     "trigger": null,
     "setName": "Purple Monkey.D.Luffy [ST-18]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-072_r1.png",
@@ -283,7 +307,10 @@
     "family": [
       "Land of Wano"
     ],
-    "effect": "[Main] Look at 3 cards from the top of your deck; reveal up to 1 {Straw Hat Crew}, {Kid Pirates}, or {Heart Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[Main] Look at 3 cards from the top of your deck; reveal up to 1 {Straw Hat Crew}, {Kid Pirates}, or {Heart Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[Main] Guarda 3 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Straw Hat Crew}, {Kid Pirates} o {Heart Pirates} e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": "Trigger[Trigger] Activate this card's [Main] effect.",
     "setName": "Purple Monkey.D.Luffy [ST-18]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP05-076_p1.png",
@@ -347,7 +374,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] If you have 8 or more DON!! cards on your field, rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "effect": {
+      "en": "[On Play] If you have 8 or more DON!! cards on your field, rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+      "it": "[On Play] Se hai 8 o più carte DON!! sul tuo campo, metti in stato spossato fino a 1 dei personaggi del tuo avversario con un costo pari o inferiore a 5."
+    },
     "trigger": null,
     "setName": "Purple Monkey.D.Luffy [ST-18]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST18-001.png",
@@ -380,7 +410,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] If you have 8 or more DON!! cards on your field, trash 1 card from your hand and draw 2 cards.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] If you have 8 or more DON!! cards on your field, trash 1 card from your hand and draw 2 cards.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On Play] Se hai 8 o più carte DON!! sul tuo campo, Manda nel Trash 1 carta dalla tua mano e pesca 2 carte."
+    },
     "trigger": null,
     "setName": "Purple Monkey.D.Luffy [ST-18]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST18-002.png",
@@ -414,7 +447,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[When Attacking] [Once Per Turn] If you have 8 or more DON!! cards on your field, draw 1 card.",
+    "effect": {
+      "en": "[When Attacking] [Once Per Turn] If you have 8 or more DON!! cards on your field, draw 1 card.",
+      "it": "[When Attacking] [Once Per Turn] Se hai 8 or more carte DON!! on your field, Pesca 1 carta."
+    },
     "trigger": null,
     "setName": "Purple Monkey.D.Luffy [ST-18]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST18-003.png",
@@ -448,7 +484,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 purple {Straw Hat Crew} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 purple {Straw Hat Crew} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta viola di tipo {Straw Hat Crew} e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": null,
     "setName": "Purple Monkey.D.Luffy [ST-18]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST18-004.png",
@@ -481,7 +520,10 @@
     "family": [
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 purple {Straw Hat Crew} type Character card with a cost of 5 or less from your hand.",
+    "effect": {
+      "en": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 purple {Straw Hat Crew} type Character card with a cost of 5 or less from your hand.",
+      "it": "[On Play] DON!! −1 (Puoi restituire il numero specificato di carte DON!! dal tuo campo al tuo mazzo DON!! .): Gioca fino a 1 carta Personaggio viola di tipo {Straw Hat Crew} con un costo pari o inferiore a 5 dalla tua mano."
+    },
     "trigger": null,
     "setName": "Purple Monkey.D.Luffy [ST-18]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST18-005.png",

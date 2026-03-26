@@ -1,5 +1,9 @@
 <script setup>
-import { fetchCardCountInCollection } from "@/api/collection";
+import {
+  fetchCardCountInCollection,
+  addCardToUserCollection,
+  removeCardToUserCollection,
+} from "@/api/collection";
 import { useMyBreakpoints } from "@/composables/useMyBreakpoints";
 import { useCardSort } from "@/composables/useCardSort";
 
@@ -97,6 +101,24 @@ const gridClass = computed(() => {
 });
 const hasCards = computed(() => sortedCards.value.length > 0);
 
+function syncCardCount(cardId, nextCount) {
+  const normalizedId = String(cardId ?? "");
+  const safeCount = Number.isInteger(Number(nextCount)) && Number(nextCount) >= 0 ? Number(nextCount) : 0;
+
+  filteredCards.value.forEach((card) => {
+    if (String(card?.id ?? "") !== normalizedId) return;
+    card.count = safeCount;
+    card.copiesInCollection = safeCount;
+    card._countLoaded = true;
+  });
+
+  if (String(props.selectedCard?.id ?? "") === normalizedId && props.selectedCard) {
+    props.selectedCard.count = safeCount;
+    props.selectedCard.copiesInCollection = safeCount;
+    props.selectedCard._countLoaded = true;
+  }
+}
+
 async function loadCountsForChunk(chunk) {
   const userId = userAuth.userLogged?.id;
   if (!userId) return;
@@ -116,6 +138,98 @@ async function loadCountsForChunk(chunk) {
     }),
   );
 }
+
+async function loadCollectionCountForCard(card) {
+  const existingCount = Number(card?.count ?? card?.copiesInCollection);
+  if (card?._countLoaded && Number.isInteger(existingCount) && existingCount >= 0) {
+    return existingCount;
+  }
+
+  const userId = userAuth.userLogged?.id;
+  if (!userId || !card?.id) {
+    return Number.isInteger(existingCount) && existingCount >= 0 ? existingCount : 0;
+  }
+
+  try {
+    const copies = await fetchCardCountInCollection(userId, card.id);
+    syncCardCount(card.id, copies);
+    return copies;
+  } catch {
+    const fallbackCount = Number.isInteger(existingCount) && existingCount >= 0 ? existingCount : 0;
+    syncCardCount(card.id, fallbackCount);
+    return fallbackCount;
+  }
+}
+
+async function addCardInCollection(card) {
+  const previousCount = Number(card?.count ?? card?.copiesInCollection) || 0;
+  const nextCount = previousCount + 1;
+  syncCardCount(card?.id, nextCount);
+
+  try {
+    await addCardToUserCollection(userAuth.userLogged.id, card.id);
+  } catch (error) {
+    syncCardCount(card?.id, previousCount);
+    snackbar.addMessage("Errore durante l'aggiunta alla collezione", "error", error?.message);
+  }
+}
+
+async function removeCardFromCollection(card) {
+  const previousCount = Number(card?.count ?? card?.copiesInCollection) || 0;
+
+  if (previousCount <= 0) {
+    syncCardCount(card?.id, 0);
+    return;
+  }
+
+  const nextCount = previousCount - 1;
+  syncCardCount(card?.id, nextCount);
+
+  try {
+    await removeCardToUserCollection(userAuth.userLogged.id, card.id);
+  } catch (error) {
+    syncCardCount(card?.id, previousCount);
+    snackbar.addMessage("Errore durante la rimozione dalla collezione", "error", error?.message);
+  }
+}
+
+async function loadViewerState(card) {
+  const collectionCount = await loadCollectionCountForCard(card);
+  const isSelectedCard = String(card?.id ?? "") === selectedCardKey.value;
+
+  if (showSelectedCardOnly.value && isSelectedCard) {
+    return {
+      collectionCount,
+      collectionInfo: selectedCardHelperMessage.value,
+      primaryActionHelper: props.availableCopies <= 0
+        ? "Questa carta non ha copie libere da mettere in vendita."
+        : "Conferma questa carta per usarla nella vendita.",
+    };
+  }
+
+  return {
+    collectionCount,
+    collectionInfo: collectionCount > 0
+      ? `Hai ${collectionCount} copie in collezione di questa carta.`
+      : "Al momento non hai copie in collezione di questa carta.",
+    primaryActionHelper: "Conferma questa carta per usarla nella vendita.",
+  };
+}
+
+const viewerContext = computed(() => ({
+  showPrice: true,
+  showCollectionSection: true,
+  showCollectionActions: true,
+  collectionTitle: "Gestisci la tua collezione",
+  loadState: loadViewerState,
+  onAddCollection: addCardInCollection,
+  onRemoveCollection: removeCardFromCollection,
+  primaryActionLabel: "SCEGLI",
+  primaryActionIcon: "mdi:check-bold",
+  primaryActionDisabled: showSelectedCardOnly.value && props.availableCopies <= 0,
+  onPrimaryAction: handleCardSelection,
+  closeOnPrimaryAction: true,
+}));
 
 function handleFilteredUpdate(nextFilteredCards) {
   filteredCards.value = [...nextFilteredCards];
@@ -315,6 +429,7 @@ defineExpose({
       v-model:show="viewerOpen"
       v-model:index="viewerIndex"
       :cards="sortedCards"
+      :context="viewerContext"
       @close="viewerOpen = false"
     />
   </div>

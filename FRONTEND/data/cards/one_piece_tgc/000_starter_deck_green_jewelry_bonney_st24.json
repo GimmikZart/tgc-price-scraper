@@ -14,7 +14,10 @@
       "Supernovas",
       "On-Air Pirates"
     ],
-    "effect": "[On Play] Rest up to 1 of your opponent's Characters with a cost of 2 or less.",
+    "effect": {
+      "en": "[On Play] Rest up to 1 of your opponent's Characters with a cost of 2 or less.",
+      "it": "[On Play] Metti in stato spossato fino a 1 personaggio del tuo avversario con un costo pari o inferiore a 2."
+    },
     "trigger": null,
     "setName": "GREEN Jewelry Bonney [ST-24]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/EB01-015_p3.png",
@@ -48,7 +51,10 @@
       "Supernovas",
       "Bonney Pirates"
     ],
-    "effect": "[On Your Opponent's Attack] [Once Per Turn] You may rest 1 of your DON!! cards: Rest up to 1 of your opponent's Leader or Character cards.",
+    "effect": {
+      "en": "[On Your Opponent's Attack] [Once Per Turn] You may rest 1 of your DON!! cards: Rest up to 1 of your opponent's Leader or Character cards.",
+      "it": "[On Your Opponent's Attack] [Once Per Turn] Puoi mettere in stato spossato 1 delle tue carte DON!! : metti in stato spossato fino a 1 delle carte Leader o Personaggio del tuo avversario."
+    },
     "trigger": null,
     "setName": "GREEN Jewelry Bonney [ST-24]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-019_p3.png",
@@ -83,7 +89,10 @@
       "Supernovas",
       "Fallen Monk Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[End of Your Turn] Set up to 1 of your DON!! cards as active.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[End of Your Turn] Set up to 1 of your DON!! cards as active.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[End of Your Turn] Imposta fino a 1 delle tue carte DON!! come attivo."
+    },
     "trigger": null,
     "setName": "GREEN Jewelry Bonney [ST-24]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-021_r1.png",
@@ -118,7 +127,10 @@
       "Supernovas",
       "Caribou Pirates"
     ],
-    "effect": "If you have 6 or more rested DON!! cards, this Character gains +1000 power.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": {
+      "en": "If you have 6 or more rested DON!! cards, this Character gains +1000 power.[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+      "it": "Se hai 6 o più in stato spossato carte DON!! , Questo Personaggio guadagna +1000 power. [Blocker] (dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)"
+    },
     "trigger": null,
     "setName": "GREEN Jewelry Bonney [ST-24]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-023_r1.png",
@@ -152,7 +164,10 @@
       "Supernovas",
       "Caribou Pirates"
     ],
-    "effect": "[On Play] Play up to 1 [Caribou] with a cost of 4 or less from your hand rested.",
+    "effect": {
+      "en": "[On Play] Play up to 1 [Caribou] with a cost of 4 or less from your hand rested.",
+      "it": "[On Play] Gioca fino a 1 [Caribou] con un costo pari o inferiore a 4 dalla tua mano in stato spossato."
+    },
     "trigger": null,
     "setName": "GREEN Jewelry Bonney [ST-24]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-025_r1.png",
@@ -186,7 +201,10 @@
       "Supernovas",
       "Barto Club"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Your Turn] [Once Per Turn] If a Character is rested by your effect, draw 1 card and trash 1 card from your hand.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[Your Turn] [Once Per Turn] If a Character is rested by your effect, draw 1 card and trash 1 card from your hand.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[Your Turn] [Once Per Turn] Se un personaggio è fermato dal tuo effetto, pesca 1 carta e Manda nel Trash 1 carta dalla tua mano."
+    },
     "trigger": null,
     "setName": "GREEN Jewelry Bonney [ST-24]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-031_r1.png",
@@ -222,7 +240,10 @@
       "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "If you have 3 or more Characters, your Characters with a cost of 3 or less other than [Monkey.D.Luffy] cannot be K.O.'d by your opponent's effects.",
+    "effect": {
+      "en": "If you have 3 or more Characters, your Characters with a cost of 3 or less other than [Monkey.D.Luffy] cannot be K.O.'d by your opponent's effects.",
+      "it": "Se hai 3 o più Personaggi, i tuoi Personaggi con un costo pari o inferiore a 3 diverso da [Monkey.D.Luffy] non possono essere K. O. dagli effetti del tuo avversario."
+    },
     "trigger": null,
     "setName": "GREEN Jewelry Bonney [ST-24]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-033_r1.png",
@@ -253,7 +274,10 @@
       "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "[When Attacking] If you have 3 or more Characters, this Character gains +2000 power during this turn.",
+    "effect": {
+      "en": "[When Attacking] If you have 3 or more Characters, this Character gains +2000 power during this turn.",
+      "it": "[When Attacking] Se hai 3 o più personaggi, Questo Personaggio guadagna +2000 power durante questo turno."
+    },
     "trigger": null,
     "setName": "GREEN Jewelry Bonney [ST-24]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-034_r1.png",
@@ -287,7 +311,10 @@
       "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "[Main] Up to 1 of your Leader or Character cards gains +3000 power during this turn. Then, you may rest 1 of your Characters with a cost of 3 or more. If you do, rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "effect": {
+      "en": "[Main] Up to 1 of your Leader or Character cards gains +3000 power during this turn. Then, you may rest 1 of your Characters with a cost of 3 or more. If you do, rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+      "it": "[Main] Fino a 1 delle tue carte Leader o Personaggio guadagna +3000 power durante questo turno. Poi, puoi mettere in stato spossato 1 dei tuoi Personaggi con un costo pari o superiore a 3. Se lo fai, metti in stato spossato fino a 1 personaggio del tuo avversario con un costo pari o inferiore a 5."
+    },
     "trigger": "Trigger[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "setName": "GREEN Jewelry Bonney [ST-24]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-036_p1.png",
@@ -321,7 +348,10 @@
       "Supernovas",
       "Bonney Pirates"
     ],
-    "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type card other than [More Pizza!!] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": {
+      "en": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type card other than [More Pizza!!] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+      "it": "[Main] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Supernovas} diversa da [More Pizza!!] e aggiungila alla tua mano. Poi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine."
+    },
     "trigger": "Trigger[Trigger] Draw 1 card.",
     "setName": "GREEN Jewelry Bonney [ST-24]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP07-037_r1.png",
@@ -355,7 +385,10 @@
       "Supernovas",
       "Firetank Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] If you have 6 or more rested cards, draw 1 card and trash 1 card from your hand.",
+    "effect": {
+      "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] If you have 6 or more rested cards, draw 1 card and trash 1 card from your hand.",
+      "it": "[Blocker] (Dopo che il tuo avversario ha dichiarato un attacco, puoi mettere in stato spossato questa carta per renderla il nuovo bersaglio dell'attacco.)[On Play] Se hai 6 o più carte in stato spossato, pesca 1 carta e Manda nel Trash 1 carta dalla tua mano."
+    },
     "trigger": null,
     "setName": "GREEN Jewelry Bonney [ST-24]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST24-001.png",
@@ -390,7 +423,10 @@
       "Supernovas",
       "Kid Pirates"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.[On Your Opponent's Attack] You may trash this Character: Set up to 1 of your DON!! cards as active.",
+    "effect": {
+      "en": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.[On Your Opponent's Attack] You may trash this Character: Set up to 1 of your DON!! cards as active.",
+      "it": "[On Play] Guarda 5 carte dalla cima del tuo mazzo; rivela fino a 1 carta di tipo {Supernovas} e aggiungila alla tua mano. Quindi, posiziona il resto in fondo al tuo mazzo in qualsiasi ordine. [On Your Opponent's Attack] Puoi mandare nel Trash questo personaggio: impostare fino a 1 delle tue carte DON!! come attivo."
+    },
     "trigger": null,
     "setName": "GREEN Jewelry Bonney [ST-24]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST24-002.png",
@@ -425,7 +461,10 @@
       "Supernovas",
       "Hawkins Pirates"
     ],
-    "effect": "[End of Your Turn] Set up to 1 of your DON!! cards as active.",
+    "effect": {
+      "en": "[End of Your Turn] Set up to 1 of your DON!! cards as active.",
+      "it": "[End of Your Turn] Imposta fino a 1 delle tue carte DON!! come attivi."
+    },
     "trigger": null,
     "setName": "GREEN Jewelry Bonney [ST-24]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST24-003.png",
@@ -460,7 +499,10 @@
       "Supernovas",
       "Heart Pirates"
     ],
-    "effect": "[On Play] Rest up to 1 of your opponent's Characters and that Character will not become active in your opponent's next Refresh Phase. Then, if your opponent has 2 or more rested Characters, your Leader gains +2000 power until the end of your opponent's next End Phase.",
+    "effect": {
+      "en": "[On Play] Rest up to 1 of your opponent's Characters and that Character will not become active in your opponent's next Refresh Phase. Then, if your opponent has 2 or more rested Characters, your Leader gains +2000 power until the end of your opponent's next End Phase.",
+      "it": "[On Play] Metti in stato spossato fino a 1 personaggio del tuo avversario e quel personaggio non diventerà attivo nella successiva fase di aggiornamento del tuo avversario. Poi, se il tuo avversario ha 2 o più Personaggi in stato spossato, il tuo Leader guadagna +2000 power fino alla fine della prossima End Phase del tuo avversario."
+    },
     "trigger": null,
     "setName": "GREEN Jewelry Bonney [ST-24]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST24-004.png",
@@ -495,7 +537,10 @@
       "Navy",
       "Drake Pirates"
     ],
-    "effect": "[On Play] If your Leader has the {Supernovas} type, rest up to 1 of your opponent's Characters with a cost of 5 or less. Then, set up to 1 of your DON!! cards as active at the end of this turn.",
+    "effect": {
+      "en": "[On Play] If your Leader has the {Supernovas} type, rest up to 1 of your opponent's Characters with a cost of 5 or less. Then, set up to 1 of your DON!! cards as active at the end of this turn.",
+      "it": "[On Play] Se il tuo Leader è di tipo {Supernovas}, metti in stato spossato fino a 1 dei Personaggi del tuo avversario con un costo pari o inferiore a 5. Poi, imposta fino a 1 delle tue carte DON!! come attivi alla fine di questo turno."
+    },
     "trigger": null,
     "setName": "GREEN Jewelry Bonney [ST-24]",
     "image": "https://en.onepiece-cardgame.com/images/cardlist/card/ST24-005.png",

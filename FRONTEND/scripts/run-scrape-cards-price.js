@@ -134,10 +134,6 @@ function log(type, payload) {
   console.log(`[${new Date().toISOString()}] [${type}] ${message}`);
 }
 
-function getSbService() {
-  return createSupabaseServiceClientFromEnv();
-}
-
 async function readPriceIndexFromStorage() {
   const client = createSupabaseServiceClientFromEnv();
   const json = await downloadJsonObject(client, DATA_BUCKET, getGamePricesObjectPath(GAME_SLUG));
@@ -170,17 +166,6 @@ async function uploadPriceIndexToStorage(priceIndexMap) {
     priceRows: rows,
   });
   log("save", `Price index caricato su Supabase Storage: bucket=${DATA_BUCKET}, object=${getGamePricesObjectPath(GAME_SLUG)} (entries=${rows.length})`);
-}
-
-async function updateCardPrice(cardId, price) {
-  const client = getSbService();
-  const { error } = await client
-    .from("cards")
-    .update({ cardtrader_avg_price: price })
-    .eq("card_id", cardId);
-
-  if (error) throw new Error(error.message);
-  log("db", `Aggiornato card_id=${cardId} -> ${price}`);
 }
 
 async function launchBrowser() {
@@ -439,9 +424,7 @@ export async function main() {
               const now = Date.now();
               const priceCents = toCents(price);
 
-              if (card.id != null) {
-                await updateCardPrice(card.id, price);
-              } else {
+              if (card.id == null) {
                 log("warn", `card.id mancante per "${card.name || card.code}"`);
               }
 

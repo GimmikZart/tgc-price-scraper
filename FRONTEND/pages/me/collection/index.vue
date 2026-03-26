@@ -92,16 +92,58 @@ function handleFilteredUpdate(newFiltered) {
 
 const sortedCards = computed(() => sort.applySort(filteredCards.value))
 
+function removeCardFromLocalLists(cardId) {
+  const keepCard = (item) => item.id !== cardId;
+
+  filteredCards.value = filteredCards.value.filter(keepCard);
+  visibleCards.value = visibleCards.value.filter(keepCard);
+
+  if (Array.isArray(userCollection.value)) {
+    userCollection.value = userCollection.value.filter(keepCard);
+  }
+}
+
 async function addCardInCollection(card) {
-  card.count = (card.count || 0) + 1;
-  await addCardToUserCollection(userAuth.userLogged.id, card.id);
+  const previousCount = Number(card.count) || 0;
+  card.count = previousCount + 1;
+
+  try {
+    await addCardToUserCollection(userAuth.userLogged.id, card.id);
+  } catch (error) {
+    card.count = previousCount;
+    snackbar.addMessage(
+      "Errore durante l'aggiunta alla collezione",
+      "error",
+      error?.message
+    );
+  }
 }
 
 async function removeCardFromCollection(card) {
-  // 1) update ottimistico
-  card.count = Math.max(0, (card.count || 0) - 1);
-  // 2) chiama API
-  await removeCardToUserCollection(userAuth.userLogged.id, card.id);
+  const previousCount = Number(card.count) || 0;
+
+  if (previousCount <= 0) {
+    card.count = 0;
+    return;
+  }
+
+  const nextCount = previousCount - 1;
+  card.count = nextCount;
+
+  try {
+    await removeCardToUserCollection(userAuth.userLogged.id, card.id);
+
+    if (nextCount === 0) {
+      removeCardFromLocalLists(card.id);
+    }
+  } catch (error) {
+    card.count = previousCount;
+    snackbar.addMessage(
+      "Errore durante la rimozione dalla collezione",
+      "error",
+      error?.message
+    );
+  }
 }
 
 // Carica i count solo per i NUOVI item che entrano nel buffer

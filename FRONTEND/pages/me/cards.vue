@@ -10,11 +10,11 @@ import {
   addCardToUserCollection,
   removeCardToUserCollection,
 } from "@/api/collection";
-import { fetchCardPrice } from "@/api/cards";
 
 import { useScrollAnchor } from "~/composables/useScrollAnchor"; 
 
 const userAuth = useUserAuth();
+const snackbar = useSnackbar();
 
 const { allCards } = await useOnePieceCards();
 const { isMobile, isTablet, isDesktop } = useMyBreakpoints();
@@ -68,13 +68,41 @@ async function loadCountsForChunk(chunk) {
 }
 
 async function addCardInCollection(card) {
-  card.count = ++card.count;
-  await addCardToUserCollection(userAuth.userLogged.id, card.id);
+  const previousCount = Number(card.count) || 0;
+  card.count = previousCount + 1;
+
+  try {
+    await addCardToUserCollection(userAuth.userLogged.id, card.id);
+  } catch (error) {
+    card.count = previousCount;
+    snackbar.addMessage(
+      "Errore durante l'aggiunta alla collezione",
+      "error",
+      error?.message
+    );
+  }
 }
 
 async function removeCardInCollection(card) {
-  card.count = --card.count;
-  await removeCardToUserCollection(userAuth.userLogged.id, card.id);
+  const previousCount = Number(card.count) || 0;
+
+  if (previousCount <= 0) {
+    card.count = 0;
+    return;
+  }
+
+  card.count = previousCount - 1;
+
+  try {
+    await removeCardToUserCollection(userAuth.userLogged.id, card.id);
+  } catch (error) {
+    card.count = previousCount;
+    snackbar.addMessage(
+      "Errore durante la rimozione dalla collezione",
+      "error",
+      error?.message
+    );
+  }
 }
 
 const gridSystem = computed(() => {

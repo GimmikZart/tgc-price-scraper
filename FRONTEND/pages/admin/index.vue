@@ -26,7 +26,6 @@ async function scrapeAllPrices() {
       <!-- <v-btn height="100px" to="/stores">Vai a Negozi</v-btn>
       <v-btn height="100px" to="/games">Vai a Giochi</v-btn>
       <v-btn height="100px" to="/brands">Vai a Brands</v-btn> -->
-      <AdminActionsUpdateCardsListOnDb height="100px" />
       <v-btn to="admin/set-illustration-type">SETTA ILLUSTRAZIONI</v-btn>
       <v-btn to="admin/set-price-services">SETTA SLUGS SERVIZI PREZZI</v-btn>
       <v-btn @click="scrapeAllPrices">SCRAPA PREZZI</v-btn>

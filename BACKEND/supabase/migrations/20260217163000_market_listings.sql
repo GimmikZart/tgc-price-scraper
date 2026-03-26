@@ -21,9 +21,6 @@ CREATE INDEX sell_listings_active_seller_idx ON public.sell_listings USING btree
 
 alter table "public"."sell_listings" add constraint "sell_listings_pkey" PRIMARY KEY using index "sell_listings_pkey";
 
-alter table "public"."sell_listings" add constraint "sell_listings_card_id_fkey" FOREIGN KEY (card_id) REFERENCES cards(card_id) ON UPDATE CASCADE ON DELETE CASCADE not valid;
-alter table "public"."sell_listings" validate constraint "sell_listings_card_id_fkey";
-
 alter table "public"."sell_listings" add constraint "sell_listings_seller_uuid_fkey" FOREIGN KEY (seller_uuid) REFERENCES auth.users(id) ON UPDATE CASCADE ON DELETE CASCADE not valid;
 alter table "public"."sell_listings" validate constraint "sell_listings_seller_uuid_fkey";
 

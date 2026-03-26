@@ -11,7 +11,6 @@ import {
   conditionOptions,
   getConditionMeta,
 } from "@/utilities/enums/conditions";
-import { formatCoordinatesLabel, normalizeCoordinates } from "@/utilities/geo";
 
 const SELL_STEPS = Object.freeze([
   { key: "card", label: "Carta" },
@@ -119,8 +118,7 @@ const locationSummaryLabel = computed(() => {
   const explicitLabel = String(location.value?.label ?? "").trim();
   if (explicitLabel) return explicitLabel;
 
-  const coordinates = normalizeCoordinates(location.value);
-  if (coordinates) return `Coordinate selezionate: ${formatCoordinatesLabel(coordinates, 5)}`;
+  if (location.value?.latitude != null && location.value?.longitude != null) return "Posizione selezionata";
   return "Luogo non selezionato";
 });
 const putOnSalePriceValue = computed(() => {
@@ -785,9 +783,9 @@ definePageMeta({
         <section :ref="(element) => setStepPaneRef(4, element)" class="sell-create-pane sell-create-pane--map px-3 pt-3">
           <WizardLocationStep
             v-model="locationModel"
-            eyebrow="Step 5"
-            title="Indica il luogo di vendita"
-            description="Tocca, trascina o cerca un indirizzo."
+            eyebrow="STEP 5"
+            title="Indica il luogo per la vendita"
+            description="tocca, trascina o cerca un indirizzo"
             ready-label="Luogo pronto"
             current-position-label="Mia posizione"
             :invalid="!hasLocation && hasTouchedStep('location')"

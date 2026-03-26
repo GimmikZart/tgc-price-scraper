@@ -3,7 +3,6 @@ import { useGeoapify } from "@/composables/useGeoapify";
 import { useMyBreakpoints } from "@/composables/useMyBreakpoints";
 import {
   DEFAULT_USER_LOCATION,
-  formatCoordinatesLabel,
   areCoordinatesEqual,
   normalizeCoordinates,
   roundCoordinatesPair,
@@ -54,6 +53,10 @@ const props = defineProps({
     type: String,
     default: "20.75rem",
   },
+  autoUseCurrentPosition: {
+    type: Boolean,
+    default: true,
+  },
 });
 
 const emit = defineEmits(["update:modelValue", "interact"]);
@@ -68,6 +71,8 @@ const isResolvingAddress = ref(false);
 const isUsingCurrentPosition = ref(false);
 const helperMessage = ref("");
 const helperTone = ref("neutral");
+const isSearchAccordionOpen = ref(false);
+const hasAttemptedAutoLocation = ref(false);
 
 let autocompleteTimer = null;
 let reverseLookupToken = 0;
@@ -75,33 +80,37 @@ let isDisposed = false;
 
 const selectedCoordinates = computed(() => normalizeCoordinates(props.modelValue));
 const hasSelectedLocation = computed(() => Boolean(selectedCoordinates.value));
-const locationStatusLabel = computed(() => {
+const explicitLocationLabel = computed(() => {
   const explicitLabel = typeof props.modelValue?.label === "string"
     ? props.modelValue.label.trim()
     : "";
 
   if (explicitLabel) return explicitLabel;
-  if (selectedCoordinates.value) return `Coordinate selezionate: ${formatCoordinatesLabel(selectedCoordinates.value, 5)}`;
   return "";
 });
+const currentAddressLabel = computed(() => {
+  if (explicitLocationLabel.value) return explicitLocationLabel.value;
+  if (isUsingCurrentPosition.value || isResolvingAddress.value) return "Recupero indirizzo...";
+  if (hasSelectedLocation.value) return "Indirizzo selezionato";
+  return "Posizione attuale non disponibile";
+});
 const showStatus = computed(() => {
-  return Boolean(
-    locationStatusLabel.value
-    || helperMessage.value
-    || isResolvingAddress.value
-    || props.invalid,
-  );
+  return Boolean(helperMessage.value || props.invalid);
 });
 const statusClass = computed(() => {
   if (props.invalid) return "location-wizard-step__status--error";
   if (helperTone.value === "error") return "location-wizard-step__status--error";
   if (helperTone.value === "warning") return "location-wizard-step__status--warning";
-  if (hasSelectedLocation.value) return "location-wizard-step__status--success";
   return "";
 });
 const panelStyle = computed(() => ({
   "--location-wizard-panel-width": props.maxPanelWidth,
 }));
+const currentAddressClass = computed(() => (
+  explicitLocationLabel.value
+    ? ""
+    : "location-wizard-step__current-address--placeholder"
+));
 
 const mapSelectionModel = computed({
   get() {
@@ -110,7 +119,7 @@ const mapSelectionModel = computed({
   set(value) {
     if (!value) return;
     markInteracted();
-    addressSuggestions.value = [];
+    closeSearchAccordion();
     void commitCoordinates(value, { source: "map" });
   },
 });
@@ -121,6 +130,20 @@ function markInteracted() {
 
 function emitLocation(nextValue) {
   emit("update:modelValue", nextValue);
+}
+
+function closeSearchAccordion() {
+  isSearchAccordionOpen.value = false;
+  addressSuggestions.value = [];
+}
+
+function toggleSearchAccordion() {
+  isSearchAccordionOpen.value = !isSearchAccordionOpen.value;
+
+  if (!isSearchAccordionOpen.value) {
+    clearAutocompleteTimer();
+    addressSuggestions.value = [];
+  }
 }
 
 function clearAutocompleteTimer() {
@@ -139,9 +162,9 @@ function syncAddressInputFromModel() {
     return;
   }
 
-  addressInput.value = selectedCoordinates.value
-    ? formatCoordinatesLabel(selectedCoordinates.value, 5)
-    : "";
+  if (!selectedCoordinates.value) {
+    addressInput.value = "";
+  }
 }
 
 async function resolveAddressFromCoordinates(coordinates) {
@@ -183,7 +206,11 @@ async function commitCoordinates(rawCoordinates, { source = null, label = "" } =
     source,
   });
 
-  addressInput.value = resolvedLabel || formatCoordinatesLabel(coordinates, 5);
+  if (resolvedLabel) {
+    addressInput.value = resolvedLabel;
+  } else if (source !== "address") {
+    addressInput.value = "";
+  }
 
   if (!resolvedLabel) {
     const reverseResult = await resolveAddressFromCoordinates(coordinates);
@@ -255,7 +282,7 @@ function handleAddressInput(value) {
 async function handleAddressSelection(suggestion) {
   markInteracted();
   clearAutocompleteTimer();
-  addressSuggestions.value = [];
+  closeSearchAccordion();
 
   await commitCoordinates(
     { lat: suggestion?.lat, lng: suggestion?.lng },
@@ -301,7 +328,14 @@ async function handleManualAddressSubmit() {
   }
 }
 
-async function handleUseCurrentPosition() {
+function resolveGeolocationErrorMessage(error) {
+  if (error?.code === 1) return "Permesso posizione non concesso.";
+  if (error?.code === 2) return "Posizione non disponibile in questo momento.";
+  if (error?.code === 3) return "Richiesta posizione scaduta.";
+  return "Impossibile recuperare la posizione attuale.";
+}
+
+async function handleUseCurrentPosition({ markAsInteracted = true, closeAccordionOnStart = true } = {}) {
   if (isDisposed || isUsingCurrentPosition.value) return;
 
   if (typeof navigator === "undefined" || !navigator?.geolocation) {
@@ -310,9 +344,15 @@ async function handleUseCurrentPosition() {
     return;
   }
 
-  markInteracted();
+  if (markAsInteracted) {
+    markInteracted();
+  }
+
+  if (closeAccordionOnStart) {
+    closeSearchAccordion();
+  }
+
   clearAutocompleteTimer();
-  addressSuggestions.value = [];
   helperMessage.value = "";
   helperTone.value = "neutral";
   isUsingCurrentPosition.value = true;
@@ -343,7 +383,7 @@ async function handleUseCurrentPosition() {
     (error) => {
       if (isDisposed) return;
       isUsingCurrentPosition.value = false;
-      helperMessage.value = error?.message || "Impossibile recuperare la posizione attuale.";
+      helperMessage.value = resolveGeolocationErrorMessage(error);
       helperTone.value = "error";
     },
     {
@@ -370,6 +410,15 @@ watch(
   },
 );
 
+onMounted(() => {
+  if (!props.autoUseCurrentPosition || hasSelectedLocation.value || hasAttemptedAutoLocation.value) return;
+  hasAttemptedAutoLocation.value = true;
+  void handleUseCurrentPosition({
+    markAsInteracted: false,
+    closeAccordionOnStart: false,
+  });
+});
+
 onBeforeUnmount(() => {
   isDisposed = true;
   reverseLookupToken += 1;
@@ -395,104 +444,116 @@ onBeforeUnmount(() => {
       />
 
       <div class="location-wizard-step__overlay">
-        <div class="location-wizard-step__panel" :style="panelStyle">
-          <div class="location-wizard-step__header">
-            <div class="location-wizard-step__headline">
-              <p v-if="eyebrow" class="location-wizard-step__eyebrow">{{ eyebrow }}</p>
-              <p class="location-wizard-step__title">{{ title }}</p>
-              <p v-if="description" class="location-wizard-step__description">{{ description }}</p>
+        <div class="location-wizard-step__top">
+          <div class="location-wizard-step__panel" :style="panelStyle">
+            <div class="location-wizard-step__header">
+              <div class="location-wizard-step__headline">
+                <div class="location-wizard-step__header-line">
+                  <p v-if="eyebrow" class="location-wizard-step__eyebrow">{{ eyebrow }}</p>
+
+                  <v-chip
+                    v-if="hasSelectedLocation"
+                    size="x-small"
+                    color="green"
+                    variant="flat"
+                    label
+                  >
+                    {{ readyLabel }}
+                  </v-chip>
+                </div>
+
+                <p class="location-wizard-step__title">{{ title }}</p>
+                <p v-if="description" class="location-wizard-step__description">{{ description }}</p>
+                <p class="location-wizard-step__current-address" :class="currentAddressClass">
+                  {{ currentAddressLabel }}
+                </p>
+              </div>
             </div>
-
-            <v-chip
-              v-if="hasSelectedLocation"
-              size="x-small"
-              color="green"
-              variant="flat"
-              label
-            >
-              {{ readyLabel }}
-            </v-chip>
           </div>
+        </div>
 
-          <div class="location-wizard-step__position-row">
-            <button
-              type="button"
-              class="location-wizard-step__position-button"
-              :disabled="isUsingCurrentPosition"
-              @click="handleUseCurrentPosition"
-            >
-              <v-icon size="15">{{ isUsingCurrentPosition ? "mdi-loading mdi-spin" : "mdi-crosshairs-gps" }}</v-icon>
-              <span>{{ isUsingCurrentPosition ? currentPositionLoadingLabel : currentPositionLabel }}</span>
-            </button>
-          </div>
-
-          <div class="location-wizard-step__search-shell">
-            <form class="location-wizard-step__search-form" @submit.prevent="handleManualAddressSubmit">
-              <input
-                :value="addressInput"
-                type="text"
-                :placeholder="searchPlaceholder"
-                class="location-wizard-step__search-field"
-                autocomplete="off"
-                @input="handleAddressInput($event?.target?.value)"
-              >
-              <button
-                type="submit"
-                aria-label="Cerca indirizzo"
-                class="location-wizard-step__search-button"
-              >
-                <v-icon size="17">mdi-magnify</v-icon>
-              </button>
-            </form>
-
+        <div class="location-wizard-step__dock">
+          <v-expand-transition>
             <div
-              v-if="isLoadingSuggestions || addressSuggestions.length > 0"
-              class="location-wizard-step__suggestions"
+              v-show="isSearchAccordionOpen"
+              class="location-wizard-step__search-shell"
             >
-              <p v-if="isLoadingSuggestions" class="location-wizard-step__suggestion-state">
-                Ricerca indirizzi...
-              </p>
-              <button
-                v-for="suggestion in addressSuggestions"
-                :key="suggestion.id"
-                type="button"
-                class="location-wizard-step__suggestion"
-                @click="handleAddressSelection(suggestion)"
-              >
-                <span class="location-wizard-step__suggestion-label">
-                  {{ suggestion.formatted ?? suggestion.label }}
-                </span>
-                <span class="location-wizard-step__suggestion-meta">
-                  {{ formatCoordinatesLabel(suggestion, 5) }}
-                </span>
-              </button>
-            </div>
+              <div class="location-wizard-step__search-actions">
+                <button
+                  type="button"
+                  class="location-wizard-step__position-button"
+                  :disabled="isUsingCurrentPosition"
+                  @click="handleUseCurrentPosition"
+                >
+                  <v-icon size="15">{{ isUsingCurrentPosition ? "mdi-loading mdi-spin" : "mdi-crosshairs-gps" }}</v-icon>
+                  <span>{{ isUsingCurrentPosition ? currentPositionLoadingLabel : currentPositionLabel }}</span>
+                </button>
 
-            <div
-              v-if="showStatus"
-              class="location-wizard-step__status"
-              :class="statusClass"
-            >
-              <p v-if="isResolvingAddress" class="location-wizard-step__status-line">
-                Recupero indirizzo...
-              </p>
-              <p v-else-if="locationStatusLabel" class="location-wizard-step__status-line">
-                {{ locationStatusLabel }}
-              </p>
-              <p
-                v-if="hasSelectedLocation"
-                class="location-wizard-step__status-coordinates"
+                <form class="location-wizard-step__search-form" @submit.prevent="handleManualAddressSubmit">
+                  <input
+                    :value="addressInput"
+                    type="text"
+                    :placeholder="searchPlaceholder"
+                    class="location-wizard-step__search-field"
+                    autocomplete="off"
+                    @input="handleAddressInput($event?.target?.value)"
+                  >
+                  <button
+                    type="submit"
+                    aria-label="Cerca indirizzo"
+                    class="location-wizard-step__search-button"
+                  >
+                    <v-icon size="17">mdi-magnify</v-icon>
+                  </button>
+                </form>
+              </div>
+
+              <div
+                v-if="isLoadingSuggestions || addressSuggestions.length > 0"
+                class="location-wizard-step__suggestions"
               >
-                {{ formatCoordinatesLabel(selectedCoordinates, 5) }}
-              </p>
-              <p v-if="helperMessage" class="location-wizard-step__status-line">
-                {{ helperMessage }}
-              </p>
-              <p v-if="invalid" class="location-wizard-step__status-line location-wizard-step__status-line--error">
-                {{ invalidMessage }}
-              </p>
+                <p v-if="isLoadingSuggestions" class="location-wizard-step__suggestion-state">
+                  Ricerca indirizzi...
+                </p>
+                <button
+                  v-for="suggestion in addressSuggestions"
+                  :key="suggestion.id"
+                  type="button"
+                  class="location-wizard-step__suggestion"
+                  @click="handleAddressSelection(suggestion)"
+                >
+                  <span class="location-wizard-step__suggestion-label">
+                    {{ suggestion.formatted ?? suggestion.label }}
+                  </span>
+                </button>
+              </div>
+
+              <div
+                v-if="showStatus"
+                class="location-wizard-step__status"
+                :class="statusClass"
+              >
+                <p v-if="helperMessage" class="location-wizard-step__status-line">
+                  {{ helperMessage }}
+                </p>
+                <p v-if="invalid" class="location-wizard-step__status-line location-wizard-step__status-line--error">
+                  {{ invalidMessage }}
+                </p>
+              </div>
             </div>
-          </div>
+          </v-expand-transition>
+
+          <button
+            type="button"
+            class="location-wizard-step__search-trigger"
+            :aria-expanded="isSearchAccordionOpen ? 'true' : 'false'"
+            @click="toggleSearchAccordion"
+          >
+            <span>Cerca</span>
+            <v-icon size="15">
+              {{ isSearchAccordionOpen ? "mdi-chevron-down" : "mdi-chevron-up" }}
+            </v-icon>
+          </button>
         </div>
       </div>
     </div>
@@ -523,10 +584,18 @@ onBeforeUnmount(() => {
 
 .location-wizard-step__overlay {
   position: absolute;
-  inset-inline: 0;
-  top: 0.5rem;
+  inset: 0;
   z-index: 650;
-  padding: 0 0.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.5rem 0.75rem 0.75rem;
+  pointer-events: none;
+}
+
+.location-wizard-step__top,
+.location-wizard-step__dock {
+  pointer-events: auto;
 }
 
 .location-wizard-step__panel {
@@ -538,19 +607,23 @@ onBeforeUnmount(() => {
   box-shadow:
     inset 0 1px 0 rgba(255, 255, 255, 0.08),
     0 14px 22px rgba(0, 0, 0, 0.28);
-  padding: 0.7rem;
+  padding: 0.75rem 0.8rem;
   backdrop-filter: blur(20px);
 }
 
 .location-wizard-step__header {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 0.75rem;
+  display: block;
 }
 
 .location-wizard-step__headline {
   min-width: 0;
+}
+
+.location-wizard-step__header-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
 }
 
 .location-wizard-step__eyebrow {
@@ -577,15 +650,33 @@ onBeforeUnmount(() => {
   line-height: 1.35;
 }
 
-.location-wizard-step__position-row {
-  margin-top: 0.7rem;
+.location-wizard-step__current-address {
+  margin: 0.42rem 0 0;
+  color: rgba(248, 250, 252, 0.97);
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.location-wizard-step__current-address--placeholder {
+  color: rgba(226, 232, 240, 0.76);
+}
+
+.location-wizard-step__dock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.55rem;
+  margin-bottom: 1rem;
 }
 
 .location-wizard-step__position-button {
-  display: inline-flex;
+  display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.35rem;
-  min-height: 2rem;
+  width: 100%;
+  min-height: 2.15rem;
   border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.05);
@@ -611,14 +702,19 @@ onBeforeUnmount(() => {
 }
 
 .location-wizard-step__search-shell {
-  margin-top: 0.7rem;
+  width: min(100%, 24rem);
   border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 0.95rem;
+  border-radius: 1rem;
   background: linear-gradient(160deg, rgba(8, 12, 20, 0.95), rgba(2, 5, 10, 0.98));
   box-shadow:
     inset 0 1px 0 rgba(255, 255, 255, 0.08),
     0 12px 18px rgba(0, 0, 0, 0.24);
-  padding: 0.4rem;
+  padding: 0.5rem;
+}
+
+.location-wizard-step__search-actions {
+  display: grid;
+  gap: 0.5rem;
 }
 
 .location-wizard-step__search-form {
@@ -668,6 +764,30 @@ onBeforeUnmount(() => {
   backdrop-filter: blur(18px);
 }
 
+.location-wizard-step__search-trigger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.32rem;
+  min-height: 2rem;
+  border: 1px solid rgba(255, 178, 125, 0.34);
+  border-radius: 999px;
+  background: rgba(8, 12, 20, 0.86);
+  color: #ffe7d1;
+  font-size: 0.74rem;
+  font-weight: 800;
+  padding: 0.42rem 0.95rem;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    0 10px 18px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(16px);
+}
+
+.location-wizard-step__search-trigger:hover {
+  border-color: rgba(255, 178, 125, 0.46);
+  background: rgba(255, 122, 24, 0.16);
+}
+
 .location-wizard-step__suggestions {
   display: grid;
   gap: 0.25rem;
@@ -681,8 +801,7 @@ onBeforeUnmount(() => {
 }
 
 .location-wizard-step__suggestion-state,
-.location-wizard-step__status-line,
-.location-wizard-step__status-coordinates {
+.location-wizard-step__status-line {
   margin: 0;
 }
 
@@ -718,14 +837,6 @@ onBeforeUnmount(() => {
   line-height: 1.3;
 }
 
-.location-wizard-step__suggestion-meta,
-.location-wizard-step__status-coordinates {
-  color: rgba(148, 163, 184, 0.92);
-  font-size: 0.68rem;
-  font-weight: 800;
-  letter-spacing: 0.02em;
-}
-
 .location-wizard-step__status {
   display: grid;
   gap: 0.2rem;
@@ -747,12 +858,12 @@ onBeforeUnmount(() => {
   border-color: rgba(253, 224, 71, 0.22);
 }
 
-.location-wizard-step__status--error {
-  border-color: rgba(252, 165, 165, 0.26);
-}
-
 .location-wizard-step__status-line--error {
   color: rgba(254, 202, 202, 0.96);
   font-weight: 700;
+}
+
+.location-wizard-step__status--error {
+  border-color: rgba(252, 165, 165, 0.26);
 }
 </style>

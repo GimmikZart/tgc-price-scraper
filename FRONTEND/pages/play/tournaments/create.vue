@@ -646,9 +646,10 @@ definePageMeta({
         <section :ref="(element) => setStepPaneRef(4, element)" class="tournament-create-pane tournament-create-pane--map px-3 pt-3">
           <WizardLocationStep
             v-model="createForm.location"
-            eyebrow="Step 5"
-            title="Dove si gioca"
-            description="Tocca, trascina o cerca un indirizzo."
+            eyebrow="STEP 5"
+            title="Indica il luogo del torneo"
+            description="tocca, trascina o cerca un indirizzo"
+            ready-label="Luogo pronto"
             :invalid="!isLocationValid && hasTouchedStep('location')"
             invalid-message="Seleziona la posizione del torneo."
             @interact="touchStep('location')"

@@ -3,7 +3,7 @@ import {
   TournamentStatus,
   TournamentVisibility,
 } from "@/api/tournaments/constants";
-import { formatCoordinatesLabel, normalizeCoordinates } from "@/utilities/geo";
+import { normalizeCoordinates } from "@/utilities/geo";
 
 export const TOURNAMENT_FORMAT_OPTIONS = Object.freeze([
   {
@@ -151,7 +151,7 @@ export function formatTournamentLocationLabel(location) {
     lng: location.longitude ?? location.lng,
   });
 
-  return coordinates ? formatCoordinatesLabel(coordinates, 4) : null;
+  return coordinates ? "Posizione selezionata" : null;
 }
 
 export function resolveSingleEliminationRounds(participantsCount) {

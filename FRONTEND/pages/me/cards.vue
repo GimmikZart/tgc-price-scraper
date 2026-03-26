@@ -23,7 +23,7 @@ const globalSettings = useGlobalSettings()
 const { collectionIsHandling } = storeToRefs(globalSettings)
 const { toggleHandlingCollections } = globalSettings
 
-const sort = useCardSort('name', 'asc')
+const sort = useCardSort('publish_date', 'desc')
 const filteredCards = ref([]);
 const visibleCards = ref([]);
 const openFilter = ref(false);

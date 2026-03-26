@@ -59,6 +59,8 @@ const iconAliases = {
   "tabler:circle": "alerts",
   "mdi:show": "visibility",
   "mdi:account-plus-outline": "user-add",
+  "mdi-calendar-blank-outline": "calendar",
+  "mdi-calendar": "calendar",
   "mdi-sort-alphabetical-ascending": "sort-asc",
   "mdi-sort-alphabetical-descending": "sort-desc",
   "mdi-sort-numeric-ascending": "sort-asc",
@@ -104,6 +106,7 @@ const labelAliases = {
   avvisi: "alerts",
   "importa deck": "import",
   visibilita: "visibility",
+  "data uscita": "calendar",
   "a->z": "sort-asc",
   "z->a": "sort-desc",
   crescente: "sort-asc",
@@ -664,6 +667,38 @@ const strokeWidth = computed(() => (props.active ? 1.5 : 1));
   >
     <path d="M3.8 12C5.6 8.6 8.5 6.8 12 6.8C15.5 6.8 18.4 8.6 20.2 12C18.4 15.4 15.5 17.2 12 17.2C8.5 17.2 5.6 15.4 3.8 12Z" stroke="currentColor" :stroke-width="strokeWidth" stroke-linejoin="round" :fill="active ? 'currentColor' : 'none'" :fill-opacity="active ? 0.1 : 0" />
     <circle cx="12" cy="12" r="2.3" stroke="currentColor" :stroke-width="strokeWidth" :fill="active ? 'currentColor' : 'none'" :fill-opacity="active ? 0.2 : 0" />
+  </svg>
+
+  <svg
+    v-else-if="resolvedIconName === 'calendar'"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    aria-hidden="true"
+  >
+    <rect
+      x="5.1"
+      y="6.2"
+      width="13.8"
+      height="12.7"
+      rx="2"
+      stroke="currentColor"
+      :stroke-width="strokeWidth"
+      :fill="active ? 'currentColor' : 'none'"
+      :fill-opacity="active ? 0.08 : 0"
+    />
+    <path
+      d="M8.5 4.8V7.3M15.5 4.8V7.3M5.1 9.2H18.9"
+      stroke="currentColor"
+      :stroke-width="strokeWidth"
+      stroke-linecap="round"
+    />
+    <path
+      d="M8.4 12.3H10.3M13.7 12.3H15.6M8.4 15.5H10.3M13.7 15.5H15.6"
+      stroke="currentColor"
+      :stroke-width="strokeWidth"
+      stroke-linecap="round"
+    />
   </svg>
 
   <svg

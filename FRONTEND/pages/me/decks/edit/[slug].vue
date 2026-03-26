@@ -48,7 +48,7 @@ const tabOptions = [
 ];
 const activeTab = computed(() => (showDeck.value ? "overview" : "catalog"));
 
-const sort = useCardSort('name', 'asc')
+const sort = useCardSort('publish_date', 'desc')
 
 const gridRef = ref(null)
 const gridKey = ref(0);

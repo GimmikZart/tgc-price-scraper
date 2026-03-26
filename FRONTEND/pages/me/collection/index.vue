@@ -20,7 +20,7 @@ const { isMobile, isTablet, isDesktop } = useMyBreakpoints();
 const globalSettings = useGlobalSettings()
 const { collectionIsHandling } = storeToRefs(globalSettings)
 const { toggleHandlingCollections } = globalSettings
-const sort = useCardSort('name', 'asc')
+const sort = useCardSort('publish_date', 'desc')
 
 const handleAlbum = ref(false);
 const selectedAlbum = ref(null);

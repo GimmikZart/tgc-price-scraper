@@ -8,6 +8,7 @@ const props = defineProps({
   label: { type: String, required: true },
   color: { type: String, default: "orange" },
   iconColor: { type: String, default: null },
+  iconClass: { type: String, default: "h-6 w-6" },
   disabled: { type: Boolean, default: false },
   multi: { type: Boolean, default: false },
   direction: { type: String, default: "up" }, // up | down | left | right
@@ -199,7 +200,7 @@ onMounted(() => {
           :icon="icon"
           :label="label"
           :active="shouldHighlight || multiOpened"
-          class="h-6 w-6"
+          :class="iconClass"
         />
       </span>
 

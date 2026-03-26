@@ -8,13 +8,8 @@ import {
 } from "@/api/tournaments";
 import TournamentCard from "@/components/Play/TournamentCard.vue";
 import TournamentCreateStepper from "@/components/Play/TournamentCreateStepper.vue";
-import { useGeoapify } from "@/composables/useGeoapify";
-import {
-  DEFAULT_USER_LOCATION,
-  formatCoordinatesLabel,
-  normalizeCoordinates,
-  roundCoordinatesPair,
-} from "@/utilities/geo";
+import WizardLocationStep from "@/components/Wizard/LocationStep.vue";
+import { normalizeCoordinates } from "@/utilities/geo";
 import {
   TOURNAMENT_FORMAT_OPTIONS,
   TOURNAMENT_VISIBILITY_OPTIONS,
@@ -40,8 +35,6 @@ const router = useRouter();
 const snackbar = useSnackbar();
 const userAuth = useUserAuth();
 const globalSettings = useGlobalSettings();
-const geoapify = useGeoapify();
-const { isMobile } = useMyBreakpoints();
 
 const currentStepIndex = ref(0);
 const furthestStepReached = ref(0);
@@ -65,17 +58,6 @@ const createForm = reactive({
     label: "",
   },
 });
-
-const addressInput = ref("");
-const addressSuggestions = ref([]);
-const isLoadingSuggestions = ref(false);
-const isResolvingAddress = ref(false);
-const isUsingCurrentPosition = ref(false);
-const locationHelperMessage = ref("");
-const locationHelperTone = ref("neutral");
-
-let autocompleteTimer = null;
-let reverseLookupToken = 0;
 
 const selectedCoordinates = computed(() => normalizeCoordinates({
   lat: createForm.location.latitude,
@@ -192,13 +174,6 @@ const participantProjectionCards = computed(() => {
     summary: option.summary,
     headline: option.facts[0],
   }));
-});
-
-const locationStatusLabel = computed(() => {
-  const explicitLabel = String(createForm.location.label ?? "").trim();
-  if (explicitLabel) return explicitLabel;
-  if (selectedCoordinates.value) return `Coordinate selezionate: ${formatCoordinatesLabel(selectedCoordinates.value, 5)}`;
-  return "";
 });
 
 const stepperSteps = computed(() => {
@@ -364,217 +339,6 @@ function toggleVisibilityDetails(visibility) {
   expandedVisibilityKey.value = expandedVisibilityKey.value === visibility ? null : visibility;
 }
 
-function clearAutocompleteTimer() {
-  if (!autocompleteTimer) return;
-  clearTimeout(autocompleteTimer);
-  autocompleteTimer = null;
-}
-
-function syncAddressInput() {
-  const label = String(createForm.location.label ?? "").trim();
-  if (label) {
-    addressInput.value = label;
-    return;
-  }
-
-  addressInput.value = selectedCoordinates.value
-    ? formatCoordinatesLabel(selectedCoordinates.value, 5)
-    : "";
-}
-
-async function resolveAddressFromCoordinates(coordinates) {
-  if (!geoapify.isConfigured.value) return null;
-
-  reverseLookupToken += 1;
-  const currentToken = reverseLookupToken;
-  isResolvingAddress.value = true;
-
-  try {
-    const result = await geoapify.reverseGeocode(coordinates.lat, coordinates.lng);
-    if (currentToken !== reverseLookupToken) return null;
-    return result;
-  } catch (error) {
-    if (currentToken === reverseLookupToken) {
-      locationHelperMessage.value = error?.data?.statusMessage || error?.message || "Posizione salvata, ma indirizzo non risolto.";
-      locationHelperTone.value = "warning";
-    }
-    return null;
-  } finally {
-    if (currentToken === reverseLookupToken) {
-      isResolvingAddress.value = false;
-    }
-  }
-}
-
-async function commitCoordinates(rawCoordinates, { label = "" } = {}) {
-  const coordinates = roundCoordinatesPair(rawCoordinates);
-  if (!coordinates) return;
-
-  locationHelperMessage.value = "";
-  locationHelperTone.value = "neutral";
-  createForm.location.latitude = coordinates.lat;
-  createForm.location.longitude = coordinates.lng;
-
-  let resolvedLabel = String(label ?? "").trim();
-  if (!resolvedLabel) {
-    const reverseResult = await resolveAddressFromCoordinates(coordinates);
-    resolvedLabel = reverseResult?.formatted ?? reverseResult?.label ?? "";
-  }
-
-  createForm.location.label = resolvedLabel;
-  syncAddressInput();
-}
-
-const mapSelectionModel = computed({
-  get() {
-    return selectedCoordinates.value;
-  },
-  set(value) {
-    if (!value) return;
-    touchStep("location");
-    addressSuggestions.value = [];
-    void commitCoordinates(value);
-  },
-});
-
-async function loadAddressSuggestions() {
-  const searchText = String(addressInput.value ?? "").trim();
-  if (searchText.length < 3) {
-    addressSuggestions.value = [];
-    isLoadingSuggestions.value = false;
-    return;
-  }
-
-  if (!geoapify.isConfigured.value) {
-    addressSuggestions.value = [];
-    isLoadingSuggestions.value = false;
-    locationHelperMessage.value = "Autocomplete non disponibile: configura Geoapify.";
-    locationHelperTone.value = "warning";
-    return;
-  }
-
-  isLoadingSuggestions.value = true;
-
-  try {
-    addressSuggestions.value = await geoapify.fetchAddressSuggestions(searchText, { limit: 5 });
-    locationHelperMessage.value = "";
-    locationHelperTone.value = "neutral";
-  } catch (error) {
-    addressSuggestions.value = [];
-    locationHelperMessage.value = error?.data?.statusMessage || error?.message || "Errore durante la ricerca indirizzo.";
-    locationHelperTone.value = "error";
-  } finally {
-    isLoadingSuggestions.value = false;
-  }
-}
-
-function handleAddressInput(event) {
-  touchStep("location");
-  addressInput.value = String(event?.target?.value ?? "");
-  clearAutocompleteTimer();
-
-  if (String(addressInput.value ?? "").trim().length < 3) {
-    addressSuggestions.value = [];
-    return;
-  }
-
-  autocompleteTimer = setTimeout(() => {
-    void loadAddressSuggestions();
-  }, 260);
-}
-
-async function handleAddressSelection(suggestion) {
-  touchStep("location");
-  clearAutocompleteTimer();
-  addressSuggestions.value = [];
-
-  await commitCoordinates(
-    { lat: suggestion?.lat, lng: suggestion?.lng },
-    { label: suggestion?.formatted ?? suggestion?.label ?? "" },
-  );
-}
-
-async function handleManualAddressSubmit() {
-  touchStep("location");
-  clearAutocompleteTimer();
-
-  const searchText = String(addressInput.value ?? "").trim();
-  if (searchText.length < 3) {
-    locationHelperMessage.value = "Inserisci almeno 3 caratteri per cercare un indirizzo.";
-    locationHelperTone.value = "error";
-    addressSuggestions.value = [];
-    return;
-  }
-
-  if (!geoapify.isConfigured.value) {
-    locationHelperMessage.value = "Geoapify non configurato: non posso cercare l'indirizzo manualmente.";
-    locationHelperTone.value = "error";
-    return;
-  }
-
-  isLoadingSuggestions.value = true;
-
-  try {
-    const results = await geoapify.fetchAddressSuggestions(searchText, { limit: 1 });
-    if (!Array.isArray(results) || results.length === 0) {
-      locationHelperMessage.value = "Nessun indirizzo trovato. Prova a essere piu specifico.";
-      locationHelperTone.value = "error";
-      addressSuggestions.value = [];
-      return;
-    }
-
-    await handleAddressSelection(results[0]);
-  } catch (error) {
-    locationHelperMessage.value = error?.data?.statusMessage || error?.message || "Errore durante la ricerca indirizzo.";
-    locationHelperTone.value = "error";
-  } finally {
-    isLoadingSuggestions.value = false;
-  }
-}
-
-async function handleUseCurrentPosition() {
-  if (isUsingCurrentPosition.value) return;
-
-  if (typeof navigator === "undefined" || !navigator?.geolocation) {
-    locationHelperMessage.value = "Geolocalizzazione non disponibile su questo dispositivo.";
-    locationHelperTone.value = "error";
-    return;
-  }
-
-  touchStep("location");
-  clearAutocompleteTimer();
-  addressSuggestions.value = [];
-  locationHelperMessage.value = "";
-  locationHelperTone.value = "neutral";
-  isUsingCurrentPosition.value = true;
-
-  navigator.geolocation.getCurrentPosition(
-    async (position) => {
-      try {
-        await commitCoordinates({
-          lat: position.coords.latitude,
-          lng: position.coords.longitude,
-        });
-      } catch (error) {
-        locationHelperMessage.value = error?.message || "Impossibile usare la posizione attuale.";
-        locationHelperTone.value = "error";
-      } finally {
-        isUsingCurrentPosition.value = false;
-      }
-    },
-    (error) => {
-      isUsingCurrentPosition.value = false;
-      locationHelperMessage.value = error?.message || "Impossibile recuperare la posizione attuale.";
-      locationHelperTone.value = "error";
-    },
-    {
-      enableHighAccuracy: true,
-      timeout: 12000,
-      maximumAge: 0,
-    },
-  );
-}
-
 async function handleCreateTournament() {
   if (isCreatingTournament.value) return;
 
@@ -626,8 +390,6 @@ async function handleCreateTournament() {
 }
 
 onBeforeUnmount(() => {
-  clearAutocompleteTimer();
-
   if (typeof window !== "undefined") {
     window.removeEventListener("resize", updateWizardViewportHeight);
     window.visualViewport?.removeEventListener("resize", updateWizardViewportHeight);
@@ -882,94 +644,15 @@ definePageMeta({
         </section>
 
         <section :ref="(element) => setStepPaneRef(4, element)" class="tournament-create-pane tournament-create-pane--map px-3 pt-3">
-          <div class="tournament-create-map-shell relative h-full min-h-full overflow-hidden rounded-[28px] shadow-[inset_0_1px_0_rgba(255,255,255,0.08),0_24px_40px_rgba(0,0,0,0.28)]">
-            <MapLeafletMap
-              v-model="mapSelectionModel"
-              :center="selectedCoordinates ?? DEFAULT_USER_LOCATION"
-              :zoom="selectedCoordinates ? 15 : 13"
-              :zoom-control="!isMobile"
-              :zoom-control-position="'topright'"
-              :allow-set-marker="true"
-              :selected-marker-draggable="true"
-              :show-selected-marker="true"
-              :selected-marker-viewport-anchor-y="0.6"
-              min-height="100%"
-              class="h-full"
-            />
-
-            <div class="absolute inset-x-0 top-2 z-[650] px-3">
-              <div class="w-full max-w-[20.75rem] rounded-[18px] border border-white/12 bg-[linear-gradient(155deg,rgba(6,9,15,0.92),rgba(2,5,10,0.95))] px-2.5 py-2.5 shadow-[inset_0_1px_0_rgba(255,255,255,0.08),0_14px_22px_rgba(0,0,0,0.28)] backdrop-blur-xl">
-                <p class="text-[0.64rem] font-black uppercase tracking-[0.16em] text-[#ffb77c]">Step 5</p>
-                <p class="mt-1 text-[0.96rem] font-black leading-tight text-slate-50">Dove si gioca</p>
-                <p class="mt-1 text-[0.72rem] leading-4 text-slate-200/82">Tocca, trascina o cerca un indirizzo.</p>
-                <div class="mt-2">
-                  <button
-                    type="button"
-                    class="inline-flex min-h-[2rem] items-center gap-1.5 rounded-full border border-white/12 bg-white/5 px-2.5 py-1 text-[0.72rem] font-extrabold text-slate-100 transition-colors duration-200 hover:border-[#ffb27d]/35 hover:bg-[#ff7a18]/10 hover:text-[#ffebd8]"
-                    :disabled="isUsingCurrentPosition"
-                    @click="handleUseCurrentPosition"
-                  >
-                    <v-icon size="15">{{ isUsingCurrentPosition ? "mdi-loading mdi-spin" : "mdi-crosshairs-gps" }}</v-icon>
-                    <span>{{ isUsingCurrentPosition ? "Posizione..." : "Mia posizione" }}</span>
-                  </button>
-                </div>
-                <div class="mt-2 rounded-[15px] border border-white/12 bg-[linear-gradient(160deg,rgba(8,12,20,0.95),rgba(2,5,10,0.98))] p-1.5 shadow-[inset_0_1px_0_rgba(255,255,255,0.08),0_12px_18px_rgba(0,0,0,0.24)]">
-                  <form class="flex items-center gap-1.5" @submit.prevent="handleManualAddressSubmit">
-                    <input
-                      :value="addressInput"
-                      type="text"
-                      placeholder="Cerca indirizzo"
-                      class="tournament-create-address-field !min-h-[2.7rem] !rounded-[0.95rem] !px-3 !text-[0.84rem]"
-                      @input="handleAddressInput"
-                    >
-                    <button
-                      type="submit"
-                      aria-label="Cerca indirizzo"
-                      class="inline-flex h-[2.7rem] w-[2.7rem] shrink-0 items-center justify-center rounded-[0.95rem] border border-[#ffb27d]/35 bg-[#ff7a18]/20 text-[#ffe0c2] shadow-[0_0_18px_rgba(255,122,24,0.18)] backdrop-blur-xl"
-                    >
-                      <v-icon size="17">mdi-magnify</v-icon>
-                    </button>
-                  </form>
-
-                  <div
-                    v-if="isLoadingSuggestions || addressSuggestions.length > 0"
-                    class="mt-1.5 grid max-h-[18vh] gap-1 overflow-y-auto rounded-[14px] border border-white/10 bg-slate-950/88 p-1.5"
-                  >
-                    <p v-if="isLoadingSuggestions" class="px-2 py-1 text-[0.76rem] text-slate-300/80">Ricerca indirizzi...</p>
-                    <button
-                      v-for="suggestion in addressSuggestions"
-                      :key="suggestion.id"
-                      type="button"
-                      class="rounded-[12px] border border-white/8 bg-white/5 px-2.5 py-2.5 text-left transition-colors duration-200 hover:border-[#ffb27d]/30 hover:bg-[#ff7a18]/10"
-                      @click="handleAddressSelection(suggestion)"
-                    >
-                      <span class="block text-[0.8rem] font-bold text-slate-50">{{ suggestion.formatted ?? suggestion.label }}</span>
-                      <span class="mt-0.5 block text-[0.68rem] font-bold text-slate-400">{{ formatCoordinatesLabel(suggestion, 5) }}</span>
-                    </button>
-                  </div>
-
-                  <div
-                    v-if="locationStatusLabel || locationHelperMessage || isResolvingAddress || (!isLocationValid && hasTouchedStep('location'))"
-                    class="mt-1.5 rounded-[14px] border bg-[linear-gradient(160deg,rgba(10,14,24,0.9),rgba(3,6,12,0.92))] px-2.5 py-2 shadow-[inset_0_1px_0_rgba(255,255,255,0.06),0_10px_18px_rgba(0,0,0,0.22)]"
-                    :class="[
-                      locationHelperTone === 'error'
-                        ? 'border-red-300/25'
-                        : locationHelperTone === 'warning'
-                          ? 'border-yellow-300/25'
-                          : selectedCoordinates
-                            ? 'border-emerald-300/25'
-                            : 'border-white/10',
-                    ]"
-                  >
-                    <p v-if="isResolvingAddress" class="text-[0.72rem] leading-4 text-slate-200/85">Recupero indirizzo...</p>
-                    <p v-else-if="locationStatusLabel" class="text-[0.72rem] leading-4 text-slate-200/85">{{ locationStatusLabel }}</p>
-                    <p v-if="locationHelperMessage" class="mt-1 text-[0.72rem] leading-4 text-slate-200/85">{{ locationHelperMessage }}</p>
-                    <p v-if="!isLocationValid && hasTouchedStep('location')" class="mt-1 text-[0.72rem] font-bold leading-4 text-red-200">Seleziona la posizione del torneo.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <WizardLocationStep
+            v-model="createForm.location"
+            eyebrow="Step 5"
+            title="Dove si gioca"
+            description="Tocca, trascina o cerca un indirizzo."
+            :invalid="!isLocationValid && hasTouchedStep('location')"
+            invalid-message="Seleziona la posizione del torneo."
+            @interact="touchStep('location')"
+          />
         </section>
 
         <section
@@ -1057,15 +740,7 @@ definePageMeta({
   box-sizing: border-box;
 }
 
-.tournament-create-map-shell {
-  isolation: isolate;
-  height: calc(100% - 0.75rem);
-  min-height: calc(100% - 0.75rem);
-  max-height: calc(100% - 0.75rem);
-}
-
-.tournament-create-name-field,
-.tournament-create-address-field {
+.tournament-create-name-field {
   width: 100%;
   border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: 1.35rem;
@@ -1086,25 +761,11 @@ definePageMeta({
   font-weight: 900;
 }
 
-.tournament-create-address-field {
-  min-height: 3rem;
-  padding: 0 1rem;
-  font-size: 0.95rem;
-  font-weight: 700;
-  backdrop-filter: blur(16px);
-  border-color: rgba(255, 255, 255, 0.2);
-  background:
-    radial-gradient(circle at top left, rgba(255, 157, 82, 0.1), transparent 34%),
-    linear-gradient(140deg, rgba(8, 12, 20, 0.98), rgba(3, 6, 12, 0.98));
-}
-
-.tournament-create-name-field::placeholder,
-.tournament-create-address-field::placeholder {
+.tournament-create-name-field::placeholder {
   color: rgba(226, 232, 240, 0.7);
 }
 
-.tournament-create-name-field:focus,
-.tournament-create-address-field:focus {
+.tournament-create-name-field:focus {
   outline: none;
   border-color: rgba(255, 157, 82, 0.54);
   box-shadow:

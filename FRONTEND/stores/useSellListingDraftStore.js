@@ -2,7 +2,7 @@ import { Condition } from "@/utilities/enums/conditions";
 import { hasValidCoordinates, normalizeCoordinates } from "@/utilities/geo";
 
 const DEFAULT_QUANTITY = "1";
-const DEFAULT_CONDITION = Condition.PERFETTO;
+const DEFAULT_CONDITION = Condition.Perfect;
 const DEFAULT_LOCATION = Object.freeze({
   latitude: null,
   longitude: null,

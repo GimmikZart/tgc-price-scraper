@@ -112,7 +112,18 @@ const normalizedMarkers = computed(() => {
 
 function getMapZoom() {
   if (!map) return props.zoom;
-  return map.getZoom();
+  const zoom = Number(map.getZoom?.());
+  return Number.isFinite(zoom) ? zoom : props.zoom;
+}
+
+function resolveMapZoom(preferredZoom = null) {
+  const nextZoom = Number(preferredZoom ?? getMapZoom());
+  if (Number.isFinite(nextZoom)) return nextZoom;
+
+  const fallbackZoom = Number(props.zoom);
+  if (Number.isFinite(fallbackZoom)) return fallbackZoom;
+
+  return 13;
 }
 
 function getSelectedMarkerViewportOffset() {
@@ -135,20 +146,30 @@ function getSelectedMarkerViewportOffset() {
 }
 
 function setMapView(targetCoordinates, zoom = null, options = {}) {
-  if (!map || !targetCoordinates) return;
+  if (!map) return;
 
-  const targetZoom = zoom ?? getMapZoom();
+  const coordinates = normalizeCoordinates(targetCoordinates);
+  if (!coordinates) return;
+
+  const targetZoom = resolveMapZoom(zoom);
   const offsetX = Number(options?.offsetX ?? 0);
   const offsetY = Number(options?.offsetY ?? 0);
 
-  if (!offsetX && !offsetY) {
-    map.setView([targetCoordinates.lat, targetCoordinates.lng], targetZoom);
+  if (!Number.isFinite(targetZoom)) return;
+
+  if (!offsetX && !offsetY || !map._loaded) {
+    map.setView([coordinates.lat, coordinates.lng], targetZoom);
     return;
   }
 
-  const targetPoint = map.project([targetCoordinates.lat, targetCoordinates.lng], targetZoom);
+  const targetPoint = map.project([coordinates.lat, coordinates.lng], targetZoom);
   const adjustedPoint = targetPoint.subtract([offsetX, offsetY]);
   const adjustedLatLng = map.unproject(adjustedPoint, targetZoom);
+
+  if (!Number.isFinite(adjustedLatLng?.lat) || !Number.isFinite(adjustedLatLng?.lng)) {
+    map.setView([coordinates.lat, coordinates.lng], targetZoom);
+    return;
+  }
 
   map.setView(adjustedLatLng, targetZoom);
 }
@@ -452,13 +473,13 @@ async function initializeMap() {
   setupResizeObserver();
 
   syncTileLayer();
-  syncExternalMarkers();
-  syncSelectedMarker({ recenter: true });
-  syncCenterArtifacts();
-
-  if (!selectedCoordinates.value && centerCoordinates.value) {
-    setMapView(centerCoordinates.value, props.zoom);
+  const initialCenter = selectedCoordinates.value ?? centerCoordinates.value;
+  if (initialCenter) {
+    setMapView(initialCenter, resolveMapZoom(props.zoom));
   }
+  syncExternalMarkers();
+  syncSelectedMarker({ recenter: Boolean(selectedCoordinates.value) });
+  syncCenterArtifacts();
 
   await nextTick();
   scheduleMapSizeRefresh();
